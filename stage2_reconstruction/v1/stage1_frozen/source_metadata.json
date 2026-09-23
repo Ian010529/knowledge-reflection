@@ -1,0 +1,37 @@
+{
+  "stage": "core_claim_pass_complete",
+  "corpus_papers": 1977,
+  "papers_read_with_saved_core_claims": 1971,
+  "new_session_papers": 1931,
+  "prior_pilot_papers": 40,
+  "full_abstract_extractions_completed": 0,
+  "domains": {
+    "iTE": {
+      "pilot_focal": 20,
+      "session_core_claim": 1619,
+      "missing_abstract": 5
+    },
+    "TG": {
+      "pilot_focal": 20,
+      "session_core_claim": 312,
+      "missing_abstract": 1
+    }
+  },
+  "node_count": 4646,
+  "edge_count": 2655,
+  "independently_reviewed": 0,
+  "background_processing": false,
+  "full_corpus_normalization": "conservative terminology only; see normalization_summary.json; semantic review pending",
+  "inputs": {
+    "iTE": {
+      "path": "cleaned_ite_tg/data/ite_clean.csv",
+      "sha256": "f73c4b47b3b3a5a00c2506e71b67f5d45af7fb867d8277eb8e55c31ae3259337"
+    },
+    "TG": {
+      "path": "cleaned_ite_tg/data/tg_clean.csv",
+      "sha256": "8cbf7cac9cf24fe0a3415c69065c49763f1221f4238e0a059412cde9bd6170ee"
+    }
+  },
+  "pending_papers": 0,
+  "missing_abstract_papers": 6
+}

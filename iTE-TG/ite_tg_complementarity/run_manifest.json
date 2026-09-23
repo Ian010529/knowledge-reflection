@@ -1,0 +1,107 @@
+{
+  "generated_at_utc": "2026-08-02T03:06:56.257787+00:00",
+  "freeze_year": 2025,
+  "script": {
+    "path": "/Users/ryan/Documents/iTE&TG/scripts/run_ite_tg_complementarity.py",
+    "sha256": "eda0a79612dd0947bf1fba63d77f95f648e4cbf33f2885d927d273780d82277b"
+  },
+  "inputs": {
+    "/Users/ryan/Documents/iTE&TG/ite_insight_transfer/ite_insight_claim_units.csv": "d43421b8b837a553d545261059a96d10e190650578e03a5f9e318f7a5f0fe367",
+    "/Users/ryan/Documents/iTE&TG/final_concept_layer/final_paper_index.csv": "c507426c0b3f09a1cc0a46c320e455f98c26b0c77b89628c2e2fd941d77924d9"
+  },
+  "outputs": {
+    "ite_claim_inventory_with_levers.csv": {
+      "sha256": "48961b0df4a5804a2748250daa4aaf0b6291561ebd5b303b12c4425dc9eb7138",
+      "rows": 1621
+    },
+    "ite_mechanism_cards_v2.csv": {
+      "sha256": "48961b0df4a5804a2748250daa4aaf0b6291561ebd5b303b12c4425dc9eb7138",
+      "rows": 1621
+    },
+    "ite_tg_complementarity_programs.csv": {
+      "sha256": "1fb679427b3f9b53b4d5a0cefb26dd99ee71969e4d173ca1b2b4b16bf358e0f0",
+      "rows": 20
+    },
+    "ite_tg_candidate_evidence.csv": {
+      "sha256": "61bbfbfe23d4f82730fe6064667204c4f5aa693dce68450daace350ccac90230",
+      "rows": 83
+    },
+    "ite_tg_edge_review_queue.csv": {
+      "sha256": "dd72aa1355dfcea7dae19184b656d971abe68a61c2b5d4e79a2c980138f56ca4",
+      "rows": 7
+    },
+    "ite_to_tg_hypotheses_v2.csv": {
+      "sha256": "6279708a0d3b8b15fcb0d5ab9500dfe57b7b5b5119d743383330c97ec25ed28e",
+      "rows": 1630
+    },
+    "ite_tg_experiment_shortlist.csv": {
+      "sha256": "4c40db504380b403f2ebb361cf03973ce282cd03d237ae98bab69c9dc95c4722",
+      "rows": 15
+    },
+    "ite_tg_white_space_shortlist.csv": {
+      "sha256": "f4ca162578c46b49df3940ce0cdacaf5be0893e774faa3353a8c6c67aac303db",
+      "rows": 5
+    },
+    "ite_tg_next_action_queue.csv": {
+      "sha256": "fc1b8fdddc14ff9f1eb761dcc2e1d2098e4e44ddf8868d224d11b6de264d3854",
+      "rows": 15
+    },
+    "tg_prior_art_by_program.csv": {
+      "sha256": "286e51fc1c8fcb10abbc6289ca78fb647b17d540a2ce55135a9944b13372e7cd",
+      "rows": 61
+    },
+    "ite_paper_coverage.csv": {
+      "sha256": "b214d337eac757ba6cc984b4a638b7ffb0a15ea9587c34b5c83566f695a9e093",
+      "rows": 1710
+    },
+    "knowledge_graph_nodes.csv": {
+      "sha256": "c95ec750d74ddf3a8f9fb6f241d8909205f96e4ff5b1b1cb667a4352a6d0a2ac",
+      "rows": 3397
+    },
+    "knowledge_graph_edges.csv": {
+      "sha256": "3f1876d89aa1330827dd8beda4fc9538a147cd043a19e2dfdbfc8eb12c371664",
+      "rows": 2495
+    },
+    "START_HERE_CN.md": {
+      "sha256": "f67e13ddccd777963aa5932fec00111757a869f0bc54b892c34d07ca80fa6a5d",
+      "rows": null
+    },
+    "NEXT_ACTION_BATCHES_CN.md": {
+      "sha256": "5989acccb3b9064c54272fa46e5511dabb4d2486a10b8bd3b424d4997521e4dd",
+      "rows": null
+    },
+    "TOP_EXPERIMENTS_CN.md": {
+      "sha256": "5843d0c147a435b39347a84433b73752a3826cbc938c0ce8ef454206d4075469",
+      "rows": null
+    },
+    "analysis_summary.json": {
+      "sha256": "a5db8307dcf9a1239741070bd1de3b7a14ebb93889a8e8655f4ee1e56f4c5afc",
+      "rows": null
+    },
+    "README.md": {
+      "sha256": "29d880564cc5fe1bd5ad863659912fae1ea7680d139c2ff05d837521036a47df",
+      "rows": null
+    }
+  },
+  "invariants": {
+    "inventory_preserved": true,
+    "no_similarity_in_main_logic": true,
+    "every_program_has_source_claim": true,
+    "every_program_top_source_is_claim_direct": true,
+    "every_program_top_source_has_no_scope_caveat": true,
+    "every_program_has_target_baseline": true,
+    "every_program_has_concrete_design": true,
+    "every_program_has_controls": true,
+    "every_program_has_failure_mode": true,
+    "every_noncontrol_program_has_one_action_assignment": true,
+    "mapped_edges_pass_claim_level_rule_gate": true,
+    "excluded_edges_absent_from_primary_mapping": true,
+    "eligible_claim_partition_complete": true,
+    "paper_coverage_ids_unique": true,
+    "graph_contains_every_inventory_claim": true,
+    "graph_contains_every_iTE_paper": true,
+    "every_inventory_claim_has_hypothesis_or_retention_row": true,
+    "freeze_year_respected_source": true,
+    "freeze_year_respected_target": true
+  }
+}

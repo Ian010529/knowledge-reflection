@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "command": "python3 -B cleaned_ite_tg/verify.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "iTE": 1644,
+        "TG": 333,
+        "removed_from_TG": 0,
+        "unique_papers_lost": 0,
+        "all_original_cells_preserved": true,
+        "cross_corpus_overlap": 0
+      }
+    },
+    {
+      "command": "python3 -B stage2_reconstruction/scripts/verify_evidence.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "papers": 1977,
+        "nodes": 4646,
+        "relations": 2655,
+        "verified": "Output hashes, frozen inputs, every node/edge line, evidence, limitations, offsets and paper identity",
+        "semantic_review": "not_performed",
+        "node_location_counts": {
+          "exact_unique_in_quote": 4224,
+          "multiple_exact_matches_in_quote": 422
+        }
+      }
+    },
+    {
+      "command": "python3 -B stage2_review/scripts/verify_review.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "source_hashes_unchanged": true,
+        "role_proposals": 131,
+        "relation_reviews": 81,
+        "normalization_proposals": 24,
+        "relation_audit_sample": 200,
+        "abstract_audit_sample": 60,
+        "candidate_pairs": 18884,
+        "human_labels": 0,
+        "concepts_merged": 0,
+        "validation_scope": "Provenance, content joins, IDs, sample separation, weights and model/human label separation; not scientific correctness."
+      }
+    }
+  ],
+  "protected_file_hashes_verified": 341,
+  "archive_hash_verified": true,
+  "all_53_tiffs_verified_before_removal": true,
+  "pdf_alias_paths_verified": true,
+  "new_entrypoint_links_verified": true,
+  "current_data_and_model_outputs_unchanged": true
+}

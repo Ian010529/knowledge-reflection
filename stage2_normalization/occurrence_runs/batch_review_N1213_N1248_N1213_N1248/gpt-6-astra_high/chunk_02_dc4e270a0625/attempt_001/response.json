@@ -1,0 +1,160 @@
+{
+  "decisions": [
+    {
+      "candidate_id": "N1225",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是水凝胶的阻燃性能，原文以阻燃等级和氧指数表征；右侧是阻燃性能与机械强度的复合性能节点。阻燃性是两者的共同内容，但不能将右侧整体折叠为阻燃性，二者属于组成关联而非类型上下位。",
+      "left_evidence": {
+        "mention_id": "iTE:P0445:n2",
+        "quote_span": "The incorporation of the phosphorus salt enhanced flame retardancy to reach the UL-94 V-0 rating"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0523:n2",
+        "quote_span": "enhancing the flame retardancy and mechanical strength"
+      }
+    },
+    {
+      "candidate_id": "N1226",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧均指对象自身恢复的自修复功能，角色均为 performance_function。左侧对象是离子液体复合材料，功能源于动态离子–偶极相互作用；右侧对象是离子液体电路，功能源于流动性。材料与电路层级、实现机制不同，但节点均指自修复能力本身，并未限定为某一种修复机制。",
+      "left_evidence": {
+        "mention_id": "iTE:P0457:n2",
+        "quote_span": "The self-healability of the IL-based composites originates from dynamic ion-dipole interactions between the IL, the PVDF-HFP, and the FS."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0920:n2",
+        "quote_span": "The fluidic character endows the ionic liquid-based circuit with self-healing ability"
+      }
+    },
+    {
+      "candidate_id": "N1227",
+      "proposed_relation": "broader_than",
+      "model_reason": "左侧指热电偶腐蚀这一过程，研究对象同时包括铜电极对和不锈钢电极对；右侧节点明确限定为铜电极的热电偶腐蚀，是按腐蚀对象限定的具体类型。左侧因此比右侧更宽。右侧酸添加与氧化还原动力学的耦合是发生条件，不能将其另行等同于氧化还原反应速率。",
+      "left_evidence": {
+        "mention_id": "TG:P0124:n1",
+        "quote_span": "Thermogalvanic corrosion of the copper/copper and AISI 316L/AISI 316L stainless steel pairs was studied in heavy lithium bromide brines under hydrodynamic conditions."
+      },
+      "right_evidence": {
+        "mention_id": "TG:P0049:n3",
+        "quote_span": "HCl not only boosts intrinsic redox kinetic rate of Q/HQ, but also induces rapid thermogalvanic corrosion of the copper electrode."
+      }
+    },
+    {
+      "candidate_id": "N1228",
+      "proposed_relation": "narrower_than",
+      "model_reason": "左侧明确指异常晶粒长大，是晶粒长大过程中的限定类型；右侧指未限定异常与否的晶粒长大。两段分别讨论晶界第二相和 Cr 掺杂对该过程的抑制，材料与抑制原因的差异不改变这一过程类型关系。",
+      "left_evidence": {
+        "mention_id": "iTE:P1717:n2",
+        "quote_span": "the formation of the crystalline secondary phases (orthoferrite and/or garnet) on the grain boundaries which suppress the abnormal grain growth."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1132:n2",
+        "quote_span": "Cr doping inhibits grain growth and induces crack formation"
+      }
+    },
+    {
+      "candidate_id": "N1229",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧均为电子输运语境中的载流子迁移率，角色均为 quantity。左侧在 PEDOT:PSS 纤维束中由聚合物结构重排提高，并关联电导率；离子液体在这里是处理组分，不能据此改释为离子迁移率。右侧在双钙钛矿中由低有效质量和 p 型半导体行为推断较高迁移率。材料及获得证据的方式不同，但测量对象类别和基本物理量一致，且两段均描述高迁移率。",
+      "left_evidence": {
+        "mention_id": "iTE:P0409:n3",
+        "quote_span": "the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1222:n2",
+        "quote_span": "low effective masses, and p-type semiconducting behavior, suggesting high carrier mobility"
+      }
+    },
+    {
+      "candidate_id": "N1230",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是选择性吸附 K+ 的阳离子–π相互作用，作用结果是抑制阳离子热扩散；右侧是静电与离子–π相互作用的组合，作用于铁氰化物氧化还原对的熵差。两者有离子与 π 基团作用的关联，但离子对象、作用环节及节点组成均不同，不能把右侧复合节点视为左侧的同义词或上位类型。",
+      "left_evidence": {
+        "mention_id": "iTE:P0437:n1",
+        "quote_span": "the GP surface selectively adsorbed K+ ions through cation-pi interactions, suppressing cation thermodiffusion"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1614:n1",
+        "quote_span": "the & horbar;SO3 - and phenyl moieties of amphiphilic networks enhance the entropy difference of the [Fe(CN)6 4-/Fe(CN)6 3-] redox couple via electrostatic and ion-pi interactions"
+      }
+    },
+    {
+      "candidate_id": "N1231",
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都涉及声子介导的载流子散射，但左侧具体指三端导体–绝缘体–导体界面中伴随热流与电荷流分离的电子散射；右侧指层状 Nb3SiTe6 中与高空穴密度及高热电势关联的谷间散射。给定原文未建立右侧过程属于左侧特定界面散射过程的类型包含关系，也未证明两者机制等同，因此保留机制关联。",
+      "left_evidence": {
+        "mention_id": "iTE:P0762:n1",
+        "quote_span": "a three-terminal conductor-insulator-conductor interface can function as an electricity generator caused by phonon-mediated electron scatterings with heat-charge current separation."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1044:n1",
+        "quote_span": "the high TEP in the device with the largest hole density can be ascribed to the phonon-mediated intervalley scatterings."
+      }
+    },
+    {
+      "candidate_id": "N1232",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧均指描述晶格尺寸的晶格常数，角色均为 quantity。左侧讨论其随碱金属阳离子半径增大而增加，右侧讨论立方晶系铁氧体中其随 Al3+ 含量增加而减小。不同材料、晶体对称性信息及变化趋势是各自证据属性；节点本身均未限定方向分量或增减方向，右侧的 values 也未指向某一个独立数值。",
+      "left_evidence": {
+        "mention_id": "iTE:P1620:n2",
+        "quote_span": "a systematic increase in lattice constants and a corresponding decrease in bulk modulus with increasing ionic radius of the alkali metal (X = K, Rb, Cs) cation."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1867:n2",
+        "quote_span": "All the compounds, 0 less-than-or-equal-to x less-than-or-equal-to 2.25, showed cubic symmetry. Lattice constant values progressively decreased on increasing the Al3+ content."
+      }
+    },
+    {
+      "candidate_id": "N1233",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧在给定语境中均指聚合物诱导的反离子凝聚过程，角色均为 mechanism_process。左侧由 PEDOT:PSS 掺杂诱导，并通过固定阳离子扩大离子热迁移差异；右侧称为 Manning 反离子凝聚效应，由带负电的 CMC-Na 链诱导并改善选择性离子迁移。聚合物体系及命名方式不同，但两段支持共同的反离子凝聚概念，未提供需要划分为不同过程类型的定义。",
+      "left_evidence": {
+        "mention_id": "iTE:P0401:n1",
+        "quote_span": "we employed PEDOT:PSS as an n-type dopant in PAAm hydrogels to induce counterion condensation. This process immobilizes cations"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0344:n2",
+        "quote_span": "Manning counterion condensation effect induced by the electronegative CMC-Na chain improves the selective ion migration capability of i-TEHs"
+      }
+    },
+    {
+      "candidate_id": "N1234",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是共晶凝胶的机械性能，右侧是聚合物复合薄膜同时具有高热电性能和高机械性能的复合节点。机械性能构成共同的性能维度，但右侧另含热电性能及高性能限定；这是单项性能与组合性能的关联，不能据此判为分类学宽窄关系。",
+      "left_evidence": {
+        "mention_id": "iTE:P0591:n3",
+        "quote_span": "CMHC simultaneously immobilizes Zn2+ and reinforces the mechanical performance."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0473:n2",
+        "quote_span": "flexible films of polymer TE composites with simultaneously high TE and mechanical performances"
+      }
+    },
+    {
+      "candidate_id": "N1235",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧均指电解质离子的热扩散过程，角色均为 mechanism_process。左侧虽标签省略对象，原文已明确关联 FeCl3/2 电解质正负离子的分离；右侧明确指铵离子电容器中的电解质热扩散，并将其与氧化还原对的热电化学效应分别列出。电解质组成和器件体系不同，但共同概念均为电解质热扩散，不能把并列的氧化还原贡献并入该节点。",
+      "left_evidence": {
+        "mention_id": "TG:P0137:n3",
+        "quote_span": "facilitate the selective separation of positive and negative ions of the FeCl3/2 electrolyte and enhance the thermodiffusion effect."
+      },
+      "right_evidence": {
+        "mention_id": "TG:P0210:n1",
+        "quote_span": "Combining thermodiffusion effect of electrolyte with thermogalvanic effect of a redox couple (C=O/C-O-NH4+)"
+      }
+    },
+    {
+      "candidate_id": "N1236",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是 InSb 电子密度所呈现的离子性与共价性混合成键特征；右侧节点仅指 CsGaSb2 中 [GaSb2] 块内 Ga–Sb 键的共价性，原文另将块外阳离子与多阴离子的成键描述为离子性。两者共享共价成键这一内容，但左侧是混合特征，右侧是限定键的单项特征，不能删除离子性贡献或将组成关系判为上下位。",
+      "left_evidence": {
+        "mention_id": "iTE:P0712:n2",
+        "quote_span": "Both the pictorial and numerical results of the experimental electron density show mixed ionic and covalent character in InSb."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1032:n2",
+        "quote_span": "The charge density study reveals that the Ga-Sb link within the [GaSb2] block is mostly governed by a covalent character"
+      }
+    }
+  ]
+}

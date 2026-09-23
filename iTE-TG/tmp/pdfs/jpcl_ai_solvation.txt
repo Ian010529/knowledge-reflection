@@ -1,0 +1,466 @@
+                                                                                                             pubs.acs.org/JPCL                                                                                                                                       Letter
+
+
+
+                                                                                                             AI-Informed Solvation Engineering for Thermogalvanic Electrolytes
+                                                                                                             with High Thermopower
+                                                                                                             Shukai Wu, Yan Luo, Shuo Niu, Wentao Lin, and Chao Fang*
+                                                                                                                   Cite This: J. Phys. Chem. Lett. 2025, 16, 12010−12017                             Read Online
+
+
+                                                                                                             ACCESS                        Metrics & More                            Article Recommendations                  * Supporting Information
+                                                                                                                                                                                                                               sı
+
+
+
+
+Downloaded via HONG KONG UNIV SCI TECH GUANGZHOU on November 11, 2025 at 06:30:59 (UTC).
+                                                                                                             ABSTRACT: Thermogalvanic cells utilize redox couple ions to achieve
+                                                                                                             continuous heat-to-electricity conversion, yet the development of high-
+                                                                                                             performance electrolytes is limited by the complex relationship between
+                                                                                                             solvation of redox couple ions and thermopower. We present a data-
+                                                                                                             driven machine learning strategy to identify high-performance solvents
+                                                                                                             for thermogalvanic electrolytes. Our approach parametrizes the Seebeck
+                                                                                                             coefficient by leveraging the strong correlation between DFT-derived
+                                                                                                             ion−solvent interaction features and limited experimental data. A hybrid
+                                                                                                             ML framework combining high-throughput DFT and interval regression
+                                                                                                             was developed to screen extensive solvent candidates with SHAP
+                                                                                                             analysis identifying polarity-related features as dominant factors.
+                                                                                                             Experimental validation enabled model augmentation via a binary
+                                                                                                             feature filter that incorporates solvation-relevant molecular features
+                                                                                                             beyond two-body interactions. The framework validated known effective solvents and identified new candidates, which were
+                                                                                                             confirmed via solvation structure calculations and UV−vis spectroscopy. This solvation-driven ML approach accelerates electrolyte
+                                                                                                             discovery while providing fundamental insights into design principles for large solvation entropy differences.
+
+
+
+
+   See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+                                                                                                             T     hermogalvanic cells utilize thermally driven redox
+                                                                                                                   reactions to achieve continuous heat-to-electricity con-
+                                                                                                             version.1,2 They have received significant recent interest in low-
+                                                                                                                                                                                               tion strategy improved thermopower of Fe(CN)64−/Fe-
+                                                                                                                                                                                               (CN)63− electrolytes from 1.4 to 3.73 mV K−1.15 Recent
+                                                                                                                                                                                               developments involving high-entropy electrolyte and semi-
+                                                                                                             grade heat-harvesting applications, particularly in self-powered                  clathrate hydrate formation/dissociation have led to additional
+                                                                                                             devices such as flexible sensors and wearable electronics.3−5 By                  improvements in thermogalvanic cell performance.16,17 Despite
+                                                                                                             employing redox couple ions as charge carriers, the thermo-                       these advances, a clear quantitative relationship between
+                                                                                                             power of these systems, known as Seebeck coefficient (Se), is                     thermopower and the physical-chemical properties of redox
+                                                                                                             about an order-of-magnitude higher than conventional thermo-                      couple ions and solvent molecules remains to be estab-
+                                                                                                             electric generators.6 Se is related to the solvation entropy                      lished.18,19 This limits the formulation of systematic electrolyte
+                                                                                                             difference between two redox ions:7,8                                             design strategies for thermogalvanic cells.
+                                                                                                                                                                                                  One practical approach to enlarging the solvation entropy
+                                                                                                                                    1 ijj dGO           dG Rsolv yzz
+                                                                                                                                            solv
+                                                                                                                        E    Src
+                                                                                                                Se =      =      =      jj                         zz                          difference is through the modification of electrolytes by
+                                                                                                                        T   nF     nF jk dT              dT z{                   (1)           incorporating new solvent molecules. Yet, the mechanistic
+                                                                                                                                                                                               basis underlying the local ion solvation structure and their
+                                                                                                             where ΔE is the open-circuit voltage, ΔT is the temperature                       impact on thermopower remain poorly characterized. Artificial
+                                                                                                             difference, ΔSrc is the partial molar entropy change between                      intelligence (AI) offers a potential solution to this knowledge
+                                                                                                             two redox ions, n is the number of electrons involved in the                      gap20−22 by correlating molecular features of solvents and the
+                                                                                                             reaction, and F is the Faraday constant. The last equality holds                  thermopower of electrolytes.23−25 In addition to the wide
+                                                                                                             for simple redox couple ions in liquid electrolytes,9 where Gsolv
+                                                                                                                                                                          i                    applications in battery electrolytes,26−29 machine learning
+                                                                                                             is the solvation free energy of redox ions with i denoting the                    (ML) techniques have been key tools for accelerated discovery
+                                                                                                             oxidation (i = O) or reduction (i = R) species.10
+                                                                                                                As Se is highly sensitive to the local solvation structure of
+                                                                                                             redox ions, significant research efforts have focused on                          Received: September 18, 2025
+                                                                                                             regulating redox ion−solvent interactions to enhance thermo-                      Revised: October 23, 2025
+                                                                                                             power.11−13 For instance, encapsulating triiodide ions through                    Accepted: November 5, 2025
+                                                                                                             a supramolecular methodology increased the thermopower of
+                                                                                                             aqueous I−/I3− electrolytes from −0.86 to −1.97 mV K−1.14
+                                                                                                             Similarly, applying a thermosensitive crystallization−dissolu-
+
+                                                                                                                                                  © XXXX American Chemical Society                                                   https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                                                                                                       12010                                        J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                           pubs.acs.org/JPCL                                           Letter
+
+
+
+
+Figure 1. Correlations between ion−solvent interaction features and thermopower from small data set. (a) Schematics of the solvation structure
+compositions of the redox couples. (b) Schematic of DFT calculated ion−solvent interaction descriptors. (c) Ten solvent molecules were used for
+calculation. (d) Pearson coefficients between descriptors and the thermopower. (e) Scatter plot of PLS principal component 1 (α) versus Se. The
+dashed line is a quadratic fitting of the data points.
+
+and performance optimization in thermoelectric materials.19                 specific, formation energies with redox ions reflect the
+More recently, thermodiffusion-based ionic thermoelectric (i-               interaction strength, while bond lengths and angles indicate
+TE) materials with high Se were identified via high-throughput              structures of solvation shell and the packing and orientation of
+thermopower prediction and interpretable feature analysis.18                solvents, respectively.31 Thus, we focus on the benchmark
+Nevertheless, significant challenges emerge when applying                   Fe(CN)64−/Fe(CN)63− redox couple systems and evaluate
+these approaches to thermogalvanic systems. Unlike i-TE                     their interaction with solvent molecules based on these three
+materials, where vast experimental data sets (>50) were                     parameters (Figure 1b). A Pearson coefficient analysis was
+available, the scarcity of Se measurements for thermogalvanic               performed for 10 solvent molecules with reported Se values
+electrolytes hinders the development of robust databases                    (Figure 1c). The analysis reveals that the differences of three
+essential for predictive ML modeling. This limitation is even               parameters between two redox ions all exhibit strong
+more pronounced when accounting for the complex ion−ion                     correlations with Se, i.e., Pearson coefficient >0.5, as shown
+and ion−solvent interactions that must be captured in                       in Figure 1d. In addition, Fe(CN)64−-related features showed a
+computational predictions of Se.19                                          higher correlation coefficient than Fe(CN)63−-related ones,
+   In this study, we integrate atomistic simulations with ML to             indicating that Se is more sensitive to interactions between
+identify solvent molecules capable of enhancing thermopower.                high-valence ions and solvent. This phenomenon could be
+Our approach builds upon the strong correlations between
+                                                                            attributed to the more ordered solvation shell of the high-
+redox ion−solvent interactions and the thermopower from
+                                                                            valence ions as a result of their stronger ion−dipole interaction,
+existing data sets. We parametrize these interaction features to
+                                                                            which produces greater solvation entropy variation under
+a single, physically meaningful descriptor that scales monotoni-
+cally with Se and perform high-throughput ML screening                      temperature changes.32
+across extensive solvent data sets. The model reveals solvent                  The DFT calculations and Pearson coefficient analyses
+polarities as the dominant factors influencing thermopower                  indicate robust correlations between ion−solvent interaction
+enhancement. We identify multiple promising new solvent                     features and the measured thermopowers. Given that no single
+candidates to enlarge the solvation entropy difference between              dominant interaction parameter dominates the correlation with
+redox ions, which were subsequently confirmed via solvation                 Se, partial least-squares (PLS) was applied to reduce
+structure calculations and experimental Se measurements. This               dimensionality of the parameters listed in Figure 1d.33 The
+work not only accelerates the discovery of high-performance                 resulting principal component, denoted as α, exhibits a high
+thermogalvanic electrolytes but also represents an ion                      correlation with thermopower (0.86). As shown in Figure 1e,
+solvation-based framework for rational electrolyte design.                  the derived descriptor α, which effectively captures the
+   An effective electrolyte solvent must compete with water                 collective ion−solvent interaction features and physically
+molecules in solvating redox ions while simultaneously                      serves as a measurement of the change in the solvation
+maximizing differences in their solvation shells to enlarge                 structure between redox ions, exhibits a clear monotonic
+solvation entropy changes (Figure 1a).30 These features are                 relationship with Se. This parametrization of Se enables
+reflected in their interaction with redox ions, which can be                computational screening of solvent molecules for thermopower
+quantified via density functional theories (DFT). To be                     enhancement.
+                                                                    12011                                       https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                               J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                            pubs.acs.org/JPCL                                            Letter
+
+
+
+
+Figure 2. High-throughput ML models to predict α. (a) Heatmap of machine learning features. (b) Workflow of DT-GBC. (c) Gaussian mixture
+clustering results. (d) Confusion matrix of the test data set. (e) SHAP analysis of feature contributions to the medium classification of α. (f)
+Distribution of training and prediction samples.
+
+   High-throughput computations were performed to deter-                     values. The model correctly classified 10 out of 13 test samples
+mine the α values for 64 candidate molecules. The molecular                  (76.9% accuracy), as shown in Figure 2d. This performance
+properties were acquired via the PubChem API to serve as                     demonstrates significant improvement over the overfitting
+input features for constructing ML models. To enhance the                    issue observed with classical regression such as gradient
+predictive capability, three critical physicochemical parameters,            boosting regression (GBR) as shown in Figure S2 in SI. The
+including dielectric constant (DC), dipole moment (DM), and                  DT-GBC enhanced practical utility for solvent screening by
+donor number (DN), were included through CAS SciFinder                       focusing on categorical identification rather than numerical
+and literature considering their established importance in                   prediction. To evaluate model performance and uncertainty on
+modulating ion solvation.34−36 Following the elimination of                  the small data set, we conducted 5-repeated 10-fold cross-
+redundant and irrelevant features (Figure S1 in SI), we                      validation. Despite perturbations from data splitting and class
+establish a final data set comprising 64 solvent molecules                   imbalance in limited samples, DT-GBC achieved a mean
+characterized by 10 key parameters: molecular weight, polar                  accuracy of 0.64 (Figure S3, SI).
+surface area, molecular complexity, effective rotor counts 3D,                  The Shapley additive explanations (SHAP) framework was
+density, melting point, viscosity, dielectric constant, dipole               employed to enhance model interpretability and analyze
+moment, and donor number (Figure 2a).                                        feature importance. 41 Figure 2e presents the feature
+   We implemented the discretized-target gradient boosting                   importance for medium-class predictions, which is representa-
+classifier (DT-GBC), a hybrid framework that integrates                      tive of the overall ranking across all categories (see Figure S4 in
+clustering and classification for interval regression,37−39 to               SI). Dipole moment (DM) was identified as the most
+predict the range of α values from molecular features of                     influential descriptor, followed by donor number (DN),
+solvents. The DT-GBC simplified the prediction task by                       polar surface area (PSA), and dielectric constant (DC). The
+focusing on categorical ranges rather than precise quantitative              four features are also dominant in class classifications with low
+values. The complete ML framework is summarized in Figure                    and high α values, which conclusively highlights the dominant
+2b. Using a Gaussian mixture model (GMM), the data was                       role of polarity-related features in determining solvent
+partitioned into three discrete clusters with high, medium, and              molecules’ effectiveness to modulate thermopower. Specifi-
+low α values, as shown in Figure 2c. Subsequently, a gradient                cally, DM directly measures molecular polarity through charge
+boosting classifier (GBC) model was trained to perform the                   distribution, with high-DM solvents effectively modulating
+classification task.40                                                       redox couple solvation via strong ion-dipole interactions. PSA
+   The DT-GBC model’s test performance was visualized                        shows how exposed a molecule’s polar groups are, which allow
+through a confusion matrix, where the color intensity indicates              them to rearrange solvation shells via hydrogen bonding and
+sample quantity and the circle size represents normalized                    electrostatic interaction. DN measures how well solvents
+                                                                     12012                                        https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                                 J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                               pubs.acs.org/JPCL                                              Letter
+
+
+
+
+Figure 3. Identification of new solvent molecules for thermopower improvement. (a) Seebeck coefficients of six predicted molecules. The dashed
+line shows the base value of the redox couple dissolved in water. (b) Scheme for a four-dimensional binary feature filter. (c) K-means clustering
+results of the filter visualized via principal component analysis with jitter. Radial distribution functions of (d) DMF and (f) glucose were calculated
+around the two redox ions, respectively. Probability distribution of the number of (e) DMF and (g) glucose molecules within the solvation shell of
+redox ions. The cutoff distance for determining solvent coordination is based on g(r). For DMF, no clear peak is observed, so the location for the
+second valley of water around the ions is used, which is 0.83 nm. For glucose, the valley in g(r) shown in panel f is used, which is 0.65 nm. The
+insets in panels e and g present typical snapshots of solvation shells. Redox ions (blue), solvent molecules (orange), and water molecules (red and
+white) within the solvation shell are shown in ball-and-stick model; water molecules outside of the solvation shell are shown in lines; the solvation
+shell is shown in large transparent sphere.
+
+coordinated to ions, where the inner solvation shell radius                     denature solvents through aqueous dissociation,47 while
+depends on the solvent’s electron-donating capacity.42 DC                       amphoteric species show negligible effects in ferricyanide/
+captures the solvent’s polarizability in response to spatial                    ferrocyanide systems. Moreover, dense hydrogen-bond net-
+charge distribution, a property well-established for predicting                 works from abundant polar groups restrict molecular motions
+battery electrolyte properties.34 The impact of solvents’ DC on                 that underlie solvation entropy variations,48 including rota-
+thermopower has also been reported in prior work.43 The                         tional, vibrational, and exchange dynamics.
+remaining molecular properties showed relatively minor                             The ion solvation is thus a collective manifestation of the
+contributions.                                                                  above molecular factors and DFT-based two-body interactions.
+   DT-GBC predictions for the 42 new molecules are visualized                   To develop a more complete predictive framework for
+in Figure 2f using the confidence-based jitter distribution.                    solvation structures and their corresponding α values, we
+Next, to experimentally validate the ML results, we randomly                    extract four critical molecular descriptors from the aforemen-
+chose molecules predicted with different α values (Figure 3a),                  tioned factors to complement the two-body interaction model:
+most of which are common additives in aqueous electrolytes. It                  carbon chain length, steric hindrance, dissociation energy, and
+was confirmed that adding triethyl phosphate (TEP), N,N-                        hydrogen bond donor/acceptor count. This approach yields a
+dimethylformamide (DMF), and ethylenediaminetetraacetic                         complementary framework where the DT-GBC model’s
+acid (EDTA) aligns with the predicted results, whereas glycine,                 preliminary prediction is refined by the binary feature filter,
+glucose, and erythritol do not meet the anticipated improve-                    hence achieving a more robust ML-based screening process. As
+ment. The results reveal a limitation of the current ML model                   shown in Figure 3b, an additional binary feature filter was
+that only accounts for simple two-body ion−solvent                              incorporated to refine the initial ML results, where threshold-
+interactions. Several factors affect the solvation structures but               based categorization assigned values of 1 (above threshold) or
+can be excluded in the feature selection due to their minor                     0 (below threshold) to each molecular feature. The underlying
+impact on two-body ion−solvent interactions. Extended                           patterns within this parameter space were analyzed using K-
+carbon chains, for instance, often develop symmetric electro-                   means clustering (k = 2).49 In other words, the predicted
+static potentials along their backbone. The resulting uniform                   molecules were grouped into two categories, which are labeled
+electron clouds impair solvent coordination.44 Similarly,                       as “suitable” and “unsuitable”. To examine the robustness of
+excessive steric hindrance can physically block contact between                 the binary filter, unsupervised clustering was performed on a
+polar groups and redox couple ions, which diminishes solvent’s                  set of solvents (Figure 3c) that included both randomly
+modulation over the solvation shell.45,46 Additional complica-                  selected molecules predicted by DT-GBC and the previously
+tions arise from amino and carboxyl groups, which often                         chosen samples from Figure 3a. Molecules were located in two
+                                                                        12013                                          https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                                      J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                           pubs.acs.org/JPCL                                            Letter
+
+
+
+
+Figure 4. Efficacy of the identified solvent molecules in thermosensitive electrolytes. (a) Dependence of the open-circuit voltage on the
+temperature difference in pure GdmCl electrolyte and with the addition of TEP or DMF. (b) Optimization of TEP and GdmCl concentrations for
+the Seebeck coefficients in the GdmCl-TEP electrolyte. (c) Voltage output and the corresponding power output of TEP-GdmCl electrolyte with
+different temperature differences in the thermocell. (d) Maximum power and normalized power output of the TEP-GdmCl electrolyte. UV−vis
+spectra for (e) potassium ferrocyanide and (f) potassium ferricyanide electrolytes with or without TEP.
+
+regions: blue for predicted-suitable and yellow for predicted-              effective by our ML model and binary filter induce significantly
+unsuitable solvents. Thermopower measurements distinguish                   greater reorganization of the solvation shell structure compared
+actual results from predictions in symbols. The binary feature              to ineffective candidates.
+filter accurately classified 15 out of 16 solvent molecules into               We next assess the efficacy of these solvent molecules in a
+their respective categories, except for L-lactic acid (LLA), thus           widely characterized guanidine chloride (GdmCl)-based
+achieving a prediction accuracy of 93.8%. This strong                       electrolyte, which is well-known for the thermosensitive
+agreement validates both the effectiveness of the four-feature              effect.15 The addition of guanidinium chloride (GdmCl)
+filter for ML refinement and the critical role of these                     alone at a salt concentration of 10 wt % achieved Se = 2.52
+descriptors, in combination with ion−solvent interaction                    mV/K, as illustrated in Figure 4a. To examine the effect of
+features, in modulating the solvation entropy change.                       these identified solvents in the GdmCl electrolyte, we
+    The ML model consequently identified several new solvent                separately incorporated the newly identified TEP solvent and
+molecules beyond previously reported candidates, including                  previously reported DMF solvent into the baseline solution.
+TEP, tetrahydrofuran (THF), dimethylacetamide (DMAC),
+                                                                            Both systems demonstrate improved thermoelectric perform-
+methylsulfonylmethane (MSM), and 3-methyl-2-oxazolidinone
+                                                                            ance relative to the original GdmCl solution, e.g., Se values at 3.
+(MOZ). They achieved approximately a 42% enhancement in
+                                                                            35 mV/K (TEP + GdmCl) and 3.26 mV/K (DMF + GdmCl).
+thermopower (see Figure S5 in SI). The mechanism
+underlying the effectiveness was further examined by the ion                Subsequently, a concentration optimization was performed by
+solvation structure via molecular dynamics (MD) simulations.                systematic variation of TEP-to-GdmCl ratios. As shown in
+The ion−solvent pair correlation functions exhibit notable                  Figure 4b, a maximum Se of 4.0 mV/K was identified at the
+differences between Fe(CN)64− and Fe(CN)63− for effective                   optimal ratio of 20 wt % TEP with 20 wt % GdmCl
+solvents like DMF (Figure 3d) and TEP (Figure S6 in SI),                    composition. Further thermoelectrochemical characterization
+whereas ineffective solvents like glucose showed minor                      of this optimal formulation showed monotonic increases in
+difference between the solvation structures of two redox ions               both voltage output and power output as the temperature
+(Figure 3f). This is also observed from the probability                     gradient increased from ΔT = 5 to 15 K (Figure 4c). The
+distributions of the number of solvent molecules within the                 maximum power densities are summarized in Figure 4d, with
+solvation shells of the two ions as shown in Figure 3e,g. These             the normalized values reaching a value of 0.97 mW/m2/K2 at a
+results demonstrate that solvent molecules identified as                    temperature difference of 15 K.
+                                                                    12014                                        https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                                J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                          pubs.acs.org/JPCL                                              Letter
+
+   To correlate the thermoelectric performance with redox ion                     Thermopower measurements and characterization;
+solvation, we applied UV−vis spectroscopy analysis. Figure 4e,f                   atomistic simulations; ML algorithms; extended ML
+shows that TEP introduction causes a distinct peak shift and                      results; thermoelectrochemical performance for new
+enhanced absorbance for Fe(CN)64−,30 while Fe(CN)63−                              solvents; ion solvation in the presence of TEP (PDF)
+remains unaffected. This selective perturbation resembles
+GdmCl’s established behavior50 and more importantly aligns
+with ferrocyanide’s dominant role in regulating solvent entropy
+differences as revealed in Figure 1c. The higher charge density
+                                                                          ■    AUTHOR INFORMATION
+                                                                          Corresponding Author
+of Fe(CN)64− maintains a more compact solvation structure                    Chao Fang − Sustainable Energy and Environment Thrust,
+with a stronger solvent coordination. Consequently, additive                  The Hong Kong University of Science and Technology
+molecules like TEP induce significant rearrangement of this                   (Guangzhou), Guangzhou 511400 Guangdong, China;
+tightly bound shell, whereas Fe(CN)63−’s comparatively looser                   orcid.org/0000-0002-6207-0819; Email: chaofang@
+solvation environment exhibits minimal perturbation. This                     hkust-gz.edu.cn
+asymmetric response substantially enhances the entropy
+difference between oxidized and reduced species, which                    Authors
+directly enables higher Se values.                                           Shukai Wu − Sustainable Energy and Environment Thrust,
+   In summary, we present a data-driven strategy to identify                   The Hong Kong University of Science and Technology
+solvent molecules for enhancing thermoelectric performance of                  (Guangzhou), Guangzhou 511400 Guangdong, China
+liquid thermogalvanic electrolytes. Our approach parametrizes                Yan Luo − Advanced Materials Thrust, The Hong Kong
+Se based on the high correlation between DFT-based features                    University of Science and Technology (Guangzhou),
+of ion−solvent interactions and experimentally available data                  Guangzhou 511400 Guangdong, China
+sets. We implemented an ML framework that combines high-                     Shuo Niu − Sustainable Energy and Environment Thrust, The
+throughput DFT calculations and interval regression to predict                 Hong Kong University of Science and Technology
+the effectiveness of over 100 solvent candidates. SHAP analysis                (Guangzhou), Guangzhou 511400 Guangdong, China
+revealed the dipole moment, polar surface area, and donor                    Wentao Lin − Sustainable Energy and Environment Thrust,
+number as the key factors governing thermoelectric perform-                    The Hong Kong University of Science and Technology
+ance. Crucially, aided by experimental verification, we augment                (Guangzhou), Guangzhou 511400 Guangdong, China
+the ML model by accounting for the molecular features of                  Complete contact information is available at:
+solvents, which determine the solvation of solvent molecules              https://pubs.acs.org/10.1021/acs.jpclett.5c02903
+but are not reflected in the two-body ion−solvent interaction
+features, through a binary feature filter. This refinement                Notes
+achieved 93.8% prediction accuracy against experimental                   The authors declare no competing financial interest.
+measurements. Successful solvents were further validated by
+their capacity to modify redox ion solvation structures in MD
+simulations. Our framework confirmed known effective
+solvents while identifying new candidates, including TEP,
+                                                                          ■   ACKNOWLEDGMENTS
+                                                                          This work is supported by Guangzhou Basic and Applied Basic
+                                                                          Research Scheme (No. 2025A04J3996) and Guangzhou-
+THF, DMAC, MSM, and MOZ. When incorporated into
+                                                                          HKUST(GZ) Joint Funding Scheme (No. 2025A03J3872).
+thermosensitive electrolytes, the thermopower was increased
+                                                                          Computations were performed at the HPC-AI platform of
+by up to 60%.
+                                                                          HKUST(GZ). Material characterizations were performed at
+   This solvation-driven ML approach not only accelerates
+                                                                          MCPF (Materials Characterization and Preparation Facility)
+electrolyte discovery but also provides fundamental insights
+                                                                          and BEST Lab of HKUST-GZ.
+into the design principles of thermogalvanic systems. Interval
+regression analysis reveals that multiple molecular-polarity-
+related features, rather than any single parameter, emerge as
+the most critical factors governing solvent effectiveness. The
+                                                                          ■    REFERENCES
+                                                                           (1) Duan, J.; Yu, B.; Huang, L.; Hu, B.; Xu, M.; Feng, G.; Zhou, J.
+binary feature filter highlights that the solvation entropy               Liquid-State Thermocells: Opportunities and Challenges for Low-
+difference is a collective manifestation of simple two-body               Grade Heat Harvesting. Joule 2021, 5 (4), 768−779.
+                                                                           (2) Lei, Z.; Gao, W.; Wu, P. Double-Network Thermocells with
+ion−solvent interaction and molecular features of solvents                Extraordinary Toughness and Boosted Power Density for Continuous
+responsible for modulating the ion solvation shell. Both the              Heat Harvesting. Joule 2021, 5 (8), 2211−2222.
+ML analysis from a small data set and UV−vis spectroscopy                  (3) Liu, L.; Zhang, D.; Bai, P.; Mao, Y.; Li, Q.; Guo, J.; Fang, Y.; Ma,
+point to the dominant role of high-valence ions in determining            R. Strong Tough Thermogalvanic Hydrogel Thermocell With
+the solvation entropy difference. The newly identified solvent            Extraordinarily High Thermoelectric Performance. Adv. Mater.
+molecules demonstrate significant promise for boosting the                2023, 35 (32), 2300696.
+thermoelectric performance in both conventional liquid                     (4) Yang, J. C.; Mun, J.; Kwon, S. Y.; Park, S.; Bao, Z.; Park, S.
+thermocells and thermosensitive electrolytes. We anticipate               Electronic Skin: Recent Progress and Future Prospects for Skin-
+that these solvents may also prove valuable in more practical             Attachable Devices for Health Monitoring, Robotics, and Prosthetics.
+                                                                          Adv. Mater. 2019, 31 (48), 1904765.
+hydrogel-based thermogalvanic systems.                                     (5) Xin, J.; Gao, L.; Zhang, W.; Song, X.; Yang, Y.; Li, W.; Zhou, X.;
+
+■    ASSOCIATED CONTENT
+* Supporting Information
+sı
+                                                                          Zhang, H.; Wang, Z.; Wang, Z.; He, B.; Liu, Y.; Zhou, T.; Xiong, T.;
+                                                                          Wang, S.; Yuan, S.; Li, W.; Loo, S. C. J.; Wang, L.; Wei, L. A
+                                                                          Thermogalvanic Cell Dressing for Smart Wound Monitoring and
+                                                                          Accelerated Healing. Nat. Biomed. Eng. 2025, 1−14.
+The Supporting Information is available free of charge at                  (6) Massetti, M.; Jiao, F.; Ferguson, A. J.; Zhao, D.; Wijeratne, K.;
+https://pubs.acs.org/doi/10.1021/acs.jpclett.5c02903.                     Würger, A.; Blackburn, J. L.; Crispin, X.; Fabiano, S. Unconventional
+
+                                                                  12015                                           https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                                 J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                                      pubs.acs.org/JPCL                                              Letter
+
+Thermoelectric Materials for Energy Harvesting and Sensing                            Materials towards High-Energy Lithium||sulfur Batteries Develop-
+Applications. Chem. Rev. 2021, 121 (20), 12465−12547.                                 ment. Nat. Commun. 2024, 15 (1), 8433.
+ (7) deBethune, A. J.; Licht, T. S.; Swendeman, N. The Temperature                      (24) Gong, S.; Zhang, Y.; Mu, Z.; Pu, Z.; Wang, H.; Han, X.; Yu, Z.;
+Coefficients of Electrode Potentials: The Isothermal and Thermal                      Chen, M.; Zheng, T.; Wang, Z.; Chen, L.; Yang, Z.; Wu, X.; Shi, S.;
+Coefficients�The Standard Ionic Entropy of Electrochemical                            Gao, W.; Yan, W.; Xiang, L. A Predictive Machine Learning Force-
+Transport of the Hydrogen Ion. J. Electrochem. Soc. 1959, 106 (7),                    Field Framework for Liquid Electrolyte Development. Nat. Mach.
+616.                                                                                  Intell. 2025, 7 (4), 543−552.
+ (8) Agar, J. N.; Breck, W. G. Thermal Diffusion in Non-Isothermal                      (25) Wang, Z.; Wu, T.; Zeng, L.; Peng, J.; Tan, X.; Yu, D.; Gao, M.;
+Cells. Part 1.�Theoretical Relations and Experiments on Solutions of                  Feng, G. Machine Learning Relationships Between Nanoporous
+Thallous Salts. Trans. Faraday Soc. 1957, 53 (0), 167−178.                            Structures and Electrochemical Performance in MOF Supercapaci-
+ (9) Chen, Y.; Huang, Q.; Liu, T.-H.; Qian, X.; Yang, R. Effect of                    tors. Adv. Mater. 2025, 37 (15), 2500943.
+Solvation Shell Structure on Thermopower of Liquid Redox Pairs.                         (26) Li, H.; Hao, J.; Qiao, S.-Z. AI-Driven Electrolyte Additive
+EcoMat 2023, 5 (9), No. e12385.                                                       Selection to Boost Aqueous Zn-Ion Batteries Stability. Adv. Mater.
+ (10) Hupp, J. T.; Weaver, M. J. Solvent, Ligand, and Ionic Charge                    2024, 36 (49), 2411991.
+Effects on Reaction Entropies for Simple Transition-Metal Redox                         (27) Gao, Y.; Qi, S.; Li, M.; Ma, T.; Song, H.; Cui, Z.; Liang, Z.; Du,
+Couples. Inorg. Chem. 1984, 23 (22), 3639−3644.                                       L. Machine Learning Assisted Prediction of Donor Numbers: Guiding
+ (11) Guo, B.; Hoshino, Y.; Gao, F.; Hayashi, K.; Miura, Y.;                          Rational Fabrication of Polymer Electrolytes for Lithium-Ion
+Kimizuka, N.; Yamada, T. Thermocells Driven by Phase Transition of                    Batteries. Angew. Chem., Int. Ed. 2025, 64 (2), No. e202411437.
+Hydrogel Nanoparticles. J. Am. Chem. Soc. 2020, 142 (41), 17318−                        (28) Luo, H.; Gou, Q.; Zheng, Y.; Wang, K.; Yuan, R.; Zhang, S.;
+17322.                                                                                Fang, W.; Luogu, Z.; Hu, Y.; Mei, H.; Song, B.; Sun, K.; Wang, J.; Li,
+ (12) He, X.; Sun, H.; Li, Z.; Chen, X.; Wang, Z.; Niu, Y.; Jiang, J.;                M. Machine Learning-Assisted High-Donor-Number Electrolyte
+Wang, C. Redox-Induced Thermocells for Low-Grade Heat Harvest-                        Additive Screening toward Construction of Dendrite-Free Aqueous
+ing: Mechanism, Progress, and Their Applications. J. Mater. Chem. A                   Zinc-Ion Batteries. ACS Nano 2025, 19 (2), 2427−2443.
+2022, 10 (39), 20730−20755.                                                             (29) Liu, D.; Fu, Z.; Wang, S.; Gong, X.; You, T.; Yu, H.; Jiang, Y.;
+ (13) Abraham, T. J.; MacFarlane, D. R.; Pringle, J. M. Seebeck                       Zhang, Y. Machine Learning-Guided Modulation of Li+ Solvation
+Coefficients in Ionic Liquids -Prospects for Thermo-Electrochemical                   Structures towards Optimal Electrolyte Systems for High-Perform-
+Cells. Chem. Commun. 2011, 47 (22), 6260−6262.                                        ance Li-O2 Battery. Angew. Chem. 2025, 137, e202425277.
+ (14) Zhou, H.; Yamada, T.; Kimizuka, N. Supramolecular Thermo-                         (30) Zeng, Y.; Yu, B.; Chen, M.; Zhang, J.; Liu, P.; Guo, J.; Wang, J.;
+Electrochemical Cells: Enhanced Thermoelectric Performance by                         Feng, G.; Zhou, J.; Duan, J. Solvation Entropy Engineering of
+Host-Guest Complexation and Salt-Induced Crystallization. J. Am.                      Thermogalvanic Electrolytes for Efficient Electrochemical Refriger-
+Chem. Soc. 2016, 138 (33), 10502−10507.                                               ation. Joule 2025, 9 (3), 101822.
+ (15) Yu, B.; Duan, J.; Cong, H.; Xie, W.; Liu, R.; Zhuang, X.; Wang,                   (31) Wang, Z.; Zhang, H.; Wang, Q. Solvent-Assisted Thermo-
+H.; Qi, B.; Xu, M.; Wang, Z. L.; Zhou, J. Thermosensitive                             galvanic Cell for Enhanced Low-Grade Heat Harvesting over an
+                                                                                      Extended Temperature Range. Nano Energy 2025, 134, 110515.
+Crystallization-Boosted Liquid Thermocells for Low-Grade Heat
+                                                                                        (32) Inico, E.; Ceribelli, N.; Giordano, L.; Brogioli, D.; La Mantia,
+Harvesting. Science 2020, 370 (6514), 342−346.
+                                                                                      F.; Di Liberto, G. On the Nature of K3Fe(CN)6 and K4Fe(CN)6 in
+ (16) Yang, L.; Chen, J.; Han, C.-G.; Zhu, Y.; Xie, C.; Liu, Z.; Wang,
+                                                                                      Aqueous Environment: An Ab-Initio Molecular Dynamics Study.
+H.; Bao, Y.; Han, D.; Niu, L. Remarkable Ionic Thermoelectric
+                                                                                      Electrochim. Acta 2025, 529, 146328.
+Performance of High-Entropy Gel Thermocell near Room Temper-
+                                                                                        (33) Abdi, H. Partial Least Squares Regression and Projection on
+ature. Energy Environ. Sci. 2025, 18 (5), 2559−2569.
+                                                                                      Latent Structure Regression (PLS Regression). WIREs Comput. Stat.
+ (17) Matsui, Y.; Maeda, Y. Large Temperature Dependence of
+                                                                                      2010, 2 (1), 97−106.
+Redox Potential Driven by Semiclathrate Hydrate Formation for                           (34) Chen, J.; Zhang, H.; Fang, M.; Ke, C.; Liu, S.; Wang, J. Design
+Thermo-Electrochemical Conversion. J. Am. Chem. Soc. 2025, 147                        of Localized High-Concentration Electrolytes via Donor Number.
+(21), 18134−18144.                                                                    ACS Energy Lett. 2023, 8 (4), 1723−1734.
+ (18) Wu, Y.; Song, D.; An, M.; Chi, C.; Zhao, C.; Yao, B.; Ma, W.;                     (35) Shen, J.; Chen, J.; Xu, X.; Li, J.; Wang, Z.; Lin, P.; Guo, Z.;
+Zhang, X. Unlocking New Possibilities in Ionic Thermoelectric                         Wang, Y.; Sun, J.; Huang, B.; Zhao, T. Machine-Learning-Guided
+Materials: A Machine Learning Perspective. Natl. Sci. Rev. 2024, 12                   Screening of Advantageous Solvents for Solid Polymer Electrolytes in
+(1), nwae411.                                                                         Lithium Metal Batteries. Nano Lett. 2025, 25 (19), 7801−7809.
+ (19) Li, M.; Dai, L.; Hu, Y. Machine Learning for Harnessing                           (36) Zheng, Z.; Liu, X.; Zhang, X.-Q.; Sun, S.-Y.; Li, J.-L.; Wang, Y.-
+Thermal Energy: From Materials Discovery to System Optimization.                      N.; Yao, N.; Zhan, D.-H.; Feng, W.-J.; Peng, H.-J.; Hu, J.-K.; Huang,
+ACS Energy Lett. 2022, 7 (10), 3204−3226.                                             J.-Q.; Zhang, Q. Deciphering Coulombic Efficiency of Lithium Metal
+ (20) Li, H.; Zheng, H.; Yue, T.; Xie, Z.; Yu, S.; Zhou, J.; Kapri, T.;               Anodes by Screening Electrolyte Properties. Angew. Chem., Int. Ed.
+Wang, Y.; Cao, Z.; Zhao, H.; Kemelbay, A.; He, J.; Zhang, G.; Pieters,                2025, 64, e202507387.
+P. F.; Dailing, E. A.; Cappiello, J. R.; Salmeron, M.; Gu, X.; Xu, T.;                  (37) Nguyen, T. L.; Hocking, T. D. Interval Regression: A
+Wu, P.; Li, Y.; Sharpless, K. B.; Liu, Y. Machine Learning-Accelerated                Comparative Study with Proposed Models. arXiv 2025, 2503.02011.
+Discovery of Heat-Resistant Polysulfates for Electrostatic Energy                       (38) Stewart, M. B. On Least Squares Estimation When the
+Storage. Nat. Energy 2025, 10, 90.                                                    Dependent Variable Is Grouped. Rev. Econ. Stud. 1983, 50 (4), 737−
+ (21) Bai, X.; He, S.; Li, Y.; Xie, Y.; Zhang, X.; Du, W.; Li, J.-R.                  753.
+Construction of a Knowledge Graph for Framework Material Enabled                        (39) Mansouri, K.; Taylor, K.; Auerbach, S.; Ferguson, S.; Frawley,
+by Large Language Models and Its Application. Npj Comput. Mater.                      R.; Hsieh, J.-H.; Jahnke, G.; Kleinstreuer, N.; Mehta, S.; Moreira-
+2025, 11 (1), 51.                                                                     Filho, J. T.; Parham, F.; Rider, C.; Rooney, A. A.; Wang, A.;
+ (22) Song, T.; Luo, M.; Zhang, X.; Chen, L.; Huang, Y.; Cao, J.;                     Sutherland, V. Unlocking the Potential of Clustering and
+Zhu, Q.; Liu, D.; Zhang, B.; Zou, G.; Zhang, G.; Zhang, F.; Shang, W.;                Classification Approaches: Navigating Supervised and Unsupervised
+Fu, Y.; Jiang, J.; Luo, Y. A Multiagent-Driven Robotic AI Chemist                     Chemical Similarity. Environ. Health Perspect. 2024, 132 (8), 085002.
+Enabling Autonomous Chemical Research On Demand. J. Am. Chem.                           (40) Friedman, J. H. Greedy Function Approximation: A Gradient
+Soc. 2025, 147 (15), 12534−12545.                                                     Boosting Machine. Ann. Stat. 2001, 29 (5), 1189−1232.
+ (23) Han, Z.; Chen, A.; Li, Z.; Zhang, M.; Wang, Z.; Yang, L.; Gao,                    (41) Mitchell, R.; Frank, E.; Holmes, G. GPUTreeShap: Massively
+R.; Jia, Y.; Ji, G.; Lao, Z.; Xiao, X.; Tao, K.; Gao, J.; Lv, W.; Wang, T.;           Parallel Exact Calculation of SHAP Scores for Tree Ensembles. PeerJ.
+Li, J.; Zhou, G. Machine Learning-Based Design of Electrocatalytic                    Comput. Sci. 2022, 8, No. e880.
+
+                                                                              12016                                           https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                                             J. Phys. Chem. Lett. 2025, 16, 12010−12017
+The Journal of Physical Chemistry Letters                                             pubs.acs.org/JPCL                                    Letter
+
+  (42) Liu, Y.; Zhang, Q.; Odunmbaku, G. O.; He, Y.; Zheng, Y.;
+Chen, S.; Zhou, Y.; Li, J.; Li, M.; Sun, K. Solvent Effect on the
+Seebeck Coefficient of Fe 2+ /Fe 3+ Hydrogel Thermogalvanic Cells.
+J. Mater. Chem. A 2022, 10 (37), 19690−19698.
+  (43) Kim, T.; Lee, J. S.; Lee, G.; Yoon, H.; Yoon, J.; Kang, T. J.;
+Kim, Y. H. High Thermopower of Ferri/Ferrocyanide Redox Couple
+in Organic-Water Solutions. Nano Energy 2017, 31, 160−167.
+  (44) Wu, F.; Zhang, J.; Ma, L.; Ruan, P.; Chen, Y.; Meng, S.; Yin, R.;
+Shi, W.; Liu, W.; Zhou, J.; Cao, X. Directing Zn Growth with Biased
+Adsorption of Straight-Chain Molecules for Superior Zn Anode
+Stability. Angew. Chem., Int. Ed. 2025, 64 (11), No. e202421787.
+  (45) Zhao, Z.; Zhou, X.; Zhang, B.; Huang, F.; Wang, Y.; Ma, Z.;
+Liu, J. Regulating Steric Hindrance of Porous Organic Polymers in
+Composite Solid-State Electrolytes to Induce the Formation of LiF-
+Rich SEI in Li-Ion Batteries. Angew. Chem., Int. Ed. 2023, 62 (39),
+No. e202308738.
+  (46) Chen, K.; Chen, H.; Zheng, Z.; Liu, Y.; Fang, Y.; Chen, Z.; Cao,
+Y. Identifying the Role of Solvation Entropy for the Solvation
+Chemistry in Nonaqueous Electrolytes. Angew. Chem. 2025, 64,
+e202501315.
+  (47) Wang, H.; Wang, K.; Liang, B.; Wei, M.; Xiong, J.; Zhong, D.;
+Pei, P. Solvation Modification and Interfacial Chemistry Regulation
+Via Amphoteric Amino Acids for Long-Cycle Zinc Batteries. Adv.
+Energy Mater. 2024, 14 (46), 2402123.
+  (48) Li, X.; Wu, A.; Li, J.; Li, Z.; Lee, D.; Lee, S. W. Anion Effects on
+Thermopower of Electrochemical Systems for Low-Grade Heat
+Harvesting. ACS Energy Lett. 2023, 8 (10), 4061−4068.
+  (49) MacQueen, J. Some Methods for Classification and Analysis of
+Multivariate Observations; Berkeley Symp. on Math. Statist. and Prob.
+1967, 281
+  (50) Duan, J.; Feng, G.; Yu, B.; Li, J.; Chen, M.; Yang, P.; Feng, J.;
+Liu, K.; Zhou, J. Aqueous Thermogalvanic Cells with a High Seebeck
+Coefficient for Low-Grade Heat Harvest. Nat. Commun. 2018, 9 (1),
+5146.
+
+
+
+
+                                                                              12017                        https://doi.org/10.1021/acs.jpclett.5c02903
+                                                                                                          J. Phys. Chem. Lett. 2025, 16, 12010−12017
+

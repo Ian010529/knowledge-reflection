@@ -1,0 +1,39 @@
+{
+  "script_version": "1.0.0",
+  "script_path": "scripts/run_strict_mechanism_diffusion.py",
+  "script_sha256": "0551c4f53a5da291407266a7e70cdaeed147ccf350954319f007c0c0dd7f4f58",
+  "generated_on": "2026-07-30",
+  "parameters": {
+    "complete_through": 2025,
+    "source_support_papers": 2,
+    "random_state": 27
+  },
+  "paper_domain_counts": {
+    "TG": 246,
+    "iTE": 1459,
+    "iTE|TG": 50
+  },
+  "software": {
+    "python": "3.14.4",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0"
+  },
+  "inputs": [
+    {
+      "path": "mechanism_transfer_workflow/pure_mechanism_vocabulary.csv",
+      "bytes": 14188,
+      "sha256": "492525ec388c4a655ff3d925a4e84c38e31b0c35a0b19f1b99257b71eb056e52"
+    },
+    {
+      "path": "minimal_clean_concept_layer/final_paper_concept_map.csv",
+      "bytes": 2423787,
+      "sha256": "ee8cffe0bdf4c15995400257bca6aaee5c1e71a275440d57fbd1ee7cea9ae17e"
+    },
+    {
+      "path": "minimal_clean_concept_layer/final_paper_index.csv",
+      "bytes": 3350894,
+      "sha256": "c507426c0b3f09a1cc0a46c320e455f98c26b0c77b89628c2e2fd941d77924d9"
+    }
+  ]
+}

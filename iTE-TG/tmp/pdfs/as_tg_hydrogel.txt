@@ -1,0 +1,1248 @@
+REVIEW
+                                                                                                                     www.advancedscience.com
+
+
+Critical Design Strategy of Thermogalvanic Hydrogels for
+Low-Grade Heat Harvesting
+Wentao Lin, Shukai Wu, Shuo Niu, Zhe Hu, Guangming Chen, Zhuoxin Liu,*
+Yang Huang,* and Chao Fang*
+
+                                                                                                  1. Introduction
+Low-grade heat, typically deﬁned as heat at temperatures below 100 °C, is
+abundant and ubiquitous in the daily environment. However, it is often wasted                      Since the Second Industrial Revolution, hu-
+                                                                                                   manity has become increasingly dependent
+due to the lack of eﬃcient recovery methods. Thermocells (TECs), which
+                                                                                                   on non-renewable fossil resources, such
+leverage the thermogalvanic eﬀect, provide a promising solution for directly                       as coal, oil, and natural gas, to meet the
+converting low-grade heat to electricity. Recently, thermogalvanic hydrogels                       growing demand for electricity. The accel-
+(THs) have emerged as an innovative class of materials for high-performance                        erated consumption of non-renewable fos-
+TECs due to their giant thermopower, high ﬂexibility, biocompatibility, and low                    sil resources for energy production ulti-
+                                                                                                   mately results in hazardous by-products
+cost. This review comprehensively summarizes the latest advancement in TH
+                                                                                                   and greenhouse gas emissions, resulting
+research, with a particular focus on the promising design strategies. First, the                   in signiﬁcant environmental damage and
+fundamental mechanisms underlying thermoelectrochemical conversion in                              pollution.[1–3] Furthermore, the Paris Agree-
+THs are systematically scrutinized. Second, the key metrics are outlined for                       ment mandates that the entire world needs
+evaluating TECs. Third, current strategies are highlighted for enhancing the                       to achieve global net-zero emissions by 2050
+thermoelectrochemical performance of THs, including the modiﬁcations of                            to limit global warming to 1.5 °C, which
+                                                                                                   necessitates a substantial increase in the
+polymer matrix, liquid phase, additives, and others. Additionally, the current
+                                                                                                   use of clean renewable energy resources.[4]
+applications of TH-based devices are examined in energy harvest and sensing.                       Renewable energy resources, such as wind
+Finally, the remaining challenges are discussed in the ﬁeld and provide a                          and solar, have gained popularity and now
+forward-looking perspective on the future development of THs.                                      contribute to over 10% of worldwide elec-
+                                                                                                   tricity generation. They play a crucial role
+                                                                                                   in the transition from primary to renew-
+                                                                                                   able energy.[5] However, it is important to
+                                                                            recognize that regardless of the energy source, the transfer from
+                                                                            its original to its end usage also generates various forms of ther-
+W. Lin, S. Wu, S. Niu, C. Fang                                              mal energy, much of which is released into the environment as
+Sustainable Energy and Environment Thrust
+                                                                            waste heat but without any practical purpose.
+The Hong Kong University of Science and Technology (Guangzhou)
+Guangzhou, Guangdong 511400, China                                             Waste heat is everywhere in our lives. Research by Forman
+E-mail: chaofang@hkust-gz.edu.cn                                            et al. indicates that ≈72% of the global energy output is lost
+Z. Hu, G. Chen, Z. Liu                                                      as waste heat, with ≈63% of these waste heat streams originat-
+Guangdong Provincial Key Laboratory of New Energy Materials Service         ing from sources below 100 °C.[6] Consequently, harvesting low-
+Safety                                                                      grade waste heat (typically refers to temperatures below 100 °C)
+College of Materials Science and Engineering
+Shenzhen University                                                         as viable zero-carbon source of electricity is a highly promising
+Shenzhen 518055, China                                                      strategy. In 1821, German physicist Thomas Johann Seebeck dis-
+E-mail: liuzhuoxin@szu.edu.cn                                               covered that various electrical conductors or semiconductors can
+Y. Huang                                                                    generate electric potential when subjected to a temperature gra-
+Advanced Materials Thrust                                                   dient (ΔT). This discovery triggered the development of thermo-
+The Hong Kong University of Science and Technology (Guangzhou)
+                                                                            electric generators (TEGs), which have been extensively studied
+Guangzhou, Guangdong 511400, China
+E-mail: yanghuang@hkust-gz.edu.cn                                           and utilized for thermoelectric energy conversion.[7–10] A typi-
+                                                                            cal TEG comprises of a p-type and n-type semiconductor con-
+      The ORCID identiﬁcation number(s) for the author(s) of this article
+                                                                            nected in series. When a ΔT is established, the selective thermal
+      can be found under https://doi.org/10.1002/advs.202506038             movement of mobile charge carriers, including electrons (e− ) and
+© 2025 The Author(s). Advanced Science published by Wiley-VCH               holes (h+ ), in the material leads to the formation of a potential
+GmbH. This is an open access article under the terms of the Creative        diﬀerence, known as the Seebeck eﬀect. However, TEGs exhibit
+Commons Attribution License, which permits use, distribution and            relatively low eﬃciency and thermopower at ambient tempera-
+reproduction in any medium, provided the original work is properly cited.   tures, rendering them less suitable for eﬀective low-grade heat
+DOI: 10.1002/advs.202506038                                                 harvesting.[11]
+
+
+Adv. Sci. 2025, 12, e06038                   e06038 (1 of 25)                      © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                     21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                       www.advancedscience.com
+
+   Ionic thermoelectric materials (i-TMs) are a novel technology         cellent thermoelectrochemical performance.[25–29] Besides these
+that utilizes ions as the charge carriers instead of electrons/holes.    thermoelectrochemical improvements, functional TECs based
+A signiﬁcantly larger thermopower (mV K−1 vs μV K−1 for TEGs)            on TH has been explored in applications such as health moni-
+can be produced because the transport enthalpy of ions is higher         toring and energy supply.[22,30–33]
+than that of electrons.[2,12,13] As a result, i-TMs represents an ap-       Although THs hold great potential for use in TECs to har-
+pealing substitute to traditional electronic thermoelectric materi-      vest waste low-grade heat, the underlying mechanisms for im-
+als for heat-to-electricity conversion, particularly in the context of   proving thermoelectrochemical performance and critical design
+harvesting low-grade heat. Based on i-TMs, thermal chargeable            strategies still need comprehensive exploration. This review pro-
+capacitors (TCCs) have been proposed, which leverage the Soret           vides a comprehensive overview of current research on TH-based
+eﬀect (also known as thermodiﬀusion (TD) eﬀect) where the dif-           TECs from the perspectives of mechanisms of heat-to-electricity
+fering migration rates of anions and cations under ΔT causes             conversion, key parameters of performance evaluation, current
+their uneven distribution at the hot and cold ends. In TCCs, ther-       studies on the promising design of THs, and emerging applica-
+mally diﬀusion ions accumulate on the surface of electrode to            tions. Based on these studies, we summarize the challenges and
+create potential diﬀerence. However, as these ions cannot pass           prospects for more eﬃcient TH design, a crucial step toward the
+through, energy is stored under ΔT and the output is intermit-           advancement of low-grade heat harvesting technologies.
+tent when ΔT is absent.[14,15]
+   When the charge carriers consist of redox couple ions, the ther-
+mogalvanic (TG) eﬀect, which is based on thermally driven re-            2. Mechanisms of Ionic Heat-To-Electricity
+versible redox reactions, oﬀers another approach for converting          Conversion
+heat into electricity. Under a ΔT, redox reactions can occur at the
+                                                                         As mentioned above, i-TMs can exploit mobile cations or an-
+surface of hot/cold electrodes, allowing for the oxidated/reduced
+                                                                         ions to convert heat to electricity. As shown in Figure 1, ionic
+ions to transfer continuously through the electrolyte. This pro-
+                                                                         thermoelectric devices, including TCCs, TECs and thermoextrac-
+cess enables thermoelectrochemical cells (TECs) to directly gen-
+                                                                         tion cells, typically comprise two electrodes separated by an elec-
+erate a steady current by facilitating the electron exchange at the
+                                                                         trolyte, with the electrodes connected by an external circuit. The
+electrolyte/electrode interface as long as the ΔT maintains.[16,17]
+                                                                         presence of a temperature gradient between the electrodes en-
+When speciﬁc electrodes are employed, the thermopower can
+                                                                         ables these devices to utilize distinct mechanisms for heat-to-
+also be contributed by the extraction and embedding of metal
+                                                                         electricity conversion. This section provides a detailed discussion
+ions, a phenomenon known as thermoextraction eﬀect.[17,18] A
+                                                                         of heat-to-electricity conversion mechanisms in TECs and com-
+more detailed discussion about various mechanisms of ionic
+                                                                         paring it with the other two types of mechanisms.
+thermoelectric eﬀect is provided in Section 2.
+   The pioneer investigation of ionic thermoelectric electrolyte
+can be traced back to the studies on ion transport in molten             2.1. Thermodiﬀusion Eﬀect
+salts.[19,20] Subsequent research revealed that ionic solutions
+based on TG eﬀect could deliver excellent output performance,            The Soret eﬀect, also known as TD eﬀect, was ﬁrst proposed by
+which has attracted widespread attention.[21] However, conven-           Charles Soret in 1879. It originally described the nonuniform salt
+tional liquid electrolytes (LEs) suﬀer from issues such as leakage,      concentration in a solution with two ends exhibiting a tempera-
+complex encapsulation, and integration for practical applications.       ture diﬀerence (ΔT). The thermodynamic basis of the TD eﬀect
+To mitigate these problems, recent eﬀorts have focused on incor-         is the entropic transfer of ions diﬀusion between the hot side and
+porating quasi solid-state hydrogel as electrolytes for TECs. From       cold side, often referred to as the Eastman entropy, and is closely
+an economic and safety perspective, thermogalvanic hydrogels             related to the interactions of ions with their surroundings, such
+(THs) are mainly composed of abundant materials of water and             as solvents.[2,34,35] This unbalanced thermal transport of cations
+polymers, thereby making them cost-eﬀective and less hazardous           and anions in the electrolyte results in a diﬀerence in ion concen-
+compared to those relying on rare, costly, and poisonous ele-            tration at hot and cold sides. Furthermore, when a ΔT is applied,
+ments. Moreover, the thermopower generated by the TH-based               ions are not able to pass through the electrode’s interface but ac-
+TECs can achieve continuous output, which makes them more                cumulate at the ends. Consequently, an electric double layer is
+eﬃcient than TCCs that typically produce intermittent output.            formed adjacent to the electrolyte/electrode interface, which gen-
+   TH was ﬁrst proposed in 2016 by Zhou et al.[22] The TH was            erates a potential diﬀerence. Currently, researchers have devel-
+constructed by utilizing polyvinyl alcohol (PVA) as polymer ma-          oped various ionic materials based on TD eﬀect including KCl,
+trix, Fe(CN)6 4−/3− as redox couple, and water as solvent, which         NaCl, NaOH, Cu2 SO4 , ionic liquid, and others.[36–41] The TCCs
+achieved a thermopower of 1.21 mV K−1 . Recent advancement               leveraging the TD eﬀect have demonstrated capability for energy
+has signiﬁcantly enhanced the performance of TH. For instance,           conversion, thus representing one promising application scenar-
+the thermopower of TH with Fe(CN)6 4−/3− redox couple has been           ios based on i-TMs.
+increased to 2.02 mV K−1 at sub-zero temperature and can op-                 A typical TCC is shown in Figure 1a, the working mode of
+erate continuously below −40 °C by disrupting hydrogen bonds             which is analogous to that of a capacitor. The generated “electric-
+between water molecules.[23] In addition, introducing graphene           ity” cannot be directly transferred to external circuits upon con-
+as an additive has been shown to boost the thermopower of TH to          nection. As illustrated in Figure 1b, four-stage operating steps
+13 mV K−1 with the same redox couple.[24] Further developments           must be completed to utilize the potential diﬀerence generated
+include the application of other redox couples such as Fe3+ /Fe2+ ,      under a ΔT: 1) voltage-built up, 2) capacitor charging, 3) equi-
+Sn4+ /Sn2+ , I-/I3 ‒ , and Co(bpy)3 3+/2+ , which demonstrated ex-       libration, and 4) capacitor discharge. This system is thus more
+
+
+Adv. Sci. 2025, 12, e06038                 e06038 (2 of 25)                     © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                          21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 1. Power generation mechanisms of ionic thermoelectric devices. a) Mechanism of the thermodiﬀusion eﬀect. b) Four stages for heat-to-electricity
+conversion in TCCs. c) Mechanism of the thermogalvanic eﬀect. d) Two stages for heat-to-electricity conversion in TECs. e) Mechanism of the thermoex-
+traction eﬀect.
+
+
+complicated compared to typical TEGs and TECs.[37,42] Further-               entropy changes during electron transport between the redox
+more, the potential diﬀerence diminishes quickly once connected              couple and the electrode. Under a ΔT, the balance of redox reac-
+to the external circuit, and a new voltage forms only after discon-          tion was broken, leading to the oxidation of A to B at the hot side
+necting the external circuit and removing the ΔT between two                 and reduction of B to A at the cold side. Once a ΔT is applied to
+electrodes.[15] Therefore, the TCCs are unable to provide contin-            two electrodes, the electric potential diﬀerence will be generated
+uous and steady output power under a ﬁxed ΔT, which limits                   in successive redox reactions. Consequently, the electrode with
+their practical applications prospects.                                      high potential acts as anode (oxidation reaction occurs) that sup-
+                                                                             plies electrons to the external circuit, whereas the electrode with
+                                                                             low potential acts as cathode (reduction reaction occurs) that re-
+2.2. Thermogalvanic Eﬀect                                                    ceives electrons from the external circuit.
+                                                                                Next, a detailed description of the working process of TECs is
+The TG eﬀect is the mechanism utilized by TECs for heat-to-                  provided. Compared to TCCs, the operational process of TECs
+electricity conversion. As shown in Figure 1c, at least one redox            is simpler, mainly consisting of two steps, as illustrated in
+couple must be present in electrolyte for the TG eﬀect to occur.             Figure 1d. When there is no ΔT, the system is in equilibrium, re-
+The total redox reaction can be express as:                                  sulting in no electricity generated between the two electrodes due
+                                                                             to equal electron energy levels.[43] In the ﬁrst step, the reaction
+A ⇔ ne− + B                                                           (1)    equilibrium is disrupted by the application of ΔT, which prompts
+                                                                             redox reactions to occur at both electrodes. When the temper-
+where A and B represent redox couple in diﬀerent valence state,              ature increases at one side while the other side remains un-
+and n is the number of electrons transferred, respectively. The              changed, the hot electrode’s electrochemical potential (denoted
+thermodynamics of TG eﬀect involves the temperature-driven                   as E (T0 )) rises to E (T0 + ΔT), while the cold electrode’s potential
+
+
+Adv. Sci. 2025, 12, e06038                   e06038 (3 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                         21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                            www.advancedscience.com
+
+Table 1. Comparison of TEGs, TCCs, and TECs.
+
+                                                 TEGs                                      TCCs                                         TECs
+
+Mechanism                                Seebeck eﬀect                            Thermodiﬀusion eﬀect                         Thermogalvanic eﬀect
+Charge Carrier                           Holes and electrons                      Ions                                         Redox ions
+Key Materials                            Solid semiconductors                     Liquids/Gels/Polymers                        Liquids/Gels
+Thermopower                              Low                                      High                                         Medium
+Working mode                             Continuous output                        Intermittent output                          Continuous output
+Working temperature                      High temperature                         Low temperature                              Low temperature
+                                         (e.g., 200–1000 °C)                      (e.g., <100 °C)                              (e.g., <100 °C)
+
+
+
+
+remains at E (T0 ). This diﬀerence creates an open circuit voltage        be more speciﬁc, metal ions are extracted from the hot electrode,
+(VOC ) between the hot and cold electrodes. In the second step,           then mobilized and migrated to the cold electrode through the
+when connected to an external circuit, it functions like a bridge         electrolyte, followed by charge storage via redox interactions with
+that allows electrons from the redox reaction to return to the other      the electrode. In addition, the extraction of metal ions necessi-
+electrode, resulting in discharge. The transformation of ion va-          tates the transportation of electrons at the hot electrode. After the
+lence states at the hot and cold electrodes creates a concentra-          extraction of metal ions, the exchange of electrons increases the
+tion diﬀerence between them. Driven by concentration gradient,            electrochemical potential at the hot electrode. This results in the
+the redox ions continuously transfer throughout the electrolyte.          formation of a potential diﬀerence, as shown in Figure 1e. Since
+Thus, constant electricity supply to the external circuit is facili-      the thermoextraction eﬀect is associated with the electrode and
+tated by the exchange of electrons from the redox reactions at the        this review mainly focuses on electrolytes, readers are suggested
+electrodes.                                                               to refer to recent works by Huang et al.,[17] Ni et al.,[18] and Zhang
+   Recently, several extensively reported ionic materials that            et al.[51] for further details on the thermoextraction eﬀect.
+rely on redox couples have been applied in TECs, includ-                     Compared with the TCCs and thermoextraction cells, TECs
+ing Fe(CN)6 4−/3− , Co (py)3 3+/2+ , Fe3+/2+ , I− /I3 − , Cu2+ /Cu, and   have the characteristics of being able to maintain continuous and
+Sn4+ /Sn2+ .[23,43–48] Under steady-state conditions, the ther-           stable power output, rapid mass transfer and charge transfer ki-
+mopower (Si ) can be represented by the slope of a voltage dif-           netics at the electrode-electrolyte interface, and a diverse selection
+ference (− (VHot − VCold )) versus temperature diﬀerence (THot −          of ion systems, etc. Thanks to this, TECs are being extensively re-
+TCold ) as:[38]                                                           searched to harvest low-grade heat.
+
+         VHot − VCold
+Si = −                                                              (2)
+         THot − TCold                                                     3. Key Metrics for Evaluating TECs
+where VHot is the electrochemical potential of the hot electrode          TECs convert heat to electricity primarily through TG eﬀect,
+at temperature THot , and VCold is the electrochemical potential of       which involves two essential processes: 1) redox reactions at the
+the cold electrode at temperature TCold , respectively. Based on the      hot and cold electrodes, 2) mass transport within the electrolytes.
+sign of thermopower, it can be classiﬁed into p-type and n-type.          The conversion eﬃciency and output performance of TECs de-
+For instance, in the case of aqueous solution, the thermopower            pend on three interrelated parameters: thermopower (Si ), electri-
+of Fe(CN)6 4−/3− is a typical p-type redox couple with a value of         cal conductivity (𝜎 i ), and thermal conductivity (𝜅 i ).
+≈1.4 mV K−1 , while I− /I3 − severe as a typical n-type redox couple
+with a value of ≈−0.86 mV K−1 .[43,48] To summarize, a compar-
+ison between TEGs, TCCs, and TECs is explicitly presented in              3.1. Thermopower
+Table 1.
+                                                                          Intuitively, Si can be deﬁned as ratio of voltage diﬀerence to tem-
+                                                                          perature diﬀerence, as shown in Equation 2. Additionally, the
+2.3. Thermoextraction Eﬀect                                               transformation of the valence state of ions serves as the foun-
+                                                                          dation for TG eﬀect. Thus, Si can also be understood through
+In addition to the contribution of TD and TG eﬀects to ther-              the thermodynamics of this valence state transformation. Under
+mopower in electrolytes, the contribution of the thermoextrac-            a ΔT, the Si generated from TG eﬀect is related to the entropy
+tion eﬀect of electrodes should not be overlooked in speciﬁc              diﬀerence (ΔSredox ) of the redox ions and can deﬁned as:[52]
+situations. While the electrode-involving interaction can be in-                 (         ) (         )
+signiﬁcant for traditional noble symmetric metal electrodes, e.g.,                SB + S̄ B − SA + S̄ A − nS̄ e        SB − SA   ΔSredox
+platinum, it becomes noteworthy when employing carbon-based               Si =                                     ≈           =                   (3)
+                                                                                                  nF                     nF       nF
+(e.g., graphene and carbon nanotube), MXenes, or oxide elec-
+trodes (e.g., V2 O5 ). Generally, the thermoextraction eﬀect con-         where n is the number of electrons transferred, F is the Faraday’s
+tributes to the thermopower contribution through the extraction           constant, and ̄Se is transport entropy of electrons in the external
+and embedding of metal ions on the electrode surface.[49,50] To           circuit. SA and SB (along with their corresponding ̄SA and S̄ B )
+
+
+Adv. Sci. 2025, 12, e06038                 e06038 (4 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                  21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                    www.advancedscience.com
+
+respectively represent the partial molar entropies (Eastman en-                     The electrical conductivity (𝜎 i ) of THs can be calculated by
+tropies) of A and B. In most cases, the value of transport entropy                Nyquist plot via the equation:
+of electrons and Eastman entropy was relatively small, and can be
+neglected.[53] Thus, Si for TECs is mostly determined by ΔSredox                          L
+                                                                                  𝜎i =                                                                     (7)
+of the redox reaction.                                                                   Rb A
+   Weaver et al. investigated factors aﬀecting ΔSredox and demon-
+strated that for various low-spin metal complexes, it can be esti-                where L is the thickness of THs, Rb is the bulk resistance, and A
+mated using the empirical equation:[54]                                           is the eﬀective contact area between the TH and the electrodes.
+                                                                                     The thermal conductivity (𝜅 i ) of the electrolyte arises from
+                                           ( 2        )                           both thermal convection and conduction under a temperature
+                                            Zox − Zre
+                                                   2
+ΔSredox = 91.5 − 2.43AN + 86.6                                              (4)   gradient.[58] If the 𝜅 i of the electrolyte is excessively high, it hin-
+                                                    r                             ders the maintenance of temperature gradient at both ends of
+where AN is the solvent acceptor number, Zox and Zre are respec-                  the electrode, which can lead to a decrease in the power output
+tively the charge on the oxidized and reduced species, and r is the               during the operation of TECs. Moreover, as the temperatures of
+ionic radius (Å). This equation eﬀectively accounts for solute–                   both electrodes approach equilibrium, TECs will cease operation.
+solvent interactions and has been successfully applied to corre-                  To optimize TECs performance, the 𝜅 i of electrolyte should be
+late thermocouple measurements with solution-phase dynamics                       suﬃciently low. Currently, THs are considered to meet this re-
+of metal complexes.[55] Furthermore, the Born model considers                     quirement due to their low thermal conductivity (<0.5 W m−1
+solvents as continuous dielectric medium, and experimentally                      K−1 ).[59–61]
+conﬁrms that ions and their surrounding solvents determine the                       The 𝜅 i of THs can be measured using the transient plane
+ΔSredox .[56,57] The Born estimates of ΔSredox as follow:                         heat source method at room temperature, with calculations per-
+                                                                                  formed using a hot disk apparatus. When the probe power
+                       (            )(    2         2
+                                                         )                        remains constant, the time-dependent temperature rise is de-
+            e2 N           d ln 𝜀        Zox       Zre
+ΔSredox = −                                    −                            (5)   scribed by:[62]
+            2T𝜀            d ln T        rox       rre
+                                                                                                      p0
+                                                                                  ΔTave (𝜏 ) =        3
+                                                                                                           ⋅ D (𝜏 )                                        (8)
+  Here N is Avogadro’s constant, 𝜖 is dielectric constant.                                        𝜋 r𝜅i
+                                                                                                      2
+
+  The Si can also be determined by the ratio of the equilibrium
+potential diﬀerence between the hot and cold electrodes to the                    where 𝜏 is the dimensionless time, ΔTave is the temperature in-
+ΔT, which is expressed as:                                                        crease on the contact side between the sample and the probe, p0
+                                                                                  is the total power output of the probe, r is the radius of the probe
+               [                                         ]
+                             𝛾oH
+                              A                  A
+                                                CoH                               disk, 𝜅 i is the thermal conductivity of the sample, and D(𝜏) is a
+       R
+Si =             THot ln            + THot ln                                     dimensionless time-dependent function given by:
+     nFΔT                    𝛾rH
+                              B                  B
+                                                CrH
+                                                                                         √
+                   [                                         ]                            𝜆t
+            R                     𝛾oC
+                                   A                 A
+                                                    CoC                           𝜏=                                                                       (9)
+      −                TCold ln       + TCold ln                            (6)          𝛼
+          nFΔT                    𝛾rC
+                                    B                 B
+                                                     CrC
+                                                                                  where t is the measurement time from the start of the transient
+  Here 𝛾oH
+        A
+           , 𝛾rH
+              B
+                 , 𝛾oC
+                    A
+                       , and 𝛾rC
+                              B
+                                 are activity coeﬃcients of redox ions            record, 𝜆 is the thermal diﬀusivity of the sample, 𝛼 is the resis-
+A/B on the hot/cold electrode, while CoH     A     B
+                                                , CrH    A
+                                                      , CoC        B
+                                                            , and CrC are         tance temperature coeﬃcient. The eﬀective thermal conductiv-
+concentrations of redox ions A/B on the hot/cold sides, respec-                   ity 𝜅 i can be calculated based on the slope of line determined by
+                                                                                        3
+tively. This equation suggests that the Si of TECs mainly depends                 p0 (𝜋 2 r𝜅i )−1 from the temperature increases ΔTave versus the di-
+on the ΔCredox of redox ions and ΔSredox of the redox reaction.                   mensionless time D(𝜏). If the 𝜅 i of the electrolyte is excessively
+These factors are indicative of the charge density of the redox cou-              high, maintaining a temperature gradient at both ends of the elec-
+ple and the interaction with surrounding environment.                             trode becomes challenging, resulting in a decrease during TECs
+                                                                                  operation. Moreover, as temperatures at both electrodes gradu-
+                                                                                  ally approach equilibrium, TECs will become inoperative. To op-
+3.2. Electrical Conductivity and Thermal Conductivity                             timize TECs performance, it is crucial that the 𝜅 i of electrolyte is
+                                                                                  kept suﬃciently small.
+The performance of TECs is also aﬀected by electrical conduc-
+tivity 𝜎 i and thermal conductivity ki , both of which are regulated
+by overpotential. During TECs operation, three primary sources                    3.3. Cell Performance
+contribute to overpotential: 1) Ohmic overpotential, which arises
+from the resistance of electrolyte, electrode, and circuit. 2) Charge             The performance of conventional electronic thermoelectric ma-
+transfer overpotential, which results primarily from the dynam-                   terials can be determined using the dimensionless quality
+ics of electron transfer, that is generated from redox reaction,                  parameter,[63] the ﬁgure of merit (ZT). It is deﬁned by:
+at the electrodes surface. 3) Mass transfer overpotential, which
+is mainly related to ion diﬀusion and convection at the elec-                             𝜎S2i
+                                                                                  ZT =            T                                                       (10)
+trode/electrolyte interface and within the bulk electrolyte.                                 𝜅i
+
+
+Adv. Sci. 2025, 12, e06038                               e06038 (5 of 25)                    © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                    21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                      www.advancedscience.com
+
+where Si , T, 𝜎, and 𝜅 i represent the Seebeck coeﬃcient, absolute      erance, and self-healing capability, which further enhance their
+temperature, electrical conductivity, and thermal conductivity, re-     appeal. In Section 4, we summarize the most promising design
+spectively. However, it may not be entirely suitable for evaluating     strategies for optimizing THs in the context of harvesting low-
+the thermoelectrochemical performance of ionic thermogalvanic           grade heat.
+materials. To address this, Yang et al.[64] proposed the thermo-
+electric factor (ZTG ) to better evaluate the performance for TECs.
+This factor considers ion transport kinetics and electrochemical        4.1. Impacts of Polymer Matrix
+processes, and is described by the following formula:
+                                                                        Hydrogels are polymeric materials characterized by 3D net-
+         S2TG                                                           work architectures formed through physical entanglement or
+ZTG =                                                           (11)
+         Rs K                                                           chemical cross-linking of polymers in solution. They have the
+                                                                        ability to retain a substantial amount of water or other ﬂuids
+where K is total thermal conductance, Rs is overall resistance, and     within their structure.[69] Numerous polymers from both syn-
+STG is thermopower. Furthermore, the temperature-insensitive            thetic and natural sources have been employed as host matri-
+maximum power density (Pmax /(ΔT)2 ) and Carnot-relative eﬃ-            ces for THs, including gelatin, cellulose, PVA, polyacrylamide
+ciency (𝜂 r ) are two additional parameters for evaluating TEC’s        (PAAm), poly(vinylidene ﬂuoride-co-hexaﬂuoropropene) (PVDF-
+performance. The former focuses on output performance, while            HFP). The multiple functional groups on polymer chains inter-
+the latter emphasizes energy conversion eﬃciency. TCCs, de-             act with solvent molecules and redox couple ions, eﬀectively trap-
+spite their giant thermopower, are limited by a low 𝜂 r of              ping them in hydrogel networks. This interaction leads to various
+≈10−2 −10−1 %.[64] This low eﬃciency is mainly attributed to            eﬀects such as modifying the ion-solvation environment and en-
+their long thermal charging time, high internal resistance, and         abling selective ion transport.
+the rapid decline of output currents. In contrast, TECs per-               Gelatin, a nature polymer, contains numerous function groups
+formance better as they can directly and continuously convert           (e.g., ─COOH, ─NH2 , and ─OH) that provide strong polar-
+heat to electricity. Recent advancements have led to substantially      izability when subject to an electric ﬁeld.[70,71] The negatively
+higher 𝜂 r of TH-based TECs than TCCs. Notably, an 𝜂 r close            charged gelatin network facilities interactions between cations
+to 5% have been achieved,[65,66] thus unlocking the potential of        and the polymer chain, which creates a selective ion transport
+commercialization.[67] Equations 12 and 13 show the relationship        pathway. Leveraging this characteristic, Liu et al.[38] designed
+between the two parameters and previously mentioned interde-            a gelatin-based device that achieved impressive thermoelectric
+pendent parameters, including Si , 𝜎 i , and 𝜅 i .                      conversion eﬀects by combining redox couple with alkali metal
+                                                                        salt (Figure 2a). In this electrolyte, the Fe(CN)4−/3− redox couple
+Pmax                     A                                              works based on the TG eﬀect, while K+ and Cl− function through
+     = 0.25 ⋅ S2i ⋅ 𝜎i ⋅                                        (12)
+ΔT 2                     d                                              TD eﬀect. The Fe(CN)6 4−/3− /gelatin system can exhibit a Si value
+                                                                        of 4.8 mV K−1 based solely on TG eﬀect. With the addition of KCl,
+       0.25 ⋅ S2i ⋅ 𝜎i
+𝜂r =                     ⋅ Th                                   (13)    the synergetic eﬀect allows the Fe(CN)6 4−/3− /KCl/gelatin system
+             ki                                                         to achieve an impressive Si value of 17 mV K−1 after components
+                                                                        regulation (Figure 2b). Notably, more than 60% of Seebeck coef-
+     Here A, d, and Th are the cross-sectional area of the cell, the
+                                                                        ﬁcient in this system arises from TD eﬀect of KCl (Figure 2c).
+thickness of electrolyte, and the temperature at the hot electrode,
+                                                                           Cellulose, a widely abundant natural biopolymer on earth, fea-
+respectively. The term S2i × 𝜎i in Equations 12 and 13 can be in-
+                                                                        tures numerous hydroxy (─OH) groups with negative charges
+terpreted as the thermoelectric power factor (PF).[68] In summary,
+                                                                        along its polymer chains, which makes it a suitable candidate for
+in order to provide high thermoelectrochemical performance, it
+                                                                        use in THs. Pringle et al.[72] have developed the ﬁrst cellulose-
+is necessary to maximize Si and 𝜎 i values while maintaining a low
+                                                                        based Fe(CN)6 4−/3− hydrogel electrolyte that contains 5% by
+𝜅 i . The THs has the potential to meet the above requirements due
+                                                                        weight of cellulose. This formulation achieves good mechanical
+to their advantageous properties such as satisfactory 𝜎 i (i.e., com-
+                                                                        properties with thermoelectrochemical performance comparable
+parable to their liquid counterparts), high Si and low 𝜅 i , thereby
+                                                                        to that of a LE system (−1.38 mV K−1 ). Bacterial cellulose (BC),
+meriting further investigations.
+                                                                        a member of the cellulose family, not only retains the intrinsic
+                                                                        characteristics of cellulose, but also exhibits mechanical strength
+4. Current Studies on the Critical Design of THs                        that is often lack in natural polymer, thereby making it a focus of
+                                                                        recent research. Furthermore, due to its narrower ﬁber diameter
+In practical applications, the use of THs as the electrolyte for        (below 100 nm) and higher crystallinity (≈70–90%), BC can form
+TECs has garnered extensive attention. The THs oﬀer advan-              a precise and robust network structure capable of accommodat-
+tages such as straightforward manufacturing and eﬀortless in-           ing an abundance of additional components.[73] Additionally, the
+tegration into devices. They also possess adaptable mechanical          presence of nanochannels inside nanoﬁbers allows pure natu-
+properties including elasticity and toughness. By allowing poly-        ral BC hydrogel ﬁbers to exhibit superior ionic conductivity com-
+mer chains to interact with redox couple ions, THs can be engi-         pared to other hydrogels, such as PVA, PAAm, and gelatin.[74]
+neered for enhanced thermoelectrochemical performance, mak-             These characteristics make BC a promising matrix for THs.
+ing them particularly suitable for devices with low-grade heat             In this context, Feng et al.[75] prepared a TH by using BC con-
+harvesting capability. Moreover, THs present various extra func-        ﬁned with Fe(CN)6 4−/3− redox couple and hygroscopic salts. The
+tionalities, including stretchability and robustness, freezing tol-     resulting Fe(CN)6 4−/3− /BC hydrogel not only facilitates heat-to-
+
+
+Adv. Sci. 2025, 12, e06038                e06038 (6 of 25)                     © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                            21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                              www.advancedscience.com
+
+
+
+
+Figure 2. Recent research progress of THs based on gelatin and cellulose. a) Schematic diagram of the synergetic eﬀect in Fe(CN)6 4−/3− /KCl/gelatin. b)
+Comparison of the Seebeck coeﬃcients of the pure gelatin, Fe(CN)6 4−/3− /gelatin, KCl/gelatin, and Fe(CN)6 4−/3− /KCl/gelatin. c) Fractional contribution
+to thermopower of Fe(CN)6 4−/3− /KCl/gelatin. Reproduced with permission.[38] Copyright 2020, The American Association for the Advancement of
+Science. d) Optical photograph of BC-based hydrogel repeatedly lifts a water container weight up to 5000 g. Reproduced with permission.[75] Copyright
+2023, Elsevier. e) Schematic diagram of mechanism and self-discharge behavior of the TEC based on I− /I3 − /MC/BC. Reproduced with permission.[25]
+Copyright 2024, The Royal Society of Chemistry.
+
+
+electricity conversion but also exhibits excellent mechanical prop-           150%, the value of Si remains relatively stable across all cases, and
+erties. It is capable of repeatedly lifting a water container weight          the ionic conductivity of TH signiﬁcantly increases from ≈2.6
+up to 5000 g without loosening or cracking (Figure 2d). In an-                to 4.6 S m−1 (at room temperature). This improvement is at-
+other study, Wang et al.[25] used BC as the polymer matrix in hy-             tributed to aligned nanochannels that function as high-ways for
+drogel and harnessed the hydrophobic interaction between the                  ion transport through PVA chains (Figure 3b). Consequently, the
+methylcellulose and I3 − ions to achieve the n-p conversion of                value of Pmax /(ΔT)2 reaches 0.15 mW m−2 K−2 (ΔT = 10 K) and
+I− /I3 − redox couple, obtaining thermopower values of 1.75 and               0.2 mW m−2 K−2 (ΔT = 40 K), signiﬁcantly higher than other THs
+−6.84 mV K−1 , respectively. Notably, when the temperature gra-               based on randomly cross-linked PVA chains (Figure 3c). Simi-
+dient between the cold and hot side is removed, the device based              larly, Chen et al.[79] employed the unidirectional freezing method
+on this TH can demonstrate self-discharge behavior for up to 44               to alter the original hydrogel network structure and enhance
+hours, which is attributed to the slow dissolution of MC/I3 − com-            the thermoelectrochemical performance of PVA-based TH. Af-
+plexes (Figure 2e).                                                           ter three times freezing training (3 × FT), the structure of hydro-
+   In addition to natural polymers, synthesized polymers also                 gel transforms from random and isotropic to highly anisotropic,
+show potential for use in THs. PVA, as a synthesized poly-                    which facilitates molecular ions transport (Figure 3d). Conse-
+mer, features a simple molecular chain with a hydrophobic                     quently, the thermopower of PVA/Fe(CN)6 4−/3− slightly increases
+(CH2 ─CH2 ) backbone and hydrophilic (─OH) side groups. As                    from ≈1.4 to ≈1.5 mV K−1 , as a result of increased entropy diﬀer-
+early as 1987, Polak et al.[76] made notable advancement by de-               ence of Fe(CN)6 4−/3− within the aligned nanochannels.
+veloping a polymer electrolyte (PVA/H3 PO4 ) that exhibited good                 PAAm is another synthesized polymer matrix for THs. There
+ionic conductivity. Moreover, PVA possesses unique characteris-               are a large number of amide groups on the molecular chain that
+tics, such as non-toxicity, biocompatibility, and good water solu-            easily form hydrogen bonds with solvents like water.[80] This abil-
+bility, making it an ideal matrix for THs.                                    ity enables PAAm to form hydrogel with high water content,
+   The earliest report on PVA-based THs dates back to Zhou                    which demonstrates good biocompatibility, resilience, elastic-
+et al. in 2016,[22] where the TH composite of PVA/Fe(CN)6 4−/3−               ity, and biodegradability. Speciﬁc ions can strongly interact with
+and PVA/Fe2+/3+ demonstrates the Si of 1.21 and −1.02 mV                      PAAm. He et al.[33] discovered that the addition of Fe(CN)6 4−/3−
+K−1 , respectively. Chemically cross-linked PVA has been widely               redox couple does not signiﬁcantly aﬀect the mechanical proper-
+used as a matrix in hydrogels; however, its random and unorga-                ties of PAAm. However, incorporating the Fe3+ /Fe2+ redox couple
+nized network structure limits ion transport, thereby reducing                increases its strain and stress by ≈1.8 times and ≈5 times, respec-
+thermoelectrochemical power.[77] Inspired by the natural mus-                 tively, compared to pure PAAm. This phenomenon arises from
+cles, Wu et al.[78] used PVA as matrix to design an innovative                the formation of a strong ionic cross-linked network between
+TH (Figure 3a). Through carefully designed mechanical train-                  high-valent metal cations and amide groups along the PAAm
+ing, the PVA/Fe(CN)6 4−/3− networks could self-reorganize into a              chain.
+muscle-like hierarchical structure, which signiﬁcantly improves                  Modifying the composition of PAAm-based hydrogels can in-
+long-term mechanical properties while maintaining the original                ﬂuence their properties, upon which unique functions are en-
+thermopower. Remarkably, as the pre-strain increases from 0 to                abled. Chen et al.[61] developed a smart PAAm-based TH for
+
+
+Adv. Sci. 2025, 12, e06038                   e06038 (7 of 25)                          © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                        21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                          www.advancedscience.com
+
+
+
+
+Figure 3. Recent research progress of THs based on PVA. a) Schematic illustration of bio-inspired design and hierarchical structure of PVA hydrogel
+network. b) Thermopower and ionic conductivity of the PVA-based TH after mechanical training at diﬀerent pre-strains. c) Current−voltage curve and
+output power density of the PVA-based TH under diﬀerent ∆T. Reproduced with permission.[78] Copyright 2022, Wiley-VCH. d) Schematic diagram
+and SEM images of the unidirectional freezing strategy to construct anisotropic PVA networks in TH. Reproduced with permission.[79] Copyright 2022,
+American Chemical Society.
+
+
+eﬃcient evaporative cooling and low-grade heat harvest. This TH            cal capabilities. Because of this, the composite hydrogel has been
+utilizes Fe(CN)6 4−/3− redox couple for heat-to-electricity conver-        intensively investigated in TCCs.[81,82] Similarly, the SA/PAAm
+sion and hygroscopic LiBr for adaptive evaporation and absorp-             composite hydrogel is also an ideal matrix for THs. Liu et al.[27]
+tion cycles. It demonstrates a viable method for stable harvest            successfully developed a SA/PAAm-based quasi solid-state TEC,
+of waste low-grade heat (Figure 4a). When blended with ioni-               where Fe3+ /Fe2+ redox couple in hydrogel not only resulted in
+cally crosslinked sodium alginate (SA), the resulting double net-          the TG eﬀect but also served as ionic crosslinkers (Figure 4b).
+work SA/PAAm-based hydrogels exhibited remarkable mechani-                 This ionic cross-linking network enhances ion transport through
+
+
+Adv. Sci. 2025, 12, e06038                  e06038 (8 of 25)                       © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                          21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 4. Recent research progress of THs based on PAAm. a) Schematic illustration of the composition and working principle of the smart hydrogel.
+Reproduced with permission.[61] Copyright 2020, American Chemical Society. b) Cross-linking structures and working mode in PAAM/SA/Fe3+ /Fe2+ .
+Reproduced with permission.[27] Copyright 2022, Springer. c) Schematic illustration of composite polymer network and UV–vis spectra of the
+K3 Fe(CN)6 /K4 Fe(CN)6 aqueous solution (with or without AMPS). Reproduced with permission.[59] Copyright 2021, Elsevier. d) Schematic of the work-
+ing mechanisms of dicyandiamide and MA. e) The value of thermopower of diﬀerent ionic gel components. f) Recorded voltage and current curves of
+device’s three operating stages with an external resistance of 20 Ω. Reproduced with permission.[87] Copyright 2024, The Royal Society of Chemistry. g)
+Schematic of triple-network TH preparation process and corresponding optical photo. Reproduced with permission.[88] Copyright 2024, Elsevier.
+
+
+solvation structures, resulting in a Si up to 1.43 mV K−1 , and can          AM to constructed polymer-network for TH. The quaternized
+signiﬁcantly improve the mechanical properties of the TH.                    cation has strong interactions with Fe3+ ion, which enlarges the
+   Other polymers, such as PVDF and PVDF-HFP, can serve as                   entropy diﬀerence between Fe3+/2+ redox couple, thereby improv-
+host for hydrogels due to their polar C−F chemical bonds and                 ing the thermopower based on the TG eﬀect.
+excellent liquid absorption capability.[83,84] Pringle et al.[28] used          The contribution of TD eﬀect to the thermopower generated
+PVDF and PVDF-HFP as polymer matrix and incorporated water                   by redox couple is relatively small and usually neglected.[86] Re-
+and the Co(bpy)3 2+/3+ redox couple to prepare TH. They reported             cently, Li et al.[87] proposed a novel strategy to increase ther-
+a high thermopower of ≈1.80–1.84 mV K−1 .                                    mopower and output power of TH by leveraging the syn-
+   In addition to the single polymer matrices, research on                   ergy between TG and TD eﬀect based on a single Fe3+/2+ re-
+THs constructed by cross- linking polymer-polymer combina-                   dox couple. As shown in Figure 4d, the TH consists of chi-
+tions to enhance thermoelectrochemical performance has also                  tosan/guanidine/melamine (CG-MA)-FeCl3/2 system featuring a
+gained attention. Wu et al.[59] designed an TH by crosslinking               double network structure. The positively charged N+ groups of
+2-acrylamide-2-methylpropane sulfonic acid (AMPS) and acry-                  guanidine increase the overall number of positive charges in the
+lamide (AM) monomers to create a hydrogel network. The com-                  polymer backbone, which accelerates migration rate of Cl− ions.
+posite hydrogel network favored interactions with redox couples,             The CG-MA polymer network can be complexed with Fe3+ ions
+which results in an increased entropy diﬀerence and enhanced                 on the cold side due to the chelating eﬀect of MA. This leads
+thermopower (Figure 4c). Similarly, Chen et al.[85] selected a               to an enhancement in both the entropy diﬀerence and concen-
+chaotropic comonomer of methyl chloride quaternized N, N-                    tration diﬀerence of Fe3+ /Fe2+ redox couple. The thermopower
+dimethylamino ethylacrylate (DMAEA-Q) and combined it with                   attributed to the TG eﬀect of the optimal CG-MA4% -FeCl3/2 in-
+
+
+Adv. Sci. 2025, 12, e06038                   e06038 (9 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                                                                                                                                                                                                                                                       © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+
+
+
+
+              www.advancedscience.com
+                                                                                                                                                                                                                                                                                                                                     e06038 (10 of 25)
+              www.advancedsciencenews.com
+                                                                                                                                                                                                                                                                                                                                       Adv. Sci. 2025, 12, e06038
+                                                                                                                                                          21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+creased from original value of −1.04 to −3.69 mV K−1 , culmi-                   Fe3+/2+ , as a redox couple without ligands, interacts more di-
+nating a total value of −7.24 mV K−1 (Figure 4e). Notably, the               rectly with solvent molecules. According to Lewis’s acid–base the-
+TG eﬀect in this TH is the primary contributor that accounts for             ory, Fe3+/2+ ions acts as electron acceptor. The ability of solvent
+over 50% of the total Si value. Additionally, the 90-min output              molecules to provide electron pairs can be quantiﬁed by the donor
+energy density of the quasi-solid-state device reaches a record-             number (DN).[92,93] Solvents with varying DNs can modify the sol-
+breaking 17.93 kJ m−2 (ΔT = 25 K) during continuous operation                vation structure compared to an purely aqueous environment,
+(Figure 4f).                                                                 leading to changes in entropy diﬀerence between the redox cou-
+   The physical structure of the hydrogel network plays a crucial            ple ions. Sun et al.[94] illustrated the impact of solvent molecules
+role in the performance of THs. Liu et al.[88] constructed a triple-         on solvation shell dynamics by examining solvents with diﬀerent
+network hydrogel composed of PAAm, PVA, cellulose nanoﬁber                   DN. They introduced organic solvents with diﬀerent DNs into a
+(CNF), and Fe(CN)6 4−/3− redox couple for the application in TECs.           Fe3+/2+ /PAAm/water matrix to construct THs. The addition of
+In this system, the PAAm network provides shape construction                 tetramethylene sulfone (TLS), a solvent with high DN, reduced
+ability, the PVA network imparts ﬂexibility, and the CNF net-                the Si value to 0.74 mV K−1 , while dimethyl sulfoxide (DMSO),
+work enhances the mechanical properties by penetrating into the              a solvent with low DN, signiﬁcantly increased the Si value to
+other polymer networks (Figure 4g). After optimizing the com-                2.49 mV K−1 (Figure 5b).
+ponent ratios, the resulting TH with an ideal hydrogel structure                The relationship between solvent DN and Si can be interpreted
+exhibits a high ionic conductivity 168 mS cm−1 , a high PF of                from a theoretical perspective. In the TLS–based TH, the smaller
+47.9 μW m−1 K−2 , and a ZT value of 0.06. This performance en-               radius of the Fe3+ ion solvent shell increases in entropy diﬀerence
+hancement can be attributed to precise control of the nanostruc-             of Fe3+/2+ redox couple, leading to enhanced thermopower. Con-
+tures within the hydrogel matrix that can signiﬁcantly improve               versely, in the DMSO-based TH, the larger radius of the Fe3+ ion
+ion transport.                                                               reduces the entropy diﬀerence, resulting in lower thermopower
+                                                                             (Figure 5c). The inﬂuence of solvation shell structure on the ther-
+4.2. Inﬂuence of Liquid Phase                                                mopower of redox couple can also be predicted using atomistic
+                                                                             simulations. Yang et al.[95] employed free energy perturbation
+In addition to the polymer matrix, the liquid phase, as a key com-           (FEP) method in molecular dynamics (MD) simulations to quan-
+ponent, signiﬁcantly impacts THs. In the liquid phase, ions in               tify the partial entropy change. The predicted thermopower of the
+solvent are complexed by solvent molecules, forming a solvation              redox couple in liquid electrolyte agrees well with experimental
+shell through charge–dipole interaction.[89] This process alters             results. For a water/acetone mixed system, they performed FEP
+the properties of redox couple ions and inﬂuences the thermo-                computations and solvation structure analysis. The results con-
+chemical performance of the THs. Speciﬁcally, solvation impacts              ﬁrm that the thermopower of Fe3+/2+ redox couple obtained ex-
+THs through two ways: 1) it changes the solubility of redox couple           perimentally aligns well with MD prediction (Figure 5d). Notably,
+ions, which induces thermosensitive crystallization/precipitation            only at high acetone fractions (ϕwt ≥ 60%), the thermopower sig-
+of speciﬁc redox couple ions (e.g., Fe(CN)6 4− ). 2) It aﬀects the en-       niﬁcantly increases due to the signiﬁcant change in the solvation
+tropy diﬀerence of redox couple ions by altering/reconstructing              shell order (Figure 5e).
+the solvation shell of redox ions.                                              When organic solvents are mixed with water in electrolytes,
+   In the case of liquid electrolyte, Kim et al.[43] introduced or-          they not only lead to entropy diﬀerence by altering the solva-
+ganic solvents into a Fe(CN)6 4−/3− aqueous electrolyte to reor-             tion structure but also induce a concentration diﬀerence (ΔCr )
+ganize the solvation shell of redox couple. They demonstrated                in the redox couple ions, thereby enhancing the thermoelectro-
+that adding solvents with Hildebrand solubility parameter rang-              chemical performance of electrolytes. Wang et al.[73] prepared
+ing from 19.7 to 34.9 MPa1/2 could enhance the thermopower of                BC hydrogels immersed in H2 O/propylene glycol (PG) solution
+electrolyte. Notably, the addition of methanol to the Fe(CN)6 4−/3−          of Fe(CN)6 4−/3− for quasi solid-state TEC. They found that PG
+aqueous electrolyte signiﬁcantly improved the thermopower                    triggered the gradual crystallization of K4 Fe(CN)6 to create a
+from −1.43 to −2.9 mV K−1 . This is attributed to reorganiza-                ΔCr between redox couple ions, which signiﬁcantly increased
+tion of the solvation shell around Fe(CN)6 4− , which increased              the Seebeck coeﬃcient from 1.39 to 2.30 mV K−1 (Figure 6a).
+the entropy diﬀerence between redox ions (Figure 5a). Moritomo               Furthermore, Fourier transform infrared (FTIR) spectra revealed
+et al.[90] systematically studied the impact of organic solvent on           that the C≡N characteristic peak of Fe(CN)6 4−/3− ions remained
+the Fe(CN)6 4−/3− aqueous electrolyte and proposed an empirical              unchanged in the H2 O/PG solution. This indicates that the
+volume eﬀect, highlighting the considerable inﬂuence of solvent              Fe(CN)6 4−/3− ions in the mixed solution are preferentially sol-
+on thermopower. In addition, Moritomo et al.[91] explored sol-               vated by water, with PG having no noticeable eﬀect on their sol-
+vent impact on the thermopower of FeCl3 /FeCl2 and found that                vation (Figure 6b). These results suggest that ΔCr is the primary
+Fe3+/2+ /acetone can achieve a thermopower of 3.6 mV K−1 , nearly            factor for enhanced thermoelectrochemical performance of this
+three times that of the pristine Fe3+/2+ /water.                             system.
+
+
+Figure 5. Inﬂuence of solvation structure on the thermopower of TECs. a) Signiﬁcant elevated thermopower from the boosted structural entropy dif-
+ference of Fe(CN)6 4−/3− redox couple reported by Kim et al. Reproduced with permission.[43] Copyright 2024, Elsevier. b) Si values of THs with various
+organic solvents with diﬀerent DN. c) First solvation shell of the Fe3+ with TLS and DMSO was introduce into electrolyte, and the radial distribution
+function calculation results. Reproduced with permission.[94] Copyright 2022, The Royal Society of Chemistry. d) Molecular dynamics prediction of
+thermopower in various electrolytes. e) Correlation between solvation order change and the temperature coeﬃcients. Reproduced with permission.[95]
+Copyright 2023, Wiley-VCH.
+
+
+
+Adv. Sci. 2025, 12, e06038                  e06038 (11 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                          21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 6. Inﬂuence of ion concentration on the thermopower of TECs. a) Seebeck coeﬃcient of TECs with diﬀerent PG content. b) FTIR spectra of
+0.4 m Fe(CN)6 4− and Fe(CN)6 3− in aqueous and H2 O/PG solutions. Reproduced with permission.[73] Copyright 2023, Wiley-VCH. c) Photos of 0.4 m
+Fe(CN)6 3− , Fe(CN)6 4− , and Fe(CN)6 4−/3− solutions with diﬀerent EG:H2 O ratios. d) The Fe(CN)6 4−/3− redox couple ions concentration and concentra-
+tion ratio at hot and cold sides under diﬀerent ΔT. e) Seebeck coeﬃcient of the PAAm-based hydrogel electrolyte with various EG:H2 O ratios. Reproduced
+with permission.[23] Copyright 2024, Wiley-VCH.
+
+
+   In a separate study, Liu et al.[23] designed an ethylene glycol           various additives. In general, the entropy diﬀerence and con-
+(EG)/PAAm-based TH for quasi-solid-state TEC, which could op-                centration diﬀerence of a redox couple can be modulated by
+erate continuously at sub-zero temperature due to the EG’s ability           regulating the interactions between ions and additives. Guani-
+to prevent freezing by disrupting the hydrogen bonds between                 dine salts, which rank highly in the chaotropic sequence, are
+water molecules. Additionally, the solubility of Fe(CN)6 4−/3− re-           known to destabilize non-covalent bonding interactions. Among
+dox couple ions in EG solvent varies signiﬁcantly. As shown in               these, guanidinium chloride (GdmCl), the most widely used
+Figure 6c, Fe(CN)6 3− ion did not precipitate in solutions with              chaotrope, has been extensively investigated for its impact on wa-
+EG ratios ranging from 0 to 40 vol% at ambient temperature,                  ter structures.[96]
+while Fe(CN)6 4− ion began to precipitate at an EG ratio of 20                  Considering the Fe(CN)6 4−/3− redox couple as chaotropic an-
+vol%. Moreover, the solubility of Fe(CN)6 4− increases with tem-             ions, Zhou et al.[97] reported that GdmCl acts as chaotropic
+perature, allowing it to dissolve at the hot side (Figure 6d). This          cations, signiﬁcantly interacting with the redox couple in aque-
+creates a concentration gradient across the TH, which drives                 ous electrolyte. Through chaotrope–chaotrope interactions, the
+the migration of Fe(CN)64−/3− redox couple ions and introduces               solvation shells of Fe(CN)6 4−/3− redox couple undergo rearrange-
+a crystallization/dissolution process that enlarges the entropy              ment, which enhances the structural entropy diﬀerence and
+diﬀerence. Consequently, the PAAm-based TH exhibits a re-                    nearly doubles the Si value (Figure 7a). In a subsequent study, a
+markable increase in thermopower, from 1.30 to 2.04 mV K−1                   more intriguing property of GdmCl was uncovered.[98] Utilizing
+(Figure 6e).                                                                 the selective thermosensitivity of Gdm+ cation, they tuned the en-
+                                                                             tropy diﬀerence and concentration diﬀerence of Fe(CN)6 4−/3− re-
+                                                                             dox couple by the thermal crystallization/dissolution (Figure 7b).
+4.3. Use of Additives                                                        As a result, the device exhibits an outstanding Carnot eﬃciency
+                                                                             (≈11.1%) and a high thermopower of 3.7 mV K−1 . These discov-
+Recent eﬀorts in designing THs have signiﬁcantly improved                    eries highlighted Gdm salts as promising additives for THs due
+thermoelectrochemical performance in many systems by using                   to their unique properties.
+
+
+Adv. Sci. 2025, 12, e06038                  e06038 (12 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                         21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                           www.advancedscience.com
+
+
+
+
+Figure 7. Eﬀects of guanidine-based additives. a) An illustration of the solvation forms of redox couple. Reproduced with permission.[97] Copyright
+2018, Springer. b) Schematic of thermosensitive dissolution/crystallization process. Reproduced with permission.[98] Copyright 2020, The American
+Association for the Advancement of Science. c) The morphology comparison of diﬀerent types of STHTs. d) The Pmax /ΔT2 of the STHTs with increased
+of GdmCl concentrations. e) The digital photo of 16 hydrogel blocks connected devices. Reproduced with permission.[100] Copyright 2024, Wiley-VCH. f)
+Diagram of molecular engineering of (Gdm)2 SO4 to inﬂuence the performance of FTGA. g) Stress–strain and compressive curves of diﬀerent hydrogels.
+h) The Carnot-relative eﬃciency of the FTGA (cold side was ﬁxed at 298 K). Reproduced with permission.[65] Copyright 2024, Springer.
+
+
+   Building on Zhou’s method for inducing crystallization, Ma               K−2 , a 41.5% increase over that of RTC-type hydrogel (Figure 7d).
+et al.[99] reported an impressive thermopower of 4.4 mV K−1                 Moreover, under a ΔT of ≈25 K, a device composed of 16 LNQ-
+in the PAAm/SA/Fe(CN)6 4−/3− hydrogel by adding the GdmCl                   type hydrogel blocks achieved a relatively high voltage of 0.85 V,
+to promote Fe(CN)6 4− crystallization. Although the crystallized            demonstrating its potential for practical application (Figure 7e).
+product can be conﬁned and recycled within the hydrogel, the                   Due to the diverse impact of GdmCl on the mechanical prop-
+crystals tend to precipitate on the surface of hydrogel electrolyte,        erties of hydrogel, researchers are investigating the application
+growing into large grains and resulting in low utilizing rates.             of other guanidine salts in the TH. In this context, Wang et al.[65]
+To address this, Ma’s group drew inspiration from the rapid                 proposed the use of a guanidine sulfate ((Gdm)2 SO4 ) in TH to
+cooling of metallic alloys and employed liquid nitrogen quench-             induce thermosensitive crystallization. As shown in Figure 7f,
+ing (LNQ) strategy to enhance the performance of PAAm-based                 both the thermopower and the mechanical properties of hydro-
+TH.[100] As shown in Figure 7c, hydrogel treated with LNQ ex-               gel are enhanced. By combining this approach with directional
+hibited signiﬁcant diﬀerences in morphology compared to those               freezing method to create aligned channels within PVA matrix,
+with room temperature cooling (RTC). The LNQ-type stretchable               the resulting ﬂexible thermogalvanic armor (FTGA) composed of
+thermogalvanic hydrogel threads (STHTs) have only a few tiny                PVA/Fe(CN)6 4−/3− /(Gdm)2 SO4 demonstrated both an outstand-
+crystals on their surface, attributed to the suppression of grain           ing Seebeck coeﬃcient (5.58 mV K−1 ) and a high ionic conductiv-
+growth and the better dispersion of small grains in the hydro-              ity (12.98 S m−1 ). Furthermore, thanks to its structure design and
+gel. Thanks to the eﬃcient utilization of GdmCl, the maximum                salting-out eﬀect of the SO4 2− anion, the FTGA exhibits excellent
+value of Pmax /ΔT2 of LNQ-type hydrogel reached 2227.5 μW m−2               mechanical properties, which facilitates better integration with
+
+
+Adv. Sci. 2025, 12, e06038                 e06038 (13 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                           21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 8. Eﬀects of other additives. a) Diagram of the forming process of the gelatin/betaine/Fe(CN)6 4−/3− hydrogel. b) The inﬂuence of betaine concen-
+tration on the thermopower. Reproduced with permission.[60] Copyright 2024, Wiley-VCH. The thermopower of MXene-boosted hydrogel after multiple
+c) stretching cycles at 500% strain and d) self-healing cycles. Reproduced with permission.[32] Copyright 2023, Springer. e) Schematic of ion diﬀusion
+in graph/gelatin/Fe(CN)6 4−/3− hydrogel. f) Power density-voltage-currently density curves for the device (four cells in series) at 323 K and ΔT = 3 K.
+Reproduced with permission.[24] Copyright 2024, The Royal Society of Chemistry.
+
+
+devices (Figure 7g). Importantly, the value of Carnot eﬃciency                materials, possess abundant surface terminations that impart
+of FTGA, 8.53% near room temperature, surpassed the commer-                   unique functions.[17,101] Liu et al.[32] combined the Ti3 C2 Tx MX-
+cialization threshold (5%) (Figure 7h). Moreover, owing to high               ene nanosheet with polyacrylic acid (PAA)/GdmCl/Fe(CN)6 4−/3−
+thermoelectrochemical performance and good mechanical prop-                   hydrogel to create a new TH. It is found that numerous hy-
+erties, a large-scale and ﬂexible FTGA module made of 36 units                drogen bonds were formed between carboxyl groups of the
+was fabricated by 3D printing technology. When mounted on a                   PAA chain and polarized end groups of the MXene nanosheet,
+human arm, the module generated a voltage of 0.58 V from body                 which eﬀectively enhances the mechanical properties of hy-
+heat (ΔT ≈ 5 K).                                                              drogel. Remarkably, even after 1000 cycles of 500% stretch-
+   Recently, researchers have identiﬁed various other additives.              ing, the composite TH maintained its integrity and exhibited
+Chen et al.[60] employed straightforward one-pot method to pre-               high thermopower (Figure 8c). Moreover, MXene nanosheet en-
+pare a gelatin/betaine/Fe(CN)6 4−/3− TH (Figure 8a). The abun-                dows TH with self-healing capabilities. After 60 cut-healing cy-
+dant −N+ (CH3 )3 cation and −COO− anion groups in betaine                     cles, the thermopower of TH remained ≈2.30 mV K−1 , cor-
+zwitterions can interact with the polymer chains to improve                   responding to ≈90% of the initial value (Figure 8d). Conse-
+the mechanical properties of the TH and selectively rearrange                 quently, the TEC based on the PAA/GdmCl/Fe(CN)6 4−/3− /MXene
+the solvated structure of Fe(CN)6 3− to enlarge the entropy dif-              hydrogel functions eﬀectively as a self-powered strain sen-
+ference. As a result, the thermopower of gelatin-based TH                     sor. Stable thermopower with high repeatability and sen-
+was boosted to 2.2 mV K−1 (Figure 8b). Additionally, MXenes,                  sitivity over a wide strain range of 20% to 400% were
+a new category of 2D transition metal carbides and nitrides                   produced.
+
+
+Adv. Sci. 2025, 12, e06038                  e06038 (14 of 25)                         © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                         21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                           www.advancedscience.com
+
+
+
+
+Figure 9. Other methods. a) The ratio of various parameters related to thermoelectrochemical performance for all-inorganic TH after recurrent crush-
+gelation to original. Reproduced with permission.[102] Copyright 2024, The American Association for the Advancement of Science. b) Schematic of
+the synergetic eﬀect of anisotropic PVA network and 3D hierarchical Cu electrode. Reproduced with permission.[103] Copyright 2024, Wiley-VCH. c)
+Schematic of double sandwich structure TEC under temperature gradient and the voltage distribution. Reproduced with permission.[104] Copyright
+2024, The Royal Society of Chemistry. d) Schematic diagram and working mechanism of in situ photocatalytically enhanced TEC. e) Thermopower of
+Ov -WO3 /PPA/Fe(CN)6 4−/3− /Sv -ZIS. Reproduced with permission.[66] Copyright 2023, The American Association for the Advancement of Science.
+
+
+   Graphene, a widely used carbon material, can serve as not                   In TECs, the THs have been utilized not only as aqueous or
+only an electrode but also an additive in THs. Niu et al.[24] exam-         organic gels, but also as all-inorganic gel. Huang et al.[102] re-
+ined the eﬀects of various forms of graphene, Gr, rGO, and GO,              port the development of an all-inorganic TH made by simply
+on the thermochemical performance in gelatin/Fe(CN)6 4−/3− hy-              combining and stirring two inorganic salt solutions (FeCl3 and
+drogel. Graphene acts as a “‘bridge”’ that connects surrounding             (NH4 )6 Mo7 O24 . 4H2 O). The reactions between various ions (e.g.,
+free water clusters, facilitating quicker ion diﬀusion and thereby          Fe2+ , NH4+ , and MoO4 2− ) in mixed solution not only produce
+enhancing the thermopower associated with the thermodiﬀu-                   Fe2+ to form Fe2+/3+ redox couple for heat-to-electricity conver-
+sion component (Figure 8e). As a proof-of-concept, the TH de-               sion but also facilitating the self-assembly of hydrogel network
+vice, comprising four cells in series, produced an output power             through bond linkage. Moreover, after being completely crushed,
+Pmax /(ΔT)2 = 1.2 mW m−2 K−2 , which represents a record-high               this all-inorganic hydrogel can re-gel by reversibly destroying
+value (Figure 8f).                                                          and repairing hydrogen bonds, which demonstrates highly sta-
+                                                                            ble thermoelectrochemical performances (Figure 9a).
+                                                                               Collaborative construction of a hydrogel network and electrode
+4.4. Other Methods                                                          structure design presents a promising approach to enhancing
+                                                                            thermoelectrochemical performance of TECs. Gao et al.[103] re-
+Other methods for enhancing THs include fundamental compo-                  ported a high-power n-type TH that incorporates Cu2+ /Cu0 redox
+sition design, specialized structure design, and the integration of         couple into PVA hydrogel networks and leverages the synergistic
+photocatalysis, etc.                                                        engineering of Cu electrodes (Figure 9b). The fast ion transport
+
+
+Adv. Sci. 2025, 12, e06038                 e06038 (15 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                  21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                    www.advancedscience.com
+
+Table 2. A summary of performance metrics of reported THs.
+
+Materials                    Redox couple        Ionic conductivity (𝜎 i ) [S m−1 ]        Thermopower (Si ) [mV K−1 ]      Pmax /ΔT2 [mw m−2 K−2 ]       Refs.
+
+Gelatin/KCl                  K4/3 Fe(CN)6                        /                                    17.0                             /                   [38]
+Cellulose                    K4/3 Fe(CN)6                        /                                    1.38                             /                   [72]
+BC                           K4/3 Fe(CN)6                        /                                    1.41                          ≈0.03                  [75]
+BC/MC                           I− /I3 −                         /                                    1.75                             /                   [25]
+                                                                 /                                   −6.84
+PVA                          K4/3 Fe(CN)6                       ≈1                                    1.21                             /                   [22]
+                                FeCl3/2                        ≈0.6                                  −1.02
+PVA                          K4/3 Fe(CN)6                       4.6                                   1.40                           0.20                  [78]
+3FT-PVA                      K4/3 Fe(CN)6                       4.6                                   1.50                           0.22                  [79]
+PAAm                         K4/3 Fe(CN)6                      ≈1.3                                   1.37                           0.31                  [33]
+                             Fe(ClO4 )3/2                      ≈6.5                                  −1.65                           0.4
+PAAm/SA                         FeCl3/2                        ≈0.4                                   1.43                             /                   [27]
+PVDF                         Co(bpy)3 3+/2+                      /                                    1.80                          0.0144                 [28]
+PAAm/AMPS/NaCl               K4/3 Fe(CN)6                       12                                    1.60                           0.61                  [59]
+PAAm/DMAEA-Q                    FeCl3/2                         ≈1                                    2.02                           0.10                  [85]
+CG/MA                           FeCl3/2                       12.78                                  −7.24                             /                   [87]
+PAAm/PVA/CNF                 K4/3 Fe(CN)6                      16.8                                   1.69                             /                   [88]
+BC/PG                        K4/3 Fe(CN)6                      0.53                                   2.30                             /                   [73]
+PAAm/EG/MXene                K4/3 Fe(CN)6                      1.65                                   2.04                          0.160                  [23]
+PAAm/SA/GdmCl                K4/3 Fe(CN)6                      10.5                                    4.4                           1.78                  [99]
+LNQ-type STHTs               K4/3 Fe(CN)6                       8.8                                    4.5                           2.27                 [100]
+FTGA                         K4/3 Fe(CN)6                     12.98                                   5.58                           11.9                  [65]
+Gelatin/Betaine              K4/3 Fe(CN)6                       3.5                                    2.2                           0.48                  [60]
+PAA/MXene/GdmCl              K4/3 Fe(CN)6                      ≈4.3                                   2.57                             /                   [32]
+All-inorganic TH                FeCl3/2                         9.3                                   1.64                         0.00273                [102]
+Gelatin/Graphene             K4/3 Fe(CN)6                      0.20                                   13.0                            1.2                 [104]
+PPA/Ov -WO3                  K4/3 Fe(CN)6                        /                                    8.20                           8.50                  [66]
+
+
+
+channels in the anisotropic PVA hydrogel matrix, combined with                        cilitates the forward reaction from FeCN3− to FeCN4− and pro-
+high speciﬁc surface area 3D hierarchical Cu electrode, accel-                        moting the generation of O2 from H2 O. This results in a high
+erated redox reaction kinetics and signiﬁcantly increased out-                        amount of FeCN4− on the hot side. Conversely, the Sv -ZIS func-
+put power by ≈15 times compared to the original TEC based on                          tions as a H2 -evolution photocatalyst (HEP) in the lower layer
+isotropic PVA and planar Cu.                                                          of the PAA matrix. On the cold side, FeCN4− converts back to
+   By utilizing hydrogel structure design strategy, diﬀerent redox                    FeCN3− and H2 is generated from H2 O, wherein FeCN3− con-
+couples can be integrated into a single TEC system to achieve                         centration is increased. Under light irradiation situations, the for-
+high performance. In this context, Niu et al.[104] designed a                         mation of a continuous concentration gradient of the redox cou-
+quasi-solid-state TEC featuring double sandwich structure of                          ple leads to a signiﬁcant improvement in the thermopower of
+graphite paper (GP)|gelatin/Fe(CN)6 4−/3− |GP|gelatin/I− /I3 − |GP.                   Ov -WO3 /PPA/Fe(CN)6 4−/3− /Sv -ZIS system, which increases 2.7
+The p-type Fe(CN)6 4−/3− exhibits a negative electrode temperature                    to 8.2 mV K−1 , an enhancement of ≈3 folds (Figure 9e). The com-
+coeﬃcient, while the n-type I− /I3 − has a opposite value. The elec-                  prehensive data provided in Table 2 oﬀers a detailed overview of
+trode potential diﬀerence (ΔΦ) was incorporated into the TEC                          the thermoelectrochemical performance of various THs.
+system through the association of asymmetric THs (Figure 9c).
+These asymmetric THs provided additional electrochemical en-                          5. Emerging Application Aspects
+ergy to the TEC system. Consequently, more ionic thermoelectro-
+chemical energy was generated and thermopower, output power                           Compared to traditional electron-based thermoelectric materi-
+density, and energy density were collaboratively improved.                            als that rely on the electronic Seebeck eﬀect, TECs utilizing the
+   In certain cases, catalysis can signiﬁcantly enhance the                           thermogalvanic eﬀect can also directly convert heat into electric-
+performance of TECs as well. Li et al.[66] proposed an in                             ity, while exhibiting signiﬁcantly higher thermopower. TH pos-
+situ photocatalysis-assisted integrated system (WO3 photocata-                        sesses excellent mechanical properties, high thermopower out-
+lyst containing CoOx (Ov -WO3 )/polyacrylic acid-based TEC/Pt-                        put, and low temperature gradient requirements, which makes
+containing ZnIn2 S4 (Sv -ZIS)) to boost the redox reaction. As il-                    them well-suited for fabricating quasi-solid-state TECs targeting
+lustrated in Figure 9d, Ov -WO3 serves as an O2 -evolution pho-                       low-grade heat harvesting. Very often, a single module cannot
+tocatalyst (OEP) in the upper layer of PAA matrix, which fa-                          generate adequate output voltage for practical applications due
+
+
+Adv. Sci. 2025, 12, e06038                    e06038 (16 of 25)                              © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                    21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                      www.advancedscience.com
+
+
+
+
+Figure 10. The TH-based device integration mode. Schematic diagram of a) the connection methods of single module b) and ionic thermoelectric
+devices. Reproduced with permission.[106,107] Copyright 2022, Elsevier.; Copyright 2020, Wiley-VCH.
+
+
+
+to a slight temperature gradient involved. To address this, multi-     PVA/Fe3+/2+ (n-type) THs. They developed a proof-of-concept
+ple units are usually connected in series or parallel to generate a    wearable TEC capable of generating an output voltage up to
+constructed ionic thermoelectric device. This enables the genera-      1.0 V by using the human body as the energy source. Similar
+tion of useful thermovoltage (> 1.0 V) to meet diverse application     application have been explored in other studies.[33,108] Recently,
+requirements.[105]                                                     Chen et al.[109] demonstrated a wearable device based on TH
+   Typical integrated TEC devices can be constructed by two pri-       that continuously and stably utilizes a small temperature gra-
+mary methods to connect single modules to enable high power            dient of 1.7 K between the human arm skin and the surround-
+density and output voltage (Figure 10a). The ﬁrst method, known        ing environment to generate power (Figure 11a). In another
+as Z-shaped connection, is suitable for devices using either p-        study, Ma et al.[110] developed a highly ﬂexibility and antifreez-
+or n-type materials. The second method, called Π-shaped con-           ing PAAm/SA/EG/Fe(CN)6 4−/3− TH, which was incorporated it
+nection, is designed for combining the p- and n-type materials.        into a wearable thermoelectric shoe for harvesting human body
+One of the most promising applications of ionic thermoelectro-         heat in a simulated cold environment of −30 °C (Figure 11b).
+chemical devices is power generation, which harnesses energy              The temperature diﬀerence between human living environ-
+from the small temperature gradient in our surrounding envi-           ment and the natural environment also holds signiﬁcant poten-
+ronment. These self-powering ionic electricity devices can be cat-     tial for energy utilization. During summer or winter, the external
+egorized into vertical or lateral structures based on their design     temperature of buildings becomes relatively high or low. This cre-
+(Figure 10b). By integrating both n-type and p-type materials into     ates a substantial temperature gradient between indoor and out-
+a single module array, the internal circuit of the device is simpli-   door spaces. In this context, Ma et al.[111] proposed that the TH-
+ﬁed.                                                                   based devices have promising applications in smart buildings for
+                                                                       energy supply, particularly in cities with extreme hot and cold cli-
+                                                                       mates (Figure 11c).
+5.1. Energy Harvesting                                                    Another abundant natural heat source is solar radiation, which
+                                                                       could be harnessed as an energy source for TECs, as sun-
+Human body heat is a readily available natural heat source with        light produces a heat ﬂux density of 1 kW m−2 on Earth’s sur-
+enormous potential for directly powering wearable devices by           face. Yan et al.[112] developed an all-weather, temperature self-
+leveraging the temperature gradient between the human body             supplying ionic thermoelectric device that combines a thermo-
+and its surroundings. In this context, Zhou et al.[22] ﬁrst demon-     galvanic ionogel-based TEC with passive radiative cooling to sus-
+strated the feasibility of a self-powering vertical device using       tainably generate electricity sustainably (Figure 11d). The inte-
+an TH composed of 59 pairs of PVA/Fe(CN)6 4−/3− (p-type) and           grated TECs, comprising of 80 units, delivered a voltage of > 45 V
+
+
+Adv. Sci. 2025, 12, e06038               e06038 (17 of 25)                     © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                        21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                          www.advancedscience.com
+
+
+
+
+Figure 11. Performance of self-power devices based on THs. a) Implementation of the device to the arm generates a continuous and stable voltage
+output. Reproduced with permission.[109] Copyright 2024, Wiley-VCH. b) Wearable thermoelectric shoes for waste heat harvesting. Reproduced with
+permission.[110] Copyright 2023, American Chemical Society. c) Illustration of generated power of the smart house in simulative winter and summer.
+Reproduced with permission.[111] Copyright 2024, Springer. d) A diagram of the thermogalvanic ionogel-based TEC for all-weather power production.
+Reproduced with permission.[112] Copyright 2024, Wiley-VCH.
+
+
+
+under the solar intensity of 1000 W m−2 and achieved a higher              tween the surrounding and the heat produced by human breath-
+Pmax /∆T2 of 25.84 mW m−2 K−2 .                                            ing, as shown in Figure 12a. These gel patches act as sensors that
+                                                                           eﬀectively convert physiological data (e.g., normal, deep, and fast
+                                                                           breaths) into straightforward electrical pulse signals. In another
+5.2. Sensors                                                               work, Zhang’s group fabricated a highly sensitive temperature-
+                                                                           monitor sensor using hydrogel with Fe3+/2+ as redox couple.[114]
+THs have also gained signiﬁcant attention in the ﬁelds of sen-             The device produced distinct current signals in response to al-
+sors due to their sensitivity to temperature and heat ﬂux. They            terations in the user’s body temperature, which provides criti-
+can detect temperature variations, movements, and physiologi-              cal information related to the wearer’s physiological state. Fur-
+cal activities in wearable devices, electronic skin, and other ap-         thermore, Guo et al.[115] combined deep learning strategy with
+plications. For example, Zhang et al.[113] developed TH patches            a self-powered in-nostril ﬁber sensor based on PVA/Fe3+/2+ TH
+integrated into mask by leveraging the temperature gradient be-            (Figure 12b). When breathing occurs, the temperature diﬀerence
+
+
+Adv. Sci. 2025, 12, e06038                 e06038 (18 of 25)                       © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                             21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                               www.advancedscience.com
+
+
+
+
+Figure 12. Performance of sensor devices based on THs. a) Demonstration of mask respiratory monitoring based on thermogalvanic hydrogel. Repro-
+duced with permission.[113] Copyright 2022, American Chemical Society. b) Schematic diagram of self-powered nasal thermoelectric sensor assisted by
+machine learning for respiratory monitoring. Reproduced with permission.[115] Copyright 2025, Elsevier. c) Flexible hydrogel patch sensors are attached
+to the ﬁngers of a robot hand and output voltage curves in various situations. Reproduced with permission.[116] Copyright 2023, Wiley-VCH. d) Illustration
+of diﬀerent persons after writing down the word “CODE” on the electronic skin. Reproduced with permission.[117] Copyright 2024, Wiley-VCH.
+
+
+in the nasal cavity is converted into electrical signals. By analyzing         mogalvanic hydrogel was used as the functional layer. Based on
+these signals with deep learning algorithms, seven typical breath-             variations in writing intensity and stroke, the current signals col-
+ing modes can be identiﬁed with an accuracy rate of up to 97.1%.               lected from the e-skin exhibit distinct peak patterns, which can
+These studies highlight the potential of THs for monitoring hu-                be used for signature recognition and biometric authentication
+man activities and foreseeing potential health problems.                       (Figure 12d).
+   Moreover, THs can simultaneously respond to strain and tem-
+perature. For instance, Ma et al.[116] developed a high-strength
+stretchable PVA/Fe(CN)6 4−/3− hydrogel for temperature sensing                 5.3. Integration with Existing Energy Technologies
+in manipulator ﬁngers. As shown in Figure 12c, when the TH
+attached to a ﬁnger, it generates distinct electrical signals upon             TH-based TECs face integration challenges due to mismatched
+contact with objects at diﬀerent temperatures. The bending of                  output characteristics (voltage/current) for conventional elec-
+the TH relaxes the cross-linked polymer network, which reduces                 tronics and performance dependence on speciﬁc operating con-
+resistance and enables strain sensing. Similarly, Sun et al.[26] cre-          ditions (e.g., temperature gradients). Existing energy technolo-
+ated a PAAm/single-walled carbon nanotube/Sn4+/2+ TH capable                   gies can help to solve these challenges. In 2019, Zhou et al.[118] de-
+of monitoring human ﬁnger, wrist, and elbow movement with                      veloped a tandem device consisting of a polypyrrole (PPy) broad-
+high sensitivity. In another study, Zhang et al.[117] designed a self-         band absorber/radiator, a TEC, and thermal storage materials (Cu
+powered electronic skin with a sandwich structure, in which ther-              foam/polyethylene glycol 1000) that could harvest environmental
+
+
+Adv. Sci. 2025, 12, e06038                   e06038 (19 of 25)                         © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                  21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                    www.advancedscience.com
+
+thermal energy all day. The PPy layer eﬃciently heats during the      research on THs is still in its early stages. The key challenges,
+day and cools down at night, while Cu foam/PEG1000’s phase            potential future directions, and applications for THs are outlined
+transitions enable the TEC to recycle thermal energy and contin-      in Figure 13.
+uously generate electricity. This hybrid system achieved 0.6 W
+m−2 power output under simulated sunlight and 53 mW m−2                 i. Enhancing the performances of THs: High-performance
+at night, thus showing promise for continuous energy harvest-              THs are still in development. Key areas for improvement
+ing. In 2023, Li et al.[66] designed a TEC-photocatalysts hybrid           include ﬁnding new n-type/p-type electrolyte systems, bal-
+system. By using separate photocatalysts on hot and cold sides,            ancing thermoelectrochemical performance with mechani-
+it enhances redox ions conversion under light, thus achieving a            cal properties, and enhancing hydrogel stability. To date, the
+high output power Pmax /(ΔT)2 = 8.5 mW m−2 K−2 for solar ther-             Fe(CN)64−/3− redox couple is the most extensively studied
+mal energy harvesting. Also, it enables simultaneous hydrogen              due to its relatively high thermopower, but there is a pressing
+and oxygen production via photocatalytic water splitting. In 2024,         need to identify new redox couples with stronger TG eﬀects
+Zhang et al.[119] developed an asymmetric lithium-ion TEC with             to boost the thermoelectric performance. Furthermore, simi-
+a Li-metal anode in cold side and a graphene cathode in hot side.          lar to electronic thermoelectric materials, simultaneously in-
+This innovative system not only enables energy storage but also            creasing the Seebeck coeﬃcient and ionic conductivity of
+oﬀers a promising approach for harvesting low-grade heat and               THs remains an unprecedented challenge. Further research
+converting it into electricity. In addition, combining TH-based            into the interplay between the two parameters is essential to
+TECs with another complementary energy harvesting technolo-                improve the eﬃciency of quasi-solid-state TECs. Addition-
+gies like triboelectric nanogenerators (TENGs) could also over-            ally, since TECs must operate continuously, the stability of
+come some of these limitations. TENGs eﬀectively convert high-             THs remains a key concern. Existing research has devel-
+entropy, low-frequency mechanical energy into electricity,[120–122]        oped durable and robust THs by optimizing their mechanical
+while TH-based TECs thrive at thermal energy conversion. Their             properties, aiming to maintain stable operation under prac-
+integration enables hybrid systems that simultaneously harvest             tical applications. For example, Liu et al.[32] successfully con-
+multiple energy sources, hence improving the overall conversion            structed a robust and self-healable TH by combining Ti3C2Tx
+eﬃciency and system reliability.                                           MXene and PAA, which exhibits high thermopower even af-
+   Furthermore, TENGs demonstrate exceptional performance                  ter 1000 stretching cycles and 60 cut-healing cycles. Besides,
+as mechanical sensors, capable of detecting pressure, vibration,           Liu et al.[23] and Chen et al.[127] endowed THs with antifreeze
+and motion via triboelectriﬁcation eﬀects.[121–123] Integrating TH-        properties by incorporating LiCl or EG to the as-prepared hy-
+based TECs with TENGs enables multiparameter sensors capa-                 drogel electrolytes, achieving feasible energy harvesting un-
+ble of simultaneous monitoring. For environmental applications,            der extreme temperatures. However, other factors that aﬀect
+such hybrid devices could measure temperature, wind speed, and             TH stability still remain unattended—performance degrada-
+rainfall intensity by combining both energy conversion mecha-              tion in quasi-solid-state TECs over time can result from water
+nisms. This integration approach could be extended to electronic           evaporation, chemical breakdown of the polymer matrix, and
+skins (E-skins),[124–126] where combining TECs with piezoelectric          redox couple aggregation, all of which can signiﬁcantly im-
+nanogenerators enables multifunctional, self-powered sensing               pact the reliability and eﬃciency of TECs in practical appli-
+systems. Overall, by leveraging complementary strengths, these             cations. Addressing these problems can eﬀectively promote
+hybrid technologies can overcome integration challenges while              the development of THs.
+expanding application possibilities.                                   ii. Understanding component interactions: Gaining deeper in-
+                                                                           sights into the interactions between polymers, ions, and
+6. Conclusions and Outlook                                                 solvents are crucial. These interactions play a critical role
+                                                                           in determining the hydrogel microstructures, cation/anion
+In summary, THs constitute a transformative advancement in                 diﬀusion, and redox reactions, all of which impact the
+ionic thermoelectric material design that oﬀers a sustainable              thermoelectrochemical performance. Alongside experimen-
+pathway for green energy conversion. Unlike electronic thermo-             tal studies, computational methods, such as MD simulations
+electric materials, THs exhibit high thermopower, which makes              and ﬁrst-principle calculations like Ab Initio MD and DFT
+them ideal solutions for harvesting the low-grade waste heat.              should be employed. These approaches enable a direct ex-
+Their unique combination of mechanical ﬂexibility, biological              amination of interactions between components and poten-
+compatibility, and environmental sustainability enables diverse            tial chemical/electrochemical reactions within THs. Further-
+implementation scenarios across multiple technology domains.               more, microscopic phenomena such as ion solvation and
+This review systematically summarizes the ionic thermoelectric             transport, which were routinely assessed through computa-
+conversion mechanisms and recent progress in TH research.                  tional approaches, link component interaction to continuum-
+Special emphasis is placed on strategies that enhance thermo-              scale Seebeck coeﬃcient and electrical conductivity. Insights
+electrochemical performance, including polymer matrix, liquid              into the relationship between component interaction, micro-
+phase composition, and functional additives. Additionally, key             scopic phenomena, and continuum-scale properties of THs
+optimization strategies such as inorganic TH design, special-              will illuminate pathways for designing enhanced THs.
+ized structure design, and the integration of photocatalysis are      iii. High-throughput design: By integrating computational tools
+discussed. Beyond material innovation, we also examine the di-             such as MD, AIMD, DFT, with machine learning (ML) algo-
+verse applications of THs spanning self-power devices, sensors,            rithms, vast chemical and structural spaces can be screened
+and other emerging applications. Despite signiﬁcant progress,              rapidly to identify optimal combinations of polymers, redox
+
+
+Adv. Sci. 2025, 12, e06038              e06038 (20 of 25)                    © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                          21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                            www.advancedscience.com
+
+
+
+
+Figure 13. Key challenges, potential future directions and applications for THs.
+
+
+    couples, and additives. These approaches facilitate the pre-                  lishing low-cost manufacturing methods (e.g., 3D printing,
+    diction of key properties, such as ionic conductivity and See-                spray coating, etc.) can facilitate large-scale fabrication and
+    beck coeﬃcient, while minimizing the cost associated with                     commercialization. For example, Yan et al.[112] developed in-
+    extensive experimental trials. Coupled with ML-driven data                    tegrated TH-based devices spanning 2.3 m in length that
+    analysis, high-throughput computational approaches can un-                    could generate an output voltage of ≈45 V through a unique
+    cover intricate structure-property relationships and identify                 combination of series-parallel integration. Furthermore, Niu
+    molecular descriptors to guide the rational design of THs.                    et al.[104] reported a TH-based device made up of nine units
+    Although this framework has been successfully applied to                      that can generate a voltage of 1.76 V using outdoor photother-
+    the predictive design of electrolytes for energy storage, its im-             mal heat. In another work, by 3D printing, a large-scale and
+    plementation in TH research faces unique challenges. Cur-                     ﬂexible TH-based module consisting of 36 units was created,
+    rently, experimentally available datasets for key parameters,                 which generated a voltage of 0.58 V from body heat (ΔT ≈5
+    such as thermopower, are scarce, which restricts the train-                   K).[65] These emerging manufacturing technologies not only
+    ing and validation of computational models. Moreover, there                   oﬀer cost-eﬀective solutions but also provide precise con-
+    is a need for highly eﬃcient computational approaches to                      trol over the production process, which enables customizable
+    address the complexities inherent in TH systems. For in-                      and scalable TH fabrication in diverse forms. Furthermore,
+    stance, as discussed in Section 4.2, the FEP in MD simula-                    they simplify the creation of compact, highly integrated TH-
+    tion was employed to predict the solvation entropy diﬀerence                  based array devices, thereby optimizing the use of low-grade
+    of redox couples. However, this method requires extensive                     waste heat. Moreover, thermal management must be consid-
+    sampling of free energies at multiple temperatures, making                    ered when designing devices to maintain the temperature
+    it computationally impracticable for high-throughput calcu-                   diﬀerence between the electrodes. For example, in applica-
+    lations. Overcoming these challenges will require advance-                    tions that harvest waste heat from the human body, it is cru-
+    ments in eﬃcient algorithms to quantify thermopower. Ad-                      cial to ensure close contact between the device and skin to
+    ditionally, the development of robust datasets and the inte-                  maximize thermal eﬃciency and maintain a consistent tem-
+    gration of multi-scale modeling techniques are necessary to                   perature on the air-facing side. Unlike commercialized elec-
+    bridge atomic-level interactions with macroscopic device per-                 tronic thermoelectric materials (e.g., Bi2Te3), TH-based de-
+    formance.                                                                     vices require further optimization to meet practical applica-
+iv. Device optimization and practical applications: While TH-                     tion needs eﬀectively.
+    based devices show promising performance in laboratory                     v. High-performance electrode design: Electrode materials play
+    setting, a signiﬁcant gap remains between experimental de-                    a critical role in the quasi-solid-state TECs, as they directly
+    velopment and practical application. To bridge this gap, re-                  inﬂuence the interfacial dynamics and the overall heat-to-
+    search must prioritize high-eﬃciency device design, low-                      electricity conversion eﬃciency of THs. To optimize elec-
+    cost material development, scalability, innovative cell struc-                trode performance, eﬀorts should concentrate on the follow-
+    tures/operation modes, and material selection for diverse ap-                 ing key aspects: 1) Modifying the electrolyte/electrode inter-
+    plication scenarios. In practical applications, diﬀerent device               face to enhance ion transport (e.g., minimizing contact re-
+    structures may be employed based on practical demands and                     sistance, introducing beneﬁcial function groups); 2) Devel-
+    material characteristics, thereby enhancing energy conver-                    oping new electrodes such as MXene, conductive polymers,
+    sion eﬃciency under various conditions. In addition, creat-                   and graphene-based materials, which oﬀer high electrical
+    ing p-n series circuits is essential for device design. Estab-                conductivity, tunable surface chemistry, and excellent com-
+
+
+Adv. Sci. 2025, 12, e06038                  e06038 (21 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                  21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                   www.advancedscience.com
+
+     patibility with THs to improve TECs eﬃciency; 3) Conduct-                    [18] Z. Hu, S. Chang, C. Cheng, C. Sun, J. Liu, T. Meng, Y. Xuan, M. Ni,
+     ing systematic investigation of the impact of electrode ge-                       Energy Storage Mater. 2023, 58, 353.
+     ometry, including size, thickness, and conﬁguration on heat-                 [19] K. Cornwell, J. Phys. D: Appl. Phys. 1972, 5, 1199.
+     to-electricity conversion eﬃciency. Advancing thermoelectric                 [20] S. Senderoﬀ, R. I. Bretz, J. Electrochem. Soc. 1962, 109, 56.
+                                                                                  [21] A. Gunawan, C.-H. Lin, D. A. Buttry, V. Mujica, R. A. Taylor, R. S.
+     technology requires a thorough understanding of how elec-
+                                                                                       Prasher, P. E. Phelan, Nanoscale Microscale Thermophys. Eng. 2013,
+     trode properties inﬂuence overall device performance.
+                                                                                       17, 304.
+                                                                                  [22] P. Yang, K. Liu, Q. Chen, X. Mo, Y. Zhou, S. Li, G. Feng, J. Zhou,
+                                                                                       Angew. Chem., Int. Ed. 2016, 55, 12050.
+Acknowledgements                                                                  [23] Z. Liu, Y. Hu, X. Lu, Z. Mo, G. Chen, Z. Liu, Adv. Energy Mater. 2024,
+This work was supported in part by the HKUST (GZ) with the grant                       14, 2402226.
+G0101000199. Dr. HUANG Yang acknowledges the support from the                     [24] C.-G. Han, Y.-B. Zhu, L. Yang, J. Chen, S. Liu, H. Wang, Y. Ma, D.
+Guangzhou-HKUST(GZ) Joint Funding Program (No. 2025A03J3643) and                       Han, L. Niu, Energy Environ. Sci. 2024, 17, 1559.
+the Special Innovation Projects of Higher Education Institutions in Guang-        [25] J. Li, S. Chen, X. Qu, Z. Han, Z. Zhou, L. Deng, Y. Jia, S. Zhang, R.
+dong Province (No. 2024KTSCX035).                                                      Xie, H. Wang, Energy Environ. Sci. 2024, 17, 6606.
+                                                                                  [26] L. Liang, H. Lv, X.-L. Shi, Z. Liu, G. Chen, Z.-G. Chen, G. Sun, Mater.
+                                                                                       Horiz. 2021, 8, 2750.
+Conﬂict of Interest                                                               [27] P. Peng, J. Zhou, L. Liang, X. Huang, H. Lv, Z. Liu, G. Chen, Nano-
+                                                                                       Micro Lett. 2022, 14, 81.
+The authors declare no conﬂict of interest.                                       [28] A. Taheri, D. R. MacFarlane, C. Pozo-Gonzalo, J. M. Pringle, Chem-
+                                                                                       SusChem 2018, 11, 2788.
+                                                                                  [29] Y. Zong, H. Li, X. Li, J. Lou, Q. Ding, Z. Liu, Y. Jiang, W. Han, Chem.
+Keywords                                                                               Eng. J. 2022, 433, 134550.
+                                                                                  [30] Y. Jia, S. Zhang, J. Li, Z. Han, D. Zhang, X. Qu, S. Chen, H. Wang, J.
+low-grade heat, material innovation, thermogalvanic hydrogel, ther-                    Power Sources 2024, 602, 234400.
+mopower                                                                           [31] F. Li, H. Xue, X. Lin, H. Zhao, T. Zhang, ACS Appl. Mater. Interfaces
+                                                                                       2022, 14, 43844.
+                                                     Received: April 3, 2025      [32] X. Lu, D. Xie, K. Zhu, S. Wei, Z. Mo, C. Du, L. Liang, G. Chen, Z. Liu,
+                                                      Revised: May 22, 2025            Nano-Micro Lett. 2023, 15, 196.
+                                              Published online: July 14, 2025     [33] C. Xu, Y. Sun, J. Zhang, W. Xu, H. Tian, Adv. Energy Mater. 2022, 12,
+                                                                                       2201542.
+                                                                                  [34] H. Baghooee, A. Shapiro, Fluid Phase Equilib. 2022, 558, 113445.
+                                                                                  [35] M. A. Rahman, M. Z. Saghir, Int. J. Heat Mass Transfer 2014, 73, 693.
+  [1] J. R. Miller, P. Simon, Science 2008, 321, 651.                             [36] H. Cheng, X. He, Z. Fan, J. Ouyang, Adv. Energy Mater. 2019, 9,
+  [2] X.-L. Shi, J. Zou, Z.-G. Chen, Chem. Rev. 2020, 120, 7399.                       1901085.
+  [3] T. Vijayakanth, S. Shankar, G. Finkelstein-Zuta, S. Rencus-Lazar, S.        [37] P. Costesèque, T. Pollak, J. Platten, M. Marcoux, The Eur. Phys. J. E
+      Gilead, E. Gazit, Chem. Soc. Rev. 2023, 52, 6191.                                2004, 15, 249.
+  [4] C.-F. Schleussner, J. Rogelj, M. Schaeﬀer, T. Lissner, R. Licker, E.        [38] C.-G. Han, X. Qian, Q. Li, B. Deng, Y. Zhu, Z. Han, W. Zhang, W.
+      M. Fischer, R. Knutti, A. Levermann, K. Frieler, W. Hare, Nat. Clim.             Wang, S.-P. Feng, G. Chen, W. Liu, Science 2020, 368, 1091.
+      Change 2016, 6, 827.                                                        [39] X. He, H. Cheng, S. Yue, J. Ouyang, J. Mater. Chem. A 2020, 8, 10813.
+  [5] S. Algarni, V. Tirth, T. Alqahtani, S. Alshehery, P. Kshirsagar, Sustain.   [40] Z. Wu, B. Wang, J. Li, R. Wu, M. Jin, H. Zhao, S. Chen, H. Wang,
+      Energy Technol. Assessm. 2023, 56, 103098.                                       Nano Lett. 2022, 22, 8152.
+  [6] C. Forman, I. K. Muritala, R. Pardemann, B. Meyer, Renewable Sus-           [41] D. Zhao, H. Wang, Z. U. Khan, J. C. Chen, R. Gabrielsson, M. P.
+      tainable Energy Rev. 2016, 57, 1568.                                             Jonsson, M. Berggren, X. Crispin, Energy Environ. Sci. 2016, 9, 1450.
+  [7] U. S. Shenoy, D. K. Bhat, Mater. Today Chem. 2020, 18, 100384.              [42] Y. Li, Q. Li, X. Zhang, B. Deng, C. Han, W. Liu, Adv. Energy Mater.
+  [8] L. Xu, X. Wang, Y. Wang, Z. Gao, X. Ding, Y. Xiao, Energy Environ. Sci.          2022, 12, 2103666.
+      2024, 17, 2018.                                                             [43] T. Kim, J. S. Lee, G. Lee, H. Yoon, J. Yoon, T. J. Kang, Y. H. Kim, Nano
+  [9] H. Zhao, H. Hu, J.-W. Li, J.-F. Li, J. Zhu, Adv. Funct. Mater. 2023, 33,         Energy 2017, 31, 160.
+      2304663.                                                                    [44] B. Yu, H. Xiao, Y. Zeng, S. Liu, D. Wu, P. Liu, J. Guo, W. Xie, J. Duan,
+ [10] P. Zhao, W. Xue, Y. Zhang, S. Zhi, X. Ma, J. Qiu, T. Zhang, S. Ye, H.            J. Zhou, Nano Energy 2022, 93, 106795.
+      Mu, J. Cheng, X. Wang, S. Hou, L. Zhao, G. Xie, F. Cao, X. Liu, J.          [45] H. Inoue, H. Zhou, H. Ando, S. Nakagawa, T. Yamada, Chem. Sci.
+      Mao, Y. Fu, Y. Wang, Q. Zhang, Nature 2024, 631, 777.                            2024, 15, 146.
+ [11] C. B. Vining, Nat. Mater. 2009, 8, 83.                                      [46] T. J. Abraham, D. R. MacFarlane, J. M. Pringle, Energy Environ. Sci.
+ [12] R. Kita, S. Wiegand, Macromolecules 2005, 38, 4554.                              2013, 6, 2639.
+ [13] M. Yu, H. Li, Y. Li, S. Wang, Q. Li, Y. Wang, B. Li, K. Zhu, W. Liu,        [47] S.-M. Jung, J. Kwon, J. Lee, B.-J. Lee, K.-S. Kim, D.-S. Yu, Y.-T. Kim,
+      EnergyChem 2024, 6, 100123.                                                      Appl. Energy 2021, 299, 117334.
+ [14] C. Largeot, C. Portet, J. Chmiola, P.-L. Taberna, Y. Gogotsi, P. Simon,     [48] H. Zhou, T. Yamada, N. Kimizuka, J. Am. Chem. Soc. 2016, 138,
+      J. Am. Chem. Soc. 2008, 130, 2730.                                               10502.
+ [15] Y. Tian, X. Yang, K. Li, Q. Zhang, Y. Li, H. Wang, C. Hou, Mater. Today     [49] Z. Han, J. Cui, J. Wang, H. Dou, S. Zhang, X. Zhang, Chem. Eng. J.
+      Energy 2023, 36, 101342.                                                         2024, 499, 156415.
+ [16] Y. Liu, M. Cui, W. Ling, L. Cheng, H. Lei, W. Li, Y. Huang, Energy          [50] Y. Yang, C. Zhang, G. Zhao, Q. An, Z.-y. Mei, Y. Sun, Q. Xu, X. Wang,
+      Environ. Sci. 2022, 15, 3670.                                                    H. Guo, Adv. Energy Mater. 2023, 13, 2300725.
+ [17] Z. Liu, S. Wei, Z. Hu, M. Zhu, G. Chen, Y. Huang, Small Methods             [51] Z. Li, Y. Xu, L. Wu, Y. An, Y. Sun, T. Meng, H. Dou, Y. Xuan, X. Zhang,
+      2023, 7, 2300190.                                                                Nat. Commun. 2022, 13, 132.
+
+
+
+
+Adv. Sci. 2025, 12, e06038                     e06038 (22 of 25)                         © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                      21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                      www.advancedscience.com
+
+ [52] A. J. deBethune, T. S. Licht, N. Swendeman, J. Electrochem. Soc.               [89] C. Fang, D. M. Halat, A. Mistry, J. A. Reimer, N. P. Balsara, R. Wang,
+      1959, 106, 616.                                                                      Chem. Sci. 2023, 14, 5332.
+ [53] J. N. Agar, W. G. Breck, Trans. Faraday Soc. 1957, 53, 167.                     [90] D. Inoue, Y. Fukuzumi, Y. Moritomo, Jpn. J. Appl. Phys. 2020, 59,
+ [54] J. T. Hupp, M. Weaver, Inorg. Chem. 1984, 23, 3639.                                  037001.
+ [55] M. A. Buckingham, K. Laws, E. Cross, A. J. Surman, L. Aldous, Green             [91] D. Inoue, H. Niwa, H. Nitani, Y. Moritomo, J. Phys. Soc. Jpn. 2021,
+      Chem. 2021, 23, 8901.                                                                90, 033602.
+ [56] S. Sahami, M. J. Weaver, J. Electroanal. Chem. Interfacial Electrochem.         [92] U. Mayer, V. Gutmann, W. Gerger, Monatshefte für Chemie /Chemical
+      1981, 122, 155.                                                                      Monthly 1975, 106, 1235.
+ [57] M. Born, Z. Phys. 1920, 1, 45.                                                  [93] Y. Marcus, J. Solution Chem. 1984, 13, 599.
+ [58] J. Duan, B. Yu, L. Huang, B. Hu, M. Xu, G. Feng, J. Zhou, Joule 2021,           [94] Y. Liu, Q. Zhang, G. O. Odunmbaku, Y. He, Y. Zheng, S. Chen, Y.
+      5, 768.                                                                              Zhou, J. Li, M. Li, K. Sun, J. Mater. Chem. A 2022, 10, 19690.
+ [59] Z. Lei, W. Gao, P. Wu, Joule 2021, 5, 2211.                                     [95] Y. Chen, Q. Huang, T.-H. Liu, X. Qian, R. Yang, EcoMat 2023, 5,
+ [60] X. Lu, Z. Mo, Z. Liu, Y. Hu, C. Du, L. Liang, Z. Liu, G. Chen, Angew.                12385.
+      Chem., Int. Ed. 2024, 63, 202405357.                                            [96] P. E. Mason, G. W. Neilson, J. E. Enderby, M.-L. Saboungi, C. E.
+ [61] S. Pu, Y. Liao, K. Chen, J. Fu, S. Zhang, L. Ge, G. Conta, S. Bouzarif,              Dempsey, A. D. MacKerell, Jr., J. W. Brady, J. Am. Chem. Soc. 2004,
+      T. Cheng, X. Hu, K. Liu, J. Chen, Nano Lett. 2020, 20, 3791.                         126, 11462.
+ [62] S. Sun, X. Jin, C. Liu, Q. Meng, Y. Zhang, Int. J. Heat Mass Transfer           [97] J. Duan, G. Feng, B. Yu, J. Li, M. Chen, P. Yang, J. Feng, K. Liu, J.
+      2018, 127, 88.                                                                       Zhou, Nat. Commun. 2018, 9, 5146.
+ [63] G. J. Snyder, E. S. Toberer, Nat. Mater. 2008, 7, 105.                          [98] B. Yu, J. Duan, H. Cong, W. Xie, R. Liu, X. Zhuang, H. Wang, B. Qi,
+ [64] X. Qian, Z. Ma, Q. Huang, H. Jiang, R. Yang, ACS Energy Lett. 2024,                  M. Xu, Z. L. Wang, J. Zhou, Science 2020, 370, 342.
+      9, 679.                                                                         [99] D. Zhang, Y. Mao, F. Ye, Q. Li, P. Bai, W. He, R. Ma, Energy Environ.
+ [65] J. Wang, Y. Song, F. Yu, Y. Zeng, C. Wu, X. Qin, L. Peng, Y. Li, Y.                  Sci. 2022, 15, 2974.
+      Zhou, R. Tao, H. Liu, H. Zhu, M. Sun, W. Xu, C. Zhang, Z. Wang,               [100] D. Zhang, Y. Fang, L. Liu, Y. Zhou, P. Bai, Q. Li, J. Guo, R. Ma, Adv.
+      Nat. Commun. 2024, 15, 6704.                                                         Energy Mater. 2024, 14, 2303358.
+ [66] Y. Wang, Y. Zhang, X. Xin, J. Yang, M. Wang, R. Wang, P. Guo, W.              [101] Y. Zhou, Y. Zhang, K. Ruan, H. Guo, M. He, H. Qiu, J. Gu, Sci. Bull.
+      Huang, A. J. Sobrido, B. Wei, X. Li, Science 2023, 381, 291.                         2024, 69, 2776.
+ [67] T. I. Quickenden, Y. Mua, J. Electrochem. Soc. 1995, 142, 3985.               [102] Y. Liu, X. Chen, X. Dong, A. Liu, K. Ouyang, Y. Huang, Sci. Adv. 2024,
+ [68] X. Yang, P. Wang, X. Wu, Y. Liao, S. Liu, W. Duan, Y. Yue, Chin. J.                  10, adp4533.
+      Chem. 2024, 42, 543.                                                          [103] H. Meng, W. Gao, Y. Chen, Small 2024, 20, 2310777.
+ [69] E. M. Ahmed, J. Adv. Res. 2015, 6, 105.                                       [104] Y. Zhu, C.-G. Han, J. Chen, L. Yang, Y. Ma, H. Guan, D. Han, L. Niu,
+ [70] K. Z. Milowska, J. A. Majewski, J. Chem. Phys. 2013, 138, 194704.                    Energy Environ. Sci. 2024, 17, 4104.
+ [71] H. Y. Lee, S. H. Park, J. H. Kim, M. S. Kim, Polym. Chem. 2017, 8,            [105] J. Duan, B. Yu, K. Liu, J. Li, P. Yang, W. Xie, G. Xue, R. Liu, H. Wang,
+      6606.                                                                                J. Zhou, Nano Energy 2019, 57, 473.
+ [72] L. Jin, G. W. Greene, D. R. MacFarlane, J. M. Pringle, ACS Energy Lett.       [106] S. Liu, Y. Yang, S. Chen, J. Zheng, D. G. Lee, D. Li, J. Yang, B. Huang,
+      2016, 1, 654.                                                                        Nano Energy 2022, 100, 107542.
+ [73] J. Li, S. Chen, Z. Han, X. Qu, M. Jin, L. Deng, Q. Liang, Y. Jia, H.          [107] Y. Liu, S. Zhang, Y. Zhou, M. A. Buckingham, L. Aldous, P. C. Sherrell,
+      Wang, Adv. Funct. Mater. 2023, 33, 2306509.                                          G. G. Wallace, G. Ryder, S. Faisal, D. L. Oﬃcer, S. Beirne, J. Chen,
+ [74] M. Zhang, S. Chen, N. Sheng, B. Wang, Z. Wu, Q. Liang, Z. Han, H.                    Adv. Energy Mater. 2020, 10, 2002539.
+      Wang, J. Mater. Chem. A 2021, 9, 12574.                                       [108] P.-F. Li, T.-Y. Hu, T. Luo, Z. Liu, X.-J. Ju, R. Xie, D.-W. Pan, W. Wang,
+ [75] P. Yin, Y. Geng, L. Zhao, Q. Meng, Z. Xin, L. Luo, B. Wang, Z. Mao,                  L.-Y. Chu, Chem. Eng. J. 2023, 478, 147380.
+      X. Sui, W. Wu, X. Feng, Chem. Eng. J. 2023, 457, 141274.                      [109] Y. Jia, S. Zhang, J. Li, Z. Han, D. Zhang, X. Qu, Z. Wu, H. Wang, S.
+ [76] S. Petty-Weeks, A. J. Polak, Sensors and Actuators 1987, 11, 377.                    Chen, Small 2024, n/a, 2401427.
+ [77] T. Li, X. Zhang, S. D. Lacey, R. Mi, X. Zhao, F. Jiang, J. Song, Z. Liu,      [110] D. Zhang, Y. Zhou, Y. Mao, Q. Li, L. Liu, P. Bai, R. Ma, Nano Lett.
+      G. Chen, J. Dai, Y. Yao, S. Das, R. Yang, R. M. Briber, L. Hu, Nat.                  2023, 23, 11272.
+      Mater. 2019, 18, 608.                                                         [111] D. Zhang, Q. Li, Y. Fang, P. Bai, L. Liu, J. Guo, G. Wang, Y. Zhou, R.
+ [78] Z. Lei, W. Gao, W. Zhu, P. Wu, Adv. Funct. Mater. 2022, 32, 2201021.                 Ma, Nano Res. 2024, 17, 5349.
+ [79] W. Gao, Z. Lei, W. Chen, Y. Chen, ACS Nano 2022, 16, 8347.                    [112] M. Yang, Y. Hu, X. Wang, H. Chen, J. Yu, W. Li, R. Li, F. Yan, Adv.
+ [80] G. Herth, G. Schornick, F. L. Buchholz, In Ullmann’s Encyclopedia of                 Mater. 2024, 36, 2312249.
+      Industrial Chemistry, Wiley-VCH, Germany 2015, pp. 1-16.                      [113] X. Li, J. Li, T. Wang, S. A. Khan, Z. Yuan, Y. Yin, H. Zhang, ACS Appl.
+ [81] C. Liu, Q. Li, S. Wang, W. Liu, N. X. Fang, S.-P. Feng, Nano Energy                  Mater. Interfaces 2022, 14, 48743.
+      2022, 92, 106738.                                                             [114] C. Bai, Z. Wang, S. Yang, X. Cui, X. Li, Y. Yin, M. Zhang, T. Wang,
+ [82] Y. Chen, C. Shi, J. Zhang, Y. Dai, Y. Su, B. Liao, M. Zhang, X. Tao, W.              S. Sang, W. Zhang, H. Zhang, ACS Appl. Mater. Interfaces 2021, 13,
+      Zeng, Energy Technol. 2022, 10, 2200070.                                             37316.
+ [83] X. Hu, K. Liu, S. Zhang, G. Shao, S. R. P. Silva, P. Zhang, Nano Res.         [115] Y. Zhang, H. Wang, S. Ahmed Khan, J. Li, C. Bai, H. Zhang, R. Guo,
+      2024, 17, 2790.                                                                      J. Colloid Interface Sci. 2025, 678, 143.
+ [84] W. Lin, D. Chen, J. Yu, J. Colloid Interface Sci. 2024, 666, 189.             [116] L. Liu, D. Zhang, P. Bai, Y. Mao, Q. Li, J. Guo, Y. Fang, R. Ma, Adv.
+ [85] W. Gao, Z. Lei, C. Zhang, X. Liu, Y. Chen, Adv. Funct. Mater. 2021,                  Mater. 2023, 35, 2300696.
+      31, 2104071.                                                                  [117] N. Li, Z. Wang, X. Yang, Z. Zhang, W. Zhang, S. Sang, H. Zhang, Adv.
+ [86] M. F. Dupont, D. R. MacFarlane, J. M. Pringle, Chem. Commun. 2017,                   Funct. Mater. 2024, 34, 2314419.
+      53, 6288.                                                                     [118] B. Yu, J. Duan, J. Li, W. Xie, H. Jin, R. Liu, H. Wang, L. Huang, B. Hu,
+ [87] J. Hu, J. Wei, J. Li, L. Bai, Y. Liu, Z. Li, Energy Environ. Sci. 2024, 17,          J. Zhou, Research 2019, 2019, 2460953.
+      1664.                                                                         [119] Y. Xu, Z. Li, L. Wu, H. Dou, X. Zhang, Nano-Micro Lett. 2024, 16, 72.
+ [88] Y.-T. Lin, C.-C. Hsu, S.-H. Hong, L.-C. Lee, U. S. Jeng, H.-L. Chen,          [120] C. Xu, J. Yu, Z. Huo, Y. Wang, Q. Sun, Z. L. Wang, Energy Environ.
+      S.-H. Tung, C.-L. Liu, J. Power Sources 2024, 609, 234647.                           Sci. 2023, 16, 983.
+
+
+
+
+Adv. Sci. 2025, 12, e06038                       e06038 (23 of 25)                          © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                            21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                              www.advancedscience.com
+
+[121] W. Tang, Q. Sun, Z. L. Wang, Chem. Rev. 2023, 123, 12105.                [125] D. H. Ho, Q. Sun, S. Y. Kim, J. T. Han, D. H. Kim, J. H. Cho, Adv.
+[122] J. Han, N. Xu, J. Yu, Y. Wang, Y. Xiong, Y. Wei, Z. L. Wang, Q. Sun,           Mater. 2016, 28, 2601.
+      Energy Environ. Sci. 2022, 15, 5069.                                     [126] Y. Xiong, J. Han, Y. Wang, Z. L. Wang, Q. Sun, Research 2022, 2022,
+[123] Y. Liu, C. Zhao, Y. Xiong, J. Yang, H. Jiao, Q. Zhang, R. Cao, Z. L.           9867378.
+      Wang, Q. Sun, Adv. Funct. Mater. 2023, 33, 2303723.                      [127] J.-X. Gui, Y. Cheng, K. Ren, Z.-P. Liu, Z. Zhu, Z.-Y. Xue, Y. Zhu,
+[124] X. Lin, Z. Feng, Y. Xiong, W. Sun, W. Yao, Y. Wei, Z. L. Wang, Q. Sun,         R.-H. Wang, G. Pei, J. Sui, L.-F. Chen, Adv. Mater. 2025, 37,
+      Int. J. Extreme Manufact. 2024, 6, 032011.                                     2420214.
+
+
+
+
+                                     Wentao Lin is currently a PhD student at The Hong Kong University of Science and Technology
+                                     (Guangzhou). His research mainly focuses on thermocells for low-grade heat harvesting.
+
+
+
+
+                                     Dr. Zhuoxin Liu is currently an associate professor at College of Materials Science and Engineering,
+                                     Shenzhen University. He received his bachelor’s and master’s degrees from Sichuan University in
+                                     Chengdu, China. After that, he obtained his PhD degree from City University of Hong Kong, China. His
+                                     research interests mainly focus on aqueous energy storage and conversion systems and their ﬂexi-
+                                     ble devices, including aqueous batteries and thermocells. He has published more than 100 articles
+                                     in esteemed scientiﬁc journals with over 17,000 citations and an h-index of 60. He has been awarded
+                                     as the Highly Cited Researchers by Clarivate (2022 and 2023) and World’s Top 2% Scientist by Stan-
+                                     ford/Elsevier (2023 and 2024).
+
+
+
+
+                                     Dr. Yang Huang is currently an assistant professor of the Advanced Materials Trust at the Hong Kong
+                                     University of Science and Technology (Guangzhou). He obtained his bachelor and master degrees
+                                     from Southwest Jiaotong University in Chengdu, Sichuan. Then, he obtained his PhD degree from
+                                     City University of Hong Kong. His primary research focuses on low-dimensional materials with easily
+                                     modiﬁable properties (e.g., transition metal carbides and nitrides, known as MXenes) and their appli-
+                                     cations in advanced micro-/nano-electronic devices (e.g., battery, supercapacitor and thermocell).
+
+
+
+
+Adv. Sci. 2025, 12, e06038                    e06038 (24 of 25)                        © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                              21983844, 2025, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506038, Wiley Online Library on [22/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                www.advancedscience.com
+
+
+
+                             Dr. Chao Fang is an Assistant Professor in Sustainable Energy and Environment Thrust at the Hong
+                             Kong University of Science and Technology (Guangzhou). He obtained a Bachelor’s degree in Theoret-
+                             ical and Applied Mechanics from University of Science and Technology of China in 2015 and a Ph.D. in
+                             Mechanical Engineering from Virginia Tech in 2019, followed by postdoctoral research at UC Berkeley
+                             and Lawrence Berkeley National Laboratory. His research focuses on the molecular-level simulation
+                             and transport of soft energy matters such as polymer and gel electrolytes. He has published over 20
+                             ﬁrst/corresponding-author papers in journals such as Nat. Mater., Sci. Adv., PRL, JACS Au, and Chem.
+                             Sci.
+
+
+
+
+Adv. Sci. 2025, 12, e06038          e06038 (25 of 25)                    © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH
+

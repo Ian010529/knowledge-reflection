@@ -1,0 +1,122 @@
+{
+  "analysis": "temporal_iTE_lever_to_TG_redox_link_prediction",
+  "generated_at_utc": "2026-08-02T05:26:55.168958+00:00",
+  "script_sha256": "0a52934ff05d38c03b690dc57571450d0f80d16a45f7429e48a95f853839e3ae",
+  "forecast_cutoff": 2025,
+  "forecast_year": 2026,
+  "incomplete_2026_excluded_from_training": true,
+  "forecast_labels_available": false,
+  "source_gate": {
+    "pure_iTE_only": true,
+    "eligible_claim_only": true,
+    "core_iTE_scope_only": true,
+    "direct_evidence_tiers": [
+      "A_direct_evidence_ready",
+      "B_direct_needs_evidence_repair"
+    ],
+    "explicit_TG_or_redox_source_excluded": true,
+    "strict_claim_level_mechanism_match": true,
+    "minimum_independent_papers": 2
+  },
+  "target_gate": {
+    "review_excluded": true,
+    "lever_match_fields": [
+      "material_raw",
+      "mechanism_raw"
+    ],
+    "strict_lever_patterns": true,
+    "multi_redox_family_per_paper_allowed": true,
+    "minimum_independent_TG_papers": 2
+  },
+  "label": "first composite transfer-proxy edge in cutoff+1: strict TG mechanism/redox rule or manually audited direct prior",
+  "selected_model": "fixed_graph_heuristic",
+  "selected_model_label": "Fixed graph",
+  "selection_cutoffs": [
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "locked_holdout_cutoff": 2024,
+  "locked_holdout_outcome_year": 2025,
+  "locked_holdout_metrics": {
+    "n_candidates": 63,
+    "n_positive": 9,
+    "positive_rate": 0.14285714285714285,
+    "average_precision": 0.429774051014714,
+    "roc_auc": 0.8065843621399176,
+    "precision_at_5": 0.4,
+    "hits_at_5": 2,
+    "precision_at_10": 0.2,
+    "hits_at_10": 2,
+    "ndcg_at_10": 0.3525683241217281,
+    "ap_lift_over_prevalence": 3.008418357102998
+  },
+  "locked_holdout_popularity_baseline": {
+    "average_precision": 0.5798915076692854,
+    "precision_at_5": 0.8,
+    "ndcg_at_10": 0.609644959026155
+  },
+  "counts": {
+    "lever_count": 24,
+    "target_family_count": 9,
+    "matrix_cells": 216,
+    "forecast_candidates": 103,
+    "observed_cells": 45,
+    "unscored_cells": 68,
+    "qualified_pure_iTE_source_papers": 113,
+    "strict_TG_event_papers": 61,
+    "manual_prior_event_papers": 20,
+    "composite_event_papers": 65
+  },
+  "label_policy": {
+    "experimental_success_target": false,
+    "program_edges_used": false,
+    "manual_direct_prior_evidence_used": true,
+    "priority_score_used": false,
+    "semantic_similarity_used": false,
+    "missing_edges_called_true_negatives": false,
+    "output_is_calibrated_probability": false
+  },
+  "output_rows": {
+    "ite_source_lever_records.csv": 156,
+    "strict_tg_lever_adoption_evidence.csv": 82,
+    "manual_prior_adoption_evidence.csv": 23,
+    "tg_lever_adoption_evidence.csv": 105,
+    "temporal_risk_snapshots.csv": 372,
+    "future_lever_tg_predictions.csv": 103,
+    "lever_tg_prediction_matrix_long.csv": 216
+  },
+  "input_sha256": {
+    "ite_claim_inventory_with_levers.csv": "48961b0df4a5804a2748250daa4aaf0b6291561ebd5b303b12c4425dc9eb7138",
+    "ite_tg_complementarity_programs.csv": "1fb679427b3f9b53b4d5a0cefb26dd99ee71969e4d173ca1b2b4b16bf358e0f0",
+    "tg_prior_art_by_program.csv": "286e51fc1c8fcb10abbc6289ca78fb647b17d540a2ce55135a9944b13372e7cd",
+    "final_paper_index.csv": "c507426c0b3f09a1cc0a46c320e455f98c26b0c77b89628c2e2fd941d77924d9"
+  },
+  "output_sha256": {
+    "FIGURE_QA_NOTES.md": "ccdf729d0e99bd0683af04356bc092a2d35f0e0d8becab8c439c5bf6426bba6e",
+    "PREDICTION_RESULTS_CN.md": "f0c029649e6127120af4261296149d9d375f32dec17ce7da4df1c492b6f46297",
+    "curated_program_matrix_overlay.csv": "5cc18a69e6b3c5f221882a07aade77565129d6a85b7cb3e424da77a0414cb02a",
+    "future_lever_tg_predictions.csv": "c2347c0c54d96b16aa9dcb9f93a92c543d69d39ad565ba784999e6fab2e4c163",
+    "future_lever_tg_top30.csv": "eb07448e64eb0381333e0146d2c98d04b775f9eb82598644e8ab5e4a5a9f9be8",
+    "ite_source_lever_records.csv": "9b8f5f94b1e16b6038eb6ab1a9ba6fa025d2e5f39fd7825337fb5254ef958053",
+    "ite_tg_graph_prediction_matrix.pdf": "5f9dd0c43062d8132324c6650958974eb6d54c33a5b5c32facb84caecfd53553",
+    "ite_tg_graph_prediction_matrix.png": "52e5d3b648d4dd90213d76ba2ed0ef14bd5b753940579c06f264f89d150ed95d",
+    "ite_tg_graph_prediction_matrix.svg": "257338b5a81abb961c931cfaef9e2160ae59c5cd08faaa1187060e5c04a0a285",
+    "ite_tg_graph_prediction_matrix.tiff": "a33e865e380a9e9c41b6608a75094a2df9fd7b0c81e98dafe1f659eca1de730c",
+    "lever_tg_prediction_matrix_long.csv": "f0d0af18776674bd340550fbffa64afd33b8bf3726613565e239fbeb75c9ef3c",
+    "lever_tg_prediction_matrix_scores.csv": "41785f3e7c931ed834faa6e26c612450b66b0150356280ffa3f7719fb31e94ff",
+    "manual_prior_adoption_evidence.csv": "b98ec1fe28f5473e490ab093c0b4cd73581739853ac48373c26042597b116e57",
+    "rolling_backtest_metrics.csv": "918f603a14a6d0fbe0242e25767a76f5c66824b9291deec6f3a620523d40d50b",
+    "rolling_backtest_predictions.csv": "973b38acec00bba4b3c414926f13cc01084434480f79721977dc21210ee46566",
+    "strict_tg_lever_adoption_evidence.csv": "7acac383cfa7544912e45edf2feb04854ea081006b411a9e97bf50712ef13378",
+    "temporal_graph_backtest.pdf": "66960719e1af4d12b5df4c35725dab090a796c3c18716ddad251baba7129286a",
+    "temporal_graph_backtest.png": "20099be4943eb91c9671d07ef3261a7b91c4a5e3ff6dee771c65c2b8f93b2ad9",
+    "temporal_graph_backtest.svg": "31c6e71c70574951bdb6bd784add2c4ff7d77bbe16fcd3e086fd8c29d08c4d3b",
+    "temporal_graph_backtest.tiff": "516788ef79d510d950dd551e12087ca647c2fcd1b81f6c847d63e489c9854a73",
+    "temporal_risk_snapshots.csv": "719e915ace90bb9ea799d7f8c3428b18083ebd9ad1cf34ac1b31c6110e94bf14",
+    "tg_lever_adoption_evidence.csv": "6e992a6bc5462182558d785352e109afd8bc2118097f8f4b5533d6be105ceae8",
+    "tg_paper_mapping_audit.csv": "48d4c43d48240e6342468d0512401ddaef141df99dcc1788d8ced24da623b012"
+  }
+}

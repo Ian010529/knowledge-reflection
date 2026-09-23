@@ -1,0 +1,16 @@
+metric,value,definition
+input source rows,2044.0,before DOI/title deduplication
+unique papers,1977.0,after DOI/title deduplication
+paper-concept links,13487.0,deduplicated links
+all canonical concepts,1445.0,core + background
+prediction-core concepts,331.0,reusable materials and mechanisms
+ontology anchor concepts,5.0,"broad parents retained for navigation, excluded from prediction"
+rare core evidence concepts,919.0,real but currently single-paper materials/mechanisms
+background concepts,190.0,"methods, metrics and device functions"
+prediction-eligible concepts,331.0,core concepts with document frequency >= 2
+singleton evidence concepts,919.0,"retained for evidence, excluded from prediction"
+papers with material concepts,1535.0,unique papers
+papers with mechanism concepts,1420.0,unique papers
+prediction-ready papers,1125.0,contains both material and mechanism
+median concepts per paper,6.0,all concept roles
+median core concepts per paper,3.0,materials and mechanisms

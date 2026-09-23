@@ -1,0 +1,231 @@
+{
+  "run_id": "RUN_FFB67645BC",
+  "script_version": "1.1.0",
+  "script_path": "scripts/run_ite_insight_transfer.py",
+  "script_sha256": "2107b0cc860e03b1e5d686b55d0f508296554a0efd9fb7e87fa0797501466b99",
+  "generated_on": "2026-07-30",
+  "generated_at_utc": "2026-07-30T08:56:46.952014+00:00",
+  "parameters": {
+    "freeze_year": 2025,
+    "theme_cosine": 0.7,
+    "possible_alignment": 0.66,
+    "strong_alignment": 0.72,
+    "evidence_cosine": 0.6,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_model_snapshot_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "embedding_model_config_sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+    "random_state": 27
+  },
+  "software": {
+    "python": "3.14.4",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "sentence_transformers": "5.5.1"
+  },
+  "inputs": [
+    {
+      "path": "minimal_clean_concept_layer/final_paper_index.csv",
+      "bytes": 3350894,
+      "sha256": "c507426c0b3f09a1cc0a46c320e455f98c26b0c77b89628c2e2fd941d77924d9"
+    },
+    {
+      "path": "minimal_clean_concept_layer/final_paper_concept_map.csv",
+      "bytes": 2423787,
+      "sha256": "ee8cffe0bdf4c15995400257bca6aaee5c1e71a275440d57fbd1ee7cea9ae17e"
+    },
+    {
+      "path": "mechanism_transfer_workflow/pure_mechanism_vocabulary.csv",
+      "bytes": 14188,
+      "sha256": "492525ec388c4a655ff3d925a4e84c38e31b0c35a0b19f1b99257b71eb056e52"
+    }
+  ],
+  "review_state": [
+    {
+      "path": "ite_insight_transfer/ite_abstract_claim_adjudication.csv",
+      "bytes": 101,
+      "sha256": "1dc1cd537db6e2ff6733f22d4b3c487e30b5eb159bfcb259ef31be36e8d29ed6"
+    },
+    {
+      "path": "ite_insight_transfer/ite_tg_relation_adjudication.csv",
+      "bytes": 203,
+      "sha256": "bdcea059571a71ee0bd015c4e273df20e3f9c5693ae1aa69a1775d4cd5bc1f9f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ite_insight_claim_units.csv",
+      "rows": 1621,
+      "bytes": 6517097,
+      "sha256": "d43421b8b837a553d545261059a96d10e190650578e03a5f9e318f7a5f0fe367"
+    },
+    {
+      "path": "ite_primary_insight_claims.csv",
+      "rows": 165,
+      "bytes": 747619,
+      "sha256": "a6b3b101d27ef31ec12a499c3a663158cd99d0a9ed2ba3b621c57f87a2d2dc06"
+    },
+    {
+      "path": "ite_evidence_repair_queue.csv",
+      "rows": 104,
+      "bytes": 434052,
+      "sha256": "b3e9f4352e5856db46eec25631eaa1bd3422203d72b74ec51c44f3789f38100f"
+    },
+    {
+      "path": "ite_adjacent_reference_supplement.csv",
+      "rows": 235,
+      "bytes": 982858,
+      "sha256": "ecfe0cbb917c0ac69a77610f3f43c45dfbb6718ee40372f3381d23cf2eeacb04"
+    },
+    {
+      "path": "ite_source_already_tg_coupled.csv",
+      "rows": 31,
+      "bytes": 139524,
+      "sha256": "698b60b9828473c0ac444d9f2925216b07c301110f2841e3abe468a08ff0e92e"
+    },
+    {
+      "path": "tg_reference_claim_units.csv",
+      "rows": 253,
+      "bytes": 958819,
+      "sha256": "a891115d8995fef63ee0b74ebcda855c75e98ab54bc262bebd9244203df8fd4e"
+    },
+    {
+      "path": "bridge_claim_units.csv",
+      "rows": 52,
+      "bytes": 222884,
+      "sha256": "9399a537c4ca957e132cc4a67134f19ee45000be19ebb5c3f6ef65d2c0b6c1aa"
+    },
+    {
+      "path": "ite_abstract_claim_candidates.csv",
+      "rows": 429,
+      "bytes": 249028,
+      "sha256": "e3ee61829a9838f4592c01070e9bc27fcb0ad3d2f8c3afd5184aa6399ba3d5b4"
+    },
+    {
+      "path": "ite_insight_themes.csv",
+      "rows": 142,
+      "bytes": 1301923,
+      "sha256": "e1e572603f7fd0f89a9b784de61a1915293773211d78c668ec9e7bf0a7e92204"
+    },
+    {
+      "path": "ite_insight_theme_members.csv",
+      "rows": 165,
+      "bytes": 28826,
+      "sha256": "6d9e7a050c714d26c128e096c35c501d87d9b78a03c9bed3e99ecc53588c22e6"
+    },
+    {
+      "path": "ite_to_tg_alignment_review_queue.csv",
+      "rows": 12,
+      "bytes": 75317,
+      "sha256": "f703c7bef832db136b139a5c83ccf41d0e339571ee9f340f1a6df0742163514d"
+    },
+    {
+      "path": "tg_translation_opportunity_watchlist.csv",
+      "rows": 130,
+      "bytes": 1421509,
+      "sha256": "fbf30a2fe4afc85186098044487174436cc8bda8c5ce26de095c54c76e0cfe9f"
+    },
+    {
+      "path": "ite_to_tg_transfer_cards.csv",
+      "rows": 142,
+      "bytes": 1556473,
+      "sha256": "657ae002f15ec18a179bf1c483e31ad7a4dc14c806eb1ce73e67cee6205f2f07"
+    },
+    {
+      "path": "alignment_threshold_audit_sample.csv",
+      "rows": 37,
+      "bytes": 338749,
+      "sha256": "1812fc68a2f8fcb83d861493fe4ddbfbb6bc908df4e33888219c5b0f7c841092"
+    },
+    {
+      "path": "analysis_summary.json",
+      "rows": null,
+      "bytes": 1092,
+      "sha256": "38c8660ced7013b1611a7108402b5d9e4ebc723d97eeff9f933bb686e92c0170"
+    },
+    {
+      "path": "README.md",
+      "rows": null,
+      "bytes": 5919,
+      "sha256": "e9c6ab6f0a07d3408d37fb27305ea5e5b2a2658132e79ef226ad8739df81962a"
+    },
+    {
+      "path": "qa_invariants.json",
+      "rows": null,
+      "bytes": 1712,
+      "sha256": "4e4312532a4f93aebfb9797985a79d23a04b918455cfd96f0cd14cbc07342b17"
+    }
+  ],
+  "invariants": {
+    "all_passed": true,
+    "checks": {
+      "primary_insight_ids_unique": {
+        "passed": true
+      },
+      "theme_ids_unique": {
+        "passed": true
+      },
+      "relation_candidate_ids_unique": {
+        "passed": true
+      },
+      "abstract_candidate_ids_unique": {
+        "passed": true
+      },
+      "primary_claims_partition_exactly_into_themes": {
+        "passed": true
+      },
+      "theme_supporting_paper_counts_match_members": {
+        "passed": true
+      },
+      "intervention_evidence_is_exact_abstract_substring": {
+        "passed": true
+      },
+      "mechanism_evidence_is_exact_abstract_substring": {
+        "passed": true
+      },
+      "outcome_evidence_is_exact_abstract_substring": {
+        "passed": true
+      },
+      "abstract_candidates_are_exact_substrings": {
+        "passed": true
+      },
+      "primary_claims_meet_evidence_threshold": {
+        "passed": true
+      },
+      "primary_claims_have_causal_mechanism_role": {
+        "passed": true
+      },
+      "primary_claims_have_outcome_role": {
+        "passed": true
+      },
+      "primary_claims_are_not_reviews": {
+        "passed": true
+      },
+      "primary_claims_are_direct_iTE_scope": {
+        "passed": true
+      },
+      "relation_rows_cover_all_nonexclusive_flags": {
+        "passed": true
+      },
+      "relation_rows_meet_similarity_threshold": {
+        "passed": true
+      },
+      "relation_chronology_is_consistent": {
+        "passed": true
+      },
+      "opportunity_partition_matches_no_relation_flags": {
+        "passed": true
+      },
+      "freeze_year_respected": {
+        "passed": true
+      }
+    },
+    "details": {
+      "primary_claims": 165,
+      "theme_member_claims": 165,
+      "expected_relation_rows_from_flags": 12,
+      "actual_relation_rows": 12,
+      "opportunity_themes": 130
+    }
+  }
+}

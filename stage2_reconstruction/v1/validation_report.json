@@ -1,0 +1,81 @@
+{
+  "reconstruction_run_id": "txt_reconstruction_v1_19f1c2edac18",
+  "status": "PASS_STRUCTURAL_ONLY",
+  "table_counts": {
+    "paper_coverage.csv": 1977,
+    "claim_evidence.csv": 1972,
+    "node_evidence.csv": 4646,
+    "relation_evidence.csv": 2655,
+    "initial_concepts.csv": 4646,
+    "initial_normalization_assignments.csv": 4646
+  },
+  "coverage_by_domain": {
+    "iTE": {
+      "extracted_core_claim": 1541,
+      "no_selected_core_claim": 98,
+      "missing_abstract": 5
+    },
+    "TG": {
+      "extracted_core_claim": 317,
+      "no_selected_core_claim": 15,
+      "missing_abstract": 1
+    }
+  },
+  "node_counts_by_domain": {
+    "iTE": 3640,
+    "TG": 1006
+  },
+  "relation_counts_by_domain": {
+    "iTE": 2036,
+    "TG": 619
+  },
+  "quote_location_counts": {
+    "exact_unique": 1937,
+    "empty_in_export": 35
+  },
+  "node_phrase_location_counts": {
+    "exact_unique_in_quote": 4224,
+    "multiple_exact_matches_in_quote": 422
+  },
+  "legacy_role_counts": {
+    "physical_consequence": 1349,
+    "performance": 950,
+    "mechanism": 1041,
+    "material_strategy": 973,
+    "interaction": 333
+  },
+  "assertion_type_counts": {
+    "association": 191,
+    "author_claim": 2287,
+    "hypothesis": 134,
+    "negated": 43
+  },
+  "restored_registry_only_papers": [
+    "P1973",
+    "P1974",
+    "P1975",
+    "P1976",
+    "P1977"
+  ],
+  "checks": {
+    "all_tables_roundtrip_without_cell_changes": true,
+    "all_corpus_papers_retained": true,
+    "unique_node_ids": true,
+    "unique_relation_ids": true,
+    "all_relation_endpoints_exist": true,
+    "all_evidence_foreign_keys_exist": true,
+    "all_nonempty_quotes_roundtrip_to_abstract": true,
+    "all_reported_node_offsets_exact": true,
+    "initial_concept_mapping_is_one_to_one": true,
+    "no_model_or_human_review_claimed": true,
+    "original_input_hashes_unchanged": true
+  },
+  "limitations": [
+    "No extraction completeness or semantic accuracy audit performed.",
+    "IDs are newly assigned reconstruction IDs, not recovered IDs from missing exports.",
+    "Initial concepts are one per mention; no semantic normalization or merging performed.",
+    "Quote offsets reference original CSV abstract text, zero-based Unicode indices, end exclusive.",
+    "Node labels absent verbatim from quotes are retained; this flag is not a semantic error judgment.",
+    "Conditions, joint factor groups, sentence IDs, original model identity and original run logs cannot be recovered from this TXT alone."
+  ]
+}

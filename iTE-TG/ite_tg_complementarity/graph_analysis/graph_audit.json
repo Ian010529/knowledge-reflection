@@ -1,0 +1,74 @@
+{
+  "node_count": 3397,
+  "edge_count": 2495,
+  "node_type_counts": {
+    "TG_recipient_system": 7,
+    "iTE_insight": 1621,
+    "iTE_transferable_lever": 24,
+    "paper": 1725,
+    "translation_program": 20
+  },
+  "edge_type_counts": {
+    "adapted_into": {
+      "total": 20,
+      "verified_true": 0,
+      "verified_false": 20,
+      "semantic_layer": "curated_hypothesis"
+    },
+    "exemplifies": {
+      "total": 16,
+      "verified_true": 16,
+      "verified_false": 0,
+      "semantic_layer": "source_verified"
+    },
+    "expresses_lever": {
+      "total": 735,
+      "verified_true": 0,
+      "verified_false": 735,
+      "semantic_layer": "taxonomy_assignment"
+    },
+    "reports": {
+      "total": 1621,
+      "verified_true": 1621,
+      "verified_false": 0,
+      "semantic_layer": "source_verified"
+    },
+    "supports_hypothesis": {
+      "total": 83,
+      "verified_true": 0,
+      "verified_false": 83,
+      "semantic_layer": "curated_hypothesis"
+    },
+    "targets": {
+      "total": 20,
+      "verified_true": 0,
+      "verified_false": 20,
+      "semantic_layer": "curated_hypothesis"
+    }
+  },
+  "duplicate_node_ids": 0,
+  "duplicate_edge_ids": 0,
+  "duplicate_typed_edges": 0,
+  "missing_endpoint_count": 0,
+  "endpoint_errors": [],
+  "typed_schema_error_count": 0,
+  "typed_schema_errors": [],
+  "self_loop_count": 0,
+  "is_directed_acyclic_graph": true,
+  "weak_component_count": 1243,
+  "largest_weak_component_size": 1073,
+  "isolate_count": 250,
+  "paper_nodes_missing_year": 0,
+  "supports_hypothesis_pair_count": 83,
+  "accepted_evidence_pair_count": 83,
+  "supports_exactly_match_accepted_evidence": true,
+  "review_queue_edge_count": 7,
+  "review_queue_overlap_with_primary_graph": 0,
+  "interpretation_guardrails": [
+    "verified=False is not a negative label.",
+    "supports_hypothesis edges are curated candidates, not experimental positives.",
+    "missing edges are unreviewed or uncovered, not experimental negatives.",
+    "centrality and component size describe this curation schema, not scientific efficacy."
+  ],
+  "baseline_metadata_fields_repaired_in_adapter": 0
+}

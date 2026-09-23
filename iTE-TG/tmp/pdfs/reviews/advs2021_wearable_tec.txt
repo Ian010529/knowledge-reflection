@@ -1,0 +1,1278 @@
+REVIEW
+                                                                                                                     www.advancedscience.com
+
+
+Potentially Wearable Thermo-Electrochemical Cells for Body
+Heat Harvesting: From Mechanism, Materials, Strategies to
+Applications
+Yuqing Liu, Hongbo Wang,* Peter C. Sherrell, Lili Liu, Yong Wang, and Jun Chen*
+
+                                                                                                   1. Introduction
+Wearable electronics are becoming one of the key technologies in health care
+applications including health monitoring, data acquisitions, and real-time                          Wearable electronic systems are becoming
+                                                                                                    one of the key technologies in healthcare
+diagnosis. The commercialization of next-generation devices has been
+                                                                                                    applications including health monitoring,
+stymied by the lack of ultrathin, ﬂexible, and reliable power sources. Wearable                     wireless data acquisitions and transfers,
+thermo-electrochemical cells (TECs), which can convert body heat to                                 and real-time diagnosis. The emergence of
+electricity via an electrochemical process, are showing great promise as power                      wearable electronics needs for power sup-
+sources for such wearable systems. TECs harvest orders of magnitude more                            ply systems that are light, ﬂexible, and user
+voltage per temperature diﬀerence (Seebeck coeﬃcient (1–34 mV K−1 )) when                           friendly.[1–5] As the alternative to energy
+                                                                                                    storage systems (including batteries[6–11]
+compared to the more common thermoelectric generators (Seebeck
+                                                                                                    and supercapacitors[12–14] ), self-powered
+coeﬃcient ≈tens or hundreds of µV K−1 ). However, there still remain great                          systems that harvest energy from the
+challenges for TECs progressing towards wearable applications. This review                          human body or the outside environment
+summarizes the recent development of potentially wearable TECs with                                 (e.g., solar,[15,16] mechanical energy[17–19] )
+promise for body-heat harvesting, with a speciﬁc focus on ﬂexible electrode                         is attracting increasing attention from
+                                                                                                    researchers. These self-powered systems
+materials, solid-state electrolytes, device fabrication, and strategies toward
+                                                                                                    use energy that is environmentally friendly
+applications. It also clariﬁes the challenges and gives some future direction to                    and sustainable, with recent developments
+enhance future investigations on high-performance wearable TECs for                                 in advanced wearable energy conversion
+practical and self-powered wearable devices.                                                        devices enabling eﬃcient power extraction
+                                                                                                    from users (especially the elderly).[20–23] For
+                                                                                                    example, solar cells are widely applied, and
+                                                                            show the greatest potential among energy conversion devices,
+Dr. Y. Liu, Dr. H. Wang, Dr. Y. Wang
+State Key Laboratory of Electronic Thin Film and Integrated Devices
+                                                                            with the latest advances surrounding ﬂexible and stretchable
+University of Electronic Science and Technology of China                    solar cells.[15,24,25] The fast growth of piezoelectric and tri-
+Chengdu 610054, P. R. China                                                 boelectric generator devices, driven by improved mechanistic
+E-mail: hongbowang@uestc.edu.cn                                             understanding,[26,27] has led to the emergence of self-powered
+Dr. P. C. Sherrell                                                          systems via harvesting mechanical energy from the human
+Department of Chemical Engineering                                          movement.[28–32] However, these energy harvesting strategies rely
+University of Melbourne
+Melbourne VIC 3010, Australia                                               on either the exposure to sunlight or the circumstances when
+Dr. L. Liu                                                                  human movement exists, limiting the opportunity for energy
+School of Energy and Institute for Advanced Materials                       harvesting.[1]
+Nanjing Tech University                                                        Alternatively, human body heat is considered a promising
+Jiangsu Province Nanjing 211816, China                                      source of constant energy, which could ﬁll the gap of solar
+Prof. J. Chen                                                               and mechanical energy harvesting.[33,34] Our human body can
+Intelligent Polymer Research Institute and ARC Centre of Excellence for
+Electromaterials Science
+                                                                            continually provide thermal energy up to 20 mW cm−2 and
+Australian Institute for Innovative Materials                               there is always a temperature diﬀerence between the skin and
+University of Wollongong                                                    the outside environment.[1,33,34] To harvest this energy, ther-
+Wollongong NSW 2500, Australia                                              moelectric generators (TEG) were ﬁrst studied. Owing to the
+E-mail: junc@uow.edu.au                                                     recent development of organic thermoelectric (TE) materials,
+      The ORCID identiﬁcation number(s) for the author(s) of this article   ﬂexible and even stretchable TEGs prototypes were gradually
+      can be found under https://doi.org/10.1002/advs.202100669             reported, where the Seebeck coeﬃcient (Se = △V/△T) was
+© 2021 The Authors. Advanced Science published by Wiley-VCH GmbH.           greatly limited to tens of µV K−1 .[35–38] The converted voltage
+This is an open access article under the terms of the Creative Commons      output from low-grade body heat (where △T is in the range
+Attribution License, which permits use, distribution and reproduction in    of 5 °C–10 °C) is thus far from the requirement of wearable
+any medium, provided the original work is properly cited.
+                                                                            electronics (the order of hundreds of mV to several V) unless in
+DOI: 10.1002/advs.202100669                                                 series connecting hundreds of single devices together.[35–38]
+
+
+Adv. Sci. 2021, 8, 2100669                                       2100669 (1 of 23)   © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                           21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 1. Schematic illustration of the current directions in developing wearable thermoelectrochemical cells and the potential applications in wearable
+electronic systems for healthcare.
+
+
+   Thermo-electrochemical cells (TECs), which can convert heat
+to electricity via the temperature dependence of the electro-
+chemical process, display Seebeck coeﬃcients hundreds of times
+higher than ﬂexible TEGs.[39–41] This high performance, coupled
+to cheap and environmentally friendly electrode and electrolyte
+materials and simple device construction, is leading to increas-
+ing interest in TECs for low-grade heat harvesting. While all TECs
+have the same basic conﬁguration of two electrodes sandwiching
+an electrolyte, there exist multiple subclasses of TECs deﬁned by
+their diﬀerent operating mechanisms including thermogalvanic
+cells (TGCs),[41–44] thermally chargeable capacitors (TCCs),[45–47]
+and thermally regenerative batteries.[48,49] These subcategories of
+TECs features key advantages that can aid in application speci-
+ﬁcity in terms of energy output consistency, maximum output
+voltage, or conversion eﬃciency. Meanwhile, each possesses its
+challenges in designing feasible devices to supply power for wear-
+able applications.
+   This article presents an overview of the recent advances of
+                                                                              Figure 2. The conﬁguration and working mechanism of a TGC device.
+wearable TECs in terms of ﬂexible electrodes, solid-state and ﬂex-
+ible electrolytes, and device design (Figure 1). We summarize the
+development and potential of TECs in wearable applications for                action is occurring, keeping continuity of the reaction and thus
+body heat harvesting, make comparisons, clarify the challenges                electricity generation.[41]
+and provide future directions for each type of TEC, focused on                   The potential diﬀerence generated in the cell is dependent on
+improving the overall output performance for wearable applica-                the reaction entropy of redox couples across the cell. If the redox
+tions and self-powered wearable systems.                                      reaction in TCCs is:
+
+                                                                              Mm+ + (m − n) e− ↔ Mn+                                                (1)
+2. Potential Wearable Thermogalvanic Cells
+                                                                                If we deﬁne Mm+ and Mn+ as A and B respectively, the See-
+2.1. Thermogalvanic Cells                                                     beck coeﬃcient Se (thermally generated voltage per temperature
+                                                                              diﬀerence) is given by:
+The conﬁguration and mechanism of a thermogalvanic cell
+(TGC) is illustrated in Figure 2, which shows a TGC consists                         𝜕V     V − Vcold
+                                                                              Se =       = hot
+of two identical electrodes with an electrolyte containing redox                     𝜕T     Thot − Tcold
+couples. When a temperature gradient is applied across the cell,                     (         ) (         )
+temperature-dependent redox reactions between redox couples                           SB + Ŝ B − SA + Ŝ A − nS̄ e        S B − SA
+(e.g., Mm+ and Mn+ ) will take place at the electrode/electrolyte                =                                     ≈                            (2)
+                                                                                                   nF                         nF
+interfaces, forming the potential diﬀerence between the two elec-
+trodes. Once the two electrodes are connected with the external               where V is the voltage generated across the two electrodes, n is the
+load, the charge on the electrode materials provided from the re-             number of electrons involved in the reaction, F is Faraday’s con-
+dox reaction can ﬂow through the external circuit. Meanwhile,                 stant, SA and SB are the partial molar entropies of species A and
+the redox species consumed on one electrode will be supplanted                species B, and their respective Eastman entropies are denoted
+through migration from the other electrode where the reverse re-              by ̂SA and ̂SB , accordingly.S̄ e is the transported entropy of the
+
+
+Adv. Sci. 2021, 8, 2100669                                        2100669 (2 of 23)     © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                         21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                           www.advancedscience.com
+
+
+
+
+Figure 3. a) Dependence of open-circuit potential on the temperature diﬀerence between hot and cold C-ACT electrode (Inset: Photograph of the
+plastic thermocell). b) Thermocell discharge and speciﬁc output power as a function of the current density of the pristine ACT and C-ACT electrodes.
+a,b) Reproduced with permission.[75] Copyright 2015, Tsinghua University Press and Springer. c) Cross-sectional SEM image of 90% SWNT–10% rGO
+composite and d) Current density versus voltage and power density versus voltage generated using various electrode compositions at ΔT = 31 °C.
+Reproduced with permission.[78] Copyright 2013, Wiley-VCH.
+
+
+electrons in the external circuit. In most cases the Eastman en-             electrode materials.[51,69–73] Therefore, electrode materials with
+tropy and S̄ e is negligible compared to Ŝ A and ̂SB , so the Se is         the high catalytic surface, high electrical conductivity, and large
+mainly dependent on the partial molar entropies of species A and             surface area such as platinum, carbon materials and conducting
+species B, which is determined by the chemical nature of redox               polymers are highly promising.
+couples and the surrounding solvent environments.[41,50]
+   Most of the current investigations on TGCs are based on
+the liquid electrolyte system, where the p-type redox couples                2.2. Potential Materials for Wearable TGCs
+of Fe(CN6 )3-/4−[51,52] and n-type redox couples like I− /I3 − ,[53–55]
+Fe2+ /Fe3+ ,[54,56,57] CoII/III (bpy)3 2+/3+[58,59] are the most commonly    2.2.1. Flexible Electrode Materials
+investigated due to the large entropy change between oxidants
+and reductants in solvents. The deﬁnition of p/n type for re-                Wearable TGCs are required to be ﬂexible, light-weight, and soft.
+dox couples originates from that of thermoelectric materials.[60]            A key challenge is to develop such a ﬂexible electrode without
+Speciﬁcally, the redox couple has a negative (or positive) sign indi-        sacriﬁcing the high-performance properties (such as the catalytic
+cates that the hot electrode behaves as the anode, which is analogs          surface, high electrical conductivity, and large surface area, etc.)
+to a p-doped (or n-doped) thermoelectric and deﬁned as p-type (or            required for TGCs. In recent years, two main strategies have been
+n-type) redox couple.[60] To amplify the entropy change of redox             employed to prepare such ﬂexible electrodes, either using a rel-
+couples for a high Se , eﬀorts have focused on; varying the sol-             atively inﬂexible active material on a ﬂexible substrate such as
+vation shell of the redox active species by using diﬀerent solvent           PET sheets, textiles, cloth, etc.,[74–76] or alternatively developing
+systems (e.g., water,[42,61] organic solvents,[59] ionic liquids[53,59] or   intrinsically ﬂexible electrode materials.[51,77,78]
+their mixtures[62] ); the incorporation of additives (like chaotropic           Carbon Textile or Carbon Cloth Based Electrodes: Carbon tex-
+cations for Fe(CN6 )3-/4-[63] and 𝛼-cyclodextrins for I− /I3 −[64–66] );     tiles or carbon cloths are good candidates as ﬂexible sub-
+and employing diﬀerent counter ions, such as Cl− , SO4 2− , NO3− ,           strates that also possess acceptable electronic conductivity.[79]
+ClO4 − for Fe2+/3+[57,67] , NTf2 − and Cl− for CoII/III (bpy)3 2+/3+ .[68]   Kim et al. reported the ﬁrst carbon textile-based electrodes (Fig-
+   In addition to the Se , the exchange current density is also              ure 3a,b), where the carbon nanotubes (CNTs) are deposited onto
+important to achieve the high-power output of TGCs. Gen-                     an activated carbon textile (ACT) via a dip-coating method.[75]
+erally, the exchange current density is dependent on the ion                 They demonstrated that the CNT coated ACT (C-ACT) exhibits
+concentration and diﬀusion coeﬃcient of electrolytes,[60,67] the             lower charge transfer resistance (Rct ), mass transport resis-
+charge transfer resistance on the interface of between the elec-             tance (Rmt ), and equivalent series resistance (ESR) than the
+trode/electrolyte as well as the electric transport ability of the           pure ACT, and thereby yielding more than two times higher
+
+
+Adv. Sci. 2021, 8, 2100669                                        2100669 (3 of 23)   © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                     21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                       www.advancedscience.com
+
+thermo-electrochemical performance than the pure ACT in                  alignment into the composite ﬁlm, while maintaining good
+terms of normalized current density (139.15 vs 62.32 mA m−2              ﬂexibility.
+K−1 ) and normalized power density (48.86 vs 21.9 µW m−2 K−2 )              Beyond purely carbon-based materials, conducting polymers
+in 0.4 m K3/4 Fe(CN)6 electrolyte. It is worth mentioning that, us-      are another promising active material for ﬂexible electrodes,
+ing this ﬂexible electrode, a real ﬂexible TGCs device in harvest-       as they can exhibit ﬂexibility, possess molecular porosity, pos-
+ing body heat was reported, which will be discussed further in           sess an intrinsically high surface area for small reactants,
+the device design (Section 2.3).                                         and are favorable ion transport conductors.[3,81,83] Poly(3,4-
+   Instead of depositing active materials onto a purchased car-          ethylenedioxythiophene)/polystyrenesulfonic acid (PEDOT/PSS)
+bon textile or carbon cloth, Baughman et al. devoted eﬀorts              is a promising conducting polymer. Its phase structure can
+to the treatment of the purchased carbon cloth products and              be changed by dopants (such as ethylene glycol,[84] diethylene
+greatly enhanced the exchange current density and power out-             glycol,[85] dimethyl sulfoxide,[86] or ionic liquids[3] ) and the poly-
+put of TGCs.[76] Commercial carbon cloths were modiﬁed by                mer will exhibit diﬀerent electrical and electrochemical proper-
+simple thermal annealing (1500 °C in argon) or soaking in al-            ties. Crispin et al. ﬁrst reported PEDOT/PSS-based electrodes
+kaline solution (in 2 m KOH for 24 h) followed by post thermal           in TGCs, in which PEDOT/PSS ﬁlms were treated by a sec-
+treatment (900 °C in argon). Thermal annealing was shown to              ondary dopant with dimethyl sulfoxide (DMSO).[81] After DMSO
+boost the electrical conductivity from 2.6 S cm−2 to 160 S cm−1 ,        treatment of the core–shell structured (conductive PEDOT/PSS
+while the alkaline treatment approach enhanced the electroac-            core and insulating PSS shell) PEDOT/PSS ﬁlm, the excess hy-
+tive surface area (ESA), producing a porous structure and in-            drophilic PSS was separated into nanodomains and an intercon-
+creasing the wettability to electrolytes. As a result, the activated     nected network of highly conducting PEDOT/PSS was created
+carbon cloth (A-CC) ﬁlm electrode exhibits the highest normal-           (Figure 4a). This percolating PEDOT/PSS network greatly en-
+ized power density (Pmax /(△T)2 ) of 1.80 mW m−2 K−2 in the              hanced the electrical conductivity (by over three orders of mag-
+K3 Fe(CN)6 /(NH4 )4 Fe(CN)6 electrolytes, even surpassing that of        nitude from 0.4 to 805 S cm−1 ). Owing to the fast electron trans-
+extremely expensive platinum foil (1.38 mW m−2 K−2 ). Despite            fer and good penetration of aqueous electrolytes, PEDOT/PSS-
+that ﬂexible devices are not demonstrated in this work, these            based TGCs exhibit a Pmax /(△T)2 of 0.45 mW m−2 K−2 , which is
+ﬂexible A-CC ﬁlm electrodes show the great potential of carbon           comparable with the well-developed carbon-based electrodes and
+textile/cloth-based electrodes in ﬂexible TGCs.                          platinum electrodes.
+   Intrinsically Flexible Electrode Materials: Exploring active ma-         PEDOT/PSS can also be incorporated into well-developed car-
+terials that are intrinsically ﬂexible is another eﬀective method to     bon systems (i.e., graphene or CNT ﬁlm), which can alleviate
+achieve high-performance electrodes. The network of 1D carbon            the mass transport problem caused by the large tortuosity of
+nanotubes (CNTs) usually exhibits remarkable mechanical prop-            CNTs and the sheet restacking of graphene electrodes.[77,82,87]
+erties in addition to excellent electrical conductivity, large surface   Chen et al. prepared a composite ﬁlm electrode made by comb-
+area, and good catalytic behavior.[80] In Ray Baughman’s group, a        ing PEDOT/PSS, edge functionalized graphene (EFG), and CNT
+CNT buckypaper was made from a network of multi-walled car-              via a simple drop-casting method (Figure 4b).[82] The water-
+bon nanotubes (MWNT) by vacuum ﬁltration, which exhibited                dispersible PEDOT/PSS works as a dispersing and ﬁlm-forming
+a high electrical conductivity of 100 S cm−1 and a large internal        agent, in addition to providing an ion transport pathway and in-
+surface area of 278 m2 g−1 .[51] The TGCs made by this MWNT              creasing the porosity of EFG/CNT. EFG/CNT in turn oﬀers more
+buckypaper delivered a high Pmax /(△T)2 of 0.38 mW m−2 K−2               catalytic surface in the composite ﬁlm. Meanwhile, an additional
+in 0.4 m K3/4 Fe(CN)6 aqueous electrolyte, which is higher than          laser-etching process was applied on the composite ﬁlm, facil-
+that of a platinum electrode (0.28 mW m−2 K−2 ). After the ﬂexi-         itating the penetration of the electrolyte and improving the ef-
+ble MWNT ﬁlm electrode is assembled into a ﬂexible TGC device,           fective temperature diﬀerence between the cold and hot elec-
+and then wrapped on a cooling pipe for energy harvesting, the            trode/electrolyte interface. As a result, an instantaneous high
+TGC yielding a VOC of 21 mV at a △T of 15 °C and normalized              Pmax /(△T)2 of 0.72 mW m−2 K−2 was achieved in the viscous
+power density of Pmax /(△T)2 of 0.18 mW m−2 K−2 . Such ﬂexi-             gel electrolyte containing 0.4 m K3/4 FeCN6 . They also investigated
+ble TGCs exhibit lower Pmax /(△T)2 than that of the Teﬂon TGCs           the electrodes in an n-type electrolyte of PVA-FeCl2/3 (1 m FeCl2/3 )
+may arise from the decreasing distance between electrodes (from          system and suggested that pure PEDOT/PSS ﬁlm exhibited supe-
+2.6 to 0.2 cm for ﬂexible TGCs). The lower distance between elec-        rior performance of Pmax /(△T)2 of 0.38 mW m−2 K−2 , which sur-
+trodes is good for a ﬂexible device while resulting in faster heat       passes all other composite materials such as PEDOT/PSS-CNT,
+transfer and smaller △T between electrodes. How to get the elec-         PEDOT/PSS-EFG, and PEDOT/PSS-EFG/CNT ﬁlm. This was at-
+trodes closer while keeping a relatively large △T between them           tributed to the negative charges on excess PSS in PEDOT/PSS
+is still the main challenge of ﬂexible TGCs nowadays.                    having a particularly high aﬃnity for multivalent cations and thus
+   However, the mass transport of electrolyte ions is limited            enhanced the cation transport through the polymer electrode.
+through pure CNT electrodes owing to the tortuous nature.[78] To         These results broaden the application of the ﬂexible PEDOT/PSS
+solve this problem, Chen et al. incorporated reduced graphene ox-        electrodes in TGCs.
+ide (rGO) into the SWNTs and achieved a higher Pmax /(△T)2 of
+0.46 mW m−2 K−2 (Figure 3c,d).[78] The performance enhance-
+ment is attributed to the increased porosity and low tortuous-           2.2.2. Gel Electrolyte
+ness of the composite ﬁlm electrodes, which was conﬁrmed by
+the increased ESA and fast electron transfer kinetics. Mean-             For practical use of thermogalvanic cells in wearable devices, as
+while, the incorporation of 2D rGO sheets induced partial                an important type of solid-state electrolytes, gel electrolytes have
+
+
+Adv. Sci. 2021, 8, 2100669                                    2100669 (4 of 23)   © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                        21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                          www.advancedscience.com
+
+
+
+
+Figure 4. a) Schematic diagram of charge transport (pink arrows) within the polymer electrode and the electron transfer (green arrows) at the poly-
+mer electrolyte interface for poor-conducting (the left top one), intermediate-conducting (left-middle), and high-conducting PEDOT/PSS electrodes
+(left-bottom). The blue “snake” lines (on the left-hand side) mimic aggregates of PEDOT chains that display short-range order through 𝜋–𝜋 stacks.
+Reproduced with permission.[81] Copyright 2018, National Academy of Sciences. b) Schematic illustration and SEM images of laser-etched PEDOT/PSS-
+EFG/CNT and PEDOT/PSS ﬁlm electrodes. Reproduced with permission.[82] Copyright 2020, Wiley-VCH.
+
+
+
+been gradually developed as they avoid leakage issues of elec-                In recent years, polyanionic polymers like poly(sodium acry-
+trolytes and exhibit excellent mechanical properties of ﬂexibil-           late) or carboxymethylcellulose sodium (CMC) have been proved
+ity and/or stretchability.[88] The gel electrolytes usually consist of     to be a good mediator for the preparation of K3/4 FeCN6 based
+a polymer host which can provide mechanical strength and the               gel electrolytes. These polyanionic polymer gels show compat-
+electrolyte containing redox couples.[89] Both p-type and n-type           ibility with the redox couples and do not hinder redox species
+redox couples have been made into these kinds of gels. The me-             transport or diﬀusion as they do not electrostatically retain the
+chanical and thermo-electrochemical performance of these gels              anionic redox couple (i.e., Fe(CN6 )3-/4− ).[89] For example, Aldous
+are greatly dependent on the concentration of redox couples as             et al. prepared a polyanionic polymer-based gel electrolyte by sim-
+well as the chemical nature, molecular weight, and concentration           ply mixing the 5.5 wt% poly(sodium acrylate) beads into 0.1 m
+of polymer gelling agent.[88,89]                                           K3/4 FeCN6 solution via manual stirring and ultrasonication (Fig-
+   Gel Electrolytes Consisting of p-Type Redox Couple of Fe(CN6 )3-/4− :   ure 5a,c).[89] These gels show cyclic voltammetry almost iden-
+Fe(CN6 )3-/4− is a benchmark p-type redox couple in TGCs, and              tical to that of the aqueous electrolyte (0.1 m K3/4 FeCN6 ) in a
+in aqueous solution usually exhibits the best performance of all           three-electrode system, indicating highly reversible redox chem-
+studied electrolytes. Therefore, great attention has been paid to          istry and unhindered diﬀusion of the redox couples in a gel elec-
+develop a gel electrolyte based around the aqueous Fe(CN6 )3-/4−           trolyte. As a result, the gel electrolyte exhibits a typical thermo-
+system. Due to the high chemical activity of Fe(CN6 )3-/4− , the poly-     electrochemical behavior with a stable Seebeck coeﬃcient of -1.09
+mer matrix and the gelling process should be chemically inert              ± 0.04 mV K−1 . In this work, they also provide demonstrate ex-
+and harmless to these reactive redox couples.                              amples of other polymer gelators that do not present good per-
+   As one of the most widely used polymer hosts for gel elec-              formance, including polysaccharide (food-grade agar agar) (Fig-
+trolytes in supercapacitors, poly(vinyl alcohol) (PVA) gel elec-           ure 5b), a protein (food-grade gelatin powder), a nanomaterial
+trolytes were a clear starting point for TGCs. Zhou et al. pre-            (fumed silica). Among them, gelatin gels melt at a relatively low
+pared a PVA-K3/4 FeCN6 gel electrolyte which contained 10 wt%              temperature of 35 °C, while the fumed silica requires an acidic
+PVA and 0.1 m K3/4 FeCN6 by simply mixing their solutions.[88]             environment to form eﬀective gels, thus they are unfavorable for
+The prepared gel is homogeneous, exhibits good moldabil-                   K3/4 FeCN6. Only agar agar formed a free-standing gel, which also
+ity, and possessed a high mechanical strength. Despite the                 shows a signiﬁcant reduction in the current density of voltam-
+low concentration of redox couples and the lack of system-                 metry curves compared with the poly (sodium acrylate) gels and
+atic investigations in this short communication, the work high-            aqueous electrolytes. In addition, they provide a method to deter-
+lighted the potential of gel electrolytes for TGCs igniting further        mine the gelation of quasi-solid-state electrolytes through a sim-
+research.[88]                                                              ple “inversion” test method, where the sample is in the container
+
+
+Adv. Sci. 2021, 8, 2100669                                      2100669 (5 of 23)    © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                  21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                   www.advancedscience.com
+
+
+
+
+Figure 5. Displaying photographs of a) gels prepared with 5.5 wt% poly(sodium acrylate) with just water (transparent) and with 0.1 m K3 [Fe(CN)6 ]/0.1
+m K4 [Fe(CN)6 ] (yellow), passing the inversion test, and b) freestanding gel on a ﬁngertip prepared with 5.5 wt% agar agar and 0.1 m K3 [Fe(CN)6 ]/0.1 m
+K4 [Fe(CN)6 ], cut to size for the CR2032 internal cavity. Also shown is c) an optical microscope image of a thin layer of a typical 5.5 wt% poly(sodium
+acrylate) gel. a-c) Reproduced with permission.[89] Copyright 2016, Elsevier. d) Illustration of the biphasic cellulose-K3/4 FeCN6 gel electrolytes. e) Seebeck
+coeﬃcients of the aqueous solution and the solidiﬁed electrolytes (error bars are based on the largest observed standard deviation for the diﬀerent
+systems); the inset shows the physical appearance of the solid redox electrolyte with 5 wt% cellulose. f) Diﬀusion coeﬃcients of [Fe(CN)6 ]4− and
+[Fe(CN)6 ]3− in the solution and the solid electrolytes at 22 °C. d-f) Reproduced with permission.[90] Copyright 2016, American Chemical Society.
+
+
+and the container is turned upside down. A gel will not ﬂow un-                  those gels are ﬂow and leakage free, they cannot maintain their
+der its weight as it possesses a higher storage modulus (G’) than                original shape with applied deformation or heating. The robust
+loss modulus (G’’), while the liquid (even a viscous liquid) will                mechanical properties of the PAAm gel electrolyte enable the
+show signiﬁcant ﬂow.                                                             thickness to be minimized to 1 mm without encountering of
+   Similarly, Pringle et al. also veriﬁed a series of polymers,                  electronic short-circuits between two electrodes during the de-
+among which the polyanionic carboxymethylcellulose sodium                        formation of the TGC device. The thinner electrolyte decreases
+(CMC) and polyacrylamide (PAAm) were shown to be the most                        the ion diﬀusion pathway and further enhances the performance
+eﬀective hosts for K3/4 Fe(CN)6 based electrolyte in terms of ther-              of PAAm gel electrolytes from 0.027 mW m−2 K−2 (thickness =
+mal energy harvesting.[91] In this study, gel electrolytes based                 10 mm) to 0.071 mW m−2 K−2 (thickness = 1 mm).
+on other polymers including polyurethanes (HydroMed D640 and                        Another promising gel electrolyte is developed by incorporat-
+HydroSlip) and PVA were also employed but were not regarded                      ing the K3/4 Fe(CN)6 electrolyte into a well-developed cellulose
+as a suitable host for K3/4 Fe(CN)6 . The former gels accommo-                   matrix via a solvent exchange method (Figure 5d,e).[90] In con-
+dated 0.4 m K3/4 Fe(CN)6 but showed very low Seebeck coeﬃ-                       trast to other gel electrolytes described above, it is a biphasic
+cients and power output (<0.005 mW m−2 ), while the latter one                   quasi-solid-state electrolyte as opposed to a gel, as the polymer
+encountered serious ﬂocculation problems when the redox con-                     of cellulose is insoluble in water. In this quasi-solid-state elec-
+centration of Fe(CN6 )3/4− was above 0.05 m, resulting in limited                trolyte, the cellulose formed a porous network which could lock
+power output (0.005 mW m−2 K−2 ). Both the CMC–K3/4 FeCN6                        in the 0.4 m K3/4 Fe(CN)6 aqueous electrolyte, and also provide
+gels and PAAm–K3/4 FeCN6 contains a high concentration of re-                    mechanical properties from a “soft sponge” to a “tough rubber”
+dox species (0.4 m) and could achieve both a high Seebeck co-                    with the concentration of cellulose ranging from 2.5 to 20 wt%.
+eﬃcient (-1.25 and -1.43 mV K−1 ) and maximum power outputs                      Meanwhile, the addition of the cellulose network also plays an
+(0.029 and 0.027 mW m−2 K−2 ).                                                   important role in the thermal energy harvesting of K3/4 Fe(CN)6
+   It should be noted that the PAAm gel electrolyte developed in                 species due to the additional heat transfer pathway and tortuous
+this work is a chemically cross-linked and free-standing gel elec-               ion diﬀusion channel provided by the high 3D and honeycomb-
+trolyte. It is mechanically stronger than the abovementioned gel                 like porous structure of the cellulose network. After optimization,
+electrolytes which are cross-linked physically by hydrogen bond-                 the electrolyte with 5 wt% cellulose content exhibited the highest
+ing, hydrophobic interactions, or electrostatic interactions. While              Seebeck coeﬃcient value of -1.38 mV K−1 and power density of
+
+
+Adv. Sci. 2021, 8, 2100669                                           2100669 (6 of 23)      © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                    21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                      www.advancedscience.com
+
+14 mW m−2 at ΔT = 15 K (0.062 mW m−2 K−2 ) at a distance of             thus the reported values are from thermo-electrochemical perfor-
+3 mm between two nickel electrodes.                                     mance only. Another gel of biphase cellulose-[Co(bpy)3 ][NTf2 ]2/3
+   It can be observed that the performance of gel electrolytes is       electrolyte is prepared by the solvent exchange method (Fig-
+highly inferior to the liquid counterparts in terms of power out-       ure 6a). Compared with the PVDF-based gel, it is free-standing,
+put due to the low ion transport/diﬀusion rate. To overcome this        robust, and mechanically ﬂexible. After the optimization of poly-
+problem, eﬀorts are focused on the incorporation of additives in        mer concentration, electrolyte thickness, and concentration of
+the electrolyte/electrode surface or into the gel electrolyte. The      redox couple, the gel also can deliver a similar Pmax /ΔT2 of
+addition of gold nanoparticles on the surface between a graphite        ≈0.014 mW m−2 K−2 .
+electrode and a sodium polyacrylate gel electrolyte could lower            In consideration of the toxic and ﬂammable nature of or-
+the electron transfer resistance on the surface and lead to a 20%       ganic solvents, the environmentally friendly aqueous-based gel
+increase of output power, whereas such improvement is oﬀset             electrolytes are more desirable for wearable applications. A
+by long-term stability issues as the inert gold nanoparticle is         cellulose-[Co(bpy)3 ]Cl2/3 water-based gel electrolyte was therefore
+unstable in the presence of K3/4 FeCN6 under thermogalvanic             developed.[68] Due to the changed solvent environment and un-
+conditions.[92] In addition, ionic liquids (ILs) are also incorpo-      known mechanism, the Seebeck coeﬃcient decreased greatly
+rated to improve the electrochemical reversibility of the redox         from +1.83 to 1.15 mV K−1 . The current density and power out-
+reactions, however, ILs reduce the ion diﬀusion coeﬃcient with          put are further limited by the low maximum concentration of
+the increased viscosity.[91] Future work will focus on alternative IL   [Co(bpy)3 ]Cl2/3 (0.05 m) in water, with a relatively low Pmax /ΔT2
+candidates that can increase the solubility of redox couples and        of only 0.003 mW m−2 K−2 . Water-based Co(bpy)3 2+/3+ gels elec-
+lower the viscosities of ILs.                                           trolyte need further study, and the investigations of gels based on
+   To conclude, signiﬁcant progress has been made on gel-based          alternative n-type redox couples are required.
+p-type electrolytes through a screening selection of compatible            The cationic Fe2+/3+ is one of the well-developed redox couples,
+polymers, optimization on the polymer content, and the thick-           which is soluble at high concentrations and has good chemical
+ness of gel electrolytes, enabling the successful fabrication of gel    stability in water with Se varying from 0.5 to 1.76 mV K−1 depend-
+electrolytes working in TCCs. While these gels remain inferior to       ing on the counter anions (e.g., Cl−1 , SO4 2− , NO3 − , ClO4 − ).[67]
+their liquid counterparts, great progress has been made.                Particularly relevant is the strong acidic nature of the Fe2+/3+ in
+   Gel Electrolytes Consisting of n-Type Redox Couples of               water due to hydrolysis eﬀects, which complements the required
+Co(bpy)3 2+/3+ , Fe2+/3+ , I− /I3 − : Apart from the most exten-        gelation environment for PVA.[97]
+sively investigated p-type redox of Fe(CN)6 3-/4− , various n-type         Zhou et al. directly mixed PVA and FeCl2/3 solutions and pro-
+redox couples including Co(bpy)3 2+/3+ , Fe2+/3+ , I− /I3 − were        duced a PVA–FeCl2/3 ﬁlm through a mold. The gel ﬁlm exhibits
+also incorporated into various polymers to achieve comparable           superior stretchable properties with a strain up to 500% of its
+performance with p-type gel electrolytes.                               original length. Despite the gel exhibiting a much higher ther-
+   [Co(bpy)3 ][NTf2 ]2/3 (where bpy = 2,2’-bipyridyl and NTf2 =         mal conductivity of 1.88 W m−1 K−1 than the liquid counterpart
+bis(triﬂuoromethanesulfonyl)amide) has a large and positive See-        (0.6 W m−1 K−1 ), it has less heat convection through the polymer
+beck coeﬃcient of 1.5-2.2 mV K−1 in organic solvents due to the         matrix, while the Seebeck coeﬃcient is maintained at 1.02 mV
+additional entropy eﬀects arising from the spin-state change of         K−1 which is close to the value of aqueous electrolytes (≈1 mV
+the central metal ion (Co2+/3+ ) during the redox reaction.[59]         K−1 ). Meanwhile, the gel electrolyte has an electrical conductivity
+   Based on this redox couple, Pringle et al. investigated              comparable to solid-state electrolytes at around 10 mS cm−1 , and
+two kinds of quasi-solid-state electrolytes. First, they use            could deliver a constant normalized current density of 0.13 A m−2
+polyvinylidene diﬂuoride (PVDF) and poly(vinyl-idene ﬂuoride-           K−1 and normalized power density of 0.033 mW m−2 K−2 , which
+co-hexaﬂuoropene) (PVDF-HFP) as gelator and prepared the gel            is higher than the Cobalt-based redox couples in an organic gel
+electrolyte via the mixing and gelation method (Figure 6a).[93] The     system.[88]
+prepared PVDF-based electrolytes show superior performance in              Another PVA–FeCl2/3 gel electrolyte was prepared by an in situ
+terms of a higher temperature range of gel states (<70 °C vs            chemical crosslinking method (Figure 6b) and delivered com-
+< 60 °C), higher diﬀusion coeﬃcient, and lower mass-transfer            parable performance (0.85 mV K−1 and 0.033 mW m−2 K−2 in
+resistance due to the impeded ion diﬀusion raised by the inter-         long-term power delivering test).[82] It should be noted that with
+actions between the [Co(bpy)3 ]3+ cations and the polar groups          the chemical crosslinking of polymer chains via glutaraldehyde
+on the PVDF-HFP polymer. With the similar Se of both gels at            (GA), the gel electrolyte exhibits not only ﬂexibility, stretcha-
+around 1.80–1.84 mV K−1 , PVDF-based gels containing 0.05 m             bility and also excellent elastic properties, with only 10% plas-
+[Co(bpy)3 ][NTf2 ]2/3 shows a higher power density of 6 mW m−2          tic deformation after repeated cyclic stretching to 100% strain
+than 4.5 mW m−2 in PVDF-HFP gels at the same ΔT of 40 °C.               for 60 cycles. The gel could also recover its shape after re-
+Subsequently, the PVDF-based gels were further optimized via            peated bending and twisting, which increases the potential of
+tuning the polymer content, the concentration of redox couples          this gel electrolyte in wearable applications and even epidermal
+and electrode separation. The results show that the Pmax /ΔT2           devices.
+could be improved from 0.00375 to 0.014 mW m−2 K−2 with                    The power output of PVA–FeCl2/3 gel electrolyte is catching up
+5 wt% PVDF, 0.1 m redox couple and an electrode separation              to that of K3/4 Fe(CN)6 based gel electrolytes. Recently, a perchlo-
+of 1 mm. It should be noted here that PVDF-HFP is a highly              rate electrolyte of Fe(ClO4 )2/3 was explored for TGCs, exhibiting
+piezoelectric polymer,[95,96] and ordered gels formed from these        both a higher Seebeck coeﬃcient of 1.76 mV K−1 and current
+polymers could complement the charge generated by the TGC,              density than the K3/4 Fe(CN)6 liquid electrolyte.[67] It is reason-
+in the studies here no deformation was applied to the device and        able to believe that the Fe(ClO4 )2/3 -based gels will be developed
+
+
+Adv. Sci. 2021, 8, 2100669                                   2100669 (7 of 23)   © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                          21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 6. a) Photo of PVDF-[Co(bpy)3 ][NTf2 ]2/3 and cellulose-[Co(bpy)3 ][NTf2 ]2/3 gel electrolytes. left: Reproduced with permission.[93] Copyright
+2018, Wiely-VCH. right: Reproduced with permision.[68] Copyright 2018, Elsevier. b) Illustration of the preparation of the PVA–FeCl2/3 gel electrolyte.
+Reproduced with permission.[82] Copyright 2020, Wiley-VCH c) Schematic of the p–n conversion mechanism for the I− /I3 − system. d) The hy-
+drophilic/hydrophobic conversion of PNIPAM nanogels and the equilibrium reaction between I− and I3 − . c,d) Reproduced with permission.[94] Copyright
+2019, Elsevier.
+
+
+
+in the near future, which could be comparable to the p-type gel              to -1.91 mV K−1 . Beneﬁting from a higher value of the absolute
+electrolytes.                                                                Seebeck coeﬃcient, the prepared PNIPAM-I− /I3 − gel electrolyte
+    I− /I3 − is a redox couple with an intrinsically positive Seebeck        delivers a maximum power output of 0.35 µW that is seven times
+coeﬃcient, whereas Zhou et al. have prepared a gel electrolyte               higher than the pristine I− /I3 − aqueous electrolyte. This work
+with conversed high negative Seebeck coeﬃcient utilizing a ther-             opens a new perspective for controlling the Seebeck coeﬃcient of
+mosensitive polymer of poly (N-isopropylacrylamide) (PNIPAM)                 redox couples in gel electrolytes. Besides, the transition temper-
+(Figure 6c,d).[94] The PNIPAM nanogels synthesized by emul-                  ature of 32 °C matches well with the temperature of the human
+sion polymerization have a transition temperature at ≈32 °C,                 body, making it speciﬁcally suitable for body heat harvesting.
+above which the gel transforms from a hydrophilic to a hydropho-                A comparison between the discussed gels is provided below
+bic state. In these PNIPAM nanogels, the relatively hydrophobic              in Table 1. Of note, there is a strong matching in Seebeck coeﬃ-
+I3 − can be captured by the dehydrated nanogels at the hot side              cient and power output for the CMC–Fe(CN)6 3-/4− p-type gel and
+through the hydrophobic interaction and released at the cold side,           the PVA–Fe2+/3+ n-type gel, indicating this couple could provide a
+yielding a concentration gradient of free I3 − across the cell and           strong starting point for studying alternating p–n device geome-
+resulting in the inversion of the Seebeck coeﬃcient from 0.71                tries, which will be discussed further in the following section.
+
+
+Adv. Sci. 2021, 8, 2100669                                       2100669 (8 of 23)     © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                 21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                  www.advancedscience.com
+
+Table 1. Comparison of discussed gel electrolytes for wearable TGC devices, orange colored cells correspond to p-type, and blue to n-type electrolytes.
+
+Redox species                 Concentration            Matrix                Seebeck coeﬃcient        Power output               Comments               Refs.
+                             of redox species                                    [mV K−1 ]           [mW m−2 K−2 ]
+
+Fe(CN)6 3-/4−                    0.02 m                 PVA                       −1.21                  0.012           First report of gel            [ 88 ]
+
+                                                                                                                            electrolytes for TGCs
+Fe(CN)6 3-/4−                     0.1 m         Poly(sodium acrylate)             −1.09                                  Highly reversible redox        [ 89 ]
+
+                                                                                                                           chemistry, excellent
+                                                                                                                           diﬀusion
+Fe(CN)6 3-/4−                     0.4 m                 CMC                       −1.25                  0.029           High concentration of          [ 91 ]
+
+                                                                                                                           redox species
+Fe(CN)6 3-/4−                     0.4 m                PAAm                       −1.43                  0.071           High concentration of          [ 91 ]
+
+                                                                                                                           redox species;
+                                                                                                                           Chemically cross-linked
+                                                                                                                           and freestanding
+                                                                                                                           electrolyte
+FeCN6 3-/4−                       0.4 m               Cellulose                   −1.38                  0.062           Is a biphasic                  [ 90 ]
+
+                                                                                                                            quasi-solid-state
+                                                                                                                            electrolyte rather than a
+                                                                                                                            true gel
+[Co(bpy)3 ][NTf2 ]2/3             0.1 m                PVDF                         1.8                  0.014           Achieved 1 mm thickness        [ 93 ]
+
+[Co(bpy)3 ][NTf2 ]2/3             0.1 m               Cellulose                                          0.014           Is a biphasic quasi-solid      [ 68 ]
+
+                                                                                                                            state electrolyte rather
+                                                                                                                            than a true gel
+Co(bpy)3 ]Cl2/3                  0.05 m               Cellulose                    1.15                  0.003           Is a biphasic                  [ 68 ]
+
+                                                                                                                            quasi-solid-state
+                                                                                                                            electrolyte rather than a
+                                                                                                                            true gel
+FeCl2/3                            1m                   PVA                        1.02                  0.033           Freestanding and               [ 88 ]
+
+                                                                                                                           stretchable electrolyte
+FeCl2/3                            1m                   PVA                        0.85                  0.033           Crosslinked via                [ 82 ]
+
+                                                                                                                           glutaraldehyde,
+                                                                                                                           excellent elastic
+                                                                                                                           properties
+I− /I3 −                                              PNIPAM                      −1.91                                  Inverted polarity of the       [ 94 ]
+
+                                                                                                                           redox couple
+
+
+
+
+2.3. Potential Design Strategies for Wearable Thermogalvanic                      capacitor, the TGCs device could harvest body heat, charge the
+Cells                                                                             capacitor to 1.2 mV in 10 s and achieve a maximum output power
+                                                                                  density of 0.46 mW m−2 . This work provides us a typical model
+The fabrication of a ﬂexible device requires that all parts of the                in developing a ﬂexible TGCs device concerning all components,
+device are ﬂexible, while maintaining a high performance of ther-                 despite that the low voltage output from this single device is far
+mal energy harvesting. Apart from the ﬂexible electrodes and                      from the needs of wearable electronics.
+gel electrolytes, the packaging materials and/or the substrate of                    To continue to develop ﬂexible TGCs for implementation into
+electrode materials are usually ﬂexible polyethylene terephthalate                real-world wearable applications, the electrically series connec-
+(PET) or polyimide sheets, and the electric connections are usu-                  tion of single cells is necessary to multiply the voltage output.
+ally copper wires, sputter-coated gold or platinum.[79] Currently,                The arrangement of p-type and n-type devices alternately con-
+all the single-cell devices are constructed in a sandwich structure               nected in series is an emerging state-of-art strategy, which avoids
+for the shortest ion pathway and high-power output.                               the hot-to-cold thermal short-circuit between adjacent cells occur-
+   Kim et al. fabricated a ﬂexible device using the CNT–ACT                       ring in devices with the same polarity.[60] Meanwhile, it should
+electrodes.[75] The device was constructed using a conventional                   be noted that a comparable output current between p-type and n-
+sandwich structure, where ﬂexible PET sheets and fabric were                      type devices is necessary for the eﬃcient series connection, which
+employed as packaging materials and separators, respectively. Af-                 should be achieved via the optimization of both electrolytes and
+ter sealing the device by hot pressing, an aqueous electrolyte of                 electrodes for both p-type and n-type devices.
+0.4 m K3/4 FeCN6 was injected to obtain an intact, ﬂexible, TGCs                     Zhou et al. provided demonstrations of ﬂexible TGCs made
+device. The fabricated devices are pliable to accommodate curved                  by multiple p–n cells for body heat harvesting.[88,94] In this
+shapes including the body and pipes with various curvatures.                      work, polyimide was used as the substrate for the patterned
+When attached to a shirt worn by a person and connected to a                      Au electrodes and electrical interconnections, with the gel
+
+
+Adv. Sci. 2021, 8, 2100669                                              2100669 (9 of 23)   © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                     21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                         www.advancedscience.com
+
+
+
+
+Figure 7. a) The integrated gel-based thermocell. Both the PFC and PPF gels were sandwiched between two ﬂexible substrates (polyimide, PI). With
+alternating top and bottom interconnections, the PFC and PPF gels are connected sequentially in series. The magniﬁed insets illustrate the opera-
+tion mechanism of the gel-based thermocell. At a certain temperature diﬀerence, the thermovoltage polarity of PFC and PPF is exactly reversed. The
+top right inset is a photograph of the integrated device (scale bar: 2 cm). b) The voltage and current generated by the thermocell from body heat.
+The inset shows a photograph of the wearable thermocell on a hand.a,b) Reproduced with permission.[88] Copyright 2016, Wiley-VCH. c) Schematic
+and d) photos of the ﬂexible watch-strap shaped p–n thermocell for body-heat harvesting. c,d) Reproduced with permission.[82] Copyright 2020,
+Wiley-VCH.
+
+
+
+
+electrolyte placed in the designated location (Figure 7a). An elas-        3. Potential Wearable Thermally Charged
+tic polyurethane frame with a number of holes for individual               Capacitors
+cells was used when a liquid electrolyte was involved. The work
+demonstrated that the ﬂexible TGCs consisting of more than 50              3.1. Thermally Charged Capacitors
+pairs of p-type and n-type devices (p–n cells) could generate an
+output voltage above 0.6 V (Figure 7b) and charge capacitors with          Thermally charged capacitors (TCCs) (also called thermally
+a capacitance of 100 µF when worn on the arm of a person. Chen             charged supercapacitors, ionic thermoelectric supercapacitors, or
+et al. also made multiple pair of p–n cells, where the PEDOT/PSS-          ionic thermoelectric capacitors) is the combination of a thermal
+based composite ﬁlm was optimized according to the selected gel            harvester and an energy storage reservoir. TCCs also consists of
+electrolytes and boosted the transient power output. 18 pairs of           two electrodes connected by an ionic conductive electrolyte, in
+p–n cells could achieve a voltage output of more than 300 mV,              which the electrolyte generates thermovoltage and the capacitive
+charge electrochemical supercapacitors with capacitance as large           electrode store the generated energy (Figure 8).[40,47]
+as 470 mF, and power the light-emitting diodes (LED) lights at a              The thermovoltage is raised from the distinct mobility of
+small ΔT of 10 °C. Meanwhile, to maintain uniform heat transfer            cations and anions in the electrolyte under a temperature gra-
+through electrodes and make it comfortable to wear, strategies in-         dient due to the Soret eﬀect.[98] The resulting gradient of ion
+cluding the use of thermally conductive aluminum foil and the              concentration induces the potential diﬀerence between two elec-
+design of top-electrodes separated between adjacent pair of p–             trodes and the charge induced by the potential diﬀerence at the
+n cells were employed. The device consisting of 30 pairs of p–n            electrode/electrolyte can then be stored by capacitive electrode
+cells worn on the arm of a person could charge 470 mF super-               materials.[40,47]
+capacitors and power a green LED with a voltage booster during                As the power output is not constant in TCCs, the energy stor-
+long-term wear (Figure 7c,d).                                              age is an important parameter in addition to the ﬁgure-of-merit
+
+
+
+Adv. Sci. 2021, 8, 2100669                                    2100669 (10 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                    21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                        www.advancedscience.com
+
+                                                                          3.2. Potential Materials for Wearable Thermally Charged
+                                                                          Capacitors
+
+                                                                          3.2.1. Flexible Electrode Materials
+
+                                                                          The role of electrode materials in the TCCs is to store the charge
+                                                                          (or energy) accumulated on the electrode/electrolyte interface
+                                                                          generated by TCCs electrolytes, so capacitive materials includ-
+                                                                          ing metal plates, carbon materials, and conducting polymers are
+                                                                          used. Based on the energy storage mechanism, electrode materi-
+                                                                          als can be classiﬁed into electrical double layer capacitive (EDLC)
+                                                                          and pseudocapacitive materials.[100] EDLC electrodes physically
+                                                                          store the separated charge on the surface, so an electrically con-
+                                                                          ductive and chemically inert material with a large ion-accessible
+                                                                          surface area like porous carbon materials usually shows higher
+                                                                          capacitance than chemically inert metal plates. Pseudocapacitive
+                                                                          materials, like conducting polymers and metal oxides, store en-
+                                                                          ergy via the reversible faradic reactions between the ions and elec-
+                                                                          trodes and can provide much higher capacitance than EDLCs.
+                                                                          Flexible electrode materials using both the EDLCs and pseudo-
+                                                                          capacitive mechanism have been extensively studied in the area
+                                                                          of ﬂexible supercapacitors, some of which are chosen and utilized
+                                                                          in TCCs based on the composition of the electrolytes.[45,100–102]
+Figure 8. Schematic illustration of a TCC device.
+                                                                             Crispin et al. prepared a thick CNT ﬁlm on sputter-coated gold
+                                                                          ﬁlm via a drop-casting method.[101] Due to the high eﬀective sur-
+                                                                          face area of the nanoporous CNT network (≈120–430 m2 g−1 ), the
+(ZT value) of ionic conductive electrolytes. Energy storage in an         CNT–Au electrode exhibits a larger EDLCs capacitance of 1.03
+idea TCC could be simply deﬁned as:                                       mF cm−2 than the pure gold electrode of 5.1 µF cm−2 in a PEO–
+                                                                          NaOH polymer electrolyte and can store the energy of 1.35 µJ
+                                                                          cm−2 at a ΔT = 4.5 K (Figure 9a–c). This indicates the eﬀective-
+             2                                                            ness of introducing nano-porous electrodes in TCCs devices.
+        1 Qch  1
+Ech =         = CV 2                                               (3)       Apart from carbon materials, conducting polymers with large
+        2 C    2
+                                                                          pseudocapacitance were used in proton-based electrolytes, which
+                                                                          will be electrically oxidized (doped) and reduced (de-doped) in
+where Ech is the charged energy on the electrode, Qch is the charge       acidic environments when there is a potential diﬀerence (Fig-
+stored on the electrode materials, C is the capacitance of the elec-      ure 9d,e).[102] Wang et al. synthesized a novel ﬂexible conjugated
+trode materials in the ionic conducting electrolyte, V is the ther-       conducting polymer of PDAQ-BC via the Buchwald-Hartwig cou-
+movoltage. Therefore, both capacitances of the electrode materi-          pling method between 2,6-diaminoanthraquinone (DAQ) and
+als, as well as the thermovoltage produced by ionic conducting            3,6-dibromo-9-(4-bromophenyl)carbazole (DBC) with nanoparti-
+electrolytes are of vital importance to achieve the high perfor-          cle morphologies (diameter of 100 nm). The nanostructured
+mance of a TCCs.[99]                                                      PDAQ-BC has a large surface area of 358 m2 g−1 and the
+   Meanwhile, the thermal conductivity and ionic conductivity of          anthraquinone moieties exhibit excellent redox properties, so
+the electrolytes also play a role in the eﬀective utilization of ther-    this ﬂexible PDAQ-BC-based electrode produced a pseudocapac-
+mal energy and electric energy, so the ionic ﬁgure-of-merit (ZTi )        itance of 102 mF cm−2 in the TCCs using PSSH ﬁlm as an elec-
+can also be applied here to evaluate the performance of ionic con-        trolyte.
+ductive electrolytes as below:                                               Composite materials combining the EDLC and pseudoca-
+                                                                          pacitive materials were also prepared to achieve an enhanced
+                                                                          capacitance.[45] Yu et al. deposited pseudocapacitive polyaniline
+ZTi = Si 2 𝜎T∕𝜅                                                    (4)    (PANi) on nanoporous graphene/nanotube (G/CNT) ﬁlms via
+                                                                          an electropolymerization method. The prepared PANi@G/CNT
+                                                                          electrode exhibited three to seven times higher capacitance (410
+where Si is ionic seebeck coeﬃcient, 𝜎 is the ionic conduc-               F g−1 ) than the G/CNT electrode (150 F g−1 ) and pure CNT elec-
+tivity, T is the absolute temperature and 𝜅 is the thermal                trodes (52 F g−1 ) in 1 m H2 SO4 due to the large surface area of
+conductivity.[40,47]                                                      the carbon materials and the high redox activity of PANi. When
+   To achieve high thermoelectrochemical performance and ad-              assembled into TCCs, the PANi@G/CNT produced an extremely
+vance the wearable application of TCCs, eﬀorts have been fo-              high capacitance of 487 mF cm−2 in PSSH solid electrolyte, which
+cused on developing ﬂexible electrode materials, solid-state and          is the highest value among all the TCCs devices. Due to the large
+ﬂexible electrolytes, as well as an optimization of the device de-        capacitance, the device can store energy up to 0.173 mJ cm−2 at a
+sign.                                                                     temperature gradient of 5.3 K (thermovoltage was 38 mV).
+
+
+Adv. Sci. 2021, 8, 2100669                                    2100669 (11 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                             21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                               www.advancedscience.com
+
+
+
+
+Figure 9. a–c) Capacitance properties of NaOH–PEO with the CNT electrode. a) Illustration of the electric double layer (EDL) formed in CNT
+electrodes.[101] Copyright 2016, The Royal Society of Chemistry. b) Nyquist plots for devices with Au, thin CNT, and thick CNT electrodes in the frequency
+range of 100 kHz to 1 mHz. The inset shows the simulated equivalent circuit: Rp : resistance connected parallel to the capacitance thatis associated with
+the leakage current; Rs : resistance connected series which represents the internal resistance of the device; C: the capacitance. c) CV curves of devices
+with the three diﬀerent types of electrodes, measured at 10 mV s−1 . a-c) Reproduced with permission.[101] Copyright 2016, The Royal Society of Chem-
+istry. d) Redox reactions of PANI during the charging and discharging processes. PANI switches between emeraldine salt and leucoemeraldine base by
+accepting and releasing electrons during the reduction and oxidation process, respectively. Reproduced with permission.[45] Copyright 2016, Wiley-VCH.
+e) Charge–discharge mechanism for PDAQ-BC. Reproduced with permission.[102] Copyright 2019, Elsevier.
+
+
+
+   However, there are only a few investigations on high-                       mer anion along the temperature gradient, large ionic thermo-
+performance ﬂexible electrode materials for TCCs, which is prob-               potentials are produced with ionic Seebeck coeﬃcients of 8, 3,
+ably because the emergence of ionically conductive electrolytes                and 5.6 mV K−1 for PSSH, PSSNa, and PAAMPSA, respectively,
+for TCCs is still in its infancy. More focus on developing electrode           in a humid environment, which is much higher than the TGC
+materials will be paid after the electrolyte is extensively studied            and TEG devices.
+and developed, and the abundance of supercapacitor literature                     However, the fragile and brittle nature of these polymer elec-
+can be used as a starting point for matching the electrodes with               trolytes will undoubtedly limit the application in ﬂexible elec-
+the electrolytes once they are developed.                                      tronics, and thus additives should be incorporated to improve
+   Solid-State Electrolytes: Most of the electrolytes uti-                     the mechanical properties.[46] Crispin et al. incorporated com-
+lized in TCCs are usually viscous or solid-state polymer                       monly used ﬂexible additives of cellulose (nanoﬁbrillated cellu-
+electrolytes[45,46,103] and viscous ionic liquids,[104] so there is            lose, NFC) into the polyelectrolyte of PSSNa. The prepared NFC–
+almost no leakage consideration for wearable utilization. To                   PSSNa solid-state electrolyte is mechanically robust, ﬂexible, and
+achieve a more comfortable experience for users and to increase                foldable compared to PSSNa (Figure 10a,b), exhibits a high value
+the endurance of the device under repeated deformations during                 of tensile strength (𝜎 T = 16.6 ± 1.5 MPa), calculated Young’s
+usage, eﬀorts have been paid to endow the electrolytes with su-                modulus of E = 0.9 ± 0.1 GPa and a strain at break of 𝜖 T = 10.2 ±
+perior mechanical properties including ﬂexibility, stretchability,             1.2%, which is suﬃcient for practical handling and processing in
+and even self-healing properties.                                              roll-to-roll machines. Despite the relatively lower ionic conduc-
+   Polyanions with Sulfonic Groups: In most polymer electrolytes               tivity (0.004 S m−1 ) of the composite NFC–PSSNa compared to
+for TCCs, those consisting of small cations and anionic poly-                  that of the pure PSSNa electrolyte (0.026 S m−1 ) at the low hu-
+mer chains with sulfonic groups on the side chains such as                     midity of 50% RH, the values increased to a similar level at high
+PSSH,[45] polystyrene sulfonate sodium (PSSNa),[46] and poly(2-                humidity of 100% RH with 0.9 S m−1 and 12 S m−1 for NFC-
+acrylamido-2-methyl-1-propanesulfonic acid) (PAAMPSA)[103]                     PSSNa and PSSNa, respectively. Meanwhile, the existence of NFC
+have attracted the most attention. Due to the huge mobility dif-               has increased the ionic Seebeck coeﬃcient from 3 to 8.4 mV K−1
+ference of the lighter proton or sodium ions, and the heavy poly-              at 100% RH, which is probably due to the entanglement of the
+
+
+Adv. Sci. 2021, 8, 2100669                                        2100669 (12 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                       21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                          www.advancedscience.com
+
+
+
+
+Figure 10. a) Photograph of ﬂexible NFC–PSSNa paper as well as the chemical structure of nanoﬁbrillated cellulose (NFC) and polystyrene sulfonate
+sodium (PSSNa). b) Tensile strength versus strain for eight diﬀerent NFC–PSSNa samples with the same composition and thickness. Inset is the
+photograph of an 80 mm thick NFC–PSSNa strip subjected to a weight of 100 g. The photographs were taken by Thor Balkhed (Link¨oping University).
+Reproduced with permission.[46] Copyright 2017, The Royal Society of Chemistry. c) Schematic images of carrier transfer such as electronic and ionic
+carriers in the HDH ﬁlm at diﬀerent RH. Reproduced with permission.[105] Copyright 2018, Wiley-VCH.
+
+
+
+
+immobile PSS− by the nanoﬁbers of cellulose. As a result, the               the composite polymer ﬁlm and the trap of PSS− by negatively
+composite NFC–PSSNa can achieve an overall ﬁgure-of-merit                   charged PEDOT.
+(0.025) higher than the PSSNa alone (0.006), indicating the suc-               In addition to ﬂexibility, stretchability and self-healing prop-
+cess in pursuing both improved mechanical and thermoelectric                erties are also highly relevant for wearable applications. Those
+chemical performance.                                                       properties can allow larger deformations of TCC devices with-
+   Compared to the insulating additives, an electrically con-               out degrading the electronic performance and restore the
+ductive and mechanically ﬂexible polymer of PEDOT:PSS can                   mechanical integrity and thermoelectrochemical performance
+achieve a further enhancement of the thermoelectrochemical                  when damage does occur under deformation. For this purpose,
+performance of PSSH-based electrolyte.[105] PEDOT:PSS is a                  Jang et al prepared a ternary composite electrolyte material,
+commercialized conducting polymer with a core–shell structure,              in which the conjugated polymer of polyaniline (PANi) and
+in which the core of PEDOT is an electronic thermoelectric ma-              a physical cross-linker of phytic acid (PA) was added into
+terial exhibiting an electric Seebeck coeﬃcient of ≈200 µV K−1              proton conductive anionic polyelectrolyte of PAAMPSA. The
+and the PSS shell is the polymer electrolyte wrapped PEDOT                  PANi:PAAMPSA:PA ternary ﬁlm exhibited excellent stretch-
+with negative charges and 𝜋–𝜋 stacking. Kim et al. found that               ability to 750% strain and self-healable property without any
+by varying the weight ratio of PEDOT:PSS to 1:9 via the doping              external stimuli in a relative moisture environment (Fig-
+of purchased PEDOT:PSS by PSSH, the composite electrolyte is                ure 11).[103] The excellent mechanical properties are caused
+a mixed ionic-electric conductor (Figure 10c) and can produce a             by the synergetic contribution from the dynamic hydrogen
+high ionic Seebeck coeﬃcient of 16.2 mV K−1 , the ultrahigh ionic           bonding in PANi/PA and PAAMPSA/PA and electrostatic
+conductivity of 29.1 S m−1 , and a high-power factor of 7.6 mW              interactions between PANi and PAAMPSA (Figure 11a). In ad-
+m−1 K−2 at 90% RH humidity. This arises from the fast proton                dition, the additional protons from the PO3 H2 group of PA also
+mobility through the ionic conduction channels created inside               improved the protonation in the sulfonic acid of PAAMPSA
+
+
+Adv. Sci. 2021, 8, 2100669                                     2100669 (13 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                          21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 11. a) Schematic illustration and molecular structures of PANI:PAAMPSA:PA ternary TE hybrids. The crosslinking forms regenerative dynamic
+networks through hydrogen bonds and electrostatic interactions between PANI, PAAMPSA, and PA. b) Photograph of a TE hybrid ﬁlm during the self-
+healing and stretching test. c) Schematic illustration of the proton diﬀusion in a PANI:PAAMPSA:PA ternary hybrid ﬁlm under a temperature diﬀerence.
+d) Seebeck coeﬃcient, ionic conductivity, and ionic power factor of the TE hybrid at diﬀerent humidity levels. The point values and error bars indicate
+the average and standard deviation respectively. Reproduced with permission.[103] Copyright 2020, The Royal Society of Chemistry.
+
+
+and enhanced proton transport, so the ﬁlm electrolytes                       ﬁciency of TCCs. However, wearable devices require the TCCs
+exhibited an ultra-high ionic conductivity of 25.6 S                         have excellent mechanical properties and enough safety perfor-
+m−1 (Figure 11c,d). Meanwhile, the polymer chains with sulfonic              mance, while the pure ILs are diﬃcult to meet such requirements
+acid groups were more immobile due to the chain entanglement                 due to their poor mechanical properties and possible leakage.
+and the physical crosslinking with PA and PANi, so the ionic See-            Furthermore, the ionic Seebeck coeﬃcient of the pure ILs is very
+beck coeﬃcient increased from 5.6 mV K−1 for pure PAAMPSA                    small (such as [EMIM][TFSI], the ionic Seebeck coeﬃcient only
+conductors to 8.1 mV K−1 in the ternary composite at 90% RH                  has -0.85 mV K−1 )[104] due to the small diﬀerence in diﬀusion co-
+humidity. As a result of the synergetic enhancement of the                   eﬃcients between their anions and cations. Generally, a larger
+three components on the ionic conductivity, Seebeck coeﬃcient,               diﬀerence in diﬀusion coeﬃcients between anions and cations
+and mechanical properties, the composite ﬁlm exhibits a high                 can lead to larger Std values.
+ﬁgure-of-merit of 1.0 without performance degradation under                     The thermodiﬀusion diﬀerence highly depends on the inter-
+50% strain and after the cut-healing process.                                actions between ions and polymer matrix. When ILs are mixed
+   It can be conceived that sulfonic polyanion-based electrolytes            with ﬂuorinated polymers (such as PVDF-HFP), a small fraction
+could be mechanically robust, and exhibit a huge ionic Seebeck               of anions tend to condense along the negatively charged polymer
+coeﬃcient compared to TEG and TGCs. Meanwhile, the high ca-                  chains due to the strong electron-withdrawing character of the
+pacitance of pseudocapacitive conducting polymers for the pro-               F-groups (Figure 12a). These condensed anions near the poly-
+ton conductive sulfonic polyanion electrolytes could further en-             mer chains could increase the frictional drags of cations, thus
+hance the thermo-electrochemical performance of TCCs.                        reducing their mobility, while the rest of anions that are not con-
+   Ionic Liquid-Based Electrolyte: Ionic liquids (ILs) are regarded          densed around the polymer chains can remain highly mobile, or
+as promising liquid electrolytes for thermally charged capacitors            vice versa. Therefore, ILs can integrate with ﬂexible polymers to
+due to their relatively high ionic conductivity and boiling points,          enlarge the diﬀerences of their constituent ion diﬀusion coeﬃ-
+low thermal conductivity (<0.61 W m-1 K-1 ) as well as negligi-              cients, and then achieve high-performance wearable TCCs.
+ble vapor pressure.[41,47] The remarkable feature of ILs is that the            Polymer electrolyte matrices, such as poly(vinylidene ﬂuoride-
+ions cannot pass into an external circuit when diﬀusing to the               co-hexaﬂuoropropylene) (PVDF-HFP),[106,107]          polyurethane
+electrode surface. Hence, the diﬀusion of ions under a tempera-              (WPU),[108] and SiO2 nanoparticle[109] are considered as promis-
+ture diﬀerence usually generates a high thermovoltage between                ing solid carriers for liquid ILs. For instance, when 40 wt%
+electrodes. These properties imply that the ILs are expected to              1-ethyl-3-methylimidazolium dicyanamide ([EMIM][DCA], an
+improve the output power and heat-to-electricity conversion ef-              IL) was mixed with WPU ([EMIM][DCA]/WPU) through a
+
+
+Adv. Sci. 2021, 8, 2100669                                       2100669 (14 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                           21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+
+
+
+Figure 12. Engineering strategies for the negative or positive tuning of Std . a) Anions tend to condensate along negatively polymer chains due to the
+strong electron-withdrawing character of the F-groups. b) PEG (PEG interacts preferentially with cations) along the polymer chains hinder the PVDF/anion
+interaction, thereby promoting thermodiﬀusion of cations rather than anions. a,b) Reproduced with permission.[104] Copyright 2019, Springer Nature.
+c) The interfacial polarizability caused by the diﬀerence of interaction strength between the cations/anions and electrode depends on the type of metal
+electrode material. Reproduced with permission.[110] Copyright 2020, American Chemical Society.
+
+
+
+so-called “drop casting the aqueous solutions” process, the                   On the other hand, diﬀerent ILs usually exhibit diﬀerent ionic
+prepared polymer ionogel electrolytes show a high Seebeck co-                 adsorption and desorption behaviors on the surface of metal
+eﬃcient of 34.5 mV K−1 (relative humidity of 90%) and possess                 electrodes with increasing ambient temperature. Accordingly, a
+remarkable mechanical robustness with the mechanical stretch-                 potential diﬀerence will be generated between metal electrodes
+ability of up to 156%.[108] Such an enhanced positive sign of the             under a temperature gradient. This approach also can be used
+Seebeck coeﬃcient is mainly attributed to the thermodiﬀusion                  to integrate p- and n-type thermoelectric unit arrays by choosing
+of anions in the polymer ionogels being strongly limited by the               diﬀerent types of IL.[111] Importantly, the thermo-voltage of
+polar groups of WPU, thus the cations thermodiﬀuse more easily                TCCs exhibits a signiﬁcant dependence on the metal electrode
+than the anions. In contrast to these IL/polymer electrolytes,                material (Au, Ag) due to the diﬀerence in interfacial polarizabil-
+the SiO2 nanoparticles also show excellent properties in tuning               ity caused by the diﬀerence of interaction strength between the
+the ionic conductivity and ionic Seebeck coeﬃcient. Since the                 cations/anions and electrode materials (Figure 12c).[110]
+hydroxy groups on SiO2 nanoparticles tend to attract the anions                  Other Electrolytes: In addition to these mainstream
+thus causing the SiO2 surface to be negatively charged. Such                  polyanion- and IL-based electrolytes, the redox couples, and aque-
+electrostatic interactions between the negatively charged anions              ous polymer–inorganic electrolyte mixtures (such as polyethy-
+and polar hydroxy groups are usually regarded as ion–dipole                   lene oxide (PEO)–NaOH) also can be employed to integrate
+interactions, which can disrupt the short-range ordered structure             with the ﬂexible matrix material. The [Fe(CN)6 ]3− /[Fe(CN)6 ]4−
+of ionic liquids, thereby creating channels for ion transport and             redox couple is commonly used as an electrolyte in TGCs,
+decreasing the activation energy of the ionogels. Based on this               which can be used as an additive to electrolytes (such as PVA–
+mechanism, the ionic conductivity and Seebeck coeﬃcient of                    K3 Fe(CN)6 /K4 Fe(CN)6 ) in thermally charged capacitors and
+[EMIM][DCA] can be greatly enhanced to 14.8 mV K−1 and 4.75                   works as the electrolytes in TCCs.[112,113] The thermovoltage
+× 10−2 S cm−1 after 20 wt% SiO2 nanoparticles (20 nm) are                     is also generated from the thermal-dependent redox reactions
+added in [EMIM][DCA].[109] It is noted that the thermoelectric                occurred on the wet electrolyte/electrode interface. The PVA
+properties of polymer ionogels are proportional to the ambient                matrix in the totally dried PVA–K3 Fe(CN)6 /K4 Fe(CN)6 electrolyte
+humidity and IL loading. For example, when the relative humid-                layer hinders the migration of redox ions and the charge is there-
+ity increases from 30% to 90%, the Std of [EMIM][DCA]/WPU                     fore stored on the electrolyte/electrode interface. PEO–NaOH
+ionogels signiﬁcantly increases from 8.3 to 34.5 mV K−1 .[108]                is a typical aqueous polymer–inorganic electrolyte mixture,
+   Furthermore, we can conveniently tune the type (p or n-type)               when NaOH was added to liquid PEO, the terminating alcohol
+of polymer ionogel electrolytes by virtue of the dependence                   groups (–C–OH) would be transformed into anionic alkoxide
+of their ions thermodiﬀusion on the polarity of the polymer                   end groups (–C–O–Na+ ), while the rest of Na+ that has not
+matrix. Such a strategy is conducive to integrate p- and n-type               condensed around the polymer chains can retain its mobility.[101]
+thermocells to generate suﬃcient output voltage and power for                 Particularly, the Seebeck coeﬃcients of PEO–NaOH electrolytes
+real-world wearable applications. Fluorinated polymer ionogels                can be signiﬁcantly increased from 10 to 24 mV K−1 if such
+[EMIM][TFSI]/PVDF-HFP usually exhibit a negative Seebeck co-                  electrolyte is inﬁltrated into the well-aligned and negatively
+eﬃcient. However, once the [EMIM][TFSI]/PVDF-HFP ionogels                     charged cellulose II.[114] Since the thermovoltage or Seebeck
+are doped by the liquid polyethylene glycol (PEG), the measured               coeﬃcients of thermally charged capacitors strongly depend on
+Std can be changed from -4 to +14 mV K-1 .[104] This occurs due to            the mobility diﬀerence between the anion and cation ions of
+the presence of PEG along the polymer chains which can hinder                 electrolytes. The negatively charged cellulose II would combine
+the PVDF/anion interaction while the PEG interacts preferen-                  with the Na+ to form the Na–cellulose complex, which could
+tially with cations, such changes ultimately promote thermodif-               increase frictional drags of anions while promoting the mobility
+fusion of [EMIM] cations rather than [TFSI] anions (Figure 12b).              of cations. Nevertheless, even if the polymer ionogel electrolytes
+
+
+
+Adv. Sci. 2021, 8, 2100669                                       2100669 (15 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                            21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                             www.advancedscience.com
+
+Table 2. Summary of the typical electrolyte for TCCs.
+
+Electrolyte                              Se [mV K−1 ]        𝜎 [S m−1 ]        𝜅 [W m−1 K−1 ]        Power factor     ZT factora)           Comments               Refs.
+                                                                                                    [mW m−1 K−2 ]
+
+PEO–NaOH                                     11.1             0.00813              0.216                0.001          0.00127      Polycation-based electrolyte   [ 101]
+
+PSSH                                           8                 9                  0.38                0.576           0.414       The ﬁrst sulfuric              [ 45 ]
+
+                                                                                                                                      polyanion-based solid
+                                                                                                                                      electrolytes
+NFC–PSSNa                                     8.4               0.9                 0.75               0.0635           0.0231      Flexible, robust, and soft     [ 46 ]
+
+PEDOT:PSS/PSSH                               16.2               29.1                0.11                7.637            20.3       Flexible and has a high ZT     [ 105]
+
+                                                                                                                                       value
+PANI:PAAMPSA:PA                               8.1               25.6               0.451                1.679            1.09       Stretchable and                [ 103]
+
+                                                                                                                                      self-healable electrolyte
+[EMIM][TFSI]/PVDFHFP/PEG                      14                0.6                0.136                0.117           0.236       The sign and value of Se       [ 104]
+
+                                                                                                                                      can be tuned.
+                                              −4                0.6                0.136               0.00960          0.0193
+[EMIM][DCA]/PVDF-                             26                0.67                  /                 0.453              /        The hybrid ionic and           [ 107]
+
+  HFP/PEDOT:PSS                                                                                                                       electronic thermoelectric
+                                                                                                                                      converter
+WPU/EMIM:DCA Ionogels                        34.5               0.84                0.23                1.00             1.27       stretchable and transparent    [ 108]
+
+                                                                                                                                       electrolyte
+[EMIm][TFSI] n type                           2.6              0.877                  /                0.00593             /        p-n in series connection       [ 111]
+
+                                                                                                                                      design on cellulose paper
+[EMIm][Ac] p-type                             2.2              0.334                  /                0.00162             /
+PVA-Rmim-Cl                                   10               0.116                 0.2               0.0116           0.0170      Ionic hydrogels                [ 110]
+
+PEO–NaOH-Oxidized                             24                 2                  0.48               1.1520           0.655       Well-aligned and porous        [ 114]
+
+  cellulosic membrane                                                                                                                polymer matrix
+PVA-K3/4 Fe(CN)6                             1.21                1                  1.85               0.00146        0.000216      The use of thermogalvanic      [ 113]
+
+                                                                                                                                      gel electrolyte
+
+Note: a) . The ZT factor is calculated at a T = 293 K if the value is not given in the ref.
+
+
+
+
+can retard water evaporation, the intrinsic aqueous feature still
+makes them inevitably suﬀer from water loss through vaporiza-
+tion even under ambient conditions, which is adverse to their
+long-term application.
+   A comparison between the typical TCCs electrolyte is provided
+in Table 2. The ionic Seebeck coeﬃcient and ionic conductivity
+are highly dependent on not only the nature of cation and anions
+but also on the chemical nature and the structure of polymer ma-
+trix. Meanwhile, it has to be noted that all the high-performance
+values are achieved at very high humidity and decrease rapidly
+when RH% is gradually reduced (Figure 13), which greatly lim-
+its the application where TCCs are suitable. The reason for this
+humidity dependent on the performance of sulfonic polyanionic-
+based electrolyte is clariﬁed by Kim et al and provided examples
+to overcome the limitation in the application environment.[105]
+The decrease in performance with decreasing humidity occurs
+as the dissociation of Na+ and protons only occurred in media
+with high water content, and the ionic conduction channels also
+rely on the swell of hygroscopic PSS-rich domains. To overcome                                  Figure 13. Humidity dependence of performance merits (i.e. ionic See-
+this problem, Kim et al. developed a self-humidifying layer con-                                beck coeﬃcient, ionic conductivity, and power factor) for several typ-
+sisting of a water-absorbing MOF layer and hydrogel water sup-                                  ical TCCs electrolytes. Data of the drawn samples are obtained from
+plying layer was utilized to keep the humidity of the TCCs devices                              references as below: PSSH from ref.[45], NFC-PSSNa from ref.[46],
+high, which provide a new perspective to broaden the application                                PEDOT/PSS-PSSH from ref.[105], PANi–PAAMPSA–PA from ref.[103], and
+                                                                                                WPU/EMIM:DCA from ref.[108].
+environment of TCCs.[105]
+
+
+
+
+Adv. Sci. 2021, 8, 2100669                                                      2100669 (16 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                              21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                www.advancedscience.com
+
+
+
+
+Figure 14. a) Illustration of the working principles of ionic thermoelectric capacitors. b) Voltage proﬁles of the external load connected with ionic ther-
+moelectric capacitors using EMIM:DCA/PVDF-HFP ionogels with 50% and 80 wt% IL loadings and silver electrodes. Reproduced with permission.[106]
+Copyright 2019, Wiley-VCH.
+
+
+3.3. Potential Design Strategies for Wearable Thermally Charged                mode impeded the application of TCCs in energy storage and
+Capacitors                                                                     powering electronics, more work on the device and electric cir-
+                                                                               cuit designs should be paid.
+In addition to the sandwiched construction common in TGCs,
+TCC devices can also be designed in a planar structure that is                 4. Other Type of Wearable Electrochemical Cells
+much more thinner and ﬂexible.[105] Meanwhile, the working
+mode of TCCs is also diﬀerent. Unlike continuous power delivery                High heat-to-electricity conversion eﬃciency is conducive to in-
+at a constant ΔT in TGCs, TCCs work in a discontinuous man-                    crease the output energy of thermocells, which in turn reduces
+ner and require human intervention to realize the storage of ther-             the number of cell integrations for wearable sensors. Hence, we
+mally generated electric energy.[106]                                          can power one or even more wearable sensors with one thermo-
+   In brief, TCCs works in four steps (Figure 14).[106] At stage               cell rather than dozens or even hundreds of thermocells. How-
+I, thermovoltage is generated by the accumulation of ions and                  ever, the commercial viability of thermocells is now severely lim-
+the counter ions on hot and cold electrodes respectively under                 ited by their rather low heat-to-electricity conversion eﬃciency
+the temperature diﬀerence. At stage II, the external load was                  (typically below 1%).[39] To address such problems, researchers
+connected to the TCCs, where the electrons transport through                   have designed a direct thermal charging cell (DTCC) that is dif-
+the external circuit to balance the charge of ions on the elec-                ferent from the traditional thermogalvanic and thermodiﬀusion
+trode/electrolyte interface. Then at stage III, the ions and counter           strategies.[115] The charging operation of DTCCs can be directly
+ions accumulated on the electrodes will retract in the absence                 ﬁnished by isothermal heating without the need for external elec-
+of temperature gradient and the electrical charge stored on elec-              tricity and temperature gradient. When the DTCCs are cooled
+trode materials will be maintained under an open circuit state.                down at room temperature, the system can be self-regenerated.
+Lastly, in stage IV, the stored energy can be used to power an exter-          Therefore, DTCCs require a ﬂuctuant temperature environment
+nal load in the absence of a temperature gradient. Thus, for body-             to function, being applicable to intermittent heat sources (such
+heat harvesting and powering wearable electronics, the TCCs de-                as solar energy).
+vice will be ﬁnally used in the absence of temperature gradient                    A DTCC containing Fe2+ /Fe3+ redox electrolyte connected to
+(i.e., taken oﬀ or heat isolated from the human skin). Speciﬁcally,            asymmetric electrodes of a graphene oxide/platinum nanoparti-
+the device has to be externally connected to a load when worn on               cles (GO/PtNPs) cathode and a polyaniline (PANI) anode, which
+the skin and then disconnected without a temperature gradient                  can store the generated thermo-voltage through the temperature-
+for use. This process is tedious for users and requires further de-            induced pseudocapacitive eﬀect of GO and the thermogalvanic
+signs on the electric circuit to simplify the usage process.                   eﬀect of Fe2+ /Fe3+ redox couples was fabricated (Figure 16a).[115]
+   In addition, the series connection of single TCCs is also re-               The intrinsic low boiling point of the aqueous electrolyte and
+quired to increase output voltage for real applications. The state-            thermal charging mechanism limits the operating temperature
+of-the-art p–n series connection is also applied for the eﬀective              of DTCCs in the range of 40–90 °C. Importantly, this DTCC de-
+utilization of heat (Figure 15a), where the electrode and elec-                vice achieves excellent performance with a high 𝛼 of up to 5.0 mV
+trolyte were coated or printed one-by-one on the designed lo-                  K-1 and ƞ up to ≈3.52% at 90 °C.[115] For DTCCs, it is important
+cation of the ﬂexible substrate (paper or PET).[111] Due to the                to protect the functional groups of GO from being reduced as the
+apparent larger ionic Seebeck coeﬃcient of TCC than that of                    C=O and O–C=O functional groups in the GO play a key role in
+TGCs, a large voltage of 30 mV and 1.65 V can be generated                     the thermal-charging mechanism. This requires a redox couple
+by single devices and 20 TCCs, when heated by a ﬁngertip (Fig-                 with a positive temperature coeﬃcient (𝛼 > 0, such as Fe2+ /Fe3+ ,
+ure 15b) and at a small temperature diﬀerence of 5 K (Figure 15c),             I- /I3- , Cu/Cu2+ ) so that heating facilitates the reduction reaction
+respectively.[105] The results show the great advantage and poten-             at GO/PtNPs cathode instead of the oxidation reaction (𝛼 < 0,
+tial application of TCCs. However, the tedious four-step working               such as Fe(CN)6 4− /Fe(CN)6 3− ). The reduction reaction process of
+
+
+Adv. Sci. 2021, 8, 2100669                                        2100669 (17 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                        21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                           www.advancedscience.com
+
+
+
+
+Figure 15. a) Typical fabrication process of the single thermoelectric unit and thermoelectric module based on the connection of [EMIm][Ac] (p-type)
+and [EMIm][TFSI] (n-type) thermoelectric units in series, and Schematic diagram of thermoelectric voltages of [EMIm][Ac]- or [EMIm][TFSI]-based ther-
+moelectric units in the case of a temperature diﬀerence between two electrodes.[111] Copyright 2020, American Chemistry Society. b) A direct thermal
+capacitor that charged upon contact to a ﬁngertip as a heat source. Inset: A photo image and IR camera image of the HDH30 with contact of the ﬁn-
+gertip. Reproduced with permission.[111] Copyright 2020, American Chemistry Society. c) A photo image of a module-type ﬂexible PMIC with 20 legs.
+Reproduced with permission.[105] Copyright 2019, Wiley-VCH.
+
+
+
+
+Figure 16. New engineering strategies for wearable thermocells. a) Fe2+ /Fe3+ redox electrolyte connected to asymmetric electrodes. Reproduced with
+permission.[115] Copyright 2019, Springer Nature. b) synergistic thermodiﬀusion and thermogalvanic eﬀects. c) Thermopower of gelatin-KCl, gelatin-
+KNO3 , and gelatin-NaCl with varying electrolyte concentrations. b,c) Reproduced with permission.[116] Copyright 2020, The American Association for
+the Advancement of Science.
+
+
+redox couples can consume most electrons from the oxidation of              temperature coeﬃcient (𝛼 < 0) and ion providers with p-type ther-
+PANI anode through the external circuit. Particularly, the prefer-          modiﬀusive thermopower (Std > 0), or vice versa. The goal is to
+ential reduction reaction of redox couples at GO/PtNPs cathode              ensure that the direction of the inner electric ﬁeld produced by
+also can greatly increase the potential diﬀerence between asym-             the thermodiﬀusion of ion providers is consistent with the shift-
+metric electrodes. However, such cells remain an ongoing chal-              ing direction of the electrochemical potential of the thermogal-
+lenge for continuous operation before avoiding the consumption              vanic eﬀect.
+problem of PANI anodes.[117]                                                   Based on this synergistic strategy, the ﬂexible thermocells with
+   Thermo-electrochemical cells (thermocells) oﬀer a promising              Si up to 17 mV K-1 have been obtained in a gelatin matrix mod-
+and inexpensive strategy for harvesting body heat in a room tem-            ulated with 0.8 m KCl for thermodiﬀusion eﬀect and 0.42/0.25
+perature environment. However, the output voltage and power of              m Fe(CN)6 4-/3- redox couple for thermogalvanic eﬀect.[116] Impor-
+current thermocells are insuﬃcient to support the normal opera-             tantly, this novel thermocells works in a quasicontinuous mode,
+tion of commercial wearable sensors. Recently, another advanced             thus it can be used repetitively rather than being a one-time en-
+synergistic strategy by combining thermodiﬀusion and thermo-                ergy source. Given the signiﬁcant diﬀerence of mass diﬀusion
+galvanic eﬀects to increase the total thermopower Si provides a             coeﬃcient of diﬀerent cations and anions in the water chan-
+feasible direction to address current challenges (Figure 16b).[116]         nel of gelatin matrix, and most of the thermopower contribu-
+Such a strategy needs to combine a redox couple with a negative             tion comes from the thermodiﬀusion eﬀect of ion providers (the
+
+
+
+Adv. Sci. 2021, 8, 2100669                                      2100669 (18 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                   21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                  www.advancedscience.com
+
+Table 3. The comparison between wearable TGCs and TCCs.
+
+                                                      Wearable TGCs                                                          Wearable TCCs
+
+Mechanism                     Thermogalvanic eﬀect: continuous conversion from heat to                   Thermodiﬀusion eﬀect: Storage of the electric energy
+                                electricity                                                                converted from heat
+Electrode                     Electrically conductive materials with high catalytic behavior             Electrically conductive materials with high capacitance
+Electrolyte                   Electrolytes containing redox couples                                      Electrolytes with diﬀerent size of cation and anion.
+Seebeck coeﬃcient             In the range of 0.5–2 mV K−1                                               Up to 34.5 mV K−1
+Device architecture           Sandwiched structure                                                       Sandwiched or planar structure
+Working modes                 Continuous operation without the need of manual interfere                  Manual mode in four steps
+Working requirements          /                                                                          High humidity
+Cost                          Low cost                                                                   TCCs with ionic liquids-based electrolyte is expensive
+
+
+
+relative contribution over 60%), thus the selection of ion                       stretchable TECs electrode in the near future.[3,118] Fibers based
+providers is critical for the ﬁnal attainable Si . Among the                     on these materials are also encouraged which can exhibit ﬂex-
+ion providers, KCl demonstrates maximum thermopower than                         ibility, conductivity and high surface area once knitted to form
+KNO3 and NaCl (Figure 16c). When 25 of such thermoelectric                       textiles.[119–121]
+elements are connected in series using copper electrodes, the                       Rigid bulk materials with high catalytic or capacitive behav-
+output voltage and power are up to 2.2 V and 5 µW (ΔT ≅ 10                       iors, like platinum, copper, nickel, metal oxides, polypyrrole, and
+K), respectively.[116] These performance indexes can be matched                  polyaniline, which have been proved to achieve superior per-
+with many commercial sensors. Hence, such a synergistic strat-                   formance in TECs remain unsuitable for wearable and ﬂexi-
+egy shows great application potential in body heat harvesting for                ble applications.[69,122] However, with a nanoscale engineering
+powering wearable sensors.                                                       of their morphology by including nanoparticles, nanosheets, or
+                                                                                 nanowires, they could be incorporated into the ﬂexible, conduc-
+                                                                                 tive, and porous host materials and have the chance to show their
+5. Conclusion, Challenges, and Perspective                                       superiority in thermo-electrochemical performance.[69] Mean-
+                                                                                 while, the single-atom dopant of platinum, copper, bimetals on
+To conclude, we have summarized the recent development of                        the host materials is also a good strategy.[123,124]
+potentially wearable TECs of both TGCs and TCCs in this re-
+view and made comparisons between TGCs and TCCs in Table 3.
+It can be found that both potentially wearable TGCs and TCCs                     5.2. Solid-State Electrolytes
+have been developed in the past several years and progress was
+achieved in terms of the ﬂexible, solid-state electrolytes and de-               The ionic conductivity of both TGC and TCC solid-state elec-
+vice design. The large Seebeck coeﬃcient, low-cost materials, and                trolyte is limited in comparison with their liquid counterparts
+ease of fabrication make them promising for low-grade body heat                  as well as the conventional thermoelectric materials. Strategies
+harvesting. However, the investigations in both wearable TGCs                    that can boost the mobility of ions and create ion diﬀusion chan-
+and TCCs are still in the infant stage especially in the relatively              nels should be applied to the polymer host. Thus, the thermo-
+low current output, power output, and heat to electricity conver-                electrochemical power output and ﬁgure of merits will be greatly
+sion eﬃciency areas. We propose below some future directions                     enhanced for TGC and TCCs, respectively.
+which should be studied to achieve higher thermoelectrochemi-                       The Seebeck coeﬃcient of the TGC gel electrolytes can be fur-
+cal performance and practical application.                                       ther enhanced. Recently, additives like chaotropic cations, amide
+                                                                                 derivatives, and organic micelles were added in Fe(CN6 )3-/4- to im-
+                                                                                 prove the Se to 4.2 mV K−1 .[63] Diﬀerent kinds of 𝛼-CDs were used
+5.1. Electrode Materials                                                         which has temperature-dependent host–guest interactions with
+                                                                                 redox couples, increased the Se to 2.6 mV K−1 .[66] All these values
+Flexible or stretchable materials with well-deﬁned and tunable                   are higher than that of the gel electrolytes (below 1.8 mV K−1 ). It is
+porosity, high electrical and thermal conductivity are desired in                believed these strategies in liquids electrolytes could be extended
+pursuing high-performance TEC devices. These properties en-                      into the gel system for enhanced voltage output. Despite the large
+sure a high ion accessible surface area, unobstructed ion diﬀu-                  Se and good-matching with pseudocapacitive electrodes, the de-
+sion channel, and good electron and thermal transfer. Nanostruc-                 pendence of the Seebeck coeﬃcient on the humidity of proton
+tured carbon materials (like graphene and carbon nanotubes),                     conductive electrolytes has limited their practical application.[105]
+PEDOT/PSS, and their composites are good candidates and have                     Self-humidifying gels are expected to develop in TCCs systems to
+been extensively developed. The speciﬁc design of the poros-                     avoid concerns in the operating environment.[105]
+ity (including the size, density, uniformity, and morphology of                     In addition, the discovery of a new speciﬁc mechanism of ther-
+pores) based on the nature of the conductive ion is necessary.                   mally derived voltage, like the combination of both TGC and TCC
+In addition, recently reported stretchable materials made from                   electrolytes, the discovery of new redox couples with high reac-
+carbon nanotube or PEDOT/PSS, makes it possible to prepare a                     tion entropy change or ion conductive materials with enlarged
+
+
+Adv. Sci. 2021, 8, 2100669                                        2100669 (19 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                              21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                             www.advancedscience.com
+
+mobility diﬀerence of anions and cations is urgent to achieve rev-       electronics. Some of the health monitoring sensor systems like
+olutionary progress.                                                     a cardiogram, movement, or temperature sensing only require
+                                                                         tens or hundreds of microwatts, which ﬁts well the power output
+                                                                         of wearable TECs and may become the largest application market
+5.3. Device Fabrication                                                  of wearable TECs.[33]
+                                                                            In summary, as a newly developed emerging area of research,
+The consideration of thermal management is needed in device              there are great challenges and also great opportunities for im-
+fabrication to maximum the actual temperature diﬀerence be-              provements to achieve the application of wearable TECs on body
+tween the two electrodes. The use of an adhesive and curved con-         heat harvesting. A bright future towards practical applications
+formable thin-ﬁlm substrate for electrodes near the skin side, like      and commercialization is anticipated with thorough considera-
+polydimethylsiloxane (PDMS) and polyurethane (PU) could en-              tions and a focus on developing electrodes, electrolytes, and de-
+sure the intimate contact between skin and the device for eﬀective       vices, while considering their integration.
+heat transfer.[36] On the sides exposed to the air, it is possible to
+involve some ﬂexible heatsink, examples of which include a thin
+layer of superabsorbent cross-linked polymers that can cool the          Acknowledgements
+device by water evaporation.[125]
+                                                                         Y.L. and H.W. contributed equally to this work. The authors gratefully ac-
+   The series connection between the n-type and p-type device            knowledge the support from the National Natural Science Foundation
+is still necessary for the application, as the generated voltage of      of China (52003037, 52002050, 52002171), China Postdoctoral Science
+a single device from the temperature diﬀerence between skin              Foundation (2020M673176), the Natural Science Foundation of Jiangsu
+and the outside environment cannot be meet the needs for wear-           Province (No. BK20200696, No.20KJB430019), and Australian Research
+able electronics. Before designing the p–n connection circuit, the       Council (DP170102320 and CE140100012).
+matching of the n-type and p-type device in terms of comparable
+current output is of great importance to make full use of the elec-
+tric energy generated by the thermal gradient.                           Conﬂict of Interest
+   Low-cost technologies in fabricating p–n series circuits and          The authors declare no conﬂict of interest.
+with precisely localized electrodes and electrolytes in p–n cells
+are also encouraged to promote large-scale fabrication and real-
+ize commercialization. 3D printing could enable the formation            Keywords
+of the sandwiched structured device with 3D features, tailored
+to a custom body part.[126,127] Other printing technologies like         body heat, electrochemical cells, ﬂexible electrodes, solid-state electrolyte,
+                                                                         thermal harvesting, wearable electronics
+inkjet printing, spray coating, screen printing can also be used for
+the planar structured TCCs device and applied as supplementary
+                                                                                                                          Received: February 17, 2021
+techniques in the sandwiched device.[126,127] However, the inves-
+                                                                                                                              Revised: March 22, 2021
+tigation on printable ink formulations based on the materials are                                                      Published online: April 29, 2021
+preconditions of continued development in this area.[126,127]
+
+
+5.4. Integration and Applications                                           [1] R. Tian, Y. Liu, K. Koumoto, J. Chen, Joule 2019, 3, 1399.
+                                                                            [2] S. Zhang, F. Cicoira, Nature 2018, 561, 466.
+There are great diﬀerences in the application between TGCs and              [3] Y. Wang, C. Zhu, R. Pfattner, H. Yan, L. Jin, S. Chen, F. Molina-Lopez,
+TCCs devices. The former provides continuous power output un-                   F. Lissel, J. Liu, N. I. Rabiah, Z. Chen, J. W. Chung, C. Linder, M. F.
+der temperature diﬀerence, whereas in the latter case a four-step               Toney, B. Murmann, Z. Bao, Sci. Adv. 2017, 3, e1602076.
+                                                                            [4] Z. Lou, L. Li, L. Wang, G. Shen, Small 2017, 13, 1701791.
+intervention of the user is required to realize the charge storage
+                                                                            [5] Q. Shi, B. Dong, T. He, Z. Sun, J. Zhu, Z. Zhang, C. Lee, InfoMat
+on electrodes.
+                                                                                2020, 2, 1131.
+   TGC devices could directly power some low-power electronics              [6] S. Xu, Y. Zhang, J. Cho, J. Lee, X. Huang, L. Jia, J. A. Fan, Y. Su, J. Su,
+in a continuous way. Alternatively, it could be coupled with en-                H. Zhang, H. Cheng, B. Lu, C. Yu, C. Chuang, T. Il Kim, T. Song, K.
+ergy storage units (like capacitors, batteries, or supercapacitors)             Shigeta, S. Kang, C. Dagdeviren, I. Petrov, P. V. Braun, Y. Huang, U.
+which can store the accumulated or the spared energy and drive                  Paik, J. A. Rogers, Nat. Commun. 2013, 4, 1543.
+the electronics with high energy consumption. Additional voltage            [7] W. Song, S. Yoo, G. Song, S. Lee, M. Kong, J. Rim, U. Jeong, S. Park,
+booster sand regulatory circuits should be considered when de-                  Batteries Supercaps 2019, 2, 181.
+signing the whole apparatus. In TCCs, after the voltage is raised           [8] Z. Wu, Y. Wang, X. Liu, C. Lv, Y. Li, D. Wei, Z. Liu, Adv. Mater. 2019,
+from the temperature diﬀerence, the device has to experience                    31, 1800716.
+                                                                            [9] C. Zhao, Y. Lu, L. Chen, Y. Hu, InfoMat 2020, 2, 126.
+an electrical charge under ΔT, the disconnection of the external
+                                                                          [10] C. Dai, G. Sun, L. Hu, Y. Xiao, Z. Zhang, L. Qu, InfoMat 2020, 2, 509.
+circuit without ΔT for ion recovery, and ﬁnally connect to the
+                                                                          [11] Y. Zhao, J. Guo, InfoMat 2020, 2, 866.
+external circuit to power electronics. The process is tedious for         [12] X. Chen, N. S. Villa, Y. Zhuang, L. Chen, T. Wang, Z. Li, T. Kong, Adv.
+users and a humanization design on electrical/thermal switches                  Energy Mater. 2020, 10, 1902769.
+is required.[47]                                                          [13] Z. Lv, Y. Luo, Y. Tang, J. Wei, Z. Zhu, X. Zhou, W. Li, Y. Zeng, W.
+   The emerging advances in wireless data communication tech-                   Zhang, Y. Zhang, D. Qi, S. Pan, X. J. Loh, X. Chen, Adv. Mater. 2018,
+nologies have greatly decreased the energy demands of wearable                  30, 1704531.
+
+
+
+Adv. Sci. 2021, 8, 2100669                                   2100669 (20 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                  21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                  www.advancedscience.com
+
+ [14] R. Wang, M. Yao, Z. Niu, InfoMat 2020, 2, 113.                             [52] T. J. Kang, S. Fang, M. E. Kozlov, C. S. Haines, N. Li, Y. H. Kim, Y.
+ [15] C. G. Núñez, W. T. Navaraj, E. O. Polat, R. Dahiya, Adv. Funct. Mater.          Chen, R. H. Baughman, Adv. Funct. Mater. 2012, 22, 477.
+      2017, 27, 1606287.                                                         [53] T. J. Abraham, D. R. MacFarlane, R. H. Baughman, L. Jin, N. Li, J. M.
+ [16] D. J. Lipomi, B. C. K. Tee, M. Vosgueritchian, Z. Bao, Adv. Mater.              Pringle, Electrochim. Acta 2013, 113, 87.
+      2011, 23, 1771.                                                            [54] T. J. Abraham, D. R. MacFarlane, J. M. Pringle, Chem. Commun.
+ [17] S. Park, H. Kim, M. Vosgueritchian, S. Cheon, H. Kim, J. H. Koo, T.             2011, 47, 6260.
+      R. Kim, S. Lee, G. Schwartz, H. Chang, Z. Bao, Adv. Mater. 2014, 26,       [55] E. Laux, S. Uhl, T. Journot, J. Brossard, L. Jeandupeux, H. Keppner,
+      7324.                                                                           J. Electron. Mater. 2016, 45, 3383.
+ [18] K. Dong, Z. Wu, J. Deng, A. C. Wang, H. Zou, C. Chen, D. Hu, B. Gu,        [56] M. A. Buckingham, K. Laws, J. T. Sengel, L. Aldous, Green Chem.
+      B. Sun, Z. L. Wang, Adv. Mater. 2018, 30, 1804944.                              2020, 22, 6062.
+ [19] M. Chen, X. Li, L. Lin, W. Du, X. Han, J. Zhu, C. Pan, Z. L. Wang, Adv.    [57] M. A. Buckingham, F. Marken, L. Aldous, Sustain. Energy Fuels 2018,
+      Funct. Mater. 2014, 24, 5059.                                                   2, 2717.
+ [20] Y. Liu, L. Wang, L. Zhao, X. Yu, Y. Zi, InfoMat 2020, 2, 318.              [58] J. T. Hupp, M. J. Weaver, Inorg. Chem. 1984, 23, 3639.
+ [21] X. Fan, X. Liu, W. Hu, C. Zhong, J. Lu, InfoMat 2019, 1, 130.              [59] T. J. Abraham, D. R. MacFarlane, J. M. Pringle, Energy Environ. Sci.
+ [22] Y. Tang, X. Li, H. Lv, W. Wang, C. Zhi, H. Li, InfoMat 2020, 2, 1109.           2013, 6, 2639.
+ [23] L. Zhao, H. Li, J. Meng, Z. Li, InfoMat 2020, 2, 212.                      [60] M. Al Maimani, J. J. Black, L. Aldous, Electrochem. Commun. 2016,
+ [24] S. A. Hashemi, S. Ramakrishna, A. G. Aberle, Energy Environ. Sci.               72, 181.
+      2020, 13, 685.                                                             [61] T. I. Quickenden, C. F. Vernon, Sol. Energy 1986, 36, 63.
+ [25] Z. Yang, J. Deng, X. Sun, H. Li, H. Peng, Adv. Mater. 2014, 26, 2643.      [62] T. Kim, J. S. Lee, G. Lee, H. Yoon, J. Yoon, T. J. Kang, Y. H. Kim, Nano
+ [26] A. Šutka, P. C. Sherrell, N. A. Shepelin, L. Lapčinskis, K. Mālnieks,         Energy 2017, 31, 160.
+      A. V. Ellis, Adv. Mater. 2020, 32, 2002979.                                [63] J. Duan, G. Feng, B. Yu, J. Li, M. Chen, P. Yang, J. Feng, K. Liu, J.
+ [27] D. J. Lacks, T. Shinbrot, Nat. Rev. Chem. 2019, 3, 465.                         Zhou, Nat. Commun. 2018, 9, 5146.
+ [28] B. Kumar, S. W. Kim, J. Mater. Chem. 2011, 21, 18946.                      [64] H. Inoue, Y. Liang, T. Yamada, N. Kimizuka, Chem. Commun. 2020,
+ [29] J. He, T. Wen, S. Qian, Z. Zhang, Z. Tian, J. Zhu, J. Mu, X. Hou, W.            56, 7013.
+      Geng, J. Cho, J. Han, X. Chou, C. Xue, Nano Energy 2018, 43, 326.          [65] Y. Liang, T. Yamada, H. Zhou, N. Kimizuka, Chem. Sci. 2019, 10, 773.
+ [30] M. Tian, D. Zhang, M. Wang, Y. Zhu, C. Chen, Y. Chen, T. Jiang, S.         [66] H. Zhou, T. Yamada, N. Kimizuka, J. Am. Chem. Soc. 2016, 138,
+      Gao, Nano Energy 2020, 74, 104908.                                              10502.
+ [31] C. Zhang, J. Chen, W. Xuan, S. Huang, B. You, W. Li, L. Sun, H. Jin,       [67] J. H. Kim, J. H. Lee, R. R. Palem, M.-S. Suh, H. H. Lee, T. J. Kang, Sci.
+      X. Wang, S. Dong, J. Luo, A. J. Flewitt, Z. L. Wang, Nat. Commun.               Rep. 2019, 9, 8706.
+      2020, 11, 58.                                                              [68] A. Taheri, D. R. MacFarlane, C. Pozo-Gonzalo, J. M. Pringle, Elec-
+ [32] F. R. Fan, Z. Q. Tian, Z. L. Wang, Nano Energy 2012, 1, 328.                    trochim. Acta 2019, 297, 669.
+ [33] M. Dargusch, W. Di Liu, Z. G. Chen, Adv. Sci. 2020, 7, 2001362.            [69] H. Im, T. Kim, H. Song, J. Choi, J. S. Park, R. Ovalle-Robles, H. D.
+ [34] X.-L. Shi, J. Zou, Z.-G. Chen, Chem. Rev. 2020, 120, 7399.                      Yang, K. D. Kihm, R. H. Baughman, H. H. Lee, T. J. Kang, Y. H. Kim,
+ [35] P. J. Taroni, G. Santagiuliana, K. Wan, P. Calado, M. Qiu, H. Zhang,            Nat. Commun. 2016, 7, 10600.
+      N. M. Pugno, M. Palma, N. Stingelin-Stutzman, M. Heeney, O. Fen-           [70] J. H. Kim, T. J. Kang, ACS Appl. Mater. Interfaces 2019, 11, 28894.
+      wick, M. Baxendale, E. Bilotti, Adv. Funct. Mater. 2018, 28, 1704285.      [71] P. F. Salazar, S. Kumar, B. A. Cola, J. Electrochem. Soc. 2012, 159,
+ [36] M. Zadan, M. H. Malakooti, C. Majidi, ACS Appl. Mater. Interfaces               B483.
+      2020, 12, 17921.                                                           [72] J. H. Lee, Y. Jung, J. H. Kim, S. J. Yang, T. J. Kang, Carbon 2019, 147,
+ [37] Y. Yang, H. Hu, Z. Chen, Z. Wang, L. Jiang, G. Lu, X. Li, R. Chen, J.           559.
+      Jin, H. Kang, H. Chen, S. Lin, S. Xiao, H. Zhao, R. Xiong, J. Shi, Q.      [73] K. Wijeratne, M. Vagin, R. Brooke, X. Crispin, J. Mater. Chem. A 2017,
+      Zhou, S. Xu, Y. Chen, Nano Lett. 2020, 20, 4445.                                5, 19619.
+ [38] N. Kim, S. Lienemann, I. Petsagkourakis, D. Alemu Mengistie, S.            [74] L. Hu, M. Pasta, F. L.a Mantia, L. Cui, S. Jeong, H. D. Deshazer, J.
+      Kee, T. Ederth, V. Gueskine, P. Leclère, R. Lazzaroni, X. Crispin, K.           W. Choi, S. M. Han, Y. Cui, Nano Lett. 2010, 10, 708.
+      Tybrandt, Nat. Commun. 2020, 11, 1424.                                     [75] H. Im, H. G. Moon, J. S. Lee, I. Y. Chung, T. J. Kang, Y. H. Kim, Nano
+ [39] Li M., Hong M., Dargusch M., Zou J., Chen Z., Trends Chem., https:              Res. 2014, 7, 443.
+      //doi.org/10.1016/j.trechm.2020.11.001.                                    [76] L. Zhang, T. Kim, N. Li, T. J. Kang, J. Chen, J. M. Pringle, M. Zhang,
+ [40] X. Wu, N. Gao, H. Jia, Y. Wang, Chem. - An Asian J. 2020, 16, 129.              A. H. Kazim, S. Fang, C. Haines, D. Al-Masri, B. A. Cola, J. M. Razal,
+ [41] M. F. Dupont, D. R. MacFarlane, J. M. Pringle, Chem. Commun. 2017,              J. Di, S. Beirne, D. R. MacFarlane, A. Gonzalez-Martin, S. Mathew,
+      53, 6288.                                                                       Y. H. Kim, G. Wallace, R. H. Baughman, Adv. Mater. 2017, 29,
+ [42] B. Burrows, J. Electrochem. Soc. 1976, 123, 154.                                1605652.
+ [43] Y. Mua, T. I. Quickenden, J. Electrochem. Soc. 1996, 143, 2558.            [77] Y. Liu, B. Weng, J. M. Razal, Q. Xu, C. Zhao, Y. Hou, S. Seyedin, R.
+ [44] T. Ikeshoji, Bull. Chem. Soc. Jpn. 1987, 60, 1505.                              Jalili, G. G. Wallace, J. Chen, Sci. Rep. 2015, 5, 17045.
+ [45] S. L. Kim, H. T. Lin, C. Yu, Adv. Energy Mater. 2016, 6, 1600546.          [78] M. S. Romano, N. Li, D. Antiohos, J. M. Razal, A. Nattestad, S.
+ [46] F. Jiao, A. Naderi, D. Zhao, J. Schlueter, M. Shahi, J. Sundström, H.           Beirne, S. Fang, Y. Chen, R. Jalili, G. G. Wallace, R. Baughman, J.
+      Granberg, J. Edberg, U. Ail, J. Brill, T. Lindström, M. Berggren, X.            Chen, Adv. Mater. 2013, 25, 6602.
+      Crispin, J. Mater. Chem. A 2017, 5, 16883.                                 [79] X. Lu, M. Yu, G. Wang, Y. Tong, Y. Li, Energy Environ. Sci. 2014, 7,
+ [47] A. Al-zubaidi, X. Ji, J. Yu, Sustain. Energy Fuels 2017, 1, 1457.               2160.
+ [48] F. Zhang, J. Liu, W. Yang, B. E. Logan, Energy Environ. Sci. 2015, 8,      [80] Y. Yan, J. Miao, Z. Yang, F. X. Xiao, H. Bin Yang, B. Liu, Y. Yang, Chem.
+      343.                                                                            Soc. Rev. 2015, 44, 3295.
+ [49] C. Gao, S. W. Lee, Y. Yang, ACS Energy Lett. 2017, 2, 2326.                [81] K. Wijeratne, U. Ail, R. Brooke, M. Vagin, X. Liu, M. Fahlman, X.
+ [50] T. I. Quickenden, Y. Mua, J. Electrochem. Soc. 1995, 142, 3985.                 Crispin, Proc. Natl. Acad. Sci. USA 2018, 115, 11899.
+ [51] R. Hu, B. A. Cola, N. Haram, J. N. Barisci, S. Lee, S. Stoughton, G.       [82] Y. Liu, S. Zhang, Y. Zhou, M. A. Buckingham, L. Aldous, P. C. Sherrell,
+      Wallace, C. Too, M. Thomas, A. Gestos, M. E. Dela Cruz, J. P. Ferraris,         G. G. Wallace, G. Ryder, S. Faisal, D. L. Oﬃcer, S. Beirne, J. Chen,
+      A. A. Zakhidov, R. H. Baughman, Nano Lett. 2010, 10, 838.                       Adv. Energy Mater. 2020, 10, 2002539.
+
+
+
+
+Adv. Sci. 2021, 8, 2100669                                          2100669 (21 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                                                     21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                                     www.advancedscience.com
+
+  [83] M. Y. Teo, N. Kim, S. Kee, B. S. Kim, G. Kim, S. Hong, S. Jung, K.          [106] H. Cheng, X. He, Z. Fan, J. Ouyang, Adv. Energy Mater. 2019, 9,
+       Lee, ACS Appl. Mater. Interfaces 2017, 9, 819.                                    1901085.
+  [84] J. Ouyang, Q. Xu, C. W. Chu, Y. Yang, G. Li, J. Shinar, Polymer 2004,       [107] H. Cheng, J. Ouyang, Adv. Energy Mater. 2020, 10, 2001633.
+       45, 8443.                                                                   [108] Y. Fang, H. Cheng, H. He, S. Wang, J. Li, S. Yue, L. Zhang, Z. Du, J.
+  [85] X. Crispin, F. L. E. Jakobsson, A. Crispin, P. C. M. Grim, P. Anders-             Ouyang, Adv. Funct. Mater. 2020, 30, 2004699.
+       son, A. Volodin, C. Van Haesendonck, M. Van Der Auweraer, W. R.             [109] X. He, H. Cheng, S. Yue, J. Ouyang, J. Mater. Chem. A 2020, 8, 10813.
+       Salaneck, M. Berggren, Chem. Mater. 2006, 18, 4354.                         [110] S. Horike, Q. Wei, K. Kirihara, M. Mukaida, T. Sasaki, Y. Koshiba,
+  [86] J. Ouyang, C.-W. Chu, F.-C. Chen, Q. Xu, Y. Yang, Adv. Funct. Mater.              T. Fukushima, K. Ishida, ACS Appl. Mater. Interfaces 2020, 12,
+       2005, 15, 203.                                                                    43674.
+  [87] D. Antiohos, G. Folkes, P. Sherrell, S. Ashraf, G. G. Wallace, P. Aitchi-   [111] X. Wu, N. Gao, X. Zheng, X. Tao, Y. He, Z. Liu, Y. Wang, ACS Appl.
+       son, A. T. Harris, J. Chen, A. I. Minett, J. Mater. Chem. 2011, 21,               Mater. Interfaces 2020, 12, 27691.
+       15987.                                                                      [112] G. Ma, J. Li, K. Sun, H. Peng, J. Mu, Z. Lei, J. Power Sources 2014,
+  [88] P. Yang, K. Liu, Q. Chen, X. Mo, Y. Zhou, S. Li, G. Feng, J. Zhou,                256, 281.
+       Angew. Chem. Int. Ed. 2016, 55, 12050.                                      [113] A. Kundu, T. S. Fisher, Electrochim. Acta 2018, 281, 357.
+  [89] J. Wu, J. J. Black, L. Aldous, Electrochim. Acta 2017, 225, 482.            [114] T. Li, X. Zhang, S. D. Lacey, R. Mi, X. Zhao, F. Jiang, J. Song, Z. Liu,
+  [90] L. Jin, G. W. Greene, D. R. MacFarlane, J. M. Pringle, ACS Energy Lett.           G. Chen, J. Dai, Y. Yao, S. Das, R. Yang, R. M. Briber, L. Hu, Nat.
+       2016, 1, 654.                                                                     Mater. 2019, 18, 608.
+  [91] M. Russo, H. Warren, G. M. Spinks, D. R. MacFarlane, J. M. Pringle,         [115] X. Wang, Y.-T. Huang, C. Liu, K. Mu, K. H. Li, S. Wang, Y. Yang, L.
+       Aust. J. Chem. 2018, 72, 112.                                                     Wang, C.-H. Su, S.-P. Feng, Nat. Commun. 2019, 10, 4151.
+  [92] H. A. H. Alzahrani, M. A. Buckingham, F. Marken, L. Aldous, Elec-           [116] C.-G. Han, X. Qian, Q. Li, B. Deng, Y. Zhu, Z. Han, W. Zhang, W.
+       trochem. Commun. 2019, 102, 41.                                                   Wang, S.-P. Feng, G. Chen, W. Liu, Science 2020, 368, 1091.
+  [93] A. Taheri, D. R. MacFarlane, C. Pozo-Gonzalo, J. M. Pringle, Chem-          [117] C. Cheng, Y. Dai, J. Yu, C. Liu, S. Wang, S. P. Feng, M. Ni, Energy Fuels
+       SusChem 2018, 11, 2788.                                                           2021, 35, 161.
+  [94] J. Duan, B. Yu, K. Liu, J. Li, P. Yang, W. Xie, G. Xue, R. Liu, H. Wang,    [118] T. Yamada, Y. Hayamizu, Y. Yamamoto, Y. Yomogida, A. Izadi-
+       J. Zhou, Nano Energy 2019, 57, 473.                                               Najafabadi, D. N. Futaba, K. Hata, Nat. Nanotechnol. 2011, 6, 296.
+  [95] N. A. Shepelin, A. M. Glushenkov, V. C. Lussini, P. J. Fox, G. W. Di-       [119] M. Zu, Q. Li, G. Wang, J. H. Byun, T. W. Chou, Adv. Funct. Mater.
+       cinoski, J. G. Shapter, A. V. Ellis, Energy Environ. Sci. 2019, 12, 1143.         2013, 23, 789.
+  [96] H. Parangusan, D. Ponnamma, M. A. A. Al-Maadeed, Sci. Rep. 2018,            [120] J. Peng, I. Witting, N. Geisendorfer, M. Wang, M. Chang, A. Jakus,
+       8, 754.                                                                           C. Kenel, X. Yan, R. Shah, G. J. Snyder, M. Grayson, Nat. Commun.
+  [97] Y. Zhou, Y. Liu, M. A. Buckingham, S. Zhang, L. Aldous, S. Beirne,                2019, 10, 5590.
+       G. G. Wallace, J. Chen, Electrochem. Commun. 2021, 124, 106938.             [121] T. Sun, B. Zhou, Q. Zheng, L. Wang, W. Jiang, G. J. Snyder, Nat.
+  [98] E. D. Eastman, J. Am. Chem. Soc. 1928, 50, 283.                                   Commun. 2020, 11, 572.
+  [99] H. Wang, D. Zhao, Z. U. Khan, S. Puzinas, M. P. Jonsson, M.                 [122] S. M. Jung, J. Kwon, J. Lee, K. Shim, D. Park, T. Kim, Y. H. Kim, S. J.
+       Berggren, X. Crispin, Adv. Electron. Mater. 2017, 3, 1700013.                     Hwang, Y. T. Kim, ACS Appl. Energy Mater. 2020, 3, 6383.
+[100] M. Beidaghi, Y. Gogotsi, Energy Environ. Sci. 2014, 7, 867.                  [123] N. Cheng, L. Zhang, K. Doyle-Davis, X. Sun, Electrochem. Energy Rev.
+[101] D. Zhao, H. Wang, Z. U. Khan, J. C. Chen, R. Gabrielsson, M. P.                    2019, 2, 539.
+       Jonsson, M. Berggren, X. Crispin, Energy Environ. Sci. 2016, 9, 1450.       [124] Y. Chen, S. Ji, C. Chen, Q. Peng, D. Wang, Y. Li, Joule 2018, 2,
+[102] X. Wu, B. Huang, Q. Wang, Y. Wang, Chem. Eng. J. 2019, 373, 493.                   1242.
+[103] Z. A. Akbar, J. Jeon, S. Jang, Energy Environ. Sci. 2020, 13, 2915.          [125] C. S. Kim, H. M. Yang, J. Lee, G. S. Lee, H. Choi, Y. J. Kim, S. H. Lim,
+[104] D. Zhao, A. Martinelli, A. Willfahrt, T. Fischer, D. Bernin, Z. U. Khan,           S. H. Cho, B. J. Cho, ACS Energy Lett. 2018, 3, 501.
+       M. Shahi, J. Brill, M. P. Jonsson, S. Fabiano, X. Crispin, Nat. Com-        [126] B. Weng, R. L. Shepherd, K. Crowley, A. J. Killard, G. G. Wallace,
+       mun. 2019, 10, 1093.                                                              Analyst 2010, 135, 2779.
+[105] B. Kim, J. Na, H. Lim, Y. Kim, J. Kim, E. Kim, Adv. Funct. Mater. 2019,      [127] Zhao C., Liu Y., Beirne S., Razal J., Chen J., Adv. Mater. Technologies
+       29, 1807549.                                                                      2018, 3, 1800028.
+
+
+
+
+                                        Yuqing Liu received her Ph.D. (2018) and ﬁnished her postdoc work as associate researcher (2019) in
+                                        the Intelligent Polymer Research Institute (IPRI), University of Wollongong, Australia. She is currently
+                                        an assistant researcher in University of Electronic Science and Technology of China (UESTC). Her
+                                        research interest is on the fabrication of wearable energy storage and conversion devices (e.g., ther-
+                                        mocells, batteries, supercapacitors, etc.), mainly focusing on nanostructured electrode materials, gel
+                                        electrolyte/electrode interface, and device fabrication via printing techniques.
+
+
+
+
+Adv. Sci. 2021, 8, 2100669                                            2100669 (22 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+                                                                                                                                              21983844, 2021, 13, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202100669 by The Hong Kong University Of Science & Technology, Wiley Online Library on [23/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com                                                                                  www.advancedscience.com
+
+
+
+                              Hongbo Wang received his Ph.D. degree in Mechanical Design and Theory from Southwest Jiaotong
+                              University in 2018. He is now a postdoctor at the University of Electronic Science and Technology of
+                              China. His current research interests focus on fundamental principles, fabrication, and application of
+                              plasmonic and thermocell devices.
+
+
+
+
+                              Jun Chen received his Ph.D. in 2003 from School of Chemistry, University of Wollongong, Australia.
+                              Prof. Chen is currently appointed as associate dean of Australian Institute for Innovative Materials
+                              (AIIM), and Head of Postgraduate Studies of Intelligent Polymer Research Institute (IPRI), University
+                              of Wollongong (UOW). His research interests include electrochemistry, catalysis, sustainable energy
+                              devices/systems, electro-/biointerfaces, nano/micro-materials, 2D/3D printing, and design and
+                              fabrication of smart wearable electronic devices. Professor Chen has been identiﬁed as highly cited
+                              researchers in Cross Field (2018 and 2020) by Web of Science—Clarivate Analytics.
+
+
+
+
+Adv. Sci. 2021, 8, 2100669                              2100669 (23 of 23) © 2021 The Authors. Advanced Science published by Wiley-VCH GmbH
+

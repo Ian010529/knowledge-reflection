@@ -1,0 +1,246 @@
+{
+  "decisions": [
+    {
+      "candidate_id": "N1669",
+      "proposed_relation": "distinct_from",
+      "model_reason": "两者都是材料实体，但分别是碳化硅纳米颗粒与硫化亚铜纳米颗粒，组成不同；原文中前者影响离子铋、碲的电化学还原，后者作为电子供体，不能视为同一材料。",
+      "left_evidence": {
+        "mention_id": "iTE:P1126:n1",
+        "quote_span": "The effect of SiC nanoparticles on the electrochemical reduction behaviors"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1624:n1",
+        "quote_span": "The homogeneously distributed Cu2S nanoparticles act as active electron donors"
+      }
+    },
+    {
+      "candidate_id": "N1670",
+      "proposed_relation": "distinct_from",
+      "model_reason": "左侧为锗掺杂这一设计策略，右侧为硒掺杂策略；掺杂元素不同，分别涉及晶格软化和相变温度移动，不能合并为同一策略。",
+      "left_evidence": {
+        "mention_id": "iTE:P1466:n1",
+        "quote_span": "lattice softening effect induced by Ge doping"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0623:n1",
+        "quote_span": "Se doping shifts the orthorhombic-cubic phase transition"
+      }
+    },
+    {
+      "candidate_id": "N1671",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两处均指声子散射过程，作为热输运机制降低晶格热导率；左侧称强声子散射，右侧明确为声子间散射，右侧具体说明了左侧机制的一种散射形式，但所给语境支持共同的声子散射过程概念。",
+      "left_evidence": {
+        "mention_id": "iTE:P1198:n2",
+        "quote_span": "strong phonon scattering"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0631:n1",
+        "quote_span": "strong phonon-phonon scattering"
+      }
+    },
+    {
+      "candidate_id": "N1672",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是薄膜的高电导率这一物性量，右侧是电导过程/传导现象；原文把电导率作为电输运性质报告，并称电荷转移拓扑电荷建立了高电传导。二者相关但量与过程角色不同，不能等同。",
+      "left_evidence": {
+        "mention_id": "iTE:P1013:n1",
+        "quote_span": "A substantially high electrical conductivity is observed"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1810:n2",
+        "quote_span": "establishes the high electrical conduction by the topological charges"
+      }
+    },
+    {
+      "candidate_id": "N1673",
+      "proposed_relation": "broader_than",
+      "model_reason": "左侧“金属态”是一般金属性状态，右侧“准金属态”明确限定为准金属性；原文将其与绝缘态并列，表明是不同电子状态。按状态类别的限定关系，左侧较宽，右侧较窄。",
+      "left_evidence": {
+        "mention_id": "iTE:P0860:n1",
+        "quote_span": "in the metallic state"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1586:n3",
+        "quote_span": "in the quasi-metallic state"
+      }
+    },
+    {
+      "candidate_id": "N1674",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两处均指晶格热导率 κ(L) 这一物理量；一处简称 κ(L)，另一处称 κ(L) value，均以数值或幅度作为研究对象，没有证据表明分量定义不同。",
+      "left_evidence": {
+        "mention_id": "iTE:P1683:n2",
+        "quote_span": "correlates with kappa(L)"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0755:n2",
+        "quote_span": "the kappa(L) value reduces from 0.17 W K-1 m(-1) to 0.12 W K-1 m(-1)"
+      }
+    },
+    {
+      "candidate_id": "N1675",
+      "proposed_relation": "narrower_than",
+      "model_reason": "左侧“耐磨性”是可穿戴热电纺织品的一项性能；右侧“耐久性和耐磨性”是并列包含耐磨性的复合性能表述。左侧对应其中的耐磨性子项，因此左侧窄于右侧。",
+      "left_evidence": {
+        "mention_id": "iTE:P1454:n3",
+        "quote_span": "thermoelectric performance and wear resistance of TE textiles"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0996:n2",
+        "quote_span": "improved durability and wear resistance of the wearable thermoelectric module"
+      }
+    },
+    {
+      "candidate_id": "N1676",
+      "proposed_relation": "distinct_from",
+      "model_reason": "左侧是热电优值这一性能指标（文中给出 zT 数值），右侧是归一化功率密度；二者是不同的性能量，不能因为都衡量器件表现而等同。",
+      "left_evidence": {
+        "mention_id": "iTE:P0994:n3",
+        "quote_span": "figure of merit zT (0.99, 0.98)"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0363:n2",
+        "quote_span": "outstanding normalized power densities of 46.7 and 79.0 mWm-2K-2"
+      }
+    },
+    {
+      "candidate_id": "N1677",
+      "proposed_relation": "distinct_from",
+      "model_reason": "左侧是由单离子 Soret 与自扩散系数差异产生、影响体系响应的热电场；右侧明确是带电胶体热泳中导出的宏观热电场，并产生热电泳力。两者产生背景和涉及对象不同，不能据现有引文认定为同一量。",
+      "left_evidence": {
+        "mention_id": "iTE:P1409:n2",
+        "quote_span": "Differences in single-ion Soret and self-diffusion coefficients of anions and cations give rise to a thermoelectric field"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1852:n1",
+        "quote_span": "an explicit expression for the macroscopic thermoelectric field is derived"
+      }
+    },
+    {
+      "candidate_id": "N1678",
+      "proposed_relation": "distinct_from",
+      "model_reason": "左侧是铜碲化物样品中降低的载流子浓度这一物理量；右侧是使用溴掺杂降低 Cu2-δSe 载流子浓度的另一材料体系中的浓度量。材料样本和成分不同，作为各自测量属性保留，不能合并成同一实例。",
+      "left_evidence": {
+        "mention_id": "iTE:P1138:n2",
+        "quote_span": "leading to substantially reduced carrier concentrations"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0955:n2",
+        "quote_span": "reducing the charge carrier concentration in Cu2-delta Se"
+      }
+    },
+    {
+      "candidate_id": "N1679",
+      "proposed_relation": "distinct_from",
+      "model_reason": "左侧特指离子迁移率，右侧的高迁移率出现在轨道相互作用对电子-声子相互作用的描述中，指向电子输运迁移率。离子与电子载流机制不同，不能因都称迁移率而等同。",
+      "left_evidence": {
+        "mention_id": "iTE:P0698:n1",
+        "quote_span": "high ionic mobility"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0758:n3",
+        "quote_span": "towards high mobility"
+      }
+    },
+    {
+      "candidate_id": "N1680",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是自修复过程这一机制过程，右侧是电路具有自修复能力这一功能性能；过程促成或体现能力，但过程与性能功能是不同概念。",
+      "left_evidence": {
+        "mention_id": "iTE:P1589:n2",
+        "quote_span": "promote the self-healing process"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0920:n2",
+        "quote_span": "with self-healing ability"
+      }
+    }
+  ],
+  "provenance": {
+    "batch_id": "16",
+    "chunk_index": 2,
+    "candidate_count": 12,
+    "candidate_ids": [
+      "N1669",
+      "N1670",
+      "N1671",
+      "N1672",
+      "N1673",
+      "N1674",
+      "N1675",
+      "N1676",
+      "N1677",
+      "N1678",
+      "N1679",
+      "N1680"
+    ],
+    "input_mention_count": 24,
+    "model": "gpt-6-luna",
+    "reasoning_effort": "low",
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/codex",
+      "exec",
+      "--ignore-user-config",
+      "--skip-git-repo-check",
+      "--ephemeral",
+      "--sandbox",
+      "read-only",
+      "--output-schema",
+      "/Users/chl/Desktop/my_project/knowledge_reflection/stage2_normalization/occurrence_runs/batch_16_N1657_N1692/chunk_02_9e628c3b5aa7/attempt_001/schema.json",
+      "--output-last-message",
+      "/Users/chl/Desktop/my_project/knowledge_reflection/stage2_normalization/occurrence_runs/batch_16_N1657_N1692/chunk_02_9e628c3b5aa7/attempt_001/response.json",
+      "--json",
+      "-c",
+      "model=\"gpt-6-luna\"",
+      "-c",
+      "model_reasoning_effort=\"low\"",
+      "--disable",
+      "shell_tool",
+      "--disable",
+      "unified_exec",
+      "--disable",
+      "apps",
+      "--disable",
+      "plugins",
+      "--disable",
+      "multi_agent",
+      "--disable",
+      "browser_use",
+      "--disable",
+      "computer_use",
+      "--disable",
+      "image_generation",
+      "--disable",
+      "hooks",
+      "--enable",
+      "skip_host_skill_discovery",
+      "--cd",
+      "/var/folders/5b/ky34bgf91kd2wgzckd20fr5c0000gn/T/normalization-input-pmr6zdoa",
+      "-"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 146.16,
+    "prompt_chars": 23455,
+    "prompt_sha256": "7364e41f192bbca954c57fbd0aa7bbfe2d2f97327e2f2a90e437b1cd5fc9534b",
+    "schema_sha256": "aeae95307b9877e1fe1b7ef0883658cf6b265336e06f8fafe2c306e2a357c548",
+    "input_fingerprint_sha256": "9e628c3b5aa7fa9f52e95408e9984f767abb432d0a371a98ac6e6ed912027d43",
+    "usage": {
+      "input_tokens": 23468,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1737,
+      "reasoning_output_tokens": 0
+    },
+    "literal_evidence_corrections": [
+      {
+        "candidate_id": "N1672",
+        "side": "left",
+        "previous": "a substantially high electrical conductivity is observed",
+        "current": "A substantially high electrical conductivity is observed",
+        "actor": "parent",
+        "reason": "Restore source capitalization; relation and reason unchanged"
+      }
+    ]
+  }
+}

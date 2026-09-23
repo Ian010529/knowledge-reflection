@@ -1,0 +1,1762 @@
+Chemical
+Science
+                                                                                                                       Published on 20 August 2024
+    REVIEW                                                                                                               Licensed under CC-BY 4.0
+
+
+                                            Recent advances in ionic thermoelectric systems
+Cite this: Chem. Sci., 2024, 15, 14122
+                                            and theoretical modelling
+                                            Nazish Jabeen,a Muhammad Muddasar, b Nicolás Menéndez,a
+                                            Mohammad Ali Nasiri, c Clara M. Gómez,a Maurice N. Collins, b
+                                            Rafael Muñoz-Espı́, a Andrés Cantarero c and Mario Culebras *a
+
+                                            Converting waste heat from solar radiation and industrial processes into useable electricity remains
+                                            a challenge due to limitations of traditional thermoelectrics. Ionic thermoelectric (i-TE) materials oﬀer
+                                            a compelling alternative to traditional thermoelectrics due to their excellent ionic thermopower, low
+                                            thermal conductivity, and abundant material options. This review categorizes i-TE materials into
+                                            thermally diﬀusive and thermogalvanic types, with an emphasis on the former due to its superior
+                                            thermopower. This review also highlights the i-TE materials for creating ionic thermoelectric
+                                            supercapacitors (ITESCs) that can generate signiﬁcantly higher voltages from low-grade heat sources
+                                            compared to conventional technologies. Additionally, it explores thermogalvanic cells and combined
+                                            devices, discussing key optimization parameters and theoretical modeling approaches for maximizing
+Received 24th June 2024
+Accepted 20th August 2024
+                                            material and device performance. Future directions aim to enhance i-TE material performance and
+                                            address low energy density challenges for ﬂexible and wearable applications. Herein, the cutting-edge of
+DOI: 10.1039/d4sc04158e
+                                            i-TE materials are comprehensively outlined, empowering researchers to develop next-generation waste
+rsc.li/chemical-science                     heat harvesting technologies for a more sustainable future.
+
+
+                                                                                         However inorganic TE materials have drawbacks, including
+1. Introduction                                                                          high costs, scarcity of elements, and limited mechanical exi-
+Driven by the depletion of fossil fuels and the increasing                               bility. Eﬀorts to enhance TEG performance are underway
+frequency of climate disasters, the 21st century faces an                                through nanostructuring existing materials, even though this
+unprecedented energy crisis. This has sparked signicant                                 approach comes with considerable production costs.9 On the
+interest from both academia and industry in exploring tech-                              other side, TEGs are gaining attention as a promising solution
+niques for converting renewable power sources into electrical                            for powering wearable sensors and devices compared to heat
+energy.1 Several technologies have been developed to harness                             engines. However, the mechanical stiﬀness of inorganic semi-
+heat, including thermoelectric generators (TEGs), thermoos-                              conductors and semimetals restricts their use in portable and
+motic energy conversion, and organic Rankine cycles. One key                             wearable devices.10
+area of exploration within TEGs involves leveraging the Seebeck                              Turning to electronic conducting polymers, their composi-
+eﬀect of inorganic semiconductors (Bi2Te3), making them                                  tion of abundant elements has sparked interest in recent
+particularly eﬀective in harvesting low-grade heat.2–4 The eval-                         studies for potentially lowering material costs.11 Despite
+uation of their thermoelectric (TE) performance is commonly                              substantial eﬀorts and achievements in recent years, the opti-
+                                                           sS2                           mized ZT of p-type organic thermoelectric materials still yields
+based on the dimensionless gure of merit (ZT), ZT ¼           T,                        a relatively low Seebeck coeﬃcient (maximum 70 mV K−1 for
+                                                            K
+where the incorporated factors are electrical conductivity (s),                          commonly produced polymers like PEDOT with a conductivity
+the Seebeck coeﬃcient (S), thermal conductivity (K), and abso-                           of 900 S cm−1). In contrast, the ratio of their electrical to
+lute temperature (T).5,6                                                                 thermal conductivities is already comparable to that of Bi2Te3
+   The literature reports the highest ZT at 3.1 at 783 K, and the                        alloys.12,13 The interconnected material properties present
+highest ZT at room temperature at 1.3 approximately.7,8                                  a challenge in attaining a high ZT for electronic thermoelectric
+                                                                                         (e-TE) materials. Specically, the Seebeck coeﬃcient of e-TE is
+a
+  Institute of Materials Science (ICMUV), Universitat de València, PO Box 22085,
+                                                                                         typically inuenced by the transported excess energy or entropy
+E46071, Valencia, Spain. E-mail: Mario.Culebras@uv.es                                    to the Fermi level of charge carriers. Consequently, it tends to be
+b
+ Stokes Laboratories, School of Engineering, Bernal Institute, University of Limerick,   considerably high in insulators characterized by large band
+Limerick, Ireland                                                                        gaps in their electronic band structures. However, the electrical
+c
+  Institute of Molecular Science (ICMol), Universitat de València, PO Box 22085,        conductivity is suppressed by such a wide bandgap. The e-TE
+E46071, Valencia, Spain
+
+
+
+14122 | Chem. Sci., 2024, 15, 14122–14153                                                  © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                  Chemical Science
+
+materials with a Seebeck coeﬃcient of ∼200 mV K−1 are typically          in exible TE devices to harness power from irregular heat
+optimized to achieve a high ZT or power factor, similar to the           sources.17 Two primary sources of ionic thermovoltage genera-
+conventional Bi2Te3-based thermoelectric materials.14,15                 tion are Soret eﬀect and thermogalvanic eﬀect. Both eﬀects
+Another diﬃculty in fabricating devices with such a low Seebeck          involve an electrolyte for ion movement and electrodes for
+coeﬃcient is the large number of p- and n-type pairs required to         conducting currents and providing potential. The former eﬀect
+achieve a reasonable voltage output, particularly in situations          is the thermodiﬀusion of ions that takes place in redox-free
+where there is a small temperature diﬀerence, as the case of             electrolytes. This phenomenon is primarily driven by the elec-
+harvesting thermal energy from the environment and the body              tric double layer (EDL), which forms as ions accumulate at the
+to power small sensors. Consequently, there is a great need for          electrodes.18 However, the utilization of thermodiﬀusion among
+new material classes and innovative ideas that can aid in                ionic charge carriers within an electrolyte has been imple-
+resolving these issues.15                                                mented to convert heat into electrical energy, subsequently
+    Recently, the discovery of “ionic thermpower” in electrolytes        storing it in a supercapacitor.19,20 The later eﬀect occurs in
+has introduced a novel phenomenon for heat-to-electricity                thermogalvanic cells based on thermogalvanic process. This
+conversion, which are hundreds of times larger than the elec-            eﬀect arises from temperature-dependent entropy changes,
+tronic Seebeck coeﬃcients found in conventional thermoelec-              originating from the electron transfer between redox molecules
+tric materials. It was established that the ionic Seebeck eﬀect is       and the electrode.16
+the primary cause of the enormous thermopower, which can                     Recent research on i-TE materials has made signicant
+reach several mV K−1. An electrolyte that is subjected to                progress over the past decade as illustrated in Fig. 1. Shu et al.
+a temperature gradient will undergo thermal diﬀusion of its              reported the fabrication of high-performance, exible, and
+internal ions until equilibrium is reached. The ions are nally          thermally stable carbon-based TE materials with an impressive
+reorganized, leading to the formation of an ion concentration            power factor (S2s) of 38.7 mW m−1 K−2. A fabricated TE device
+gradient (also known as the Soret eﬀect). This kind of ionic             achieved a maximum power density of 79.3 nW cm−2 under
+Seebeck eﬀect can be found in gel electrolytes, inorganic solid          a temperature diﬀerence of 20 K and a cold-side temperature of
+electrolytes, ionic solids, and liquids.16 Among ionic thermo-           300 K, showcasing the potential for cost-eﬀective, high-
+electric (i-TE) materials, polymer-based electrolytes have gained        performance TE applications.21 In the last decade, a novel i-TE
+attention due to their solid or gel states, facilitating easier          lm composed of carbon-based materials, an ionic liquid (1-
+device manufacturing. Additionally, i-TE materials possess               butyl-3-methylimidazolium chloride, BMIM:Cl), and a cross-
+excellent exibility and stretchability, enhancing their potential       linker (N,N0 -methylenebisacrylamide, MBA) was developed. The
+for practical applications. These i-TE materials can be utilized         lm exhibited enhanced TE performance, characterized by
+
+
+
+
+Fig. 1   Recent advances in strategic development and application of ionic thermoelectric materials and devices.
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                     Chem. Sci., 2024, 15, 14122–14153 | 14123
+Chemical Science                                                                                                               Review
+
+a high Seebeck coeﬃcient (−76.7 mV K−1), power factor (753.0         concentration of salt solutions in the tube did not remain
+mW m−1 K−2), and dimensionless gure of merit (ZT) of 0.19 at        uniform. Between 1879 and 1884, Soret published several
+383 K. A exible, 9-legged thermoelectric device measuring 25 ×      papers (originally in French) documenting his thermodiﬀusion
+25 mm2 was fabricated, achieving a maximum power density of          experiments. These papers were later summarized and briey
+1.32 mW cm−2 under a 20 K temperature diﬀerence. This work           discussed in English by Platten and Costesèque.23 The migra-
+presents a promising foundation for developing high-                 tion of ions induced by a temperature gradient resulted in the
+performance, exible i-TE materials and devices.17                   generation of a potential diﬀerence known as ionic thermo-
+    Recent advancements in i-TE materials have shed light on         power. This phenomenon bears similarity to the Seebeck eﬀect
+their mechanisms and operational modes within ITESC mate-            observed in electronic conductors or semiconductors, but the
+rials by Zhao et al.12 2017. They underscore the application of i-   underlying principle diﬀers signicantly. Ionic thermopower is
+TE materials in energy conversion devices. Conversely, Wu et al.     primarily governed by the disparity in ion contributions to
+2021 studies centered only on ionic conductors with promising        conductivity and the transport numbers of cations and anions.
+applications in thermoelectric converters.18 Agar and their          Consequently, when there is a substantial diﬀerence in the sizes
+colleagues explored thermogalvanic cells, which utilize              of anions and cations, high values of ionic thermopower are
+temperature-dependent redox pairs in the electrolyte to              expected. One of the earlies works was carried out by Toshio
+enhance the system's thermoelectric eﬃciency.22 In 2023 Shuai        Ikeda in the 60s measuring the ionic thermopower of the
+et al.1 review examined insightful strategies for thermo-            combination of ionic solutions based on: Ag, AgNO3; Cu, CuSO4;
+electrochemical systems and TE performance. These reviews            Ag, AgNO3; Cu, CuSO4; Hg, HgO, LiOH or NaOH or KOH; Hg,
+collectively elucidate the current state of research in the          Hg2SO4, Na2SO4 varying the concentration from 0.01 to 2.0
+emerging eld of ionic thermoelectrics covering i-TE mecha-          molal.24,25 Moreover, the rst studies of polyelectrolytes in
+nisms, material characteristics, gure of merit and energy           particular, polystyrene sulfonic acid, were considered for ther-
+conversion application. However, these reviews fall short of         mocells during that decade.26 In latest 70s, starting to appear
+adequately highlighting the i-TE materials in energy integrated      the rst works utilising molten salts for ionic thermoelectric
+devices and ionic thermogalvanic cells based on electro-             applications, in particular, mixtures of LiNO3 + AgNO3 and
+chemical energy conversion system. Additionally, they do not         NaNO3 + AgNO3.27 However, it was not until 2016 when ionic
+provide a discussion on the utilization of combined ionic            thermoelectric materials started to be used as ionic thermo-
+thermoelectric devices, as well as the signicant categorization     electric supercapacitors with the work of Crispin et al.28
+of theoretical modeling.1,12,18,22                                   reporting the thermoelectric properties of a polymeric electro-
+    This review will begin with a historical overview of i-TE        lyte based on polyethyleneoxide treated by NaOH with an
+materials, then move on to the Soret eﬀect (thermodiﬀusion           exceptionally high ionic thermopower up to 11.1 mV K−1.
+eﬀect) and thermogalvanic eﬀect, which serve as the primary          During the last decade, research on ionic thermoelectric
+driving forces behind the state of the art regarding the             materials has been focused on hydrogels combining diﬀerent
+combined eﬀect of both ionic systems involved in i-TE mate-          electrolytes and natural based polymer matrices in particular
+rials. The optimization parameters and theoretical models for        cellulose and lignin. Highlights the work reported by Li et al.29
+TEG (one and two dimensional case) are outlined and examined         with a very high ionic thermopower up to 24 mV K−1 obtained
+in the nal section. Consequently, the present review aims to        for oxidized cellulose membranes. For the case of lignin, several
+not only stimulate the development of novel i-TE materials but       works published by our group have been demonstrated the
+also foster collaboration between researchers specializing in        enormous potential of lignin-based membranes and hydrogels
+energy storage devices, thermodiﬀusion, and thermogalvanic           in combination with KOH as electrolyte as ionic thermoelectric
+phenomena. By bridging these areas of expertise, we can              materials reaching very high iZT values (0.6–3.5).6,30 In addition,
+signicantly advance our understanding of temperature-               the combination of the ionic thermoelectric eﬀect in thermo-
+dependent ion transport and unlock applications beyond the           galvanic cells has recently opened avenues for maximising the
+capabilities of traditional electronic materials in low-grade        thermoelectric performance. A good example of this is the work
+energy harvesting technologies.                                      published in Science by Han et al.,31 where they developed
+                                                                     wearable device consisting of 25 unipolar elements based on
+                                                                     a gelatin matrix modulated with ion providers (KCl, NaCl, and
+2. Historical overview of ionic                                      KNO3) for thermodiﬀusion eﬀect and a redox couple [Fe(CN)64−/
+thermoelectric materials                                             Fe(CN)63−] for thermogalvanic eﬀect. The device generated
+                                                                     more than 2 volts and a peak power of 5 microwatts using body
+The exploration of ionic thermoelectric materials commenced          heat. In recent years, signicant progress on thermoelectric
+with the investigation into ion thermodiﬀusion conducted by          ber-based woven devices can be integrated with other func-
+Swiss physicist and chemist Charles Soret (September 23, 1854,       tional components to create smart textiles. These components
+to April 4, 1904). Soret conducted experiments in which sodium       include moisture sensors, triboelectric generators, wearable
+chloride and potassium nitrate were placed in a vertical tube        current–voltage regulators, and energy storage units like tiny
+measuring 30 cm in length and 2 cm in diameter. The tube top         supercapacitors. Such integration of i-TE materials represents
+and bottom ends were maintained at temperatures of 80 °C and         a valuable advancement for researchers working on exible,
+room temperature, respectively. He observed that the                 wearable thermoelectric materials and devices, as well as their
+
+
+14124 | Chem. Sci., 2024, 15, 14122–14153                              © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                   Chemical Science
+
+novel applications in customized thermal management and                  sources for potential generation: thermodiﬀusion and the
+electronic skin.32                                                       thermogalvanic eﬀect. Thermodiﬀusion leads to ion concen-
+                                                                         tration gradients within the material due to DT, creating an
+                                                                         internal potential. Additionally, the thermogalvanic eﬀect
+3.       Ionic thermoelectric system                                     harnesses the temperature dependence of electrode/electrolyte
+This section explores the essential principles underlying ther-          interactions, resulting in another potential contribution, as
+modiﬀusion and thermogalvanic systems, giving rise to the i-TE           depicted in Fig. 2b and c.1
+phenomenon. We explore several phenomenological models to
+understand how these eﬀects result in the creation of an electric        3.2   Thermodiﬀusion based system
+potential diﬀerence. The principles of heat transfer in i-TE
+materials are examined considering recent advancements.                  The thermodiﬀusion-based system, originating from the Soret
+                                                                         eﬀect that was rst discovered by Soret and Ludwig in the 19th
+                                                                         century, plays a pivotal role in i-TE materials. Under a DT ions
+3.1      Basic mechanisms                                                migrate from the hot to cold side, leading to concentration
+Electronic (e-TE) and ionic thermoelectric (i-TE) materials both         imbalances at the electrodes. To maintain electrical neutrality,
+oﬀer pathways for converting heat into electricity, but their            both cations and anions participate in this process within the i-
+underlying mechanisms diﬀer signicantly. In e-TE materials              TE material. However, the distinctive migration speeds (diﬀu-
+(Fig. 2a), the Seebeck eﬀect drives the process. Under                   sion rates) of these ions are inuenced by variations in size,
+a temperature gradient (DT), electrons (or holes) act as charge          coulomb force and activation energy, resulting in diﬀerent
+carriers, propelled by an electromotive force.34 Due to their            diﬀusion rates between cationic and anionic ions. This leads to
+negative charge, electrons migrate from the hot to cold side,            an imbalance in the concentrations of each type of ion. As
+generating an electric potential diﬀerence against the temper-           shown in Fig. 2d, a double-layer region containing a Helmholtz
+ature gradient. i-TE materials, however, rely on two distinct            layer and a diﬀusion layer form close to the electrolyte/electrode
+
+
+
+
+Fig. 2 Representation of (a) diagram portraying a group of n-type and p-type e-TE materials, (b) thermodiﬀusive-based i-TE materials, (c)
+thermogalvanic-based i-TE material, (d) the internal structure of a thermodiﬀusive-based i-TE materials in its operational mode, reproduced with
+permission.1 Copyright 2023, Wiley-VCH. (e) Electric double-layer in supercapacitor, reproduced with permission.33 Copyright 2019, Elsevier.
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                      Chem. Sci., 2024, 15, 14122–14153 | 14125
+Chemical Science                                                                                                                  Review
+
+interface following the Gouy–Chapman–Stern theory.35 The               signicantly increased, enabling the charging of a super-
+diﬀerence in ion concentration causes a dilute region to be near       capacitor or a battery.1 This principle is employed in the design
+one electrode and a viscous region near the other, which results       of ionic thermoelectric supercapacitors (ITESCs), which
+in diﬀerent chemical potentials in each electrode's Helmholtz          combine the functionalities of a thermoelectric generator and
+layer. Thus, an electric potential diﬀerence between the two           a supercapacitor. The establishment of an equivalent circuit,
+electrodes is initiated by the chemical potential diﬀerence            combining a TEG and a supercapacitor, is crucial for electronic
+between the two Helmholtz layers.18                                    material-based thermoelectric applications.36,37
+   A recent study on i-TE materials, inspired by Soret eﬀect,
+draws a parallel intention with e-TE materials based on the            3.3   Ionic thermoelectric generators
+Seebeck eﬀect, as both exhibit the ability to generate thermo-
+                                                                       Ionic thermoelectric generators (ITEGs) are gaining recognition
+voltage associated with charge transfer enthalpy. However,
+                                                                       for their ability to eﬃciently recover low-grade waste heat.
+some noteworthy diﬀerences are present. (i) Ions can have
+                                                                       However, their practical application is hindered by low power
+charges signicantly higher than electrons, depending on their
+                                                                       and energy density. To address this, scientists have developed
+overall valence state. Electrons have a charge of one unit. (ii)
+                                                                       innovative ITEGs with enhanced power and energy density,
+Unlike ion transport, electron transport is conned within
+                                                                       enabling continuous charging of small devices. By synergisti-
+a particular energy window and follows the Fermi–Dirac
+                                                                       cally combining electrode redox reactions with the thermo-
+statistical functional. (iii) Electrons are the only carriers that
+                                                                       diﬀusion eﬀect, these ITEGs demonstrate impressive
+contribute to electrical conductance in e-TE materials, while
+                                                                       thermoelectric conversion properties. This technology holds
+cations and anions are also involved in i-TE materials. Impor-
+                                                                       commercial promise for powering wearable electronics and
+tantly, (iv) electrons can traverse an external circuit, while ions
+                                                                       sensors, opening new avenues for advanced ionic thermoelec-
+accumulate at electrodes, leading to the formation of an electric
+                                                                       tric devices with improved heat-to-electricity conversion and
+double layer (EDL), as depicted in Fig. 2e. This process induces
+                                                                       storage capabilities.38 Li et al.29 introduced a generator mode
+a transient thermoinduced current, illustrating the charge
+                                                                       where an i-TE cell is directly connected to a load resistance aer
+stored in the EDL capacitors. By utilizing high-capacitance
+                                                                       voltage build-up. This study reported the three stages ITEG
+electrode materials, this accumulated charge can be
+                                                                       mode as illustrated in Fig. 3a. Voltage build-up: under
+
+
+
+
+Fig. 3 (a) Schematic representation of ITEGs, reproduced with permission.39 Copyright 2022, Wiley-VCH. (b) Chemical interactions between
+PEDOT:PSS and [EMIM:DCA], reproduced with permission.1 Copyright 2023, Wiley-VCH (c) voltage output of a wearable i-TE device, reproduced
+with permission.39 Copyright 2022, Wiley-VCH. (d–f) Photographs of the i-TE generators, reproduced with permission.1 Copyright 2023, Wiley-
+VCH.
+
+
+
+14126 | Chem. Sci., 2024, 15, 14122–14153                                © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                              Chemical Science
+
+a temperature diﬀerence (DT), a voltage is generated across the       the aggregation of thermally diﬀused ions. Supercapacitors or
+i-TE material due to the movement of ions from the hot to the         batteries can be charged by using high-capacitance electrode
+cold side. Power output: once a suﬃcient voltage is built up, an      materials, which can greatly increase the accumulated charge.42
+external circuit can be connected to the i-TE device. This allows     Zhao et al. explored the thermoelectric characteristics of the
+for the ow of ions and the generation of electrical power.           PEO-NaOH solution by injecting the liquid electrolyte contained
+Reactivation: to maintain consistent power output, the i-TE           within a 1 mm thick, 10 mm diameter cylindrical chamber. The
+device needs to be reactivated. This involves removing the            planner surfaces of Au electrodes were deposited on each side,
+temperature diﬀerence (DT) to allow for the redistribution of         making direct contact with the polymer electrolyte (see Fig. 4a).
+ions within the material, preparing it for the next charging and      Thermistors embedded beneath the electrodes monitored the
+discharging cycle.39                                                  temperature diﬀerence (DT). The open voltage induced by Soret
+   Fig. 3b demonstrate a i-TE generator fabricated by coating         under diﬀerent DT conditions was explored while subjecting
+a fabric with a PEDOT/DMSO/[EMIM] solution.40 This process            one side of the device to heating and the other side to cooling,
+yielded a continuous, 8.78 mm-thick TE layer on the cotton yarn,      as depicted in Fig. 4b. The investigation of thermovoltage was
+contrasting with the discontinuous structure of pristine              conducted within various DT conditions between 25 to 35 °C.
+PEDOT-coated yarn. This enhancement is attributed to the              Five minutes aer stabilization at each DT, the voltage was
+PEDOT/DMSO/[EMIM] composite's higher viscosity and surface            recorded. The outcomes, showcased in Fig. 4c, reveal a linear
+tension, preventing yarn penetration. The surface-coated yarn         variation of Vthermo with DT. From the linear t, the researchers
+demonstrated signicantly improved exibility compared to its         calculated an ionic Seebeck coeﬃcient of +11.1 mV K−1 for the
+pristine counterpart. Moreover, the maximum power factor              PEO-NaOH electrolyte. Using both CNT and Au electrodes yields
+(S2s) was optimized to 24.7 mW m−1 K−2, a substantial                 similar saturation of Vthermo vs. time (Fig. 4c) and the evolution
+improvement over the pristine PEDOT value of 0.00684 mW m−1           of Vthermo vs. DT (Fig. 4d). This suggests that electrodes nature
+K−2. Researchers have focused on practical application of long-       does not inuence the results, indicating that the thermovolt-
+term power generation of the gelatin–KCl–FeCN4−/3− i-TE cell          age is the inherent property of the polymer electrolyte.28
+by designing 3D hierarchical Au/Cu electrodes as shown in             However, in recent years, researchers have found that the
+Fig. 3c. The optimized i-TE cell shows high output power and          thermopower of ionic thermoelectric devices does not solely
+thermopower, making it a potential electricity source for             depend on the intrinsic properties of the materials but also
+sensors and wearable electronics. This watch-strap-styled device      includes a signicant contribution from electrode polarization,
+generates 2.8 V and 68 mW when worn on the arm, with a skin           necessitating careful consideration and correction in measure-
+temperature of 30 °C and an environmental temperature of 20 °         ments.43 This can be expressed as DV = SDT + DVelectrode, where
+C, resulting in a DT of approximately 10 K. The high output           DV is the total measured voltage diﬀerence, SDT is the ther-
+voltage can drive sensors without additional DC–DC voltage            moelectric voltage, and DVelectrode is the voltage contribution
+boosters, as most sensors operate within a voltage range of 1.5–      from electrode polarization. When an inert metal is used as
+3.6 V. Compared to other i-TE and electronic thermoelectric (e-       electrode, the term of DVelectrode could be negligible.
+TE) devices, optimized devices demonstrated the output voltage
+and power are signicantly 127% and 1360% respectively, and
+substantially higher than other reported devices. The device can      3.5   Operational mechanism of ITESCs
+directly power various electronics, including an LED bulb and         Wang et al.44 reported the four distinct steps that comprise the
+a thermohydrometer. It also harvests heat from the body,              comprehensive operational mechanism of ITESC in Fig. 5a,
+generating a stable voltage of approximately 1.04 V under             making it easier to extract energy from i-TE materials. The rst
+a small DT of approximately 3.9 K in an indoor summer envi-           step of the charging process described, setting up the device for
+ronment, enough to drive a digital watch without voltage              a DT, which causes an open circuit to produce thermal voltage.45
+boosters.39 Additionally, a thermogalvanic i-TE module was            The representation in Fig. 5a has a positive thermal voltage
+developed using guanidine chloride (GdmCl) and urea-                  arise at the cold side, primarily due to dominant sodium cation
+enhanced [Fe(CN)64−/Fe(CN)63−] electrolytes. A polyamide              thermodiﬀusion. Moving on to the second step, the EDLC is
+frame housed 50 individual units, each containing a graphite          charged by connecting the electrodes, via a load or a short
+electrode sandwiching the electrolyte. This module generated          circuit. In this stage, an electric current ow from the electrodes
+an open-circuit voltage of 3.4 V and a short-circuit current of 1.2   with a higher electric potential to the one with a lower potential,
+mA under an 18 K temperature diﬀerence, capable of powering           all while maintaining the DT. The third step involves an equil-
+an LED array. Notably, the device eﬀectively harvested human          ibration period, involves removing the load and the DT from the
+body heat, producing a stable voltage of over 0.3 V under             circuit. Importantly, the charges that were stored at the elec-
+a minimal temperature diﬀerence of 1.3 K41 (Fig. 3d–f).               trode–electrolyte interface did not disappear even as the ions
+                                                                      diﬀused back. Since there is no thermal voltage generated,
+                                                                      stored charge at electrodes controls the ensuing open circuit
+3.4   Ionic thermoelectric supercapacitors                            voltage at DT = 0, which should be observed in this step with
+Over the last few years researchers reported that ionic thermo-       a sign opposite to initial thermal voltage in step I. Finally, the
+electric supercapacitors (ITESCs) create a transient thermo-          fourth step involved the loss of stored charge due to the EDLC
+induced current by forming an EDL at the electrodes through           discharging through an external circuit load resistance. Once
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                 Chem. Sci., 2024, 15, 14122–14153 | 14127
+Chemical Science                                                                                                                         Review
+
+
+
+
+Fig. 4 (a) Illustration of the ITESCs device (left) featuring two distinct electrodes (right, Au and CNT), along with the reaction occurring in the
+solution. (b) Recorded Vthermo and DT during the heating process using the Au electrode. (c) The observed Vthermo while heating with either CNT
+or Au electrodes. (d) Vthermo at various DT values using CNT electrodes (black solid squares) and Au electrodes (red open squares), reproduced
+with permission.28 Copyright 2016, Royal Society of Chemistry.
+
+
+the charging process is nished, the DT is no longer necessary             and triangles) and overlaid it with the thermally charged curve.
+and is only needed for stages I and II. Aer completing a full             Their investigation demonstrated that the increase in both the
+cycle, brings the ITESC back to its initial state.12,44 The repeated       generated and stored electric energy follows a quadratic rela-
+cycling yields highly reproducible charge–discharge current                tionship with the ionic thermopower. The relationship was
+patterns, as illustrated in Fig. 5b. These observations under-             directly linked to the charging potential, as expressed by the
+score the stability of the device and suitability for harvesting           equation V = DT$S.12,42
+energy from uctuating heat sources. This characteristic also
+makes it possible to store and use energy without a constant
+heat source. Such a device is particularly well-suited for use with        3.7   ITESCs for integrated energy conversion-storage
+intermittent heat sources like solar energy, allowing capacitors           Drawing inspiration from the work of Xinyu Yang et al.,46 they
+to charge during the day and discharge during the night.28                 proposed a model for understanding the charge–discharge
+                                                                           behavior of an ITESC based on an equivalent circuit (as shown
+3.6   Stored charge and energy                                             in Fig. 6a). Within this framework, the thermal voltage arising
+To understand the charging mechanism of the ITESC, Dan Zhao                from the DT acts as the driving force. During stages i and ii, the
+et al. investigated the relationship between the stored electrical         absence of voltage signals points towards an equilibrium state
+energy in the supercapacitor and the ionic thermopower,                    within the device, with electrons and holes balanced at the
+signifying the thermal voltage generated by the electrolyte. This          positive and negative electrodes.47 It is crucial to note that
+involved charging and discharging the ITESC under diﬀerent                 a temperature gradient of 0 K would result in minimal redis-
+DT and subsequently calculating the energy stored in the                   tribution of Na+ ions within the electrolyte interface. Addition-
+supercapacitor by integrating the current over time across                 ally, without a counterbalancing charge attraction, electron and
+a load resistance.12                                                       hole movement across the interface would not be expected.
+                                                                           When the external circuit remained disconnected during stages
+                                1
+                           E¼     CðDTSÞ2                           (1)    i and ii, limited ion transport resulted in an inherent charge
+                                2                                          imbalance. This imbalance generated a potential diﬀerence
+where C is the capacitance, S is ionic thermopower and DT is               across the positive and negative electrodes, measurable as the
+applied temperature gradient. Fig. 5c illustrates Dan Zhao et al.          open-circuit voltage (Fig. 6b). Analysis revealed a linear rela-
+ndings, that the measured stored energy (depicted as red dots)            tionship between this voltage and the applied DT, with the
+exhibits a quadratic increase in relation to the DT (indicated by          highest recorded voltage of 0.45 V achieved at ∼30 K DT.
+the red dashed line). Additionally, they plotted the stored energy         Further investigation conducted a series of calculations to
+obtained in the device when charged by an external power                   evaluate the quantity of charge transferred during stage iii. The
+supply, against the charging potential (Fig. 5c by the blue line           results presented in Fig. 6c illustrate a nearly linear correlation
+
+
+14128 | Chem. Sci., 2024, 15, 14122–14153                                     © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                       Chemical Science
+
+
+
+
+Fig. 5  Operation principle of ITESC (a) schematic mechanism: (i) DT generates ionic thermal voltage, (ii) thermoelectric charging, (iii) DT removal
+for ion equilibrium, (iv) discharging. (b) Charging/discharging with periodic heating, reproduced with permission.44 Copyright 2017, Wiley-VCH.
+(c) Depicts the energy density of the ITESC compared to both DT and electric charging methods. The red open circles represent the data for the
+ITESC, while the blue open squares represent electric charging. The dashed lines show theoretical predictions based on thermal voltage (Vthermo,
+dashed red line), electric voltage (Velectric, dashed blue line), and eﬀective voltage (Veﬀective, dashed and dotted black line), reproduced with
+permission.28 Copyright 2016, Royal Society of Chemistry.
+
+
+between the amount of charge and the loop, contingent on the               3.8   Ionic thermoelectric gure of merit
+DT. However, discharge capacity suﬀered a notable decline due
+                                                                           Over the past three years the researcher successfully explained
+to internal resistance contributing to a voltage drop. Xinyu Yang
+                                                                           that ionic gure of merit (iZT = siSi2T/K), served as a key
+reported a more comprehensive understanding of the energy
+                                                                           parameter for assessing the performance of i-TE materials,
+consumption dynamics during both charging and discharging
+                                                                           drawing parallels with their electronic counterparts. It is crucial
+processes, to assess the charge–discharge ratio in relation to DT
+                                                                           to highlight that iZT for electrolytes does not exhibit the same
+and voltage. Fig. 6d showcases the remarkable consistency of               correlation with heat to electron conversion eﬃciency as
+the charge–discharge ratio across varying DT and initial voltage           observed in traditional thermoelectric materials, mainly due to
+conditions. Notably, at 50 mV (T = 2 K), the ratio remains near
+                                                                           the limitations in utilizing ionic materials in conventional
+96%, highlighting the substantial charge storage capacity and
+                                                                           TEGs.12 Zhao and their colleagues described a comprehensive
+exceptional stability of the ITESC. Further investigation
+                                                                           study into the gure of merit for ITESC.12 The assessment of
+explored the device's tensile stability by subjecting it to 20 cycles
+                                                                           charging performance involved determining the ratio between
+of 20% stretching. Subsequent charge–discharge analysis
+                                                                           stored electric energy and absorbed heat during the charging
+revealed a consistent linear relationship between voltage and
+                                                                           process, with expression detailed in eqn (2). Using this equation,
+the ratio across a 30–150 mV range, regardless of pre- or post-
+stretching conditions. This nding underscores the notable                                        DT             ZTi
+                                                                                            h¼                                                   (2)
+                                                                                                  TH          10T    1  DT
+tensile stability of the integrated device. Xinyu Yang. et al. re-                                     2ZTi þ      ZTi
+ported the practicality of integrated i-TE device into wearable                                                TH    2  TH
+electronics. As shown in Fig. 6e, a exible and stretchable device
+was applied to the back of the hand, simulating real-world                    It is important to mention here that this formula is appli-
+interactions with the human body. The device eﬀectively har-               cable only to ITESC. Currently, there is a lack of a universal ionic
+vested low-grade heat during palm bending, generating                      thermoelectric Z that can serve as a comprehensive gure of
+a voltage output of 90 mV at a temperature diﬀerence of 6 K                merit for all the ionic thermoelectric systems. A recent study
+(Fig. 6f). This nding highlights the applicability of such                by Ma et al. have introduced a new gure of merit for the
+devices in powering wearable electronics.46,48                             thermodiﬀusion based i-TE materials (eqn (2a)).49
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                         Chem. Sci., 2024, 15, 14122–14153 | 14129
+Chemical Science                                                                                                                      Review
+
+
+
+
+Fig. 6 Representation of (a) equivalent circuit and charge–discharge characteristics of ITESCs. (b) Thermal voltage of ITESCs vs. DT. (c) Stored
+charge as a function of DT. (d) The charge–discharge ratio in relation to both DT and voltage. (e) Potential applications of ITESCs in wearable
+electronics. (f) Output voltage from a prototype stretchable ITESC worn on the back of a hand, reproduced with permission.46 Copyright 2022,
+Wiley.
+
+
+
+                                        GT                               accurately compare and optimize various ionic thermoelectric
+                           ZTi ¼ CS 2                             (2a)
+                                        kdc                              systems, as current gures of merit oen do not account for the
+                                                                         unique interplay between thermogalvanic and thermodiﬀusion
+                                                                         eﬀects.
+    Previous work introduced novel parameters to characterize
+                                                                            The investigation of research team described that eﬀective-
+thermodiﬀusion-based ionic thermoelectric (i-TE) devices,
+                                                                         ness of an electrolyte, denoted by iZT, plays a potential role in
+including capacitance (C), thermopower (S), and a factor (GT/
+                                                                         determining the eﬃciency of an ITESC employing this specic
+(kdc)) representing the relaxation of temperature diﬀerence.
+                                                                         material. A direct comparison between ionic and electronic
+This research oﬀered valuable insights into device operation
+                                                                         thermoelectric materials proves challenging due to the distinct
+but overlooked the inuence of ionic conductivity and the
+                                                                         operational characteristics of a TEG and an ITESC. However,
+discharge process. Consequently, a more comprehensive gure
+                                                                         a meaningful comparison can be drawn by examining ionic
+of merit is necessary to fully understand i-TE device perfor-
+                                                                         materials within an ITESC featuring capacitance and electronic
+mance. Recent studies by X. Qian, R. G. Yang, and colleagues
+                                                                         materials within a TEG coupled in series with SC of capacitance
+have addressed these limitations by incorporating ion transport
+                                                                         (C). This comparison is justied as they share analogous
+dynamics and electrochemical reactions into the gure of merit
+                                                                         equivalent circuits, as shown in Fig. 7a. Consequently, a unied
+(Z) for i-TE devices that leverage both thermodiﬀusion (TD) and
+                                                                         graph can depict the energy conversion eﬃciency of both elec-
+thermogalvanic (TG) eﬀects.50
+                                                                         tronic and i-TE materials by considering ITESCs as equivalent to
+                                   CSTD 2                                series-connected TEG-SC circuit (as illustrated in Fig. 7b), this
+                       ZTD ¼                                      (2b)
+                               Kðtch þ 3RL CÞ                            approach has limitation. In practical applications the eﬃciency
+                                                                         of converting heat to stored electricity in an ITESC using elec-
+                                     STG 2                               trolytes is still lower compared to Bi2Te3 in a TEG-SC circuit,
+                            ZTG ¼                                 (2c)
+                                     KRS                                 mainly because of the signicantly lower ionic conductivity.
+where, K is the thermal conductance. tch is the thermal charging         Conversely, as presented in Fig. 7c, electrolytes facilitate the
+time of i-TE supercapacitor mode. RL is the external load                storage of signicantly larger electrical energy per leg/per DT.
+resistance of i-TE supercapacitor mode. Rs is the overall resis-         This phenomenon is attributed to the square of the ionic
+tance of i-TE cell of i-TE generator mode.                               thermopower (as per eqn (1)), that is substantially higher for
+   They considered a critical parameter tch when i-TE devices            polymer electrolytes (∼10 000 mV K−1) compared to Seebeck
+work. However, combining these above two equations is still              coeﬃcient of Bi2Te3 alloys (∼200 mV K−1). Future research
+a big challenge. This gap in research hinders our ability to             should focus on simultaneously improving ionic conductivity
+
+
+
+14130 | Chem. Sci., 2024, 15, 14122–14153                                   © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                   Chemical Science
+
+
+
+
+Fig. 7 A comparison is presented between ionic and electronic thermoelectric materials within an ITESC. (a) Displays the experimental setup for
+ITESC measurement (left) and the corresponding equivalent circuit, highlighting the setup for experimental measurements (right). (b) Eﬃciency
+comparisons are drawn between diﬀerent materials within the ITESC based on their ZT. (c) The impact of material choice on the ITESCs stored
+energy capacity by varying ZT values, reproduced with permission.44 Copyright 2017, Wiley-VCH.
+
+
+
+and maintaining a high ionic thermopower in materials                    electrode surface transition as a result of the incapacity of ion
+designed for ITE applications. Interestingly, devices utilizing          transfer and electron between electrolyte and electrode. At this
+either a series circuit where a TEG charges a SC or a single             point, when both electrodes are activated, they create an
+ITESC system can oﬀer pulsed electrical power through the                induced current, as a result EDLC forms between electrolyte and
+discharge of the SC, addressing the limitation of continuous             electrode, and the electrode stores the converted electrical
+low power output encountered with TEGs alone.6 However,                  energy.53 When applied to the ITESC electrode, i-TE hydrogel
+beyond material advances, unlocking the full potential of i-TE           oﬀers numerous benets. The rich and uniform porous struc-
+for practical applications introduces additional challenges              ture facilitates ions movement from electrolyte to reach elec-
+related to device design. The continuous power generation                trode surface as well as to increase the electrode material's
+capability of ionic thermoelectric devices encounters a funda-           specic surface area and contact area when the polymer is
+mental challenge due to the necessity for discharging in the             dispersed around the electrolyte and pores. The electrode
+absence of a temperature diﬀerence. Ionic thermoelectric                 surface can retain more charges for high specic surface area
+concepts demonstrate particular eﬀectiveness in converting               capacitance during the formation EDLC. Liu et al. in 2017 re-
+intermittent heating/cooling scenarios. Through deliberate               ported smart responsive hydrogels, such as poly(N-iso-
+design considerations, the charging duration of the super-               propylacrylamide) (PNIPAM), are uniformly and chemically
+capacitor can be synchronized with the source of heat uctua-            dispersed on material of electrode (Fig. 8a).54 Elashnikov et al. in
+tion cycle. This presents opportunities for integrating with             2021 demonstrated that these hydrogels can be used for
+other steady-state power generation systems like TEGs and solar          external transport and charge storage control, allowing ITESC's
+cells, both reliant on heating or illumination for operation.            electrical capacity to be adjusted on-demand (Fig. 8b). They can
+However, it is crucial to address the inherent limitation of low         also control the disruption or formation of the electrode
+energy density in i-TE devices.51 However, this challenge is             material's conductive network by changes in light or tempera-
+amenable to resolution through circuit manipulation. For                 ture. The stability of ITESC can be aﬀected by repeated charging
+example, harnessing the ITESC to charge capacitors directly              and discharging of hydrogel materials, which are highly
+provides a means to mitigate this concern. Additionally,                 dependent on their water content. This can be mitigated by
+adjusting the circuit conguration from parallel to series during        encapsulating the hydrogel with the use of cast stretchable
+energy utilization oﬀers a pathway for enhancing energy                  polymer or impregnated coatings, or by weakening the inter-
+density. This strategic manipulation of the circuit holds                actions between the hydrogel and water by adding double
+promise for overcoming the limitations associated with the               network structures, hydrophobic linkages, ionic complexes,
+energy devices of i-TE devices.44                                        etc.55 On adding hydrogels to ITESC electrolytes, eﬃcient ion-
+                                                                         selective networks are formed by entangled molecular chains.
+                                                                         In addition, good processability of electrolytes in hydrogel
+3.9   Hydrogels in ITESC for thermoelectric energy systems
+                                                                         oﬀers additional exibility in ITESC process design, such as
+Hydrogel can boost thermal capacity, make TE material more               area, thickness etc., which facilitates the easy fabrication of
+exible, and stop leakage of electrolyte.52 In order to enhance          ITESCs are reported by Horike et al.56 in 2020. However, at
+thermoelectric conversion, it can help electrodes or act as an           a specic DT, the migration of anions and cations in pure
+electrolyte in ITECS. In the hydrogel ITESC principle, an active         hydrogels is hindered by the electrostatic interactions produced
+substance with capacitive characteristics serves as electrode,           by entangled chains. These interactions close the hydrophobic
+and a TE hydrogel based on the Soret eﬀect behaves as elec-              transition and ion-conducting channels on the surface of
+trolyte. A potential diﬀerence is created at each end of an ionic        hydrogel, lowering electrical conductivity and inuencing
+electrolyte because of concentration diﬀerence due to thermal            thermoelectric conversion as show in Fig. 8c.57 Additional
+diﬀusion of carriers in the presence of DT. Ions build up at the
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                      Chem. Sci., 2024, 15, 14122–14153 | 14131
+Chemical Science                                                                                                                     Review
+
+
+
+
+Fig. 8 (a) Preparation for a conductive composite hydrogel (GOaCNTpega-OPF-MTAC), reproduced with permission.54 Copyright 2017, American
+Chemical Society. (b) Reversible on-demand adjustment of ITESC capacity through light changes. (c) Synthesis of a cellulose-based ionic
+conductive hydrogel using entangled chain networks. (d) The schematic representation of PNIAPM-co-NMAM polyelectrolytes highlighting their
+self-protective and thermal-switching capabilities in energy storage devices, reproduced with permission.53 Copyright 2023, Elsevier. (e) Ionic
+thermoelectric properties of TcB9-2.5% lignin-based hydrogel inﬁltered with KOH electrolyte, reproduced with permission.6 Copyright 2024,
+Springer.
+
+
+
+
+14132 | Chem. Sci., 2024, 15, 14122–14153                                   © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                 Chemical Science
+
+approaches include building crosslinked networks with cation         cells is essential for harnessing their full potential and realizing
+selectivity or increasing the concentration gradient between the     their role in the transition towards more eﬃcient and sustainable
+cations and anions. When the hydrogel electrolyte is a low           energy conversion technologies. At the heart of thermogalvanic
+critical solution temperature responsive polymer, such as PNI-       systems lies the principle of electrochemical conversion of
+PAM, methyl cellulose (MC) and pluronic[poly(ethylene oxide)-        thermal energy. As previously mentioned, these systems typically
+block-poly(propylene oxide)-block-poly(ethylene oxide) (PEO–         consist of two identical electrodes and an electrolyte; when
+PPO–PEO)], reversible thermal switching self-protection of           exposed to a temperature gradient across the cell, electro-
+ITESC is also possible. Zhang and colleagues, for instance,          chemical reactions occur at the electrode–electrolyte interfaces.61
+created poly(N-isopropylacrylamide-co-N-methylolacrylamide)          The temperature diﬀerence induces unequal chemical equilib-
+(PNIPAM/NMAM) hydrogel polyelectrolytes. As demonstrated in          riums on either electrode, generating an electric potential
+Fig. 8d, a mechanism of self-protection was achieved in              diﬀerence which can be harnessed to produce electrical power
+hydrophobic segment of PNIPAM through thermally induced              through the ow of electrons along the outer circuit. A schematic
+switching. Though this is a feasible approach, there has not         representation of a TGCs working mechanism is illustrated in
+been much research done on ion-conductive hydrogel elec-             Fig. 9. Importantly, the key to eﬃcient operation in thermo-
+trodes particularly for ITESC when both electrode and electro-       galvanic systems is the appropriate selection of electrode mate-
+lyte materials are made up of hydrogel.53,58                         rials and electrolytes that enable optimal ion concentration,
+    To address these drawbacks, one of studies reported the          electrolyte diﬀusion, charge transfer resistance at the electrode/
+synthesis of lignin-based hydrogels, with improved thermo-           electrolyte interface, and electrical conductivity of the
+electric properties. This study demonstrates the eﬀect of            electrodes.62,63
+adjusting electrolyte concentration within the hydrogels.                As has been described, TGCs operate in a similar manner
+Notably, TcB9-2.5% hydrogels inltrated with 6 M KOH elec-           than other ionic thermoelectric materials, and as such, have
+trolyte exhibit a compelling combination of properties for           a ionic thermopower or ionic Seebeck coeﬃcient, or thermo-
+ITESC applications. As shown in Fig. 8e, these hydrogels achieve     power, equivalent of their own which is dened in eqn (3) as:64
+a high ionic conductivity 226.5 mS cm−1, a remarkably low                                             DE   DS
+thermal conductivity 0.29 W m−1 K−1, and an impressive ionic                                   Se ¼      ¼                                (3)
+                                                                                                      DT   nF
+thermopower of 13 mV K−1, resulting in a superior 3.75 ionic
+gure of merit (iZT).6 These exceptional i-TE characteristics are    In the given equation, DE represents the open-circuit voltage,
+further enhanced by the biocompatibility, environmental              DT denotes the temperature diﬀerence, n stands for the number
+friendliness, and biodegradability of lignin-based hydrogels.        of electrons transferred in the redox reaction, F is Faraday's
+This unique combination opens doors for their utilization in         constant, and DS represents the partial molar entropy diﬀer-
+a wide range of high-value energy applications. Promising areas      ence of the redox couple.
+of implementation include environmental temperature sensors,             Another parameter of interest for TGCs is the Carnot-relative
+healthcare-oriented biomedical sensors, and wearable elec-           eﬃciency, which denotes the theoretical maximum of energy
+tronics engineered for eﬃcient and sustainable energy har-           conversion eﬃciency that the TGC can achieve, shown in eqn
+vesting. This development not only represents a signicant           (4):65,66
+advancement in the eld of ionic thermoelectricity but also                                         Se 2  seff
+                                                                                             hr ¼                Th                      (4)
+holds immense potential for both promoting environmental                                             4  keff
+sustainability and fostering technological progress.
+                                                                     where seﬀ, keﬀ and Th represent the eﬀective electrical conduc-
+                                                                     tivity, the eﬀective thermal conductivity, and the temperature at
+4. Thermogalvanic cells                                              the hot side of the TGC, respectively. It is important to note that
+Thermogalvanic cells (TGCs) are a type of ionic thermoelectric
+materials consisting of electrodes surrounded by an electrolyte
+where the charge carriers are the ions contained in the electro-
+lytes of the cells. TGCs exploit electrochemical processes within
+liquid, solid, or quasi-solid electrolytes to convert temperature
+diﬀerences into electrical potential.59 These systems oﬀer similar
+advantages to other ionic thermoelectric materials when
+compared to traditional thermoelectric materials such as the
+higher thermopower and the compatibility with various temper-
+ature ranges, which positions them as promising avenues for
+energy harvesting.60 This section delves into the fundamental
+principles and recent advancements of thermogalvanic systems
+within the broader context of ionic thermoelectric materials. We
+will explore the underlying electrochemical mechanisms, the role
+of electrolytes, and key factors inuencing the performance of
+these systems. Understanding the intricacies of thermogalvanic       Fig. 9   Schematic diagram of a TGC's operation.
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                   Chem. Sci., 2024, 15, 14122–14153 | 14133
+Chemical Science                                                                                                                 Review
+
+the Carnot-relative eﬃciency is temperature-dependent, and as          applications.73 Despite their inherent advantages, such as
+such test conditions need to be known to use it to compare the         heightened stability, enhanced design exibility, and reduced
+performance of diﬀerent thermocells. As of now, the ferri/             maintenance demands, these cells have been hindered by their
+ferrocyanide (Fe(CN)63−/Fe(CN)64−) couple stands out as one            requirement for elevated operating temperatures, rendering
+of the most eﬀective redox couples and is the main redox couple        them impractical for low-grade heat harvesting applications.74
+utilized in liquid TGCs. It exhibits a relatively high ionic ther-     However, recent research endeavors have aimed to address this
+mopower of ∼1.4 mV K−1 along with favorable interfacial                limitation by exploring the development of solid-state thermo-
+kinetics and ion transport, resulting in superior thermopower          galvanic cells suitable for low-grade heat harvesting purposes.70
+density.67,68 Research eﬀorts during the past decade in the eld       Similar to their liquid counterparts, solid-state thermogalvanic
+of TGCs predominantly concentrated on optimizing the usage             cells rely on the establishment of thermal gradients across the
+of this redox couple and the exploration of alternative electrode      cell. When one side of the cell is exposed to a higher tempera-
+materials. For example, by replacing expensive Pt electrodes,          ture than the other, the solid electrolyte allows charge transport
+which are oen utilized to facilitate the interfacial kinetics of      to occur through ion migration, leading to an electric potential
+the ferri/ferrocyanide couple, with an array of cobaltous oxide        diﬀerence between the electrodes.74 Solid-state thermogalvanic
+nanowires on carbon cloth ber.69 Additionally, alternative            cells present a viable option, particularly in environments where
+redox couples have been explored in recent years to provide            the use of liquid electrolytes is unfeasible, such as high-
+greener alternatives, for example the H+/H2 couple or the Fe2+/        temperature conditions. Despite inherent limitations, they
+Fe3+ couple.63,70 As TGCs continue to evolve and mature, they          remain a signicant avenue in the eld of thermogalvanic
+hold great promise in helping address the growing demand for           systems, oﬀering robust, eﬃcient, and versatile solutions for
+sustainable energy solutions, particularly in scenarios where          diverse energy conversion applications. Quasi-solid thermo-
+waste heat is abundant. The ongoing research and development           galvanic cells are a distinct and relatively new class of thermo-
+in this eld aims to further optimize system eﬃciency, mate-           galvanic systems that combines the characteristics of solid-state
+rials, and integration techniques to make thermogalvanic               and liquid-state thermogalvanic cells. These cells use a hydrogel
+systems a signicant player in the future of renewable energy          or gel-like electrolyte, oen in combination with liquid
+conversion technologies. Based on the state of the electrolyte         components or ions, to enable eﬃcient ion transport and
+matrix, TGCs can be distinguished into 3 types: liquid or solu-        electrochemical reactions, and have seen the most innovation
+tion based TGCs, solid TGCs and quasi-solid TGCs.                      and research in recent times in the eld of TGCs.75,76 This hybrid
+    Solution based TGCs represent a category of thermogalvanic         design brings together the benets of both solid and liquid
+systems where the electrolyte matrix is in a liquid state, typically   systems, providing advantages in terms of performance, design
+water-based and predominantly centered around the                      exibility, stability, and ease of fabrication. In these types of
+(Fe(CN)63−/Fe(CN)64−) redox couple.71 These cells leverage the         systems, the solid-state component of the electrolyte oen acts
+dynamic properties of aqueous electrolytes to facilitate ion           as a scaﬀold for ion transport, while the liquid or gel-like
+transport and electrochemical reactions, making them a versa-          component carries mobile ions and facilitates electrochemical
+tile and practical choice for various applications. They present       reactions.77 The combination of solid and liquid/gel compo-
+distinct advantages, such as high ionic conductivity, cost-            nents in the electrolyte allows for eﬃcient ion transport, which
+eﬀectiveness, and utilization of common elements. Their                can improve the overall performance of the cell.78 Additionally,
+main disadvantage is their limited operational temperature             they oﬀer a degree of exibility in design, allowing for cus-
+range.64 Recently, research on this type of TGCs has focused on        tomization to match the specic requirements of diﬀerent
+improving eﬃciency by introducing alternative electrode                applications.39 Their quasi-solid state provides enhanced
+materials or altering the electrolyte matrix.41,69 This type of cell   stability and resistance to thermal and mechanical stresses,
+is ideal for scenarios where the use of other types of TGCs would      while maintaining high ionic conductivity. This combination
+be obstructed by cost or constraints related to their materials,       leads to greater overall stability in various operating conditions
+such as for harnessing low-temperature heat sources. Aqueous           and high thermoelectric performance.79 The following Table 1
+state thermogalvanic cells, leveraging the advantages of water-        shows recently reported TGCs, showcasing that an abundant
+based electrolytes, present a cheap and versatile solution for         majority of reported TGCs in recent times are either liquid or
+various energy conversion applications. Their high ionic               quasi-solid.
+conductivity, cost-eﬀectiveness, and ease of handling make
+them well-suited for both industrial and smaller-scale scenarios
+with low-temperature heat sources.72 Solid-state thermogalvanic        5. Thermally regenerative
+cells represent another subset of thermogalvanic systems that          electrochemical cycle
+diﬀer from their liquid-state counterparts by employing solid-
+state materials as their electrolyte matrix, these materials can       Ionic thermoelectric cycling mode or thermally regenerative
+be conductive ceramics, metals, polymers, or other solid               electrochemical cycle (TREC) and thermogalvanic technologies
+compounds with high ionic conductivity, allowing for the               are both employed for harvesting low-grade heat, but they
+transport of ions within the cell. Historically, solid-state ther-     operate on distinct principles. Thermogalvanic systems
+mogalvanic cells based on beta-alumina solid electrolytes              generate electrical energy directly from a temperature gradient
+garnered signicant attention, particularly in aerospace               across an electrolyte, utilizing the Seebeck eﬀect to create
+
+
+14134 | Chem. Sci., 2024, 15, 14122–14153                                © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                 Chemical Science
+
+Table 1   Summary of recent studies on thermogalvanic cells
+
+                                                                     Ionic thermopower     Carnot-relative
+Electrolyte state    Matrix                Redox couple              (mV K−1)              eﬃciency            Pmax (W m−2)        Reference
+
+Liquid               Water/CsCl            Fe(CN)63−/Fe(CN)64−       −1.50                 —                   0.15                72
+Solid                Naon®117             H+/H2                     0.53                  0.04%               0.2                 70
+Quasi-solid          Sand/water            Cu/Cu2+                   8.40                  4%                  0.06                75
+Quasi-solid          Gelatin/KCl           Fe(CN)63−/Fe(CN)64−       17.00                 —                   0.53                39
+Liquid               Water/CoO             Fe(CN)63−/Fe(CN)64−       —                     14.80%              24.50               69
+Quasi-solid          PVA/GdmCl             Fe(CN)63−/Fe(CN)64−       6.50                  2.66%               1.72                79
+Liquid               Water/GdmCl/urea      Fe(CN)63−/Fe(CN)64−       4.20                  0.79%               —                   41
+Quasi-solid          PAM/CMC               Fe(CN)63−/Fe(CN)64−       1.26                  —                   0.02                77
+Quasi-solid          MC/KCl                I−/I3−                    9.62                  —                   —                   78
+Quasi-solid          PVA/PEDOT:PSS         SO42−/SO32−               1.63                  —                   —                   76
+
+
+a voltage diﬀerence between two electrodes immersed in the                 One of the rst research on TREC systems has revealed
+electrolyte. However, these systems face signicant limitations        promising advancements in low-grade heat energy harvesting.
+due to the low ion conductivity of existing electrolytes, which        Utilizing solid CuHCF and Cu electrodes, the study achieved
+restricts their eﬃciency to less than 0.5%.80,81 In contrast, TREC     a cycle eﬃciency of 3.7% between 10 and 60 °C without heat
+utilizes a cyclical process to convert thermal energy into elec-       recuperation and up to 5.7% with 50% heat recuperation.83
+trical energy by exploiting the temperature-dependent voltage of       These eﬃciencies are notable improvements over previous
+electrodes in a thermodynamic cycle. The TREC approach also            thermogalvanic cells, which typically had eﬃciencies below
+addresses some of the limitations of thermogalvanic methods            0.5% at similar temperatures. Another study by Yang et al. have
+by incorporating mechanisms to manage internal resistance              developed innovative TREC that eﬃciently converts low-grade
+and heat recuperation, making it a more versatile and eﬃcient          heat into electricity without external electrical charging,
+solution for low-grade heat harvesting.82                              enhancing practicality and cost-eﬀectiveness.80 Utilizing
+                                                                       a Fe(CN)63−/4− redox pair and a Prussian blue electrode, the
+                                                                       system operates between 20 and 60 °C, achieving up to 2% heat-
+5.1   Working mechanism                                                to-electricity conversion eﬃciency. This cycle discharges at both
+This cycle involves four distinct steps: cooling, charging, heat-      high and low temperatures with polarity reversal, making it
+ing, and discharging, where the voltage of the cell changes with       ideal for remote and oﬀ-grid settings. Further research is
+temperature uctuations (Fig. 10). In a TREC system, the               needed to optimize eﬃciency, stability, and material compati-
+process begins with a battery-like cell being heated from a low        bility. This technology holds promise for extracting low-grade
+temperature (TL) to a high temperature (TH) in an open-circuit         heat from the environment, potentially opening doors for
+state, during which its open-circuit voltage (OCV) varies with         various applications.
+temperature changes. The cell is then charged at TH, absorbing             In another study, a novel TREC for low-grade heat harvesting
+heat and increasing its entropy through electrochemical reac-          was developed using spinel lithium manganese oxide (LMO)
+tions. Aer charging, the cell cools back to TL, causing the OCV       and copper hexacyanoferrate (CuHCF) electrodes.81 This system
+to rise. During discharge at TL, the cell releases heat into the       operates in a hybrid aqueous electrolyte of lithium and potas-
+environment, which lowers the voltage. The eﬃciency is deter-          sium ions, oﬀering a cost-eﬀective and simplied approach
+mined by the voltage diﬀerence between charging and dis-               compared to traditional methods that require complex ion-
+charging phases, with key factors including the electrodes'            exchange membranes. LMO, known for its high positive ther-
+temperature coeﬃcients, their charge capacities, and the               mopower of approximately 0.48 mV K−1, was successfully paired
+system heat capacity.                                                  with CuHCF, which has a negative thermopower of about
+
+
+
+
+Fig. 10 (a) Working mechanism of TREC system for thermal energy harvesting, (b) electrochemical potential change of the electrodes.
+Reproduced with permission.81 Copyright 2019, ACS Publications.
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                   Chem. Sci., 2024, 15, 14122–14153 | 14135
+Chemical Science                                                                                                                Review
+
+−0.44 mV K−1. The combination of these materials results in          Additionally, ensuring long-term stability and compatibility with
+a full cell with an overall thermopower of 1.16 mV K−1. This         various operating environments is another pressing concern. The
+system demonstrates a heat-to-electricity conversion eﬃciency        quest to overcome these limitations has driven researchers
+of 1.8% when heat recuperation is not considered, and up to          toward exploring the combined potential of thermodiﬀusion and
+2.6% with 50% heat recuperation eﬃciency. The stable elec-           thermogalvanic eﬀects.48 By employing the combined strengths
+trochemical performance of LMO and CuHCF in the hybrid               of these mechanisms, researchers aim to develop materials that
+electrolyte and the high coulombic eﬃciency observed suggest         not only exhibit superior thermopower but also boast enhanced
+signicant potential for positive-thermopower materials in           mechanical properties, paving the way for versatile, durable, and
+enhancing low-grade heat harvesting.                                 eﬃcient ionic thermoelectric materials.
+   In a latest recent research, TREC systems incorporating               The rst such study that investigated the combined potential
+a nickel hexacyanoferrate (NiHCF) cathode and a zinc anode           of both ionic thermoelectric mechanisms was published by Han
+achieved a notable thermopower of −1.575 mV K−1, along with          et al. in 2020.31 The ionic thermoelectric material, derived from
+a heat-to-electricity eﬃciency of 2.41% at a 30 °C temperature       a gelatin matrix modied with ion providers (KCl, NaCl, and
+diﬀerence, equivalent to 25.15% of Carnot eﬃciency.82 This           KNO3) for thermodiﬀusion and [Fe(CN)64−/Fe(CN)63−] redox
+performance surpasses that of existing TREC systems. A key           couple for thermogalvanic eﬀect, exhibited an outstanding
+innovation in this work was the introduction of mixed                ionic thermopower of 17 mV K−1. This achievement was
+membranes with mixed pH electrolytes, which boosted ther-            attributed to the combined interplay between gelatin-KCl
+mopower to a record-high value of −2.270 mV K−1. These               (6.7 mV K−1) and gelatin–FeCN4−/3− (4.8 mV K−1). The ionic
+advancements in TREC not only showcase signicant                    concentration diﬀerences between K+ and Cl− (thermodiﬀusive
+improvements in converting low-grade heat to electricity but         ions) and K+ and FeCN4−/3− (redox couple) were also increased
+also highlight the potential for further renement and appli-        due to the negatively charged surface of the gelatin matrix.
+cation in diverse settings, potentially transforming energy har-     Consequently, the concentration diﬀerence between cations
+vesting and sustainability eﬀorts.                                   and anions accounted for 71.9% of the total thermopower. The
+                                                                     maximum output power of 0.66 mW m−2 K−2 and harvested
+                                                                     energy density of 12.8 J m−2 were obtained in the ionic ther-
+6. Combined ionic thermoelectric                                     moelectric gel gelatin–KCl–FeCN4−/3−. When wearing a device
+devices                                                              comprising 25 units (each measuring 5 × 5 × 1.8 mm) con-
+                                                                     nected in series to harness human body heat, a voltage of 2.2 V
+Both ionic thermoelectric systems (thermodiﬀusion-based and          and a maximum output power of 5 mW were attained. This
+thermogalvanic-based) present promising characteristics, yet         foundational study highlighted the promising approach of
+they have distinct limitations. Thermodiﬀusion-based systems         exploiting the combined eﬀects of thermogalvanic and ther-
+have excellent mechanical properties and exhibit impressive          modiﬀusion mechanisms to signicantly enhance the ionic
+thermopower, oen in the range of several mV K−1. However,           thermopower of quasi-solid electrolytes, paving the way for
+these systems rely on ion transport and exhibit characteristics      eﬃcient and leakproof ionic thermoelectric devices.
+analogous to capacitance behaviour. This results in a non-
+continuous operation mode that can be a disadvantage in              6.1   Optimisation parameters
+applications requiring a constant and consistent energy supply,
+                                                                     Over the last three years, there has been signicant progress in
+leading to potential interruptions in power generation or
+                                                                     the study of combined ionic thermoelectric materials.
+temperature regulation.84 Additionally, these devices experience
+                                                                     Researchers have been working to improve three crucial
+rapid instantaneous power decay during the discharging stage,
+                                                                     aspects: ionic thermopower (mV K−1), which relates to the
+making long-term continuous operation challenging. This
+                                                                     material's ability to convert heat into electricity; output power
+limitation leads to relatively low average power density and
+                                                                     density (W m−2), indicating how much power can be generated
+energy density, thereby severely limiting their practical
+                                                                     per unit area; and mechanical properties, ensuring the dura-
+applications.43
+                                                                     bility and stability of devices.86 To achieve these goals, scientists
+   On the other hand, thermogalvanic systems display signi-
+                                                                     have explored various combinations of polymer matrices,
+cant ionic thermopower, surpassing those of traditional elec-
+                                                                     thermodiﬀusive electrolytes, redox pairs, and electrode mate-
+tronic thermoelectric materials. Additionally, thermogalvanic
+                                                                     rials. The main aim of these studies is to nd the most eﬀective
+cells generate continuous electricity by utilizing temperature
+                                                                     combination that enhances the ionic thermoelectric eﬃciency
+gradients, relying on spontaneous electrochemical redox reac-
+                                                                     and durability of ionic thermoelectric materials. The ndings
+tions at electrode interfaces. However, conventional thermo-
+                                                                     from these studies, detailed in Table 2, provide valuable
+galvanic cells due to the liquid nature of the electrolytes, pose
+                                                                     insights into the ongoing eﬀorts to harness the potential of
+encapsulation issues, oen leading to leakage problems.85 Such
+                                                                     these materials.
+vulnerabilities hinder their scalability and reliability, limiting
+their widespread adoption in practical devices. Developing
+materials that possess both high thermopowers for eﬃcient            6.2   Selection of polymer matrices
+energy conversion and mechanical resilience to withstand             The selection of a polymer matrix is one of the key parameters
+diverse environmental conditions is a signicant hurdle.             for enhancing the performance of ionic thermoelectric devices
+
+
+14136 | Chem. Sci., 2024, 15, 14122–14153                              © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                     Chemical Science
+
+Table 2   Summary of recent studies on combined ionic thermoelectric devices
+
+                                                        Seebeck      Ionic/electrical   Thermal        Specic power
+                                                        coeﬃcient    conductivity       conductivity   density           Energy density
+Polymer                     Electrolyte   Redox pair    (mV K−1)     (mS cm−1)          (W m−1 K−1)    (mW m−2 K−2)      (J m−2)           Ref.
+
+Gelatin/glutaraldehyde      KCl           FeCN4−/3−     24.7         —                  —              9.6               198               87
+Gelatin                     KCl           FeCN4−/3−     17           —                  —              8.9               80                39
+Acrylic acid-acrylamide/    H2SO4         Polyaniline   40.60        30.2               0.4551         11.31             570               38
+carboxymethyl cellulose
+Polyacrylamide/             Li2SO4        FeCN4−/3−     11.58        18.4               0.47           32 mW m−2         —                 2
+carboxymethyl cellulose
+Polyvinyl alcohol/gelatin   NaCl          Fe2+/Fe3+     −1.63        7                  0.6            1.2 mW m−2        —                 88
+Gelatin                     KCl           FeCN4−/3−     17           5 mS m−1           0.15           0.66              12.8              31
+Bacterial cellulose         LiBr          FeCN4−/3−     1.21         —                  —              z0.03             —                 85
+Polyvinyl alcohol           GdmCl         FeCN4−/3−     6.5          z15                0.473          1.96              —                 79
+Polyvinyl alcohol           NaCl          Sn2+/Sn4+     −1.62        z9                 2.08           2.8 mW m−2        160 mJ m−2        89
+Polyvinyl alcohol           NaCl          SO4/32−       1.63         29.2               0.7            72 nW             —                 76
+Methylcellulose             KCl           I−/I3−        9.62/−8.18   6                  —              0.36/0.12         —                 78
+Polyacrylamide/sodium       GdmCl         FeCN4−/3−     4.4          105                z0.55          1.78              —                 90
+alginate
+
+
+
+
+based on their surface functionalities. Polymers with suitable              friendly.92 It possesses a triple-helix structure that provides good
+surface properties enhance ionic diﬀusion, a key factor in                  mechanical strength and exibility. The ability of gelatin to
+improving the material's thermoelectric performance.16 Addi-                form hydrogels with high water content improves ionic
+tionally, selected polymers should exhibit excellent mechanical             mobility, which is essential for eﬃcient ionic thermoelectric
+properties, ensuring the resulting ionic thermoelectric device              conduction. The amphoteric nature of gelatin, containing both
+stability and durability. The selection criteria for such polymers          carboxyl and amino groups, allows for eﬀective ionic exchange
+are rooted in their chemical composition. For instance, poly-               and interaction with various ionic species, thus enhancing the
+vinyl alcohol (PVA) is valued for its excellent ability to create           thermoelectric eﬃciency of the device.93 A quasi-solid-state
+a stable matrix and superior mechanical properties.91 Its                   ionic thermoelectric cell, fabricated by incorporating glutaral-
+chemical structure, featuring hydroxyl groups, provides                     dehyde into a gelatin–KCl–FeCN4−/3− matrix, exhibited signi-
+numerous functional sites, facilitates strong hydrogen bonding,             cantly enhanced thermoelectric properties.87 The resulting
+which enhances the mechanical integrity and exibility of the               robust, porous structure increased the maximum temperature
+resulting materials. This is crucial for ionic thermoelectric               diﬀerence from 9 °C to 23 °C and boosted thermopower
+devices as it allows the matrix to accommodate ionic movement               (24.7 mV K−1) due to expanded entropy between redox couples.
+without structural degradation. Moreover, its hydrophilic                   This led to a record-high power density of 9.6 mW m−2 K−2 and
+nature supports the incorporation and uniform distribution of               a 2 hours energy density of 198 J m−2. Demonstrating excellent
+ionic species, enhancing ionic conductivity and thermoelectric              cycling stability and generating a high voltage of 3.6 V and 115
+performance. Li and team successfully prepared an organo-                   mW output in a wearable device, this cell showcases promising
+hydrogel electrolyte (OHE) using a straightforward freezing–                potential for practical applications.
+thawing approach, incorporating PVA polymer, Sn2+/Sn4+ redox                    Cellulose, composed of glucose units, oﬀers high mechan-
+couple, and NaCl as a thermodiﬀusive ions electrolyte.89 This               ical strength and chemical stability.94 The extensive hydrogen-
+OHE exhibited exceptional exibility and mechanical strength,               bonding network within cellulose provides signicant tensile
+attributed to the properties of the PVA polymer, enabling it to             strength and rigidity, which helps in maintaining the structural
+withstand diverse deformations (Fig. 11a–c). Remarkably, the                integrity of ionic thermoelectric devices under mechanical
+OHE displayed anti-freezing and anti-drying characteristics,                stress. Additionally, the hydrophilic nature of cellulose facili-
+making it operatable eﬀectively across a broad temperature                  tates the absorption and transport of ionic species, which is
+range (−20 to 60 °C). Moreover, the OHE demonstrated                        critical for maintaining high ionic conductivity. The abundance
+outstanding ionic thermoelectric properties, including                      of hydroxyl groups in cellulose also allows for functionalization,
+a remarkable ionic thermopower of −1.62 mV K−1, a high gure                which can be tailored to improve specic ionic interactions and
+of merit (3.75), and an impressive maximum power density of                 enhance thermoelectric properties.95 In a recent study con-
+2.8 mW m−2 (Fig. 11d and e). These ndings highlight the                    ducted by Yin et al. in 2023, it was demonstrated that bacterial
+potential of PVA-based OHE's for practical applications,                    cellulose also has the potential to be utilized in creating quasi-
+emphasizing its robust performance and adaptability in                      solid ionic thermogalvanic cells.85 These cells exhibited
+demanding environments.                                                     impressive mechanical characteristics and thermoelectric
+   Gelatin, derived from collagen, possesses unique biopolymer              properties, such as toughness, elasticity, exibility, ionic
+characteristics, making it biocompatible and environmentally                conductivity, ionic thermopower, comparable to those found in
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                        Chem. Sci., 2024, 15, 14122–14153 | 14137
+Chemical Science                                                                                                                         Review
+
+
+
+
+Fig. 11 Bacterial cellulose–LiBr–FeCN4−/3− hydrogel: mechanical properties (a) hydrogel holding 5 kg water bottle, (b) toughness and Young's
+modulus, (c) stress–strain curves; ionic thermoelectric properties (d) ionic thermopower variations over the period of 10 days, (e) output power
+density vs. temperature diﬀerence, reproduced with permission.85 Copyright 2023, Elsevier; organohydrogel electrolyte: (f) mechanical prop-
+erties of hydrogel in tensile deformation including knotting and crossing stretching, (g) photos of the OHE after 6 h at diﬀerent temperatures, (h)
+thermovoltage response vs. temperature diﬀerence, (i) conductivity as a function of temperature, and (j) comparison of this study with previous
+studies, reproduced with permission.89 Copyright 2023, Elsevier.
+
+
+
+PVA-based devices (Fig. 11f–j). They employed FeCN4−/3− redox              of 1.62 mV K−1, which remains at 1.06 mV K−1 aer three
+couple along with LiBr hygroscopic salt to give superior anti-             months of air exposure, indicating their high stability (Fig. 11h).
+freezing and anti-drying properties to prepare thermogalvanic                 Polyacrylamide (PAAM) is recognized for its ability to form
+cells. The prepared cells exhibit an excellent ionic thermopower           hydrogels with high water content, signicantly enhancing
+
+
+
+14138 | Chem. Sci., 2024, 15, 14122–14153                                     © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                            Chemical Science
+
+ionic mobility and overall ionic conductivity. The hydrophilic       are vital for ionic thermoelectric performance. This character-
+nature of PAAM allows it to absorb large amounts of water,           istic, combined with its good biocompatibility and mechanical
+creating a conducive environment for the movement of ions,           exibility, makes sodium alginate an ideal candidate for
+which is critical for improving the thermoelectric performance       enhancing the ionic conductivity and overall thermoelectric
+of devices. In a notable study, Chen et al. successfully developed   eﬃciency of devices. These inherent chemical attributes make
+a water-resistant ionic thermoelectric gel by integrating the        these polymers highly suitable for synthesizing quasi-solid
+hydrophobic structure of PMMA with a hydrophobic ionic               ionic thermoelectric devices, meeting the criteria of both
+liquid (BMIM:PF6).96 This innovative combination resulted in         enhanced ionic diﬀusion and mechanical stability, thus
+an i-TE gel that achieved an impressive thermopower of 3.1 mV        ensuring the device's robustness and eﬀectiveness in real-world
+K−1. The incorporation of PMMA provided the necessary                applications.
+mechanical strength and stability, while the hydrophobic ionic           These promising advances suggest that the future of this
+liquid ensured eﬃcient ionic transport and enhanced thermo-          eld will involve exploration of the possibility of combining two
+electric properties.                                                 or more polymers in a single matrix. By integrating the unique
+   Agarose, a seaweed-derived linear polysaccharide, forms           properties of each polymer, scientists might create innovative
+thermally stable gels, ideal for applications demanding              quasi-solid matrices with enhanced exibility, durability,
+consistent performance across temperature uctuations. Its           superior mechanical strength, and remarkable ionic thermo-
+hydrophilic nature readily accommodates water molecules              electric properties. This novel approach may open new horizons
+within its structure. Simple agarose based hydrogels proves not      in the development of combined ionic thermoelectric devices
+suitable for ionic thermoelectric devices.97 Recent research,        for eﬃcient energy harvesting applications.
+however, has demonstrated the potential of agarose-based i-TE
+gels. By incorporating sodium dodecyl benzene sulfonate (DBS),
+a remarkable p-type thermopower of 41.8 mV K−1 was ach-              6.3   Selection of thermodiﬀusive electrolytes
+ieved.98 This signicant enhancement stems from the forma-           Another vital aspect for optimising the performance of
+tion of a unique porous structure through DBS micellization.         combined ionic thermoelectric devices involves the selection of
+The hydrophilic sulfonic group binds to the agarose gel, while       suitable inorganic/organic salts as thermodiﬀusive electrolytes.
+the hydrophobic alkyl chain orients inward, immobilizing DBS-        Salts like NaCl, KCl, LiBr, GdmCl, Li2SO4, and H2SO4 have been
+ions relative to sodium ions. This structural decoupling of          employed in recent years owing to their easy dissolution in
+thermodiﬀusion markedly improves i-TE performance.                   solvents and high conductivity. Easy dissolution is crucial for
+   Polyurethane (PU) can also be a useful polymer for ionic          the uniform mixing of salts within the polymer matrix, ensuring
+thermoelectric applications due to its excellent mechanical          a consistent distribution of the electrolyte throughout the
+properties and structural diversity. A latest study developed a PU   quasi-solid gels.102 The high conductivity of these salts enables
+ionogel with self-healing, high thermoelectric performance,          eﬃcient ion transport within the material, a fundamental
+transparency, and stretchability, making it ideal for wearable       requirement for enhancing ionic thermoelectric performance.8
+thermoelectric generators.99 The ionogels, synthesized using PU      The careful selection of these inorganic salts is therefore
+prepolymer, a reversible borate bond crosslinker, and an ionic       a cornerstone for advanced combined ionic thermoelectric
+liquid (EMIM:DCA), showed high thermovoltage (up to 25.6 mV          devices to achieve exceptional levels of eﬃciency and
+K−1) and signicant stretchability (up to 635% strain at break).     practicality.
+Self-healing restored 95% of tensile strength and 99% strain at         Liu et al. 2023 fabricated a quasi-solid stretchable thermo-
+break within 30 minutes. The ITESC fabricated a maximum              galvanic thermocell using PVA as a polymer matrix, FeCN4−/3−
+energy output of 2.34 mW m−2 with an 8 kU load at a 0.4 K            as redox couple, and guanidinium chloride (GdmCl) as elec-
+temperature diﬀerence, highlighting their potential for durable,     trolyte.79 The use of PVA polymer conveyed excellent mechanical
+eﬃcient, and exible wearable energy solutions.                      properties to the cells in terms of stretchability (1300%) and
+   Poly(vinylidene uoride) (PVDF) is another non-aqueous            toughness (163.4 MJ m−3), as shown in Fig. 12c. The inclusion
+polymer known for its high chemical resistance, thermal              of GdmCl increased the entropy diﬀerence in the FeCN4−/3−
+stability, and mechanical strength, making it suitable for ionic     redox couple due to Gdm+-induced crystallization of FeCN4−
+thermoelectric applications. A recent study demonstrates             ions, resulting in superior thermogalvanic performance
+a signicant improvement in the thermopower of PVDF-HFP              (Fig. 12a). The resulting system had a large thermopower of
+ionogels by doping with sodium dicyanamide (Na:DCA).100              6.5 mV K−1 and an excellent high specic output power density
+The ionogel doped with 0.5% in mol of Na+ relative to EMIM+          of 1969 mW m−2 K−2 (Fig. 12b). Another study published by
+achieved a thermopower of 43.8 mV K−1, ionic conductivity of         Zhou et al. 2023 prepared a carboxymethyl cellulose-based
+19.4 mS cm−1, and thermal conductivity of 0.183 W m−1 K−1.           quasi-solid gel composed of FeCN4−/3− redox couple and
+These enhanced ionogels are promising for use in iTE capaci-         Li2SO4 salt as thermodiﬀusive electrolyte.2 Li+ ions have
+tors for thermoelectric conversion.                                  a smaller radius and exhibit a faster migration rate in the
+   Sodium alginate, extracted from brown algae, boasts excel-        electrolyte resulting in better ionic diﬀusion, contributing to
+lent ion exchange capabilities due to its polysaccharide             the overall performance of the device (Fig. 12d and e). By
+nature.101 The presence of carboxyl groups in its molecular          combining the principles of thermodiﬀusion and the thermo-
+structure enables strong ionic interactions and exchange, which      galvanic eﬀect, the prepared devices demonstrated a superior
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                               Chem. Sci., 2024, 15, 14122–14153 | 14139
+Chemical Science                                                                                                                  Review
+
+
+
+
+Fig. 12 PVA–GdmCl–FeCN4−/3− based thermogalvanic hydrogel: (a) schematic illustration of the Gdm+ contribution to the thermogalvanic
+eﬀect, (b) Seebeck and conductivity as function of electrolyte concentration, (c) schematic diagram of employing the device to power up the
+medical devices and the comprehensive comparison with previous quasi-solid stretchable thermogalvanic thermocells, reproduced with
+permission.79 Copyright 2023, Wiley-VCH; cellulose–Li2SO4–FeCN4−/3− based thermogalvanic hydrogel: schematic representation of (d)
+preparation process of hydrogel and its microstructure, (e) mechanism of coupling eﬀect, and (f) ionic Seebeck before and after coupling,
+reproduced with permission.2 Copyright 2023, Elsevier.
+
+
+
+
+14140 | Chem. Sci., 2024, 15, 14122–14153                                © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                               Chemical Science
+
+ionic thermopower of 11.58 mV K−1 (Fig. 12f). Moreover, these          properties including stretchability and exibility because of PVA
+devices exhibited a high ionic conductivity of 18.4 mS cm−1,           (Fig. 13g). Moreover, the novel redox pair at a concentration of
+indicating the rapid migration of Li+ ions through the electro-        0.1 M, resulted in an excellent ionic thermopower value of
+lyte, leading to enhanced ionic diﬀusion. This unique combi-           1.63 mV K−1 (Fig. 13h and i). The addition of thermodiﬀusive
+nation resulted in a noteworthy thermoelectric gure of merit of       electrolytes led to an improved ionic conductivity of 29.2
+0.11 and a substantial power factor of 198.2 mW m−1 K−2 at             mS cm−1 which overall enhanced the ionic thermoelectric
+room temperature, underscoring their exceptional overall               performance of the devices.
+performance.                                                              Future research directions emphasize the strategic selection
+    Future research directions in this domain are likely to focus      of redox couples. Exploring a broader spectrum of redox pairs
+on rening electrolyte selection to further enhance their eﬃ-          beyond traditional ones holds the key to unlocking innovative
+ciency and contribute towards their commercialisation. Inves-          avenues. Researchers should comprehensively investigate the
+tigating novel inorganic salts and their combinations could            synthesis and evaluation of novel redox couples, considering
+provide insights into improving ionic diﬀusion and thermo-             factors like electrochemical stability, entropy change, and eﬃ-
+electric performance. Moreover, the exploration of organic–            ciency in facilitating electron transfer. Furthermore, it would be
+inorganic hybrid electrolytes might oﬀer a new avenue, poten-          noteworthy to explore organic-based redox couples and other
+tially combining the advantages of both materials. Additionally,       environmentally benign materials, aiming to reduce the
+optimising the interplay between electrolyte composition,              ecological footprint of ionic thermoelectric devices.
+polymer matrix, and redox couples could lead to the develop-
+ment of advanced quasi-solid gels with superior homogeneity
+and stability, contributing to prolonged device lifespan. Ulti-        6.5   Selection of electrode materials
+mately, future research activities should explore innovative           A recent advancement in enhancing the power and energy
+electrolytes, pushing the boundaries of combined ionic ther-           density of combined ionic thermoelectric devices involves the
+moelectric devices and opening avenues for sustainable energy          engineering of the device electrodes. In a study conducted by Li
+harvesting technologies.                                               and colleagues in 2022, advancements were made in enhancing
+                                                                       the power and energy density of combined ionic thermoelectric
+                                                                       devices by focusing on electrode engineering.39 They employed
+6.4   Selection of redox pairs                                         a quasi-solid ionic thermoelectric device based on gelatin/KCl/
+In the past few years, the exploration of a variety of redox           FeCN4−/3− from their previous study and altered the electrodes.31
+couples and their interplay with the rest of the components has        They developed three-dimensional hierarchical copper electrodes
+also been a focal point of researchers. Redox reactions,               coated with gold (3D Au/Cu) using a specialized oxidization–
+involving the transfer of electrons between matrix and elec-           etching–reduction technique (Fig. 14a). These electrodes exhibi-
+trodes, are associated with an increase in the entropy of the          ted a unique micro ower-like structure, comprising numerous
+system that can result in eﬃcient electron transfer.103 Therefore,     porous and zigzagging petals (Fig. 14b and c). This structure
+researchers have examined diverse redox couples (FeCN4−/3−,            signicantly increased the electroactive surface area of the elec-
+Fe2+/Fe3+, Sn2+/Sn4+, SO4/32−, I−/I3−) to inuence this increase in    trodes, providing more sites for thermogalvanic reactions and
+entropy. By understanding and manipulating this entropy                reducing the resistance at the interface for charge transfer. The
+change, scientists aim to identify optimal redox pairs that can        modied device demonstrated a comparable ionic thermopower
+eﬃciently facilitate electron transfer, thereby enhancing ionic        of 17 mV K−1 (Fig. 14d). Remarkably, it achieved an exceptional
+thermoelectric eﬃciency.                                               instantaneous output power density of 8.9 mW m−2 K−2 and an
+   In a study by Han and colleagues in 2022, thermogalvanic            exceptionally high output energy density of 80 J m−2 under
+cells were created using a substance called methylcellulose,           a temperature diﬀerence of 9 K (Fig. 14e). Over a week-long
+a redox pair I−/I3−, and KCl as the electrolyte.78 Methylcellulose,    continuous operation, the device maintained an average energy
+which responds to temperature changes, resulted in a polariza-         density of 59.4 J per m2 per day. These ndings represent
+tion switching from n-type to p-type above a transition                a signicant step forward in the development of eﬃcient and
+temperature as shown in Fig. 13a and b. This change occurred           wearable thermoelectric devices.
+due to a strong hydrophobic interaction between I3− ions and              A recent research study introduced an innovative approach
+methylcellulose. As a result, the cells exhibited remarkably high      to ionic thermoelectric systems by employing polymer redox
+thermoelectric voltages of 9.62 mV K−1 for p-type and −8.18 mV         polyaniline (PANI) doped carbon weaved fabric electrodes
+K−1 for n-type (Fig. 13c). These high thermopower values were          (PANI@CWF) and an ionic gel based on carboxymethyl cellulose
+attributed to the gelation eﬀect of I3− ions with methylcellulose      (Fig. 14f and g).38 This gel featured a distinct interpenetrating
+at a hot electrode resulting in an increased entropy change and        polymer network structure, infused with H2SO4 to enhance
+diﬀerences in ion concentrations in the redox pair (Fig. 13d and       hydrogen bonds, thereby improving its mechanical properties
+e). The optimized p-type thermogalvanic cell achieved                  and thermopower output (Fig. 14h). This unique system
+a normalized maximum power density of 0.36 mW m−2 K−2                  exhibited a remarkable Seebeck of 40.60 mV K−1 and achieved
+(Fig. 13f). A recent study by Tian et al. 2023 reported a novel non-   a maximum gure of merit value of 3.95 at a temperature
+toxic redox couple (SO4/32−) in a PVA matrix along with NaCl           diﬀerence of 5 K. The study also revealed a synergistic eﬀect of
+electrolyte.76 The fabricated device had excellent mechanical          the PANI@CWF electrode, enhancing current density through
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                  Chem. Sci., 2024, 15, 14122–14153 | 14141
+Chemical Science                                                                                                                     Review
+
+
+
+
+Fig. 13 Methylcellulose–KCl–I−/I3− based thermogalvanic gel: schematics of the polarization switching from (a) n-type to (b) p-type, (c)
+comparison of the thermopowers, schematics of (d) a p-type TGC with the ternary electrolyte and (e) salt-induced complexation. K+ and I3− ions,
+(f) comparison of this study with previous studies, reproduced with permission.78 Copyright 2022, Science; PVA-NaCl-SO4/32− based hydrogel (g)
+schematic illustration of design, chemical structure, morphology, and mechanical properties, (h) thermal voltage response at diﬀerent
+temperature diﬀerences, and (i) output voltage of the hydrogel under 4-repeated heating–cooling cycles for powering LED, reproduced with
+permission.76 Copyright 2023, Elsevier.
+
+
+redox reactions on both electrodes. Consequently, this cong-            electronic, ionic and mixed materials. In most polymers the
+uration yielded an output power density of 11.31 mW m−2 K−2              dependence is S f s1/4, typical of transport by hopping.
+and an energy density of 570 J m−2, demonstrating its signi-            However, in PEDOT the dependence is much lower, typical of
+cant potential for practical energy harvesting applications              a semiconductor. The electrical conductivity is s = −enmn(epmp),
+(Fig. 14i–k).                                                            i.e. is proportional to the mobility, which in most polymers is of
+                                                                         the order of 10−4–10−5 cm2 V−1 s−1, while in PEDOT is much
+                                                                         higher, of the order of 1 cm2 V−1 s−1, thus, the electron (or hole)
+7. Theoretical models conduction in                                      concentration to have a given conductivity is much lower in
+electrolytes                                                             PEDOT, giving a semiconducting behaviour. In ionic materials,
+7.1   Organic electronic, ionic and mixed conductors                     the ionic thermopower increases with increasing ionic
+                                                                         concentration. If in contrast, we have a p-type semiconductor,
+In Fig. 15 we show a plot of the Seebeck coeﬃcient as a function
+                                                                         since the carriers diﬀuse from the hot region to the colder one,
+of the conductivity in a double logarithmic for several
+
+
+14142 | Chem. Sci., 2024, 15, 14122–14153                                   © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                    Chemical Science
+
+
+
+
+Fig. 14  3D Au/Cu electrodes: (a) schematic illustration showing the preparation process of the 3D Au/Cu foil from 2D Cu foil, (b and c) SEM
+images of as-fabricated microﬂower CuO foil, (d) thermoelectric performance comparison of this work with previous studies, (e) output power
+density compared to RF values of electrodes, reproduced with permission.39 Copyright 2022, Wiley-VCH; PANI@CWF electrodes with cellulose–
+H2SO4 hydrogel: (f) schematic diagram of the preparation process and chemical structure of hydrogel, (g) digital image of PANI@CWF electrodes,
+(h) schematic diagram of hydrogel networks under DT, (i) thermal charging and electrical discharging process of the integrated generator, (j) LED
+light powered by the generator, and (k) comparison of this work with previous studies, reproduced with permission.38 Copyright 2023, Wiley-
+VCH.
+
+
+the thermopower will be positive. In the case of electronic                  The Seebeck coeﬃcient has two contributions, one coming
+conduction, the Seebeck conduction (this is an approximation              from the relaxation time or the mobility, and a second one
+for metals) can be written as                                             coming from variations in the density of states. This second
+                                                                        term is oen suggested as the way to increase the Seebeck
+              p kB 2 T v ln sðEÞ vg ðEÞ
+       S¼                      þ            ¼ Ss þ Sg    (5)             coeﬃcient changing the density of states by nanostructuration.
+              3 e         vE      vE E¼EF
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                       Chem. Sci., 2024, 15, 14122–14153 | 14143
+Chemical Science                                                                                                                     Review
+
+                                                                          used cyclic voltammetry to determine the Seebeck coeﬃcient.
+                                                                          Jing et al.111 analyze the electro-viscous eﬀect on the EDL, it
+                                                                          seems that, at suﬃciently high Z potential, the eﬀect is
+                                                                          negligible.
+                                                                              Luo et al.112 studied the electrophoresis and electric
+                                                                          conduction in a salt-free suspension. They obtained analytical
+                                                                          expressions for electrophoretic mobility and eﬀective electrical
+                                                                          conductivity. The scale z-potential, increases phoretic mobility
+                                                                          and eﬀective electric conductivity increases monotonically with
+                                                                          the increase of the scale surface charge density. In addition,
+                                                                          Varner113 studied the eﬀect of dilution in ionic liquid super-
+                                                                          capacitors. Huang114 studed the eﬀect of hydrodynamic slippage
+                                                                          on the power generation performance, indicating that velocity
+                                                                          boundary conditions are relevant at the nanoscale. Levy et al.115
+                                                                          studied the variation of the dielectric response of the ionic
+Fig. 15 Seebeck coeﬃcient as a function of the electrical conductivity,   liquid including the interaction of the ions with the dipoles
+reproduced with permission.104 Copyright 2020, Wiley-VCH.                 present in the liquid. A closed form for the dielectric constant is
+                                                                          obtained. Stout et al.116 have written the basic principles of ionic
+                                                                          transport, the basic equations, etc. Qiao et al.106 developed
+The change in the Seebeck coeﬃcient due to the increase of the            a linear scheme for the solution of the Poisson–Nernst–Planck
+mobility can be related to the Nernst coeﬃcient, which can be             equations.
+obtained applying a magnetic eld perpendicular to the
+temperature gradient and measuring the voltage in the trans-              7.2   Basic formulation of the problem
+versal direction, as shown in Fig. 16. Physically, the Peltier eﬀect         7.2.1 One dimensional case. The rst calculations of the
+is the opposite to the Seebeck eﬀect, if we supply a voltage              thermopower in a thermocell lled with an electrolyte were
+diﬀerence in the two ends of the semiconductor we produce                 supplied by Eastman117 and Wagner118 They found, for the
+a temperature gradient.                                                   stationary state of the thermopower or Seebeck coeﬃcient, the
+    Qiao et al.106 proposed a linear scheme to solve numerically          expression
+the Poisson–Nernst–Plank equations. It is based on gradient-
+                                                                                                        2kB aþ  a
+ow formulation. They linearize the logarithm function.                                            S¼                                       (6)
+                                                                                                         e zþ  z
+Fish107 examine the nanocomposite electrolyte through a theo-
+retical model. A rigorous description of the space charge layer           where kB is the Boltzmann constant, e the elementary charge,
+and its impact on conductivity insulating spheres dispersed in            a the Soret coeﬃcients and z the ionic charge.
+an ionic conducting material.                                                The basic problem is that of a channel ended in two elec-
+    Fleharty et al.108 modelled small nanochannel with an elec-           trodes as drawn in Fig. 17, with an electrolyte with anions and
+tric double layer formed at the walls comparable to the channel           cations. In the upper panel of Fig. 17 we show the channel at
+width. They solve the Poisson–Boltzmann equation with charge              equilibrium at a temperature T0 with a completely dissociated
+regulation boundary conditions Moya et al.109 studied cylin-              electrolyte solution. Let us call n+ the concentration of cations
+drical nanopores lled with a ternary electrolyte solution as             and n− that of anions. The lower panel shows the ion distri-
+a function of the sign of the xed charge on the pore wall. The           bution when a temperature gradient (T0 / TH, TH being the
+Poisson–Boltzmann equation in cylindrical coordinates was                 temperature at the hot side) is applied through the electrolyte.
+solved by using the network simulation method. The velocity               We are supposed to have a long channel with a length of 2L.
+and conductivity were obtained using the modied Navier–                  When compared with the lateral dimensions d (d  L), but d is
+Stokes equation and the Nernst–Planck ux equations. Koerver              assumed to be wide enough to consider the problem as one
+et al.110 used cobalt bipyridyl salts as active redox couple, they        dimensional. The mass and charge conservation are given by
+                                                                          the continuity equation, which in the case of charged particles
+                                                                          moving in a uid is called the Nernst–Planck equation,
+
+
+
+
+                                                                          Fig. 17Upper panel: electrolyte with the ions in thermal equilibrium;
+Fig. 16   Seebeck and Nernst coeﬃcients, reproduced with permis-          lower panel: ion distribution when a temperature gradient exists
+sion.105 Copyright 2021, American Physical Society.                       through the electrolyte.
+
+
+
+14144 | Chem. Sci., 2024, 15, 14122–14153                                    © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                       Chemical Science
+
+                            vni                                              temperature gradient is small (DT = TH – T0  T0). Then, the ion
+                                þ V$ji ¼ 0                             (7)
+                            vt                                               concentration ni = ni,0 + dni, where ni,0 is the equilibrium ion
+                                                                             density. If D/a  1 (D/a z 100 for aqueous solutions of elec-
+where ni(r, t) is the concentration of particles i and ji(r, t) the ux
+                                                                             trolytes116,121), we can neglect the temporal dependence (basi-
+of the charged particles. In the simplest case, there will be two
+                                                                             cally we can consider that the temperature changes
+Nernst–Planck equations. The general expression for the ux
+                                                                             instantaneously from the initial to the nal value) and the
+corresponding to particle i is
+                                                                             solution of eqn (13) is
+                                     Di z i e
+             ji ¼ Di Vni þ ni v            Vf  ni DT;i VT           (8)                                     TH þ T0
+                                     kB T                                                     TðxÞ ¼ T0 þ              ðx þ LÞ                (15)
+                                                                                                                 2L
+                                                     119
+where Di is the Brownian diﬀusion coeﬃcient,               solution of the
+diﬀusion equation
+                                                                                Then, the thermodiﬀusive contribution to the current has
+                            vni                                              been reduced to a constant
+                                ¼ Di V2 ni                             (9)
+                            vt                                                                                             
+                                                                                                    vni zi eni;0 vf ai ni;0
+                                                                                           ji ¼ D      þ          þ                 (16)
+                                                                                                     vx   kB T vx     L
+   Di can be written as Di = mikBT, the so called Einstein rela-
+tion, mi being the ion dri mobility, the second term is the
+contribution of the uid movement (advection), v(r, t) being the                Introducing ji in the Nernst–Planck equation, Stout R. F.
+uid velocity, the third term is the contribution to the ionic               et al.116 analyze the dynamics of the ionic charges within the
+current due to the existence of an electric eld E = −Vf (elec-              electrolyte under low temperature gradients using the Laplace
+tromigration), the fourth is the thermodiﬀusive ux, DT,i being              transformation
+                                                                                                             ðN
+the thermodiﬀusion coeﬃcient. The Brownian diﬀusion coef-
+                                                                                                  f ðx; sÞ ¼    est f ðx; tÞdt        (17)
+cient is assumed to be the same for anions and cations and the                                                0
+thermodiﬀusion coeﬃcient can be written in terms of the
+                                                                             where s = s + iu. The Laplace transform is used to transform the
+thermodiﬀusion factor ai, sometimes called Soret coeﬃcient
+                                                                             time domain equations in frequency domain. It is more general
+(actually a = STT, ST being the Soret coeﬃcient51).
+                                                                             than the Fourier transform and can have solutions in equations
+                                      2D                                     where the Fourier transform does not. Dening
+                            DT;i ¼       ai                           (10)
+                                       T                                                                       nþ  n
+                                                                                                        c¼                                    (18)
+                                                                                                                  2z
+    Thus, in the one-dimensional case, assuming that the uid is
+                                                                             as the neutral salt concentration and
+at rest, the ionic uxes become116,120
+                                                                                                             n  n
+                          v ln ni    zi e vf       v ln T                                               r¼                                    (19)
+              ji ¼ Dni           þ          þ 2ai          (11)                                                  2z
+                            vx      kB T vx          vx
+                                                                                The charge density is divided by the elementary charge.
+   On the other hand, the electrostatic potential must satisfy               Using the appropriate boundary conditions,116 the solution of
+the Poisson equation,                                                        these equations are
+
+                 v2 f   r    1 X          ez                                                 cðx; sÞ ¼ 
+                                                                                                           c0 ðaþ þ a Þ sinh rx
+                   2
+                      ¼    ¼     zi eni ¼    ðnþ  n Þ               (12)                                      2rLs     cosh rL
+                 vx     30   30           30
+assuming that jz+j = jz−j. Finally, the temperature has to be
+subjected to the heat equation                                                                               c0 ða þ a Þ sinh rx
+                                     2                                                   rc ðx; sÞ ¼ 
+                  vT    l v2 T          vT                                                                        2rLs     cosh rL
+                     ¼             ¼ a                    (13)
+                  vt    Cp vx2          vx2
+                                                                                                                                  
+where Cp is the volumetric heat capacity (J K−1 m3) at constant                                    2kB T0 ðaþ  a Þk2 x   sinh kx
+                                                                                     fðx; sÞ ¼                                              (20)
+pressure and l (W m−1 K−1) is the thermal conductivity of the                                            2ezk2 s       L kL cosh kL
+electrolyte, a (m2 s−1) is the thermal diﬀusivity.                           where 1/k = p30kBT0/2e2z3c0 is the Debye length, r2 = s/D and k2
+   The thermovoltage can be calculated from                                  = r2 +k2 and c0 is the initial concentration. The Laplace
+                     ð þL
+                          vf                                                 component of the thermovoltage is
+                VT ¼         dx ¼ fðL; tÞ  fðL; tÞ       (14)                                                                  
+                      L vx                                                                      2kB DTðaþ  a Þk2       tanh kL
+                                                                                      VT ðsÞ ¼                      1                  (21)
+it depends only on the potential diﬀerence in the one-                                                 2ezk2 s              kL
+dimensional case.
+   To proceed further some approximations are needed. We will                   To obtain the time evolution of the neutral concentration,
+assume that all transients have already ended, and the
+                                                                             charge density and thermovoltage we have to Laplace transform
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                         Chem. Sci., 2024, 15, 14122–14153 | 14145
+Chemical Science                                                                                                                            Review
+
+the above equations, which can be done in the limit of long
+times. In particular, the thermovoltage takes the expression
+                                          
+               kB DTðaþ  a Þ      tanh kL             
+    VT ðtÞ ¼                   1            1  et=sf   (22)
+                      ez               kL
+
+with
+                                      
+                      1 3 tanh kL þ kL tanh kL  3
+                                           2
+              sf ¼                                                (23)
+                     2Dk2       tanh kL  kL
+the time scale associated with the thermovoltage evolution. sf
+depends on kL and it is proportional to the Debye time 1/Dk2.
+For very thin diﬀuse layers kL / N (the Debye length much
+smaller than the channel length), sf = 1/Dk2 is equal to the              Fig. 18 S(t)/Slate (eqn (27)) for several values of sapD+/L2 [0.01 (red), 0.1
+Debye time. In ref. 120 they nd the same expression, eqn (22),           (blue), 1 (magenta), and 10 (black)] with x h D+/D− = 2, a+ = 0.5, a− =
+                                                                          0.1, z+ = −z− = 1, and max(j) = 500 throughout. For these parameters,
+once we take the limit t / N (stationary state).
+                                                                          Searly = (3/2)Slate.
+    A similar treatment can be found in the work of Sehnem, A. L.
+et al.122 They study the time evolution of the thermopower when the
+temperature gradient is established and gradually changed. They
+                                                                             In Fig. 18 we can see the time evolution of the Seebeck coef-
+also use the Laplace transform to nd the solution of the Nernst–
+                                                                          cient with the parameters given in the caption. The Seebeck
+Planck, Poisson and heat equations. As in the previous case, the
+                                                                          coeﬃcient remains practically constant until t ∼ 10−2sdif, then it
+lateral dimensions d is small compared to 2L, the distance between
+                                                                          decreases to the stationary value at a time along the diﬀusion
+the electrodes, thus the system is considered isothermal in the
+                                                                          time. In the article, Sehnem A. L. et al.122 present also experi-
+lateral direction. The temperature diﬀerence is assumed to be
+                                                                          mental results using diﬀerent electrolytes. They obtain from the
+                      DT = DTNh[1 − e−t/sap]                      (24)    tting with the theory the ambipolar diﬀusion coeﬃcient and
+                                                                          the time scale to which thermovoltage relax to equilibrium
+where DTN is the late-time DT and sap is taken to be 43 s,                (steady state).
+a characteristic time scale.122 When the temperature of the hot               7.2.2 Two-dimensional case. Qian et al.120 and Zhong
+electrode increases stepwise, the electrolyte relaxes thermally           et al.123 analyze the two-dimensional case (see Fig. 19, le panel)
+with a time scale sT = 4L2/pa2, a being the diﬀusivity. In the            considering the steady state problem. More recently,
+experiment they perform, 2L = 5 mm, a = 1.4 × 10−7 m2 s−1,                Muddasar et al.30 study the case of cylindrical geometry (capil-
+yielding sT = 18 s. Since sap T sT they consider a linear                 lary). In Fig. 19, le panel, upper part, a two-dimensional (2D)
+temperature prole:                                                       channel has been drawn, with length 2L = 800 nm and width h.
+                                                                          The negative ions trapped in the wall form with the positive
+                                         xþL
+                     DT ¼ DTN 1  et=sap                         (25)    moving ions an electron-double-layer (EDL), producing a lateral
+                                           2L
+                                                                          potential despite the potential diﬀerence existent in the channel
+and the ionic current simplies to                                        due to the Seebeck eﬀect. The total charge is zero, thus there
+                                                                         will be a smaller concentration of cations in the middle of the
+              ji   vni zi eni vf ai ni DTN 1  et=sap
+                ¼    þ         þ                                 (26)    channel. Below this gure, the electric potential and the ion
+              Di   vx kB T vx KB T           L
+                                                                          concentration along the x direction is shown. The right part of
+                                                                          the gure represents a lignin capillary, with OH− ions trapped
+    Then, they introduce the parameters 3 = DTN/T, where DTN              in the walls in this case and a current of positive K+ ions along
+is the temperature gradient in the nal or stationary state, and n        the channels.
+= Lk, where L is the length of the channel and 1/k the Debye                  The physical problem of a layer and a capillary is equivalent,
+length. With the approximations 3  1 (small temperature                  we will analyze here that of a capillary, which is mathematically
+gradients) and n [ 1 (in their experiments n > 3.5 × 106) they            a little bit more complex. The starting point is eqn (7), (11), (12)
+found an analytical solution for the thermopower:                         and (13), written in cylindrical coordinates. The problem has no
+                                                                        4-dependence, thus ni(r, z) and f(r, z), but since the temperature
+          2 Searly  Slate NX eNj 2 t=N0 2 sdif  et=sap
+   SðtÞ ¼                                                 þ Slate (27)   gradient is established between the points z = −L and z = L, the
+             1  et=sap    j¼1 Nj 1  Nj sap N0 sdif
+                                  2         2         2
+                                                                          temperature will depend only on z. In the stationary case vn/vt =
+                                                                          0, thus V$j = 0, i.e.
+where Searly is the Seebeck coeﬃcient when the temperature
+gradient is established, Slate is the Seebeck coeﬃcient at the                                           1 v           vjz
+                                                                                                 V$j ¼        ðrjr Þ þ     ¼0                     (29)
+stationary state (t / N), Nj = (j − 1/2)p and sdif = 4L2/p2Da, the                                       r vr          vz
+ambipolar salt diﬀusivity,
+                               ðzþ  z ÞDþ D                               But the radial component of the current must be zero, the
+                        Da ¼                                      (28)
+                                zþ Dþ  z D                             particle ux will be established along z. Thus, on one hand we
+                                                                          have
+
+
+14146 | Chem. Sci., 2024, 15, 14122–14153                                    © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                                   Chemical Science
+
+
+
+
+Fig. 19 Left panel: The channel drawn in Fig. 14 (length 2L along x) has now a lateral dimension of width 2h (along the y-axis) conﬁning the
+electrolyte. The positive ions moving towards the wall create charges in the Electric Double Layer (EDL). Right panel: cylindrical channel from
+lignin with an electrolyte and K+ and OH− ions.
+
+
+
+                          jr   vni zi eni vf                                 Extensive studies on device manufacturing and electrical
+                            ¼    þ          ¼0                  (30)
+                          D    vr kB T vr                                and thermal contacts are required to improve the conversion
+                                                                         eﬃciency of energy conversion and storage devices. Addition-
+                                                                         ally, improved fabrication methods could enhance the perfor-
+   On the other hand,
+                                                                         mance and robustness of thermoelectric devices. The ultimate
+                      1 vjz   v2 ni zi eni v2 f                          goal of improving the performance of i-TE materials is their
+                           ¼      þ            ¼0               (31)
+                      D vz    vz2    kB T vz2                            practical application. We highlight the outlook for future high-
+                                                                         performance i-TE materials and devices, as summarized in
+                                                                         Fig. 20.
+   Let us call j = zief/kBT, the two equations can be rewritten as
+             v                        v2
+                ðj þ ln ni Þ ¼ 0;         ðj þ ln ni Þ ¼ 0       (32)    8.1   Reducing thermal conductivity
+             vr                       vz2
+                                                                         Research on i-TEs has primarily focused on enhancing ionic
+                                                                         thermopower and ionic conductivity for eﬃcient heat conver-
+   From the solution of the two equations, j + ln ni = cz, c being
+                                                                         sion. While i-TEs inherently exhibit low thermal conductivity,
+a constant. The constant c must be zero, otherwise the
+                                                                         reducing it further by an order of magnitude could signicantly
+concentration would increase exponentially along z. Thus
+                                                                         improve device performance.
+                          ni(r, z) = ni,0e−j                     (33)
+                                                                         8.2   Electrolyte interaction
+                                                                         The thermopower of thermally diﬀusive i-TEs is signicantly
+8. Future direction for practical                                        higher than that of thermogalvanic i-TEs, suggesting prom-
+applications                                                             ising and diverse potential applications. However, a major
+                                                                         challenge is that ions struggle to pass through electrodes
+Despite signicant advancements in i-TE materials and devices            unless utilizing the ion-electron thermoelectric synergy (IETS)
+over the past decade, the eﬃciency of i-TE devices still does not        eﬀect to directly power an external connection. This limitation
+align with the performance of the materials used. High elec-             currently restricts many of these materials to functioning as
+trical and thermal contact resistances are primary reasons for           supercapacitors, with intermittent charging and discharging
+the lower conversion eﬃciency at the device level. Enhancing             reducing current density and conversion eﬃciency. Address-
+both the exibility and thermoelectric properties of i-TE mate-          ing this challenge is urgent, and potential solutions could
+rials to construct energy storage devices remains one of the             involve leveraging the combined eﬀects of electrolyte
+biggest challenges.                                                      interactions.
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                     Chem. Sci., 2024, 15, 14122–14153 | 14147
+Chemical Science                                                                                                                     Review
+
+8.3   Electrode interaction and design                                     8.7   Bio-based and waste recycling in i-TE
+Future exploration of i-TEs should consider the critical impact            The current low thermoelectric performance and device eﬃ-
+of electrodes. Innovative methods to tackle the issue of inter-            ciency necessitate the exploration of alternative resources.
+mittent charging and discharging are anticipated. Since i-TEs,             These include recycled carbon ber, the development of
+when used as electrolytes, inherently require electrodes, the              biodegradable thermoelectric papers, and the extraction of
+choice of electrodes is crucial for inuencing thermoelectric              useful elements from waste or recycled materials, such as spent
+properties. Enhancing these properties can be further achieved             modules.
+through thoughtful electrode design that incorporates the
+thermoelectric eﬀect.124
+                                                                           8.8   Multifunctional wearable design
+8.4   Developing novel designs for i-TE devices                            Despite advancements in preventing device failure, the limited
+                                                                           energy conversion eﬃciency of exible i-TEGs remains a chal-
+Despite advancements in i-TE device development, challenges
+                                                                           lenge. To maximize energy output for commercial applications,
+persist in waste heat harvesting, eﬃcient heat transfer, scal-
+                                                                           exploring multifunctional wearable devices integrating pyro-
+ability, and durability. Utilizing ultrathin, exible lms with
+                                                                           electric, triboelectric, piezoelectric, magnetoelectric, and
+a modulus matching thermoelectric materials as substrates
+                                                                           photovoltaic functionalities is crucial.125
+could facilitate the fabrication of high-performance TE devices
+capable of withstanding repeated bending. This approach may
+address critical issues such as high interfacial resistance
+between electrodes and TE legs, and overall mechanical dura-
+                                                                           9. Conclusion and perspective
+bility in exible devices.                                                 In recent years, ionic thermoelectric materials (i-TEs) have
+                                                                           emerged as a promising technology for waste heat harvesting.
+8.5   Commercialization of exible i-TE devices                            Unlike traditional electronic thermoelectric (e-TE) materials, i-
+The compatibility of i-TE materials with polymer substrates                TEs boast exceptionally high ionic thermopower, making
+makes 3D printing a feasible method for fabricating exible i-             them ideal for capturing and converting low-grade thermal
+TE devices. However, the eld is still in its infancy, requiring           energy. Additionally, i-TEs oﬀer advantages in terms of exi-
+further research to develop robust techniques for ink prepara-             bility, cost-eﬀectiveness, and environmental friendliness. In
+tion and 3D printing that minimize morphological defects and               this review, a unique feature of i-TE devices is their ability to
+maximize mechanical stability.48                                           function as both thermoelectric generators and thermal-
+                                                                           powered capacitors. This review comprehensively allows them
+                                                                           to generate electricity even from uctuating heat sources.
+8.6   Advanced 3D textiles
+                                                                           However, due to limitations in ion transport across electrodes, i-
+One promising research avenue is the development of revolu-                TE materials cannot be directly used in conventional thermo-
+tionary i-TE devices based on 3D textiles. The fabrication                 electric generators (TEGs). Instead, i-TEs nd application in
+methods for 3D textile devices need improvement due to their               ionic thermoelectric supercapacitors (ITESCs), which can
+superior breathability and exibility. Computational methods,              harvest intermittent heat and exhibit transient voltage behavior.
+such as nite element numerical simulation, are expected to                Thermogalvanic cells (TGC) represent another promising
+assist in the design of textile-based devices. Additionally,               avenue for waste heat recovery using i-TE materials. These cells
+establishing evaluation standards is crucial for future                    utilize an electrode–electrolyte pairing that maximizes reaction
+commercial applications.                                                   entropy and minimizes internal resistance, enabling contin-
+                                                                           uous current ow. With their potential for cost-eﬀective waste
+                                                                           heat cogeneration, TGC hold signicant promise for future
+                                                                           applications, particularly where solid-state TEGs are economi-
+                                                                           cally impractical. The ferricyanide/ferrocyanide couple exem-
+                                                                           plies a common choice for thermogalvanic cell electrodes due
+                                                                           to its clean and reversible nature. Recent advancements further
+                                                                           suggest that the performance of thermogalvanic generators can
+                                                                           be signicantly improved. This review also highlights the
+                                                                           synergistic eﬀect between the thermodiﬀusion phenomenon
+                                                                           and electrode redox reactions, paving the way for the develop-
+                                                                           ment of high-performance, thermochargeable devices suitable
+                                                                           for commercialization. However, the theoretical models pre-
+                                                                           sented in this review require further renement to accurately
+                                                                           capture the complexities of ion diﬀusion, migration, and
+                                                                           conduction within i-TE materials.
+                                                                               Several key challenges remain in optimizing i-TE material
+Fig. 20   Future directions and outlooks for i-TE materials and devices.   performance.
+
+
+14148 | Chem. Sci., 2024, 15, 14122–14153                                    © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                             Chemical Science
+
+    The discovery of novel n-type and p-type i-TE systems,           132 funded by the Generalitat Valenciana. MM and MNC
+nding a balance between thermoelectric and mechanical                would like to acknowledge support from the Irish Government
+properties (exibility, self-healing, etc.), and enhancing material   funding via the DAFM NXTGENWOOD research program
+stability. Notably, improving ionic conductivity (s) is crucial for   2019PROG704.
+optimizing the thermoelectric behavior of i-TE materials.
+    Furthermore, the integration of i-TE materials with other
+advanced TE components oﬀers exciting possibilities for               References
+unlocking their full performance potential. While aqueous
+electrolytes oﬀer an appealing approach, their limitations in          1 S. Sun, M. Li, X. L. Shi and Z. G. Chen, Advances in ionic
+heat and charge transport necessitate further exploration.               thermoelectrics: from materials to devices, Adv. Energy
+Molten salt-based alternatives, while oﬀering some improve-              Mater., 2023, 13(9), 2203692.
+ment, may not justify the increased cost and complexity. Beyond        2 Z. Zhou, Y. Wan, J. Zi, G. Ye, T. Jin, X. Geng, W. Zhuang and
+their potential as capacitors, generators, and sensors, the high-        P. Yang, Flexible hydrogel with a coupling enhanced
+eﬃciency operation of i-TE devices remains paramount.                    thermoelectric eﬀect for low-grade heat harvest, Mater.
+    Future advancements will require a deeper understanding             Today Sustain., 2023, 21, 100293.
+of high-performance devices, large-scale feasibility, and cost-        3 C. Gao, Y. Yin, L. Zheng, Y. Liu, S. Sim, Y. He, C. Zhu, Z. Liu,
+eﬀective material innovation. This includes exploring novel              H. W. Lee and Q. Yuan, Engineering the electrochemical
+battery architectures, tailoring materials for specic applica-          temperature coeﬃcient for eﬃcient low-grade heat
+tions, and developing biocompatible materials for wearable               harvesting, Adv. Funct. Mater., 2018, 28(35), 1803129.
+electronics. Additionally, minimizing contact resistance and           4 M. Muddasar, M. Mushtaq, A. Beaucamp, T. Kennedy,
+optimizing electrode materials through targeted research                 M. Culebras and M. N. Collins, Synthesis of sustainable
+eﬀorts are crucial for unlocking the full potential of i-TE              lignin precursors for hierarchical porous carbons and
+technology.                                                              their eﬃcient performance in energy storage applications,
+   This review provides a comprehensive survey of advanced i-            ACS Sustain. Chem. Eng., 2024, 12, 2352–2363.
+TE materials, equipping researchers to explore next-                   5 J. Wei, L. Yang, Z. Ma, P. Song, M. Zhang, J. Ma, F. Yang and
+generation waste heat recovery technologies that contribute to           X. Wang, Review of current high-ZT thermoelectric
+a sustainable future. As the eld of ionic thermoelectrics               materials, J. Mater. Sci., 2020, 55, 12642–12704.
+continues to emerge, this review serves as a valuable handbook,        6 M. Muddasar, N. Menéndez, Á. Quero, M. A. Nasiri,
+oﬀering a foundational understanding of the current state-of-            A. Cantarero, J. Garcı́a-Cañadas, C. M. Gómez,
+the-art and propelling advancements in low grade energy har-             M. N. Collins and M. Culebras, Highly-eﬃcient
+vesting technologies.                                                    sustainable ionic thermoelectric materials using lignin-
+                                                                         derived hydrogels, Adv. Compos. Hybrid Mater., 2024, 7(2),
+Data availability                                                        47.
+                                                                       7 C. Zhou, Y. K. Lee, Y. Yu, S. Byun, Z.-Z. Luo, H. Lee, B. Ge,
+No primary research results, no new data were generated or               Y.-L. Lee, X. Chen and J. Y. Lee, Polycrystalline SnSe with
+analysed as part of this review.                                         a thermoelectric gure of merit greater than the single
+                                                                         crystal, Nat. Mater., 2021, 20(10), 1378–1384.
+Author contributions                                                   8 H. Cheng, Q. Le, Z. Liu, Q. Qian, Y. Zhao and J. Ouyang,
+                                                                         Ionic     thermoelectrics:     principles,    materials     and
+Nazish Jabeen: writing – original dra preparation, visualiza-           applications, J. Mater. Chem. C, 2022, 10(2), 433–450.
+tion, review & editing. Muhammad Muddasar, Nicolás Menén-            9 G. Chen, M. Dresselhaus, G. Dresselhaus, J.-P. Fleurial and
+dez, & Mohammad Ali Nasiri: writing – original dra                      T. Caillat, Recent developments in thermoelectric
+preparation. Clara M Gómez & Maurice N Collins: visualization,          materials, Int. Mater. Rev., 2003, 48(1), 45–66.
+review & editing. Rafael Muñoz-Espı́ & Andrés Cantarero: review      10 J.-H. Bahk, H. Fang, K. Yazawa and A. Shakouri, Flexible
+& editing. Mario Culebras: writing – original dra preparation,          thermoelectric materials and device optimization for
+supervision, review & editing, funding acquisition.                      wearable energy harvesting, J. Mater. Chem. C, 2015, 3(40),
+                                                                         10362–10374.
+Conﬂicts of interest                                                  11 G.-H. Kim, L. Shao, K. Zhang and K. P. Pipe, Engineered
+                                                                         doping of organic semiconductors for enhanced
+The authors declare that there is no conict of interest.                thermoelectric eﬃciency, Nat. Mater., 2013, 12(8), 719–723.
+                                                                      12 D. Zhao, A. Würger and X. Crispin, Ionic thermoelectric
+Acknowledgements                                                         materials and devices, J. Energy Chem., 2021, 61, 88–103.
+                                                                      13 A. Weathers, Z. Ullah Khan, R. Brooke, D. Evans,
+This research was supported through the Grant PID2021-                   M. T. Pettes, J. Wenzel Andreasen, X. Crispin and L. Shi,
+124845OA-I00 funded by MCIN/AEI/10.13039/501100011033                    Signicant electronic thermal transport in the conducting
+and by the “European UnionNextGenerationEU/PRTR”. NJ and                 polymer poly (3, 4-ethylenedioxythiophene), Adv. Mater.,
+MC acknowledge the Santiago Grisolia program CIGRIS/2022/                2015, 27(12), 2101–2106.
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                Chem. Sci., 2024, 15, 14122–14153 | 14149
+Chemical Science                                                                                                                Review
+
+ 14 J. Pei, B. Cai, H.-L. Zhuang and J.-F. Li, Bi2Te3-based               Conducting Membranes for Low-Grade Thermal Energy
+    applied thermoelectric materials: research advances and               Harvesting, Adv. Funct. Mater., 2024, 34(12), 2306427.
+    new challenges, Natl. Sci. Rev., 2020, 7(12), 1856–1858.           31 C.-G. Han, X. Qian, Q. Li, B. Deng, Y. Zhu, Z. Han, W. Zhang,
+ 15 W. Liu, X. Qian, C.-G. Han, Q. Li and G. Chen, Ionic                  W. Wang, S.-P. Feng, G. Chen and W. Liu, Giant
+    thermoelectric materials for near ambient temperature                 thermopower of ionic gelatin near room temperature,
+    energy harvesting, Appl. Phys. Lett., 2021, 118(2), 020501.           Science, 2020, 368(6495), 1091–1098.
+ 16 B. Lei, S. Bai, S. Ju, C. Yin, C. Chen and J. Zhang, Review on     32 X.-L. Shi, S. Sun, T. Wu, J. Tu, Z. Zhou, Q. Liu and
+    advances in thermoelectric conversion using ion-                      Z.-G. Chen, Weavable thermoelectrics: advances,
+    conducting polymers, Mater. Res. Express, 2021, 8(6),                 controversies, and future developments, Mater. Futures,
+    062001.                                                               2024, 3(1), 012103.
+ 17 S. Sun, X. L. Shi, W. Lyu, M. Hong, W. Chen, M. Li, T. Cao,        33 D. R. Lobato-Peralta, E. Duque-Brito, H. I. Villafan-Vidales,
+    B. Hu, Q. Liu and Z. G. Chen, Stable, Self-Adhesive, and              A. Longoria, P. Sebastian, A. K. Cuentas-Gallegos,
+    High-Performance Graphene-Oxide-Modied Flexible                      C. A. Arancibia-Bulnes and P. U. Okoye, A review on
+    Ionogel Thermoelectric Films, Adv. Funct. Mater., 2024,               trends in lignin extraction and valorization of
+    2402823.                                                              lignocellulosic biomass for energy applications, J. Clean.
+ 18 X. Wu, N. Gao, H. Jia and Y. Wang, Thermoelectric                     Prod., 2021, 293, 126123.
+    converters based on ionic conductors, Chem.–Asian J.,              34 Y. Jia, Q. Jiang, H. Sun, P. Liu, D. Hu, Y. Pei, W. Liu,
+    2021, 16(2), 129–141.                                                 X. Crispin, S. Fabiano and Y. Ma, Wearable
+ 19 T. H. Park, B. Kim, S. Yu, Y. Park, J. W. Oh, T. Kim, N. Kim,         thermoelectric materials and devices for self-powered
+    Y. Kim, D. Zhao and Z. U. Khan, Ionoelastomer electrolytes            electronic systems, Adv. Mater., 2021, 33(42), 2102990.
+    for stretchable ionic thermoelectric supercapacitors, Nano         35 E. Laux, S. Uhl, T. Journot, J. Brossard, L. Jeandupeux and
+    Energy, 2023, 114, 108643.                                            H. Keppner, Aspects of protonic ionic liquid as electrolyte
+ 20 A. Beaucamp, M. Muddasar, T. Crawford, M. N. Collins and              in thermoelectric generators, J. Electron. Mater., 2016, 45,
+    M. Culebras, Sustainable lignin precursors for tailored               3383–3389.
+    porous carbon-based supercapacitor electrodes, Int. J.             36 H. Zhu, C. Xiao and Y. Xie, Design of highly eﬃcient
+    Biol. Macromol., 2022, 221, 1142–1149.                                thermoelectric materials: tailoring reciprocal-space
+ 21 S. Sun, X.-L. Shi, M. Li, T. Wu, L. Yin, D. Wang, Q. Liu and          properties by real-space modication, Adv. Mater., 2018,
+    Z.-G. Chen, Ultrafast and cost-eﬀective fabrication of high-          30(48), 1802000.
+    performance carbon-based exible thermoelectric hybrid             37 C. Cheng, Y. Dai, J. Yu, C. Liu, S. Wang, S. P. Feng and M. Ni,
+    lms and their devices, ACS Appl. Mater. Interfaces, 2023,            Review of liquid-based systems to recover low-grade waste
+    15(21), 25650–25660.                                                  heat for electrical energy generation, Energy Fuels, 2020,
+ 22 J. Agar, Solutions of Electrolytes, Annu. Rev. Phys. Chem.,           35(1), 161–175.
+    1964, 15(1), 469–488.                                              38 K. Jiang, J. Jia, Y. Chen, L. Li, C. Wu, P. Zhao, D. Y. Zhu and
+ 23 J. Platten and P. Costesèque, Charles S. A short biographya:         W. Zeng, An Ionic Thermoelectric Generator with a Giant
+    On the occasion of the hundredth anniversary of his death,            Output Power Density and High Energy Density Enabled
+    Eur. Phys. J. E, 2004, 15, 235–239.                                   by Synergy of Thermodiﬀusion Eﬀect and Redox Reaction
+ 24 T. Ikeda, Absolute Estimation of the Ionic Entropies of               on Electrodes, Adv. Energy Mater., 2023, 13(21), 2204357.
+    Transfer, Bull. Chem. Soc. Jpn., 1959, 32, 96–97.                  39 Y. Li, Q. Li, X. Zhang, B. Deng, C. Han and W. Liu, 3D
+ 25 T. Ikeda, Transported entropies and conventional eastman              Hierarchical Electrodes Boosting Ultrahigh Power Output
+    entropies of the transfer of some univalent ions in aqueous           for Gelatin-KCl-FeCN4−/3− Ionic Thermoelectric Cells,
+    solutions at 25 c, Bull. Chem. Soc. Jpn., 1964, 37(10), 1485–         Adv. Energy Mater., 2022, 12(14), 2103666.
+    1489.                                                              40 M. Li, F. Zeng, M. Luo, X. Qing, W. Wang, Y. Lu, W. Zhong,
+ 26 W. Breck and E. King, On the use of a polyelectrolyte in              L. Yang, Q. Liu and Y. Wang, Synergistically improving
+    a thermocell, Can. J. Chem., 1969, 47(18), 3480–3482.                 exibility and thermoelectric performance of composite
+ 27 R. Haase, U. Prüser and J. Richter, Evaluation of                     yarn by continuous ultrathin PEDOT: PSS/DMSO/ionic
+    Measurements on Thermocells Containing Molten Salt                    liquid coating, ACS Appl. Mater. Interfaces, 2021, 13(42),
+    Mixtures, Ber. Bunsenges. Phys. Chem., 1977, 81(6), 577–584.          50430–50440.
+ 28 D. Zhao, H. Wang, Z. U. Khan, J. Chen, R. Gabrielsson,             41 J. Duan, G. Feng, B. Yu, J. Li, M. Chen, P. Yang, J. Feng,
+    M. P. Jonsson, M. Berggren and X. Crispin, Ionic                      K. Liu and J. Zhou, Aqueous thermogalvanic cells with
+    thermoelectric supercapacitors, Energy Environ. Sci., 2016,           a high Seebeck coeﬃcient for low-grade heat harvest, Nat.
+    9(4), 1450–1457.                                                      Commun., 2018, 9(1), 5146.
+ 29 T. Li, X. Zhang, S. D. Lacey, R. Mi, X. Zhao, F. Jiang, J. Song,   42 B. Yang and G. Portale, Ionic thermoelectric materials for
+    Z. Liu, G. Chen and J. Dai, Cellulose ionic conductors with           waste heat harvesting, Colloid Polym. Sci., 2021, 299, 465–
+    high diﬀerential thermal voltage for low-grade heat                   479.
+    harvesting, Nat. Mater., 2019, 18(6), 608–613.                     43 Y. T. Malik, Z. A. Akbar, J. Y. Seo, S. Cho, S.-Y. Jang and
+ 30 M. Muddasar, M. A. Nasiri, A. Cantarero, C. Gómez,                   J.-W. Jeon, Self-Healable Organic–Inorganic Hybrid
+    M. Culebras and M. N. Collins, Lignin-Derived Ionic                   Thermoelectric        Materials      with    Excellent    Ionic
+
+
+14150 | Chem. Sci., 2024, 15, 14122–14153                               © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                               Chemical Science
+
+    Thermoelectric Properties, Adv. Energy Mater., 2022, 12(6),         57 Y. Hu, M. Chen, C. Qin, J. Zhang and A. Lu, Cellulose ionic
+    2103070.                                                               conductor with tunable Seebeck coeﬃcient for low-grade
+ 44 H. Wang, D. Zhao, Z. U. Khan, S. Puzinas, M. P. Jonsson,               heat harvesting, Carbohydr. Polym., 2022, 292, 119650.
+    M. Berggren and X. Crispin, Ionic thermoelectric gure of           58 H. Zhang, P. Xue, J. Liu and X. Xu, Thermal-switching and
+    merit for charging of supercapacitors, Adv. Electron.                  repeatable self-protective hydrogel polyelectrolytes for
+    Mater., 2017, 3(4), 1700013.                                           energy storage applications of exible electronics, ACS
+ 45 M. Bonetti, S. Nakamae, B. T. Huang, T. J. Salez, C. Wiertel-          Appl. Energy Mater., 2021, 4(6), 6116–6124.
+    Gasquet and M. Roger, Thermoelectric energy recovery at             59 Y. Liu, M. Cui, W. Ling, L. Cheng, H. Lei, W. Li and
+    ionic-liquid/electrode interface, J. Chem. Phys., 2015,                Y. Huang, Thermo-electrochemical cells for heat to
+    142(24), 244708.                                                       electricity conversion: from mechanisms, materials,
+ 46 X. Yang, Y. Tian, B. Wu, W. Jia, C. Hou, Q. Zhang, Y. Li and           strategies to applications, Energy Environ. Sci., 2022, 15(9),
+    H. Wang, High-performance ionic thermoelectric                         3670–3687.
+    supercapacitor for integrated energy conversion-storage,            60 M. A. Buckingham and L. Aldous, Thermogalvanic cells: A
+    Energy Environ. Mater., 2022, 5(3), 954–961.                           side-by-side comparison of measurement methods, J.
+ 47 H. Cheng, X. He, Z. Fan and J. Ouyang, Flexible quasi-solid            Electroanal. Chem., 2020, 872, 114280.
+    state ionogels with remarkable seebeck coeﬃcient and high           61 Y. Liu, Q. Zhang, G. O. Odunmbaku, Y. He, Y. Zheng,
+    thermoelectric properties, Adv. Energy Mater., 2019, 9(32),            S. Chen, Y. Zhou, J. Li, M. Li and K. Sun, Solvent eﬀect on
+    1901085.                                                               the Seebeck coeﬃcient of Fe2+/Fe3+ hydrogel
+ 48 Y. Tian, X. Yang, K. Li, Q. Zhang, Y. Li, H. Wang and C. Hou,          thermogalvanic cells, J. Mater. Chem. A, 2022, 10(37),
+    High-performance ionic thermoelectric materials and                    19690–19698.
+    emerging applications of ionic thermoelectric devices,              62 I. Burmistrov, N. Kovyneva, N. Gorshkov, A. Gorokhovsky,
+    Mater. Today Energy, 2023, 36, 101342.                                 A. Durakov, D. Artyukhov and N. Kiselev, Development of
+ 49 D. Song, C. Chi, M. An, Y. Du, W. Ma, K. Wang and                      new electrode materials for thermo-electrochemical cells
+    X. Zhang, Ionic Seebeck coeﬃcient and gure of merit in                for waste heat harvesting, Renew. Energy Focus, 2019, 29,
+    ionic thermoelectric materials, Cell Rep. Phys. Sci., 2022,            42–48.
+    3(9), 101018.                                                       63 M. A. Buckingham, K. Laws, E. Cross, A. J. Surman and
+ 50 X. Qian, Z. Ma, Q. Huang, H. Jiang and R. Yang,                        L. Aldous, Developing iron-based anionic redox couples
+    Thermodynamics of Ionic Thermoelectrics for Low-Grade                  for thermogalvanic cells: towards the replacement of the
+    Heat Harvesting, ACS Energy Lett., 2024, 9(2), 679–706.                ferricyanide/ferrocyanide redox couple, Green Chem., 2021,
+ 51 M. Rahman and M. Saghir, Thermodiﬀusion or Soret eﬀect:                23(22), 8901–8915.
+    Historical review, Int. J. Heat Mass Transfer, 2014, 73, 693–       64 T. I. Quickenden and Y. Mua, A Review of Power Generation
+    705.                                                                   in Aqueous Thermogalvanic Cells, J. Electrochem. Soc., 1995,
+ 52 A. Al-zubaidi, X. Ji and J. Yu, Thermal charging of                    142(11), 3985.
+    supercapacitors: a perspective, Sustain. Energy Fuels, 2017,        65 B. Yu, J. Duan, H. Cong, W. Xie, R. Liu, X. Zhuang, H. Wang,
+    1(7), 1457–1474.                                                       B. Qi, M. Xu, Z. L. Wang and J. Zhou, Thermosensitive
+ 53 L. Kong, Z. Yuan, N. Sun, J. Ding, S. Liu, S. Zhang, Z. Lv,            crystallization–boosted liquid thermocells for low-grade
+    W. Xu, G. Liu and X. Liu, Advances in exible hydrogels                heat harvesting, Science, 2020, 370(6514), 342–346.
+    for light-thermal-electricity energy conversion and storage,        66 H. Im, T. Kim, H. Song, J. Choi, J. S. Park, R. Ovalle-Robles,
+    J. Energy Storage, 2023, 60, 106618.                                   H. D. Yang, K. D. Kihm, R. H. Baughman, H. H. Lee,
+ 54 X. Liu, A. L. Miller, S. Park, B. E. Waletzki, Z. Zhou, A. Terzic      T. J. Kang and Y. H. Kim, High-eﬃciency electrochemical
+    and L. Lu, Functionalized carbon nanotube and graphene                 thermal energy harvester using carbon nanotube aerogel
+    oxide embedded electrically conductive hydrogel                        sheet electrodes, Nat. Commun., 2016, 7(1), 10600.
+    synergistically stimulates nerve cell diﬀerentiation, ACS           67 B. Burrows, Discharge Behavior of Redox Thermogalvanic
+    Appl. Mater. Interfaces, 2017, 9(17), 14677–14690.                     Cells, J. Electrochem. Soc., 1976, 123(2), 154.
+ 55 R. Elashnikov, A. Trelin, A. Tulupova, E. Miliutina,                68 R. L. McCreery, Advanced Carbon Electrode Materials for
+    K. Zahorjanová, P. Ulbrich, D. Tomeček, P. e. Fitl,                  Molecular Electrochemistry, Chem. Rev., 2008, 108(7),
+    V. c. Švorčı́k and O. Lyutakov, Switchable PNIPAm/PPyNT              2646–2687.
+    hydrogel for smart supercapacitors: External control of             69 X. Zhuang, H. Jin, S. Dai, X. Li, W. Guo, Y. Wang, J. Wu,
+    capacitance for pulsed energy generation or prolongation               L. Huang, J. Duan and J. Zhou, Self-Assembled
+    of discharge time, ACS Appl. Mater. Interfaces, 2021,                  Asymmetric          Electrodes       for       High-Eﬃciency
+    13(40), 48030–48039.                                                   Thermogalvanic Cells, Adv. Energy Mater., 2023, 13(39),
+ 56 S. Horike, Q. Wei, K. Kirihara, M. Mukaida, T. Sasaki,                 2302011.
+    Y. Koshiba, T. Fukushima and K. Ishida, Outstanding                 70 L. Yang, H. Sun, S. Wang, L. Jiang and G. Sun, A solid state
+    electrode-dependent Seebeck coeﬃcients in ionic                        thermogalvanic cell harvesting low-grade thermal energy,
+    hydrogels for thermally chargeable supercapacitor near                 Int. J. Hydrogen Energy, 2017, 42(41), 25877–25881.
+    room temperature, ACS Appl. Mater. Interfaces, 2020,                71 M. Al Maimani, J. J. Black and L. Aldous, Achieving pseudo-
+    12(39), 43674–43683.                                                   ‘n-type p-type’ in-series and parallel liquid thermoelectrics
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                  Chem. Sci., 2024, 15, 14122–14153 | 14151
+Chemical Science                                                                                                               Review
+
+    using all-iron thermoelectrochemical cells with opposite            grade heat harvesting in extreme environments, Chem.
+    Seebeck coeﬃcients, Electrochem. Commun., 2016, 72,                 Eng. J., 2023, 457, 141274.
+    181–185.                                                         86 L. Yang and C.-G. Han, Perspective and advances on ionic
+ 72 M. A. Buckingham, S. Hammoud, H. Li, C. J. Beale,                   thermoelectric energy conversion, Mater. Lab., 2023,
+    J. T. Sengel and L. Aldous, A fundamental study of the              230010.
+    thermoelectrochemistry        of    ferricyanide/ferrocyanide:   87 Y. Li, Q. Li, X. Zhang, J. Zhang, S. Wang, L. Lai, K. Zhu and
+    cation, concentration, ratio, and heterogeneous and                 W. Liu, Realizing record-high output power in exible
+    homogeneous electrocatalysis eﬀects in thermogalvanic               gelatin/GTA-KCl-FeCN4−/3− ionic thermoelectric cells
+    cells, Sustain. Energy Fuels, 2020, 4(7), 3388–3399.                enabled by extending the working temperature range,
+ 73 J.-M. Tournier and M. S. El-Genk, Performance analysis of           Energy Environ. Sci., 2022, 15(12), 5379–5390.
+    Pluto/Express, multitube AMTEC cells, Energy Convers.            88 C. Bai, X. Li, X. Cui, X. Yang, X. Zhang, K. Yang, T. Wang and
+    Manage., 1999, 40(2), 139–173.                                      H. Zhang, Transparent stretchable thermogalvanic PVA/
+ 74 T. Cole, Thermoelectric Energy Conversion with Solid                gelation hydrogel electrolyte for harnessing solar energy
+    Electrolytes, Science, 1983, 221(4614), 915–920.                    enabled by a binary solvent strategy, Nano Energy, 2022,
+ 75 K. Han and L. Xie, A Quasisolid Electrolyte Thermogalvanic          100, 107449.
+    Cell by Using Sand Grains, Adv. Electron. Mater., 2023, 9(7),    89 N. Li, S. A. Khan, K. Yang, K. Zhuo, Y. Zhang and H. Zhang,
+    2300089.                                                            A self-powered thermogalvanic organohydrogel-based
+ 76 C. Tian, C. Bai, T. Wang, Z. Yan, Z. Zhang, K. Zhuo and             touch-to-speech Braille transmission interface with
+    H. Zhang, Thermogalvanic hydrogel electrolyte for                   temperature resistance and stretchability, Compos. Sci.
+    harvesting biothermal energy enabled by a novel redox               Technol., 2023, 239, 110077.
+    couple of SO4/32- ions, Nano Energy, 2023, 106, 108077.          90 D. Zhang, Y. Mao, F. Ye, Q. Li, P. Bai, W. He and R. Ma,
+ 77 J. Shen, Y. Ma, C. Yang, S. Liu, J. Li, Z. Chen, B. Tian and        Stretchable thermogalvanic hydrogel thermocell with
+    S. Li, Boosting solar-thermal-electric conversion of                record-high specic output power density enabled by ion-
+    thermoelectrochemical        cells    by    construction    of      induced crystallization, Energy Environ. Sci., 2022, 15(7),
+    a carboxymethylcellulose-interpenetrated polyacrylamide             2974–2982.
+    network, J. Mater. Chem. A, 2022, 10(14), 7785–7791.             91 H. Adelnia, R. Ensandoost, S. Shebbrin Moonshi,
+ 78 Y. Han, J. Zhang, R. Hu and D. Xu, High-thermopower                 J. N. Gavgani, E. I. Vasa and H. T. Ta, Freeze/thawed
+    polarized electrolytes enabled by methylcellulose for low-          polyvinyl alcohol hydrogels: Present, past and future, Eur.
+    grade heat harvesting, Sci. Adv., 2022, 8(7), eabl5318.             Polym. J., 2022, 164, 110974.
+ 79 L. Liu, D. Zhang, P. Bai, Y. Mao, Q. Li, J. Guo, Y. Fang and     92 F. Mushtaq, Z. A. Raza, S. R. Batool, M. Zahid, O. C. Onder,
+    R. Ma, Strong Tough Thermogalvanic Hydrogel                         A. Raque and M. A. Nazeer, Preparation, properties, and
+    Thermocell With Extraordinarily High Thermoelectric                 applications of gelatin-based hydrogels (GHs) in the
+    Performance, Adv. Mater., 2023, 35(32), 2300696.                    environmental, technological, and biomedical sectors, Int.
+ 80 Y. Yang, S. W. Lee, H. Ghasemi, J. Loomis, X. Li,                   J. Biol. Macromol., 2022, 218, 601–633.
+    D. Kraemer, G. Zheng, Y. Cui and G. Chen, Charging-free          93 J. A. Rather, N. Akhter, Q. S. Ashraf, S. A. Mir, H. A. Makroo,
+    electrochemical system for harvesting low-grade thermal             D. Majid, F. J. Barba, A. M. Khaneghah and B. N. Dar, A
+    energy, Proc. Natl. Acad. Sci. U. S. A., 2014, 111(48), 17011–      comprehensive review on gelatin: Understanding impact
+    17016.                                                              of the sources, extraction methods, and modications on
+ 81 Y. Liu, C. Gao, S. Sim, M. Kim and S. W. Lee, Lithium               potential packaging applications, Food Packag. Shelf Life,
+    Manganese Oxide in an Aqueous Electrochemical System                2022, 34, 100945.
+    for Low-Grade Thermal Energy Harvesting, Chem. Mater.,           94 H. Tu, M. Zhu, B. Duan and L. Zhang, Recent Progress in
+    2019, 31(12), 4379–4384.                                            High-Strength and Robust Regenerated Cellulose
+ 82 C. Cheng, S. Wang, P. Tan, Y. Dai, J. Yu, R. Cheng, S.-P. Feng      Materials, Adv. Mater., 2021, 33(28), 2000682.
+    and M. Ni, Insights into the Thermopower of Thermally            95 M. Muddasar, A. Beaucamp, M. Culebras and M. N. Collins,
+    Regenerative Electrochemical Cycle for Low Grade Heat               Cellulose: Characteristics and applications for rechargeable
+    Harvesting, ACS Energy Lett., 2021, 6(2), 329–336.                  batteries, Int. J. Biol. Macromol., 2022, 219, 788–803.
+ 83 S. W. Lee, Y. Yang, H.-W. Lee, H. Ghasemi, D. Kraemer,           96 L. Li, H. Li, J. Wei, R. Li, J. Sun, C. Zhao and T. Chen, Water-
+    G. Chen and Y. Cui, An electrochemical system for                   Resistant Thermoelectric Ionogel Enables Underwater Heat
+    eﬃciently harvesting low-grade heat energy, Nat.                    Harvesting, Polymers, 2023, 15(7), 1746.
+    Commun., 2014, 5(1), 3942.                                       97 M. Yu, H. Li, Y. Li, S. Wang, Q. Li, Y. Wang, B. Li, K. Zhu and
+ 84 Z. Jianwei, X. Ying, L. Bowei, L. Gengyuan and Z. Wenshu,           W. Liu, Ionic thermoelectric gels and devices: Progress,
+    Research Progress of Ionic Thermoelectric Materials for             opportunities, and challenges, EnergyChem, 2024, 6(3),
+    Energy Harvesting, in Thermoelectricity, ed. Q. Guangzhao,          100123.
+    IntechOpen, Rijeka, 2022, ch. 4.                                 98 Q. Li, D. Yu, S. Wang, X. Zhang, Y. Li, S.-P. Feng and W. Liu,
+ 85 P. Yin, Y. Geng, L. Zhao, Q. Meng, Z. Xin, L. Luo, B. Wang,         High Thermopower of Agarose-Based Ionic Thermoelectric
+    Z. Mao, X. Sui, W. Wu and X. Feng, Robust and exible               Gel Through Micellization Eﬀect Decoupling the Cation/
+    bacterial cellulose-based thermogalvanic cells for low-
+
+
+14152 | Chem. Sci., 2024, 15, 14122–14153                             © 2024 The Author(s). Published by the Royal Society of Chemistry
+Review                                                                                                              Chemical Science
+
+    Anion Thermodiﬀusion, Adv. Funct. Mater., 2023, 33(49),            111 D. Jing and B. Bhushan, Electroviscous eﬀect on uid drag
+    2305835.                                                               in a microchannel with large zeta potential, Beilstein J.
+ 99 J. Xu, H. Wang, X. Du, X. Cheng, Z. Du and H. Wang, Highly             Nanotechnol., 2015, 6(1), 2207–2216.
+    Stretchable PU Ionogels with Self-Healing Capability for           112 R. H. Luo and H. J. Keh, Electrophoresis and electric
+    a Flexible Thermoelectric Generator, ACS Appl. Mater.                  conduction in a salt-free suspension of charged particles,
+    Interfaces, 2021, 13(17), 20427–20434.                                 Electrophoresis, 2021, 42(21–22), 2134–2142.
+100 Z. Liu, H. Cheng, Q. Le, R. Chen, J. Li and J. Ouyang, Giant       113 S. Varner and Z.-G. Wang, Eﬀects of dilution in ionic liquid
+    Thermoelectric Properties of Ionogels with Cationic                    supercapacitors, Phys. Chem. Chem. Phys., 2022, 24(44),
+    Doping, Adv. Energy Mater., 2022, 12(22), 2200858.                     27362–27374.
+101 S. Lomartire and A. M. M. Gonçalves, Algal Phycocolloids:          114 W.-H. Huang, C.-C. Chang and R.-J. Yang, Eﬀect of
+    Bioactivities and Pharmaceutical Applications, Mar.                    hydrodynamic slip on thermoelectric response in
+    Drugs, 2023, 21(7), 384.                                               negatively-charged nanouidic channels, Int. J. Heat Mass
+102 J. Lu, P. Jaumaux, T. Wang, C. Wang and G. Wang, Recent                Transfer, 2023, 214, 124454.
+    progress in quasi-solid and solid polymer electrolytes for         115 A. Levy, D. Andelman and H. Orland, Dipolar Poisson-
+    multivalent metal-ion batteries, J. Mater. Chem. A, 2021,              Boltzmann approach to ionic solutions: a mean eld and
+    9(43), 24175–24194.                                                    loop expansion analysis, J. Chem. Phys., 2013, 139(16),
+103 H. Tributsch and L. Pohlmann, Electron Transfer: Classical             164909.
+    Approaches and New Frontiers, Science, 1998, 279(5358),            116 R. F. Stout and A. S. Khair, Diﬀuse charge dynamics in ionic
+    1891–1895.                                                             thermoelectrochemical systems, Phys. Rev. E, 2017, 96(2),
+104 Q. Jiang, H. Sun, D. Zhao, F. Zhang, D. Hu, F. Jiao, L. Qin,           022604.
+    V. Linseis, S. Fabiano and X. Crispin, High Thermoelectric         117 E. D. Eastman, Thermodynamics of non-isothermal
+    Performance in n-Type Perylene Bisimide Induced by the                 systems, J. Am. Chem. Soc., 1926, 48(6), 1482–1493.
+    Soret Eﬀect, Adv. Mater., 2020, 32(45), 2002752.                   118 C. Wagner, Über die thermodynamische Behandlung
+105 M. Zebarjadi, S. E. Rezaei, M. S. Akhanda and K. Esfarjani,            stationärer Zustände in nicht isothermen Systemen, Ann.
+    Nernst coeﬃcient within relaxation time approximation,                 Phys., 1929, 395(5), 629–687.
+    Phys. Rev. B, 2021, 103(14), 144404.                               119 D. Pu, A. Panahi, G. Natale and A. M. Benneker, A Mode-
+106 T. Qiao, Z. Qiao, S. Sun and S. Zhou, An unconditionally               Coupling Model of Colloid Thermophoresis in Aqueous
+    energy stable linear scheme for Poisson–Nernst–Planck                  Systems: Temperature and Size Dependencies of the Soret
+    equations, J. Comput. Appl. Math., 2024, 443, 115759.                  Coeﬃcient, Nano Lett., 2024, 24, 2798–2804.
+107 J. S. Fish, C.-P. Li, J. D. Fehribach, C. A. Wolden, R. O'Hayre,   120 X. Qian, T.-H. Liu and R. Yang, Connement eﬀect on
+    A. L. Bunge and C. E. Goodyer, Poisson–Boltzmann model                 thermopower of electrolytes, Mater. Today Phys., 2022, 23,
+    of space charge layer eﬀects on conductivity in randomly               100627.
+    distributed nanoionic composites, Electrochim. Acta, 2012,         121 I. D. Zaytsev and G. G. Aseyev, Properties of Aqueous
+    83, 454–462.                                                           Solutions of Electrolytes, CRC press, 1992.
+108 M. E. Fleharty, F. van Swol and D. N. Petsev, The eﬀect of         122 A. L. Sehnem and M. Janssen, On the time-dependent
+    surface charge regulation on conductivity in uidic                    electrolyte Seebeck eﬀect, J. Chem. Phys., 2021, 154(16),
+    nanochannels, J. Colloid Interface Sci., 2014, 416, 105–111.           164511.
+109 A. Moya and V. Nikonenko, A comparative theoretical study          123 J. Zhong and C. Huang, Inuence factors of thermal driven
+    of potential distribution and conductivity in cation-and               ion transport in nano-channel for thermoelectricity
+    anion-exchange nanoporous membranes lled with                         application, Int. J. Heat Mass Transfer, 2020, 152, 119501.
+    ternary electrolytes, Electrochim. Acta, 2015, 180, 929–938.       124 S. Jia, W. Qian, P. Yu, K. Li, M. Li, J. Lan, Y.-H. Lin and
+110 R. Koerver, D. R. MacFarlane and J. M. Pringle, Evaluation             X. Yang, Ionic thermoelectric materials: Innovations and
+    of electrochemical methods for determination of the                    challenges, Mater. Today Phys., 2024, 101375.
+    Seebeck coeﬃcient of redox electrolytes, Electrochim. Acta,        125 L. Zhang, X.-L. Shi, Y.-L. Yang and Z.-G. Chen, Flexible
+    2015, 184, 186–192.                                                    thermoelectric materials and devices: From materials to
+                                                                           applications, Mater. Today, 2021, 46, 62–108.
+
+
+
+
+© 2024 The Author(s). Published by the Royal Society of Chemistry                                 Chem. Sci., 2024, 15, 14122–14153 | 14153
+

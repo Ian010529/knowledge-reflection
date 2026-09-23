@@ -1,0 +1,61 @@
+\documentclass{article}
+
+\usepackage{geometry,graphicx,svg,xcolor}
+\usepackage{fontspec}
+% \setmonofont{Noto Mono}
+% \setmonofont{Noto Sans Mono}
+\setmonofont{Consolas}
+
+\geometry{paperwidth=5in, paperheight=2.5in, top=0in, bottom=0in, left=0in, right=0in}
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+
+
+\begin{document}
+
+\begin{center}
+
+\begin{minipage}[c][2.5in][c]{5.0in}
+\begin{center} 
+
+\hspace{0.1in}
+\begin{minipage}[c][2.3in][c]{1.4in}
+ \includesvg[width=\linewidth]{redbird-raw}
+\end{minipage}
+\hspace{-0.7in}
+\begin{minipage}[c][2.3in][c]{3.8in}
+ \vspace{0.0in}
+ \begin{flushright}
+  \begin{minipage}[c][1.6in][c]{3.6in}
+   %\input{logo-text}
+   \begin{center}
+    {\fontsize{38}{38}\selectfont\textsc{HkustThesis}}\par
+    \resizebox{3.5in}{1pt}{$\bullet$}\par
+    \vspace{0.12in}
+    {\fontsize{25}{25}\selectfont\textsc{A~\LaTeX\textcolor{red}{3}~Template}}\par
+    \vspace{0.15in}
+    {\hspace*{-0.3in}\fontsize{12}{12}\selectfont\texttt{@HKFoggyU}~Presents}\par
+   \end{center}
+  \end{minipage}
+ \end{flushright}
+
+ \vspace{-0.35in}
+ \hspace{0.0in}
+ %\centering
+ %\begin{flushright}
+ \begin{minipage}[c][0.6in][c]{3.6in}
+  \hfill
+   \begin{minipage}[c][0.8in][c]{0.8in}
+    \includesvg[width=0.8in]{qrcode2github}
+   \end{minipage}
+ \end{minipage}
+ %\end{flushright}
+\end{minipage}
+
+\end{center}
+
+\end{minipage}
+
+\end{center}
+
+\end{document}

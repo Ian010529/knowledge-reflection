@@ -1,0 +1,831 @@
+nature machine intelligence
+
+Article                                                                                               https://doi.org/10.1038/s42256-026-01206-y
+
+
+Predicting new research directions in
+materials science using large language
+models and concept graphs
+
+Received: 19 June 2025                              Thomas Marwitz1, Alexander Colsmann 2, Ben Breitung3, Christoph Brabec4,5,
+                                                    Christoph Kirchlechner 6, Eva Blasco7, Gabriel Cadilha Marques3,
+Accepted: 16 February 2026
+                                                    Horst Hahn 3,8, Michael Hirtz3,9, Pavel A. Levkin10, Yolita M. Eggeler11,
+Published online: 1 April 2026                      Tobias Schlöder3 & Pascal Friederich 1,3
+
+    Check for updates
+                                                    Due to an exponential increase in published research articles, it is impossible
+                                                    for individual scientists to read all publications, even within their own
+                                                    research field. Here we investigate the use of large language models to extract
+                                                    the main concepts and semantic information from scientific abstracts in the
+                                                    domain of materials science to identify links that were not noticed by humans
+                                                    and to suggest inspiring near and/or mid-term future research directions.
+                                                    We show that large language models can extract concepts more efficiently
+                                                    than automated keyword extraction methods to build a concept graph as an
+                                                    abstraction of the scientific literature. A machine learning model is trained
+                                                    to predict emerging combinations of concepts, that is, new research ideas,
+                                                    based on historical data. We demonstrate that integrating semantic concept
+                                                    information leads to increased prediction performance. The applicability
+                                                    of our model is demonstrated in qualitative interviews with domain experts
+                                                    based on individualized model suggestions. We show that the model can
+                                                    inspire materials scientists in their creative thinking process by predicting
+                                                    innovative combinations of concepts that have not yet been investigated.
+
+Promising new research directions often arise from combining con-             unthought-of combinations of research topics and thus enable the
+cepts that have not previously been investigated together1. While             exploration of a vast hypothesis space beyond human intuition2,3.
+experienced scientists possess vast domain knowledge enabling them                 Scientific information is contained in a plethora of research pub-
+to thoroughly explore research topics within (and adjacent to) their          lications in a rich but unstructured manner, and this lack of structured
+area(s) of expertise, finding new connections between their research          information poses challenges for automated analysis4,5. Focusing on
+topics and other yet unfamiliar topics to foster new ideas and findings       the extensive domain of material science, we first examine how to
+is inherently challenging. Machine learning (ML) methods can help to          systematically extract the main concepts of scientific articles, namely
+look beyond the personal area of expertise by identifying previously          keywords or key phrases. Recent breakthroughs in natural language
+
+1
+ Institute of Theoretical Informatics, Karlsruhe Institute of Technology, Karlsruhe, Germany. 2Material Research Center for Energy Systems, Karlsruhe
+Institute of Technology, Karlsruhe, Germany. 3Institute of Nanotechnology, Karlsruhe Institute of Technology, Karlsruhe, Germany. 4Department of
+High Throughput Methods in Photovoltaics, Forschungszentrum Jülich GmbH, Helmholtz-Institute Erlangen-Nürnberg (HI ERN), Erlangen, Germany.
+5
+ Department of Materials Science and Engineering, Institute of Materials for Electronics and Energy Technology (i-MEET), Friedrich-Alexander-Universität
+Erlangen-Nürnberg, Erlangen, Germany. 6Institute for Applied Materials, Karlsruhe Institute of Technology, Karlsruhe, Germany. 7Institute for Molecular
+Systems Engineering and Advanced Materials, Heidelberg University, Heidelberg, Germany. 8Department of Materials Science and Engineering,
+University of Arizona, Tucson, AZ, USA. 9Karlsruhe Nano Micro Facility, Karlsruhe Institute of Technology, Karlsruhe, Germany. 10Institute of Biological
+and Chemical Systems - Functional Molecular Systems, Karlsruhe Institute of Technology, Karlsruhe, Germany. 11Laboratory for Electron Microscopy,
+Karlsruhe Institute of Technology, Karlsruhe, Germany.        e-mail: pascal.friederich@kit.edu
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                       535
+Article                                                                                                           https://doi.org/10.1038/s42256-026-01206-y
+
+
+            Manual annotation                                   Fine-tuning                                       Error correction
+
+
+
+                                                                 Base LLM
+
+                 Abstract                                                                                            Abstract
+
+
+                                                                                                                                     GPT-3.5
+
+                                              100                                                                                                   100
+                                           annotated                                                                                             annotated
+                                                                                                                  [ c3 , c4 , c5 ]               abstracts
+                [ c1 , c2 ]                abstracts
+                                                              Fine-tunned LLM
+
+
+
+
+                                                                                                                      Correct
+                                                                                Iterate
+
+
+
+Fig. 1 | Generation of labelled data. Manual labelling (concept extraction) of 100 abstracts, fine-tuning of an LLM-base model on the annotated data, automatic
+concept extraction from 100 further abstracts with human correction, and then repeat fine-tuning of the base LLM with the new extended labelled dataset.
+
+
+
+processing now allow us to extract structured data from text and pro-                Table 1 | Selected examples of abstracts and concepts
+cess it automatically6–11. Here we investigate whether large language                extracted by our fine-tuned Llama-2-13B model
+models (LLMs) can offer improvements over traditional algorithmic
+methods in this extraction process.                                                   Abstract excerpt                Extracted concept        Note
+
+     After identifying and extracting the concepts and their connec-                  ‘Strengthening                  carbon fibre             Nominalization
+tions (that is, the co-occurrence in the same article), we investigate                mechanisms in short             reinforcement
+                                                                                      carbon fibre reinforced
+how to use this information to predict new combinations of con-
+                                                                                      Nb/Nb5Si3 composites’
+cepts. In a previous study, Krenn et al. proposed SemNet, a graph that
+                                                                                      ‘Removal of Metal               metal impurity           Removal of ‘of’, singular
+tracks the evolution of scientific literature in the domain of quantum
+                                                                                      Impurities from the’            removal                  normalization
+physics12. The nodes of the SemNet graph are concepts, that is, key-
+words extracted from text, using an algorithm called rapid automatic                  ‘Resistance of                  al2o3 coating            Singular normalization,
+                                                                                      Al2O3Coatings on                                         dealing with wrong
+keyword extraction (RAKE) in conjunction with some predefined                         Functional Structure’                                    formatting
+rules13. Apart from analysing emerging trends within SemNet, the
+                                                                                      ‘Both fully and partially       fully amorphous          Normalization of ‘and’ in
+authors use changes in the graph to make predictions. To this end,
+                                                                                      amorphous ribbons have          ribbon, partially        concepts
+they derive topological properties, such as node degree, and use                      been obtained’                  amorphous ribbon
+them as input for a neural network (NN) to predict future connec-
+                                                                                      ‘Successive ionic layer         successive ionic         Extraction of long form
+tions. In a Kaggle challenge, the participants predicted changes in                   adsorption and reaction         layer adsorption and     without abbreviation in
+a SemNet built from the artificial intelligence (AI) literature14. While              SILAR trend for’                reaction                 same concept
+the most successful models combined specific hand-selected net-
+work features with ML techniques, such as NNs or graph NNs (GNNs),                   materials scientists propose new research directions by combining
+other participants employed purely theoretical or end-to-end ML                      previously uncombined concepts. To explore the real-world appli-
+approaches. However, the participants’ models could only use the                     cability of our model and its suggestions, we conducted interviews
+structure of SemNet because the real meaning behind the nodes was                    with materials sciences researchers to assess how well the concepts
+not revealed in the challenge.                                                       generated and suggested by our model align with concepts from their
+     In this study, the information on materials science concepts is                 own research.
+similarly compressed into a concept graph. Given the advances in
+language encoder models15,16, we use the MatSciBERT model17 to pro-                  Results
+vide additional information on the concepts in the form of semantic                  Concept extraction and concept graph
+embeddings to enrich the topological information of the nodes. Then,                 Using an LLM-based approach (Methods), approximately 510,000
+we explore how ML methods can use the time evolution of this repre-                  chemical formulae and 3,600,000 concepts were extracted from the
+sentation of the literature to perform link predictions.                             221,000 abstracts in our database, which corresponds to an average of
+     Recent advances have shown that graph-based approaches                          2.3 chemical formulae and 16.3 concepts per abstract. The extracted
+can accelerate discovery in materials science: SciAgents employs                     concepts were then condensed into approximately 52,000 unique
+multi-agent graph reasoning, Graph-PRefLexOR integrates symbolic                     formulae and 1,241,000 unique concepts by removing duplicates.
+graph abstractions with LLMs and generative knowledge extraction                     In general, our method resulted in more precise concept extraction
+with graph representations further supports hypothesis generation18,19.              than rule-based approaches (see Supplementary Note 1 for details).
+Complementary efforts on AI-driven ideation include SciMuse and                      Due to the extraction capabilities of LLMs, the amount of manual
+SciMON, which use enriched co-occurrence and temporal knowledge                      annotation work needed to generate the initially required data is neg-
+graphs for idea generation, ResearchAgent, which iteratively refines                 ligible, especially as our iterative approach (Fig. 1; Methods) reduces
+literature-grounded ideas with knowledge-augmented LLMs, and                         the manual effort to a minimum. Notably, the fine-tuned LLMs were
+SCI-IDEA, which applies context-aware embeddings for systematic                      able to extract concepts that were not present verbatim in the text.
+ideation20–23. In contrast to approaches that analyse understand-                    Table 1 shows selected examples to demonstrate the capabilities of the
+ing, intelligence and creativity in general and try to evoke these in                fine-tuned LLMs for nominalization, the removal of fill words such as
+machines24, we aim to foster human creativity by using AI to help                    ‘of’, plural-to-singular conversion and formatting corrections.
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                                        536
+Article                                                                                                                                                                     https://doi.org/10.1038/s42256-026-01206-y
+
+
+                                                                                                                                                                                                        0.020
+                                                                                  Supercooled liquid region
+                                                                                                      ●
+                                                                  Retained austenite
+                               8
+                                                                             ●
+                                         Split Hopkinson pressure bar                                 Fourier transform infrared spectroscopy
+                                                                               Photoluminescence spectroscopy
+                                                        ●                                                                 ● metallurgy
+                                                                                                                      Powder
+                                                                  Atomic force microscopy    ●    ICP
+                                                                                                                               ●
+                               6                       ●                     ●                     ●                                      Excimer laser
+
+                                            Rietveld refinement                                                                                                           ●
+                                                                                         CV          Infrared spectroscopy
+                                                                                                                                       Photocatalytic activity
+                                                                                             ●                    ●                  ●Antibacterial activity                                            0.015
+
+                               4
+                                                             Magnetic property                                                                       ●
+                                                                         ●                                               TiO2        Biomedical application
+
+                                                      Density functional theory                                             ●       ●         ● Scanning electron microscopy
+                                                                                                           SiC
+                                                                                                                                    CO2                             ●
+                                                                   ●                                        ● diffraction
+                                                                                                         X ray
+                               2                                                                                                          NaCl
+                                                                                                                  ●
+                                                                                                                                           ●                                   Interdendritic region
+
+
+
+
+            UMAP component 2                                                                                                                                                                                    Kernel density estimate
+                                                 Energy dispersive spectroscopy                                                                          H2O                            ●
+                                             ●           Phase transformation                                                                             ●
+                                                                                                 Particle size                                                      Al2O3
+                                                                   ● ●                                   ●                                Fly ash                     ●                                 0.010
+                               0
+                                                        Shape memory alloy                                                                  ●                 TiC
+                                                                                      Mechanical property
+                                                       Stainless steel
+                                                                                                     ●                                                        ●
+                                                                  Grain size
+                                                 ●           ●                                                   Thermal conductivity
+                                                                    ●
+                                                          Grain boundary                                                    ● Wear resistance
+                                                                                                                                                                          La0.7Sr0.3MnO3
+                               −2         Scale spallation                                                                                                              ●          ●
+                                                                 ●
+                                                     Deformation twinning                                                            ●                              T i6Al4V
+                                                                   ●                                                           Barkhausen noise                                        Peierls stress
+                                                                                                          Numerical simulation
+                                                                                                                                       ●                                                     ●
+                                                                                             Yield strength          ●                                            Homogenization method
+                                                                                                          Finite element method
+                               −4                                                                   ●                                                                          ●
+                                                                                                      ●              ●
+                                                                                                                   Temperature coefficient
+                                                 Monte Carlo simulation                                                                                                                                 0.005
+                                                                                             Tensile strength                        ●               ●
+                                                              ●
+                                                                  Work hardening                                                                 CuK
+                                                                             ●        Activation energy
+                               −6                                            HV
+                                                                                                 ●
+                                                                             ●
+                                                                                                                                                                    All concepts
+                                                                                                                  Dynamic recrystallization
+                                                                                                                                ●                                   Density
+                                                                       Cellular automaton
+                               −8
+                                                                                  ●                                                                                 Highest degree in tile
+
+
+
+                                    −8           −6                −4                   −2                    0                 2                4             6                   8             10
+                                                                                                              UMAP component 1
+
+Fig. 2 | Map of materials science. Two-dimensional UMAP25 projection of all extracted concepts with the highest-degree concepts in each square of length 2
+highlighted and annotated (‘Highest degree in tile’). Yellow and purple background colours respectively indicate high and low concept densities calculated using
+kernel density estimation.
+
+
+
+     To construct a concept graph, we only include concepts that                                                                    vectors capture semantic meaning. The example queries listed in
+appeared at least three times and consist of at least two words.                                                                    Supplementary Table 2 show the striking similarity between the que-
+The resulting graph comprises approximately 137,000 nodes                                                                           ried concept and its nearest neighbours.
+and 13,000,000 edges, making the calculation of topological fea-
+tures that require the squaring of the adjacency matrix possible.                                                                   Link prediction
+Supplementary Table 1 presents an overview of the 25 most frequently                                                                To statistically assess the performance of our different link prediction
+encountered concepts and formulas.                                                                                                  models (see Methods for a detailed description), we evaluate their
+     An analysis of the node degree distribution in the resulting graph                                                             performance on a held-out test set for edge formation in the period
+shows that the majority of the nodes have a degree between 30 and                                                                   between 2020 and 2022. The test set consisted of 2,000,000 node
+1,000 (Supplementary Fig. 8). While a few concept nodes act as hubs—                                                                pairs, including 307 (0.015%) positive pairs, that is, emerging edges.
+having a notably larger number of connections than others—most of the                                                               We complement this with a qualitative analysis of the real-world appli-
+concepts in the graph are directly linked to only a few others, making                                                              cability of the models based on human expert knowledge.
+the resulting graph sparse. The evolution of the concept graph over                                                                       Figure 3a shows the receiver operator characteristic (ROC) curves
+time shows that connectivity further increases as more papers are being                                                             for predicting link formation during the test period, as they illustrate the
+published using already existing concepts. We observe an increase in                                                                capacities of the model to distinguish between classes across all possible
+concept centralization, which is that fewer and fewer nodes account                                                                 classification thresholds. ROC curves are particularly useful for imbal-
+for a larger share of the total connections (Supplementary Fig. 9).                                                                 anced datasets because they evaluate performance independently of
+     We visualize all concepts by projecting their high-dimensional                                                                 class distribution27. More information about test set creation, along with
+concept embeddings to two dimensions using the uniform manifold                                                                     detailed results (Precision/Recall@k), can be found in Supplementary
+approximation and projection (UMAP)25 technique with default set-                                                                   Note 3. Although the ‘Baseline’ model (a modified version of Krenn
+tings. Figure 2 displays the result, which we call the ‘Map of materi-                                                              et al.14) performs slightly better (area under the curve (AUC) 0.9109)
+als science’ (an interactive version that can be explored on inspire.                                                               than the Concept Embeddings (MatSciBERT) model (AUC 0.8855), the
+aimat.science). We then run nearest neighbour queries26 on the                                                                      performance of the latter already shows that our model architecture can
+concept embeddings to explore whether these 768-dimensional                                                                         use the semantic information contained in the concept embeddings.
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                                                                                                             537
+ Article                                                                                                                                                                   https://doi.org/10.1038/s42256-026-01206-y
+
+
+     a 1.0                                                                            b 1.0                                                                             c 1.0
+                                                     0.20
+
+
+                     0.8                             0.15                                              0.8                                                                              0.8
+
+                                                     0.10
+
+
+
+
+True positive rate                                                                True positive rate                                                               True positive rate
+                     0.6                             0.05                                              0.6                                                                              0.6
+
+
+                                                       0
+                                                            0    0.001   0.002
+                     0.4        Baseline: NN @ Features          AUC: 0.9109                           0.4        Baseline: NN @ Features          AUC: 0.8791                          0.4        Baseline: NN @ Features          AUC: 0.6714
+                                GNN @ Features                   AUC: 0.9288                                      GNN @ Features                   AUC: 0.8975                                     GNN @ Features                   AUC: 0.8256
+                                Embeddings: NN @ MatSciBERT      AUC: 0.8855                                      Embeddings: NN @ MatSciBERT      AUC: 0.8511                                     Embeddings: NN @ MatSciBERT      AUC: 0.8256
+                                NN @ Features + MatSciBERT       AUC: 0.9147                                      NN @ Features + MatSciBERT       AUC: 0.8832                                     NN @ Features + MatSciBERT       AUC: 0.6920
+                                Mixture: Baseline & Embeddings   AUC: 0.9372                                      Mixture: Baseline & Embeddings   AUC: 0.9123                                     Mixture: Baseline & Embeddings   AUC: 0.7830
+                     0.2                                                                               0.2                                                                              0.2        Mixture: GNN & Embeddings
+                                Mixture: GNN & Embeddings        AUC: 0.9433                                      Mixture: GNN & Embeddings        AUC: 0.9163                                                                      AUC: 0.8387
+                                NN @ BERT                        AUC: 0.8547                                      NN @ BERT                        AUC: 0.8119                                     NN @ BERT                        AUC: 0.7914
+                                Fine-tuned MatSciBERT            AUC: 0.8813                                      Fine-tuned MatSciBERT            AUC: 0.8520                                     Fine-tuned MatSciBERT            AUC: 0.7928
+                                Random                                                                            Random                                                                           Random
+                      0                                                                                 0                                                                                0
+                           0   0.2       0.4         0.6         0.8        1.0                              0   0.2       0.4         0.6         0.8       1.0                              0   0.2       0.4         0.6         0.8       1.0
+                                     False positive rate                                                                 False positive rate                                                            False positive rate
+
+ Fig. 3 | Performance metrics (ROC and the respective AUC) for our link prediction models on the test set (Ttest = [2020, 2022]). Markers highlight the performances
+ at a threshold of 0.5. a, ROC curves on all data points with a zoomed-in view of the low-false-positive-rate region in the inset. b,c, The respective performance metrics
+ for dprev = 2 (b) and dprev = 3 (c). Best result is in bold.
+
+
+
+ A GNN model based on the GraphSAGE architecture surpasses the                                                                   the 307 emerging edges (94.5%) in the test set, 290 were found to have
+ Baseline model with an AUC of 0.9288, suggesting that while both                                                                dprev = 2, while only 17 (5.5%) had a previous distance of 3, which shows
+ models access the same input features, the GNN effectively leverages                                                            that the proximity of two nodes in the concept graph increases the
+ additional structural signals to improve performance. The Pure Text                                                             probability for a new edge to form between them. Samples at dprev = 4
+ Baseline (implemented via a fine-tuned MatSciBERT17) also exploits this                                                         were scarce (0.2% of the total samples, all negatives) and therefore
+ semantic information and performs similarly overall, but at a 5× higher                                                         excluded from further analysis.
+ inference cost; while overall performance was similar, worse results                                                                  While the Baseline model tends to correctly predict emerging
+ were achieved for emerging links between nodes which were previously                                                            edges primarily at a distance of 2 (212 of 213 true positives have dprev = 2)
+ connected through more than one intermediate node. Furthermore,                                                                 with a recall of 73.1%, it performs much worse for dprev = 3 (recall 5.9%).
+ the performance of the three hybrid models demonstrates that the link                                                           By contrast, the Concept embeddings model achieves a significantly
+ prediction task benefits from incorporating semantic knowledge on                                                               better recall of 35.3% (P < 0.05, DeLong test28 for dprev = 3 while only
+ top of local graph features: While the Combination of features model                                                            slightly compromising on the recall at dprev = 2 (70.0%). Notably, the
+ already shows a slightly improved AUC of 0.9147, the Mixture of Base-                                                           GNN model matches this performance at dprev = 3, demonstrating that
+ line and Embeddings and Mixture of GNN and Embeddings models                                                                    improved structural processing can rival the benefits of semantic
+ approach exhibits a substantial performance leap in the AUC metric,                                                             embeddings for distant connections. The results are summarized in
+ which reaches a maximum of 0.9433 when scaling the GNN and Con-                                                                 Extended Data Table 1. The high number of false positives, especially
+ cept embeddings model predictions by 0.5 and 0.5, respectively. We                                                              at dprev = 3 is not a problem in itself because those combinations may
+ speculate that gradient descent optimization on a unified feature vector                                                        remain scientifically plausible and will subsequently be evaluated by
+ (concatenating the features of the Baseline and Concept embeddings                                                              human scientists. Hence, we prioritize recall over precision in order
+ model)—as it is done in the Combination of features model—might not                                                             not to miss valuable ideas.
+ be as effective as optimizing them individually. The distinct nature of                                                               Note that optimizing the classification metrics by changing the
+ baseline features versus high-dimensional concept embeddings could                                                              classification threshold of 0.5 for a positive prediction is outside the
+ lead to the gradient for each batch becoming a suboptimal compromise                                                            scope of this work, which mainly aims at rating non-existing links with
+ between the gradients suited for each feature type in isolation. While                                                          respect to their future emergence rather than accurately predicting
+ MatSciBERT may under-represent emerging or interdisciplinary con-                                                               whether a new link will form or not.
+ cepts, it still benefits from the base BERT knowledge, and tokenization                                                               In addition, we also separately calculated the ROC curves and
+ ensures meaningful embeddings (Fig. 4; Methods). In our experiments,                                                            the corresponding AUCs for both dprev = 2 and dprev = 3, and the results
+ MatSciBERT (AUC 0.8855) outperformed BERT (AUC 0.8547), indicat-                                                                (Fig. 3b,c) emphasize the Baseline model’s failure to correctly catego-
+ ing an advantage of domain-specific embeddings, although BERT still                                                             rize most positives with dprev = 3. This not only highlights the inherent
+ offers a reasonable baseline.                                                                                                   challenge of predicting positives at greater distances but also indicates
+       We further investigated the predicted new links with regard to                                                            that integrating semantic information enhances the model’s ability to
+ the previous node distance dprev, that is the shortest path distance                                                            forecast connections between concept pairs that are further apart in
+ between two nodes in the time range of the test set Ttest = [2020, 2022]                                                        the graph. However, these emerging connections with larger previous
+ before they become directly connected. An analysis of the graph shows                                                           node distances are particularly interesting and hold great potential to
+ its dense interconnectedness as certain prevalent concepts in mate-                                                             broaden the scientific scope beyond the more obvious new research
+ rials science, such as ‘mechanical property’ and ‘X ray diffraction’                                                            directions. Ultimately, the Mixture of GNN and Embeddings yields the
+ (Supplementary Table 1), have edges with the majority of nodes, which                                                           highest AUC for these distant connections, outperforming the indi-
+ leads to a large number of short distances between many concept pairs.                                                          vidual models by effectively combining structural and semantic signals.
+ Although the graph consists of 137,000 nodes, nearly all of the unlinked                                                              We also evaluated our Baseline model on the Science4Cast bench-
+ concept pairs in the test set were already connected through one (dprev                                                         mark, where it achieved an area under the receiver operating character-
+ = 2, 43.3%) or two (dprev = 3, 56.5%) concepts. The distribution of dprev is                                                    istic of 0.9088, ranking second among all reported approaches by Krenn
+ even more biased towards short paths for the positive samples, mean-                                                            et al.14. This finding demonstrates that a deep NN trained on a large set
+ ing the connections that actually formed during the test period. Of                                                             of semantically meaningful features can outperform most competing
+
+
+ Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                                                                                                              538
+Article                                                                                                           https://doi.org/10.1038/s42256-026-01206-y
+
+
+ Concepts                                                   Tokenized concepts                                                        Embedded concepts
+
+
+    Mechanical stress                                            [4,487, 1,893]                                    Mechanical stress : average over x6, x7, x38,and x39
+      Nitride film                                           [7,849, 390, 5,796]                                                 Nitride film: average over all xi
+                                  Tokenizer                                                 Embed
+                                 (MatSciBERT)                                            (MatSciBERT)
+ Abstract                                                 Tokenized abstract                                      Abstract with local token embeddings
+
+   Effect of deposition conditions on mechanical             [102, 907, 131, 7,146, 1,245, 191, 4,487, 1,893,           [x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10,
+   stress and microstructure of sputter-deposited           137, 19,712, 131, 16,044, 192, 579, 10,507, 3,903,      x11, x12, x13, x14, x15, x16, x17, x18, x19, x20, x21,
+   molybdenum and reactively sputter-deposited              21,324, 1,982, 200, 137, 6,608, 179, 16,044, 192,
+                                                                                                                     x21, x22, x23, x24, x25, x26, x27, x28, x29, x30,
+molybdenum nitride films. A combined investigation       579, 10,507, 3,903, 21,324, 1,982, 200, 7,849, 390,
+                                                                                                                   x31, x32, x33, x34, x35, x36, x37, x38, x39, x40,
+of mechanical stress generation by in situ substrate      7,423, 205, 106, 3,109, 4,534, 131, 4,487, 1,893,
+             curvature measurements...                       3,014, 214, 121, 2,333, 4,061, 9,482, 2,354, 103]             x41, x42, x43, x44, x45, x46, x47]
+
+
+
+Fig. 4 | Example of calculating concept embeddings from an abstract.                   Embeddings of non-verbatim concepts (‘nitride film’ is only present in the abstract
+Embeddings of verbatim concepts (‘mechanical stress’) are calculated by averaging      in its unnormalized form ‘nitride films’) are calculated as the average of all token
+all local MatSciBert embeddings of the corresponding tokens (4,487 and 1,893).         embeddings. x represents the embedding vectors of the tokens.
+
+
+
+
+methods, including those based on common neighbours and node-                         Table 2 | Amount of suggestions categorized by researchers
+2vec embeddings combined with a Transformer architecture6,29,30.                      across all interviews, broken down by section of the report
+As Science4Cast does not contain any semantic or text information
+about the meaning of nodes, we could not apply and benchmark our                       Section                                              Occurance
+embedding-based models on the Science4Cast challenge.                                                              Category                   Number                         Fraction
+
+                                                                                                                   A1                         31                             30.7%
+Analysis of human expert evaluation
+As the second part of the model performance analysis, we conducted                                                 A2                         21                             20.8%
+
+interviews with ten materials scientists (human experts). Each expert                   Sown×own                   B                          25                             24.8%
+received an individualized report containing recommended concept                                                   C                          21                             20.8%
+combinations suggested by our prediction model (Mixture of Baseline
+                                                                                                                   D                          3                              3.0%
+and Embeddings). The personalized recommendations were generated
+using the Mixture of Baseline and Embeddings model, which is margin-                                               A1                         17                             22.1%
+ally less performant (<0.01 AUC) than the Mixture of GNN and Embed-                                                A2                         8                              10.4%
+dings model, because the GNNs were only tested at a later stage of our                  Sown×other                 B                          35                             45.4%
+study. The suggestions were subsequently discussed in the interviews
+                                                                                                                   C                          14                             18.2%
+to assess and clarify the proposed concept combinations. The small
+sample size of the interviewees and a potential selection bias limit the                                           D                          3                              3.9%
+robustness of our conclusions and allow only a qualitative analysis and                                            A1                         6                              23.1%
+anecdotal findings. Nonetheless, the expert feedback sheds light on
+                                                                                                                   A2                         1                              03.9%
+the usefulness of the suggestions provided by our model.                                S(many own)×other
+                                                                                                                   B                          3                              11.5%
+Report generation. An overview of the report generation is shown in                                                C                          16                             61.5%
+Extended Data Fig. 1. First, a set of individualized concepts Cown is gener-                                       A1                         17                             19.3%
+ated as the intersection of (1) all concepts extracted from the abstracts
+                                                                                                                   A2                         6                              06.8%
+of the recent publications of the respective researcher and (2) all known
+concepts Cknown in the concept graph. Based on these two sets of con-                   Sfiltered                  B                          36                             40.9%
+                                                                                         own×other
+cepts, we generated researcher-specific suggestions, that is combina-                                              C                          26                             29.5%
+tions of concepts: The first two report sections, Sown×own and Sown×other,                                         D                          3                              3.4%
+contain the top 25 combinations of the own concepts with themselves
+and with all other concepts, respectively. We applied two heuristics
+(avoid generic concepts and avoid combinations that are too similar                   novel, interesting or inspiring (C). In section 4 (S(many own)×other), sugges-
+and too unrelated based on their semantic embeddings) to filter the                   tions were generously already counted as overall interesting (category C)
+suggestions in the second category, resulting in a section Sfiltered
+                                                               own×other
+                                                                        . To          if one of the many concepts in Cown was inspiring in conjunction with
+take the researcher’s full profile into account, the next section                     the proposed other concept. To account for cases in which the partici-
+S(many own)×other contains the top 20 concepts with highly scored connec-             pants were unsure whether to label a suggestion as B or C, an additional
+tions to many own concepts. For the final section of the report (‘LLM                 category D was introduced in the analysis. For further analysis, the first
+curation’), LLMs were queried to select interesting combinations from                 class was divided into already published combinations (A1), which
+the previous sets of combinations and to write a short paragraph with                 were likely missed during dataset generation (for example, very recent
+more information on how the concepts can be combined and why these                    publications or publications outside of the analysed literature corpus)
+specific combinations are promising new research directions. A techni-                and obvious, trivial or very general combinations (A2), which are not
+cal definition of each section is given in Supplementary Note 4.                      necessarily mentioned together in an abstract.
+                                                                                           Of 292 categorized suggestions, 71 suggestions were classified
+Classification of the suggestions. Based on the individual reports                    by the interviewees as already known (class A1), 36 as trivial (class A2),
+described above, a 30-minute interview was conducted with each                        99 as nonsense (class B), 77 as interesting (class C) and 9 as uncertain
+researcher, in which the suggested combinations of concepts were clas-                (class D); an overview of the categorized suggestion is given in Table 2.
+sified as already known (A), nonsensical or not understandable (B) and                Thus, overall, the interviewees considered 26% of all suggested concept
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                                                        539
+Article                                                                                                 https://doi.org/10.1038/s42256-026-01206-y
+
+combinations interesting. An excerpt of combinations per category              Suggestion 2 (‘tensile strain’ + ‘molecular architecture’). Thin-film
+can be found in Supplementary Tables 7 and 8. As mentioned above,              organic and perovskite solar cells comprise multi-layers with mis-
+the number of interview partners is insufficient for a reliable statistical    matched thermal expansion coefficients. Temperature excursions
+analysis; for example, the total number of classifications per researcher      during coating, annealing and operation impose tensile strain at
+ranged between 18 and 48, with per-participant variance ranging from           these organic–inorganic interfaces. Such strain drives delamination
+5.04 to 51.36. An overview of the classified combinations per researcher       and point defect formation, accelerating performance loss. While
+and per-participant variance can be found in Supplementary Fig. 20             strain engineering is routine in inorganic semiconductors, it is rarely
+and Supplementary Table 6.                                                     applied in soft matter photovoltaics. Molecular architecture provides
+      To evaluate the usefulness of the ‘LLM Curation’ approach, we            a complementary lever: Greater torsional flexibility lowers the film
+analysed how many of the combinations suggested by an LLM are later            modulus and dissipates stress. Thus, the AI-proposed link ‘tensile
+labelled as interesting. Supplementary Table 5 presents the confusion          strain + molecular architecture’ highlights an under-exploited stability
+matrix of the variables ‘Suggested by an LLM’ and ‘Is Interesting’ (rated      pathway. In 2024, Brabec and Friederich showed that hole transport
+as C by a human expert). We observed a rounded precision of 47%                layers containing triphenylamine derivatives show an enhanced power
+regarding the LLM selecting interesting concepts; that is, of the 53           conversion efficiency by accommodating strain31. These studies cor-
+concepts suggested by the LLM as interesting, 24 were also labelled as         roborate strain-aware molecular design as a broadly applicable inter-
+interesting by the scientists. This is a substantial improvement in pre-       face strategy. Systematic exploration could extend device lifetimes
+cision compared to 61 of 266 (23%) concept combinations analysed in            without compromising performance.
+total. In this context, the recall is not of primary interest as the LLM was
+only allowed to select a limited number of combinations as described           Suggestion 3 (‘multiphase structure’ + ‘selective laser melting’).
+above. An analysis of the previous node distances of the suggested             Microstructure denotes all internal structural features—from lattice
+combinations across all reports showed that 5 of 9 concept pairs at            arrangement to point, line, planar and volumetric defects—across
+dprev = 3 were rated as category C. This high ratio of interesting combi-      relevant length scales. These features dictate the mechanical and
+nations underpins our previous assumption that including semantic              functional response and thus allow a rational selection of materials.
+information in the prediction model increases its capability to foster         A central attribute is the spatial distribution of phases, each possess-
+out-of-the-box thinking.                                                       ing uniform crystal structure and composition. Technical alloys and
+      In retrospect, groundbreaking ideas sometimes seemed absurd              ceramics are typically multiphase, generated through controlled
+at first. Interviewees repeatedly categorized a combination as B (‘non-        thermo-mechanical processing. Phase topology manipulation ena-
+sense’) only to change their minds after some reconsideration or when          bles simultaneous optimization of strength, toughness, corrosion
+seeing that suggestion again in the ‘LLM Curation’ section with an             resistance and functional properties. Selective laser melting (SLM)
+elaboration on how the combination could be realized. The exemplary            fabricates components by layer-wise laser melting of metal powders
+paragraph often helped researchers to judge the usefulness of concept          directly from digital models. The extreme heating-cooling rates inher-
+combinations. We speculate that the task of generating one’s own               ent in SLM impose strong non-equilibrium solidification conditions.
+hypotheses on how concepts could be connected is inherently more               The resulting parts frequently exhibit metastable, compositionally
+difficult than judging an existing proposal.                                   heterogeneous multiphase microstructures. These structures can
+      Furthermore, many combinations could not be classified, espe-            elevate hardness and corrosion resistance, yet they may also induce
+cially in the sections ‘Other Concept Combinations’ and ‘Filtered Other        residual stresses. Therefore, elucidating phase-formation pathways
+Concept Combinations’. This is attributable to the vast number of              during SLM represents a critical avenue for advanced materials design.
+concepts in Cknown, many of which the interviewees had never heard
+of. To allow researchers to navigate unknown suggestions, additional           Suggestion 4 (‘stress-induced phase transformation’ + ‘hexagonal
+context, such as the original abstract, might prove helpful.                   boron nitride’). Stress-induced phase transformation toughening, exem-
+                                                                               plified by the tetragonal to monoclinic switch in zirconia, suppresses
+Examples of human expert evaluation                                            crack advance through local volume expansion. An alternative route
+To illustrate the value of the suggested combinations of concepts in           uses elastic anisotropy; in pearlitic wires, load-parallel micro-cracks raise
+more detail, we discuss five selected examples of category C sugges-           both strength and toughness. Applying these principles to boron nitride
+tions by putting them into context and describing why these combi-             asks whether hexagonal BN (h-BN) can function as a transformation-
+nations are interesting. A more detailed discussion of all five concept        or anisotropy-assisted toughener. Cubic BN (c-BN) is a dense, super-
+combinations can be found in Supplementary Information.                        hard phase, and pressure-driven c-BN to h-BN transitions could release
+                                                                               crack-tip stresses. h-BN displays strong in-plane versus out-of-plane
+Suggestion 1 (‘conventional ceramic’ + ‘graphene oxide’). This sug-            stiffness contrast, enabling guided micro-crack arrays akin to the pearlite
+gestion associates ‘conventional ceramics’ with ‘graphene oxide’, two          mechanism. A coupled h-BN anisotropy and c-BN/h-BN transformation
+domains seldomly combined. Conventional oxide ceramics provide                 would thus offer simultaneous crack deflection and compressive shield-
+chemical, thermal and structural stability. Graphene oxide offers              ing. Recent c-BN/h-BN composites show higher hardness and fracture
+a high-surface-area, electronically conductive carbon framework.               energy, indicating technological promise. However, the role of a revers-
+Their union could yield composites marrying ceramic robustness                 ible transformation in these gains remains experimentally unverified.
+with rapid charge and heat transport, relevant to batteries, catalysis         Targeted high-pressure mechanical tests with in situ diffraction are
+and thermal barriers. Existing studies mix pre-synthesized oxides with         required to resolve transformation kinetics and toughening contribu-
+graphene derivatives, giving limited interfacial contact. We show pre-         tions. Establishing these links could generalize anisotropy-assisted
+liminary data of a ~200-nm iron oxide shell on multilayer graphene in          transformation toughening to lightweight nitride coatings.
+Extended Data Fig. 2 (unpublished). The in situ process creates intimate
+oxide–graphene interfaces and a continuous conductive network.                 Suggestion 5 (‘in-plane polarization’ + ‘organic solar cell’). Fer-
+Electrochemical tests show a high reversible capacity and enhanced             roelectric in-plane polarization, recently demonstrated in MAPbI3
+redox kinetics in Li-ion conversion cells. These findings demonstrate          perovskites, spatially separates photocarriers and channels them
+the model’s capacity to provide inspiration for overlooked but feasible        towards electrodes. The model’s suggestion indicates that similar
+synthesis strategies. Systematic exploration of AI-highlighted ceramic/        lateral dipole fields could be engineered in organic absorbers. Asym-
+graphene hybrids may accelerate multifunctional material discovery.            metric polar moieties, oriented during self-assembly or within covalent
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                          540
+Article                                                                                              https://doi.org/10.1038/s42256-026-01206-y
+
+organic frameworks, may supply the required non-centrosymmetry.              venues39. The retrieved papers were filtered based on language, length
+The resulting internal field should enhance carrier separation and           and whether they had an abstract. For each publication, the title and
+transport, while a higher dielectric constant lowers exciton binding and     abstract were cleaned and concatenated. Chemical formulae were
+monomolecular recombination. Ferroelectricity has so far been veri-          extracted, stored separately and later merged with the extracted con-
+fied only for halide perovskites32–34, and is absent in silicon or conven-   cepts. The resulting dataset comprised approximately 221,000 articles
+tional organic cells35,36. Piezoelectric polymers such as polyvinylidene     published between 1955 and 2022, with relevant attributes being ‘title’,
+fluoride already exploit oriented dipoles in sensing devices, suggesting     ‘abstract’ and ‘publication date’. A more detailed description of the
+viable processing routes. Earlier attempts to raise organic permittivity     dataset generation is given in Supplementary Note 7.
+show limited success, and deliberate in-plane polarization remains
+unexplored37. Hence, the predicted concept defines a tractable, new          Concept extraction
+direction for photovoltaic materials research.                               Previous work used RAKE for concept extraction in conjunction with
+                                                                             manual filtering to remove errors. These errors included phrases that
+Discussion                                                                   did not represent semantic information and that were introduced by
+In the first part of this study, we showed that the power of LLMs, espe-     imperfections in RAKE’s statistical analysis12–14. Instead, we opted to
+cially LLaMa-2-13B, can be harnessed to extract scientific concepts—         extract concepts using fine-tuned LLMs (Fig. 1). To create a dataset
+vaguely defined as key phrases—from scientific texts. We established         for fine-tuning, 100 randomly chosen abstracts were first manually
+a methodology for fine-tuning open-source LLMs based on small                annotated by extracting and partially adjusting or even paraphras-
+manually labelled abstracts, which guides the LLM to extract only rel-       ing relevant and meaningful concepts as a preliminary step. Manual
+evant concepts. The initial training data can be iteratively extended        annotation is particularly sensitive to the labeler because there is no
+by humanly corrected LLM annotations to further improve the extrac-          unique way of extracting and defining concepts. Subsequently, we
+tion process, but no human verification is required to check the final       fine-tuned the LLaMa-2-13B base model40,41 on our manually annotated
+221,000 labelled data points. Follow-up studies may investigate              abstracts for 4 epochs, using a learning rate of 5 × 10−4 and a batch size
+whether prioritizing quality over quantity38 in the annotated training       of 1 (Supplementary Note 8). Llama-2 models were state of the art when
+examples, by using fewer but carefully selected data points, could yield     the work was performed in 2023, but future iterations of this work will
+more accurate and representative extracted concepts, and whether             use newer models. The size of the model is a trade-off between accu-
+including synthetic data can help to accelerate the annotation process       racy and cost, as it is the largest model that can process 20 abstracts
+and further enhance model performance.                                       at once on an A100 GPU with 80 GB of video random access memory.
+     In addition, we created a concept graph, derived from the previ-        To accelerate training and especially inference, we incorporated 8-bit
+ously extracted materials science concepts and the dates of the cor-         quantization42 and low-rank adaptation techniques43,44 using Hugging
+responding publications. This graph was successfully used to predict         Face’s parameter-efficient fine-tuning module45.
+emerging links between previously unconnected concepts, underscor-                 Similar to Dunn et al.’s assisted annotation process4, the fine-tuned
+ing that a simple graph representation suffices for this task. Finally,      model’s outputs were compared in the third step to the concepts
+we demonstrated that integrating semantic knowledge in the form of           extracted using GPT-3.57 to efficiently identify and correct common
+concept embeddings boosts the predictive performance of our model.           mistakes made by the fine-tuned model. To do so, we labelled 100
+Combining the GNN approach with semantic features is possible and            additional abstracts, and the base model was again fine-tuned on a
+will be explored in future work. We investigated the usefulness of our       larger dataset of 200 abstracts. The process of iteratively adding more
+model in a real-world scenario through qualitative interviews with           automatically extracted and manually corrected concepts to fine-tune
+domain experts, who rated 77 out of 292 (26%) generated recommenda-          the model with more data points could, in principle, be repeated more
+tions as interesting. While this rate may sound modest, each 30-minute       often, but 200 labelled abstracts were enough for our use case. Finally,
+session still yielded several promising ideas, making the outcome            the resulting model was employed to extract concepts from approxi-
+practical for guiding research.                                              mately 221,000 abstracts in our dataset, requiring approximately
+     In summary, we demonstrated that ML tools can be used to auto-          160 GPU hours. Future updates of our concept graph would be sub-
+matically process the vast amount of scientific literature and to predict    stantially less demanding, as only incremental (delta) extraction is
+future research directions that have not previously been explored to         required. Future developments in LLM research might enable a com-
+foster innovation and advancements. While this work focused on the           plete re-evaluation with higher quality and reliability. After extraction,
+material sciences as a use case, the developed approach can easily be        we conducted minor post-processing of the extracted concepts by
+extended to other research areas. By suggesting potential new research       removing the remaining plural forms. We note that some bias was intro-
+directions, we hope to drive innovation and collaboration in the field.      duced by the selection of 200 abstracts with 3,102 distinct concepts,
+                                                                             as they were all from materials science, and observe that our method
+Methods                                                                      did not extract, for example, core-biology concepts.
+The key steps of our approach are depicted in Extended Data Fig. 3.
+After gathering the abstracts of a large number of research publica-         Concept graph
+tions in the domain of materials sciences, we extracted the main con-        The concepts extracted from the materials science literature in our
+cepts, that is short key phrases consisting of few words from these          dataset are represented in a multi-graph G = (V, E), where V and E are
+abstracts, and used them as nodes in a concept graph that mirrors the        the respective sets of nodes and edges. In this concept graph, each
+(time-dependent) connectivity of the materials science concepts in           node v ∈ V represents a distinct concept and each edge e ∈ E represents
+literature. In the final step of our workflow, we performed link predic-     the co-occurrence of two concepts in a single abstract. Each edge is
+tion on this graph based on both network properties, for example,            labelled with a timestamp t, indicating the publication date of the
+connectivity information and semantic knowledge about the concepts           abstract containing both concepts, where Gt denotes a subgraph of G
+captured in aggregated word embeddings.                                      defined by the edge list that only includes all edges with time stamps
+                                                                             ≤t. Therefore, every abstract generates a fully connected clique of its
+Dataset                                                                      concepts in the concept graph. Multiple edges can exist between each
+We prepared a dataset of published papers related to materials sci-          pair of nodes if the concepts co-occurred in more than one abstract.
+ence. Data were obtained from OpenAlex by querying all publications               To enrich the nodes of our concept graph with semantic infor-
+listed at materials science-related journals, conferences and other          mation, we calculated concept embeddings and used them as node
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                       541
+Article                                                                                                        https://doi.org/10.1038/s42256-026-01206-y
+
+features. Figure 4 summarizes the procedure of calculating concept                     the MatSciBERT model directly to predict the likelihood of two con-
+embeddings using MatSciBERT17: First, both the entire abstract and                     cepts becoming connected in our concept graph, thus yielding the
+the previously extracted concepts are tokenized and the embeddings                     Pure Text Baseline model.
+are then calculated for the tokenized abstract. The next step consists                       The Baseline model was then combined with the Concept embed-
+of locating all instances of a concept in the abstract and averaging the               dings model in two hybrid models, the first of which (Combination of
+embeddings of the tokens corresponding to the concept. For example,                    features) used a concatenation of the feature vectors from the two
+the concept ‘mechanical stress’ is tokenized as [4,487, 1,893], and its                previous models as the input. The hyperparameters of all NNs were
+embedding is calculated as the average of the corresponding repre-                     optimized using a comprehensive grid search varying the number of
+sentations in the embedded abstract at the positions of the sequence                   neurons per layer, the percentage of positive samples in each batch, the
+[4,487, 1,893] in the tokenized abstract. To derive a singular representa-             learning rate and the dropout probability (see Supplementary Table 9
+tion for each concept per abstract, we average the embeddings of all its               for a list of optimized hyperparameters).
+occurrences. In cases where a concept does not appear verbatim in an                         The second hybrid model (Mixture of Baseline and Embeddings)
+abstract—for example, due to the normalization processes during the                    uses a weighted output of the optimized Baseline and Concept embed-
+initial concept extraction—we take the mean embedding of all tokens                    dings (MatSciBERT) models, where an optimal weighting of 3:2 was
+(while excluding the start and end token in the abstract as its representa-            determined using hyperparameter optimization. We acknowledge
+tion). As the final step, we calculated the average embedding for identi-              many other possible hybrid models exist aside from concatenating the
+cal concepts across different abstracts to obtain a single embedding for               two input vectors and calculating the weighted average of the output
+each concept and thus for each node. To prevent information leakage,                   probabilities, as the two parts of the input could be passed through a
+embeddings used for training and testing were computed only from                       first set of layers separately before the two outputs are concatenated
+text available up to the corresponding cutoff year.                                    and passed through a second set of layers. However, optimizing the
+                                                                                       architecture of the NN was outside the scope of this study, as our goal
+Link prediction                                                                        mainly consisted of showing that including the concept embeddings
+The previous method used by Krenn et al. to predict new links in their                 improves link prediction.
+concept graph exclusively relied on abstract local graph properties,                         To explicitly capture local neighbourhood structures through
+either through a purely graph-theoretical approach using hand-crafted                  message passing, we implemented a GNN model. Given the large-scale
+features in conjunction with ML or through employing end-to-end ML                     and hub-heavy nature of the network, we employed neighbour sam-
+methods12,14. Here we investigate whether integrating semantic knowl-                  pling to enable efficient training, initializing the node representations
+edge about the concepts can improve link prediction. In particular,                    with the topological vectors from the Baseline model. This architecture
+we use concept embeddings—that is, high-dimensional vectors that                       utilizes a 2-layer GraphSAGE encoder46 with neighbour sampling to
+capture semantic information—to make the semantic information                          compute node embeddings based on the graph topology at Tstart,train. A
+integrable into the link prediction task.                                              multilayer perceptron decoder was employed to classify the concat-
+       Given the concept graph G, we treat link prediction as a binary                 enated node embeddings.
+classification task. Thus, the objective of the ML model is to predict                       Finally, we constructed a Mixture of GNN and Embeddings model
+whether a new edge is formed between an arbitrary pair of previously                   as a third hybrid model, analogous to the Mixture of Baseline and
+unconnected vertices (u, v) in the time range T = [Tstart, Tend]. We chose             Embeddings approach described above. This ensemble calculates a
+Tstart,train = 2017 and Tend,train = 2019 for training, which means that our           weighted average (1:1) of the output probabilities from the GNN and
+model had access to the entire data up to and including 2016 while its                 the Concept embeddings (MatSciBERT) models.
+predictions were made for the years 2017, 2018 and 2019. We illustrate                       To avoid overfitting, we monitored the AUC—a summary metric we
+link prediction on a rudimentary concept graph in Extended Data Fig. 4.                derive from the ROC—on a potentially out-of-distribution validation
+       The prediction task has an inherent strong label imbalance as                   set with Tstart,validation = 2020 and Tend,validation = 2022.
+the likelihood of a randomly selected vertex pair (u, v) forming a link
+throughout 3 years is extremely low. While there are, for example,                     Human domain experts
+18.7 billion possible new edges that could form between 2017 and                       The human domain experts who participated in the interviews were
+2019, only 1.3 million new edges (0.007%) were observed during this                    affiliated with different institutes at different institutions and were
+period. To address this imbalance, we oversampled positive labels by                   recruited to cover a wide range of topics within materials science. Of the
+using a fixed percentage (30%) of positive examples per batch in the                   13 researchers who were invited, 10 agreed to participate in the study
+training process. This oversampling during training shifts the trade-off               and the interviews. All participants were professors or independent
+between precision and recall in imbalanced tasks towards higher recall                 group leaders. No interviews were excluded from the study.
+at the cost of losing precision, thus favouring the generation of larger
+sets of suggestions that may contain inspiring concept combinations                    Data availability
+over smaller sets in which some valuable ideas might not be included.                  The minimum dataset required to interpret, verify and extend the
+       A modified version of Krenn et al.’s densely connected NN14, which              results of this study (including the processed graph, feature vectors,
+relies purely on graph properties at different points in time, was used                models and their evaluation metrics) is available via figshare at https://
+                                                                          n
+as the Baseline model. Specifically, the degree of a node u ( ∑i=1 Au,i) and           doi.org/10.6084/m9.figshare.29315819 (refs. 47).
+                                                n    2
+the sum of all 2-length paths from u ( ∑i=1 Au,i ) were calculated for dif-
+ferent years in the range t = [Tstart,train − 5, Tstart,train − 1], where At denotes   Code availability
+the binary adjacency matrix of Gt. These features were then concate-                   The code used to produce the results of this study is publicly available
+nated for a given pair of nodes (u, v) to result in a 20-dimensional                   via Zenodo at https://doi.org/10.5281/zenodo.18466587 (ref. 48). The
+baseline feature vector. In the second Concept embeddings (MatSciB-                    source code is licenced under the GPL 3.0+ Licence and the active devel-
+ERT) model, the concatenated concept embeddings of u and v were                        opment repository can be accessed at https://github.com/aimat-lab/
+used instead as the (1,536-dimensional) feature vector for the NN                      materials_concepts.
+classifier, to test their information content and relevance for the link
+prediction task. We repeat the embedding generation process with                       References
+BERT, yielding a modified Concept embeddings (BERT) model. To                          1.   Uzzi, B., Mukherjee, S., Stringer, M. & Jones, B. Atypical
+explore another way of utilizing semantic information, we fine-tuned                        combinations and scientific impact. Science 342, 468–472 (2013).
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                               542
+Article                                                                                               https://doi.org/10.1038/s42256-026-01206-y
+
+2.  Varshney, L. R. et al. A big data approach to computational creativity:    23. Keya, F. et al. SCI-IDEA: context-aware scientific ideation using
+    the curious case of Chef Watson. J. Res. Dev. 63, 7:1–7:18 (2019).             token and sentence embeddings. Preprint at https://arxiv.org/
+3. Pinel, F., Varshney, L. & Bhattacharjya, D. in Computational                    abs/2503.19257 (2025).
+    Creativity Research: Towards Creative Machines (eds Besold, T.             24. Schmidhuber, J. Artificial scientists & artists based on the formal
+    et al.) Ch. 16 (Atlantis, 2014).                                               theory of creativity. In Proc. 3rd Conference on Artificial General
+4. Dagdelen, J. et al. Structured information extraction from                      Intelligence (eds Goertzel, B. et al.) 148–153 (Atlantis, 2010).
+    scientific text with large language models. Nat. Commun. 15, 1418          25. McInnes, L., Healy, J., Saul, N. & Großberger, L. UMAP: uniform
+    (2024).                                                                        manifold approximation and projection. J. Open Source Softw. 3,
+5. Evans, J. A. & Rzhetsky, A. Advancing science through mining                    861 (2018).
+    libraries, ontologies, and communities. J. Biol. Chem. 286, 23659–         26. Pedregosa, F. et al. Scikit-learn: machine learning in Python.
+    23666 (2011).                                                                   J. Mach. Learn. Res. 12, 2825–2830 (2011).
+6. Vaswani, A. et al. Attention is all you need. Adv. Neural Inf. Process.     27. Fawcett, T. ROC Graphs: notes and practical considerations for
+    Syst. 30, 5998–6008 (2017).                                                    researchers. Mach. Learn. 31, 1–38 (2004).
+7. Brown, T. B. et al. Language models are few-shot learners. Adv.             28. DeLong, E. R., DeLong, D. M. & Clarke-Pearson, D. L. Comparing
+    Neural Inf. Process. Syst. 33, 1877–1901 (2020).                               the areas under two or more correlated receiver operating
+8. Torfi, A., Shirvani, R. A., Keneshloo, Y., Tavaf, N. & Fox, E. A. Natural       characteristic curves: a nonparametric approach. Biometrics 44,
+    language processing advancements by deep learning: a survey.                   837–845 (1988).
+    Preprint at https://arxiv.org/abs/2003.01200 (2021).                       29. Liben-Nowell, D. & Kleinberg, J. The link-prediction problem for
+9. Kojima, T., Gu, S. S., Reid, M., Matsuo, Y. & Iwasawa, Y. Large                 social networks. J. Ame. Soc. Inf. Sci. 58, 1019–1031 (2007).
+    language models are zero-shot reasoners. Adv. Neural Inf.                  30. Grover, A. & Leskovec, J. node2vec: scalable feature learning for
+    Process. Syst. 35, 22199–22213 (2022).                                         networks. In Proc. 22nd ACM SIGKDD International Conference
+10. Bubeck, S. et al. Sparks of artificial general intelligence:                   on Knowledge Discovery and Data Mining (eds Krishnapuram, B.
+    early experiments with GPT-4. Preprint at https://arxiv.org/                   et al.) 855–864 (ACM, 2016).
+    abs/2303.12712 (2023).                                                     31. Wu, J. et al. Inverse design workflow discovers hole-transport
+11. Norouzi, E., Hertling, S. and Sack, H. ConExion: concept                       materials tailored for perovskite solar cells. Science 386,
+    extraction with large language models. Preprint at https://arxiv.              1256–1264 (2024).
+    org/abs/2504.12915 (2025).                                                 32. Rossi, D. et al. On the importance of ferroelectric domains for the
+12. Krenn, M. & Zeilinger, A. Predicting research trends with semantic             performance of perovskite solar cells. Nano Energy 48, 20–26
+    and neural networks with an application in quantum physics.                    (2018).
+    Proc. Natl Acad. Sci. USA 117, 1910–1916 (2020).                           33. Röhm, H., Leonhard, T., Hoffmann, M. & Colsmann, A.
+13. Rose, S., Engel, D., Cramer, N. and Cowley, W. in Text Mining:                 Ferroelectric domains in methylammonium lead iodide perovskite
+    Applications and Theory (eds Berry, M. W. & Kogan J.) Ch. 1 (Wiley,            thin-films. Energy Environ. Sci. 10, 950–955 (2017).
+    2010).                                                                     34. Schulz, A., Braun, M., Colsmann, A., Hinterstein, M. & Röhm, H.
+14. Krenn, M. et al. Forecasting the future of artificial intelligence             Ferroelectricity and crystal phases in mixed-cation lead iodide
+    with machine learning-based link prediction in an exponentially                perovskite solar cells. Solar RRL 6, 2200808 (2022).
+    growing knowledge network. Nat. Mach. Intell. 5, 1326–1335 (2023).         35. Röhm, H. et al. Ferroelectric properties of perovskite thin-films
+15. Devlin, J., Chang, M.-W., Lee, K. & Toutanova, K. BERT: pre-training           and their implications for solar energy conversion. Adv. Mater. 31,
+    of deep bidirectional transformers for language understanding. In              1806661 (2019).
+    Proc. 2019 Conference of the North American Chapter of the ACL:            36. Breternitz, J., Lehmann, F., Barnett, S. A., Nowell, H. & Schorr,
+    Human Language Technologies Vol. 1, 4171–4186 (ACL, 2019).                     S. Role of the iodide-methylammonium interaction in the
+16. Tenney, I., Das, D. & Pavlick, E. BERT rediscovers the classical NLP           ferroelectricity of CH3NH3PbI3. Angew. Chem. Int. Ed. 59, 424–428
+    pipeline. In Proc. 57th Annual Meeting of the ACL 4593–4601 (ACL,              (2020).
+    2019).                                                                     37. Röhm, H., Leonhard, T., Hoffmann, M. J. & Colsmann, A.
+17. Gupta, T., Zaki, M. & Krishnan, N. M. A. & Mausam, MatSciBERT: a               Ferroelectric poling of methylammonium lead iodide thin films.
+    materials domain language model for text mining and information                Adv. Funct. Mater. 30, 1908657 (2020).
+    extraction. npj Comput. Mater. 8, 102 (2022).                              38. Zhou, C. et al. LIMA: less is more for alignment. In Proc. Advances
+18. Ghafarollahi, A. & Buehler, M. J. SciAgents: automating scientific             in Neural Information Processing Systems 36 (eds Oh, A. et al.)
+    discovery through bioinspired multi-agent intelligent graph                    55006–55021 (Curran Associates, 2023).
+    reasoning. Adv. Mater. 37, 2413523 (2025).                                 39. Priem, J., Piwowar, H. & Orr, R. OpenAlex: a fully-open index of
+19. Buehler, M. J. In situ graph reasoning and knowledge expansion                 scholarly works, authors, venues, institutions, and concepts.
+    using Graph-PRefLexOR. Adv. Intell. Discov. 1, e202500006                      Preprint at https://arxiv.org/abs/2205.01833 (2022).
+    (2025).                                                                    40. Touvron, H. et al. LLaMA: open and efficient foundation language
+20. Gu, X. & Krenn, M. Interesting scientific idea generation using                models. Preprint at https://arxiv.org/abs/2302.13971 (2023).
+    knowledge graphs and LLMs: evaluations with 100 research                   41. Touvron, H. et al. Llama 2: open foundation and fine-tuned chat
+    group leaders. Preprint at https://arxiv.org/abs/2405.17044                    models. Preprint at https://arxiv.org/abs/2307.09288 (2023).
+    (2025).                                                                    42. Dettmers, T., Lewis, M., Belkada, Y. & Zettlemoyer, L. LLM.int8():
+21. Wang, Q., Downey, D., Ji, H. & Hope, T. SciMON: scientific                     8-bit matrix multiplication for transformers at scale. Adv. Neural
+    inspiration machines optimized for novelty. In Proc. 62nd Annual               Inf. Process. Syst. 35, 30318–30332 (2022).
+    Meeting of the Association for Computational Linguistics (Volume           43. Hu, E. J. et al. LoRA: low-rank adaptation of large language
+    1: Long Papers) (eds Ku L.-W. et al.) 279–299 (ACL, 2024).                     models. In Proc. 10th International Conference on Learning
+22. Baek, J., Jauhar, S. K., Cucerzan, S. & Hwang, S. J. ResearchAgent:            Representations (ICLR, 2022).
+    iterative research idea generation over scientific literature with         44. Dettmers, T., Pagnoni, A., Holtzman, A. & Zettlemoyer, L. QLoRA:
+    large language models. In Proc. 2025 Conference of the North                   efficient finetuning of quantized LLMs. In Proc. Advances in Neural
+    American Chapter of the ACL: Human Language Technologies                       Information Processing Systems 36 (eds Oh, A. et al.) 10088–10115
+    (ACL, 2025).                                                                   (Curran Associates, 2023).
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                     543
+Article                                                                                         https://doi.org/10.1038/s42256-026-01206-y
+
+45. Mangrulkar, S. et al. Peft: state-of-the-art parameter-efficient    Funding
+    fine-tuning methods. GitHub https://github.com/huggingface/         Open access funding provided by Karlsruher Institut für
+    peft (2022).                                                        Technologie (KIT).
+46. Hamilton, W. L., Ying, Z. & Leskovec, J. Inductive representation
+    learning on large graphs. In Proc. Advances in Neural Information   Competing interests
+    Processing Systems 30 (eds Guyon, I. et al.) 1024–1034 (Curran      The authors declare no competing interests.
+    Associates, 2017).
+47. Marwitz, T. Data for ‘predicting new research directions in         Additional information
+    materials science using llms and concept graphs’. figshare          Extended data is available for this paper at
+    https://doi.org/10.6084/m9.figshare.29315819 (2026).                https://doi.org/10.1038/s42256-026-01206-y.
+48. Marwitz, T. aimat-lab/materials_concepts: code for paper. Zenodo
+    https://doi.org/10.5281/zenodo.18466587 (2026).                     Supplementary information The online version
+                                                                        contains supplementary material available at
+Acknowledgements                                                        https://doi.org/10.1038/s42256-026-01206-y.
+Creating a chemical element parser from scratch is hard. We thank
+Chris Konop for providing an outline of how a chemical formula can      Correspondence and requests for materials should be addressed to
+be recursively defined. This made our implementation much more          Pascal Friederich.
+straightforward. We acknowledge support from the Federal Ministry
+of Education and Research (BMBF) under Grant No. 01DM21001B             Peer review information Nature Machine Intelligence thanks Anurag
+(German-Canadian Materials Acceleration Center) (P.F.). We              Bajpai and the other, anonymous, reviewer(s) for their contribution to
+acknowledge funding by the German Research Foundation (DFG)             the peer review of this work. Peer reviewer reports are available.
+under Germany’s Excellence Strategy via the Excellence Cluster
+‘3D Matter Made to Order’ (3DMM2O, EXC-2082/1-390761711) (P.F.).        Reprints and permissions information is available at
+Funding by the German Research Foundation (DFG) through the             www.nature.com/reprints.
+collaborative research center CRC 1249 N-Heteropolycycles as
+Functional Materials (SFB 1249, Project C13) and through DFG Projekt    Publisher’s note Springer Nature remains neutral with regard to
+436506789 is gratefully acknowledged (P.F.). This work was partly       jurisdictional claims in published maps and institutional affiliations.
+carried out with the support of the Karlsruhe Nano Micro Facility
+(KNMFi, www.knmf.kit.edu), a Helmholtz Research Infrastructure          Open Access This article is licensed under a Creative Commons
+at Karlsruhe Institute of Technology (KIT, www.kit.edu) (B.B.). We      Attribution 4.0 International License, which permits use, sharing,
+acknowledge funding from the Helmholtz Metadata Collaboration           adaptation, distribution and reproduction in any medium or format,
+(HMC) through the project AIMWORKS (P.F.). This work was performed      as long as you give appropriate credit to the original author(s) and the
+on the HoreKa supercomputer funded by the Ministry of Science,          source, provide a link to the Creative Commons licence, and indicate
+Research and the Arts Baden-Württemberg and by the Federal Ministry     if changes were made. The images or other third party material in this
+of Education and Research. We acknowledge support from the state of     article are included in the article’s Creative Commons licence, unless
+Baden-Württemberg through bwHPC (P.F.).                                 indicated otherwise in a credit line to the material. If material is not
+                                                                        included in the article’s Creative Commons licence and your intended
+Author contributions                                                    use is not permitted by statutory regulation or exceeds the permitted
+T.M., T.S. and P.F. wrote the first draft of the paper. All authors     use, you will need to obtain permission directly from the copyright
+commented on previous versions of the paper, and all authors read       holder. To view a copy of this licence, visit http://creativecommons.
+and approved the final paper. P.F. worked on conceptualization and      org/licenses/by/4.0/.
+supervision. T.M. and P.F. worked on the methodology and formal
+analysis. All authors contributed to the investigation.                 © The Author(s) 2026
+
+
+
+
+Nature Machine Intelligence | Volume 8 | April 2026 | 535–544                                                                                 544
+Article                                                                                                          https://doi.org/10.1038/s42256-026-01206-y
+
+
+
+
+Extended Data Fig. 1 | Overview of the report generation. (1) Selection of abstracts of recent publications, (2) Extraction of individual concepts using our fine-tuned
+LLM, and (3) Suggestion of combinations in a standardized report based on our best ML model for link prediction.
+
+
+
+
+Nature Machine Intelligence
+Article                                                                                                      https://doi.org/10.1038/s42256-026-01206-y
+
+
+
+
+Extended Data Fig. 2 | Exfoliated graphene oxide (resulting in multilayer graphene) covered with 200 nm thick iron oxide layers. (a) flake morphology of the
+exfoliated layers, (b) iron oxide layer covering the whole surface.
+
+
+
+
+Nature Machine Intelligence
+Article                                                                                                        https://doi.org/10.1038/s42256-026-01206-y
+
+
+
+
+Extended Data Fig. 3 | Overview of the link prediction workflow. (a) Gathering of materials science abstracts with OpenAlex39, (b) Extraction of concepts using LLMs,
+(c) creation of the semantics-aware concept graph, and (d) prediction of new research directions.
+
+
+
+
+Nature Machine Intelligence
+Article                                                                                                       https://doi.org/10.1038/s42256-026-01206-y
+
+
+
+
+Extended Data Fig. 4 | Example of a concept graph. The concept graph is derived from two articles published 2012 (blue) in and 2015 (orange) with one overlapping
+concept. Possible new edges are marked as dotted grey lines together with their predicted probability of formation in the years 2017 to 2019.
+
+
+
+
+Nature Machine Intelligence
+Article                                                                                                                     https://doi.org/10.1038/s42256-026-01206-y
+
+Extended Data Table 1 | Confusion Matrix Classes
+
+
+
+
+Confusion matrix classes for the link predictions of the baseline, Concept Embeddings, GNN, and GNN-Mixture models split by previous node distances.
+
+
+
+
+Nature Machine Intelligence
+

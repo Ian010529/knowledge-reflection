@@ -1,0 +1,160 @@
+{
+  "decisions": [
+    {
+      "candidate_id": "N1189",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧指塞贝克系数的增强，保留了变化方向，并由PEDOT纳米线中的去掺杂与Soret效应共同决定；右侧指研究离子结构影响时的塞贝克系数本身。增强与被增强的量相关，但不是同一概念，也不存在类型包含关系。",
+      "left_evidence": {
+        "mention_id": "iTE:P0479:n3",
+        "quote_span": "IL-induced dedoping and the Soret effect synchronously determine the Seebeck coefficient enhancement"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0334:n3",
+        "quote_span": "the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients"
+      }
+    },
+    {
+      "candidate_id": "N1190",
+      "proposed_relation": "uncertain",
+      "model_reason": "当前角色不一致：TG:P0201:n3为quantity，TG:P0046:n3为mechanism_process，按要求不能判等价。语义上左侧是氧化还原反应的熵这一量，右侧是电极缺陷及盐所促进的氧化还原反应过程；两者有属性与过程的关联，不能将反应熵直接合并为反应。",
+      "left_evidence": {
+        "mention_id": "TG:P0201:n3",
+        "quote_span": "the thermogalvanic effect, in which the latter includes redox reaction entropy and the Soret effect"
+      },
+      "right_evidence": {
+        "mention_id": "TG:P0046:n3",
+        "quote_span": "The electrodes are oxidized to create Ni and Ni oxide heterostructures, forming numerous O vacancy defects that enhance redox reactions."
+      }
+    },
+    {
+      "candidate_id": "N1191",
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都涉及塞贝克系数，但左节点明确限定为PANI的系数，右侧完整语境对应CuI/NC材料的系数。左侧随温度下降、右侧在给定温区恒定属于各自测量属性；不能删除左节点的PANI限定，也不能将右侧解释成包含PANI的泛称。两者是同类物理量在不同指定材料中的属性，支持关联而非等价或上下位。",
+      "left_evidence": {
+        "mention_id": "iTE:P0866:n3",
+        "quote_span": "The Seebeck coefficient of the PANI decreases with increasing temperature."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0833:n2",
+        "quote_span": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface."
+      }
+    },
+    {
+      "candidate_id": "N1192",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧角色均为interaction，指向离子与聚合物基体之间的相互作用。左侧明确以PEO为基体，通过加入聚碳酸酯增强该作用；右侧说明该作用控制离子塞贝克系数的符号和大小。具体配方与作用后果不同，但未将节点限定为不同相互作用类型，matrix在此明确聚合物的基体身份。",
+      "left_evidence": {
+        "mention_id": "iTE:P0402:n3",
+        "quote_span": "the incorporation of CO2-derived polycarbonate can increase the amorphous region of the PEO matrix and strengthen the ion-polymer interaction"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0600:n1",
+        "quote_span": "We show that the ion-polymer matrix interaction is crucial to control the sign and magnitude of the ionic Seebeck coefficient."
+      }
+    },
+    {
+      "candidate_id": "N1193",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧角色均为mechanism_process，共同指声子所表征的晶格振动动力学。左侧在Bi2Se3晶体中通过光学声子模研究磁性和应变对该动力学的影响；右侧在含金属纳米颗粒的玻璃态硼酸盐中以该动力学解释热传导。晶体与非晶基体及研究用途不同，仍指同一声子动力学概念；右侧电导的电子—离子混合贡献并非该节点所指的热传导机制。",
+      "left_evidence": {
+        "mention_id": "iTE:P1244:n2",
+        "quote_span": "With an increase in the doping concentration, the magnetic and compressive strains induced by impurities dominate the phonon dynamics of materials."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1783:n1",
+        "quote_span": "However, their thermal conductivity (kappa) occurs through phonon lattice vibration dynamics rather than electronic."
+      }
+    },
+    {
+      "candidate_id": "N1194",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧角色均为quantity，均指电极可参与电化学反应的活性表面积。左侧扩大该面积以增加热电化学反应位点，右侧以MXene空心微球结构抑制重堆叠、增加该面积并改善界面氧化还原动力学。电极结构和具体氧化还原体系不同，但测量对象及面积的活性含义一致。",
+      "left_evidence": {
+        "mention_id": "TG:P0169:n2",
+        "quote_span": "a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites"
+      },
+      "right_evidence": {
+        "mention_id": "TG:P0135:n2",
+        "quote_span": "This design addresses the restacking issue inherent in MXene nanosheets, increases the electrochemically active surface area"
+      }
+    },
+    {
+      "candidate_id": "N1195",
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都是用于解释热电势增强的复合量，须同时保留熵与浓度两部分。左侧明确为溶剂化熵变及氧化还原离子的浓度比差异；右侧为I-/I3-体系的熵变及浓度差异。原文没有证明右侧熵变等于溶剂化熵变，也没有证明浓度比差异等于浓度差异，因此只能确认贡献上的关联，不能合并或判定分类学包含。",
+      "left_evidence": {
+        "mention_id": "TG:P0166:n2",
+        "quote_span": "EG boosts thermopower by increasing solvation entropy change and concentration ratio difference of redox ions"
+      },
+      "right_evidence": {
+        "mention_id": "TG:P0179:n4",
+        "quote_span": "The giant thermopowers can be attributed to the simultaneously enhanced entropy change and concentration difference of redox couple enabled by the gelation of methylcellulose and KCl-induced complexation."
+      }
+    },
+    {
+      "candidate_id": "N1196",
+      "proposed_relation": "narrower_than",
+      "model_reason": "左側明确限定为Na+这一离子种类的热扩散，右侧指未限定离子种类的离子热扩散，故左侧是右侧的具体类型。左侧产生输出电压、右侧产生驱动电子或空穴漂移的电场，是过程的不同后果；右侧后续电子输运不改变该节点本身的离子热扩散指代。",
+      "left_evidence": {
+        "mention_id": "iTE:P1707:n1",
+        "quote_span": "Thermodiffusion of Na+ generated an output voltage"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0380:n1",
+        "quote_span": "Electrons/holes can drift under the electric field generated by thermodiffusion of ions"
+      }
+    },
+    {
+      "candidate_id": "N1197",
+      "proposed_relation": "uncertain",
+      "model_reason": "iTE:P1725:n1中的substitution是指代此前某次取代的泛称，仅说明其预期在SrMnO3中产生氧空位，缺少取代元素和被取代位点。iTE:P1158:n1则明确为Al-Pd-Re准晶中Co取代Re。不能将左侧缺失限定的具体取代误读为所有取代策略的上位概念，也无法据现有引用确定完整关系。",
+      "left_evidence": {
+        "mention_id": "iTE:P1725:n1",
+        "quote_span": "The substitution is expected to create oxygen vacancies in SrMnO3, increasing the hopping sites for ionic conduction."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1158:n1",
+        "quote_span": "we aimed to develop an n-type i-Al-Pd-Re-based QC and investigated the effect of Co substitution for Re on the thermoelectric properties, i.e., the electron-doping effect."
+      }
+    },
+    {
+      "candidate_id": "N1198",
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧角色均为quantity，均指离子迁移率。左侧在稀释离子液体中通过选择性溶剂化提高该量，右侧在含NaTFSI的离子凝胶中通过添加剂提高该量；液态与凝胶基体、离子配方不同是材料语境差异。两篇均将迁移率与阴阳离子迁移或扩散差异分开表述，因此节点共同指离子迁移率本身，而非电导率或迁移率差。",
+      "left_evidence": {
+        "mention_id": "iTE:P0467:n2",
+        "quote_span": "low-concentration IL with highly polar organic solvent as diluent to enhance both the ion mobility and the mobility difference between cations and anions"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0350:n2",
+        "quote_span": "to improve the ionic mobility and enhance the diffusion difference between cations and anions"
+      }
+    },
+    {
+      "candidate_id": "N1199",
+      "proposed_relation": "uncertain",
+      "model_reason": "iTE:P0739:n3明确指锂盐在所得离子导体中承担导电组分的功能；iTE:P0799:n1仅称合金电极需要inactive elements维持循环容量，未说明具体元素以及相对于何种过程不活跃。导电性与反应活性是不同属性，不能将conductive与inactive当作相反类别；缺少右侧对象和活性定义，无法确定两类实体的关系。",
+      "left_evidence": {
+        "mention_id": "iTE:P0739:n3",
+        "quote_span": "Lithium salts simultaneously act as TE polymerization catalysts and conductive elements in the resulting ionic conductors."
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P0799:n1",
+        "quote_span": "However, inactive elements are also necessary for an alloy electrode to ensure the electrochemical capacity retention during cycling."
+      }
+    },
+    {
+      "candidate_id": "N1200",
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是声子散射与电子散射的并列复合节点，原文将其增加联系于Cu2Se体系的相变；右侧明确指电子—声子散射，并将其温度依赖联系于电导下降。并列列举两类散射不等于指定电子与声子之间的散射，左侧也未说明各自散射来源。两者机制相关，但不能折叠复合节点或据此建立类型包含关系。",
+      "left_evidence": {
+        "mention_id": "iTE:P0767:n3",
+        "quote_span": "the coupling of a continuous phase transition to carrier transport in Cu2Se over a broad (360-410 K) temperature range results in a dramatic peak in thermopower, an increase in phonon and electron scattering"
+      },
+      "right_evidence": {
+        "mention_id": "iTE:P1496:n1",
+        "quote_span": "Because electron-phonon scattering, the main type of scattering, increases with temperature, electrical conductivity in these materials often decreases as temperature rises."
+      }
+    }
+  ]
+}

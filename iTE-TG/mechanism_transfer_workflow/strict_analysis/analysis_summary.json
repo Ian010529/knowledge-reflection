@@ -1,0 +1,18 @@
+{
+  "generated_on": "2026-07-30",
+  "complete_through": 2025,
+  "source_support_papers": 2,
+  "primary_source_domain": "source_membership == 'iTE'",
+  "primary_target_domain": "source_membership == 'TG'",
+  "hybrid_handling": "excluded_from_primary; sensitivity_only",
+  "edge_interpretation": "paper-level concept co-occurrence, not causal relation",
+  "ontology_status": "pre-existing full-corpus curation; blinded expert re-curation required before formal inference",
+  "article_type_status": "manual review required; no reliable structured review flag",
+  "uncertainty_status": "diagnostic intervals only; shared-paper/shared-node dependence not fully modeled",
+  "formal_prediction_validated": false,
+  "deployment_gate_reasons": [
+    "The complete holdout has fewer than 10 positive events, so performance estimates are too unstable for deployment.",
+    "The complete-holdout AUC does not reach the pre-specified exploratory threshold of 0.65."
+  ],
+  "prospective_audit_candidates": 61
+}

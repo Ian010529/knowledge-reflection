@@ -1,0 +1,107 @@
+{
+  "status": "applied_and_cumulative_validation_passed",
+  "reviewer": "gpt-6-astra/high parent",
+  "scope": "Reason-label consistency check after complete independent model rereview of N1177-N1212; two role-mismatch misinterpretations corrected from complete original quotes.",
+  "corrections": [
+    {
+      "comparison": {
+        "comparison_id": "N1190",
+        "domain": "TG",
+        "left_mention_id": "TG:P0201:n3",
+        "right_mention_id": "TG:P0046:n3",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:b7c926d6a9fc96cc"
+      },
+      "previous": {
+        "proposed_relation": "uncertain",
+        "model_reason": "当前角色不一致：TG:P0201:n3为quantity，TG:P0046:n3为mechanism_process，按要求不能判等价。语义上左侧是氧化还原反应的熵这一量，右侧是电极缺陷及盐所促进的氧化还原反应过程；两者有属性与过程的关联，不能将反应熵直接合并为反应。",
+        "evidence_scope": "full_original_quotes_rechecked"
+      },
+      "current": {
+        "proposed_relation": "related_to",
+        "model_reason": "左侧是热电化学效应中的氧化还原反应熵这一物理量，右侧是电极缺陷和盐促进的氧化还原反应过程。反应熵与其对应反应具有属性与过程的关联，不能等同或判作类型包含。两侧当前角色不同限制等价判断，但不否定原文已支持的关联。",
+        "evidence_scope": "full_original_quotes_rechecked"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "TG:P0201:n3",
+          "paper_id": "P0201",
+          "domain": "TG",
+          "raw_phrase": "redox reaction entropy",
+          "proposed_semantic_role": "quantity",
+          "quote": "In this perspective article, we discuss similarities and differences of i-TE materials from electronic-based thermoelectric materials and also different i-TE thermoelectric effects including the thermodiffusion (Soret) effect and the thermogalvanic effect, in which the latter includes redox reaction entropy and the Soret effect.",
+          "evidence_scope": "original_quote_rechecked",
+          "decision_source": "role_review_v2.json",
+          "annotation_status": "model_proposed_pending_human",
+          "human_decision": "",
+          "human_role": "",
+          "human_reason": ""
+        },
+        "right": {
+          "mention_id": "TG:P0046:n3",
+          "paper_id": "P0046",
+          "domain": "TG",
+          "raw_phrase": "redox reactions",
+          "proposed_semantic_role": "mechanism_process",
+          "quote": "The electrodes are oxidized to create Ni and Ni oxide heterostructures, forming numerous O vacancy defects that enhance redox reactions. Meanwhile, the structure-breaking salts facilitate redox reactions and improve ion diffusion by disrupting water structures in the hydrogel electrolyte.",
+          "evidence_scope": "original_quote_rechecked",
+          "decision_source": "role_review_v2.json",
+          "annotation_status": "model_proposed_pending_human",
+          "human_decision": "",
+          "human_role": "",
+          "human_reason": ""
+        }
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1212",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0938:n4",
+        "right_mention_id": "iTE:P0608:n4",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:072a24bef7403bd8"
+      },
+      "previous": {
+        "proposed_relation": "uncertain",
+        "model_reason": "当前角色不一致：iTE:P0938:n4为quantity，iTE:P0608:n4为performance_function，按规则填uncertain。语义上左侧仅指离子电动效应产生的流动电势，右侧并列包含离子热电势和流动电势，分别对应温度梯度与水蒸发驱动。两者具有分量与复合节点的关联，不能折叠为同义，也不能据组成关系判定上下位。",
+        "evidence_scope": "full_original_quotes_rechecked"
+      },
+      "current": {
+        "proposed_relation": "related_to",
+        "model_reason": "左侧明确为离子电动效应产生的流动电势；右侧并列包含由温度梯度产生的离子热电势及由蒸发驱动的流动电势。左侧对应右侧复合节点的一个组成量，支持related_to；不能折叠复合节点或把组成关系判成上下位。两侧角色不同不妨碍该组成关联的判定。",
+        "evidence_scope": "full_original_quotes_rechecked"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0938:n4",
+          "paper_id": "P0938",
+          "domain": "iTE",
+          "raw_phrase": "streaming potential",
+          "proposed_semantic_role": "quantity",
+          "quote": "The excellent ionic power generation is intimately related to the water and thermal gradients across the membrane, which not only induces fast water evaporation but also synergistically promotes the transport of counterions in charged nanochannels, and the corresponding mechanism is attributed to the streaming potential resulting from the ionic electrokinetic effect and the ionic thermoelectric potential originating from the Soret effect.",
+          "evidence_scope": "node_containing_sentences_from_original_quote",
+          "decision_source": "decisions_06b.json",
+          "annotation_status": "model_proposed_pending_human",
+          "human_decision": "",
+          "human_role": "",
+          "human_reason": ""
+        },
+        "right": {
+          "mention_id": "iTE:P0608:n4",
+          "paper_id": "P0608",
+          "domain": "iTE",
+          "raw_phrase": "ionic thermoelectric and streaming potentials",
+          "proposed_semantic_role": "performance_function",
+          "quote": "Given the strong light absorption and low thermal conductivity of the film, a large thermal gradient can be produced on the surface under light illumination to induce fast water evaporation in an aqueous electrolyte. The thermal gradient and the water evaporation drive selective ion transport through the charged nanochannels, which generates ionic thermoelectric and streaming potentials, respectively.",
+          "evidence_scope": "node_containing_sentences_from_original_quote",
+          "decision_source": "decisions_04b.json",
+          "annotation_status": "model_proposed_pending_human",
+          "human_decision": "",
+          "human_role": "",
+          "human_reason": ""
+        }
+      }
+    }
+  ]
+}

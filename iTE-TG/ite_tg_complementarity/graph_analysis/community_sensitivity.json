@@ -1,0 +1,43 @@
+{
+  "claim_count_with_at_least_one_lever": 518,
+  "claim_count_with_multiple_levers": 160,
+  "claim_count_with_single_lever": 358,
+  "thresholds": {
+    "1": {
+      "node_count": 24,
+      "edge_count": 91,
+      "community_count_including_singletons": 5,
+      "nontrivial_community_count": 3,
+      "modularity_mean": 0.137656,
+      "modularity_sd": 0.007503,
+      "ARI_vs_seed0_mean": 0.779796,
+      "ARI_vs_seed0_min": 0.469372
+    },
+    "2": {
+      "node_count": 24,
+      "edge_count": 60,
+      "community_count_including_singletons": 9,
+      "nontrivial_community_count": 3,
+      "modularity_mean": 0.146364,
+      "modularity_sd": 0.00726,
+      "ARI_vs_seed0_mean": 0.675547,
+      "ARI_vs_seed0_min": 0.477603
+    },
+    "3": {
+      "node_count": 24,
+      "edge_count": 38,
+      "community_count_including_singletons": 13,
+      "nontrivial_community_count": 4,
+      "modularity_mean": 0.150508,
+      "modularity_sd": 0.000697,
+      "ARI_vs_seed0_mean": 0.952997,
+      "ARI_vs_seed0_min": 0.516355
+    }
+  },
+  "cross_threshold_ARI": {
+    "w>=1_vs_w>=2": 0.428449,
+    "w>=1_vs_w>=3": 0.252152,
+    "w>=2_vs_w>=3": 0.454672
+  },
+  "interpretation": "communities are descriptive co-annotation groups and are threshold-sensitive"
+}

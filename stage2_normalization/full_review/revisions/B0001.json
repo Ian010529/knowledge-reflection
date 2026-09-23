@@ -1,0 +1,104 @@
+{
+  "batch_id": "B0001",
+  "review_model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "review_scope": "All 45 decisions rechecked under current INSTRUCTIONS.md; entries below changed after reading all supplied occurrences.",
+  "revisions": [
+    {
+      "candidate_id": "pair:d58ba3d8ea1244d6",
+      "old_relation": "equivalent_to",
+      "new_relation": "uncertain",
+      "reason": "两侧都使用 Seebeck coefficient 名称，但全单元跨越不同定义层级与机制：TG:P0080:n3 和 TG:P0225:n3 是热扩散与热电偶协同产生的整器件响应，TG:P0226:n3 同时区分单电极半电池与非对称整电池的热电偶系数，TG:P0272:n2 则是碲纳米线海绵沿木材纵向通道两个方向的系数。给定原文没有共同定义证明这些电子、离子、混合贡献及器件层级可无条件归为同一节点，故不能只凭单复数和角色一致合并。"
+    },
+    {
+      "candidate_id": "pair:5ca71bc3141664f6",
+      "old_relation": "broader_than",
+      "new_relation": "equivalent_to",
+      "reason": "左侧标签虽省略 ionic，但三个出现位置都在离子或热电偶体系中讨论性能：TG:P0045:n4 明示 ion concentration 与 confined ion transportation，TG:P0070:n2 是 Cu(NO3)2 水系 TGC，TG:P0167:n3 以热电偶效应、Seebeck 系数和 ion conductivity 定义性能；右侧 TG:P0146:n5 同样以离子电导和氧化还原熵变定义 ionic thermoelectric performance。因此在全部给定语境中指同一离子热电性能，而非标签层面的泛称—特称关系。"
+    },
+    {
+      "candidate_id": "pair:4882fd3baae62c6d",
+      "old_relation": "narrower_than",
+      "new_relation": "equivalent_to",
+      "reason": "左侧是热电偶电池把热转为电的 power conversion efficiency；右侧两个出现位置也分别在电化学双电池热机和 thermocell 中指 heat-to-electricity 或 energy conversion efficiency。完整语境限定了相同输入输出过程，power 一词没有形成另一种分类学子类，故在给定语境中等同。"
+    },
+    {
+      "candidate_id": "pair:5d9babc4d11868bb",
+      "old_relation": "narrower_than",
+      "new_relation": "equivalent_to",
+      "reason": "右侧 TG:P0118:n2 的标题短语虽为 galvanic currents，但同一原文明示研究对象是 thermogalvanic currents，且这些电流由温度梯度诱发；左侧两个位置也都是温差在同种金属区段间产生的热电偶腐蚀电流。因此当前语境中的 galvanic currents 不是更宽的任意原电池电流，而是热电偶电流的省略写法。"
+    },
+    {
+      "candidate_id": "pair:d3eca26e2540f165",
+      "old_relation": "broader_than",
+      "new_relation": "equivalent_to",
+      "reason": "左侧两个 concentration gradient 出现位置均由氧化还原离子体系限定：TG:P0018:n2 围绕 [Fe(CN)6]3-/4-，TG:P0172:n4 明示 redox ions 的浓度梯度；右侧 TG:P0021:n3 也是双层热电偶电池中的 ion concentration gradients。标签省略 ion 不改变完整语境中的对象，故不是泛称—特称。"
+    },
+    {
+      "candidate_id": "pair:6fce164e4082e29e",
+      "old_relation": "narrower_than",
+      "new_relation": "related_to",
+      "reason": "effective thermal conductivity 是把自然对流等系统级传热效应折算后的有效量；右侧 thermal conductivity 是凝胶或电解液材料的热导率测量。二者量纲和科学联系相同，但有效参数不是材料热导率的分类学子类，原文也没有类型包含定义，故保留相关而不作上下位。"
+    },
+    {
+      "candidate_id": "pair:37cf6e558450d617",
+      "old_relation": "broader_than",
+      "new_relation": "equivalent_to",
+      "reason": "左侧 TG:P0302:n2 在同段明确把 conversion efficiency 展开为 heat-to-electricity conversion efficiency，TG:P0303:n3 则展开为 thermocell 的 energy conversion efficiency；右侧 TG:P0213:n4 是 TREC 低品位热收集的 energy conversion efficiency。三处都指热能转电能的效率，标签是否含 energy 不构成范围差异。"
+    },
+    {
+      "candidate_id": "pair:f7f2e87a8ea3b53f",
+      "old_relation": "narrower_than",
+      "new_relation": "uncertain",
+      "reason": "左侧 electroactive surface area 明确指可发生氧化还原反应的电极面积；右侧 effective surface area 在热电偶效应语境中与 abundant redox active sites 相邻，可能是同一有效电化学活性面积，也可能包含孔隙可达性等几何/传质贡献。原文未定义 effective 的计算边界，既不足以判同义，也不支持分类学上下位。"
+    },
+    {
+      "candidate_id": "pair:3b00b1adbd9523ee",
+      "old_relation": "broader_than",
+      "new_relation": "distinct_from",
+      "reason": "左侧两个 conversion efficiency 在完整语境中均是 thermocell 或电化学热机的热能转电能效率；右侧 TG:P0181:n3 的 91.4% 明确是光热蒸发器把太阳能转为热能的 solar thermal conversion efficiency，且电功率另行报告。输入和输出能量环节不同，不能因标签较短把左侧扩大为任意转换效率。"
+    },
+    {
+      "candidate_id": "pair:25d3156249a1c877",
+      "old_relation": "narrower_than",
+      "new_relation": "related_to",
+      "reason": "apparent Seebeck coefficients 是受显著化学平衡影响、随温差变化的表观测量；右侧包含非对称电池整电池响应和碲纳米线海绵方向分量的一般 Seebeck coefficients。表观值是由额外机制影响的测量结果，不是一般系数的自然分类学子类，且右侧语境异质，故仅判相关。"
+    },
+    {
+      "candidate_id": "pair:73fc60c3ac996af6",
+      "old_relation": "broader_than",
+      "new_relation": "related_to",
+      "reason": "initial Seebeck coefficient 是同一物理量在初始状态的取值，initial 是时间/状态属性而非概念类型；左侧还覆盖多种材料和混合机制。二者密切相关，但不能把一个状态下的数值当作分类学子类，也不能静默删除初始状态限定。"
+    },
+    {
+      "candidate_id": "pair:d9220f5ef35c06fa",
+      "old_relation": "broader_than",
+      "new_relation": "related_to",
+      "reason": "左侧节点明确是 thermodiffusive 与 thermogalvanic 两种效应的协同组合，右侧仅为其中的 thermogalvanic effect。组合—组成关系不是类型包含关系；原文只支持二者共同贡献或热电偶效应作为组成机制，因此判相关而非 broader。"
+    },
+    {
+      "candidate_id": "pair:8377d38ee5763e5e",
+      "old_relation": "broader_than",
+      "new_relation": "uncertain",
+      "reason": "左侧 thermopower 单元跨越氧化还原热电偶、离子热电凝胶、热扩散与热电偶协同以及相变电极等机制；右侧 TG:P0297:n3 明确是随湿度变化并与 conventional electronic thermoelectrics 对照的 ionic thermopower。给定原文没有统一定义证明左侧全部出现位置都是包含右侧的同一泛类，也不能把未写 ionic 自动解释为更宽，故保留 uncertain。"
+    },
+    {
+      "candidate_id": "pair:d857f163ab301812",
+      "old_relation": "broader_than",
+      "new_relation": "related_to",
+      "reason": "右侧 apparent Seebeck coefficient 明确由碘化物/三碘化物热电偶反应与热电偶腐蚀共同贡献，是复合机制的表观响应；左侧 Seebeck coefficient 单元也覆盖多种材料和机制。表观响应与一般系数相关，但不是由原文定义的分类学子类，不能仅凭 apparent 限定判上下位。"
+    },
+    {
+      "candidate_id": "pair:fb208d7f84af42f0",
+      "old_relation": "distinct_from",
+      "new_relation": "equivalent_to",
+      "reason": "左侧标签虽写 output power，但 TG:P0281:n2 的数值单位为 W m(-2)，实际报告的是按面积归一的输出功率密度；右侧 TG:P0199:n3 也以 mW m-2 报告 output power density。两侧在给定语境中是同一面积功率密度，不能只按标签把左侧误当总功率。"
+    },
+    {
+      "candidate_id": "pair:8c0dc8eb167685b0",
+      "old_relation": "narrower_than",
+      "new_relation": "related_to",
+      "reason": "absolute temperature coefficient 是温度系数取绝对值后的幅值，删除了正负号；右侧 temperature coefficient 可为负值或正值。绝对值是数学变换而非类型包含，二者不能合并但存在直接派生关系，故判 related_to。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "offline round-trip and prompt-character audit only; no model calls",
+  "production_rollout": false,
+  "source_hashes_verified": true,
+  "catalog_hashes": {
+    "manifest.json": "f27a25600ebb4acadcb660b72ee901bdcb06a7a6484ec84eb6033f87b73065db",
+    "candidates.json": "2c29d0dfc3aba98c6137149e2b3aa0234108c5e2d3a4c97978258a517e427058",
+    "evidence.json": "470b89c6a1d4421809428c002736482e18fb9ae97503875221cc7cc25733d14c",
+    "INSTRUCTIONS.md": "39cad41b8eafc4989ee68b0dbf923ce70e9c654925f31d657082e98ffd27692b"
+  },
+  "candidate_count": 17428,
+  "batch_count": 353,
+  "candidate_coverage_exact_once": true,
+  "all_batches_exact_round_trip": true,
+  "original_prompt_chars": 45488430,
+  "factored_prompt_chars": 44258308,
+  "character_reduction_percent": 2.7,
+  "batches_that_grow": 8,
+  "first_batch": {
+    "batch_id": "B0001",
+    "candidate_count": 45,
+    "original_prompt_chars": 129360,
+    "factored_prompt_chars": 116882
+  },
+  "shared_mention_grouping": {
+    "production_rollout": false,
+    "same_input_schema_and_full_quotes": true,
+    "candidate_coverage_exact_once": true,
+    "batch_count": 231,
+    "prompt_chars": 18893981,
+    "character_reduction_percent": 58.46,
+    "max_prompt_chars": 141875,
+    "baseline_max_prompt_chars": 142073,
+    "max_candidates_per_batch": 76
+  },
+  "limitations": [
+    "Character reduction is not token, billing or elapsed-time reduction.",
+    "Round-trip equality proves data preservation, not model comprehension or semantic correctness.",
+    "A representative paired model pilot is required before changing production input format.",
+    "Semantic summaries are excluded; each supplied occurrence retains its full source quotation.",
+    "Experimental grouping changes order only in a dry run; it does not modify the active manifest or results.",
+    "Batch order can affect model judgments despite identical evidence; pilot verification still applies."
+  ]
+}

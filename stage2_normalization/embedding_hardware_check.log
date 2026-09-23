@@ -1,0 +1,9 @@
+Loading embedding libraries
+Loading nomic-ai/nomic-embed-text-v1.5 on mps; test restricted to 100 texts
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/112 [00:00<?, ?it/s]Loading weights: 100%|██████████| 112/112 [00:00<00:00, 7897.28it/s]
+Model loaded; warming up with one text
+Benchmark batch_size=1
+{"batch_size": 1, "seconds": 5.174492082907818, "texts_per_second": 19.325568267910995, "projected_queue_encoding_minutes": 3.540215000056099, "memory": {"process_peak_rss_mib": 468.46875, "swap": "vm.swapusage: total = 5120.00M  used = 4260.06M  free = 859.94M  (encrypted)", "pressure": "The system has 8589934592 (524288 pages with a page size of 16384).\nSystem-wide memory free percentage: 30%", "mps_driver_mib": 1042.625}}
+Benchmark batch_size=4
+{"batch_size": 4, "seconds": 3.4684359579114243, "texts_per_second": 28.831439073252096, "projected_queue_encoding_minutes": 2.372988267871066, "memory": {"process_peak_rss_mib": 468.46875, "swap": "vm.swapusage: total = 5120.00M  used = 4252.06M  free = 867.94M  (encrypted)", "pressure": "The system has 8589934592 (524288 pages with a page size of 16384).\nSystem-wide memory free percentage: 32%", "mps_driver_mib": 1042.625}, "minimum_cosine_vs_batch_1": 0.9999998807907104}

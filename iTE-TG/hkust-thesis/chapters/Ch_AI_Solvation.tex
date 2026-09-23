@@ -1,0 +1,143 @@
+\chapter{AI-Informed Solvation Engineering of Liquid Thermogalvanic
+Electrolytes}
+
+\section{Introduction}
+
+Thermogalvanic cells convert a temperature difference into a continuous
+electrochemical potential through the temperature dependence of a redox
+reaction. For a simple redox couple in a liquid electrolyte,
+\begin{equation}
+S_e=\frac{\Delta E}{\Delta T}
+=\frac{\Delta S_{\mathrm{rc}}}{nF}
+=\frac{1}{nF}
+\left(
+\frac{\mathrm{d}G_{\mathrm{solv}}^{\mathrm{O}}}{\mathrm{d}T}
+-
+\frac{\mathrm{d}G_{\mathrm{solv}}^{\mathrm{R}}}{\mathrm{d}T}
+\right),
+\end{equation}
+where $G_{\mathrm{solv}}^{\mathrm{O}}$ and
+$G_{\mathrm{solv}}^{\mathrm{R}}$ are the solvation free energies of the
+oxidized and reduced species. A solvent that perturbs the two redox states
+unequally can therefore enlarge the solvation entropy difference without
+changing the electrode architecture \citep{chen2023solvation}.
+
+The apparent simplicity of this strategy hides two coupled difficulties.
+First, thermopower is not controlled by a single solvent property. It emerges
+from differences in the interaction energies, coordination geometries, packing,
+orientation, and collective dynamics of solvent molecules around two redox
+ions. Second, the experimental database is small. The scarcity of $S_e$
+measurements for thermogalvanic electrolytes prevents the construction of a
+large and consistent training set, and the difficulty increases when
+ion--ion and ion--solvent interactions are included in the prediction. A
+direct regression of $S_e$ from molecular properties is therefore readily
+overfitted. Data-driven work on ionic thermoelectrics and thermal-energy
+materials has reported the same dependence on dataset size and physically
+relevant features \citep{wu2024unlocking,li2022mlthermal}.
+
+Here, DFT calculations were combined with machine learning to screen solvent
+molecules for the $[\mathrm{Fe(CN)}_6]^{4-/3-}$ electrolyte. Ion--solvent
+interaction features were first parameterized into a descriptor correlated
+with $S_e$. The descriptor was then used for high-throughput solvent screening,
+followed by experimental evaluation and refinement of the model.
+
+\section{Correlation between Ion--Solvent Interactions and Thermopower}
+
+The benchmark system was the aqueous
+$[\mathrm{Fe(CN)}_6]^{4-/3-}$ redox couple. A useful co-solvent must compete
+with water for access to the redox ions while creating different local
+environments around the two charge states. Density functional theory (DFT)
+calculations were used to quantify ion--solvent interaction energies, bond
+lengths, and bond angles. These quantities represent interaction strength, the
+dimensions of the local coordination environment, and the packing or
+orientation of solvent molecules around the ions, respectively.
+
+For ten solvents with reported thermopower values, the differences in these
+interaction features between $[\mathrm{Fe(CN)}_6]^{4-}$ and
+$[\mathrm{Fe(CN)}_6]^{3-}$ were correlated with $S_e$. No single feature was
+sufficient, which is consistent with thermopower being a collective solvation
+property. Partial least-squares dimensionality reduction was consequently used
+to combine the interaction features into a single descriptor, $\alpha$. This
+descriptor correlated strongly with thermopower and varied monotonically with
+$S_e$, providing an intermediate target that was more data-efficient and more
+physically interpretable than a direct solvent-to-thermopower mapping
+.
+
+The parameterization also revealed an asymmetry between the two redox states.
+Features associated with the more highly charged
+$[\mathrm{Fe(CN)}_6]^{4-}$ ion showed stronger correlations with
+thermopower. Its stronger ion--dipole interactions produce a more ordered
+solvation shell and make its entropy more sensitive to temperature-induced
+reorganization. Promising solvents should therefore not simply interact
+strongly with both ions; they should enlarge the difference between their
+local responses.
+
+\section{High-Throughput Solvent Screening}
+
+High-throughput calculations generated $\alpha$ values for 64 candidate
+solvents. Each molecule was represented by ten molecular and physicochemical
+features: molecular weight, polar surface area, molecular complexity,
+effective three-dimensional rotor count, density, melting point, viscosity,
+dielectric constant, dipole moment, and donor number. Dielectric constant,
+dipole moment, and donor number were included explicitly because of their
+direct relevance to ion solvation.
+
+The limited dataset made precise numerical regression unstable. The problem
+was therefore reformulated as interval prediction using a discretized-target
+gradient boosting classifier (DT-GBC). A Gaussian mixture model first divided
+the calculated $\alpha$ values into low, medium, and high classes; a gradient
+boosting classifier then predicted the class of an unseen solvent. Converting
+an exact-value problem into a chemically useful ranking problem reduced the
+effective learning difficulty. The model classified 10 of 13 test samples
+correctly (76.9\% accuracy). Repeated ten-fold cross-validation produced a mean
+accuracy of 0.64 under changes in the small and imbalanced data splits,
+quantifying uncertainty that would be hidden by a single train--test partition
+.
+
+SHAP analysis identified dipole moment as the most influential feature,
+followed by donor number, polar surface area, and dielectric constant. These
+features describe complementary aspects of polarity: charge separation,
+electron donation to an ion, accessibility of polar groups, and dielectric
+response to charge. Their collective importance established polarity-related
+features as the most important variables in the model. This result does not
+imply that thermopower varies monotonically with any one polarity descriptor.
+
+\section{Experimental Validation and Model Refinement}
+
+The initial predictions were tested using six solvents. Triethyl phosphate
+(TEP), N,N-dimethylformamide (DMF), and
+ethylenediaminetetraacetic acid followed the predicted trend, whereas glycine,
+glucose, and erythritol did not. These failures exposed the boundary of the
+initial representation: it described simple two-body ion--solvent interactions
+but did not fully capture steric shielding, molecular symmetry, dissociation,
+or extended hydrogen-bond networks.
+
+The discrepancies were used to add a four-dimensional binary filter based on
+carbon-chain length, steric hindrance, dissociation energy, and hydrogen-bond
+donor/acceptor count. The combined procedure correctly classified 15 of 16
+evaluated solvents, corresponding to 93.8\% accuracy. Thus, the model produced
+a testable ranking, failed predictions exposed missing physics, and targeted
+experiments improved the representation.
+
+The refined framework identified TEP, tetrahydrofuran, dimethylacetamide,
+methylsulfonylmethane, and 3-methyl-2-oxazolidinone as effective candidates,
+with thermopower enhancements of approximately 42\% under the screening
+conditions. Molecular dynamics simulations further distinguished effective
+and unsuccessful solvents. Effective molecules such as DMF and TEP produced
+clearly different solvation structures around the two redox ions, whereas
+glucose caused only a small difference. The measured thermopower was therefore
+consistent with asymmetric solvation reorganization rather than solvent
+polarity alone.
+
+\section{Solvent Modification of a Thermosensitive Electrolyte}
+
+The identified solvents were subsequently evaluated in a guanidinium chloride
+(GdmCl)-based electrolyte. A 10 wt\% GdmCl solution produced
+$S_e=2.52$ mV K$^{-1}$. Adding TEP or DMF increased the thermopower to
+3.35 and 3.26 mV K$^{-1}$, respectively. Composition optimization produced a
+maximum of 4.0 mV K$^{-1}$ at 20 wt\% TEP and 20 wt\% GdmCl.
+UV--visible spectra showed that TEP affected
+$[\mathrm{Fe(CN)}_6]^{4-}$ more strongly than
+$[\mathrm{Fe(CN)}_6]^{3-}$, consistent with the larger sensitivity of the
+high-valence ion found in the DFT and molecular-dynamics results.
+

@@ -1,0 +1,104 @@
+{
+  "model": "nomic-ai/nomic-embed-text-v1.5",
+  "revision": "e9b6763023c676ca8431644204f50c2b100d9aab",
+  "device": "mps",
+  "top_k": 10,
+  "corpus_size": 4487,
+  "sample_size": 37,
+  "reviewer_type": "assistant_model_source_review_not_human_gold",
+  "sample_design": "seed context-trial-v1: SHA256-sorted within domain x historical relation; 6 distinct, 6 related, 3 same-label equivalent, 3 different-label equivalent per domain; plus N0838 known challenge",
+  "focused_methods": {
+    "source_sentence_or_semicolon_clause": 4481,
+    "long_clause_existing_80_word_window": 6
+  },
+  "baseline_mean_context_words": 51.03164698016492,
+  "focused_mean_context_words": 27.889904167595276,
+  "metrics": {
+    "baseline_80": {
+      "encoding_seconds": 0.014153582975268364,
+      "cache_reused": true,
+      "input_fingerprint": "756c9a40ae7f1806e2300d8f78da35ad6235802601a09a6faec0c5604da11e7e",
+      "historical_equivalent_exact_pair_top10": 211,
+      "historical_equivalent_total": 501,
+      "sample_counts": {
+        "equivalent": {
+          "total": 12,
+          "top10": 6
+        },
+        "non_equivalent": {
+          "total": 21,
+          "top10": 5
+        },
+        "uncertain": {
+          "total": 3,
+          "top10": 3
+        }
+      }
+    },
+    "focused_clause": {
+      "encoding_seconds": 95.83725608396344,
+      "cache_reused": false,
+      "input_fingerprint": "eefe2d414d3afaa8c299f2e62baaed59c1ebf1e8a55de9c1c1e2d180e6613d0c",
+      "historical_equivalent_exact_pair_top10": 267,
+      "historical_equivalent_total": 501,
+      "sample_counts": {
+        "equivalent": {
+          "total": 12,
+          "top10": 8
+        },
+        "non_equivalent": {
+          "total": 21,
+          "top10": 7
+        },
+        "uncertain": {
+          "total": 3,
+          "top10": 3
+        }
+      }
+    },
+    "label_only": {
+      "encoding_seconds": 40.06111558305565,
+      "cache_reused": false,
+      "input_fingerprint": "79636707e9674d0ff1a6183a584923f407441369f9dbcfd0caa3dba02b3f5254",
+      "historical_equivalent_exact_pair_top10": 436,
+      "historical_equivalent_total": 501,
+      "sample_counts": {
+        "equivalent": {
+          "total": 12,
+          "top10": 12
+        },
+        "non_equivalent": {
+          "total": 21,
+          "top10": 16
+        },
+        "uncertain": {
+          "total": 3,
+          "top10": 3
+        }
+      }
+    }
+  },
+  "total_seconds": 138.88865600002464,
+  "protected_source_hashes": {
+    "semantic_candidates_v2/summary.json": "9e4f1554a8b0e19e71191151a3cf861b4ae648986c331b5c4f25449e1289ad8f",
+    "semantic_candidates_v2/vectors_756c9a40ae7f1806e230.npz": "a73cb43678a9a62a12b9f704847cf890b9f4052da06e227b63ab9918ac46d4b1",
+    "semantic_candidates_v2/semantic_neighbors.csv": "eab0f3d11c2d1070025d45ae426ceb47a7b2a923ebed2541b92676db9c9ac45a",
+    "semantic_candidates_v2/independent_validation.json": "2cb6f1eaf6ef42dcde63bd4f600d4885b7419f9d3dabd48d45b241898071beda",
+    "semantic_candidates_v2/legacy_candidates_deferred.csv": "cb7cb6aab2dbff593568bee67554b6e3334ed688f106c568ea7f9529259697d8",
+    "semantic_candidates_v2/README.md": "2b42ca9165e71bbacc26d5c69ff2fcd40dc2848e9933be97e730d303ff2e03f1",
+    "semantic_candidates_v2/candidates.csv": "353ba96a1ba0145b593c34fd70b1cdf8b997bd88e106477626edf6966b045afd",
+    "semantic_candidates_v2/role_deferred.csv": "c44bb522e9784b35c894caf3b6f857e24bc54a196b4040887045c38d0b48f2eb",
+    "semantic_candidates_v2/review_queue.csv": "b195dfbb7d6f92d06b295bfcf226e2b617764842dd15989f13c24fe61bb5c338",
+    "semantic_candidates_v2/candidate_groups.csv": "5404e4beb8af5d01e673515a93618247c40340f6f4d26b22456fe215fb0b8a76",
+    "semantic_candidates_v2/embedding_inputs.csv": "e55560001f9c9313260fb57c010e43a4492dcbab1cebfcff1c8d443d6f659343",
+    "model_decisions.json": "970e6e9fe75728c93519b79e6e435fcf38a18b50cb6729f909c33e0e56fe6372",
+    "normalization_model_proposals.csv": "5d83bae48061ac74b60caa07cbdd460f037e5b94339321670591ae3e77ea8f4d"
+  },
+  "sources_unchanged": true,
+  "sample_sha256": "9958648a51d900b38ab823daa3fd4d056c6890acd0505239f282c29430edd16c",
+  "review_sha256": "fc622c5a6d8f478a1b77bd31fd74979a558690bdf2f6324ff22dfce72bf77a8b",
+  "script_sha256": "06736444d8342785c4517c1f065fa40891b16c4234b4e9f03478227355a0940a",
+  "merge_applied": false,
+  "human_gold": false,
+  "review_note_postrun_correction": "仅更正N1575理由中光学电导率的术语；判断及所有统计未改变。"
+}

@@ -1,0 +1,439 @@
+{
+  "seed": "knowledge_reflection_quality_pilot_20260923",
+  "population": 36,
+  "sample_size": 12,
+  "plan_sha256": "7ae1bc282e5f0aee31c282c018a14813c70e47fa6b5172771e3e7c9b3b0c6642",
+  "items": [
+    {
+      "comparison": {
+        "comparison_id": "N1678",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P1138:n2",
+        "right_mention_id": "iTE:P0955:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:ccc722d1d5523305"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P1138:n2",
+          "raw_phrase": "reduced carrier concentrations",
+          "proposed_semantic_role": "quantity",
+          "quote": "Recently, Cu2-delta S and Cu2-delta Se were reported to have an ultralow thermal conductivity and high thermoelectric figure of merit zT. Thus, as a member of the copper chalcogenide group, Cu2-delta Te is expected to possess superior zTs because Te is less ionic and heavy. However, the zT value is low in the Cu2Te sintered using spark plasma sintering, which is typically used to fabricate high-density bulk samples. In addition, the extra sintering processes may change the samples' compositions as well as their physical properties, especially for Cu2Te, which has many stable and meta-stable phases as well as weaker ionic bonding between Cu and Te as compared with Cu2S and Cu2Se. In this study, high-density Cu2Te samples were obtained using direct annealing without a sintering process. In the absence of sintering processes, the samples' compositions could be well controlled, leading to substantially reduced carrier concentrations that are close to the optimal value. The electrical transports were optimized, and the thermal conductivity was considerably reduced. The zT values were significantly improved-to 1.1 at 1000 K-which is nearly 100% improvement. Furthermore, this method saves substantial time and cost during the sample's growth. The study demonstrates that Cu2-delta X (X= S, Se and Te) is the only existing system to show high zTs in the series of compounds composed of three sequential primary group elements."
+        },
+        "right": {
+          "mention_id": "iTE:P0955:n2",
+          "raw_phrase": "charge carrier concentration",
+          "proposed_semantic_role": "quantity",
+          "quote": "Using bromine as a dopant, we show that reducing the charge carrier concentration in Cu2-delta Se is in fact possible."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "distinct_from",
+        "model_reason": "左侧是铜碲化物样品中降低的载流子浓度这一物理量；右侧是使用溴掺杂降低 Cu2-δSe 载流子浓度的另一材料体系中的浓度量。材料样本和成分不同，作为各自测量属性保留，不能合并成同一实例。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "narrower_than",
+        "reason": "左侧显式保留降低状态；右侧是载流子浓度这一量，原文描述降低动作。若状态节点解释不同，此项应裁决，不直接判错。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1672",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P1013:n1",
+        "right_mention_id": "iTE:P1810:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:12ab3f42392534e0"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P1013:n1",
+          "raw_phrase": "higher electrical conductivity",
+          "proposed_semantic_role": "quantity",
+          "quote": "In this work, a simple, cost-effective successive ionic layer adsorption and reaction (SILAR) deposition technique has been used to deposit a high-quality tin selenide (SnSe) thin film onto a glass substrate. Structural, morphologic, and thermoelectric properties have been characterized for the prepared thin film. X-ray diffraction (XRD) results of the SnSe thin film reveal an orthorhombic structure phase. The morphological properties of the prepared thin films have been studied using field emission scanning electron microscopy (FESEM). The stoichiometric composition of the deposited thin film and the elemental binding energies of the Sn and Se elements have been investigated with energy-dispersive spectroscopy (EDS) and X-ray photoelectron spectroscopy (XPS). The Fourier transformation infrared (FTIR) spectrum of the SnSe thin film displays vibrational modes of chalcogenides bonds. These results suggest that the developed thin film is crystalline, uniform, and without impurities and is appropriate for energy harvesting applications. The prepared thin film's Seebeck coefficient and electrical resistivity were estimated through ZEM-3 from room temperature to 600 K. The power factor was evaluated. A substantially high electrical conductivity is observed, which decreases somewhat with temperature, suggesting a semimetal conducting transport-the absolute values of the Seebeck coefficient increase with temperature. The resulting power factor showed the highest values near room temperature and a somewhat decreasing trend as the temperature increased. Despite lower values of the Seebeck coefficient, the substantially enhanced power factor is due to the higher electrical conductivity of the thin film, superior to that reported previously. This precursor study demonstrates promising results for developing high-performance flexible thermoelectric devices via a simple and facile SILAR strategy."
+        },
+        "right": {
+          "mention_id": "iTE:P1810:n2",
+          "raw_phrase": "high electrical conduction",
+          "proposed_semantic_role": "mechanism_process",
+          "quote": "The hybrid inorganic/organic closed p-stacking and soft lattice of a copper anion radial (Copper-7,7,8,8-tetracyanoquinodimethane) renders its electrical conductivity and structural modifications, which are susceptible to temperature and pressure. The geometry of its metal-ligand construction contemplates the concept of topology with a charge-transfer instability. A pressure-induced ionic-neutral phase transition occurs and accompanies an anomalously large electrical conductivity, carries topological charges, and possesses a low energy gap smaller than the Coulomb gap. X-ray absorption spectroscopy of the metal establishes the high electrical conduction by the topological charges. X-ray diffraction and the first-principles calculations further suggest that the compression leads to an irreversible alteration in the metal coordination and rotation of the quinoid rings of the anion. The present observation demonstrates a close coupling of topological charges and lattice dynamics within a relatively low-pressure regime, which may expand a novel paradigm for the comprehensive topological charge transport phenomena including thermoelectric effects in future. (c) 2021 Published by Elsevier Ltd."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "related_to",
+        "model_reason": "左侧是薄膜的高电导率这一物性量，右侧是电导过程/传导现象；原文把电导率作为电输运性质报告，并称电荷转移拓扑电荷建立了高电传导。二者相关但量与过程角色不同，不能等同。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "related_to",
+        "reason": "左侧电导率高值，右侧拓扑电荷的高导电输运过程；属性和过程有关但不可同义。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1690",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0504:n2",
+        "right_mention_id": "iTE:P1211:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:6642e79222277617"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0504:n2",
+          "raw_phrase": "direct band gaps",
+          "proposed_semantic_role": "quantity",
+          "quote": "In this work, theoretical investigations were performed for the structural, elastic, optoelectronic, thermodynamic, and thermoelectric characteristics of barium ceroplatinate Ba2CePtO6 double perovskite oxide. The direct band gaps 1.518 eV and 1.385 are calculated with TB-mBJ potential, and PBE-GGA approximation."
+        },
+        "right": {
+          "mention_id": "iTE:P1211:n2",
+          "raw_phrase": "direct bandgap",
+          "proposed_semantic_role": "quantity",
+          "quote": "The dispersion corrected elastic, electronic and thermoelectric properties of Bi2Se3 are studied using the density functional theory deploying the Quantum ESPERSSO package. The ground state is achieved using the PBE exchange and correlation functional. PBE-D3 type dispersion correction is applied to capture the van der Waal interaction between the quintuple layers in Bi2Se3. The computed lattice constants considering the dispersion correction are in excellent agreement with the experimental data. The elastic constants namely the bulk modulus, shear modulus, Young's modulus and Poisson ratio are evaluated. Effect of dispersion correction is observed in the elastic constants. The compression and shear anisotropy studies indicate that Bi2Se3 is more anisotropic against shearing stress than against compression. The direct bandgap of 0.47 eV is obtained using the PBE functional which reduces to 0.21 eV when PBE-D3 dispersion correction is applied. The dispersion corrected direct bandgap is very close to the experimental value 0.22 eV. The total and projected density of states are computed and analyzed in terms of state contributions. The Bader charge analysis shows that Bi-Se2 bond is more ionic than the Bi-Se1 bond. Among the thermoelectric properties, the computed power factor and figure of merit zT, are in excellent agreement with the experimental data. The temperature dependent study shows that the figure of merit decreases while the power factor increases linearly."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "equivalent_to",
+        "model_reason": "两侧均指半导体能带结构中的直接带隙这一能量量。左侧报告 Ba2CePtO6 的两个直接带隙值，右侧报告 Bi2Se3 在不同计算设置下的直接带隙值；材料及数值不同属于证据属性差异，节点概念与角色一致。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "equivalent_to",
+        "reason": "均为直接带隙量；不同材料和数值保留在各自证据，不改变未限定材料的概念。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1669",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P1126:n1",
+        "right_mention_id": "iTE:P1624:n1",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:135a53a956fa8064"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P1126:n1",
+          "raw_phrase": "SiC nanoparticles",
+          "proposed_semantic_role": "material_entity",
+          "quote": "The effect of SiC nanoparticles on the electrochemical reduction behaviors of ionic bismuth and tellurium was investigated by cyclic voltammetry and electrochemical impedance spectroscopy (EIS). The results showed that the addition of SiC nanoparticles in the solution did not change the electrochemical reduction process of ionic bismuth and tellurium on Au electrode, as the shapes and numbers of the peaks in the cyclic voltammograms were not altered, although the peak potentials and peak currents varied a little. However, the electrochemical reduction of ionic bismuth was accelerated by introducing SiC nanoparticles in a Bi unitary solution system for the size reduction of the semicircles in EIS plots. Different from ionic bismuth, the electrochemical reduction of adsorbed HTeO2 (+) to Te-0 was inhibited and enlarged semicircles in EIS plots were observed. In contrast, the reduced semicircles in EIS plots revealed a promoting effect of SiC nanoparticles on the electrochemical reduction of dissociative HTeO2 (+) to Te-0. Bi2Te3/SiC composite has been synthesized by a co-depositing process in solutions containing ionic bismuth, tellurium and SiC nanoparticles combined with anneal treatment."
+        },
+        "right": {
+          "mention_id": "iTE:P1624:n1",
+          "raw_phrase": "Cu2S nanoparticles",
+          "proposed_semantic_role": "material_entity",
+          "quote": "The homogeneously distributed Cu2S nanoparticles act as active electron donors, dynamically pinning the solubility of Cu to an optimal value."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "distinct_from",
+        "model_reason": "两者都是材料实体，但分别是碳化硅纳米颗粒与硫化亚铜纳米颗粒，组成不同；原文中前者影响离子铋、碲的电化学还原，后者作为电子供体，不能视为同一材料。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "distinct_from",
+        "reason": "SiC与Cu2S为不同化学组分的纳米颗粒。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1670",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P1466:n1",
+        "right_mention_id": "iTE:P0623:n1",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:a6042c5001f9120f"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P1466:n1",
+          "raw_phrase": "Ge doping",
+          "proposed_semantic_role": "design_strategy",
+          "quote": "Moreover, the lattice softening effect induced by Ge doping significantly reduces the lattice thermal conductivity."
+        },
+        "right": {
+          "mention_id": "iTE:P0623:n1",
+          "raw_phrase": "Se doping",
+          "proposed_semantic_role": "design_strategy",
+          "quote": "Se doping shifts the orthorhombic-cubic phase transition from 457 K at x = 0 to 430 K at x = 0.10, thereby expanding the temperature range of the thermoelectrically favored cubic phase."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "distinct_from",
+        "model_reason": "左侧为锗掺杂这一设计策略，右侧为硒掺杂策略；掺杂元素不同，分别涉及晶格软化和相变温度移动，不能合并为同一策略。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "distinct_from",
+        "reason": "Ge和Se为不同掺杂元素，不应合并为同一具体掺杂策略。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1682",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0575:n2",
+        "right_mention_id": "iTE:P0387:n4",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:ccdddff221f88cc7"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0575:n2",
+          "raw_phrase": "giant Seebeck coefficient",
+          "proposed_semantic_role": "performance_function",
+          "quote": "Here, it is demonstrated environmental benign flexible quasi-solid state ionogels with giant Seebeck coefficient and ultrahigh thermoelectric properties. The ionogels made of ionic liquids and poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) can exhibit a giant Seebeck coefficient up to 26.1 mV K-1, the highest for electronic and ionic conductors. In addition, they have a high ionic conductivity of 6.7 mS cm(-1) and a low thermal conductivity of 0.176 W m(-1) K-1. Their thermoelectric figure of merit (ZT) is thus 0.75. The giant Seebeck coefficient is related to the ion-dipole interaction between PVDF-HFP and ionic liquids."
+        },
+        "right": {
+          "mention_id": "iTE:P0387:n4",
+          "raw_phrase": "positive Seebeck coefficient",
+          "proposed_semantic_role": "performance_function",
+          "quote": "The lamellar membrane of beta-Ni(OH)(2) (Ni-M) itself does not display significant thermovoltages, but when doped with mobile anion-generating species (like aminopropyl functionalized magnesium phyllosilicate or organic halide salts), it exhibits significant negative Seebeck coefficient (up to -13.7 +/- 0.2 mV K-1). Similarly, upon doping with cation-generating species like poly(4-styrene sulfonic acid) (PSS), it displays positive Seebeck coefficient values (up to +12 +/- 1.9 mV K-1)."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "narrower_than",
+        "model_reason": "左侧“巨大 Seebeck 系数”是 Seebeck 系数这一热电响应量的高幅值实例；右侧是带正号限定的 Seebeck 系数，限定为正值。左侧引文给出的系数为正值，因此该实例落在正 Seebeck 系数范围内。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "related_to",
+        "reason": "giant限定幅度，positive限定符号；不据关键词强制同义或类型包含。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1665",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0455:n2",
+        "right_mention_id": "iTE:P0873:n3",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:9726bfbc9d76fe85"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0455:n2",
+          "raw_phrase": "ion transfer",
+          "proposed_semantic_role": "mechanism_process",
+          "quote": "It uncovered that pressure increases the electrical conductivity with improving the carrier concentration in alpha-Ag2S, but increased pressure hinders ion transfer and thus reduces conductivity in beta-Ag2S."
+        },
+        "right": {
+          "mention_id": "iTE:P0873:n3",
+          "raw_phrase": "charge transfer",
+          "proposed_semantic_role": "mechanism_process",
+          "quote": "The strong interaction between OSM and SWCNT improves the doping level and the excellent charge transfer facilitates the transport of carriers, thus the synergistic effect of OSMs and SWCNT improves the TE performance of the composite films."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "related_to",
+        "model_reason": "左侧描述压力抑制 beta-Ag2S 中的离子迁移这一过程，右侧描述 OSM 与 SWCNT 之间的电荷转移促进载流子输运；二者都是输运相关机制，但过程对象分别是离子迁移和电荷转移，不能视为同一过程。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "related_to",
+        "reason": "Ag2S离子迁移与OSM/SWCNT体系掺杂促进的电荷转移有关，右侧原文不足以支持将其当所有离子转移的泛化上位类。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1666",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P1513:n1",
+        "right_mention_id": "iTE:P0987:n1",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:acc9ec5a5d358504"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P1513:n1",
+          "raw_phrase": "thermoelectric effect",
+          "proposed_semantic_role": "mechanism_process",
+          "quote": "Furthermore, the thermoelectric effect improves trapping stability by a deep trapping potential."
+        },
+        "right": {
+          "mention_id": "iTE:P0987:n1",
+          "raw_phrase": "coupled thermoelectric effects",
+          "proposed_semantic_role": "mechanism_process",
+          "quote": "Thermal conductivities of ionic compounds (NaCl, MgO, Mg(2)SiO(4)) are calculated from equilibrium molecular dynamics simulations using the Green-Kubo method. Transferable interaction potentials including many-body polarization effects are employed. Various physical conditions (solid and liquid states, high temperatures, high pressures) relevant to the study of the heat transport in the Earth's mantle are investigated, for which experimental measures are very challenging. By introducing a frequency-dependent thermal conductivity, we show that important coupled thermoelectric effects occur in the energy conduction mechanism in the case of liquid systems."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "related_to",
+        "model_reason": "左侧是热电效应这一过程，具体作用是提高陷阱稳定性；右侧是在液态离子化合物能量传导中的耦合热电效应。两处均涉及热电效应，但作用场景和耦合机制语境不同，不能仅据共有词认作同一过程。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "uncertain",
+        "reason": "左侧仅说明热电效应增强俘获稳定性，缺机制定义；右侧液态离子化合物能量传导的耦合热电效应，不能仅coupled一词推上下位。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1674",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P1683:n2",
+        "right_mention_id": "iTE:P0755:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:959e55f402e5fec4"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P1683:n2",
+          "raw_phrase": "kappa(L)",
+          "proposed_semantic_role": "quantity",
+          "quote": "The present data suggest that the magnitude of the guest atom ADPs correlates with kappa(L), and the larger the ADP, the lower is the kappa(L)."
+        },
+        "right": {
+          "mention_id": "iTE:P0755:n2",
+          "raw_phrase": "kappa(L) value",
+          "proposed_semantic_role": "quantity",
+          "quote": "The results show that the kappa(L) value reduces from 0.17 W K-1 m(-1) to 0.12 W K-1 m(-1) when Ag is substituted for Cu through induced point defects and lattice distortion and that the power factor (PF) increases from 4.1 mu W cm(-1) K-2 to 4.4 mu W cm(-1) K-2 at 645 K after enhancing the Seebeck coefficients."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "equivalent_to",
+        "model_reason": "两处均指晶格热导率 κ(L) 这一物理量；一处简称 κ(L)，另一处称 κ(L) value，均以数值或幅度作为研究对象，没有证据表明分量定义不同。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "equivalent_to",
+        "reason": "kappa(L)与其value表达同一量，右侧单位与热导率相符，数值属性保留。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1676",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0994:n3",
+        "right_mention_id": "iTE:P0363:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:5ace71acab908c3d"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0994:n3",
+          "raw_phrase": "high figure of merit",
+          "proposed_semantic_role": "performance_function",
+          "quote": "Structural, electronic, lattice dynamics, optical, elastic, and thermoelectric features of Indium based Perovskite InGeX3 (X = F, Cl) are studied by using WIEN2k code within density functional theory DFT. A level of the Boltzmann transport theory is used to derive electronic transport coefficients together with anticipated electronic relaxation times. These compounds exhibit stability and are cubic with the space group Pm-3m 221, according to the structural analysis. The band structure having the 2.15 eV and 1.29 eV band gap and density of state (DOS) are calculated for electronic characteristics, indicating that both compounds are semiconducting. For the analysis of elastic characteristics, elastic constants, bulk modulus (49.99, 22.69), Poisson's ratio (0.343, 0.261), anisotropy factor (0.52, 0.59), and Pugh's ratio (2.87, 1.75) are examined. The ductile nature of the compounds is described by Pugh's ratio, and the ionic nature can be ascertained by evaluating the Cauchy pressure. In the energy range of 0-10 eV, optical features like reflectivity, optical conductivity, refractive index, extinction coefficient and absorption coefficient are computed. These compounds broad-range absorption in the UV spectrum suggests that they could be good optoelectronic device candidates. The transport feature like Seebeck coefficient, thermal and lattice conductivity, power factor, electrical conductivity, and figure of merit zT (0.99, 0.98) can be calculated against temperature. The chemical potential against an excellent thermoelectric property of InGeX3 (X = F, Cl) have high figure of merit due to high Seebeck and electrical conductivity. These predicted outcomes indicated that both compounds are suitable candidates for thermoelectric applications. Such compounds can replace with other renewable energy sources in thermoelectric devices because of their powerful thermoelectric response."
+        },
+        "right": {
+          "mention_id": "iTE:P0363:n2",
+          "raw_phrase": "ionic figures of merit",
+          "proposed_semantic_role": "performance_function",
+          "quote": "By tailoring the interplay between ions and polymer matrices through controlled synthetic approaches, record-high ionic figures of merit (ZT i) of 49.5 and 32.2 are achieved, and outstanding normalized power densities of 46.7 and 79.0 mWm-2K-2."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "distinct_from",
+        "model_reason": "左侧是热电优值这一性能指标（文中给出 zT 数值），右侧是归一化功率密度；二者是不同的性能量，不能因为都衡量器件表现而等同。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "distinct_from",
+        "reason": "左侧基于电子输运的zT，右侧明确ionic ZT，不能忽略输运机制。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1658",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0344:n4",
+        "right_mention_id": "iTE:P0906:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:9e89753e576e9cb3"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0344:n4",
+          "raw_phrase": "Seebeck coefficient",
+          "proposed_semantic_role": "performance_function",
+          "quote": "The synergistic effect between ordered ions and Manning counterion condensation effect induced by the electronegative CMC-Na chain improves the selective ion migration capability of i-TEHs, achieving a high Seebeck coefficient of 14.39 mV K-1 (reference temperature of 25-40 degrees C, temperature difference of 10-15 K), which is a 24.6 % increase compared to the traditional method."
+        },
+        "right": {
+          "mention_id": "iTE:P0906:n2",
+          "raw_phrase": "electrochemical Seebeck coefficients",
+          "proposed_semantic_role": "performance_function",
+          "quote": "The electrochemical Seebeck coefficients (alpha) of organic LTE range from 1.5 to 2.5 mV K-1 and are higher than alpha (=1.4 mV K-1) of the corresponding aqueous LTE. The dimensionless figure of merit (ZT) of organic LTE is approximate to 0.015 at maximum and is higher than the maximum ZT (=0.009) of the corresponding aqueous LTE."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "narrower_than",
+        "model_reason": "左侧是塞贝克系数这一量；右侧明确为有机和水系液体热电池的电化学塞贝克系数，是该系数在电化学体系中的特定类型，左侧概念较宽。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "distinct_from",
+        "reason": "左侧反离子凝聚与选择性离子迁移热电，右侧electrochemical Seebeck，不能把左节点当无机制限制的泛称。"
+      }
+    },
+    {
+      "comparison": {
+        "comparison_id": "N1657",
+        "domain": "iTE",
+        "left_mention_id": "iTE:P0795:n2",
+        "right_mention_id": "iTE:P1003:n2",
+        "selection": "lexical_cosine_ge_0.6_lt_0.7",
+        "source_candidate_id": "pair:c19a5614731e49e1"
+      },
+      "evidence": {
+        "left": {
+          "mention_id": "iTE:P0795:n2",
+          "raw_phrase": "atomic Seebeck effect",
+          "proposed_semantic_role": "performance_function",
+          "quote": "Here we show that coherent electron and heat transport through a pointlike contact produces an atomic Seebeck effect, which is described by the mesoscopic Seebeck coefficient multiplied by an effective temperature drop at the interface."
+        },
+        "right": {
+          "mention_id": "iTE:P1003:n2",
+          "raw_phrase": "enhanced ionic Seebeck effect",
+          "proposed_semantic_role": "performance_function",
+          "quote": "Thermocells based on ionic Seebeck effect utilize waste low-grade heat for electrical energy storage/supply, offering promising solutions for global energy sustainability. Creation of mechanically flexible thermocells with enhanced ionic Seebeck effect in a wide temperature window is highly required for their wide application, but remains challenging. Here we report a general strategy based on selective confined microcrystallization to create hydrogel thermocells fulfilling the above requirement. The thermocell is created by solvent-induced selective [Fe (CN)6]4- crystallization from [Fe(CN)6]4-/[Fe(CN)6]3- couples in the hydrogel networks. The thermocell allows excellent anti-freezing and mechanically flexible properties, and enhanced ionic Seebeck effect in a wide temperature window (-33 - 62 degrees C). Integrating 30 thermocells can efficiently harvest energy from a heat source and a frozen cold source. This system provides new insights into efficient low-grade heat harvest in wide scenarios."
+        }
+      },
+      "model_decision": {
+        "proposed_relation": "related_to",
+        "model_reason": "两处均涉及塞贝克效应，但左侧指点接触中电子与热相干输运产生的原子尺度效应，右侧指离子热电池中增强的离子塞贝克效应；物理载流机制和语境对象不同，不能视为同一概念或上下位。",
+        "evidence_scope": "full_original_quotes_read"
+      },
+      "parent_before_reveal": {
+        "proposed_relation": "distinct_from",
+        "reason": "左侧点接触相干电子输运；右侧Fe(CN)6氧化还原对热电池，机理不同。"
+      }
+    }
+  ],
+  "blind_parent_review_at": "2026-09-22T19:35:54.147847+00:00",
+  "review_scope": "随机抽查首批36项中的12项；此为另一模型的证据复核，不是人工金标准或总体准确率。",
+  "clear_findings": [
+    {
+      "comparison_id": "N1658",
+      "issue": "narrower_than与理由“左侧概念较宽”相反；还需保留左侧原文离子迁移机制限定，不能仅机械反转标签。"
+    },
+    {
+      "comparison_id": "N1676",
+      "issue": "理由将右侧ionic figures of merit错读为同一原文中的normalized power densities。"
+    }
+  ],
+  "rule_boundary_findings": [
+    {
+      "comparison_id": "N1678",
+      "issue": "因不同材料实例判不同概念，需与保留测量属性的规范一致裁决。"
+    },
+    {
+      "comparison_id": "N1682",
+      "issue": "从该实例正值推出giant与positive的概念上下位，需区分实例和概念。"
+    }
+  ],
+  "non_error_disagreements": [
+    "N1666",
+    "N1657"
+  ],
+  "plan_reference": {
+    "file": "iTE_TG双知识图谱研究方案_v2.0_可执行版.docx",
+    "sections": [
+      "4.2",
+      "4.4"
+    ],
+    "normalization_review": "343既有merge-affecting决定及新增高频合并候选；错误合并优先于漏合并。",
+    "threshold_scope": "约90%严格精确率与70%核心召回率针对关系抽取，不作为本12对的归一化合格判据。"
+  }
+}

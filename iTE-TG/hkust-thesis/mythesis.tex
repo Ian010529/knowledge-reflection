@@ -1,0 +1,63 @@
+\PassOptionsToPackage{giveninits=false}{biblatex}
+
+\documentclass[
+  customlatinfont=windows,
+  displaycommittee=false
+]{hkustthesis}
+
+\hkustsetup{
+  info = {
+    degree        = {phd}, % TODO: change to mphil if applicable
+    title         = {Navigating Solvation Thermodynamics toward Thermo-electrochemical Hydrogels},
+    keywords      = {ionic thermoelectrics, thermogalvanic cells, solvation entropy, hydrogel electrolytes},
+    author        = {Shukai Wu},
+    school        = {The Hong Kong University of Science and Technology (Guangzhou)},
+    department    = {Sustainable Energy and Environment Thrust},
+    program       = {Sustainable Energy and Environment},
+    major         = {},
+    supervisor    = {Prof. Chao Fang},
+    co-supervisor = {},
+    submit-month  = {July 2026},
+    submit-date   = {},
+    defend-date   = {},
+    depthead      = {},
+    reviewer      = {},
+    reviewerdept  = {},
+    reviewerext   = {},
+    city          = {Guangzhou},
+  }
+}
+
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{graphicx}
+
+% Compatibility with the natbib commands used in the imported review chapter.
+\let\citep\cite
+\let\citet\textcite
+
+\addbibresource{thermogalvanic_references.bib}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\input{chapters/Pre_Abstract.tex}
+% Uncomment after submit/defence dates and committee information are complete.
+% \authorization
+% \signaturepage
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+
+\input{chapters/Ch_LiteratureReview.tex}
+\input{chapters/Ch_AI_Solvation.tex}
+\input{chapters/Ch_Polarity_Hydrogel.tex}
+
+\printbibliography[heading=bibintoc,title=References]
+
+\end{document}

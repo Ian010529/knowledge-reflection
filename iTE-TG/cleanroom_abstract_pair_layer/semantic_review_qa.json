@@ -1,0 +1,32 @@
+{
+  "contract": "posthoc_sentence_semantics_only_not_human_confirmation_or_cross_paper_compatibility",
+  "all_checks_pass": true,
+  "checks": {
+    "adjudication_relation_ids_are_unique": true,
+    "all_focus_strict_relation_ids_are_adjudicated": true,
+    "adjudication_contains_no_unreferenced_relation_ids": true,
+    "all_verdicts_are_accepted_or_rejected": true,
+    "identity_was_not_used_in_any_verdict": true,
+    "no_AI_adjudication_is_promoted_to_production_graph": true,
+    "human_confirmation_remains_pending": true,
+    "candidate_population_is_unchanged": true,
+    "review_adjusted_grade_logic_is_reproducible": true,
+    "cross_endpoint_evaluation_remains_not_tested": true,
+    "leave_one_source_out_covers_every_adjudicated_paper": true
+  },
+  "failure_counts": {
+    "missing_adjudication_relation_ids": [],
+    "unreferenced_adjudication_relation_ids": [],
+    "duplicate_adjudication_relation_ids": 0,
+    "grade_logic_failures": 0
+  },
+  "counts": {
+    "adjudicated_unique_relations": 11,
+    "accepted_unique_relations": 7,
+    "rejected_unique_relations": 4,
+    "reviewed_focus_paths": 12721,
+    "R2_dual_direct_sentence_relation_paths": 1,
+    "R1_single_direct_sentence_relation_paths": 103,
+    "R0_cooccurrence_or_rejected_paths": 12617
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_hashes_unchanged": true,
+  "role_proposals": 131,
+  "relation_reviews": 81,
+  "normalization_proposals": 24,
+  "relation_audit_sample": 200,
+  "abstract_audit_sample": 60,
+  "candidate_pairs": 18884,
+  "human_labels": 0,
+  "concepts_merged": 0,
+  "validation_scope": "Provenance, content joins, IDs, sample separation, weights and model/human label separation; not scientific correctness.",
+  "preparation_reproducibility": {
+    "status": "PASS",
+    "byte_identical_outputs": 11,
+    "method": "Reran prepare_review.py into a fresh temporary directory and compared all preparation output SHA-256 values."
+  },
+  "previous_stage_evidence_verifier": "PASS",
+  "audit_abstract_paper_overlap": 8
+}

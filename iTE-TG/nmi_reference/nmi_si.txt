@@ -1,0 +1,1235 @@
+nature machine intelligence
+
+Supplementary information
+Article                         https://doi.org/10.1038/s42256-026-01206-y
+
+
+
+
+Predicting new research directions in
+materials science using large language
+models and concept graphs
+In the format provided by the
+authors and unedited
+ 1   1     Concept extraction
+ 2   Evaluating LLM-based Concept Extraction
+ 3   To construct a held-out test set, three annotators (n=3) manually annotated five abstracts that
+ 4   were not part of the training data. The resulting inter-annotator agreement, measured as the mean
+ 5   pairwise agreement, was 0.345 (pairwise scores: 0.215, 0.326, 0.493; all values rounded to three
+ 6   decimal places).
+ 7       Importantly, none of the human-annotated concepts were incorrect. Disagreement primarily
+ 8   stemmed from varying emphasis on annotation breadth versus depth. As all extracted concepts
+ 9   were valid, we defined the union of all annotations as the ground truth for evaluating our LLM-
+10   based concept extraction approach against established methods, namely KeyBERT, RAKE, and
+11   SciSpacy.
+12       RAKE achieved slightly higher recall than the LLM-based approach, primarily due to its exten-
+13   sive extraction of candidate terms. However, this also resulted in substantially lower precision, as
+14   for every relevant concept, approximately five irrelevant ones were produced (precision ≈ 16.7%).
+15   When balancing precision and recall, the LLM-based method outperformed all other approaches,
+16   achieving a substantially higher precision at similar recall compared to RAKE.
+17       Notably, concepts produced by the LLM that were not counted as true positives tended to
+18   be semantically relevant but either overly broad or overly specific (e.g., ‘aerospace part thickness
+19   measurement’), whereas competing methods frequently generated entirely irrelevant outputs such
+20   as ‘6148 10 3 cycles’, ‘increase’, ‘interdisciplinary field involving principles’, or ‘317’. This highlights
+21   the practical advantage of the LLM-based approach: it substantially reduces the need for manual
+22   post-processing, as the extracted concepts are largely free of irrelevant entries.
+23       To enable researchers to benchmark their own models, all labeled data can be found on our
+24   GitHub repository.
+
+
+
+
+     Supplementary Fig. 1: Precision, Recall and F1-Score of our LLM-based approach, keyBERT, RAKE
+     and SciSpacy; evaluated against a held-out test set of 5 annotated abstracts, including 138 ground-truth
+     concepts in total.
+
+
+                                                          1
+25   Examples of extracted concepts
+
+     Abstract
+     Removal of Metal Impurities from the Spent Hydroprocessing Catalyst and Acid Leaching Kinetics of
+     Aluminum. The impurity metal of Al in spent hydroprocessing catalyst MoNi/Al2O3 was removed by HCl,
+     and the metals of Mo and Ni were preliminarily enriched. The results show that the leaching efficiency
+     of Al was 88.62%, and the leaching efficiency of Mo and Ni were 16.32% and 28.74%, respectively. The
+     results were achieved under optimal leaching conditions: the particle size was 150 m, the concentration of
+     HCl was 4 mol/L, the leaching temperature was, and the leaching time was 120 min. The kinetics of the
+     leaching behavior of Al showed that the acid leaching reaction of Al was in accorded with the equation
+     1-2/3/X-1-X 2/3/ =K 2 t, R 2 =0.97734, which was controlled by internal diffusion. X-ray diffraction
+     analysis of the leaching residue revealed the existence of residual metals MoMoO3 , MoO2ClO42 and
+     NiNiS. The separation of Al from Mo and Ni has been preliminarily realized, which is conducive to further
+     efficient recovery of Mo and Ni.
+
+     LLM Concepts                                           Rake Concepts
+                                                            acid leaching kinetics
+                                                            acid leaching reaction
+                                                            al showed
+                                                            efficient recovery
+                                                            equation xx
+                                                            impurity metal
+     acid leaching kinetic                                  internal diffusion xray diffraction analysis
+     aluminium acid leaching                                leaching behavior
+     aluminium impurity                                     leaching efficiency
+     aluminium removal                                      leaching efficiency
+     hydroprocessing catalyst                               leaching residue revealed
+     hydroprocessing catalyst impurity                      leaching temperature
+     metal impurity                                         leaching time
+     metal impurity removal                                 metal impurities
+     spent hydroprocessing catalyst                         optimal leaching conditions
+     x ray diffraction analysis                             particle size
+                                                            preliminarily enriched
+                                                            preliminarily realized
+                                                            residual metals momoo mooclo
+                                                            results show
+                                                            spent hydroprocessing catalyst
+                                                            spent hydroprocessing catalyst monialo
+
+                        Supplementary Fig. 2: Concept Extraction for W3027426609
+
+
+
+
+                                                        2
+Abstract
+Strengthening mechanisms in short carbon fiber reinforced Nb/Nb5Si3 composites with interfacial reac-
+tion. The understanding of strengthening mechanisms in composites is crucial to improve its mechanical
+properties. Strengthening mechanisms in Nb/Nb5Si3 composites reinforced by different contents of short
+carbon fiber C sf were investigated. Interface and tensile properties of the composites were studied.
+Interfacial nano-sized Nb3 phase forms by in situ interfacial reaction, the Nb3 phase embedded intimately
+in the C sf and matrix forms an anchor effect. The content of Nb3 phases in the composites increases
+because of the increase of C sf content. Ultimate tensile strength and yield strength of the composite are
+improved because of the increase of C sf content. When the content of C sf is 1.0 wt%, the elongation
+reaches the maximum, but the elongation decreases slightly when the content of C sf increases from 1.0
+wt % to 2.0 wt %. The strengthening mechanisms in this composite were investigated according to grain
+refinement and load transfer. Load transfer is main strengthening mechanism and accounts for more than
+95% of the improvement in yield strength. This indicates that the control of interfacial bonding state
+is crucial to improve the mechanical properties of the composites. This study can offer some valuable
+information to disclosing the strengthening behaviors in the C sf reinforced metal matrix composites.
+
+LLM Concepts                                           Rake Concepts
+                                                       anchor effect
+                                                       c sf
+                                                       c sf content
+                                                       c sf content ultimate tensile strength
+                                                       c sf increases
+                                                       c sf reinforced metal matrix composites
+                                                       composites increases
+                                                       different contents
+anchor effect                                          elongation decreases slightly
+carbon fiber reinforcement                             elongation reaches
+composite strengthening mechanism                      grain refinement
+elongation                                             interfacial bonding state
+grain refinement                                       interfacial reaction
+in situ interfacial reaction                           investigated according
+interface property                                     investigated interface
+interfacial reaction                                   load transfer load transfer
+load transfer                                          main strengthening mechanism
+mechanical property                                    matrix forms
+nano sized phase                                       mechanical properties
+short carbon fiber                                     mechanical properties strengthening mechanisms
+strengthening mechanism                                nb phase embedded intimately
+tensile property                                       nb phases
+ultimate tensile strength                              nbnbsi composites reinforced
+yield strength                                         short carbon fiber c sf
+                                                       short carbon fiber reinforced nbnbsi composites
+                                                       situ interfacial reaction
+                                                       strengthening behaviors
+                                                       strengthening mechanisms
+                                                       studied interfacial nanosized nb phase forms
+                                                       tensile properties
+                                                       valuable information
+                                                       yield strength
+
+Supplementary Fig. 3: Concept Extraction for W3192967258 (normalization of concepts through LLM
+extraction).
+
+
+
+
+                                                   3
+Abstract
+Gas-Channel Design of Gas-Assisted Molded Parts.                    The structure design of parts in
+gas assisted injection moldingGAIM was researched,while the parts with rectangular and semi-circular
+gas channels were studied by the methods of numerical simulation and physical simulation.At last,the
+degree of gas fingering was reduced numerical simulating experiment,CATIA was used to design simulated
+parts,and Moldflow was used to simulate the flow of plastic in the mold of GAIM.In physical simulating
+experiment,the dimension of gas-assisted injected plate was 160 mm140 mm.Gas channels were decussated
+in the plate.Gas channels with different dimensions were designed to obtain the effects of gas channels on
+gas fingering.The results show that in the design of semi-circular gas channel there is optimized proportion
+range of radius to plate thickness and the gas fingering of parts with square gas channels is serious.
+
+LLM Concepts                                            Rake Concepts
+                                                        design simulated parts
+                                                        different dimensions
+                                                        gas assisted injection moldinggaim
+                                                        gas channels
+                                                        gas fingering
+catia                                                   gasassisted injected plate
+flow of plastic                                         gasassisted molded parts
+gas assisted injection molding                          gaschannel design
+gas assisted molded parts                               mm mm gas channels
+gas channel design                                      numerical simulating experiment catia
+gas channel dimension                                   numerical simulation
+gas fingering                                           optimized proportion range
+gas injected plate                                      physical simulating experiment
+moldflow                                                physical simulation
+numerical simulation                                    plate gas channels
+physical simulation                                     plate thickness
+                                                        results show
+                                                        semicircular gas channel
+                                                        semicircular gas channels
+                                                        square gas channels
+                                                        structure design
+
+                   Supplementary Fig. 4: Concept Extraction for W2375662644.
+
+
+
+
+                                                    4
+Abstract
+Microstructure and Wear Resistance of Al2O3Coatings on Functional Structure. To enhance the wear
+properties of function structure, Al2O3 -13%TiO 2 AT13 coatings were plasma sprayed on 45 steel
+functional structure using micro and nano powders. The microstructures and phase compositions of the
+coatings were investigated by scanning electron microscopy and X-ray diffraction, respectively. Results
+show that the nano powder coating consists of fully-melted region and partially-melted region. The
+fully-melted regions show a lamellar structure, while the partially-melted regions retain the powders
+structure. The phases of coatings are -A1 2 O3 and TiO2 .The wear test was carried out on a ML-10
+friction and wear tester under dry sliding condition. It is found that the wear resistance of the micro
+powder coating is higher than that of nano powder coating. This is mainly ascribe to the breakage of the
+nano powder coating resulted from low agglomerated binding force.
+
+LLM Concepts                                          Rake Concepts
+                                                      dry sliding condition
+                                                      fullymelted region
+                                                      fullymelted regions show
+                                                      function structure alo tio
+                                                      functional structure
+                                                      lamellar structure
+agglomerated binding force
+                                                      low agglomerated binding force
+al2o3 coating
+                                                      mainly ascribe
+coating microstructure
+                                                      micro powder coating
+dry sliding condition
+                                                      ml friction
+friction and wear tester
+                                                      nano powder coating
+functional structure
+                                                      nano powder coating consists
+lamellar structure
+                                                      nano powder coating resulted
+partially melted region
+                                                      nano powders
+phase composition
+                                                      partiallymelted region
+plasma spraying
+                                                      partiallymelted regions retain
+scanning electron microscopy
+                                                      phase compositions
+wear property
+                                                      plasma sprayed
+wear resistance
+                                                      powders structure
+wear tester
+                                                      scanning electron microscopy
+x ray diffraction
+                                                      steel functional structure using micro
+                                                      wear properties
+                                                      wear resistance
+                                                      wear test
+                                                      wear tester
+                                                      xray diffraction respectively results show
+
+                  Supplementary Fig. 5: Concept Extraction for W2521598419.
+
+
+
+
+                                                  5
+Abstract
+Crystallization behaviour of AlSm amorphous alloys. Various Al100xSmx alloys 10 14 have been rapidly
+solidified by single-roller melt spinning with careful control of the atmosphere in the quenching device. The
+structural state and subsequent devitrification behaviour of the melt-spun ribbons are found to be partic-
+ularly sensitive to the quenching conditions. Except for the thinnest ribbons, there are inhomogeneities
+both through the ribbon thickness and along the length. Both fully and partially amorphous ribbons
+have been obtained. The crystallization processes of the amorphous phases have been followed by X-ray
+diffraction, transmission electron microscopy and differential scanning calorimetry DSC. Al92Sm8 shows
+primary crystallization of Al, followed by the formation of metastable phases; Al90Sm10 transforms
+polymorphically to a metastable intermetallic; Al88Sm12 and Al86Sm14 display eutectic crystallization
+into Al and a metastable mixture of compounds. For Al90Sm10, the DSC traces involve several overlapping
+peaks. This may be the result of transformations occurring in distinct parts of the ribbon with different
+mechanisms. A kinetic analysis of the crystallization processes has been performed by means of isothermal
+and non-isothermal DSC experiments. A discussion of the kinetic parameters derived from Kissinger and
+Avrami analyses is provided.
+
+LLM Concepts                                            Rake Concepts
+                                                        al followed
+                                                        alsm amorphous alloys various alxsmx alloys
+                                                        alsm display eutectic crystallization
+amorphous alloy
+                                                        amorphous phases
+avrami analysis
+                                                        avrami analyses
+crystallization behavior
+                                                        careful control
+crystallization process
+                                                        crystallization behaviour
+devitrification behavior
+                                                        crystallization processes
+differential scanning calorimetry
+                                                        different mechanisms
+dsc
+                                                        distinct parts
+eutectic crystallization
+                                                        dsc traces involve several overlapping peaks
+fully amorphous ribbon
+                                                        kinetic analysis
+inhomogeneity
+                                                        kinetic parameters derived
+isothermal dsc experiment
+                                                        meltspun ribbons
+kinetic analysis
+                                                        metastable intermetallic alsm
+kissinger analysis
+                                                        metastable mixture
+melt spinning
+                                                        metastable phases alsm transforms polymorphically
+metastable phase
+                                                        nonisothermal dsc experiments
+non isothermal dsc experiment
+                                                        partially amorphous ribbons
+partially amorphous ribbon
+                                                        particularly sensitive
+polymorphic transformation
+                                                        quenching conditions except
+primary crystallization
+                                                        quenching device
+quenching device
+                                                        rapidly solidified
+ribbon length
+                                                        ribbon thickness
+ribbon thickness
+                                                        singleroller melt spinning
+structural state
+                                                        structural state
+transmission electron microscopy
+                                                        subsequent devitrification behaviour
+x ray diffraction
+                                                        thinnest ribbons
+                                                        transformations occurring
+                                                        xray diffraction transmission electron microscopy
+
+                   Supplementary Fig. 6: Concept Extraction for W2047249259.
+
+
+
+
+                                                    6
+Abstract
+Successive ionic layer adsorption and reaction SILAR trend for nanocrystalline mercury sulfide thin films
+growth. Mercury sulfide HgS nanocrystalline thin films have been grown onto amorphous glass substrate
+by successive ionic layer adsorption and reaction SILAR trend at room temperature 27C. The optimized
+preparative parameters including ion concentration, number of immersion cycles, and pH of the solution
+are used for fine nanocrystalline film growth. A further study has been made for the structural, surface
+morphological, optical and electrical properties of the films by using X-ray diffraction XRD, scanning
+electron microscopy SEM, transmission electron microscopy TEM, optical absorption and dc two point
+probe method. The as-deposited grown HgS nanocrystalline films exhibited cubic phase, with optical band
+gap Eg of 2.0eV and electrical resistivity of the order of 103cm. SEM and TEM images confirmed films
+of smooth surface morphology and nanocrystaline in nature with fine crystallites of 2030nm diameter,
+respectively.
+
+LLM Concepts                                           Rake Concepts
+amorphous glass substrate
+                                                     dc two point probe method
+cubic phase
+                                                     diameter respectively
+dc two point probe method
+                                                     electrical properties
+electrical property
+                                                     electrical resistivity
+electrical resistivity
+                                                     fine crystallites
+mercury sulfide
+                                                     fine nanocrystalline film growth
+nanocrystaline mercury sulfide thin films
+                                                     grown onto amorphous glass substrate
+nanocrystaline mercury sulfide thin films growth
+                                                     immersion cycles
+optical band gap
+                                                     optical band gap eg
+optical property
+                                                     reaction silar trend
+scanning electron microscopy
+                                                     room temperature c
+sem
+                                                     smooth surface morphology
+successive ionic layer adsorption and reaction
+                                                     structural surface morphological optical
+successive ionic layer adsorption and reaction trend
+                                                     successive ionic layer adsorption
+transmission electron microscopy
+                                                     tem images confirmed films
+x ray diffraction
+
+Supplementary Fig. 7: Concept Extraction for W1993498556 (correct interpretation of ’and’; abbrevi-
+ation not extracted).
+
+
+
+
+                                                   7
+26   2    Concept graph properties
+
+     Supplementary Table 1: 25 most frequent concepts with their occurrences and degree in the concept
+     graph.
+
+               Concept                                      Occurance              Degree
+               mechanical property                            22931                261082
+               x ray diffraction                              18021                221632
+               scanning electron microscopy                   12185                154809
+               transmission electron microscopy                9462                118857
+               tensile strength                                8840                105074
+               electron microscopy                             8001                 99775
+               SiC                                             6402                 68771
+               grain size                                      5273                 60612
+               aluminium alloy                                 5075                 56272
+               grain boundary                                  4675                 53671
+               yield strength                                  4202                 54042
+               plastic deformation                             4151                 46884
+               optical property                                4125                 50866
+               TiO2                                            4085                 49291
+               Al2O3                                           3988                 47438
+               scanning electron microscope                    3831                 46055
+               tensile test                                    3814                 46973
+               SiO2                                            3749                 42820
+               ZnO                                             3706                 45161
+               heat treatment                                  3538                 40340
+               electrical property                             3495                 40945
+               tensile property                                3362                 40163
+               corrosion resistance                            3219                 38498
+               strain rate                                     3198                 36590
+               magnetic property                               3135                 35066
+
+
+
+
+     Supplementary Fig. 8: Distribution of node degrees. The node degree of 35 is the most common,
+     occurring 2637 times. The concept with the highest degree is ’mechanical property’. The concept with the
+     lowest degree is ’flexible pneumatic cylinder’. Both axes are in log scale.
+
+
+
+
+                                                        8
+Supplementary Fig. 9: Concept Centralization over different years. The graph illustrates the cumula-
+tive percentage of edges connected to nodes when sorted by their degree. A steep curve indicates that a
+small percentage of nodes (highly central nodes) are connected to a large percentage of edges. The years
+1980, 1990, 2000, 2010, and 2020 are compared to show how concept centralization increases over time in
+our Concept Graph.
+
+
+
+
+       Supplementary Table 2: 5 exemplary concepts and their respective 5 nearest neighbors
+
+          Concept                        Neighbor                                 Distance
+                                         semiconductor compound                   2.798
+                                         compound semiconductor material          3.22
+          compound semiconductor         semiconductor material                   3.457
+                                         semiconducting compound                  3.584
+                                         semiconductor crystal                    3.658
+                                         pyrocarbon layer                         7.07
+                                         resin carbon matrix                      8.072
+          pyrocarbon matrix              pyrolytic carbon matrix                  8.115
+                                         matrix carbon                            8.115
+                                         carbon matrix                            8.202
+                                         pure titanium                            5.801
+                                         titanium sheet                           5.82
+          pure titanium sheet            pure titanium plate                      6.192
+                                         commercially pure titanium sheet         6.594
+                                         pure titanium surface                    6.914
+                                         coating property                         1.428
+                                         corrosion resistant coating              1.465
+          wear resistant coating         coating wear resistance                  1.663
+                                         coating protection                       1.73
+                                         coating characteristic                   1.774
+                                         aisi 304l stainless steel                4.861
+                                         316l stainless steel                     5.294
+          304l stainless steel           304l steel                               5.323
+                                         308l stainless steel                     5.742
+                                         type 304l stainless steel                5.834
+
+
+
+
+                                                    9
+27   3    Link prediction
+28   Test set construction
+29   To get a clear picture of our models’ performances, we do not perform oversampling for the positives
+30   during test set construction. This is necessary to analyze AUROC, precision and recall in a setting
+31   as close to real-world applications as possible. We approach test set construction by randomly
+32   sampling node pairs that are not connected until the end of 2019 and simply storing the label by
+33   looking three years ahead in the graph. The resulting 2,000,000 node pairs, therefore, mirror the
+34   real distribution of positives. Of these 307 (0.015%) positive examples, 87 links were formed in the
+35   year 2020, 123 in 2021, and 97 in 2022.
+
+36   Evaluation against Science4Cast
+37   We benchmark our Baseline model against the Science4Cast benchmark described in [14]. First,
+38   we train the model on data up until 2014 to predict links emerging in 2015, 2016 and 2017. Second,
+39   we evaluate on the node pairs contained in ‘SemanticGraph_delta_3_cutoff_0_minedge_1.pkl’.
+40   Surprisingly, our Baseline model is not only competitive but would have scored the second place
+41   in the Science4Cast competition with an AUROC of 0.9088. Supplementary Table 3 presents an
+42   exhaustive overview of precision, recall, F1 score and the raw data at different thresholds.
+
+     Supplementary Table 3: Performance metrics of our Baseline model at different thresholds evaluated
+     against the Science4Cast benchmark on ‘SemanticGraph_delta_3_cutoff_0_minedge_1.pkl’ [14]
+
+             Threshold    AUC     Precision   Recall   F1-score     TN       FP       FN      TP
+                0.50     0.9088    0.0818     0.5170   0.1413     9663029   287423   23934   25614
+                0.55     0.9088    0.0952     0.4705   0.1583     9728873   221579   26238   23310
+                0.60     0.9088    0.1101     0.4266   0.1751     9779674   170778   28411   21137
+                0.65     0.9088    0.1267     0.3837   0.1905     9819397   131055   30538   19010
+                0.70     0.9088    0.1458     0.3410   0.2042     9851432    99020   32653   16895
+                0.75     0.9088    0.1693     0.2950   0.2152     9878748    71704   34930   14618
+                0.80     0.9088    0.2027     0.2497   0.2238     9901799    48653   37175   12373
+                0.85     0.9088    0.2474     0.1975   0.2196     9920681    29771   39763    9785
+                0.90     0.9088    0.3225     0.1332   0.1885     9936587    13865   42948    6600
+                0.95     0.9088    0.4881     0.0568   0.1017     9947501     2951   46734   2814
+
+
+
+43   Analysis of Ensemble Performance Across Feature Domains
+44   We investigated the impact of model blending on AUC performance, i.e. whether performance gains
+45   arise from combining distinct feature modalities or solely from the averaging effect of ensembling.
+46   While blends of models with complementary information (embeddings mixed with topological
+47   models, Panels 1 and 2 of Supplementary Fig. 10) achieve substantial performance boosts, blends
+48   within the same feature domain (Panel 3) or model type (Panel 4) conversely result in only marginal
+49   improvements. This demonstrates that the observed gains are driven by the synergy of non-
+50   redundant features rather than simple ensemble averaging.
+
+51   Calibration of the models’ predictions
+
+
+
+
+                                                       10
+     Supplementary Fig. 10: AUC performance for four hybrid models as a function of the blend weights for
+     different combinations of models.We investigated whether performance gains arise from combining distinct
+     feature modalities or solely from the averaging effect of ensembling.
+
+          Supplementary Table 4: Calibration of our models’ predictions measured with Brier-score.
+
+                               Model                                   Brier Score
+                               Baseline                         0.0521
+                               GNN                              0.0953
+                               Concept Embeddings (MatSciBERT) 0.0535
+                               Concept Embeddings (BERT)        0.0596
+                               Combination of features          0.05019
+                               Mixture of MLP and EmbeddingsCom-0.0438
+                               bination of models
+                               Mixture of GNN and Embeddings    0.0438
+                               Pure Text Baseline               0.1044
+
+
+52   Precision and recall
+
+
+
+
+     Supplementary Fig. 11: Precision-recall (PR) curves for our link prediction models on the test set
+     (Ttest = [2020, 2022]) with a zoom on the y-axis. Markers highlight the performances at a threshold of 0.5.
+     The left panel shows the PR curve for all data points. The central and right panel display the respective
+     PR curves for dprev = 2 and dprev = 3. Best result is in bold.
+
+
+
+
+                                                         11
+Supplementary Fig. 12: Precision@k for k ∈ {10, 100, 1000} for our link prediction models for all data
+points, also broken down by year (2020, 2021, 2022).
+
+
+
+
+Supplementary Fig. 13: Recall@k for k ∈ {10, 100, 1000} for our link prediction models for all data
+points, also broken down by year (2020, 2021, 2022).
+
+
+
+
+                                                 12
+Supplementary Fig. 14: Precision@k for k ∈ {10, 100, 1000} for our link prediction models for dprev = 3,
+also broken down by year (2020, 2021, 2022).
+
+
+
+
+Supplementary Fig. 15: Recall@k for k ∈ {10, 100, 1000} for our link prediction models for dprev = 3,
+also broken down by year (2020, 2021, 2022).
+
+
+
+
+                                                  13
+53   4    Report generation
+
+
+
+
+     Supplementary Fig. 16: Schematic representation of the report structure. ’Own’ (Cown ) and ’Other’
+     (Cother ) concepts are respectively represented in yellow and blue.
+
+
+
+54   Own Concepts Combinations. We generate combinations by combining the concepts that
+55   describe a researcher Cown with themselves:
+                          Sown×own := {(c1 , c2 ) ∈ Cown × Cown |(c1 , c2 ) ∈
+                                                                            / E(G)} .
+56   These combinations are then ranked, and the best 25 are included. The benefit of this section is
+57   that researchers are directly able to judge on the usefulness of these suggestions as both concepts
+58   are within their expertise. The size of Cown varies between researchers, we observe values roughly
+59   between 100 and 400.
+
+60   Other Concept Combinations.           We generate more diverse combinations by combining Cown
+61   with all remaining concepts:
+                          Sown×other := {(c1 , c2 ) ∈ Cown × Cother |(c1 , c2 ) ∈
+                                                                                / E(G)}
+62   where Cother := Cknown \ Cown . These combinations are then ranked and the best 25 are included.
+63   Note that |Combinationsown,other | ≫ |Combinationsown,own | as the size of Cknown is 137,000. The
+64   idea of this section is to offer more unbound suggestions than in ‘Own Concepts Combinations’.
+
+65   Filtered Other Concept Combinations.                We employ two heuristics to filter through the
+66   large set of Sown×other
+                   filtered
+                  Sown×other := {(cown , cother ) ∈ Combinationsown,other
+                                 | deg(cother ) <= 100 & 3 <= dist(cown , cother <= 6)} .
+67   To avoid unspecific suggestions, i.e. broad terms like ‘materials science’, we exclude concepts
+68   based on their degree in the concept graph G. To prevent obvious, e.g. synonyms, and too far-
+69   fetched concepts, we integrate semantic knowledge by using the euclidean distance in the map of
+70   the materials science (Figure 1??) that is a two dimensional projection of the obtained concept
+71   embeddings. Note that the values 3 and 6 were arbitrarily chosen after examining the map of
+72   materials science.
+
+
+                                                       14
+ 73   Other Concepts x Many Own Concepts. In this section, we suggest single concepts that
+ 74   have highly scored connections with many own concepts Cown :
+
+           S(many own)×other := {(cother , Cown,matching ) ∈ Cother × {Cown × ... × Cown }|Cown,matching
+                             := {c ∈ Cown |score(cother , c) > p}}
+
+ 75   where p can be set freely as threshold. The resulting set is sorted descendingly according to the
+ 76   length of Cown,matching and the top 20 are included. The idea is to take the researcher’s profile into
+ 77   account as a whole and to suggest concepts that can therefore be connected more easily to one’s
+ 78   own research.
+
+ 79   LLM Curation We are interested in the capabilities of LLMs to assist humans by pre-selecting
+ 80   from a broader list of concept combinations. For this, we query two LLMs, GPT-4 and Claude
+ 81   3 Opus (access May/June 2024), to select three items from a list of combinations and to write
+ 82   an additional paragraph on why this combination is promising. Three combinations were selected
+                                                                                       filtered
+ 83   from Sown×own ∪ Sown×other together with three additional combinations from Sown×other    , resulting
+ 84   in a total of six suggested combinations per LLM per report, and the two prompts are given in
+ 85   Supplementary Fig. 17 and 18.
+ 86       No paragraphs were created for combinations from section S(many own)×other as we expected that
+ 87   having the LLM generate a full paragraph combining multiple concepts would be harder to digest
+ 88   and analyze within the limited interview time. Note that this report section does not contain new
+ 89   suggestions but rather selects and elaborates on combinations already present in the report. Apart
+ 90   from highlighting particular suggestions, the LLM approach helps to bridge the gap between two
+ 91   concepts by providing additional information on how they could be combined. This is especially
+                                  filtered
+ 92   helpful for Sown×other or Sown×other where the second concept might be unfamiliar to a researcher.
+ 93       As our prompt to select 3 combinations of concepts from section 3 (Supplementary Fig. 18)
+ 94   explicitly asked the LLM to choose “more exotic” combinations, we analyzed if this resulted in
+ 95   a bias towards far-distance, cross-field pairs. For Sections 1 and 2, the mean node degree of the
+ 96   selected pairs was slightly lower (9,712) than for the non-selected pairs (11718). While all of the
+ 97   selected pairs were previously connected through only one additional node (dprev = 2), 2 of the
+ 98   non-selected pairs showed a larger previous node distance of dprev = 3. For section 3, mean node
+ 99   degrees of 1,582 and 4,694 were found for the selected and non-selected pairs, respectively. Here, 4
+100   of the selected and 3 of the non-selected pairs showed a previous node distance of dprev = 3. While
+101   the lower node degrees as well as the slightly higher number of more distant concepts selected from
+102   section 3 could result from the wording in the prompt, the small sample size prevents any definitive
+103   conclusions.
+         Supplementary Table 5: LLM suggestion vs. "Is Interesting" (labeled as C) confusion matrix.
+
+                                                             LLM suggestion
+                                                                        P
+                                                              Y   N
+                                                     Y       24      37     61
+                                    "Is Interesting" P
+                                                     N       29      24    205
+                                                             53      213   266
+
+
+
+
+                                                        15
+You are an advanced AI agent who has expertise in the realm of the
+   materials sciences . Your goal is to assist researchers looking
+   for promising new concept combinations that will --- once
+   investigated --- advance mankind .
+
+We prepared a report containing several concept combinations
+   suggested by an ML model we trained on historical data . This is
+   an overview of the attached PDF :
+
+1.1 Possible new combinations of the concepts we identified for a
+   particular scientist ( which , to our knowledge , have not yet been
+    combined )
+1.2 Possible new combinations of the concepts we identified for a
+   particular scientist with other existing concepts that , to our
+   knowledge , the scientist has not yet worked on ( at least not
+   according to the abstract data of the last years )
+
+Which 3 combinations ( across both categories ) do you think (
+   including all material science knowledge you have ) are the most
+   promising ? The order of the combinations doesn ’ t indicate
+   significance . Write a concise paragraph for each of those
+   suggestions that explains why you chose this combination . Each
+   suggested combination must be contained in the report . Don ’ t
+   invent new combinations that are not present .
+
+Just give me the 3 combinations and the 3 paragraphs .
+
+
+Supplementary Fig. 17: Prompt for the selection of 3 concept combinations from report sections 1
+(Sown×own ) and 2 (Sown×other ).
+
+
+
+
+                                              16
+You are an advanced AI agent who has expertise in the realm of the
+   materials sciences . Your goal is to assist pairs of researchers
+   looking for promising areas to combine their research which will
+    - once investigated - advance mankind .
+
+We prepared a report containing several concept combinations
+   suggested by an ML model we trained on historical data . This is
+   an overview of the attached PDF :
+
+1. Possible new concept combinations that are more exotic .
+
+For each combination , imagine two researchers proficient in one of
+   the two fields / concepts that want to collaborate .
+
+Which of these 3 of these more exotic combinations do you think (
+   including all material science knowledge you have ) are the most
+   promising ?
+
+The order of the combinations doesn ’ t indicate significance . Write
+   a concise paragraph for each of those suggestions that explains
+   why you chose this combination , and extend the paragraph by
+   thinking about how the two scientists would collaborate and
+   develop ideas and pathways to establish this cooperation .
+
+Each suggested combination must be contained in the report . Don ’ t
+   invent new combinations that are not present .
+
+Just give me the 3 combinations and the 3 paragraphs .
+
+
+Supplementary Fig. 18: Prompt for the selection of 3 concept combinations from report section 3
+  filtered
+(Sown×other ).
+
+
+
+
+                                              17
+Nanoporous Structure and High Entropy Alloy
+
+Nanoporous structures combined with high entropy alloys ( HEAs )
+   represent an intriguing area of study due to the unique
+   properties HEAs offer , such as exceptional mechanical strength ,
+   corrosion resistance , and thermal stability . The introduction of
+    a nanoporous architecture can potentially enhance these
+   properties by introducing lightweight characteristics and
+   increasing surface area , which could be particularly beneficial
+   for applications in catalysis and energy storage . Combining
+   these two concepts could lead to the development of new ,
+   optimized materials with tailored properties for specific
+   industrial applications .
+
+In Situ High Resolution Transmission Electron Microscopy and
+   Mechanical Performance
+
+The application of in situ high - resolution transmission electron
+   microscopy ( HRTEM ) to study the mechanical performance of
+   materials offers a promising research direction . This technique
+   allows real - time imaging of material deformation , phase
+   transformations , and dislocation dynamics at the atomic scale
+   during mechanical testing . Understanding these microscopic
+   events in great detail will enable the design of materials with
+   superior mechanical properties tailored to specific applications
+   , such clarification provides deeper insights into materials
+   behavior under stress and can lead to the development of
+   materials with enhanced durability and performance .
+
+Epitaxial Strain and Ultraviolet Visible Spectroscopy
+
+Studying the effects of epitaxial strain using ultraviolet - visible
+   spectroscopy could open new pathways in the synthesis and
+   characterization of thin films and nanostructures . Epitaxial
+   strain has been known to significantly alter the electronic and
+   optical properties of materials . By applying UV - Vis spectroscopy
+   , researchers can gain valuable insights into the changes in
+   band structure and electronic transitions caused by strain . This
+    combination could be particularly valuable in the development
+   of advanced optical devices , including lasers , LEDs , and
+   photovoltaic cells , where precise control over electronic
+   properties is crucial .
+
+
+Supplementary Fig. 19: Example of an LLM output containing three concept combinations and the
+corresponding abstracts
+
+
+
+
+                                             18
+104   5    Rated Concept Combinations
+105   Selection of the interviewees
+106   The selection of 10 interviewed researchers included only PIs, mostly professors at universities,
+107   from a diverse set of subdisciplines of materials science, some of which, but not all, had previous
+108   research experience with machine learning models.
+
+109   Analysis of the rated concepts per researcher
+
+
+
+
+                                                      19
+110
+
+
+
+
+      Supplementary Fig. 20: Overview of the concept categories per interview. A1 and A2 are grouped
+      together. Note that the results from researcher 3 were obtained by a commentary on the report, not by
+      an interview.
+
+
+             Supplementary Table 6: Category counts per researcher with per-participant variance.
+
+                      Researcher     A1      A2      B        C      D       Variance
+                      1              11      9       19       9      0       36.64
+                      2              3       7       5        4      0       5.36
+                      3              9       0       1        12     1       24.24
+                      4              18      2       7        3      0       41.20
+                      5              8       7       15       9      0       22.96
+                      6              4       3       11       11     1       17.60
+                      7              4       0       9        8      2       11.84
+                      8              3       3       6        6      0       5.04
+                      9              5       4       23       7      5       51.36
+                      10             6       1       3        8      0       9.04
+
+
+
+
+                                                         20
+111   Examples of rated concept combinations
+
+      Supplementary Table 7: Concept combinations ranked A1 and A2 during the interviews (25 examples
+      per category)
+
+         Category                     Concept A                                  Concept B                    Section[a]
+                      nanoparticle dispersion                     quantum yield                                   3
+                      ferroelectric polarization                  layered material                                3
+                      in plane polarization                       microstructure feature                          3
+                      nanoparticle dispersion                     post heat treatment                             3
+                      microstructure characterization             molecular architecture                          4
+                      energy dispersive x ray spectroscopy        domain structure                                4
+                      ferroelectric polarization                  thermal treatment                               1
+                      grain texture                               power conversion efficiency                     1
+                      out of plane polarization                   optoelectronic application                      1
+                      polymer fullerene solar cell                kelvin probe force microscopy                   1
+                      thermal treatment                           crystal orientation                             1
+                      computational material science              corrosion resistance                            2
+            A1        ion extraction                              density functional theory calculation           2
+                      solid electrolyte interphase layer          finite element analysis                         2
+                      device architecture                         CO2                                             2
+                      aging process                               density functional theory                       1
+                      solution concentration                      machine learning                                1
+                      acceptor material                           crystal structure                               1
+                      excitation intensity                        thermal stability                               1
+                      lattice distortion                          optical analysis                                3
+                      absorption spectroscopy                     additive manufacturing technology               3
+                      artificial neural network                   micro structural effect, crack initiation       4
+                      crystalline coating                         laser powder bed fusion                         2
+                      morphological change                        composite material                              2
+                      carbon enrichment                           scanning electron microscope                    2
+                      electrode fabrication                       oxygen concentration                            3
+                      optical property                            high entropy alloy                              2
+                      optoelectronic application                  mechanical performance                          2
+                      bulk heterojunction                         thermal annealing                               1
+                      circular dichroism                          optoelectronic property                         1
+                      electrode layer                             quantum efficiency                              1
+                      external quantum efficiency                 thermal treatment                               1
+                      fullerene derivative                        optoelectronic property                         1
+                      high reflectivity                           perovskite solar cell                           1
+                      pseudocapacitive material                   composite material                              2
+                      channel doping                              x ray diffraction                               1
+                      channel doping                              x ray photoelectron spectroscopy                1
+            A2        chargedischarge test                        thermal stability                               1
+                      industrial application                      surface pattern, cell membrane                  4
+                      solid electrolyte interphase                structural property                             1
+                      void filling                                atom probe tomography                           1
+                      resistance change                           mechanical performance                          2
+                      dislocation plasticity                      gradient structure                              3
+                      photon flux                                 high density                                    3
+                      edge defect                                 carbon nanotube                                 2
+                      femtosecond laser                           density functional theory                       1
+                      light irradiation                           density functional theory                       1
+                      multimodal imaging                          photoluminescence spectroscopy                  1
+                      solution synthesis                          material design                                 1
+                      three dimensional printing                  optical property                                1
+                                                                filtered
+      [a] Report sections: 1 (Sown×own ), 2 (Sown×other ) , 3 (Sown×other ) 4 (S(many own)×other )
+
+
+
+
+                                                             21
+Supplementary Table 8: Concept combinations ranked A1 and A2 during the interviews (25 examples
+per category)
+
+   Category                     Concept A                                 Concept B            Section[a]
+                photovoltaic application                    microscopic analysis                   3
+                tailored property                           deformed grain                         3
+                nanoparticle dispersion                     energy absorption capacity             3
+                material library                            tension compression asymmetry          3
+                optical property                            mendelevium simulation                 3
+                crystal orientation                         diffusion kinetic                      3
+                ferroelectric domain                        interface bonding                      3
+                electrostatic repulsion                     NS                                     3
+                charge carrier transport                    hydrophobic surface                    3
+                OH                                          crystal phase                          4
+                absorbance spectroscopy                     tensile test                           2
+                polymer fullerene solar cell                laser powder bed fusion                2
+                exciton diffusion length                    x ray photoelectron spectroscopy       2
+       B
+                cone beam                                   high entropy alloy                     2
+                cone beam                                   optoelectronic application             1
+                hansen solubility parameter                 optoelectronic application             1
+                light element                               optical property                       1
+                microfluidic chip                           band gap                               1
+                rare earth oxide                            electrostatic interaction              1
+                artificial intelligence                     BO                                     3
+                                                            gas evolution, material library,
+                ultimate tensile strength                                                          4
+                                                            sub threshold swing
+                spectroscopic technique                     yield strength                         2
+                cycling performance                         solar cell                             1
+                lithium ion battery application             high entropy alloy                     1
+                light conversion                            mechanical property                    2
+                charge carrier transport                    hydrophobic surface                    3
+                conjugated polymer                          elastic recovery                       3
+                                                            solar cell fabrication,
+                electron backscatter diffraction                                                   4
+                                                            thin film deposition
+                                                            interpenetrating network,
+                machine learning                                                                   4
+                                                            fluorescence quenching
+                                                            polymer fullerene solar cell,
+                mechanical performance                                                             4
+                                                            ferroelectric property
+                carbon based material                       photocatalytic activity                2
+                charge carrier transport                    compressive strength                   2
+                crystal orientation                         organic solar cell                     1
+                in plane polarization                       organic solar cell                     1
+                mechanochemical reaction                    tensile performance                    3
+                delafossite structure                       dual phase                             3
+       C
+                dislocation accumulation                    capacity fade, high entropy            4
+                conventional ceramic                        graphene oxide                         2
+                high entropy alloy                          charge separation                      4
+                microstructure evolution                    economical advantage                   4
+                semiconductor substrate                     microstructure evolution               2
+                mid infrared                                molecular dynamic simulation           2
+                exciton binding                             hcp phase                              3
+                sodium iodide                               microstructural defect                 3
+                metal organic framework                     good ductility                         4
+                direct laser writing                        youngs modulus                         1
+                graphene oxide                              monte carlo simulation                 4
+                oxide transistor                            cyclic voltammetry                     2
+                oxygen vacancy                              crack tip plasticity                   4
+                stress induced phase transformation         hexagonal boron nitride                3
+                power consumption                           nanoparticle formation                 3
+                quantum efficiency                          additive manufacturing                 2
+       D
+                bauschinger effect                          ultimate tensile strength              2
+                moores law                                  high entropy alloy                     1
+                                                          filtered
+[a] Report sections: 1 (Sown×own ), 2 (Sown×other ) , 3 (Sown×other ) 4 (S(many own)×other )
+
+                                                       22
+Supplementary Fig. 21: Overview of the concept categories per interview. A1 and A2 are grouped
+together. Note that the results from researcher 3 were obtained by a commentary on the report, not by
+an interview.
+
+
+
+
+                                                 23
+112   6    Detailed discussion of interesting concept combinations
+113   The selection of 10 researchers included only PIs, mostly professors at universities, from a diverse set
+114   of subdisciplines of materials science, some of which, but not all, had previous research experience
+115   with machine learning models.
+116       Below is a more detailed discussion of the 5 selected examples of new combinations of concepts
+117   shown in the results section of the main text.
+
+118   Suggestion: "Conventional ceramic" + "Graphene oxide"
+119   During the concept prediction phase of the AI model trained on open-access scientific abstracts, an
+120   interesting connection between two research areas emerged. The AI identified “conventional ceram-
+121   ics” and “graphene oxide” as a potentially promising combination. While the integration of graphene
+122   oxide with ceramics has been explored in numerous studies, these approaches typically rely on dif-
+123   ferent synthesis methods and subsequent mixing. In contrast, the method presented here is both
+124   unique and simple, yielding a distinctive material: a nanometer-thin multilayer graphene scaffold
+125   coated with an approximately 200 nm thick iron oxide layer (see Extended Data Fig. 2??). This
+126   AI-predicted research direction aligned with prior experimental work that had been conducted but
+127   never published, highlighting the model’s potential to identify overlooked but valuable material
+128   synthesis strategies.
+129       At first glance, the connection between conventional ceramics and graphene oxide is not obvious
+130   due to their fundamentally different structures and chemical behaviors. Conventional ceramics are
+131   typically ionic solids, composed of various cation-anion combinations (e.g., transition metals as
+132   cations and oxides, fluorides, or sulfides as anions). They are known for their rigidity, thermal and
+133   chemical stability, and widespread use in electronic and electrochemical applications. In contrast,
+134   graphene oxide consists of covalently bonded carbon and oxygen atoms, forming a highly flexible
+135   material that exfoliates and decomposes at elevated temperatures, producing carbon oxide species
+136   and exfoliated (multilayer)graphene.
+137       The link between these material classes becomes evident when they are combined into a com-
+138   posite system. However, this integration is challenging due to their distinct synthesis methods
+139   and reactivity. In previous experiments aimed at developing a high-conductivity electrode mate-
+140   rial for conversion type Li-ion batteries, a successful combination of these materials was achieved.
+141   Graphene oxide was mixed with iron pentacarbonyl (Fe(CO)5 ), a liquid at ambient conditions, and
+142   subjected to autoclave treatment at temperatures above 250 ◦ C. Under these conditions, Fe(CO)5
+143   vaporized and decomposed into atomic Fe(0) species in the gas phase at around 200 ◦ C. These iron
+144   atoms subsequently reacted with the oxygen groups in graphene oxide, forming iron oxide species
+145   (Fe2 O3 , Fe3 O4 ) while simultaneously reducing graphene oxide to graphene.
+146       The resulting composite featured a highly conductive multilayer graphene scaffold coated with
+147   an approximately 200 nm thick layer of iron oxide. This material exhibited high electrochemical
+148   capacity and reversibility, making it a strong candidate for conversion-type electrode materials. The
+149   improved redox kinetics were attributed to the high electronic conductivity of graphene and the
+150   intimate contact with the thin iron oxide layer, enhancing the overall electrochemical performance.
+
+151   Suggestion: "Tensile strain" + "Molecular architecture"
+152   Managing tensile strain has been underestimated in the design of stable interfaces for thin film
+153   soft matter’ solar cells. In inorganic crystalline semiconductors, strain / stress management has
+154   been understood as an important design criterion to prevent the formation of point defects, which
+155   are triggered by both mechanical and thermal stress. However, in organic and perovskite solar
+156   cells, the alternating combination of organic and inorganic interface materials are more and more
+157   being established as a design criterion due to the advantage of orthogonal solubility in multi-
+158   layer processing. Tensile strain then arises at the interface of materials with differing thermal
+159   expansion coefficients during temperature fluctuations. Such fluctuations dominantly occur during
+160   processing, annealing, and post-crystallization. The mismatch in thermal expansion coefficients
+161   can cause macroscopic delamination or cracking at interfaces as well as microscopic formation of
+162   point defects such as halide voids.
+163       Furthermore, the molecular flexibility of interface materials, particularly their torsional flexi-
+164   bility, significantly affects the mechanical properties of thin films, including the Young’s modulus.
+
+
+
+                                                        24
+165   Molecules with higher torsional flexibility can accommodate strain more effectively, enhancing the
+166   mechanical resilience of the interface.
+167       Recent research underscores that molecular tensile strain management might be regarded as
+168   a more general proxy for interface design. Brabec and Friederich reported in Science 2024 [31]
+169   torsional flexibility of HTL molecules, which was represented by the introduction of TPA units, as
+170   one of several design criteria for efficient perovskite solar cells [31]. We note that the suggestion
+171   "tensile strain + molecular architecture" was generated in December 2023. Properties such as
+172   film formation and homogenous film quality benefited from that as well. In another currently
+173   ongoing study by Brabec et al. (in submission), we found that embedding plasticizing molecules
+174   dramatically increases the mechanical and operational stability of thin film solar cells.
+175       In conclusion, the effective management of tensile strain through the selection of interface
+176   materials with appropriate thermal expansion coefficients and molecular flexibility may have been
+177   underestimated for the design of long-time stable thin film organic and hybrid solar cells.
+
+178   Suggestion: "Multiphase structure" + "Selective laser melting"
+179   The term microstructure refers to the complete set of internal structural features of a material.
+180   This includes the crystallographic arrangement of its ideal, defect-free regions, as well as all types
+181   of defects that may be present. These defects range from point defects - such as impurity atoms, va-
+182   cancies, and interstitials - to line defects like dislocations, planar defects such as grain boundaries,
+183   and three-dimensional defects including pores or precipitates. A well-characterized microstructure,
+184   from the atomic to the macroscopic scale, enables the establishment of correlations between struc-
+185   tural imperfections and the mechanical or functional properties of materials. This understanding
+186   is essential for guiding the selection and application of materials in engineering contexts.
+187       One important microstructural feature in complex metallic alloys and ceramic materials is
+188   the presence of phases - regions within the material that exhibit uniform physical and chemical
+189   properties, such as crystal structure and composition. Most technical materials are multiphase
+190   systems, meaning they contain multiple such regions. The formation of these multiphase struc-
+191   tures typically results from processing steps that involve heating and cooling cycles, and often
+192   plastic deformation. These steps aim to achieve thermodynamically stable or kinetically stabilized
+193   microstructures. Controlling the multiphase structure is critical, as it allows materials to exhibit a
+194   desirable combination of properties, including enhanced strength, toughness, corrosion resistance,
+195   wear resistance, and optimized electrical or magnetic behavior.
+196       Selective Laser Melting (SLM) is an advanced additive manufacturing (3D printing) technique
+197   in which a high-powered laser selectively melts and fuses fine layers of metal powder to fabricate
+198   solid, complex parts directly from a digital design. As the part is built layer by layer from metal
+199   powder, the process minimizes material waste while producing components with high detail and
+200   mechanical integrity.
+201       Due to the rapid heating and cooling cycles inherent in SLM, the resulting microstructures are
+202   often far from equilibrium, frequently leading to the formation of multiphase materials. For exam-
+203   ple, parts produced via SLM may contain mixtures of phases with differing crystal structures or
+204   local compositions that would not typically form in slower, conventional manufacturing processes.
+205   These multiphase structures can significantly affect the material’s final properties - potentially en-
+206   hancing strength, hardness, or corrosion resistance, but also possibly introducing internal residual
+207   stresses that could compromise long-term performance.
+
+208   Suggestion: "Stress induced phase transformation" + "Hexagonal boron nitride"
+209   The link between stress-induced phase transformation and hexagonal boron nitride (h-BN) is best
+210   explained in the context of enhancing the fracture toughness of ceramics by phase transformations.
+211   For instance, in zirconia, a tetragonal-to-monoclinic phase transformation results in a volume
+212   expansion in the vicinity of a crack, which locally results in compressive stress both, deflecting
+213   and stopping crack growth. This concept is applied to other metastable phases in hard coatings
+214   [49]. A second concept of reaching an enormous tensile strength with simultaneously high fracture
+215   toughness, which both typically exclude each other, is using local anisotropy. This was shown
+216   in pearlite wires, where multiple micro-cracks parallel to the loading direction were formed and
+217   enhanced the fracture toughness substantially [50]. There are at least two arguments why thinking
+218   of stress-induced phase transformations and h-BN is reasonable. (i) Cubic boron nitride (c-BN),
+219   having a Wurtzite crystal structure, is used as a hard coating because of its enormous hardness.
+
+
+                                                        25
+220   In contrast, the hardness of h-BN is significantly lower, rendering it not a top candidate for hard
+221   coatings. On the contrary, h-BN offers a significant anisotropy in its mechanical properties and
+222   therefore might locally help to produce micro-cracks parallel to the loading direction, resulting in
+223   toughening. (ii) c-BN and h-BN have different densities, with c-BN exhibiting the higher one. I.e.,
+224   upon compression, a certain propensity of forming c-BN exists. However, this phase transformation
+225   seems not to be trivial, and it remains unclear if the c-BN to h-BN phase transformation could be
+226   exploited from a materials engineering viewpoint. While first indications of improved mechanical
+227   properties by using a c-BN / h-BN composite do exist [51], the role of phase transformations to
+228   the best of our knowledge remains unknown for this system and could be an interesting topic for
+229   future evaluation.
+
+230   Suggestion: "In-plane polarization" + "Organic solar cell"
+231   A number of material properties were discovered in perovskite photovoltaics that have not been
+232   considered with respect to photovoltaics in the past, but which may benefit the generation and
+233   extraction of photogenerated charge carriers and hence the power conversion efficiency of the
+234   devices. Among these properties, a ferroelectric in-plane polarization of methylammonium lead
+235   iodide (MAPbI3) was vividly discussed to help with the separation of electrons and holes as well as
+236   their conduction to the respective electrodes along ferroelectric domain walls [32,33]. So far, the
+237   ferroelectric properties are genuine to MAPbI3 solar cells and some derivatives thereof [35]. The
+238   necessary precondition is a non-centrosymmetric unit cell of the crystal, which is why this concept
+239   has not played a role in any of the established solar technologies, such as silicon, so far [35,36].
+240   Yet, it may well play a role in future novel perovskite-inspired materials [52].
+241       The requirement of crystallinity and non-centrosymmetric unit cells seemingly does not link
+242   to organic solar cells, which are mostly amorphous. Yet, the great design flexibility of organic
+243   molecules can be used to introduce asymmetric polar functional groups, which are already in use
+244   today in piezoelectric polymers for organic touch sensors, e.g., polyvinylidene fluoride (PVDF). If,
+245   in addition, ways are found to orient these molecules, an organic analogy to in-plane polarization
+246   may be designed, which then also benefits the charge carrier separation in organic solar cells. The
+247   challenge here is that in-plane polarization is notoriously difficult to control via external electrical
+248   poling since the electrodes in organic solar cells only allow for the application of an out-of-plane
+249   electric field [37]. Hence, in-plane polarization probably must be part of the conformation of the
+250   film itself through post-processing or by molecular self-assembly. Covalent organic frameworks
+251   (COFs) may also mimic a crystal structure, which then can be modified for in-plane polarization.
+252       Furthermore, polarizable molecules typically have higher dielectric constants, which reduce the
+253   binding energy of photo-generated electron-hole pairs. While this binding energy still limits the
+254   performance of organic solar cells today, increasing the dielectric constant through polarization may
+255   help to enhance the open-circuit voltage of solar cells and to reduce monomolecular recombination.
+256   The idea of increasing the dielectric constant of organic molecules to reduce the binding energy of
+257   electron-hole pairs has been around for many years, yet without any major breakthroughs. The
+258   use of polarizing functional groups has not been thoroughly investigated so far.
+259       As of today, both resulting concepts are rather speculative, but the machine learning suggestion
+260   points in an interesting research direction to be considered in future experiments.
+
+
+261   7    Dataset
+262   Filtering Papers fetched from venues related to materials sciences were first filtered, and only
+263   259,913 out of 490,188 works had both a title and an abstract. Additional filtering removes very
+264   short (< 100 characters) and very long (> 4000 characters) abstracts. Furthermore, we check
+265   relatedness to the materials science domain by checking whether the tag ’Materials Science’ is
+266   present. We rely on tags from OpenAlex’s tagger. We exclude works that contain Latex code and
+267   those whose primary language is not English.
+
+268   Cleaning We exclude non-ASCII characters, remove tabs, multiple whitespaces and newlines.
+269   We use heuristic approaches to replace latex super or subscript code. We replace number ranges,
+270   parenthesis and brackets.
+
+
+
+
+                                                        26
+      Supplementary Fig. 22: Overview of the dataset generation: (a) fetch publications from OpenAlex
+      venues related to materials sciences, (b) filtering based on title and abstract (c) removal of selected char-
+      acters.
+
+
+271   Chemical Formulas Predominantly found in the materials science domain are material formu-
+272   las. We employ a custom parser to recursively identify materials following these five rules:
+273       1. The subsequent word is another element
+274       2. The subsequent word is an integer together with a + or -
+275       3. The subsequent word is an integer, a + or a -
+276       4. The subsequent word is a decimal
+277       5. The subsequent word is a composition of elements of the periodic table
+278      The following examples showcase how those rules translate into real parsing: ’Na Cl’ → ’NaCl’,
+279   ’Na 2’ → ’Na2’, ’Mn 4+’ → ’Mn4+’, ’Fe3 O’ → ’Fe3O’, ’Fe3O 4’ → ’Fe3O4’, ’Mn 0.75’ → ’Mn0.75’,
+280   ’Zn3 PO’ → ’Zn3PO’, and ’H2 SO4’ → ’H2S04’.
+
+
+281   8     LLM Fine-tuning
+282   Hugging Face’s Python library was used to fine-tune the LLaMa-2-13B model [41,53]. We prepare
+283   our annotated data by constructing a single string per data point as follows <s> + abstract +
+284   "#KEYWORDS#" + concepts + </s> where concepts corresponds to the string version of a Python
+285   list, e.g. [’brittle epoxy’, ’butadiene nitrile liquid rubber’, ...]. <s> and </s> rep-
+286   resent the beginning of sequence (BOS) and, respectively, end of sequence (EOS) token for the
+287   LLaMa models. #KEYWORDS# serves as an own custom delimiter to signal the model when concept
+288   extraction should start. For the LLaMa tokenizer, we set pad_token_id = 0, bos_token_id =
+289   1, and eos_token_id = 2. Being a CausalLM, we set the labels equal to the input token ids.
+290   Our LoraConfig is r = 16 (Lora attention dimension), lora_alpha = 32, target_modules=["
+291   q_proj", "v_proj"] (modules where the adapter is applied), and lora_dropout = 0.01 (dropout
+292   probability) [44][dettmers2023qlora]. Training took around an hour on a single A100 GPU.
+
+
+293   9     Hyperparameters of the link prediction models
+294   The GNN link prediction model uses a two-layer GraphSAGE encoder with a hidden dimension
+295   of 256 and produces 128-dimensional node embeddings. These embeddings are then fed into an
+296   MLP decoder that also has a hidden dimension of 256 and operates on 128-dimensional inputs.
+297   Neighborhood sampling is performed with fanout (k1 , k2 ) = (20, 15) for the first and second hop,
+298   respectively. The model is trained with a learning rate of 1 · 10−5 ; additionally, a ReLU activation
+299   function, dropout with pdropout = 0.1 is used.
+
+
+                                                           27
+               Supplementary Table 9: Optimized hyperparameters of link prediction models.[a]
+
+          Model                          Layers    Neurons per layer                    Learning rate
+          Baseline                       7         [20, 300, 180, 108, 64, 10, 1]       5 · 10−4
+          Concept embeddings             5         [1536, 1024, 819, 10, 1]             1 · 10−3
+          Combination of features        7         [1556, 1556, 933, 559, 335, 10, 1]   1 · 10−3
+          [a] A ReLU activation function, a dropout probability of pdropout = 0.1 and 30% of positive
+          samples per batch were used for all models.
+
+
+300   References
+301   [49] C. Wang, K. Shi, C. Gross, J. M. Pureza, M. de Mesquita Lacerda, and Y.-W. Chung,
+302        "Toughness enhancement of nanostructured hard coatings: Design strategies and toughness
+303        measurement techniques," Surface and Coatings Technology, vol. 257, pp. 206–212, 2014. doi:
+304        10.1016/j.surfcoat.2014.08.018.
+305   [50] A. Hohenwarter, B. Völker, M. W. Kapp, Y. Li, S. Goto, D. Raabe, and R. Pippan, "Ultra-
+306        strong and damage tolerant metallic bulk materials: A lesson from nanostructured pearlitic
+307        steel wires," Scientific Reports, vol. 6, p. 33228, 2016. doi: 10.1038/srep33228.
+308   [51] M. J. Kupczyk, "The use of a superhard boron nitride composite c-BN+h-BN with increased
+309        resistance to brittle cracking for anti-wear coatings," Proceedings of the Institution of Mechan-
+310        ical Engineers, Part L, vol. 237, pp. 2462–2472, 2023. doi: 10.1177/14644207221127672.
+
+311   [52] M. Krishnaiah, K. Singh, S. Monga, A. Tripathi, S. Karmakar, R. Kumar, C. Tyrpenou, G.
+312        Volonakis, D. Manna, P. Mäkinen, K. V. Adarsh, S. Bhattacharya, G. K. Grandhi, K. D. M.
+313        Rao, and P. Vivo, "Perovskite-Inspired Cs2AgBi2I9: A Promising Photovoltaic Absorber for
+314        Diverse Indoor Environments," Advanced Energy Materials, vol. 15, p. 2404547, 2025. doi:
+315        10.1002/aenm.202404547.
+
+316   [53] T. Wolf, L. Debut, V. Sanh, J. Chaumond, C. Delangue, A. Moi, P. Cistac, T. Rault, R.
+317        Louf, M. Funtowicz, J. Davison, S. Shleifer, P. v. Platen, C. Ma, Y. Jernite, J. Plu, C. Xu,
+318        T. L. Scao, S. Gugger, M. Drame, Q. Lhoest, and A. M. Rush, "HuggingFace’s Transformers:
+319        State-of-the-art Natural Language Processing," arXiv preprint arXiv:1910.03771, 2020. doi:
+320        10.48550/arXiv.1910.03771.
+
+
+
+
+                                                       28
+

@@ -1,0 +1,72 @@
+{
+  "all_passed": true,
+  "checks": {
+    "primary_insight_ids_unique": {
+      "passed": true
+    },
+    "theme_ids_unique": {
+      "passed": true
+    },
+    "relation_candidate_ids_unique": {
+      "passed": true
+    },
+    "abstract_candidate_ids_unique": {
+      "passed": true
+    },
+    "primary_claims_partition_exactly_into_themes": {
+      "passed": true
+    },
+    "theme_supporting_paper_counts_match_members": {
+      "passed": true
+    },
+    "intervention_evidence_is_exact_abstract_substring": {
+      "passed": true
+    },
+    "mechanism_evidence_is_exact_abstract_substring": {
+      "passed": true
+    },
+    "outcome_evidence_is_exact_abstract_substring": {
+      "passed": true
+    },
+    "abstract_candidates_are_exact_substrings": {
+      "passed": true
+    },
+    "primary_claims_meet_evidence_threshold": {
+      "passed": true
+    },
+    "primary_claims_have_causal_mechanism_role": {
+      "passed": true
+    },
+    "primary_claims_have_outcome_role": {
+      "passed": true
+    },
+    "primary_claims_are_not_reviews": {
+      "passed": true
+    },
+    "primary_claims_are_direct_iTE_scope": {
+      "passed": true
+    },
+    "relation_rows_cover_all_nonexclusive_flags": {
+      "passed": true
+    },
+    "relation_rows_meet_similarity_threshold": {
+      "passed": true
+    },
+    "relation_chronology_is_consistent": {
+      "passed": true
+    },
+    "opportunity_partition_matches_no_relation_flags": {
+      "passed": true
+    },
+    "freeze_year_respected": {
+      "passed": true
+    }
+  },
+  "details": {
+    "primary_claims": 165,
+    "theme_member_claims": 165,
+    "expected_relation_rows_from_flags": 12,
+    "actual_relation_rows": 12,
+    "opportunity_themes": 130
+  }
+}

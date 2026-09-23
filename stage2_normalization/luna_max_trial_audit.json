@@ -1,0 +1,461 @@
+{
+  "model": "gpt-5.6-luna",
+  "reasoning": "max",
+  "initial_proposals": {
+    "N1509": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧都描述材料键合的 ionic character，右侧只是省略 bonds 的同一性质表述。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1510": {
+      "proposed_relation": "broader_than",
+      "model_reason": "左侧是 mechanical performance 与 output power density 的复合性能，右侧只是其中 mechanical performance 分量。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1511": {
+      "proposed_relation": "related_to",
+      "model_reason": "hole carrier concentration 限定载流子类型，increase of carrier concentration 描述总体浓度上升变化，相关但不等同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1512": {
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都指晶格热导率较低，但 unusually 与 intrinsically 分别是程度和来源描述，跨语境不足以无条件等同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1513": {
+      "proposed_relation": "related_to",
+      "model_reason": "phonon softening 与 bond softening 都是软化机制，但作用对象分别为声子与化学键。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1514": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "Cu ion diffusion 与 Cu diffusion 在超离子材料语境中均指铜离子扩散。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1515": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "reduced thermal conductivity 是右侧 ionic and thermal conductivity 复合量中的热导分量变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1516": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "ion-polymer interaction 与 ion/polymer interaction 只是连接符号不同，均指离子与聚合物相互作用。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1517": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "superior ionic conductivity 是 ionic conductivity 的高水平状态限定。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1518": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "wide bandgap insulator 是 wide bandgap 材料中进一步限定为绝缘体的类型。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1519": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "Soret effect of the ionogel 限定为离子凝胶中的 Soret 效应，属于一般 Soret effect 的特定语境。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1520": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "ionic electrical conductivity 衡量离子电传导，thermal conductivity 衡量热传导，是不同物理量。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1521": {
+      "proposed_relation": "related_to",
+      "model_reason": "anomalous Seebeck coefficient 按异常行为限定，ionic Seebeck coefficient 按载流机制限定，二者可能交集但互不包含。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1522": {
+      "proposed_relation": "related_to",
+      "model_reason": "charge carrier concentration 是基础数量，increase of the carrier concentration 是该数量的上升变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1523": {
+      "proposed_relation": "broader_than",
+      "model_reason": "migration 未限定迁移实体，migration of anions 明确为阴离子迁移。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1524": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "carrier concentration 是载流子浓度，右侧 concentration 在液态 In-Se 体系中指组成浓度。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1525": {
+      "proposed_relation": "related_to",
+      "model_reason": "direction of thermodiffusion 是过程方向数量，cation thermodiffusion 是具体阳离子热扩散过程，语义角色不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1526": {
+      "proposed_relation": "related_to",
+      "model_reason": "low elastic stiffness 是低值状态，elastic stiffness constants 是弹性刚度参数集合。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1527": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "strong ionic Ta-N bonding 明确限定为 Ta-N 键，strong ionic bonding 是未限定具体元素的离子键。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1528": {
+      "proposed_relation": "related_to",
+      "model_reason": "decreasing ionic character 是离子性下降变化，ionic character 是离子性本身。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1529": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "jump of the ionic Seebeck coefficient 是 ionic Seebeck coefficient 的跃变/异常表述。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1530": {
+      "proposed_relation": "broader_than",
+      "model_reason": "Seebeck coefficient S 未限定符号，positive Seebeck coefficient 是正值子类。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1531": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "electrical resistance 明确为电阻，resistance 未限定阻力类型。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1532": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧都是具体材料的 Seebeck coefficient 指标，3DMG/CuI 材料限定不改变指标类型。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1533": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "concentration difference between anions and cations 是浓度差，mobility difference between cations and anions 是迁移率差，物理量不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1534": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "charge transport 是 TE transport 中的电荷输运侧面，TE transport 还可包含热输运。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1535": {
+      "proposed_relation": "broader_than",
+      "model_reason": "Seebeck coefficient (S) 未限定载流机制，ionic Seebeck coefficient 是离子型特例。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1536": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "octahedral distortion 是八面体结构畸变，octahedral sites 是晶格位置实体。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1537": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "substitution of Se with S 表示以 S 替代 Se，substitution of Se for S 表示以 Se 替代 S，替代方向相反。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1538": {
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都指低晶格热导率，但 unusually 与普通 low 的程度修饰不能跨论文直接建立上下位。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1539": {
+      "proposed_relation": "related_to",
+      "model_reason": "low thermal conductivity 是低值状态，reduction of thermal conductivity 是该指标的下降变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1540": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "thermoelectric power and efficiency 是功率与效率的复合性能，thermoelectric power 是其中一项。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1541": {
+      "proposed_relation": "related_to",
+      "model_reason": "hole carrier concentration 限定空穴，Changes in the carrier concentration 描述总体载流子浓度变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1542": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "continuous power generation 与 continuous power output 都描述持续输出热电功率的功能。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1543": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "confinement of ions within polymer matrix 是离子受限过程，ions within geopolymer matrix 是材料实体中的离子。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1544": {
+      "proposed_relation": "related_to",
+      "model_reason": "extremely low 与 intrinsically low 都修饰晶格热导率，但前者程度、后者来源，不能仅凭修饰词建立等价。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1545": {
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是 Seebeck coefficient 与 figure of merit 的复合性能，右侧是 figure of merit 与 Seebeck coefficients 的复合性能，相关但论文语境和组合对象不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1546": {
+      "proposed_relation": "related_to",
+      "model_reason": "increasing Ag content 与 increasing Al3+ content 都是组成增加设计变量，但元素与材料体系不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1547": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "amount of ionic liquid 是离子液体用量数量，ionic liquid 是材料实体。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1548": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "electrical conductivity 与 electronic thermal conductivity 分别是电输运和电子热传导量。",
+      "evidence_scope": "full_original_quotes_read"
+    }
+  },
+  "proposals_after_self_corrections": {
+    "N1509": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧都描述材料键合的 ionic character，右侧只是省略 bonds 的同一性质表述。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1510": {
+      "proposed_relation": "broader_than",
+      "model_reason": "左侧是 mechanical performance 与 output power density 的复合性能，右侧只是其中 mechanical performance 分量。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1511": {
+      "proposed_relation": "related_to",
+      "model_reason": "hole carrier concentration 限定载流子类型，increase of carrier concentration 描述总体浓度上升变化，相关但不等同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1512": {
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都指晶格热导率较低，但 unusually 与 intrinsically 分别是程度和来源描述，跨语境不足以无条件等同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1513": {
+      "proposed_relation": "related_to",
+      "model_reason": "phonon softening 与 bond softening 都是软化机制，但作用对象分别为声子与化学键。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1514": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "Cu ion diffusion 与 Cu diffusion 在超离子材料语境中均指铜离子扩散。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1515": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "reduced thermal conductivity 是右侧 ionic and thermal conductivity 复合量中的热导分量变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1516": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "ion-polymer interaction 与 ion/polymer interaction 只是连接符号不同，均指离子与聚合物相互作用。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1517": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "superior ionic conductivity 是 ionic conductivity 的高水平状态限定。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1518": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "wide bandgap insulator 是 wide bandgap 材料中进一步限定为绝缘体的类型。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1519": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "完整原文中的 ionogel 只是材料语境限定，左右均指 Soret effect 这一离子热扩散机制；沿既有证据路径视为同一机制。",
+      "evidence_scope": "full_original_quotes_rechecked"
+    },
+    "N1520": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "ionic electrical conductivity 衡量离子电传导，thermal conductivity 衡量热传导，是不同物理量。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1521": {
+      "proposed_relation": "related_to",
+      "model_reason": "anomalous Seebeck coefficient 按异常行为限定，ionic Seebeck coefficient 按载流机制限定，二者可能交集但互不包含。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1522": {
+      "proposed_relation": "related_to",
+      "model_reason": "charge carrier concentration 是基础数量，increase of the carrier concentration 是该数量的上升变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1523": {
+      "proposed_relation": "broader_than",
+      "model_reason": "migration 未限定迁移实体，migration of anions 明确为阴离子迁移。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1524": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "carrier concentration 是载流子浓度，右侧 concentration 在液态 In-Se 体系中指组成浓度。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1525": {
+      "proposed_relation": "related_to",
+      "model_reason": "direction of thermodiffusion 是过程方向数量，cation thermodiffusion 是具体阳离子热扩散过程，语义角色不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1526": {
+      "proposed_relation": "related_to",
+      "model_reason": "low elastic stiffness 是低值状态，elastic stiffness constants 是弹性刚度参数集合。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1527": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "strong ionic Ta-N bonding 明确限定为 Ta-N 键，strong ionic bonding 是未限定具体元素的离子键。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1528": {
+      "proposed_relation": "related_to",
+      "model_reason": "decreasing ionic character 是离子性下降变化，ionic character 是离子性本身。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1529": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "jump of the ionic Seebeck coefficient 是 ionic Seebeck coefficient 的跃变/异常表述。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1530": {
+      "proposed_relation": "broader_than",
+      "model_reason": "Seebeck coefficient S 未限定符号，positive Seebeck coefficient 是正值子类。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1531": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "electrical resistance 明确为电阻，resistance 未限定阻力类型。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1532": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "两侧都是具体材料的 Seebeck coefficient 指标，3DMG/CuI 材料限定不改变指标类型。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1533": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "concentration difference between anions and cations 是浓度差，mobility difference between cations and anions 是迁移率差，物理量不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1534": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "charge transport 是 TE transport 中的电荷输运侧面，TE transport 还可包含热输运。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1535": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "左侧虽写 Seebeck coefficient (S)，完整原文明确是 cation/anion-selective hydrogel 的离子热电语境；与右侧 ionic Seebeck coefficient 指同一指标。",
+      "evidence_scope": "full_original_quotes_rechecked"
+    },
+    "N1536": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "octahedral distortion 是八面体结构畸变，octahedral sites 是晶格位置实体。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1537": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "substitution of Se with S 表示以 S 替代 Se，substitution of Se for S 表示以 Se 替代 S，替代方向相反。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1538": {
+      "proposed_relation": "related_to",
+      "model_reason": "两侧都指低晶格热导率，但 unusually 与普通 low 的程度修饰不能跨论文直接建立上下位。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1539": {
+      "proposed_relation": "related_to",
+      "model_reason": "low thermal conductivity 是低值状态，reduction of thermal conductivity 是该指标的下降变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1540": {
+      "proposed_relation": "narrower_than",
+      "model_reason": "thermoelectric power and efficiency 是功率与效率的复合性能，thermoelectric power 是其中一项。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1541": {
+      "proposed_relation": "related_to",
+      "model_reason": "hole carrier concentration 限定空穴，Changes in the carrier concentration 描述总体载流子浓度变化。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1542": {
+      "proposed_relation": "equivalent_to",
+      "model_reason": "continuous power generation 与 continuous power output 都描述持续输出热电功率的功能。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1543": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "confinement of ions within polymer matrix 是离子受限过程，ions within geopolymer matrix 是材料实体中的离子。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1544": {
+      "proposed_relation": "related_to",
+      "model_reason": "extremely low 与 intrinsically low 都修饰晶格热导率，但前者程度、后者来源，不能仅凭修饰词建立等价。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1545": {
+      "proposed_relation": "related_to",
+      "model_reason": "左侧是 Seebeck coefficient 与 figure of merit 的复合性能，右侧是 figure of merit 与 Seebeck coefficients 的复合性能，相关但论文语境和组合对象不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1546": {
+      "proposed_relation": "related_to",
+      "model_reason": "increasing Ag content 与 increasing Al3+ content 都是组成增加设计变量，但元素与材料体系不同。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1547": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "amount of ionic liquid 是离子液体用量数量，ionic liquid 是材料实体。",
+      "evidence_scope": "full_original_quotes_read"
+    },
+    "N1548": {
+      "proposed_relation": "distinct_from",
+      "model_reason": "electrical conductivity 与 electronic thermal conductivity 分别是电输运和电子热传导量。",
+      "evidence_scope": "full_original_quotes_read"
+    }
+  },
+  "batch_metadata": {
+    "batch_id": "12",
+    "comparison_first": "N1509",
+    "comparison_last": "N1548",
+    "count": 40,
+    "selection": "next unreviewed candidate representative occurrence pairs in descending existing lexical order; no propagation",
+    "model": "gpt-5.6-luna",
+    "reasoning": "max",
+    "started_at": "2026-09-23T02:42:42+08:00",
+    "started_unix": 1790102562,
+    "completed_at": "2026-09-23T02:45:17.576052+08:00"
+  },
+  "decision_file_sha256_at_initial_review": "3c1f31b17cfdcf5375a3eb9094d175883bf5ec1fdede172f9d8f959ecf43c7d9",
+  "validation_passed": true,
+  "prior_decisions_sha256_before_trial": "ec5d430d7262d9961ee59c411db8817d49e03368cdfdbbc8312120e889429a1a",
+  "prior_decisions_sha256_after_trial": "ec5d430d7262d9961ee59c411db8817d49e03368cdfdbbc8312120e889429a1a",
+  "review_status": "parent_review_complete_trial_paused",
+  "parent_revised_ids": [
+    "N1510",
+    "N1515",
+    "N1518",
+    "N1521",
+    "N1523",
+    "N1529",
+    "N1530",
+    "N1531",
+    "N1532",
+    "N1534",
+    "N1540",
+    "N1541",
+    "N1543",
+    "N1545"
+  ],
+  "parent_reviewed_pair_count": 40,
+  "parent_extra_full_abstracts_read": [
+    "TG:P0018",
+    "TG:P0227"
+  ],
+  "parent_corrections_at": "2026-09-22T18:47:07.469339+00:00",
+  "limitations": "Sequential sample, model review not human gold labels; different candidates and accumulated feedback versus medium/high; no controlled accuracy comparison.",
+  "final_validation_passed": true,
+  "final_decision_file_sha256": "76ad3f9cac65236630342a3c4322c9471f354a0bfa2cf13d419be6924556ad62",
+  "prior_1508_decisions_unchanged": true,
+  "parent_relation_changes": 11,
+  "parent_reason_only_changes": 3,
+  "final_trial_relations": {
+    "equivalent_to": 8,
+    "related_to": 19,
+    "narrower_than": 2,
+    "distinct_from": 9,
+    "broader_than": 1,
+    "uncertain": 1
+  }
+}

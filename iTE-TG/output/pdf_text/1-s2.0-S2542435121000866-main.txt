@@ -1,0 +1,746 @@
+           ll
+
+
+Perspective
+Liquid-state thermocells: Opportunities
+and challenges for low-grade
+heat harvesting
+Jiangjiang Duan,1,* Boyang Yu,1 Liang Huang,1 Bin Hu,1 Ming Xu,2 Guang Feng,3 and Jun Zhou1,4
+
+
+SUMMARY                                                                                    Context & scale
+Low-grade heat (<100 C) is abundant and ubiquitous but is gener-                          More than 30% of global primary
+ally discarded owing to a lack of cost-effective recovery technolo-                        energy consumption is estimated
+gies. Emerging liquid-state thermocells (thermogalvanic cells or                           to waste as low-grade heat below
+thermo-electrochemical cells), with advantages such as low cost,                           100 C. Harvesting waste heat has
+scalability, flexibility, and intrinsic high thermopower, may be a                         attracted increasing attention,
+promising thermoelectric technology for low-grade heat harvest-                            given the emphasis on energy
+ing. In the past decade, extensive efforts have been directed toward                       efficiency and carbon emission
+the performance enhancement of thermocells and their modules;                              reduction. In parallel, low-grade
+however, they still suffer from challenges such as a low conversion                        heat is widely distributed in the
+efficiency and power density of single cells and stability issues                          environment and the human
+(e.g., leakage, freezing or boiling of electrolytes) in devices working                    body. Converting this heat into
+over a wide temperature window. From this perspective, we first                            electricity has the potential to
+summarize the advances in thermocells regarding their electrodes,                          power Internet-of-Things sensors,
+electrolytes, and devices. Then, we highlight the critical challenges                      especially wearable devices.
+and determine future research directions toward more cost-effec-                           Emerging liquid-state thermocells
+tive thermocells with higher robustness, simpler fabrication, and                          have been considered to be a
+wider applications in low-grade heat harvesting, temperature                               cost-effective and flexible
+detection, cooling, and beyond.                                                            conversion technology for low-
+                                                                                           grade heat harvesting. In the past
+                                                                                           decade, great advances have
+INTRODUCTION
+                                                                                           been achieved in the thermocell
+A vast amount of low-grade heat (<100 C) is distributed in the environment (solar-
+                                                                                           community. The highest Carnot-
+thermal and geothermal energy), is produced as by-product waste heat from indus-
+                                                                                           relative efficiency of single cells
+trial processes (e.g., power plants, data centers), and is dissipated from the human
+                                                                                           has reached 11.1%. Some
+body and microelectronics (Figure 1).1 Despite its abundance, low-grade heat is
+                                                                                           advanced modules have been
+rarely commercially utilized because of its intrinsic low temperature and ineffi-
+                                                                                           demonstrated to directly drive
+ciency.2 To this end, technologies to convert low-grade heat to electricity must be
+                                                                                           electrical devices by harvesting
+efficient, scalable, and cost-effective.3 Thermoelectric technologies provide an
+                                                                                           low-grade heat. However, to
+approach to directly convert heat to electrical energy without moving parts, audible
+                                                                                           realize commercial applications,
+noise, or greenhouse emissions.4 Among them, traditional solid-state thermoelec-
+                                                                                           current thermocells need higher
+tric cells have been studied extensively; however, traditional solid-state thermoelec-
+                                                                                           efficiency, lower rates, and more
+tric cells, composed of rare elements, are expensive and generally produce potential
+                                                                                           robustness. From this
+differences on the order of 100–200 mV K1, which limits their availability for harvest-
+                                                                                           perspective, we first summarize
+ing low-grade heat.5,6 Alternatively, liquid-state thermocells utilize the temperature
+                                                                                           advances in thermocells and their
+dependence of electrochemical redox potentials (thermogalvanic effect) to produce
+                                                                                           devices. Based on the current
+electrical power and are promising for harvesting low-grade heat, owing to their
+                                                                                           research status and challenges,
+inexpensive, scalable, and flexible features (Figure 1).7 The cost-performance metric
+                                                                                           we further highlight the direction
+of thermocells is estimated to be several dollars per watt, which is far lower than
+                                                                                           of future efforts. Regarding single
+traditional solid-state thermoelectric cells and comparable to current power gener-
+                                                                                           cells, collaborative optimization of
+ation technologies.8 Another advantage of thermocells for low-grade heat harvest-
+ing is their high thermopower on the order of mV K1, which simplify the device
+
+
+768   Joule 5, 768–779, April 21, 2021 ª 2021 Elsevier Inc.
+                                                                                                                                     ll
+Perspective
+
+                                                                                                      electrodes, electrolytes, and
+                                                                                                      thermal separators to decouple
+                                                                                                      parameter interdependence is
+                                                                                                      needed to continuously enhance
+                                                                                                      efficiency. Regarding modules,
+                                                                                                      exploring high-performance n-
+                                                                                                      type half-cells is urgently needed
+                                                                                                      to improve the power density of
+                                                                                                      modules. In addition, the stability
+                                                                                                      of devices under a wide
+                                                                                                      temperature operation window
+                                                                                                      needs to be considered. From the
+                                                                                                      aspect of performance evaluation,
+                                                                                                      a more normalized metric is
+                                                                                                      needed for thermocells. From the
+Figure 1. Low-grade heat sources and their potential heat-electricity conversion via the liquid-      aspect of applications,
+state thermocell                                                                                      developing flow thermocell
+                                                                                                      devices may expand their
+design and integration to generate a high electric voltage, despite a small temper-                   applications toward harvesting
+ature difference.9,10                                                                                 waste heat from sources that need
+                                                                                                      heat dissipation. The potential
+In the last decade, great advances have been achieved in the thermocell community                     applications of thermocells in the
+by improving electrodes, electrolytes, and devices.8,9,11–16 Typically, carbon nano-                  fields of temperature detection
+materials as inexpensive electrodes enable high current density of thermocells,                       and cooling are also worth
+given their high surface area and fast electron transfer kinetics.11–13 Enhancing the                 investigating.
+thermodynamic entropy difference of redox couples in aqueous and non-aqueous
+electrolytes has significantly boosted the thermopower in thermocells.9,14–16 Due
+to all these efforts, the hr of state-of-the-art thermocells has reached 11.1% near
+room temperature.8 In addition, some flexible devices based on gel-based electro-
+lytes (e.g., hydrogels or organogels containing redox couples) have been developed
+for power generation by utilizing human body heat energy.17–24 However, thermo-
+cells still face challenges, such as low energy conversion efficiency, low power den-
+sity, and stability issues in integrated devices for practical applications.25
+
+Recently, some excellent reviews have summarized thermocells from different per-
+spectives.7,26–28 In this Perspective, we aim to provide some new insights to direct
+future research toward more efficient single cells and higher-performance devices
+for low-grade heat harvesting and beyond, including (1) how to continuously
+enhance the efficiency of single cells by the optimization of electrodes and electro-
+lytes, (2) how to improve power density and stability of integrated devices, (3) to
+normalize performance evaluation standard, and (4) to expand applications in tem-                  1Wuhan National Laboratory for Optoelectronics,
+perature detection and cooling.                                                                    Huazhong University of Science and Technology,
+                                                                                                   Wuhan 430074, China
+                                                                                                   2School of Materials Science and Engineering,
+ADVANCES IN THERMOCELLS
+                                                                                                   Huazhong University of Science and Technology,
+Improving the efficiency of single cells                                                           Wuhan 430074, China
+Liquid-state thermocells convert heat to electricity based on an electrochemical                   3State Key Laboratory of Coal Combustion,
+
+thermogalvanic effect via two critical processes: (1) redox reactions on the elec-                 School of Energy and Power Engineering,
+                                                                                                   Huazhong University of Science and Technology,
+trodes and (2) mass transport in the electrolytes (Figure 2A). The conversion effi-                Wuhan 430074, China
+ciency of thermocells depends on three interdependent parameters: the thermo-                      4This manuscript is dedicated to the memory of
+
+power (Se), the effective electrical conductivity (seff), and the effective thermal                Dr. Jun Zhou
+conductivity (keff). Among these parameters, Se refers to the reaction thermody-                   *Correspondence: jiangjduan@hust.edu.cn
+namics, which is determined by the thermopower of redox species in the electrolytes                https://doi.org/10.1016/j.joule.2021.02.009
+
+
+
+                                                                                                            Joule 5, 768–779, April 21, 2021     769
+           ll
+                                                                                                   Perspective
+
+
+
+
+Figure 2. Overview of enhancing conversion efficiency in thermocells
+(A) Schematic heat-electricity conversion mechanism in a benchmark system ([Fe(CN) 6 ] 4/
+[Fe(CN) 6 ] 3) and the dependence of its efficiency on three strongly interdependent parameters
+including S e , s eff , and k eff .
+(B) Strategies of enhancing S e by improvement of reaction thermodynamics.
+(C) Strategies of enhancing s eff by improvement of reaction kinetics.
+(D) Strategies of decresing keff by suppressing thermal convection.
+
+
+(Figure 2B). seff, which refers to the reaction kinetics, is related to the redox species
+reaction resistance on the electrodes and transport resistance in the electrolytes
+(Figure 2C). keff combines the thermal conduction and convection of electrolytes un-
+der a temperature difference (Figure 2D). Due to the inferior efficiency of thermo-
+cells, current research mainly focuses on improving efficiency by enhancing Se and
+seff and suppressing keff.
+
+According to thermodynamic theory, Se is associated with the solvation-structural
+entropy difference (DS) and the concentration ratio difference (DCr) between redox
+species.8 Strategies for enhancing either DS or DCr therefore enable the enhance-
+ment of Se. It has been observed that DS is related to factors that include the abso-
+lute charges and complex structures of redox species and their surrounding solvent
+and solute species in electrolytes.7,29 In general, redox species with a high absolute
+charge and complicated complex structure possess a large DS and thus have a high
+Se For example, the Se of [Fe(CN)6]4/[Fe(CN)6]3 (1.4 mV K1) is much higher
+than that of Fe2+/Fe3+ (1.0 mV K1). Furthermore, using specific solvents and sol-
+utes to rearrange the solvation structures of redox species is a more effective
+approach to enhance Se (Figure 3A). Pringle et al. reported a series of high-Se
+(maximum value 2.65 mV K1) thermocells in non-aqueous electrolytes (pure ionic
+liquid or ionic liquid mixture).14,30–34 Kim et al. added methanol to [Fe(CN)6]4/
+[Fe(CN)6]3 aqueous electrolytes and achieved a 2-fold enhancement of Se from
+1.4 to 2.9 mV K1 because the methanol selectively rearranged the solvation
+structure of [Fe(CN)6]4.16 Our previous research reported an unprecedented high
+Se of 4.2 mV K1 by introducing urea and guanidinium into [Fe(CN)6]4/[Fe(CN)6]3
+aqueous electrolytes.9 The results reveal that guanidinium and urea synergistically
+
+
+770   Joule 5, 768–779, April 21, 2021
+                                                                                                                        ll
+Perspective
+
+
+
+
+Figure 3. Two strategies of enhancing thermopower
+(A) Enhancing entropy difference of solvation structures between redox couples by introducing
+specific additive agents.
+(B) Inducing redox species concentration gradients by introducing thermosensitive acceptors.
+
+
+reorganize the solvation structures of the redox couple. In addition to modifying DS,
+enhancing DCr provides another route to boost Se; however, achieving a persistent
+concentration gradient of redox couple is difficult to establish in electrolytes. In gen-
+eral, the concentration gradient is thermodynamically unstable and spontaneously
+decays into a homogeneous state. Namely, DCr is equal to zero in the stable state
+in electrolytes. In contrast to this paradigm, current studies have proven that a stable
+concentration gradient can be achieved in thermocells (Figure 3B). Yamada et al.
+presented a supramolecular methodology based on the encapsulation of I3 in
+a-cyclodextrin to induce a concentration gradient of I3 in an I/I3 aqueous electro-
+lyte that boosted its Se from 0.86 to 1.97 mV K1.15 Recently, we developed a
+thermosensitive crystallization strategy to induce a persistent concentration
+gradient, and a high Se of 3.73 mV K1 was achieved in 0.4 M [Fe(CN)6]4/
+[Fe(CN)6]3 aqueous electrolytes.8 We found that guanidinium cations selectively
+induced [Fe(CN)6]4 to form highly thermosensitive crystals on the cold side, while
+the [Fe(CN)6]4-associated crystals redissolved on the hot side. As a result, a large
+DCr was built between the two electrodes and therefore achieved a high Se. Mean-
+while, the crystal precipitation suppressed the thermal convection, resulting in a low
+keff. Moreover, the high concentration ratio of [Fe(CN)6]3 to [Fe(CN)6]4 near the
+cold electrode promotes the reduction reaction ([Fe(CN)6]3+e–/[Fe(CN)6]4)
+and vice versa, which is beneficial to the seff. Due to the synergistic optimization
+of these parameters, a record-high hr of 11.1% was achieved.
+
+In general, the electrical conductivity of liquid-state thermocells is approximately
+three orders of magnitude lower than that of traditional solid-state thermoelectric
+cells. Therefore, early studies regarding improving the efficiency of liquid-state ther-
+mocells mainly focused on enhancing electrical conductivity.11,35–37 As mentioned
+previously, the electrical conductivity of liquid-state thermocells is related to the re-
+action and transport kinetics of the redox species on the electrodes and in the elec-
+trolytes. seff is a comprehensive electrical conductivity parameter that is limited by
+three primary internal resistances: activation, ohmic, and mass transport resistance.
+The activation resistance originates from the activation barrier of reactions at the
+electrodes. The ohmic resistance is the series resistances of the electrode and elec-
+trolyte. The mass transport resistance is associated with ion diffusion and convection
+
+
+                                                                                                Joule 5, 768–779, April 21, 2021   771
+           ll
+                                                                                            Perspective
+
+at the electrode-electrolyte interface and in the bulk electrolyte. Therefore,
+improving either the electrolytes or electrodes enables the enhancement of seff.
+Regarding electrolyte improvement, enhancing the solubility of redox species in
+electrolytes has been proven to be an effective way to decrease ohmic resistance38;
+however, the strategy may increase the mass transport resistance because of an in-
+crease in the viscosity of the electrolyte. In addition, some redox species possess the
+concentration-dependent thermopower, and their Se substantially decays at a
+higher concentration. One example is that the Se of I/I3 decreases by over 4-
+fold with an increase in concentration from 0.01 to 2 M.39 In comparison, improving
+the electrode can independently enhance seff without sacrificing Se; thus, more ad-
+vances have been achieved by electrode improvement. In early studies, Pt elec-
+trodes with high catalytic activity and fast electron transfer were examined in ther-
+mocells.10,40,41 Recent studies have proven that carbon nanomaterials (e.g.,
+carbon nanotubes and graphene) with electrochemical activity similar to that of Pt
+are low-cost alternatives as electrode materials. Moreover, carbon nanomaterials
+provide a high gravimetric surface area and are thus capable of significantly
+enhancing the current density and overall efficiency. Baughman et al. reported a
+high hr of 1.4% by using multi-walled carbon nanotubes as electrodes.11 Chen
+et al. raised hr to 2.6% by introducing a single-walled carbon nanotube/reduced gra-
+phene oxide composite electrode.12 Kim et al. further boosted hr to 3.95% by utiliz-
+ing an aligned carbon nanotube aerogel sheet with Pt nanoparticles deposited as
+electrodes.13
+
+In contrast to improving Se and seff, suppressing keff was ignored in early studies.
+One important reason is that the keff of thermocells is difficult to measure using clas-
+sical transient methods (e.g., hot-wire or laser flash methods). Typically, the transient
+hot-wire method only measures the intrinsic thermal conduction of liquids.42 In fact,
+thermal convection is not negligible when a temperature gradient is built in a
+liquid.43,44 Even keff is dominated by thermal convection under a large temperature
+difference. Current studies have indicated that a steady-state method is more reli-
+able than transient methods for measuring the keff of liquid thermocells.8,45 More
+importantly, suppressing thermal convection has gradually been realized to be an
+effective approach to enhance thermocell efficiency. Baughman et al. reported
+that filling thermal separators in electrolytes enables a significant enhancement of
+thermocell power density.38 They noted that thermal separators with appropriate
+thickness and porosity enabled an increase of temperature difference of 20 C by
+suppressing the thermal convection of the electrolytes, thereby achieving a high po-
+wer density of 12 W m2. Hasan et al. used a poly(vinylidene fluoride) porous mem-
+brane as a thermal separator to suppress thermal convection, which also boosted the
+performance of thermocells.46 Another strategy for suppressing thermal convection
+is using gel-based electrolytes in thermocells. With the quasi-solid-state feature,
+thermal convection is negligible in gel-based electrolytes. Liu et al. reported a low
+thermal conductivity of 0.15 W m1 K1 in a gelatin hydrogel-based electrolyte.17
+Chen et al. observed a low thermal conductivity of 0.3–0.4 W m1 K1 in a poly-
+acrylamide hydrogel-based electrolyte.47
+
+Device integration and applications
+In addition to improving the efficiency of single cells, another research hotspot fo-
+cuses on device integration and applications.19,20,48 Because the voltage output
+of a single cell is limited by the thermopower and the temperature difference, inte-
+grating multiple cells in a series is needed to generate a useful voltage (>1 V) for
+practical applications. As shown in Figure 4, there are two kinds of integration
+methods: Z-shaped connections of one type of single cell in a series, and P-shaped
+
+
+772   Joule 5, 768–779, April 21, 2021
+                                                                                                                               ll
+Perspective
+
+
+
+
+Figure 4. Two typical device integration methods
+(A) Z-shaped connection of same single cells in a series and its advantages and disadvantages.
+(B) P-connection of p-type and n-type single cells in a series and its advantages and disadvantages.
+
+
+
+connections of two types (n-type and p-type) of single cells in a series. For thermo-
+cells, one with an oxidation reaction happening on the hot electrode is commonly
+defined as p-type, otherwise, one with an reduction reaction happening on the
+hot electrode is defined as n-type.49,50 One advantage of the Z-shaped connection
+is that the corresponding device can achieve a maximum power output by using
+state-of-the-art single cells (Figure 4A). Our current research demonstrated a mod-
+ule based on a Z-shaped connection of 20 units (thermosensitive crystallization-
+boosted thermocells with a Se of 3.73 mV K1), which generated an open-circuit
+voltage (Voc) of 3.1 V and a high maximum power density (Pmax) of 6.86 W m2 under
+a temperature difference of 50 C.8 Due to this excellent performance, the module
+was successfully used to charge a mobile smartphone. However, Z-shaped connec-
+tions complicate the device integration process and possibly introduce large contact
+resistance between the electrodes and Z-shaped wires. In contrast, P-shaped con-
+nections simplify fabrication and enable good contact between the electrodes
+and current collectors (Figure 4B). Baughman et al. demonstrated a module inte-
+grating 14 p-type ([Fe(CN)6]4/[Fe(CN)6]3) cells and 14 n-type (Fe2+/Fe3+) cells by
+P-shaped connection. Four modules in the series generated a Voc of 2.18 V under
+a temperature difference of 21 C, and the system was used to charge capaci-
+tances.38 Note that due to the lack of high-performance n-type cells, devices inte-
+grated by P-shaped connection remain inefficient.
+
+In addition, device integration faces the challenge of liquid leakage, which is more
+serious for flexible thermocells. To this end, leak-free gel-based devices have
+been proposed for human body heat harvesting.19,51 Our previous work introduced
+a wearable thermocell based on poly(vinyl alcohol) hydrogel electrolytes. This de-
+vice, integrating 59 cell pairs in a series, enables a maximum voltage of 0.7 V by uti-
+lizing body heat.19 Chen et al. used the same strategy to fabricate an advanced hy-
+drogel-based thermocell with optimized electrodes and electrolytes.20 They utilized
+this thermocell to demonstrate a proof-of-concept watch strap that could harvest
+body heat, charge a supercapacitor, and power a green light-emitting diode. Pringle
+et al. developed a leak-free, non-volatile, and flexible thermocell by using ionic
+liquid-based organogels as electrolytes.21 They further demonstrated the organo-
+gel-based thermocell enabled a stable device for low-grade heat harvesting.22
+
+Regarding applications, current studies have demonstrated that thermocells can not
+only harvest heat independently but also enable integration with other systems to
+achieve synergistic enhancement effects.52 Ho et al. proposed a water-energy har-
+vesting system integrating a photothermal evaporator and a thermocell, which sup-
+pressed heat losses, achieving a high solar-thermal conversion efficiency of 91.4%
+
+
+                                                                                                       Joule 5, 768–779, April 21, 2021   773
+           ll
+                                                                                             Perspective
+
+and maximum power output of ~1.6 mW m2.53 Chen et al. developed a strategy of
+synchronous evaporative cooling and heat energy harvesting by using a hydrogel-
+based thermocell with reversible water evaporation and absorption behavior.47
+They demonstrated that the hydrogel-based thermocell successfully decreased
+the temperature of the battery by 20 C and collected 5 mW of electricity at a dis-
+charging rate of 2.2 C. In addition, with the advantage of a high thermopower, the
+thermocell is promising for temperature detection and cooling.54–56 Schuster
+et al. demonstrated that thermocells, as novel electrochemical thermocouples,
+enabled sensitive (<10 mK) and fast (potentially shorter than 10 ms) temperature mea-
+surements due to the intrinsic high thermopower and negligible thermal contact re-
+sistances in thermocells.54 They further demonstrated applications of thermocells
+for electrochemical microcalorimetry and infrared detection.54 Our previous
+research demonstrated that a droplet of K3Fe(CN)6/K4Fe(CN)6 solution enabled
+simultaneous temperature and force detection.55 Mckay et al. experimentally
+proved the cooling effect in a flow thermocell with K3Fe(CN)6/K4Fe(CN)6 aqueous
+electrolyte; a maximum temperature difference of 0.1 K with applied voltage of
+500 mV was observed.56
+
+
+CHALLENGES AND FUTURE RESEARCH DIRECTIONS
+With a growing thirst for low-grade heat energy harvesting, liquid-state thermo-
+cells have gained increasing research attention because of their potential cost-
+effectiveness, flexibility, and scalability for directly converting heat into electricity.
+Despite the significant advances achieved by the optimization of electrolytes, elec-
+trodes, thermal separators, and device modules, many critical challenges and
+future research directions of liquid-state thermocells still need to be carefully
+considered.
+
+
+Continuously enhancing the efficiency of single cells
+Compared with intensively studied solid-state thermoelectric cells, liquid-state ther-
+mocells remain inefficient. With the well-known intrinsic interdependence of Se, seff,
+and keff, achieving high efficiency of liquid-state thermocells is challenging. For
+example, regulating the solvation structure of redox species enables the enhance-
+ment of Se but is always associated with a decrease in seff because of the low ionic
+conductivity in the optimized electrolytes. Utilizing a thermal separator can suppress
+keff but also decrease seff. Although optimizing electrodes to improve reaction ki-
+netics can independently boost seff without sacrificing Se and keff, the continued
+enhancement of efficiency has encountered the limitation of thermodynamics. To
+this end, future efforts should be focused on synergistic optimization of electrolytes,
+electrodes, and thermal separators to decouple these three parameters, and there-
+fore continuously enhance the efficiency of single cells.
+
+Regarding the optimization of electrolytes, exploring new redox species with inher-
+ently high Se values and high solubility has been recognized as an effective approach
+to enhance efficiency. The desired redox couple may be designed based on two
+principles: (1) a large absolute-charge density difference between oxidized and
+reduced species of the redox couple29, and (2) weak interactions between redox
+ions and their counterions.57 Typically, the benchmark system of K3Fe(CN)6/
+K4Fe(CN)6 has a high Se of 1.4 mV K1 but a moderate solubility of 0.4 mol
+L1; however, its solubility can be substantially increased by replacing the counter
+K+ ions with NH4+ or Li+ ions.38,58 Second, developing new strategies to enhance
+Se without sacrificing seff and keff is believed to be another way to enhance efficiency.
+
+
+
+
+774   Joule 5, 768–779, April 21, 2021
+                                                                                                                   ll
+Perspective
+
+For example, thermal-sensitive crystallization has been proven to enable simulta-
+neous enhancement of Se and suppression of keff, without sacrificing seff.8
+
+The optimization of electrodes by using carbon-based nanomaterials with high spe-
+cific surface areas has achieved significant advances in the last decade. However,
+this strategy now encounters the bottleneck for continuously boosting efficiency
+due to the reasons including the reaction thermodynamic limit (voltage) and un-
+cleared reaction kinetic mechanisms on the scale of atoms and molecules. Two
+fundamental questions involving in reaction kinetic mechanisms are needed to
+answer. First, regarding the adsorption and desorption process: what is the profile
+of the redox species that is distributed in the electric double layer of electrodes?
+Second, regarding the charge transfer process: which kind of active sites (defect,
+function group, or dopant) on carbon-based electrodes enable the promotion of
+charge transfer? Therefore, insightfully understanding the microscale reaction ki-
+netics of redox couples on electrodes (e.g., electric double layer, active site) by in
+situ measurement and computational modeling is needed to direct improvement
+of electrodes. On the other hand, the concept of asymmetric electrodes is ignored
+in previous studies. Considered the reverse reaction occurring on the hot and cold
+electrodes, designing asymmetric electrodes with selective adsorption properties
+and oxidation/reduction catalytic activity may be an effective way to further improve
+reaction kinetics. In addition, despite carbon nanomaterial electrodes being
+cheaper than noble metal electrodes, their cost still accounts for a high proportion
+of the total cost of single cells. Therefore, future efforts should use much cheaper
+materials and milder synthesis methods to prepare electrodes for practical
+applications.
+
+Regarding the optimization of thermal separators, designing membranes with highly
+ordered porous structures is beneficial for minimizing the sacrifice of ionic conduc-
+tivity in electrolytes. 3D printing, as a fast and large-scale manufacturing technology,
+is a promising method to produce thermal separators with ordered porous struc-
+tures.59 Replacing liquid electrolytes with gel-based electrolytes is another way to
+decrease keff; however, this approach also sacrifices seff due to the low ionic migra-
+tion speed in quasi-solid-state electrolytes. Therefore, exploring new gel-based
+electrolytes with high mass diffusion rates is also urgent, especially for wearable
+thermocells.60 Pringle et al. investigated the incorporation of ionic liquids within
+the hydrogel network as an effective route to enhance the electrochemical proper-
+ties of gel-based thermocells.23 Zwitterionic gel-based electrolytes with high ionic
+conductivity may be good candidates for wearable thermocells.60,61 In addition,
+the thermodiffusion effect (also known as the Soret effect) also exists in the thermo-
+cells.62,63 However, the thermodiffusion effect is commonly ignored in thermocells
+due to its much smaller thermopower (on the order of 10 mV K1).64 Recently, Liu
+et al. reported a giant thermopower (17 mV K1) in a gelatin electrolyte attributed
+to a remarkable synergic effect between thermogalvanic and huge thermodiffusion
+effects.17 This work provides a new strategy to boost performances of wearable
+thermocells.
+
+Improving the power output and stability of integrated devices
+For practical applications, thermocells must integrate multiple p-type and n-type
+legs in a series to achieve a high voltage (>1 V). Therefore, both p-type and n-
+type units with high performance are necessary for devices. However, in contrast
+to the significant advances in p-type thermocells, such as the [Fe(CN)6]4/
+[Fe(CN)6]3 system, their n-type counterparts have significantly fallen behind. Typi-
+cally, n-type species, including I/I3 and sulfate (Fe2+/Fe3+) redox couples, are
+
+
+                                                                                           Joule 5, 768–779, April 21, 2021   775
+           ll
+                                                                                              Perspective
+
+inefficient due to sluggish reaction kinetics.39,65 Therefore, developing highly effi-
+cient n-type thermocells is crucial for device optimization. Current research has
+proved that a perchlorate (Fe2+/Fe3+) redox couple exhibits a high positive Se of
+1.76 mV K1 and high solubility (>1 M) in aqueous electrolytes due to the weak inter-
+action between perchlorate anions and Fe2+/Fe3+ cations.49,50 This high-perfor-
+mance n-type redox couple is worth a more thorough investigation. In addition,
+the thermosensitive crystallization strategy,8 which highly boosted the performance
+of K4Fe(CN)6/K3Fe(CN)6 system, also has great potential to be popularized to n-type
+thermocells.
+
+Another concern is the stability of devices under a wide temperature operation win-
+dow. First, at high temperatures, devices will suffer a high risk of liquid leakage,
+causing volume expansion of the electrolyte. In particular, aqueous electrolytes
+exhibit 4% volume expansion when the temperature increases from 10 C to
+90 C; liquid leakage would occur if the electrolyte is packaged in a rigid cell with
+a low thermal expansion coefficient. Packing electrolytes with stretchable elasto-
+mers (such as polydimethylsiloxane) or utilizing gel-based electrolytes should be
+effective methods to address the problem of liquid leakage. In addition, aqueous
+electrolyte-based thermocells also suffer volatility and boiling at high temperatures.
+In this regard, ionic liquids with negligible volatility and good thermal and electro-
+chemical stability are potential alternatives for water to extend the operation tem-
+perature range (>100 C) of thermocells. Second, at low temperature, devices will
+face the problem of crystallization of redox species and solvents, which could cause
+a significant decrease in the ionic conductivity in the electrolytes. Adding cryopro-
+tectants (e.g., inorganic salts, alcohols) to electrolytes is a promising approach to
+expand the cold-temperature operation window.66 In addition, for wearable gel-
+based devices, unstable contact between the hydrogel and electrodes is a challenge
+for human body heat harvesting. Chemical bonding of gels on electrodes by
+coupling agents is an effective way to improve the stability of wearable thermocell
+devices.67
+
+Normalizing performance evaluation standards
+It is well known that the performance of traditional solid-state thermoelectric cells is
+indirectly quantified by Z = (Se)2s/k, but this figure of merit is not suitable to evaluate
+the performance of thermocells. One of the most important reasons is that the ther-
+mocell is a whole device, and its electrical and thermal conductivity depends not
+only on the electrolytes and electrodes but also on the operation conditions. Alter-
+natively, the Carnot-relative efficiency (hr) is commonly used to directly evaluate the
+performance of thermocells.8,13
+
+                                         0:25 3 ðSe Þ2 3 seff
+                                 hr z                         3 Th           (Equation 1)
+                                                keff
+However, the Carnot-relative efficiency is dependent on operation temperature (Th,
+the temperature of hot electrode). In parallel, the temperature-insensitive maximum
+power density (Pmax/(DT)2) has also been used to evaluate the performances of
+thermocells.9,16
+                    
+                Pmax ðDTÞ2 = 0:25 3 ðSe Þ2 3 seff 3 ðA = dÞ:              (Equation 2)
+
+Although the temperature-independent feature, Pmax/(DT)2 is related with the
+configuration of thermocells including cross-area (A) and inter-distance (d) between
+two electrodes, it is notable that these metrics still have limitations in comparing su-
+periority of devices. For example, a higher absolute temperature, higher tempera-
+ture difference, or smaller electrode distance usually enables a higher performance.
+
+
+776   Joule 5, 768–779, April 21, 2021
+                                                                                                                                              ll
+Perspective
+
+Therefore, a detailed test condition (at least including temperatures and device
+sizes) is needed to list when comparing the performances of various thermocells
+by these metrics. In future research, a normalized performance evaluation standard
+must be established through joint efforts, which is significant to the development of
+the whole thermocell field.
+
+Expanding application fields of thermocell devices
+Theoretically, thermocells enable power generation from all heat sources, while their
+practical applications are significantly limited. One critical problem is that waste heat
+is usually generated as a harmful by-product that primarily needs to be dissipated,
+such as waste heat from solar panels, data centers, and various electronic de-
+vices.68,69 If thermocells are directly attached to those sources, their low thermal
+conductivity will suppress heat dissipation and further cause overheating of the
+heat sources. Therefore, typical static-state thermocell devices are only suited to
+harvest low-grade heat from sources (such as sunlight, the human body, and exhaust
+pipes) that do not need heat dissipation. Alternatively, flow thermocells may be an
+ideal choice to simultaneously scavenge and remove heat to maintain heat sources
+in the operating range. Cola et al. first validated that flow thermocells have the ability
+to simultaneously harvest waste heat and cooling; an optimized flow thermocell
+generated a power density of 0.05 W m2 and achieved a heat transfer of 450 W
+(m2 K)1 in parallel.70 They further enhanced the performances of flow thermocells
+by using nanostructured carbon electrodes.71 With the unique advantage, flow ther-
+mocells should be considered in future research. In addition, given the inherently
+high thermopower of thermocells, potential applications of thermocells in the fields
+of temperature detection and cooling are worth investigating further. On the aspect
+of temperature detection, gel-based thermocells as soft temperature sensors are
+promising for applications in electronic skin, human activity monitoring, personal
+healthcare, and human-machine interface. On the aspect of cooling, we propose
+further enhancing of a cooling effect is enabled by three strategies: (1) using redox
+couples with high thermopower and high solubility, (2) suppressing parasitic Joule
+heat by decreasing the electric resistance of the whole cell, and (3) expanding the
+applied voltage range by suppressing the water electrolysis or using ionic liquids
+with good electrochemical stability as solvents.
+
+ACKNOWLEDGMENTS
+We acknowledge financial support from the National Natural Science Foundation of
+China (52025027, 51872101, 52002139, 51672097), the program for HUST Aca-
+demic Frontier Youth Team (2017QYTD11) and the Director Fund of WNLO.
+
+AUTHOR CONTRIBUTIONS
+J.D. investigated and wrote the original draft. J.Z. conceived the original idea and
+supervised all writing. B.Y., L.H., B.H., G.F., and M.X. edited the manuscript.
+
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+
+
+REFERENCES
+ 1. Forman, C., Muritala, I.K., Pardemann, R., and        G. (2014). Charging-free electrochemical           (2018). Emerging electrochemical and
+    Meyer, B. (2016). Estimating the global waste         system for harvesting low-grade thermal            membrane-based systems to convert low-
+    heat potential. Renew. Sustain. Energy Rev. 57,       energy. Proc. Natl. Acad. Sci. USA 111, 17011–     grade heat to electricity. Energy Environ. Sci.
+    1568–1579.                                            17016.                                             11, 276–285.
+
+ 2. Yang, Y., Lee, S.W., Ghasemi, H., Loomis, J., Li,   3. Rahimi, M., Straub, A.P., Zhang, F., Zhu, X.,   4. He, J., and Tritt, T.M. (2017). Advances in
+    X., Kraemer, D., Zheng, G., Cui, Y., and Chen,         Elimelech, M., Gorski, C.A., and Logan, B.E.       thermoelectric materials research: looking
+
+
+
+                                                                                                                    Joule 5, 768–779, April 21, 2021        777
+             ll
+                                                                                                                                               Perspective
+
+      back and moving forward. Science 357,               18. Li, S., and Zhang, Q. (2020). Ionic gelatin               harvesting performance of a cobalt redox
+      eaak9997.                                               thermoelectric generators. Joule 4, 1628–1629.            couple in ionic liquid-solvent mixtures. Phys.
+                                                                                                                        Chem. Chem. Phys. 18, 1404–1410.
+ 5. He, W., Wang, D., Wu, H., Xiao, Y., Zhang, Y.,        19. Yang, P., Liu, K., Chen, Q., Mo, X., Zhou, Y., Li,
+    He, D., Feng, Y., Hao, Y.-J., Dong, J.-F., Chetty,        S., Feng, G., and Zhou, J. (2016). Wearable           33. Abraham, T.J., MacFarlane, D.R., and Pringle,
+    R., et al. (2019). High thermoelectric                    thermocells based on gel electrolytes for the             J.M. (2011). Seebeck coefficients in ionic liquids
+    performance in low-cost SnS0.91Se0.09                     utilization of body heat. Angew. Chem. Int. Ed.           –prospects for thermo-electrochemical cells.
+    crystals. Science 365, 1418–1424.                         Engl. 55, 12050–12053.                                    Chem. Commun. 47, 6260–6262.
+
+ 6. Mao, J., Zhu, H., Ding, Z., Liu, Z., Gamage,          20. Liu, Y., Zhang, S., Zhou, Y., Buckingham, M.A.,       34. Taheri, A., MacFarlane, D.R., Pozo-Gonzalo, C.,
+    G.A., Chen, G., and Ren, Z. (2019). High                  Aldous, L., Sherrell, P.C., Wallace, G.G., Ryder,         and Pringle, J.M. (2019). The effect of solvent
+    thermoelectric cooling performance of n-type              G., Faisal, S., Officer, D.L., et al. (2020).             on the Seebeck coefficient and thermocell
+    Mg3Bi2-based materials. Science 365,                      Advanced wearable thermocells for body heat               performance of cobalt bipyridyl and iron ferri/
+    495–498.                                                  harvesting. Adv. Energy Mater. 10, 2002539.               ferrocyanide redox couples. Aust. J. Chem. 72,
+                                                                                                                        709–716.
+ 7. Dupont, M.F., MacFarlane, D.R., and Pringle,          21. Taheri, A., MacFarlane, D.R., Pozo-Gonzalo, C.,
+    J.M. (2017). Thermo-electrochemical cells for             and Pringle, J.M. (2018). Flexible and non-           35. Kang, T.J., Fang, S., Kozlov, M.E., Haines, C.S.,
+    waste heat harvesting - progress and                      volatile redox active quasi-solid state ionic             Li, N., Kim, Y.H., Chen, Y., and Baughman, R.H.
+    perspectives. Chem. Commun. 53, 6288–6302.                liquid based electrolytes for thermal energy              (2012). Electrical power from nanotube and
+                                                              harvesting. Sustain. Energy Fuels 2, 1806–1812.           graphene electrochemical thermal energy
+ 8. Yu, B., Duan, J., Cong, H., Xie, W., Liu, R.,                                                                       harvesters. Adv. Funct. Mater. 22, 477–489.
+    Zhuang, X., Wang, H., Qi, B., Xu, M., Wang,           22. Taheri, A., MacFarlane, D.R., Pozo-Gonzalo, C.,
+    Z.L., and Zhou, J. (2020). Thermosensitive                and Pringle, J.M. (2018). Quasi-solid-state           36. Romano, M.S., Gambhir, S., Razal, J.M.,
+    crystallization-boosted liquid thermocells for            electrolytes for low-grade thermal energy                 Gestos, A., Wallace, G.G., and Chen, J. (2012).
+    low-grade heat harvesting. Science 370,                   harvesting using a cobalt redox couple.                   Novel carbon materials for thermal energy
+    342–346.                                                  ChemSusChem 11, 2788–2796.                                harvesting. J. Therm. Anal. Calorim. 109, 1229–
+                                                                                                                        1235.
+ 9. Duan, J., Feng, G., Yu, B., Li, J., Chen, M., Yang,   23. Russo, M., Warren, H., Spinks, G.M.,
+    P., Feng, J., Liu, K., and Zhou, J. (2018).               MacFarlane, D.R., and Pringle, J.M. (2019).           37. Abraham, T.J., Tachikawa, N., MacFarlane,
+    Aqueous thermogalvanic cells with a high                  Hydrogels containing the ferri/ferrocyanide               D.R., and Pringle, J.M. (2014). Investigation of
+    Seebeck coefficient for low-grade heat harvest.           redox couple and ionic liquids for thermocells.           the kinetic and mass transport limitations in
+    Nat. Commun. 9, 5146.                                     Aust. J. Chem. 72, 112–121.                               thermoelectrochemical cells with different
+                                                                                                                        electrode materials. Phys. Chem. Chem. Phys.
+10. Quickenden, T.I., and Mua, Y. (1995). A review        24. Taheri, A., MacFarlane, D.R., Pozo-Gonzalo, C.,           16, 2527–2532.
+    of power generation in aqueous                            and Pringle, J.M. (2019). Application of a water-
+                                                              soluble cobalt redox couple in free-standing          38. Zhang, L., Kim, T., Li, N., Kang, T.J., Chen, J.,
+    thermogalvanic cells. J. Electrochem. Soc. 142,
+                                                              cellulose films for thermal energy harvesting.            Pringle, J.M., Zhang, M., Kazim, A.H., Fang, S.,
+    3985–3994.
+                                                              Electrochim. Acta 297, 669–675.                           Haines, C., et al. (2017). High power density
+11. Hu, R., Cola, B.A., Haram, N., Barisci, J.N., Lee,                                                                  electrochemical thermocells for inexpensively
+    S., Stoughton, S., et al. (2010). Harvesting waste    25. Hu, R., Xu, D., and Luo, X. (2020). Liquid                harvesting low-grade thermal energy. Adv.
+    thermal energy using a carbon-nanotube-                   thermocells enable low-grade heat harvesting.             Mater. 29, 1605652.
+    based thermo-electrochemical cell. Nano Lett.             Matter 3, 1400–1402.
+                                                                                                                    39. Laux, E., Uhl, S., Journot, T., Brossard, J.,
+    10, 838–846.                                          26. Cheng, C., Dai, Y., Yu, J., Liu, C., Wang, S.,            Jeandupeux, L., and Keppner, H. (2016).
+                                                              Feng, S.P., and Ni, M. (2020). Review of liquid-          Aspects of protonic ionic liquid as electrolyte in
+12. Romano, M.S., Li, N., Antiohos, D., Razal, J.M.,
+                                                              based systems to recover low-grade waste                  thermoelectric generators. J. Electron. Mater.
+    Nattestad, A., Beirne, S., Fang, S., Chen, Y.,
+    Jalili, R., Wallace, G.G., et al. (2013). Carbon
+                                                              heat for electrical energy generation. Energy             45, 3383–3389.
+                                                              Fuels 35, 161–175.
+    nanotube - reduced graphene oxide                                                                               40. Mua, Y., and Quickenden, T.I. (1996). Power
+    composites for thermal energy harvesting              27. Li, M., Hong, M., Dargusch, M., Zou, J., and              conversion efficiency, electrode separation,
+    applications. Adv. Mater. 25, 6602–6606.                  Chen, Z.-G. (2020). High-efficiency thermocells           and overpotential in the ferricyanide/
+                                                              driven by thermo-electrochemical processes.               ferrocyanide thermogalvanic cell.
+13. Im, H., Kim, T., Song, H., Choi, J., Park, J.S.,
+                                                              Trends Chem. https://doi.org/10.1016/j.                   J. Electrochem. Soc. 143, 2558–2564.
+    Ovalle-Robles, R., Yang, H.D., Kihm, K.D.,
+                                                              trechm.2020.11.001.
+    Baughman, R.H., Lee, H.H., et al. (2016). High-                                                                 41. Shindo, K., Arakawa, M., and Hirai, T. (1998).
+    efficiency electrochemical thermal energy             28. Gonçalves, W.D.G., Caspers, C., Dupont, J.,              Effect of non-graphitized carbon electrodes on
+    harvester using carbon nanotube aerogel                   and Migowski, P. (2020). Ionic liquids for                the electrochemical characteristics of a
+    sheet electrodes. Nat. Commun. 7, 10600.                  thermoelectrochemical energy generation.                  thermocell with a Br2/Br redox couple.
+                                                              Curr. Opin. Green Sustain. Chem. 26, 100404.              J. Power Sources 70, 228–234.
+14. Abraham, T.J., MacFarlane, D.R., and Pringle,
+    J.M. (2013). High seebeck coefficient redox           29. Sahami, S., and Weaver, M.J. (1981). Entropic         42. Nagasaka, Y., and Nagashima, A. (1981).
+    ionic liquid electrolytes for thermal energy              and enthalpic contributions to the solvent                Absolute measurement of the thermal
+    harvesting. Energy Environ. Sci. 6, 2639–2645.            dependence of the thermodynamics of                       conductivity of electrically conducting liquids
+                                                              transition-metal redox couples: part II.                  by the transient hot-wire method. J. Phys. E:
+15. Zhou, H., Yamada, T., and Kimizuka, N. (2016).            J. Electroanal. Chem. Interfacial Electrochem.            Sci. Instrum. 14, 1435–1440.
+    Supramolecular thermo-electrochemical cells:              122, 171–181.
+    enhanced thermoelectric performance by host-                                                                    43. Gunawan, A., Li, H., Lin, C.-H., Buttry, D.A.,
+    guest complexation and salt-induced                   30. He, J., Al-Masri, D., MacFarlane, D.R., and               Mujica, V., Taylor, R.A., Prasher, R.S., and
+    crystallization. J. Am. Chem. Soc. 138, 10502–            Pringle, J.M. (2016). Temperature dependence              Phelan, P.E. (2014). The amplifying effect of
+    10507.                                                    of the electrode potential of a cobalt-based              natural convection on power generation of
+                                                              redox couple in ionic liquid electrolytes for             thermogalvanic cells. Int. J. Heat Mass Transf.
+16. Kim, T., Lee, J.S., Lee, G., Yoon, H., Yoon, J.,          thermal energy harvesting. Faraday Discuss                78, 423–434.
+    Kang, T.J., and Kim, Y.H. (2017). High                    190, 205–218.
+    thermopower of ferri/ferrocyanide redox                                                                         44. Quickenden, T.I., and Mua, Y. (1995). The
+    couple in organic-water solutions. Nano               31. Jiao, N., Abraham, T.J., MacFarlane, D.R., and            power conversion efficiencies of a
+    Energy 31, 160–167.                                       Pringle, J.M. (2014). Ionic liquid electrolytes for       thermogalvanic cell operated in three different
+                                                              thermal energy harvesting using a cobalt redox            orientations. J. Electrochem. Soc. 142, 3652–
+17. Han, C.G., Qian, X., Li, Q., Deng, B., Zhu, Y.,           couple. J. Electrochem. Soc. 161, D3061–                  3659.
+    Han, Z., Zhang, W., Wang, W., Feng, S.P., Chen,           D3065.
+    G., and Liu, W. (2020). Giant thermopower of                                                                    45. Kraemer, D., and Chen, G. (2014). A simple
+    ionic gelatin near room temperature. Science          32. Lazar, M.A., Al-Masri, D., MacFarlane, D.R., and          differential steady-state method to measure
+    368, 1091–1098.                                           Pringle, J.M. (2016). Enhanced thermal energy             the thermal conductivity of solid bulk materials
+
+
+
+778     Joule 5, 768–779, April 21, 2021
+                                                                                                                                                               ll
+Perspective
+
+    with high accuracy. Rev. Sci. Instrum. 85,               54. Schönig, M., and Schuster, R. (2020). Sensitive     64. Agar, J.N., Mou, C.Y., and Lin, J.L. (1989).
+    025108.                                                      and fast measurement of surface temperature              Single-ion heat of transport in electrolyte
+                                                                 with a thermogalvanic cell. Appl. Phys. Lett.            solutions: a hydrodynamic theory. J. Phys.
+46. Hasan, S.W., Said, S.M., Sabri, M.F.M., Bakar,               116, 091601.                                             Chem. 93, 2079–2082.
+    A.S.A., Hashim, N.A., Hasnan, M.M.I.M.,
+    Pringle, J.M., and MacFarlane, D.R. (2016).              55. Liu, K., Zhou, Y., Yuan, F., Mo, X., Yang, P.,       65. Buckingham, M.A., Marken, F., and Aldous,
+    High thermal gradient in thermo-                             Chen, Q., Li, J., Ding, T., and Zhou, J. (2016).         L. (2018). The thermoelectrochemistry of the
+    electrochemical cells by insertion of a                      Self-powered multimodal temperature and                  aqueous iron(II)/iron(III) redox couple:
+    poly(vinylidene fluoride) membrane. Sci. Rep.                force sensor based-on a liquid droplet. Angew.           significance of the anion and pH in
+    6, 29328.                                                    Chem. Int. Ed. Engl. 55, 15864–15868.                    thermogalvanic thermal-to-electrical energy
+47. Pu, S., Liao, Y., Chen, K., Fu, J., Zhang, S., Ge, L.,                                                                conversion. Sustain. Energy Fuels 2, 2717–
+                                                             56. McKay, I.S., Kunz, L.Y., and Majumdar, A.
+                                                                                                                          2726.
+    et al. (2020). Thermogalvanic hydrogel for                   (2019). Electrochemical redox refrigeration. Sci.
+    synchronous evaporative cooling and low-                     Rep. 9, 13945.
+    grade heat energy harvesting. Nano Lett. 20,                                                                      66. Li, G., Dong, D., Hong, G., Yan, L., Zhang, X.,
+    3791–3797.                                               57. Marcus, Y., and Hefter, G. (2006). Ion pairing.          and Song, W. (2019). High-efficiency cryo-
+                                                                 Chem. Rev. 106, 4585–4621.                               thermocells assembled with anisotropic
+48. Duan, J., Yu, B., Liu, K., Li, J., Yang, P., Xie, W.,                                                                 holey graphene aerogel electrodes and a
+    Xue, G., Liu, R., Wang, H., and Zhou, J. (2019).         58. Luo, J., Hu, B., Debruler, C., Bi, Y., Zhao, Y.,         eutectic redox electrolyte. Adv. Mater. 31,
+    P-N conversion in thermogalvanic cells                       Yuan, B., Hu, M., Wu, W., and Liu, T.L. (2019).          e1901403.
+    induced by thermo-sensitive nanogels for body                Unprecedented capacity and stability of
+    heat harvesting. Nano Energy 57, 473–479.                    ammonium ferrocyanide catholyte in pH                67. Yuk, H., Zhang, T., Lin, S., Parada, G.A., and
+                                                                 neutral aqueous redox flow batteries. Joule 3,           Zhao, X. (2016). Tough bonding of hydrogels to
+49. Kim, J.H., Lee, J.H., Palem, R.R., Suh, M.S., Lee,           149–163.                                                 diverse non-porous surfaces. Nat. Mater. 15,
+    H.H., and Kang, T.J. (2019). Iron (II/III)                                                                            190–196.
+    perchlorate electrolytes for electrochemically           59. Jakus, A.E., Geisendorfer, N.R., Lewis, P.L., and
+    harvesting low-grade thermal energy. Sci. Rep.               Shah, R.N. (2018). 3D-printing porosity: a new
+                                                                                                                      68. Li, R., Shi, Y., Wu, M., Hong, S., and Wang, P.
+    9, 8706.                                                     approach to creating elevated porosity
+                                                                                                                          (2020). Photovoltaic panel cooling by
+                                                                 materials and structures. Acta Biomater 72,
+50. Kim, K., Hwang, S., and Lee, H. (2020).                                                                               atmospheric water sorption-evaporation cycle.
+                                                                 94–109.
+    Unravelling ionic speciation and hydration                                                                            Nat. Sustain. 3, 636–643.
+    structure of Fe(III/II) redox couples for                60. Peng, X., Liu, H., Yin, Q., Wu, J., Chen, P.,
+    thermoelectrochemical cells. Electrochim. Acta               Zhang, G., Liu, G., Wu, C., and Xie, Y. (2016). A    69. Pu, S., Fu, J., Liao, Y., Ge, L., Zhou, Y., Zhang, S.,
+    335, 135651.                                                 zwitterionic gel electrolyte for efficient solid-        Zhao, S., Liu, X., Hu, X., Liu, K., et al. (2020).
+                                                                 state supercapacitors. Nat. Commun. 7, 11782.            Promoting energy efficiency via a self-adaptive
+51. Jin, L., Greene, G.W., MacFarlane, D.R., and                                                                          evaporative cooling Hydrogel. Adv. Mater. 32,
+    Pringle, J.M. (2016). Redox-active quasi-solid-          61. Mo, F., Chen, Z., Liang, G., Wang, D., Zhao, Y.,         e1907307.
+    state electrolytes for thermal energy                        Li, H., Dong, B., and Zhi, C. (2020). Zwitterionic
+    harvesting. ACS Energy Lett. 1, 654–658.                     sulfobetaine hydrogel electrolyte building           70. Kazim, A.H., Booeshaghi, A.S., Stephens, S.T.,
+                                                                 separated positive/negative ion migration                and Cola, B.A. (2017). Thermo-electrochemical
+52. Yu, B., Duan, J., Li, J., Xie, W., Jin, H., Liu, R.,         channels for aqueous Zn-MnO2 batteries with              generator: energy harvesting &
+    Wang, H., Huang, L., Hu, B., and Zhou, J. (2019).            superior rate capabilities. Adv. Energy Mater.           thermoregulation for liquid cooling
+    All-day thermogalvanic cells for environmental               10, 2000035.                                             applications. Sustain. Energy Fuels 1, 1381–
+    thermal energy harvesting. Research 2019,                                                                             1389.
+    2460953.                                                 62. Eastman, E.D. (1928). Theory of the Soret
+                                                                 effect. J. Am. Chem. Soc. 50, 283–291.               71. Kazim, A.H., and Cola, B.A. (2019).
+53. Meng, F.L., Gao, M., Ding, T., Yilmaz, G., Ong,
+    W.L., and Ho, G.W. (2020). Modular                       63. Agar, J.N., and Breck, W.G. (1957). Thermal              Nanostructured carbon electrodes for
+    deformable steam electricity cogeneration                    diffusion in non-isothermal cells. Part                  increased power density in flow thermo-
+    system with photothermal, water, and                         1.Theoretical relations and experiments on               electrochemical generator heat sinks.
+    electrochemical tunable multilayers. Adv.                    solutions of thallous salts. Trans. Faraday Soc.         J. Electrochem. Energy Convers. Storage 16,
+    Funct. Mater. 30, 2002867.                                   53, 167–178.                                             011007.
+
+
+
+
+                                                                                                                                  Joule 5, 768–779, April 21, 2021         779
+

@@ -1,0 +1,328 @@
+{
+  "annotation_author": "Codex current session",
+  "annotation_kind": "contextual_model_proposal_not_human_gold",
+  "rule_version": "ROLE_RULES_v2",
+  "basis": "All 59 selected full abstracts and all 201 original node phrases read in this session. No external model, keyword-only classifier or human labeling used.",
+  "row_format": ["semantic_role", "role_detail", "role_flags", "reason"],
+  "papers": {
+    "P0002": [
+      ["interaction", "iron_perchlorate_interaction", "weak_interaction;joint_factor", "短语明确表示铁离子与高氯酸根之间的弱作用，与选择性缔合共同解释熵变化。"],
+      ["interaction", "selective_iron_nitrile_association", "object_specific;joint_factor", "Fe2+ 与腈溶剂的选择性缔合为相互作用，不能从联合陈述分配独立贡献。"],
+      ["quantity", "refrigeration_related_entropy_change", "definition_context", "供电化学制冷利用的熵变化是热力学量，保留应用限定。"]
+    ],
+    "P0005": [
+      ["mechanism_process", "chaotropic_effect", "definition_unresolved", "作者以 chaotropic effect 解释 Seebeck 增强；此处不补出具体溶剂化或氢键破坏路径。"],
+      ["performance_function", "seebeck_coefficient", "", "用于评价热电转换的输出响应指标。"],
+      ["state_structure", "radiative_cooling_structure", "device_structure", "产生冷却温差的器件结构，不是辐射冷却过程本身。"],
+      ["quantity", "self_supplied_temperature_difference", "generated_driving_quantity", "温差在此作为冷却结构产生的量，同时为后续发电提供驱动。"],
+      ["performance_function", "all_weather_power_generation", "environmental_qualifier", "全天候持续发电功能，保留环境适用范围。"]
+    ],
+    "P0006": [
+      ["mechanism_process", "thermosensitive_crystallization", "joint_factor", "温敏结晶是动态过程；原摘要把结晶、盐析和通道联合描述。"],
+      ["mechanism_process", "salting_out", "joint_factor", "盐析是过程，不单独分配联合设计的性能贡献。"],
+      ["state_structure", "ion_transport_highway", "author_metaphor;definition_unresolved", "作者用 highway 指离子输运通道结构，暂不增加具体孔径或化学机制。"],
+      ["performance_function", "carnot_relative_efficiency", "abbreviation_resolved_from_abstract", "摘要将 eta(r) 定义为相对卡诺效率，属转换性能。"],
+      ["performance_function", "mechanical_strength", "", "被改善的机械强度性能。"]
+    ],
+    "P0007": [
+      ["design_strategy", "micropattern_and_gradient_design", "compound_phrase;joint_factor", "明确提出微图案和梯度结构联合设计策略。"],
+      ["performance_function", "pressure_sensitivity", "quantity_definition_from_abstract", "摘要以 kPa-1 和检测限表征传感灵敏度，不泛化成热电系数。"]
+    ],
+    "P0009": [
+      ["mechanism_process", "photocatalytically_enhanced_redox", "compound_phrase;in_situ", "中心是受原位光催化增强的氧化还原反应过程。"],
+      ["quantity", "continuous_redox_concentration_gradient", "spatial_and_temporal_qualifier", "反应维持的浓度梯度是空间变化量，continuous 限定持续性。"],
+      ["performance_function", "thermopower", "association_not_cause", "热电势率为输出响应，与产氢速率报告线性关联。"],
+      ["performance_function", "hydrogen_production_rate", "association_not_cause;coproduction_metric", "在该器件中是产氢产出指标，不能将关联解释为其导致 thermopower。"]
+    ],
+    "P0010": [
+      ["mechanism_process", "spontaneous_water_evaporation", "", "自发蒸发为质量与热传递过程。"],
+      ["quantity", "electrolyte_concentration_distribution", "spatial_profile", "被蒸发调节的浓度分布是空间量分布，不是材料实体。"],
+      ["quantity", "cold_end_temperature", "dependent_quantity", "这里是蒸发调节的冷端温度结果，不是预设的恒定工况。"]
+    ],
+    "P0011": [
+      ["design_strategy", "cationic_pair_network_incorporation", "compound_phrase", "向阳离子电活性网络中引入离子对是明确设计操作。"],
+      ["mechanism_process", "redox_pair_motion", "", "氧化还原对的运动为输运过程。"],
+      ["performance_function", "output_current_density", "", "摘要将该电流密度作为热电池输出衡量。"],
+      ["performance_function", "output_power_density", "", "明确的输出功率密度。"]
+    ],
+    "P0014": [
+      ["interaction", "pedot_pss_iron_electrostatic_interaction", "object_specific", "聚合物基体与 Fe2+/3+ 的静电作用。"],
+      ["mechanism_process", "perchlorate_ion_liberation", "ion_specific", "ClO4- 离子的释放过程，不重写为完全解离状态。"],
+      ["mechanism_process", "thermodiffusion", "", "受到增强的热扩散过程。"],
+      ["quantity", "ionic_conductivity", "", "离子电导率为输运物理量。"]
+    ],
+    "P0016": [
+      ["material_entity", "silicate_guanidinium_lithium_bromide_combination", "compound_phrase;joint_factor", "节点列出三种电解质组分，保留组合，不虚构单组分效应。"],
+      ["state_structure", "interconnected_porous_gel_structure", "", "凝胶相互连接的多孔结构。"],
+      ["performance_function", "thermopower", "", "摘要给出的 mV/K 热电性能。"]
+    ],
+    "P0017": [
+      ["interaction", "solvent_hydrogen_bonding", "object_specific", "溶剂分子间的氢键作用。"],
+      ["performance_function", "moisture_retention", "value_and_duration_embedded", "14 天后保留超过 90% 水分是耐干燥性能陈述，数值和时长不丢弃。"]
+    ],
+    "P0018": [
+      ["material_entity", "ethanol", "", "乙醇是调节剂实体，而引入操作不在节点短语中。"],
+      ["quantity", "concentration_gradient", "definition_context", "由乙醇调节的浓度梯度为物理量。"],
+      ["state_structure", "solvation_structure", "", "溶剂化结构是局部配位环境状态。"],
+      ["performance_function", "redox_temperature_coefficient", "signed_quantity;magnitude_change", "该氧化还原对的温度系数以负 mV/K 给出；增强指幅值而非代数值增大。"],
+      ["performance_function", "thermoelectric_power_and_efficiency", "compound_phrase", "组合了功率与效率两个性能，后续拆分需单独记录。"]
+    ],
+    "P0020": [
+      ["state_structure", "oxidant_reductant_hydration_shell_contrast", "simulation_suggestion;dynamic_alternative", "中心是氧化态与还原态水合壳行为差异；静态结构与动态行为边界不明，暂按局部状态标注。"],
+      ["quantity", "configurational_entropy_difference", "encoding_artifact;simulation_suggestion", "构型熵差为热力学量，保留原短语多余括号不静默修改。"],
+      ["performance_function", "thermopower", "simulation_suggestion", "被解释的热电响应；模拟建议的机理强度不升级。"]
+    ],
+    "P0022": [
+      ["mechanism_process", "copper_ethylenediamine_electrochemical_reaction", "compound_phrase;object_specific", "含铜电极、乙二胺与螯合物的电化学反应，主语对象限定保留。"],
+      ["quantity", "reaction_entropy_change", "", "反应熵变化属于热力学量。"],
+      ["performance_function", "temperature_coefficient_alpha", "quantity_definition_from_abstract", "以 mV/K 表征的电池温度响应系数。"]
+    ],
+    "P0024": [
+      ["design_strategy", "tgc_solar_absorber_integration", "compound_phrase;numerical_model", "集成温敏热电池与光谱选择性吸收器的系统设计，效果主要来自数值模型。"],
+      ["performance_function", "solar_electricity_generation", "numerical_model", "太阳能发电功能，不据此写成已验证的实物发电性能。"]
+    ],
+    "P0025": [
+      ["condition", "low_formamide_concentration", "level_specific", "明确限定低 FA 浓度区间，不能推广全部浓度。"],
+      ["mechanism_process", "redox_ion_desolvation", "", "氧化还原离子的去溶剂化过程。"],
+      ["quantity", "redox_reaction_kinetics", "rate_interpretation;definition_unresolved", "accelerating kinetics 指反应速度特征，暂归量但不补成某个具体速率常数。"],
+      ["performance_function", "short_circuit_current_density", "", "短路输出电流密度。"],
+      ["material_entity", "formamide_as_water_stabilizer", "coreference_review;functional_entity_label", "摘要明确 FA acts as a stabilizer，节点是 FA 的功能性称谓而非独立材料。"],
+      ["quantity", "redox_activation_energy", "", "氧化还原反应活化能为能量量。"],
+      ["performance_function", "thermoelectric_power_ambiguous", "definition_unresolved", "摘要称 thermoelectric power 但此句未列单位，保留目标性能而不擅自改成 Seebeck。"]
+    ],
+    "P0026": [
+      ["condition", "temperature_and_ph", "compound_phrase;joint_conditions", "温度和 pH 被作为共同调控条件，未拆分各自贡献。"],
+      ["quantity", "iron_iii_concentration", "dependent_quantity", "被温度与 pH 调控的 Fe3+ 浓度，属于结果量。"],
+      ["mechanism_process", "reversible_iron_hydroxide_transformation", "reversibility_qualifier", "Fe3+ 与 Fe(OH)3 的可逆转化过程。"],
+      ["performance_function", "thermopower", "", "提升的热电输出响应。"],
+      ["performance_function", "thermochromic_response", "process_alternative", "摘要将热致变色作为实现的响应功能；不把它当作反应熵。"]
+    ],
+    "P0027": [
+      ["material_entity", "guanidinium_chloride_salt", "original_spelling_preserved", "所引入盐的实体，原 guanidium 拼写保留。"],
+      ["mechanism_process", "ion_induced_crystallization", "", "离子诱导的结晶过程。"],
+      ["performance_function", "seebeck_coefficient", "", "热电响应性能指标。"]
+    ],
+    "P0030": [
+      ["material_entity", "18_crown_6", "", "18-冠-6 是具体络合剂实体。"],
+      ["material_entity", "cation_selective_complexing_agent", "coreference_review;functional_entity_label", "该短语在同位语中指 18-crown-6 的功能称谓，不能当成已经发生的络合过程。"],
+      ["mechanism_process", "cation_thermodiffusion", "ion_specific;proposed_mechanism", "阳离子的热扩散过程，保留文中 proposed 机制语境。"],
+      ["performance_function", "thermovoltage", "proposed_mechanism", "电池热电压输出。"]
+    ],
+    "P0036": [
+      ["state_structure", "concave_tgh_array", "device_structure", "节点重点是 TGH 阵列的凹形排列结构。"],
+      ["", "analysis_method", "ontology_gap;not_material_mechanism", "提取温度特征是信息处理方法，不属于十类中的材料机制；主角色留空待扩展本体。"],
+      ["performance_function", "user_identification_capability", "inference_function", "区分用户特征是系统识别功能，不是热电物理机制。"]
+    ],
+    "P0037": [
+      ["", "device_entity", "ontology_gap;not_material_entity", "泛称完整热电池器件，未描述材料或架构；主角色留空，避免硬塞进材料实体。"],
+      ["performance_function", "afc_waste_heat_recovery", "system_model;application_specific", "回收碱性燃料电池余热是系统功能，原文主要提供数学模型证据。"],
+      ["performance_function", "electric_power_generation", "system_model", "模型系统的发电功能。"]
+    ],
+    "P0039": [
+      ["material_entity", "guanidinium_ion", "original_label_preserved", "原短语 guanidine ion 指所用离子实体，保留原表述。"],
+      ["mechanism_process", "ferrocyanide_crystallization", "redox_state_specific", "限定 [Fe(CN)(6)](4-) 的结晶过程，不泛化所有铁氰离子。"],
+      ["mechanism_process", "thermogalvanic_effect", "performance_alternative", "这里保留热电化学效应的机制含义；增强效应与后续 thermopower 数值不能静默同义化。"]
+    ],
+    "P0040": [
+      ["mechanism_process", "gelatin_decomplexation_and_reentanglement", "compound_phrase;joint_factor", "明胶链解络与重新缠结是联合动态过程。"],
+      ["mechanism_process", "thermoreversible_gelling", "function_alternative", "可逆凝胶化为过程，同时支撑黏附功能。"],
+      ["performance_function", "temperature_responsive_adhesion", "", "温度响应黏附是可切换的器件/材料功能。"]
+    ],
+    "P0041": [
+      ["design_strategy", "charged_thiopropane_monolayer_modification", "object_specific;comparator_bare_gold", "用指定分子修饰电极的操作，性能相对裸金比较。"],
+      ["mechanism_process", "electrostatic_electrocatalysis", "", "静电电催化是作用过程，不与静电力直接视作同一概念。"],
+      ["performance_function", "electrical_power", "comparator_bare_gold", "相对裸金提高的输出功率。"],
+      ["mechanism_process", "gold_passivation", "inhibited_process", "金钝化是受到抑制的过程，不能误读为性能增强对象。"]
+    ],
+    "P0043": [
+      ["material_entity", "potassium_chloride", "", "KCl 为提供输运离子的盐组分。"],
+      ["mechanism_process", "thermodiffusion", "", "离子热扩散过程。"],
+      ["material_entity", "ferricyanide_ferrocyanide_redox_pair", "redox_pair_not_reaction", "列出的两个化学物种组成氧化还原对，不是反应事件。"],
+      ["performance_function", "thermal_current_output", "condition_in_abstract", "摘要以温差 10 K 下的电流表征器件输出。"]
+    ],
+    "P0046": [
+      ["state_structure", "nickel_nickel_oxide_heterostructure", "material_alternative", "重点是 Ni 与 Ni 氧化物构成的异质结构，材料组分随原词保留。"],
+      ["state_structure", "oxygen_vacancy_defects", "", "氧空位缺陷是局部结构状态。"],
+      ["mechanism_process", "redox_reactions", "underspecified", "氧化还原反应过程，原节点未指定单一反应方程。"],
+      ["material_entity", "structure_breaking_salts", "functional_entity_label;underspecified", "具有破结构作用的盐类实体，不能仅凭名称补出具体盐或作用机制。"],
+      ["mechanism_process", "water_structure_disruption", "predicate_in_label", "水结构被破坏的动态过程。"],
+      ["mechanism_process", "ion_diffusion", "", "离子扩散过程。"]
+    ],
+    "P0048": [
+      ["material_entity", "lithium_bromide_hygroscopic_salt", "encoding_artifact", "LiBr 吸湿盐实体，原文断词保留。"],
+      ["performance_function", "drying_resistance", "", "耐干燥性能。"],
+      ["performance_function", "freezing_resistance", "", "抗冻结性能。"]
+    ],
+    "P0049": [
+      ["material_entity", "hydrochloric_acid", "", "盐酸为加入电解液的组分实体。"],
+      ["quantity", "quinone_hydroquinone_redox_rate", "object_specific", "Q/HQ 氧化还原反应的动力学速率量。"],
+      ["mechanism_process", "copper_thermogalvanic_corrosion", "object_specific", "铜电极热电化学腐蚀过程，区别于该过程的速率。"]
+    ],
+    "P0050": [
+      ["performance_function", "electrode_heat_storage_and_release", "compound_phrase;process_alternative", "短语中心是电极储放热能力；保留功能而不把能力直接改成某种相变机制。"],
+      ["performance_function", "sustained_power_generation", "temporal_qualifier", "由释放热量维持的电池发电功能。"]
+    ],
+    "P0354": [
+      ["state_structure", "low_crystallinity_structure", "", "低结晶结构为材料状态。"],
+      ["mechanism_process", "ion_dissociation", "joint_factor", "离子解离过程，与其他因素共同解释性能。"],
+      ["mechanism_process", "ion_migration", "coreference_from_abstract;joint_factor", "并列语法中 migration 回指离子迁移，保留联合归因。"],
+      ["quantity", "ion_diffusion_contrast", "ambiguous_quantity;joint_factor", "扩散差异未定义成特定系数差，保留量的候选角色。"],
+      ["performance_function", "generic_ionic_thermoelectric_performance", "underspecified", "笼统 i-TE 性能，不拆成未明确抽出的单一指标。"]
+    ],
+    "P0355": [
+      ["state_structure", "subnanometer_ion_confinement", "scale_specific", "亚纳米离子限域描述空间约束状态。"],
+      ["state_structure", "aligned_cellulose_polymer_chains", "compound_phrase", "中心为取向排列的纤维素与聚合物链结构，材料对象仍保留。"],
+      ["mechanism_process", "thermally_driven_selective_ion_migration", "conditions_in_label", "沿热梯度的选择性离子迁移过程。"]
+    ],
+    "P0356": [
+      ["material_entity", "cmt_electrolyte_and_hybrid_electrode", "compound_phrase;joint_factor", "电解液和复合电极两个实体组合，不能把完整器件效果分给任一组分。"],
+      ["quantity", "specific_capacitance", "storage_metric", "比电容为储能相关物理量，沿用既有 capacitance 的 quantity 规则。"]
+    ],
+    "P0357": [
+      ["condition", "increased_sodium_chloride_content", "value_range_embedded;direction_in_label", "明确把 NaCl 含量从 0.67 增至 1.00 wt% 作为比较条件。"],
+      ["performance_function", "n_to_p_thermoelectric_transition", "direction_in_label;compound_phrase", "报告的是热电响应从 n 型到 p 型转换，不能直接命名为微观机制。"]
+    ],
+    "P0358": [
+      ["mechanism_process", "passive_radiative_cooling", "joint_factor;device_operation", "被集成到发电器中的被动辐射冷却过程。"],
+      ["quantity", "moisture_induced_potential", "joint_factor;source_qualified", "湿度诱导电势是参与合成输出的电势量，此处不是独立最终输出。"],
+      ["performance_function", "thermoelectric_voltage", "joint_factor", "热电压为输出响应，与湿度电势协同但不等同。"],
+      ["performance_function", "electricity_generation", "", "器件发电功能。"]
+    ],
+    "P0360": [
+      ["condition", "solution_ph_increase", "value_range_embedded;direction_in_label", "pH 由 3 到 11 为明确实验工况变化。"],
+      ["quantity", "nanopore_surface_charge_density", "", "表面电荷密度是量，与未定量的负电荷状态区分。"],
+      ["performance_function", "output_power_density", "conditions_in_abstract", "热流和 pH 条件下报告的输出功率密度。"],
+      ["performance_function", "ionic_thermoelectric_coefficient", "stable_response_in_abstract", "摘要报告约 0.47 mV/K 且稳定，不能随功率增大一起写成被提高。"]
+    ],
+    "P0361": [
+      ["material_entity", "channel_bearing_leather_collagen_fibers", "compound_phrase;structure_embedded", "皮革胶原纤维被用作聚合物基体，天然通道是实体修饰。"],
+      ["material_entity", "trisodium_citrate", "", "柠檬酸三钠为移动离子来源实体。"],
+      ["mechanism_process", "enhanced_cation_motion", "author_term;definition_unresolved", "作者称阳离子运动自增强，保留过程表述，不补未明动力学。"]
+    ],
+    "P0363": [
+      ["interaction", "ion_polymer_interplay", "underspecified", "离子与聚合物基体间作用，摘要未指定单一相互作用类型。"],
+      ["performance_function", "ionic_figure_of_merit", "", "离子热电优值为综合性能。"],
+      ["performance_function", "normalized_power_density", "normalization_preserved", "归一化输出功率密度，保留归一化定义待查。"]
+    ],
+    "P0364": [
+      ["interaction", "anionic_polymer_sodium_attraction", "clausal_phrase;ion_specific", "整句短语表达阴离子聚合物与钠离子的吸引作用。"],
+      ["interaction", "cationic_polymer_chloride_attraction", "clausal_phrase;ion_specific", "整句短语表达阳离子聚合物与氯离子的吸引作用，与另一离子体系区分。"],
+      ["quantity", "ionic_thermal_mobility", "definition_unresolved", "离子热迁移能力量，原文未严格定义某一系数。"],
+      ["performance_function", "seebeck_coefficient", "change_not_uniform_improvement", "原文为增强或改变 S，不能把所有材料统一写成提高。"]
+    ],
+    "P0365": [
+      ["interaction", "lithium_chloride_hydration", "property_wording;process_alternative", "LiCl 水合性质在此指离子与水的作用能力，不推定具体水合数。"],
+      ["performance_function", "freeze_resistance", "", "抗冻结性能。"],
+      ["performance_function", "moisture_absorption_self_regeneration", "compound_phrase;process_alternative", "整段短语中心是干燥后吸湿自恢复能力，不仅是吸收事件。"]
+    ],
+    "P0367": [
+      ["interaction", "cation_functional_group_coordination_electrostatics", "compound_phrase;joint_factor", "配位与静电作用联合存在，保留离子和官能团对象。"],
+      ["mechanism_process", "anion_diffusion", "ion_specific", "阴离子扩散过程。"],
+      ["performance_function", "n_type_thermoelectric_behavior", "polarity_specific", "n 型热电响应，保留符号类型。"]
+    ],
+    "P0368": [
+      ["material_entity", "carbon_black_multiwalled_nanotubes", "compound_phrase;joint_factor", "炭黑和多壁碳纳米管为联合光热材料组分。"],
+      ["performance_function", "photothermal_conversion", "photothermal_scope", "光热转换性能不等于离子热电性能。"],
+      ["material_entity", "iron_iii_chloride", "", "FeCl3 为提供离子的添加组分实体。"],
+      ["mechanism_process", "ionic_diffusion", "", "离子扩散过程。"]
+    ],
+    "P0369": [
+      ["quantity", "porosity_and_pore_connectivity", "compound_phrase;structure_alternative", "孔隙率与孔连通性被当作结构参数，保持复合短语待拆分，不强制同义。"],
+      ["quantity", "cement_specific_surface_area", "", "水泥基体比表面积为可测物理量。"],
+      ["performance_function", "ionic_seebeck_coefficient", "", "离子 Seebeck 性能指标。"],
+      ["state_structure", "finer_pore_distribution", "comparative_qualifier", "更细的孔分布描述空间结构，未命名具体量化参数。"],
+      ["performance_function", "thermoelectric_voltage", "", "产生的热电压响应。"]
+    ],
+    "P0370": [
+      ["performance_function", "itesc_charging_discharging_current", "compound_phrase;driving_output", "ITESC 的充放电电流是供传感器使用的电输出，保留两个运行阶段。"],
+      ["performance_function", "resistive_sensor_operation", "device_function", "驱动电阻式传感器工作是功能。"],
+      ["condition", "periodic_temperature_gradient", "temporal_qualifier", "外加周期温度梯度是驱动运行程序。"],
+      ["application", "humidity_monitoring", "", "湿度监测是供电方案的应用场景。"]
+    ],
+    "P0371": [
+      ["material_entity", "carbon_nanotube_cellulose_membrane", "composite_entity", "碳纳米管与纤维素构成的膜实体。"],
+      ["condition", "temporally_varying_temperature_gradient", "generated_operating_program", "跨 ITESC 的时变梯度在此作为驱动反复充放电的工作条件。"],
+      ["mechanism_process", "repeated_charge_discharge", "device_operation;temporal_qualifier", "器件反复充放电的动态运行过程。"],
+      ["performance_function", "continuous_operation", "temporal_qualifier", "连续运行能力，不能等同于恒定条件下永不停歇的输出。"]
+    ],
+    "P0372": [
+      ["mechanism_process", "multi_ion_diffusion_and_drift", "compound_phrase;author_attribution", "多离子热扩散与漂移构成作者解释框架，不拆成两个独立已证实效应。"],
+      ["performance_function", "voltage_hysteresis_like_response", "definition_context", "电压-时间/温差曲线中的类滞后响应，是测得的行为而非材料结构。"],
+      ["mechanism_process", "water_loss", "modality_in_context", "失水过程；原文 may play 仅表示可能贡献。"]
+    ],
+    "P0373": [
+      ["design_strategy", "external_electrode_switching", "operational_strategy", "切换外部电极是明确运行策略，非电极实体。"],
+      ["mechanism_process", "alternating_cation_anion_thermodiffusion_dominance", "compound_phrase;temporal_qualifier", "阳/阴离子热扩散交替主导的过程，保留交替限定。"],
+      ["performance_function", "cyclic_power_generation", "constant_heat_source_context", "恒定热源语境中的循环发电功能。"]
+    ],
+    "P0374": [
+      ["mechanism_process", "sodium_thermodiffusion", "ion_specific", "钠离子热扩散过程。"],
+      ["performance_function", "p_type_thermopower", "polarity_specific", "p 型热电响应指标。"],
+      ["mechanism_process", "hydroxide_motion", "inhibited_in_relation", "OH- 运动是被静电作用阻碍的过程，不把阻碍方向删除。"],
+      ["interaction", "hydroxide_quaternary_amine_electrostatics", "object_from_context", "摘要说明 OH- 与 PQ-10 正电季胺基团的静电作用。"]
+    ],
+    "P0375": [
+      ["quantity", "ion_carrier_concentration", "tunable_parameter", "仅命名载流离子浓度参数，没有高低阈值或给定工况，不归材料实体。"],
+      ["quantity", "ion_diffusion_coefficient", "", "离子扩散系数为过程的量化参数，区别于扩散过程。"],
+      ["quantity", "eastman_entropy", "definition_specific", "明确命名 Eastman 熵，不能与反应熵无条件合并。"],
+      ["performance_function", "generic_ionic_thermoelectric_properties", "underspecified", "总体离子热电性质，不指定唯一指标。"],
+      ["interaction", "dynamic_component_interactions", "underspecified", "组分间动态相互作用，原句未唯一指定氢键或配位。"],
+      ["performance_function", "stretchability_and_self_healing", "compound_phrase", "拉伸与自愈两个机械功能，保留组合。"]
+    ],
+    "P0377": [
+      ["mechanism_process", "bulk_water_evaporation", "threshold_in_context", "超过临界温度后的体相水蒸发过程。"],
+      ["mechanism_process", "carrier_motion_dimensional_transition", "compound_phrase;direction_in_label", "载流运动从一维到三维的转变是动态过程，方向保留。"],
+      ["quantity", "electrical_conductivity", "decrease_in_context", "原文报告降低的电导率，不能误读为增强策略。"]
+    ],
+    "P0379": [
+      ["interaction", "ion_hydrogel_matrix_interactions", "underspecified", "离子与水凝胶基体之间作用，不补具体作用类别。"],
+      ["mechanism_process", "selective_conducting_ion_transport", "", "选择性离子输运过程。"],
+      ["performance_function", "seebeck_coefficient", "", "热电性能指标。"]
+    ],
+    "P0381": [
+      ["material_entity", "pani_cwf_electrode", "composite_entity", "PANI 修饰碳织物电极实体。"],
+      ["performance_function", "current_density_output", "", "明确的输出电流密度。"]
+    ],
+    "P0382": [
+      ["material_entity", "ionic_thermoelectric_elastomer", "abbreviation_resolved_from_abstract", "摘要将 ITE 定义为离子热电弹性体电解质实体。"],
+      ["performance_function", "air_stability", "duration_in_abstract", "空气稳定性性能，摘要给出超过 60 天的范围。"]
+    ],
+    "P0384": [
+      ["material_entity", "emim_tfsi_ionic_liquid", "abbreviation_resolved_from_abstract", "IL 回指摘要中的 [EMIM][TFSI] 离子液体。"],
+      ["material_entity", "ionic_liquid_as_nucleating_agent", "coreference_review;functional_entity_label", "IL acts as a nucleating agent 是同一材料的功能称谓，不是已完成的结晶事件。"]
+    ],
+    "P0385": [
+      ["mechanism_process", "gradient_driven_unidirectional_proton_transport", "conditions_in_label;direction_in_label", "温度梯度驱动的单向质子输运过程。"],
+      ["state_structure", "percolated_2d_nanofluidic_network", "", "二维纳米流体通道的贯通网络结构。"],
+      ["performance_function", "seebeck_coefficient", "", "热电响应性能。"]
+    ],
+    "P0387": [
+      ["material_entity", "mobile_anion_generating_species", "functional_entity_label;underspecified", "能够产生移动阴离子的物种类别，具体例子仅在摘要中，原节点不改写。"],
+      ["performance_function", "negative_seebeck_coefficient", "polarity_specific", "负 Seebeck 响应，保留符号。"],
+      ["material_entity", "cation_generating_species", "functional_entity_label;underspecified", "产生阳离子的物种类别，区别于离子生成过程。"],
+      ["performance_function", "positive_seebeck_coefficient", "polarity_specific", "正 Seebeck 响应，与负响应不折叠。"]
+    ],
+    "P0388": [
+      ["condition", "continuously_connected_external_load", "operating_configuration;temporal_qualifier", "外部负载始终接通是运行条件，不是材料结构或微观作用。"],
+      ["performance_function", "continuous_itec_operation", "temporal_qualifier", "在负载持续接通条件下的连续工作功能。"]
+    ],
+    "P0389": [
+      ["state_structure", "ionic_liquid_confinement", "purpose_statement", "离子液体在天然聚合物中的限域状态；原文改善电导率为设计目的。"],
+      ["quantity", "electrical_conductivity", "purpose_statement", "电导率为输运量，保留 aiming to improve 的表述强度。"]
+    ],
+    "P0390": [
+      ["material_entity", "sodium_chloride", "", "NaCl 添加组分实体。"],
+      ["performance_function", "ionic_thermoelectric_properties", "underspecified", "总体热电性质，不静默拆成单一 Seebeck 或电导率节点。"]
+    ],
+    "P0392": [
+      ["mechanism_process", "water_thermodiffusion", "species_specific", "水的热扩散过程，与质子本身迁移区分。"],
+      ["mechanism_process", "proton_transport", "coreference_or_granularity_review", "质子输运过程，与同句更具体的单向质子迁移可能重叠，不能把二者自动串成独立步骤。"],
+      ["mechanism_process", "hot_to_cold_proton_migration", "direction_in_label;coreference_or_granularity_review", "从热端到冷端的单向质子迁移是更具体过程，原始独立节点暂保留。"],
+      ["performance_function", "ionic_thermopower", "", "目标离子热电响应。"]
+    ],
+    "P0393": [
+      ["material_entity", "pore_solution_ions", "underspecified", "孔溶液中离子实体，原句未限定某一种离子。"],
+      ["mechanism_process", "ionic_thermoelectric_effect", "performance_alternative;definition_unresolved", "原文指存在离子热电效应，未将该节点定义为特定数值响应；保留效应/机制含义并标歧义。"]
+    ]
+  }
+}

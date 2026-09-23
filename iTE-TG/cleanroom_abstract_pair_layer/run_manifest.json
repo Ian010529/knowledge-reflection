@@ -1,0 +1,131 @@
+{
+  "pipeline": "cleanroom_abstract_pair_layer_v3",
+  "inputs": {
+    "TG_first333_material_mechanism.csv": {
+      "allowed_columns_sha256": "01b96b857933ee66d85fae510a817c12ba81e31adf152849bca167cbbe00691b",
+      "allowed_columns": [
+        "文章名",
+        "期刊名",
+        "DOI",
+        "年份",
+        "摘要"
+      ],
+      "rows": 333
+    },
+    "iTE1_first1000_material_mechanism.csv": {
+      "allowed_columns_sha256": "cc14d1af2ac9e6d37726fbc19d5b5555b3df02c4ff8c1b9f72ddba451446f51e",
+      "allowed_columns": [
+        "文章名",
+        "期刊名",
+        "DOI",
+        "年份",
+        "摘要"
+      ],
+      "rows": 1000
+    },
+    "iTE2_first711_material_mechanism.csv": {
+      "allowed_columns_sha256": "0f9c92b7547b816d7ca7589f265b84fdb48bb9a42671210c3060a93e5678f7e1",
+      "allowed_columns": [
+        "文章名",
+        "期刊名",
+        "DOI",
+        "年份",
+        "摘要"
+      ],
+      "rows": 711
+    }
+  },
+  "script_sha256": "649ef9a31d0b93772781ae1fb0d2b5af4a6f66f26218a27d2d2caca3ddf20be9",
+  "forbidden_inputs": [
+    "final_concept_layer/*concept*",
+    "ite_tg_complementarity/*",
+    "task_typed_concept_layer/*",
+    "pair_projection/*"
+  ],
+  "tiered_evidence_contract": {
+    "side_levels": {
+      "L3": "at_least_one_graph_eligible_human_confirmed_incident_relation",
+      "L2": "at_least_one_strict_syntax_incident_relation_candidate",
+      "L1": "same_sentence_incident_pair_only"
+    },
+    "current_stage": "machine_unreviewed_snapshot",
+    "G3_reachable_in_this_base_builder": false,
+    "human_review_overlay_read_by_this_base_builder": false,
+    "human_or_semantic_review_must_be_a_separate_posthoc_layer": true,
+    "grades": {
+      "G3": "both_sides_L3",
+      "G2": "both_sides_at_least_L2",
+      "G1": "one_side_at_least_L2_other_side_L1",
+      "G0": "both_sides_L1",
+      "Q": "no_endpoint_pass_nontrivial_path"
+    },
+    "full_all_node_table_untruncated": true,
+    "global_top_n_ranking_used": false,
+    "within_node_support_order_fields": [
+      "evidence_floor_desc",
+      "evidence_ceiling_desc",
+      "minimum_human_confirmed_relation_support_desc",
+      "total_human_confirmed_relation_support_desc",
+      "minimum_strict_syntax_relation_support_desc",
+      "total_strict_syntax_relation_support_desc",
+      "minimum_pair_paper_count_desc",
+      "sum_pair_paper_count_desc",
+      "minimum_pair_sentence_count_desc",
+      "sum_pair_sentence_count_desc",
+      "pair_ids_stable_tiebreak"
+    ],
+    "fields_forbidden_from_tier_or_support_order": [
+      "paper_id",
+      "doi",
+      "title",
+      "year",
+      "shared_document_frequency",
+      "known_case_status",
+      "positive_control_status",
+      "novelty_status",
+      "cross_endpoint_observed_status"
+    ],
+    "known_case_affects_tier_or_selection": false,
+    "review_queue_policy": "all_endpoint_pass_A_B_plus_C_top3_within_each_shared_node_tier",
+    "scientific_claim_status": "retrieval_only_cross_endpoint_not_tested"
+  },
+  "source_evidence_contract": {
+    "authoritative_table": "pair_support_evidence.csv",
+    "candidate_foreign_keys": [
+      "ite_pair_id",
+      "tg_pair_id"
+    ],
+    "aggregate_paper_doi_title_sentence_fields_present_in_candidate_table": false,
+    "positional_zip_of_aggregate_strings_allowed": false,
+    "qa_foreign_key_resolution_required": true
+  },
+  "counts": {
+    "source_records": 2044,
+    "papers": 1977,
+    "iTE_direct_papers": 243,
+    "TG_direct_papers": 146,
+    "concept_occurrences": 29030,
+    "paper_concepts": 23463,
+    "relations": 982,
+    "strict_syntax_relation_candidates": 52,
+    "human_reviewed_graph_relations": 0,
+    "same_sentence_pairs": 6945,
+    "iTE_pairs": 4023,
+    "TG_pairs": 2390,
+    "direct_pair_overlaps": 51,
+    "pair_support_evidence_rows": 6965,
+    "all_exact_shared_pair_endpoint_nodes": 167,
+    "material_mechanism_focus_shared_nodes": 64,
+    "all_node_nontrivial_candidate_paths": 50025,
+    "focus_node_nontrivial_paths_before_endpoint_gate": 20157,
+    "focus_endpoint_pass_candidate_paths": 12721,
+    "focus_endpoint_quarantine_paths": 7436,
+    "focus_G3_paths": 0,
+    "focus_G2_paths": 1,
+    "focus_G1_paths": 228,
+    "focus_G0_paths": 12492,
+    "balanced_focus_review_queue": 397,
+    "relation_incident_review_rows": 12,
+    "hinge_candidates": 1
+  }
+}

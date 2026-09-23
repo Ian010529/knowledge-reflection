@@ -1,0 +1,81 @@
+{
+  "validation_passed": true,
+  "comparison_count": 1212,
+  "by_relation": {
+    "equivalent_to": 445,
+    "uncertain": 275,
+    "related_to": 237,
+    "distinct_from": 103,
+    "broader_than": 86,
+    "narrower_than": 66
+  },
+  "by_domain": {
+    "TG": 208,
+    "iTE": 1004
+  },
+  "by_selection": {
+    "same_label_context_review": 564,
+    "lexical_cosine_ge_0.8": 158,
+    "previous_pilot_rechecked": 20,
+    "lexical_cosine_ge_0.7_lt_0.8": 434,
+    "lexical_cosine_ge_0.6_lt_0.7": 36
+  },
+  "by_evidence_scope": {
+    "node_containing_sentences_from_original_quote": 1102,
+    "full_abstract_and_quote": 68,
+    "full_original_quotes_rechecked": 6,
+    "full_original_quotes_read": 36
+  },
+  "by_batch": {
+    "01": {
+      "equivalent_to": 348,
+      "uncertain": 221,
+      "related_to": 120,
+      "distinct_from": 27,
+      "broader_than": 18,
+      "narrower_than": 8
+    },
+    "02": {
+      "equivalent_to": 89,
+      "related_to": 106,
+      "uncertain": 53,
+      "distinct_from": 66,
+      "narrower_than": 55,
+      "broader_than": 65
+    },
+    "03": {
+      "broader_than": 3,
+      "narrower_than": 3,
+      "equivalent_to": 8,
+      "distinct_from": 10,
+      "related_to": 11,
+      "uncertain": 1
+    }
+  },
+  "judgment_revision_count": 6,
+  "eligible_mentions": 4485,
+  "deferred_role_mentions": 161,
+  "unique_mentions_in_reviewed_pairs": 1373,
+  "eligible_mentions_not_in_this_batch": 3112,
+  "original_unit_candidates": 18884,
+  "active_unit_candidates": 17710,
+  "unit_candidates_with_at_least_one_reviewed_occurrence_pair": 637,
+  "active_unit_candidates_without_reviewed_occurrence_pair": 17073,
+  "deferred_unit_candidates": 1174,
+  "equivalence_conflict_ids": [],
+  "source_hashes_unchanged": {
+    "stage2_review/role_run_v2/role_model_proposals.csv": "e1aaba5cdf58d3d4d27f7f776d2193ae483deed6bbfe30199433eab296d8a73c",
+    "stage2_review/role_run_v2/pending_review.csv": "0056844c9b3c05f959178c7815c3f5386997af8c2cd6e6af179b7a620690de4b",
+    "stage2_review/v1/normalization_candidates.csv": "9145ec6d23330d7934ff75c978ba191dcdb102b8e38c140c9af838f0b7d352f9",
+    "stage2_review/v1/retrieval_unit_members.csv": "3d636fecb6cfc39156840968ee10f611595dc56fb129d27676a7e7b03a2b04e6",
+    "stage2_review/batch02_v1/ROLE_RULES_v2.md": "700901b5a37ee01f72b11fc919558c722e52ef2aa11dc5031c53978964c98833",
+    "stage2_review/ROLE_AND_REVIEW_RULES.md": "442ee142bdd6fb1e7aa3702cc88a250c353db5e6301bef098f9d2736ecf0c406",
+    "stage2_reconstruction/v1/node_evidence.csv": "f27acffb458905bc6be9135f4d9bd591a59694661c94636d6299455b7a0a0517",
+    "stage2_reconstruction/v1/relation_evidence.csv": "22d9222fc41ac5e137691dd4f301d3864965643fdde02002b33a19b4d512e2fa",
+    "stage2_reconstruction/v1/paper_coverage.csv": "f9f46bfe38c475c722215e10d3e3f54d4c81aef132b1deb178b8a2515ab0094e"
+  },
+  "output_sha256": "12b501bf724cecfe53b987fd86fa8e92d3e8f893e146ab1a2afdf3c32befd47d",
+  "batch_plan_sha256": "f1ee707d021820da8186adf8746b5b7a0a1da4ac7cae5bd3ee70f602d28c4848",
+  "model_decisions_sha256": "a838149c7ca17b23faf4df070a4c31b3cce96feaf3934f3d584b3dd71f52c685",
+  "limitations": "Model proposals only. A reviewed occurrence pair does not resolve all members of its retrieval units. No human acceptance, node folding, or accuracy estimate."
+}

@@ -1,0 +1,31 @@
+{
+  "annotation_author":"Codex current session",
+  "scope":"Within-domain, purposive development comparisons only; all model proposals pending human review; no ID folding",
+  "row_format":["left_mention_id","right_mention_id","proposed_relation","reason"],
+  "pairs":[
+    ["iTE:P0336:n3","iTE:P0337:n4","equivalent_to","两侧原词均为 ionic thermopower，均作为离子热电输出指标；只建议共享指标概念，材料体系与数值条件仍留在各自证据。"],
+    ["iTE:P0335:n4","iTE:P0350:n4","equivalent_to","两侧均明确指 ionic conductivity，属于同一输运属性名；不合并材料、测量值或工况。"],
+    ["iTE:P0335:n4","iTE:P0352:n2","equivalent_to","同一属性 ionic conductivity，在不同体系下的具体观测继续独立保存。"],
+    ["iTE:P0342:n3","iTE:P0339:n4","related_to","thermal diffusion 是过程，ionic thermodiffusion rate 是其速率量；不能把过程和速率合成同一节点。"],
+    ["iTE:P0337:n3","iTE:P0350:n3","related_to","前者为指定离子迁移率差异，后者是阴阳离子扩散差异；定义与对象不一致，不认定同义。"],
+    ["iTE:P0347:n3","iTE:P0337:n2","distinct_from","固定阴离子状态与 I3- 扩散受限过程不同，扩散减慢不等于固定，且角色和对象不同。"],
+    ["iTE:P0341:n1","iTE:P0349:n2","related_to","氢键相互作用与水分子氢键网络结构有关，但对象、角色和增强/破坏关系不同。"],
+    ["iTE:P0335:n2","iTE:P0339:n2","uncertain","反应熵变化与未明确热力学定义的 ion entropy difference 不能仅凭 entropy 合并。"],
+    ["iTE:P0344:n3","iTE:P0347:n4","broader_than","一般选择性离子迁移比温度梯度驱动的选择性阳离子迁移更宽泛；保留离子种类及驱动力，不合并。"],
+    ["iTE:P0352:n3","iTE:P0345:n3","uncertain","两侧均写 Seebeck coefficient，但水泥改性体系与 KOH 水凝胶的离子/电子贡献未在所引句全部定义；先作术语候选，不无条件折叠物理含义。"],
+    ["iTE:P0339:n1","iTE:P0349:n3","distinct_from","体积相变与深共熔溶剂形成是不同过程，不能因为均涉及体系状态改变就合并。"],
+    ["iTE:P0346:n1","iTE:P0346:n2","related_to","材料 Fmoc-FF 与 Fmoc 基团间 pi-pi 相互作用是参与关系，不是同义对象。"],
+    ["TG:P0201:n1","TG:P0201:n4","equivalent_to","同一原句明确写 thermodiffusion (Soret) effect，并再次提到 Soret effect，具备局部同义依据。"],
+    ["TG:P0145:n1","TG:P0268:n4","broader_than","thermodiffusion 为一般过程，anion thermodiffusion 限定阴离子，是更窄概念。"],
+    ["TG:P0145:n1","TG:P0180:n1","broader_than","硫酸锂离子热扩散增加化学对象限定，属于更窄过程。"],
+    ["TG:P0145:n2","TG:P0180:n2","broader_than","铁氰化物对的热电化学效应有特定反应体系限定，不与泛称无条件合并。"],
+    ["TG:P0145:n1","TG:P0145:n2","distinct_from","原文将热扩散和热电化学作为两个协同效应，不能因为同指向 thermopower 就合并。"],
+    ["TG:P0174:n2","TG:P0201:n1","distinct_from","P0174 完整摘要明确区分 Soret 型热扩散与温度依赖电泳迁移率驱动扩散 TDIEM。"],
+    ["TG:P0175:n1","TG:P0175:n2","related_to","热电势是反应驱动力，氧化还原是受驱动过程；关系方向不能被归一化抹掉。"],
+    ["TG:P0227:n2","TG:P0143:n2","uncertain","thermoelectric power 的量纲未在所引句给出；不能凭语言相近认定就是 thermopower。"],
+    ["TG:P0176:n3","TG:P0201:n3","distinct_from","阴离子输运热与氧化还原反应熵属于不同热力学量、对象和过程，不能直接合并。"],
+    ["TG:P0146:n2","TG:P0201:n3","uncertain","reaction entropy change 与 redox reaction entropy 可作为同义候选，但具体符号约定和反应对象仍需审核。"],
+    ["TG:P0174:n1","TG:P0268:n3","uncertain","双电层重叠状态与电极阳离子限制过程可能有关，但本批证据没有直接支持两者之间的科学联系或等价关系，因此暂不建立概念关系。"],
+    ["TG:P0267:n2","TG:P0142:n2","distinct_from","铜体系与铁体系的氧化还原反应是不同具体过程，可在未来连接上位 redox reaction 概念，但不折叠为一个特定机制。"]
+  ]
+}

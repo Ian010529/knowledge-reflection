@@ -1,0 +1,78 @@
+# adpated from https://github.com/nju-lug/NJUThesis/blob/master/.github/workflows/build.yml
+# Automatic release through Github Actions. 
+# Triggered by push with tag 'v*'
+name: Release Template
+
+on: 
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+
+      - name: Github Action for LaTeX dtx to cls
+        uses: FengChendian/latex-dtx2cls-action@4.0.1
+        with:
+          root_file: hkustthesis.dtx
+          working_directory: ./
+
+      - name: Compile sample PDF
+        uses: HermitSun/latex-action@v3
+        with:
+          root_file: mythesis.tex
+          latexmk_use_xelatex: true
+          args: "-bibtex"
+
+      - name: Compile documentation PDF
+        uses: HermitSun/latex-action@v3
+        with:
+          root_file: hkustthesis.dtx
+          latexmk_use_xelatex: true
+          args: ""
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: |
+            mythesis.pdf
+            hkustthesis.pdf
+
+  release:
+    needs: build_latex
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: PDF
+
+      - name: Set Version
+        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Github Action for LaTeX dtx to cls
+        uses: FengChendian/latex-dtx2cls-action@4.0.1
+        with:
+          root_file: hkustthesis.dtx
+          working_directory: ./
+      
+      - name: Zip Release Source
+        run: |
+          zip -r hkust-thesis-$VERSION.zip .vscode/ chapters/ hkustthesis.cls latexmkrc LICENSE Makefile mythesis.bib mythesis_LoP.bib mythesis.tex README.md README.zh.md
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            mythesis.pdf
+            hkustthesis.pdf
+            hkust-thesis-v*.zip

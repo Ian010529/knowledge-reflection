@@ -1,0 +1,41 @@
+{
+  "version": "asymmetric_dedup_v2",
+  "policy": "Keep all TG papers; remove shared papers only from iTE; no semantic/scope filtering",
+  "counts": {
+    "source_records": {
+      "iTE1": 1000,
+      "iTE2": 711,
+      "TG": 333
+    },
+    "total_original_records": 2044,
+    "unique_papers_total": 1977,
+    "iTE": 1644,
+    "TG": 333,
+    "shared_papers_removed_ONLY_from_iTE": 66,
+    "ite_internal_duplicate_extra_records": 1,
+    "papers_removed_from_TG": 0,
+    "unique_papers_discarded": 0,
+    "missing_abstract_ite": 5,
+    "missing_abstract_tg": 1,
+    "cross_corpus_exact_overlap": 0
+  },
+  "allowed_analysis_inputs": [
+    "data/ite_clean.csv",
+    "data/tg_clean.csv"
+  ],
+  "input_sha256": {
+    "source_tables/iTE1_first1000_material_mechanism.csv": "0fd06c0d04305914ebf120835844c64ee478fcbd6ae653eb8ae2319ada405bd7",
+    "source_tables/iTE2_first711_material_mechanism.csv": "0b155a9b0c22eb43cabf5c64acc4068161c21ae34157adb5220cd706ece70286",
+    "source_tables/TG_first333_material_mechanism.csv": "6592be1fa20340acbd0cd1c6e135e4a7f81e9e00e1ef77393ee22c2cc17295c7",
+    "cleanroom_abstract_pair_layer/source_record_registry.csv": "102c83381346ff00309a40f4872a8ff94d49c2318582f540bc89c087b782fa5d",
+    "scripts/export_deduplicated_corpora.py": "bfa2073945c4e8ed7c1dd0f76598a868851396200306e66b9ac352a359a264d8"
+  },
+  "output_sha256": {
+    "audit/all_original_records.csv": "b89f82402c95b9fe3c9309d7da3823898e26c57722c5677b5524ac45ca244a07",
+    "audit/ite_internal_duplicate_records.csv": "51a17f55549b209b50a62984476e95e984e37d511bc3bde06e4795b41de40fe1",
+    "audit/paper_assignments.csv": "52066ffda89e24c01a7b8358c81a70f6bd533a237589294e5f31af1b3a158645",
+    "audit/removed_from_ite_kept_in_tg.csv": "c8b8ccf21a9b88ec475120a672fece6911b399d758e20d3fc635667b3e128fae",
+    "data/ite_clean.csv": "f73c4b47b3b3a5a00c2506e71b67f5d45af7fb867d8277eb8e55c31ae3259337",
+    "data/tg_clean.csv": "8cbf7cac9cf24fe0a3415c69065c49763f1221f4238e0a059412cde9bd6170ee"
+  }
+}
