@@ -1,0 +1,2473 @@
+{
+  "papers": [
+    {
+      "paper_id": "P1901",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "m",
+          "label": "Cs2InAgX6 (X = F, Cl, Br)",
+          "role": "mat"
+        },
+        {
+          "id": "f",
+          "label": "Cs2InAgF6",
+          "role": "mat"
+        },
+        {
+          "id": "cl",
+          "label": "Cs2InAgCl6",
+          "role": "mat"
+        },
+        {
+          "id": "br",
+          "label": "Cs2InAgBr6",
+          "role": "mat"
+        },
+        {
+          "id": "size",
+          "label": "Halide ionic size",
+          "role": "quantity"
+        },
+        {
+          "id": "lattice",
+          "label": "Lattice parameters",
+          "role": "quantity"
+        },
+        {
+          "id": "elastic",
+          "label": "Elastic constants",
+          "role": "quantity"
+        },
+        {
+          "id": "born",
+          "label": "Born mechanical stability criteria satisfied",
+          "role": "state"
+        },
+        {
+          "id": "sub",
+          "label": "Halide change from fluoride to bromide",
+          "role": "cond"
+        },
+        {
+          "id": "weak",
+          "label": "Progressively weaker bonding",
+          "role": "interaction"
+        },
+        {
+          "id": "en",
+          "label": "Halogen electronegativity",
+          "role": "quantity"
+        },
+        {
+          "id": "gap",
+          "label": "Bandgap energy",
+          "role": "quantity"
+        },
+        {
+          "id": "hybrid",
+          "label": "Changes in orbital hybridization",
+          "role": "process"
+        },
+        {
+          "id": "hse",
+          "label": "HSE06 bandgap results",
+          "role": "quantity"
+        },
+        {
+          "id": "agreement",
+          "label": "Agreement with available experimental data",
+          "role": "descriptor"
+        },
+        {
+          "id": "halide",
+          "label": "Halide identity",
+          "role": "cond"
+        },
+        {
+          "id": "polar",
+          "label": "Polarization response",
+          "role": "performance"
+        },
+        {
+          "id": "charge",
+          "label": "Born effective charges",
+          "role": "quantity"
+        },
+        {
+          "id": "dielectric",
+          "label": "Dielectric constants",
+          "role": "quantity"
+        },
+        {
+          "id": "stable",
+          "label": "Dynamic stability",
+          "role": "state"
+        },
+        {
+          "id": "soft",
+          "label": "Soft phonon modes",
+          "role": "state"
+        },
+        {
+          "id": "transition",
+          "label": "Experimentally observed phase transitions",
+          "role": "process"
+        },
+        {
+          "id": "electronic",
+          "label": "Electronic structure",
+          "role": "state"
+        },
+        {
+          "id": "bond",
+          "label": "Bonding",
+          "role": "interaction"
+        },
+        {
+          "id": "app",
+          "label": "Optoelectronic applications",
+          "role": "application"
+        }
+      ],
+      "records": [
+        {
+          "s": "size",
+          "p": "increases_with",
+          "o": "lattice",
+          "e": [
+            2,
+            3
+          ],
+          "a": "association",
+          "m": "computational",
+          "me": [
+            2,
+            3
+          ],
+          "c": "PBEsol and HSE06 calculations; lattice parameters increase with ionic size, consistent with experimental trends",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "elastic",
+          "e": [
+            2,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2,
+            3
+          ],
+          "c": "PBEsol and HSE06 functionals",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "elastic",
+          "p": "satisfy",
+          "o": "born",
+          "e": [
+            2,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2,
+            3
+          ],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sub",
+          "p": "decreases",
+          "o": "elastic",
+          "e": [
+            2,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2,
+            3
+          ],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sub",
+          "p": "is_associated_with",
+          "o": "weak",
+          "e": [
+            2,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2,
+            3
+          ],
+          "c": "Inferred in the abstract from decreasing elastic constants",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "en",
+          "p": "positively_correlates_with",
+          "o": "gap",
+          "e": [
+            2,
+            4
+          ],
+          "a": "association",
+          "m": "computational",
+          "me": [
+            2
+          ],
+          "c": "PBEsol and HSE06 functional study",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "hybrid",
+          "p": "explains_electronegativity_dependence_of",
+          "o": "gap",
+          "e": [
+            2,
+            4
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2
+          ],
+          "c": "Bandgap increases with halogen electronegativity",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "hse",
+          "p": "shows",
+          "o": "agreement",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "Available experimental bandgap data",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "halide",
+          "p": "strongly_affects",
+          "o": "polar",
+          "e": [
+            2,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2
+          ],
+          "c": "Revealed by Born effective charges and dielectric constants",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "br",
+          "p": "has_largest",
+          "o": "charge",
+          "e": [
+            2,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2
+          ],
+          "c": "Among Cs2InAgX6 (X = F, Cl, Br)",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "br",
+          "p": "has_largest",
+          "o": "dielectric",
+          "e": [
+            2,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            2
+          ],
+          "c": "Among Cs2InAgX6 (X = F, Cl, Br)",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "cl",
+          "p": "exhibits",
+          "o": "stable",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            6
+          ],
+          "c": "Phonon calculations with symmetry-resolved mode assignment and dispersion relations",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "f",
+          "p": "exhibits",
+          "o": "stable",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            6
+          ],
+          "c": "Phonon calculations; prediction contrasts with several previous DFT reports",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "br",
+          "p": "displays",
+          "o": "soft",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            6
+          ],
+          "c": "Phonon calculations",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "soft",
+          "p": "is_consistent_with",
+          "o": "transition",
+          "e": [
+            6
+          ],
+          "a": "association",
+          "m": "computational",
+          "me": [
+            6
+          ],
+          "c": "Cs2InAgBr6; calculated modes compared with experimentally observed transitions",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "halide",
+          "p": "governs",
+          "o": "bond",
+          "e": [
+            7
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Cs2InAgX6 series",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "halide",
+          "p": "governs",
+          "o": "electronic",
+          "e": [
+            7
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Cs2InAgX6 series",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "halide",
+          "p": "governs",
+          "o": "stable",
+          "e": [
+            6,
+            7
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            6
+          ],
+          "c": "Cs2InAgX6 series; chloride and fluoride dynamically stable, bromide has soft modes",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "cl",
+          "p": "is_proposed_as_stable_material_for",
+          "o": "app",
+          "e": [
+            7
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "f",
+          "p": "is_proposed_as_stable_material_for",
+          "o": "app",
+          "e": [
+            7
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P1060",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "method",
+          "label": "CNT dispersion method using glycerol dispersant and polyoxyethylene(50) stearyl ether surfactant",
+          "role": "strategy"
+        },
+        {
+          "id": "yarn",
+          "label": "CNT yarns tailored by the dispersion method",
+          "role": "mat"
+        },
+        {
+          "id": "cost",
+          "label": "Low cost",
+          "role": "descriptor"
+        },
+        {
+          "id": "fast",
+          "label": "Fast processing",
+          "role": "descriptor"
+        },
+        {
+          "id": "green",
+          "label": "Environmentally friendly processing",
+          "role": "descriptor"
+        },
+        {
+          "id": "pf",
+          "label": "Power factor of 242 μW m−1 K−2",
+          "role": "performance"
+        },
+        {
+          "id": "dis",
+          "label": "Higher degree of CNT disentanglement in dispersion",
+          "role": "state"
+        },
+        {
+          "id": "align",
+          "label": "Better CNT alignment in yarn",
+          "role": "state"
+        },
+        {
+          "id": "sigma",
+          "label": "Electrical conductivity increase from 325 to 747 S cm−1, reported as twofold",
+          "role": "quantity"
+        },
+        {
+          "id": "ads",
+          "label": "Surfactant adsorbed on CNT bundles",
+          "role": "state"
+        },
+        {
+          "id": "supp",
+          "label": "Suppressed increase in thermal conductivity",
+          "role": "performance"
+        },
+        {
+          "id": "kinc",
+          "label": "Increase in thermal conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "zt",
+          "label": "Approximately threefold improvement in ZT",
+          "role": "performance"
+        }
+      ],
+      "records": [
+        {
+          "s": "method",
+          "p": "produces",
+          "o": "yarn",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            1
+          ],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "method",
+          "p": "has",
+          "o": "cost",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "method",
+          "p": "has",
+          "o": "fast",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "method",
+          "p": "has",
+          "o": "green",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "yarn",
+          "p": "achieves",
+          "o": "pf",
+          "e": [
+            1,
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Approximately three times the power factor of the previous dispersion method",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "yarn",
+          "p": "exhibits",
+          "o": "sigma",
+          "e": [
+            1,
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "dis",
+          "p": "jointly_causes",
+          "o": "sigma",
+          "e": [
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [
+            "dis",
+            "align"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sigma",
+          "p": "contributes_to",
+          "o": "pf",
+          "e": [
+            2,
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Contribution to the enhanced power factor",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "align",
+          "p": "may_cause",
+          "o": "kinc",
+          "e": [
+            3,
+            4
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "Possible side effect of CNT alignment",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "yarn",
+          "p": "contains",
+          "o": "ads",
+          "e": [
+            1,
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "ads",
+          "p": "causes",
+          "o": "supp",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Suppression of the possible thermal conductivity increase associated with CNT alignment",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "yarn",
+          "p": "achieves",
+          "o": "zt",
+          "e": [
+            1,
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sigma",
+          "p": "jointly_contributes_to",
+          "o": "zt",
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [
+            "sigma",
+            "supp"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P0458",
+      "article_role": "review",
+      "nodes": [
+        {
+          "id": "gradient",
+          "label": "Temperature gradient",
+          "role": "cond"
+        },
+        {
+          "id": "soret",
+          "label": "Cation and anion accumulation at the two ends of an ionic conductor (Soret effect)",
+          "role": "process"
+        },
+        {
+          "id": "voltage",
+          "label": "Voltage between electrodes",
+          "role": "quantity"
+        },
+        {
+          "id": "tp",
+          "label": "Ionic thermopower",
+          "role": "quantity"
+        },
+        {
+          "id": "sigma",
+          "label": "Ionic conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "k",
+          "label": "Thermal conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "te",
+          "label": "Thermoelectric properties of ionic conductors",
+          "role": "performance"
+        },
+        {
+          "id": "gel",
+          "label": "Ionogels made of ionic liquid and gelator",
+          "role": "mat"
+        },
+        {
+          "id": "high",
+          "label": "High thermopower",
+          "role": "performance"
+        },
+        {
+          "id": "stability",
+          "label": "High stability",
+          "role": "performance"
+        },
+        {
+          "id": "itec",
+          "label": "Heat harvesting in ionic thermoelectric capacitors",
+          "role": "application"
+        },
+        {
+          "id": "integration",
+          "label": "Integration of ionogels with electronic thermoelectric materials",
+          "role": "strategy"
+        },
+        {
+          "id": "gradheat",
+          "label": "Heat harvesting from temperature gradients",
+          "role": "application"
+        },
+        {
+          "id": "fluctheat",
+          "label": "Heat harvesting from temperature fluctuations",
+          "role": "application"
+        },
+        {
+          "id": "waste",
+          "label": "Waste heat",
+          "role": "cond"
+        },
+        {
+          "id": "fluct",
+          "label": "Temperature fluctuation",
+          "role": "cond"
+        }
+      ],
+      "records": [
+        {
+          "s": "gradient",
+          "p": "can_induce",
+          "o": "soret",
+          "e": [
+            0
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Ionic conductor",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "soret",
+          "p": "can_generate",
+          "o": "voltage",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Under a temperature gradient",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "soret",
+          "p": "can_yield",
+          "o": "tp",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Thermopower can exceed electronic conductors' Seebeck thermopower by 1–2 orders of magnitude",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "te",
+          "p": "depends_on",
+          "o": "tp",
+          "e": [
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [
+            "tp",
+            "sigma",
+            "k"
+          ],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "te",
+          "p": "depends_on",
+          "o": "sigma",
+          "e": [
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [
+            "tp",
+            "sigma",
+            "k"
+          ],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "te",
+          "p": "depends_on",
+          "o": "k",
+          "e": [
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [
+            "tp",
+            "sigma",
+            "k"
+          ],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "can_offer",
+          "o": "high",
+          "e": [
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Compared with liquid electrolytes and hydrogels",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "can_offer",
+          "o": "stability",
+          "e": [
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Compared with liquid electrolytes and hydrogels",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "has_recently_improved",
+          "o": "sigma",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Progress reported for ionic conductivity and/or ionic thermopower; no specific design identified",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "has_recently_improved",
+          "o": "tp",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Progress reported for ionic conductivity and/or ionic thermopower; no specific design identified",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "can_be_used_for",
+          "o": "itec",
+          "e": [
+            3,
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "integration",
+          "p": "can_enable",
+          "o": "gradheat",
+          "e": [
+            3,
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "integration",
+          "p": "can_enable",
+          "o": "fluctheat",
+          "e": [
+            3,
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "waste",
+          "p": "can_cause",
+          "o": "gradient",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "device",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "waste",
+          "p": "can_cause",
+          "o": "fluct",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "device",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": "Review role inferred from synthesis of recent progress and applications; no original study is identified."
+    },
+    {
+      "paper_id": "P0599",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "gel",
+          "label": "Designed PU ionogels",
+          "role": "mat"
+        },
+        {
+          "id": "chain",
+          "label": "Polyurethane main chains",
+          "role": "mat"
+        },
+        {
+          "id": "double",
+          "label": "Double bonds in the side of PU chains",
+          "role": "state"
+        },
+        {
+          "id": "gel30",
+          "label": "PU ionogels with 30 wt% ionic liquids",
+          "role": "mat"
+        },
+        {
+          "id": "stretch",
+          "label": "Mechanical stretchability of 300%",
+          "role": "performance"
+        },
+        {
+          "id": "strength",
+          "label": "Tensile strength of 1.61 MPa",
+          "role": "quantity"
+        },
+        {
+          "id": "mod",
+          "label": "Young's modulus of 0.79 MPa",
+          "role": "quantity"
+        },
+        {
+          "id": "zt",
+          "label": "Ionic figure of merit ZTi = 0.99 ± 0.3",
+          "role": "performance"
+        },
+        {
+          "id": "heal",
+          "label": "Rapid self-healing without external stimuli",
+          "role": "performance"
+        },
+        {
+          "id": "strain",
+          "label": "50% strain",
+          "role": "cond"
+        },
+        {
+          "id": "healing",
+          "label": "Self-healing process",
+          "role": "process"
+        },
+        {
+          "id": "stable",
+          "label": "Stable thermoelectric capability",
+          "role": "performance"
+        },
+        {
+          "id": "device",
+          "label": "PU-ionogel ionic thermoelectric capacitor",
+          "role": "mat"
+        },
+        {
+          "id": "stretchable",
+          "label": "Stretchability",
+          "role": "performance"
+        },
+        {
+          "id": "selfheal",
+          "label": "Self-healability",
+          "role": "performance"
+        },
+        {
+          "id": "convert",
+          "label": "Efficient conversion of heat into electricity",
+          "role": "performance"
+        }
+      ],
+      "records": [
+        {
+          "s": "chain",
+          "p": "has_side",
+          "o": "double",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Polyurethane component of the designed ionogel",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "is_designed_for",
+          "o": "stretchable",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "is_designed_for",
+          "o": "selfheal",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel30",
+          "p": "exhibits",
+          "o": "stretch",
+          "e": [
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel30",
+          "p": "has",
+          "o": "strength",
+          "e": [
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel30",
+          "p": "has",
+          "o": "mod",
+          "e": [
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "exhibits",
+          "o": "zt",
+          "e": [
+            1,
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "The proposed materials; segment 3 does not explicitly repeat ionic-liquid loading",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "exhibits",
+          "o": "heal",
+          "e": [
+            1,
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "No external stimuli",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "retains",
+          "o": "stable",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Under 50% strain",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "retains",
+          "o": "stable",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "During self-healing",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gel",
+          "p": "is_fabricated_into",
+          "o": "device",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            5
+          ],
+          "c": "",
+          "j": [],
+          "scope": "device",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "device",
+          "p": "exhibits",
+          "o": "stretchable",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "device",
+          "p": "exhibits",
+          "o": "selfheal",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "device",
+          "p": "can_provide",
+          "o": "convert",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "device",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P1094",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "family",
+          "label": "TlXF3 (X = Hg, Sn, Pb)",
+          "role": "mat"
+        },
+        {
+          "id": "pb",
+          "label": "TlPbF3",
+          "role": "mat"
+        },
+        {
+          "id": "sn",
+          "label": "TlSnF3",
+          "role": "mat"
+        },
+        {
+          "id": "hg",
+          "label": "TlHgF3",
+          "role": "mat"
+        },
+        {
+          "id": "lowk",
+          "label": "Very low lattice thermal conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "pbk",
+          "label": "Lattice thermal conductivity of 0.42 W m−1 K−1",
+          "role": "quantity"
+        },
+        {
+          "id": "anh",
+          "label": "Strong anharmonicity of Tl atoms",
+          "role": "descriptor"
+        },
+        {
+          "id": "v",
+          "label": "Low acoustic-mode group velocity",
+          "role": "quantity"
+        },
+        {
+          "id": "scatter",
+          "label": "Strong three-phonon scattering",
+          "role": "process"
+        },
+        {
+          "id": "bonds",
+          "label": "Strong ionic bonds between X and F atoms",
+          "role": "interaction"
+        },
+        {
+          "id": "electrical",
+          "label": "Good electrical transport properties",
+          "role": "performance"
+        },
+        {
+          "id": "hgzt",
+          "label": "ZT = 1.58",
+          "role": "performance"
+        },
+        {
+          "id": "snzt",
+          "label": "TlSnF3 ZT exceeding 1",
+          "role": "performance"
+        },
+        {
+          "id": "pbzt",
+          "label": "TlPbF3 ZT exceeding 1",
+          "role": "performance"
+        },
+        {
+          "id": "nano",
+          "label": "Nanostructuring",
+          "role": "strategy"
+        },
+        {
+          "id": "improve",
+          "label": "Improved ZT",
+          "role": "performance"
+        }
+      ],
+      "records": [
+        {
+          "s": "family",
+          "p": "has",
+          "o": "lowk",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "First-principles calculations incorporating anharmonic phonon-energy renormalization and reasonable electron relaxation times",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "pb",
+          "p": "has",
+          "o": "pbk",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "300 K; less than half the lattice thermal conductivity of quartz glass; anharmonic phonon-energy renormalization considered",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "anh",
+          "p": "causes",
+          "o": "scatter",
+          "e": [
+            0,
+            2
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "TlXF3 (X = Hg, Sn, Pb); first-principles analysis with anharmonic phonon-energy renormalization",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "anh",
+          "p": "causes",
+          "o": "v",
+          "e": [
+            0,
+            2
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "TlXF3 (X = Hg, Sn, Pb)",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Grammatically unclear whether 'caused by' modifies both low group velocity and strong scattering, or scattering alone."
+        },
+        {
+          "s": "v",
+          "p": "jointly_causes",
+          "o": "lowk",
+          "e": [
+            0,
+            2
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "First-principles analysis with anharmonic phonon-energy renormalization",
+          "j": [
+            "v",
+            "scatter"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "family",
+          "p": "contains",
+          "o": "bonds",
+          "e": [
+            0,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "X = Hg, Sn, Pb",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "bonds",
+          "p": "provide",
+          "o": "electrical",
+          "e": [
+            0,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "First-principles transport calculations incorporating reasonable electron relaxation times",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "hg",
+          "p": "achieves",
+          "o": "hgzt",
+          "e": [
+            0,
+            4
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "900 K; exceeds FeNbSb ZT = 1.5 at 1200 K; anharmonic phonon-energy renormalization and reasonable electron relaxation times considered",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sn",
+          "p": "achieves",
+          "o": "snzt",
+          "e": [
+            0,
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "Close to PbTe:Na; temperature not explicitly repeated for TlSnF3",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "pb",
+          "p": "achieves",
+          "o": "pbzt",
+          "e": [
+            0,
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            0
+          ],
+          "c": "Close to PbTe:Na; temperature not explicitly repeated for TlPbF3",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "nano",
+          "p": "is_expected_to_enable",
+          "o": "improve",
+          "e": [
+            6
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "Proposed methods and expected effects; no magnitude specified",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P1616",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "m",
+          "label": "NaGeH3",
+          "role": "mat"
+        },
+        {
+          "id": "cubic",
+          "label": "Cubic crystal structure",
+          "role": "state"
+        },
+        {
+          "id": "lattice",
+          "label": "Equilibrium lattice parameter of 3.98 Å",
+          "role": "quantity"
+        },
+        {
+          "id": "formation",
+          "label": "Formation energy of −0.83 eV/atom",
+          "role": "quantity"
+        },
+        {
+          "id": "thermostable",
+          "label": "Thermodynamic stability",
+          "role": "state"
+        },
+        {
+          "id": "grav",
+          "label": "Gravimetric hydrogen capacity of 3.07 wt%",
+          "role": "performance"
+        },
+        {
+          "id": "vol",
+          "label": "Volumetric hydrogen capacity of 79.65 g H2/L",
+          "role": "performance"
+        },
+        {
+          "id": "desorb",
+          "label": "Estimated hydrogen desorption temperature of approximately 612.69 K",
+          "role": "quantity"
+        },
+        {
+          "id": "release",
+          "label": "Favorable conditions for practical hydrogen release",
+          "role": "performance"
+        },
+        {
+          "id": "elastic",
+          "label": "Elastic constants C11 = 69.55, C12 = 18.06, C44 = 6.93 GPa",
+          "role": "quantity"
+        },
+        {
+          "id": "born",
+          "label": "Born stability criteria for cubic crystals satisfied",
+          "role": "state"
+        },
+        {
+          "id": "analysis",
+          "label": "Analysis of Pugh's ratio, anisotropy factor and Poisson's ratio",
+          "role": "process"
+        },
+        {
+          "id": "ductile",
+          "label": "Ductility",
+          "role": "descriptor"
+        },
+        {
+          "id": "aniso",
+          "label": "Anisotropy",
+          "role": "descriptor"
+        },
+        {
+          "id": "ionic",
+          "label": "Predominantly ionic bonding",
+          "role": "interaction"
+        },
+        {
+          "id": "melt",
+          "label": "Calculated melting point of 964.01 K",
+          "role": "quantity"
+        },
+        {
+          "id": "thermalstable",
+          "label": "Good thermal stability",
+          "role": "performance"
+        },
+        {
+          "id": "metal",
+          "label": "Metallic behavior",
+          "role": "state"
+        },
+        {
+          "id": "dos",
+          "label": "Noticeable density of states at the Fermi level",
+          "role": "quantity"
+        },
+        {
+          "id": "gep",
+          "label": "Ge-p orbitals",
+          "role": "state"
+        },
+        {
+          "id": "sigma",
+          "label": "High electrical conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "k",
+          "label": "High thermal conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "eff",
+          "label": "Thermoelectric efficiency",
+          "role": "performance"
+        },
+        {
+          "id": "heat",
+          "label": "Effective heat dissipation",
+          "role": "process"
+        },
+        {
+          "id": "charge",
+          "label": "Effective charge transport",
+          "role": "process"
+        },
+        {
+          "id": "store",
+          "label": "Hydrogen storage",
+          "role": "application"
+        }
+      ],
+      "records": [
+        {
+          "s": "m",
+          "p": "crystallizes_in",
+          "o": "cubic",
+          "e": [
+            1,
+            2
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "First-principles DFT calculations",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "lattice",
+          "e": [
+            1,
+            2
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Equilibrium cubic structure",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "formation",
+          "e": [
+            1,
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1,
+            3
+          ],
+          "c": "First-principles DFT calculations",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "formation",
+          "p": "supports",
+          "o": "thermostable",
+          "e": [
+            3
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            3
+          ],
+          "c": "Negative formation energy interpreted as confirming thermodynamic stability",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "offers",
+          "o": "grav",
+          "e": [
+            1,
+            4
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "First-principles DFT study; hydrogen storage evaluation",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "offers",
+          "o": "vol",
+          "e": [
+            1,
+            4
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "First-principles DFT study; hydrogen storage evaluation",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "desorb",
+          "e": [
+            1,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Estimated within the first-principles DFT study",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "desorb",
+          "p": "indicates",
+          "o": "release",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Interpretation of the estimated desorption temperature",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "elastic",
+          "e": [
+            1,
+            6
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1,
+            6
+          ],
+          "c": "First-principles DFT calculations",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "elastic",
+          "p": "satisfy",
+          "o": "born",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            6
+          ],
+          "c": "Cubic crystal",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "exhibits",
+          "o": "ductile",
+          "e": [
+            1,
+            7
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Mechanical-property analysis including Pugh's ratio, anisotropy factor and Poisson's ratio",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "exhibits",
+          "o": "aniso",
+          "e": [
+            1,
+            7
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Mechanical-property analysis including Pugh's ratio, anisotropy factor and Poisson's ratio",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "exhibits",
+          "o": "ionic",
+          "e": [
+            1,
+            7
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Mechanical-property analysis including Pugh's ratio, anisotropy factor and Poisson's ratio",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "melt",
+          "e": [
+            1,
+            8
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1,
+            8
+          ],
+          "c": "Calculated melting point",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "melt",
+          "p": "indicates",
+          "o": "thermalstable",
+          "e": [
+            8
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            8
+          ],
+          "c": "NaGeH3",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "displays",
+          "o": "metal",
+          "e": [
+            1,
+            9
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Electronic structure analysis",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "dos",
+          "e": [
+            1,
+            9
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "Electronic structure analysis",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "gep",
+          "p": "primarily_contribute_to",
+          "o": "dos",
+          "e": [
+            1,
+            9
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "NaGeH3 electronic structure analysis",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "sigma",
+          "e": [
+            1,
+            10
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "First-principles DFT study of thermoelectric characteristics",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "has",
+          "o": "k",
+          "e": [
+            1,
+            10
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            1
+          ],
+          "c": "First-principles DFT study of thermoelectric characteristics",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sigma",
+          "p": "may_jointly_reduce",
+          "o": "eff",
+          "e": [
+            10
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "NaGeH3; electrical and thermal conductivities considered together",
+          "j": [
+            "sigma",
+            "k"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sigma",
+          "p": "jointly_facilitates",
+          "o": "heat",
+          "e": [
+            10
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "NaGeH3; the abstract attributes benefits to these properties collectively",
+          "j": [
+            "sigma",
+            "k"
+          ],
+          "scope": "device",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sigma",
+          "p": "jointly_facilitates",
+          "o": "charge",
+          "e": [
+            10
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "NaGeH3; the abstract attributes benefits to these properties collectively",
+          "j": [
+            "sigma",
+            "k"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "sigma",
+          "p": "is_jointly_advantageous_for",
+          "o": "store",
+          "e": [
+            10
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "By facilitating effective heat dissipation and charge transport",
+          "j": [
+            "sigma",
+            "k"
+          ],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m",
+          "p": "is_proposed_as_candidate_for",
+          "o": "store",
+          "e": [
+            11
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    }
+  ]
+}

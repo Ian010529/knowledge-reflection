@@ -1,0 +1,157 @@
+{
+  "reviewed_at": "2026-09-24T11:36:45.329859+00:00",
+  "reviewer": "Astra in extraction context; not blind or independent",
+  "focus": "One concentrated check of modality support and obvious omissions; no reference annotation or accuracy estimate",
+  "modality_findings": [
+    {
+      "paper_id": "P0869",
+      "record_id": "r02",
+      "assessment": "loading/releasing treatment explicitly supports mechanical experimental context"
+    },
+    {
+      "paper_id": "P1806",
+      "record_id": "r01",
+      "assessment": "fabricated sensor explicitly applied for aqueous Pb detection; retained experimental"
+    },
+    {
+      "paper_id": "P1951",
+      "record_ids": [
+        "r04",
+        "r07",
+        "r08"
+      ],
+      "assessment": "DFT or calculated band-gap source quotes directly support computational context"
+    },
+    {
+      "paper_id": "P0205",
+      "assessment": "model/analysis qualifiers retained; solution approach not stated, no theoretical/computational guess"
+    }
+  ],
+  "changes": [
+    {
+      "paper_id": "P0869",
+      "action": "add",
+      "reason": "Explicit material-property/capability relation omitted initially; no inferred mechanism.",
+      "record": {
+        "id": "r06",
+        "subject": "PEDOT:PSS-based TE composites",
+        "subject_role": "material_entity",
+        "predicate": "show",
+        "object": "stable TE voltage",
+        "object_role": "performance_function",
+        "quote": "The obtained composites show a stable TE voltage, high stretchability (>500%), ultra-flexibility, and excellent sensitivity (gauge factor = 1251).",
+        "scope": "device_thermal_management",
+        "conditions": "",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "joint_factors": [],
+        "context_quotes": [],
+        "status": "accepted",
+        "note": "",
+        "claim_scope": "own_work"
+      }
+    },
+    {
+      "paper_id": "P0869",
+      "action": "add",
+      "reason": "Explicit material-property/capability relation omitted initially; no inferred mechanism.",
+      "record": {
+        "id": "r07",
+        "subject": "PEDOT:PSS-based TE composites",
+        "subject_role": "material_entity",
+        "predicate": "show",
+        "object": "high stretchability",
+        "object_role": "performance_function",
+        "quote": "The obtained composites show a stable TE voltage, high stretchability (>500%), ultra-flexibility, and excellent sensitivity (gauge factor = 1251).",
+        "scope": "mechanical_environmental_stability",
+        "conditions": ">500%",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "joint_factors": [],
+        "context_quotes": [],
+        "status": "accepted",
+        "note": "",
+        "claim_scope": "own_work"
+      }
+    },
+    {
+      "paper_id": "P0869",
+      "action": "add",
+      "reason": "Explicit material-property/capability relation omitted initially; no inferred mechanism.",
+      "record": {
+        "id": "r08",
+        "subject": "PEDOT:PSS-based TE composites",
+        "subject_role": "material_entity",
+        "predicate": "show",
+        "object": "ultra-flexibility",
+        "object_role": "performance_function",
+        "quote": "The obtained composites show a stable TE voltage, high stretchability (>500%), ultra-flexibility, and excellent sensitivity (gauge factor = 1251).",
+        "scope": "mechanical_environmental_stability",
+        "conditions": "",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "joint_factors": [],
+        "context_quotes": [],
+        "status": "accepted",
+        "note": "",
+        "claim_scope": "own_work"
+      }
+    },
+    {
+      "paper_id": "P0869",
+      "action": "add",
+      "reason": "Explicit material-property/capability relation omitted initially; no inferred mechanism.",
+      "record": {
+        "id": "r09",
+        "subject": "PEDOT:PSS-based TE composites",
+        "subject_role": "material_entity",
+        "predicate": "show",
+        "object": "high strain-sensing sensitivity",
+        "object_role": "performance_function",
+        "quote": "The obtained composites show a stable TE voltage, high stretchability (>500%), ultra-flexibility, and excellent sensitivity (gauge factor = 1251).",
+        "scope": "application_sensing",
+        "conditions": "gauge factor = 1251",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "joint_factors": [],
+        "context_quotes": [],
+        "status": "accepted",
+        "note": "",
+        "claim_scope": "own_work"
+      }
+    },
+    {
+      "paper_id": "P0234",
+      "action": "add",
+      "reason": "Explicit material-property/capability relation omitted initially; no inferred mechanism.",
+      "record": {
+        "id": "r09",
+        "subject": "electrochemical plantation",
+        "subject_role": "mechanism_process",
+        "predicate": "deposits",
+        "object": "Zr on ceramics",
+        "object_role": "material_entity",
+        "quote": "Finally, as non-conventional electrochemical reactions, discharge electrolysis to form fine metal or carbon particles and electrochemical plantation of Zr on ceramics are introduced.",
+        "scope": "other_adjacent_domain",
+        "conditions": "review statement; original term plantation preserved",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "joint_factors": [],
+        "context_quotes": [],
+        "status": "accepted",
+        "note": "",
+        "claim_scope": "review_synthesis"
+      }
+    }
+  ],
+  "remaining_limits": [
+    "No independent recall reference; this sample cannot establish overall precision/recall.",
+    "Five explicit relations missed initially; cannot claim that universal second-pass review is already safe to remove.",
+    "Scope and source ambiguities persist; model-based review is not physical validation."
+  ]
+}

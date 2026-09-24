@@ -1,0 +1,96 @@
+{
+  "verified_at": "2026-09-24T15:31:19.212596+00:00",
+  "check": "PASS",
+  "verifier": "verify.py",
+  "semantic_accuracy": "not_evaluated_by_this_program",
+  "batches": 165,
+  "papers": 1971,
+  "missing_abstracts": 6,
+  "relations": 21122,
+  "exact_quote_spans": 39515,
+  "checks": [
+    "source CSV hashes unchanged",
+    "frozen prompt and schema hashes unchanged",
+    "all batch input hashes and source abstracts/titles/domains match",
+    "lossless abstract segmentation",
+    "all 165 successful outputs match original model response expansion and modality guard",
+    "unique paper and relation IDs",
+    "all quote and modality evidence character spans exactly match source",
+    "merged and domain outputs equal the checked batches"
+  ],
+  "successful_call_usage": {
+    "input_tokens": 2991459,
+    "cached_input_tokens": 1049600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1989370,
+    "reasoning_output_tokens": 20347
+  },
+  "domains": {
+    "iTE": {
+      "papers": 1639,
+      "relations": 18003,
+      "no_relations": 9,
+      "status": {
+        "accepted": 17428,
+        "uncertain": 575
+      },
+      "modality": {
+        "unspecified": 10727,
+        "computational": 3711,
+        "experimental": 3018,
+        "theoretical": 375,
+        "mixed": 172
+      },
+      "scope": {
+        "measurement_method_model": 1108,
+        "thermodynamics": 1547,
+        "electrode_interface_kinetics": 296,
+        "ion_mass_transport": 1376,
+        "device_thermal_management": 982,
+        "mechanical_environmental_stability": 1820,
+        "intrinsic_material_mechanism": 8959,
+        "application_sensing": 1359,
+        "other_adjacent_domain": 556
+      }
+    },
+    "TG": {
+      "papers": 332,
+      "relations": 3119,
+      "no_relations": 2,
+      "status": {
+        "accepted": 3034,
+        "uncertain": 85
+      },
+      "modality": {
+        "unspecified": 2466,
+        "experimental": 470,
+        "computational": 74,
+        "mixed": 38,
+        "theoretical": 71
+      },
+      "scope": {
+        "intrinsic_material_mechanism": 452,
+        "mechanical_environmental_stability": 336,
+        "application_sensing": 447,
+        "ion_mass_transport": 188,
+        "thermodynamics": 442,
+        "device_thermal_management": 791,
+        "electrode_interface_kinetics": 198,
+        "measurement_method_model": 214,
+        "other_adjacent_domain": 51
+      }
+    }
+  },
+  "artifact_sha256": {
+    "extraction_all.json": "24049e5cddd0f37d50e58799e5a0d29371ae0c51abdce2c3a8f10dbb7f0150ed",
+    "extraction_iTE.json": "7bf531b13c9bc3af9cb29521b71e1a0a9c2439ed8945473ecf454af6aac94e94",
+    "extraction_TG.json": "cf365b578e679496c240ce713a1d496137ea9fc4125a35f3938a7ee5edfe0578",
+    "missing_abstracts.json": "cf4ff4941a05e51509dca32baebd7f43c71884033bba91bde1f588125686c2f7",
+    "batch_statistics.json": "7f609bd4c6e3a6c081aac9cbe10d7a6ac5996f904c6e368313e4d897b1f7fda8",
+    "manifest.json": "192ae95cddbb938393c25eafc2d4fd5375c5a21cf09f43db804464a281ad8ff8",
+    "PROMPT.md": "e4e8ef30e73ef8fa58e5634cebfa52b875f2ffd8be2ed3777ba959b2b17742cf",
+    "schema.json": "028aba19d97722108a1835e373c7955d3b86da0c97c422f4b96ab599cfc1b9d5",
+    "run.py": "4d4f157fc11e3723ed22f1e53238905350002e7843ab9646d3fccf2e549f6813",
+    "verify.py": "e3823a5096c0f99369c5d7c761efeaeca66a0792361e122fcf038d3d3194abfa"
+  }
+}

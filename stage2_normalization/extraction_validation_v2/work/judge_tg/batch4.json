@@ -1,0 +1,505 @@
+[
+  {
+    "paper_id": "P0152",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0029",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "测试抑制剂集合降低铁失重，未捏造单剂独立大小或联合效应。"
+      },
+      {
+        "candidate_id": "CTG-0092",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "测试抑制剂降低TG电流及范围明确。"
+      },
+      {
+        "candidate_id": "CTG-0139",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "列举抑制剂的集合效应，条件和未分配剂量说明忠实。"
+      },
+      {
+        "candidate_id": "CTG-0178",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "热电区域失重降低范围和实验条件明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0152-001",
+        "label": "valid",
+        "reason": "热梯度铁板抑制失重的实验关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0029"
+          ],
+          [
+            "CTG-0178"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0152-002",
+        "label": "valid",
+        "reason": "抑制TG电流及范围明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0092"
+          ],
+          [
+            "CTG-0139"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0121",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0002",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验与模型均证明自然对流增强最大功率。"
+      },
+      {
+        "candidate_id": "CTG-0055",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "配方与提高100%及条件正确，但该最优浓度结论明确来自实验，mixed未有对应模型支持。"
+      },
+      {
+        "candidate_id": "CTG-0064",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "朝向改变对流条件明确，研究明确实验及模型联合。"
+      },
+      {
+        "candidate_id": "CTG-0071",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "三无量纲数表达式理论预测功率比明确。"
+      },
+      {
+        "candidate_id": "CTG-0089",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "表达式预测且后文与实验一致，mixed有原文联合支持。"
+      },
+      {
+        "candidate_id": "CTG-0102",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留完整配方温区与缺失基线说明，未修补破损数字。"
+      },
+      {
+        "candidate_id": "CTG-0134",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "离子传输机制差异解释相反间距效应明确。"
+      },
+      {
+        "candidate_id": "CTG-0151",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "铜体系随间距增大功率增加明确；此对比是实验结果，mixed未直接成立；Cu符号原文另处可定位。"
+      },
+      {
+        "candidate_id": "CTG-0166",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "间距调节自然对流条件明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0121-001",
+        "label": "valid",
+        "reason": "朝向改变对流条件明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0064"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-002",
+        "label": "valid",
+        "reason": "摘要另处明确Cu/Cu2+体系，间距实验趋势清楚。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0151"
+        ]
+      },
+      {
+        "reference_id": "GP0121-003",
+        "label": "valid",
+        "reason": "机制差异解释相反依赖关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0134"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-004",
+        "label": "valid",
+        "reason": "三数预测表达式成立，后文有实测验证。",
+        "full_coverage_sets": [
+          [
+            "CTG-0071"
+          ],
+          [
+            "CTG-0089"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-005",
+        "label": "valid",
+        "reason": "对流增强功率明确且混合证据支持。",
+        "full_coverage_sets": [
+          [
+            "CTG-0002"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-006",
+        "label": "valid",
+        "reason": "100%提高与配方条件可读，未补写缺失基线。",
+        "full_coverage_sets": [
+          [
+            "CTG-0102"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0055"
+        ]
+      },
+      {
+        "reference_id": "GP0121-007",
+        "label": "valid",
+        "reason": "间距改变对流条件明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0166"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "0151保留源Cu/Cu-2字符串，材料身份由同摘要Cu/Cu2+说明可确定；不以惯例修复。"
+  },
+  {
+    "paper_id": "P0186",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0014",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电极组分对热电势影响小明确。"
+      },
+      {
+        "candidate_id": "CTG-0024",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "最优有效面积使输出电流密度提高的resulting in明确。"
+      },
+      {
+        "candidate_id": "CTG-0035",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "自组装方法制造气凝胶片电极明确。"
+      },
+      {
+        "candidate_id": "CTG-0079",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "热流体采集仅按设计目的保留hypothesis。"
+      },
+      {
+        "candidate_id": "CTG-0090",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "调组分多孔ASE具有最优有效面积明确。"
+      },
+      {
+        "candidate_id": "CTG-0161",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "减薄仍保持约95%孔隙的结构属性明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0186-001",
+        "label": "valid",
+        "reason": "减薄保留多孔结构明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0161"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-002",
+        "label": "valid",
+        "reason": "组分对热电势影响小明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0014"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-003",
+        "label": "valid",
+        "reason": "完整调组分多孔ASE设计拥有最优面积，不解读成组分单独贡献。",
+        "full_coverage_sets": [
+          [
+            "CTG-0090"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-004",
+        "label": "valid",
+        "reason": "最优面积提高电流密度明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0024"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-005",
+        "label": "valid",
+        "reason": "热流体采集设计目的明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0079"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列自组装制造关系。"
+  },
+  {
+    "paper_id": "P0223",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0013",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "计算配位小添加剂构型熵以分析由氧化还原熵差得到的系数，方法关系明确。"
+      },
+      {
+        "candidate_id": "CTG-0023",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "分析添加剂亲和力对系数的影响，未捏造方向。"
+      },
+      {
+        "candidate_id": "CTG-0053",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "构型熵计算用于分析系数明确。"
+      },
+      {
+        "candidate_id": "CTG-0065",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "隔膜将结合物隔离在适当冷热区提高系数为本理论研究结果。"
+      },
+      {
+        "candidate_id": "CTG-0126",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "小添加剂配位大离子为计算对象的明确相互作用。"
+      },
+      {
+        "candidate_id": "CTG-0129",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "亲和力影响氧化还原熵差的研究关系明确。"
+      },
+      {
+        "candidate_id": "CTG-0164",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "系数obtained from氧化还原对熵差，计算依赖关系明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0223-001",
+        "label": "valid",
+        "reason": "亲和力对系数影响明确，无方向外推。",
+        "full_coverage_sets": [
+          [
+            "CTG-0023"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0223-002",
+        "label": "valid",
+        "reason": "配位添加剂的构型熵用于熵差/系数分析在原文成立。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0013",
+          "CTG-0053",
+          "CTG-0126"
+        ]
+      },
+      {
+        "reference_id": "GP0223-003",
+        "label": "valid",
+        "reason": "亲和力对熵差影响明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0129"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0223-004",
+        "label": "valid",
+        "reason": "隔膜冷热区隔离作用提高系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0065"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考002端点为配位作用贡献构型熵；候选0013/0053将配位藏在构型熵标签中，0126只有参与者配位，均未直接完整覆盖。参考未单列熵差决定计算系数。"
+  },
+  {
+    "paper_id": "P0211",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0131",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "有效温差决定电压，最小/平均/中间及电阻依赖均保留。"
+      },
+      {
+        "candidate_id": "CTG-0137",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "内阻决定电压控制温差取值类别明确。"
+      },
+      {
+        "candidate_id": "CTG-0148",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "开路电压估算归一化功率密度已验证明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0211-001",
+        "label": "valid",
+        "reason": "基于开路电压的估算有效性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0148"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0211-002",
+        "label": "valid",
+        "reason": "内阻决定有效温差关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0137"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0131"
+        ]
+      }
+    ],
+    "note": "0131条件中含内阻依赖但主边为温差到电压，不能替代内阻到有效温差的直接边；参考未单列前者。"
+  }
+]

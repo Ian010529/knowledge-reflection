@@ -1,0 +1,545 @@
+[
+  {
+    "paper_id": "P0301",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0034",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留may、最大功效积对最大功率比较及Carnot条件。"
+      },
+      {
+        "candidate_id": "CTG-0114",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "不同状态多TREC方案的提出目的忠实。"
+      },
+      {
+        "candidate_id": "CTG-0118",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电流影响效率上下界明确，未捏造方向。"
+      },
+      {
+        "candidate_id": "CTG-0123",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电流影响输出功率明确。"
+      },
+      {
+        "candidate_id": "CTG-0149",
+        "label": "partial",
+        "error_tags": [
+          "condition"
+        ],
+        "reason": "理论连续输出能力明确，但缺少多个TREC工作于不同状态这一设计限定。"
+      },
+      {
+        "candidate_id": "CTG-0154",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "理论建议工作于两极值状态之间明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0301-001",
+        "label": "valid",
+        "reason": "完整条件性能比较明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0034"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0301-002",
+        "label": "valid",
+        "reason": "不同状态多循环系统连续输出能力明确。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0114",
+          "CTG-0149"
+        ]
+      },
+      {
+        "reference_id": "GP0301-003",
+        "label": "valid",
+        "reason": "should是理论操作建议，候选推荐措辞忠实。",
+        "full_coverage_sets": [
+          [
+            "CTG-0154"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列电流到功率及效率边界的两条明确关系。0114保留设计目的但未断言理论输出能力，0149未保留不同状态限定；不自动拼成已完整归因。"
+  },
+  {
+    "paper_id": "P0100",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0017",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "纳米尺度效应在TiO2热电谱中被识别明确。"
+      },
+      {
+        "candidate_id": "CTG-0127",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "组成均衡防止电荷差累积明确。"
+      },
+      {
+        "candidate_id": "CTG-0135",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实测薄膜锐钛矿热电谱与相行为符合明确。"
+      },
+      {
+        "candidate_id": "CTG-0162",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "迭代方法支持高分辨精确测量，组成均衡必要条件保留。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0100-001",
+        "label": "valid",
+        "reason": "相行为一致性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0135"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0100-002",
+        "label": "valid",
+        "reason": "方法能力及防电荷差条件明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0162"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0100-003",
+        "label": "valid",
+        "reason": "方法能识别谱中纳米尺度效应明确。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0017"
+        ]
+      },
+      {
+        "reference_id": "GP0100-004",
+        "label": "valid",
+        "reason": "组成均衡防累积明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0127"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "0017是纳米尺度对谱的效应边，未直接表达方法识别能力；两种关系不能因语义相近视为全覆盖。"
+  },
+  {
+    "paper_id": "P0316",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0048",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "B掺杂提高活性面积明确。"
+      },
+      {
+        "candidate_id": "CTG-0068",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "N掺杂提高活性面积且N样品条件正确。"
+      },
+      {
+        "candidate_id": "CTG-0085",
+        "label": "partial",
+        "error_tags": [
+          "condition"
+        ],
+        "reason": "N掺杂效应正确，但条件含N或B样品，将B样品混入N主体适用条件。"
+      },
+      {
+        "candidate_id": "CTG-0088",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "掺杂CNT与K+静电相互作用明确。"
+      },
+      {
+        "candidate_id": "CTG-0096",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "转移对称性与原始CNT近似相同明确。"
+      },
+      {
+        "candidate_id": "CTG-0110",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "掺杂CNT处K+累积降低短路电流明确。"
+      },
+      {
+        "candidate_id": "CTG-0121",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "K+静电相互作用改变转移动力学明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0316-001",
+        "label": "valid",
+        "reason": "N掺杂增加面积明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0068"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0085"
+        ]
+      },
+      {
+        "reference_id": "GP0316-002",
+        "label": "valid",
+        "reason": "K+累积降低电流明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0110"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0316-003",
+        "label": "valid",
+        "reason": "静电作用改变动力学明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0121"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0316-004",
+        "label": "valid",
+        "reason": "B掺杂增加面积明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0048"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0316-005",
+        "label": "valid",
+        "reason": "转移对称性近似保留明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0096"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未单列掺杂CNT与K+的静电相互作用参与者关系。"
+  },
+  {
+    "paper_id": "P0283",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0026",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "浓度梯度导致器件优良性能明确。"
+      },
+      {
+        "candidate_id": "CTG-0031",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "三碘离子被α环糊精包合明确。"
+      },
+      {
+        "candidate_id": "CTG-0040",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温度依赖主客作用形成两极间浓度梯度明确。"
+      },
+      {
+        "candidate_id": "CTG-0058",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "低温使平衡偏向包合明确。"
+      },
+      {
+        "candidate_id": "CTG-0063",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "高温逆转包合平衡偏好明确。"
+      },
+      {
+        "candidate_id": "CTG-0153",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "超分子设计实现环境温度下高系数，有设计归因并非裸数值。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0283-001",
+        "label": "valid",
+        "reason": "主客包合关系明确，逆写方向等价。",
+        "full_coverage_sets": [
+          [
+            "CTG-0031"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-002",
+        "label": "valid",
+        "reason": "浓度梯度提高性能明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0026"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-003",
+        "label": "valid",
+        "reason": "温度依赖作用导致浓度梯度明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0040"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-004",
+        "label": "valid",
+        "reason": "所述超分子方法产出高系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0153"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-005",
+        "label": "valid",
+        "reason": "低温包合平衡明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0058"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-006",
+        "label": "valid",
+        "reason": "高温逆转平衡明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0063"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0101",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0003",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "微通道流体动力设计形成热表面薄边界层明确。"
+      },
+      {
+        "candidate_id": "CTG-0009",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "薄边界层支持高冷却效率明确。"
+      },
+      {
+        "candidate_id": "CTG-0082",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "指定电解液耐火焰接触稳定性明确。"
+      },
+      {
+        "candidate_id": "CTG-0104",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "所有测试流量发电超过泵功10至1000倍明确。"
+      },
+      {
+        "candidate_id": "CTG-0150",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "小面积组合器件持续驱动LED和风扇明确。"
+      },
+      {
+        "candidate_id": "CTG-0155",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "微通道对流热电转换设计实现170℃表面下所报功率密度明确。"
+      },
+      {
+        "candidate_id": "CTG-0159",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "薄边界层支持大于100 K电极温差明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0101-001",
+        "label": "valid",
+        "reason": "泵功与发电比较及流量限定明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0104"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-002",
+        "label": "valid",
+        "reason": "微通道形成薄热边界层明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0003"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-003",
+        "label": "valid",
+        "reason": "薄层使电极间大温差明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0159"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-004",
+        "label": "valid",
+        "reason": "组合器件驱动负载明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0150"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-005",
+        "label": "valid",
+        "reason": "电解液火焰接触稳定性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0082"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-006",
+        "label": "valid",
+        "reason": "薄层支持高冷却效率明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0009"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列微通道对流转换设计实现指定条件功率密度关系。"
+  }
+]

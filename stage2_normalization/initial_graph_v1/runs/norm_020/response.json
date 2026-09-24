@@ -1,0 +1,135 @@
+{
+  "groups": [
+    {
+      "group_id": "g0228",
+      "clusters": [
+        {
+          "label": "Electrical conductivity",
+          "definition": "Electrical charge-transport conductivity, without an explicitly isolated carrier component or a separately identified calculated value.",
+          "members": [
+            "m05666",
+            "m05764",
+            "m05946",
+            "m06108",
+            "m07500",
+            "m07808",
+            "m07927",
+            "m08004",
+            "m08040",
+            "m08234",
+            "m08442",
+            "m08947",
+            "m08977",
+            "m09012",
+            "m09708",
+            "m09736",
+            "m09971",
+            "m10940",
+            "m11212",
+            "m11785",
+            "m12208",
+            "m12301",
+            "m12488",
+            "m12530",
+            "m12546",
+            "m12558",
+            "m12944",
+            "m12982",
+            "m13243",
+            "m14083",
+            "m14316",
+            "m14508",
+            "m14685",
+            "m14709",
+            "m14801",
+            "m15321",
+            "m15449",
+            "m15706",
+            "m16104",
+            "m16316",
+            "m17980",
+            "m18511",
+            "m19216",
+            "m19459",
+            "m19579",
+            "m19693",
+            "m19805",
+            "m19850",
+            "m19910",
+            "m19994",
+            "m20151",
+            "m20580",
+            "m20692",
+            "m21584",
+            "m21809",
+            "m21866",
+            "m21884",
+            "m22184",
+            "m22199",
+            "m22279",
+            "m22935",
+            "m23267",
+            "m23308",
+            "m23367",
+            "m23434",
+            "m24074",
+            "m24360",
+            "m24482",
+            "m24641",
+            "m24695",
+            "m26926"
+          ],
+          "reason": "These mentions identify the same conductivity quantity across materials. Carrier contributions, compositions, sample forms, treatment effects, trends and hypotheses remain claim-specific; increases and decreases are predicates, not separate quantities. Ionic contributions or carrier-concentration explanations do not alone redefine the quantity as an isolated conductivity component."
+        },
+        {
+          "label": "Electrical conductivity (electronic, distinguished from ionic)",
+          "definition": "Electrical conductivity associated with electronic transport, explicitly contrasted with ionic conductivity or supported by exclusion of ionic conduction.",
+          "members": [
+            "m06694",
+            "m08062",
+            "m16304",
+            "m21391"
+          ],
+          "reason": "The supplied evidence separately discusses ionic and electrical conductivity, or explicitly rules out ionic conductivity. This supports an electronic meaning distinct from conductivity with unspecified or combined carrier contributions. The pellet measurement conditions remain attached to m21391."
+        },
+        {
+          "label": "Electrical conductivity (calculated)",
+          "definition": "Electrical conductivity evaluated or predicted through electronic-structure or transport calculations.",
+          "members": [
+            "m11251",
+            "m11952",
+            "m15122",
+            "m16479",
+            "m17035",
+            "m17482",
+            "m18194",
+            "m19286",
+            "m19514",
+            "m20137",
+            "m20829",
+            "m21477",
+            "m22446"
+          ],
+          "reason": "Titles and relation contexts identify first-principles, DFT, BoltzTraP or other transport calculations. These share a calculated transport quantity while retaining material, spin, pressure, strain and temperature qualifications; they remain separate from measured conductivity."
+        },
+        {
+          "label": "Electrical conductivity (electrolyte-containing porous-medium model)",
+          "definition": "Modeled effective electrical conductivity incorporating electromigration through bulk pore electrolyte and the grains–water electrical double layer.",
+          "members": [
+            "m08022"
+          ],
+          "reason": "The unified-model context explicitly combines bulk-solution and interfacial ionic transport. It is neither an isolated interface conductivity nor the electronic transport quantity in the calculation cluster."
+        },
+        {
+          "label": "Electrical conductivity (microstructure-inferred)",
+          "definition": "Electrical conductivity whose degradation is inferred from observed grain size and porosity.",
+          "members": [
+            "m19174"
+          ],
+          "reason": "The supplied relation explicitly bases the conductivity inference on SEM microstructure, distinguishing it from a conductivity measurement or a transport calculation."
+        }
+      ],
+      "unresolved": []
+    }
+  ]
+}

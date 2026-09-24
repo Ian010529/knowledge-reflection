@@ -1,0 +1,253 @@
+{
+  "groups": [
+    {
+      "group_id": "g0203",
+      "clusters": [
+        {
+          "label": "Temperature monitoring",
+          "definition": "Sensing temperature to track thermal conditions.",
+          "members": [
+            "m05253",
+            "m07788"
+          ],
+          "reason": "Both explicitly identify the same sensing application; device differences remain claim context."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "group_id": "g0204",
+      "clusters": [
+        {
+          "label": "Carrier concentration",
+          "definition": "Number density of electronic charge carriers involved in electrical transport.",
+          "members": [
+            "m05282",
+            "m08085",
+            "m08750",
+            "m09751",
+            "m12478",
+            "m12854",
+            "m12892",
+            "m12964",
+            "m14009",
+            "m14058",
+            "m14384",
+            "m14505",
+            "m14680",
+            "m14700",
+            "m16100",
+            "m17557",
+            "m19378",
+            "m20086",
+            "m20148",
+            "m20222",
+            "m20687",
+            "m21808",
+            "m22884",
+            "m23541",
+            "m26924"
+          ],
+          "reason": "Transport, doping, band-structure and Hall contexts support the same physical quantity. Materials, dopants, magnitudes and directions of change qualify individual claims, rather than defining different concentration concepts."
+        },
+        {
+          "label": "Carrier concentration in transport calculations",
+          "definition": "Electronic carrier number density used or calculated in theoretical electronic transport analysis.",
+          "members": [
+            "m10602",
+            "m18199",
+            "m26868"
+          ],
+          "reason": "These mentions explicitly concern first-principles or Boltzmann transport calculations; their theoretical context is retained separately from measured or otherwise reported concentrations."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "group_id": "g0205",
+      "clusters": [
+        {
+          "label": "Carrier transport",
+          "definition": "Movement of electronic charge carriers through a material.",
+          "members": [
+            "m05283",
+            "m05953",
+            "m10773",
+            "m11791",
+            "m16038",
+            "m24968",
+            "m25814",
+            "m26860"
+          ],
+          "reason": "Doping, electronic orbitals, conduction bands and electrical conductivity identify electronic transport. Different enabling mechanisms and computational interpretations do not change the process itself."
+        }
+      ],
+      "unresolved": [
+        {
+          "member": "m06347",
+          "reason": "The ionic-liquid cell evidence does not specify the transported carrier species or resolve ionic versus electronic transport."
+        }
+      ]
+    },
+    {
+      "group_id": "g0206",
+      "clusters": [
+        {
+          "label": "Fermi level",
+          "definition": "Electronic chemical potential governing electronic-state occupation.",
+          "members": [
+            "m05284",
+            "m14466"
+          ],
+          "reason": "Both refer to the same electronic energy quantity; gating and Ce incorporation are distinct causes of its alteration."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "group_id": "g0207",
+      "clusters": [
+        {
+          "label": "Electronic band structure",
+          "definition": "The arrangement of allowed electronic energy bands in a material.",
+          "members": [
+            "m05285",
+            "m16867"
+          ],
+          "reason": "Both denote the same structural electronic concept. Modulation versus explicitly absent alteration belongs to the claims."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "group_id": "g0208",
+      "clusters": [],
+      "unresolved": [
+        {
+          "member": "m05286",
+          "reason": "No particular microstructural features are identified, preventing determination of the intended structural concept."
+        },
+        {
+          "member": "m18871",
+          "reason": "The evidence requires consideration of microstructure but does not identify the features or establish equivalence with the other mention."
+        }
+      ]
+    },
+    {
+      "group_id": "g0209",
+      "clusters": [
+        {
+          "label": "Better thermoelectric performance of Mg2Si0.75Sn0.25 (calculated)",
+          "definition": "Calculated comparative thermoelectric improvement of Mg2Si0.75Sn0.25 at high temperatures, including increased power factor.",
+          "members": [
+            "m08213"
+          ],
+          "reason": "The evidence specifies the composition, theoretical evaluation, comparison and associated transport quantities."
+        }
+      ],
+      "unresolved": [
+        {
+          "member": "m05295",
+          "reason": "The hybrid electronic–thermogalvanic system's improvement is not tied to a specified performance metric."
+        },
+        {
+          "member": "m10119",
+          "reason": "The theoretical comparative performance claim identifies materials and valley context but leaves the performance criterion unspecified."
+        }
+      ]
+    },
+    {
+      "group_id": "g0210",
+      "clusters": [
+        {
+          "label": "Environmental stability through water retention",
+          "definition": "Resistance to environmental deterioration supported by trapping water molecules.",
+          "members": [
+            "m05366"
+          ],
+          "reason": "Water trapping provides a specific stability context, without identifying a particular exposure condition."
+        }
+      ],
+      "unresolved": [
+        {
+          "member": "m24119",
+          "reason": "Environmental stability is asserted without specifying the environmental stress or stability criterion, so equivalence with water-retention stability is unsupported."
+        }
+      ]
+    },
+    {
+      "group_id": "g0211",
+      "clusters": [
+        {
+          "label": "Seebeck effect (ionic)",
+          "definition": "Generation of a thermovoltage under a temperature gradient in an ionic thermoelectric system.",
+          "members": [
+            "m05415",
+            "m08326"
+          ],
+          "reason": "The ionic hydrogel and ionic thermoelectrochemical contexts support ionic thermovoltage generation; enhancement and isolated-electrode conditions remain claim qualifiers."
+        }
+      ],
+      "unresolved": [
+        {
+          "member": "m06922",
+          "reason": "The evidence links the Seebeck effect to nanoparticle catalysis but does not resolve its ionic or electronic mechanism; high copper ionic mobility alone does not establish equivalence."
+        }
+      ]
+    },
+    {
+      "group_id": "g0212",
+      "clusters": [
+        {
+          "label": "Excellent stretchability",
+          "definition": "Ability to accommodate substantial tensile deformation.",
+          "members": [
+            "m05430",
+            "m06276",
+            "m07039",
+            "m11310"
+          ],
+          "reason": "All explicitly denote the same mechanical capability. Different compositions and device forms do not change that capability, and no identical strain threshold is implied."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "group_id": "g0213",
+      "clusters": [
+        {
+          "label": "Cation thermodiffusion (K+)",
+          "definition": "Temperature-gradient-driven migration of potassium cations.",
+          "members": [
+            "m05434"
+          ],
+          "reason": "Selective K+ adsorption explicitly identifies the cation species whose thermodiffusion is suppressed."
+        },
+        {
+          "label": "Cation thermodiffusion",
+          "definition": "Temperature-gradient-driven migration of cations, with species unspecified.",
+          "members": [
+            "m07440"
+          ],
+          "reason": "The evidence identifies cation migration promoted by coordination suppression but does not identify K+; the broader process is kept separate from the species-specific subtype."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "group_id": "g0214",
+      "clusters": [
+        {
+          "label": "n-Type thermoelectric response",
+          "definition": "Negative-polarity thermoelectric response of an ionic hydrogel device.",
+          "members": [
+            "m05439",
+            "m05982"
+          ],
+          "reason": "Both explicitly describe conversion of ionic hydrogel device response from p-type to n-type. Electrode compositions and interfacial mechanisms remain distinct claim context."
+        }
+      ],
+      "unresolved": []
+    }
+  ]
+}

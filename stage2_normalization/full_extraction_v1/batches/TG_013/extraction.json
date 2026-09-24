@@ -1,0 +1,3274 @@
+[
+  {
+    "paper_id": "P0145",
+    "domain": "TG",
+    "input_hash": "9e83ac4745e3a74996ce7e92859a4fdbea9005fbc991b8aa4ea18de729228aa4",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0145:r001",
+        "subject": "Ionic gelatin thermoelectric material",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:g",
+        "predicate": "has_state",
+        "object": "Flexible quasi-solid state",
+        "object_role": "state_structure",
+        "object_id": "P0145:f",
+        "quote": "We demonstrate a giant positive thermopower of 17.0 millivolts per degree Kelvin in a flexible, quasi-solid-state, ionic thermoelectric material using synergistic thermodiffusion and thermogalvanic effects. ",
+        "context_quotes": [
+          "The ionic thermoelectric material is a gelatin matrix modulated with ion providers (KCl, NaCl, and KNO3) for thermodiffusion effect and a redox couple [Fe(CN)(6)(4-)/Fe(CN)(6)(3-)] for thermogalvanic effect. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 214,
+            "end": 421
+          },
+          {
+            "start": 421,
+            "end": 629
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0145:r002",
+        "subject": "KCl, NaCl and KNO3 ion providers",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:ions",
+        "predicate": "provides_for",
+        "object": "Thermodiffusion effect",
+        "object_role": "mechanism_process",
+        "object_id": "P0145:td",
+        "quote": "The ionic thermoelectric material is a gelatin matrix modulated with ion providers (KCl, NaCl, and KNO3) for thermodiffusion effect and a redox couple [Fe(CN)(6)(4-)/Fe(CN)(6)(3-)] for thermogalvanic effect. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Within the gelatin matrix",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 421,
+            "end": 629
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0145:r003",
+        "subject": "Fe(CN)6 4−/3− redox couple",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:redox",
+        "predicate": "provides_for",
+        "object": "Thermogalvanic effect",
+        "object_role": "mechanism_process",
+        "object_id": "P0145:tg",
+        "quote": "The ionic thermoelectric material is a gelatin matrix modulated with ion providers (KCl, NaCl, and KNO3) for thermodiffusion effect and a redox couple [Fe(CN)(6)(4-)/Fe(CN)(6)(3-)] for thermogalvanic effect. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Within the gelatin matrix",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 421,
+            "end": 629
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0145:r004",
+        "subject": "Ionic gelatin thermoelectric material",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:g",
+        "predicate": "achieves",
+        "object": "Positive thermopower of 17.0 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0145:s",
+        "quote": "We demonstrate a giant positive thermopower of 17.0 millivolts per degree Kelvin in a flexible, quasi-solid-state, ionic thermoelectric material using synergistic thermodiffusion and thermogalvanic effects. ",
+        "context_quotes": [
+          "The ionic thermoelectric material is a gelatin matrix modulated with ion providers (KCl, NaCl, and KNO3) for thermodiffusion effect and a redox couple [Fe(CN)(6)(4-)/Fe(CN)(6)(3-)] for thermogalvanic effect. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using synergistic thermodiffusion and thermogalvanic effects",
+        "joint_factors": [
+          "td",
+          "tg"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 214,
+            "end": 421
+          },
+          {
+            "start": 421,
+            "end": 629
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0145:r005",
+        "subject": "Wearable device with 25 unipolar elements",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:d",
+        "predicate": "generates",
+        "object": "Voltage above 2 V",
+        "object_role": "performance_function",
+        "object_id": "P0145:v",
+        "quote": "A proof-of-concept wearable device consisting of 25 unipolar elements generated more than 2 volts and a peak power of 5 microwatts using body heat. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using body heat",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 629,
+            "end": 777
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0145:r006",
+        "subject": "Wearable device with 25 unipolar elements",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:d",
+        "predicate": "delivers",
+        "object": "Peak power of 5 μW",
+        "object_role": "performance_function",
+        "object_id": "P0145:p",
+        "quote": "A proof-of-concept wearable device consisting of 25 unipolar elements generated more than 2 volts and a peak power of 5 microwatts using body heat. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using body heat",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 629,
+            "end": 777
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0145:r007",
+        "subject": "Ionic gelatin thermoelectric material",
+        "subject_role": "material_entity",
+        "subject_id": "P0145:g",
+        "predicate": "proposed_for",
+        "object": "Environmental heat-to-electricity conversion using ions as energy carriers",
+        "object_role": "application",
+        "object_id": "P0145:use",
+        "quote": "This ionic gelatin shows promise for environmental heat-to-electric energy conversion using ions as energy carriers.",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 777,
+            "end": 893
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0146",
+    "domain": "TG",
+    "input_hash": "e8967d1d4b4dc01caf83b9f58e503582d679aae2b97d73c65c1df94616dbd21a",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0146:r001",
+        "subject": "Cationic high-entropy gel G-FeCN4−/3−-K+-Na+-Li+-Gdm+-Cs+",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:g",
+        "predicate": "exhibits",
+        "object": "Adhesion",
+        "object_role": "performance_function",
+        "object_id": "P0146:adh",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0146:r002",
+        "subject": "Cationic high-entropy gel G-FeCN4−/3−-K+-Na+-Li+-Gdm+-Cs+",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:g",
+        "predicate": "exhibits",
+        "object": "Self-healing",
+        "object_role": "performance_function",
+        "object_id": "P0146:heal",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0146:r003",
+        "subject": "Multication–anion interaction in a multi-ion cooperative chemical environment",
+        "subject_role": "interaction",
+        "subject_id": "P0146:int",
+        "predicate": "enables_design_of",
+        "object": "Cationic high-entropy gel G-FeCN4−/3−-K+-Na+-Li+-Gdm+-Cs+",
+        "object_role": "material_entity",
+        "object_id": "P0146:g",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0146:r004",
+        "subject": "Multication–anion interaction in a multi-ion cooperative chemical environment",
+        "subject_role": "interaction",
+        "subject_id": "P0146:int",
+        "predicate": "improves",
+        "object": "Redox reaction entropy change",
+        "object_role": "quantity",
+        "object_id": "P0146:entropy",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In CHEG",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0146:r005",
+        "subject": "Multication–anion interaction in a multi-ion cooperative chemical environment",
+        "subject_role": "interaction",
+        "subject_id": "P0146:int",
+        "predicate": "improves",
+        "object": "Exchange current density",
+        "object_role": "quantity",
+        "object_id": "P0146:exchange",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In CHEG",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0146:r006",
+        "subject": "Multication–anion interaction in a multi-ion cooperative chemical environment",
+        "subject_role": "interaction",
+        "subject_id": "P0146:int",
+        "predicate": "improves",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "object_id": "P0146:conduct",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In CHEG",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0146:r007",
+        "subject": "Cationic high-entropy gel G-FeCN4−/3−-K+-Na+-Li+-Gdm+-Cs+",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:g",
+        "predicate": "achieves",
+        "object": "Overall high ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0146:overall",
+        "quote": "Herein, an adhesive and self-healing cationic high-entropy gel (CHEG) G-FeCN4-/3--K+-Na+-Li+-Gdm+-Cs+ in a multi-ion cooperative chemical environment has been designed by the interaction between multications and anions, improving the entropy change of redox reaction, exchange current density, and ionic conductivity, thereby achieving an overall high ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through improved redox reaction entropy change, exchange current density and ionic conductivity",
+        "joint_factors": [
+          "entropy",
+          "exchange",
+          "conduct"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 409,
+            "end": 795
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0146:r008",
+        "subject": "CHEG thermocell",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:cell",
+        "predicate": "achieves",
+        "object": "Total ionic thermopower of 41 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0146:total",
+        "quote": "The CHEG thermocell using the synergy of thermogalvanic and thermodiffusion effects showed a total ionic thermopower of 41 mV K-1 with 2.3 mV K-1 for the former, and delivered a maximum output power density of 14.3 mW m-2 K-2 and an energy density of 4.5 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through thermogalvanic–thermodiffusion synergy",
+        "joint_factors": [
+          "tg",
+          "td"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 795,
+            "end": 1061
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0146:r009",
+        "subject": "Thermogalvanic effect",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0146:tg",
+        "predicate": "contributes",
+        "object": "Thermogalvanic thermopower contribution of 2.3 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0146:tgs",
+        "quote": "The CHEG thermocell using the synergy of thermogalvanic and thermodiffusion effects showed a total ionic thermopower of 41 mV K-1 with 2.3 mV K-1 for the former, and delivered a maximum output power density of 14.3 mW m-2 K-2 and an energy density of 4.5 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the CHEG thermocell",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 795,
+            "end": 1061
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0146:r010",
+        "subject": "CHEG thermocell",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:cell",
+        "predicate": "delivers",
+        "object": "Maximum output power density of 14.3 mW m−2 K−2",
+        "object_role": "performance_function",
+        "object_id": "P0146:power",
+        "quote": "The CHEG thermocell using the synergy of thermogalvanic and thermodiffusion effects showed a total ionic thermopower of 41 mV K-1 with 2.3 mV K-1 for the former, and delivered a maximum output power density of 14.3 mW m-2 K-2 and an energy density of 4.5 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using thermogalvanic–thermodiffusion synergy",
+        "joint_factors": [
+          "tg",
+          "td"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 795,
+            "end": 1061
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0146:r011",
+        "subject": "CHEG thermocell",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:cell",
+        "predicate": "delivers",
+        "object": "Energy density of 4.5 J m−2 K−2",
+        "object_role": "performance_function",
+        "object_id": "P0146:energy",
+        "quote": "The CHEG thermocell using the synergy of thermogalvanic and thermodiffusion effects showed a total ionic thermopower of 41 mV K-1 with 2.3 mV K-1 for the former, and delivered a maximum output power density of 14.3 mW m-2 K-2 and an energy density of 4.5 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using thermogalvanic–thermodiffusion synergy",
+        "joint_factors": [
+          "tg",
+          "td"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 795,
+            "end": 1061
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0146:r012",
+        "subject": "CHEG device comprising four thermocells connected in series",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:device",
+        "predicate": "achieves",
+        "object": "Maximum output power density of 4.13 mW m−2 K−2",
+        "object_role": "performance_function",
+        "object_id": "P0146:dp",
+        "quote": "In addition, an ultrahigh maximum output power density of 4.13 mW m-2 K-2 was obtained in the CHEG device that was assembled by connecting four thermocells in series, which could realize electrocatalytic degradation of rhodamine B. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1061,
+            "end": 1293
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r013",
+        "relation_id": "P0146:r013",
+        "subject": "CHEG device comprising four thermocells connected in series",
+        "subject_role": "material_entity",
+        "subject_id": "P0146:device",
+        "predicate": "can_enable",
+        "object": "Electrocatalytic degradation of rhodamine B",
+        "object_role": "application",
+        "object_id": "P0146:use",
+        "quote": "In addition, an ultrahigh maximum output power density of 4.13 mW m-2 K-2 was obtained in the CHEG device that was assembled by connecting four thermocells in series, which could realize electrocatalytic degradation of rhodamine B. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1061,
+            "end": 1293
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0147",
+    "domain": "TG",
+    "input_hash": "1ccc1078bf46bc203648cb668c10aaa7cc4bf59d3b7584907f4d3d53cebcec5e",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0147:r001",
+        "subject": "PVA/gelatin gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:g",
+        "predicate": "has_structure",
+        "object": "Dual-network structure",
+        "object_role": "state_structure",
+        "object_id": "P0147:network",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [
+          "This dual-network gel exhibits not only a high thermopower of - 2.05 mV K-1 and a rapid response of 130 ms, but also full flexibility, significant resistance to desiccation, and a high tensile capacity of up to 300%. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          },
+          {
+            "start": 667,
+            "end": 884
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0147:r002",
+        "subject": "Finger temperature",
+        "subject_role": "condition",
+        "subject_id": "P0147:temp",
+        "predicate": "drives",
+        "object": "Thermogalvanic effect",
+        "object_role": "mechanism_process",
+        "object_id": "P0147:tg",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "On the PVA/gelatin gel",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0147:r003",
+        "subject": "Finger pressure",
+        "subject_role": "condition",
+        "subject_id": "P0147:pressure",
+        "predicate": "drives",
+        "object": "Piezoresistive effect",
+        "object_role": "mechanism_process",
+        "object_id": "P0147:pr",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "On the PVA/gelatin gel",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0147:r004",
+        "subject": "Self-powered smart pen integrating thermogalvanic gel units within its shaft",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:pen",
+        "predicate": "designed_for",
+        "object": "Identity recognition, stroke analysis and grip posture assessment",
+        "object_role": "application",
+        "object_id": "P0147:use",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "By coupling thermogalvanic and piezoresistive effects from finger temperature and pressure",
+        "joint_factors": [
+          "tg",
+          "pr"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0147:r005",
+        "subject": "PVA/gelatin gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:g",
+        "predicate": "exhibits",
+        "object": "Thermopower of −2.05 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0147:s",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [
+          "This dual-network gel exhibits not only a high thermopower of - 2.05 mV K-1 and a rapid response of 130 ms, but also full flexibility, significant resistance to desiccation, and a high tensile capacity of up to 300%. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          },
+          {
+            "start": 667,
+            "end": 884
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0147:r006",
+        "subject": "PVA/gelatin gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:g",
+        "predicate": "exhibits",
+        "object": "Response time of 130 ms",
+        "object_role": "performance_function",
+        "object_id": "P0147:response",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [
+          "This dual-network gel exhibits not only a high thermopower of - 2.05 mV K-1 and a rapid response of 130 ms, but also full flexibility, significant resistance to desiccation, and a high tensile capacity of up to 300%. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Response type not specified",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          },
+          {
+            "start": 667,
+            "end": 884
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0147:r007",
+        "subject": "PVA/gelatin gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:g",
+        "predicate": "exhibits",
+        "object": "Full flexibility",
+        "object_role": "performance_function",
+        "object_id": "P0147:flex",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [
+          "This dual-network gel exhibits not only a high thermopower of - 2.05 mV K-1 and a rapid response of 130 ms, but also full flexibility, significant resistance to desiccation, and a high tensile capacity of up to 300%. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          },
+          {
+            "start": 667,
+            "end": 884
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0147:r008",
+        "subject": "PVA/gelatin gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:g",
+        "predicate": "exhibits",
+        "object": "Significant resistance to desiccation",
+        "object_role": "performance_function",
+        "object_id": "P0147:dry",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [
+          "This dual-network gel exhibits not only a high thermopower of - 2.05 mV K-1 and a rapid response of 130 ms, but also full flexibility, significant resistance to desiccation, and a high tensile capacity of up to 300%. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          },
+          {
+            "start": 667,
+            "end": 884
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0147:r009",
+        "subject": "PVA/gelatin gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:g",
+        "predicate": "exhibits",
+        "object": "Tensile capacity up to 300%",
+        "object_role": "performance_function",
+        "object_id": "P0147:tensile",
+        "quote": "In this study, a finger temperature-driven thermoelectric gelbased smart pen has been invented for identity recognition, stroke analysis, and grip posture assessment by coupling thermogalvanic and piezoresistive effects derived from finger temperature and pressure on a PVA/ gelatin gel. ",
+        "context_quotes": [
+          "This dual-network gel exhibits not only a high thermopower of - 2.05 mV K-1 and a rapid response of 130 ms, but also full flexibility, significant resistance to desiccation, and a high tensile capacity of up to 300%. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 379,
+            "end": 667
+          },
+          {
+            "start": 667,
+            "end": 884
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0147:r010",
+        "subject": "Self-powered smart pen integrating thermogalvanic gel units within its shaft",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:pen",
+        "predicate": "achieves",
+        "object": "98.1% recognition accuracy for eight basic Chinese character strokes",
+        "object_role": "performance_function",
+        "object_id": "P0147:stroke",
+        "quote": "By integrating thermogalvanic gel units within a pen shaft, our self-powered smart pen achieved a recognition accuracy of 98.1% for eight basic Chinese character strokes with the aid of deep learning. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "With deep learning assistance",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 884,
+            "end": 1085
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0147:r011",
+        "subject": "Self-powered smart pen integrating thermogalvanic gel units within its shaft",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:pen",
+        "predicate": "achieves",
+        "object": "98.8% recognition accuracy for eight identities",
+        "object_role": "performance_function",
+        "object_id": "P0147:identity",
+        "quote": "By integrating thermogalvanic gel units within a pen shaft, our self-powered smart pen achieved a recognition accuracy of 98.1% for eight basic Chinese character strokes with the aid of deep learning. ",
+        "context_quotes": [
+          "Furthermore, with a four-channel expansion, the recognition accuracy reaches 98.8% for eight distinct identities and 99.1% for nine different pen-holding postures, respectively, while offering real-time visualization of monitoring results on a user-friendly human-machine interface. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "With four-channel expansion and deep learning assistance",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 884,
+            "end": 1085
+          },
+          {
+            "start": 1085,
+            "end": 1368
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0147:r012",
+        "subject": "Self-powered smart pen integrating thermogalvanic gel units within its shaft",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:pen",
+        "predicate": "achieves",
+        "object": "99.1% recognition accuracy for nine pen-holding postures",
+        "object_role": "performance_function",
+        "object_id": "P0147:posture",
+        "quote": "By integrating thermogalvanic gel units within a pen shaft, our self-powered smart pen achieved a recognition accuracy of 98.1% for eight basic Chinese character strokes with the aid of deep learning. ",
+        "context_quotes": [
+          "Furthermore, with a four-channel expansion, the recognition accuracy reaches 98.8% for eight distinct identities and 99.1% for nine different pen-holding postures, respectively, while offering real-time visualization of monitoring results on a user-friendly human-machine interface. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "With four-channel expansion and deep learning assistance",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 884,
+            "end": 1085
+          },
+          {
+            "start": 1085,
+            "end": 1368
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r013",
+        "relation_id": "P0147:r013",
+        "subject": "Self-powered smart pen integrating thermogalvanic gel units within its shaft",
+        "subject_role": "material_entity",
+        "subject_id": "P0147:pen",
+        "predicate": "offers",
+        "object": "Real-time visualization of monitoring results on a human-machine interface",
+        "object_role": "performance_function",
+        "object_id": "P0147:visual",
+        "quote": "By integrating thermogalvanic gel units within a pen shaft, our self-powered smart pen achieved a recognition accuracy of 98.1% for eight basic Chinese character strokes with the aid of deep learning. ",
+        "context_quotes": [
+          "Furthermore, with a four-channel expansion, the recognition accuracy reaches 98.8% for eight distinct identities and 99.1% for nine different pen-holding postures, respectively, while offering real-time visualization of monitoring results on a user-friendly human-machine interface. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "With four-channel expansion",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 884,
+            "end": 1085
+          },
+          {
+            "start": 1085,
+            "end": 1368
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0148",
+    "domain": "TG",
+    "input_hash": "d9a79c3a5f30ec86d72a864737853c907713e6678711e4fba10a15f667c0ae02",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0148:r001",
+        "subject": "Copper electrode in acidic copper sulfate solution under laser irradiation",
+        "subject_role": "material_entity",
+        "subject_id": "P0148:system",
+        "predicate": "operates_as",
+        "object": "Thermogalvanic cell operation",
+        "object_role": "mechanism_process",
+        "object_id": "P0148:cell",
+        "quote": "The mechanism responsible for the electroless copper deposition on a copper electrode in an acidic copper sulfate solution upon laser irradiation was investigated. ",
+        "context_quotes": [
+          "The system served as a thermogalvanic cell and a highly selective copper deposit was formed at the laser-irradiated center without any chemical reductant added. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 164
+          },
+          {
+            "start": 164,
+            "end": 325
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0148:r002",
+        "subject": "Copper electrode in acidic copper sulfate solution under laser irradiation",
+        "subject_role": "material_entity",
+        "subject_id": "P0148:system",
+        "predicate": "forms",
+        "object": "Highly selective electroless copper deposit at the laser-irradiated center",
+        "object_role": "state_structure",
+        "object_id": "P0148:deposit",
+        "quote": "The mechanism responsible for the electroless copper deposition on a copper electrode in an acidic copper sulfate solution upon laser irradiation was investigated. ",
+        "context_quotes": [
+          "The system served as a thermogalvanic cell and a highly selective copper deposit was formed at the laser-irradiated center without any chemical reductant added. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The system served as a thermogalvanic cell and a highly selective copper deposit was formed at the laser-irradiated center without any chemical reductant added. "
+        ],
+        "conditions": "Without added chemical reductant",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 164
+          },
+          {
+            "start": 164,
+            "end": 325
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 164,
+            "end": 325
+          }
+        ]
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0148:r003",
+        "subject": "Highly selective electroless copper deposit at the laser-irradiated center",
+        "subject_role": "state_structure",
+        "subject_id": "P0148:deposit",
+        "predicate": "reaches",
+        "object": "Deposit thickness of 510 mum",
+        "object_role": "quantity",
+        "object_id": "P0148:thickness",
+        "quote": "The system served as a thermogalvanic cell and a highly selective copper deposit was formed at the laser-irradiated center without any chemical reductant added. ",
+        "context_quotes": [
+          "The deposit's thickness reached 510 mum after an hour's irradiation with the incident laser power density being controlled at 2.0 x 10(5) W/cm2. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The deposit's thickness reached 510 mum after an hour's irradiation with the incident laser power density being controlled at 2.0 x 10(5) W/cm2. "
+        ],
+        "conditions": "After one hour of irradiation at incident laser power density 2.0 × 10^5 W/cm2",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 164,
+            "end": 325
+          },
+          {
+            "start": 325,
+            "end": 470
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 325,
+            "end": 470
+          }
+        ]
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0148:r004",
+        "subject": "Increasing incident laser power",
+        "subject_role": "condition",
+        "subject_id": "P0148:power",
+        "predicate": "decreases",
+        "object": "Copper deposition rate",
+        "object_role": "quantity",
+        "object_id": "P0148:rate",
+        "quote": "The deposit's thickness reached 510 mum after an hour's irradiation with the incident laser power density being controlled at 2.0 x 10(5) W/cm2. ",
+        "context_quotes": [
+          "The deposition rates, however, decayed as the incident laser power was further raised. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The deposit's thickness reached 510 mum after an hour's irradiation with the incident laser power density being controlled at 2.0 x 10(5) W/cm2. ",
+          "The deposition rates, however, decayed as the incident laser power was further raised. "
+        ],
+        "conditions": "On further raising incident laser power beyond the preceding deposition condition",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 325,
+            "end": 470
+          },
+          {
+            "start": 470,
+            "end": 557
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 325,
+            "end": 470
+          },
+          {
+            "start": 470,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0148:r005",
+        "subject": "Incident laser power density above 1.1 × 10^7 W/cm2",
+        "subject_role": "condition",
+        "subject_id": "P0148:high",
+        "predicate": "produces",
+        "object": "Etched hole replacing a deposit",
+        "object_role": "state_structure",
+        "object_id": "P0148:hole",
+        "quote": "Finally an etched hole instead of a deposit was found as the incident laser power density exceeded 1.1 X 10(7) W/cm2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Finally an etched hole instead of a deposit was found as the incident laser power density exceeded 1.1 X 10(7) W/cm2. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 557,
+            "end": 675
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 557,
+            "end": 675
+          }
+        ]
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0148:r006",
+        "subject": "Competition among thermogalvanic deposition, corrosion dissolution and incomplete consecutive discharge reduction",
+        "subject_role": "interaction",
+        "subject_id": "P0148:competition",
+        "predicate": "may_explain_decrease_in",
+        "object": "Copper deposition rate",
+        "object_role": "quantity",
+        "object_id": "P0148:rate",
+        "quote": "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At high incident laser power densities",
+        "joint_factors": [
+          "tg",
+          "dissolve",
+          "incomplete"
+        ],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 1318
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0148:r007",
+        "subject": "Thermogalvanic deposition",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0148:tg",
+        "predicate": "is_predominant_in",
+        "object": "Copper electrode in acidic copper sulfate solution under laser irradiation",
+        "object_role": "material_entity",
+        "object_id": "P0148:system",
+        "quote": "The mechanism responsible for the electroless copper deposition on a copper electrode in an acidic copper sulfate solution upon laser irradiation was investigated. ",
+        "context_quotes": [
+          "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. "
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At lower incident laser power densities; proposed competitive-process interpretation",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 164
+          },
+          {
+            "start": 675,
+            "end": 1318
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0148:r008",
+        "subject": "Corrosion reaction Cu + Cu+2 → 2Cu+",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0148:corrosion",
+        "predicate": "causes",
+        "object": "Copper dissolution",
+        "object_role": "mechanism_process",
+        "object_id": "P0148:dissolve",
+        "quote": "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Proposed competitive-process interpretation",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 1318
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0148:r009",
+        "subject": "Copper dissolution",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0148:dissolve",
+        "predicate": "is_predominant_in",
+        "object": "Copper electrode in acidic copper sulfate solution under laser irradiation",
+        "object_role": "material_entity",
+        "object_id": "P0148:system",
+        "quote": "The mechanism responsible for the electroless copper deposition on a copper electrode in an acidic copper sulfate solution upon laser irradiation was investigated. ",
+        "context_quotes": [
+          "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. "
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At high incident laser power densities; proposed competitive-process interpretation",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 164
+          },
+          {
+            "start": 675,
+            "end": 1318
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0148:r010",
+        "subject": "Violent microstirring",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0148:stir",
+        "predicate": "causes",
+        "object": "Loss of cuprous ions",
+        "object_role": "mechanism_process",
+        "object_id": "P0148:loss",
+        "quote": "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under high laser power density irradiation; proposed competitive-process interpretation",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 1318
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0148:r011",
+        "subject": "Loss of cuprous ions",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0148:loss",
+        "predicate": "causes",
+        "object": "Incomplete consecutive discharge reduction",
+        "object_role": "mechanism_process",
+        "object_id": "P0148:incomplete",
+        "quote": "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under high laser power density irradiation; proposed competitive-process interpretation",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 1318
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0148:r012",
+        "subject": "Copper electrode in acidic copper sulfate solution under laser irradiation",
+        "subject_role": "material_entity",
+        "subject_id": "P0148:system",
+        "predicate": "can_exhibit",
+        "object": "Net etching instead of electroless deposition",
+        "object_role": "mechanism_process",
+        "object_id": "P0148:etch",
+        "quote": "The rather peculiar decay of the copper deposition rate at high incident laser power densities can be interpreted to be owing to three competitive processes involved in the electroless copper deposition: (i) a thermogalvanic deposition process, which is the predominant one at the lower incident laser power densities condition, (ii) a copper dissolution process due to the corrosion reaction, Cu + Cu+2 --> 2Cu+, which is predominant at high incident laser power densities, (iii) incomplete consecutive discharge reduction process due to the loss of cuprous ions by violent microstirring under high laser power density irradiation condition. ",
+        "context_quotes": [
+          "A net etching effect instead of an electroless deposition can be obtained under the extreme case."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under the extreme high-power irradiation case",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 1318
+          },
+          {
+            "start": 1318,
+            "end": 1415
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0149",
+    "domain": "TG",
+    "input_hash": "5604b7a3e2c879c2d1b957a5b18806da7ec355ccd35c49735362cb57442bbf89",
+    "article_role": "review",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0149:r001",
+        "subject": "Thermo-electrochemical cells driven by low-grade heat",
+        "subject_role": "material_entity",
+        "subject_id": "P0149:cell",
+        "predicate": "has",
+        "object": "Ultrahigh Seebeck coefficient",
+        "object_role": "quantity",
+        "object_id": "P0149:s",
+        "quote": "In recent years, thermo-electrochemical cells (also known as thermocells or thermogalvanic cells) driven by low-grade heat have been emerging as a cutting-edge technology due to their ultrahigh Seebeck coefficient, high flexibility and low cost, and they possess large application prospects in wearable electronic devices, self-powered Internet-of-Thing sensors and industrial waste heat recovery. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 97,
+            "end": 495
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0149:r002",
+        "subject": "Thermo-electrochemical cells driven by low-grade heat",
+        "subject_role": "material_entity",
+        "subject_id": "P0149:cell",
+        "predicate": "has",
+        "object": "High flexibility",
+        "object_role": "performance_function",
+        "object_id": "P0149:flex",
+        "quote": "In recent years, thermo-electrochemical cells (also known as thermocells or thermogalvanic cells) driven by low-grade heat have been emerging as a cutting-edge technology due to their ultrahigh Seebeck coefficient, high flexibility and low cost, and they possess large application prospects in wearable electronic devices, self-powered Internet-of-Thing sensors and industrial waste heat recovery. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 97,
+            "end": 495
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0149:r003",
+        "subject": "Thermo-electrochemical cells driven by low-grade heat",
+        "subject_role": "material_entity",
+        "subject_id": "P0149:cell",
+        "predicate": "has",
+        "object": "Low cost",
+        "object_role": "descriptor",
+        "object_id": "P0149:cost",
+        "quote": "In recent years, thermo-electrochemical cells (also known as thermocells or thermogalvanic cells) driven by low-grade heat have been emerging as a cutting-edge technology due to their ultrahigh Seebeck coefficient, high flexibility and low cost, and they possess large application prospects in wearable electronic devices, self-powered Internet-of-Thing sensors and industrial waste heat recovery. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 97,
+            "end": 495
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0149:r004",
+        "subject": "Thermo-electrochemical cells driven by low-grade heat",
+        "subject_role": "material_entity",
+        "subject_id": "P0149:cell",
+        "predicate": "proposed_for",
+        "object": "Wearable electronics, self-powered IoT sensors and industrial waste heat recovery",
+        "object_role": "application",
+        "object_id": "P0149:uses",
+        "quote": "In recent years, thermo-electrochemical cells (also known as thermocells or thermogalvanic cells) driven by low-grade heat have been emerging as a cutting-edge technology due to their ultrahigh Seebeck coefficient, high flexibility and low cost, and they possess large application prospects in wearable electronic devices, self-powered Internet-of-Thing sensors and industrial waste heat recovery. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 97,
+            "end": 495
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0149:r005",
+        "subject": "Electrode and electrolyte material improvements",
+        "subject_role": "design_strategy",
+        "subject_id": "P0149:design",
+        "predicate": "improves",
+        "object": "Thermocell power density",
+        "object_role": "performance_function",
+        "object_id": "P0149:power",
+        "quote": "In the past years, a large deal of work has been conducted to improve the power density and conversion efficiency from the aspects of electrode materials, electrolyte materials, etc., and giant advances have been achieved. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Reported advances across prior work; individual material contributions unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 495,
+            "end": 718
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0149:r006",
+        "subject": "Electrode and electrolyte material improvements",
+        "subject_role": "design_strategy",
+        "subject_id": "P0149:design",
+        "predicate": "improves",
+        "object": "Thermocell conversion efficiency",
+        "object_role": "performance_function",
+        "object_id": "P0149:eff",
+        "quote": "In the past years, a large deal of work has been conducted to improve the power density and conversion efficiency from the aspects of electrode materials, electrolyte materials, etc., and giant advances have been achieved. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Reported advances across prior work; individual material contributions unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 495,
+            "end": 718
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0149:r007",
+        "subject": "Low power density and conversion efficiency",
+        "subject_role": "performance_function",
+        "subject_id": "P0149:limits",
+        "predicate": "hinders",
+        "object": "Commercial thermocell applications",
+        "object_role": "application",
+        "object_id": "P0149:commercial",
+        "quote": "However, the commercial applications of thermocells are still hindered by their low power density and conversion efficiency. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "review_synthesis",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 718,
+            "end": 843
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0150",
+    "domain": "TG",
+    "input_hash": "9d642fbab5f0972940b47afdb608d9ef26b0f3e46277bed386e2f6004e9decd5",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0150:r001",
+        "subject": "Freeze-thaw synthesis",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0150:freeze",
+        "predicate": "produces",
+        "object": "PAAM/PVA/CNF hydrogel",
+        "object_role": "material_entity",
+        "object_id": "P0150:g",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 267,
+            "end": 509
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 267,
+            "end": 509
+          }
+        ]
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0150:r002",
+        "subject": "PAAM/PVA/CNF hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0150:g",
+        "predicate": "has_structure",
+        "object": "Triple-network structure",
+        "object_role": "state_structure",
+        "object_id": "P0150:network",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 267,
+            "end": 509
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0150:r003",
+        "subject": "Optimization of polymer composition and soaking time",
+        "subject_role": "design_strategy",
+        "subject_id": "P0150:opt",
+        "predicate": "achieves",
+        "object": "Ionic conductivity of 168 mS cm−1",
+        "object_role": "quantity",
+        "object_id": "P0150:conduct",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [
+          "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "PAAM/PVA/CNF hydrogel soaked in Fe(CN)6 3−/4− redox electrolyte",
+        "joint_factors": [
+          "composition",
+          "time"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 267,
+            "end": 509
+          },
+          {
+            "start": 509,
+            "end": 684
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0150:r004",
+        "subject": "Optimization of polymer composition and soaking time",
+        "subject_role": "design_strategy",
+        "subject_id": "P0150:opt",
+        "predicate": "maintains",
+        "object": "Thermopower of approximately 1.69 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0150:s",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [
+          "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "PAAM/PVA/CNF hydrogel soaked in Fe(CN)6 3−/4− redox electrolyte",
+        "joint_factors": [
+          "composition",
+          "time"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 267,
+            "end": 509
+          },
+          {
+            "start": 509,
+            "end": 684
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0150:r005",
+        "subject": "PAAM/PVA/CNF hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0150:g",
+        "predicate": "has_structure",
+        "object": "Hydrogel fractal microstructure",
+        "object_role": "state_structure",
+        "object_id": "P0150:fractal",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "conditions": "Revealed by SAXS",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 267,
+            "end": 509
+          },
+          {
+            "start": 684,
+            "end": 823
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 684,
+            "end": 823
+          }
+        ]
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0150:r006",
+        "subject": "Hydrogel fractal microstructure",
+        "subject_role": "state_structure",
+        "subject_id": "P0150:fractal",
+        "predicate": "provides",
+        "object": "Ionic conductivity of 168 mS cm−1",
+        "object_role": "quantity",
+        "object_id": "P0150:conduct",
+        "quote": "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . ",
+        "context_quotes": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "conditions": "As revealed by SAXS",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 509,
+            "end": 684
+          },
+          {
+            "start": 684,
+            "end": 823
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 684,
+            "end": 823
+          }
+        ]
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0150:r007",
+        "subject": "Thermoelectric generator array",
+        "subject_role": "material_entity",
+        "subject_id": "P0150:array",
+        "predicate": "exhibits",
+        "object": "Power output of 28.7 μW",
+        "object_role": "performance_function",
+        "object_id": "P0150:power",
+        "quote": "Moreover, the as-fabricated thermoelectric generator array exhibits an exceptional power output of 28.7 mu W at a temperature difference of 11.9 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Temperature difference of 11.9 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 823,
+            "end": 971
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0151",
+    "domain": "TG",
+    "input_hash": "99761e5152d4645656e788073d78da383a195ce2c65f95e95ecc52e8fb4799c1",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0151:r001",
+        "subject": "Nonisothermal plate experimental simulation",
+        "subject_role": "design_strategy",
+        "subject_id": "P0151:plate",
+        "predicate": "simulates",
+        "object": "Thermogalvanic corrosion in heat exchangers",
+        "object_role": "mechanism_process",
+        "object_id": "P0151:corrosion",
+        "quote": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 183
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 0,
+            "end": 183
+          }
+        ]
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0151:r002",
+        "subject": "Computer solution of electrochemical kinetic problems",
+        "subject_role": "design_strategy",
+        "subject_id": "P0151:model",
+        "predicate": "simulates",
+        "object": "Thermogalvanic corrosion in heat exchangers",
+        "object_role": "mechanism_process",
+        "object_id": "P0151:corrosion",
+        "quote": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "computational",
+        "modality_evidence": [
+          "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. "
+        ],
+        "conditions": "Theoretical simulation using a computer to solve electrochemical kinetic problems",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 183
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 0,
+            "end": 183
+          }
+        ]
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0151:r003",
+        "subject": "Computer solution of electrochemical kinetic problems",
+        "subject_role": "design_strategy",
+        "subject_id": "P0151:model",
+        "predicate": "achieves",
+        "object": "Good agreement between theoretical and experimental data",
+        "object_role": "performance_function",
+        "object_id": "P0151:agreement",
+        "quote": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+        "context_quotes": [
+          "The simulation techniques have been tested for thermogalvanic corrosion of iron in acid sulfate electrolyte with a variable temperature distribution along the metal surface. ",
+          "The tests showed a good agreement of theoretical and experimental data."
+        ],
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "modality_evidence": [
+          "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+          "The tests showed a good agreement of theoretical and experimental data."
+        ],
+        "conditions": "Tested against nonisothermal-plate experiments for iron corrosion in acid sulfate electrolyte with variable temperature distribution along the metal surface",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 183
+          },
+          {
+            "start": 183,
+            "end": 357
+          },
+          {
+            "start": 357,
+            "end": 428
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 0,
+            "end": 183
+          },
+          {
+            "start": 357,
+            "end": 428
+          }
+        ]
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0152",
+    "domain": "TG",
+    "input_hash": "575dae624a4f1a14554355984578596a8111d4abd6c5a38eea2560940171e2e2",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0152:r001",
+        "subject": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "subject_role": "material_entity",
+        "subject_id": "P0152:inhibitors",
+        "predicate": "significantly_reduces",
+        "object": "Thermogalvanic corrosion intensity",
+        "object_role": "quantity",
+        "object_id": "P0152:corrosion",
+        "quote": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. ",
+        "context_quotes": [
+          "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Iron plate with tangential thermal gradient in sulfate-containing acid solution; individual inhibitor contributions unspecified",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 247
+          },
+          {
+            "start": 247,
+            "end": 485
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0152:r002",
+        "subject": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "subject_role": "material_entity",
+        "subject_id": "P0152:inhibitors",
+        "predicate": "reduces",
+        "object": "Thermogalvanic currents",
+        "object_role": "quantity",
+        "object_id": "P0152:current",
+        "quote": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. ",
+        "context_quotes": [
+          "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "By factors of 1.3–2.0; iron plate with tangential thermal gradient in sulfate-containing acid solution; individual inhibitor contributions unspecified",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 247
+          },
+          {
+            "start": 247,
+            "end": 485
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0152:r003",
+        "subject": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "subject_role": "material_entity",
+        "subject_id": "P0152:inhibitors",
+        "predicate": "reduces",
+        "object": "Total weight tosses of iron",
+        "object_role": "quantity",
+        "object_id": "P0152:loss",
+        "quote": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. ",
+        "context_quotes": [
+          "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "By factors of 1.1–1.4 in the thermoelectric zone; iron plate with tangential thermal gradient in sulfate-containing acid solution",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "uncertain",
+        "note": "Source says 'weight tosses'; likely corrupted wording retained.",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 247
+          },
+          {
+            "start": 247,
+            "end": 485
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0153",
+    "domain": "TG",
+    "input_hash": "ed72ca8686b9d9d9f05a6d2296b01dea8eb7d1cc03557de9a85bca9e12398a6f",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0153:r001",
+        "subject": "Satisfactory correlation of experimental and theoretical data",
+        "subject_role": "performance_function",
+        "subject_id": "P0153:agreement",
+        "predicate": "supports_design_of",
+        "object": "Models based on electrochemical kinetics",
+        "object_role": "design_strategy",
+        "object_id": "P0153:models",
+        "quote": "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "modality_evidence": [
+          "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. "
+        ],
+        "conditions": "For dissolution of an iron plate with tangential temperature gradient in acid sulfate media",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 163,
+            "end": 311
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 163,
+            "end": 311
+          }
+        ]
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0153:r002",
+        "subject": "Models based on electrochemical kinetics",
+        "subject_role": "design_strategy",
+        "subject_id": "P0153:models",
+        "predicate": "may_quantitatively_predict",
+        "object": "Thermogalvanic effects during nonisothermal iron plate dissolution",
+        "object_role": "mechanism_process",
+        "object_id": "P0153:effects",
+        "quote": "A current distribution is studied along an iron plate with a tangential temperature gradient in the course of its dissolution in acid sulfate media of various pH. ",
+        "context_quotes": [
+          "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. ",
+          "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+        ],
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "modality_evidence": [
+          "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+        ],
+        "conditions": "Using computer methods for the systems studied: iron plate dissolution with tangential temperature gradient in acid sulfate media of various pH",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 163
+          },
+          {
+            "start": 163,
+            "end": 311
+          },
+          {
+            "start": 311,
+            "end": 494
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 311,
+            "end": 494
+          }
+        ]
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0153:r003",
+        "subject": "pH effect",
+        "subject_role": "descriptor",
+        "subject_id": "P0153:ph",
+        "predicate": "appears_commensurate_with",
+        "object": "Thermal effect",
+        "object_role": "descriptor",
+        "object_id": "P0153:thermal",
+        "quote": "A current distribution is studied along an iron plate with a tangential temperature gradient in the course of its dissolution in acid sulfate media of various pH. ",
+        "context_quotes": [
+          "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+        ],
+        "assertion": "association",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Thermogalvanic effects in the studied nonisothermal iron dissolution systems; computer-model discussion",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 163
+          },
+          {
+            "start": 311,
+            "end": 494
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0154",
+    "domain": "TG",
+    "input_hash": "0f8d812a83c2561fffb1134cc91756e9e68252e31cd6f8b740ed73a840ee8918",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0154:r001",
+        "subject": "Ti3C2Tx MXene/SWCNT/PANI ternary composite film electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:electrode",
+        "predicate": "exhibits",
+        "object": "Flexibility",
+        "object_role": "performance_function",
+        "object_id": "P0154:flex",
+        "quote": "This work presents a rational design of flexible film electrodes constructed on a ternary composite of Ti3C2Tx MXene (T-x represents surface terminations), polyaniline (PANI) and single-wall carbon nanotubes for TECs, which exhibit notably enhanced thermoelectrochemical performance compared to the widely adopted noble platinum electrodes. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 282,
+            "end": 623
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0154:r002",
+        "subject": "Ti3C2Tx MXene/SWCNT/PANI ternary composite film electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:electrode",
+        "predicate": "exhibits",
+        "object": "Enhanced thermoelectrochemical performance",
+        "object_role": "performance_function",
+        "object_id": "P0154:performance",
+        "quote": "This work presents a rational design of flexible film electrodes constructed on a ternary composite of Ti3C2Tx MXene (T-x represents surface terminations), polyaniline (PANI) and single-wall carbon nanotubes for TECs, which exhibit notably enhanced thermoelectrochemical performance compared to the widely adopted noble platinum electrodes. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Compared with widely adopted noble platinum electrodes",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 282,
+            "end": 623
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0154:r003",
+        "subject": "Ti3C2Tx MXene/SWCNT/PANI ternary composite film electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:electrode",
+        "predicate": "forms",
+        "object": "Porous layered structure",
+        "object_role": "state_structure",
+        "object_id": "P0154:structure",
+        "quote": "This work presents a rational design of flexible film electrodes constructed on a ternary composite of Ti3C2Tx MXene (T-x represents surface terminations), polyaniline (PANI) and single-wall carbon nanotubes for TECs, which exhibit notably enhanced thermoelectrochemical performance compared to the widely adopted noble platinum electrodes. ",
+        "context_quotes": [
+          "The ternary composite electrodes form a porous layered structure with a large electrochemical-active surface area. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 282,
+            "end": 623
+          },
+          {
+            "start": 623,
+            "end": 738
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0154:r004",
+        "subject": "Ti3C2Tx MXene/SWCNT/PANI ternary composite film electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:electrode",
+        "predicate": "has",
+        "object": "Large electrochemically active surface area",
+        "object_role": "quantity",
+        "object_id": "P0154:area",
+        "quote": "The ternary composite electrodes form a porous layered structure with a large electrochemical-active surface area. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Porous layered structure",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 623,
+            "end": 738
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0154:r005",
+        "subject": "Synergistic effects of Ti3C2Tx and PANI",
+        "subject_role": "interaction",
+        "subject_id": "P0154:synergy",
+        "predicate": "promotes",
+        "object": "Mass transport at the electrolyte–electrode interface",
+        "object_role": "mechanism_process",
+        "object_id": "P0154:mass",
+        "quote": "Experiment and simulation results reveal that synergistic effects of Ti3C2Tx and PANI are induced for promoting both mass and charge transport at the electrolyte-electrode interface, resulting in a TEC with an output power of 13.15 mu W cm(-2) at the Delta T of 40 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "modality_evidence": [
+          "Experiment and simulation results reveal that synergistic effects of Ti3C2Tx and PANI are induced for promoting both mass and charge transport at the electrolyte-electrode interface, resulting in a TEC with an output power of 13.15 mu W cm(-2) at the Delta T of 40 K. "
+        ],
+        "conditions": "Experiment and simulation results",
+        "joint_factors": [
+          "mx",
+          "pani"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 738,
+            "end": 1006
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 738,
+            "end": 1006
+          }
+        ]
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0154:r006",
+        "subject": "Synergistic effects of Ti3C2Tx and PANI",
+        "subject_role": "interaction",
+        "subject_id": "P0154:synergy",
+        "predicate": "promotes",
+        "object": "Charge transport at the electrolyte–electrode interface",
+        "object_role": "mechanism_process",
+        "object_id": "P0154:charge",
+        "quote": "Experiment and simulation results reveal that synergistic effects of Ti3C2Tx and PANI are induced for promoting both mass and charge transport at the electrolyte-electrode interface, resulting in a TEC with an output power of 13.15 mu W cm(-2) at the Delta T of 40 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "modality_evidence": [
+          "Experiment and simulation results reveal that synergistic effects of Ti3C2Tx and PANI are induced for promoting both mass and charge transport at the electrolyte-electrode interface, resulting in a TEC with an output power of 13.15 mu W cm(-2) at the Delta T of 40 K. "
+        ],
+        "conditions": "Experiment and simulation results",
+        "joint_factors": [
+          "mx",
+          "pani"
+        ],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 738,
+            "end": 1006
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 738,
+            "end": 1006
+          }
+        ]
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0154:r007",
+        "subject": "TEC using the ternary composite electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:cell",
+        "predicate": "achieves",
+        "object": "Output power of 13.15 μW cm−2",
+        "object_role": "performance_function",
+        "object_id": "P0154:power",
+        "quote": "Experiment and simulation results reveal that synergistic effects of Ti3C2Tx and PANI are induced for promoting both mass and charge transport at the electrolyte-electrode interface, resulting in a TEC with an output power of 13.15 mu W cm(-2) at the Delta T of 40 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "ΔT = 40 K; attributed to promoted interfacial mass and charge transport",
+        "joint_factors": [
+          "mass",
+          "charge"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 738,
+            "end": 1006
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0154:r008",
+        "subject": "TEC using the ternary composite electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:cell",
+        "predicate": "exhibits",
+        "object": "Rapid response to a small body–ambient temperature difference",
+        "object_role": "performance_function",
+        "object_id": "P0154:response",
+        "quote": "Experiment and simulation results reveal that synergistic effects of Ti3C2Tx and PANI are induced for promoting both mass and charge transport at the electrolyte-electrode interface, resulting in a TEC with an output power of 13.15 mu W cm(-2) at the Delta T of 40 K. ",
+        "context_quotes": [
+          "The TEC also shows a rapid response to the small temperature difference between the human body and the ambient, demonstrating high potential in harvesting low-grade heat to power small electronics."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 738,
+            "end": 1006
+          },
+          {
+            "start": 1006,
+            "end": 1203
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0154:r009",
+        "subject": "TEC using the ternary composite electrodes",
+        "subject_role": "material_entity",
+        "subject_id": "P0154:cell",
+        "predicate": "proposed_for",
+        "object": "Harvesting low-grade heat to power small electronics",
+        "object_role": "application",
+        "object_id": "P0154:use",
+        "quote": "The TEC also shows a rapid response to the small temperature difference between the human body and the ambient, demonstrating high potential in harvesting low-grade heat to power small electronics.",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1006,
+            "end": 1203
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0155",
+    "domain": "TG",
+    "input_hash": "1ec98d0dbbf1fd46ad4e3e2474ad3630845dc70dcf41d2f6452ac08bc68ef7bf",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0155:r001",
+        "subject": "Combined 3D digital light processing and TE solvent exchange",
+        "subject_role": "design_strategy",
+        "subject_id": "P0155:combined",
+        "predicate": "enables",
+        "object": "Precise customization to specific heat-source geometries",
+        "object_role": "performance_function",
+        "object_id": "P0155:custom",
+        "quote": "To overcome these challenges, we combine 3D digital light processing with a thermoelectric (TE) solvent-exchange strategy, enabling the precise customization of stretchable hydrogel thermocells (DHFGs) that conform to specific heat-source geometries. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Stretchable DHFG thermocells conforming to specific heat-source geometries",
+        "joint_factors": [
+          "dlp",
+          "exchange"
+        ],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 618,
+            "end": 869
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0155:r002",
+        "subject": "3D-printed DHFG hydrogel thermocells",
+        "subject_role": "material_entity",
+        "subject_id": "P0155:g",
+        "predicate": "exhibits",
+        "object": "Stretchability",
+        "object_role": "performance_function",
+        "object_id": "P0155:stretch",
+        "quote": "To overcome these challenges, we combine 3D digital light processing with a thermoelectric (TE) solvent-exchange strategy, enabling the precise customization of stretchable hydrogel thermocells (DHFGs) that conform to specific heat-source geometries. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 618,
+            "end": 869
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0155:r003",
+        "subject": "Nonvolatile deep eutectic solvents in photopolymer ink precursors",
+        "subject_role": "material_entity",
+        "subject_id": "P0155:des",
+        "predicate": "forms",
+        "object": "Robust eutectogel networks",
+        "object_role": "state_structure",
+        "object_id": "P0155:network",
+        "quote": "Nonvolatile deep eutectic solvents in the photopolymer ink precursors form robust eutectogel networks through ultraviolet-initiated polymerization, ensuring high structural fidelity (down to 130 mu m). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Nonvolatile deep eutectic solvents in the photopolymer ink precursors form robust eutectogel networks through ultraviolet-initiated polymerization, ensuring high structural fidelity (down to 130 mu m). "
+        ],
+        "conditions": "Through ultraviolet-initiated polymerization",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 869,
+            "end": 1071
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 869,
+            "end": 1071
+          }
+        ]
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0155:r004",
+        "subject": "Robust eutectogel networks",
+        "subject_role": "state_structure",
+        "subject_id": "P0155:network",
+        "predicate": "ensures",
+        "object": "High structural fidelity down to 130 μm",
+        "object_role": "performance_function",
+        "object_id": "P0155:fidelity",
+        "quote": "Nonvolatile deep eutectic solvents in the photopolymer ink precursors form robust eutectogel networks through ultraviolet-initiated polymerization, ensuring high structural fidelity (down to 130 mu m). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 869,
+            "end": 1071
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0155:r005",
+        "subject": "3D-printed DHFG hydrogel thermocells",
+        "subject_role": "material_entity",
+        "subject_id": "P0155:g",
+        "predicate": "exhibits",
+        "object": "Thermoelectric performance of 3.5 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0155:s",
+        "quote": "The resulting 3D-printed thermocells exhibit excellent TE performance (3.5 mV K-1) and can be tailored to complex geometries. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1071,
+            "end": 1197
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0155:r006",
+        "subject": "3D-printed DHFG hydrogel thermocells",
+        "subject_role": "material_entity",
+        "subject_id": "P0155:g",
+        "predicate": "supports",
+        "object": "Precise customization to specific heat-source geometries",
+        "object_role": "performance_function",
+        "object_id": "P0155:custom",
+        "quote": "To overcome these challenges, we combine 3D digital light processing with a thermoelectric (TE) solvent-exchange strategy, enabling the precise customization of stretchable hydrogel thermocells (DHFGs) that conform to specific heat-source geometries. ",
+        "context_quotes": [
+          "The resulting 3D-printed thermocells exhibit excellent TE performance (3.5 mV K-1) and can be tailored to complex geometries. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Can be tailored to complex geometries",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 618,
+            "end": 869
+          },
+          {
+            "start": 1071,
+            "end": 1197
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0155:r007",
+        "subject": "Conformal design through geometric matching",
+        "subject_role": "design_strategy",
+        "subject_id": "P0155:conformal",
+        "predicate": "provides",
+        "object": "Effective working ambient temperature range extended by 6.0 K",
+        "object_role": "performance_function",
+        "object_id": "P0155:range",
+        "quote": "This conformal design extends the effective working ambient temperature range by 6.0 K and boosts output power to similar to 350% of that of an unmatched DHFG. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1197,
+            "end": 1357
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0155:r008",
+        "subject": "Conformal design through geometric matching",
+        "subject_role": "design_strategy",
+        "subject_id": "P0155:conformal",
+        "predicate": "boosts",
+        "object": "Output power approximately 350% of unmatched DHFG",
+        "object_role": "performance_function",
+        "object_id": "P0155:power",
+        "quote": "This conformal design extends the effective working ambient temperature range by 6.0 K and boosts output power to similar to 350% of that of an unmatched DHFG. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Compared with unmatched DHFG",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1197,
+            "end": 1357
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0155:r009",
+        "subject": "Microstructured DHFG",
+        "subject_role": "material_entity",
+        "subject_id": "P0155:micro",
+        "predicate": "exhibits",
+        "object": "Pressure sensitivity of 0.35 kPa−1",
+        "object_role": "performance_function",
+        "object_id": "P0155:sensitivity",
+        "quote": "Additionally, the microstructured DHFG demonstrates superior pressure sensitivity (0.35 kPa(-1)) within a low-pressure range (<1.0 kPa), at similar to 4.4 times higher than its unstructured counterparts. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Pressure below 1.0 kPa; approximately 4.4 times the sensitivity of unstructured counterparts",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1357,
+            "end": 1561
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0155:r010",
+        "subject": "Conformal design through geometric matching",
+        "subject_role": "design_strategy",
+        "subject_id": "P0155:conformal",
+        "predicate": "enables",
+        "object": "Optimized thermal-energy utilization",
+        "object_role": "performance_function",
+        "object_id": "P0155:utilization",
+        "quote": "This approach optimizes thermal-energy utilization through geometric matching, simplifies assembly and paves the way for flexible thermocells with high TE performance, complex architectures and multifunctionality.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through geometric matching",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1561,
+            "end": 1774
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0155:r011",
+        "subject": "Combined 3D digital light processing and TE solvent exchange",
+        "subject_role": "design_strategy",
+        "subject_id": "P0155:combined",
+        "predicate": "enables",
+        "object": "Simplified assembly",
+        "object_role": "performance_function",
+        "object_id": "P0155:assembly",
+        "quote": "To overcome these challenges, we combine 3D digital light processing with a thermoelectric (TE) solvent-exchange strategy, enabling the precise customization of stretchable hydrogel thermocells (DHFGs) that conform to specific heat-source geometries. ",
+        "context_quotes": [
+          "This approach optimizes thermal-energy utilization through geometric matching, simplifies assembly and paves the way for flexible thermocells with high TE performance, complex architectures and multifunctionality."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "dlp",
+          "exchange"
+        ],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 618,
+            "end": 869
+          },
+          {
+            "start": 1561,
+            "end": 1774
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0156",
+    "domain": "TG",
+    "input_hash": "8d7460a4b77665398c4e25285f7224228217951ff91ee40aefdb1f8afe94b061",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0156:r001",
+        "subject": "Integrated hydrogel-based photothermoelectric device",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:d",
+        "predicate": "integrates",
+        "object": "Cotton/PPy photothermal layer",
+        "object_role": "material_entity",
+        "object_id": "P0156:layer",
+        "quote": "In this study, an integrated photothermoelectric (PTE) device was fabricated. ",
+        "context_quotes": [
+          "This device consists of a cotton/PPy photothermal layer and a thermoelectric hydrogel, with [Fe(CN)6]3-/4- serving as a redox couple. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 408,
+            "end": 486
+          },
+          {
+            "start": 486,
+            "end": 620
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0156:r002",
+        "subject": "Integrated hydrogel-based photothermoelectric device",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:d",
+        "predicate": "integrates",
+        "object": "Thermoelectric hydrogel",
+        "object_role": "material_entity",
+        "object_id": "P0156:hydrogel",
+        "quote": "In this study, an integrated photothermoelectric (PTE) device was fabricated. ",
+        "context_quotes": [
+          "This device consists of a cotton/PPy photothermal layer and a thermoelectric hydrogel, with [Fe(CN)6]3-/4- serving as a redox couple. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 408,
+            "end": 486
+          },
+          {
+            "start": 486,
+            "end": 620
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0156:r003",
+        "subject": "Fe(CN)6 3−/4−",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:redox",
+        "predicate": "serves_as",
+        "object": "Redox couple function",
+        "object_role": "interaction",
+        "object_id": "P0156:redoxrole",
+        "quote": "This device consists of a cotton/PPy photothermal layer and a thermoelectric hydrogel, with [Fe(CN)6]3-/4- serving as a redox couple. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the integrated PTE device",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 486,
+            "end": 620
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0156:r004",
+        "subject": "Integrated hydrogel-based photothermoelectric device",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:d",
+        "predicate": "sustains",
+        "object": "Stable voltage output of 31.42 mV",
+        "object_role": "performance_function",
+        "object_id": "P0156:stable",
+        "quote": "The PTE device demonstrated remarkable stability, sustaining a consistent voltage output of 31.42 mV under the solar intensity of 150 mW cm-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Solar intensity of 150 mW cm−2",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 620,
+            "end": 763
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0156:r005",
+        "subject": "Four series-connected PTE devices with a voltage amplifier",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:series",
+        "predicate": "can_enable",
+        "object": "Powering small electronic devices",
+        "object_role": "application",
+        "object_id": "P0156:use",
+        "quote": "When four PTE devices were connected in series and integrated with a voltage amplifier, they exhibited the capacity to power small electronic devices under illumination. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under illumination",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 763,
+            "end": 933
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0156:r006",
+        "subject": "Integrated hydrogel-based photothermoelectric device",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:d",
+        "predicate": "exhibits",
+        "object": "Intrinsic thermogalvanic operation",
+        "object_role": "mechanism_process",
+        "object_id": "P0156:tg",
+        "quote": "Intriguingly, the PTE devices also functioned as thermogalvanic units intrinsically. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 933,
+            "end": 1018
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0156:r007",
+        "subject": "Integrated hydrogel-based photothermoelectric device",
+        "subject_role": "material_entity",
+        "subject_id": "P0156:d",
+        "predicate": "retains",
+        "object": "Electricity generation using body heat",
+        "object_role": "performance_function",
+        "object_id": "P0156:body",
+        "quote": "In the absence of light, they retained their electricity-generation ability by harnessing body heat. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the absence of light",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1018,
+            "end": 1119
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  }
+]

@@ -1,0 +1,341 @@
+group_index,class_id,original_members,original_equivalent_edges,priority_incomplete_or_inconsistent,judge_decision,draft_partitions,accepted_edges,rejected_edges,uncertain_edges,judge_reason,secondary_review_note,status,merge_applied
+0,iTE:P1958:n2,130,661,True,split,21,264,285,112,130成员及661既有建议全部逐组读取并按定义划分。thermopower/TEP/Seebeck/S通常同义，但仅在同一载流范围及测量定义下；原摘要证明P0660/P1024/P1210/P1520/P1614是红氧系数，P0595是电子SWCNT，P0547是电动学等效系数，P0804是Kelvin近似，P1676为质子加空穴的总响应。电子、离子、红氧、混合、符号幅值、加权贡献、非线性有限温差系数不可整体传递合并。节点属性及原始数值保留，未确定定义者不跨组接受。,复核确认P1711已单列为热扩散与NH4热脱嵌混合系数，完整摘要支持该边界，维持原分区。其他电子、离子、红氧、混合、器件级及带限定分区保留，原待定不强制接受。,reviewed,False
+1,iTE:P1964:n2,67,314,True,split,13,197,101,16,67成员逐一读取。完整摘要确认P0377/P0399/P0518/P1639/P1903离子导电，P0959/P1050/P1599混合导电，P1359电子极化子DC，P1964明确离子DC。电子电导、离子电导、两者总和及DC条件不互为严格同义；higher/high/enhanced状态分离。未明载流机制与分量回指保留待定。,电导率继续区分电子、离子、混合及DC条件；高/较高/增强限定和来源不明节点保留。P0533原文把electrical和ionic分列，P0944电子复合膜证据支持原额外接受对。,reviewed,False
+2,iTE:P1163:n2,38,137,True,uncertain,14,43,5,89,38成员中properties为性质集合、performance为综合评价，不能默认互换；载流机制和指标范围又不一致。对明确定义同一层级的子组接受；跨层级缺少评价函数，保留uncertain，高/最高等明确限定另拒绝。P0687摘要表明14实际以Seebeck为预测目标，P1454为CuI电子热电纺织品。,properties集合与performance评价继续分开，并保留机制范围。指标未定义的跨分区待定合理，不能以相似论文主题代替相同评价函数。,reviewed,False
+3,TG:P0265:n1,32,140,True,split,9,94,46,0,普通电化学系数、混合Soret/红氧系数、腐蚀复合响应、有限温差表观响应、初始条件和非对称电极响应分别保留。P0104的化学平衡温差依赖与P0119的腐蚀贡献不同；不能合并两个apparent节点。P0215保留initial限定，但摘要不支持进一步断言瞬态。,电化学、Soret/红氧混合、腐蚀复合、非对称电极和初始条件不同。P0104与P0119已拆分，初始不擅自断言瞬态；Te纳米线电子系数保持分离。,reviewed,False
+4,iTE:P1296:n2,32,132,True,split,4,119,13,0,除6/16/28外29个节点均材料总体热导率κ，total/overall为同量展开；30说明声子主导但仍总κ。16明确phonon thermal conductivity是分量；6明确large高值；28为晶界局部热导属性，不能直接当均匀体相热导率。,总体热导率与声子分量、晶界局部量、高值限定的分拆合理。P1783说明主要传热机制，不自动把测得总热导的对象改成一个独立分量。,reviewed,False
+5,iTE:P1135:n2,27,116,True,split,7,74,42,0,一般电子材料ZT=热电优值同义缩写；0为离子电解质ZT，12为液体红氧转换ZT；2限定高温，10限定接近1，16/22限定高ZT，23原文为自旋分辨ZT。不能把性能同类当同定义。,ZT/figure of merit缩写在电子材料量层面一致；离子、红氧、单自旋和显式高温/高值限定仍分开。样品数值接近1不等于把无限定标签都改成near-unity概念。,reviewed,False
+6,iTE:P1648:n2,26,147,True,accept,1,147,0,0,二十六节点均晶格热导率κL；9与20虽写lattice heat transport，但均给W m-1 K-1并以κL/极限值定量，明确为传导系数而非过程。所有成员定义一致，不是借连通性传递。,26成员共同为晶格热导率；两处heat transport有κL或W m−1 K−1量纲支撑，非无量纲的传热过程。个别可疑数值原样保留，不据此新造物理结论。,reviewed,False
+7,iTE:P1876:n2,26,120,True,split,7,50,69,1,修订：enhanced power factor为增强后的状态，enhancement in the power factor为变化过程，拆开25与15/24。普通电子、离子、混合及最大值仍按原定义分开。,修订：enhanced power factor为增强后的状态，enhancement in the power factor为变化过程，拆开25与15/24。普通电子、离子、混合及最大值仍按原定义分开。,reviewed,False
+8,iTE:P1557:n2,25,128,True,split,3,125,3,0,除12/23外各成员均一般离子电导率，包括被否定存在的21/24仍是该物理量；12明确ionogel、23明确SPE材料限定，不删除这些范围。,离子电导率共同定义成立；离子凝胶及SPE显式对象限定单列。否定ionic conductivity存在的句子仍提到同一概念，但否定断言不能变成正向科学关系。,reviewed,False
+9,TG:P0218:n3,22,46,True,split,6,23,13,10,5/11/15/16/18/21单位明确面积功率密度；0/14密度分母尚未给出先单列；2/4/6/7/9/10/12/17/19是输出功率量；1/3/8/20是发电过程；13限定盐水驱动。不能把过程、功率和密度闭包合并。,输出功率、按面积归一的功率密度和发电过程分开；原文μW/cm²和W/m²支持密度组，未给密度分母的节点继续待定。,reviewed,False
+10,iTE:P1952:n1,21,48,True,split,8,34,14,0,三价稀土半径组保留；含Bi的R3+集合、碱金属、碱土、其他M3+及下降事件仍单列。修正旧理由中仍列8属于稀土的过期表述。,三价稀土半径组保留；含Bi的R3+集合、碱金属、碱土、其他M3+及下降事件仍单列。修正旧理由中仍列8属于稀土的过期表述。,reviewed,False
+11,iTE:P1970:n2,21,39,True,uncertain,19,2,2,35,保留严格待定。低/超低阈值与材料温区不统一；已经拆开的reduced状态和reduction/decrease过程继续分离。旧理由仍称四者同一过程的表述应修正。,保留严格待定。低/超低阈值与材料温区不统一；已经拆开的reduced状态和reduction/decrease过程继续分离。旧理由仍称四者同一过程的表述应修正。,reviewed,False
+12,iTE:P1169:n2,18,51,True,accept,1,51,0,0,十八个成员逐一均在离子导体/电解质中指温度梯度驱动的离子扩散；3和13直接定义，10直接展开同义。11虽否定其主导作用但概念仍同一机制，不能以否定句误判不同概念。,全部成员在离子/电解质语境下指Soret热扩散，包括原文直接同义展开；被否定为主导机制不改变被提及概念的定义。,reviewed,False
+13,iTE:P1354:n2,17,53,True,split,6,32,21,0,0/1/2/3/4/6/12/13/15/16为通常电子载流子迁移率；5/10/11为高值；7相对较高；8明确增强的Hall迁移率；9为电子比空穴更好；14为OECT提取的器件有效迁移率，不能用同词跨定义闭包。,普通迁移率、高值、较高、Hall增强、电子/空穴比较及OECT器件提取量的边界保留；不将不同测量定义强制合一。,reviewed,False
+14,TG:P0227:n2,16,79,True,split,2,52,27,0,0/1/2/3/4/5/6/10/11/12/13/14/15均热电化学电池热电势系数；7完整摘要及8/9明确叠加Soret和热电化学效应，总热响应不等同单独电化学系数。,普通热电化学系数与叠加Soret的总响应分开，电极相变等来源机制仍有电化学系数的定义基础；不与电功率同义。,reviewed,False
+15,iTE:P1103:n1,16,62,True,accept,1,62,0,0,十六成员都是半导体/导电聚合物的电子载流子数浓度，density与concentration同量；不把电子/空穴具体数值或符号合并，也不延伸到离子浓度。,,reviewed,False
+16,TG:P0247:n2,13,24,True,split,2,23,1,0,0至11均电解质离子热扩散/Soret效应，2泛称由本组电解质上下文约束；12特指质子热扩散，保留物种限定。,电解质热扩散/Soret分区可保留；明确质子扩散限制物种范围，继续分开。热扩散与Dufour热流不因共同出现而合并。,reviewed,False
+17,iTE:P1548:n2,12,17,True,split,9,2,15,0,0载流子生成能，1/2/3由电导提取Ag+迁移活化能；4复合电导和热电势活化能；5Cu迁移NEB势垒；6Cu离子传导活化能；7含空位生成贡献；8Ag+微观势垒；9/10电子电导活化能；11Na导电活化能。共同energy词不保证同量。,载流子生成能、电导活化能、微观迁移势垒、含空位形成贡献的输运能垒不能直接合并；Ag+电导提取同类量和电子电导活化能分别保留。,reviewed,False
+18,iTE:P1742:n1,12,23,True,split,3,17,6,0,0/2/3/4/7为键合离子性属性；1/6/8/9/10/11为离子键/键合类型；5特指Rb和Fr原子的离子性。键合类型与离子性程度相关但不严格同义。,键合离子性属性与离子键类型保持分开；具体Rb/Fr对象限定不消除。单复数bond/bonding可归同一键型。,reviewed,False
+19,iTE:P1970:n1,12,25,True,split,5,21,4,0,修订：enhanced phonon scattering指增强后的散射状态，increase in phonon scattering指增强过程，拆开9/11。一般散射、多波长及强散射范围继续保留。,修订：enhanced phonon scattering指增强后的散射状态，increase in phonon scattering指增强过程，拆开9/11。一般散射、多波长及强散射范围继续保留。,reviewed,False
+20,TG:P0251:n7,11,45,True,uncertain,3,27,0,18,修订P0201：该综述明确将Soret纳入thermogalvanic范围，与只取红氧电位机制的共同定义不完全一致，单列待定。SmCl3热刺激去极化节点继续待定，其余红氧机制保留。,修订P0201：该综述明确将Soret纳入thermogalvanic范围，与只取红氧电位机制的共同定义不完全一致，单列待定。SmCl3热刺激去极化节点继续待定，其余红氧机制保留。,reviewed,False
+21,iTE:P1860:n1,11,21,True,split,4,11,10,0,1/5/8/9为晶格/声子非谐性一般属性；0/3/4/6/7/10明确高/强晶格非谐性；2为比较greater，未定义达到高值。；动力学现象与非谐性性质拆开。,一般非谐性、高/强非谐性、相对greater和非谐动力学现象分开。已完成的动力学现象拆分保留。,reviewed,False
+22,iTE:P1558:n2,11,13,True,split,2,12,1,0,0/1/2/3/4为离子迁移或界面极化造成负热电响应，完整摘要核实2/3/4；5/6/7/8/9/10为电子为主的半导体n型导电，不可因n-type同名合并。,保留离子负热响应与电子n型两类。电子子组中的conduction/conductivity在原句均用于判别载流子类型，不表示数值电导率；旧角色差异不能直接推出不同概念。,reviewed,False
+23,TG:P0204:n3,10,21,True,split,3,15,6,0,0/1/2/3/4/6/8/9均由热刺激产生的热电压，9摘要排除交变压电信号；5的0.71V只有约33%热贡献，不能等同纯热电压；7为热充电赝电容和红氧复合单元输出，独立保留。,纯热致输出与包含额外电化学势/赝电容贡献的总输出分开；光热产生的温差不等于直接光伏输出，原先补读摘要支持该归属。,reviewed,False
+24,iTE:P0858:n1,10,13,True,uncertain,10,0,4,9,完整摘要证实0=EMIM:TFSI、1=MMIM:DCA、3=EMIM乙基硫酸盐、9=EMIM:TCB；2还比较EMIM/Li TFSI，其他未给明确化学身份。不能把所有IL短称当同一材料。已知不同物种逐对拒绝，其余保留待定。,IL在这些句子中回指实际不同化学物质，不是可把实例吞并的通用材料标签；已明确EMIM:TFSI、MMIM:DCA、EMIM乙基硫酸盐、EMIM:TCB差异，其余身份未定继续待定。,reviewed,False
+25,iTE:P1901:n2,10,20,True,uncertain,2,19,0,1,0-7/9均为电子价导带能隙，直接间接描述是材料背景；8段混合讨论18电子半导体隙及单自旋隙，不能确认该节点具体对象。,电子能隙类型可归共同定义，直接/间接及材料数值保留；P1883涉及单自旋缺口，对象不清，继续待定。,reviewed,False
+26,iTE:P0597:n2,10,17,True,split,3,14,3,0,0/1/2/4/5/6/8/9均离子热驱动装置电压，界面/体相贡献是成因；3明确高值，7为p-n结内部电势差不能直接当端输出。,热致离子端电压分区保留；高值和p-n结内部电势另列。体相迁移与界面极化是电压成因，原始关系中继续保留差别。,reviewed,False
+27,TG:P0321:n2,9,17,True,accept,1,17,0,0,九个成员均输出电能/输入热能的转换效率，含循环与稳态装置；4的原文明确区分绝对1.32%和相对Carnot20%，节点取绝对效率。,热转电效率的能量比定义可在类型层面保留；绝对效率不与Carnot相对效率混合，循环/稳态及有无回热条件仍在原证据，不据此直接横向排名。,reviewed,False
+28,iTE:P1795:n2,9,16,True,split,3,10,6,0,0/1/2/3/4/5/8均电子空穴占优p型特征；6明确Cs2CdZnCl6材料限制；7要求全测温区保持p型，不能去掉稳定区间。,p-type在CNT句中是材料的载流类型修饰语，不是CNT实体本身。其余p型特征同样指空穴占优；明确Cs2CdZnCl6对象及全温区保持的限定继续分开。,reviewed,False
+29,TG:P0201:n3,8,10,True,split,3,4,6,0,1/2/3/6经完整摘要核实均铁氰/亚铁氰红氧系统熵差；0具体Cu-乙二胺螯合反应；4/5/7一般红氧反应熵差，不通过泛称把特定反应合并。,铁氰/亚铁氰反应、Cu-乙二胺螯合反应及泛称红氧熵变继续分开；溶剂化壳是原反应体系的贡献，未把任何entropy字样统合。,reviewed,False
+30,iTE:P1283:n2,8,14,True,split,3,7,7,0,0/3/5/7为电阻率量；1/2为相对基准较高状态；4/6明确增加变化，不混合物理量和状态事件。,,reviewed,False
+31,iTE:P1719:n2,8,10,True,split,4,6,4,0,1/2/3/6为阴阳离子迁移率不对称；0/5为热迁移速率差；4为扩散速率差；7进一步限定Li+/Cl-。速度或扩散率不能仅凭关联当迁移率。,,reviewed,False
+32,iTE:P1290:n2,8,10,True,split,4,3,7,0,0/1均Cu7PSe6低热导率，2原文明确ultra-low而非通常low；3/4/5/6/7仅一般低热导率状态，严格不消去材料限定及超低程度。；P1819的low thermal conductivity回指晶格分量，单独保留。,P1819完整上下文明确0.3–0.4 W/mK为晶格热导率，不能并入低总热导率。,reviewed,False
+33,iTE:P1713:n1,8,20,True,split,2,17,3,0,1/2/3/4/5/6/7均键合同时含离子/共价特性的一般类别；0明确Ge-O键限定，不与所有混合键合无条件合并。,,reviewed,False
+34,iTE:P1472:n3,8,9,True,split,3,5,4,0,0/4/5/7为W/m²面积功率，4虽名output power但单位纠正其量纲；1/2/6为再除温差平方的功率密度；3为总输出功率。不能跨量纲合并。,,reviewed,False
+35,TG:P0202:n3,7,11,True,split,3,4,4,3,修订：TG:P0118的30°C是电极极性转折的临界温度，不是两端温差。将该节点从DeltaT分区拆出待定；DeltaT仍仅含明确温差定义的1/4/5。,修订：TG:P0118的30°C是电极极性转折的临界温度，不是两端温差。将该节点从DeltaT分区拆出待定；DeltaT仍仅含明确温差定义的1/4/5。,reviewed,False
+36,iTE:P1612:n4,7,15,True,accept,1,15,0,0,七成员的density、concentration、electron holes均明确空穴数浓度；不并入电子浓度或总载流子数。,,reviewed,False
+37,iTE:P1206:n1,7,16,True,accept,1,16,0,0,七成员均热力学温度自变量，无温差或温区混入；不同测试区间保留原始证据。,,reviewed,False
+38,iTE:P1781:n2,7,9,True,split,3,4,5,0,0/1为离子热电负到正极性；2/4/5/6为电子n到p转换；3仅载流子符号反转且无固定方向，不能删除起止条件。,保留负到正离子热响应、电子n到p转换以及无固定方向的符号反转。state_structure与process来自标注视角，原句的方向性转变相同。,reviewed,False
+39,TG:P0297:n2,6,11,True,split,2,9,2,0,0/1/2/3/5都离子电导率量，5 ionic electrical为同量展开；4明确相对其他溶剂系统优越，属于比较状态。,,reviewed,False
+40,iTE:P1616:n1,6,11,True,split,2,10,1,0,0至4同为电导率和热导率两个量的组合；5明确high复合状态，不能去掉高值限定。,,reviewed,False
+41,iTE:P0685:n2,6,11,True,accept,1,11,0,0,六个成员均衡量离子运动迁移率，非阴阳离子迁移率差；聚合物、含水量和DES只是调节来源。,,reviewed,False
+42,iTE:P1867:n2,6,14,True,accept,1,14,0,0,六个成员均为晶胞周期几何参数/晶格常数，单复数和值写法不改定义，不包含晶胞体积。,晶格参数/晶格常数同属周期几何量；P1644把同一量作为descriptor，不改变物理定义。维数、晶系和数值仍在来源中，未并入晶胞体积。,reviewed,False
+43,iTE:P1877:n2,6,6,True,split,4,2,4,0,0/1/5指两相分离不必移出材料；2限定纳米分相；4是移除PSS；3又限定大量移除。不存在通过相分离连接移除的严格同义。,,reviewed,False
+44,iTE:P1155:n2,6,6,True,split,4,1,5,0,0/3一般选择性离子迁移；2限定热梯度下选择性；1进一步限定阳离子；4/5仅温度驱动定向迁移，不等于选择性。,,reviewed,False
+45,TG:P0332:n1,5,4,True,split,3,2,2,0,0/1原文都是持续红氧离子梯度；2未限定持续；3/4均FeCN红氧离子跨膜两区浓度差。差与梯度、持续与未限定不能闭包合并。,,reviewed,False
+46,TG:P0300:n2,5,9,True,accept,1,9,0,0,五段均为电极可接近并参与电化学反应的表面积，4的enlarge surface为面积扩展省略；不与反应位点数量等同。,,reviewed,False
+47,TG:P0134:n1,5,5,True,uncertain,4,1,0,4,1/2均为电池两电极温差；0是凝胶最大温差，3测量温差未给端点，4两流体接触的温差，需核实各测量边界。,,reviewed,False
+48,iTE:P1533:n1,5,4,True,split,2,3,1,0,0/2为Cu迁移及析出/异质界面抑制；1/3/4明确扩散，定向迁移与扩散不可仅因同物种相等。,,reviewed,False
+49,iTE:P0560:n1,5,7,True,uncertain,2,4,0,3,0/1为离子Eastman熵；2/3/4为Eastman entropy change，可能指两种离子差或状态变化，缺少数学定义不跨两类合并。,,reviewed,False
+50,iTE:P1539:n2,5,5,True,accept,1,5,0,0,五段均为电子热电材料载流子数减少导致Seebeck/电导变化；0的reduction carriers在UV-VIS掺杂语境对应数浓度下降。,,reviewed,False
+51,iTE:P1839:n2,5,6,True,accept,1,6,0,0,五段都明确direct bandgap；3的具体eV数值为该量的实例值，不构成不同带隙类型，数值保留原文而非合并值。,,reviewed,False
+52,iTE:P0708:n3,5,5,True,split,3,2,3,0,1/2/3明确温差/温度波动产生电；0为多环境发电未明确唯一热源；4环境下渗透自发产生电，不可默认为热到电转换。,,reviewed,False
+53,iTE:P0600:n1,5,5,True,split,2,4,1,0,0/1/2/4都一般离子与聚合物相互作用；3特指离子液体与聚合物链，属于材料范围受限子类。,,reviewed,False
+54,iTE:P0575:n1,5,7,True,split,3,3,4,0,0/2/4一般离子偶极作用；1明确动态且涉及IL/PVDF-HFP/FS，3特指PVDF-HFP与IL；机制同类不足以抹除动态和材料限定。,,reviewed,False
+55,iTE:P1807:n2,5,4,True,split,3,2,2,0,0/3为电子热电p到n转换，1/2是离子热电极性p到n，4特指2D空穴气到2D电子气；不能把热迁移极性当电子载流子类型。,,reviewed,False
+56,iTE:P1761:n1,5,5,True,accept,1,5,0,0,五段均外部压力调节电子结构，1明确静水压但节点为pressure；共同压力变量不等同压力诱发的结果。,,reviewed,False
+57,iTE:P1449:n3,5,8,True,split,2,6,2,0,0/1/2/4一般拉伸能力/最大拉伸应变；3明确以裂纹起始应变衡量，不等同极限延伸率。,,reviewed,False
+58,iTE:P1628:n2,5,7,True,uncertain,5,0,0,7,相同ultralow名称却含<0.5与1.9-2.58 W/mK等不同温度/材料参照，very low亦无共同阈值；按本轮严格范围要求不强行确定统一极低状态。,,reviewed,False
+59,iTE:P1503:n1,5,8,True,split,2,6,2,0,0/1/3/4均黏度eta参数，2特指相对水溶液更高的黏度，保留比较条件。,,reviewed,False
+60,TG:P0264:n3,4,5,True,accept,1,5,0,0,四段均指溶剂化壳改变贡献的红氧离子熵差，0省略solvation的标签由原文补齐；共同定义支持所有成员关系。,,reviewed,False
+61,TG:P0203:n2,4,3,True,accept,1,3,0,0,四段均为将热能转换成电能的功能/过程，3完整句明确low-grade heat来源；不同实现方式不构成等同机制。,,reviewed,False
+62,TG:P0303:n1,4,6,False,accept,1,6,0,0,四段均自然对流过程，不是外驱强迫对流；对传质传热的不同作用保留为关系。,,reviewed,False
+63,TG:P0233:n4,4,4,True,accept,1,4,0,0,0原文thermogalvanic明确补足简写galvanic，2展开TG；四段均为温差引起的电化学电流。,原上下文明确galvanic和TG均指thermogalvanic电流，缩写/简称同义有文本依据；持续性作为关系修饰保留。,reviewed,False
+64,TG:P0246:n3,4,3,True,split,3,1,2,0,0/1明确宽运行温区；2为外部环境有效工作温区，3为一般装置温区，宽度条件与温度对象不可删。,,reviewed,False
+65,iTE:P1386:n2,4,6,False,accept,1,6,0,0,cell在0/2为晶体晶胞而非电池，3由cubic crystal structure确认体积对象；四者同一量。,,reviewed,False
+66,iTE:P1924:n2,4,4,True,accept,1,4,0,0,四处都指样品结晶度属性，薄膜与聚合物的材料载体差异不改结晶程度定义，不合并晶体材料本身。,,reviewed,False
+67,iTE:P1889:n1,4,3,True,split,2,2,1,0,0/1均离子热扩散产生内场，2/3明确externally applied场；物理量同类但驱动条件不同且节点有external限定。,,reviewed,False
+68,iTE:P1292:n1,4,3,True,split,2,2,1,0,0/1/2均离子交换一般过程，3明确自发发生，保留热力学条件。,ion exchange与ionic exchange均指离子交换过程，作为制备策略不改变操作定义。spontaneous另有自发条件，继续单独保留。,reviewed,False
+69,iTE:P0645:n2,4,3,True,split,3,1,2,0,0/2为一般迁移，1自由离子运动可包括扩散，3明确DC驱动电化学迁移并排除热扩散；不能借2闭包消除区别。,,reviewed,False
+70,iTE:P1851:n2,4,4,True,accept,1,4,0,0,四处均一般离子输运过程；选择性、热渗等是调节机制，不把子机制与过程合并。,,reviewed,False
+71,iTE:P1775:n2,4,6,False,accept,1,6,0,0,四处都为可移动离子扩散，物态与外部调节方式不同不影响扩散过程定义。,,reviewed,False
+72,iTE:P0842:n1,4,3,True,split,2,2,1,0,0/3一般离子输运热，1原文和2均明确银离子输运热；两种记号对应该银离子量，但不可泛化所有离子。,,reviewed,False
+73,iTE:P1913:n2,4,6,False,uncertain,4,0,0,6,0同时电子和空穴，1特指电子低于空穴，2/3低值参考不明；数值低与比较更低并非同一限定，全部建议待定。,,reviewed,False
+74,iTE:P1516:n1,4,6,False,accept,1,6,0,0,四段均调节为n型载流子的掺杂过程，实际或预测情态不改操作定义。,n-doping均指造成n型载流行为的掺杂；方法、过程角色可对应同一操作。预测与已报告的情态应留在关系层，不能因此把预测说成实验验证。,reviewed,False
+75,iTE:P0884:n4,4,4,True,split,2,3,1,0,0/2/3为负离子Seebeck响应，1为含电极Donnan贡献的S_eff负号这一符号属性，不能等同系数本身。,,reviewed,False
+76,iTE:P1725:n2,4,5,True,accept,1,5,0,0,四处均为晶格氧位空缺；0的O-2(-)为氧离子表示异常但Raman和点缺陷语境可定位氧空位，不是分子氧。,,reviewed,False
+77,iTE:P1755:n3,4,5,True,accept,1,5,0,0,补充上下文逐一显示0/1/2均影响晶格热导或明确phonon scattering；因此3的phonon不是新增子类限定，风险提示可解除。,,reviewed,False
+78,iTE:P1394:n2,4,5,True,accept,1,5,0,0,四节点均为相对降低/reduced状态或过程，方向和量一致；不与单纯低热导率混同。,,reviewed,False
+79,iTE:P0920:n2,4,6,False,accept,1,6,0,0,四段均指材料破坏后自修复的能力，动态机制/室温速度仅为附加关系条件。,,reviewed,False
+80,iTE:P1689:n2,4,6,False,split,2,3,3,0,0/2/3均声子模软化过程，1有strong程度限定，保留强度子类。,,reviewed,False
+81,iTE:P1746:n2,4,3,True,split,2,2,1,0,0/2/3均Seebeck正负号变化；1节点仅sign为符号属性，原句reverse可用于另外抽取但不能把属性与事件混合。,switch/sign change均为符号变化；sign本身是属性。保留属性与事件边界，不因原文有reverse而覆盖节点所取的属性范围。,reviewed,False
+82,iTE:P0971:n1,4,5,True,accept,1,5,0,0,四处均时间上的温度波动，非空间温差/梯度。,,reviewed,False
+83,iTE:P1617:n3,4,5,True,accept,1,5,0,0,四处均空间温度梯度，生长界面的G_L仍同一物理量，非温差。,,reviewed,False
+84,iTE:P0536:n3,4,4,True,split,3,1,3,0,0/2一般组合性能，1两个性能均高，3力学性质加超高热电性能，程度条件不同。,,reviewed,False
+85,iTE:P1616:n2,4,6,False,accept,1,6,0,0,0完整证据限定thermoelectric efficiency，四段同为热到电效率，不直接等同ZT。,,reviewed,False
+86,TG:P0054:n2,3,3,False,accept,1,3,0,0,三段均明确抗冻结性能，形成机制不同；不并入非干燥性能。,,reviewed,False
+87,TG:P0179:n4,3,2,True,uncertain,3,0,0,2,1明确solvation entropy和浓度比之差；0/2是一般熵差与浓度差，复合项定义未完全一致，两个建议均待定。,,reviewed,False
+88,TG:P0209:n1,3,3,False,accept,1,3,0,0,三段都描述热电池红氧电解质的空间浓度梯度，非浓度差或溶剂化结构本身。,,reviewed,False
+89,TG:P0167:n2,3,3,False,accept,1,3,0,0,三段原文均明确胍离子/Gdm诱导[Fe(CN)6]4-结晶，GO为额外模板不改该机制。,,reviewed,False
+90,TG:P0175:n3,3,3,False,accept,1,3,0,0,三段current均指热电化学外电路电流，不是交换电流密度；数值与限制机制不同。,,reviewed,False
+91,TG:P0166:n4,3,3,False,accept,1,3,0,0,三个成员都明确水-水氢键，与水-DMSO等其他氢键区分。,,reviewed,False
+92,TG:P0054:n3,3,3,False,accept,1,3,0,0,三段均为保持不干燥的性能，不合并抗冻性能或水含量。,,reviewed,False
+93,TG:P0225:n2,3,3,False,accept,1,3,0,0,三处均明确开路条件，数值和装置不同不改同一量定义。,,reviewed,False
+94,TG:P0265:n2,3,2,True,uncertain,3,0,0,2,0是混合材料策略性能，1仅有孤立单词，2是化学性质支配的电池性能；缺少相同指标边界。,,reviewed,False
+95,TG:P0134:n2,3,3,False,accept,1,3,0,0,三处均为红氧反应一般过程，不同促进条件不改变概念层级。,,reviewed,False
+96,TG:P0109:n4,3,2,True,split,2,1,1,0,0特指向环境空气自发蒸发；1/2仅为水汽化过程，保留自发及环境条件，不通过2把0与1传递合并。,,reviewed,False
+97,TG:P0167:n3,3,3,False,accept,1,3,0,0,三段明确热电转换综合性能，不是单一参数；接受同一上层性能概念。,,reviewed,False
+98,TG:P0203:n1,3,2,True,split,2,1,1,0,1/2均为单一电化学单元在不同温度充放电；0特别指两个LiCoO2/Li单元循环，装置与化学限定不可丢弃。,,reviewed,False
+99,iTE:P0788:n3,3,3,False,accept,1,3,0,0,三个成员并列相同两个指标，顺序变化不改变组合含义。,,reviewed,False
+100,iTE:P0681:n3,3,3,False,accept,1,3,0,0,三处全名、化学式和NP缩写明确同一纳米粒子类别。,,reviewed,False
+101,iTE:P0895:n1,3,2,True,split,2,1,1,0,0/2为加入的amount；1为浓度，分母未指定且用量不等于浓度。,,reviewed,False
+102,iTE:P1143:n2,3,3,False,split,2,1,2,0,1/2均为阴离子热扩散过程；0要求阴离子占主导，不能与普通阴离子热扩散混同。,,reviewed,False
+103,iTE:P1265:n2,3,2,True,uncertain,3,0,0,2,0是层间绝热迁移势垒，1是阳离子热扩散方向势垒，2为纳米径向离子跳跃势垒；现有证据不能判定统一能垒定义，均不合并。,,reviewed,False
+104,iTE:P1420:n1,3,2,True,accept,1,2,0,0,三段均为半导体电子与空穴共同输运，compensated Seebeck证据确认bipolar conduction同义；缺失0外的边不影响共同机制定义。,,reviewed,False
+105,iTE:P0960:n2,3,3,False,accept,1,3,0,0,三个语境均为半导体/导电聚合物电子载流子输运，不是离子迁移。,,reviewed,False
+106,iTE:P1959:n2,3,3,False,accept,1,3,0,0,0的原文补齐了标签略去的方向，三者起止构象及主体一致。,三句均明确PEDOT benzoid/benzenoid到quinoid的构象变化；第三句虽标state_structure，原文modifies ... from ... to仍有相同起止方向。,reviewed,False
+107,iTE:P1837:n2,3,3,False,split,2,1,2,0,0原文mostly与1 predominantly均表明以共价为主；2只确认共价特征而未证明占主导。,,reviewed,False
+108,iTE:P1471:n2,3,3,False,split,2,1,2,0,0/1节点均为DOS有效质量这一量；2明确高有效质量状态，不抹去高值条件。,,reviewed,False
+109,iTE:P1177:n2,3,2,True,split,2,1,1,0,0/1均一般晶格畸变，2明确大畸变；2并列的扭曲、位错也不是畸变同义词。,,reviewed,False
+110,iTE:P1706:n2,3,3,False,accept,1,3,0,0,三句都明确electronic conductivity，与ionic分量区分，不能并入总电导率。,,reviewed,False
+111,iTE:P1614:n2,3,3,False,accept,1,3,0,0,0/2明确离子对；P1263完整摘要补足1也是K3Fe(CN)6/K4Fe(CN)6体系，三者范围一致。,,reviewed,False
+112,iTE:P0598:n2,3,3,False,uncertain,3,0,0,3,0以保水抵御干燥，1为水下抗溶胀，2为全固态耐环境；均称稳定但测试环境/失效模式不同，不足以严格同义。,,reviewed,False
+113,iTE:P1018:n2,3,3,False,accept,1,3,0,0,三个成员都指自旋通道半金属特征，不是一般半金属semimetal；直接/间接带隙不改变上层特征。,,reviewed,False
+114,iTE:P1044:n2,3,3,False,reject,3,0,3,0,P0465为离子电子混合网络整体响应；1明确离子Soret热电势；2为电子空穴密度调节的电子热电势。相同TEP词不能消去机制及有效量差异。,,reviewed,False
+115,iTE:P1545:n3,3,2,True,split,2,1,1,0,0节点为环境湿度水平，1/2为湿度增加事件，保留量与变化区别。,,reviewed,False
+116,iTE:P0670:n2,3,2,True,split,2,1,1,0,0/2一般氢键网络，1有强度限定；共同网络不足以合并强网络子类。,,reviewed,False
+117,iTE:P0398:n3,3,3,False,uncertain,3,0,0,3,三个成员均离子热电，但2明确定义Si和离子电导率两项，0还涉及Eastman熵与扩散系数；缺少同一集合边界，不强制合并。,,reviewed,False
+118,iTE:P1500:n3,3,2,True,split,2,1,1,0,0/1均有序性相对改善，2为高有序状态，不保证经历同一增加过程。,,reviewed,False
+119,iTE:P0394:n3,3,2,True,accept,1,2,0,0,三段均为离子扩散系数这一量，稳态建立时间为其作用不是另一个概念；共同定义支持未直接比较的1-2。,,reviewed,False
+120,iTE:P1935:n1,3,3,False,accept,1,3,0,0,三者都是离子载流子导电过程，贡献大小和气氛不同，不改过程定义。,,reviewed,False
+121,iTE:P0511:n3,3,2,True,accept,1,2,0,0,三者明确ionic figure of merit或ZTi；1给出sigma_i alpha_i²T/lambda，支持共同离子优值定义，不并入电子ZT。,,reviewed,False
+122,iTE:P1712:n4,3,3,False,accept,1,3,0,0,kappaL/K-L均为晶格热导率，P1712完整摘要明确展开；非总热导率。,,reviewed,False
+123,iTE:P1544:n4,3,3,False,accept,1,3,0,0,三篇均为电子热电材料中低/poor electrical conductivity状态，保留低值条件。,,reviewed,False
+124,iTE:P1870:n2,3,3,False,accept,1,3,0,0,三者均描述低能光学声子分支/模，2的guest ion vibration仍属于同一低能光学模类别；不等同声学模。,,reviewed,False
+125,iTE:P1536:n1,3,2,True,split,2,1,1,0,0/2明确金属态/metallic nature；1为metallic-type properties，类金属性证据不确证实际金属态。,,reviewed,False
+126,iTE:P1783:n1,3,2,True,split,2,1,1,0,0/2同为声子动力学；1为晶格振动本身，动力学包含色散寿命等，范围更广。,,reviewed,False
+127,iTE:P1489:n2,3,2,True,split,2,1,1,0,0/2是群速度量，1为small群速度状态；不能抹去小值限定。,,reviewed,False
+128,iTE:P1908:n2,3,2,True,accept,1,2,0,0,三处均指晶格声子在材料中传播输运过程，方向/抑制增强是关系条件，未将热导率量混入。,,reviewed,False
+129,iTE:P0554:n2,3,2,True,accept,1,2,0,0,0明确passive；1明确passive layer；2由高发射率低吸收率实现冷却，证据支持同一被动辐射机制，风险提示不成立。,,reviewed,False
+130,iTE:P1660:n3,3,2,True,accept,1,2,0,0,0/1明确superionic conductivity，2明确超离子相中质子跳跃导致电导，补足其离子属性。,,reviewed,False
+131,iTE:P1577:n2,3,3,False,accept,1,3,0,0,三处均为热传导过程；离子或材料贡献不同不改变热传导定义，非热导率量。,,reviewed,False
+132,iTE:P1389:n2,3,2,True,accept,1,2,0,0,thermal transport、heat transport、heat flow在三段都描述热的传输而未作为定量通量，统一过程层级。,,reviewed,False
+133,iTE:P0571:n3,3,3,False,accept,1,3,0,0,三文均为离子热扩散造成温度到电的响应，响应对象一致，机制调节不同。,,reviewed,False
+134,iTE:P1505:n2,3,3,False,uncertain,3,0,0,3,0/1为综合输运属性，2由Seebeck数据单独描述small polaron热电输运，未给相同属性集合。,,reviewed,False
+135,TG:P0114:n1,2,1,False,accept,1,1,0,0,两段均描述热端产氢、冷端耗氢的同一可逆氢氧化还原反应；装置不同不改变反应定义。,,reviewed,False
+136,TG:P0254:n3,2,1,False,accept,1,1,0,0,两篇完整摘要均明确展开solution Rs、charge-transfer Rct、diffusion Rdif，同符号在这里确实对应同一电阻分量。,,reviewed,False
+137,TG:P0254:n4,2,1,False,accept,1,1,0,0,两篇完整摘要均明确展开solution Rs、charge-transfer Rct、diffusion Rdif，同符号在这里确实对应同一电阻分量。,,reviewed,False
+138,TG:P0254:n2,2,1,False,accept,1,1,0,0,两篇完整摘要均明确展开solution Rs、charge-transfer Rct、diffusion Rdif，同符号在这里确实对应同一电阻分量。,,reviewed,False
+139,TG:P0090:n3,2,1,False,uncertain,2,0,0,1,一处讨论Soret与Seebeck的独立性，另一处用Seebeck effect表示氧化还原熵差增强的响应；尚不能确定同一效应定义。,,reviewed,False
+140,TG:P0301:n2,2,1,False,uncertain,2,0,0,1,第二段实际以解决不连续输出为目标，须核实抽取是否指实现的连续输出；不把问题描述自动转为性能。,,reviewed,False
+141,TG:P0304:n1,2,1,False,accept,1,1,0,0,currents指促进混合的流体运动，flows指促进充电的同类流动，不是电流；均为对流。,,reviewed,False
+142,TG:P0327:n2,2,1,False,accept,1,1,0,0,两篇分别研究钢和铝腐蚀，节点均为腐蚀过程本身，非特定腐蚀产物或速率。,,reviewed,False
+143,TG:P0267:n3,2,1,False,accept,1,1,0,0,两段均明确外电路持续输出电流；电极反应不同属于实现机制而非该输出特征定义。,,reviewed,False
+144,TG:P0186:n4,2,1,False,accept,1,1,0,0,原文均为热电池产出的电流密度，不是总电流或功率密度。,,reviewed,False
+145,TG:P0277:n2,2,1,False,accept,1,1,0,0,两处均指氧化还原离子溶剂化壳的结构无序，不将无序度与其引发的熵增合并。,,reviewed,False
+146,TG:P0163:n3,2,1,False,accept,1,1,0,0,两文均明确热能转换后输出的电能，非电功率或电压。,,reviewed,False
+147,TG:P0270:n1,2,1,False,accept,1,1,0,0,均为同一化学物质乙醇；所起调控作用不同不改变物质身份。,,reviewed,False
+148,TG:P0208:n1,2,1,False,accept,1,1,0,0,两篇均指凝胶化电解质材料类别，未将电解质与其抑制热流的性能合并。,,reviewed,False
+149,TG:P0114:n2,2,1,False,accept,1,1,0,0,两文热传递语境中的heat flux为同一物理量，未包括热导率。,两句均为穿过电池的热通量，作为输入条件与被研究物理量是使用角色差异；没有证据将其改成热导率。,reviewed,False
+150,TG:P0170:n1,2,1,False,accept,1,1,0,0,均为将离子型和电子型材料/机制组合的设计策略；持续输出为效果而非被合并概念。,,reviewed,False
+151,TG:P0054:n1,2,1,False,accept,1,1,0,0,两句明确同一对相互作用组分，strong/intense均修饰该氢键而非另外物质。,,reviewed,False
+152,TG:P0071:n3,2,1,False,accept,1,1,0,0,variable concentrations表示所调节的浓度参数；不把浓度与红氧反应反转混为一谈。,两个节点均指可调离子浓度这一量，variable是实验所改变的参数；不把浓度归一化为红氧反应或浓度反转事件。,reviewed,False
+153,TG:P0053:n2,2,1,False,accept,1,1,0,0,两处都是离子扩散过程，促进和抑制为其在不同实验中的变化方向，不是节点自身限定。,,reviewed,False
+154,TG:P0305:n1,2,1,False,accept,1,1,0,0,单复数及ILs缩写均指离子液体类别。,,reviewed,False
+155,TG:P0125:n3,2,1,False,accept,1,1,0,0,lithiation state与intercalation extent均描述嵌锂量/状态参数，非嵌入过程速率。,lithiation state与嵌锂程度x均指嵌锂状态参数，原文讨论系数对嵌锂程度的依赖，不是插入速率。,reviewed,False
+156,TG:P0076:n1,2,1,False,accept,1,1,0,0,两者均明确低热导率特征；材料不同，但不消除low限定。,,reviewed,False
+157,TG:P0172:n5,2,1,False,accept,1,1,0,0,mass transfer与ion transport均指氧化还原离子的空间输运；不包含红氧反应本身。,,reviewed,False
+158,TG:P0127:n5,2,1,False,accept,1,1,0,0,两处均为热电池物质输运过程，未以热传递代替。,,reviewed,False
+159,TG:P0296:n2,2,1,False,uncertain,2,0,0,1,现有引文未说明面积、体积或质量归一化，不能确定两篇功率密度可在相同定义下互换。,,reviewed,False
+160,TG:P0258:n1,2,1,False,reject,2,0,1,0,前者是微通道中一般红氧物种混合，后者明确FeCl3/FeCl2并涉及络合物解离；给定证据不能抹去物种限定。,,reviewed,False
+161,TG:P0192:n2,2,1,False,uncertain,2,0,0,1,水合属于溶剂化特例，第二句未证明其溶剂为水；暂不把一般溶剂化重排与水合壳改变合并。,,reviewed,False
+162,TG:P0273:n3,2,1,False,reject,2,0,1,0,首句从负到正的n-p变化，次句从正到负的p-to-n变化；共同涉及极性转换但方向不同。,,reviewed,False
+163,TG:P0229:n3,2,1,False,accept,1,1,0,0,两文均为电池中的欧姆过电位，变化不改变量的定义。,,reviewed,False
+164,TG:P0128:n1,2,1,False,accept,1,1,0,0,两文同指欧姆电阻；不并入总内阻或过电位。,,reviewed,False
+165,TG:P0291:n3,2,1,False,accept,1,1,0,0,两句均讨论红氧热电池整体性能，未专指一个单独物理指标；只在此整体性能层级接受。,,reviewed,False
+166,TG:P0136:n2,2,1,False,accept,1,1,0,0,均指通过光热转换建立热源/温差，非随后发生的热电转换。,,reviewed,False
+167,TG:P0211:n1,2,1,False,uncertain,2,0,0,1,第一段简称resistance，未排除其只指某一阻抗分量；缺少定义不能直接等同总内阻。,,reviewed,False
+168,TG:P0045:n1,2,1,False,accept,1,1,0,0,均明确为salting out，结构和性能是该效应的后果，不影响效应定义。,,reviewed,False
+169,TG:P0316:n2,2,1,False,accept,1,1,0,0,两处均明确短路条件下电流，不是一般负载电流。,,reviewed,False
+170,TG:P0246:n2,2,1,False,accept,1,1,0,0,前句乙醇调控红氧电对solvation structure，后句明确solvent shell structure；同一结构层级。,,reviewed,False
+171,TG:P0123:n1,2,1,False,accept,1,1,0,0,均为热力学温度变量，不是温度差或温度梯度。,,reviewed,False
+172,TG:P0271:n3,2,1,False,accept,1,1,0,0,两者均以应力单位表达tensile strength；不是伸长率或弹性模量。,,reviewed,False
+173,TG:P0229:n2,2,1,False,accept,1,1,0,0,两文均明确热导率，材料参数数值不同不改变量定义。,,reviewed,False
+174,TG:P0175:n1,2,1,False,accept,1,1,0,0,两文均指离子热扩散建立的热电势，并与红氧驱动力区分；不是总热电压。,,reviewed,False
+175,TG:P0219:n4,2,1,False,reject,2,0,1,0,storage是储存电能的过程/功能，thermocapacitance是文中可提高的储能性能量；相关不构成严格同义。,,reviewed,False
+176,TG:P0015:n2,2,1,False,accept,1,1,0,0,两处均在热电凝胶中指温度驱动电信号的热电效应，并与压阻或结晶作用分开。,,reviewed,False
+177,TG:P0333:n2,2,1,False,accept,1,1,0,0,均明确非等温电池的热电动势E，非其温度导数或Seebeck系数。,,reviewed,False
+178,TG:P0147:n1,2,1,False,accept,1,1,0,0,两处为相同两个效应的联合机制，保留复合概念不拆为其中一种。,,reviewed,False
+179,TG:P0204:n2,2,1,False,accept,1,1,0,0,两处都限定为Fe2+/Fe3+红氧对产生的热电化学效应；其他伴随机制不并入。,,reviewed,False
+180,TG:P0231:n3,2,1,False,accept,1,1,0,0,第二句available sites明确限定于thermogalvanic conversion，与第一句反应位点范围相同。,,reviewed,False
+181,TG:P0255:n1,2,1,False,accept,1,1,0,0,两句均为温度敏感结晶机制，不是盐析或结晶产物。,,reviewed,False
+182,TG:P0206:n3,2,1,False,accept,1,1,0,0,两句均谈保水能力的提高，未将水含量或吸水率替代保水。,,reviewed,False
+183,iTE:P1691:n1,2,1,False,accept,1,1,0,0,NbO2输运与Ni诱导电子局域化语境对应同一局域化机制。,,reviewed,False
+184,iTE:P0882:n1,2,1,False,accept,1,1,0,0,化学式和全名明确对应同一物质CaCl2。,,reviewed,False
+185,iTE:P1940:n1,2,1,False,reject,2,0,1,0,原文明确占据的被替代元素分别为Co和Cr；不能仅因都是Fe substitution去掉位点限定。,,reviewed,False
+186,iTE:P1834:n2,2,1,False,reject,2,0,1,0,第一篇AgI/AgCl测量离子迁移率解释电导增强；第二篇Sn(Zr/Hf)O3带隙减小增强电子导电，输运范围不同。,,reviewed,False
+187,iTE:P1316:n2,2,1,False,accept,1,1,0,0,两处均为体相离子之间静电作用，增强或削弱是实验结果，不是不同作用类型。,,reviewed,False
+188,iTE:P1132:n1,2,1,False,accept,1,1,0,0,两节点均以Cr掺杂作为一般调控策略，不指特定位点置换。,,reviewed,False
+189,iTE:P1577:n1,2,1,False,uncertain,2,0,0,1,第一段未确认铜价态或超离子状态；第二处明确fast Cu+。不能把所有Cu ions默认等同Cu+快离子。,,reviewed,False
+190,iTE:P0681:n2,2,1,False,accept,1,1,0,0,两句明确相同DCA-物种输运过程。,,reviewed,False
+191,iTE:P1926:n1,2,1,False,accept,1,1,0,0,exclusive在第一文与固定聚阴离子排斥语境一致；第二文明确Donnan exclusion，属同一机制。,,reviewed,False
+192,iTE:P0605:n1,2,1,False,accept,1,1,0,0,两段均直接展开EMIM DCA全名，标点差异不改变化学身份。,,reviewed,False
+193,iTE:P1429:n1,2,1,False,accept,1,1,0,0,均指Frenkel缺陷类型；形成物种和扩散后果不是缺陷概念本身。,,reviewed,False
+194,iTE:P1500:n2,2,1,False,uncertain,2,0,0,1,修订为待定：CaAg0.9P抑制双极输运的高掺杂与N2200聚合物的高掺杂，未给出共同掺杂量定义或高值阈值；不能因high doping同名接受。,修订为待定：CaAg0.9P抑制双极输运的高掺杂与N2200聚合物的高掺杂，未给出共同掺杂量定义或高值阈值；不能因high doping同名接受。,reviewed,False
+195,iTE:P1755:n1,2,1,False,accept,1,1,0,0,两句均限定稀土Ln在Ca位替代，第二句补充通常价态而未改变替代范围。,,reviewed,False
+196,iTE:P0680:n3,2,1,False,reject,2,0,1,0,MTEG缩写相同不代表装置机制完全同义：电子隧穿路径分别是MXene片层和Ag纳米线，只有Soret部分共同。,,reviewed,False
+197,iTE:P0555:n1,2,1,False,accept,1,1,0,0,两段均明确同一Manning机制，聚合物载体不同不改变机制名称。,,reviewed,False
+198,iTE:P0940:n2,2,1,False,accept,1,1,0,0,两处均为相同聚合物体系的电导率属性，非PSS分离机制。,,reviewed,False
+199,iTE:P0885:n2,2,1,False,accept,1,1,0,0,第二句明确conversion ability，因此虽标签简写过程名，两处证据都在讨论光热转换性能。,,reviewed,False
+200,iTE:P1699:n1,2,1,False,accept,1,1,0,0,同一力学比值；由其推断离子键特征不使泊松比变成离子性。,,reviewed,False
+201,iTE:P1695:n1,2,1,False,accept,1,1,0,0,第一句明确phonon scattering pathway，故process与scattering同指Umklapp散射。,,reviewed,False
+202,iTE:P0889:n2,2,1,False,accept,1,1,0,0,magnitude在第二句明确回指thermoelectric power；与absolute value同义，保留去符号取幅值限定。,,reviewed,False
+203,iTE:P1255:n2,2,1,False,reject,2,0,1,0,第一处是软化过程，第二处是由弱离子键产生的软模状态；机制与结果不可直接同义合并。,,reviewed,False
+204,iTE:P0959:n1,2,1,False,accept,1,1,0,0,两处均是添加相同盐的操作概念；不同接受材料保留在原始关系，不将混合物身份合并。,,reviewed,False
+205,iTE:P1503:n2,2,1,False,accept,1,1,0,0,两篇完整摘要均定义alpha=dV/dT并限定Fe2+/Fe3+红氧体系，排除其他alpha物理量。,,reviewed,False
+206,iTE:P0438:n2,2,1,False,accept,1,1,0,0,均明确anion diffusion；促进或限制是不同外部作用，不改变扩散概念。,,reviewed,False
+207,iTE:P1752:n2,2,1,False,accept,1,1,0,0,均明确bulk modulus/B，同一体积压缩弹性量，非晶格常数。,,reviewed,False
+208,iTE:P1500:n1,2,1,False,accept,1,1,0,0,两处均明确以阳离子交换调控n掺杂，交换过程本身同义。,两处均以阳离子交换辅助n型掺杂，设计策略和微观过程标注不改变交换操作；BBL与N2200对象保留在证据层。,reviewed,False
+209,iTE:P0590:n3,2,1,False,accept,1,1,0,0,均明确阳离子在温度梯度驱动下扩散，未并入所有离子扩散。,,reviewed,False
+210,iTE:P0525:n4,2,1,False,reject,2,0,1,0,第一句为冷热端的空间浓度梯度，第二句为阴阳离子浓度差；未定义长度归一化或同一空间范围。,,reviewed,False
+211,iTE:P1495:n2,2,1,False,accept,1,1,0,0,均指同一组两类缺陷浓度；仅并列词序变化。,,reviewed,False
+212,iTE:P0510:n3,2,1,False,accept,1,1,0,0,两句同为持续产生电能的功能；不等同瞬时功率数值。,,reviewed,False
+213,iTE:P1091:n2,2,1,False,uncertain,2,0,0,1,第一段为双类型载流子对性能的贡献，第二段bipolar contribution未明确指电输运还是双极热导分量，保留待定。,,reviewed,False
+214,iTE:P1546:n2,2,1,False,accept,1,1,0,0,分别离子风和Peltier冷却，但两节点均为整体冷却性能属性而非冷却机制；接受此上层性能概念。,,reviewed,False
+215,iTE:P0683:n1,2,1,False,accept,1,1,0,0,两句均指固定聚电解质/通道相互作用中的反离子凝聚效应。,,reviewed,False
+216,iTE:P1494:n1,2,1,False,uncertain,2,0,0,1,第一篇为液体能量输运交叉效应，第二篇为心肌模型温度电活动耦合；缺少相同本构定义，不能仅以coupling合并。,,reviewed,False
+217,iTE:P1684:n2,2,1,False,accept,1,1,0,0,均指共价键合类别，不等同共价性大小或输运结果。,,reviewed,False
+218,iTE:P0672:n1,2,1,False,accept,1,1,0,0,两段同为装置可提取输出电流密度；不把能量密度或Seebeck系数合并。,,reviewed,False
+219,iTE:P1849:n2,2,1,False,accept,1,1,0,0,两句都明确电子材料掺杂后的电导率下降，保留变化方向，不等同电导率本身。,,reviewed,False
+220,iTE:P1036:n1,2,1,False,accept,1,1,0,0,两句均明确氧分压降低操作，非氧含量或缺陷浓度。,两句均明确降低氧分压的方向；外部条件变化与实验调控策略可归同一操作，但不与氧空位浓度合并。,reviewed,False
+221,iTE:P1473:n2,2,1,False,accept,1,1,0,0,全名及DES缩写对应同一材料类别。,,reviewed,False
+222,iTE:P1364:n2,2,1,False,accept,1,1,0,0,两处均明确费米能附近态密度，不合并全能区态密度或有效质量。,,reviewed,False
+223,iTE:P0556:n3,2,1,False,accept,1,1,0,0,两处离子对及所比较的迁移率相同，保留物种限定。,,reviewed,False
+224,iTE:P1671:n2,2,1,False,accept,1,1,0,0,两句均指diffuson扩散型热输运，区别于传播声子输运。,,reviewed,False
+225,iTE:P1511:n2,2,1,False,uncertain,2,0,0,1,一处无序引起声子散射，另一处掺杂无序引起电子相互作用；引文未确认是相同结构、化学或电子无序概念。,,reviewed,False
+226,iTE:P0650:n2,2,1,False,accept,1,1,0,0,均是聚合物作用使离子聚集体解离的过程，非一般离子对解离或电导率结果。,,reviewed,False
+227,iTE:P1716:n1,2,1,False,accept,1,1,0,0,两处都是掺杂程度参数，未包含特定方向或高低限制。,,reviewed,False
+228,iTE:P1009:n1,2,1,False,accept,1,1,0,0,两句均讨论C和N掺杂策略，保留组合物种；不同宿主不改变该操作层级定义。,,reviewed,False
+229,iTE:P1568:n1,2,1,False,accept,1,1,0,0,两处均为引入Zn的掺杂操作，Seebeck及电导变化仅为后果。,,reviewed,False
+230,iTE:P0375:n6,2,1,False,reject,2,0,1,0,弹性拉伸要求可回复性，可拉伸性并不必然弹性回复；只共享自愈分量不足以等同复合性能。,,reviewed,False
+231,iTE:P0825:n3,2,1,False,accept,1,1,0,0,PEDOT:PSS膜测得的resistance明确是电阻；非电阻率，亦非热阻。,,reviewed,False
+232,iTE:P1241:n2,2,1,False,uncertain,2,0,0,1,electron conduction特指电子载流子，electronic conduction可能包括空穴；所给片段缺少载流子说明。,,reviewed,False
+233,iTE:P1680:n2,2,1,False,accept,1,1,0,0,首句electron density n为载流子数密度，次句n-type carrier density同为电子载流子浓度，非电荷空间密度。,,reviewed,False
+234,iTE:P1411:n1,2,1,False,accept,1,1,0,0,两句都描述电子局域化强弱；具体界面不同但不改变量的含义。,,reviewed,False
+235,iTE:P1814:n2,2,1,False,accept,1,1,0,0,两处均为低温电子隧穿过程且温区相同，掺杂元素不同不改机制。,,reviewed,False
+236,iTE:P1511:n3,2,1,False,accept,1,1,0,0,次句证据补足了标签省略的due to disorder，两文均指低温无序相关相互作用机制。,,reviewed,False
+237,iTE:P1633:n2,2,1,False,accept,1,1,0,0,第二句Mn-d states明确电子态，故简写DOS与第一句电子DOS一致。,,reviewed,False
+238,iTE:P1633:n3,2,1,False,accept,1,1,0,0,两句同为电子输运性质集合，不合并某个单独指标。,,reviewed,False
+239,iTE:P1771:n2,2,1,False,accept,1,1,0,0,两句均为非谐性增大这一变化，机制不同不影响方向。,,reviewed,False
+240,iTE:P1057:n2,2,1,False,uncertain,2,0,0,1,第一句both materials缺少性能回指，第二句热湿耦合离子输运的performance范围亦未界定，不能把笼统褒义合并。,,reviewed,False
+241,iTE:P0441:n3,2,1,False,accept,1,1,0,0,两段均在离子聚合物中比较载流子热扩散/热迁移熵差，非红氧反应熵差。,,reviewed,False
+242,iTE:P0376:n3,2,1,False,accept,1,1,0,0,两句同为红氧反应的交换电流密度；不等同输出电流密度。,,reviewed,False
+243,iTE:P1887:n2,2,1,False,accept,1,1,0,0,第二句unit cell expansion由占位变化导致，语境为晶胞几何膨胀，与体积增加对应。,,reviewed,False
+244,iTE:P1801:n2,2,1,False,accept,1,1,0,0,形容词ferromagnetic和名词ferromagnetism在两文均指材料铁磁性。,,reviewed,False
+245,iTE:P1651:n2,2,1,False,accept,1,1,0,0,P1552完整摘要说明Se4为Cu3SbSe4，gap由轨道杂化和交换作用产生；与第二文杂化导致电子能隙同属能隙形成机制。,,reviewed,False
+246,iTE:P1109:n2,2,1,False,accept,1,1,0,0,均为离子热扩散产生的大幅负Seebeck/thermopower，保留负号和大幅限定；不以给定数值相等为前提。,,reviewed,False
+247,iTE:P1840:n2,2,1,False,accept,1,1,0,0,均是掺杂抑制的晶粒生长过程，非晶粒尺寸量。,,reviewed,False
+248,iTE:P0696:n3,2,1,False,accept,1,1,0,0,首句明确从Cu2+/Cl-形成[CuCl4]2-构型，第二句直接指定同一络阴离子构型。,,reviewed,False
+249,iTE:P1664:n2,2,1,False,accept,1,1,0,0,两句均明确空穴迁移率，非一般载流子迁移率。,,reviewed,False
+250,iTE:P0420:n1,2,1,False,accept,1,1,0,0,同一主体、客体及相互作用类型，缩写和离子表示不同不改概念。,,reviewed,False
+251,iTE:P1498:n1,2,1,False,accept,1,1,0,0,两处hybridization均指电子轨道/态杂化，而非材料混合设计。,,reviewed,False
+252,iTE:P0412:n4,2,1,False,accept,1,1,0,0,均为非共价氢键相互作用，未合并材料或离子偶极作用。,,reviewed,False
+253,iTE:P1797:n1,2,1,False,accept,1,1,0,0,同为加入MXene材料的操作类别，保留加入物种。,,reviewed,False
+254,iTE:P0825:n1,2,1,False,accept,1,1,0,0,两处同为PEDOT域间距增大，状态描述和名词化描述均明确变化方向。,,reviewed,False
+255,iTE:P1928:n1,2,1,False,accept,1,1,0,0,均为掺杂量/水平提高；不等同掺杂水平本身。,,reviewed,False
+256,iTE:P0810:n3,2,1,False,accept,1,1,0,0,首句回指PEDOT域间输运，次句明确PEDOT:PSS微区间输运，空间尺度一致。,,reviewed,False
+257,iTE:P1941:n1,2,1,False,accept,1,1,0,0,第一句Sn引入导致杂质带，第二句明确Sn doping；均为引入Sn掺杂操作。,,reviewed,False
+258,iTE:P1879:n1,2,1,False,accept,1,1,0,0,两句证据都明确样品/聚合物表面离子积累，不等同体相浓度增加。,,reviewed,False
+259,iTE:P1404:n2,2,1,False,reject,2,0,1,0,第一概念固定I3-和Na+，第二仅说明SGO固定阴离子造成一般不对称；物种范围未一致。,,reviewed,False
+260,iTE:P0585:n2,2,1,False,accept,1,1,0,0,两处均为离子输运的选择性属性，纳米限域和温度梯度是环境条件。,两处指离子输运选择性这一属性，性能/数量角色不改变概念。此处只接受定性属性类型，不断言不同选择性指标具有相同计算公式。,reviewed,False
+261,iTE:P0681:n4,2,1,False,accept,1,1,0,0,两句均指允许离子传导的通道/路径结构，非输运性能本身。,,reviewed,False
+262,iTE:P0605:n4,2,1,False,uncertain,2,0,0,1,properties可能涵盖迁移率、选择性、活化能等，ability为综合能力，原文未给相同定义集合。,,reviewed,False
+263,iTE:P1458:n2,2,1,False,accept,1,1,0,0,Mulliken分析和泊松比在两处均用于推断键合的离子性，而非离子传导行为。,,reviewed,False
+264,iTE:P0624:n1,2,1,False,accept,1,1,0,0,两处都在导体/聚合物中设置阻断离子通过的结构；接受功能类别同义，不表示PVA与电子导电屏障材料相同。,,reviewed,False
+265,iTE:P1809:n1,2,1,False,reject,2,0,1,0,第一节点为ionic bonding fraction这一比例量，第二明确增加事件；原文包含增加不使被抽取的比例量等同变化。,,reviewed,False
+266,iTE:P0847:n1,2,1,False,accept,1,1,0,0,两句均为用离子栅调控载流子输运的技术，非离子输运机制。,,reviewed,False
+267,iTE:P0589:n3,2,1,False,accept,1,1,0,0,两处均指解离过程而非随后的迁移/扩散差异。,,reviewed,False
+268,iTE:P1788:n1,2,1,False,accept,1,1,0,0,首节点虽省略nearly，原文明确nearly isotropic；两文共同限定三维近各向同性网络。,,reviewed,False
+269,iTE:P1848:n1,2,1,False,reject,2,0,1,0,第一处有从Cl到I增大的明确比较方向；第二variation涵盖任意变化，不能消去方向限定。,,reviewed,False
+270,iTE:P1951:n2,2,1,False,reject,2,0,1,0,第一为Te相对Se/S体系比较，第二特指溴化物相对基准；比较对象不同且第二节点带材料限定。,,reviewed,False
+271,iTE:P1090:n2,2,1,False,accept,1,1,0,0,两节点均并列同一两个几何量；不等同其中任一量。,,reviewed,False
+272,iTE:P1522:n2,2,1,False,accept,1,1,0,0,晶格与晶体结构软化均指晶体键合/弹性软化效应，非晶格膨胀。,,reviewed,False
+273,iTE:P1587:n3,2,1,False,reject,2,0,1,0,light absorption/strong absorption描述吸收本身或水平，enhanced optical absorption明确相对增强；不自动抹去变化限定。,,reviewed,False
+274,iTE:P0537:n1,2,1,False,reject,2,0,1,0,第一是配位作用并可被Cl削弱，第二特定强配位促进阴离子输运；强度条件有机制意义。,,reviewed,False
+275,iTE:P1719:n3,2,1,False,reject,2,0,1,0,第一限定微区局部产生并串联累加，第二为装置热扩散电压；不能由共同起源消去空间与连接条件。,,reviewed,False
+276,iTE:P1666:n3,2,1,False,reject,2,0,1,0,low是相对低值状态，reduced是相比处理前降低，未证明降低后即落入同一低值范围。,,reviewed,False
+277,iTE:P1849:n1,2,1,False,accept,1,1,0,0,lowered与reduction均明确空穴数浓度下降，载流子与方向一致。,,reviewed,False
+278,iTE:P0815:n2,2,1,False,accept,1,1,0,0,相同两类性能集合，仅顺序变化。,mechanical and electrical与electrical and mechanical仅顺序变化，性能集合相同；不把样品实例或数值视为相同。,reviewed,False
+279,iTE:P1721:n2,2,1,False,uncertain,2,0,0,1,第一以韧性定量，第二仅说robustness提高；未提供同一失效或测量定义。,,reviewed,False
+280,iTE:P1831:n2,2,1,False,accept,1,1,0,0,两段均为组分调节导致金属向半导体行为变化；不要求瞬时相变，不等同反方向转变。,两文均为组成变化下金属到半导体输运行为的变化；不把第二篇gradual变化改成尖锐相变，保留行为转变这一共同层次。,reviewed,False
+281,iTE:P0602:n2,2,1,False,accept,1,1,0,0,两个节点均指材料微观结构这一结构属性，具体双连续/固体网络形态保留在原文，不把样品本身合并。,两处microstructure均为材料微观结构属性，具体双连续形貌及聚合物网络是其取值，保留在原文，不合并材料实体。,reviewed,False
+282,iTE:P1550:n3,2,1,False,accept,1,1,0,0,两段同为两种载流子共同导电，非其中任一种。,,reviewed,False
+283,iTE:P1731:n4,2,1,False,reject,2,0,1,0,一个节点为迁移率量，另一个为迁移率下降；即使两个原句都有下降，也不将量与变化事件等同。,,reviewed,False
+284,iTE:P1343:n1,2,1,False,accept,1,1,0,0,拼写连字符差异，均明确纳米尺度限域效应。,,reviewed,False
+285,iTE:P1936:n2,2,1,False,accept,1,1,0,0,两段均以键角变化引起eg相关电子带宽收窄，非声子频谱宽度。,,reviewed,False
+286,iTE:P1961:n2,2,1,False,accept,1,1,0,0,两段都以相同晶轴倾转角描述八面体旋转畸变，定义一致。,,reviewed,False
+287,iTE:P1605:n2,2,1,False,reject,2,0,1,0,平均温度是具有空间/时间统计限定的量，工作温度未给相同平均定义，不能抹掉average。,,reviewed,False
+288,iTE:P1707:n2,2,1,False,accept,1,1,0,0,两段均为装置端输出电压；蒸发和Na+热扩散是其成因，未改变端电压定义。,,reviewed,False
+289,iTE:P1495:n1,2,1,False,accept,1,1,0,0,两文均为影响离子和电子缺陷浓度的氧活度，不等同氧分压。,,reviewed,False
+290,iTE:P1339:n2,2,1,False,accept,1,1,0,0,两句均以百分数描述木材阻燃氧指数，LOI全称对同一性能量作明确展开。,,reviewed,False
+291,iTE:P1747:n1,2,1,False,accept,1,1,0,0,P(O2)在两篇输运语境均指氧气分压，大小写为符号写法。,,reviewed,False
+292,iTE:P1757:n1,2,1,False,accept,1,1,0,0,两处均为p型半导体类别，不等同p型响应性能或某种单一材料。,,reviewed,False
+293,iTE:P1665:n1,2,1,False,accept,1,1,0,0,两处均为溶液酸碱参数pH，应用不同不改定义。,,reviewed,False
+294,iTE:P0850:n1,2,1,False,accept,1,1,0,0,两处均明确paddle wheel机制；不直接等同超离子相或Na+载流子。,,reviewed,False
+295,iTE:P1660:n2,2,1,False,reject,2,0,1,0,第一限定掺杂导致聚合物氢键部分破坏，第二伴随质子跳跃的断键过程；程度和机制语境未一致。,,reviewed,False
+296,iTE:P1440:n1,2,1,False,accept,1,1,0,0,两句明确相同空隙对象和部分填充状态，不能泛化为任意partly filled。,,reviewed,False
+297,iTE:P1227:n2,2,1,False,reject,2,0,1,0,第二限定正号和大幅S(T)峰，第一dramatic peak未给峰的符号；保留子类条件。,,reviewed,False
+298,iTE:P0576:n3,2,1,False,uncertain,2,0,0,1,第一未定义性能指标，第二outstanding还含程度限定；不足以接受笼统同义。,,reviewed,False
+299,iTE:P0676:n2,2,1,False,uncertain,2,0,0,1,第一涵盖噪声、电容、电阻和热电性能，第二为电解质热力学输运所决定的器件性能，未有相同指标集合。,,reviewed,False
+300,iTE:P1611:n1,2,1,False,accept,1,1,0,0,两节点都指材料相变的一般过程，具体结构/输运性质转变未编码进标签；接受上层相变概念而非各样品相身份。,,reviewed,False
+301,iTE:P1377:n2,2,1,False,accept,1,1,0,0,补充上下文显示第一篇超离子Ag+材料相变，第二篇明确有序无序/超离子转变；两处均为该相变温度参数。,两篇完整上下文均为有序/无序进入超离子态的转变温度，不是任意结构相变温度。材料差别不消除其相变温度参数定义。,reviewed,False
+302,iTE:P0958:n2,2,1,False,accept,1,1,0,0,两处同指phonon drag；单复数不改变机制。,,reviewed,False
+303,iTE:P1496:n1,2,1,False,accept,1,1,0,0,第一句为声子介导电子散射，第二句为电子声子散射；都是电子与声子交换动量/能量的散射过程，不是电子电子散射。,,reviewed,False
+304,iTE:P1732:n2,2,1,False,reject,2,0,1,0,第二明确有序且面对面几何构型，第一只说调节pi-pi* stacking，不能默认同样有序与取向。,,reviewed,False
+305,iTE:P1381:n1,2,1,False,accept,1,1,0,0,第二段上下文明确PSS含量及界面阳离子差异，与第一PEDOT:PSS聚阴离子Donnan作用相符；不将效应与物质合并。,,reviewed,False
+306,iTE:P1031:n1,2,1,False,reject,2,0,1,0,第一为porosity属性；第二原文introduce nanoscale porosities指引入的孔结构实体，而非数值孔隙率。,,reviewed,False
+307,iTE:P0884:n2,2,1,False,accept,1,1,0,0,两句均为离子凝胶中正号热电系数，保留正号，不并入任意Seebeck系数。,,reviewed,False
+308,iTE:P0672:n2,2,1,False,accept,1,1,0,0,两句均以热电装置输出及Seebeck电流讨论热到电效率，非电流密度本身。,,reviewed,False
+309,iTE:P1550:n2,2,1,False,uncertain,2,0,0,1,predominantly electronic可能泛指电子/空穴导电，另一处明确electron conduction；需确认第一文载流子范围。,,reviewed,False
+310,iTE:P0537:n3,2,1,False,accept,1,1,0,0,两句均明确快速阴离子输运，保留rapid条件而不泛化为任意输运。,,reviewed,False
+311,iTE:P1440:n2,2,1,False,accept,1,1,0,0,两处相同填充原子、rattling及声子散射机制组合，介词差异不影响。,,reviewed,False
+312,iTE:P1908:n1,2,1,False,reject,2,0,1,0,第一限定大分子单元运动，第二限定笼结构的软振动模；共享rattling不足以同义化运动主体与软模条件。,,reviewed,False
+313,iTE:P0714:n3,2,1,False,accept,1,1,0,0,两处同为还原性环境条件，非n型传导或离子导电本身。,,reviewed,False
+314,iTE:P1535:n2,2,1,False,reject,2,0,1,0,第一节点特指氧化物中电子注入带来的浓度增加；第二未限定氧化物或载流子类型，范围不一致。,,reviewed,False
+315,iTE:P0571:n2,2,1,False,accept,1,1,0,0,首句上下文明确强配位Ca2+相对弱OH-，补足省略的固定对象；第二直接指定Ca2+。,,reviewed,False
+316,iTE:P0467:n1,2,1,False,accept,1,1,0,0,第二句低浓度IL加极性溶剂的上下文补足相互作用两方，与首句范围一致。,,reviewed,False
+317,iTE:P1951:n1,2,1,False,accept,1,1,0,0,第二段完整上下文是Na2TlSbCl6与Na2TlSbBr6比较；两节点为同一个半径大小关系的相反语序。,,reviewed,False
+318,iTE:P1627:n2,2,1,False,reject,2,0,1,0,第一带spatially confined限制，第二只说明相互作用固定阴离子，未证明相同空间限域条件。,,reviewed,False
+319,iTE:P0396:n2,2,1,False,uncertain,2,0,0,1,第一为mF/cm2面积电容，第二引文未说明按面积还是质量归一化，不能只以specific capacitance接受。,,reviewed,False
+320,iTE:P1419:n1,2,1,False,accept,1,1,0,0,首段明确strain-field effect为半径差异造成的声子散射机制，与第二完整术语范围一致。,,reviewed,False
+321,iTE:P1750:n2,2,1,False,accept,1,1,0,0,两处均为带电流体/通道电动效应产生的streaming potential，首段明确与Soret热电势并列区分。,streaming potential由带电流体通道电动效应产生，与并列的Soret热电势明确不同；两节点同义成立。,reviewed,False
+322,iTE:P1912:n2,2,1,False,accept,1,1,0,0,concentration与density在此均为数浓度，保留strongly temperature dependent条件。,,reviewed,False
+323,iTE:P1769:n2,2,1,False,accept,1,1,0,0,两段均由键能/形成能等评价晶体结构稳定性，非环境耐久性。,,reviewed,False
+324,iTE:P1580:n1,2,1,False,accept,1,1,0,0,第二虽标签为solid electrolytes，但原文明确with superionic conductivity；只接受该语境受限类别，不宣布所有固体电解质等于超离子材料。,,reviewed,False
+325,iTE:P0886:n2,2,1,False,accept,1,1,0,0,两节点都为thermoelectric power随温度的函数性质，不等同其绝对值。,,reviewed,False
+326,iTE:P1762:n1,2,1,False,accept,1,1,0,0,均为两位置间温度差，非单位长度梯度。,,reviewed,False
+327,iTE:P0392:n3,2,1,False,uncertain,2,0,0,1,第一虽温度驱动并单向，但未明确冷热方向；第二明确热到冷，尚不足以删除方向限定。,,reviewed,False
+328,iTE:P1889:n2,2,1,False,accept,1,1,0,0,Kapitza resistance与thermal boundary resistance在两段都指跨材料界面的热阻，非体相热阻。,,reviewed,False
+329,iTE:P1707:n1,2,1,False,accept,1,1,0,0,两处同为Na+在温度梯度下热扩散，物种、驱动力一致。,,reviewed,False
+330,iTE:P1712:n1,2,1,False,reject,2,0,1,0,P1712完整摘要明确TE=thermal expansion；P1513是thermoelectric effect。此处是缩写歧义导致的错误等价。,,reviewed,False
+331,iTE:P0572:n3,2,1,False,uncertain,2,0,0,1,两段均描述提升但未给properties与performance相同的指标范围，机制相似不足以证明两个集合严格同义。,,reviewed,False
+332,iTE:P1145:n3,2,1,False,accept,1,1,0,0,两句转变起点终点与方向完全一致。,,reviewed,False
+333,iTE:P1790:n2,2,1,False,accept,1,1,0,0,两句均是主导载流子机制从电子变为离子，触发条件不同不改转变定义。,,reviewed,False
+334,iTE:P0850:n2,2,1,False,uncertain,2,0,0,1,第二同时区分超离子桨轮和正常相Frenkel机制；第一只说桨轮解释输运，缺少相区和载流子范围。,,reviewed,False
+335,iTE:P0968:n1,2,1,False,uncertain,2,0,0,1,修订为待定：一侧明确晶胞体积收缩，另一侧只说lattice contraction策略；完整摘要未给出体积或各轴条件，不能断言几何范围严格等价。,修订为待定：一侧明确晶胞体积收缩，另一侧只说lattice contraction策略；完整摘要未给出体积或各轴条件，不能断言几何范围严格等价。,reviewed,False
+336,iTE:P0713:n2,2,1,False,reject,2,0,1,0,浓度差不是按空间长度归一化的梯度；原文未给同一定义，不能按常见关联合并。,,reviewed,False
+337,iTE:P1064:n1,2,1,False,uncertain,2,0,0,1,第一为干燥/非干燥多离子材料失水，第二可能是结晶水脱除的热事件；需水的结合状态以确定边界。,,reviewed,False
+338,iTE:P1255:n1,2,1,False,accept,1,1,0,0,两处均描述离子键弱的状态属性，未将其导致的软声子模合并。,,reviewed,False
+339,iTE:P1656:n2,2,1,False,reject,2,0,1,0,第一相对另一轨道占据情况明显弱化，第二为弱键绝对状态；不把变化比较与属性状态直接同义化。,,reviewed,False

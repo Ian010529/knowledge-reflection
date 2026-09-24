@@ -1,0 +1,107 @@
+import pandas as pd
+import random 
+import matplotlib.pyplot as plt
+from fuzzywuzzy import fuzz
+from collections import defaultdict
+from rdflib import Graph, Literal, Namespace, RDF, URIRef, BNode
+import openai
+import ast
+import sqlite3
+from tqdm import tqdm
+from urllib.parse import quote
+
+# Specify the path to the .tar.gz file
+tar_gz_path = 'ENTPTNERDOI.csv.tar.gz'
+
+# Specify the directory where you want to extract the file
+extract_dir = 'extracted_files'
+
+# Extract the tar.gz file
+with tarfile.open(tar_gz_path, 'r:gz') as file:
+    file.extractall(path=extract_dir)
+
+ENTDOI = pd.read_csv('ENTPTNERDOI.csv')
+
+ENTDOI.head()
+
+# Assuming ENT_DF is your existing DataFrame
+# Create a new SQLite database in memory
+conn = sqlite3.connect(":memory:")
+
+# Write ENT_DF to the SQLite database
+ENTDOI.to_sql('ENT_DF', conn, index=False, if_exists='replace')
+
+# SQL query to generate the new SRO_DF
+sql_query = """
+SELECT 
+    E1.Preferred_Entity AS Subject, 
+    E2.Preferred_Entity AS Object, 
+    E1.NER_Tag || '-' || E2.NER_Tag AS Rel,
+    COUNT(DISTINCT E1.DOI) AS Count
+FROM 
+    ENT_DF AS E1
+JOIN 
+    ENT_DF AS E2 ON E1.DOI = E2.DOI AND E1.Part_of_text = E2.Part_of_text
+WHERE 
+    E1.Preferred_Entity != E2.Preferred_Entity
+GROUP BY 
+    Subject, Object, Rel
+HAVING 
+    Count >= 30
+"""
+
+# Execute the SQL query and read the results into a new DataFrame
+SRO_DF = pd.read_sql_query(sql_query, conn)
+SRO_DF.reset_index(inplace = True, drop=True)
+
+SRO_DF.to_csv('SUBRELOBJ.csv', index = None)
+
+# Dictionary to keep track of entity URI mappings
+entity_uri_mapping = {}
+ner_dict           = {}
+NER, pref_entity = ENTDOI[['NER_Tag', 'Preferred_Entity']].values.T
+for ner, pref_ent in tqdm(zip(NER, pref_entity), total = len(NER)):
+    if pref_ent:
+
+        # Add Preferred_Entity, creating a URI based on NER tag
+        preferred_entity_uri = URIRef("http://example.com/{}/{}".format(ner, quote(pref_ent)))
+
+        entity_uri_mapping[pref_ent] = preferred_entity_uri
+        ner_dict[pref_ent]           = ner
+
+import pickle
+pickle.dump(entity_uri_mapping, open('entity_uri_mapping.pickle', 'wb'))
+
+NERDF = pd.DataFrame.from_dict(ner_dict, orient = 'index')
+NERDF.groupby(0).size().reset_index(name='count').sort_values('count', ascending = False)
+
+unique_entities = list(set(SRO_DF['Subject'].tolist() + SRO_DF['Object'].tolist()))
+print("Number of unique entities : {}".format(len(unique_entities)))
+
+reduced_ner_dict ={key: ner_dict[key] for key in unique_entities}
+len(reduced_ner_dict)
+
+RNERDF = pd.DataFrame.from_dict(ner_dict, orient = 'index')
+RNERDF.groupby(0).size().reset_index(name='count').sort_values('count', ascending = False)
+
+g = Graph()
+# Assuming you have a DataFrame df with 'subject', 'object', 'relationship', 'count' columns
+for row_num, row in tqdm(SRO_DF.iterrows(), total=len(SRO_DF)):
+    subject, object_, relationship, count = row
+    index = row_num  # Assuming row_num serves as the index
+
+    # Get URIs from the dictionaries
+    subject_uri = entity_uri_mapping.get(subject)
+    object_uri = entity_uri_mapping.get(object_)
+    relationship_uri = URIRef(f"http://example.org/{relationship}")
+
+    # Create a blank node or URI for the index
+    index_node = BNode(f"index{index}")
+
+    # Add the triples to the graph
+    g.add((index_node, URIRef("http://example.org/hasSubject"), URIRef(subject_uri)))
+    g.add((index_node, URIRef("http://example.org/hasObject"), URIRef(object_uri)))
+    g.add((index_node, URIRef("http://example.org/hasRelationship"), URIRef(relationship_uri)))
+    g.add((index_node, URIRef("http://example.org/hasCount"), Literal(count)))
+    
+g.serialize(destination='SUBRELOBJ.nt', format='nt')  

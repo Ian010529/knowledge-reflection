@@ -1,0 +1,556 @@
+[
+  {
+    "domain": "iTE",
+    "paper_id": "P1603",
+    "reference": {
+      "reference_id": "GP1603-004",
+      "article_role": "research",
+      "subject": "bonding hierarchy and rattling Ba atoms",
+      "subject_role": "state_structure",
+      "predicate": "reduce",
+      "object": "lattice thermal conductivity",
+      "object_role": "quantity",
+      "quote": "BaMgSi and Ba(2)Mg(3)Si(4)exhibited inherently ultra-low lattice thermal conductivity of 1.27-0.37 W m(-1)K(-1)in the range of 300-1000 K due to the bonding hierarchy and rattling Ba atoms.",
+      "assertion": "author_claim",
+      "modality": "theoretical",
+      "conditions": "BaMgSi and Ba2Mg3Si4; 1.27-0.37 W m(-1)K(-1) at 300-1000 K",
+      "joint_factors": [
+        "bonding hierarchy",
+        "rattling Ba atoms"
+      ],
+      "scope": "intrinsic_material_mechanism"
+    },
+    "judgment": {
+      "reference_id": "GP1603-004",
+      "label": "valid",
+      "reason": "两种材料在给定温区的联合降热导率有效；候选未保留该温区。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0166"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P0685",
+    "reference": {
+      "reference_id": "GP0685-004",
+      "article_role": "research",
+      "subject": "CTC-X gels",
+      "subject_role": "material_entity",
+      "predicate": "have potential for",
+      "object": "efficient low-grade heat harvesting",
+      "object_role": "application",
+      "quote": "Overall, this hybrid system demonstrates strong potential as an environmentally friendly thermoelectric material for efficient low-grade heat harvesting.",
+      "assertion": "hypothesis",
+      "modality": "experimental",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "application_sensing"
+    },
+    "judgment": {
+      "reference_id": "GP0685-004",
+      "label": "valid",
+      "reason": "低品位热收集的应用潜力明确且保留假说。",
+      "full_coverage_sets": [],
+      "partial_candidates": []
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P0633",
+    "reference": {
+      "reference_id": "GP0633-006",
+      "article_role": "research",
+      "subject": "uniaxial compressive or tensile stress 1 GPa",
+      "subject_role": "condition",
+      "predicate": "produces much smaller",
+      "object": "caloric effects",
+      "object_role": "performance_function",
+      "quote": "Uniaxial stresses of the same magnitude, either compressive or tensile, produce comparatively much smaller caloric effects, namely, vertical bar Delta S vertical bar similar to 1 J kg(-1) K-1 and vertical bar Delta T vertical bar similar to 0.1 K, due to practically null influence on the ionic diffusivity of the material.",
+      "assertion": "author_claim",
+      "modality": "computational",
+      "conditions": "Cu2Se compared with hydrostatic pressure 1 GPa; |Delta S| ~1 J kg(-1) K-1, |Delta T| ~0.1 K",
+      "joint_factors": [],
+      "scope": "thermodynamics"
+    },
+    "judgment": {
+      "reference_id": "GP0633-006",
+      "label": "valid",
+      "reason": "单轴应力直接产生较小效应；候选仅以扩散影响为端点。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0122"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P0633",
+    "reference": {
+      "reference_id": "GP0633-007",
+      "article_role": "research",
+      "subject": "analyzed thermodynamic range",
+      "subject_role": "condition",
+      "predicate": "does not contain",
+      "object": "structural phase transitions",
+      "object_role": "mechanism_process",
+      "quote": "Structural phase transitions are absent in the analyzed thermodynamic range.",
+      "assertion": "negated",
+      "modality": "computational",
+      "conditions": "Cu2Se; 400-700 K; hydrostatic pressure 1 GPa",
+      "joint_factors": [],
+      "scope": "thermodynamics"
+    },
+    "judgment": {
+      "reference_id": "GP0633-007",
+      "label": "valid",
+      "reason": "所分析范围无相变，候选缺1GPa精确压力限定。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0102"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P1402",
+    "reference": {
+      "reference_id": "GP1402-001",
+      "article_role": "research",
+      "subject": "free-standing flexible PBEDTH films",
+      "subject_role": "material_entity",
+      "predicate": "are promising for",
+      "object": "energy and sensor applications",
+      "object_role": "application",
+      "quote": "Although the capacitive and thermoelectric performance is not satisfactory, the free-standing flexible PBEDTH films will still be promising in the areas of energies and sensors in the true sense.",
+      "assertion": "hypothesis",
+      "modality": "experimental",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "application_sensing"
+    },
+    "judgment": {
+      "reference_id": "GP1402-001",
+      "label": "valid",
+      "reason": "作者提出能源和传感应用前景。",
+      "full_coverage_sets": [],
+      "partial_candidates": []
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P1402",
+    "reference": {
+      "reference_id": "GP1402-003",
+      "article_role": "research",
+      "subject": "free-standing flexible PBEDTH films",
+      "subject_role": "material_entity",
+      "predicate": "have unsatisfactory",
+      "object": "capacitive and thermoelectric performance",
+      "object_role": "performance_function",
+      "quote": "Although the capacitive and thermoelectric performance is not satisfactory, the free-standing flexible PBEDTH films will still be promising in the areas of energies and sensors in the true sense.",
+      "assertion": "negated",
+      "modality": "experimental",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "intrinsic_material_mechanism"
+    },
+    "judgment": {
+      "reference_id": "GP1402-003",
+      "label": "valid",
+      "reason": "作者明确电容与热电性能不理想的负结果。",
+      "full_coverage_sets": [],
+      "partial_candidates": []
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P1803",
+    "reference": {
+      "reference_id": "GP1803-001",
+      "article_role": "research",
+      "subject": "ab initio elastic tensor and Christoffel equations",
+      "subject_role": "design_strategy",
+      "predicate": "incorporate into thermal-conductivity model",
+      "object": "directional dependence of speed of sound",
+      "object_role": "quantity",
+      "quote": "To address this need through computations, we build upon our previously developed isotropic model for kappa(L) and incorporate the directional (angular) dependence by using the elastic tensor obtained from ab initio calculations and the Christoffel equations for the speed of sound.",
+      "assertion": "author_claim",
+      "modality": "computational",
+      "conditions": "",
+      "joint_factors": [
+        "ab initio elastic tensor",
+        "Christoffel equations"
+      ],
+      "scope": "measurement_method_model"
+    },
+    "judgment": {
+      "reference_id": "GP1803-001",
+      "label": "valid",
+      "reason": "模型显式引入声速方向性；候选只称模型方向性，未直接指明声速。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0050"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P1969",
+    "reference": {
+      "reference_id": "GP1969-006",
+      "article_role": "research",
+      "subject": "Ti/Zr/Hf2Ni2Sn polycrystalline compounds",
+      "subject_role": "material_entity",
+      "predicate": "have",
+      "object": "metallic-like electrical resistivity",
+      "object_role": "quantity",
+      "quote": "For all three polycrystalline compounds (relative densities >95%) the electrical resistivity of the samples is metallic-like with dominant scattering from static defects mainly conditioned by off-stoichiometry.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "relative densities >95%; slightly nonstoichiometric compositions",
+      "joint_factors": [],
+      "scope": "intrinsic_material_mechanism"
+    },
+    "judgment": {
+      "reference_id": "GP1969-006",
+      "label": "valid",
+      "reason": "特定略偏化学计量多晶材料具有金属型电阻。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0193"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P0720",
+    "reference": {
+      "reference_id": "GP0720-002",
+      "article_role": "research",
+      "subject": "ion-electron interactions",
+      "subject_role": "interaction",
+      "predicate": "occur at",
+      "object": "pyroelectric/ionic thermoelectric interface",
+      "object_role": "state_structure",
+      "quote": "The performance of the concept and its working mechanism can be explained by ion-electron interactions at the interface between the pyroelectric and ionic thermoelectric materials.",
+      "assertion": "author_claim",
+      "modality": "unspecified",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "intrinsic_material_mechanism"
+    },
+    "judgment": {
+      "reference_id": "GP0720-002",
+      "label": "valid",
+      "reason": "离子电子相互作用的位置明确；候选只在长节点中包含位置，没有位置关系边。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0126",
+        "CiTE-0188"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "iTE",
+    "paper_id": "P1176",
+    "reference": {
+      "reference_id": "GP1176-002",
+      "article_role": "research",
+      "subject": "introducing more elements",
+      "subject_role": "design_strategy",
+      "predicate": "engineers",
+      "object": "configurational entropy",
+      "object_role": "quantity",
+      "quote": "Engineering the configurational entropy of the material by introducing more elements stabilizes the thermoelectrically beneficial high-symmetry.-phase and promotes the multivalley electronic structure of the valence band.",
+      "assertion": "author_claim",
+      "modality": "unspecified",
+      "conditions": "Cu7P(SxSe1-x)6",
+      "joint_factors": [],
+      "scope": "thermodynamics"
+    },
+    "judgment": {
+      "reference_id": "GP1176-002",
+      "label": "valid",
+      "reason": "通过增加元素工程化构型熵为明确方法关系，候选仅藏在长主语中。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CiTE-0059",
+        "CiTE-0154"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0230",
+    "reference": {
+      "reference_id": "GP0230-002",
+      "article_role": "research",
+      "subject": "temperature",
+      "subject_role": "condition",
+      "predicate": "greatly affects",
+      "object": "galvanic current density",
+      "object_role": "quantity",
+      "quote": "Statistical analysis by means of multilevel factorial design reveals that temperature greatly affects galvanic current densities.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "copper/AISI 316L couple in concentrated LiBr brine",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics"
+    },
+    "judgment": {
+      "reference_id": "GP0230-002",
+      "label": "valid",
+      "reason": "统计实验显示温度显著影响电流密度。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0152"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0230",
+    "reference": {
+      "reference_id": "GP0230-004",
+      "article_role": "research",
+      "subject": "Reynolds number",
+      "subject_role": "quantity",
+      "predicate": "increases",
+      "object": "copper galvanic corrosion rate",
+      "object_role": "quantity",
+      "quote": "Temperature and Reynolds number increase galvanic corrosion rates of copper.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "copper/AISI 316L couple in concentrated LiBr brine",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics"
+    },
+    "judgment": {
+      "reference_id": "GP0230-004",
+      "label": "valid",
+      "reason": "列举效应可拆为雷诺数关系。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0043"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0230",
+    "reference": {
+      "reference_id": "GP0230-005",
+      "article_role": "research",
+      "subject": "temperature",
+      "subject_role": "condition",
+      "predicate": "increases",
+      "object": "copper galvanic corrosion rate",
+      "object_role": "quantity",
+      "quote": "Temperature and Reynolds number increase galvanic corrosion rates of copper.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "copper/AISI 316L couple in concentrated LiBr brine",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics"
+    },
+    "judgment": {
+      "reference_id": "GP0230-005",
+      "label": "valid",
+      "reason": "列举效应可拆为温度关系。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0115"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0226",
+    "reference": {
+      "reference_id": "GP0226-001",
+      "article_role": "research",
+      "subject": "asymmetric-cell Seebeck coefficients",
+      "subject_role": "quantity",
+      "predicate": "deviate from",
+      "object": "values expected from symmetric half-cell measurements",
+      "object_role": "quantity",
+      "quote": "The measured Seebeck coefficients of identical asymmetric cells containing both electrodes deviated from the expected values, having Seebeck coefficients which also varied as a function of thermal conditions (+ 0.7 to + 4.3 mV.K-1).",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "Li metal and solid lithium ferri/ferrocyanide intercalation electrodes; symmetric +1.0 and -0.6 mV.K-1",
+      "joint_factors": [],
+      "scope": "thermodynamics"
+    },
+    "judgment": {
+      "reference_id": "GP0226-001",
+      "label": "valid",
+      "reason": "系数偏离预测是明确比较。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0147"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0115",
+    "reference": {
+      "reference_id": "GP0115-001",
+      "article_role": "research",
+      "subject": "two thermogalvanic battery-stack systems",
+      "subject_role": "design_strategy",
+      "predicate": "have potential for powering",
+      "object": "remote sensor networks",
+      "object_role": "application",
+      "quote": "Both systems are attractive for harvesting thermal energy for self-powered sensor networks, especially in remote areas.",
+      "assertion": "hypothesis",
+      "modality": "experimental",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "application_sensing"
+    },
+    "judgment": {
+      "reference_id": "GP0115-001",
+      "label": "valid",
+      "reason": "明确提出远程自供能传感潜力。",
+      "full_coverage_sets": [],
+      "partial_candidates": []
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0121",
+    "reference": {
+      "reference_id": "GP0121-002",
+      "article_role": "research",
+      "subject": "increasing electrode spacing",
+      "subject_role": "quantity",
+      "predicate": "increases",
+      "object": "Cu/Cu2+ cell maximum power output",
+      "object_role": "quantity",
+      "quote": "However, comparison with the conventional Fe(CN)(6)(4-)/Fe(CN)(6)(3-) cells revealed a completely different dependence of the electrode spacing on the power generation, that the P-max of Cu/Cu-2 cell increases, instead of decreases, with the electrode spacing due to the difference in ionic transfer mechanism.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "contrasts Fe(CN)6 redox cells, whose power decreases with spacing",
+      "joint_factors": [],
+      "scope": "ion_mass_transport"
+    },
+    "judgment": {
+      "reference_id": "GP0121-002",
+      "label": "valid",
+      "reason": "摘要另处明确Cu/Cu2+体系，间距实验趋势清楚。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0151"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0223",
+    "reference": {
+      "reference_id": "GP0223-002",
+      "article_role": "research",
+      "subject": "small-additive coordination to large ion",
+      "subject_role": "interaction",
+      "predicate": "contributes configuration entropy for analysis of",
+      "object": "redox-pair entropy difference and Seebeck coefficient",
+      "object_role": "quantity",
+      "quote": "The configuration entropy of the small additives coordinated to a large ion is calculated to analyze the Seebeck coefficient obtained from the entropy difference between the redox pairs.",
+      "assertion": "author_claim",
+      "modality": "theoretical",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "thermodynamics"
+    },
+    "judgment": {
+      "reference_id": "GP0223-002",
+      "label": "valid",
+      "reason": "配位添加剂的构型熵用于熵差/系数分析在原文成立。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0013",
+        "CTG-0053",
+        "CTG-0126"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0301",
+    "reference": {
+      "reference_id": "GP0301-002",
+      "article_role": "research",
+      "subject": "multiple TRECs working in different states",
+      "subject_role": "design_strategy",
+      "predicate": "enable",
+      "object": "continuous power output from low-temperature waste heat",
+      "object_role": "performance_function",
+      "quote": "A new model of the electrochemical system consisting of multiple thermally regenerative electrochemical cycles (TRECs) Working in different states is proposed to solve the problem of discontinuous power output. This system can efficiently harvest low-temperature waste heat and realize the continuous power output.",
+      "assertion": "author_claim",
+      "modality": "theoretical",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "device_thermal_management"
+    },
+    "judgment": {
+      "reference_id": "GP0301-002",
+      "label": "valid",
+      "reason": "不同状态多循环系统连续输出能力明确。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0114",
+        "CTG-0149"
+      ]
+    },
+    "initial_covered": false
+  },
+  {
+    "domain": "TG",
+    "paper_id": "P0100",
+    "reference": {
+      "reference_id": "GP0100-003",
+      "article_role": "research",
+      "subject": "presented thermogalvanic profiling method",
+      "subject_role": "design_strategy",
+      "predicate": "identifies",
+      "object": "nanoscaling effects in anatase TiO2 profile",
+      "object_role": "descriptor",
+      "quote": "Moreover, the identification of nanoscaling effects in this profile highlighted the strength of this approach.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "measurement_method_model"
+    },
+    "judgment": {
+      "reference_id": "GP0100-003",
+      "label": "valid",
+      "reason": "方法能识别谱中纳米尺度效应明确。",
+      "full_coverage_sets": [],
+      "partial_candidates": [
+        "CTG-0017"
+      ]
+    },
+    "initial_covered": false
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "pair_id": "pair:f796dcff03115df7a583",
+  "judge_relation": "related_to",
+  "judge_equivalence_decision": "reject",
+  "judge_reason": "P1062是材料热导率测量，P1481明确为晶格热导率kl。晶格热导是总热导的组成分量，整体—部分关系不能替换为is-a，也不是严格等价。b00290a的related_to判断成立；b00290的broader_than将分量误当下位概念。",
+  "variants": [
+    {
+      "batch_id": "b00290a",
+      "source": "/Users/chl/Desktop/my_project/knowledge_reflection/stage2_normalization/dsh_flash_review/results/batches/b00290a.json",
+      "source_sha256": "0e3328b62c40861ce529b9c61126ec35617f25211ebe878bfcd2a33bf5fc0848",
+      "result": {
+        "pair_id": "pair:f796dcff03115df7a583",
+        "left_mention_id": "iTE:P1062:n2",
+        "right_mention_id": "iTE:P1481:n2",
+        "domain": "iTE",
+        "relation": "related_to",
+        "left_evidence": "Thermal conductivity",
+        "right_evidence": "lattice thermal conductivity",
+        "reason": "左侧为一般热导，右侧特指晶格热导；总热导通常包含晶格热导，属整体-部分关系，不能判为等价或上下位，故为相关。",
+        "left_evidence_locatable": true,
+        "right_evidence_locatable": true,
+        "evidence_locatable": true
+      }
+    },
+    {
+      "batch_id": "b00290",
+      "source": "/Users/chl/Desktop/my_project/knowledge_reflection/stage2_normalization/dsh_flash_review/results/batches/b00290.json",
+      "source_sha256": "8a3d348ab440693c3febfe6945e16072bea10752045389c98b60c6c606f93e34",
+      "result": {
+        "pair_id": "pair:f796dcff03115df7a583",
+        "left_mention_id": "iTE:P1062:n2",
+        "right_mention_id": "iTE:P1481:n2",
+        "domain": "iTE",
+        "relation": "broader_than",
+        "left_evidence": "Thermal conductivity measurements for Ti0.5Zr0.5NiSn0.95 suggest that the dominant reduction comes from Ti/Zr mass and size difference phonon scattering with the multiphase behaviour a secondary effect.",
+        "right_evidence": "the lattice thermal conductivity (kl) to drop with increasing temperature",
+        "reason": "左侧为总热导率，右侧明确限定为晶格热导率 kl，晶格分量是总热导率的组成部分，故 left 比 right 宽泛。",
+        "left_evidence_locatable": true,
+        "right_evidence_locatable": true,
+        "evidence_locatable": true
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "mention_id": "iTE:P1062:n2",
+      "label": "Thermal conductivity",
+      "domain": "iTE",
+      "paper_id": "P1062",
+      "role": "quantity",
+      "quote": "Quantitative X-ray powder diffraction analysis demonstrates that mixing Ti, Zr and Hf on the ionic site in the half-Heusler structure, which is a common strategy to lower the lattice thermal conductivity in this important class of thermoelectric materials, leads to multiphase behaviour. For example, nominal Ti0.5Zr0.5NiSn has a distribution of Ti1-xZrxNiSn compositions between 0.24 <= x <= 0.70. Similar variations are observed for Zr0.50Hf0.5NiSn and Ti0.5Hf0.5NiSn. Electron microscopy and elemental mapping demonstrate that the main compositional variations occur over micrometre length scales. The thermoelectric power factors of the mixed phase samples are improved compared to the single phase end-members (e. g. S-2/rho = 1.8 mW m(-1) K-2 for Ti0.5Zr0.5NiSn, compared to S-2/rho = 1.5 mW m(-1) K-2 for TiNiSn), demonstrating that the multiphase behaviour is not detrimental to electronic transport. Thermal conductivity measurements for Ti0.5Zr0.5NiSn0.95 suggest that the dominant reduction comes from Ti/Zr mass and size difference phonon scattering with the multiphase behaviour a secondary effect.",
+      "context": "Zr and Hf on the ionic site in the half-Heusler structure, which is a common strategy to lower the lattice thermal conductivity in this important class of thermoelectric materials, leads to multiphase behaviour. For example, nominal Ti0.5Zr0.5NiSn has a distribution of Ti1-xZrxNiSn compositions between 0.24 <= x <= 0.70. Similar variations are observed for Zr0.50Hf0.5NiSn and Ti0.5Hf0.5NiSn. Electron microscopy and elemental mapping demonstrate that the main compositional variations occur over micrometre length scales. The thermoelectric power factors of the mixed",
+      "quote_start": 76,
+      "quote_end": 646,
+      "one_hop_relations": [
+        {
+          "role": "object",
+          "predicate": "dominant suggested reduction mechanism",
+          "subject": "iTE:P1062:n1",
+          "object": "iTE:P1062:n2",
+          "paper_id": "P1062"
+        }
+      ]
+    },
+    {
+      "mention_id": "iTE:P1481:n2",
+      "label": "lattice thermal conductivity",
+      "domain": "iTE",
+      "paper_id": "P1481",
+      "role": "quantity",
+      "quote": "Interestingly, thermoelectric study demonstrates that enhanced phonon scattering causes the lattice thermal conductivity (kl) to drop with increasing temperature, results in a giant figure-of-merit of 1.00 at mu = 0.1 Ry at 700 K.",
+      "context": "Interestingly, thermoelectric study demonstrates that enhanced phonon scattering causes the lattice thermal conductivity (kl) to drop with increasing temperature, results in a giant figure-of-merit of 1.00 at mu = 0.1 Ry at 700 K.",
+      "quote_start": 0,
+      "quote_end": 230,
+      "one_hop_relations": [
+        {
+          "role": "object",
+          "predicate": "reduces",
+          "subject": "iTE:P1481:n1",
+          "object": "iTE:P1481:n2",
+          "paper_id": "P1481"
+        },
+        {
+          "role": "subject",
+          "predicate": "reduction supports",
+          "subject": "iTE:P1481:n2",
+          "object": "iTE:P1481:n3",
+          "paper_id": "P1481"
+        }
+      ]
+    }
+  ],
+  "judge_model": "gpt-6-astra",
+  "judge_reasoning_effort": "high",
+  "merge_applied": false,
+  "formal_relation_applied": false
+}

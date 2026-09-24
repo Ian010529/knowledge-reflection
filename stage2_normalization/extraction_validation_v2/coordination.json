@@ -1,0 +1,50 @@
+{
+  "authorization": "User explicitly authorized independent Astra subagents for extraction, source-only reference and blinded evaluation.",
+  "model_selection": "Worker agents inherit parent model; requested role is Astra. Exact runtime build is not separately reported by tool.",
+  "roles": {
+    "extract_ite_v2": {
+      "task": "/root/extract_ite_v2",
+      "papers": 30,
+      "fork_turns": "none",
+      "input": "inputs/iTE.json"
+    },
+    "extract_tg_v2": {
+      "task": "/root/extract_tg_v2",
+      "papers": 30,
+      "fork_turns": "none",
+      "input": "inputs/TG.json"
+    },
+    "reference_v2": {
+      "task": "/root/reference_v2",
+      "papers": 60,
+      "fork_turns": "none",
+      "input": "inputs/reference_all.json"
+    },
+    "judge_ite_v2": {
+      "task": "/root/judge_ite_v2",
+      "papers": 20,
+      "fork_turns": "none",
+      "model": "gpt-6-astra",
+      "input": "blind/iTE.json",
+      "subset": "input positions0:20"
+    },
+    "judge_tg_v2": {
+      "task": "/root/judge_tg_v2",
+      "papers": 30,
+      "fork_turns": "none",
+      "model": "gpt-6-astra",
+      "input": "blind/TG.json",
+      "subset": "head20 completed, then tail10 in followup without author/version exposure"
+    },
+    "judge_tail_v2": {
+      "task": "/root/judge_tail_v2",
+      "papers": 10,
+      "fork_turns": "none",
+      "model": "gpt-6-astra",
+      "input": "blind/tail20.json",
+      "subset": "tail20 positions0:10, iTE only"
+    }
+  },
+  "protocol_hash": "6a80bb2180b5e7d70887cd94c557d19fc65f5c8152b3708fd2e91b9952d3d2af",
+  "logged_at": "2026-09-24T11:01:51.731334+00:00"
+}

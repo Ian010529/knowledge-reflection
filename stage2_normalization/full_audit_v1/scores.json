@@ -1,0 +1,445 @@
+{
+  "validation": "PASS",
+  "baseline": "original frozen extraction; never repaired scores",
+  "excluded_historical_papers": 428,
+  "inference_population": "Eligible papers not used in historical development/acceptance; not all 1,971 papers",
+  "semantic_authority": "Astra model reference and judgments, not human gold standard",
+  "domains": {
+    "iTE": {
+      "eligible_papers": 1415,
+      "eligible_relations": 15574,
+      "precision": {
+        "strict": 0.8003586118044763,
+        "counts": {
+          "supported": 80,
+          "partial": 12,
+          "unsupported": 0,
+          "out_of_scope": 7,
+          "uncertain": 1
+        },
+        "weighted_counts": {
+          "supported": 12464.785020242914,
+          "partial": 1843.7995951417004,
+          "unsupported": 0,
+          "out_of_scope": 1114.876923076923,
+          "uncertain": 150.53846153846155
+        },
+        "sample_relations": 100,
+        "sampled_papers": 95,
+        "weighted_denominator": 15574.0,
+        "ci95": {
+          "low": 0.7181378445609756,
+          "high": 0.8763450059314888,
+          "usable_replicates": 2000,
+          "null_replicates": 0
+        },
+        "issues": [
+          {
+            "issue": "conditions",
+            "count": 8,
+            "weighted_count": 1232.0495951417006
+          },
+          {
+            "issue": "scope",
+            "count": 8,
+            "weighted_count": 1257.876923076923
+          },
+          {
+            "issue": "joint_factors",
+            "count": 3,
+            "weighted_count": 467.25
+          },
+          {
+            "issue": "comparison",
+            "count": 1,
+            "weighted_count": 156.25
+          },
+          {
+            "issue": "endpoint",
+            "count": 1,
+            "weighted_count": 150.53846153846155
+          }
+        ]
+      },
+      "recall": {
+        "sampled_papers": 30,
+        "core": {
+          "counts": {
+            "valid": {
+              "complete": 214,
+              "partial": 25,
+              "missing": 27
+            },
+            "uncertain": {
+              "complete": 2,
+              "partial": 1,
+              "missing": 4
+            },
+            "out_of_scope": {
+              "complete": 5,
+              "partial": 0,
+              "missing": 14
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 10095.461538461539,
+              "partial": 1184.0497737556561,
+              "missing": 1275.321266968326
+            },
+            "uncertain": {
+              "complete": 94.43891402714931,
+              "partial": 47.61538461538461,
+              "missing": 188.87782805429862
+            },
+            "out_of_scope": {
+              "complete": 235.70135746606334,
+              "partial": 0,
+              "missing": 656.3212669683259
+            }
+          },
+          "papers_without_valid_reference": [],
+          "papers_without_any_reference": [],
+          "valid_denominator": 12554.83257918552,
+          "conservative_denominator": 12885.764705882353,
+          "complete_numerator": 10095.461538461539,
+          "complete_valid": 0.8041096107644367,
+          "complete_conservative": 0.7834584728877565,
+          "ci95_valid": {
+            "low": 0.7366935250996208,
+            "high": 0.8690825136252246,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.716856051410891,
+            "high": 0.8463825177881994,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        },
+        "all": {
+          "counts": {
+            "valid": {
+              "complete": 329,
+              "partial": 42,
+              "missing": 27
+            },
+            "uncertain": {
+              "complete": 3,
+              "partial": 1,
+              "missing": 4
+            },
+            "out_of_scope": {
+              "complete": 14,
+              "partial": 0,
+              "missing": 20
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 15507.09049773756,
+              "partial": 1987.9683257918548,
+              "missing": 1275.321266968326
+            },
+            "uncertain": {
+              "complete": 141.26244343891403,
+              "partial": 47.61538461538461,
+              "missing": 188.87782805429862
+            },
+            "out_of_scope": {
+              "complete": 661.0723981900453,
+              "partial": 0,
+              "missing": 937.2624434389141
+            }
+          },
+          "papers_without_valid_reference": [],
+          "papers_without_any_reference": [],
+          "valid_denominator": 18770.38009049774,
+          "conservative_denominator": 19148.13574660634,
+          "complete_numerator": 15507.09049773756,
+          "complete_valid": 0.8261468560025496,
+          "complete_conservative": 0.8098485775820714,
+          "ci95_valid": {
+            "low": 0.7659962100062447,
+            "high": 0.8843277570239395,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.7516185985005615,
+            "high": 0.8623969195172404,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        }
+      },
+      "challenge": {
+        "n": 25,
+        "counts": {
+          "supported": 19,
+          "partial": 4,
+          "unsupported": 0,
+          "out_of_scope": 2,
+          "uncertain": 0
+        },
+        "issues": {
+          "joint_factors": 1,
+          "modality": 1,
+          "scope": 2,
+          "comparison": 2,
+          "conditions": 1
+        },
+        "probability_estimate": false
+      }
+    },
+    "TG": {
+      "eligible_papers": 128,
+      "eligible_relations": 1147,
+      "precision": {
+        "strict": 0.8209989419666839,
+        "counts": {
+          "supported": 82,
+          "partial": 10,
+          "unsupported": 0,
+          "out_of_scope": 8,
+          "uncertain": 0
+        },
+        "weighted_counts": {
+          "supported": 941.6857864357864,
+          "partial": 114.40259740259741,
+          "unsupported": 0,
+          "out_of_scope": 90.91161616161617,
+          "uncertain": 0
+        },
+        "sample_relations": 100,
+        "sampled_papers": 71,
+        "weighted_denominator": 1147.0,
+        "ci95": {
+          "low": 0.7478386054662469,
+          "high": 0.8908656265898595,
+          "usable_replicates": 2000,
+          "null_replicates": 0
+        },
+        "issues": [
+          {
+            "issue": "scope",
+            "count": 9,
+            "weighted_count": 102.18434343434345
+          },
+          {
+            "issue": "conditions",
+            "count": 5,
+            "weighted_count": 57.55844155844156
+          },
+          {
+            "issue": "joint_factors",
+            "count": 3,
+            "weighted_count": 34.285714285714285
+          },
+          {
+            "issue": "assertion",
+            "count": 1,
+            "weighted_count": 11.285714285714286
+          },
+          {
+            "issue": "endpoint",
+            "count": 1,
+            "weighted_count": 11.285714285714286
+          },
+          {
+            "issue": "evidence",
+            "count": 1,
+            "weighted_count": 11.285714285714286
+          }
+        ]
+      },
+      "recall": {
+        "sampled_papers": 30,
+        "core": {
+          "counts": {
+            "valid": {
+              "complete": 113,
+              "partial": 5,
+              "missing": 18
+            },
+            "uncertain": {
+              "complete": 1,
+              "partial": 2,
+              "missing": 0
+            },
+            "out_of_scope": {
+              "complete": 6,
+              "partial": 0,
+              "missing": 5
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 482.5982142857143,
+              "partial": 21.464285714285715,
+              "missing": 76.9375
+            },
+            "uncertain": {
+              "complete": 4.214285714285714,
+              "partial": 8.625,
+              "missing": 0
+            },
+            "out_of_scope": {
+              "complete": 25.38392857142857,
+              "partial": 0,
+              "missing": 21.16964285714286
+            }
+          },
+          "papers_without_valid_reference": [
+            "P0092"
+          ],
+          "papers_without_any_reference": [
+            "P0092"
+          ],
+          "valid_denominator": 581.0,
+          "conservative_denominator": 593.8392857142857,
+          "complete_numerator": 482.5982142857143,
+          "complete_valid": 0.8306337595279075,
+          "complete_conservative": 0.8126747857465043,
+          "ci95_valid": {
+            "low": 0.7555222247566119,
+            "high": 0.9058136155516955,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.7372665816468035,
+            "high": 0.8993257253423494,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        },
+        "all": {
+          "counts": {
+            "valid": {
+              "complete": 275,
+              "partial": 20,
+              "missing": 31
+            },
+            "uncertain": {
+              "complete": 1,
+              "partial": 4,
+              "missing": 0
+            },
+            "out_of_scope": {
+              "complete": 22,
+              "partial": 0,
+              "missing": 11
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 1175.1339285714282,
+              "partial": 85.56249999999999,
+              "missing": 132.80357142857142
+            },
+            "uncertain": {
+              "complete": 4.214285714285714,
+              "partial": 17.05357142857143,
+              "missing": 0
+            },
+            "out_of_scope": {
+              "complete": 93.79464285714285,
+              "partial": 0,
+              "missing": 46.94642857142858
+            }
+          },
+          "papers_without_valid_reference": [],
+          "papers_without_any_reference": [],
+          "valid_denominator": 1393.4999999999995,
+          "conservative_denominator": 1414.7678571428567,
+          "complete_numerator": 1175.1339285714282,
+          "complete_valid": 0.8432966835819367,
+          "complete_conservative": 0.8306196120009594,
+          "ci95_valid": {
+            "low": 0.7964601992348391,
+            "high": 0.8910255316336099,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.7759645647243536,
+            "high": 0.8845281702596002,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        }
+      },
+      "challenge": {
+        "n": 25,
+        "counts": {
+          "supported": 13,
+          "partial": 7,
+          "unsupported": 0,
+          "out_of_scope": 5,
+          "uncertain": 0
+        },
+        "issues": {
+          "joint_factors": 3,
+          "conditions": 4,
+          "sample_identity": 1,
+          "scope": 5,
+          "assertion": 1
+        },
+        "probability_estimate": false
+      }
+    }
+  },
+  "bootstrap": {
+    "seed": 20260925,
+    "repetitions": 2000,
+    "method": "Percentile 95% approximation; precision resamples observed paper clusters independently within domain with frozen relation-stratum N/n weights; recall resamples papers within domain/year strata with frozen paper N/n weights.",
+    "limitations": "Not an exact design-based interval: precision sampling was stratified by relation, but its cluster bootstrap does not reconstruct that design. No finite-population correction. Singleton strata cannot estimate within-stratum variability. Intervals omit reference/judge model error and unobserved omissions. Null-denominator replicates excluded and counted."
+  },
+  "accounting": "Precision retains partial/unsupported/out_of_scope/uncertain in denominator. Recall valid denominator excludes uncertain/out_of_scope; conservative denominator includes valid+uncertain but numerator only valid complete. Partial is never complete. Reference IDs count once; candidate IDs may legitimately support distinct reference claims. Challenge is separate.",
+  "provenance": {
+    "baseline_sha256": "24049e5cddd0f37d50e58799e5a0d29371ae0c51abdce2c3a8f10dbb7f0150ed",
+    "reference_sha256": "6b27731cb7da8876fd4607881bc9cbb20289beef5e77af71557efbf222716f3d",
+    "selection_sha256": "12425913dc2e9077c1b22e14a1bbad210d4f29bcd9ca46b7bb63406788c66ff3",
+    "response_sha256": {
+      "precision_001": "3997003b7946170db27d097cc9b0a67262d6b38091e2b66eeaa51f3964683796",
+      "precision_002": "d73e3eb1980df7454dcd5cf40dfd703ade1bc226a1ad3ba07aaf6e03272b4784",
+      "precision_003": "ac1522a1ab6f223556ad985648883fd33fc99d289e58dee70fac4244a94baf9c",
+      "precision_004": "f4c3a2b9c63c4e5bdaf7b86b0508946ff0bd9980593d7b5b623280edc1875456",
+      "precision_005": "dbb3e9aa36c36ef84b98a86f28a7cad1d6d22a63f8b16a921b39072f53346a5f",
+      "precision_006": "4692c2c4bfc714857ccee0f3b022ca6940e49a324529a52bca2883ca9dd741f2",
+      "precision_007": "0f9cded6e6b89b4f19184ce5b51e2b1fb4e5167c81d0ec0041b0b7fcca06043c",
+      "precision_008": "1c447392d98e5dc089978ce30e41139d5811ebef31d4afe827aa6ca6f466ddbc",
+      "precision_009": "f6c171f3c9f25edac49981f0f4ffb9796b5b8472f2a03d952018e5e7fab6ee6c",
+      "precision_010": "eba0786cd1530be037563b76b02ad7e4194dcb387146441561e9ad55238178d8",
+      "precision_011": "bbfd23244fd6bb7313656a3f06770e01734863694ea0179f3c251f9221029ce9",
+      "precision_012": "a40b2d0aaebe99edda60c9ba98949964b5d39a4de9e2ca4837985c21f7181143",
+      "precision_013": "214f632516681580c1fa316f987d6759a8c03acf5386e08a68d2313577af87e5",
+      "precision_014": "3493c1f643ae31e090564447bdd49d1a26b94eb246ead4392776672eedc653dc",
+      "precision_015": "f6d8ad213647cfd8f6d17973ee1a891cdf9bc5e722ca6ea998bd3b0970e52dda",
+      "precision_016": "7321028effad10b4b54d211f7465465e47050c93aec0f0a49ff0a5ed863be58c",
+      "precision_017": "a494abfa57a23118b300d9d340f3f37b19fb2aeab6fff874a31b953055a0798d",
+      "precision_018": "931855449793fc4f080ead8ccd7a2aeeae5d67fbd6df2de1e5231c790441cac6",
+      "precision_019": "27cecc1d28a41aba3d3229a315f000db914ee9493f64da25b70ea5f3bc55317e",
+      "precision_020": "cf8814baaddb11d5f78a10747161fef7bc1ee00e5cc81c81041b8d606a42eccc",
+      "precision_021": "006f9e5792aa674b56f52165ca05accf2b81798da5456194d372bbed817bb287",
+      "precision_022": "997871581ad78f77fa37c85e5734a1ff896d3931a414927bfcdb06a353adba8f",
+      "precision_023": "965732f8ff9ffe035daa453c4c227f8768fc19ad03ee38da17a7b59d8781467b",
+      "precision_024": "ab489d38be51743c95e97c7d859f53fc66053a6083c7bb46da6193a9e2654f56",
+      "precision_025": "5c64da7eaa6c070704d751677e84dcd858b58fc44928a6bf6ee48ebeaaa2e47e",
+      "precision_026": "473f76f6ba4ea6bd0262ddcf667bcd9bbe10e3eda251209589197c4f98d155e9",
+      "precision_027": "5583cedda7e1cf1b1b07e9ebcd3c86303fd8af1b08608a3e6d77046fb4b3274f",
+      "coverage_001": "962e92aaae4b614370dbf1d6ed9052fb7f2f1c3a6fd83b1b57512ae891a7ab7b",
+      "coverage_002": "d41f1546860dde6885adc6e5df2249137156ff68558db99743244a069562ec62",
+      "coverage_003": "6a77f85146c123402361627d82865f5e390d10517727adcfcb822340b527edd8",
+      "coverage_004": "a66030f644e0ae4228a2f772e5f76d72d8fafd7d9e481f3a8544606393634966",
+      "coverage_005": "3788fbe7ab8eaa9e18a163bd76d87661bffc5de79bdf83a57040512695635568",
+      "coverage_006": "9151598bd3e9c1bf6588d18cd6e34d51f2ce38ef3639cc174e90e321ddc1bff7",
+      "coverage_007": "2b5aeadf766d95d65a07f7b9d9e827708310616380847936b7b79e0ada6cf041",
+      "coverage_008": "6701c4b448ae8336e3fd100b3239b96fe76035409fa4dbdaf4f9aa227197c80f",
+      "coverage_009": "6c66068319be7eee36c16648753cb9bf2d7bfba9cf4ea8d94c102144df6c4ca8",
+      "coverage_010": "cc9c65907b7318a788913ff80935e35f5786984e5a15b2e043deb75fe5e8baae"
+    }
+  }
+}

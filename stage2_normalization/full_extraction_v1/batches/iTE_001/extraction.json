@@ -1,0 +1,4038 @@
+[
+  {
+    "paper_id": "P0334",
+    "domain": "iTE",
+    "input_hash": "b7334d5fc8e467afe2503c38980db62905bc1ba797b9efed9d7357519e104dc1",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0334:r001",
+        "subject": "Simplified molecular-input line-entry system representation",
+        "subject_role": "design_strategy",
+        "subject_id": "P0334:s",
+        "predicate": "addresses",
+        "object": "Inconsistency of ionic thermoelectric material types",
+        "object_role": "descriptor",
+        "object_id": "P0334:h",
+        "quote": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 256,
+            "end": 528
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0334:r002",
+        "subject": "Machine learning Seebeck coefficient model",
+        "subject_role": "design_strategy",
+        "subject_id": "P0334:ml",
+        "predicate": "predicts",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "object_id": "P0334:sc",
+        "quote": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+        "context_quotes": [
+          "This work uses machine learning to predict the Seebeck coefficients of ionic thermoelectric materials, offering a faster path to discovering high-performance materials for efficient energy conversion."
+        ],
+        "assertion": "author_claim",
+        "modality": "computational",
+        "modality_evidence": [
+          "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+          "This work uses machine learning to predict the Seebeck coefficients of ionic thermoelectric materials, offering a faster path to discovering high-performance materials for efficient energy conversion."
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 256,
+            "end": 528
+          },
+          {
+            "start": 1096,
+            "end": 1296
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 256,
+            "end": 528
+          },
+          {
+            "start": 1096,
+            "end": 1296
+          }
+        ]
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0334:r003",
+        "subject": "Machine learning Seebeck coefficient model",
+        "subject_role": "design_strategy",
+        "subject_id": "P0334:ml",
+        "predicate": "achieves",
+        "object": "Test-set R2 of 0.98",
+        "object_role": "performance_function",
+        "object_id": "P0334:r",
+        "quote": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "computational",
+        "modality_evidence": [
+          "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. "
+        ],
+        "conditions": "Test dataset",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 256,
+            "end": 528
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 256,
+            "end": 528
+          }
+        ]
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0334:r004",
+        "subject": "Waterborne polyurethane/potassium iodide ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0334:g",
+        "predicate": "has",
+        "object": "Seebeck coefficient of 41.39 mV/K",
+        "object_role": "quantity",
+        "object_id": "P0334:v",
+        "quote": "Using this tool, we experimentally identify a waterborne polyurethane/potassium iodide ionogel with a Seebeck coefficient of 41.39 mV/K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Using this tool, we experimentally identify a waterborne polyurethane/potassium iodide ionogel with a Seebeck coefficient of 41.39 mV/K. "
+        ],
+        "conditions": "Experimentally identified using the machine learning tool",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 528,
+            "end": 665
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 528,
+            "end": 665
+          }
+        ]
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0334:r005",
+        "subject": "Number of rotatable bonds of ions",
+        "subject_role": "descriptor",
+        "subject_id": "P0334:b",
+        "predicate": "negatively affects",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "object_id": "P0334:sc",
+        "quote": "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "computational",
+        "modality_evidence": [
+          "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. "
+        ],
+        "conditions": "Interpretable analysis corroborated by molecular dynamics simulations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 665,
+            "end": 893
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 665,
+            "end": 893
+          }
+        ]
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0334:r006",
+        "subject": "Octanol-water partition coefficient of ions",
+        "subject_role": "quantity",
+        "subject_id": "P0334:p",
+        "predicate": "negatively affects",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "object_id": "P0334:sc",
+        "quote": "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "computational",
+        "modality_evidence": [
+          "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. "
+        ],
+        "conditions": "Interpretable analysis corroborated by molecular dynamics simulations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 665,
+            "end": 893
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 665,
+            "end": 893
+          }
+        ]
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0335",
+    "domain": "iTE",
+    "input_hash": "efa918a200a0f0a0c2eee5e4b7819751ff5fb45b7d649e06cfa6cb7c8b9e06c2",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0335:r001",
+        "subject": "Gel composition control using a high-entropy concept",
+        "subject_role": "design_strategy",
+        "subject_id": "P0335:d",
+        "predicate": "is proposed to improve",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0335:perf",
+        "quote": "Herein, we propose a high-entropy concept by controlling the gel compositions to achieve remarkable ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 453,
+            "end": 587
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0335:r002",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "subject_id": "P0335:mc",
+        "predicate": "produces",
+        "object": "High entropy",
+        "object_role": "state_structure",
+        "object_id": "P0335:he",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 587,
+            "end": 792
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0335:r003",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "subject_id": "P0335:mc",
+        "predicate": "improves",
+        "object": "Redox reaction entropy change",
+        "object_role": "quantity",
+        "object_id": "P0335:rs",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "High-entropy gel thermocell",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 587,
+            "end": 792
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0335:r004",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "subject_id": "P0335:mc",
+        "predicate": "improves",
+        "object": "Exchange current density",
+        "object_role": "quantity",
+        "object_id": "P0335:ec",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "High-entropy gel thermocell",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 587,
+            "end": 792
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0335:r005",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "subject_id": "P0335:mc",
+        "predicate": "improves",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "object_id": "P0335:ic",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "High-entropy gel thermocell",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 587,
+            "end": 792
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0335:r006",
+        "subject": "High entropy",
+        "subject_role": "state_structure",
+        "subject_id": "P0335:he",
+        "predicate": "enhances",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0335:perf",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through improved redox reaction entropy change, exchange current density and ionic conductivity",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 587,
+            "end": 792
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0335:r007",
+        "subject": "High-entropy gel thermocell",
+        "subject_role": "material_entity",
+        "subject_id": "P0335:g",
+        "predicate": "has",
+        "object": "Ionic thermopower of 31 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0335:tp",
+        "quote": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 792,
+            "end": 1008
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0335:r008",
+        "subject": "High-entropy gel thermocell",
+        "subject_role": "material_entity",
+        "subject_id": "P0335:g",
+        "predicate": "has",
+        "object": "Normalized maximum output power density of 11.4 mW m-2 K-2",
+        "object_role": "performance_function",
+        "object_id": "P0335:pd",
+        "quote": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 792,
+            "end": 1008
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0335:r009",
+        "subject": "High-entropy gel thermocell",
+        "subject_role": "material_entity",
+        "subject_id": "P0335:g",
+        "predicate": "has",
+        "object": "One-hour continuous discharge energy density of 4.3 J m-2 K-2",
+        "object_role": "performance_function",
+        "object_id": "P0335:ed",
+        "quote": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "One-hour continuous discharge",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 792,
+            "end": 1008
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0335:r010",
+        "subject": "Device assembled from twelve thermocells",
+        "subject_role": "material_entity",
+        "subject_id": "P0335:dev",
+        "predicate": "delivers",
+        "object": "Maximum output power density of 2.0 mW m-2 K-2",
+        "object_role": "performance_function",
+        "object_id": "P0335:dp",
+        "quote": "Moreover, a device assembled by twelve thermocells delivered a maximum output power density of 2.0 mW m-2 K-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Twelve thermocells",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1008,
+            "end": 1119
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0336",
+    "domain": "iTE",
+    "input_hash": "a1fffe0d882e172020b3ed29a83744b6f7be71af651e8a40c35ee285897c423e",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0336:r001",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:g",
+        "predicate": "has",
+        "object": "Ionic Seebeck coefficient of -38.6 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0336:tp",
+        "quote": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through synergistic coordination and hydrophobic interactions",
+        "joint_factors": [
+          "co",
+          "hy"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 306,
+            "end": 546
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0336:r002",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:g",
+        "predicate": "has",
+        "object": "Stretchability of 382.5%",
+        "object_role": "performance_function",
+        "object_id": "P0336:st",
+        "quote": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through synergistic coordination and hydrophobic interactions",
+        "joint_factors": [
+          "co",
+          "hy"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 306,
+            "end": 546
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0336:r003",
+        "subject": "PVA in the hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:pva",
+        "predicate": "has",
+        "object": "Amphiphilic nature",
+        "object_role": "descriptor",
+        "object_id": "P0336:am",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 546,
+            "end": 860
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0336:r004",
+        "subject": "Hydrophilic hydroxyl groups of PVA",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:oh",
+        "predicate": "forms coordination bonds with",
+        "object": "Cu2+ ions from CuCl2",
+        "object_role": "material_entity",
+        "object_id": "P0336:cu",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 546,
+            "end": 860
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0336:r005",
+        "subject": "Hydrophobic PVA backbone",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:bb",
+        "predicate": "interacts hydrophobically with",
+        "object": "Water-soluble conjugated polymer PMNT",
+        "object_role": "material_entity",
+        "object_id": "P0336:pm",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 546,
+            "end": 860
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0336:r006",
+        "subject": "Strong pi-pi stacking among PMNT chains",
+        "subject_role": "interaction",
+        "subject_id": "P0336:pi",
+        "predicate": "jointly drives",
+        "object": "Hydrophobic associations among PMNT chains",
+        "object_role": "interaction",
+        "object_id": "P0336:pa",
+        "quote": "Meanwhile, hydrophobic associations also occur among PMNT chains due to strong pi-pi stacking and backbone hydrophobicity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Among PMNT chains",
+        "joint_factors": [
+          "pi",
+          "bh"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 860,
+            "end": 983
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0336:r007",
+        "subject": "Dual coordination and hydrophobic interaction strategy",
+        "subject_role": "design_strategy",
+        "subject_id": "P0336:ds",
+        "predicate": "enhances",
+        "object": "Thermophoretic difference between chloride anions and cations",
+        "object_role": "quantity",
+        "object_id": "P0336:td",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [
+          "This dual-interaction strategy approach enhances the thermophoretic difference between chloride anions (from both CuCl2 and PMNT) and cations, enabling the giant ionic thermopower. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Chloride anions originate from both CuCl2 and PMNT",
+        "joint_factors": [
+          "co",
+          "hy"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 546,
+            "end": 860
+          },
+          {
+            "start": 983,
+            "end": 1164
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0336:r008",
+        "subject": "Thermophoretic difference between chloride anions and cations",
+        "subject_role": "quantity",
+        "subject_id": "P0336:td",
+        "predicate": "enables",
+        "object": "Ionic Seebeck coefficient of -38.6 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0336:tp",
+        "quote": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. ",
+        "context_quotes": [
+          "This dual-interaction strategy approach enhances the thermophoretic difference between chloride anions (from both CuCl2 and PMNT) and cations, enabling the giant ionic thermopower. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 306,
+            "end": 546
+          },
+          {
+            "start": 983,
+            "end": 1164
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0336:r009",
+        "subject": "Long-range hydrophobic interactions",
+        "subject_role": "interaction",
+        "subject_id": "P0336:lh",
+        "predicate": "contributes to",
+        "object": "Overall mechanical robustness",
+        "object_role": "performance_function",
+        "object_id": "P0336:mr",
+        "quote": "Besides, the long-range hydrophobic interactions contribute to the overall mechanical robustness. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1164,
+            "end": 1262
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0336:r010",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:g",
+        "predicate": "is implemented in",
+        "object": "Self-powered temperature sensing",
+        "object_role": "application",
+        "object_id": "P0336:ts",
+        "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1262,
+            "end": 1472
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0336:r011",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:g",
+        "predicate": "is implemented in",
+        "object": "Low-grade heat harvesting",
+        "object_role": "application",
+        "object_id": "P0336:hh",
+        "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1262,
+            "end": 1472
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0336:r012",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0336:g",
+        "predicate": "is used for",
+        "object": "Powering a cooling fan using waste heat from a working tablet",
+        "object_role": "application",
+        "object_id": "P0336:fan",
+        "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1262,
+            "end": 1472
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0337",
+    "domain": "iTE",
+    "input_hash": "d8605bce09b31bed94feda6f38f1513797fb0d224e57b38b72b43afad7de7e26",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0337:r001",
+        "subject": "Stretchable ionic thermoelectric capacitor",
+        "subject_role": "material_entity",
+        "subject_id": "P0337:it",
+        "predicate": "incorporates",
+        "object": "Host-guest complexation between alpha-CD and I3-",
+        "object_role": "interaction",
+        "object_id": "P0337:cx",
+        "quote": "This study introduces a novel design for ionic thermoelectric capacitors (ITECs) by incorporating host-guest complexation between alpha-cyclodextrin (alpha-CD) and triiodide ions (I3-). ",
+        "context_quotes": [
+          "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 172,
+            "end": 358
+          },
+          {
+            "start": 893,
+            "end": 983
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0337:r002",
+        "subject": "Host-guest complexation between alpha-CD and I3-",
+        "subject_role": "interaction",
+        "subject_id": "P0337:cx",
+        "predicate": "causes",
+        "object": "Confinement of I3- diffusion within alpha-CD cylindrical cavities",
+        "object_role": "mechanism_process",
+        "object_id": "P0337:cf",
+        "quote": "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. "
+        ],
+        "conditions": "Supported by UV-vis spectroscopy and 13C-NMR analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 358,
+            "end": 551
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 358,
+            "end": 551
+          }
+        ]
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0337:r003",
+        "subject": "Confinement of I3- diffusion within alpha-CD cylindrical cavities",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0337:cf",
+        "predicate": "enhances",
+        "object": "Mobility difference between I3- and sodium ions",
+        "object_role": "quantity",
+        "object_id": "P0337:md",
+        "quote": "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. ",
+        "context_quotes": [
+          "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 358,
+            "end": 551
+          },
+          {
+            "start": 551,
+            "end": 740
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0337:r004",
+        "subject": "Mobility difference between I3- and sodium ions",
+        "subject_role": "quantity",
+        "subject_id": "P0337:md",
+        "predicate": "boosts",
+        "object": "Ionic thermopower",
+        "object_role": "quantity",
+        "object_id": "P0337:tp",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Polyvinyl alcohol/alpha-CD/NaI hydrogels",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 551,
+            "end": 740
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0337:r005",
+        "subject": "Polyvinyl alcohol/alpha-CD/NaI hydrogels",
+        "subject_role": "material_entity",
+        "subject_id": "P0337:g",
+        "predicate": "has enhanced",
+        "object": "Ionic thermopower",
+        "object_role": "quantity",
+        "object_id": "P0337:tp",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through enhanced I3-/sodium ion mobility difference",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 551,
+            "end": 740
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0337:r006",
+        "subject": "Optimized polyvinyl alcohol/alpha-CD/NaI hydrogel sample",
+        "subject_role": "material_entity",
+        "subject_id": "P0337:opt",
+        "predicate": "achieves",
+        "object": "Positive ionic thermopower of 14.24 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0337:v",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [
+          "Accordingly, the optimized sample achieves an impressive positive ionic thermopower of 14.24 mV K-1 and a high ionic power factor of 477.2 mu W K-2 m-1. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 551,
+            "end": 740
+          },
+          {
+            "start": 740,
+            "end": 893
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0337:r007",
+        "subject": "Optimized polyvinyl alcohol/alpha-CD/NaI hydrogel sample",
+        "subject_role": "material_entity",
+        "subject_id": "P0337:opt",
+        "predicate": "achieves",
+        "object": "Ionic power factor of 477.2 μW K-2 m-1",
+        "object_role": "performance_function",
+        "object_id": "P0337:pf",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [
+          "Accordingly, the optimized sample achieves an impressive positive ionic thermopower of 14.24 mV K-1 and a high ionic power factor of 477.2 mu W K-2 m-1. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 551,
+            "end": 740
+          },
+          {
+            "start": 740,
+            "end": 893
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0337:r008",
+        "subject": "Stretchable ionic thermoelectric capacitor",
+        "subject_role": "material_entity",
+        "subject_id": "P0337:it",
+        "predicate": "has",
+        "object": "Power density of 5.9 mW m-2",
+        "object_role": "performance_function",
+        "object_id": "P0337:pd",
+        "quote": "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 893,
+            "end": 983
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0337:r009",
+        "subject": "Three-leg device",
+        "subject_role": "material_entity",
+        "subject_id": "P0337:dev",
+        "predicate": "generates",
+        "object": "Stable thermovoltage of 176 mV",
+        "object_role": "performance_function",
+        "object_id": "P0337:tv",
+        "quote": "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. ",
+        "context_quotes": [
+          "When integrated into a 3-leg device, a stable thermovoltage of 176 mV is generated under a temperature gradient of 4.4 K, thus highlighting the potential of this system for efficient thermal energy harvesting."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Temperature gradient of 4.4 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 893,
+            "end": 983
+          },
+          {
+            "start": 983,
+            "end": 1192
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0338",
+    "domain": "iTE",
+    "input_hash": "9eda9c5a6bad169ef09462c7f051ed12691db6ecb8a4634ab1153dd97ab8e2d5",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0338:r001",
+        "subject": "Enrichment of oxygen-containing functional groups in the gel network",
+        "subject_role": "design_strategy",
+        "subject_id": "P0338:og",
+        "predicate": "jointly enables",
+        "object": "Long-term service",
+        "object_role": "performance_function",
+        "object_id": "P0338:ls",
+        "quote": "In this work, by enriching oxygen-containing functional groups in the gel network and constructing oriented ionic transport nanochannels, an innovative approach is presented to reach long-term service and reusability for i-TEs without sacrificing their TE properties. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "og",
+          "nc"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 265,
+            "end": 533
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0338:r002",
+        "subject": "Enrichment of oxygen-containing functional groups in the gel network",
+        "subject_role": "design_strategy",
+        "subject_id": "P0338:og",
+        "predicate": "jointly enables",
+        "object": "Reusability",
+        "object_role": "performance_function",
+        "object_id": "P0338:re",
+        "quote": "In this work, by enriching oxygen-containing functional groups in the gel network and constructing oriented ionic transport nanochannels, an innovative approach is presented to reach long-term service and reusability for i-TEs without sacrificing their TE properties. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "og",
+          "nc"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 265,
+            "end": 533
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0338:r003",
+        "subject": "Enrichment of oxygen-containing functional groups in the gel network",
+        "subject_role": "design_strategy",
+        "subject_id": "P0338:og",
+        "predicate": "jointly causes",
+        "object": "Sacrifice of thermoelectric properties",
+        "object_role": "performance_function",
+        "object_id": "P0338:te",
+        "quote": "In this work, by enriching oxygen-containing functional groups in the gel network and constructing oriented ionic transport nanochannels, an innovative approach is presented to reach long-term service and reusability for i-TEs without sacrificing their TE properties. ",
+        "context_quotes": [],
+        "assertion": "negated",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Long-term service and reusability strategy",
+        "joint_factors": [
+          "og",
+          "nc"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 265,
+            "end": 533
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0338:r004",
+        "subject": "As-prepared ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0338:g",
+        "predicate": "has",
+        "object": "Thermopower of 17.0 ± 1.0 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0338:tp",
+        "quote": "The as-prepared hydrogel with thermopower of 17.0 +/- 1.0 mV K-1 stables at 82% of its original performance when immersed in the electrolyte. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 533,
+            "end": 675
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0338:r005",
+        "subject": "Immersion in electrolyte",
+        "subject_role": "condition",
+        "subject_id": "P0338:im",
+        "predicate": "yields",
+        "object": "Stability at 82% of original performance",
+        "object_role": "performance_function",
+        "object_id": "P0338:ret",
+        "quote": "The as-prepared hydrogel with thermopower of 17.0 +/- 1.0 mV K-1 stables at 82% of its original performance when immersed in the electrolyte. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "As-prepared hydrogel",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 533,
+            "end": 675
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0338:r006",
+        "subject": "Replenishment with electrolyte solution",
+        "subject_role": "design_strategy",
+        "subject_id": "P0338:rp",
+        "predicate": "restores",
+        "object": "Thermopower recovery to 87% of original value",
+        "object_role": "performance_function",
+        "object_id": "P0338:r87",
+        "quote": "Notably, even after being air-dried for 135 days, its thermopower returns to 87% of the original value through replenishing electrolyte solution and its 3D shape fully recovers. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Notably, even after being air-dried for 135 days, its thermopower returns to 87% of the original value through replenishing electrolyte solution and its 3D shape fully recovers. "
+        ],
+        "conditions": "Hydrogel air-dried for 135 days",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 853
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 675,
+            "end": 853
+          }
+        ]
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0338:r007",
+        "subject": "Replenishment with electrolyte solution",
+        "subject_role": "design_strategy",
+        "subject_id": "P0338:rp",
+        "predicate": "restores",
+        "object": "Full recovery of 3D shape",
+        "object_role": "state_structure",
+        "object_id": "P0338:shape",
+        "quote": "Notably, even after being air-dried for 135 days, its thermopower returns to 87% of the original value through replenishing electrolyte solution and its 3D shape fully recovers. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Notably, even after being air-dried for 135 days, its thermopower returns to 87% of the original value through replenishing electrolyte solution and its 3D shape fully recovers. "
+        ],
+        "conditions": "Hydrogel air-dried for 135 days",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 853
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 675,
+            "end": 853
+          }
+        ]
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0338:r008",
+        "subject": "As-prepared ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0338:g",
+        "predicate": "exhibits",
+        "object": "Dual-driven response to moisture and temperature",
+        "object_role": "performance_function",
+        "object_id": "P0338:dual",
+        "quote": "Meanwhile, the dual-driven nature for moisture and temperature as well as the pH sensitivity of this network is systematically investigated. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Response direction and magnitude unspecified",
+        "joint_factors": [
+          "mo",
+          "temp"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 853,
+            "end": 994
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0338:r009",
+        "subject": "As-prepared ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0338:g",
+        "predicate": "exhibits",
+        "object": "pH sensitivity",
+        "object_role": "performance_function",
+        "object_id": "P0338:ph",
+        "quote": "Meanwhile, the dual-driven nature for moisture and temperature as well as the pH sensitivity of this network is systematically investigated. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Response direction and magnitude unspecified",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 853,
+            "end": 994
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0338:r010",
+        "subject": "As-prepared ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0338:g",
+        "predicate": "achieves",
+        "object": "Maximum single-sample output voltage of 0.215 V",
+        "object_role": "performance_function",
+        "object_id": "P0338:vo",
+        "quote": "The as-prepared hydrogel with thermopower of 17.0 +/- 1.0 mV K-1 stables at 82% of its original performance when immersed in the electrolyte. ",
+        "context_quotes": [
+          "The maximum output voltage of a single sample reaches 0.215 V at a Delta T of 3.7 K, and it works continuously for more than 26 h. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Single sample; ΔT = 3.7 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 533,
+            "end": 675
+          },
+          {
+            "start": 994,
+            "end": 1125
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0338:r011",
+        "subject": "As-prepared ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0338:g",
+        "predicate": "achieves",
+        "object": "Continuous operation for more than 26 h",
+        "object_role": "performance_function",
+        "object_id": "P0338:dur",
+        "quote": "The as-prepared hydrogel with thermopower of 17.0 +/- 1.0 mV K-1 stables at 82% of its original performance when immersed in the electrolyte. ",
+        "context_quotes": [
+          "The maximum output voltage of a single sample reaches 0.215 V at a Delta T of 3.7 K, and it works continuously for more than 26 h. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 533,
+            "end": 675
+          },
+          {
+            "start": 994,
+            "end": 1125
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0339",
+    "domain": "iTE",
+    "input_hash": "dc864a685e84aaa2edaa522330d5537ccca4e277ec361472c3cf51d1004f4975",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0339:r001",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "exhibits",
+        "object": "Temperature responsiveness",
+        "object_role": "descriptor",
+        "object_id": "P0339:tr",
+        "quote": "Herein, a temperature-responsive supramolecular hydrogel, P(N-acryloylsemicarbazide-co-acrylic acid) (PNA), has been developed as a i-TE cell that integrates good mechanical and electrochemical properties. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 245,
+            "end": 451
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0339:r002",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "has",
+        "object": "Good mechanical properties",
+        "object_role": "performance_function",
+        "object_id": "P0339:mp",
+        "quote": "Herein, a temperature-responsive supramolecular hydrogel, P(N-acryloylsemicarbazide-co-acrylic acid) (PNA), has been developed as a i-TE cell that integrates good mechanical and electrochemical properties. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 245,
+            "end": 451
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0339:r003",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "has",
+        "object": "Good electrochemical properties",
+        "object_role": "performance_function",
+        "object_id": "P0339:ep",
+        "quote": "Herein, a temperature-responsive supramolecular hydrogel, P(N-acryloylsemicarbazide-co-acrylic acid) (PNA), has been developed as a i-TE cell that integrates good mechanical and electrochemical properties. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 245,
+            "end": 451
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0339:r004",
+        "subject": "Volume phase transition of PNA cell",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0339:vpt",
+        "predicate": "generates",
+        "object": "Substantial ion entropy difference",
+        "object_role": "quantity",
+        "object_id": "P0339:ie",
+        "quote": "The volume phase transition (VPT) of PNA i-TE cell can generate a substantial ion entropy difference, thereby enhancing both the redox reaction efficiency and ionic thermodiffusion rate. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 451,
+            "end": 638
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0339:r005",
+        "subject": "Substantial ion entropy difference",
+        "subject_role": "quantity",
+        "subject_id": "P0339:ie",
+        "predicate": "enhances",
+        "object": "Redox reaction efficiency",
+        "object_role": "performance_function",
+        "object_id": "P0339:rr",
+        "quote": "The volume phase transition (VPT) of PNA i-TE cell can generate a substantial ion entropy difference, thereby enhancing both the redox reaction efficiency and ionic thermodiffusion rate. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Ion entropy difference generated by PNA volume phase transition",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 451,
+            "end": 638
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0339:r006",
+        "subject": "Substantial ion entropy difference",
+        "subject_role": "quantity",
+        "subject_id": "P0339:ie",
+        "predicate": "enhances",
+        "object": "Ionic thermodiffusion rate",
+        "object_role": "quantity",
+        "object_id": "P0339:td",
+        "quote": "The volume phase transition (VPT) of PNA i-TE cell can generate a substantial ion entropy difference, thereby enhancing both the redox reaction efficiency and ionic thermodiffusion rate. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Ion entropy difference generated by PNA volume phase transition",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 451,
+            "end": 638
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0339:r007",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "generates",
+        "object": "“Thermopower of 2.04 volts”",
+        "object_role": "quantity",
+        "object_id": "P0339:v",
+        "quote": "A single PNA i-TE cell can generate a thermopower of 2.04 volts with a temperature difference of 50 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Single cell; temperature difference of 50 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "uncertain",
+        "note": "Source calls a voltage in volts thermopower; wording retained.",
+        "evidence_spans": [
+          {
+            "start": 638,
+            "end": 741
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0339:r008",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient up to 40.9 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0339:sc",
+        "quote": "The Seebeck coefficient (Se), specific output power density (Pmax/(Delta T)2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${P}_{\\max }/{(\\Delta T)}<^>{2}$$\\end{document}) and figure of merit (ZT) of PNA i-TE cell can reach up to 40.9 mV K-1, 35.2 mW m-2 K-2 and 1.33 respectively. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 741,
+            "end": 1205
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0339:r009",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "achieves",
+        "object": "Specific output power density Pmax/(ΔT)^2 up to 35.2 mW m-2 K-2",
+        "object_role": "performance_function",
+        "object_id": "P0339:pd",
+        "quote": "The Seebeck coefficient (Se), specific output power density (Pmax/(Delta T)2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${P}_{\\max }/{(\\Delta T)}<^>{2}$$\\end{document}) and figure of merit (ZT) of PNA i-TE cell can reach up to 40.9 mV K-1, 35.2 mW m-2 K-2 and 1.33 respectively. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Source notation: Pmax/(Delta T)2; embedded duplicate formula contains <^> corruption",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "uncertain",
+        "note": "Formula markup is corrupted; readable notation and reported units retained.",
+        "evidence_spans": [
+          {
+            "start": 741,
+            "end": 1205
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0339:r010",
+        "subject": "P(N-acryloylsemicarbazide-co-acrylic acid) supramolecular hydrogel ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0339:g",
+        "predicate": "achieves",
+        "object": "Figure of merit ZT up to 1.33",
+        "object_role": "quantity",
+        "object_id": "P0339:zt",
+        "quote": "The Seebeck coefficient (Se), specific output power density (Pmax/(Delta T)2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${P}_{\\max }/{(\\Delta T)}<^>{2}$$\\end{document}) and figure of merit (ZT) of PNA i-TE cell can reach up to 40.9 mV K-1, 35.2 mW m-2 K-2 and 1.33 respectively. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 741,
+            "end": 1205
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0340",
+    "domain": "iTE",
+    "input_hash": "2116ff959906a16eac6b35a0d398c3e5114949e80bbfc03b425382cd56e50869",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0340:r001",
+        "subject": "Sandwiching MoS2/Carbon hollow nanoflower fabrics with [Fe(CN)6]3-/4- thermoelectric gels",
+        "subject_role": "design_strategy",
+        "subject_id": "P0340:pr",
+        "predicate": "produces",
+        "object": "Solar thermoelectric system",
+        "object_role": "material_entity",
+        "object_id": "P0340:sys",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 508,
+            "end": 747
+          }
+        ]
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0340:r002",
+        "subject": "Solar thermoelectric system",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:sys",
+        "predicate": "is applied to",
+        "object": "Self-powered wearable sensing",
+        "object_role": "application",
+        "object_id": "P0340:sen",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0340:r003",
+        "subject": "MoS2/Carbon hollow nanoflower-based fabrics",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:fab",
+        "predicate": "has",
+        "object": "Hollow heterostructure",
+        "object_role": "state_structure",
+        "object_id": "P0340:hs",
+        "quote": "Owing to the hollow-heterostructure for the strong light absorption, MoS2/Carbon hollow nanoflower-based fabrics demonstrated a photothermal conversion efficiency of 39.6%. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 747,
+            "end": 920
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0340:r004",
+        "subject": "Hollow heterostructure",
+        "subject_role": "state_structure",
+        "subject_id": "P0340:hs",
+        "predicate": "enables",
+        "object": "Strong light absorption",
+        "object_role": "performance_function",
+        "object_id": "P0340:la",
+        "quote": "Owing to the hollow-heterostructure for the strong light absorption, MoS2/Carbon hollow nanoflower-based fabrics demonstrated a photothermal conversion efficiency of 39.6%. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 747,
+            "end": 920
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0340:r005",
+        "subject": "MoS2/Carbon hollow nanoflower-based fabrics",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:fab",
+        "predicate": "achieves",
+        "object": "Photothermal conversion efficiency of 39.6%",
+        "object_role": "performance_function",
+        "object_id": "P0340:pc",
+        "quote": "Owing to the hollow-heterostructure for the strong light absorption, MoS2/Carbon hollow nanoflower-based fabrics demonstrated a photothermal conversion efficiency of 39.6%. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Attributed to strong light absorption from the hollow heterostructure",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 747,
+            "end": 920
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0340:r006",
+        "subject": "Strong heat concentration",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0340:hc",
+        "predicate": "supplies",
+        "object": "Temperature gradient of 42.7 K across thermoelectric gels",
+        "object_role": "quantity",
+        "object_id": "P0340:dt",
+        "quote": "The strong heat concentration can supply a considered temperature gradient of 42.7 K for thermoelectric gels with a Seebeck coefficient of 1.08 mV K-1 under a solar intensity of 1 sun, outputting a voltage density of 101.2 V m-2 with a response of 431 ms. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Solar intensity of 1 sun",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 920,
+            "end": 1176
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0340:r007",
+        "subject": "[Fe(CN)6]3-/4- thermoelectric gels",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:gel",
+        "predicate": "has",
+        "object": "Seebeck coefficient of 1.08 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0340:sc",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [
+          "The strong heat concentration can supply a considered temperature gradient of 42.7 K for thermoelectric gels with a Seebeck coefficient of 1.08 mV K-1 under a solar intensity of 1 sun, outputting a voltage density of 101.2 V m-2 with a response of 431 ms. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          },
+          {
+            "start": 920,
+            "end": 1176
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0340:r008",
+        "subject": "Solar thermoelectric system",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:sys",
+        "predicate": "outputs",
+        "object": "Output voltage density of 101.2 V m-2",
+        "object_role": "performance_function",
+        "object_id": "P0340:vd",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [
+          "The strong heat concentration can supply a considered temperature gradient of 42.7 K for thermoelectric gels with a Seebeck coefficient of 1.08 mV K-1 under a solar intensity of 1 sun, outputting a voltage density of 101.2 V m-2 with a response of 431 ms. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Solar intensity of 1 sun; temperature gradient of 42.7 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          },
+          {
+            "start": 920,
+            "end": 1176
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0340:r009",
+        "subject": "Solar thermoelectric system",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:sys",
+        "predicate": "has",
+        "object": "Response time of 431 ms",
+        "object_role": "performance_function",
+        "object_id": "P0340:rt",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [
+          "The strong heat concentration can supply a considered temperature gradient of 42.7 K for thermoelectric gels with a Seebeck coefficient of 1.08 mV K-1 under a solar intensity of 1 sun, outputting a voltage density of 101.2 V m-2 with a response of 431 ms. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Solar intensity of 1 sun; temperature gradient of 42.7 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          },
+          {
+            "start": 920,
+            "end": 1176
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0340:r010",
+        "subject": "Solar thermoelectric system",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:sys",
+        "predicate": "has proposed use in",
+        "object": "Noncontact motion monitoring",
+        "object_role": "application",
+        "object_id": "P0340:motion",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [
+          "Their promising application in self-powered wearable fields, such as noncontact motion monitoring and language interaction is foreseen."
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Self-powered wearable application",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          },
+          {
+            "start": 1176,
+            "end": 1311
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0340:r011",
+        "subject": "Solar thermoelectric system",
+        "subject_role": "material_entity",
+        "subject_id": "P0340:sys",
+        "predicate": "has proposed use in",
+        "object": "Language interaction",
+        "object_role": "application",
+        "object_id": "P0340:lang",
+        "quote": "Herein, a solar thermoelectric system, prepared via facilely sandwiching the self-assemble MoS2/Carbon hollow nanoflower-based fabrics with [Fe(CN)6]3-/4- thermoelectric gels, is successfully applied for the self-powered wearable sensing. ",
+        "context_quotes": [
+          "Their promising application in self-powered wearable fields, such as noncontact motion monitoring and language interaction is foreseen."
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Self-powered wearable application",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 508,
+            "end": 747
+          },
+          {
+            "start": 1176,
+            "end": 1311
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0341",
+    "domain": "iTE",
+    "input_hash": "89e5043ac19f736356205342e2a4c0413f66abbc37f83652b18d90f5c010d1b1",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0341:r001",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "has",
+        "object": "Dynamic PVA-CNF-PVP network structure",
+        "object_role": "state_structure",
+        "object_id": "P0341:net",
+        "quote": "In this study, we present a novel water-assisted self-healing, stretchable tetrameric complex ionogel, which integrates polyvinyl alcohol (PVA), cellulose nanofibers (CNF), and polyvinyl pyrrolidone (PVP) to form a dynamic network structure. ",
+        "context_quotes": [
+          "We further incorporate the ionic liquid 1-ethyl-3-methylimidazolium dicyanamide salt (EMIM:DCA) into the network, resulting in PVA-CNF-PVP-IL thermoelectric ionogels. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 309,
+            "end": 551
+          },
+          {
+            "start": 697,
+            "end": 864
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0341:r002",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "contains",
+        "object": "Reversible hydrogen bonds within the ionogel",
+        "object_role": "interaction",
+        "object_id": "P0341:hb",
+        "quote": "The innovative approach involves establishing reversible hydrogen bonds within the ionogel and utilizing PVA crystalline segments as nanofillers. ",
+        "context_quotes": [
+          "We further incorporate the ionic liquid 1-ethyl-3-methylimidazolium dicyanamide salt (EMIM:DCA) into the network, resulting in PVA-CNF-PVP-IL thermoelectric ionogels. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 551,
+            "end": 697
+          },
+          {
+            "start": 697,
+            "end": 864
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0341:r003",
+        "subject": "PVA crystalline segments",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:cr",
+        "predicate": "serve as",
+        "object": "Nanofiller function",
+        "object_role": "descriptor",
+        "object_id": "P0341:nf",
+        "quote": "The innovative approach involves establishing reversible hydrogen bonds within the ionogel and utilizing PVA crystalline segments as nanofillers. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Within the ionogel",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 551,
+            "end": 697
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0341:r004",
+        "subject": "Incorporation of EMIM:DCA ionic liquid into the network",
+        "subject_role": "design_strategy",
+        "subject_id": "P0341:inc",
+        "predicate": "produces",
+        "object": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "object_role": "material_entity",
+        "object_id": "P0341:g",
+        "quote": "We further incorporate the ionic liquid 1-ethyl-3-methylimidazolium dicyanamide salt (EMIM:DCA) into the network, resulting in PVA-CNF-PVP-IL thermoelectric ionogels. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "We further incorporate the ionic liquid 1-ethyl-3-methylimidazolium dicyanamide salt (EMIM:DCA) into the network, resulting in PVA-CNF-PVP-IL thermoelectric ionogels. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 697,
+            "end": 864
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 697,
+            "end": 864
+          }
+        ]
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0341:r005",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "achieves",
+        "object": "Tensile strength of 560 kPa",
+        "object_role": "performance_function",
+        "object_id": "P0341:str",
+        "quote": "The prepared ionogels exhibit remarkable mechanical properties, achieving a tensile strength of 560 kPa and an elongation at break of 587.02%. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 864,
+            "end": 1007
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0341:r006",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "achieves",
+        "object": "Elongation at break of 587.02%",
+        "object_role": "performance_function",
+        "object_id": "P0341:elong",
+        "quote": "The prepared ionogels exhibit remarkable mechanical properties, achieving a tensile strength of 560 kPa and an elongation at break of 587.02%. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 864,
+            "end": 1007
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0341:r007",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "has",
+        "object": "Ionic Seebeck coefficient of 8.997 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0341:sc",
+        "quote": "They also demonstrate impressive thermoelectric characteristics, with an ionic Seebeck coefficient of 8.997 mV K-1 and a conductivity of 36.09 mS cm-1 at 80% relative humidity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "80% relative humidity",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1007,
+            "end": 1184
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0341:r008",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "has",
+        "object": "Conductivity of 36.09 mS cm-1",
+        "object_role": "quantity",
+        "object_id": "P0341:con",
+        "quote": "They also demonstrate impressive thermoelectric characteristics, with an ionic Seebeck coefficient of 8.997 mV K-1 and a conductivity of 36.09 mS cm-1 at 80% relative humidity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "80% relative humidity",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1007,
+            "end": 1184
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0341:r009",
+        "subject": "Water assistance",
+        "subject_role": "condition",
+        "subject_id": "P0341:water",
+        "predicate": "assists",
+        "object": "Self-healing",
+        "object_role": "performance_function",
+        "object_id": "P0341:heal",
+        "quote": "In this study, we present a novel water-assisted self-healing, stretchable tetrameric complex ionogel, which integrates polyvinyl alcohol (PVA), cellulose nanofibers (CNF), and polyvinyl pyrrolidone (PVP) to form a dynamic network structure. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Tetrameric complex ionogel",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 309,
+            "end": 551
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0341:r010",
+        "subject": "Abundant noncovalent interactions including hydrogen bonding and ion-dipole interactions",
+        "subject_role": "interaction",
+        "subject_id": "P0341:nci",
+        "predicate": "enable",
+        "object": "Elastic tensile properties",
+        "object_role": "performance_function",
+        "object_id": "P0341:elastic",
+        "quote": "Furthermore, the ionogels exhibit excellent elastic tensile and self-healing properties, even after multiple cut/heal and stretch/release cycles, due to abundant noncovalent interactions, including hydrogen bonding and ion-dipole interactions. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Retained even after multiple cut/heal and stretch/release cycles",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1184,
+            "end": 1428
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0341:r011",
+        "subject": "Abundant noncovalent interactions including hydrogen bonding and ion-dipole interactions",
+        "subject_role": "interaction",
+        "subject_id": "P0341:nci",
+        "predicate": "enable",
+        "object": "Self-healing",
+        "object_role": "performance_function",
+        "object_id": "P0341:heal",
+        "quote": "Furthermore, the ionogels exhibit excellent elastic tensile and self-healing properties, even after multiple cut/heal and stretch/release cycles, due to abundant noncovalent interactions, including hydrogen bonding and ion-dipole interactions. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Retained even after multiple cut/heal and stretch/release cycles",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1184,
+            "end": 1428
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0341:r012",
+        "subject": "Tetrameric PVA-CNF-PVP-IL complex ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0341:g",
+        "predicate": "has proposed use in",
+        "object": "Ionic thermoelectric capacitors for wearable applications",
+        "object_role": "application",
+        "object_id": "P0341:it",
+        "quote": "Importantly, the ionogels hold potential for use in ionic thermoelectric capacitors (ITEC), advancing the development of high-performance, self-healing, and flexible TE devices tailored for wearable applications.",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1428,
+            "end": 1640
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0342",
+    "domain": "iTE",
+    "input_hash": "9d28f6a20e422100d82b3a582352e77ab5ace1687cb998daf4ceb275b9939bd1",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0342:r001",
+        "subject": "Thermal diffusion within ionic hydrogel electrolyte",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0342:td",
+        "predicate": "synergistically enables",
+        "object": "Substantial negative thermopower",
+        "object_role": "performance_function",
+        "object_id": "P0342:nt",
+        "quote": "In this study, an n-type i-TE cell exhibiting substantial negative thermopower and a high output energy density is developed by leveraging the synergistic interplay between thermal diffusion within an ionic hydrogel electrolyte and redox reactions at the electrode interface. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Developed n-type cell",
+        "joint_factors": [
+          "td",
+          "red"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 160,
+            "end": 436
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0342:r002",
+        "subject": "Thermal diffusion within ionic hydrogel electrolyte",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0342:td",
+        "predicate": "synergistically enables",
+        "object": "High output energy density",
+        "object_role": "performance_function",
+        "object_id": "P0342:he",
+        "quote": "In this study, an n-type i-TE cell exhibiting substantial negative thermopower and a high output energy density is developed by leveraging the synergistic interplay between thermal diffusion within an ionic hydrogel electrolyte and redox reactions at the electrode interface. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Developed n-type cell",
+        "joint_factors": [
+          "td",
+          "red"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 160,
+            "end": 436
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0342:r003",
+        "subject": "Cross-linking quaternized chitosan and guanidine via glutaraldehyde",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0342:cross",
+        "predicate": "produces",
+        "object": "Gel network featuring dual positive groups",
+        "object_role": "state_structure",
+        "object_id": "P0342:net",
+        "quote": "Specifically, a gel network featuring dual positive groups is synthesized by cross-linking quaternized chitosan and guanidine molecules via glutaraldehyde, with thermal diffusion further enhanced by incorporating crown ether for complexation. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Specifically, a gel network featuring dual positive groups is synthesized by cross-linking quaternized chitosan and guanidine molecules via glutaraldehyde, with thermal diffusion further enhanced by incorporating crown ether for complexation. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 436,
+            "end": 679
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 436,
+            "end": 679
+          }
+        ]
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0342:r004",
+        "subject": "Crown ether incorporation for complexation",
+        "subject_role": "design_strategy",
+        "subject_id": "P0342:ce",
+        "predicate": "enhances",
+        "object": "Thermal diffusion within ionic hydrogel electrolyte",
+        "object_role": "mechanism_process",
+        "object_id": "P0342:td",
+        "quote": "Specifically, a gel network featuring dual positive groups is synthesized by cross-linking quaternized chitosan and guanidine molecules via glutaraldehyde, with thermal diffusion further enhanced by incorporating crown ether for complexation. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Dual-positive-group gel network",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 436,
+            "end": 679
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0342:r005",
+        "subject": "NiCo(CO3)(OH)(2) anode",
+        "subject_role": "material_entity",
+        "subject_id": "P0342:an",
+        "predicate": "has",
+        "object": "High hydrophilicity",
+        "object_role": "descriptor",
+        "object_id": "P0342:hyd",
+        "quote": "Additionally, NiCo(CO3)(OH)(2), a material known for its high hydrophilicity, is utilized as the anode to facilitate rapid ion and electron transfer at the electrode interface. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Material described as known for high hydrophilicity",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 679,
+            "end": 856
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0342:r006",
+        "subject": "NiCo(CO3)(OH)(2) anode",
+        "subject_role": "material_entity",
+        "subject_id": "P0342:an",
+        "predicate": "is used to facilitate",
+        "object": "Rapid ion and electron transfer at the electrode interface",
+        "object_role": "mechanism_process",
+        "object_id": "P0342:trans",
+        "quote": "Additionally, NiCo(CO3)(OH)(2), a material known for its high hydrophilicity, is utilized as the anode to facilitate rapid ion and electron transfer at the electrode interface. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Anode design purpose",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 679,
+            "end": 856
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0342:r007",
+        "subject": "Optimized thermal diffusion in polycationic electrolytes",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0342:opt",
+        "predicate": "jointly improves",
+        "object": "Sustained output performance",
+        "object_role": "performance_function",
+        "object_id": "P0342:sus",
+        "quote": "The integration of optimized thermal diffusion within polycationic electrolytes with electrode interface-enhanced ion/electron transport mechanisms significantly improves the sustained output performance and thermoelectric conversion efficiency of the i-TE cell. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "opt",
+          "eit"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 856,
+            "end": 1119
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0342:r008",
+        "subject": "Optimized thermal diffusion in polycationic electrolytes",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0342:opt",
+        "predicate": "jointly improves",
+        "object": "Thermoelectric conversion efficiency",
+        "object_role": "performance_function",
+        "object_id": "P0342:eff",
+        "quote": "The integration of optimized thermal diffusion within polycationic electrolytes with electrode interface-enhanced ion/electron transport mechanisms significantly improves the sustained output performance and thermoelectric conversion efficiency of the i-TE cell. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "opt",
+          "eit"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 856,
+            "end": 1119
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0342:r009",
+        "subject": "Developed n-type ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0342:cell",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient of -26.04 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0342:sc",
+        "quote": "Notably, the thermopower (Seebeck coefficient) of this n-type i-TE cell achieves a value of -26.04 mV K-1, and its 2 h output energy density reached 1301.61 J m(-2) under a temperature difference (Delta T) of 15 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1119,
+            "end": 1334
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0342:r010",
+        "subject": "Developed n-type ionic thermoelectric cell",
+        "subject_role": "material_entity",
+        "subject_id": "P0342:cell",
+        "predicate": "achieves",
+        "object": "Two-hour output energy density of 1301.61 J m-2",
+        "object_role": "performance_function",
+        "object_id": "P0342:ed",
+        "quote": "Notably, the thermopower (Seebeck coefficient) of this n-type i-TE cell achieves a value of -26.04 mV K-1, and its 2 h output energy density reached 1301.61 J m(-2) under a temperature difference (Delta T) of 15 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Two-hour output; ΔT = 15 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1119,
+            "end": 1334
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0343",
+    "domain": "iTE",
+    "input_hash": "ad21e8684ef5e91f24e0553df4ff6066c20abbc684607784e8aaae7e8d477d3a",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0343:r001",
+        "subject": "Porous structure of Portland cement",
+        "subject_role": "state_structure",
+        "subject_id": "P0343:por",
+        "predicate": "enables",
+        "object": "Free ion diffusion",
+        "object_role": "mechanism_process",
+        "object_id": "P0343:diff",
+        "quote": "The porous structure of Portland cement enables free ion diffusion. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "background",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 68
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0343:r002",
+        "subject": "OH- migration toward colder region",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0343:oh",
+        "predicate": "imparts",
+        "object": "N-type thermoelectric behavior of cement-based material",
+        "object_role": "state_structure",
+        "object_id": "P0343:nt",
+        "quote": "When the pore solution contains high concentrations of OH- ions, these ions migrate toward the colder region under temperature gradients, imparting the cement-based material n-type thermoelectric behavior. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "High OH- concentration in pore solution; temperature gradient",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 211,
+            "end": 417
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0343:r003",
+        "subject": "Increasing ion leaching time",
+        "subject_role": "condition",
+        "subject_id": "P0343:leach",
+        "predicate": "induces",
+        "object": "Transition from n-type to p-type",
+        "object_role": "mechanism_process",
+        "object_id": "P0343:switch",
+        "quote": "As ion leaching time increases, the material changes from n-type to p-type. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Cement-based material",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 417,
+            "end": 493
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0343:r004",
+        "subject": "Pore structure optimization in cement-based composites",
+        "subject_role": "design_strategy",
+        "subject_id": "P0343:opt",
+        "predicate": "enhances",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0343:te",
+        "quote": "Optimization of pore structure in cement-based composites significantly enhances their ionic thermoelectric performance, with the engineered material demonstrating a Seebeck coefficient of 1.57 mV K- 1 and a power factor of 0.525 mu W m-1 K-2, both of which are higher than those of previously reported cementitious materials. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 493,
+            "end": 820
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0343:r005",
+        "subject": "Engineered cement-based material",
+        "subject_role": "material_entity",
+        "subject_id": "P0343:eng",
+        "predicate": "has",
+        "object": "Seebeck coefficient of 1.57 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0343:sc",
+        "quote": "Optimization of pore structure in cement-based composites significantly enhances their ionic thermoelectric performance, with the engineered material demonstrating a Seebeck coefficient of 1.57 mV K- 1 and a power factor of 0.525 mu W m-1 K-2, both of which are higher than those of previously reported cementitious materials. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Higher than previously reported cementitious materials",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 493,
+            "end": 820
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0343:r006",
+        "subject": "Engineered cement-based material",
+        "subject_role": "material_entity",
+        "subject_id": "P0343:eng",
+        "predicate": "has",
+        "object": "Power factor of 0.525 μW m-1 K-2",
+        "object_role": "performance_function",
+        "object_id": "P0343:pf",
+        "quote": "Optimization of pore structure in cement-based composites significantly enhances their ionic thermoelectric performance, with the engineered material demonstrating a Seebeck coefficient of 1.57 mV K- 1 and a power factor of 0.525 mu W m-1 K-2, both of which are higher than those of previously reported cementitious materials. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Higher than previously reported cementitious materials",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 493,
+            "end": 820
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0343:r007",
+        "subject": "Interconnected porous structure",
+        "subject_role": "state_structure",
+        "subject_id": "P0343:inter",
+        "predicate": "provides",
+        "object": "Super-macropores and ion storage/transport pathways",
+        "object_role": "state_structure",
+        "object_id": "P0343:paths",
+        "quote": "Moreover, the interconnected porous structure provides sufficient super-macropores and highways for ion storage and transportation. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 820,
+            "end": 952
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0343:r008",
+        "subject": "Super-macropores and ion storage/transport pathways",
+        "subject_role": "state_structure",
+        "subject_id": "P0343:paths",
+        "predicate": "support",
+        "object": "Ion storage",
+        "object_role": "mechanism_process",
+        "object_id": "P0343:storage",
+        "quote": "Moreover, the interconnected porous structure provides sufficient super-macropores and highways for ion storage and transportation. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 820,
+            "end": 952
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0343:r009",
+        "subject": "Super-macropores and ion storage/transport pathways",
+        "subject_role": "state_structure",
+        "subject_id": "P0343:paths",
+        "predicate": "support",
+        "object": "Ion transportation",
+        "object_role": "mechanism_process",
+        "object_id": "P0343:transport",
+        "quote": "Moreover, the interconnected porous structure provides sufficient super-macropores and highways for ion storage and transportation. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 820,
+            "end": 952
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0343:r010",
+        "subject": "Solid-state symmetric cement-based supercapacitor",
+        "subject_role": "material_entity",
+        "subject_id": "P0343:cap",
+        "predicate": "has",
+        "object": "Energy density of 32.9 μWh cm-2",
+        "object_role": "performance_function",
+        "object_id": "P0343:ed",
+        "quote": "The solid-state symmetric cement-based supercapacitor shows high energy density of 32.9 mu Wh cm- 2 and areal capacitance of 237.5 mF cm- 2, which can realize stable energy supply for thermal hygrometer. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 952,
+            "end": 1156
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0343:r011",
+        "subject": "Solid-state symmetric cement-based supercapacitor",
+        "subject_role": "material_entity",
+        "subject_id": "P0343:cap",
+        "predicate": "has",
+        "object": "Areal capacitance of 237.5 mF cm-2",
+        "object_role": "quantity",
+        "object_id": "P0343:ac",
+        "quote": "The solid-state symmetric cement-based supercapacitor shows high energy density of 32.9 mu Wh cm- 2 and areal capacitance of 237.5 mF cm- 2, which can realize stable energy supply for thermal hygrometer. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 952,
+            "end": 1156
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0343:r012",
+        "subject": "Solid-state symmetric cement-based supercapacitor",
+        "subject_role": "material_entity",
+        "subject_id": "P0343:cap",
+        "predicate": "can provide",
+        "object": "Stable energy supply for a thermal hygrometer",
+        "object_role": "application",
+        "object_id": "P0343:supply",
+        "quote": "The solid-state symmetric cement-based supercapacitor shows high energy density of 32.9 mu Wh cm- 2 and areal capacitance of 237.5 mF cm- 2, which can realize stable energy supply for thermal hygrometer. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 952,
+            "end": 1156
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r013",
+        "relation_id": "P0343:r013",
+        "subject": "Pore structure optimization in cement-based composites",
+        "subject_role": "design_strategy",
+        "subject_id": "P0343:opt",
+        "predicate": "enhances",
+        "object": "Electrochemical energy storage performance",
+        "object_role": "performance_function",
+        "object_id": "P0343:es",
+        "quote": "Optimization of pore structure in cement-based composites significantly enhances their ionic thermoelectric performance, with the engineered material demonstrating a Seebeck coefficient of 1.57 mV K- 1 and a power factor of 0.525 mu W m-1 K-2, both of which are higher than those of previously reported cementitious materials. ",
+        "context_quotes": [
+          "Modifying the pore structure of cement leads to a dual enhancement in its ionic thermoelectric performance and electrochemical energy storage. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 493,
+            "end": 820
+          },
+          {
+            "start": 1156,
+            "end": 1299
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0344",
+    "domain": "iTE",
+    "input_hash": "77435a5f0b3cc6ad7938e7d8a689dbc1e58c3f3119f908de9155c1446058c8eb",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0344:r001",
+        "subject": "Combined EHD printing and cyclic freeze-thaw fabrication",
+        "subject_role": "design_strategy",
+        "subject_id": "P0344:fab",
+        "predicate": "is proposed to fabricate",
+        "object": "PVA/CMC-Na/NaTFSI ionic thermoelectric hydrogel",
+        "object_role": "material_entity",
+        "object_id": "P0344:g",
+        "quote": "A method combining electrohydrodynamic (EHD) printing technology and cyclic freeze-thaw processes was proposed to fabricate a polyvinyl alcohol/sodium carboxymethyl cellulose/sodium bis(trifluoromethylsulfonyl) imide (PVA/CMC-Na/NaTFSI) i-TEH for self-powered wearable sensors. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "For self-powered wearable sensors",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 233,
+            "end": 511
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0344:r002",
+        "subject": "PVA/CMC-Na/NaTFSI ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:g",
+        "predicate": "has",
+        "object": "Interpenetrating PVA and CMC-Na network",
+        "object_role": "state_structure",
+        "object_id": "P0344:net",
+        "quote": "I-TEH was constructed with an interpenetrating network of PVA and CMC-Na, using NaTFSI as the mobile ions to promote thermal diffusion. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 511,
+            "end": 647
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0344:r003",
+        "subject": "NaTFSI mobile ions",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:ions",
+        "predicate": "are used to promote",
+        "object": "Thermal diffusion",
+        "object_role": "mechanism_process",
+        "object_id": "P0344:td",
+        "quote": "I-TEH was constructed with an interpenetrating network of PVA and CMC-Na, using NaTFSI as the mobile ions to promote thermal diffusion. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Within PVA/CMC-Na/NaTFSI hydrogel",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 511,
+            "end": 647
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0344:r004",
+        "subject": "Electrohydrodynamic printing",
+        "subject_role": "design_strategy",
+        "subject_id": "P0344:ehd",
+        "predicate": "produces",
+        "object": "Uniform ion distribution",
+        "object_role": "state_structure",
+        "object_id": "P0344:uniform",
+        "quote": "Ions in i-TEHs were uniformly distributed by EHD printing process, resulting in an ionic conductivity of 34.27 mS cm(-1), which is a 53.5 % increase compared to the traditional methods. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Ions in i-TEHs were uniformly distributed by EHD printing process, resulting in an ionic conductivity of 34.27 mS cm(-1), which is a 53.5 % increase compared to the traditional methods. "
+        ],
+        "conditions": "Within ionic thermoelectric hydrogels",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 647,
+            "end": 833
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 647,
+            "end": 833
+          }
+        ]
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0344:r005",
+        "subject": "Uniform ion distribution",
+        "subject_role": "state_structure",
+        "subject_id": "P0344:uniform",
+        "predicate": "results in",
+        "object": "Ionic conductivity of 34.27 mS cm-1",
+        "object_role": "quantity",
+        "object_id": "P0344:cond",
+        "quote": "Ions in i-TEHs were uniformly distributed by EHD printing process, resulting in an ionic conductivity of 34.27 mS cm(-1), which is a 53.5 % increase compared to the traditional methods. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "53.5% increase compared with traditional methods",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 647,
+            "end": 833
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0344:r006",
+        "subject": "Electronegative CMC-Na chain",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:chain",
+        "predicate": "induces",
+        "object": "Manning counterion condensation",
+        "object_role": "mechanism_process",
+        "object_id": "P0344:man",
+        "quote": "The synergistic effect between ordered ions and Manning counterion condensation effect induced by the electronegative CMC-Na chain improves the selective ion migration capability of i-TEHs, achieving a high Seebeck coefficient of 14.39 mV K-1 (reference temperature of 25-40 degrees C, temperature difference of 10-15 K), which is a 24.6 % increase compared to the traditional method. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 833,
+            "end": 1218
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0344:r007",
+        "subject": "Electrohydrodynamic printing",
+        "subject_role": "design_strategy",
+        "subject_id": "P0344:ehd",
+        "predicate": "induces",
+        "object": "Ordered ion arrangement",
+        "object_role": "state_structure",
+        "object_id": "P0344:ordered",
+        "quote": "The synergistic effect of ordered ion arrangement induced by EHD printing and Manning counterion condensation effect provides a feasible strategy for improving the TE performance of i-TEHs, which opens up a new approach for the preparation of self-powered flexible wearable electronic devices based on human body thermal energy.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1483,
+            "end": 1811
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0344:r008",
+        "subject": "Ordered ion arrangement",
+        "subject_role": "state_structure",
+        "subject_id": "P0344:ordered",
+        "predicate": "synergistically improves",
+        "object": "Selective ion migration capability",
+        "object_role": "performance_function",
+        "object_id": "P0344:sel",
+        "quote": "The synergistic effect between ordered ions and Manning counterion condensation effect induced by the electronegative CMC-Na chain improves the selective ion migration capability of i-TEHs, achieving a high Seebeck coefficient of 14.39 mV K-1 (reference temperature of 25-40 degrees C, temperature difference of 10-15 K), which is a 24.6 % increase compared to the traditional method. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "ordered",
+          "man"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 833,
+            "end": 1218
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0344:r009",
+        "subject": "Selective ion migration capability",
+        "subject_role": "performance_function",
+        "subject_id": "P0344:sel",
+        "predicate": "enables",
+        "object": "Seebeck coefficient of 14.39 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0344:sc",
+        "quote": "The synergistic effect between ordered ions and Manning counterion condensation effect induced by the electronegative CMC-Na chain improves the selective ion migration capability of i-TEHs, achieving a high Seebeck coefficient of 14.39 mV K-1 (reference temperature of 25-40 degrees C, temperature difference of 10-15 K), which is a 24.6 % increase compared to the traditional method. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Reference temperature 25–40 °C; temperature difference 10–15 K; 24.6% increase compared with traditional method",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 833,
+            "end": 1218
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0344:r010",
+        "subject": "Ordered ion arrangement",
+        "subject_role": "state_structure",
+        "subject_id": "P0344:ordered",
+        "predicate": "synergistically improves",
+        "object": "Thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0344:te",
+        "quote": "The synergistic effect of ordered ion arrangement induced by EHD printing and Manning counterion condensation effect provides a feasible strategy for improving the TE performance of i-TEHs, which opens up a new approach for the preparation of self-powered flexible wearable electronic devices based on human body thermal energy.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "ordered",
+          "man"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1483,
+            "end": 1811
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0344:r011",
+        "subject": "Hydrogel-based self-powered flexible sensor",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:sensor",
+        "predicate": "has",
+        "object": "Gauge factor of 2.09",
+        "object_role": "quantity",
+        "object_id": "P0344:gf",
+        "quote": "The i-TEH-based self-powered sensor exhibits a gauge factor of 2.09 within the strain range of 150-200 % and fast response/recovery time (102/129 ms). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Strain range of 150–200%",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1218,
+            "end": 1369
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0344:r012",
+        "subject": "Hydrogel-based self-powered flexible sensor",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:sensor",
+        "predicate": "has",
+        "object": "Response/recovery time of 102/129 ms",
+        "object_role": "performance_function",
+        "object_id": "P0344:rt",
+        "quote": "The i-TEH-based self-powered sensor exhibits a gauge factor of 2.09 within the strain range of 150-200 % and fast response/recovery time (102/129 ms). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1218,
+            "end": 1369
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r013",
+        "relation_id": "P0344:r013",
+        "subject": "Hydrogel-based self-powered flexible sensor",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:sensor",
+        "predicate": "enables",
+        "object": "Human movement monitoring",
+        "object_role": "application",
+        "object_id": "P0344:motion",
+        "quote": "The i-TEH-based self-powered sensor exhibits a gauge factor of 2.09 within the strain range of 150-200 % and fast response/recovery time (102/129 ms). ",
+        "context_quotes": [
+          "The i-THE-based self-powered flexible sensor can effectively monitor human movements and handwriting recognition. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1218,
+            "end": 1369
+          },
+          {
+            "start": 1369,
+            "end": 1483
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r014",
+        "relation_id": "P0344:r014",
+        "subject": "Hydrogel-based self-powered flexible sensor",
+        "subject_role": "material_entity",
+        "subject_id": "P0344:sensor",
+        "predicate": "enables",
+        "object": "Handwriting recognition",
+        "object_role": "application",
+        "object_id": "P0344:hand",
+        "quote": "The i-TEH-based self-powered sensor exhibits a gauge factor of 2.09 within the strain range of 150-200 % and fast response/recovery time (102/129 ms). ",
+        "context_quotes": [
+          "The i-THE-based self-powered flexible sensor can effectively monitor human movements and handwriting recognition. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1218,
+            "end": 1369
+          },
+          {
+            "start": 1369,
+            "end": 1483
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0345",
+    "domain": "iTE",
+    "input_hash": "14ec9417a3136c4ceb752f1af842584c900ba302515c4f4c56f5c487e563ff36",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0345:r001",
+        "subject": "Modification of cement with PVA hydrogel",
+        "subject_role": "design_strategy",
+        "subject_id": "P0345:mod",
+        "predicate": "increases",
+        "object": "Capillary porosity",
+        "object_role": "quantity",
+        "object_id": "P0345:por",
+        "quote": "The porosity of the cement samples was studied using micro-computed tomography. ",
+        "context_quotes": [
+          "The results indicate that modifying the cement with PVA hydrogel increases capillary porosity while it reduces the Seebeck coefficient, overall strength, and capacitance. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "The porosity of the cement samples was studied using micro-computed tomography. "
+        ],
+        "conditions": "Cement sample porosity studied using micro-computed tomography",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 424,
+            "end": 504
+          },
+          {
+            "start": 504,
+            "end": 675
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 424,
+            "end": 504
+          }
+        ]
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0345:r002",
+        "subject": "Modification of cement with PVA hydrogel",
+        "subject_role": "design_strategy",
+        "subject_id": "P0345:mod",
+        "predicate": "reduces",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "object_id": "P0345:sc",
+        "quote": "The results indicate that modifying the cement with PVA hydrogel increases capillary porosity while it reduces the Seebeck coefficient, overall strength, and capacitance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 504,
+            "end": 675
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0345:r003",
+        "subject": "Modification of cement with PVA hydrogel",
+        "subject_role": "design_strategy",
+        "subject_id": "P0345:mod",
+        "predicate": "reduces",
+        "object": "Overall strength",
+        "object_role": "performance_function",
+        "object_id": "P0345:str",
+        "quote": "The results indicate that modifying the cement with PVA hydrogel increases capillary porosity while it reduces the Seebeck coefficient, overall strength, and capacitance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 504,
+            "end": 675
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0345:r004",
+        "subject": "Modification of cement with PVA hydrogel",
+        "subject_role": "design_strategy",
+        "subject_id": "P0345:mod",
+        "predicate": "reduces",
+        "object": "Capacitance",
+        "object_role": "quantity",
+        "object_id": "P0345:cap",
+        "quote": "The results indicate that modifying the cement with PVA hydrogel increases capillary porosity while it reduces the Seebeck coefficient, overall strength, and capacitance. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 504,
+            "end": 675
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0345:r005",
+        "subject": "Increased porosity",
+        "subject_role": "condition",
+        "subject_id": "P0345:inc",
+        "predicate": "decreases",
+        "object": "Thermoelectric power",
+        "object_role": "performance_function",
+        "object_id": "P0345:power",
+        "quote": "The increase of porosity observed to decrease the thermoelectric power. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Cement samples",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 675,
+            "end": 747
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0345:r006",
+        "subject": "Pure cement samples without modifications",
+        "subject_role": "material_entity",
+        "subject_id": "P0345:pure",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient up to 28 mV/K",
+        "object_role": "quantity",
+        "object_id": "P0345:v",
+        "quote": "Pure cement samples without any modifications produced significant values up to 28 mV/K for the Seebeck coefficient, which can be explained by the diffusion of water inside the CNT nanochannels and its flow in cement microcracks and capillaries. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 747,
+            "end": 993
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0345:r007",
+        "subject": "Water diffusion inside CNT nanochannels",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0345:wd",
+        "predicate": "jointly may explain",
+        "object": "Seebeck coefficient up to 28 mV/K",
+        "object_role": "quantity",
+        "object_id": "P0345:v",
+        "quote": "Pure cement samples without any modifications produced significant values up to 28 mV/K for the Seebeck coefficient, which can be explained by the diffusion of water inside the CNT nanochannels and its flow in cement microcracks and capillaries. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Pure cement samples without modifications; author-proposed explanation",
+        "joint_factors": [
+          "wd",
+          "wf"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 747,
+            "end": 993
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  }
+]

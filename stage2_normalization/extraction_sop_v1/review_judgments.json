@@ -1,0 +1,960 @@
+[
+  {
+    "relation_id": "SOP1:P0429:r01",
+    "initial_label": "partial",
+    "reason": "原文列举三个影响因素，未声称共同作用；联合组会增加原文没有的共同归因约束。拆分列举的影响关系，仍不声称独立贡献量或协同。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P0429:r01",
+      "paper_id": "P0429",
+      "domain": "iTE",
+      "subject": {
+        "local_id": "P0429:n01",
+        "label": "alkaline solution quantity, temperature and ionic movement",
+        "semantic_role": "condition"
+      },
+      "predicate": "influence",
+      "object": {
+        "local_id": "P0429:n02",
+        "label": "thermoelectric performance",
+        "semantic_role": "performance_function"
+      },
+      "evidence": [
+        {
+          "quote": "The results underscore the influence of the alkaline solution quantity, temperature, and ionic movement on the thermoelectric performance of these materials.",
+          "char_start": 906,
+          "char_end": 1063,
+          "sentence_id": "P0429:span:906:1063"
+        }
+      ],
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "joint_factors": [
+        "alkaline solution quantity",
+        "temperature",
+        "ionic movement"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "List of influences; independent contributions not quantified, no synergy claim.",
+      "input_hash": "8767daf29bc7a9dd5cde50a35d1c858dd4161896b561fe6eddd18101fb55f0c6",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P0429:r01",
+      "paper_id": "P0429",
+      "domain": "iTE",
+      "subject": {
+        "local_id": "P0429:n05",
+        "label": "alkaline solution quantity",
+        "semantic_role": "condition"
+      },
+      "predicate": "influence",
+      "object": {
+        "local_id": "P0429:n02",
+        "label": "thermoelectric performance",
+        "semantic_role": "performance_function"
+      },
+      "evidence": [
+        {
+          "quote": "The results underscore the influence of the alkaline solution quantity, temperature, and ionic movement on the thermoelectric performance of these materials.",
+          "char_start": 906,
+          "char_end": 1063,
+          "sentence_id": "P0429:span:906:1063"
+        }
+      ],
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "Enumerated influence, effect sign and independent magnitude not specified.",
+      "input_hash": "8767daf29bc7a9dd5cde50a35d1c858dd4161896b561fe6eddd18101fb55f0c6",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P0429:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r03",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r05",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r06",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r07",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1860:r08",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1604:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1604:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1604:r03",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1604:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1604:r05",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1604:r06",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1791:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1791:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1791:r03",
+    "initial_label": "partial",
+    "reason": "原文给出成分和带隙范围，但未明确所有中间成分单调下降；降为范围内关联。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P1791:r03",
+      "paper_id": "P1791",
+      "domain": "iTE",
+      "subject": {
+        "local_id": "P1791:n04",
+        "label": "yttrium fraction increase",
+        "semantic_role": "condition"
+      },
+      "predicate": "decreases",
+      "object": {
+        "local_id": "P1791:n05",
+        "label": "electronic bandgap",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "Electronic structures of wurtzite YxAl1_xN described from a modern nKTB_ mBJ potential show bandgap engineering with a range of [6.10 eV-3.85 eV] for x varies from 0 to 0.375, covering emission wavelengths [203 nm-322 nm] in the ul-traviolet spectrum.",
+          "char_start": 752,
+          "char_end": 1003,
+          "sentence_id": "P1791:span:752:1003"
+        }
+      ],
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "computational",
+      "assertion": "author_claim",
+      "conditions": "x 0 to 0.375; 6.10 to 3.85 eV; nKTB_mBJ",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "f4a74333c4dc97198496ad8031c1a3798b5d7113bbbad640ece35f670e65f70f",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P1791:r03",
+      "paper_id": "P1791",
+      "domain": "iTE",
+      "subject": {
+        "local_id": "P1791:n11",
+        "label": "yttrium fraction",
+        "semantic_role": "condition"
+      },
+      "predicate": "associated_with_bandgap_range",
+      "object": {
+        "local_id": "P1791:n05",
+        "label": "electronic bandgap",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "Electronic structures of wurtzite YxAl1_xN described from a modern nKTB_ mBJ potential show bandgap engineering with a range of [6.10 eV-3.85 eV] for x varies from 0 to 0.375, covering emission wavelengths [203 nm-322 nm] in the ul-traviolet spectrum.",
+          "char_start": 752,
+          "char_end": 1003,
+          "sentence_id": "P1791:span:752:1003"
+        }
+      ],
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "computational",
+      "assertion": "association",
+      "conditions": "x 0–0.375; bandgap range [6.10 eV–3.85 eV]; nKTB_mBJ; monotonicity not asserted",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "f4a74333c4dc97198496ad8031c1a3798b5d7113bbbad640ece35f670e65f70f",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P1791:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1791:r05",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1791:r06",
+    "initial_label": "partial",
+    "reason": "原文 z 及数字格式不清；不能凭领域惯例把 z 静默解释为弛豫时间。最低值关系明确，物理量身份仍待定。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P1791:r06",
+      "paper_id": "P1791",
+      "domain": "iTE",
+      "subject": {
+        "local_id": "P1791:n08",
+        "label": "x = 0.25 and T = 600 K",
+        "semantic_role": "condition"
+      },
+      "predicate": "correspond_to_minimum",
+      "object": {
+        "local_id": "P1791:n10",
+        "label": "thermal conductivity divided by relaxation time",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "YxAl1_xN (at x = 0.25 and T = 600 K) exhibited the largest magnitude of S, with a value of-213.9 mu V/K, and ZT -0.72. It also had the lowest value of kappa/z-9.9 x 1013 W m_ 1.K_ 1.s_ 1.",
+          "char_start": 1649,
+          "char_end": 1836,
+          "sentence_id": "P1791:span:1649:1836"
+        }
+      ],
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "computational",
+      "assertion": "association",
+      "conditions": "within investigated YxAl1_xN systems; preserve raw kappa/z notation; corrupted numeric formatting not repaired",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "f4a74333c4dc97198496ad8031c1a3798b5d7113bbbad640ece35f670e65f70f",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P1791:r06",
+      "paper_id": "P1791",
+      "domain": "iTE",
+      "subject": {
+        "local_id": "P1791:n08",
+        "label": "x = 0.25 and T = 600 K",
+        "semantic_role": "condition"
+      },
+      "predicate": "correspond_to_minimum",
+      "object": {
+        "local_id": "P1791:n12",
+        "label": "reported kappa/z (physical identity unresolved)",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "YxAl1_xN (at x = 0.25 and T = 600 K) exhibited the largest magnitude of S, with a value of-213.9 mu V/K, and ZT -0.72. It also had the lowest value of kappa/z-9.9 x 1013 W m_ 1.K_ 1.s_ 1.",
+          "char_start": 1649,
+          "char_end": 1836,
+          "sentence_id": "P1791:span:1649:1836"
+        }
+      ],
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "computational",
+      "assertion": "association",
+      "conditions": "within investigated YxAl1_xN systems; preserve raw kappa/z notation; corrupted numeric formatting not repaired",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "uncertain",
+      "note": "Minimum relation is explicit, but source notation does not establish the physical denominator; no full-text resolution in this experiment.",
+      "input_hash": "f4a74333c4dc97198496ad8031c1a3798b5d7113bbbad640ece35f670e65f70f",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P1948:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r03",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r05",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r06",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r07",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r08",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P1948:r09",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0716:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0716:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0322:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0322:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0322:r03",
+    "initial_label": "partial",
+    "reason": "摘要只明确最低电位处效应最大，不能改写成整个区间单调关系。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P0322:r03",
+      "paper_id": "P0322",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0322:n05",
+        "label": "lower anodic polarization potential",
+        "semantic_role": "condition"
+      },
+      "predicate": "increases",
+      "object": {
+        "local_id": "P0322:n04",
+        "label": "TDMF-induced anodic current enhancement",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "The results show that the anodic current density at a fixed, anodic potential increases when NAB is exposed to a TDMF. The effect increases with frequency of the TDMF, and is highest for the lowest polarization potentials. At -180 mV(Ag/AgCl), the current density increased by 800% when the sample was exposed to a TDMF of 150 Hz.",
+          "char_start": 362,
+          "char_end": 692,
+          "sentence_id": "P0322:span:362:692"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "-180 to -25 mV vs Ag/AgCl; NAB in 3.5 wt% NaCl",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "d53c995261415b24aa0b8384a52eba9923aeddbabb0bd4f6df875bae4471eb6f",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P0322:r03",
+      "paper_id": "P0322",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0322:n10",
+        "label": "lowest tested anodic polarization potentials",
+        "semantic_role": "condition"
+      },
+      "predicate": "correspond_to_largest",
+      "object": {
+        "local_id": "P0322:n04",
+        "label": "TDMF-induced anodic current enhancement",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "The results show that the anodic current density at a fixed, anodic potential increases when NAB is exposed to a TDMF. The effect increases with frequency of the TDMF, and is highest for the lowest polarization potentials. At -180 mV(Ag/AgCl), the current density increased by 800% when the sample was exposed to a TDMF of 150 Hz.",
+          "char_start": 362,
+          "char_end": 692,
+          "sentence_id": "P0322:span:362:692"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "association",
+      "conditions": "-180 to -25 mV vs Ag/AgCl; NAB in 3.5 wt% NaCl",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "d53c995261415b24aa0b8384a52eba9923aeddbabb0bd4f6df875bae4471eb6f",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P0322:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0322:r05",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0322:r06",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0324:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0324:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0324:r03",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0324:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0083:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0083:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0083:r03",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0083:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0257:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0257:r02",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0257:r03",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0257:r04",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0169:r01",
+    "initial_label": "partial",
+    "reason": "is designed to enlarge 是设计目的，摘要此句未单独证明面积测量结果；保留目的性。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P0169:r01",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n01",
+        "label": "3D hierarchical electrode",
+        "semantic_role": "design_strategy"
+      },
+      "predicate": "enlarges",
+      "object": {
+        "local_id": "P0169:n02",
+        "label": "electroactive surface area",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "Here, a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites and decreasing the interface charge transfer resistance.",
+          "char_start": 315,
+          "char_end": 529,
+          "sentence_id": "P0169:span:315:529"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P0169:r01",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n01",
+        "label": "3D hierarchical electrode",
+        "semantic_role": "design_strategy"
+      },
+      "predicate": "intended_to_enlarge",
+      "object": {
+        "local_id": "P0169:n02",
+        "label": "electroactive surface area",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "Here, a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites and decreasing the interface charge transfer resistance.",
+          "char_start": 315,
+          "char_end": 529,
+          "sentence_id": "P0169:span:315:529"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "hypothesis",
+      "conditions": "gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "Design intention, not separately verified observed surface-area increase.",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P0169:r02",
+    "initial_label": "partial",
+    "reason": "increasing 的归属可能是整体电极设计，不能把面积增大强制当成已证实的中间因果端点。保留整体设计所述结果。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P0169:r02",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n03",
+        "label": "electroactive surface area enlargement",
+        "semantic_role": "quantity"
+      },
+      "predicate": "increases",
+      "object": {
+        "local_id": "P0169:n04",
+        "label": "thermogalvanic reaction sites",
+        "semantic_role": "state_structure"
+      },
+      "evidence": [
+        {
+          "quote": "Here, a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites and decreasing the interface charge transfer resistance.",
+          "char_start": 315,
+          "char_end": 529,
+          "sentence_id": "P0169:span:315:529"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "3D hierarchical electrode in gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P0169:r02",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n01",
+        "label": "3D hierarchical electrode",
+        "semantic_role": "design_strategy"
+      },
+      "predicate": "increases",
+      "object": {
+        "local_id": "P0169:n04",
+        "label": "thermogalvanic reaction sites",
+        "semantic_role": "state_structure"
+      },
+      "evidence": [
+        {
+          "quote": "Here, a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites and decreasing the interface charge transfer resistance.",
+          "char_start": 315,
+          "char_end": 529,
+          "sentence_id": "P0169:span:315:529"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "3D hierarchical electrode in gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "Reported effect attributed to electrode design; area-mediated causal link is not asserted.",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P0169:r03",
+    "initial_label": "partial",
+    "reason": "decreasing 的归属可能是整体电极设计；不强行补成面积→电荷转移阻力链。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P0169:r03",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n03",
+        "label": "electroactive surface area enlargement",
+        "semantic_role": "quantity"
+      },
+      "predicate": "decreases",
+      "object": {
+        "local_id": "P0169:n05",
+        "label": "interfacial charge transfer resistance",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "Here, a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites and decreasing the interface charge transfer resistance.",
+          "char_start": 315,
+          "char_end": 529,
+          "sentence_id": "P0169:span:315:529"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "3D hierarchical electrode in gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P0169:r03",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n01",
+        "label": "3D hierarchical electrode",
+        "semantic_role": "design_strategy"
+      },
+      "predicate": "decreases",
+      "object": {
+        "local_id": "P0169:n05",
+        "label": "interfacial charge transfer resistance",
+        "semantic_role": "quantity"
+      },
+      "evidence": [
+        {
+          "quote": "Here, a 3D hierarchical structure electrode is designed to enlarge the electroactive surface area, significantly increasing the thermogalvanic reaction sites and decreasing the interface charge transfer resistance.",
+          "char_start": 315,
+          "char_end": 529,
+          "sentence_id": "P0169:span:315:529"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "3D hierarchical electrode in gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "Reported effect attributed to electrode design; no inferred area-mediated chain.",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P0169:r04",
+    "initial_label": "partial",
+    "reason": "provided ... to increase 是策略目的；不得自动当成已经观察到的长期增益。",
+    "action": "revise",
+    "before": {
+      "relation_id": "SOP1:P0169:r04",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n06",
+        "label": "3D electrode optimization",
+        "semantic_role": "design_strategy"
+      },
+      "predicate": "increases",
+      "object": {
+        "local_id": "P0169:n07",
+        "label": "long-term output power performance",
+        "semantic_role": "performance_function"
+      },
+      "evidence": [
+        {
+          "quote": "A simple and easy-to-operate electrode optimization strategy is provided here to increase the long-term output power performance of i-TE cells.",
+          "char_start": 998,
+          "char_end": 1141,
+          "sentence_id": "P0169:span:998:1141"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    },
+    "after": {
+      "relation_id": "SOP1:P0169:r04",
+      "paper_id": "P0169",
+      "domain": "TG",
+      "subject": {
+        "local_id": "P0169:n06",
+        "label": "3D electrode optimization",
+        "semantic_role": "design_strategy"
+      },
+      "predicate": "intended_to_increase",
+      "object": {
+        "local_id": "P0169:n07",
+        "label": "long-term output power performance",
+        "semantic_role": "performance_function"
+      },
+      "evidence": [
+        {
+          "quote": "A simple and easy-to-operate electrode optimization strategy is provided here to increase the long-term output power performance of i-TE cells.",
+          "char_start": 998,
+          "char_end": 1141,
+          "sentence_id": "P0169:span:998:1141"
+        }
+      ],
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "hypothesis",
+      "conditions": "gelatin-KCl-FeCN4-/3- cells",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "review_status": "accepted",
+      "note": "",
+      "input_hash": "c9202a855b2e660738a35011489015d8540e7ede3a9f98e4f2e1c32a98c84859",
+      "extraction_run_id": "sop_v1_astra_reviewed",
+      "schema_version": "sop1"
+    }
+  },
+  {
+    "relation_id": "SOP1:P0169:r05",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0215:r01",
+    "initial_label": "supported",
+    "reason": "对照完整摘要，端点、直接关系、方向及限定成立。",
+    "action": "accept"
+  },
+  {
+    "relation_id": "SOP1:P0429:r03",
+    "initial_label": "not_extracted",
+    "action": "add",
+    "reason": "同一列举关系的拆分；不是新发现原文关系。"
+  },
+  {
+    "relation_id": "SOP1:P0429:r04",
+    "initial_label": "not_extracted",
+    "action": "add",
+    "reason": "同一列举关系的拆分；不是新发现原文关系。"
+  },
+  {
+    "relation_id": "SOP1:P0083:r05",
+    "initial_label": "not_extracted",
+    "action": "add",
+    "reason": "摘要明确归因于改性电极的面积属性；保留独立属性边，不仅塞进共同因素端点。"
+  },
+  {
+    "relation_id": "SOP1:P0083:r06",
+    "initial_label": "not_extracted",
+    "action": "add",
+    "reason": "摘要明确归因于改性电极的空位属性；保留属性，不推断各因素独立因果效应。"
+  },
+  {
+    "relation_id": "SOP1:P0083:r07",
+    "initial_label": "not_extracted",
+    "action": "add",
+    "reason": "明确相互作用的参与对象此前仅留在作用节点名称中，补直接相互作用边。"
+  },
+  {
+    "relation_id": "SOP1:P0257:r05",
+    "initial_label": "not_extracted",
+    "action": "add",
+    "reason": "明确相互作用此前只存在于复合节点标签；保留原文 H+/SO42- 分组，不推断两个独立效果。"
+  }
+]

@@ -1,0 +1,3270 @@
+[
+  {
+    "paper_id": "P0304",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0030",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文明示碳电极界面电容较铂大约四个数量级。"
+      },
+      {
+        "candidate_id": "CTG-0061",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温差使指定离子液体/乙腈电容器充电，条件保留。"
+      },
+      {
+        "candidate_id": "CTG-0084",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留无需离子电极电子交换的转换可能性。"
+      },
+      {
+        "candidate_id": "CTG-0098",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "明确观察到对流加速充电。"
+      },
+      {
+        "candidate_id": "CTG-0111",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电阻放电提取储存电能为明确器件过程。"
+      },
+      {
+        "candidate_id": "CTG-0169",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "两电极材料热电系数比较明确。"
+      },
+      {
+        "candidate_id": "CTG-0170",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "恒定温差下重复循环证实界面充电稳健。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0304-001",
+        "label": "valid",
+        "reason": "循环可复现性直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0170"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-002",
+        "label": "valid",
+        "reason": "材料相关系数对比成立。",
+        "full_coverage_sets": [
+          [
+            "CTG-0169"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-003",
+        "label": "valid",
+        "reason": "温差驱动充电成立。",
+        "full_coverage_sets": [
+          [
+            "CTG-0061"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-004",
+        "label": "valid",
+        "reason": "对流加速为明确观察。",
+        "full_coverage_sets": [
+          [
+            "CTG-0098"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-005",
+        "label": "valid",
+        "reason": "电容比较及数量级明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0030"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-006",
+        "label": "valid",
+        "reason": "无需电子交换作为该转换能力明确给出。",
+        "full_coverage_sets": [
+          [
+            "CTG-0084"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未收录电阻放电提取能量这一外围关系。"
+  },
+  {
+    "paper_id": "P0239",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0010",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "Agar模型计算指定离子两类熵，属理论方法。"
+      },
+      {
+        "candidate_id": "CTG-0050",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "关系与条件正确，但该测量关系原文为实验；混合证据未直接归属。"
+      },
+      {
+        "candidate_id": "CTG-0066",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "明确用De Bethune理论解释结果。"
+      },
+      {
+        "candidate_id": "CTG-0083",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验热电化学测量确定三类参数，298 K保留。"
+      },
+      {
+        "candidate_id": "CTG-0128",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "Agar计算关系正确，但此计算的证据为理论；未说明实验联合计算。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0239-001",
+        "label": "valid",
+        "reason": "实验测量确定量的直接方法关系。",
+        "full_coverage_sets": [
+          [
+            "CTG-0083"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0050"
+        ]
+      },
+      {
+        "reference_id": "GP0239-002",
+        "label": "valid",
+        "reason": "模型计算直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0010"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0128"
+        ]
+      }
+    ],
+    "note": "De Bethune解释关系未进入参考。"
+  },
+  {
+    "paper_id": "P0230",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0043",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "雷诺数增大腐蚀率成立；此观测未明确由理论共同支持，mixed过宽。"
+      },
+      {
+        "candidate_id": "CTG-0112",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "最大增幅及高雷诺数、最大温差、25℃阳极共同条件完整。"
+      },
+      {
+        "candidate_id": "CTG-0115",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "温度增加腐蚀率成立；该观察应与后文理论假说区分。"
+      },
+      {
+        "candidate_id": "CTG-0125",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "保留may，但该推测明确来自混合电位理论，并无实验确认。"
+      },
+      {
+        "candidate_id": "CTG-0152",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "温度影响电流密度来自统计实验分析，mixed混入未归属理论。"
+      },
+      {
+        "candidate_id": "CTG-0172",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留理论提示的不同温度可能导致热电偶腐蚀。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0230-001",
+        "label": "valid",
+        "reason": "理论可能性表述忠实。",
+        "full_coverage_sets": [
+          [
+            "CTG-0172"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0125"
+        ]
+      },
+      {
+        "reference_id": "GP0230-002",
+        "label": "valid",
+        "reason": "统计实验显示温度显著影响电流密度。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0152"
+        ]
+      },
+      {
+        "reference_id": "GP0230-003",
+        "label": "valid",
+        "reason": "条件极值关系没有扩大成单调效应。",
+        "full_coverage_sets": [
+          [
+            "CTG-0112"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0230-004",
+        "label": "valid",
+        "reason": "列举效应可拆为雷诺数关系。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0043"
+        ]
+      },
+      {
+        "reference_id": "GP0230-005",
+        "label": "valid",
+        "reason": "列举效应可拆为温度关系。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0115"
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0226",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0019",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温度条件改变非对称电池系数，范围和材料保留。"
+      },
+      {
+        "candidate_id": "CTG-0147",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "非对称热响应偏离对称半电池预测明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0226-001",
+        "label": "valid",
+        "reason": "系数偏离预测是明确比较。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0147"
+        ]
+      },
+      {
+        "reference_id": "GP0226-002",
+        "label": "valid",
+        "reason": "温度条件依赖直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0019"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "0147的对象为泛化热响应，未直接指认Seebeck系数偏差，参考001仅部分覆盖。"
+  },
+  {
+    "paper_id": "P0090",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0022",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "胍阳离子的强离液属性明确。"
+      },
+      {
+        "candidate_id": "CTG-0067",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "胍与尿素协同增加氧化还原熵差明确。"
+      },
+      {
+        "candidate_id": "CTG-0069",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "两添加剂协同提高Seebeck效应明确。"
+      },
+      {
+        "candidate_id": "CTG-0074",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加导致功率密度提高，比较保留。"
+      },
+      {
+        "candidate_id": "CTG-0075",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "定量系数提高和后文协同归因均保留。"
+      },
+      {
+        "candidate_id": "CTG-0093",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "尿素高溶解性酰胺属性明确。"
+      },
+      {
+        "candidate_id": "CTG-0171",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加提高系数的数值比较明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0090-001",
+        "label": "valid",
+        "reason": "功率密度提高明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0074"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0090-002",
+        "label": "valid",
+        "reason": "协同熵差提高明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0067"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0090-003",
+        "label": "valid",
+        "reason": "共同添加提高Seebeck系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0075"
+          ],
+          [
+            "CTG-0171"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0069"
+        ]
+      }
+    ],
+    "note": "胍、尿素属性及显式协同Seebeck效应未单独收入参考。"
+  },
+  {
+    "paper_id": "P0309",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0032",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "成像可视化运行铅酸电池分层明确。"
+      },
+      {
+        "candidate_id": "CTG-0049",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温差下热电化学电池离子和热分布动态成像明确。"
+      },
+      {
+        "candidate_id": "CTG-0141",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "锂电池运行中离子浓度分布成像明确。"
+      },
+      {
+        "candidate_id": "CTG-0177",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "同步定量表征能力及时间空间分辨率均有原文。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0309-001",
+        "label": "valid",
+        "reason": "动态双分布可视化明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0049"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0309-002",
+        "label": "valid",
+        "reason": "运行铅酸电池分层可视化明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0032"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0309-003",
+        "label": "valid",
+        "reason": "方法能力和分辨率明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0177"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0309-004",
+        "label": "valid",
+        "reason": "锂离子电池分布可视化明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0141"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0115",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0001",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "分开循环设计实现能量转换，温区、无热回收和输出保留。"
+      },
+      {
+        "candidate_id": "CTG-0018",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同温度循环构成单温配置并已演示。"
+      },
+      {
+        "candidate_id": "CTG-0142",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "likely保留材料范围拓宽可能进一步提高性能的推测。"
+      },
+      {
+        "candidate_id": "CTG-0163",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同循环单温设计明确，全文背景支持热采集用途。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0115-001",
+        "label": "valid",
+        "reason": "明确提出远程自供能传感潜力。",
+        "full_coverage_sets": [],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0115-002",
+        "label": "valid",
+        "reason": "共同循环单温配置直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0018"
+          ],
+          [
+            "CTG-0163"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0115-003",
+        "label": "valid",
+        "reason": "有设计归因和完整条件，并非孤立数值。",
+        "full_coverage_sets": [
+          [
+            "CTG-0001"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "材料适用范围拓宽可能进一步提高性能未收入参考。"
+  },
+  {
+    "paper_id": "P0113",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0072",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "功率随聚合物厚度/多层增加明确。"
+      },
+      {
+        "candidate_id": "CTG-0136",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "增加厚度后功率可达平铂电极水平明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0113-001",
+        "label": "valid",
+        "reason": "明确性能比较。",
+        "full_coverage_sets": [
+          [
+            "CTG-0136"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0113-002",
+        "label": "valid",
+        "reason": "厚度变化与功率提高直接相连。",
+        "full_coverage_sets": [
+          [
+            "CTG-0072"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0299",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0008",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "淀粉作为I3-宿主明确。"
+      },
+      {
+        "candidate_id": "CTG-0016",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "高温时本征平衡主要决定离子比值明确。"
+      },
+      {
+        "candidate_id": "CTG-0025",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留相互作用可调性能的能力。"
+      },
+      {
+        "candidate_id": "CTG-0037",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "高温包合作用较弱明确。"
+      },
+      {
+        "candidate_id": "CTG-0038",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "聚合物离子作用提高I-/I3-体系系数明确。"
+      },
+      {
+        "candidate_id": "CTG-0046",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "PVP作为I3-宿主明确。"
+      },
+      {
+        "candidate_id": "CTG-0054",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "淀粉相对PVP输出功率翻倍明确。"
+      },
+      {
+        "candidate_id": "CTG-0070",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电极间I3-浓度差导致系数上升明确。"
+      },
+      {
+        "candidate_id": "CTG-0119",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "冷端选择包合降低自由I3-明确。"
+      },
+      {
+        "candidate_id": "CTG-0124",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "自由I3-降低导致离子比值增加明确。"
+      },
+      {
+        "candidate_id": "CTG-0157",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "上下文Consequently将温度依赖包合归因到两端浓度差。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0299-001",
+        "label": "valid",
+        "reason": "PVP宿主作用明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0046"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-002",
+        "label": "valid",
+        "reason": "聚合物相互作用增强系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0038"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-003",
+        "label": "valid",
+        "reason": "冷端浓度降低增加比值明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0124"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-004",
+        "label": "valid",
+        "reason": "可调性能能力明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0025"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-005",
+        "label": "valid",
+        "reason": "淀粉宿主作用明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0008"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-006",
+        "label": "valid",
+        "reason": "高温本征平衡主导比例明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0016"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-007",
+        "label": "valid",
+        "reason": "淀粉对PVP功率翻倍明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0054"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-008",
+        "label": "valid",
+        "reason": "高温降低包合效率明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0037"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-009",
+        "label": "valid",
+        "reason": "浓度差提高系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0070"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-010",
+        "label": "valid",
+        "reason": "Consequently承接温度依赖包合的直接后果。",
+        "full_coverage_sets": [
+          [
+            "CTG-0157"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0299-011",
+        "label": "valid",
+        "reason": "冷端包合降低自由离子明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0119"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0210",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0005",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "联合热扩散和指定氧化还原热电效应的功率能力及温差完整。"
+      },
+      {
+        "candidate_id": "CTG-0042",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "N掺杂空心碳纳米纤维的热电极结构归属明确。"
+      },
+      {
+        "candidate_id": "CTG-0044",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "引入指定凝胶后可在多种弯曲状态运行明确。"
+      },
+      {
+        "candidate_id": "CTG-0047",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "联合效应的系数能力和45 K条件完整。"
+      },
+      {
+        "candidate_id": "CTG-0099",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "指定单体缩聚合成rGO-PI为原文明示过程。"
+      },
+      {
+        "candidate_id": "CTG-0105",
+        "label": "out_of_scope",
+        "error_tags": [
+          "scope"
+        ],
+        "reason": "此条仅给凝胶器件单点功率数值，无设计改变与性能的直接归因关系。"
+      },
+      {
+        "candidate_id": "CTG-0168",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "rGO-PI冷电极结构归属明确。"
+      },
+      {
+        "candidate_id": "CTG-0175",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "联合两效应实现电压能力及45 K条件完整。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0210-001",
+        "label": "valid",
+        "reason": "结合双效应实现系数的归因明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0047"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0210-002",
+        "label": "valid",
+        "reason": "结合双效应实现功率的归因明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0005"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0210-003",
+        "label": "valid",
+        "reason": "结合双效应实现电压的归因明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0175"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0210-004",
+        "label": "valid",
+        "reason": "凝胶设计实现弯曲运行明确，附带功率不是独立因果。",
+        "full_coverage_sets": [
+          [
+            "CTG-0044"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列电极冷热结构归属及缩聚过程。"
+  },
+  {
+    "paper_id": "P0256",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0004",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "NCM较LFP反应更强且加速更快明确，容量比较保留。"
+      },
+      {
+        "candidate_id": "CTG-0027",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验拟合的温度敏感指数比较明确，不依赖损坏公式。"
+      },
+      {
+        "candidate_id": "CTG-0036",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "NCM开阀温度与失控触发温度相同明确。"
+      },
+      {
+        "candidate_id": "CTG-0173",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "LFP双卷芯结构导致失控末期二次反应明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0256-001",
+        "label": "valid",
+        "reason": "NCM反应强度比较明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0004"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0256-002",
+        "label": "valid",
+        "reason": "指数9.77与3.195比较明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0027"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0256-003",
+        "label": "valid",
+        "reason": "NCM加速速率比较明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0004"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0256-004",
+        "label": "valid",
+        "reason": "双卷芯引起末期二次反应明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0173"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "原文模型公式乱码；未据乱码推断模型公式。参考未列开阀与触发温度重合。"
+  },
+  {
+    "paper_id": "P0166",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0006",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "MXene提高强度明确。"
+      },
+      {
+        "candidate_id": "CTG-0012",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "MXene与水结合明确。"
+      },
+      {
+        "candidate_id": "CTG-0015",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "EG增加溶剂化熵变明确。"
+      },
+      {
+        "candidate_id": "CTG-0021",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "亲水性为显式MXene属性。"
+      },
+      {
+        "candidate_id": "CTG-0028",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "室内外温差用于全天热采集明确。"
+      },
+      {
+        "candidate_id": "CTG-0087",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "复合凝胶支持低至-40℃连续运行明确。"
+      },
+      {
+        "candidate_id": "CTG-0100",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "MXene水结合提升抗冻和保湿两结果明确。"
+      },
+      {
+        "candidate_id": "CTG-0101",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "复合凝胶提高热电势至2.04明确。"
+      },
+      {
+        "candidate_id": "CTG-0145",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "EG防冻直接说明。"
+      },
+      {
+        "candidate_id": "CTG-0146",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "MXene促进成胶明确。"
+      },
+      {
+        "candidate_id": "CTG-0158",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "EG提高热电势直接报告。"
+      },
+      {
+        "candidate_id": "CTG-0160",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "通过提高熵变与浓度比差促进热电势，保留双因素。"
+      },
+      {
+        "candidate_id": "CTG-0165",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "EG破坏水分子间氢键明确。"
+      },
+      {
+        "candidate_id": "CTG-0167",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "EG提高氧化还原离子浓度比差明确。"
+      },
+      {
+        "candidate_id": "CTG-0176",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "破坏水间氢键防冻的by归因明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0166-001",
+        "label": "valid",
+        "reason": "复合设计提高热电势明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0101"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-002",
+        "label": "valid",
+        "reason": "低温连续运行能力明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0087"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-003",
+        "label": "valid",
+        "reason": "结合提高保湿明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0100"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-004",
+        "label": "valid",
+        "reason": "EG增加熵变明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0015"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-005",
+        "label": "valid",
+        "reason": "结合提高抗冻明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0100"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-006",
+        "label": "valid",
+        "reason": "MXene与水相互作用明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0012"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-007",
+        "label": "valid",
+        "reason": "EG增大浓度比差明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0167"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-008",
+        "label": "valid",
+        "reason": "氢键破坏防冻明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0176"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-009",
+        "label": "valid",
+        "reason": "EG破坏水氢键明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0165"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-010",
+        "label": "valid",
+        "reason": "MXene促进成胶明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0146"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-011",
+        "label": "valid",
+        "reason": "两个过程共同解释热电势提高。",
+        "full_coverage_sets": [
+          [
+            "CTG-0160"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-012",
+        "label": "valid",
+        "reason": "MXene提高强度明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0006"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0166-013",
+        "label": "valid",
+        "reason": "室内外温差驱动窗口热采集明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0028"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未单列EG提高热电势、EG防冻和MXene亲水属性；不通过路径替代已明说直接边。"
+  },
+  {
+    "paper_id": "P0259",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0020",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "甘油与Li+共同引入赋予电导率明确。"
+      },
+      {
+        "candidate_id": "CTG-0033",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加赋予快速自修复明确。"
+      },
+      {
+        "candidate_id": "CTG-0041",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加赋予抗干抗冻明确。"
+      },
+      {
+        "candidate_id": "CTG-0073",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "原文prospective application中can actively perceive是作者能力表述；改成hypothesis弱化为未验证推测。"
+      },
+      {
+        "candidate_id": "CTG-0109",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留can与prospective应用语境，协同感知换能归因明确。"
+      },
+      {
+        "candidate_id": "CTG-0116",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加赋予热电势明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0259-001",
+        "label": "valid",
+        "reason": "添加剂与自修复直接关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0033"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0259-002",
+        "label": "valid",
+        "reason": "添加剂与热电势关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0116"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0259-003",
+        "label": "valid",
+        "reason": "enables表达作者所述能力，不必解读成所有应用均已验证。",
+        "full_coverage_sets": [
+          [
+            "CTG-0109"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0073"
+        ]
+      },
+      {
+        "reference_id": "GP0259-004",
+        "label": "valid",
+        "reason": "添加剂赋予抗干明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0041"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0259-005",
+        "label": "valid",
+        "reason": "添加剂赋予电导率明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0020"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0259-006",
+        "label": "valid",
+        "reason": "添加剂赋予抗冻明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0041"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0125",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0039",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "在本文锂离子体系中PF6-/BF4-略影响dE/dT明确。"
+      },
+      {
+        "candidate_id": "CTG-0045",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电极热电系数影响轻微或可忽略，材料状态保留。"
+      },
+      {
+        "candidate_id": "CTG-0076",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "对称锂离子电池有温差充电能力且已演示循环。"
+      },
+      {
+        "candidate_id": "CTG-0078",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "充电后撤温差可放电明确。"
+      },
+      {
+        "candidate_id": "CTG-0081",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "指定溶剂对比无影响明确。"
+      },
+      {
+        "candidate_id": "CTG-0107",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电解质浓度略影响dE/dT明确。"
+      },
+      {
+        "candidate_id": "CTG-0130",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "嵌锂程度轻微或可忽略影响明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0125-001",
+        "label": "valid",
+        "reason": "指定溶剂负结果明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0081"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0125-002",
+        "label": "valid",
+        "reason": "电极系数微弱效应明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0045"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0125-003",
+        "label": "valid",
+        "reason": "阴离子对比微弱效应明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0039"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0125-004",
+        "label": "valid",
+        "reason": "同一对称器件有温差充电和撤温差放电，两边共同完整覆盖。",
+        "full_coverage_sets": [
+          [
+            "CTG-0076",
+            "CTG-0078"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0076",
+          "CTG-0078"
+        ]
+      },
+      {
+        "reference_id": "GP0125-005",
+        "label": "valid",
+        "reason": "嵌锂程度微弱效应明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0130"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0125-006",
+        "label": "valid",
+        "reason": "浓度微弱效应明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0107"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0067",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0056",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "隔膜植入设计整体降低导热率为原文可确定归因。"
+      },
+      {
+        "candidate_id": "CTG-0062",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "隔膜设计整体提高系数可确定，未强造屏障中介边。"
+      },
+      {
+        "candidate_id": "CTG-0080",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "植入微孔PVDF明确创建两半间热屏障。"
+      },
+      {
+        "candidate_id": "CTG-0094",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "by reducing明确将低导热与系数提高相连。"
+      },
+      {
+        "candidate_id": "CTG-0122",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温度响应及贴附额头共同构成已建立监测系统。"
+      },
+      {
+        "candidate_id": "CTG-0138",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留凝胶贴可为发烧患者降温的能力表述。"
+      },
+      {
+        "candidate_id": "CTG-0144",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "所制凝胶发生器优良柔性明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0067-001",
+        "label": "valid",
+        "reason": "导热降低提高系数的直接归因明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0094"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0067-002",
+        "label": "valid",
+        "reason": "贴附温敏凝胶监测系统已建立。",
+        "full_coverage_sets": [
+          [
+            "CTG-0122"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0067-003",
+        "label": "valid",
+        "reason": "整体隔膜设计可确定降低导热。",
+        "full_coverage_sets": [
+          [
+            "CTG-0056"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0067-004",
+        "label": "valid",
+        "reason": "已制得发生器具有柔性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0144"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0067-005",
+        "label": "valid",
+        "reason": "隔膜建立热屏障明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0080"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0067-006",
+        "label": "uncertain",
+        "reason": "can cool的能力声明明确，但摘要未交代患者降温实验，参考experimental证据类型过于确定。",
+        "full_coverage_sets": [],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未单列隔膜设计提高系数。制备和已建立系统支持对应实验解释，但不推出已做患者降温实验。"
+  },
+  {
+    "paper_id": "P0152",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0029",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "测试抑制剂集合降低铁失重，未捏造单剂独立大小或联合效应。"
+      },
+      {
+        "candidate_id": "CTG-0092",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "测试抑制剂降低TG电流及范围明确。"
+      },
+      {
+        "candidate_id": "CTG-0139",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "列举抑制剂的集合效应，条件和未分配剂量说明忠实。"
+      },
+      {
+        "candidate_id": "CTG-0178",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "热电区域失重降低范围和实验条件明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0152-001",
+        "label": "valid",
+        "reason": "热梯度铁板抑制失重的实验关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0029"
+          ],
+          [
+            "CTG-0178"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0152-002",
+        "label": "valid",
+        "reason": "抑制TG电流及范围明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0092"
+          ],
+          [
+            "CTG-0139"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0121",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0002",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验与模型均证明自然对流增强最大功率。"
+      },
+      {
+        "candidate_id": "CTG-0055",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "配方与提高100%及条件正确，但该最优浓度结论明确来自实验，mixed未有对应模型支持。"
+      },
+      {
+        "candidate_id": "CTG-0064",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "朝向改变对流条件明确，研究明确实验及模型联合。"
+      },
+      {
+        "candidate_id": "CTG-0071",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "三无量纲数表达式理论预测功率比明确。"
+      },
+      {
+        "candidate_id": "CTG-0089",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "表达式预测且后文与实验一致，mixed有原文联合支持。"
+      },
+      {
+        "candidate_id": "CTG-0102",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留完整配方温区与缺失基线说明，未修补破损数字。"
+      },
+      {
+        "candidate_id": "CTG-0134",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "离子传输机制差异解释相反间距效应明确。"
+      },
+      {
+        "candidate_id": "CTG-0151",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "铜体系随间距增大功率增加明确；此对比是实验结果，mixed未直接成立；Cu符号原文另处可定位。"
+      },
+      {
+        "candidate_id": "CTG-0166",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "间距调节自然对流条件明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0121-001",
+        "label": "valid",
+        "reason": "朝向改变对流条件明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0064"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-002",
+        "label": "valid",
+        "reason": "摘要另处明确Cu/Cu2+体系，间距实验趋势清楚。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0151"
+        ]
+      },
+      {
+        "reference_id": "GP0121-003",
+        "label": "valid",
+        "reason": "机制差异解释相反依赖关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0134"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-004",
+        "label": "valid",
+        "reason": "三数预测表达式成立，后文有实测验证。",
+        "full_coverage_sets": [
+          [
+            "CTG-0071"
+          ],
+          [
+            "CTG-0089"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-005",
+        "label": "valid",
+        "reason": "对流增强功率明确且混合证据支持。",
+        "full_coverage_sets": [
+          [
+            "CTG-0002"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0121-006",
+        "label": "valid",
+        "reason": "100%提高与配方条件可读，未补写缺失基线。",
+        "full_coverage_sets": [
+          [
+            "CTG-0102"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0055"
+        ]
+      },
+      {
+        "reference_id": "GP0121-007",
+        "label": "valid",
+        "reason": "间距改变对流条件明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0166"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "0151保留源Cu/Cu-2字符串，材料身份由同摘要Cu/Cu2+说明可确定；不以惯例修复。"
+  },
+  {
+    "paper_id": "P0186",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0014",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电极组分对热电势影响小明确。"
+      },
+      {
+        "candidate_id": "CTG-0024",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "最优有效面积使输出电流密度提高的resulting in明确。"
+      },
+      {
+        "candidate_id": "CTG-0035",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "自组装方法制造气凝胶片电极明确。"
+      },
+      {
+        "candidate_id": "CTG-0079",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "热流体采集仅按设计目的保留hypothesis。"
+      },
+      {
+        "candidate_id": "CTG-0090",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "调组分多孔ASE具有最优有效面积明确。"
+      },
+      {
+        "candidate_id": "CTG-0161",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "减薄仍保持约95%孔隙的结构属性明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0186-001",
+        "label": "valid",
+        "reason": "减薄保留多孔结构明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0161"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-002",
+        "label": "valid",
+        "reason": "组分对热电势影响小明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0014"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-003",
+        "label": "valid",
+        "reason": "完整调组分多孔ASE设计拥有最优面积，不解读成组分单独贡献。",
+        "full_coverage_sets": [
+          [
+            "CTG-0090"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-004",
+        "label": "valid",
+        "reason": "最优面积提高电流密度明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0024"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0186-005",
+        "label": "valid",
+        "reason": "热流体采集设计目的明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0079"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列自组装制造关系。"
+  },
+  {
+    "paper_id": "P0223",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0013",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "计算配位小添加剂构型熵以分析由氧化还原熵差得到的系数，方法关系明确。"
+      },
+      {
+        "candidate_id": "CTG-0023",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "分析添加剂亲和力对系数的影响，未捏造方向。"
+      },
+      {
+        "candidate_id": "CTG-0053",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "构型熵计算用于分析系数明确。"
+      },
+      {
+        "candidate_id": "CTG-0065",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "隔膜将结合物隔离在适当冷热区提高系数为本理论研究结果。"
+      },
+      {
+        "candidate_id": "CTG-0126",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "小添加剂配位大离子为计算对象的明确相互作用。"
+      },
+      {
+        "candidate_id": "CTG-0129",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "亲和力影响氧化还原熵差的研究关系明确。"
+      },
+      {
+        "candidate_id": "CTG-0164",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "系数obtained from氧化还原对熵差，计算依赖关系明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0223-001",
+        "label": "valid",
+        "reason": "亲和力对系数影响明确，无方向外推。",
+        "full_coverage_sets": [
+          [
+            "CTG-0023"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0223-002",
+        "label": "valid",
+        "reason": "配位添加剂的构型熵用于熵差/系数分析在原文成立。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0013",
+          "CTG-0053",
+          "CTG-0126"
+        ]
+      },
+      {
+        "reference_id": "GP0223-003",
+        "label": "valid",
+        "reason": "亲和力对熵差影响明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0129"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0223-004",
+        "label": "valid",
+        "reason": "隔膜冷热区隔离作用提高系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0065"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考002端点为配位作用贡献构型熵；候选0013/0053将配位藏在构型熵标签中，0126只有参与者配位，均未直接完整覆盖。参考未单列熵差决定计算系数。"
+  },
+  {
+    "paper_id": "P0211",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0131",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "有效温差决定电压，最小/平均/中间及电阻依赖均保留。"
+      },
+      {
+        "candidate_id": "CTG-0137",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "内阻决定电压控制温差取值类别明确。"
+      },
+      {
+        "candidate_id": "CTG-0148",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "开路电压估算归一化功率密度已验证明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0211-001",
+        "label": "valid",
+        "reason": "基于开路电压的估算有效性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0148"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0211-002",
+        "label": "valid",
+        "reason": "内阻决定有效温差关系明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0137"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0131"
+        ]
+      }
+    ],
+    "note": "0131条件中含内阻依赖但主边为温差到电压，不能替代内阻到有效温差的直接边；参考未单列前者。"
+  },
+  {
+    "paper_id": "P0330",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0011",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "年复补入含氧水在该环空环境形成电化学电池明确。"
+      },
+      {
+        "candidate_id": "CTG-0051",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "低阻电解液导致强腐蚀环境明确。"
+      },
+      {
+        "candidate_id": "CTG-0052",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "含氧水与水泥浸出盐共同形成低阻电解液明确。"
+      },
+      {
+        "candidate_id": "CTG-0086",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留高套管温度及增大温差的整体归因，未强拆分词从句。"
+      },
+      {
+        "candidate_id": "CTG-0097",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "反复地表水进入水泥顶以上引起套管腐蚀明确。"
+      },
+      {
+        "candidate_id": "CTG-0108",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "约125℉套管温度加快腐蚀明确。"
+      },
+      {
+        "candidate_id": "CTG-0132",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "套管升温增加与导管温差明确。"
+      },
+      {
+        "candidate_id": "CTG-0140",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "所形成电化学电池腐蚀套管明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0330-001",
+        "label": "valid",
+        "reason": "补含氧水形成电池明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0011"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-002",
+        "label": "valid",
+        "reason": "套管升温增大温差明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0132"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-003",
+        "label": "valid",
+        "reason": "套管升温加快腐蚀明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0108"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-004",
+        "label": "uncertain",
+        "reason": "creating从句可归于高温及温差变化整体，单独将梯度设为无条件成因超出可确定归属。",
+        "full_coverage_sets": [],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-005",
+        "label": "valid",
+        "reason": "水与盐共同产生低阻电解液明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0052"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-006",
+        "label": "valid",
+        "reason": "低阻电解液导致腐蚀环境明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0051"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-007",
+        "label": "valid",
+        "reason": "反复进水引起腐蚀明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0097"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0330-008",
+        "label": "valid",
+        "reason": "电池腐蚀套管明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0140"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "原文OCR有casino/catsing等拼写损坏，上下文明确为casing；未据常识新增机制。"
+  },
+  {
+    "paper_id": "P0221",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0007",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "可分离交直流电压共同支持同步力温传感明确。"
+      },
+      {
+        "candidate_id": "CTG-0059",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留形变可诱导脉冲电压能力。"
+      },
+      {
+        "candidate_id": "CTG-0077",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留跨液滴温差可诱导直流电压能力。"
+      },
+      {
+        "candidate_id": "CTG-0117",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "逆电润湿和热电效应共同构成自供能多模态传感明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0221-001",
+        "label": "valid",
+        "reason": "induces可理解为作者报告的诱导能力。",
+        "full_coverage_sets": [
+          [
+            "CTG-0059"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0221-002",
+        "label": "valid",
+        "reason": "两信号同步感知两量明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0007"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0221-003",
+        "label": "valid",
+        "reason": "双效应支撑传感器明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0117"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0221-004",
+        "label": "valid",
+        "reason": "温差诱导直流电压能力明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0077"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0118",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0060",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "NaOH中仅30℃以下碳钢相对不锈钢为阴极明确。"
+      },
+      {
+        "candidate_id": "CTG-0103",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "含氯Ca(OH)2中碳钢持续为阳极明确。"
+      },
+      {
+        "candidate_id": "CTG-0120",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "混凝土梁热侧过30℃由阳转阴明确。"
+      },
+      {
+        "candidate_id": "CTG-0143",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温度梯度诱导梁段间电流明确。"
+      },
+      {
+        "candidate_id": "CTG-0174",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "指定含氯溶液中电流显著依赖温度明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0118-001",
+        "label": "valid",
+        "reason": "指定条件温度依赖明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0174"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0118-002",
+        "label": "valid",
+        "reason": "含氯溶液阳极行为明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0103"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0118-003",
+        "label": "valid",
+        "reason": "NaOH及30℃阈值明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0060"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0118-004",
+        "label": "valid",
+        "reason": "梯度驱动和30℃临界点均明确；同梁的两条可联合覆盖。",
+        "full_coverage_sets": [
+          [
+            "CTG-0143",
+            "CTG-0120"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0143"
+        ]
+      },
+      {
+        "reference_id": "GP0118-005",
+        "label": "valid",
+        "reason": "越过30℃极性反转明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0120"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0153",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0133",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留pH效应似与热效应相当的比较语气。"
+      },
+      {
+        "candidate_id": "CTG-0156",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文may预测能力及实验理论相关支持均保留。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0153-001",
+        "label": "valid",
+        "reason": "association保留效应相当的比较性质。",
+        "full_coverage_sets": [
+          [
+            "CTG-0133"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0153-002",
+        "label": "uncertain",
+        "reason": "原文may quantitatively predict仍带可能性，参考改为确定can且author_claim略强，不能强迫候选仿写。",
+        "full_coverage_sets": [],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0103",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0057",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电极数对测量电流和功率影响大明确；实验配置角色不改变关系。"
+      },
+      {
+        "candidate_id": "CTG-0091",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "功率除温差平方的归一化不准确为明确负结果。"
+      },
+      {
+        "candidate_id": "CTG-0095",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "三电极组件高估电流功率明确。"
+      },
+      {
+        "candidate_id": "CTG-0106",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文全称确定为线性扫描伏安，保留异常缩写。"
+      },
+      {
+        "candidate_id": "CTG-0113",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "测量时间强烈影响电流和功率明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0103-001",
+        "label": "valid",
+        "reason": "线性扫描伏安高估明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0106"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0103-002",
+        "label": "valid",
+        "reason": "归一化准确性负结果明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0091"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0103-003",
+        "label": "valid",
+        "reason": "测量时间影响明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0113"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0103-004",
+        "label": "valid",
+        "reason": "电极数量影响明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0057"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0103-005",
+        "label": "valid",
+        "reason": "三电极高估明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0095"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0301",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0034",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留may、最大功效积对最大功率比较及Carnot条件。"
+      },
+      {
+        "candidate_id": "CTG-0114",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "不同状态多TREC方案的提出目的忠实。"
+      },
+      {
+        "candidate_id": "CTG-0118",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电流影响效率上下界明确，未捏造方向。"
+      },
+      {
+        "candidate_id": "CTG-0123",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电流影响输出功率明确。"
+      },
+      {
+        "candidate_id": "CTG-0149",
+        "label": "partial",
+        "error_tags": [
+          "condition"
+        ],
+        "reason": "理论连续输出能力明确，但缺少多个TREC工作于不同状态这一设计限定。"
+      },
+      {
+        "candidate_id": "CTG-0154",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "理论建议工作于两极值状态之间明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0301-001",
+        "label": "valid",
+        "reason": "完整条件性能比较明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0034"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0301-002",
+        "label": "valid",
+        "reason": "不同状态多循环系统连续输出能力明确。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0114",
+          "CTG-0149"
+        ]
+      },
+      {
+        "reference_id": "GP0301-003",
+        "label": "valid",
+        "reason": "should是理论操作建议，候选推荐措辞忠实。",
+        "full_coverage_sets": [
+          [
+            "CTG-0154"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列电流到功率及效率边界的两条明确关系。0114保留设计目的但未断言理论输出能力，0149未保留不同状态限定；不自动拼成已完整归因。"
+  },
+  {
+    "paper_id": "P0100",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0017",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "纳米尺度效应在TiO2热电谱中被识别明确。"
+      },
+      {
+        "candidate_id": "CTG-0127",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "组成均衡防止电荷差累积明确。"
+      },
+      {
+        "candidate_id": "CTG-0135",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实测薄膜锐钛矿热电谱与相行为符合明确。"
+      },
+      {
+        "candidate_id": "CTG-0162",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "迭代方法支持高分辨精确测量，组成均衡必要条件保留。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0100-001",
+        "label": "valid",
+        "reason": "相行为一致性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0135"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0100-002",
+        "label": "valid",
+        "reason": "方法能力及防电荷差条件明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0162"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0100-003",
+        "label": "valid",
+        "reason": "方法能识别谱中纳米尺度效应明确。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0017"
+        ]
+      },
+      {
+        "reference_id": "GP0100-004",
+        "label": "valid",
+        "reason": "组成均衡防累积明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0127"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "0017是纳米尺度对谱的效应边，未直接表达方法识别能力；两种关系不能因语义相近视为全覆盖。"
+  },
+  {
+    "paper_id": "P0316",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0048",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "B掺杂提高活性面积明确。"
+      },
+      {
+        "candidate_id": "CTG-0068",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "N掺杂提高活性面积且N样品条件正确。"
+      },
+      {
+        "candidate_id": "CTG-0085",
+        "label": "partial",
+        "error_tags": [
+          "condition"
+        ],
+        "reason": "N掺杂效应正确，但条件含N或B样品，将B样品混入N主体适用条件。"
+      },
+      {
+        "candidate_id": "CTG-0088",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "掺杂CNT与K+静电相互作用明确。"
+      },
+      {
+        "candidate_id": "CTG-0096",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "转移对称性与原始CNT近似相同明确。"
+      },
+      {
+        "candidate_id": "CTG-0110",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "掺杂CNT处K+累积降低短路电流明确。"
+      },
+      {
+        "candidate_id": "CTG-0121",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "K+静电相互作用改变转移动力学明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0316-001",
+        "label": "valid",
+        "reason": "N掺杂增加面积明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0068"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0085"
+        ]
+      },
+      {
+        "reference_id": "GP0316-002",
+        "label": "valid",
+        "reason": "K+累积降低电流明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0110"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0316-003",
+        "label": "valid",
+        "reason": "静电作用改变动力学明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0121"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0316-004",
+        "label": "valid",
+        "reason": "B掺杂增加面积明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0048"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0316-005",
+        "label": "valid",
+        "reason": "转移对称性近似保留明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0096"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未单列掺杂CNT与K+的静电相互作用参与者关系。"
+  },
+  {
+    "paper_id": "P0283",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0026",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "浓度梯度导致器件优良性能明确。"
+      },
+      {
+        "candidate_id": "CTG-0031",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "三碘离子被α环糊精包合明确。"
+      },
+      {
+        "candidate_id": "CTG-0040",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温度依赖主客作用形成两极间浓度梯度明确。"
+      },
+      {
+        "candidate_id": "CTG-0058",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "低温使平衡偏向包合明确。"
+      },
+      {
+        "candidate_id": "CTG-0063",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "高温逆转包合平衡偏好明确。"
+      },
+      {
+        "candidate_id": "CTG-0153",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "超分子设计实现环境温度下高系数，有设计归因并非裸数值。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0283-001",
+        "label": "valid",
+        "reason": "主客包合关系明确，逆写方向等价。",
+        "full_coverage_sets": [
+          [
+            "CTG-0031"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-002",
+        "label": "valid",
+        "reason": "浓度梯度提高性能明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0026"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-003",
+        "label": "valid",
+        "reason": "温度依赖作用导致浓度梯度明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0040"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-004",
+        "label": "valid",
+        "reason": "所述超分子方法产出高系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0153"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-005",
+        "label": "valid",
+        "reason": "低温包合平衡明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0058"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0283-006",
+        "label": "valid",
+        "reason": "高温逆转平衡明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0063"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0101",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0003",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "微通道流体动力设计形成热表面薄边界层明确。"
+      },
+      {
+        "candidate_id": "CTG-0009",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "薄边界层支持高冷却效率明确。"
+      },
+      {
+        "candidate_id": "CTG-0082",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "指定电解液耐火焰接触稳定性明确。"
+      },
+      {
+        "candidate_id": "CTG-0104",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "所有测试流量发电超过泵功10至1000倍明确。"
+      },
+      {
+        "candidate_id": "CTG-0150",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "小面积组合器件持续驱动LED和风扇明确。"
+      },
+      {
+        "candidate_id": "CTG-0155",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "微通道对流热电转换设计实现170℃表面下所报功率密度明确。"
+      },
+      {
+        "candidate_id": "CTG-0159",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "薄边界层支持大于100 K电极温差明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0101-001",
+        "label": "valid",
+        "reason": "泵功与发电比较及流量限定明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0104"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-002",
+        "label": "valid",
+        "reason": "微通道形成薄热边界层明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0003"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-003",
+        "label": "valid",
+        "reason": "薄层使电极间大温差明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0159"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-004",
+        "label": "valid",
+        "reason": "组合器件驱动负载明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0150"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-005",
+        "label": "valid",
+        "reason": "电解液火焰接触稳定性明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0082"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0101-006",
+        "label": "valid",
+        "reason": "薄层支持高冷却效率明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0009"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未列微通道对流转换设计实现指定条件功率密度关系。"
+  }
+]

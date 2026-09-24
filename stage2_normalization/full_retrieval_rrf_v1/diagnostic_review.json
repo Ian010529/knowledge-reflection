@@ -1,0 +1,349 @@
+{
+  "reviewer": "current_conversation_model",
+  "independent_blinded_gold": false,
+  "scope": "12 fixed queries, Top-1 per method; descriptive diagnosis only. Equivalent means no loss of the stated node meaning; broader common concepts may still need a later separate mapping.",
+  "population_precision_or_recall": false,
+  "counts": {
+    "bm25": {
+      "related": 8,
+      "distinct": 2,
+      "equivalent": 1,
+      "uncertain": 1
+    },
+    "vector": {
+      "related": 12
+    },
+    "rrf": {
+      "related": 9,
+      "equivalent": 1,
+      "distinct": 1,
+      "uncertain": 1
+    }
+  },
+  "judgments": [
+    {
+      "source": "TG:P0056:conversion",
+      "target": "TG:P0180:n4",
+      "method": "bm25",
+      "source_label": "Record-high thermoelectric conversion performance",
+      "target_label": "High thermal-electrical conversion performance",
+      "judgment": "related",
+      "reason": "均为转换表现，但最高纪录与一般高性能、器件机制和性能界定不同，不能直接视为完整同义表达。"
+    },
+    {
+      "source": "TG:P0056:conversion",
+      "target": "TG:P0180:n4",
+      "method": "rrf",
+      "source_label": "Record-high thermoelectric conversion performance",
+      "target_label": "High thermal-electrical conversion performance",
+      "judgment": "related",
+      "reason": "均为转换表现，但最高纪录与一般高性能、器件机制和性能界定不同，不能直接视为完整同义表达。"
+    },
+    {
+      "source": "TG:P0056:conversion",
+      "target": "TG:P0056:cell",
+      "method": "vector",
+      "source_label": "Record-high thermoelectric conversion performance",
+      "target_label": "Aqueous ferri/ferrocyanide TGC",
+      "judgment": "related",
+      "reason": "器件与器件的性能不同。"
+    },
+    {
+      "source": "TG:P0063:cell",
+      "target": "TG:P0067:g",
+      "method": "bm25",
+      "source_label": "Tetramethylene sulfone-Fe2+/Fe3+ hydrogel thermogalvanic cell",
+      "target_label": "Gel electrolyte thermogalvanic generator with Fe3+/Fe2+",
+      "judgment": "related",
+      "reason": "同为Fe红氧对凝胶器件，但具体溶剂体系限定不同，只能视为同类器件候选。"
+    },
+    {
+      "source": "TG:P0063:cell",
+      "target": "TG:P0063:val",
+      "method": "vector",
+      "source_label": "Tetramethylene sulfone-Fe2+/Fe3+ hydrogel thermogalvanic cell",
+      "target_label": "Seebeck coefficient 2.49 mV K-1",
+      "judgment": "related",
+      "reason": "器件与其Seebeck数值不同。"
+    },
+    {
+      "source": "TG:P0063:cell",
+      "target": "TG:P0003:balance",
+      "method": "rrf",
+      "source_label": "Tetramethylene sulfone-Fe2+/Fe3+ hydrogel thermogalvanic cell",
+      "target_label": "Balancing thermodiffusion and thermogalvanic effects in Fe2+/3+ hydrogel",
+      "judgment": "related",
+      "reason": "器件与调控设计策略不同。"
+    },
+    {
+      "source": "TG:P0084:spatial",
+      "target": "TG:P0084:magnitude",
+      "method": "bm25",
+      "source_label": "Precise pressure spatial-distribution detection",
+      "target_label": "Precise pressure-magnitude detection",
+      "judgment": "related",
+      "reason": "空间分布与压力幅值是不同检测维度。"
+    },
+    {
+      "source": "TG:P0084:spatial",
+      "target": "TG:P0084:magnitude",
+      "method": "vector",
+      "source_label": "Precise pressure spatial-distribution detection",
+      "target_label": "Precise pressure-magnitude detection",
+      "judgment": "related",
+      "reason": "空间分布与压力幅值是不同检测维度。"
+    },
+    {
+      "source": "TG:P0084:spatial",
+      "target": "TG:P0084:magnitude",
+      "method": "rrf",
+      "source_label": "Precise pressure spatial-distribution detection",
+      "target_label": "Precise pressure-magnitude detection",
+      "judgment": "related",
+      "reason": "空间分布与压力幅值是不同检测维度。"
+    },
+    {
+      "source": "TG:P0090:d",
+      "target": "TG:P0131:n2",
+      "method": "bm25",
+      "source_label": "Highly soluble amide derivative",
+      "target_label": "Highly alloyed stainless steel",
+      "judgment": "distinct",
+      "reason": "酰胺衍生物与高合金不锈钢无概念等价关系；共同highly一词不能支持等价。"
+    },
+    {
+      "source": "TG:P0090:d",
+      "target": "TG:P0090:c",
+      "method": "vector",
+      "source_label": "Highly soluble amide derivative",
+      "target_label": "Urea",
+      "judgment": "related",
+      "reason": "原文把尿素作为酰胺衍生物实例；类别描述与具体物质、角色不同。"
+    },
+    {
+      "source": "TG:P0090:d",
+      "target": "TG:P0090:c",
+      "method": "rrf",
+      "source_label": "Highly soluble amide derivative",
+      "target_label": "Urea",
+      "judgment": "related",
+      "reason": "原文把尿素作为酰胺衍生物实例；类别描述与具体物质、角色不同。"
+    },
+    {
+      "source": "TG:P0118:n5",
+      "target": "TG:P0118:n9",
+      "method": "bm25",
+      "source_label": "Change from anodic to cathodic character",
+      "target_label": "Cathodic behavior relative to stainless steel",
+      "judgment": "related",
+      "reason": "热电极极性转变与碳钢相对不锈钢的阴极行为涉及不同对象、参照和温度区间。"
+    },
+    {
+      "source": "TG:P0118:n5",
+      "target": "TG:P0118:n9",
+      "method": "rrf",
+      "source_label": "Change from anodic to cathodic character",
+      "target_label": "Cathodic behavior relative to stainless steel",
+      "judgment": "related",
+      "reason": "热电极极性转变与碳钢相对不锈钢的阴极行为涉及不同对象、参照和温度区间。"
+    },
+    {
+      "source": "TG:P0118:n5",
+      "target": "TG:P0118:n4",
+      "method": "vector",
+      "source_label": "Change from anodic to cathodic character",
+      "target_label": "Hot electrode side in reinforced concrete beam",
+      "judgment": "related",
+      "reason": "电极实体与其阴阳极性质变化不同。"
+    },
+    {
+      "source": "TG:P0196:zp",
+      "target": "TG:P0333:zndep",
+      "method": "bm25",
+      "source_label": "Zn plating",
+      "target_label": "Concentration dependences in Zn\\Zn++ systems",
+      "judgment": "related",
+      "reason": "锌沉积过程与Zn系统浓度依赖描述不同。"
+    },
+    {
+      "source": "TG:P0196:zp",
+      "target": "TG:P0196:conv",
+      "method": "vector",
+      "source_label": "Zn plating",
+      "target_label": "Efficient heat-to-electricity conversion",
+      "judgment": "related",
+      "reason": "锌沉积是机制过程，热电转换是器件功能。"
+    },
+    {
+      "source": "TG:P0196:zp",
+      "target": "TG:P0196:conv",
+      "method": "rrf",
+      "source_label": "Zn plating",
+      "target_label": "Efficient heat-to-electricity conversion",
+      "judgment": "related",
+      "reason": "锌沉积是机制过程，热电转换是器件功能。"
+    },
+    {
+      "source": "iTE:P0867:n1",
+      "target": "iTE:P0867:n10",
+      "method": "bm25",
+      "source_label": "Bi1.5Pb0.5Ca2−xMxCo2O8−δ with M = Sc3+, Y3+, or La3+",
+      "target_label": "Sc3+ and Y3+ ionic radii smaller than Ca2+",
+      "judgment": "related",
+      "reason": "完整掺杂材料体系与掺杂离子半径描述不同。"
+    },
+    {
+      "source": "iTE:P0867:n1",
+      "target": "iTE:P0867:n10",
+      "method": "rrf",
+      "source_label": "Bi1.5Pb0.5Ca2−xMxCo2O8−δ with M = Sc3+, Y3+, or La3+",
+      "target_label": "Sc3+ and Y3+ ionic radii smaller than Ca2+",
+      "judgment": "related",
+      "reason": "完整掺杂材料体系与掺杂离子半径描述不同。"
+    },
+    {
+      "source": "iTE:P0867:n1",
+      "target": "iTE:P0867:n3",
+      "method": "vector",
+      "source_label": "Bi1.5Pb0.5Ca2−xMxCo2O8−δ with M = Sc3+, Y3+, or La3+",
+      "target_label": "Co–O bond nature",
+      "judgment": "related",
+      "reason": "材料与材料内的Co–O键特性不同。"
+    },
+    {
+      "source": "iTE:P1187:n20",
+      "target": "iTE:P1187:n22",
+      "method": "bm25",
+      "source_label": "Thermal conductivities of vacancy-containing BiCuOSe",
+      "target_label": "zT of vacancy-containing BiCuOSe",
+      "judgment": "related",
+      "reason": "同一材料的热导率与zT是不同物理量。"
+    },
+    {
+      "source": "iTE:P1187:n20",
+      "target": "iTE:P1187:n22",
+      "method": "vector",
+      "source_label": "Thermal conductivities of vacancy-containing BiCuOSe",
+      "target_label": "zT of vacancy-containing BiCuOSe",
+      "judgment": "related",
+      "reason": "同一材料的热导率与zT是不同物理量。"
+    },
+    {
+      "source": "iTE:P1187:n20",
+      "target": "iTE:P1187:n22",
+      "method": "rrf",
+      "source_label": "Thermal conductivities of vacancy-containing BiCuOSe",
+      "target_label": "zT of vacancy-containing BiCuOSe",
+      "judgment": "related",
+      "reason": "同一材料的热导率与zT是不同物理量。"
+    },
+    {
+      "source": "iTE:P1199:gradient",
+      "target": "iTE:P0474:p2",
+      "method": "bm25",
+      "source_label": "Maintenance of internal temperature gradients",
+      "target_label": "Maintenance of temperature gradient",
+      "judgment": "equivalent",
+      "reason": "均指保持器件内温度梯度这一功能概念；可作为同义候选，具体材料和证据仍须各自保留。"
+    },
+    {
+      "source": "iTE:P1199:gradient",
+      "target": "iTE:P0474:p2",
+      "method": "rrf",
+      "source_label": "Maintenance of internal temperature gradients",
+      "target_label": "Maintenance of temperature gradient",
+      "judgment": "equivalent",
+      "reason": "均指保持器件内温度梯度这一功能概念；可作为同义候选，具体材料和证据仍须各自保留。"
+    },
+    {
+      "source": "iTE:P1199:gradient",
+      "target": "iTE:P1199:eff",
+      "method": "vector",
+      "source_label": "Maintenance of internal temperature gradients",
+      "target_label": "Enhanced overall energy conversion efficiency",
+      "judgment": "related",
+      "reason": "维持温差与提高能量转换效率是不同作用/结果。"
+    },
+    {
+      "source": "iTE:P1248:sense",
+      "target": "iTE:P0830:grain",
+      "method": "bm25",
+      "source_label": "Decoupled recognition of heat-source size/shapes and temperatures",
+      "target_label": "Mean grain size of 1 gm (source wording)",
+      "judgment": "distinct",
+      "reason": "热源尺寸形状与温度识别不等于陶瓷平均晶粒尺寸。"
+    },
+    {
+      "source": "iTE:P1248:sense",
+      "target": "iTE:P0830:grain",
+      "method": "rrf",
+      "source_label": "Decoupled recognition of heat-source size/shapes and temperatures",
+      "target_label": "Mean grain size of 1 gm (source wording)",
+      "judgment": "distinct",
+      "reason": "热源尺寸形状与温度识别不等于陶瓷平均晶粒尺寸。"
+    },
+    {
+      "source": "iTE:P1248:sense",
+      "target": "iTE:P1248:adapt",
+      "method": "vector",
+      "source_label": "Decoupled recognition of heat-source size/shapes and temperatures",
+      "target_label": "Four-dimensional dynamic adaptation to complex-geometry heat sources",
+      "judgment": "related",
+      "reason": "适应热源几何形状与解耦识别热源形状/温度是不同功能。"
+    },
+    {
+      "source": "iTE:P1414:dist",
+      "target": "iTE:P1594:dist",
+      "method": "bm25",
+      "source_label": "Enhanced CoO6 octahedral distortion",
+      "target_label": "CoO6 octahedron distortion",
+      "judgment": "related",
+      "reason": "共享CoO6畸变这一基础概念，但增强状态的限定须保留，不能直接按完整节点名称无损合并。"
+    },
+    {
+      "source": "iTE:P1414:dist",
+      "target": "iTE:P1731:n14",
+      "method": "vector",
+      "source_label": "Enhanced CoO6 octahedral distortion",
+      "target_label": "Decreased tolerance factor and enhanced CoO6 distortion",
+      "judgment": "related",
+      "reason": "右侧是容忍因子下降与畸变增强的复合状态，左侧只有畸变增强。"
+    },
+    {
+      "source": "iTE:P1414:dist",
+      "target": "iTE:P1731:n14",
+      "method": "rrf",
+      "source_label": "Enhanced CoO6 octahedral distortion",
+      "target_label": "Decreased tolerance factor and enhanced CoO6 distortion",
+      "judgment": "related",
+      "reason": "右侧是容忍因子下降与畸变增强的复合状态，左侧只有畸变增强。"
+    },
+    {
+      "source": "iTE:P1632:seebeck",
+      "target": "iTE:P0334:sc",
+      "method": "bm25",
+      "source_label": "Seebeck coefficient",
+      "target_label": "Seebeck coefficient",
+      "judgment": "uncertain",
+      "reason": "两者同名，但原文分别为电子型氧化物和离子热电材料；可映射共同上位物理量，当前证据不足以无条件折叠机制与测量语境。"
+    },
+    {
+      "source": "iTE:P1632:seebeck",
+      "target": "iTE:P0334:sc",
+      "method": "rrf",
+      "source_label": "Seebeck coefficient",
+      "target_label": "Seebeck coefficient",
+      "judgment": "uncertain",
+      "reason": "两者同名，但原文分别为电子型氧化物和离子热电材料；可映射共同上位物理量，当前证据不足以无条件折叠机制与测量语境。"
+    },
+    {
+      "source": "iTE:P1632:seebeck",
+      "target": "iTE:P1632:rho",
+      "method": "vector",
+      "source_label": "Seebeck coefficient",
+      "target_label": "Resistivity",
+      "judgment": "related",
+      "reason": "Seebeck系数与电阻率不同，共同测量句不构成等价。"
+    }
+  ]
+}

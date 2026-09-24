@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "completed_at": "2026-09-24T11:51:06.195028+00:00",
+    "elapsed_seconds": 415.9,
+    "input_papers": 8,
+    "reference_papers": 4,
+    "candidate_records": 50,
+    "reference_claims": 25,
+    "input_abstract_characters": 9521,
+    "exact_token_usage": null,
+    "independent_agents": 1,
+    "limitations": [
+      "Small diagnostic sample; percentages are unweighted sample descriptions, not whole-corpus estimates.",
+      "Coverage references only four preselected papers; not whole eight-paper or corpus recall.",
+      "Same model in separate contexts; not an external gold standard.",
+      "References group some outcomes; coverage is not atomic-edge recall and cannot be compared directly with earlier recall estimates.",
+      "No repair after audit; this measures frozen first-pass extraction, not revised performance."
+    ],
+    "coverage_unit": "compact_source_claims_not_atomic_graph_edges"
+  },
+  "domains": {
+    "iTE": {
+      "papers": 4,
+      "precision": {
+        "n": 29,
+        "d": 30,
+        "percent": 96.67
+      },
+      "main_precision": {
+        "n": 19,
+        "d": 19,
+        "percent": 100.0
+      },
+      "verdicts": {
+        "supported": 29,
+        "out_of_scope": 1
+      },
+      "error_tags": {
+        "scope": 1
+      },
+      "all_reference_coverage_valid": {
+        "n": 12,
+        "d": 14,
+        "percent": 85.71
+      },
+      "all_reference_coverage_all_conservative": {
+        "n": 12,
+        "d": 14,
+        "percent": 85.71
+      },
+      "all_reference_statuses": {
+        "valid": 14
+      },
+      "main_reference_coverage_valid": {
+        "n": 8,
+        "d": 10,
+        "percent": 80.0
+      },
+      "main_reference_coverage_all_conservative": {
+        "n": 8,
+        "d": 10,
+        "percent": 80.0
+      },
+      "main_reference_statuses": {
+        "valid": 10
+      }
+    },
+    "TG": {
+      "papers": 4,
+      "precision": {
+        "n": 20,
+        "d": 20,
+        "percent": 100.0
+      },
+      "main_precision": {
+        "n": 4,
+        "d": 4,
+        "percent": 100.0
+      },
+      "verdicts": {
+        "supported": 20
+      },
+      "error_tags": {},
+      "all_reference_coverage_valid": {
+        "n": 10,
+        "d": 11,
+        "percent": 90.91
+      },
+      "all_reference_coverage_all_conservative": {
+        "n": 10,
+        "d": 11,
+        "percent": 90.91
+      },
+      "all_reference_statuses": {
+        "valid": 11
+      },
+      "main_reference_coverage_valid": {
+        "n": 5,
+        "d": 5,
+        "percent": 100.0
+      },
+      "main_reference_coverage_all_conservative": {
+        "n": 5,
+        "d": 5,
+        "percent": 100.0
+      },
+      "main_reference_statuses": {
+        "valid": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "papers": [
+    {
+      "paper_id": "P0196",
+      "decisions": [
+        {
+          "relation_id": "P0196:r001",
+          "action": "keep",
+          "record": null,
+          "reason": "Joint optimization and redox-species introduction are supported; explicit relationship-specific experimental method evidence is absent."
+        }
+      ],
+      "additions": [],
+      "note": "The omission hint duplicates r001 and does not justify upgrading modality."
+    },
+    {
+      "paper_id": "P0202",
+      "decisions": [
+        {
+          "relation_id": "P0202:r010",
+          "action": "replace",
+          "record": {
+            "subject": "Thermopower of 2.87 mV K−1 for each p–n pair",
+            "subject_role": "quantity",
+            "predicate": "enables",
+            "object": "Maximum output voltage of 200 mV",
+            "object_role": "quantity",
+            "e": [
+              5
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "me": [],
+            "conditions": "STE generation under natural solar irradiance during noon",
+            "joint_factors": [],
+            "scope": "device_thermal_management",
+            "claim_scope": "own_work"
+          },
+          "reason": "Restores the per-pair qualification."
+        }
+      ],
+      "additions": [],
+      "note": ""
+    },
+    {
+      "paper_id": "P0204",
+      "decisions": [
+        {
+          "relation_id": "P0204:r005",
+          "action": "keep",
+          "record": null,
+          "reason": "The supplied joint-factor mapping explicitly identifies tg as the thermogalvanic effect of Fe2+/Fe3+."
+        }
+      ],
+      "additions": [],
+      "note": ""
+    },
+    {
+      "paper_id": "P0212",
+      "decisions": [
+        {
+          "relation_id": "P0212:r002",
+          "action": "keep",
+          "record": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0212:r004",
+          "action": "keep",
+          "record": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0212:r006",
+          "action": "keep",
+          "record": null,
+          "reason": ""
+        }
+      ],
+      "additions": [],
+      "note": ""
+    },
+    {
+      "paper_id": "P0214",
+      "decisions": [
+        {
+          "relation_id": "P0214:r005",
+          "action": "reject",
+          "record": null,
+          "reason": "Composite formation alone is not a substantive finding; the concrete property changes are already covered by r006 and r007."
+        }
+      ],
+      "additions": [],
+      "note": ""
+    },
+    {
+      "paper_id": "P0219",
+      "decisions": [],
+      "additions": [
+        {
+          "subject": "Electrode modification with carbon nanotubes and liquid crystalline graphene oxide",
+          "subject_role": "design_strategy",
+          "predicate": "is investigated to increase",
+          "object": "Thermocapacitance of the polyacrylate hydrogel system",
+          "object_role": "performance_function",
+          "e": [
+            4
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "[Fe(CN)6]3−/4−-containing polyacrylate hydrogel",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work"
+        }
+      ],
+      "note": "Adds the explicitly stated investigation objective identified in the omission hint."
+    },
+    {
+      "paper_id": "P0223",
+      "decisions": [
+        {
+          "relation_id": "P0223:r006",
+          "action": "reject",
+          "record": null,
+          "reason": "The sentence describes analyses intended to determine an influence without reporting their outcome."
+        }
+      ],
+      "additions": [],
+      "note": ""
+    },
+    {
+      "paper_id": "P0229",
+      "decisions": [
+        {
+          "relation_id": "P0229:r006",
+          "action": "replace",
+          "record": {
+            "subject": "Lower cell ohmic overpotential",
+            "subject_role": "quantity",
+            "predicate": "allows",
+            "object": "Higher short circuit current",
+            "object_role": "quantity",
+            "e": [
+              6
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "me": [],
+            "conditions": "With increasing electrolyte concentration",
+            "joint_factors": [],
+            "scope": "ion_mass_transport",
+            "claim_scope": "own_work"
+          },
+          "reason": "Electrolyte ohmic transport governs this relation, rather than thermal management."
+        },
+        {
+          "relation_id": "P0229:r013",
+          "action": "replace",
+          "record": {
+            "subject": "R-GO electrodes",
+            "subject_role": "material_entity",
+            "predicate": "achieves",
+            "object": "Maximum mass power density of 25.51 W/kg",
+            "object_role": "quantity",
+            "e": [
+              8
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "me": [],
+            "conditions": "Temperature difference reported as '60 A degrees C'; electrolyte concentration 0.4 M; three orders of magnitude higher than platinum",
+            "joint_factors": [],
+            "scope": "device_thermal_management",
+            "claim_scope": "own_work"
+          },
+          "reason": "The numerical power-density property has quantity role; source wording and comparison are preserved."
+        }
+      ],
+      "additions": [],
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+          S CI MON             : Scientific Inspiration Machines Optimized for Novelty
+
+                     Qingyun Wang1 , Doug Downey2 , Heng Ji1 , Tom Hope2,3
+   1
+     University of Illinois at Urbana-Champaign 2 Allen Institute for Artificial Intelligence (AI2)
+                                3
+                                  The Hebrew University of Jerusalem
+         {tomh,doug}@allenai.org, {qingyun4,hengji}@illinois.edu
+
+
+
+                            Abstract                                 Background       Inspiration      Idea
+                                                                     Context          Retrieval        Generation
+          We explore and enhance the ability of neu-                 Problems,                         “Given [context],
+          ral language models to generate novel scien-               motivations,                      a [new idea],
+          tific directions grounded in literature. Work              focus points…                     𝛥 vs. prior work…”
+          on literature-based hypothesis generation has
+          traditionally focused on binary link prediction—                                                          𝛥
+                                                                                                       Iterative
+          severely limiting the expressivity of hypothe-               Prior Literature                Novelty
+          ses. This line of work also does not focus on                {(Background_i, idea_i)}        Boosting
+          optimizing novelty. We take a dramatic depar-
+          ture with a novel setting in which models use
+                                                                 Figure 1: S CI MON takes background context and gen-
+          as input background contexts (e.g., problems,
+                                                                 erates ideas grounded in literature inspirations, optimiz-
+          experimental settings, goals), and output natu-
+                                                                 ing novelty by iteratively comparing to related work.
+          ral language ideas grounded in literature. We
+          present S CI MON, a modeling framework that
+          uses retrieval of “inspirations” from past scien-
+          tific papers, and explicitly optimizes for novelty     the expressivity of the hypotheses we can hope to
+          by iteratively comparing to prior papers and up-       generate, and does not capture nuanced contexts
+          dating idea suggestions until sufficient novelty       that scientists consider: target application settings,
+          is achieved. Comprehensive evaluations reveal          requirements and constraints, motivations and chal-
+          that GPT-4 tends to generate ideas with over-
+                                                                 lenges. In light of the strong progress recently
+          all low technical depth and novelty, while our
+          methods partially mitigate this issue. Our work        made with large language models (LLMs), in this
+          represents a first step toward evaluating and          paper we explore a dramatically different setting:
+          developing language models that generate new           models that take descriptions of problem contexts—
+          ideas derived from the scientific literature1 .        and return natural language suggestions of novel
+                                                                 scientific directions that are grounded in literature.
+  1       Introduction
+                                                                    We develop a framework named S CI MON (Sci-
+  Can machines mine scientific papers and learn to               entific Inspiration Machines with Optimization for
+  suggest new directions? The idea that information              Novelty), named after Nobel laureate and AI pi-
+  from the literature can be used for automatically              oneer Herbert Simon who authored early foun-
+  generating hypotheses has been around for decades              dational work on automated scientific discovery
+  (Swanson, 1986). To date, the focus has been on a              (Newell and Simon, 1956; Simon, 1973). We first
+  specific setting: hypothesizing links between pairs            present an automated data collection methodology
+  of concepts (often in drug discovery applications              that collects examples of past problems and pro-
+  (Henry and McInnes, 2017), e.g., new drug-disease              posed ideas from scientific papers. We then use this
+  links), where concepts are obtained from papers or             data for both fine-tuning and in-context training
+  knowledge bases previously derived from papers                 of LLMs—training them to take problem descrip-
+  (Sybrandt et al., 2020; Nadkarni et al., 2021).                tions and output proposed ideas to address them.
+     This common setting has fundamental draw-                   We observe that state-of-art LLMs (e.g., GPT-4
+  backs. Reducing the “language of scientific ideas”             (OpenAI, 2023)) struggle with generating novel
+  (Hope et al., 2023) to this simplistic form limits             scientific ideas, and contribute a new modeling
+      1
+      Code, data, and resources are publicly available for re-   framework for generating hypotheses that makes
+  search purposes: https://github.com/eaglew/clbd.               progress in improving the hypothesis generation
+                                                               279
+Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 279–299
+                             August 11-16, 2024 ©2024 Association for Computational Linguistics
+ability of LLMs (Figure 1). Given a background              on scientific knowledge graph link prediction (Nad-
+problem description, models first dynamically re-           karni et al., 2021), where predicted links may cor-
+trieve inspirations from past literature in the form        respond to new hypotheses, and knowledge bases
+of related problems and their solutions along with          are reflections of existing scientific knowledge in
+contexts from a scientific knowledge graph. These           specific domains, derived from literature. A fun-
+retrieved inspirations serve to ground the generated        damental gap in this line of work is in the lack of
+ideas in existing literature. We then endow models          approaches for modeling nuanced contexts (Sosa
+with the ability to iteratively boost the novelty of        and Altman, 2022) (e.g., the specific settings in
+generated ideas. Given an idea I generated by the           which a drug may be relevant for a disease) for gen-
+LLM at step t, the model compares I with existing           erating ideas in open-ended problem settings with
+research in the literature; if it finds strongly overlap-   unbounded hypothesis spaces, and for optimizing
+ping research, the model is tasked with updating its        novelty. Our setting can be viewed as a radical
+idea to be more novel relative to prior work (much          departure addressing the limitations in existing set-
+like a good researcher would do). We also intro-            tings.
+duce an in-context contrastive model which encour-
+ages novelty with respect to background context.            LLMs for Scientific Innovation Large language
+   We perform the first comprehensive evaluation            models (LLMs) have made remarkable progress in
+of language models for generating scientific ideas          interpreting and producing natural language con-
+in our new generative, contextual setting. We fo-           tent and handling knowledge-intensive tasks such
+cus on AI/NLP ideas to facilitate analysis by AI            as in the medical domain (Nori et al., 2023). Very
+researchers themselves, and also demonstrate gen-           recent work (Boiko et al., 2023) has explored the
+eralization to the biomedical domain. We design             use of LLMs in a robotic chemistry lab setting,
+extensive evaluation experiments using human an-            planning chemical syntheses of known compounds
+notators with domain expertise to assess relevance,         and executing experiments. Robotic lab settings
+utility, novelty, and technical depth. Our methods          are inherently limited to narrow sub-areas where
+substantially improve the ability of LLMs in our            such experiments are possible and relevant. Other
+task; however, analyses show that ideas still fall far      very recent work (Huang et al., 2023) used LLMs
+behind scientific papers in terms of novelty, depth         to produce code for machine learning tasks such as
+and utility—raising fundamental challenges toward           Kaggle competitions, finding that a GPT-4 agent
+building models that generate scientific ideas.             achieved 0% accuracy on research challenges such
+                                                            as BabyLM (Warstadt et al., 2023). GPT-4 has been
+2   Background and New Setting                              anecdotally reported as having “strengths less like
+                                                            those of having a human co-author, and more like a
+We begin with a brief description of related work           mathematician working with a calculator” (Carlini,
+and background. We then present our novel setting.          2023). Our goal is to conduct a non-anecdotal eval-
+Literature-based discovery Nearly four decades              uation and enhancement of strong LLMs’ ability to
+have passed since Don Swanson pioneered                     generate novel open-ended scientific ideas.
+Literature-Based Discovery (LBD), based on the
+                                                            2.1   S CI MON Problem Setting
+premise that the literature can be used for gen-
+erating hypotheses (Swanson, 1986). LBD has                 We are motivated by imagining an AI-based assis-
+been focused on a very specific, narrow type of             tant that suggests ideas in natural language. The
+hypothesis: links between pairs of concepts (often          assistant takes as input background context B con-
+drugs/diseases). The classic formalization of LBD           sisting of (1) current problems, motivations, experi-
+goes back to Swanson (1986) who proposed the                mental settings and constraints, denoted as M; and
+“ABC” model where two concepts (terms) A and                optionally (2) a seed term v that should be a focus
+C are hypothesized as linked if they both co-occur          point of the generated idea I. The seed term is mo-
+with some intermediate concept B in papers. More            tivated by considering a user-provided cue for the
+recent work has used word vectors (Tshitoyan et al.,        model to limit its hypothesis space. Importantly,
+2019) or link prediction models (Wang et al., 2019;         generated ideas should not merely paraphrase the
+Sybrandt et al., 2020; Xu et al., 2023) to discover         background—the output should be novel with re-
+scientific hypotheses as pairwise links between con-        spect to B and the broader literature corpus. Fig-
+cepts. A tightly related body of research focuses           ure 2 illustrates the setting, showing a background
+                                                        280
+                                                                                                                Initial Idea
+                                       linked knowledge graph                            inductive learning
+                                                                                         techniques              ...continual learning for knowledge acquisition...
+                                                                                                                 This approach is more efficient than exhaustive
+                              Semantic                             knowledge acquistion is done by               pre-training on all existing data...
+Problem/Motivation:
+                              Neighbors                            using Method Current pre-trained...
+... streaming data of                                                                                           Retrieved Similar Ideas Retrieval from Literature Papers
+various sources may                    perceptron                ...                     cross - lingual         1. Continual learning (CL) aims to enable
+continuously grow ...                  learning                                          transfer learning       information systems to learn from a
+requires plms to integrate         image matching                                   term clustering              continuous data stream across time...
+the information from all                                                            techniques
+                                                                                                                                          Novelty Threshold Check
+                                     used-for                                                                   1st Novelty Iteration
+the sources in a lifelong     KG                         used-for
+                                                              knowledge acquistion
+                                                                                                                ...a method that combines continual learning with
+manner... pre-training on     Neighbors                                                                         a dynamic knowledge distillation approach for
+all existing data, such a               used-for          used-for
+                                                                                                                efficient knowledge acquisition ...
+process is expensive.                                                    collaborative web text
+                                   chinese open IE system ...
+Seed Term:                                                               annotation editor                      Retrieved Similar Ideas Retrieval from Literature Papers
+knowledge acquisition               episodic memory in                                lamol: language           1. Different from previous knowledge distillation
+                                    lifelong language learning                        modeling for ...          methods ... student model learns from teacher
+        Input:                                                                                                  model for incremental knowledge extraction ...
+     Background               Citation
+                                                                       ELLE: Efficient Lifelong Pre-                                         Novelty Threshold Check
+                              Neighbors                                                                         Final Idea
+       Context                                                         training for Emerging Data
+                                    megatron-lm: training                             don't stop pretraining:    ... a method that leverages memory-augmented
+                                    multi-billion parameter...         ...            adapt language ...         neural networks for knowledge acquisition in a
+                                                                                                                 lifelong learning scenario...
+                                            Inspiration Retrieval
+
+Figure 2: Architecture overview. Our models retrieve inspirations and then pass the background input and retrieved
+inspirations to an LM-based generation module, which iteratively optimizes novelty. Input from Qin et al. (2022).
+
+
+ ... This requires plms to integrate the information from                                entific sentence classification (Cohan et al., 2019)
+ all the sources in a lifelong manner...                                                 to classify sentences from the abstract into one of
+ ...function preserved model expansion ... improve the                                   {Background, Method, Objective}, selecting sen-
+                                                 Used-for                                tences with labels of Background and treating the
+ efficiency of knowledge acquisition ...
+                                                            Target
+                                                                                         remaining sentences as target sentences T which
+      Method          Task        Background
+      (Target)       (Seed)        Sentence                Sentence                      will serve as desired output examples (Figure 3).
+                                                                                            For seed term selection, we apply a state-of-
+Figure 3: We use IE to obtain literature data for our                                    the-art scientific IE system (Ye et al., 2022) to T
+approach: problems/motivations (background) and pro-
+                                                                                         to extract entities corresponding to Task, Method,
+posed ideas (target), as well as salient seed terms.
+                                                                                         Evaluation Metric, Material, and relations of
+                                                                                         the form [method,used-for,task]—mentions
+text that describes problems with “pretrained lan-                                       of methods and the tasks they are used for, ma-
+guage models” in the lifelong integration of in-                                         terials used for tasks, etc. We treat the head (e.g.,
+formation sources, including computational costs.                                        method) or tail (e.g., task) entity as the seed term,
+The assistant aims to generate an idea for perform-                                      and name the other entity (tail/head, respectively)
+ing “knowledge acquisition” within this context.                                         as a target term t ∈ T . Continuing our example
+Given this input, we aim to generate a full sentence                                     from Figure 2, Figure 3 shows how the seed and tar-
+describing a novel idea.                                                                 get terms (“knowledge acquisition” and “function
+                                                                                         preserved model expansion”) are extracted from T .
+2.2 Automated Training Data Collection                                                   During training, each instance contains (B,T ) pairs;
+We obtain training data derived from papers with                                         during evaluation, target information is removed.
+scientific information extraction (IE) models—                                              We use SciCo (Cattan et al., 2021) to obtain
+extracting past examples of background sentences                                         coreference links for entity normalization, and use
+and corresponding ideas (e.g., descriptions of meth-                                     ScispaCy (Neumann et al., 2019) to replace ab-
+ods used for specific problems in the background                                         breviations with a more informative long form.
+sentences), along with salient entities as seed terms.                                   We also collect paper metadata, including the ci-
+This data is used for training in both in-context                                        tation network Gc . We split our dataset tempo-
+learning and fine-tuning setups.                                                         rally (train/dev/test correspond to papers from years
+   We construct a corpus D from 67,408 ACL An-                                           <2021 / 2021 / 2022 respectively). For our experi-
+thology papers from S2ORC (Lo et al., 2020) (we                                          ments, we used model checkpoints trained on data
+later also conduct an experiment with a biomedical                                       preceding 2022, avoiding the risk of data contami-
+corpus §4.1). Given a title and the correspond-                                          nation (§6). Table 1 shows data statistics.2
+ing abstract from a document d, to select prob-
+lem/motivation sentences M we first perform sci-                                               2
+                                                                                                   More details are in Appendix C.
+
+                                                                                   281
+Quality of IE Preprocessing During preprocess-                 3.1   Inspiration Retrieval Module
+ing, we only keep high-confidence outputs from IE              We take broad inspiration from cognitive aspects of
+models to reduce errors. We observe this removes               innovation (Hope et al., 2023): when researchers
+many of the noisy cases. To validate this, we man-             generate a new idea, they are grounded in a web
+ually evaluate the precision of each preprocessing             of existing concepts and papers bearing on the new
+step on a random sample of papers and observe                  idea. We aim to enrich the context of each back-
+that all steps yield high precision (91%-100%) ex-             ground by retrieving “inspirations”— pieces of in-
+cept relation extraction (65%); in total, the rate of          formation that can guide hypothesis generation. As
+instances passing all steps was 79.7%.3                        illustrated in Figure 2, for a given instance of the
+                                                               S CI MON task, our retrieval augmentation can re-
+Gold Test Set We create a high-quality, clean test             trieve from three types of sources. Each source
+set. We remove test instances where models can                 uses a different form of query and output.
+trivially use surface-level background information
+to infer the ground truth to create a more chal-               Semantic Neighbors For a given prob-
+lenging set, selecting instances with low similarity           lem/motivation as input, ideas proposed for related
+between background and ground truth sentences.                 problems in the training set can serve as a guiding
+We compute the cosine similarity between each                  reference for generating a new idea. Given the
+instance’s background and corresponding ground                 background context B with a seed term v and
+truth sentence in the test set and take pairs with             problem/motivation M, we construct a base
+similarity ≤ 0.074, which amounts to the tenth per-            input b: a concatenation of M with a prompt P
+centile of pairs. We further annotate this subset              belonging to one of two templates: “v is used
+to create a gold subset. We manually exclude in-               for p” or “v is done by using p”, where p is one
+stances with trivial overlap between ground truth              of Task/Method/Material/Metric. In short, b :=
+and background, remove cases with irrelevant back-             P ⊕ context:M. For example, in Figure 2, the
+ground, and retain only instances where the tar-               concatenation is “Knowledge acquisition is done
+get relation (from which the seed term is taken)               by using Method; Context:...requires plms to
+is salient to the target sentence. We also remove              integrate information...lifelong manner...”.
+test pairs that have unexplained terms in the back-               We then retrieve inputs from the training set that
+ground. We obtain a total of 194 instances.4                   are semantically related to a new base input b, and
+                                                               obtain target sentences T corresponding to each
+                                                               retrieved training input. We extract the target term
+    Split         Forward       Backward       Total
+                                                               t ∈ T matching the seed term in b (§2.2) as in-
+    Train         55,884        58,426         114,310
+    Valid         7,938         8,257          16,195
+                                                               spiration for input b. Simply put, this means we
+    Test          2,623         2,686          5,309           use as inspiration the salient aspect of the solution
+                                                               proposed in T , which we found empirically to help
+Table 1: Dataset statistics. Considering a relation of the     remove noisy/irrelevant information in T . For ex-
+form [v used-for u], we define [v used-for ?] as               ample, in Figure 2, we find “informative entities
+forward, and [? used-for u] as backward.                       are done by using Method context: in this work, we
+                                                               aim at equipping pre-trained language models with
+                                                               structured knowledge.” as similar to the input and
+3        S CI MON Models                                       use t =“linked knowledge graph” as inspiration.
+                                                                  Technically, we first construct a fully connected
+We present a new module to retrieve inspirations               graph GS based on the training set where each node
+as contextual input (§3.1). Then, we describe                  is a pair of input text bi and target term ti . We
+another module to generate ideas given the con-                define the weight between two nodes i and j as
+text+inspiration (§3.2). Finally, we introduce a               the cosine similarity between bi and bj based on
+new iterative novelty optimization method to fur-              representations from SentenceBERT (Reimers and
+ther improve idea quality (§3.3).5                             Gurevych, 2019) (all-mpnet-base-v2). Given b,
+                                                               we first insert it into GS and compute the weights
+     3
+       See Table 6 in Appendix.
+                                                               of its connected edges. We then retrieve neighbors
+     4
+       Full annotation details are in Appendix C.              input text {b1 , . . . , bk } from the training set with
+     5
+       Training and hyperparameter details in Appendix B.      the largest edge weight, where k is the number of
+                                                             282
+ retrieved instances. We consider the corresponding            sentences in a few-shot setting by prompting
+ target terms {t1 , . . . , tk } as semantic inspirations.     randomly chosen pairs of input and output from the
+                                                               training set (GPT3.5FS, GPT4FS). Inspired by Liu
+ KG Neighbors We also explore enriching the                    et al. (2022), we further employ a few-shot setting
+ context by linking it to a background KG with in-             using semantically similar examples. Instead of
+ formation on related methods and tasks. Using the             random in-context examples, we use the top-k
+ same IE process used to extract our training exam-            examples from the training set with the highest
+ ples (§2.2), we create a global background KG GB              cosine similarity to the query (GPT3.5Retr). This
+ which covers all papers in the corpus DY prior to a           few-shot retrieval setting differs from the semantic
+ given year Y (i.e., the nodes in GB correspond to             neighbor discussed above, in that we provide both
+ tasks/methods/materials/metrics, and the edges are            the input and output of each instance rather than
+ used-for relations, extracted and normalized from             solely supplying target entities as additional input.
+ across the entire corpus as described earlier). Then,
+ given a seed term v at query time, we select ad-               Fine Tuning We fine-tune T5 (Raffel et al., 2020)
+ jacent nodes {n1 , n2 , ...} from GB as inspirations.          (more recent models may be used too; see our
+ As an example, in Figure 2, the neighbor nodes of              biomedical experiment §4.1 fine-tuning an LLM).
+“knowledge acquisition” include “collaborative web              We observe that the generation models tend to copy
+ text annotation editor”, “image matching”, etc.,               phrases from the background context. For example,
+ which we select as inspirations.                               given the context “...hierarchical tables challenge
+                                                                numerical reasoning ...”, the model will generate
+Citation Neighbors Another notion of contex-                   “hierarchical table reasoning for question answering”
+tual relatedness we explore is via citation graph               as the top prediction. For generating suggestions of
+links. Here, given as input background context B,               novel ideas, we wish to discourage overly copying
+we assume access to the original source document                from the background context. We introduce a new
+d from which B was extracted, and consider its                  in-context contrastive objective, where negative ex-
+cited paper title set Cd as potential candidates. This          amples are taken from the text in the input (e.g.,
+can be seen as a stronger assumption on informa-                in Figure 2, the in-context negatives are plms, pre-
+tion available to the model— assuming a researcher              training, etc). We compute an InfoNCE loss (Oord
+using the model provides relevant candidate docu-               et al., 2018) over the hidden states of the decoder,
+ments from which ideas could be pooled. Because                 aiming to maximize the probability of the ground
+the training set only contains papers before year               truth against those of in-context negatives:
+Y, we only select papers CdY ⊆ Cd prior to year Y.
+We then retrieve the top-k titles with the highest                    y + = σ(Avg(Wy h+ + by ))
+cosine similarity to d from CdY based on their Sen-                   yk− = σ(Avg(Wy h−
+                                                                                      k + by ))
+tenceBERT embeddings as earlier. For instance,                                                                  (1)
+in Figure 2, the paper ELLE (Qin et al., 2022)                                    exp (y + /τ )
+                                                                     Lcl = P       −
+                                                                                       
+                                                                                                +
+cites the paper (de Masson d'Autume et al., 2019).                          k exp yk /τ + exp (y /τ )
+Therefore, we choose the title “episodic memory
+in lifelong language learning” as inspiration infor-           where h+ and h−  k are decoder hidden states from
+mation.                                                        the positive and k-th negative samples, Wy and by
+                                                               are learnable parameters, σ is a sigmoid function,
+ 3.2 Generation Module                                         τ is a temperature hyperparameter, and Avg(∗)
+                                                               denotes the average pooling function based on the
+The idea generation module is given retrieved inspi-
+                                                               target sequence length. We optimize with both
+rations i1 , . . . , ik along with context M as input.
+                                                               contrastive loss Lcl and the cross-entropy loss.
+In-Context       Learning We          experiment
+with recent state-of-the-art LLMs, GPT3.5                      3.3   Iterative Novelty Boosting with Retrieval
+davinci-003 (Ouyang et al., 2022) and GPT4                     We further improve the novelty of generated
+gpt-4-0314 checkpoint (OpenAI, 2023). We first                 ideas with a new iterative retrieve-compare-update
+ask the model to generate sentences based on the               scheme. Conceptually, we consider a novelty-
+seed term and the context in the zero-shot setting             inducing penalty γnov (I, R) that penalizes ideas
+without any in-context examples (GPT3.5ZS,                     I that are too “close” to existing ideas in litera-
+GPT4ZS). We then ask the model to generate                     ture reference examples R. γnov (I, R) is included
+                                                             283
+during in-context learning and inference, providing     moderately high rater agreement.6 Raters are blind
+numerical feedback in the form of a score reflecting    to the condition, and system outputs are randomly
+similarity to existing work. We wish to minimize        shuffled across instances.
+this score while ensuring I remains relevant to the        We instruct annotators to only provide positive
+background context B; we do so iteratively by (1)       ratings to ideas sufficiently different from the input
+retrieving related work from R, (2) measuring de-       context. In Study I, we ask raters not to anticipate
+gree of novelty, (3) instructing the model to update    groundbreaking novelty from the system but rather
+I to be more novel w.r.t R, conditioning on B.          a narrower expectation of quality and utility; in
+   Specifically, in our implementation, we construct    Study II below, we enrich the analysis to examine
+a reference corpus R based on all papers in the         ranking between top models and also “raise the bar”
+training set. We then propose an iterative algorithm    and compare to actual ideas from papers.7
+that compares generated ideas against R. We start          In a preliminary experiment, we also col-
+with the initial idea I0 generated by the generation    lected human ratings for GPT4-ZS (zero-shot) vs.
+module. At each time step t, we use the generated       GPT4-FS (few-shot) using the same criteria, finding
+idea It as a query to retrieve k nearest ideas from     GPT4-FS ranked higher in 65% of cases, with the
+the literature reference corpus R = {R1 , ..., Rk }     rest mostly tied; thus, zero-shot GPT-4 was left out
+based on SentenceBERT, with the top-k highest           of the remainder of study I and subsequent studies
+cosine similarity scores to It (we use k = 20).         to reduce annotation effort and cost.
+For each retrieved ground truth literature idea Ri ,
+                                                        Results Overall, GPT4FS and GPT4FS+KG outper-
+we compare its cosine similarity score Si against
+                                                        form other models by a wide margin (Table 2).
+a threshold µ (we use 0.6). We provide all the
+                                                        Apart from GPT4, T5+SN+CL performs best com-
+retrieved ground truth ideas R̂ that pass the thresh-
+                                                        pared to other baselines, given its stronger prior
+old as additional negative examples for the large
+                                                        knowledge of useful similar background hypothe-
+language models with the following instruction
+                                                        ses. In general, GPT3.5 models performed worse
+prompt: “Your idea has similarities with existing
+                                                        than fine-tuned T5 and its variants, which echoes
+research as demonstrated by these j sentences: R̂
+                                                        results in other work in the scientific NLP domain
+Make sure the idea you suggest is significantly dif-
+                                                        (Jimenez Gutierrez et al., 2022). GPT4 outputs
+ferent from the existing research mentioned in the
+                                                        tended to be longer, which may partially explain
+above sentences. Let’s give it another try.” We stop
+                                                        higher human preference.
+the iteration once all Si are lower than µ. Figure 2
+and Table 5 demonstrate novelty iterations.
+                                                          Type 3FS 3Rt 3FS+CT 3FS+KG 4          4+KG T5     T5+SN
+
+4   Experiments                                           H       33   25   16      33     73    66    22    48
+                                                          U       67   75   84      67     27    34    78    52
+4.1 Human Evaluation
+                                                        Table 2: Percent (%) of total votes each system output
+We present four human evaluation studies, explor-       receives from human raters. H denotes a helpful out-
+ing different facets of our problem and approach.       put, while U denotes an unhelpful output. “3FS” refers
+                                                        to the GPT3.5FS. “3Rt” refers to the GPT3.5Retr. “4”
+4.1.1 Study I: Comparing Outputs across                 refers to GPT4FS, and “4+KG” refers to the GPT4FS+KG.
+      Model Variants                                    “T5+SN” refers to the T5+SN+CL. GPT4FS and GPT4FS+KG
+                                                        are rated much higher. While GPT4FS has a slightly
+We recruit six volunteer NLP experts with graduate-
+                                                        higher rating than the KG variant, a further human study
+level education to rate the system. Raters are told     reveals that GPT4FS+KG often leads to more technical
+to envision an AI assistant that suggests new pa-       depth (§4.1).
+per ideas. We randomly select 50 instances (back-
+ground+seed) from the gold subset. Each annotator
+receives ten instances, each paired with system out-    4.1.2      Study II: Comparing GPT4 Variants
+puts from different model variants (Table 2). We                   against Real Papers
+ask raters to assess idea quality by considering each   We conduct a follow-up human study of close com-
+output’s relevance to the context, novelty, clarity,    petitors GPT4FS and GPT4FS+KG with a subset of
+and whether the idea is reasonable (positive rat-             6
+                                                            The agreement scores are in Table 13 Appendix C.
+ings are dubbed “helpful” as shorthand, indicating            7
+                                                            Full evaluator guidelines are in Appendix C. The sample
+they pass the multiple considerations). We observe      annotations are in Table 11.
+
+                                                    284
+the annotators to evaluate the incrementality and           Type                  GPT4FS      +SN     +CT     +KG
+novelty of the generated ideas. In this study, model        1st Novelty ∆ (%)      +54.4     +55.6   +47.8    +46.7
+outputs are now ranked, unlike the binary classi-           2nd Novelty ∆(%)         -       +57.8     -        -
+                                                            1st new terms ∆        +23.1     +22.8   +22.1    +21.9
+fication of helpful/not in Study I. Suggestions are         2nd new terms ∆          -       +21.5     -        -
+ranked according to the level of technical detail and
+innovation in comparison to each other—i.e., rank-        Table 3: Relative improvements of iterative novelty
+ing which of GPT4FS and GPT4FS+KG had a higher            boosting. Iterations are applied to the ideas for which
+degree of technical detail and novelty, or whether        sufficiently similar related work is detected (§3.3). “1st
+they are roughly the same (tied). Finally, outputs        Novelty” is % of the 1st iteration ideas that gained
+are rated versus the ground truth idea, according to      novelty over the initial idea, and “2nd Novelty” is the %
+                                                          of gain over the 1st iteration. Our method substantially
+whether or not the suggestions were roughly at the
+                                                          increases novelty for ideas to which it is applied. To save
+same level of technical detail and innovation as the      annotation resources, we only annotate second iteration
+original paper’s idea, or significantly lower.            results for the best-performing method (SN). We report
+                                                          the average number of new terms added, after filtering.
+Results Overall, GPT4FS+KG is found to have
+higher technical detail in 48% of the compared
+pairs, and found to be less incremental (more             elty/creativity (meaning that, e.g., if 100 examples
+novel) in 45% of the pairs. Among the remaining           were updated, we would gain 56 examples that are
+52%/55% (respectively), the vast majority are ties,       more novel). The 2nd iteration, further increases
+indicating that whenever GPT4FS+KG is not favored,        novelty for 57.8% of the ideas that continued to
+it is of roughly the same quality as GPT4FS, but          another iteration. For ideas not considered more
+not vice versa. However, the most crucial aspect is       novel after applying our method, we do not observe
+comparing the results against the original ground         a drop in novelty—the method either increases or
+truth idea on the quality of innovation. Here, we         maintains novelty.
+find that in 85% of comparisons, the ground truth            Ideas after novelty iterations are longer than ini-
+is considered to have significantly higher techni-        tial ideas. We examine the new terms added af-
+cal level and novelty; and in the remaining 15%,          ter filtering 359 words, including stopwords, as
+the ground truth was ambiguous or lacking addi-           many generic words and terms are often added
+tional context from the paper abstract. This points       (e.g., “novel model/method/approach”). While our
+to a major challenge in obtaining high-quality idea       method helps boost novelty, overall the model of-
+generations using existing state-of-the-art models.       ten tends to suggest combinations between popular
+                                                          concepts (§4.2). Novelty boosting seemed to often
+4.1.3 Study III: Evaluation on Iterative                  focus on adding dynamic/adaptive modeling, graph
+      Novelty Boosting                                    models and representations, the fusion of multi-
+We conduct a fine-grained evaluation of our nov-          ple modalities and sources—and sometimes all at
+elty mechanism with qualitative and quantitative          once (e.g., “Dynamic Syntax-Aware Graph Fusion
+evaluation of novelty. Specifically, we ask five an-      Networks (DSAGFN)”), and to explicitly compare
+notators to further compare the novelty-enhanced          against existing ideas from literature (Table 5).
+results against the initially generated ideas. We ran-
+domly select 70 instances (background+seed) from            Type                 Meditron     +SN     +CT     +KG
+the sentence generation gold subset. We ask anno-           Helpful(%)              35        80       60      50
+tators to check whether the new ideas are different         Unhelpful(%)            65        20       40      50
+                                                            vs. GT(%)               30        45       50      35
+than the initial ideas (e.g., adding new information
+or approaches), and whether they are more novel           Table 4: Human evaluations results of each system out-
+(i.e., a new idea can be different, but not necessarily   put for the idea sentence prediction task on Biomedical
+more novel). Since GPT4FS+SN outperforms other            Domain. “vs. GT” refers to percents which system
+models, for this model, we further instruct annota-       outputs are better than ground truth ideas.
+tors to compare the novelty of the second iteration
+results against the first iteration results.
+                                                          4.1.4 Domain Generalization Case Study
+Results For SN, in the first iteration 88.9% of up-       Our domain-agnostic framework can be applied
+dated ideas are substantially different from initial      to other domains by changing the IE system used
+ideas, and for 55.6% we are able to increase nov-         in the preprocessing procedure. To demonstrate
+                                                      285
+ Type              Content
+ Input (Dong       seed term: speech unit boundaries ; context (abridged): ... generate partial sentence translation given a
+ et al., 2022)     streaming speech input. existing approaches ... break the acoustic units in speech, as boundaries between
+                   acoustic units in speech are not even. ...
+ Initial idea      A pause prediction model to identify speech unit boundaries ...
+ Iteration 1       A method that leverages acoustic and linguistic features to predict speech unit boundaries dynamically,
+                   ensuring smooth transitions ... differs from the existing research as it combines both acoustic properties and
+                   linguistic context ... adapting to variations in speaker characteristics, speaking styles, and languages.
+ Iteration 2       A novel method called Adaptive Speech Unit Boundary Detection (ASUBD) ... a combination of attention
+                   mechanisms to focus on relevant acoustic and linguistic features and reinforcement learning to guide the
+                   system to make optimal predictions of unit boundaries based on previous decisions...
+ Ground            ... an efficient monotonic segmentation module ... accumulate acoustic information incrementally and detect
+ Truth             proper speech unit boundaries.
+
+Table 5: Example of iterative novelty iterations. Our novelty iteration method enhances ideas overall; however ideas
+are often based on superficial recombinations of common concepts, far from the technical depth of scientific papers.
+
+
+this, we conduct an additional initial experiment in                essary characters, perform tokenization...”). All
+the biochemical domain. We follow a similar data                    models often copied and rephrased directly from
+creation procedure as for NLP papers. We collect                    the context. In certain cases, models applied sim-
+a dataset from PubMed papers and use PubTator                       ple logical modifications to the context; e.g., when
+3 (Islamaj et al., 2021; Wei et al., 2022; Luo et al.,              contexts described problems such as “high latency”
+2023; Wei et al., 2023; Lai et al., 2023) as an IE                  or “efficiency limitations”, the suggestions would
+system to extract a KG from paper abstracts. We                     include phrases such as “low latency” or “highly
+use a sentence classifier trained on annotated ab-                  efficient”.
+stracts (Huang et al., 2020) to select background
+context. We fine-tune a state-of-the-art biomedical                 4.3    Automated Evaluation Analysis
+large language model (Chen et al., 2023) on our                     In open-ended tasks such as ours, automatic evalua-
+data and evaluate on a test split past its pre-training             tions comparing system output to ground truth texts
+cutoff date.8 We ask two biochemical domain ex-                     may be limited. Nonetheless, automated metrics
+perts with graduate-level education to evaluate the                 such as ROUGE (Lin, 2004), BERTScore (Zhang*
+quality of the results as before, finding them to over-             et al., 2020) and BARTScore (Yuan et al., 2021),
+all rate 80% of the generated directions positively.                that check the similarity between ground truth and
+Finally, in contrast to NLP-domain experiments,                     generated output, may surface interesting findings.
+evaluators were more satisfied with the generated                   We find GPT-based models to be outperformed by
+outputs than the ground truth regarding technical                   T5-based models; GPT4 outputs are much longer
+detail. Detailed results are in Table 4. However,                   than T5, explaining why they underperform in au-
+this preliminary experiment was meant mainly to                     tomatic metrics but outperform in human evalu-
+demonstrate the generality of our approach, and a                   ations (§4.1). Generated sentences often follow
+more in-depth exploration of utility and quality is                 certain templates (e.g., “In this paper, we propose
+left for future work.                                               a new ... for ...”), which also helps explain why T5
+                                                                    fine-tuned on many examples scores higher superfi-
+4.2 Error Analysis                                                  cially. At the same time, our in-context contrastive
+Models often made generic suggestions, woven to-                    examples which encourage novelty with respect to
+gether with specific details copied directly from the               background context, helped models perform better
+context (e.g., “NLP with ML algorithms and senti-                   than baseline fine-tuning by reducing reliance on
+ment analysis” for some problem X, or “data aug-                    copying. See results in Table 9 (Appendix B.4).
+mentation and transfer learning” for Y, or “BERT
+or RoBERTa” for Z). Our techniques reduced this                     5     Conclusions and Future Directions
+behavior but did not fully solve it. GPT4 models,
+                                                                    We propose a new setting, model and comprehen-
+especially, seemed to generate generic descriptions
+                                                                    sive evaluation for scientific hypothesis generation
+of common steps in NLP workflows (e.g., “Data
+                                                                    with language models that are grounded in liter-
+preprocessing: Clean the text data, remove unnec-
+                                                                    ature and optimized for novelty. We present a
+   8
+       More data and training details in Appendix A.2, B.2.3.       new framework named S CI MON in which mod-
+                                                                286
+els take background problem contexts and provide         differences in preferences between a pair of indus-
+suggestions that are novel while based on litera-        try sectors, or even within a sector.” as background
+ture. Models retrieve inspirations from semantic         context. In our human-vetted gold data subset, we
+similarity graphs, knowledge graphs, and citation        make sure to filter such cases, but they remain
+networks. We introduce a new iterative novelty           in the training data. SentenceBert (Reimers and
+boosting mechanism that helps large language mod-        Gurevych, 2019), and GPT3.5/4 are not finetuned
+els (LLMs) such as GPT-4 generate more novel             and might be biased towards pretraining datasets.
+ideas by explicitly comparing ideas to prior work        The idea novelty boosting method is limited by the
+and refining them. Our experiments demonstrate           quality of retrieval models. Better retrieval models
+that the task of generating natural language scien-      may be explored in the future. Due to hardware
+tific hypotheses is highly challenging. While our        constraints, we mainly investigated models with up
+methods improve upon baseline LLMs, generated            to 7 billion parameters. Due to API change and
+ideas tend to be incremental and with insufficient       model randomness, our GPT3.5/4 results might not
+detail. Generating novel and meaningful scientific       be easily reproducible.
+concepts and their compositions remains a funda-
+mental problem (Hope et al., 2023). Evaluation in        6.3   Limitations of Evaluation
+this setting is also highly challenging, with a huge     We recruit annotators from Ph.D. students; their
+space of potentially plausible hypotheses formu-         opinions may differ from annotators who have dif-
+lated in natural language. One interesting direction     ferent levels of domain knowledge. Our setting
+is to expand S CI MON with a multimodal analysis         uses a seed term taken from the ground truth as in-
+of formulas, tables, and figures to provide a more       put, to emulate a scenario where a human provides
+comprehensive background context.                        guidance to an assistant model. Future work could
+                                                         explore methods in the setting without a seed term,
+6   Limitations                                          an even harder task, or evaluate in an interactive
+We discuss limitations extensively throughout the        setting with user-provided seed terms. In addition,
+paper, such as in terms of evaluation challenges         while the seed is sampled from the ground truth, in
+and data quality. Here we include additional details     our human-annotated gold subset, we make sure
+on limitations.                                          that in no case does the input context trivially leak
+                                                         the output.
+6.1 Limitations of Data Collection
+                                                         6.4   Memorization Check
+We crawled papers with Semantic Scholar Aca-
+                                                         Carlini et al. (2023) reports that LLMs tend to mem-
+demic Graph API from 1952 to June 2022. The
+                                                         orize part of their training data, a well-known con-
+number of available papers is limited by the data
+                                                         cern in evaluating current LLMs. Therefore, we
+we crawled from the Semantic Scholar Academic
+                                                         examine the pretraining data of each model:
+Graph. We also crawled papers from PubMed 1988
+to 2024/01. We remove papers that are not English.
+                                                             • T5: Raffel et al. (2020) shows that T5 is pre-
+We also remove papers where abstracts are not cor-
+                                                               trained on C4 which was crawled from web
+rectly parsed from paper PDFs. We will expand
+                                                               prior to April 2019.
+our models to papers written in other languages
+and other domains in the future.                             • GPT3.5: Based on the documentation,9 GPT-
+                                                               3.5 series is pretrained on a combination of
+6.2 Limitations of System Performance
+                                                               test and code from before Q4 2021.
+Our dataset is based on state-of-the-art IE systems,
+which may be noisy. For instance, the coreference            • GPT4: OpenAI (2023) shows that the GPT-4
+and SciSpacy abbreviation resolution models fail to            checkpoint we used utilizes most pertaining
+link A2LCTC to Action-to-Language Connectionist                data before September 2021. Despite this, the
+Temporal Classification. The background context                pretraining and post-training data contain “a
+detection may also have errors: e.g., the sentence             small amount” of more recent data.10
+classification component fails to treat “For exam-          9
+                                                              platform.openai.com/docs/model-index-for-res
+ple, the language models are overall more positive       earchers
+towards the stock market, but there are significant        10
+                                                              See footnote 10, page 10 of OpenAI (2023).
+
+                                                       287
+   Because we evaluate our models on papers pub-             Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens
+lished in 2022, the likelihood of test papers ap-            Winter, Chris Hesse, Mark Chen, Eric Sigler, Ma-
+                                                             teusz Litwin, Scott Gray, Benjamin Chess, Jack
+pearing in the pretraining corpora for the models is
+                                                             Clark, Christopher Berner, Sam McCandlish, Alec
+substantially reduced. We additionally performed             Radford, Ilya Sutskever, and Dario Amodei. 2020.
+a manual examination of GPT-4 memorization in                Language models are few-shot learners. In Ad-
+our gold set based on 2022 ACL Anthology papers,             vances in Neural Information Processing Systems,
+by seeing if GPT-4 could complete information                volume 33, pages 1877–1901. Curran Associates,
+                                                             Inc.
+such as method names or generate text that strongly
+mimics the ground truth papers, and found no ev-         Nicholas Carlini. 2023. A llm assisted exploitation of
+idence of this occurring. The Meditron-7b (Chen            ai-guardian. Cryptography and Security Repository,
+et al., 2023) uses PubMed with a cut-off in August         arXiv:2307.15008.
+2023, and our biochemical test set only includes
+                                                         Nicholas Carlini, Daphne Ippolito, Matthew Jagielski,
+PubMed papers after 2023/08.                               Katherine Lee, Florian Tramer, and Chiyuan Zhang.
+                                                           2023. Quantifying memorization across neural lan-
+Acknowledgements                                           guage models. In The Eleventh International Confer-
+                                                           ence on Learning Representations.
+This work is supported by the Molecule Maker
+Lab Institute: an AI research institute program sup-     Arie Cattan, Sophie Johnson, Daniel S Weld, Ido Da-
+ported by NSF under award No. 2019897, by DOE              gan, Iz Beltagy, Doug Downey, and Tom Hope. 2021.
+                                                           Scico: Hierarchical cross-document coreference for
+Center for Advanced Bioenergy and Bioproducts              scientific concepts. In 3rd Conference on Automated
+Innovation U.S. Department of Energy, Office of            Knowledge Base Construction.
+Science, Office of Biological and Environmental
+Research under Award Number DESC0018420, by              Zeming Chen, Alejandro Hernández Cano, Angelika
+U.S. the AI Research Institutes program by Na-             Romanou, Antoine Bonnet, Kyle Matoba, Francesco
+                                                           Salvi, Matteo Pagliardini, Simin Fan, Andreas Köpf,
+tional Science Foundation and the Institute of Edu-        Amirkeivan Mohtashami, et al. 2023. Meditron-
+cation Sciences, Department of Education through           70b: Scaling medical pretraining for large language
+Award No. 2229873 - AI Institute for Transforming          models. Computation and Language Repository,
+Education for Children with Speech and Language            arXiv:2311.16079.
+Processing Challenges, and by AI Agriculture: the
+                                                         Arman Cohan, Iz Beltagy, Daniel King, Bhavana Dalvi,
+Agriculture and Food Research Initiative (AFRI)            and Dan Weld. 2019. Pretrained language models for
+grant no. 2020-67021- 32799/project accession              sequential sentence classification. In Proceedings of
+no.1024178 from the USDA National Institute of             the 2019 Conference on Empirical Methods in Natu-
+Food and Agriculture. The views and conclusions            ral Language Processing and the 9th International
+                                                           Joint Conference on Natural Language Processing
+contained herein are those of the authors and should       (EMNLP-IJCNLP), pages 3693–3699, Hong Kong,
+not be interpreted as necessarily representing the         China. Association for Computational Linguistics.
+official policies, either expressed or implied of, the
+National Science Foundation, the U.S. Department         Cyprien de Masson d'Autume, Sebastian Ruder, Ling-
+of Energy, and the U.S. Government. The U.S.               peng Kong, and Dani Yogatama. 2019. Episodic
+                                                           memory in lifelong language learning. In Ad-
+Government is authorized to reproduce and dis-             vances in Neural Information Processing Systems,
+tribute reprints for governmental purposes notwith-        volume 32. Curran Associates, Inc.
+standing any copyright annotation therein.
+                                                         Qian Dong, Yaoming Zhu, Mingxuan Wang, and Lei
+                                                           Li. 2022. Learning when to translate for streaming
+                                                           speech. In Proceedings of the 60th Annual Meet-
+References                                                 ing of the Association for Computational Linguistics
+Daniil A Boiko, Robert MacKnight, Ben Kline, and           (Volume 1: Long Papers), pages 680–694.
+  Gabe Gomes. 2023. Autonomous chemical research
+  with large language models. Nature, 624(7992):570–     Sam Henry and Bridget T McInnes. 2017. Literature
+  578.                                                     based discovery: models, methods, and trends. Jour-
+                                                           nal of biomedical informatics, 74:20–32.
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie
+  Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind     Tom Hope, Doug Downey, Oren Etzioni, Daniel S Weld,
+  Neelakantan, Pranav Shyam, Girish Sastry, Amanda         and Eric Horvitz. 2023. A computational inflec-
+  Askell, Sandhini Agarwal, Ariel Herbert-Voss,            tion for scientific discovery. Communications of the
+  Gretchen Krueger, Tom Henighan, Rewon Child,             ACM.
+                                                       288
+Zhe Hu, Zuohui Fu, Yu Yin, and Gerard de Melo.              Ilya Loshchilov and Frank Hutter. 2019. Decoupled
+  2021. Context-aware interaction network for ques-            weight decay regularization. In Proceedings of the
+  tion matching. In Proceedings of the 2021 Confer-            7th International Conference on Learning Represen-
+  ence on Empirical Methods in Natural Language Pro-           tations.
+  cessing, pages 3846–3853, Online and Punta Cana,
+  Dominican Republic. Association for Computational         Yi Luan, Luheng He, Mari Ostendorf, and Hannaneh
+  Linguistics.                                                Hajishirzi. 2018. Multi-task identification of entities,
+                                                              relations, and coreference for scientific knowledge
+Qian Huang, Jian Vora, Percy Liang, and Jure Leskovec.        graph construction. In Proceedings of the 2018 Con-
+  2023. Benchmarking large language models as                 ference on Empirical Methods in Natural Language
+  ai research agents. Machine Learning Repository,            Processing, pages 3219–3232, Brussels, Belgium.
+  arXiv:2310.03302.                                           Association for Computational Linguistics.
+
+Ting-Hao Kenneth Huang, Chieh-Yang Huang, Chien-            Ling Luo, Chih-Hsuan Wei, Po-Ting Lai, Robert
+  Kuang Cornelia Ding, Yen-Chia Hsu, and C. Lee               Leaman, Qingyu Chen, and Zhiyong Lu. 2023.
+  Giles. 2020. CODA-19: Using a non-expert crowd to           AIONER: all-in-one scheme-based biomedical
+  annotate research aspects on 10,000+ abstracts in the       named entity recognition using deep learning. Bioin-
+  COVID-19 open research dataset. In Proceedings of           formatics, 39(5):btad310.
+  the 1st Workshop on NLP for COVID-19 at ACL 2020,
+  Online. Association for Computational Linguistics.        Rahul Nadkarni, David Wadden, Iz Beltagy, Noah A
+                                                              Smith, Hannaneh Hajishirzi, and Tom Hope. 2021.
+Rezarta Islamaj, Robert Leaman, Sun Kim, Dongseop             Scientific language models for biomedical knowledge
+  Kwon, Chih-Hsuan Wei, Donald C. Comeau, Yifan               base completion: an empirical study. AKBC.
+  Peng, David Cissel, Cathleen Coss, Carol Fisher,
+  Rob Guzman, Preeti Gokal Kochar, Stella Koppel,           Mark Neumann, Daniel King, Iz Beltagy, and Waleed
+  Dorothy Trinh, Keiko Sekiya, Janice Ward, Debo-            Ammar. 2019. ScispaCy: Fast and robust models
+  rah Whitman, Susan Schmidt, and Zhiyong Lu. 2021.          for biomedical natural language processing. In Pro-
+  Nlm-chem, a new resource for chemical entity recog-        ceedings of the 18th BioNLP Workshop and Shared
+  nition in pubmed full text literature. Scientific Data,    Task, pages 319–327, Florence, Italy. Association for
+  8(1):91.                                                   Computational Linguistics.
+
+Bernal Jimenez Gutierrez, Nikolas McNeal, Clayton           Allen Newell and Herbert Simon. 1956. The logic
+  Washington, You Chen, Lang Li, Huan Sun, and                theory machine–a complex information processing
+  Yu Su. 2022. Thinking about GPT-3 in-context learn-         system. IRE Transactions on information theory,
+  ing for biomedical IE? think again. In Findings of the      2(3):61–79.
+  Association for Computational Linguistics: EMNLP          Harsha Nori, Nicholas King, Scott Mayer McKinney,
+  2022, pages 4497–4512, Abu Dhabi, United Arab               Dean Carignan, and Eric Horvitz. 2023. Capabilities
+  Emirates. Association for Computational Linguistics.        of GPT-4 on medical challenge problems. Computa-
+                                                              tion and Language Repository, arXiv:2303.13375.
+Po-Ting Lai, Chih-Hsuan Wei, Ling Luo, Qingyu
+  Chen, and Zhiyong Lu. 2023. Biorex: Improving             Aaron van den Oord, Yazhe Li, and Oriol Vinyals.
+  biomedical relation extraction by leveraging hetero-        2018. Representation learning with contrastive
+  geneous datasets. Journal of Biomedical Informatics,        predictive coding. Machine Learning Repository,
+  146:104487.                                                 arXiv:1807.03748.
+Chin-Yew Lin. 2004. ROUGE: A package for auto-              OpenAI. 2023. Gpt-4 technical report. Computation
+  matic evaluation of summaries. In Text Summariza-           and Language Repository, arXiv:2303.08774.
+  tion Branches Out, pages 74–81, Barcelona, Spain.
+  Association for Computational Linguistics.                Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida,
+                                                              Carroll Wainwright, Pamela Mishkin, Chong Zhang,
+Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan,          Sandhini Agarwal, Katarina Slama, Alex Ray, et al.
+   Lawrence Carin, and Weizhu Chen. 2022. What                2022. Training language models to follow instruc-
+   makes good in-context examples for GPT-3? In               tions with human feedback. Advances in Neural
+   Proceedings of Deep Learning Inside Out (DeeLIO            Information Processing Systems, 35:27730–27744.
+   2022): The 3rd Workshop on Knowledge Extrac-
+   tion and Integration for Deep Learning Architectures,    Yujia Qin, Jiajie Zhang, Yankai Lin, Zhiyuan Liu, Peng
+   pages 100–114, Dublin, Ireland and Online. Associa-        Li, Maosong Sun, and Jie Zhou. 2022. ELLE: Ef-
+   tion for Computational Linguistics.                        ficient lifelong pre-training for emerging data. In
+                                                              Findings of the Association for Computational Lin-
+Kyle Lo, Lucy Lu Wang, Mark Neumann, Rodney Kin-              guistics: ACL 2022, pages 2789–2810, Dublin, Ire-
+  ney, and Daniel Weld. 2020. S2ORC: The semantic             land. Association for Computational Linguistics.
+  scholar open research corpus. In Proceedings of the
+  58th Annual Meeting of the Association for Compu-         Colin Raffel, Noam Shazeer, Adam Roberts, Kather-
+  tational Linguistics, pages 4969–4983, Online. Asso-        ine Lee, Sharan Narang, Michael Matena, Yanqi
+  ciation for Computational Linguistics.                      Zhou, Wei Li, and Peter J. Liu. 2020. Exploring the
+                                                        289
+  limits of transfer learning with a unified text-to-text     Thomas Wolf, Lysandre Debut, Victor Sanh, Julien
+  transformer. Journal of Machine Learning Research,            Chaumond, Clement Delangue, Anthony Moi, Pier-
+  21(140):1–67.                                                 ric Cistac, Tim Rault, Remi Louf, Morgan Funtow-
+                                                                icz, Joe Davison, Sam Shleifer, Patrick von Platen,
+Nils Reimers and Iryna Gurevych. 2019. Sentence-                Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu,
+  BERT: Sentence embeddings using Siamese BERT-                 Teven Le Scao, Sylvain Gugger, Mariama Drame,
+  networks. In Proceedings of the 2019 Conference on            Quentin Lhoest, and Alexander Rush. 2020. Trans-
+  Empirical Methods in Natural Language Processing              formers: State-of-the-art natural language processing.
+  and the 9th International Joint Conference on Natu-           In Proceedings of the 2020 Conference on Empirical
+  ral Language Processing (EMNLP-IJCNLP), pages                 Methods in Natural Language Processing: System
+  3982–3992, Hong Kong, China. Association for Com-             Demonstrations, pages 38–45, Online. Association
+  putational Linguistics.                                       for Computational Linguistics.
+
+Herbert A Simon. 1973. Does scientific discovery have         Yi Xu, Shuqian Sheng, Bo Xue, Luoyi Fu, Xinbing
+  a logic? Philosophy of science, 40(4):471–480.                Wang, and Chenghu Zhou. 2023. Exploring and
+                                                                verbalizing academic ideas by concept co-occurrence.
+Daniel N Sosa and Russ B Altman. 2022. Contexts and             In Proceedings of the 61st Annual Meeting of the
+  contradictions: a roadmap for computational drug              Association for Computational Linguistics (Volume 1:
+  repurposing with knowledge inference. Briefings in            Long Papers), pages 13001–13027, Toronto, Canada.
+  Bioinformatics, 23(4):bbac268.                                Association for Computational Linguistics.
+                                                              Deming Ye, Yankai Lin, Peng Li, and Maosong Sun.
+Don R Swanson. 1986. Undiscovered public knowledge.
+                                                                2022. Packed levitated marker for entity and relation
+  The Library Quarterly, 56(2):103–118.
+                                                                extraction. In Proceedings of the 60th Annual Meet-
+                                                                ing of the Association for Computational Linguistics
+Justin Sybrandt, Ilya Tyagin, Michael Shtutman, and
+                                                                (Volume 1: Long Papers), pages 4904–4917, Dublin,
+  Ilya Safro. 2020. Agatha: automatic graph min-
+                                                                Ireland. Association for Computational Linguistics.
+  ing and transformer based hypothesis generation ap-
+  proach. In Proceedings of the 29th ACM Interna-             Weizhe Yuan, Graham Neubig, and Pengfei Liu. 2021.
+  tional Conference on Information & Knowledge Man-            BARTScore: Evaluating generated text as text gener-
+  agement, pages 2757–2764.                                    ation. In Advances in Neural Information Processing
+                                                               Systems.
+Vahe Tshitoyan, John Dagdelen, Leigh Weston, Alexan-
+  der Dunn, Ziqin Rong, Olga Kononova, Kristin A              Tianyi Zhang*, Varsha Kishore*, Felix Wu*, Kilian Q.
+  Persson, Gerbrand Ceder, and Anubhav Jain. 2019.              Weinberger, and Yoav Artzi. 2020. Bertscore: Evalu-
+  Unsupervised word embeddings capture latent knowl-             ating text generation with bert. In Proceedings of the
+  edge from materials science literature. Nature,                8th International Conference on Learning Represen-
+  571(7763):95–98.                                               tations.
+
+Qingyun Wang, Lifu Huang, Zhiying Jiang, Kevin                Ran Zhou, Xin Li, Ruidan He, Lidong Bing, Erik Cam-
+  Knight, Heng Ji, Mohit Bansal, and Yi Luan. 2019.             bria, Luo Si, and Chunyan Miao. 2022. MELM: Data
+  PaperRobot: Incremental draft generation of scien-            augmentation with masked entity language model-
+  tific ideas. In Proceedings of the 57th Annual Meet-          ing for low-resource NER. In Proceedings of the
+  ing of the Association for Computational Linguistics,         60th Annual Meeting of the Association for Compu-
+  pages 1980–1991, Florence, Italy. Association for             tational Linguistics (Volume 1: Long Papers), pages
+  Computational Linguistics.                                    2251–2262, Dublin, Ireland. Association for Compu-
+                                                                tational Linguistics.
+Alex Warstadt, Aaron Mueller, Leshem Choshen, Ethan
+  Wilcox, Chengxu Zhuang, Juan Ciro, Rafael Mos-              A        Dataset Collection
+  quera, Bhargavi Paranjabe, Adina Williams, Tal
+  Linzen, et al. 2023. Findings of the babylm chal-           A.1        NLP Dataset Collection
+  lenge: Sample-efficient pretraining on developmen-          We download ACL Anthology papers from 1952
+  tally plausible corpora. In Proceedings of the              to 2022 using Semantic Scholar Academic Graph
+  BabyLM Challenge at the 27th Conference on Com-
+  putational Natural Language Learning, pages 1–34.           API.11 We filter out papers without abstracts and
+                                                              not written in English to obtain 67,408 papers. Our
+Chih-Hsuan Wei, Alexis Allot, Kevin Riehle, Aleksan-          dataset has 58,874 papers before 2021, 5,946 pa-
+  dar Milosavljevic, and Zhiyong Lu. 2022. tmvar 3.0:         pers from 2021, and 2,588 from 2022. We first
+  an improved variant concept recognition and normal-
+  ization tool. Bioinformatics, 38(18):4449–4451.             use PL-Marker (Ye et al., 2022) pretrained on Sci-
+                                                              ERC (Luan et al., 2018) to extract nodes belong-
+Chih-Hsuan Wei, Ling Luo, Rezarta Islamaj, Po-Ting            ing to six types: Task, Method, Evaluation Met-
+  Lai, and Zhiyong Lu. 2023. GNorm2: an improved              ric, Material, Other Scientific Terms, and Generic
+  gene name recognition and normalization system.
+                                                                  11
+  Bioinformatics, 39(10):btad599.                                      www.semanticscholar.org/product/api
+
+                                                            290
+Terms. The model then predicts relations between          and corresponding ground truth sentences.15 Our
+nodes belonging to seven relation types: Used-            final dataset has 4,767 papers before 2023/02, 642
+for, Feature-of, Evaluate-for, Hyponym-of, Part-          papers from 2023/02 to 2023/08, and 299 papers
+of, Compare, and Conjunction. Because we want             after 2023/08.
+to generate new ideas, we focus on used-for rela-
+tions in papers. Next, we use SciCo (Cattan et al.,       B        Finetuning and Automated Evaluation
+2021) with checkpoint from Hugging Face12 to ob-                   details
+tain entity coreference to merge identical nodes.
+Then, we use ScispaCy (Neumann et al., 2019)              B.1       Inspiration Retrieval Module
+to perform unsupervised abbreviation detection to         The statistics of each inspiration type are in Table 7.
+replace the abbreviation with a more informative          Table 8 shows sample retrieved inspirations.
+long form. Finally, we perform scientific sentence
+classification (Cohan et al., 2019)13 to classify sen-    B.1.1      Semantic Neighbors
+tences from the abstract into five categories includ-     We use all-mpnet-base-v2 from SentenceBert
+ing Background, Method, Objective, Other, and             (Reimers and Gurevych, 2019), which performs
+Result. We select sentences with labels of Back-          best in semantic search to retrieve similar nodes
+ground and Other as background context. During            from the training set based on query q in §3.1. We
+preprocessing, we only keep high-confidence out-          retrieve up to 20 relevant semantic neighbors R
+puts from IE models. Figure 4 shows an example            from the training set for each instance. We treat the
+of the IE systems pipeline.                               target nodes from R as semantic neighbors.
+
+A.2 Biochemical Dataset Collection                        B.1.2      KG Neighbors
+
+We collect PubMed papers from 1988 to 2024                We use one-hop connected neighbors from the
+using Entrez Programming Utilities API14 for              background KG GB constructed on papers before
+the following topics, including Yarrowia, Saccha-         2021(i.e., the papers in the training set). Because
+romyces cerevisiae, Issatchenkia orientalis, and          of the scarcity of KG neighbors, we do not limit
+Rhodosporidium toruloides. We use PubTator 3 (Is-         the number of KG neighbors.
+lamaj et al., 2021; Wei et al., 2022; Luo et al., 2023;   B.1.3      Citation Neighbors
+Wei et al., 2023; Lai et al., 2023). The PubTator
+3 performs named entity recognition, relation ex-         Similar to semantic neighbors, we use
+traction, entity coreference and linking, and entity      all − mpnet − base − v2         from    Sentence-
+normalization for the abstracts in the dataset. Pub-      Bert (Reimers and Gurevych, 2019) to retrieve
+Tator 3 identifies bio entities belonging to seven        cited paper titles similar to query q. We restrict
+types: gene, chemical, chromosome, cell line, vari-       cited papers only before 2021. We retrieve up
+ant, disease, and speciesl and relations belonging        to 5 relevant citation neighbors from the papers’
+to 13 types: associate, cause, compare, convert,          citation network.
+contract, drug interact, inhibit, interact, negative
+                                                          B.2       Generation Module
+correlate, positive correlate, prevent, stimulate,
+and treat. Finally, we use a sentence classifier          Our T5 model and their variants are built based on
+trained on CODA-19 (Huang et al., 2020) to clas-          the Huggingface framework (Wolf et al., 2020).16
+sify sentences in abstracts into background, pur-         We optimize those models by AdamW (Loshchilov
+pose, method, finding, and other. We select sen-          and Hutter, 2019) with the linear warmup sched-
+tences with labels of background as background            uler.17 Those models are finetuned on 4 NVIDIA
+context and remove sentences with labels of other.        A6000 48GB GPUs with distributed data parallel.18
+We treat the rest sentences that have at least one        The training time for each model is about 10 hours.
+entity as the target sentence. We only keep samples
+                                                              15
+with low similarity between background context                 The similarity is calculated with all-mpnet-base-v2.
+                                                              16
+                                                               github.com/huggingface/transformers
+                                                            17
+                                                               huggingface.co/docs/transformers/main_classes
+  12
+     huggingface.co/allenai/longformer-scico              /optimizer_schedules#transformers.get_linear_sch
+  13
+     github.com/allenai/sequential_sentence_class         edule_with_warmup
+ification                                                   18
+                                                               pytorch.org/tutorials/intermediate/ddp_tutor
+  14
+     www.ncbi.nlm.nih.gov/books/NBK25501/                 ial.html
+
+                                                      291
+                              Used-for
+Context-Aware Interaction Network for Question Matching
+                                                 Used-for
+Impressive milestones have been achieved in text matching by adopting a cross-attention mechanism to capture pertinent
+                             Feature-of
+semantic connections between two sentence representations.
+
+                           Coref     Used-for
+However, regular cross-attention focuses on word-level links between the two input sequences, neglecting the importance
+of contextual information.
+                                                                               Used-for
+We propose a context-aware interaction network (COIN) to properly align two sequences and infer their semantic relationship.
+
+                                        Method        Task          Other Scientific Terms      Background Sentence
+
+
+                Figure 4: Preprocessing result for Hu et al. (2021) in non-canonicalized KG Corpus
+
+ Stage        PL-Maker                PL-Maker               SciCo Coreference       Scispacy Abbreviation          Sentence
+               Entities            Used-for Relations                                      Detection              Classification
+ Precision       91.3                     65.4                     97.2                      100                       100
+
+Table 6: Human quality evaluation of preprocessing stages(%). Overall pass rate after all steps are applied is 79.7%.
+
+
+
+ Type              Train              Valid             Test           additional retrieval inspirations, we concatenate
+ SN                 10.8               10.0             10.0           the following additional template to the M: “The
+ KG                 8.3                8.0              8.1            retrieval results are: i1 , . . . , ik ”, where i1 , . . . , ik
+ CT                  4.9                5.0              5.0
+                                                                       are retrieved inspirations. For the final prompt, the
+                                                                       template is similar to the above example template.
+Table 7: Average of # of neighbors for each instance,
+excluding those which do not have any neighbor                         However, the target sentence T will not be included.
+                                                                       We ask the model to generate 10 outputs. We will
+                                                                       select the best output and skip the empty output.
+B.2.1 In-Context Learning
+We choose GPT3.5 davinci-00319 (Brown et al.,                          B.2.2      Fine Tuning
+2020) as our out-of-the-box causal language mod-
+eling baseline. We select 5 instances from the train-                  Given input without any inspirations, the input com-
+ing set as examples for the few-shot setting. We                       bines the prompt P and context M as shown in
+randomly select those examples for GPT3.5FS. For                       §3.1 (i.e., P | context: M). Given input with in-
+GPT3.5Retr, similar to semantic neighbors, we use                      spirations, the input is P | retrieve: i1 , . . . , ik |
+all-mpnet-base-v2 from SentenceBert (Reimers                           context: M, with i1 , . . . , ik as retrieved inspira-
+and Gurevych, 2019), which performs best in se-                        tions. The input length is limited to 512 tokens.
+mantic search to retrieve similar instances from the                   For both tasks, we finetune our model based on
+training set based on query q in §3.1. The input                       T5-large with a learning rate of 6 × 10−6 and
+length is limited to 2048 tokens due to OpenAI                         ϵ = 1 × 10−6 . The batch size is 8 for each GPU.
+API limits. We choose gpt-4-0314 as our GPT4                           The maximum training epoch for all models is 10
+model. Our input for GPT4 is similar to GPT3.5.                        with 4 patience. During decoding, we use beam-
+   For each selected example from the training set                     search to generate results with a beam size of 5 and
+with forward relation, the template is “Consider                       a repetition penalty of 1.5.
+the following context: M In that context, which p
+can be used for v, and why? T ”, where M is the
+background context, p is the target node type, v is                    In-context Contrastive Augmentation We ran-
+the seed term, and T is the target idea sentence; for                  domly select 2 sentences that appeared in the in-
+backward relation, the template is “Consider the                       put as in-context negatives. For example, in Fig-
+following context: M In that context, which p do                       ure 1, the in-context negatives could be “knowl-
+we use v, and why? s”. For selected examples with                      edge acquisition is done by using Method”, “this
+                                                                       requires plms to integrate the information from all
+  19
+       openai.com/api/                                                 the sources in a lifelong manner .”.
+                                                                   292
+B.2.3 Biochemical Case Study                             human evaluation interface is provided in Figure 7
+Our Meditron-7b (Chen et al., 2023) and its              and 8. Human annotators are required to evaluate
+variants are built based on the Huggingface              each system output based on the following crite-
+framework (Wolf et al., 2020).20 We use its              ria: (1) Is the candidate relevant to the context +
+epfl-llm/meditron-7b as the base model. We               seed term? (2) Does the candidate copy too much
+finetune those models with a learning rate of            from the context, or is it sufficiently novel/different
+2 × 10−6 and ϵ = 5 × 10−8 . The maximum train-           from the context? (3) Does the candidate’s sug-
+ing epoch for all models is 5. All models are fine-      gestion generally make sense to you scientifically?
+tuned on 4 NVIDIA A100 80 GB GPUs with Fully             (4) Is the language sufficiently clear and coher-
+Sharded Data Parallel.21 The training time for each      ent to understand the suggestion? The input for
+model is about 20 hours.                                 sample human annotation is in Table 10 and the hu-
+                                                         man labels are in Table 11. The human annotation
+B.3      The Scale of Retrieval Set                      agreement is in Table 13.
+We retrieve from a set of 59k papers with over
+                                                         Study III We ask the following questions to hu-
+374k sentences in the NLP domain, the focus of
+                                                         man annotators to evaluate the quality of regen-
+our experiments. Our background KG built on the
+                                                         eration results: (1) Is the regenerated idea sub-
+training set has more than 197k nodes and 261k re-
+                                                         stantially different from the original? (2) Is the
+lations. Moreover, we collect 87k paper titles from
+                                                         regenerated idea more novel and creative than the
+citation networks. This represents a large-scale and
+                                                         original idea? (3) Does the second iteration in-
+diverse domain; retrieving inspirations from this set
+                                                         crease novelty? The human annotation agreement
+is expected, in principle, to be more than enough
+                                                         is in Table 14.
+for generating novel ideas. Indeed, NLP papers
+typically cite each other and build on each other as     D        Scientific Artifacts
+inspirations to create new ideas - which motivates
+our inspiration retrieval.                               We list the licenses of the scientific artifacts used
+                                                         in this paper: Semantic Scholar Academic Graph
+B.4      Automated Evaluation                            API (API license agreement22 ), Huggingface Trans-
+We use BERTScore (Zhang* et al.,                         formers (Apache License 2.0), SBERT (Apache-
+2020) with SciBERT checkpoint for both                   2.0 license), BERTScore (MIT license), Meditron-
+tasks.    The hash of the checkpoint is                  7b (Llama2), Entrez Programming Utilities API
+allenai/scibert_scivocab_uncased_L8                      (Copyright23 ), PubTator 3 (Data use policy24 ), and
+_no-idf_version=0.3.12(hug_trans=4.19.2).                OpenAI (Terms of use25 ).
+The automated evaluation results are in Table 9.
+                                                         E        Ethical Consideration
+C        Human Annotation and Evaluation                 The S CI MON task and corresponding models we
+         Details                                         have designed in this paper are limited to the nat-
+Gold Dataset Annotation Details The gold                 ural language processing (NLP) and biochemical
+dataset annotation interface is in Figure 5. The         domain, and might not apply to other scenarios.
+quality of the instances in the test set is judged       E.1       Usage Requirement
+given three criteria: (1) whether the ground truth
+sentence trivially overlaps with background con-         This paper aims to provide investigative leads for
+text; (2) whether background context contains rele-      a scientific domain, specifically natural language
+vant information for the target relation; (3) whether    processing. The final results are not intended to be
+the target relation (from which the seed term is         used without human review. Accordingly, domain
+taken) is a salient aspect of the idea proposed in the   experts might use this tool as a research writing
+target paper.                                            assistant to develop ideas. However, our system
+                                                         does not do any fact-checking with external knowl-
+Study I The instructions for human evaluation            edge. In addition, we train our models on the ACL
+can be found in Figure 6, while an example of the            22
+                                                                api.semanticscholar.org/license/
+    20                                                       23
+     github.com/huggingface/transformers                        www.ncbi.nlm.nih.gov/books/about/copyright/
+  21                                                         24
+     https://huggingface.co/docs/accelerate/usage               www.ncbi.nlm.nih.gov/home/about/policies/
+                                                             25
+_guides/fsdp                                                    openai.com/policies/terms-of-use
+
+                                                     293
+ Type                                           Content
+ Seed Term Prompt                               data augmentation is used for Task
+ Context                                        data augmentation is an effective solution to data scarcity in low - resource scenarios.
+                                                however, when applied to token-level tasks such as ner , data augmentation methods often
+                                                suffer from token-label misalignment, which leads to unsatsifactory performance.
+ Semantic Neighbors                             st and automatic speech recognition (asr), low-resource tagging tasks, end-to-end
+                                                speech translation, neural online chats response selection, neural machine translation,
+                                                semi-supervised ner, entity and context learning, semi-supervised setting, dependency pars-
+                                                ing, low-resource machine translation, slot filling, dialog state tracking, visual question
+                                                answering, visual question answering (vqa), low-resource neural machine translation
+ KG Neighbors                                   nmt-based text normalization, task-oriented dialog systems, task-oriented dialogue system,
+                                                low-resource languages (lrl), end-to-end speech translation, visual question answering (vqa),
+                                                multiclass utterance classification, clinical semantic textual similarity, neural online chats
+                                                response selection, context-aware neural machine translation
+ Citation Neighbors                             Contextual Augmentation: Data Augmentation by Words with Paradigmatic Re-
+                                                lations,        An Analysis of Simple Data Augmentation for Named Entity Recognition,
+                                                Data      Augmentation       for     Low-Resource       Neural      Machine       Translation,
+                                                DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks,
+                                                EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification
+                                                Tasks
+ Ground Truth                                   ELM: Data Augmentation with Masked Entity Language Modeling for Low-Resource NER
+
+Table 8: Example (from (Zhou et al., 2022)) of retrieved inspirations. Inspirations similar to ground truth are
+underlined.
+
+                                                                                                                                                   context contains       Relation
+                                                                                                                                                   relevant               is a part
+                                                                                                                             Is the     IE is of   information for        of the
+                                                                                                                             output     sufficient target relation        main
+                                                                                                                             trivally   quality    (Conservative filter   idea
+                                                                                                                             overlap    (not       - only flag cases      propose
+                                                                                                                             with the   generic, where context is         d by the
+ input           context                       entity          output   relation   rel_sent                                  context    correct) highly irrelevant)       paper
+                 transformer - based
+                 language models usually
+                 treat texts as linear
+                 sequences . however ,
+                 most texts also have an                                           We propose a novel approach to
+                 inherent hierarchical                                             formulate , extract , encode and inject
+                 structure , i.e. , parts of a                                     hierarchical structure information
+                 text can be identified                                            explicitly into an extractive
+                 using their position in                                           summarization model based on a pre -
+                 this hierarchy . in                                               trained , encoder - only Transformer
+ extractive text addition , section titles                                         language model ( HiStruct+ model ) ,
+ summarizatio usually indicate the                                                 which improves SOTA ROUGEs for
+ n is done by common topic of their            extractive text                     extractive summarization on PubMed
+ using Metric respective sentences . summarization sota rouges          used for   and arXiv substantially .
+
+
+
+
+                                                       Figure 5: Gold subset annotation interface
+
+
+anthology and PubMed papers written in English,                                            annotators involved in human evaluation are vol-
+which might alienate readers who have been his-                                            untary participants with a fair wage. We further
+torically underrepresented in the NLP/biochemical                                          collect 5,708 PubMed papers from 1988 to 2024 us-
+domains.                                                                                   ing Entrez Programming Utilities API27 . We follow
+                                                                                           their data usage guidelines28 .
+E.2      Data Collection
+We collect 67,408 ACL Anthology papers from
+1952 to 2022 using Semantic Scholar Academic
+Graph API, under API license agreement26 . We
+ensure our data collection procedure follows the
+Terms of Use at https://allenai.org/terms.
+According to the agreement, our dataset can only
+be used for non-commercial purposes. As men-
+tioned in §4, we perform the human evaluation. All
+                                                                                               27
+                                                                                                    www.ncbi.nlm.nih.gov/books/NBK25501/
+  26                                                                                           28
+       https://api.semanticscholar.org/license/                                                     www.ncbi.nlm.nih.gov/books/about/copyright/
+
+                                                                                    294
+ Subset            Challenging                Gold
+ Model          R-L↑      BERT↑      R-L↑       BERT↑
+ GPT4ZS         0.120     0.581      0.130       0.583
+ GPT4FS         0.143     0.618      0.151       0.624
+ T5             0.223     0.672†     0.246       0.685
+ GPT4FS+SN      0.144     0.620      0.149       0.627
+ GPT4FS+KG      0.143     0.619      0.152       0.626
+ GPT4FS+CT      0.144     0.617      0.149       0.622
+ T5+CL          0.225†    0.671†     0.251†      0.686†
+ T5+SN+CL       0.228†    0.671†     0.258†      0.686†
+ T5+KG+CL       0.223†    0.669      0.248       0.681†
+ T5+CT+CL       0.225†    0.671†     0.250†      0.686†
+
+Table 9: Automatic evaluation results for the challeng-
+ing and gold subsets. CL is a model with in-context
+contrastive augmentation. SN is a model with seman-
+tic inspirations. KG is a model with KG inspirations.
+CT is a model with citation inspirations. R-L denotes
+ROUGE-L. BERT denotes BERTscore with SciBERT
+as its encoder. † indicates that differences between mod-
+els are not statistically significant (p ≤ 0.05) when
+compared to each other but are still significant when
+compared to the other models based on t-test.
+
+
+
+
+                                                          295
+ Type                        Content
+ Seed Term Prompt            Irish language learning is done by using Method
+ Context                     Irish is a minority language which means that l2 learners have limited opportunities for exposure
+                             to the language, and additionally, there are also limited (digital) learning resources available.
+
+                                  Table 10: Input for sample human annotation results
+
+ Model              Output                                                                                            Label
+ GPT3.5FS           The use of Social Media in Irish Language Learning: A Case Study                                  helpful
+ GPT3.5Retr         One method that could be used for Irish language learning is computer assisted language          unhelpful
+                    learning (CALL)
+ GPT3.5FS+CT        In that context, the most appropriate task for precision grammar would be the development        unhelpful
+                    of a part-of-speech tagger for Irish using finite-state morphology and constraint grammar
+                    disambiguation.
+ GPT3.5FS+KG        Cló: An Irish Language Learning Platform - Leveraging Digital Resources and Human                unhelpful
+                    Expertise
+ GPT4FS             We propose using a technology-enhanced approach, such as computer-assisted language               helpful
+                    learning (CALL) or natural language processing (NLP) techniques, to create interactive
+                    and engaging Irish language learning resources, as these methods can provide personal-
+                    ized learning experiences and enhance learners’ exposure to the language despite limited
+                    resources available.
+ GPT4FS+KG          Exploiting Social Media for Irish Language Learning: An Analysis of Twitter Data. In              helpful
+                    this context, we use social media data, particularly from Twitter, as a method for Irish
+                    language learning, because it provides a rich source of authentic and diverse language
+                    examples that can be used to enhance learning opportunities for L2 learners in a minority
+                    language setting.
+ T5                 In this paper, we present a novel machine translation approach to Irish language learning.       unhelpful
+ T5+SN+CL           A conversational virtual environment for Irish language learning                                  helpful
+
+Table 11: Sample human labels for idea-sentence generation results for seed term prompt “Irish language learning
+is done by using Method”, with context “irish is a minority language ... limited digital learning resources available”.
+
+
+ Type                        Content
+ Seed Term                   ARO10
+ Context                     Huangjiu is known for its unique aroma, primarily attributed to its high concentration of b-
+                             phenylethanol (ranging from 40 to 130 mg/L).
+ Meditron                    We then selected six key genes involved in the phenylalanine metabolism pathway and predicted
+                             that their product flux may affect the synthesis of b-phenylethanol.
+ Meditron + CT               We found that the key amino acid residue that controls the activity of Aro10p was not conserved in
+                             wine yeast strains, which may explain the lower b-phenylethanol production in wine fermentation
+                             compared with that in Chinese huangjiu.
+ Meditron + KG               Both target genes, SSA1 and ARO10, were deleted using the CRISPR-Cas9 genome editing
+                             system.
+ Meditron + SN               Herein, we report that the key barrier for b-phenylethanol production in Huangjiu is ARO10, the
+                             only bi-functional amino acid decarboxylase in Saccharomyces cerevisiae.
+
+    Table 12: Input and idea-sentence generation results for seed gene “ARO10” in the biochemical domain.
+
+
+
+
+                                                                    Annotator Pair       1-2       1-3        1-4        1-5
+ Annotator Pair       1-2     1-3      1-4     1-5     1-6
+                                                                    Agreement %          92.5      93.3       87.5       90.0
+ Agreement %         68.8     75.0     56.2   43.8     75.0
+
+                                                                  Table 14: Percent (%) of same labels from overlapped
+Table 13: Percent (%) of same labels from overlapped
+                                                                  20 human evaluation instances on each pair of annota-
+10 human evaluation instances on each pair of annota-
+                                                                  tors for Study III. (1-3) has 60 shared questions. The
+tors for Study I.
+                                                                  rest of the pairs each share 40 questions.
+
+
+
+
+                                                              296
+Figure 6: Human evaluation instructions
+
+
+
+
+                 297
+Figure 7: Human evaluation example for GPT3.5Rnd, GPT3.5Retr, GPT3.5Rnd+CT, T5, and T5+SN+CL
+
+                                            298
+Figure 8: Human evaluation example for GPT3.5Rnd+KG, GPT4Rnd, and GPT4Rnd+KG
+
+
+
+
+                                    299
+

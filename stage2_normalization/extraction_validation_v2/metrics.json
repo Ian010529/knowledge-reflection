@@ -1,0 +1,651 @@
+{
+  "evaluation": "separate-context, blinded-version, same-model Astra validation",
+  "metrics": [
+    {
+      "domain": "iTE",
+      "scope": "all",
+      "version": "initial",
+      "raw": {
+        "audit_good": 70,
+        "audit_n": 100,
+        "all_good": 112,
+        "all_n": 151,
+        "ref_covered": 109,
+        "ref_valid": 125,
+        "ref_uncertain": 34,
+        "ref_total": 162
+      },
+      "weighted": {
+        "audit_good": 3390.3333333333335,
+        "audit_n": 4843.333333333334,
+        "all_good": 5424.533333333334,
+        "all_n": 7313.433333333333,
+        "ref_covered": 5279.233333333334,
+        "ref_valid": 6054.166666666668,
+        "ref_uncertain": 1646.7333333333333,
+        "ref_total": 7846.200000000001
+      },
+      "precision": 0.7,
+      "all_precision": 0.7417218543046358,
+      "recall": 0.8719999999999999,
+      "recall_with_uncertain": 0.6855345911949684,
+      "recall_all_frozen": 0.6728395061728395
+    },
+    {
+      "domain": "iTE",
+      "scope": "all",
+      "version": "reviewed",
+      "raw": {
+        "audit_good": 95,
+        "audit_n": 100,
+        "all_good": 161,
+        "all_n": 169,
+        "ref_covered": 115,
+        "ref_valid": 125,
+        "ref_uncertain": 34,
+        "ref_total": 162
+      },
+      "weighted": {
+        "audit_good": 4601.166666666667,
+        "audit_n": 4843.333333333334,
+        "all_good": 7797.766666666667,
+        "all_n": 8185.233333333334,
+        "ref_covered": 5569.833333333334,
+        "ref_valid": 6054.166666666668,
+        "ref_uncertain": 1646.7333333333333,
+        "ref_total": 7846.200000000001
+      },
+      "precision": 0.95,
+      "all_precision": 0.9526627218934912,
+      "recall": 0.9199999999999999,
+      "recall_with_uncertain": 0.7232704402515723,
+      "recall_all_frozen": 0.7098765432098766
+    },
+    {
+      "domain": "iTE",
+      "scope": "main",
+      "version": "initial",
+      "raw": {
+        "audit_good": 50,
+        "audit_n": 71,
+        "all_good": 79,
+        "all_n": 106,
+        "ref_covered": 79,
+        "ref_valid": 91,
+        "ref_uncertain": 25,
+        "ref_total": 117
+      },
+      "weighted": {
+        "audit_good": 2421.6666666666665,
+        "audit_n": 3438.7666666666664,
+        "all_good": 3826.2333333333336,
+        "all_n": 5133.933333333334,
+        "ref_covered": 3826.2333333333336,
+        "ref_valid": 4407.433333333334,
+        "ref_uncertain": 1210.8333333333333,
+        "ref_total": 5666.7
+      },
+      "precision": 0.7042253521126761,
+      "all_precision": 0.7452830188679245,
+      "recall": 0.868131868131868,
+      "recall_with_uncertain": 0.6810344827586207,
+      "recall_all_frozen": 0.6752136752136753
+    },
+    {
+      "domain": "iTE",
+      "scope": "main",
+      "version": "reviewed",
+      "raw": {
+        "audit_good": 66,
+        "audit_n": 68,
+        "all_good": 118,
+        "all_n": 121,
+        "ref_covered": 84,
+        "ref_valid": 91,
+        "ref_uncertain": 25,
+        "ref_total": 117
+      },
+      "weighted": {
+        "audit_good": 3196.6,
+        "audit_n": 3293.4666666666662,
+        "all_good": 5715.133333333334,
+        "all_n": 5860.433333333334,
+        "ref_covered": 4068.4,
+        "ref_valid": 4407.433333333334,
+        "ref_uncertain": 1210.8333333333333,
+        "ref_total": 5666.7
+      },
+      "precision": 0.9705882352941178,
+      "all_precision": 0.9752066115702479,
+      "recall": 0.9230769230769229,
+      "recall_with_uncertain": 0.7241379310344827,
+      "recall_all_frozen": 0.717948717948718
+    },
+    {
+      "domain": "TG",
+      "scope": "all",
+      "version": "initial",
+      "raw": {
+        "audit_good": 90,
+        "audit_n": 100,
+        "all_good": 138,
+        "all_n": 150,
+        "ref_covered": 124,
+        "ref_valid": 142,
+        "ref_uncertain": 3,
+        "ref_total": 145
+      },
+      "weighted": {
+        "audit_good": 505.6799999999999,
+        "audit_n": 565.28,
+        "all_good": 763.5999999999999,
+        "all_n": 835.1199999999998,
+        "ref_covered": 690.4000000000001,
+        "ref_valid": 795.1199999999999,
+        "ref_uncertain": 17.88,
+        "ref_total": 812.9999999999998
+      },
+      "precision": 0.8945655250495328,
+      "all_precision": 0.9143596129897501,
+      "recall": 0.868296609316833,
+      "recall_with_uncertain": 0.8492004920049203,
+      "recall_all_frozen": 0.8492004920049204
+    },
+    {
+      "domain": "TG",
+      "scope": "all",
+      "version": "reviewed",
+      "raw": {
+        "audit_good": 97,
+        "audit_n": 100,
+        "all_good": 159,
+        "all_n": 165,
+        "ref_covered": 133,
+        "ref_valid": 142,
+        "ref_uncertain": 3,
+        "ref_total": 145
+      },
+      "weighted": {
+        "audit_good": 549.9599999999998,
+        "audit_n": 567.8399999999999,
+        "all_good": 886.1999999999998,
+        "all_n": 921.9599999999998,
+        "ref_covered": 744.0399999999998,
+        "ref_valid": 795.1199999999999,
+        "ref_uncertain": 17.88,
+        "ref_total": 812.9999999999998
+      },
+      "precision": 0.9685122569737953,
+      "all_precision": 0.9612130678120526,
+      "recall": 0.9357581245598148,
+      "recall_with_uncertain": 0.9151783517835178,
+      "recall_all_frozen": 0.9151783517835179
+    },
+    {
+      "domain": "TG",
+      "scope": "main",
+      "version": "initial",
+      "raw": {
+        "audit_good": 46,
+        "audit_n": 52,
+        "all_good": 78,
+        "all_n": 84,
+        "ref_covered": 78,
+        "ref_valid": 88,
+        "ref_uncertain": 1,
+        "ref_total": 89
+      },
+      "weighted": {
+        "audit_good": 263.91999999999996,
+        "audit_n": 299.67999999999995,
+        "all_good": 439.2799999999999,
+        "all_n": 475.03999999999985,
+        "ref_covered": 439.2799999999998,
+        "ref_valid": 498.8799999999998,
+        "ref_uncertain": 5.96,
+        "ref_total": 504.83999999999986
+      },
+      "precision": 0.8806727175654031,
+      "all_precision": 0.9247221286628495,
+      "recall": 0.8805323925593328,
+      "recall_with_uncertain": 0.8701370731320814,
+      "recall_all_frozen": 0.8701370731320813
+    },
+    {
+      "domain": "TG",
+      "scope": "main",
+      "version": "reviewed",
+      "raw": {
+        "audit_good": 54,
+        "audit_n": 57,
+        "all_good": 91,
+        "all_n": 95,
+        "ref_covered": 82,
+        "ref_valid": 88,
+        "ref_uncertain": 1,
+        "ref_total": 89
+      },
+      "weighted": {
+        "audit_good": 311.59999999999997,
+        "audit_n": 329.4799999999999,
+        "all_good": 514.1999999999999,
+        "all_n": 538.04,
+        "ref_covered": 463.11999999999983,
+        "ref_valid": 498.8799999999998,
+        "ref_uncertain": 5.96,
+        "ref_total": 504.83999999999986
+      },
+      "precision": 0.9457326696612847,
+      "all_precision": 0.9556910266894654,
+      "recall": 0.9283194355355997,
+      "recall_with_uncertain": 0.9173599556295065,
+      "recall_all_frozen": 0.9173599556295063
+    }
+  ],
+  "bootstrap": {
+    "iTE:all": {
+      "intervals": {
+        "initial:precision": {
+          "lower": 0.5217275670675299,
+          "upper": 0.8571428571428572,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:all_precision": {
+          "lower": 0.5763731060606062,
+          "upper": 0.8838756428237491,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall": {
+          "lower": 0.8110236220472441,
+          "upper": 0.92743206916594,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_with_uncertain": {
+          "lower": 0.5256355932203389,
+          "upper": 0.8258279569892469,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_all_frozen": {
+          "lower": 0.5181277757216873,
+          "upper": 0.8086465141612201,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:precision": {
+          "lower": 0.8947241902834008,
+          "upper": 0.9901984580239863,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:all_precision": {
+          "lower": 0.907100648112848,
+          "upper": 0.9867549668874172,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall": {
+          "lower": 0.8706896551724138,
+          "upper": 0.9640352004110997,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_with_uncertain": {
+          "lower": 0.5568703218562875,
+          "upper": 0.8666772151898734,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_all_frozen": {
+          "lower": 0.5489989369241673,
+          "upper": 0.8516188769414575,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      },
+      "paired_differences": {
+        "precision": {
+          "lower": 0.08732895631480532,
+          "upper": 0.42889948640220493,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "all_precision": {
+          "lower": 0.0666543492325758,
+          "upper": 0.3802970357954072,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "recall": {
+          "lower": 0.012184361549497863,
+          "upper": 0.09231092436974796,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      }
+    },
+    "iTE:main": {
+      "intervals": {
+        "initial:precision": {
+          "lower": 0.5,
+          "upper": 0.8777927927927925,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:all_precision": {
+          "lower": 0.5604285714285715,
+          "upper": 0.8928658113730926,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall": {
+          "lower": 0.7934782608695652,
+          "upper": 0.9375000000000001,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_with_uncertain": {
+          "lower": 0.5169467720434203,
+          "upper": 0.8210547710740265,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_all_frozen": {
+          "lower": 0.5144809020723284,
+          "upper": 0.8151283339422724,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:precision": {
+          "lower": 0.9259121061359866,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:all_precision": {
+          "lower": 0.9494863893168979,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall": {
+          "lower": 0.8690476190476191,
+          "upper": 0.9732142857142855,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_with_uncertain": {
+          "lower": 0.5555555555555556,
+          "upper": 0.8631601439496177,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_all_frozen": {
+          "lower": 0.5510130139012126,
+          "upper": 0.8571428571428573,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      },
+      "paired_differences": {
+        "precision": {
+          "lower": 0.08752948405864648,
+          "upper": 0.4733486397469448,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "all_precision": {
+          "lower": 0.0804646760436955,
+          "upper": 0.42042019516095286,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "recall": {
+          "lower": 0.01098901098901095,
+          "upper": 0.11494252873563215,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      }
+    },
+    "TG:all": {
+      "intervals": {
+        "initial:precision": {
+          "lower": 0.7993845595855861,
+          "upper": 0.9709909792978128,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:all_precision": {
+          "lower": 0.8373714993008533,
+          "upper": 0.9727855951775486,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall": {
+          "lower": 0.7792199773591464,
+          "upper": 0.9360690761052761,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_with_uncertain": {
+          "lower": 0.7592240943883557,
+          "upper": 0.9174580856090891,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_all_frozen": {
+          "lower": 0.7592240943883557,
+          "upper": 0.9174580856090891,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:precision": {
+          "lower": 0.9166457943541663,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:all_precision": {
+          "lower": 0.911457960594675,
+          "upper": 0.9940320198877758,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall": {
+          "lower": 0.87249542163071,
+          "upper": 0.9794302875874396,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_with_uncertain": {
+          "lower": 0.8494277280834828,
+          "upper": 0.9624735953810151,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_all_frozen": {
+          "lower": 0.8494277280834828,
+          "upper": 0.9624735953810152,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      },
+      "paired_differences": {
+        "precision": {
+          "lower": 0.02443214431754251,
+          "upper": 0.1260777808368619,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "all_precision": {
+          "lower": 0.013771019473584696,
+          "upper": 0.09166796504057581,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "recall": {
+          "lower": 0.028751227901535482,
+          "upper": 0.114653642261877,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      }
+    },
+    "TG:main": {
+      "intervals": {
+        "initial:precision": {
+          "lower": 0.7191125290023201,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:all_precision": {
+          "lower": 0.8059173799776703,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall": {
+          "lower": 0.7666603589711236,
+          "upper": 0.9649386914093426,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_with_uncertain": {
+          "lower": 0.760977822020296,
+          "upper": 0.9531200839014157,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "initial:recall_all_frozen": {
+          "lower": 0.760977822020296,
+          "upper": 0.9531200839014159,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:precision": {
+          "lower": 0.8578583353207728,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:all_precision": {
+          "lower": 0.8738492598193652,
+          "upper": 1.0,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall": {
+          "lower": 0.8365018535361542,
+          "upper": 0.9890962686408729,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_with_uncertain": {
+          "lower": 0.8295644522657284,
+          "upper": 0.978657192417831,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "reviewed:recall_all_frozen": {
+          "lower": 0.8295644522657283,
+          "upper": 0.978657192417831,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      },
+      "paired_differences": {
+        "precision": {
+          "lower": 0.0,
+          "upper": 0.15481019760251125,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "all_precision": {
+          "lower": 0.0,
+          "upper": 0.07482778617000237,
+          "valid_replicates": 5000,
+          "degenerate": false
+        },
+        "recall": {
+          "lower": 0.012028670499007516,
+          "upper": 0.0840658092664387,
+          "valid_replicates": 5000,
+          "degenerate": false
+        }
+      }
+    }
+  },
+  "audit_design": [
+    {
+      "domain": "iTE",
+      "version": "initial",
+      "N": 151,
+      "n": 100,
+      "seed": 2026092403
+    },
+    {
+      "domain": "iTE",
+      "version": "reviewed",
+      "N": 169,
+      "n": 100,
+      "seed": 2026092403
+    },
+    {
+      "domain": "TG",
+      "version": "initial",
+      "N": 150,
+      "n": 100,
+      "seed": 2026092403
+    },
+    {
+      "domain": "TG",
+      "version": "reviewed",
+      "N": 165,
+      "n": 100,
+      "seed": 2026092403
+    }
+  ],
+  "counts": {
+    "iTE": {
+      "papers": 30,
+      "unique_candidates": 204,
+      "references": 162,
+      "candidate_labels": {
+        "supported": 165,
+        "partial": 32,
+        "out_of_scope": 5,
+        "uncertain": 2
+      },
+      "reference_labels": {
+        "valid": 125,
+        "out_of_scope": 3,
+        "uncertain": 34
+      }
+    },
+    "TG": {
+      "papers": 30,
+      "unique_candidates": 178,
+      "references": 145,
+      "candidate_labels": {
+        "supported": 166,
+        "partial": 11,
+        "out_of_scope": 1
+      },
+      "reference_labels": {
+        "valid": 142,
+        "uncertain": 3
+      }
+    }
+  },
+  "limits": [
+    "Same model across authors and judges; correlated biases remain.",
+    "Bootstrap captures paper sampling variability, not model-reference error or all second-stage design uncertainty.",
+    "A degenerate zero-error bootstrap interval is not evidence of zero error risk and cannot alone establish stable passing.",
+    "Remaining held-out sampling frame excludes previously used papers; no full-corpus guarantee."
+  ]
+}

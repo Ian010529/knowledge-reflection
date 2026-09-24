@@ -1,0 +1,459 @@
+[
+  {
+    "paper_id": "P0304",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0030",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文明示碳电极界面电容较铂大约四个数量级。"
+      },
+      {
+        "candidate_id": "CTG-0061",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温差使指定离子液体/乙腈电容器充电，条件保留。"
+      },
+      {
+        "candidate_id": "CTG-0084",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留无需离子电极电子交换的转换可能性。"
+      },
+      {
+        "candidate_id": "CTG-0098",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "明确观察到对流加速充电。"
+      },
+      {
+        "candidate_id": "CTG-0111",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "电阻放电提取储存电能为明确器件过程。"
+      },
+      {
+        "candidate_id": "CTG-0169",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "两电极材料热电系数比较明确。"
+      },
+      {
+        "candidate_id": "CTG-0170",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "恒定温差下重复循环证实界面充电稳健。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0304-001",
+        "label": "valid",
+        "reason": "循环可复现性直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0170"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-002",
+        "label": "valid",
+        "reason": "材料相关系数对比成立。",
+        "full_coverage_sets": [
+          [
+            "CTG-0169"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-003",
+        "label": "valid",
+        "reason": "温差驱动充电成立。",
+        "full_coverage_sets": [
+          [
+            "CTG-0061"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-004",
+        "label": "valid",
+        "reason": "对流加速为明确观察。",
+        "full_coverage_sets": [
+          [
+            "CTG-0098"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-005",
+        "label": "valid",
+        "reason": "电容比较及数量级明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0030"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0304-006",
+        "label": "valid",
+        "reason": "无需电子交换作为该转换能力明确给出。",
+        "full_coverage_sets": [
+          [
+            "CTG-0084"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未收录电阻放电提取能量这一外围关系。"
+  },
+  {
+    "paper_id": "P0239",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0010",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "Agar模型计算指定离子两类熵，属理论方法。"
+      },
+      {
+        "candidate_id": "CTG-0050",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "关系与条件正确，但该测量关系原文为实验；混合证据未直接归属。"
+      },
+      {
+        "candidate_id": "CTG-0066",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "明确用De Bethune理论解释结果。"
+      },
+      {
+        "candidate_id": "CTG-0083",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验热电化学测量确定三类参数，298 K保留。"
+      },
+      {
+        "candidate_id": "CTG-0128",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "Agar计算关系正确，但此计算的证据为理论；未说明实验联合计算。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0239-001",
+        "label": "valid",
+        "reason": "实验测量确定量的直接方法关系。",
+        "full_coverage_sets": [
+          [
+            "CTG-0083"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0050"
+        ]
+      },
+      {
+        "reference_id": "GP0239-002",
+        "label": "valid",
+        "reason": "模型计算直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0010"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0128"
+        ]
+      }
+    ],
+    "note": "De Bethune解释关系未进入参考。"
+  },
+  {
+    "paper_id": "P0230",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0043",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "雷诺数增大腐蚀率成立；此观测未明确由理论共同支持，mixed过宽。"
+      },
+      {
+        "candidate_id": "CTG-0112",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "最大增幅及高雷诺数、最大温差、25℃阳极共同条件完整。"
+      },
+      {
+        "candidate_id": "CTG-0115",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "温度增加腐蚀率成立；该观察应与后文理论假说区分。"
+      },
+      {
+        "candidate_id": "CTG-0125",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "保留may，但该推测明确来自混合电位理论，并无实验确认。"
+      },
+      {
+        "candidate_id": "CTG-0152",
+        "label": "partial",
+        "error_tags": [
+          "modality"
+        ],
+        "reason": "温度影响电流密度来自统计实验分析，mixed混入未归属理论。"
+      },
+      {
+        "candidate_id": "CTG-0172",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留理论提示的不同温度可能导致热电偶腐蚀。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0230-001",
+        "label": "valid",
+        "reason": "理论可能性表述忠实。",
+        "full_coverage_sets": [
+          [
+            "CTG-0172"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0125"
+        ]
+      },
+      {
+        "reference_id": "GP0230-002",
+        "label": "valid",
+        "reason": "统计实验显示温度显著影响电流密度。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0152"
+        ]
+      },
+      {
+        "reference_id": "GP0230-003",
+        "label": "valid",
+        "reason": "条件极值关系没有扩大成单调效应。",
+        "full_coverage_sets": [
+          [
+            "CTG-0112"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0230-004",
+        "label": "valid",
+        "reason": "列举效应可拆为雷诺数关系。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0043"
+        ]
+      },
+      {
+        "reference_id": "GP0230-005",
+        "label": "valid",
+        "reason": "列举效应可拆为温度关系。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0115"
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "paper_id": "P0226",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0019",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "温度条件改变非对称电池系数，范围和材料保留。"
+      },
+      {
+        "candidate_id": "CTG-0147",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "非对称热响应偏离对称半电池预测明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0226-001",
+        "label": "valid",
+        "reason": "系数偏离预测是明确比较。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CTG-0147"
+        ]
+      },
+      {
+        "reference_id": "GP0226-002",
+        "label": "valid",
+        "reason": "温度条件依赖直接报告。",
+        "full_coverage_sets": [
+          [
+            "CTG-0019"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "0147的对象为泛化热响应，未直接指认Seebeck系数偏差，参考001仅部分覆盖。"
+  },
+  {
+    "paper_id": "P0090",
+    "candidates": [
+      {
+        "candidate_id": "CTG-0022",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "胍阳离子的强离液属性明确。"
+      },
+      {
+        "candidate_id": "CTG-0067",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "胍与尿素协同增加氧化还原熵差明确。"
+      },
+      {
+        "candidate_id": "CTG-0069",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "两添加剂协同提高Seebeck效应明确。"
+      },
+      {
+        "candidate_id": "CTG-0074",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加导致功率密度提高，比较保留。"
+      },
+      {
+        "candidate_id": "CTG-0075",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "定量系数提高和后文协同归因均保留。"
+      },
+      {
+        "candidate_id": "CTG-0093",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "尿素高溶解性酰胺属性明确。"
+      },
+      {
+        "candidate_id": "CTG-0171",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "共同添加提高系数的数值比较明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0090-001",
+        "label": "valid",
+        "reason": "功率密度提高明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0074"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0090-002",
+        "label": "valid",
+        "reason": "协同熵差提高明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0067"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0090-003",
+        "label": "valid",
+        "reason": "共同添加提高Seebeck系数明确。",
+        "full_coverage_sets": [
+          [
+            "CTG-0075"
+          ],
+          [
+            "CTG-0171"
+          ]
+        ],
+        "partial_candidates": [
+          "CTG-0069"
+        ]
+      }
+    ],
+    "note": "胍、尿素属性及显式协同Seebeck效应未单独收入参考。"
+  }
+]

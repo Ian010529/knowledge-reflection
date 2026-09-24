@@ -1,0 +1,56 @@
+{
+  "completion_scope": "specified audits, pending-role and equivalence disposition, local repair, normalization projection and domain graph construction",
+  "input_raw_nodes": 4646,
+  "input_raw_relations": 2655,
+  "original_node_concepts": 3745,
+  "all_concepts_including_supplements": 3973,
+  "supplemental_nodes": 228,
+  "new_reference_claims": 104,
+  "all_claim_records": 2759,
+  "active_reviewed_claims": 344,
+  "main_eligible_claims": 221,
+  "role_deferred_reviewed": 159,
+  "equivalence_followup_counts": {
+    "reject": 131,
+    "uncertain": 357,
+    "accept": 1
+  },
+  "final_pair_decisions": {
+    "accept": 2089,
+    "reject": 960,
+    "uncertain": 357
+  },
+  "human_review_required": false,
+  "metrics": {
+    "iTE": {
+      "audit_n": 100,
+      "strict_supported": 76,
+      "qualifications": 24,
+      "weighted_baseline_strict_precision": 0.7529986353515765,
+      "reference_claims": 84,
+      "exact_reference_matches": 15,
+      "weighted_baseline_core_recall": 0.178094811399115,
+      "precision_target": 0.9,
+      "recall_target": 0.7,
+      "baseline_gate_pass": false,
+      "post_repair_sample_coverage": 1.0,
+      "post_repair_sample_not_independent": true
+    },
+    "TG": {
+      "audit_n": 100,
+      "strict_supported": 87,
+      "qualifications": 13,
+      "weighted_baseline_strict_precision": 0.8737632737632738,
+      "reference_claims": 59,
+      "exact_reference_matches": 24,
+      "weighted_baseline_core_recall": 0.4064247712185714,
+      "precision_target": 0.9,
+      "recall_target": 0.7,
+      "baseline_gate_pass": false,
+      "post_repair_sample_coverage": 1.0,
+      "post_repair_sample_not_independent": true
+    }
+  },
+  "release_status": "evidence_complete_quality_limited_model_reviewed_release",
+  "scope_warning": "Unreviewed claims remain in complete evidence/projection graphs and are excluded from accepted main analysis. Post-repair sample coverage is not held-out corpus accuracy. Stage4 quality gate remains closed."
+}

@@ -1,0 +1,182 @@
+{
+  "type": "object",
+  "properties": {
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paper_id": {
+            "type": "string"
+          },
+          "article_role": {
+            "type": "string",
+            "enum": [
+              "research",
+              "review",
+              "other",
+              "uncertain"
+            ]
+          },
+          "nodes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "mat",
+                    "strategy",
+                    "cond",
+                    "interaction",
+                    "process",
+                    "state",
+                    "quantity",
+                    "descriptor",
+                    "performance",
+                    "application"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "label",
+                "role"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "records": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "s": {
+                  "type": "string"
+                },
+                "p": {
+                  "type": "string"
+                },
+                "o": {
+                  "type": "string"
+                },
+                "e": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "a": {
+                  "type": "string",
+                  "enum": [
+                    "author_claim",
+                    "association",
+                    "hypothesis",
+                    "negated"
+                  ]
+                },
+                "m": {
+                  "type": "string",
+                  "enum": [
+                    "experimental",
+                    "computational",
+                    "theoretical",
+                    "mixed",
+                    "unspecified"
+                  ]
+                },
+                "me": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "c": {
+                  "type": "string"
+                },
+                "j": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "scope": {
+                  "type": "string",
+                  "enum": [
+                    "material",
+                    "thermo",
+                    "transport",
+                    "electrode",
+                    "device",
+                    "stability",
+                    "application",
+                    "method",
+                    "adjacent"
+                  ]
+                },
+                "claim_scope": {
+                  "type": "string",
+                  "enum": [
+                    "own_work",
+                    "review_synthesis",
+                    "background"
+                  ]
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "accepted",
+                    "uncertain"
+                  ]
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "s",
+                "p",
+                "o",
+                "e",
+                "a",
+                "m",
+                "me",
+                "c",
+                "j",
+                "scope",
+                "claim_scope",
+                "status",
+                "note"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "paper_id",
+          "article_role",
+          "nodes",
+          "records",
+          "note"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "papers"
+  ],
+  "additionalProperties": false
+}

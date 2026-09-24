@@ -1,0 +1,437 @@
+[
+  {
+    "candidate": {
+      "candidate_id": "CTG-0050",
+      "subject": "thermogalvanic measurements with silver chloride and quinhydrone electrodes",
+      "subject_role": "design_strategy",
+      "predicate": "determine",
+      "object": "HCl standard thermal-diffusion transport entropies, mobile H+ and Cl- entropies and electrolyte Soret coefficients",
+      "object_role": "quantity",
+      "quote": "Thermogalvanic cells with silver chloride and quinhydrone electrodes in the HCl-H2O-1-PrOH system are studied experimentally. The results are used to determine standard entropies of thermal diffusion transport of hydrogen chloride, entropies of mobile H+ and Cl- ions, and Soret coefficients of the electrolyte at 298 K.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "HCl-H2O-1-PrOH; 298 K",
+      "joint_factors": [],
+      "scope": "measurement_method_model",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0050",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "关系与条件正确，但该测量关系原文为实验；混合证据未直接归属。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0239",
+        "version": "initial",
+        "original_id": "r01",
+        "audit_selected": false
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0128",
+      "subject": "Agar model",
+      "subject_role": "design_strategy",
+      "predicate": "is used to calculate",
+      "object": "thermal-diffusion and partial molar entropies of H+ and Cl-",
+      "object_role": "quantity",
+      "quote": "Thermal diffusion entropies and partial molar entropies of said ions in water-1-propanol solutions are calculated within the Agar model.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "water-1-propanol solutions",
+      "joint_factors": [],
+      "scope": "measurement_method_model",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0128",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "Agar计算关系正确，但此计算的证据为理论；未说明实验联合计算。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0239",
+        "version": "initial",
+        "original_id": "r02",
+        "audit_selected": false
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0043",
+      "subject": "Reynolds number",
+      "subject_role": "quantity",
+      "predicate": "increases",
+      "object": "copper galvanic corrosion rate",
+      "object_role": "quantity",
+      "quote": "Temperature and Reynolds number increase galvanic corrosion rates of copper.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "copper/AISI 316L couples in heavy LiBr brines",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0043",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "雷诺数增大腐蚀率成立；此观测未明确由理论共同支持，mixed过宽。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0230",
+        "version": "initial",
+        "original_id": "r02",
+        "audit_selected": true
+      },
+      {
+        "paper_id": "P0230",
+        "version": "reviewed",
+        "original_id": "r02",
+        "audit_selected": true
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0115",
+      "subject": "temperature",
+      "subject_role": "condition",
+      "predicate": "increases",
+      "object": "copper galvanic corrosion rate",
+      "object_role": "quantity",
+      "quote": "Temperature and Reynolds number increase galvanic corrosion rates of copper.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "copper/AISI 316L couples in heavy LiBr brines",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0115",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "温度增加腐蚀率成立；该观察应与后文理论假说区分。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0230",
+        "version": "initial",
+        "original_id": "r01",
+        "audit_selected": true
+      },
+      {
+        "paper_id": "P0230",
+        "version": "reviewed",
+        "original_id": "r01",
+        "audit_selected": true
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0125",
+      "subject": "different temperatures of paired materials",
+      "subject_role": "condition",
+      "predicate": "may cause",
+      "object": "thermogalvanic corrosion",
+      "object_role": "mechanism_process",
+      "quote": "Additionally, the mixed potential theory suggests that thermogalvanic corrosion may occur when the materials of the pair work at different temperatures.",
+      "assertion": "hypothesis",
+      "modality": "mixed",
+      "conditions": "copper/AISI 316L in heavy LiBr",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0125",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "保留may，但该推测明确来自混合电位理论，并无实验确认。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0230",
+        "version": "initial",
+        "original_id": "r04",
+        "audit_selected": true
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0152",
+      "subject": "temperature",
+      "subject_role": "condition",
+      "predicate": "greatly affects",
+      "object": "galvanic current density",
+      "object_role": "quantity",
+      "quote": "Statistical analysis by means of multilevel factorial design reveals that temperature greatly affects galvanic current densities.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "copper/AISI 316L couples in heavy LiBr brines",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0152",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "温度影响电流密度来自统计实验分析，mixed混入未归属理论。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0230",
+        "version": "initial",
+        "original_id": "r03",
+        "audit_selected": true
+      },
+      {
+        "paper_id": "P0230",
+        "version": "reviewed",
+        "original_id": "r03",
+        "audit_selected": false
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0105",
+      "subject": "polyacrylamide-polyacrylic acid gel electrolyte TAIC",
+      "subject_role": "material_entity",
+      "predicate": "can attain",
+      "object": "power density 1.92 mu Wcm(-2)",
+      "object_role": "quantity",
+      "quote": "Meanwhile, with the introduction of polyacrylamide-polyacrylic acid-based gel electrolyte, the assembled flexible device can well serve in various bending states, and the power density can attain a satisfying value of 1.92 mu Wcm(-2).",
+      "assertion": "author_claim",
+      "modality": "unspecified",
+      "conditions": "flexible device in various bending states",
+      "joint_factors": [],
+      "scope": "device_thermal_management",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0105",
+      "label": "out_of_scope",
+      "error_tags": [
+        "scope"
+      ],
+      "reason": "此条仅给凝胶器件单点功率数值，无设计改变与性能的直接归因关系。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0210",
+        "version": "initial",
+        "original_id": "r06",
+        "audit_selected": true
+      },
+      {
+        "paper_id": "P0210",
+        "version": "reviewed",
+        "original_id": "r06",
+        "audit_selected": false
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0073",
+      "subject": "synergistic coupling of sensing and transduction",
+      "subject_role": "design_strategy",
+      "predicate": "enables real-time passive perception of",
+      "object": "body temperature, pulse rate and sweat content without decoupling",
+      "object_role": "performance_function",
+      "quote": "As a prospective application, the e-skin can actively perceive multimodal physiological signals without the need for decoupling, including body temperature, pulse rate, and sweat content, in real time by synergistically coupling sensing and transduction.",
+      "assertion": "hypothesis",
+      "modality": "unspecified",
+      "conditions": "thermoelectric hydrogel e-skin; prospective application",
+      "joint_factors": [],
+      "scope": "application_sensing",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0073",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "原文prospective application中can actively perceive是作者能力表述；改成hypothesis弱化为未验证推测。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0259",
+        "version": "initial",
+        "original_id": "r05",
+        "audit_selected": true
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0055",
+      "subject": "0.7 M CuSO4 with 0.1 M H2SO4 aqueous electrolyte",
+      "subject_role": "material_entity",
+      "predicate": "gives up to 100% improvement in",
+      "object": "maximum power output",
+      "object_role": "quantity",
+      "quote": "Experimental testing revealed an optimum concentration of 0.7 M CuSO4 aqueous electrolyte, with the addition of 0.1 M H2SO4 as background electrolyte, results in P-max improvements of up to 100%, from to similar to 1.6 mu W cm(-2), in a horizontal cell operating between the vertical cold and hot copper (Cu) electrode temperatures of 5 and 65 C, respectively.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "horizontal cell; vertical Cu electrodes at 5 and 65 C; reference starting power not legible",
+      "joint_factors": [],
+      "scope": "device_thermal_management",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0055",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "配方与提高100%及条件正确，但该最优浓度结论明确来自实验，mixed未有对应模型支持。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0121",
+        "version": "initial",
+        "original_id": "r04",
+        "audit_selected": true
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0151",
+      "subject": "increased electrode spacing",
+      "subject_role": "quantity",
+      "predicate": "increases",
+      "object": "Cu/Cu-2 cell maximum power output",
+      "object_role": "quantity",
+      "quote": "However, comparison with the conventional Fe(CN)(6)(4-)/Fe(CN)(6)(3-) cells revealed a completely different dependence of the electrode spacing on the power generation, that the P-max of Cu/Cu-2 cell increases, instead of decreases, with the electrode spacing due to the difference in ionic transfer mechanism.",
+      "assertion": "author_claim",
+      "modality": "mixed",
+      "conditions": "Cu/Cu-2 notation retained from source; unlike conventional Fe(CN)(6)(4-)/Fe(CN)(6)(3-) cells",
+      "joint_factors": [],
+      "scope": "ion_mass_transport",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0151",
+      "label": "partial",
+      "error_tags": [
+        "modality"
+      ],
+      "reason": "铜体系随间距增大功率增加明确；此对比是实验结果，mixed未直接成立；Cu符号原文另处可定位。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0121",
+        "version": "initial",
+        "original_id": "r05",
+        "audit_selected": true
+      },
+      {
+        "paper_id": "P0121",
+        "version": "reviewed",
+        "original_id": "r05",
+        "audit_selected": true
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0149",
+      "subject": "multiple-TREC electrochemical system",
+      "subject_role": "design_strategy",
+      "predicate": "can harvest low-temperature waste heat and realize",
+      "object": "continuous power output",
+      "object_role": "performance_function",
+      "quote": "This system can efficiently harvest low-temperature waste heat and realize the continuous power output.",
+      "assertion": "author_claim",
+      "modality": "theoretical",
+      "conditions": "",
+      "joint_factors": [],
+      "scope": "device_thermal_management",
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0149",
+      "label": "partial",
+      "error_tags": [
+        "condition"
+      ],
+      "reason": "理论连续输出能力明确，但缺少多个TREC工作于不同状态这一设计限定。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0301",
+        "version": "initial",
+        "original_id": "r02",
+        "audit_selected": true
+      },
+      {
+        "paper_id": "P0301",
+        "version": "reviewed",
+        "original_id": "r02",
+        "audit_selected": false
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "candidate_id": "CTG-0085",
+      "subject": "nitrogen doping of CNT electrodes",
+      "subject_role": "design_strategy",
+      "predicate": "increases",
+      "object": "electrochemically active surface area",
+      "object_role": "quantity",
+      "quote": "Both doping states increased the electrochemically active surface area of CNT electrodes.",
+      "assertion": "author_claim",
+      "modality": "experimental",
+      "conditions": "nitrogen or boron doped CNT buckypaper; potassium ferri/ferrocyanide electrolyte",
+      "joint_factors": [],
+      "scope": "electrode_interface_kinetics",
+      "context_quotes": [
+        "CNT buckypaper electrodes doped with nitrogen and boron were characterized using cyclic voltammetry, impedance spectroscopy, and TEC test with potassium ferri/ferrocyanide electrolyte."
+      ],
+      "article_role": "research"
+    },
+    "judgment": {
+      "candidate_id": "CTG-0085",
+      "label": "partial",
+      "error_tags": [
+        "condition"
+      ],
+      "reason": "N掺杂效应正确，但条件含N或B样品，将B样品混入N主体适用条件。"
+    },
+    "origins": [
+      {
+        "paper_id": "P0316",
+        "version": "initial",
+        "original_id": "r01",
+        "audit_selected": true
+      }
+    ]
+  }
+]

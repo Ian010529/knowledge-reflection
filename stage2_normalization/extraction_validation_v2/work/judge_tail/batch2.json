@@ -1,0 +1,541 @@
+[
+  {
+    "paper_id": "P1176",
+    "candidates": [
+      {
+        "candidate_id": "CiTE-0059",
+        "label": "uncertain",
+        "error_tags": [
+          "source_ambiguous"
+        ],
+        "reason": "稳定高对称相的关系明确，但原相标识损坏；虽注明损坏仍须保留不确定标签。"
+      },
+      {
+        "candidate_id": "CiTE-0067",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "As a result承接熵工程及两种结构作用，整体归因提升Seebeck正确。"
+      },
+      {
+        "candidate_id": "CiTE-0147",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "As a result的整体熵工程归因降低电阻率，未强拆中介。"
+      },
+      {
+        "candidate_id": "CiTE-0151",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "整个组分区间连续固溶体明确。"
+      },
+      {
+        "candidate_id": "CiTE-0154",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "多元素熵工程促进价带多谷结构明确。"
+      },
+      {
+        "candidate_id": "CiTE-0179",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "低热导与高功率因子联合增强ZT，温度组成和比较均保留。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP1176-001",
+        "label": "valid",
+        "reason": "熵工程整体导致Seebeck改善可由相邻结果句归因。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0067"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP1176-002",
+        "label": "valid",
+        "reason": "通过增加元素工程化构型熵为明确方法关系，候选仅藏在长主语中。",
+        "full_coverage_sets": [],
+        "partial_candidates": [
+          "CiTE-0059",
+          "CiTE-0154"
+        ]
+      },
+      {
+        "reference_id": "GP1176-003",
+        "label": "out_of_scope",
+        "reason": "整个所测温区0.2–0.3的低热导为性能测量范围，未给温度趋势或直接结构归因。",
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP1176-004",
+        "label": "valid",
+        "reason": "熵工程促进多谷价带为明确关系。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0154"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP1176-005",
+        "label": "valid",
+        "reason": "结果句直接承接整体熵工程设计降低电阻率。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0147"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP1176-006",
+        "label": "valid",
+        "reason": "端元合金化形成连续固溶体明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0151"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP1176-007",
+        "label": "valid",
+        "reason": "低热导和增强PF共同提升ZT且给定比较，非孤立数字。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0179"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP1176-008",
+        "label": "uncertain",
+        "reason": "高对称相标签在原摘要损坏，参考未标该不确定性。",
+        "partial_candidates": []
+      }
+    ],
+    "note": "高对称相的一般性质可理解，但按冻结规则保留源相标识损坏；未修复标签。"
+  },
+  {
+    "paper_id": "P0727",
+    "candidates": [
+      {
+        "candidate_id": "CiTE-0020",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "两项遗漏贡献可能抵消是模拟结果提出的可能解释，保留may。"
+      },
+      {
+        "candidate_id": "CiTE-0057",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文明示互扩散相关的偏焓热流贡献。"
+      },
+      {
+        "candidate_id": "CiTE-0084",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文明示导热中与电荷热流耦合相关的一部分。"
+      },
+      {
+        "candidate_id": "CiTE-0176",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "NaCl/KCl中纯系统NEMD与二元EMD导热一致明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0727-001",
+        "label": "valid",
+        "reason": "两种模拟与假设条件下的结果比较明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0176"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0727-002",
+        "label": "valid",
+        "reason": "原文possible cancellation且限定二元离子混合物。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0020"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考未单收互扩散—偏焓热流及耦合通量—热导贡献两条明确关系；未扩充分母。"
+  },
+  {
+    "paper_id": "P0707",
+    "candidates": [
+      {
+        "candidate_id": "CiTE-0014",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "纯热电失稳情形integer扰动最危险明确，理论模态有predictions支撑。"
+      },
+      {
+        "candidate_id": "CiTE-0036",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "所研究热电与浮力耦合明确，不虚构其作用方向。"
+      },
+      {
+        "candidate_id": "CiTE-0062",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "所研究热电与表面张力梯度耦合明确。"
+      },
+      {
+        "candidate_id": "CiTE-0093",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留开放顶面法向谐变热流及液层材料，参数激发关系明确。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0707-001",
+        "label": "valid",
+        "reason": "纯热电失稳中integer扰动最危险为明确极值关系。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0014"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0707-002",
+        "label": "valid",
+        "reason": "热流边界和液层的参数激发关系明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0093"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "参考漏收两个明确物理耦合关系；无耦合对阈值方向的新增推断。"
+  },
+  {
+    "paper_id": "P0498",
+    "candidates": [
+      {
+        "candidate_id": "CiTE-0006",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "保留限制热膨胀和位阻的联合假说及增压等容无对流条件。"
+      },
+      {
+        "candidate_id": "CiTE-0009",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验长链与更强分子间缔合相关，材料几何均保留。"
+      },
+      {
+        "candidate_id": "CiTE-0027",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验长链与更低Seebeck的反模型趋势明确。"
+      },
+      {
+        "candidate_id": "CiTE-0046",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "等容模型预测长链提高Seebeck，且保留被实验相反趋势否定。"
+      },
+      {
+        "candidate_id": "CiTE-0054",
+        "label": "partial",
+        "error_tags": [
+          "joint_factor",
+          "condition"
+        ],
+        "reason": "预测方向有据，但把列举两因素编码共同因素且漏等容模型及实验相反趋势。"
+      },
+      {
+        "candidate_id": "CiTE-0089",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验长链与更低密度相关明确。"
+      },
+      {
+        "candidate_id": "CiTE-0108",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验长链与更强位阻排斥相关明确。"
+      },
+      {
+        "candidate_id": "CiTE-0148",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "实验长链与更大热膨胀相关明确。"
+      },
+      {
+        "candidate_id": "CiTE-0171",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "大温差下热膨胀与Seebeck负相关准确。"
+      },
+      {
+        "candidate_id": "CiTE-0187",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "原文列举greater disparity预测更大Seebeck，保留等容模型。"
+      },
+      {
+        "candidate_id": "CiTE-0204",
+        "label": "uncertain",
+        "error_tags": [
+          "source_ambiguous"
+        ],
+        "reason": "两温差两系数数值如实保留，但ether ion身份在源中不明，未可确定所指材料。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0498-001",
+        "label": "valid",
+        "reason": "大温差负相关明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0171"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-002",
+        "label": "valid",
+        "reason": "长链与膨胀量相关明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0148"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-003",
+        "label": "uncertain",
+        "reason": "原文宣称非线性但ether ion材料身份含糊，参考亦未消除源歧义。",
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-004",
+        "label": "valid",
+        "reason": "结果导出的等容设计联合建议及may保留；混合背景确有理论和实验。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0006"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-005",
+        "label": "uncertain",
+        "reason": "原文greater disparity和longer groups是列举预测因素，未明确共同归因；joint_factors过强。",
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-006",
+        "label": "valid",
+        "reason": "长链与较低密度关系明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0089"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-007",
+        "label": "valid",
+        "reason": "长链与更低Seebeck关系明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0027"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-008",
+        "label": "valid",
+        "reason": "长链与更强分子间缔合关系明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0009"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0498-009",
+        "label": "valid",
+        "reason": "长链与更强位阻排斥关系明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0108"
+          ]
+        ],
+        "partial_candidates": []
+      }
+    ],
+    "note": "未将两因素列举强制当共同贡献；源ether ion保持不确定而不替换成either ion。"
+  },
+  {
+    "paper_id": "P0849",
+    "candidates": [
+      {
+        "candidate_id": "CiTE-0026",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "iTEG/PV集成增加总体输出为本篇明确实验结果。"
+      },
+      {
+        "candidate_id": "CiTE-0032",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "工作温度降低有利于减小温度系数导致的PCE损失明确。"
+      },
+      {
+        "candidate_id": "CiTE-0143",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "iTEG与PV集成实现废热利用明确。"
+      },
+      {
+        "candidate_id": "CiTE-0159",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "100次循环保持发电是明确稳定性关系。"
+      },
+      {
+        "candidate_id": "CiTE-0189",
+        "label": "supported",
+        "error_tags": [
+          "none"
+        ],
+        "reason": "iTEG导致太阳板降温2度为直接设计效应。"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "GP0849-001",
+        "label": "valid",
+        "reason": "太阳板降温帮助降低温度相关PCE损失明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0032"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0849-002",
+        "label": "valid",
+        "reason": "iTEG降温效应明确。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0189"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0849-003",
+        "label": "valid",
+        "reason": "循环条件下维持发电是稳定性结果。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0159"
+          ]
+        ],
+        "partial_candidates": []
+      },
+      {
+        "reference_id": "GP0849-004",
+        "label": "valid",
+        "reason": "同一集成设计的废热利用和增功率均明确，两候选共享同一归因可合覆盖。",
+        "full_coverage_sets": [
+          [
+            "CiTE-0143",
+            "CiTE-0026"
+          ]
+        ],
+        "partial_candidates": [
+          "CiTE-0143",
+          "CiTE-0026"
+        ]
+      }
+    ],
+    "note": "保留循环稳定性及设计降温关系，不抽孤立功率和能量密度测量。"
+  }
+]

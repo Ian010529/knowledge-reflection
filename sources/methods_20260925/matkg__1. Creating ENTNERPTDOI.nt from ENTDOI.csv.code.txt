@@ -1,0 +1,171 @@
+import pandas as pd
+import random 
+import matplotlib.pyplot as plt
+from fuzzywuzzy import fuzz
+from collections import defaultdict
+from rdflib import Graph, Literal, Namespace, RDF, URIRef, BNode
+import openai
+import ast
+import pickle
+from urllib.parse import quote
+from tqdm import tqdm
+
+ENTDOI = pd.read_csv('ENTPTNERDOI.csv')
+
+ENTDOI.sample(5)
+
+print("Number of rows : {}".format(ENTDOI.shape[0]))
+
+all_entities = list(set(ENTDOI['Entity'].tolist()))
+
+print("Number of entities : {}".format(len(all_entities)))
+
+clusters = defaultdict(set)
+threshold = 90
+for entity in tqdm(entity_list, total = len(entity_list)):
+    found = False
+    for key in clusters.keys():
+        if fuzz.ratio(key, entity) >= threshold:
+            clusters[key].add(entity)
+            found = True
+            break
+    if not found:
+        clusters[entity].add(entity)
+
+openai.api_key = '<enter api key>'
+
+prompt = """
+Given a list of scientific terms as input, return a list of normalized terms as output. The normalization should take into\
+account minor spelling variations, plural forms, special characters, and word order. Additionally, the normalization should\
+preserve distinctions in terms that have specific additional descriptors. Each input term should have a corresponding\
+output term in title case.
+
+Examples:
+Input: ['nanobeam', 'nanobeams', 'gap activity', 'gpx activity', 'alp activity', 'vibration amplitude', 'vibration amplitudes',\
+ 'photo images', 'Photo images', 'photo image', 'pebbles', 'pebble', 'pressure drops', 'pressure - drop',\
+ 'dark-field image.']
+Output: ['Nanobeam', 'Nanobeam', 'Gap Activity', 'GPX Activity', 'ALP Activity', 'Vibration Amplitude', 'Vibration Amplitude',\
+ 'Photo Images', 'Photo Images', 'Photo Images', 'Pebbles', 'Pebbles', 'Pressure Drop', 'Pressure Drop', 'Dark Field Image']
+Please provide the output as a list for the given input terms
+Input Terms:
+{}
+Output Terms:
+"""
+
+def return_prompt(input_):
+    return prompt.format(input_)
+
+mapping_dict = {}
+failed_lists = []
+final_list = [list(value) for key, value in clusters.items()]
+
+for input_list in tqdm(final_lists, total = len(final_lists)):
+    Run = True
+    for x in input_list:
+        if x in mapping_dict:
+            Run = False
+    try:
+        if Run:
+            response = openai.Completion.create(
+                                model="text-davinci-003",
+                                prompt = return_prompt(input_list),
+                                max_tokens=1024,
+                                temperature=0.1,
+                            )
+            result=response.choices[0].text
+            result_list = ast.literal_eval(result)
+
+            if len(result_list) == len(input_list):
+                for A, B in zip(input_list, result_list):
+                    mapping_dict[A] = B
+            else:
+                failed_lists.append([input_list, result_list])
+
+            if random.random()<0.01:
+                time.sleep(100)
+                pickle.dump(mapping_dict, open('final_rdf_mapping_dict.pickle', 'wb'))
+                pickle.dump(failed_lists, open('final_rdf_error_lists.pickle', 'wb'))
+        else:
+            continue
+    except:
+        failed_lists.append([input_list, result_list])
+
+all_pref = list(set(ENTDOI['Preferred_Entity'].tolist()))
+
+# Adding this data to the DataFrame
+ENTDOI['Preferred_Entity'] = ENTDOI['Preferred_Entity'].apply(lambda x: mapping_dict[x] if x in mapping_dict else x)
+
+ENTDOI.to_csv('ENTDOI.csv', index = None)
+
+def sanitize_entity(entity):
+    return quote(entity)
+
+ENTDOI.head()
+
+NER, pref_entity = ENTDOI[['NER_Tag', 'Preferred_Entity']].values.T
+
+len(NER), len(pref_entity)
+
+# Dictionary to keep track of entity URI mappings
+entity_uri_mapping = {}
+
+for ner, pref_ent in tqdm(zip(NER, pref_entity), total = len(NER)):
+    if pref_ent:
+
+        # Add Preferred_Entity, creating a URI based on NER tag
+        preferred_entity_uri = URIRef("http://example.com/{}/{}".format(ner, sanitize_entity(pref_ent)))
+
+        entity_uri_mapping[pref_ent] = preferred_entity_uri
+
+# Create a RDF graph
+# Create an empty RDF graph
+g = Graph()
+
+# Define namespaces
+n = Namespace("http://example.com/")
+doi = Namespace("https://doi.org/")
+entity_uri_dict= {}
+
+# Iterate through each row in the DataFrame to create RDF triples
+for index, row in tqdm(ENTDOI.iterrows(), total = ENTDOI.shape[0]):
+    
+    if any(pd.isnull(row)):
+        continue
+    
+    
+    try:
+        node_uri = URIRef(f"http://example.com/row{index}")
+
+        # Add Entity
+        g.add((node_uri, n.hasEntity, Literal(row['Entity'])))
+        
+        # Add Part_of_text
+        g.add((node_uri, n.partOfText, Literal(row['Part_of_text'])))
+
+        # Add NER_Tag
+        g.add((node_uri, n.hasNER_Tag, Literal(row['NER_Tag'])))
+        
+
+
+        # Add DOI, encoding it first
+        encoded_doi = quote(row['DOI'])
+        doi_uri     =  URIRef(f"https://doi.org/{encoded_doi}")
+        g.add((node_uri, n.hasDOI, doi_uri))
+        # Add Year to DOI       
+        g.add((doi_uri, n.hasYear, Literal(row['Year'])))
+        
+        # Add Preferred_Entity, creating a URI based on NER tag
+        preferred_entity_uri =entity_uri_mapping[row['Preferred_Entity']]
+        g.add((node_uri, n.hasPreferredEntity, preferred_entity_uri))
+        entity_uri_dict[row['Preferred_Entity']] = preferred_entity_uri
+        
+        if (index+1)%10000000==0:
+            g.serialize(destination='ENTPTNERDOI.nt', format='nt')
+    except Exception as e:
+        print(e)
+        pass
+
+g.serialize(destination='ENTPTNERDOI.nt', format='nt')    
+
+print("Done")
+

@@ -1,0 +1,121 @@
+{
+  "pairs": [
+    {
+      "review_id": "B07",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "thermogalvanic_redox",
+      "right_physics": "thermogalvanic_redox",
+      "match": 2,
+      "level": "same_mechanism",
+      "explanation": "两侧均明确支持“材料与氧化还原离子相互作用→增大同一铁氰化物电对的熵差”。左侧保留磺酸根与苯基的共同作用，右侧限定选择性结合及水–甲醇介质；属于已有热电化学机制的相互印证。",
+      "conditions": "insufficient",
+      "physical_boundary": "共同终点是氧化还原熵差，不是离子热扩散。具体结合方式不同；右侧溶剂条件与左侧湿度范围能否兼容尚无证据，不能推断结合越强、功率越高。",
+      "neighbor_claim_ids": [
+        "iTE:P1614:r005",
+        "iTE:P1614:r007",
+        "TG:P0084:r005",
+        "TG:P0084:r007"
+      ],
+      "local_structure_assessment": "左侧r005→r006、右侧r005→r006均支持各自论文内“材料基团/材料→相互作用→熵差”的有向路径。左侧r006→r007还连接热电势；右侧r007是结合产生传输通道的分支，不能当作熵差的下游。",
+      "transfer": "already_similar_mechanism",
+      "insight_question": "",
+      "limitations": "摘要给出作者机制归因，未提供熵差测定细节或各相互作用的独立贡献；不构成新颖性结论。"
+    },
+    {
+      "review_id": "B08",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧是平均晶体结构含交替层间铜的组成关系，右侧是结晶所建立的Cu2+浓度梯度提高热电势的因果关系。铜元素和结构词汇重合不能建立关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧目标仅描述固体晶体占位，未指定电压产生机制；其全文语境涉及能带与zT。右侧明确为液态Cu+/Cu2+氧化还原体系，不能把层间铜视为溶液浓度梯度。",
+      "neighbor_claim_ids": [
+        "iTE:P1232:r001",
+        "TG:P0255:r003"
+      ],
+      "local_structure_assessment": "左侧r001与目标是同一主体的组成分支，不形成因果链；右侧r003→r004形成“热敏结晶→浓度梯度→热电势”路径，无左侧对应路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧关于结构重排、熵与zT的潜在联系不能替代所选组成关系；摘要不足以支持跨体系迁移。"
+    },
+    {
+      "review_id": "B09",
+      "left_support": "partial",
+      "right_support": "supported",
+      "left_physics": "thermogalvanic_redox",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "两侧均报告水凝胶的负Seebeck系数，材料→性能关系有限对应。左侧数值有依据，但冻结条件仅写n型，遗漏摘要中超过LCST后收缩、选择性捕获并改变氧化还原反应的限定；右侧0.8 M样品及数值明确。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧是温敏捕获铁氰根所调控的氧化还原响应，右侧采用铁(II/III)高氯酸盐；相同负号不证明同一选择性结合机制。摘要中的扩散调控也不足以另判独立Soret贡献或混合机制。",
+      "neighbor_claim_ids": [
+        "iTE:P0434:r005",
+        "iTE:P0434:r006"
+      ],
+      "local_structure_assessment": "左侧邻居说明冷热端物种变化与LCST条件，但与目标共享材料主体，冻结边不能拼成捕获→Seebeck的两边路径。右侧无对应机制路径，仅能保留单边性能对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "两侧缺少共同温度、温差及测量条件；最大值与特定浓度样品值不能直接排名，右侧未说明负热电势的具体调控机制。"
+    },
+    {
+      "review_id": "B10",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 2,
+      "level": "shared_outcome_only",
+      "explanation": "两侧均直接支持“离子液体相关材料/器件→具有非挥发性”的属性关系，端点具有明确可比性；这是材料属性对应，不是热电转换机制对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "非挥发性本身不确定电荷转换机制，也不等于不泄漏或自修复。右侧虽采用钴配合物氧化还原热电池，所选非挥发性关系并未描述该机制。",
+      "neighbor_claim_ids": [],
+      "local_structure_assessment": "仅支持单边属性对应；所供其他性能边不能建立非挥发性→热电势、功率或自修复的因果路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧为综述概括，右侧为具体准固态电解质；均未给出挥发损失的温度、时长或定量标准，不能据此提出性能迁移。"
+    },
+    {
+      "review_id": "B11",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧支持KCl在复合物中充当离子源，右侧支持熔盐中N2经阴极还原形成原文记作N3(-)的离子。供盐与电极反应生成物不是可对应的定向关系。",
+      "conditions": "conflict",
+      "physical_boundary": "明胶柔性传感复合物与熔融LiCl–KCl电解环境存在明显材料和工作状态差异。左侧未明确热扩散或电极氧化还原，右侧目标是阴极还原而非已证实的热驱动发电过程。",
+      "neighbor_claim_ids": [
+        "TG:P0234:r007"
+      ],
+      "local_structure_assessment": "右侧r007仅表示该还原过程启发热电池应用，与离子生成边共享起点；不能拼成离子生成→热电池性能的路径。左侧无邻居路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "保留N3(-)的原始歧义，不修正离子身份；右侧热电池应用为提议，左侧离子源角色不足以确定热电机制。"
+    },
+    {
+      "review_id": "B12",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "electronic_thermoelectric",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧支持传统热电优值影响BiCuSeO转换效率，且未指定变化方向；右侧明确否定双电池系统效率依赖传统热电优值。保留assertion=negated后，两条关系并不对应。",
+      "conditions": "conflict",
+      "physical_boundary": "左侧是载流子输运相关的固体电子热电材料；右侧是热与电传导解耦、流量须响应电流的双电化学流动电池。其理论效率边界不能套用左侧材料优值关系。",
+      "neighbor_claim_ids": [
+        "TG:P0302:r003"
+      ],
+      "local_structure_assessment": "右侧r003说明独立优化传热与导电以提高效率的架构背景；接续目标时必须保留否定，不能构造正向的优值→效率链。左侧无两边路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "关系冲突来自不同系统条件，并非两篇论文互相证伪；右侧是理论分析，所报效率不能当作已实测性能。"
+    }
+  ]
+}

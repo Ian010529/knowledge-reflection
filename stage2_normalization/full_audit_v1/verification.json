@@ -1,0 +1,57 @@
+{
+  "validation": "PASS",
+  "semantic_quality_not_verified": true,
+  "baseline_sha256": "24049e5cddd0f37d50e58799e5a0d29371ae0c51abdce2c3a8f10dbb7f0150ed",
+  "papers": 1971,
+  "relations": 21115,
+  "checked_quote_and_method_spans": 39508,
+  "original_uncertain_actions": {
+    "keep": 461,
+    "uncertain": 131,
+    "reject": 43,
+    "replace": 25
+  },
+  "per_domain": {
+    "iTE": {
+      "papers": 1639,
+      "relations": 17987,
+      "status": {
+        "accepted": 17864,
+        "uncertain": 123
+      }
+    },
+    "TG": {
+      "papers": 332,
+      "relations": 3128,
+      "status": {
+        "accepted": 3120,
+        "uncertain": 8
+      }
+    }
+  },
+  "remaining_exact_local_joint_tokens": [],
+  "modality_guard_alerts": [],
+  "successful_calls": {
+    "reference": 10,
+    "precision": 27,
+    "coverage": 10,
+    "repair": 53
+  },
+  "usage": {
+    "input_tokens": 2986234,
+    "cached_input_tokens": 244480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 184573,
+    "reasoning_output_tokens": 24333
+  },
+  "model_call_wall_minutes": 20.917557833333333,
+  "outputs_sha256": {
+    "change_log.json": "01cc0af9ed1bb5bd6bab6ccb8585d4c2e537e7cbc82130d0ca55142f4ab0d7a0",
+    "joint_factor_resolution.json": "a3c241438dc1b2a3c4f1208138f5714e4c2e2e58e991de7a68b42e1a17f66c76",
+    "rejected.json": "f7f480bf99dd67c1eb903611f900c5833841e00c1e840e5590903f70b65873d3",
+    "revised_TG.json": "a87926b287a9f9dbf548ba0b7fe891f7b7d06b4eb44d9aaad7fdae06f2b049e2",
+    "revised_all.json": "469aa1a712bd443214095b35ba5d4e6481069e90cd7ed65198643300d3c65401",
+    "revised_iTE.json": "2495e627da178568658db8ad7b03a63c6d29f8ece0d9c27b2016209af66d504d",
+    "summary.json": "258f36a9ea542f9a869331e77a9344767b018f1e130a9939d1e82f3081db1496"
+  }
+}

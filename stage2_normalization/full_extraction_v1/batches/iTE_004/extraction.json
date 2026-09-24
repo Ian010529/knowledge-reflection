@@ -1,0 +1,3373 @@
+[
+  {
+    "paper_id": "P0370",
+    "domain": "iTE",
+    "input_hash": "ced237e141fe77a62badd75f54e5d72bedcbacf8fde833fbbc7c954242b96c55",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0370:r001",
+        "subject": "ITESC charging and discharging current",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0370:c",
+        "predicate": "directly_operates",
+        "object": "Direct operation of resistive sensors",
+        "object_role": "application",
+        "object_id": "P0370:r",
+        "quote": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 173,
+            "end": 303
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0370:r002",
+        "subject": "Periodic temperature gradient applied to connected ITESC",
+        "subject_role": "condition",
+        "subject_id": "P0370:t",
+        "predicate": "powers",
+        "object": "Powered humidity monitoring",
+        "object_role": "application",
+        "object_id": "P0370:h",
+        "quote": "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 303,
+            "end": 404
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0370:r003",
+        "subject": "Ionic thermoelectric supercapacitor (ITESC)",
+        "subject_role": "material_entity",
+        "subject_id": "P0370:i",
+        "predicate": "could_power",
+        "object": "Autonomously powered portable sensors",
+        "object_role": "application",
+        "object_id": "P0370:p",
+        "quote": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. ",
+        "context_quotes": [
+          "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. ",
+          "By leveraging these properties and residual environmental heat, ITESCs can offer a promising method for autonomously powered portable sensors."
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using ITESC charging/discharging properties and residual environmental heat.",
+        "joint_factors": [
+          "w"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 173,
+            "end": 303
+          },
+          {
+            "start": 303,
+            "end": 404
+          },
+          {
+            "start": 404,
+            "end": 546
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0371",
+    "domain": "iTE",
+    "input_hash": "e02d01744246c57b319c2951a7a198bb69cca80ccb08dc431e4a4fc8a669e493",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0371:r001",
+        "subject": "Water infiltration and evaporation",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0371:w",
+        "predicate": "converts_heating_into",
+        "object": "Temperature oscillations at top electrode",
+        "object_role": "state_structure",
+        "object_id": "P0371:t",
+        "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+        "context_quotes": [
+          "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the carbon nanotube-cellulose membrane under constant solar illumination.",
+        "joint_factors": [
+          "s"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 169,
+            "end": 323
+          },
+          {
+            "start": 323,
+            "end": 557
+          },
+          {
+            "start": 1188,
+            "end": 1315
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0371:r002",
+        "subject": "Carbon nanotube-cellulose membrane solar absorber",
+        "subject_role": "material_entity",
+        "subject_id": "P0371:m",
+        "predicate": "provides",
+        "object": "Temperature oscillations at top electrode",
+        "object_role": "state_structure",
+        "object_id": "P0371:t",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [
+          "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through water infiltration and evaporation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 323,
+            "end": 557
+          },
+          {
+            "start": 1188,
+            "end": 1315
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0371:r003",
+        "subject": "Temperature oscillations at top electrode",
+        "subject_role": "state_structure",
+        "subject_id": "P0371:t",
+        "predicate": "induces",
+        "object": "Temporally varying temperature gradients across ITESC",
+        "object_role": "condition",
+        "object_id": "P0371:g",
+        "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+        "context_quotes": [
+          "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Across the ITESC.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 169,
+            "end": 323
+          },
+          {
+            "start": 323,
+            "end": 557
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0371:r004",
+        "subject": "Temporally varying temperature gradients across ITESC",
+        "subject_role": "condition",
+        "subject_id": "P0371:g",
+        "predicate": "drives",
+        "object": "Vertical ionic thermoelectric supercapacitor",
+        "object_role": "material_entity",
+        "object_id": "P0371:i",
+        "quote": "A vertical ionic thermoelectric supercapacitor (ITESC) is driven by intermittent temperature gradients as induced by constant solar heating and periodic evaporative cooling. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Gradients induced by constant solar heating and periodic evaporative cooling.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1014,
+            "end": 1188
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0371:r005",
+        "subject": "Temporally varying temperature gradients across ITESC",
+        "subject_role": "condition",
+        "subject_id": "P0371:g",
+        "predicate": "enables",
+        "object": "Repeated charge and discharge cycles",
+        "object_role": "mechanism_process",
+        "object_id": "P0371:c",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 323,
+            "end": 557
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0371:r006",
+        "subject": "Repeated charge and discharge cycles",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0371:c",
+        "predicate": "enables",
+        "object": "Continuous ITESC operation",
+        "object_role": "performance_function",
+        "object_id": "P0371:o",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 323,
+            "end": 557
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0371:r007",
+        "subject": "Carbon nanotube-cellulose membrane solar absorber",
+        "subject_role": "material_entity",
+        "subject_id": "P0371:m",
+        "predicate": "can_generate",
+        "object": "Top-electrode temperature variation of 10 K",
+        "object_role": "quantity",
+        "object_id": "P0371:v",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [
+          "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Solar heating modulated by water infiltration and evaporation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 323,
+            "end": 557
+          },
+          {
+            "start": 557,
+            "end": 712
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0371:r008",
+        "subject": "Top-electrode temperature variation of 10 K",
+        "subject_role": "quantity",
+        "subject_id": "P0371:v",
+        "predicate": "leads_to",
+        "object": "Variation in ITESC temperature difference of 7.5 K",
+        "object_role": "quantity",
+        "object_id": "P0371:d",
+        "quote": "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 557,
+            "end": 712
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0371:r009",
+        "subject": "Adjustment of added-water volume and interval",
+        "subject_role": "design_strategy",
+        "subject_id": "P0371:a",
+        "predicate": "enables",
+        "object": "Precise control of charge and discharge durations",
+        "object_role": "performance_function",
+        "object_id": "P0371:l",
+        "quote": "Precise control over charge and discharge durations can be achieved by adjusting the volume and interval of the added water. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 712,
+            "end": 837
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0371:r010",
+        "subject": "Temporal temperature adjustment by evaporative cooling",
+        "subject_role": "design_strategy",
+        "subject_id": "P0371:e",
+        "predicate": "could_enable",
+        "object": "Intermittent heating from other typically constant heat sources",
+        "object_role": "application",
+        "object_id": "P0371:h",
+        "quote": "The concept of temporarily adjusting temperatures by evaporative cooling may be extended to create intermittent heating also for other heat sources that are typically constant. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 837,
+            "end": 1014
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0372",
+    "domain": "iTE",
+    "input_hash": "daf2a429d601914a393020d97ee4e1a403780b38b9e418a6114456b54b167354",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0372:r001",
+        "subject": "Calcium sulfoaluminate (CSA) cement paste",
+        "subject_role": "material_entity",
+        "subject_id": "P0372:c",
+        "predicate": "is_proposed_for",
+        "object": "Thermoelectric energy storage",
+        "object_role": "application",
+        "object_id": "P0372:u",
+        "quote": "The main purpose of this work is to demonstrate the potential of calcium sulfoaluminate (CSA) cement for thermoelectric energy storage applications. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Stated purpose of the work.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 149
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0372:r002",
+        "subject": "Calcium sulfoaluminate (CSA) cement paste",
+        "subject_role": "material_entity",
+        "subject_id": "P0372:c",
+        "predicate": "exhibits",
+        "object": "Large thermal voltage typical of ionic thermoelectric effect",
+        "object_role": "quantity",
+        "object_id": "P0372:v",
+        "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+        "context_quotes": [
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+          "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 149,
+            "end": 345
+          },
+          {
+            "start": 345,
+            "end": 437
+          },
+          {
+            "start": 564,
+            "end": 687
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 149,
+            "end": 345
+          },
+          {
+            "start": 345,
+            "end": 437
+          }
+        ]
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0372:r003",
+        "subject": "Ordinary Portland cement (OPC) paste",
+        "subject_role": "material_entity",
+        "subject_id": "P0372:o",
+        "predicate": "exhibits",
+        "object": "Large thermal voltage typical of ionic thermoelectric effect",
+        "object_role": "quantity",
+        "object_id": "P0372:v",
+        "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+        "context_quotes": [
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+          "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 149,
+            "end": 345
+          },
+          {
+            "start": 345,
+            "end": 437
+          },
+          {
+            "start": 564,
+            "end": 687
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 149,
+            "end": 345
+          },
+          {
+            "start": 345,
+            "end": 437
+          }
+        ]
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0372:r004",
+        "subject": "Oven drying at 70 degrees C versus non-dried samples",
+        "subject_role": "condition",
+        "subject_id": "P0372:d",
+        "predicate": "is_associated_with_differences_in",
+        "object": "Thermal voltage",
+        "object_role": "quantity",
+        "object_id": "P0372:t",
+        "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+        "context_quotes": [
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+          "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. "
+        ],
+        "assertion": "association",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+        ],
+        "conditions": "OPC and CSA cement paste samples; direction of difference unspecified.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 149,
+            "end": 345
+          },
+          {
+            "start": 345,
+            "end": 437
+          },
+          {
+            "start": 687,
+            "end": 885
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 149,
+            "end": 345
+          },
+          {
+            "start": 345,
+            "end": 437
+          }
+        ]
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0372:r005",
+        "subject": "Multi-ionic thermal diffusion and drift",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0372:f",
+        "predicate": "is_attributed_as_origin_of",
+        "object": "Hysteresis-like behavior of increment V versus time and increment V versus increment T curves",
+        "object_role": "state_structure",
+        "object_id": "P0372:b",
+        "quote": "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Complex multi-ionic thermal diffusion and drift framework.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 885,
+            "end": 1108
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0372:r006",
+        "subject": "Water loss",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0372:w",
+        "predicate": "may_influence",
+        "object": "Observed thermoelectric behavior",
+        "object_role": "performance_function",
+        "object_id": "P0372:r",
+        "quote": "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. ",
+        "context_quotes": [
+          "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+          "Moreover, water loss may play a very important role as depicted by the difference between the results observed in non-dried and dried samples."
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Inferred by authors from differences between non-dried and dried samples.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 687,
+            "end": 885
+          },
+          {
+            "start": 885,
+            "end": 1108
+          },
+          {
+            "start": 1108,
+            "end": 1250
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0373",
+    "domain": "iTE",
+    "input_hash": "f4208a3089771a9856be301789362c1d2f91c31931750456e431ff3034fe8ec6",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0373:r001",
+        "subject": "Ionic thermoelectric polymer composite",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:m",
+        "predicate": "exhibits",
+        "object": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0373:b",
+        "quote": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. ",
+        "context_quotes": [
+          "Here, the authors find the ionic thermoelectric material exhibiting bipolar thermopower property by manipulating the interactions between ions and electrodes."
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "By manipulating interactions between ions and electrodes.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 271,
+            "end": 432
+          },
+          {
+            "start": 1212,
+            "end": 1370
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0373:r002",
+        "subject": "Manipulation of ion-electrode interactions",
+        "subject_role": "design_strategy",
+        "subject_id": "P0373:s",
+        "predicate": "enables",
+        "object": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0373:b",
+        "quote": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Reversible polarity change in the same composite.",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 271,
+            "end": 432
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0373:r003",
+        "subject": "Switching external electrodes",
+        "subject_role": "design_strategy",
+        "subject_id": "P0373:e",
+        "predicate": "enables",
+        "object": "Alternating cation-dominated and anion-dominated thermodiffusion",
+        "object_role": "mechanism_process",
+        "object_id": "P0373:d",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Proposed generator under a constant heat course.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 432,
+            "end": 699
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0373:r004",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:g",
+        "predicate": "is_proposed_to_achieve",
+        "object": "Cyclic power generation",
+        "object_role": "performance_function",
+        "object_id": "P0373:p",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under a constant heat course, only by switching external electrodes to alternate dominant ion thermodiffusion.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 432,
+            "end": 699
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0373:r005",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:g",
+        "predicate": "requires",
+        "object": "Changing material-heat thermal contact",
+        "object_role": "mechanism_process",
+        "object_id": "P0373:t",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [
+          "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+        ],
+        "assertion": "negated",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Proposed electrode-switching operation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 432,
+            "end": 699
+          },
+          {
+            "start": 699,
+            "end": 917
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0373:r006",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:g",
+        "predicate": "requires",
+        "object": "Re-establishing temperature differences",
+        "object_role": "mechanism_process",
+        "object_id": "P0373:r",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [
+          "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+        ],
+        "assertion": "negated",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Proposed electrode-switching operation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 432,
+            "end": 699
+          },
+          {
+            "start": 699,
+            "end": 917
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0373:r007",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:g",
+        "predicate": "may_favor",
+        "object": "Improved ionic thermoelectric efficiency",
+        "object_role": "performance_function",
+        "object_id": "P0373:f",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [
+          "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+        ],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "By eliminating thermal-contact changes and re-establishment of temperature differences.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 432,
+            "end": 699
+          },
+          {
+            "start": 699,
+            "end": 917
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0373:r008",
+        "subject": "Developed micro-thermal sensors",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:n",
+        "predicate": "demonstrates",
+        "object": "High sensitivity in light detection",
+        "object_role": "performance_function",
+        "object_id": "P0373:h",
+        "quote": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 917,
+            "end": 1122
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0373:r009",
+        "subject": "Developed micro-thermal sensors",
+        "subject_role": "material_entity",
+        "subject_id": "P0373:n",
+        "predicate": "demonstrates",
+        "object": "High responsivity in light detection",
+        "object_role": "performance_function",
+        "object_id": "P0373:q",
+        "quote": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 917,
+            "end": 1122
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0374",
+    "domain": "iTE",
+    "input_hash": "6d0031b434e761e7d9b943bdb398ff3b5c3fd4c51733c018fb74fc15724885cc",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0374:r001",
+        "subject": "Polyquaternium-10 (PQ-10) cellulose derivative",
+        "subject_role": "material_entity",
+        "subject_id": "P0374:p",
+        "predicate": "serves_as_polymer_matrix_of",
+        "object": "PQ-10/NaOH ionic thermoelectric hydrogel",
+        "object_role": "material_entity",
+        "object_id": "P0374:h",
+        "quote": "Here, ultrasensitive flexible thermal sensor arrays based on an iTE hydrogel consisting of polyquaternium-10 (PQ-10), a cellulose derivative, as the polymer matrix and sodium hydroxide (NaOH) as the ion source are reported. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 372,
+            "end": 596
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0374:r002",
+        "subject": "Sodium hydroxide (NaOH)",
+        "subject_role": "material_entity",
+        "subject_id": "P0374:n",
+        "predicate": "serves_as_ion_source_for",
+        "object": "PQ-10/NaOH ionic thermoelectric hydrogel",
+        "object_role": "material_entity",
+        "object_id": "P0374:h",
+        "quote": "Here, ultrasensitive flexible thermal sensor arrays based on an iTE hydrogel consisting of polyquaternium-10 (PQ-10), a cellulose derivative, as the polymer matrix and sodium hydroxide (NaOH) as the ion source are reported. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 372,
+            "end": 596
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0374:r003",
+        "subject": "PQ-10/NaOH ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0374:h",
+        "predicate": "achieves",
+        "object": "Thermopower of 24.17 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0374:v",
+        "quote": "The developed PQ-10/NaOH iTE hydrogel achieves a thermopower of 24.17 mV K-1, which is among the highest values reported for biopolymer-based iTE materials. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Among the highest reported values for biopolymer-based ionic thermoelectric materials.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 596,
+            "end": 753
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0374:r004",
+        "subject": "Na+ thermodiffusion",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0374:d",
+        "predicate": "is_attributed_as_origin_of",
+        "object": "High p-type thermopower",
+        "object_role": "performance_function",
+        "object_id": "P0374:t",
+        "quote": "The high p-type thermopower can be attributed to thermodiffusion of Na+ ions under a temperature gradient, while the movement of OH- ions is impeded by the strong electrostatic interaction with the positively charged quaternary amine groups of PQ-10. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under a temperature gradient in PQ-10/NaOH hydrogel; OH- motion is impeded.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 753,
+            "end": 1004
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0374:r005",
+        "subject": "Strong electrostatic interaction of OH- with positively charged PQ-10 quaternary amine groups",
+        "subject_role": "interaction",
+        "subject_id": "P0374:e",
+        "predicate": "impedes",
+        "object": "OH- movement",
+        "object_role": "mechanism_process",
+        "object_id": "P0374:o",
+        "quote": "The high p-type thermopower can be attributed to thermodiffusion of Na+ ions under a temperature gradient, while the movement of OH- ions is impeded by the strong electrostatic interaction with the positively charged quaternary amine groups of PQ-10. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In PQ-10/NaOH hydrogel.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 753,
+            "end": 1004
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0374:r006",
+        "subject": "Patterning PQ-10/NaOH hydrogel on flexible printed circuit boards",
+        "subject_role": "design_strategy",
+        "subject_id": "P0374:s",
+        "predicate": "produces",
+        "object": "Flexible thermal sensor arrays",
+        "object_role": "material_entity",
+        "object_id": "P0374:a",
+        "quote": "Flexible thermal sensor arrays are developed through patterning the PQ-10/NaOH iTE hydrogel on flexible printed circuit boards, which can perceive spatial thermal signals with high sensitivity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Flexible thermal sensor arrays are developed through patterning the PQ-10/NaOH iTE hydrogel on flexible printed circuit boards, which can perceive spatial thermal signals with high sensitivity. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1004,
+            "end": 1198
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 1004,
+            "end": 1198
+          }
+        ]
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0374:r007",
+        "subject": "Flexible thermal sensor arrays",
+        "subject_role": "material_entity",
+        "subject_id": "P0374:a",
+        "predicate": "enables",
+        "object": "High-sensitivity perception of spatial thermal signals",
+        "object_role": "performance_function",
+        "object_id": "P0374:f",
+        "quote": "Flexible thermal sensor arrays are developed through patterning the PQ-10/NaOH iTE hydrogel on flexible printed circuit boards, which can perceive spatial thermal signals with high sensitivity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1004,
+            "end": 1198
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0374:r008",
+        "subject": "Smart glove integrating multiple thermal sensor arrays",
+        "subject_role": "material_entity",
+        "subject_id": "P0374:g",
+        "predicate": "integrates",
+        "object": "Flexible thermal sensor arrays",
+        "object_role": "material_entity",
+        "object_id": "P0374:a",
+        "quote": "A smart glove integrated with multiple thermal sensor arrays is further demonstrated, which endows a prosthetic hand with thermal sensation for human-machine interaction.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Multiple arrays.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1198,
+            "end": 1368
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0374:r009",
+        "subject": "Smart glove integrating multiple thermal sensor arrays",
+        "subject_role": "material_entity",
+        "subject_id": "P0374:g",
+        "predicate": "provides",
+        "object": "Prosthetic-hand thermal sensation for human-machine interaction",
+        "object_role": "application",
+        "object_id": "P0374:u",
+        "quote": "A smart glove integrated with multiple thermal sensor arrays is further demonstrated, which endows a prosthetic hand with thermal sensation for human-machine interaction.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1198,
+            "end": 1368
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0375",
+    "domain": "iTE",
+    "input_hash": "77071a414174a59ff999281ed2095014fa8b4a59aea65f871fe3a285e07d271f",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0375:r001",
+        "subject": "PEDOT:PAAMPSA:PA polymer",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:p",
+        "predicate": "achieves",
+        "object": "Ionic figure of merit of 12.3",
+        "object_role": "quantity",
+        "object_id": "P0375:z",
+        "quote": "In this study, we develop a stretchable/self-healable polymer, PEDOT:PAAMPSA:PA, with remarkably high ionic thermoelectric (iTE) properties: an ionic figure-of-merit of 12.3 at 70% relative humidity (RH). ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 70% relative humidity.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 205
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0375:r002",
+        "subject": "Control of ion carrier concentration, ion diffusion coefficient, and Eastman entropy",
+        "subject_role": "design_strategy",
+        "subject_id": "P0375:c",
+        "predicate": "optimizes",
+        "object": "Ionic thermoelectric properties",
+        "object_role": "performance_function",
+        "object_id": "P0375:t",
+        "quote": "The iTE properties of PEDOT:PAAMPSA:PA are optimized by controlling the ion carrier concentration, ion diffusion coefficient, and Eastman entropy, and high stretchability and self-healing ability are achieved based on the dynamic interactions between the components. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "For PEDOT:PAAMPSA:PA; combined control of the three quantities.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 205,
+            "end": 472
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0375:r003",
+        "subject": "Dynamic interactions between polymer components",
+        "subject_role": "interaction",
+        "subject_id": "P0375:i",
+        "predicate": "enables",
+        "object": "High stretchability",
+        "object_role": "performance_function",
+        "object_id": "P0375:s",
+        "quote": "The iTE properties of PEDOT:PAAMPSA:PA are optimized by controlling the ion carrier concentration, ion diffusion coefficient, and Eastman entropy, and high stretchability and self-healing ability are achieved based on the dynamic interactions between the components. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In PEDOT:PAAMPSA:PA.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 205,
+            "end": 472
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0375:r004",
+        "subject": "Dynamic interactions between polymer components",
+        "subject_role": "interaction",
+        "subject_id": "P0375:i",
+        "predicate": "enables",
+        "object": "Self-healing ability",
+        "object_role": "performance_function",
+        "object_id": "P0375:h",
+        "quote": "The iTE properties of PEDOT:PAAMPSA:PA are optimized by controlling the ion carrier concentration, ion diffusion coefficient, and Eastman entropy, and high stretchability and self-healing ability are achieved based on the dynamic interactions between the components. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In PEDOT:PAAMPSA:PA.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 205,
+            "end": 472
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0375:r005",
+        "subject": "PEDOT:PAAMPSA:PA polymer",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:p",
+        "predicate": "retains",
+        "object": "Ionic thermoelectric properties",
+        "object_role": "performance_function",
+        "object_id": "P0375:t",
+        "quote": "In this study, we develop a stretchable/self-healable polymer, PEDOT:PAAMPSA:PA, with remarkably high ionic thermoelectric (iTE) properties: an ionic figure-of-merit of 12.3 at 70% relative humidity (RH). ",
+        "context_quotes": [
+          "Moreover, the iTE properties are retained under repeated mechanical stress (30 cycles of self-healing and 50 cycles of stretching). "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Under 30 self-healing cycles and 50 stretching cycles.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 205
+          },
+          {
+            "start": 472,
+            "end": 604
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0375:r006",
+        "subject": "PEDOT:PAAMPSA:PA ionic thermoelectric capacitor device",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:d",
+        "predicate": "achieves",
+        "object": "Maximum power output of 4.59 mu W.m(-2)",
+        "object_role": "quantity",
+        "object_id": "P0375:w",
+        "quote": "An ionic thermoelectric capacitor (ITEC) device using PEDOT:PAAMPSA:PA achieves a maximum power output and energy density of 4.59 mu W.m(-2) and 1.95 mJ.m(-2), respectively, at a load resistance of 10K Omega, and a 9-pair ITEC module produces a voltage output of 0.37V.K-1 with a maximum power output of 0.21 mu W.m(-2) and energy density of 0.35 mJ.m(-2) at 80% RH, demonstrating the potential for a self-powering source.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At load resistance of 10K Omega.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 604,
+            "end": 1026
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0375:r007",
+        "subject": "PEDOT:PAAMPSA:PA ionic thermoelectric capacitor device",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:d",
+        "predicate": "achieves",
+        "object": "Energy density of 1.95 mJ.m(-2)",
+        "object_role": "quantity",
+        "object_id": "P0375:e",
+        "quote": "An ionic thermoelectric capacitor (ITEC) device using PEDOT:PAAMPSA:PA achieves a maximum power output and energy density of 4.59 mu W.m(-2) and 1.95 mJ.m(-2), respectively, at a load resistance of 10K Omega, and a 9-pair ITEC module produces a voltage output of 0.37V.K-1 with a maximum power output of 0.21 mu W.m(-2) and energy density of 0.35 mJ.m(-2) at 80% RH, demonstrating the potential for a self-powering source.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At load resistance of 10K Omega.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 604,
+            "end": 1026
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0375:r008",
+        "subject": "9-pair ionic thermoelectric capacitor module",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:m",
+        "predicate": "produces",
+        "object": "Voltage output of 0.37 V.K-1",
+        "object_role": "quantity",
+        "object_id": "P0375:v",
+        "quote": "An ionic thermoelectric capacitor (ITEC) device using PEDOT:PAAMPSA:PA achieves a maximum power output and energy density of 4.59 mu W.m(-2) and 1.95 mJ.m(-2), respectively, at a load resistance of 10K Omega, and a 9-pair ITEC module produces a voltage output of 0.37V.K-1 with a maximum power output of 0.21 mu W.m(-2) and energy density of 0.35 mJ.m(-2) at 80% RH, demonstrating the potential for a self-powering source.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 80% relative humidity.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 604,
+            "end": 1026
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0375:r009",
+        "subject": "9-pair ionic thermoelectric capacitor module",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:m",
+        "predicate": "achieves",
+        "object": "Maximum power output of 0.21 mu W.m(-2)",
+        "object_role": "quantity",
+        "object_id": "P0375:q",
+        "quote": "An ionic thermoelectric capacitor (ITEC) device using PEDOT:PAAMPSA:PA achieves a maximum power output and energy density of 4.59 mu W.m(-2) and 1.95 mJ.m(-2), respectively, at a load resistance of 10K Omega, and a 9-pair ITEC module produces a voltage output of 0.37V.K-1 with a maximum power output of 0.21 mu W.m(-2) and energy density of 0.35 mJ.m(-2) at 80% RH, demonstrating the potential for a self-powering source.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 80% relative humidity.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 604,
+            "end": 1026
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0375:r010",
+        "subject": "9-pair ionic thermoelectric capacitor module",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:m",
+        "predicate": "achieves",
+        "object": "Energy density of 0.35 mJ.m(-2)",
+        "object_role": "quantity",
+        "object_id": "P0375:a",
+        "quote": "An ionic thermoelectric capacitor (ITEC) device using PEDOT:PAAMPSA:PA achieves a maximum power output and energy density of 4.59 mu W.m(-2) and 1.95 mJ.m(-2), respectively, at a load resistance of 10K Omega, and a 9-pair ITEC module produces a voltage output of 0.37V.K-1 with a maximum power output of 0.21 mu W.m(-2) and energy density of 0.35 mJ.m(-2) at 80% RH, demonstrating the potential for a self-powering source.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 80% relative humidity.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 604,
+            "end": 1026
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0375:r011",
+        "subject": "9-pair ionic thermoelectric capacitor module",
+        "subject_role": "material_entity",
+        "subject_id": "P0375:m",
+        "predicate": "has_potential_as",
+        "object": "Self-powering source",
+        "object_role": "application",
+        "object_id": "P0375:u",
+        "quote": "An ionic thermoelectric capacitor (ITEC) device using PEDOT:PAAMPSA:PA achieves a maximum power output and energy density of 4.59 mu W.m(-2) and 1.95 mJ.m(-2), respectively, at a load resistance of 10K Omega, and a 9-pair ITEC module produces a voltage output of 0.37V.K-1 with a maximum power output of 0.21 mu W.m(-2) and energy density of 0.35 mJ.m(-2) at 80% RH, demonstrating the potential for a self-powering source.",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 604,
+            "end": 1026
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0376",
+    "domain": "iTE",
+    "input_hash": "4c6cc758cea17bbb25cd6d87c46c6c85b7914cd4c4e2f21f3fd337bf503a252d",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0376:r001",
+        "subject": "Introducing graphene to optimize gel composition",
+        "subject_role": "design_strategy",
+        "subject_id": "P0376:s",
+        "predicate": "improves",
+        "object": "Ionic thermopower",
+        "object_role": "quantity",
+        "object_id": "P0376:t",
+        "quote": "Herein, we propose an effective strategy to improve both ionic thermopower and output power density at high temperatures by optimizing the gel composition via introducing graphene. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At high temperatures.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 299,
+            "end": 480
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0376:r002",
+        "subject": "Introducing graphene to optimize gel composition",
+        "subject_role": "design_strategy",
+        "subject_id": "P0376:s",
+        "predicate": "improves",
+        "object": "Output power density",
+        "object_role": "quantity",
+        "object_id": "P0376:p",
+        "quote": "Herein, we propose an effective strategy to improve both ionic thermopower and output power density at high temperatures by optimizing the gel composition via introducing graphene. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At high temperatures.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 299,
+            "end": 480
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0376:r003",
+        "subject": "Graphene in gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0376:g",
+        "predicate": "forms",
+        "object": "Bridge-like graphene structure",
+        "object_role": "state_structure",
+        "object_id": "P0376:b",
+        "quote": "Graphene forms a structure like a bridge to link adjacent free water clusters in gels, accelerating ion diffusion and improving ionic thermoelectric performance.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In gels.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1165,
+            "end": 1326
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0376:r004",
+        "subject": "Bridge-like graphene structure",
+        "subject_role": "state_structure",
+        "subject_id": "P0376:b",
+        "predicate": "links",
+        "object": "Adjacent free water clusters in gels",
+        "object_role": "state_structure",
+        "object_id": "P0376:w",
+        "quote": "Graphene forms a structure like a bridge to link adjacent free water clusters in gels, accelerating ion diffusion and improving ionic thermoelectric performance.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1165,
+            "end": 1326
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0376:r005",
+        "subject": "Bridge-like graphene structure",
+        "subject_role": "state_structure",
+        "subject_id": "P0376:b",
+        "predicate": "could_increase",
+        "object": "Ion diffusion coefficient",
+        "object_role": "quantity",
+        "object_id": "P0376:d",
+        "quote": "Graphene forming a structure like a bridge could improve the ion diffusion coefficient and exchange current density, thereby improving performance. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 480,
+            "end": 628
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0376:r006",
+        "subject": "Bridge-like graphene structure",
+        "subject_role": "state_structure",
+        "subject_id": "P0376:b",
+        "predicate": "could_increase",
+        "object": "Exchange current density",
+        "object_role": "quantity",
+        "object_id": "P0376:x",
+        "quote": "Graphene forming a structure like a bridge could improve the ion diffusion coefficient and exchange current density, thereby improving performance. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 480,
+            "end": 628
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0376:r007",
+        "subject": "Bridge-like graphene structure",
+        "subject_role": "state_structure",
+        "subject_id": "P0376:b",
+        "predicate": "accelerates",
+        "object": "Ion diffusion",
+        "object_role": "mechanism_process",
+        "object_id": "P0376:f",
+        "quote": "Graphene forms a structure like a bridge to link adjacent free water clusters in gels, accelerating ion diffusion and improving ionic thermoelectric performance.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "By linking adjacent free water clusters.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1165,
+            "end": 1326
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0376:r008",
+        "subject": "Bridge-like graphene structure",
+        "subject_role": "state_structure",
+        "subject_id": "P0376:b",
+        "predicate": "improves",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0376:r",
+        "quote": "Graphene forms a structure like a bridge to link adjacent free water clusters in gels, accelerating ion diffusion and improving ionic thermoelectric performance.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Links adjacent free water clusters and accelerates ion diffusion.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1165,
+            "end": 1326
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0376:r009",
+        "subject": "Ion diffusion coefficient",
+        "subject_role": "quantity",
+        "subject_id": "P0376:d",
+        "predicate": "could_jointly_improve",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0376:r",
+        "quote": "Graphene forming a structure like a bridge could improve the ion diffusion coefficient and exchange current density, thereby improving performance. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Increases in ion diffusion coefficient and exchange current density attributed to bridge-like graphene.",
+        "joint_factors": [
+          "x"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 480,
+            "end": 628
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r010",
+        "relation_id": "P0376:r010",
+        "subject": "Gelatin-0.04/0.06 M FeCN4-/3--6 wt% Gr gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0376:m",
+        "predicate": "achieves",
+        "object": "Ionic thermopower up to 13 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0376:v",
+        "quote": "A high ionic thermopower of up to 13 mV K-1, an output power density of 1.03 mW m-2 K-2, and a continuous discharge energy density of 0.19 J m-2 K-2 in 1 h were obtained at 323 K in gels of Gelatin-0.04/0.06 M FeCN4-/3--6 wt% Gr. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 323 K.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 628,
+            "end": 858
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r011",
+        "relation_id": "P0376:r011",
+        "subject": "Gelatin-0.04/0.06 M FeCN4-/3--6 wt% Gr gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0376:m",
+        "predicate": "achieves",
+        "object": "Output power density of 1.03 mW m-2 K-2",
+        "object_role": "quantity",
+        "object_id": "P0376:o",
+        "quote": "A high ionic thermopower of up to 13 mV K-1, an output power density of 1.03 mW m-2 K-2, and a continuous discharge energy density of 0.19 J m-2 K-2 in 1 h were obtained at 323 K in gels of Gelatin-0.04/0.06 M FeCN4-/3--6 wt% Gr. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 323 K.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 628,
+            "end": 858
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r012",
+        "relation_id": "P0376:r012",
+        "subject": "Gelatin-0.04/0.06 M FeCN4-/3--6 wt% Gr gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0376:m",
+        "predicate": "achieves",
+        "object": "Continuous discharge energy density of 0.19 J m-2 K-2 in 1 h",
+        "object_role": "quantity",
+        "object_id": "P0376:e",
+        "quote": "A high ionic thermopower of up to 13 mV K-1, an output power density of 1.03 mW m-2 K-2, and a continuous discharge energy density of 0.19 J m-2 K-2 in 1 h were obtained at 323 K in gels of Gelatin-0.04/0.06 M FeCN4-/3--6 wt% Gr. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 323 K; continuous discharge over 1 h.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 628,
+            "end": 858
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r013",
+        "relation_id": "P0376:r013",
+        "subject": "Device comprising four gel thermocells in series",
+        "subject_role": "material_entity",
+        "subject_id": "P0376:a",
+        "predicate": "delivers",
+        "object": "Output power density of 1.2 mW m-2 K-2",
+        "object_role": "quantity",
+        "object_id": "P0376:q",
+        "quote": "In addition, a record-high output power density of 1.2 mW m-2 K-2 was delivered at 323 K in a device assembled by four gel thermocells in series. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At 323 K; described as record-high.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 858,
+            "end": 1004
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0377",
+    "domain": "iTE",
+    "input_hash": "f6f17b0fd52848ace010cd64bc1e7650d88d00fc71fe3951ca6b3b7346066dfb",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0377:r001",
+        "subject": "Ikere white (IKW) geopolymer",
+        "subject_role": "material_entity",
+        "subject_id": "P0377:g",
+        "predicate": "is_derived_from",
+        "object": "Kaolin clay",
+        "object_role": "material_entity",
+        "object_id": "P0377:k",
+        "quote": "This study delves into the thermoelectric properties of Ikere white (IKW)-geopolymer, derived from kaolin clay, by employing rigorous measurements of thermal conductivity, electrical conductivity, and Seebeck coefficient. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 183,
+            "end": 405
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0377:r002",
+        "subject": "Temperature",
+        "subject_role": "condition",
+        "subject_id": "P0377:t",
+        "predicate": "influences",
+        "object": "IKW-geopolymer thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0377:p",
+        "quote": "The investigation elucidates the pivotal role of temperature and ions in shaping the thermoelectric performance of IKW-geopolymer. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Direction and functional dependence unspecified.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 405,
+            "end": 536
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0377:r003",
+        "subject": "Ions in geopolymer channels",
+        "subject_role": "material_entity",
+        "subject_id": "P0377:i",
+        "predicate": "influences",
+        "object": "IKW-geopolymer thermoelectric performance",
+        "object_role": "performance_function",
+        "object_id": "P0377:p",
+        "quote": "The investigation elucidates the pivotal role of temperature and ions in shaping the thermoelectric performance of IKW-geopolymer. ",
+        "context_quotes": [
+          "Electrical conductivity analysis pinpoints ions within the geopolymer's channels as primary contributors. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Direction and functional dependence unspecified.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 405,
+            "end": 536
+          },
+          {
+            "start": 536,
+            "end": 642
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0377:r004",
+        "subject": "Ions in geopolymer channels",
+        "subject_role": "material_entity",
+        "subject_id": "P0377:i",
+        "predicate": "primarily_contributes_to",
+        "object": "IKW-geopolymer electrical conductivity",
+        "object_role": "quantity",
+        "object_id": "P0377:c",
+        "quote": "This study delves into the thermoelectric properties of Ikere white (IKW)-geopolymer, derived from kaolin clay, by employing rigorous measurements of thermal conductivity, electrical conductivity, and Seebeck coefficient. ",
+        "context_quotes": [
+          "Electrical conductivity analysis pinpoints ions within the geopolymer's channels as primary contributors. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "This study delves into the thermoelectric properties of Ikere white (IKW)-geopolymer, derived from kaolin clay, by employing rigorous measurements of thermal conductivity, electrical conductivity, and Seebeck coefficient. ",
+          "Electrical conductivity analysis pinpoints ions within the geopolymer's channels as primary contributors. "
+        ],
+        "conditions": "Electrical conductivity analysis.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 183,
+            "end": 405
+          },
+          {
+            "start": 536,
+            "end": 642
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 183,
+            "end": 405
+          },
+          {
+            "start": 536,
+            "end": 642
+          }
+        ]
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0377:r005",
+        "subject": "Bulk-water evaporation",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0377:w",
+        "predicate": "triggers",
+        "object": "Charge-carrier transition from one-dimensional to three-dimensional motion",
+        "object_role": "mechanism_process",
+        "object_id": "P0377:d",
+        "quote": "Beyond a critical temperature, the evaporation of bulk water triggers a transition of charge carriers from one- to three-dimensional motion, resulting in reduced conductivity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Beyond a critical temperature; threshold not specified.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 642,
+            "end": 818
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0377:r006",
+        "subject": "Charge-carrier transition from one-dimensional to three-dimensional motion",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0377:d",
+        "predicate": "reduces",
+        "object": "IKW-geopolymer electrical conductivity",
+        "object_role": "quantity",
+        "object_id": "P0377:c",
+        "quote": "Beyond a critical temperature, the evaporation of bulk water triggers a transition of charge carriers from one- to three-dimensional motion, resulting in reduced conductivity. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Beyond a critical temperature following bulk-water evaporation.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 642,
+            "end": 818
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0377:r007",
+        "subject": "Ikere white (IKW) geopolymer",
+        "subject_role": "material_entity",
+        "subject_id": "P0377:g",
+        "predicate": "exhibits",
+        "object": "Seebeck coefficient from -182 to 42 mu V/K",
+        "object_role": "quantity",
+        "object_id": "P0377:s",
+        "quote": "This study delves into the thermoelectric properties of Ikere white (IKW)-geopolymer, derived from kaolin clay, by employing rigorous measurements of thermal conductivity, electrical conductivity, and Seebeck coefficient. ",
+        "context_quotes": [
+          "The Seebeck coefficient exhibits a range from -182 to 42 mu V/K, with its time-dependent profile suggesting that ions potentially drive thermoelectricity in cementitious materials. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "This study delves into the thermoelectric properties of Ikere white (IKW)-geopolymer, derived from kaolin clay, by employing rigorous measurements of thermal conductivity, electrical conductivity, and Seebeck coefficient. "
+        ],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 183,
+            "end": 405
+          },
+          {
+            "start": 818,
+            "end": 999
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 183,
+            "end": 405
+          }
+        ]
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0377:r008",
+        "subject": "Ions in geopolymer channels",
+        "subject_role": "material_entity",
+        "subject_id": "P0377:i",
+        "predicate": "may_drive",
+        "object": "Thermoelectricity in cementitious materials",
+        "object_role": "mechanism_process",
+        "object_id": "P0377:e",
+        "quote": "Electrical conductivity analysis pinpoints ions within the geopolymer's channels as primary contributors. ",
+        "context_quotes": [
+          "The Seebeck coefficient exhibits a range from -182 to 42 mu V/K, with its time-dependent profile suggesting that ions potentially drive thermoelectricity in cementitious materials. "
+        ],
+        "assertion": "hypothesis",
+        "modality": "experimental",
+        "modality_evidence": [
+          "This study delves into the thermoelectric properties of Ikere white (IKW)-geopolymer, derived from kaolin clay, by employing rigorous measurements of thermal conductivity, electrical conductivity, and Seebeck coefficient. ",
+          "The Seebeck coefficient exhibits a range from -182 to 42 mu V/K, with its time-dependent profile suggesting that ions potentially drive thermoelectricity in cementitious materials. "
+        ],
+        "conditions": "Suggested by the time-dependent Seebeck coefficient profile.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 536,
+            "end": 642
+          },
+          {
+            "start": 818,
+            "end": 999
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 183,
+            "end": 405
+          },
+          {
+            "start": 818,
+            "end": 999
+          }
+        ]
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0377:r009",
+        "subject": "Ikere white (IKW) geopolymer",
+        "subject_role": "material_entity",
+        "subject_id": "P0377:g",
+        "predicate": "exhibits",
+        "object": "Transition from n-type to p-type behavior",
+        "object_role": "state_structure",
+        "object_id": "P0377:n",
+        "quote": "Notably, a unique transition from n-type to p-type behavior was observed in the geopolymer, opening new avenues for ionic thermoelectric capacitors. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 999,
+            "end": 1148
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0378",
+    "domain": "iTE",
+    "input_hash": "262cf58d64dd2fa11480329daa3ef9a8fb549378dc60b87dd0f6c53487d13c44",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0378:r001",
+        "subject": "Zwitterionic polymer-based ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0378:t",
+        "predicate": "exhibits",
+        "object": "Full self-healability",
+        "object_role": "performance_function",
+        "object_id": "P0378:h",
+        "quote": "Herein, a zwitterionic (ZI) polymer-based fully self-healable ionic TEG is presented. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 194,
+            "end": 280
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0378:r002",
+        "subject": "Adjustment of positive and negative moiety positions in zwitterionic side chains",
+        "subject_role": "design_strategy",
+        "subject_id": "P0378:s",
+        "predicate": "controls",
+        "object": "Movement of free ions in ionogel",
+        "object_role": "mechanism_process",
+        "object_id": "P0378:m",
+        "quote": "By adjusting the position of the positive and negative moieties of the ZI side chain, the movement of free ions contained in the ionogel can be controlled effectively, thus improving the power factor of TEGs. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 280,
+            "end": 489
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0378:r003",
+        "subject": "Adjustment of positive and negative moiety positions in zwitterionic side chains",
+        "subject_role": "design_strategy",
+        "subject_id": "P0378:s",
+        "predicate": "improves",
+        "object": "Thermoelectric generator power factor",
+        "object_role": "quantity",
+        "object_id": "P0378:p",
+        "quote": "By adjusting the position of the positive and negative moieties of the ZI side chain, the movement of free ions contained in the ionogel can be controlled effectively, thus improving the power factor of TEGs. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Through control of free-ion movement.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 280,
+            "end": 489
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0378:r004",
+        "subject": "Zwitterionic side chains in ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0378:z",
+        "predicate": "provides",
+        "object": "Multiple ionic interaction sites",
+        "object_role": "state_structure",
+        "object_id": "P0378:i",
+        "quote": "ZI side chains inside the ionogel provide multiple ionic interaction sites and enable fast self-healing characteristics at room temperature. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 489,
+            "end": 630
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0378:r005",
+        "subject": "Zwitterionic side chains in ionogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0378:z",
+        "predicate": "enables",
+        "object": "Fast self-healing at room temperature",
+        "object_role": "performance_function",
+        "object_id": "P0378:f",
+        "quote": "ZI side chains inside the ionogel provide multiple ionic interaction sites and enable fast self-healing characteristics at room temperature. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At room temperature.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 489,
+            "end": 630
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0378:r006",
+        "subject": "Liquid metal/WPU/PVA electrode",
+        "subject_role": "material_entity",
+        "subject_id": "P0378:e",
+        "predicate": "exhibits",
+        "object": "Electrode self-healing",
+        "object_role": "performance_function",
+        "object_id": "P0378:q",
+        "quote": "Furthermore, a self-healing electrode composed of liquid metal (LM), waterborne polyurethane (WPU), and polyvinyl alcohol (PVA) is developed for the fully healable TEGs. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Developed for fully healable thermoelectric generators.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 630,
+            "end": 800
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0378:r007",
+        "subject": "Series connection of 10 p- and n-type gel legs through self-healing",
+        "subject_role": "design_strategy",
+        "subject_id": "P0378:c",
+        "predicate": "improves",
+        "object": "Overall areal output voltage",
+        "object_role": "quantity",
+        "object_id": "P0378:v",
+        "quote": "The overall areal output voltage is effectively improved by connecting 10 legs of p and n thermoelectric gels in series via a self-healing process. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 800,
+            "end": 948
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0379",
+    "domain": "iTE",
+    "input_hash": "a2843fa1c3c9cc1fe48300ce181786aee47a2fcc4e220bd8123ca48f4a9b8cf6",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0379:r001",
+        "subject": "TEMPO-oxidized carboxylated bacterial cellulose (TOBC)",
+        "subject_role": "material_entity",
+        "subject_id": "P0379:b",
+        "predicate": "provides_coordination_structure_in",
+        "object": "TOBC coordination double-network ionic thermoelectric hydrogel",
+        "object_role": "material_entity",
+        "object_id": "P0379:h",
+        "quote": "This paper reports a 2,2,6,6-tetramethylpiperidine-1-oxyl radical (TEMPO)-oxidized carboxylated bacterial cellulose (TOBC) coordination double-network ionic thermoelectric hydrogel with lithium bis(trifluoromethane) sulfonimide (LiTFSI) as an ion provider for thermodiffusion, as LiTFSI exhibits excellent thermoelectric properties with a maximum power output of up to 538 nW at a temperature difference of 20 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Double-network hydrogel.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 441,
+            "end": 854
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0379:r002",
+        "subject": "Lithium bis(trifluoromethane) sulfonimide (LiTFSI)",
+        "subject_role": "material_entity",
+        "subject_id": "P0379:l",
+        "predicate": "provides_ions_for",
+        "object": "Ion thermodiffusion",
+        "object_role": "mechanism_process",
+        "object_id": "P0379:d",
+        "quote": "This paper reports a 2,2,6,6-tetramethylpiperidine-1-oxyl radical (TEMPO)-oxidized carboxylated bacterial cellulose (TOBC) coordination double-network ionic thermoelectric hydrogel with lithium bis(trifluoromethane) sulfonimide (LiTFSI) as an ion provider for thermodiffusion, as LiTFSI exhibits excellent thermoelectric properties with a maximum power output of up to 538 nW at a temperature difference of 20 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In TOBC coordination double-network hydrogel.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 441,
+            "end": 854
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0379:r003",
+        "subject": "Lithium bis(trifluoromethane) sulfonimide (LiTFSI)",
+        "subject_role": "material_entity",
+        "subject_id": "P0379:l",
+        "predicate": "is_reported_to_exhibit",
+        "object": "Maximum power output up to 538 nW",
+        "object_role": "quantity",
+        "object_id": "P0379:p",
+        "quote": "This paper reports a 2,2,6,6-tetramethylpiperidine-1-oxyl radical (TEMPO)-oxidized carboxylated bacterial cellulose (TOBC) coordination double-network ionic thermoelectric hydrogel with lithium bis(trifluoromethane) sulfonimide (LiTFSI) as an ion provider for thermodiffusion, as LiTFSI exhibits excellent thermoelectric properties with a maximum power output of up to 538 nW at a temperature difference of 20 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At temperature difference of 20 K.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "uncertain",
+        "note": "Source grammatically attributes output to LiTFSI; hydrogel versus LiTFSI attribution is unresolved.",
+        "evidence_spans": [
+          {
+            "start": 441,
+            "end": 854
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0379:r004",
+        "subject": "Ion-hydrogel matrix interactions",
+        "subject_role": "interaction",
+        "subject_id": "P0379:i",
+        "predicate": "promotes",
+        "object": "Selective transport of conducting ionic ions",
+        "object_role": "mechanism_process",
+        "object_id": "P0379:t",
+        "quote": "The interactions between the ions and the hydrogel matrix promote the selective transport of conducting ionic ions, producing a high Seebeck coefficient of 11.53 mV K-1. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the reported hydrogel.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 854,
+            "end": 1024
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0379:r005",
+        "subject": "Selective transport of conducting ionic ions",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0379:t",
+        "predicate": "produces",
+        "object": "Seebeck coefficient of 11.53 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0379:s",
+        "quote": "The interactions between the ions and the hydrogel matrix promote the selective transport of conducting ionic ions, producing a high Seebeck coefficient of 11.53 mV K-1. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Selective transport promoted by ion-matrix interactions.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 854,
+            "end": 1024
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0379:r006",
+        "subject": "Hydrogen bonding within PAAm network",
+        "subject_role": "interaction",
+        "subject_id": "P0379:a",
+        "predicate": "jointly_confers",
+        "object": "Excellent hydrogel mechanical properties",
+        "object_role": "performance_function",
+        "object_id": "P0379:m",
+        "quote": "Hydrogen bonding within the polyacrylamide (PAAm) network and interactions within the borate ester bond within the TOBC confer excellent mechanical properties to the hydrogel such that the stress value at a tensile deformation of 3100 % is reaches 0.85 MPa. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [
+          "o"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1024,
+            "end": 1282
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0379:r007",
+        "subject": "TOBC coordination double-network ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0379:h",
+        "predicate": "exhibits",
+        "object": "Stress of 0.85 MPa at 3100% tensile deformation",
+        "object_role": "quantity",
+        "object_id": "P0379:q",
+        "quote": "This paper reports a 2,2,6,6-tetramethylpiperidine-1-oxyl radical (TEMPO)-oxidized carboxylated bacterial cellulose (TOBC) coordination double-network ionic thermoelectric hydrogel with lithium bis(trifluoromethane) sulfonimide (LiTFSI) as an ion provider for thermodiffusion, as LiTFSI exhibits excellent thermoelectric properties with a maximum power output of up to 538 nW at a temperature difference of 20 K. ",
+        "context_quotes": [
+          "Hydrogen bonding within the polyacrylamide (PAAm) network and interactions within the borate ester bond within the TOBC confer excellent mechanical properties to the hydrogel such that the stress value at a tensile deformation of 3100 % is reaches 0.85 MPa. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Attributed jointly to PAAm hydrogen bonding and TOBC borate ester interactions.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 441,
+            "end": 854
+          },
+          {
+            "start": 1024,
+            "end": 1282
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0379:r008",
+        "subject": "TOBC coordination double-network ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "subject_id": "P0379:h",
+        "predicate": "exhibits",
+        "object": "High ionic thermovoltage",
+        "object_role": "performance_function",
+        "object_id": "P0379:v",
+        "quote": "The combination of the high ionic thermovoltage and excellent mechanical properties ionic thermoelectric hydrogels provides an effective solution for the design and application of self-powered sensors based on hydrogels.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1282,
+            "end": 1502
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0379:r009",
+        "subject": "High ionic thermovoltage",
+        "subject_role": "performance_function",
+        "subject_id": "P0379:v",
+        "predicate": "jointly_supports_design_and_application_of",
+        "object": "Hydrogel-based self-powered sensors",
+        "object_role": "application",
+        "object_id": "P0379:u",
+        "quote": "The combination of the high ionic thermovoltage and excellent mechanical properties ionic thermoelectric hydrogels provides an effective solution for the design and application of self-powered sensors based on hydrogels.",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Combination of high ionic thermovoltage and excellent mechanical properties.",
+        "joint_factors": [
+          "m"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1282,
+            "end": 1502
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0380",
+    "domain": "iTE",
+    "input_hash": "96afa9ed6d6628d8e93f85d9d815e03e62a17baf74183c42c3e200d1c70b77d0",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0380:r001",
+        "subject": "Ion-electron conductor",
+        "subject_role": "material_entity",
+        "subject_id": "P0380:c",
+        "predicate": "enables",
+        "object": "Ion-electron thermoelectric synergistic (IETS) effect",
+        "object_role": "mechanism_process",
+        "object_id": "P0380:s",
+        "quote": "Here, we introduce an ion-electron thermoelectric synergistic (IETS) effect by utilizing an ion-electron conductor. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 356,
+            "end": 472
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0380:r002",
+        "subject": "Ion thermodiffusion",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0380:t",
+        "predicate": "generates",
+        "object": "Electric field generated by ion thermodiffusion",
+        "object_role": "state_structure",
+        "object_id": "P0380:f",
+        "quote": "Electrons/holes can drift under the electric field generated by thermodiffusion of ions, thus converting the ionic current into electrical current that can pass through the external circuit. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the ion-electron thermoelectric mechanism.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 472,
+            "end": 663
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0380:r003",
+        "subject": "Electric field generated by ion thermodiffusion",
+        "subject_role": "state_structure",
+        "subject_id": "P0380:f",
+        "predicate": "drives",
+        "object": "Electron/hole drift",
+        "object_role": "mechanism_process",
+        "object_id": "P0380:d",
+        "quote": "Electrons/holes can drift under the electric field generated by thermodiffusion of ions, thus converting the ionic current into electrical current that can pass through the external circuit. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 472,
+            "end": 663
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0380:r004",
+        "subject": "Electron/hole drift",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0380:d",
+        "predicate": "enables",
+        "object": "Conversion of ionic current into electrical current passing through external circuit",
+        "object_role": "mechanism_process",
+        "object_id": "P0380:v",
+        "quote": "Electrons/holes can drift under the electric field generated by thermodiffusion of ions, thus converting the ionic current into electrical current that can pass through the external circuit. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 472,
+            "end": 663
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0380:r005",
+        "subject": "Ion-electron thermoelectric synergistic (IETS) effect",
+        "subject_role": "mechanism_process",
+        "subject_id": "P0380:s",
+        "predicate": "enables",
+        "object": "Continuous operation for over 3000 min",
+        "object_role": "performance_function",
+        "object_id": "P0380:o",
+        "quote": "Due to the IETS effect, i-TE is able to operate continuously for over 3000 min. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the developed ionic thermoelectric material.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 663,
+            "end": 743
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0380:r006",
+        "subject": "Developed ionic thermoelectric material",
+        "subject_role": "material_entity",
+        "subject_id": "P0380:m",
+        "predicate": "exhibits",
+        "object": "Thermopower of 32.7 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0380:p",
+        "quote": "Moreover, our i-TE exhibits a thermopower of 32.7 mV K-1 and an energy density of 553.9 J m(-2), which is more than 6.9 times of the highest reported value. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 743,
+            "end": 900
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0380:r007",
+        "subject": "Developed ionic thermoelectric material",
+        "subject_role": "material_entity",
+        "subject_id": "P0380:m",
+        "predicate": "exhibits",
+        "object": "Energy density of 553.9 J m(-2)",
+        "object_role": "quantity",
+        "object_id": "P0380:e",
+        "quote": "Moreover, our i-TE exhibits a thermopower of 32.7 mV K-1 and an energy density of 553.9 J m(-2), which is more than 6.9 times of the highest reported value. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "More than 6.9 times the highest reported energy density.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 743,
+            "end": 900
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0380:r008",
+        "subject": "Developed ionic thermoelectric material",
+        "subject_role": "material_entity",
+        "subject_id": "P0380:m",
+        "predicate": "achieves",
+        "object": "Direct powering of electronics",
+        "object_role": "application",
+        "object_id": "P0380:a",
+        "quote": "Consequently, direct powering of electronics is achieved with i-TE. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 900,
+            "end": 968
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  },
+  {
+    "paper_id": "P0381",
+    "domain": "iTE",
+    "input_hash": "40fd899777038338c762f13d006d85d7d025662de5ea51f0e292daa8e3bba9c0",
+    "article_role": "research",
+    "records": [
+      {
+        "id": "r001",
+        "relation_id": "P0381:r001",
+        "subject": "Synergy of thermodiffusion and electrode redox reaction",
+        "subject_role": "design_strategy",
+        "subject_id": "P0381:s",
+        "predicate": "enables",
+        "object": "Impressive thermoelectric conversion properties",
+        "object_role": "performance_function",
+        "object_id": "P0381:p",
+        "quote": "In this work, by utilizing the synergetic strategy of thermodiffusion effect and redox reaction on electrodes, an ITEG is demonstrated which demonstrates impressive thermoelectric conversion properties. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In the reported ionic hydrogel thermoelectric generator.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 207,
+            "end": 410
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r002",
+        "relation_id": "P0381:r002",
+        "subject": "Interpenetrating-network ionic gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0381:h",
+        "predicate": "exhibits",
+        "object": "Temperature-sensitive phase transition behavior",
+        "object_role": "mechanism_process",
+        "object_id": "P0381:t",
+        "quote": "On the one hand, an interpenetrating network structured ionic gel with temperature-sensitive phase transition behavior is designed as thermoelectric material to achieve a very high thermopower of 40.60 mV K-1 at a temperature gradient (?T) of 5 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 410,
+            "end": 658
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r003",
+        "relation_id": "P0381:r003",
+        "subject": "Interpenetrating-network ionic gel",
+        "subject_role": "material_entity",
+        "subject_id": "P0381:h",
+        "predicate": "is_designed_to_achieve",
+        "object": "Thermopower of 40.60 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0381:v",
+        "quote": "On the one hand, an interpenetrating network structured ionic gel with temperature-sensitive phase transition behavior is designed as thermoelectric material to achieve a very high thermopower of 40.60 mV K-1 at a temperature gradient (?T) of 5 K. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "At source-reported temperature gradient (?T) of 5 K.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 410,
+            "end": 658
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r004",
+        "relation_id": "P0381:r004",
+        "subject": "Appending redox polyaniline to carbon weaved fabric electrode",
+        "subject_role": "design_strategy",
+        "subject_id": "P0381:a",
+        "predicate": "is_intended_to_augment",
+        "object": "Heat-to-electricity storage performance",
+        "object_role": "performance_function",
+        "object_id": "P0381:r",
+        "quote": "On the other hand, polymer redox polyaniline (PANI) is appended on the carbon weaved fabric (CWF) electrode to augment heat-to-electricity storage and output power performance. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Electrode modification design purpose.",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 658,
+            "end": 835
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r005",
+        "relation_id": "P0381:r005",
+        "subject": "Appending redox polyaniline to carbon weaved fabric electrode",
+        "subject_role": "design_strategy",
+        "subject_id": "P0381:a",
+        "predicate": "is_intended_to_augment",
+        "object": "Output power performance",
+        "object_role": "performance_function",
+        "object_id": "P0381:o",
+        "quote": "On the other hand, polymer redox polyaniline (PANI) is appended on the carbon weaved fabric (CWF) electrode to augment heat-to-electricity storage and output power performance. ",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Electrode modification design purpose.",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 658,
+            "end": 835
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r006",
+        "relation_id": "P0381:r006",
+        "subject": "PANI@CWF electrode",
+        "subject_role": "material_entity",
+        "subject_id": "P0381:e",
+        "predicate": "assists_in_achieving",
+        "object": "Larger output current density",
+        "object_role": "quantity",
+        "object_id": "P0381:c",
+        "quote": "It is found that the PANI@CWF electrode assists to realize a larger current density output, 1 h output energy density (E-1h) (570 J m(-2)) at a ?T of 20 K and a maximum normalized instantaneous output power density of 11.31 mW m(-2) K-2 are obtained, which is a record-breaking result among the reported quasi-solid-state ITEGs. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Comparator unspecified.",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 835,
+            "end": 1164
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r007",
+        "relation_id": "P0381:r007",
+        "subject": "Reported ionic hydrogel thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0381:g",
+        "predicate": "achieves",
+        "object": "1 h output energy density of 570 J m(-2)",
+        "object_role": "quantity",
+        "object_id": "P0381:d",
+        "quote": "In this work, by utilizing the synergetic strategy of thermodiffusion effect and redox reaction on electrodes, an ITEG is demonstrated which demonstrates impressive thermoelectric conversion properties. ",
+        "context_quotes": [
+          "It is found that the PANI@CWF electrode assists to realize a larger current density output, 1 h output energy density (E-1h) (570 J m(-2)) at a ?T of 20 K and a maximum normalized instantaneous output power density of 11.31 mW m(-2) K-2 are obtained, which is a record-breaking result among the reported quasi-solid-state ITEGs. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using PANI@CWF electrode; at ?T of 20 K; described as record-breaking among reported quasi-solid-state ITEGs.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 207,
+            "end": 410
+          },
+          {
+            "start": 835,
+            "end": 1164
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r008",
+        "relation_id": "P0381:r008",
+        "subject": "Reported ionic hydrogel thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0381:g",
+        "predicate": "achieves",
+        "object": "Maximum normalized instantaneous output power density of 11.31 mW m(-2) K-2",
+        "object_role": "quantity",
+        "object_id": "P0381:n",
+        "quote": "In this work, by utilizing the synergetic strategy of thermodiffusion effect and redox reaction on electrodes, an ITEG is demonstrated which demonstrates impressive thermoelectric conversion properties. ",
+        "context_quotes": [
+          "It is found that the PANI@CWF electrode assists to realize a larger current density output, 1 h output energy density (E-1h) (570 J m(-2)) at a ?T of 20 K and a maximum normalized instantaneous output power density of 11.31 mW m(-2) K-2 are obtained, which is a record-breaking result among the reported quasi-solid-state ITEGs. "
+        ],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Using PANI@CWF electrode; described as record-breaking among reported quasi-solid-state ITEGs.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 207,
+            "end": 410
+          },
+          {
+            "start": 835,
+            "end": 1164
+          }
+        ],
+        "modality_spans": []
+      },
+      {
+        "id": "r009",
+        "relation_id": "P0381:r009",
+        "subject": "Reported ionic hydrogel thermoelectric generator",
+        "subject_role": "material_entity",
+        "subject_id": "P0381:g",
+        "predicate": "has_potential_for",
+        "object": "Continuous powering of sensors and wearable electronics",
+        "object_role": "application",
+        "object_id": "P0381:u",
+        "quote": "A feasible routine to design the top-performing ITEGs is verified, which shows commercial promise for continuously powering electronic devices such as sensors and wearable electronics.",
+        "context_quotes": [],
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Commercial promise; continuous powering not reported as an achieved result.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 1164,
+            "end": 1348
+          }
+        ],
+        "modality_spans": []
+      }
+    ],
+    "note": "",
+    "schema_version": "full_extraction_v1",
+    "extraction_run_id": "full_extraction_v1",
+    "review_status": "model_extracted_program_validated_not_independently_audited"
+  }
+]

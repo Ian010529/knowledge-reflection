@@ -1,0 +1,47 @@
+from record import record,revise
+for i,d in [(136,'电荷转移电阻Rct'),(137,'扩散电阻Rdif'),(138,'溶液电阻Rs')]:
+ revise(i,'accept',d,'两篇完整摘要均明确展开solution Rs、charge-transfer Rct、diffusion Rdif，同符号在这里确实对应同一电阻分量。','stage2_reconstruction/v1/paper_coverage.csv::TG:P0253,TG:P0254::abstract')
+revise(205,'accept','Fe2+/Fe3+电化学Seebeck系数','两篇完整摘要均定义alpha=dV/dT并限定Fe2+/Fe3+红氧体系，排除其他alpha物理量。','stage2_reconstruction/v1/paper_coverage.csv::iTE:P0931,iTE:P1503::abstract')
+revise(245,'accept','电子能隙形成','P1552完整摘要说明Se4为Cu3SbSe4，gap由轨道杂化和交换作用产生；与第二文杂化导致电子能隙同属能隙形成机制。','stage2_reconstruction/v1/paper_coverage.csv::iTE:P1552::abstract')
+items=[
+(300,'accept','相变','两节点都指材料相变的一般过程，具体结构/输运性质转变未编码进标签；接受上层相变概念而非各样品相身份。'),
+(301,'accept','超离子相变温度','补充上下文显示第一篇超离子Ag+材料相变，第二篇明确有序无序/超离子转变；两处均为该相变温度参数。'),
+(302,'accept','声子拖曳效应','两处同指phonon drag；单复数不改变机制。'),
+(303,'accept','电子声子散射','第一句为声子介导电子散射，第二句为电子声子散射；都是电子与声子交换动量/能量的散射过程，不是电子电子散射。'),
+(304,'reject','一般pi堆叠与有序面对面堆叠分开','第二明确有序且面对面几何构型，第一只说调节pi-pi* stacking，不能默认同样有序与取向。'),
+(305,'accept','PEDOT:PSS电极中的选择透过聚阴离子','第二段上下文明确PSS含量及界面阳离子差异，与第一PEDOT:PSS聚阴离子Donnan作用相符；不将效应与物质合并。'),
+(306,'reject','孔隙率与纳米孔隙分开','第一为porosity属性；第二原文introduce nanoscale porosities指引入的孔结构实体，而非数值孔隙率。'),
+(307,'accept','正离子Seebeck系数','两句均为离子凝胶中正号热电系数，保留正号，不并入任意Seebeck系数。'),
+(308,'accept','热电能量转换效率','两句均以热电装置输出及Seebeck电流讨论热到电效率，非电流密度本身。'),
+(309,'uncertain','电子占优导电的载流子定义','predominantly electronic可能泛指电子/空穴导电，另一处明确electron conduction；需确认第一文载流子范围。'),
+(310,'accept','快速阴离子输运','两句均明确快速阴离子输运，保留rapid条件而不泛化为任意输运。'),
+(311,'accept','填充原子rattling对声子散射的作用','两处相同填充原子、rattling及声子散射机制组合，介词差异不影响。'),
+(312,'reject','大分子单元rattling振动与软rattling模分开','第一限定大分子单元运动，第二限定笼结构的软振动模；共享rattling不足以同义化运动主体与软模条件。'),
+(313,'accept','还原性气氛','两处同为还原性环境条件，非n型传导或离子导电本身。'),
+(314,'reject','氧化物中载流子增加与一般增加分开','第一节点特指氧化物中电子注入带来的浓度增加；第二未限定氧化物或载流子类型，范围不一致。'),
+(315,'accept','Ca2+选择性固定','首句上下文明确强配位Ca2+相对弱OH-，补足省略的固定对象；第二直接指定Ca2+。'),
+(316,'accept','溶剂对离子液体的选择性溶剂化','第二句低浓度IL加极性溶剂的上下文补足相互作用两方，与首句范围一致。'),
+(317,'accept','Br-半径大于Cl-的比较关系','第二段完整上下文是Na2TlSbCl6与Na2TlSbBr6比较；两节点为同一个半径大小关系的相反语序。'),
+(318,'reject','空间限域固定阴离子与一般固定阴离子分开','第一带spatially confined限制，第二只说明相互作用固定阴离子，未证明相同空间限域条件。'),
+(319,'uncertain','比电容的归一化基准','第一为mF/cm2面积电容，第二引文未说明按面积还是质量归一化，不能只以specific capacitance接受。'),
+(320,'accept','离子半径失配应变场声子散射','首段明确strain-field effect为半径差异造成的声子散射机制，与第二完整术语范围一致。'),
+(321,'accept','流动电势','两处均为带电流体/通道电动效应产生的streaming potential，首段明确与Soret热电势并列区分。'),
+(322,'accept','强温度依赖载流子数浓度','concentration与density在此均为数浓度，保留strongly temperature dependent条件。'),
+(323,'accept','结构稳定性','两段均由键能/形成能等评价晶体结构稳定性，非环境耐久性。'),
+(324,'accept','超离子固体电解质','第二虽标签为solid electrolytes，但原文明确with superionic conductivity；只接受该语境受限类别，不宣布所有固体电解质等于超离子材料。'),
+(325,'accept','热电势系数的温度依赖','两节点都为thermoelectric power随温度的函数性质，不等同其绝对值。'),
+(326,'accept','温度差','均为两位置间温度差，非单位长度梯度。'),
+(327,'uncertain','质子单向热迁移方向','第一虽温度驱动并单向，但未明确冷热方向；第二明确热到冷，尚不足以删除方向限定。'),
+(328,'accept','界面热阻','Kapitza resistance与thermal boundary resistance在两段都指跨材料界面的热阻，非体相热阻。'),
+(329,'accept','Na+热扩散','两处同为Na+在温度梯度下热扩散，物种、驱动力一致。'),
+(330,'reject','热电效应与热膨胀效应分开','P1712完整摘要明确TE=thermal expansion；P1513是thermoelectric effect。此处是缩写歧义导致的错误等价。'),
+(331,'uncertain','离子凝胶热电性质集合与综合性能','两段均描述提升但未给properties与performance相同的指标范围，机制相似不足以证明两个集合严格同义。'),
+(332,'accept','跳跃输运向类能带输运转变','两句转变起点终点与方向完全一致。'),
+(333,'accept','电子主导向离子主导导电转变','两句均是主导载流子机制从电子变为离子，触发条件不同不改转变定义。'),
+(334,'uncertain','transport mechanism的具体范围','第二同时区分超离子桨轮和正常相Frenkel机制；第一只说桨轮解释输运，缺少相区和载流子范围。'),
+(335,'accept','晶格体积收缩','两处均是掺杂引发晶格/晶胞几何收缩的结构变化，不是单一轴各向异性缩短。'),
+(336,'reject','水浓度差与水浓度梯度分开','浓度差不是按空间长度归一化的梯度；原文未给同一定义，不能按常见关联合并。'),
+(337,'uncertain','水损失与脱水','第一为干燥/非干燥多离子材料失水，第二可能是结晶水脱除的热事件；需水的结合状态以确定边界。'),
+(338,'accept','弱离子键合','两处均描述离子键弱的状态属性，未将其导致的软声子模合并。'),
+(339,'reject','键弱化与弱原子键分开','第一相对另一轨道占据情况明显弱化，第二为弱键绝对状态；不把变化比较与属性状态直接同义化。')]
+for x in items:record(*x)

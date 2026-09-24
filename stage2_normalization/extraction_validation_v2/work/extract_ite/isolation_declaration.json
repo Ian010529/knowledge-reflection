@@ -1,0 +1,29 @@
+{
+  "agent": "extract_ite_v2",
+  "assigned_domain": "iTE",
+  "papers": 30,
+  "initial_records": 151,
+  "review_rounds": 1,
+  "read_scope": [
+    "protocol.md",
+    "schema.md",
+    "inputs/iTE.json",
+    "materialize.py",
+    "own work/extract_ite directory"
+  ],
+  "not_accessed": [
+    "other role outputs",
+    "old extractions",
+    "references",
+    "baseline scores",
+    "network or paid APIs"
+  ],
+  "execution_note": "Author judgments are explicit model-authored records. Python serialized and validated judgments. Materialize internally validates against input_papers.json as supplied by coordinator; no manual inspection of that file.",
+  "unresolved_source_ambiguities": [
+    "P1176 high-symmetry.-phase label",
+    "P0498 greater disparity undefined",
+    "P0498 ether ion identity",
+    "P1720 method-to-gap triplet mapping not specified",
+    "P1188 t symbol retained without expanded physical definition"
+  ]
+}

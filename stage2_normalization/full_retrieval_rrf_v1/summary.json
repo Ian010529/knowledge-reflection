@@ -1,0 +1,91 @@
+{
+  "status": "retrieval_trial_complete_not_normalization",
+  "source_sha256": "469aa1a712bd443214095b35ba5d4e6481069e90cd7ed65198643300d3c65401",
+  "papers": 1971,
+  "accepted_relations": 20984,
+  "deferred_relations": 131,
+  "nodes": 27065,
+  "nodes_by_domain": {
+    "TG": 4066,
+    "iTE": 22999
+  },
+  "model": "nomic-ai/nomic-embed-text-v1.5",
+  "revision": "e9b6763023c676ca8431644204f50c2b100d9aab",
+  "device": "mps",
+  "embedding_input_fingerprint": "5bd1f73b0b213013af9675b1f84ef5d3d926c0c598ea0a2e53ae541168d0706c",
+  "cache_reused": false,
+  "embedding_seconds": 706.9154823750723,
+  "retrieval_seconds": 49.99415508285165,
+  "total_seconds": 761.736175582977,
+  "parameters": {
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "channel_top_k": 10,
+    "rrf_k": 60,
+    "final_top_k": 10,
+    "domain_local": true,
+    "role_filter": false,
+    "self_excluded": true,
+    "same_paper_allowed": true
+  },
+  "context_methods": {
+    "source_sentence_or_semicolon_clause": 8834,
+    "first_80_words_phrase_not_found": 18215,
+    "long_clause_existing_80_word_window": 16
+  },
+  "metrics": {
+    "bm25": {
+      "unordered_pairs": 187746,
+      "directed_neighbors": 264309,
+      "queries_under_top10": 873,
+      "same_label_neighbors": 17176,
+      "same_role_neighbors": 140981,
+      "same_paper_neighbors": 16923,
+      "pairs_by_domain": {
+        "iTE": 160686,
+        "TG": 27060
+      }
+    },
+    "vector": {
+      "unordered_pairs": 192155,
+      "directed_neighbors": 270650,
+      "queries_under_top10": 0,
+      "same_label_neighbors": 4417,
+      "same_role_neighbors": 93551,
+      "same_paper_neighbors": 115044,
+      "pairs_by_domain": {
+        "iTE": 163354,
+        "TG": 28801
+      }
+    },
+    "rrf": {
+      "unordered_pairs": 189627,
+      "directed_neighbors": 270650,
+      "queries_under_top10": 0,
+      "same_label_neighbors": 12435,
+      "same_role_neighbors": 117681,
+      "same_paper_neighbors": 94080,
+      "pairs_by_domain": {
+        "iTE": 161791,
+        "TG": 27836
+      }
+    }
+  },
+  "rrf_added_vs_bm25": 82148,
+  "rrf_dropped_vs_bm25": 80267,
+  "rrf_added_vs_vector": 81947,
+  "rrf_dropped_vs_vector": 84475,
+  "validation": {
+    "source_unchanged": true,
+    "finite_unit_vectors": true,
+    "bm25_scalar_queries": 6,
+    "bm25_max_error": 3.552713678800501e-15,
+    "rrf_all_queries_reconstructed": true,
+    "no_self_cross_domain_duplicate_neighbors": true
+  },
+  "semantic_recall_measured": false,
+  "semantic_precision_measured": false,
+  "new_generative_model_calls": 0,
+  "merges_applied": 0,
+  "script_sha256": "9b85ef6ad84e4b00e38f039755bf8fc50b2872dfd5638dce7c2a0aed73ff9f5d"
+}

@@ -1,0 +1,265 @@
+{
+  "status": "initial_graph_complete_not_population_semantic_acceptance",
+  "papers": 1971,
+  "original_nodes": 27065,
+  "concept_nodes": 24824,
+  "node_reduction": 2241,
+  "accepted_claims": 20984,
+  "deferred_claims": 131,
+  "candidate_groups": 941,
+  "reviewed_mentions": 3575,
+  "normalization_uncertain_mentions": 192,
+  "model": "gpt-6-astra",
+  "reasoning": "medium",
+  "model_jobs": 64,
+  "usage": {
+    "input_tokens": 1538971,
+    "cached_input_tokens": 266240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105572,
+    "reasoning_output_tokens": 10525
+  },
+  "mean_call_seconds": 58.1,
+  "domain_stats": {
+    "iTE": {
+      "original_local_nodes": 22999,
+      "concept_nodes": 20887,
+      "claims": 17864,
+      "core_scope_claims": 12084,
+      "deferred_claims": 123,
+      "merged_clusters": 750,
+      "normalization_uncertain_nodes": 172,
+      "weak_components": 4347,
+      "largest_component_nodes": 5452,
+      "self_loop_claims": 0,
+      "relation_review_status": {
+        "not_targeted_by_full_audit_v1": 17365,
+        "model_reviewed_supported_single_pass": 413,
+        "model_repaired_not_independently_rechecked": 86
+      },
+      "top_concepts": [
+        {
+          "label": "Electrical conductivity",
+          "concept_id": "iTE:Cf6bdffba87e544",
+          "source_documents": 71,
+          "claims": 113
+        },
+        {
+          "label": "Mechanical stability",
+          "concept_id": "iTE:Ce7845b5dd1b686",
+          "source_documents": 56,
+          "claims": 63
+        },
+        {
+          "label": "Increasing temperature",
+          "concept_id": "iTE:C426670f3c44c3b",
+          "source_documents": 48,
+          "claims": 88
+        },
+        {
+          "label": "Seebeck coefficient (electronic)",
+          "concept_id": "iTE:Cc91b24e796044f",
+          "source_documents": 45,
+          "claims": 72
+        },
+        {
+          "label": "Temperature",
+          "concept_id": "iTE:C75bc7dc50e07a8",
+          "source_documents": 43,
+          "claims": 92
+        },
+        {
+          "label": "Thermal conductivity",
+          "concept_id": "iTE:C5babf48f449b49",
+          "source_documents": 36,
+          "claims": 56
+        },
+        {
+          "label": "Thermodynamic stability",
+          "concept_id": "iTE:C041ba349413a8b",
+          "source_documents": 35,
+          "claims": 43
+        },
+        {
+          "label": "Electrical resistivity",
+          "concept_id": "iTE:Cbb11fd8727a176",
+          "source_documents": 30,
+          "claims": 45
+        },
+        {
+          "label": "Ductility",
+          "concept_id": "iTE:C2aff4587ed8fb5",
+          "source_documents": 29,
+          "claims": 39
+        },
+        {
+          "label": "Ionic bonding",
+          "concept_id": "iTE:C21a2e37359b737",
+          "source_documents": 28,
+          "claims": 32
+        },
+        {
+          "label": "Ionic conductivity",
+          "concept_id": "iTE:C45cb08b2627bd3",
+          "source_documents": 27,
+          "claims": 29
+        },
+        {
+          "label": "Thermoelectric applications",
+          "concept_id": "iTE:C86e0dd88b91b46",
+          "source_documents": 27,
+          "claims": 31
+        },
+        {
+          "label": "Lattice thermal conductivity",
+          "concept_id": "iTE:Ccc99ef6941bc4f",
+          "source_documents": 27,
+          "claims": 41
+        },
+        {
+          "label": "Carrier concentration",
+          "concept_id": "iTE:C14faecdb8f13e8",
+          "source_documents": 25,
+          "claims": 48
+        },
+        {
+          "label": "Dynamical stability",
+          "concept_id": "iTE:C753d31a014ec19",
+          "source_documents": 20,
+          "claims": 22
+        }
+      ]
+    },
+    "TG": {
+      "original_local_nodes": 4066,
+      "concept_nodes": 3937,
+      "claims": 3120,
+      "core_scope_claims": 1287,
+      "deferred_claims": 8,
+      "merged_clusters": 83,
+      "normalization_uncertain_nodes": 20,
+      "weak_components": 939,
+      "largest_component_nodes": 203,
+      "self_loop_claims": 1,
+      "relation_review_status": {
+        "not_targeted_by_full_audit_v1": 2984,
+        "model_reviewed_supported_single_pass": 77,
+        "model_repaired_not_independently_rechecked": 59
+      },
+      "top_concepts": [
+        {
+          "label": "Thermogalvanic effect",
+          "concept_id": "TG:C6a160a3e4c4c73",
+          "source_documents": 13,
+          "claims": 14
+        },
+        {
+          "label": "Flexibility",
+          "concept_id": "TG:C3171c6eae2595e",
+          "source_documents": 11,
+          "claims": 11
+        },
+        {
+          "label": "Seebeck coefficient (thermogalvanic)",
+          "concept_id": "TG:Cd3c44fa9a984c2",
+          "source_documents": 8,
+          "claims": 13
+        },
+        {
+          "label": "Stretchability",
+          "concept_id": "TG:Cb0f305b727ea5a",
+          "source_documents": 5,
+          "claims": 5
+        },
+        {
+          "label": "Temperature",
+          "concept_id": "TG:C4c3edb3c1ad619",
+          "source_documents": 4,
+          "claims": 7
+        },
+        {
+          "label": "Low cost",
+          "concept_id": "TG:C7f5766c8e3185a",
+          "source_documents": 4,
+          "claims": 4
+        },
+        {
+          "label": "Low thermal conductivity",
+          "concept_id": "TG:Ce62749aae21009",
+          "source_documents": 4,
+          "claims": 5
+        },
+        {
+          "label": "Electrode spacing",
+          "concept_id": "TG:C2bcee9fa88feef",
+          "source_documents": 3,
+          "claims": 7
+        },
+        {
+          "label": "Temperature sensing",
+          "concept_id": "TG:C2f8d09acad6ad5",
+          "source_documents": 3,
+          "claims": 3
+        },
+        {
+          "label": "Low-grade heat harvesting",
+          "concept_id": "TG:C4ded82035a2f7e",
+          "source_documents": 3,
+          "claims": 4
+        },
+        {
+          "label": "Thermal diffusion",
+          "concept_id": "TG:C5342359992f00e",
+          "source_documents": 3,
+          "claims": 3
+        },
+        {
+          "label": "Enhanced thermopower",
+          "concept_id": "TG:C5928f18fd10100",
+          "source_documents": 3,
+          "claims": 3
+        },
+        {
+          "label": "Increasing temperature",
+          "concept_id": "TG:C7460d09985a42e",
+          "source_documents": 3,
+          "claims": 3
+        },
+        {
+          "label": "Mass transport",
+          "concept_id": "TG:Cb647a30e0fc170",
+          "source_documents": 3,
+          "claims": 3
+        },
+        {
+          "label": "Soret effect",
+          "concept_id": "TG:Cd96ec2c3b2bfa2",
+          "source_documents": 3,
+          "claims": 4
+        }
+      ]
+    }
+  },
+  "source_sha256": "469aa1a712bd443214095b35ba5d4e6481069e90cd7ed65198643300d3c65401",
+  "rrf_candidates_reviewed": 0,
+  "new_extractions": 0,
+  "cross_domain_alignments": 0,
+  "verification": {
+    "source_unchanged": true,
+    "retrieval_nodes_unchanged": true,
+    "all_candidate_groups_judged": true,
+    "all_members_partitioned_once": true,
+    "all_local_nodes_mapped_once": true,
+    "all_original_claim_fields_preserved": true,
+    "accepted_and_deferred_coverage_exact": true,
+    "evidence_positions_verified": 39508,
+    "no_cross_domain_merge": true,
+    "no_dangling_edges": true,
+    "distinct_parenthetical_materials_not_merged": true,
+    "graphml_parses_and_counts_match": true,
+    "graphml_full_edge_payloads_match": true,
+    "semantic_population_quality_measured": false
+  },
+  "model_window_minutes": 17.05,
+  "model_finished_at": "2026-09-24T19:32:46.443102+00:00"
+}

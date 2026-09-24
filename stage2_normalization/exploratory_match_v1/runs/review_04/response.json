@@ -1,0 +1,124 @@
+{
+  "pairs": [
+    {
+      "review_id": "B19",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧为单晶材料的结构品质，右侧为特定几何与超结构取向下的金属化现象；两项均获摘要支持，但关系终点不对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "单晶品质不能等同于金属化机制。右侧仅提出类热电化学体过程或近表面载流子重分布两种备选解释，不能确定为氧化还原热电池。",
+      "neighbor_claim_ids": [
+        "TG:P0240:r002",
+        "TG:P0240:r003"
+      ],
+      "local_structure_assessment": "右侧可接至两条假说解释边，但左侧没有对应路径；不存在可匹配的单边或双边机制关系。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "几何、取向及金属化机制均未具体确定；左侧目标本身不涉及热电转换机制。"
+    },
+    {
+      "review_id": "B20",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "ionic_thermodiffusion",
+      "right_physics": "ionic_thermodiffusion",
+      "match": 2,
+      "level": "same_mechanism",
+      "explanation": "两侧均明确支持“Soret热扩散产生浓度梯度”，方向及端点对应；这是已有同机制关系，右侧的TG标签不代表氧化还原过程。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧限定稀溶液、弱温度梯度、阻挡且电隔离的电极及两离子相同扩散系数；右侧为黏弹性聚合物电解质，温差10–20°C，不能直接套用左侧电压或扩散时标。",
+      "neighbor_claim_ids": [
+        "iTE:P0659:r009",
+        "TG:P0295:r004"
+      ],
+      "local_structure_assessment": "仅单边对应成立。左侧可延伸至浓度梯度形成时标；右侧邻边是温度梯度指向同一浓度梯度，不能拼成对应的第二步。",
+      "transfer": "already_similar_mechanism",
+      "insight_question": "",
+      "limitations": "右侧未验证弱梯度及稀溶液假设，也未测量热电压动力学；左侧时标原文L-2/D的指数格式仍有歧义。"
+    },
+    {
+      "review_id": "B21",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "thermogalvanic_redox",
+      "right_physics": "thermogalvanic_redox",
+      "match": 2,
+      "level": "same_mechanism",
+      "explanation": "两侧均为添加剂调控同一K4Fe(CN)6的温敏相行为：左侧诱导结晶，右侧改变温敏溶解度并报告沉淀。该层面的定向关系明确对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "共同点是热电化学体系中的温敏相行为；左侧归因为氧化还原对熵差，右侧强调归一化浓度梯度且溶剂化贡献弱，二者不能直接等同。凝胶与液体的传质、对流条件也不同。",
+      "neighbor_claim_ids": [
+        "iTE:P1263:r004",
+        "TG:P0270:r004",
+        "TG:P0270:r005"
+      ],
+      "local_structure_assessment": "左侧为添加剂→结晶→熵差；右侧为添加剂→温敏溶解度→浓度梯度，第二步还需冷端最低浓度共同参与。仅第一步具有清晰对应，不能宣称双边路径同构。",
+      "transfer": "already_similar_mechanism",
+      "insight_question": "",
+      "limitations": "未提供相平衡曲线或贡献分解，不能认定两种添加剂可互换；共同方法判断仅限所给论文。"
+    },
+    {
+      "review_id": "B22",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧是介孔结构增加表面积，右侧是复合材料在未详述条件下介电常数低于1；介孔一词不足以建立关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "结构表面积、电子导电性能与频率相关介电响应是不同物理量。右侧热刺激去极化的描述不足以证明电极氧化还原机制；左侧目标也只是几何结构效应。",
+      "neighbor_claim_ids": [
+        "iTE:P1048:r011",
+        "TG:P0111:r006"
+      ],
+      "local_structure_assessment": "左侧有介孔结构→表面积→电导率的同文路径；右侧没有表面积→介电常数的边，不能用共享材料节点补链。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "缺少右侧介电测量频率和具体条件，以及孔结构对该响应的因果证据。"
+    },
+    {
+      "review_id": "B23",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "两侧均支持水凝胶器件具有所报热电系数，可作有限的材料→性能关系对应；共同指标不能证明共同机制。左侧摘要未交代热电压的微观来源。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧给出10 K、55%相对湿度，右侧未给对应测试条件且使用等效Seebeck系数。右侧明确依赖热电化学效应，但未列出氧化还原对；不能据系数或符号判断左侧机制及持续供电能力。",
+      "neighbor_claim_ids": [],
+      "local_structure_assessment": "仅单边性能对应；所给邻边均为同一材料的并列性能，不能构成热电系数形成机制的双边路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "电极、温差标定、符号约定及输出随时间的行为不明，不能直接比较本征热电性能或迁移机制。"
+    },
+    {
+      "review_id": "B24",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 2,
+      "level": "same_mechanism",
+      "explanation": "两侧均明确支持“水凝胶具有双网络结构”，材料和结构端点直接对应。共同点限于已采用的结构方案，不能据此认定热电转换机制相同。",
+      "conditions": "insufficient",
+      "physical_boundary": "双网络是结构设计，不决定热电压来自热扩散还是氧化还原。右侧力电性能由双网络与富氢离子的植酸共同实现，不能归因于双网络单一因素。",
+      "neighbor_claim_ids": [
+        "iTE:P0558:r004",
+        "iTE:P0558:r006",
+        "TG:P0013:r003",
+        "TG:P0013:r004"
+      ],
+      "local_structure_assessment": "仅结构单边匹配。右侧有水凝胶→双网络→力学或导电性能的条件路径；左侧只给水凝胶的并列性能，没有双网络→性能边。",
+      "transfer": "already_similar_mechanism",
+      "insight_question": "",
+      "limitations": "same_mechanism仅指共同结构方案；网络组成、交联细节及性能因果贡献不全，不能推出相同发电机制或双网络的独立收益。"
+    }
+  ]
+}

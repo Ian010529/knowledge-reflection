@@ -1,0 +1,716 @@
+[
+  {
+    "group_index": 7,
+    "before": {
+      "group_index": 7,
+      "class_id": "iTE:P1876:n2",
+      "judge_decision": "split",
+      "concept_definition": "功率因子按载流机制和限定分拆",
+      "judge_reason": "2明确PF=alpha²sigma支持电子PF共同定义；0/3/13为离子PF，4混合地聚物、10混合凝胶PF未分离载流贡献；1最大值，15/24/25为增强事件，不并入普通PF。",
+      "partitions": [
+        {
+          "definition": "离子功率因子",
+          "members": [
+            0,
+            3,
+            13
+          ],
+          "raw_mention_ids": [
+            "iTE:P0378:n3",
+            "iTE:P0502:n2",
+            "iTE:P0864:n3"
+          ]
+        },
+        {
+          "definition": "最大功率因子",
+          "members": [
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0478:n3"
+          ]
+        },
+        {
+          "definition": "电子功率因子",
+          "members": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "raw_mention_ids": [
+            "iTE:P0484:n3",
+            "iTE:P0562:n2",
+            "iTE:P0582:n3",
+            "iTE:P0628:n4",
+            "iTE:P0674:n2",
+            "iTE:P0690:n2",
+            "iTE:P0779:n2",
+            "iTE:P0796:n2",
+            "iTE:P0976:n2",
+            "iTE:P1073:n2",
+            "iTE:P1369:n2",
+            "iTE:P1480:n2",
+            "iTE:P1510:n2",
+            "iTE:P1516:n2",
+            "iTE:P1568:n3",
+            "iTE:P1574:n2",
+            "iTE:P1752:n4"
+          ]
+        },
+        {
+          "definition": "混合地聚物功率因子",
+          "members": [
+            4
+          ],
+          "raw_mention_ids": [
+            "iTE:P0515:n2"
+          ]
+        },
+        {
+          "definition": "混合凝胶功率因子",
+          "members": [
+            10
+          ],
+          "raw_mention_ids": [
+            "iTE:P0738:n2"
+          ]
+        },
+        {
+          "definition": "功率因子增强",
+          "members": [
+            15,
+            24,
+            25
+          ],
+          "raw_mention_ids": [
+            "iTE:P1013:n2",
+            "iTE:P1823:n2",
+            "iTE:P1876:n2"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:32:26.271404+00:00"
+    },
+    "after": {
+      "group_index": 7,
+      "class_id": "iTE:P1876:n2",
+      "judge_decision": "split",
+      "concept_definition": "功率因子按载流机制和限定分拆",
+      "judge_reason": "修订：enhanced power factor为增强后的状态，enhancement in the power factor为变化过程，拆开25与15/24。普通电子、离子、混合及最大值仍按原定义分开。",
+      "partitions": [
+        {
+          "definition": "离子功率因子",
+          "members": [
+            0,
+            3,
+            13
+          ],
+          "raw_mention_ids": [
+            "iTE:P0378:n3",
+            "iTE:P0502:n2",
+            "iTE:P0864:n3"
+          ]
+        },
+        {
+          "definition": "最大功率因子",
+          "members": [
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0478:n3"
+          ]
+        },
+        {
+          "definition": "电子功率因子",
+          "members": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "raw_mention_ids": [
+            "iTE:P0484:n3",
+            "iTE:P0562:n2",
+            "iTE:P0582:n3",
+            "iTE:P0628:n4",
+            "iTE:P0674:n2",
+            "iTE:P0690:n2",
+            "iTE:P0779:n2",
+            "iTE:P0796:n2",
+            "iTE:P0976:n2",
+            "iTE:P1073:n2",
+            "iTE:P1369:n2",
+            "iTE:P1480:n2",
+            "iTE:P1510:n2",
+            "iTE:P1516:n2",
+            "iTE:P1568:n3",
+            "iTE:P1574:n2",
+            "iTE:P1752:n4"
+          ]
+        },
+        {
+          "definition": "混合地聚物功率因子",
+          "members": [
+            4
+          ],
+          "raw_mention_ids": [
+            "iTE:P0515:n2"
+          ]
+        },
+        {
+          "definition": "混合凝胶功率因子",
+          "members": [
+            10
+          ],
+          "raw_mention_ids": [
+            "iTE:P0738:n2"
+          ]
+        },
+        {
+          "definition": "增强后的电子功率因子状态",
+          "members": [
+            15,
+            24
+          ],
+          "raw_mention_ids": [
+            "iTE:P1013:n2",
+            "iTE:P1823:n2"
+          ]
+        },
+        {
+          "definition": "功率因子增强过程",
+          "members": [
+            25
+          ],
+          "raw_mention_ids": [
+            "iTE:P1876:n2"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:32:26.271404+00:00",
+      "astra_acceptance_note": "修订：enhanced power factor为增强后的状态，enhancement in the power factor为变化过程，拆开25与15/24。普通电子、离子、混合及最大值仍按原定义分开。",
+      "acceptance_method": "astra_model_judge_user_authorized"
+    },
+    "reason": "修订：enhanced power factor为增强后的状态，enhancement in the power factor为变化过程，拆开25与15/24。普通电子、离子、混合及最大值仍按原定义分开。"
+  },
+  {
+    "group_index": 19,
+    "before": {
+      "group_index": 19,
+      "class_id": "iTE:P1970:n1",
+      "judge_decision": "split",
+      "concept_definition": "声子散射、光谱覆盖、强度及增强",
+      "judge_reason": "0/2/3/4/5/6/7/10一般声子散射过程；1多波长覆盖；8强散射状态；9/11散射增强变化。区分强度状态与变化，不能闭包消除。",
+      "partitions": [
+        {
+          "definition": "声子散射",
+          "members": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10
+          ],
+          "raw_mention_ids": [
+            "iTE:P0829:n2",
+            "iTE:P0904:n3",
+            "iTE:P0917:n2",
+            "iTE:P0921:n2",
+            "iTE:P0928:n4",
+            "iTE:P1031:n3",
+            "iTE:P1170:n2",
+            "iTE:P1489:n3"
+          ]
+        },
+        {
+          "definition": "多波长声子散射",
+          "members": [
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0894:n2"
+          ]
+        },
+        {
+          "definition": "强声子散射",
+          "members": [
+            8
+          ],
+          "raw_mention_ids": [
+            "iTE:P1198:n2"
+          ]
+        },
+        {
+          "definition": "声子散射增强",
+          "members": [
+            9,
+            11
+          ],
+          "raw_mention_ids": [
+            "iTE:P1481:n1",
+            "iTE:P1970:n1"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:30:31.751655+00:00"
+    },
+    "after": {
+      "group_index": 19,
+      "class_id": "iTE:P1970:n1",
+      "judge_decision": "split",
+      "concept_definition": "声子散射、光谱覆盖、强度及增强",
+      "judge_reason": "修订：enhanced phonon scattering指增强后的散射状态，increase in phonon scattering指增强过程，拆开9/11。一般散射、多波长及强散射范围继续保留。",
+      "partitions": [
+        {
+          "definition": "声子散射",
+          "members": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10
+          ],
+          "raw_mention_ids": [
+            "iTE:P0829:n2",
+            "iTE:P0904:n3",
+            "iTE:P0917:n2",
+            "iTE:P0921:n2",
+            "iTE:P0928:n4",
+            "iTE:P1031:n3",
+            "iTE:P1170:n2",
+            "iTE:P1489:n3"
+          ]
+        },
+        {
+          "definition": "多波长声子散射",
+          "members": [
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0894:n2"
+          ]
+        },
+        {
+          "definition": "强声子散射",
+          "members": [
+            8
+          ],
+          "raw_mention_ids": [
+            "iTE:P1198:n2"
+          ]
+        },
+        {
+          "definition": "增强后的声子散射状态",
+          "members": [
+            9
+          ],
+          "raw_mention_ids": [
+            "iTE:P1481:n1"
+          ]
+        },
+        {
+          "definition": "声子散射增强过程",
+          "members": [
+            11
+          ],
+          "raw_mention_ids": [
+            "iTE:P1970:n1"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:30:31.751655+00:00",
+      "astra_acceptance_note": "修订：enhanced phonon scattering指增强后的散射状态，increase in phonon scattering指增强过程，拆开9/11。一般散射、多波长及强散射范围继续保留。",
+      "acceptance_method": "astra_model_judge_user_authorized"
+    },
+    "reason": "修订：enhanced phonon scattering指增强后的散射状态，increase in phonon scattering指增强过程，拆开9/11。一般散射、多波长及强散射范围继续保留。"
+  },
+  {
+    "group_index": 20,
+    "before": {
+      "group_index": 20,
+      "class_id": "TG:P0251:n7",
+      "judge_decision": "uncertain",
+      "concept_definition": "热电化学效应与热刺激去极化术语",
+      "judge_reason": "除3外十个成员都指温度驱动红氧电位效应，可作为同一机制；TG:P0111完整摘要却为SmCl3/介孔SiO2热刺激去极化及介电理论，缺少红氧反应定义，不能仅凭thermogalvanic同名合并。",
+      "partitions": [
+        {
+          "definition": "温差驱动红氧热电化学效应",
+          "members": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "raw_mention_ids": [
+            "TG:P0031:n4",
+            "TG:P0039:n3",
+            "TG:P0075:n1",
+            "TG:P0145:n2",
+            "TG:P0153:n2",
+            "TG:P0162:n4",
+            "TG:P0173:n1",
+            "TG:P0194:n2",
+            "TG:P0201:n2",
+            "TG:P0251:n7"
+          ]
+        },
+        {
+          "definition": "热刺激去极化中称thermogalvanic的效应",
+          "members": [
+            3
+          ],
+          "raw_mention_ids": [
+            "TG:P0111:n3"
+          ]
+        }
+      ],
+      "cross_partition_decision": "uncertain",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:30:31.739892+00:00"
+    },
+    "after": {
+      "group_index": 20,
+      "class_id": "TG:P0251:n7",
+      "judge_decision": "uncertain",
+      "concept_definition": "热电化学效应与热刺激去极化术语",
+      "judge_reason": "修订P0201：该综述明确将Soret纳入thermogalvanic范围，与只取红氧电位机制的共同定义不完全一致，单列待定。SmCl3热刺激去极化节点继续待定，其余红氧机制保留。",
+      "partitions": [
+        {
+          "definition": "温差驱动红氧热电化学效应",
+          "members": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "raw_mention_ids": [
+            "TG:P0031:n4",
+            "TG:P0039:n3",
+            "TG:P0075:n1",
+            "TG:P0145:n2",
+            "TG:P0153:n2",
+            "TG:P0162:n4",
+            "TG:P0173:n1",
+            "TG:P0194:n2",
+            "TG:P0251:n7"
+          ]
+        },
+        {
+          "definition": "热刺激去极化中称thermogalvanic的效应",
+          "members": [
+            3
+          ],
+          "raw_mention_ids": [
+            "TG:P0111:n3"
+          ]
+        },
+        {
+          "definition": "综述中包含红氧熵与Soret的thermogalvanic广义范围",
+          "members": [
+            9
+          ],
+          "raw_mention_ids": [
+            "TG:P0201:n2"
+          ]
+        }
+      ],
+      "cross_partition_decision": "uncertain",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:30:31.739892+00:00",
+      "uncertain_cross_members": [
+        9
+      ],
+      "uncertain_cross_reason": "；Astra抽检：修订P0201：该综述明确将Soret纳入thermogalvanic范围，与只取红氧电位机制的共同定义不完全一致，单列待定。SmCl3热刺激去极化节点继续待定，其余红氧机制保留。",
+      "astra_acceptance_note": "修订P0201：该综述明确将Soret纳入thermogalvanic范围，与只取红氧电位机制的共同定义不完全一致，单列待定。SmCl3热刺激去极化节点继续待定，其余红氧机制保留。",
+      "acceptance_method": "astra_model_judge_user_authorized"
+    },
+    "reason": "修订P0201：该综述明确将Soret纳入thermogalvanic范围，与只取红氧电位机制的共同定义不完全一致，单列待定。SmCl3热刺激去极化节点继续待定，其余红氧机制保留。"
+  },
+  {
+    "group_index": 35,
+    "before": {
+      "group_index": 35,
+      "class_id": "TG:P0202:n3",
+      "judge_decision": "split",
+      "concept_definition": "真实温度梯度与温差记号",
+      "judge_reason": "1/4为以K给出的DeltaT，2/5原文虽称gradient但用温度差单位描述宏观两端差；0/3/6为空间温度梯度未给相同DeltaT定义，不把二者混合。",
+      "partitions": [
+        {
+          "definition": "空间温度梯度",
+          "members": [
+            0,
+            3,
+            6
+          ],
+          "raw_mention_ids": [
+            "TG:P0081:n1",
+            "TG:P0136:n3",
+            "TG:P0295:n1"
+          ]
+        },
+        {
+          "definition": "两端温度差",
+          "members": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "raw_mention_ids": [
+            "TG:P0086:n4",
+            "TG:P0118:n1",
+            "TG:P0202:n3",
+            "TG:P0233:n3"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:28:54.251764+00:00"
+    },
+    "after": {
+      "group_index": 35,
+      "class_id": "TG:P0202:n3",
+      "judge_decision": "split",
+      "concept_definition": "真实温度梯度与温差记号",
+      "judge_reason": "修订：TG:P0118的30°C是电极极性转折的临界温度，不是两端温差。将该节点从DeltaT分区拆出待定；DeltaT仍仅含明确温差定义的1/4/5。",
+      "partitions": [
+        {
+          "definition": "空间温度梯度",
+          "members": [
+            0,
+            3,
+            6
+          ],
+          "raw_mention_ids": [
+            "TG:P0081:n1",
+            "TG:P0136:n3",
+            "TG:P0295:n1"
+          ]
+        },
+        {
+          "definition": "两端温度差",
+          "members": [
+            1,
+            4,
+            5
+          ],
+          "raw_mention_ids": [
+            "TG:P0086:n4",
+            "TG:P0202:n3",
+            "TG:P0233:n3"
+          ]
+        },
+        {
+          "definition": "温度梯度（30°C为临界温度，DeltaT定义未证实）",
+          "members": [
+            2
+          ],
+          "raw_mention_ids": [
+            "TG:P0118:n1"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:28:54.251764+00:00",
+      "uncertain_cross_members": [
+        2
+      ],
+      "uncertain_cross_reason": "；Astra抽检：修订：TG:P0118的30°C是电极极性转折的临界温度，不是两端温差。将该节点从DeltaT分区拆出待定；DeltaT仍仅含明确温差定义的1/4/5。",
+      "astra_acceptance_note": "修订：TG:P0118的30°C是电极极性转折的临界温度，不是两端温差。将该节点从DeltaT分区拆出待定；DeltaT仍仅含明确温差定义的1/4/5。",
+      "acceptance_method": "astra_model_judge_user_authorized"
+    },
+    "reason": "修订：TG:P0118的30°C是电极极性转折的临界温度，不是两端温差。将该节点从DeltaT分区拆出待定；DeltaT仍仅含明确温差定义的1/4/5。"
+  },
+  {
+    "group_index": 194,
+    "before": {
+      "group_index": 194,
+      "class_id": "iTE:P1500:n2",
+      "judge_decision": "accept",
+      "concept_definition": "高掺杂水平",
+      "judge_reason": "两处均保留高水平限定，不并入任意掺杂水平。",
+      "partitions": [
+        {
+          "definition": "高掺杂水平",
+          "members": [
+            0,
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0750:n1",
+            "iTE:P1500:n2"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:17:44.649002+00:00"
+    },
+    "after": {
+      "group_index": 194,
+      "class_id": "iTE:P1500:n2",
+      "judge_decision": "uncertain",
+      "concept_definition": "高掺杂水平",
+      "judge_reason": "修订为待定：CaAg0.9P抑制双极输运的高掺杂与N2200聚合物的高掺杂，未给出共同掺杂量定义或高值阈值；不能因high doping同名接受。",
+      "partitions": [
+        {
+          "definition": "高掺杂水平",
+          "members": [
+            0
+          ],
+          "raw_mention_ids": [
+            "iTE:P0750:n1"
+          ]
+        },
+        {
+          "definition": "共轭聚合物高掺杂水平，量定义/阈值待核",
+          "members": [
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P1500:n2"
+          ]
+        }
+      ],
+      "cross_partition_decision": "uncertain",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:17:44.649002+00:00",
+      "uncertain_cross_members": [
+        1
+      ],
+      "uncertain_cross_reason": "；Astra抽检：修订为待定：CaAg0.9P抑制双极输运的高掺杂与N2200聚合物的高掺杂，未给出共同掺杂量定义或高值阈值；不能因high doping同名接受。",
+      "astra_acceptance_note": "修订为待定：CaAg0.9P抑制双极输运的高掺杂与N2200聚合物的高掺杂，未给出共同掺杂量定义或高值阈值；不能因high doping同名接受。",
+      "acceptance_method": "astra_model_judge_user_authorized"
+    },
+    "reason": "修订为待定：CaAg0.9P抑制双极输运的高掺杂与N2200聚合物的高掺杂，未给出共同掺杂量定义或高值阈值；不能因high doping同名接受。"
+  },
+  {
+    "group_index": 335,
+    "before": {
+      "group_index": 335,
+      "class_id": "iTE:P0968:n1",
+      "judge_decision": "accept",
+      "concept_definition": "晶格体积收缩",
+      "judge_reason": "两处均是掺杂引发晶格/晶胞几何收缩的结构变化，不是单一轴各向异性缩短。",
+      "partitions": [
+        {
+          "definition": "晶格体积收缩",
+          "members": [
+            0,
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0753:n2",
+            "iTE:P0968:n1"
+          ]
+        }
+      ],
+      "cross_partition_decision": "reject",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:22:17.378899+00:00"
+    },
+    "after": {
+      "group_index": 335,
+      "class_id": "iTE:P0968:n1",
+      "judge_decision": "uncertain",
+      "concept_definition": "晶格体积收缩",
+      "judge_reason": "修订为待定：一侧明确晶胞体积收缩，另一侧只说lattice contraction策略；完整摘要未给出体积或各轴条件，不能断言几何范围严格等价。",
+      "partitions": [
+        {
+          "definition": "晶格体积收缩",
+          "members": [
+            0
+          ],
+          "raw_mention_ids": [
+            "iTE:P0753:n2"
+          ]
+        },
+        {
+          "definition": "晶格收缩策略，体积/各轴几何范围待核",
+          "members": [
+            1
+          ],
+          "raw_mention_ids": [
+            "iTE:P0968:n1"
+          ]
+        }
+      ],
+      "cross_partition_decision": "uncertain",
+      "review_scope": "all listed members and all proposed edges; equality within each partition justified by its shared definition, not graph closure",
+      "phase": "independent_evidence_first",
+      "timestamp_utc": "2026-09-24T05:22:17.378899+00:00",
+      "uncertain_cross_members": [
+        1
+      ],
+      "uncertain_cross_reason": "；Astra抽检：修订为待定：一侧明确晶胞体积收缩，另一侧只说lattice contraction策略；完整摘要未给出体积或各轴条件，不能断言几何范围严格等价。",
+      "astra_acceptance_note": "修订为待定：一侧明确晶胞体积收缩，另一侧只说lattice contraction策略；完整摘要未给出体积或各轴条件，不能断言几何范围严格等价。",
+      "acceptance_method": "astra_model_judge_user_authorized"
+    },
+    "reason": "修订为待定：一侧明确晶胞体积收缩，另一侧只说lattice contraction策略；完整摘要未给出体积或各轴条件，不能断言几何范围严格等价。"
+  }
+]

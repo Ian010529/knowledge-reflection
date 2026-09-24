@@ -1,4 +1,18 @@
-# 当前执行方式
+2026-09-25 当前覆盖：[全量抽取](full_extraction_v1/REPORT.md)、[抽检与一次修订](full_audit_v1/REPORT.md)、[最小归一化与初版双图谱](initial_graph_v1/REPORT.md)、[24 对探索性 match](exploratory_match_v1/REPORT.md)均已完成。详细边界见 [最新状态](astra_judge_review/CURRENT_STATUS.md)。未证实修订后总体质量达标，未完成正式四组匹配对照或全文/SI 验证。下文较早的“当前/尚未”保留为历史，不据此重跑。
+
+# 当前执行入口
+
+更新：2026-09-24。当前主线为 **iTE/TG 证据化双图谱与受控跨领域 match**。
+
+- 执行约定：[CROSS_DOMAIN_MATCH_EXTRACTION.md](CROSS_DOMAIN_MATCH_EXTRACTION.md)。它结合根目录 v2.0 研究计划与用户最新讨论，精简抽取工程，保留域内图谱、匹配对照及案例核查。
+- 最新完成状态：[astra_judge_review/CURRENT_STATUS.md](astra_judge_review/CURRENT_STATUS.md)。用户已指定 Astra 替代人工抽检。
+- 最新：[60篇隔离上下文抽取验证](extraction_validation_v2/REPORT.md)已完成；一次复核有益但稳定达标未证实。用户指出逐篇流程慢，后续转向批处理吞吐与首轮高频错误，不将参考/盲评复制到全量每篇。
+- 新完成：[12篇抽取SOP实验](extraction_sop_v1/REPORT.md)，57→63条；同会话参考仍检出2处遗漏、1项待定。正式验收仍未完成，当前优先抽取，不继续扩展匹配。
+- 原抽取质量基线未达标；新约定的[40篇开发试验](match_pilot_v1/REPORT.md)已完成，尚未全量重抽。旧 dsh/逐对入口及监听保持停用。
+
+以下全部为 **2026-09-23 历史执行说明**。其中候选数量、下一步、人工验收及未执行状态已由上述入口替代，仅供追溯，不据此重复启动任务。
+
+## 历史执行方式
 
 2026-09-23：按用户要求停用旧候选队列的自动逐对大模型执行流程。仅撤下执行入口，已有判断、修订、原始模型输出和证据记录全部保留，不删除、不移动，不视为人工验收。
 

@@ -1,0 +1,974 @@
+[
+  {
+    "relation_id": "MP1-iTE-P0342-03",
+    "action": "revise",
+    "reason": "to facilitate 是用途/机制性解释，摘要未单独报告传输速率验证；保留为假说。",
+    "before": {
+      "relation_id": "MP1-iTE-P0342-03",
+      "paper_id": "P0342",
+      "domain": "iTE",
+      "subject": {
+        "label": "hydrophilic NiCo(CO3)(OH)2 anode",
+        "role": "material_entity"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "rapid interfacial ion and electron transfer",
+        "role": "mechanism_process"
+      },
+      "quote": "NiCo(CO3)(OH)(2), a material known for its high hydrophilicity, is utilized as the anode to facilitate rapid ion and electron transfer at the electrode interface.",
+      "char_start": 693,
+      "char_end": 855,
+      "sentence_id": "P0342:char693",
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "9d28f6a20e422100d82b3a582352e77ab5ace1687cb998daf4ceb275b9939bd1",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-iTE-P0342-03",
+      "paper_id": "P0342",
+      "domain": "iTE",
+      "subject": {
+        "label": "hydrophilic NiCo(CO3)(OH)2 anode",
+        "role": "material_entity"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "rapid interfacial ion and electron transfer",
+        "role": "mechanism_process"
+      },
+      "quote": "NiCo(CO3)(OH)(2), a material known for its high hydrophilicity, is utilized as the anode to facilitate rapid ion and electron transfer at the electrode interface.",
+      "char_start": 693,
+      "char_end": 855,
+      "sentence_id": "P0342:char693",
+      "analysis_scope": "electrode_interface_kinetics",
+      "evidence_modality": "experimental",
+      "assertion": "hypothesis",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Purpose wording, not a separately measured interfacial transfer result.",
+      "input_hash": "9d28f6a20e422100d82b3a582352e77ab5ace1687cb998daf4ceb275b9939bd1",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0188-02",
+    "action": "revise",
+    "reason": "DFT 句仅说明考察方法，未报告方向性影响结果；移入方法层。",
+    "before": {
+      "relation_id": "MP1-TG-P0188-02",
+      "paper_id": "P0188",
+      "domain": "TG",
+      "subject": {
+        "label": "pyrazine functional groups",
+        "role": "design_strategy"
+      },
+      "predicate": "modulates",
+      "object": {
+        "label": "ionic Seebeck coefficient",
+        "role": "quantity"
+      },
+      "quote": "How the functional groups of the pyrazine compounds impact the ionic Seebeck coefficient is examined, by calculating the electrostatic potential based on density functional theory.",
+      "char_start": 620,
+      "char_end": 800,
+      "sentence_id": "P0188:char620",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "computational",
+      "assertion": "association",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "No direction of change reported; 36 versus nine device elements conflict in source abstract.",
+      "input_hash": "68a1579697a262d46bbf5b9413e57be077b51fb332c4d2d1293deb8d99a06500",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-TG-P0188-02",
+      "paper_id": "P0188",
+      "domain": "TG",
+      "subject": {
+        "label": "DFT electrostatic potential analysis",
+        "role": "design_strategy"
+      },
+      "predicate": "examines",
+      "object": {
+        "label": "functional-group influence on ionic Seebeck coefficient",
+        "role": "quantity"
+      },
+      "quote": "How the functional groups of the pyrazine compounds impact the ionic Seebeck coefficient is examined, by calculating the electrostatic potential based on density functional theory.",
+      "char_start": 620,
+      "char_end": 800,
+      "sentence_id": "P0188:char620",
+      "analysis_scope": "measurement_method_model",
+      "evidence_modality": "computational",
+      "assertion": "association",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Source reports investigation method rather than a directional mechanistic finding; device element count contradicts elsewhere (36 vs nine).",
+      "input_hash": "68a1579697a262d46bbf5b9413e57be077b51fb332c4d2d1293deb8d99a06500",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0176-02",
+    "action": "revise",
+    "reason": "补足 this approach 的原文先行句，避免只用孤立数值作证据。",
+    "before": {
+      "relation_id": "MP1-TG-P0176-02",
+      "paper_id": "P0176",
+      "domain": "TG",
+      "subject": {
+        "label": "Gutmann donor-guided anion doping",
+        "role": "design_strategy"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "high negative ionic thermopower",
+        "role": "quantity"
+      },
+      "quote": "At 80% relative humidity, this approach achieves a remarkably high negative thermopower of -25.85 mV K-1 and a high ionic conductivity of 3.21 mS cm-1.",
+      "char_start": 795,
+      "char_end": 946,
+      "sentence_id": "P0176:char795",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "80% RH; antecedent anion/cation cluster reconfiguration",
+      "condition_status": "reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "2a026b5173929804b92c5266f38bdd54d45fd18100831a21fda8db1405ed3dc4",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-TG-P0176-02",
+      "paper_id": "P0176",
+      "domain": "TG",
+      "subject": {
+        "label": "Gutmann donor-guided anion doping",
+        "role": "design_strategy"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "high negative ionic thermopower",
+        "role": "quantity"
+      },
+      "quote": "This study, grounded in the Gutmann donor theory for anion doping, demonstrates four universal configurations of structural reconfiguration in anion/cation clusters within ternary ionogels to progressively enhance anionic transport heat. At 80% relative humidity, this approach achieves a remarkably high negative thermopower of -25.85 mV K-1 and a high ionic conductivity of 3.21 mS cm-1.",
+      "char_start": 557,
+      "char_end": 946,
+      "sentence_id": "P0176:char557",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "80% RH; antecedent anion/cation cluster reconfiguration",
+      "condition_status": "reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "2a026b5173929804b92c5266f38bdd54d45fd18100831a21fda8db1405ed3dc4",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0227-02",
+    "action": "revise",
+    "reason": "补足 It 的前文定义，thermoelectric power 此处为 thermopower，避免误归为输出功率。",
+    "before": {
+      "relation_id": "MP1-TG-P0227-02",
+      "paper_id": "P0227",
+      "domain": "TG",
+      "subject": {
+        "label": "high ionic liquid concentration",
+        "role": "condition"
+      },
+      "predicate": "increases",
+      "object": {
+        "label": "thermoelectric power",
+        "role": "quantity"
+      },
+      "quote": "It is enhanced by a factor of six at high ionic-liquid concentrations.",
+      "char_start": 488,
+      "char_end": 558,
+      "sentence_id": "P0227:char488",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "McMT-/BMT; EMIMBF4/AN",
+      "condition_status": "reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "It refers to preceding thermoelectric power sentence.",
+      "input_hash": "efb2457541e152180818e7ca1cb4f678112b41a11be30a601a5e4c7a8c73d0c1",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-TG-P0227-02",
+      "paper_id": "P0227",
+      "domain": "TG",
+      "subject": {
+        "label": "high ionic liquid concentration",
+        "role": "condition"
+      },
+      "predicate": "increases",
+      "object": {
+        "label": "thermoelectric power",
+        "role": "quantity"
+      },
+      "quote": "The thermoelectric power depends strongly on concentrations of both the ionic liquid and the redox couple. It is enhanced by a factor of six at high ionic-liquid concentrations.",
+      "char_start": 381,
+      "char_end": 558,
+      "sentence_id": "P0227:char381",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "McMT-/BMT; EMIMBF4/AN",
+      "condition_status": "reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Thermoelectric power here is thermopower, not output electrical power.",
+      "input_hash": "efb2457541e152180818e7ca1cb4f678112b41a11be30a601a5e4c7a8c73d0c1",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0227-01",
+    "action": "revise",
+    "reason": "原文末句使用 thermopower，明确物理量含义。",
+    "before": {
+      "relation_id": "MP1-TG-P0227-01",
+      "paper_id": "P0227",
+      "domain": "TG",
+      "subject": {
+        "label": "ionic liquid and redox couple concentrations",
+        "role": "condition"
+      },
+      "predicate": "modulates",
+      "object": {
+        "label": "thermoelectric power",
+        "role": "quantity"
+      },
+      "quote": "The thermoelectric power depends strongly on concentrations of both the ionic liquid and the redox couple.",
+      "char_start": 381,
+      "char_end": 487,
+      "sentence_id": "P0227:char381",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [
+        "ionic liquid concentration",
+        "redox couple concentration"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "efb2457541e152180818e7ca1cb4f678112b41a11be30a601a5e4c7a8c73d0c1",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-TG-P0227-01",
+      "paper_id": "P0227",
+      "domain": "TG",
+      "subject": {
+        "label": "ionic liquid and redox couple concentrations",
+        "role": "condition"
+      },
+      "predicate": "modulates",
+      "object": {
+        "label": "thermoelectric power",
+        "role": "quantity"
+      },
+      "quote": "The thermoelectric power depends strongly on concentrations of both the ionic liquid and the redox couple.",
+      "char_start": 381,
+      "char_end": 487,
+      "sentence_id": "P0227:char381",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [
+        "ionic liquid concentration",
+        "redox couple concentration"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Thermoelectric power here denotes thermopower; see final sentence of abstract.",
+      "input_hash": "efb2457541e152180818e7ca1cb4f678112b41a11be30a601a5e4c7a8c73d0c1",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0180-02",
+    "action": "revise",
+    "reason": "原句把低热导率与 power factor 一起归因，物理归因存在歧义；保存证据但不进入主匹配。",
+    "before": {
+      "relation_id": "MP1-TG-P0180-02",
+      "paper_id": "P0180",
+      "domain": "TG",
+      "subject": {
+        "label": "high Seebeck coefficient, high ionic conductivity and low thermal conductivity",
+        "role": "quantity"
+      },
+      "predicate": "jointly_enable",
+      "object": {
+        "label": "high ionic power factor",
+        "role": "quantity"
+      },
+      "quote": "which achieved a coupled ionic Seebeck effect of up to 11.58 mV/K, exhibiting a high ionic conductivity (18.4 mS cm-1) and low thermal conductivity (0.47 W m-1/K), resulting in a high ionic power factor (198.2 mW m-1K-2) at room tem-perature.",
+      "char_start": 677,
+      "char_end": 919,
+      "sentence_id": "P0180:char677",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [
+        "ionic Seebeck coefficient",
+        "ionic conductivity",
+        "thermal conductivity"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Author groups thermal conductivity with power factor; retain claim, flag physical attribution ambiguity.",
+      "input_hash": "834a1d6f7de51193c2ce1d22ab7e780b4b74a6bccb7ce561f5dabde9a50ccd9b",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-TG-P0180-02",
+      "paper_id": "P0180",
+      "domain": "TG",
+      "subject": {
+        "label": "high Seebeck coefficient, high ionic conductivity and low thermal conductivity",
+        "role": "quantity"
+      },
+      "predicate": "jointly_enable",
+      "object": {
+        "label": "high ionic power factor",
+        "role": "quantity"
+      },
+      "quote": "which achieved a coupled ionic Seebeck effect of up to 11.58 mV/K, exhibiting a high ionic conductivity (18.4 mS cm-1) and low thermal conductivity (0.47 W m-1/K), resulting in a high ionic power factor (198.2 mW m-1K-2) at room tem-perature.",
+      "char_start": 677,
+      "char_end": 919,
+      "sentence_id": "P0180:char677",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [
+        "ionic Seebeck coefficient",
+        "ionic conductivity",
+        "thermal conductivity"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Source bundles low thermal conductivity into power-factor attribution. Do not silently repair; hold out of primary matching.",
+      "input_hash": "834a1d6f7de51193c2ce1d22ab7e780b4b74a6bccb7ce561f5dabde9a50ccd9b",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0",
+      "review_status": "uncertain"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0197-02",
+    "action": "revise",
+    "reason": "定义句用 confinement，统一同篇对象指代，保留限制状态。",
+    "before": {
+      "relation_id": "MP1-TG-P0197-02",
+      "paper_id": "P0197",
+      "domain": "TG",
+      "subject": {
+        "label": "water confinement in polymer network",
+        "role": "state_structure"
+      },
+      "predicate": "forms",
+      "object": {
+        "label": "polar corona",
+        "role": "state_structure"
+      },
+      "quote": "confine free H2O molecules to the polymer network, forming polar corona,",
+      "char_start": 598,
+      "char_end": 670,
+      "sentence_id": "P0197:char598",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "8a5c791f1138bb9589158c6124ef565b181e7d9aed6ba78391ddac08713174c2",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    },
+    "after": {
+      "relation_id": "MP1-TG-P0197-02",
+      "paper_id": "P0197",
+      "domain": "TG",
+      "subject": {
+        "label": "water in polymer network",
+        "role": "state_structure"
+      },
+      "predicate": "forms",
+      "object": {
+        "label": "polar corona",
+        "role": "state_structure"
+      },
+      "quote": "confine free H2O molecules to the polymer network, forming polar corona,",
+      "char_start": 598,
+      "char_end": 670,
+      "sentence_id": "P0197:char598",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "Subject is the confined water state defined by preceding edge, not free bulk water.",
+      "input_hash": "8a5c791f1138bb9589158c6124ef565b181e7d9aed6ba78391ddac08713174c2",
+      "extraction_run_id": "match_pilot_v1_astra_initial",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0142-04",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0142-04",
+      "paper_id": "P0142",
+      "domain": "TG",
+      "subject": {
+        "label": "thermal gradient",
+        "role": "condition"
+      },
+      "predicate": "drives",
+      "object": {
+        "label": "Fe2+/Fe3+ directional migration",
+        "role": "mechanism_process"
+      },
+      "quote": "In situ Raman spectroscopy and low-field solid-state nuclear magnetic resonance (NMR) analysis reveal the directional migration behavior of Fe2+/Fe3+ ions under a thermal gradient and their dynamic coupling with polymer chain motion.",
+      "char_start": 837,
+      "char_end": 1070,
+      "sentence_id": "P0142:char837",
+      "analysis_scope": "ion_mass_transport",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "0cfdaaf0c823ec6857979b8b5206d4f97b99b559c3a3f12edb8caaa5f9011893",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0146-06",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0146-06",
+      "paper_id": "P0146",
+      "domain": "TG",
+      "subject": {
+        "label": "four CHEG thermocells in series",
+        "role": "design_strategy"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "rhodamine B electrocatalytic degradation",
+        "role": "application"
+      },
+      "quote": "the CHEG device that was assembled by connecting four thermocells in series, which could realize electrocatalytic degradation of rhodamine B.",
+      "char_start": 1151,
+      "char_end": 1292,
+      "sentence_id": "P0146:char1151",
+      "analysis_scope": "application_sensing",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "e8967d1d4b4dc01caf83b9f58e503582d679aae2b97d73c65c1df94616dbd21a",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0163-05",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0163-05",
+      "paper_id": "P0163",
+      "domain": "TG",
+      "subject": {
+        "label": "redox electrolyte and electrode optimization",
+        "role": "design_strategy"
+      },
+      "predicate": "jointly_increases",
+      "object": {
+        "label": "energy efficiency",
+        "role": "quantity"
+      },
+      "quote": "During the optimization of advanced redox electrolytes/electrodes, the energy efficiency can reach 49.63% at 21 concentration ratios, which is 5.06% higher than that of CPV-TEG, and show a 22.65% lower overall cost.",
+      "char_start": 1678,
+      "char_end": 1893,
+      "sentence_id": "P0163:char1678",
+      "analysis_scope": "device_thermal_management",
+      "evidence_modality": "computational",
+      "assertion": "author_claim",
+      "conditions": "concentration ratio 21; CPV-TEG comparator",
+      "condition_status": "reported",
+      "joint_factors": [
+        "redox electrolytes",
+        "electrodes"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "0d209968f701a1fb3598977c8b2ccd9d33c8e7b46cf430fb986380e3ac323ff1",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0163-06",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0163-06",
+      "paper_id": "P0163",
+      "domain": "TG",
+      "subject": {
+        "label": "redox electrolyte and electrode optimization",
+        "role": "design_strategy"
+      },
+      "predicate": "jointly_decreases",
+      "object": {
+        "label": "overall cost",
+        "role": "quantity"
+      },
+      "quote": "During the optimization of advanced redox electrolytes/electrodes, the energy efficiency can reach 49.63% at 21 concentration ratios, which is 5.06% higher than that of CPV-TEG, and show a 22.65% lower overall cost.",
+      "char_start": 1678,
+      "char_end": 1893,
+      "sentence_id": "P0163:char1678",
+      "analysis_scope": "device_thermal_management",
+      "evidence_modality": "computational",
+      "assertion": "author_claim",
+      "conditions": "concentration ratio 21; CPV-TEG comparator",
+      "condition_status": "reported",
+      "joint_factors": [
+        "redox electrolytes",
+        "electrodes"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "0d209968f701a1fb3598977c8b2ccd9d33c8e7b46cf430fb986380e3ac323ff1",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0174-05",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0174-05",
+      "paper_id": "P0174",
+      "domain": "TG",
+      "subject": {
+        "label": "increased ionic Seebeck coefficient",
+        "role": "quantity"
+      },
+      "predicate": "associated_with",
+      "object": {
+        "label": "enhanced surface charge density",
+        "role": "quantity"
+      },
+      "quote": "The ionic Seebeck coefficient increases with decreasing electrolyte concentration and increasing temperature difference, accompanied by enhanced surface charge density,",
+      "char_start": 1305,
+      "char_end": 1473,
+      "sentence_id": "P0174:char1305",
+      "analysis_scope": "ion_mass_transport",
+      "evidence_modality": "mixed",
+      "assertion": "association",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "343be30e0dd584022fd6c72cb023e1e940c0d34466190a444c738eec0ec88938",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0176-03",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0176-03",
+      "paper_id": "P0176",
+      "domain": "TG",
+      "subject": {
+        "label": "Gutmann donor-guided anion doping",
+        "role": "design_strategy"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "high ionic conductivity",
+        "role": "quantity"
+      },
+      "quote": "This study, grounded in the Gutmann donor theory for anion doping, demonstrates four universal configurations of structural reconfiguration in anion/cation clusters within ternary ionogels to progressively enhance anionic transport heat. At 80% relative humidity, this approach achieves a remarkably high negative thermopower of -25.85 mV K-1 and a high ionic conductivity of 3.21 mS cm-1.",
+      "char_start": 557,
+      "char_end": 946,
+      "sentence_id": "P0176:char557",
+      "analysis_scope": "ion_mass_transport",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "80% RH",
+      "condition_status": "reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "2a026b5173929804b92c5266f38bdd54d45fd18100831a21fda8db1405ed3dc4",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0180-03",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0180-03",
+      "paper_id": "P0180",
+      "domain": "TG",
+      "subject": {
+        "label": "PAM-CMC double-network gel",
+        "role": "material_entity"
+      },
+      "predicate": "restricts",
+      "object": {
+        "label": "electrolyte leakage",
+        "role": "mechanism_process"
+      },
+      "quote": "It exhibited an excellent tensile property (634%) and adhesion, and avoids electrolyte leakage to a large extent.",
+      "char_start": 920,
+      "char_end": 1033,
+      "sentence_id": "P0180:char920",
+      "analysis_scope": "mechanical_environmental_stability",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "It refers to PAM-CMC-based gel defined earlier in abstract.",
+      "input_hash": "834a1d6f7de51193c2ce1d22ab7e780b4b74a6bccb7ce561f5dabde9a50ccd9b",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-TG-P0247-05",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-TG-P0247-05",
+      "paper_id": "P0247",
+      "domain": "TG",
+      "subject": {
+        "label": "rehydration",
+        "role": "mechanism_process"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "hydrogel reusability",
+        "role": "performance_function"
+      },
+      "quote": "the hydrogel fully recovers hydration within 5 h, enabling robust reusability.",
+      "char_start": 713,
+      "char_end": 791,
+      "sentence_id": "P0247:char713",
+      "analysis_scope": "mechanical_environmental_stability",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "within 5 h",
+      "condition_status": "reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "fbddf3a982259194367e99f6bc98bddc73f3e359f3b746c3b0289c47f0bed233",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-iTE-P0336-09",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-iTE-P0336-09",
+      "paper_id": "P0336",
+      "domain": "iTE",
+      "subject": {
+        "label": "PVA-based dual-interaction hydrogel",
+        "role": "material_entity"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "self-powered temperature sensing and heat harvesting",
+        "role": "application"
+      },
+      "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet.",
+      "char_start": 1262,
+      "char_end": 1471,
+      "sentence_id": "P0336:char1262",
+      "analysis_scope": "application_sensing",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "a1fffe0d882e172020b3ed29a83744b6f7be71af651e8a40c35ee285897c423e",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-iTE-P0340-03",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-iTE-P0340-03",
+      "paper_id": "P0340",
+      "domain": "iTE",
+      "subject": {
+        "label": "MoS2/carbon hollow heterostructure",
+        "role": "state_structure"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "photothermal conversion",
+        "role": "mechanism_process"
+      },
+      "quote": "Owing to the hollow-heterostructure for the strong light absorption, MoS2/Carbon hollow nanoflower-based fabrics demonstrated a photothermal conversion efficiency of 39.6%.",
+      "char_start": 747,
+      "char_end": 919,
+      "sentence_id": "P0340:char747",
+      "analysis_scope": "device_thermal_management",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "2116ff959906a16eac6b35a0d398c3e5114949e80bbfc03b425382cd56e50869",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-iTE-P0344-06",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-iTE-P0344-06",
+      "paper_id": "P0344",
+      "domain": "iTE",
+      "subject": {
+        "label": "NaTFSI mobile ions",
+        "role": "material_entity"
+      },
+      "predicate": "may_increase",
+      "object": {
+        "label": "thermal diffusion",
+        "role": "mechanism_process"
+      },
+      "quote": "using NaTFSI as the mobile ions to promote thermal diffusion.",
+      "char_start": 585,
+      "char_end": 646,
+      "sentence_id": "P0344:char585",
+      "analysis_scope": "ion_mass_transport",
+      "evidence_modality": "experimental",
+      "assertion": "hypothesis",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "77435a5f0b3cc6ad7938e7d8a689dbc1e58c3f3119f908de9155c1446058c8eb",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-iTE-P0344-07",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-iTE-P0344-07",
+      "paper_id": "P0344",
+      "domain": "iTE",
+      "subject": {
+        "label": "ionic thermoelectric hydrogel sensor",
+        "role": "material_entity"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "motion monitoring and handwriting recognition",
+        "role": "application"
+      },
+      "quote": "The i-THE-based self-powered flexible sensor can effectively monitor human movements and handwriting recognition.",
+      "char_start": 1369,
+      "char_end": 1482,
+      "sentence_id": "P0344:char1369",
+      "analysis_scope": "application_sensing",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "77435a5f0b3cc6ad7938e7d8a689dbc1e58c3f3119f908de9155c1446058c8eb",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-iTE-P0346-04",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-iTE-P0346-04",
+      "paper_id": "P0346",
+      "domain": "iTE",
+      "subject": {
+        "label": "self-healing and shear-thinning behavior",
+        "role": "performance_function"
+      },
+      "predicate": "enables",
+      "object": {
+        "label": "additive manufacturing compatibility",
+        "role": "performance_function"
+      },
+      "quote": "The eutectogels also displayed self-healing and shear-thinning behaviors, highlighting compatibility with additive manufacturing techniques for device integration.",
+      "char_start": 1212,
+      "char_end": 1375,
+      "sentence_id": "P0346:char1212",
+      "analysis_scope": "application_sensing",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": null,
+      "condition_status": "not_reported",
+      "joint_factors": [
+        "self-healing",
+        "shear-thinning"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "4c16f96bb76002b1b45d2d53f27bcd168f800d4c688a987642648af22e66608d",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "relation_id": "MP1-iTE-P0348-03",
+    "action": "add",
+    "reason": "One focused source review: explicit scoped relation omitted in initial pass.",
+    "after": {
+      "relation_id": "MP1-iTE-P0348-03",
+      "paper_id": "P0348",
+      "domain": "iTE",
+      "subject": {
+        "label": "negative thermopower and high ionic conductivity",
+        "role": "quantity"
+      },
+      "predicate": "jointly_enable",
+      "object": {
+        "label": "high figure of merit",
+        "role": "quantity"
+      },
+      "quote": "exhibits a negative ionic thermopower (-7.48 mV K-1) and high ionic conductivity (39.9 mS cm-1). These properties result in an exceptional power factor (223.52 mu W m-1 K-2) and a figure of merit (iZT) of (0.145)",
+      "char_start": 732,
+      "char_end": 944,
+      "sentence_id": "P0348:char732",
+      "analysis_scope": "intrinsic_material_mechanism",
+      "evidence_modality": "experimental",
+      "assertion": "author_claim",
+      "conditions": "functionalized lignin hydrogel; 1 M KCl",
+      "condition_status": "reported",
+      "joint_factors": [
+        "ionic thermopower",
+        "ionic conductivity"
+      ],
+      "article_role": "research",
+      "claim_scope": "this_paper",
+      "note": "",
+      "input_hash": "a69872fd8e4c7cd255937411cfabee962f00ae4f4b1b8fc0d781e02689c26fe1",
+      "extraction_run_id": "match_pilot_v1_astra_review",
+      "schema_version": "1.0"
+    }
+  }
+]
