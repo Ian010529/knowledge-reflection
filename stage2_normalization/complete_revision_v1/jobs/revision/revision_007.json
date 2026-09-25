@@ -1,0 +1,1199 @@
+[
+  {
+    "paper_id": "P0021",
+    "title": "Bioinspired double-layer thermogalvanic cells with engineered ionic gradients for high-efficiency waste heat recovery",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermogalvanic cells (TGCs) have emerged as a promising technology for harvesting low-grade thermal energy, but their widespread application has been hindered by limited conversion efficiencies. "
+      },
+      {
+        "id": 1,
+        "text": "A critical factor in enhancing TGC performance lies in establishing substantial ion concentration gradients, which remains challenging due to the inherent tendency of ion pairing. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we present a double-layer thermogalvanic cell (DTGC) architecture that spatially segregates redox pairs into two distinct gel layers, enabling unprecedented control over ion concentration gradients. "
+      },
+      {
+        "id": 3,
+        "text": "This innovative design yields a single p-type gelatin-K-4[Fe(CN)(6)]/K-3[Fe(CN)(6)] DTGC unit with remarkable performance metrics of an open-circuit voltage of 220 mV, a power density of 1.73 mW m(-2) K-2, and a relative Carnot efficiency (eta(r)) of 1.34 % at Delta T = 10 K, representing a tenfold improvement over conventional TGCs. "
+      },
+      {
+        "id": 4,
+        "text": "Scaling up this technology, we demonstrate a modular thermoelectric generator comprising a 4 x 12 array of alternating p-type and n-type DTGCs, capable of delivering an output voltage exceeding 11.3 V at Delta T = 20 K, sufficient to directly power commercial LED lights and electronic displays. "
+      },
+      {
+        "id": 5,
+        "text": "This work establishes a new paradigm for efficient low-grade thermal energy conversion, offering a scalable and practical solution for waste heat recovery applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0021:arch",
+        "label": "Double-layer thermogalvanic cell architecture",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0021:seg",
+        "label": "Redox pairs spatially segregated into two distinct gel layers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0021:grad",
+        "label": "Control over ion concentration gradients",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0021:unit",
+        "label": "Single p-type gelatin-K4[Fe(CN)6]/K3[Fe(CN)6] DTGC unit",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0021:v",
+        "label": "Open-circuit voltage: 220 mV",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0021:p",
+        "label": "Power density: 1.73 mW m-2 K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0021:eff",
+        "label": "Relative Carnot efficiency: 1.34%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0021:ten",
+        "label": "Tenfold improvement over conventional TGCs",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0021:array",
+        "label": "4 × 12 alternating p-type/n-type DTGC generator array",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0021:av",
+        "label": "Output voltage exceeding 11.3 V",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0021:led",
+        "label": "Direct powering of commercial LED lights",
+        "role": "application"
+      },
+      {
+        "id": "P0021:display",
+        "label": "Direct powering of electronic displays",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0021:r001",
+        "subject": "Double-layer thermogalvanic cell architecture",
+        "subject_role": "design_strategy",
+        "predicate": "spatially_segregates_redox_pairs_into",
+        "object": "Redox pairs spatially segregated into two distinct gel layers",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we present a double-layer thermogalvanic cell (DTGC) architecture that spatially segregates redox pairs into two distinct gel layers, enabling unprecedented control over ion concentration gradients. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:arch",
+        "object_id": "P0021:seg"
+      },
+      {
+        "relation_id": "P0021:r002",
+        "subject": "Redox pairs spatially segregated into two distinct gel layers",
+        "subject_role": "state_structure",
+        "predicate": "enables",
+        "object": "Control over ion concentration gradients",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Double-layer architecture",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Here, we present a double-layer thermogalvanic cell (DTGC) architecture that spatially segregates redox pairs into two distinct gel layers, enabling unprecedented control over ion concentration gradients. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:seg",
+        "object_id": "P0021:grad"
+      },
+      {
+        "relation_id": "P0021:r003",
+        "subject": "Single p-type gelatin-K4[Fe(CN)6]/K3[Fe(CN)6] DTGC unit",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Open-circuit voltage: 220 mV",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Double-layer design; Delta T = 10 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This innovative design yields a single p-type gelatin-K-4[Fe(CN)(6)]/K-3[Fe(CN)(6)] DTGC unit with remarkable performance metrics of an open-circuit voltage of 220 mV, a power density of 1.73 mW m(-2) K-2, and a relative Carnot efficiency (eta(r)) of 1.34 % at Delta T = 10 K, representing a tenfold improvement over conventional TGCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:unit",
+        "object_id": "P0021:v"
+      },
+      {
+        "relation_id": "P0021:r004",
+        "subject": "Single p-type gelatin-K4[Fe(CN)6]/K3[Fe(CN)6] DTGC unit",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Power density: 1.73 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Double-layer design; Delta T = 10 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This innovative design yields a single p-type gelatin-K-4[Fe(CN)(6)]/K-3[Fe(CN)(6)] DTGC unit with remarkable performance metrics of an open-circuit voltage of 220 mV, a power density of 1.73 mW m(-2) K-2, and a relative Carnot efficiency (eta(r)) of 1.34 % at Delta T = 10 K, representing a tenfold improvement over conventional TGCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:unit",
+        "object_id": "P0021:p"
+      },
+      {
+        "relation_id": "P0021:r005",
+        "subject": "Single p-type gelatin-K4[Fe(CN)6]/K3[Fe(CN)6] DTGC unit",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Relative Carnot efficiency: 1.34%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Double-layer design; Delta T = 10 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This innovative design yields a single p-type gelatin-K-4[Fe(CN)(6)]/K-3[Fe(CN)(6)] DTGC unit with remarkable performance metrics of an open-circuit voltage of 220 mV, a power density of 1.73 mW m(-2) K-2, and a relative Carnot efficiency (eta(r)) of 1.34 % at Delta T = 10 K, representing a tenfold improvement over conventional TGCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:unit",
+        "object_id": "P0021:eff"
+      },
+      {
+        "relation_id": "P0021:r006",
+        "subject": "Single p-type gelatin-K4[Fe(CN)6]/K3[Fe(CN)6] DTGC unit",
+        "subject_role": "material_entity",
+        "predicate": "shows",
+        "object": "Tenfold improvement over conventional TGCs",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Delta T = 10 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This innovative design yields a single p-type gelatin-K-4[Fe(CN)(6)]/K-3[Fe(CN)(6)] DTGC unit with remarkable performance metrics of an open-circuit voltage of 220 mV, a power density of 1.73 mW m(-2) K-2, and a relative Carnot efficiency (eta(r)) of 1.34 % at Delta T = 10 K, representing a tenfold improvement over conventional TGCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:unit",
+        "object_id": "P0021:ten"
+      },
+      {
+        "relation_id": "P0021:r007",
+        "subject": "4 × 12 alternating p-type/n-type DTGC generator array",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Output voltage exceeding 11.3 V",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Delta T = 20 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Scaling up this technology, we demonstrate a modular thermoelectric generator comprising a 4 x 12 array of alternating p-type and n-type DTGCs, capable of delivering an output voltage exceeding 11.3 V at Delta T = 20 K, sufficient to directly power commercial LED lights and electronic displays. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:array",
+        "object_id": "P0021:av"
+      },
+      {
+        "relation_id": "P0021:r008",
+        "subject": "4 × 12 alternating p-type/n-type DTGC generator array",
+        "subject_role": "material_entity",
+        "predicate": "provides_sufficient_output_for",
+        "object": "Direct powering of commercial LED lights",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Output exceeds 11.3 V at Delta T = 20 K",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Scaling up this technology, we demonstrate a modular thermoelectric generator comprising a 4 x 12 array of alternating p-type and n-type DTGCs, capable of delivering an output voltage exceeding 11.3 V at Delta T = 20 K, sufficient to directly power commercial LED lights and electronic displays. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:array",
+        "object_id": "P0021:led"
+      },
+      {
+        "relation_id": "P0021:r009",
+        "subject": "4 × 12 alternating p-type/n-type DTGC generator array",
+        "subject_role": "material_entity",
+        "predicate": "provides_sufficient_output_for",
+        "object": "Direct powering of electronic displays",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Output exceeds 11.3 V at Delta T = 20 K",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Scaling up this technology, we demonstrate a modular thermoelectric generator comprising a 4 x 12 array of alternating p-type and n-type DTGCs, capable of delivering an output voltage exceeding 11.3 V at Delta T = 20 K, sufficient to directly power commercial LED lights and electronic displays. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0021:array",
+        "object_id": "P0021:display"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0037",
+    "title": "Modeling, thermodynamic performance analysis, and parameter optimization of a hybrid power generation system coupling thermogalvanic cells with alkaline fuel cells",
+    "segments": [
+      {
+        "id": 0,
+        "text": "During the operation of alkaline fuel cells (AFCs), a significant amount of waste heat is generated, which has negative impacts on energy utilization and the environment. "
+      },
+      {
+        "id": 1,
+        "text": "To improve energy efficiency, cost savings, environmental sustainability, and industrial practices, an effective approach is proposed to employ thermogalvanic cells (TGCs) for electric power generation by harvesting low-grade exhaust heat produced in AFCs. "
+      },
+      {
+        "id": 2,
+        "text": "A mathematical model of the AFC-TGC hybrid system is established, taking into account the three overpotential losses in AFCs and the irreversible heat losses in TGCs. "
+      },
+      {
+        "id": 3,
+        "text": "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. "
+      },
+      {
+        "id": 4,
+        "text": "The calculated results indicate that the hybrid system achieves a considerable increase of 19.72% in maximum power density from 247.07 W m-2 to 295.80 W m-2 and 5.71% in conversion efficiency from 10.16% to 10.74% compared to a single AFC, respectively. "
+      },
+      {
+        "id": 5,
+        "text": "In addition, the output performance of the hybrid system can be further improved by adjusting system parameters such as the AFC's operating temperature, the length of each TGC cell, the heat sink temperature, and the thermal convection coefficient. "
+      },
+      {
+        "id": 6,
+        "text": "More importantly, a comparative study of the maximum power density of AFC -based cogeneration systems reveals that the TGC demonstrates a remarkable ability to economically recover waste heat from the AFC, surpassing previously reported thermal energy utilization devices. "
+      },
+      {
+        "id": 7,
+        "text": "This study provides important theoretical guidance for the optimal design and parametric analysis of AFC-TGC hybrid systems, thereby facilitating the development of high-performance energy cascade utilization systems based on AFC devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0037:coupling",
+        "label": "TGC harvesting low-grade AFC exhaust heat",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0037:electricity",
+        "label": "Electric power generation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0037:model",
+        "label": "Thermal–electric coupled mathematical model",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0037:afcloss",
+        "label": "Three AFC overpotential losses",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0037:tgcloss",
+        "label": "Irreversible TGC heat losses",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0037:h",
+        "label": "AFC–TGC hybrid system",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0037:power",
+        "label": "Maximum power density: 295.80 versus 247.07 W m−2; 19.72% increase",
+        "role": "quantity"
+      },
+      {
+        "id": "P0037:eff",
+        "label": "Conversion efficiency: 10.74% versus 10.16%; 5.71% increase",
+        "role": "quantity"
+      },
+      {
+        "id": "P0037:temp",
+        "label": "AFC operating temperature adjustment",
+        "role": "condition"
+      },
+      {
+        "id": "P0037:output",
+        "label": "Hybrid system output performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0037:length",
+        "label": "Individual TGC cell length adjustment",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0037:sink",
+        "label": "Heat sink temperature adjustment",
+        "role": "condition"
+      },
+      {
+        "id": "P0037:convection",
+        "label": "Thermal convection coefficient adjustment",
+        "role": "condition"
+      },
+      {
+        "id": "P0037:recovery",
+        "label": "Economical AFC waste-heat recovery exceeding previously reported thermal energy utilization devices",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0037:r001",
+        "subject": "TGC harvesting low-grade AFC exhaust heat",
+        "subject_role": "design_strategy",
+        "predicate": "is_proposed_for",
+        "object": "Electric power generation",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "To improve energy efficiency, cost savings, environmental sustainability, and industrial practices, an effective approach is proposed to employ thermogalvanic cells (TGCs) for electric power generation by harvesting low-grade exhaust heat produced in AFCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0037:coupling",
+        "object_id": "P0037:electricity"
+      },
+      {
+        "relation_id": "P0037:r002",
+        "subject": "Thermal–electric coupled mathematical model",
+        "subject_role": "descriptor",
+        "predicate": "accounts_for",
+        "object": "Three AFC overpotential losses",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Model of the AFC–TGC hybrid system",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "A mathematical model of the AFC-TGC hybrid system is established, taking into account the three overpotential losses in AFCs and the irreversible heat losses in TGCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0037:model",
+        "object_id": "P0037:afcloss"
+      },
+      {
+        "relation_id": "P0037:r003",
+        "subject": "Thermal–electric coupled mathematical model",
+        "subject_role": "descriptor",
+        "predicate": "accounts_for",
+        "object": "Irreversible TGC heat losses",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Model of the AFC–TGC hybrid system",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "A mathematical model of the AFC-TGC hybrid system is established, taking into account the three overpotential losses in AFCs and the irreversible heat losses in TGCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0037:model",
+        "object_id": "P0037:tgcloss"
+      },
+      {
+        "relation_id": "P0037:r004",
+        "subject": "AFC–TGC hybrid system",
+        "subject_role": "material_entity",
+        "predicate": "has_calculated",
+        "object": "Maximum power density: 295.80 versus 247.07 W m−2; 19.72% increase",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal–electric coupled mathematical model; compared with a single AFC",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A mathematical model of the AFC-TGC hybrid system is established, taking into account the three overpotential losses in AFCs and the irreversible heat losses in TGCs. ",
+        "context_quotes": [
+          "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. ",
+          "The calculated results indicate that the hybrid system achieves a considerable increase of 19.72% in maximum power density from 247.07 W m-2 to 295.80 W m-2 and 5.71% in conversion efficiency from 10.16% to 10.74% compared to a single AFC, respectively. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0037:h",
+        "object_id": "P0037:power"
+      },
+      {
+        "relation_id": "P0037:r005",
+        "subject": "AFC–TGC hybrid system",
+        "subject_role": "material_entity",
+        "predicate": "has_calculated",
+        "object": "Conversion efficiency: 10.74% versus 10.16%; 5.71% increase",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal–electric coupled mathematical model; compared with a single AFC",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A mathematical model of the AFC-TGC hybrid system is established, taking into account the three overpotential losses in AFCs and the irreversible heat losses in TGCs. ",
+        "context_quotes": [
+          "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. ",
+          "The calculated results indicate that the hybrid system achieves a considerable increase of 19.72% in maximum power density from 247.07 W m-2 to 295.80 W m-2 and 5.71% in conversion efficiency from 10.16% to 10.74% compared to a single AFC, respectively. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0037:h",
+        "object_id": "P0037:eff"
+      },
+      {
+        "relation_id": "P0037:r006",
+        "subject": "AFC operating temperature adjustment",
+        "subject_role": "condition",
+        "predicate": "can_improve",
+        "object": "Hybrid system output performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal–electric coupled model; adjustment direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. ",
+        "context_quotes": [
+          "In addition, the output performance of the hybrid system can be further improved by adjusting system parameters such as the AFC's operating temperature, the length of each TGC cell, the heat sink temperature, and the thermal convection coefficient. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0037:temp",
+        "object_id": "P0037:output"
+      },
+      {
+        "relation_id": "P0037:r007",
+        "subject": "Individual TGC cell length adjustment",
+        "subject_role": "design_strategy",
+        "predicate": "can_improve",
+        "object": "Hybrid system output performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal–electric coupled model; adjustment direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. ",
+        "context_quotes": [
+          "In addition, the output performance of the hybrid system can be further improved by adjusting system parameters such as the AFC's operating temperature, the length of each TGC cell, the heat sink temperature, and the thermal convection coefficient. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0037:length",
+        "object_id": "P0037:output"
+      },
+      {
+        "relation_id": "P0037:r008",
+        "subject": "Heat sink temperature adjustment",
+        "subject_role": "condition",
+        "predicate": "can_improve",
+        "object": "Hybrid system output performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal–electric coupled model; adjustment direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. ",
+        "context_quotes": [
+          "In addition, the output performance of the hybrid system can be further improved by adjusting system parameters such as the AFC's operating temperature, the length of each TGC cell, the heat sink temperature, and the thermal convection coefficient. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0037:sink",
+        "object_id": "P0037:output"
+      },
+      {
+        "relation_id": "P0037:r009",
+        "subject": "Thermal convection coefficient adjustment",
+        "subject_role": "condition",
+        "predicate": "can_improve",
+        "object": "Hybrid system output performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal–electric coupled model; adjustment direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Based on this thermal -electric coupled model, we investigate the hybrid system's output performance characteristics and optimal parameter design. ",
+        "context_quotes": [
+          "In addition, the output performance of the hybrid system can be further improved by adjusting system parameters such as the AFC's operating temperature, the length of each TGC cell, the heat sink temperature, and the thermal convection coefficient. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0037:convection",
+        "object_id": "P0037:output"
+      },
+      {
+        "relation_id": "P0037:r010",
+        "subject": "TGC harvesting low-grade AFC exhaust heat",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Economical AFC waste-heat recovery exceeding previously reported thermal energy utilization devices",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparative study of maximum power density of AFC-based cogeneration systems",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "More importantly, a comparative study of the maximum power density of AFC -based cogeneration systems reveals that the TGC demonstrates a remarkable ability to economically recover waste heat from the AFC, surpassing previously reported thermal energy utilization devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0037:coupling",
+        "object_id": "P0037:recovery"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0057",
+    "title": "Transparent stretchable thermogalvanic PVA/gelation hydrogel electrolyte for harnessing solar energy enabled by a binary solvent strategy",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Aqueous thermocells are environment-friendly power sources capable of converting low-grade thermal energy into electricity to power small electronics in various application scenarios free from batteries. "
+      },
+      {
+        "id": 1,
+        "text": "However, its poor portability and transparency, mechanical fragility, and low output performance impose a burden on its extensive application. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. "
+      },
+      {
+        "id": 3,
+        "text": "When the temperature difference is 40 K, the gel-based thermogalvanic cell achieves an open-circuit voltage of about 63 mV with the maximum power density of about 1.2 mW m(-2). "
+      },
+      {
+        "id": 4,
+        "text": "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. "
+      },
+      {
+        "id": 5,
+        "text": "This work may provide new ideas for harnessing ambient heat and solar energy to electrical energy conversion."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0057:solvent",
+        "label": "Introduction of DMSO/water binary solvent",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0057:hydrogen",
+        "label": "Hydrogen-bond formation along three-dimensional directions",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0057:microcrystals",
+        "label": "Numerous microcrystalline regions",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0057:gel",
+        "label": "PVA/gelation gel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0057:network",
+        "label": "Cross-linked PVA/gelation double-network frame",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0057:transparent",
+        "label": "High transparency",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0057:flexible",
+        "label": "Flexibility and stretchability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0057:cell",
+        "label": "Gel-based thermogalvanic cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0057:voltage",
+        "label": "Open-circuit voltage approximately 63 mV",
+        "role": "quantity"
+      },
+      {
+        "id": "P0057:power",
+        "label": "Maximum power density approximately 1.2 mW m−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0057:absorber",
+        "label": "Implantation of PDMS solar absorber",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0057:device",
+        "label": "Assembled solar thermoelectric gel device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0057:delta",
+        "label": "Maximum temperature difference approximately 11.2 K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0057:solarvoltage",
+        "label": "Open-circuit voltage up to 16.6 mV",
+        "role": "quantity"
+      },
+      {
+        "id": "P0057:current",
+        "label": "Short-circuit current greater than 100 μA",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0057:r001",
+        "subject": "Introduction of DMSO/water binary solvent",
+        "subject_role": "design_strategy",
+        "predicate": "suppresses",
+        "object": "Hydrogen-bond formation along three-dimensional directions",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PVA/gelation gel",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:solvent",
+        "object_id": "P0057:hydrogen"
+      },
+      {
+        "relation_id": "P0057:r002",
+        "subject": "Introduction of DMSO/water binary solvent",
+        "subject_role": "design_strategy",
+        "predicate": "leads_to_formation_of",
+        "object": "Numerous microcrystalline regions",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the cross-linked PVA/gelation double-network gel, through suppression of hydrogen-bond formation along three-dimensional directions",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:solvent",
+        "object_id": "P0057:microcrystals"
+      },
+      {
+        "relation_id": "P0057:r003",
+        "subject": "PVA/gelation gel",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Cross-linked PVA/gelation double-network frame",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:gel",
+        "object_id": "P0057:network"
+      },
+      {
+        "relation_id": "P0057:r004",
+        "subject": "PVA/gelation gel",
+        "subject_role": "material_entity",
+        "predicate": "contains",
+        "object": "Numerous microcrystalline regions",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "With DMSO/water binary solvent",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:gel",
+        "object_id": "P0057:microcrystals"
+      },
+      {
+        "relation_id": "P0057:r005",
+        "subject": "Introduction of DMSO/water binary solvent",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "High transparency",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cross-linked PVA/gelation double-network gel",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:solvent",
+        "object_id": "P0057:transparent"
+      },
+      {
+        "relation_id": "P0057:r006",
+        "subject": "Introduction of DMSO/water binary solvent",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Flexibility and stretchability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cross-linked PVA/gelation double-network gel",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a highly transparent, flexible and stretchable gel with the cross-linked PVA/gelation double network frame by introducing DMSO/water binary solvent to suppress the formation of hydrogen bonds along the three dimensional directions, forming numerous microcrystalline regions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:solvent",
+        "object_id": "P0057:flexible"
+      },
+      {
+        "relation_id": "P0057:r007",
+        "subject": "Gel-based thermogalvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Open-circuit voltage approximately 63 mV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference 40 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "When the temperature difference is 40 K, the gel-based thermogalvanic cell achieves an open-circuit voltage of about 63 mV with the maximum power density of about 1.2 mW m(-2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:cell",
+        "object_id": "P0057:voltage"
+      },
+      {
+        "relation_id": "P0057:r008",
+        "subject": "Gel-based thermogalvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum power density approximately 1.2 mW m−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference 40 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "When the temperature difference is 40 K, the gel-based thermogalvanic cell achieves an open-circuit voltage of about 63 mV with the maximum power density of about 1.2 mW m(-2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0057:cell",
+        "object_id": "P0057:power"
+      },
+      {
+        "relation_id": "P0057:r009",
+        "subject": "Implantation of PDMS solar absorber",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Assembled solar thermoelectric gel device",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. "
+        ],
+        "subject_id": "P0057:absorber",
+        "object_id": "P0057:device"
+      },
+      {
+        "relation_id": "P0057:r010",
+        "subject": "Assembled solar thermoelectric gel device",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Maximum temperature difference approximately 11.2 K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Exposure to sunshine over 12 h; implanted PDMS solar absorber",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. "
+        ],
+        "subject_id": "P0057:device",
+        "object_id": "P0057:delta"
+      },
+      {
+        "relation_id": "P0057:r011",
+        "subject": "Assembled solar thermoelectric gel device",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Open-circuit voltage up to 16.6 mV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Exposure to sunshine over 12 h; implanted PDMS solar absorber",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. "
+        ],
+        "subject_id": "P0057:device",
+        "object_id": "P0057:solarvoltage"
+      },
+      {
+        "relation_id": "P0057:r012",
+        "subject": "Assembled solar thermoelectric gel device",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Short-circuit current greater than 100 μA",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Exposure to sunshine over 12 h; implanted PDMS solar absorber",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "By implanting a PDMS solar absorber, the assembled solar thermoelectric gel device delivers a maximum temperature difference of about 11.2 K with an open-circuit voltage up to 16.6 mV and short-circuit current of more than 100 mu A, respectively, upon exposure to sunshine over 12 h. "
+        ],
+        "subject_id": "P0057:device",
+        "object_id": "P0057:current"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0090",
+    "title": "Aqueous thermogalvanic cells with a high Seebeck coefficient for low-grade heat harvest",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermogalvanic cells offer a cheap, flexible and scalable route for directly converting heat into electricity. "
+      },
+      {
+        "id": 1,
+        "text": "However, achieving a high output voltage and power performance simultaneously from low-grade thermal energy remains challenging. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we introduce strong chaotropic cations (guanidinium) and highly soluble amide derivatives (urea) into aqueous ferri/ferrocyanide ([Fe(CN)(6)](4-)/[Fe(CN)(6])(3-)) electrolytes to significantly boost their thermopowers. "
+      },
+      {
+        "id": 3,
+        "text": "The corresponding Seebeck coefficient and temperature-insensitive power density simultaneously increase from 1.4 to 4.2 mV K-1 and from 0.4 to 1.1 mW K-2 m(-2), respectively. "
+      },
+      {
+        "id": 4,
+        "text": "The results reveal that guanidinium and urea synergistically enlarge the entropy difference of the redox couple and significantly increase the Seebeck effect. "
+      },
+      {
+        "id": 5,
+        "text": "As a demonstration, we design a prototype module that generates a high open-circuit voltage of 3.4 V at a small temperature difference of 18 K. "
+      },
+      {
+        "id": 6,
+        "text": "This thermogalvanic cell system, which features high Seebeck coefficient and low cost, holds promise for the efficient harvest of low-grade thermal energy."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0090:a",
+        "label": "Guanidinium cations",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0090:b",
+        "label": "Strong chaotropic character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0090:c",
+        "label": "Urea",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0090:d",
+        "label": "Highly soluble amide derivative",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0090:f",
+        "label": "Joint guanidinium and urea addition to aqueous ferri/ferrocyanide electrolyte",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0090:g",
+        "label": "Seebeck coefficient increase from 1.4 to 4.2 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0090:h",
+        "label": "Temperature-insensitive power density increase from 0.4 to 1.1 mW K−2 m−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0090:i",
+        "label": "Redox-couple entropy difference",
+        "role": "quantity"
+      },
+      {
+        "id": "P0090:k",
+        "label": "Seebeck effect",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0090:l",
+        "label": "Prototype thermogalvanic module",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0090:m",
+        "label": "Open-circuit voltage of 3.4 V",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0090:n",
+        "label": "Modified thermogalvanic cell system",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0090:o",
+        "label": "Low cost",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0090:r001",
+        "subject": "Guanidinium cations",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Strong chaotropic character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we introduce strong chaotropic cations (guanidinium) and highly soluble amide derivatives (urea) into aqueous ferri/ferrocyanide ([Fe(CN)(6)](4-)/[Fe(CN)(6])(3-)) electrolytes to significantly boost their thermopowers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0090:a",
+        "object_id": "P0090:b"
+      },
+      {
+        "relation_id": "P0090:r002",
+        "subject": "Urea",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Highly soluble amide derivative",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we introduce strong chaotropic cations (guanidinium) and highly soluble amide derivatives (urea) into aqueous ferri/ferrocyanide ([Fe(CN)(6)](4-)/[Fe(CN)(6])(3-)) electrolytes to significantly boost their thermopowers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0090:c",
+        "object_id": "P0090:d"
+      },
+      {
+        "relation_id": "P0090:r003",
+        "subject": "Joint guanidinium and urea addition to aqueous ferri/ferrocyanide electrolyte",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Seebeck coefficient increase from 1.4 to 4.2 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Aqueous ferri/ferrocyanide electrolyte.",
+        "joint_factors": [
+          "Guanidinium cations",
+          "Urea"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we introduce strong chaotropic cations (guanidinium) and highly soluble amide derivatives (urea) into aqueous ferri/ferrocyanide ([Fe(CN)(6)](4-)/[Fe(CN)(6])(3-)) electrolytes to significantly boost their thermopowers. ",
+        "context_quotes": [
+          "The corresponding Seebeck coefficient and temperature-insensitive power density simultaneously increase from 1.4 to 4.2 mV K-1 and from 0.4 to 1.1 mW K-2 m(-2), respectively. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0090:f",
+        "object_id": "P0090:g"
+      },
+      {
+        "relation_id": "P0090:r004",
+        "subject": "Joint guanidinium and urea addition to aqueous ferri/ferrocyanide electrolyte",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Temperature-insensitive power density increase from 0.4 to 1.1 mW K−2 m−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Simultaneous with the Seebeck-coefficient increase.",
+        "joint_factors": [
+          "Guanidinium cations",
+          "Urea"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we introduce strong chaotropic cations (guanidinium) and highly soluble amide derivatives (urea) into aqueous ferri/ferrocyanide ([Fe(CN)(6)](4-)/[Fe(CN)(6])(3-)) electrolytes to significantly boost their thermopowers. ",
+        "context_quotes": [
+          "The corresponding Seebeck coefficient and temperature-insensitive power density simultaneously increase from 1.4 to 4.2 mV K-1 and from 0.4 to 1.1 mW K-2 m(-2), respectively. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0090:f",
+        "object_id": "P0090:h"
+      },
+      {
+        "relation_id": "P0090:r005",
+        "subject": "Guanidinium cations",
+        "subject_role": "material_entity",
+        "predicate": "synergistically_enlarges",
+        "object": "Redox-couple entropy difference",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Aqueous ferri/ferrocyanide redox couple.",
+        "joint_factors": [
+          "Urea"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we introduce strong chaotropic cations (guanidinium) and highly soluble amide derivatives (urea) into aqueous ferri/ferrocyanide ([Fe(CN)(6)](4-)/[Fe(CN)(6])(3-)) electrolytes to significantly boost their thermopowers. ",
+        "context_quotes": [
+          "The results reveal that guanidinium and urea synergistically enlarge the entropy difference of the redox couple and significantly increase the Seebeck effect. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0090:a",
+        "object_id": "P0090:i"
+      },
+      {
+        "relation_id": "P0090:r006",
+        "subject": "Guanidinium cations",
+        "subject_role": "material_entity",
+        "predicate": "synergistically_increases",
+        "object": "Seebeck effect",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Urea"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The results reveal that guanidinium and urea synergistically enlarge the entropy difference of the redox couple and significantly increase the Seebeck effect. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0090:a",
+        "object_id": "P0090:k"
+      },
+      {
+        "relation_id": "P0090:r007",
+        "subject": "Prototype thermogalvanic module",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Open-circuit voltage of 3.4 V",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 18 K.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "As a demonstration, we design a prototype module that generates a high open-circuit voltage of 3.4 V at a small temperature difference of 18 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0090:l",
+        "object_id": "P0090:m"
+      },
+      {
+        "relation_id": "P0090:r008",
+        "subject": "Modified thermogalvanic cell system",
+        "subject_role": "material_entity",
+        "predicate": "features",
+        "object": "Low cost",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This thermogalvanic cell system, which features high Seebeck coefficient and low cost, holds promise for the efficient harvest of low-grade thermal energy.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0090:n",
+        "object_id": "P0090:o"
+      }
+    ]
+  }
+]

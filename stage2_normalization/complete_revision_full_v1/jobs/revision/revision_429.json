@@ -1,0 +1,1120 @@
+[
+  {
+    "paper_id": "P1741",
+    "title": "Decoding the Structure-Property Paradigm in LiX5Sb11(X = Fe, Mn) Skutterudites: A Synergistic Computational-Experimental Exploration",
+    "segments": [
+      {
+        "id": 0,
+        "text": "We present an integrated computational and experimental study of the structural and functional properties of LiX5Sb11(X = Fe, Mn) skutterudite compounds. "
+      },
+      {
+        "id": 1,
+        "text": "X-ray diffraction analysis verifies the crystal structure for both materials, with LiMn5Sb11 displaying a contracted unit cell compared to LiFe5Sb11, consistent with the smaller ionic radius of Mn2+. "
+      },
+      {
+        "id": 2,
+        "text": "Advanced mBJ electronic structure calculations reveal direct bandgaps of 1.7 eV and 1.5 eV for the Fe and Mn compounds, respectively. "
+      },
+      {
+        "id": 3,
+        "text": "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. "
+      },
+      {
+        "id": 4,
+        "text": "Optical characterization reveals distinct absorption profiles, with LiFe5Sb11 exhibiting broadband absorption suitable for photovoltaic applications, while LiMn5Sb11 displays sharp excitonic features advantageous for optoelectronic devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1741:mn",
+        "label": "LiMn5Sb11 skutterudite",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1741:cell",
+        "label": "Contracted unit cell",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1741:radius",
+        "label": "Smaller Mn2+ ionic radius",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1741:fe",
+        "label": "LiFe5Sb11 skutterudite",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1741:fegap",
+        "label": "Direct band gap of 1.7 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1741:mngap",
+        "label": "Direct band gap of 1.5 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1741:conduct",
+        "label": "Superior electrical conductivity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1741:thermopower",
+        "label": "Enhanced thermopower",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1741:rattle",
+        "label": "Stronger rattling modes",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1741:k",
+        "label": "22% reduction in lattice thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1741:zt",
+        "label": "Thermoelectric figure of merit ZT = 0.95",
+        "role": "quantity"
+      },
+      {
+        "id": "P1741:broad",
+        "label": "Broadband optical absorption",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1741:exciton",
+        "label": "Sharp excitonic features",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1741:pv",
+        "label": "Photovoltaic applications",
+        "role": "application"
+      },
+      {
+        "id": "P1741:opto",
+        "label": "Optoelectronic devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1741:r001",
+        "subject": "LiMn5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Contracted unit cell",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Relative to LiFe5Sb11; X-ray diffraction",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "X-ray diffraction analysis verifies the crystal structure for both materials, with LiMn5Sb11 displaying a contracted unit cell compared to LiFe5Sb11, consistent with the smaller ionic radius of Mn2+. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "X-ray diffraction analysis verifies the crystal structure for both materials, with LiMn5Sb11 displaying a contracted unit cell compared to LiFe5Sb11, consistent with the smaller ionic radius of Mn2+. "
+        ],
+        "subject_id": "P1741:mn",
+        "object_id": "P1741:cell"
+      },
+      {
+        "relation_id": "P1741:r002",
+        "subject": "Contracted unit cell",
+        "subject_role": "state_structure",
+        "predicate": "consistent_with",
+        "object": "Smaller Mn2+ ionic radius",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "LiMn5Sb11 compared with LiFe5Sb11",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "X-ray diffraction analysis verifies the crystal structure for both materials, with LiMn5Sb11 displaying a contracted unit cell compared to LiFe5Sb11, consistent with the smaller ionic radius of Mn2+. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:cell",
+        "object_id": "P1741:radius"
+      },
+      {
+        "relation_id": "P1741:r003",
+        "subject": "LiFe5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Direct band gap of 1.7 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "mBJ electronic structure calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Advanced mBJ electronic structure calculations reveal direct bandgaps of 1.7 eV and 1.5 eV for the Fe and Mn compounds, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Advanced mBJ electronic structure calculations reveal direct bandgaps of 1.7 eV and 1.5 eV for the Fe and Mn compounds, respectively. "
+        ],
+        "subject_id": "P1741:fe",
+        "object_id": "P1741:fegap"
+      },
+      {
+        "relation_id": "P1741:r004",
+        "subject": "LiMn5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Direct band gap of 1.5 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "mBJ electronic structure calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Advanced mBJ electronic structure calculations reveal direct bandgaps of 1.7 eV and 1.5 eV for the Fe and Mn compounds, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Advanced mBJ electronic structure calculations reveal direct bandgaps of 1.7 eV and 1.5 eV for the Fe and Mn compounds, respectively. "
+        ],
+        "subject_id": "P1741:mn",
+        "object_id": "P1741:mngap"
+      },
+      {
+        "relation_id": "P1741:r005",
+        "subject": "LiFe5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Superior electrical conductivity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with LiMn5Sb11",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:fe",
+        "object_id": "P1741:conduct"
+      },
+      {
+        "relation_id": "P1741:r006",
+        "subject": "LiMn5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Enhanced thermopower",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with LiFe5Sb11; attribution clause is corrupted",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:mn",
+        "object_id": "P1741:thermopower"
+      },
+      {
+        "relation_id": "P1741:r007",
+        "subject": "LiMn5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Stronger rattling modes",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Phonon dispersion calculations; compared with Fe variant",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. "
+        ],
+        "subject_id": "P1741:mn",
+        "object_id": "P1741:rattle"
+      },
+      {
+        "relation_id": "P1741:r008",
+        "subject": "Stronger rattling modes",
+        "subject_role": "mechanism_process",
+        "predicate": "leads_to",
+        "object": "22% reduction in lattice thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Mn variant; source says 'relative to an exceptional thermoelectric figure-of-merit'",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:rattle",
+        "object_id": "P1741:k"
+      },
+      {
+        "relation_id": "P1741:r009",
+        "subject": "LiMn5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Thermoelectric figure of merit ZT = 0.95",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The materials exhibit fundamentally different charge transport characteristics, with LiFe5Sb11 demonstrating superior electrical conductivity, while LiMn5Sb11 shows enhanced thermopower attributable and phonon dispersion calculations, indicating stronger rattling modes in the Mn variant, leading to a 22% reduction in lattice thermal conductivity relative to an exceptional thermoelectric figure-of-merit (ZT = 0.95) for LiMn5Sb11. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:mn",
+        "object_id": "P1741:zt"
+      },
+      {
+        "relation_id": "P1741:r010",
+        "subject": "LiFe5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Broadband optical absorption",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Optical characterization; method unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Optical characterization reveals distinct absorption profiles, with LiFe5Sb11 exhibiting broadband absorption suitable for photovoltaic applications, while LiMn5Sb11 displays sharp excitonic features advantageous for optoelectronic devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:fe",
+        "object_id": "P1741:broad"
+      },
+      {
+        "relation_id": "P1741:r011",
+        "subject": "LiMn5Sb11 skutterudite",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Sharp excitonic features",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Optical characterization; method unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Optical characterization reveals distinct absorption profiles, with LiFe5Sb11 exhibiting broadband absorption suitable for photovoltaic applications, while LiMn5Sb11 displays sharp excitonic features advantageous for optoelectronic devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:mn",
+        "object_id": "P1741:exciton"
+      },
+      {
+        "relation_id": "P1741:r012",
+        "subject": "Broadband optical absorption",
+        "subject_role": "descriptor",
+        "predicate": "suitable_for",
+        "object": "Photovoltaic applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "LiFe5Sb11",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Optical characterization reveals distinct absorption profiles, with LiFe5Sb11 exhibiting broadband absorption suitable for photovoltaic applications, while LiMn5Sb11 displays sharp excitonic features advantageous for optoelectronic devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:broad",
+        "object_id": "P1741:pv"
+      },
+      {
+        "relation_id": "P1741:r013",
+        "subject": "Sharp excitonic features",
+        "subject_role": "descriptor",
+        "predicate": "advantageous_for",
+        "object": "Optoelectronic devices",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "LiMn5Sb11",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Optical characterization reveals distinct absorption profiles, with LiFe5Sb11 exhibiting broadband absorption suitable for photovoltaic applications, while LiMn5Sb11 displays sharp excitonic features advantageous for optoelectronic devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1741:exciton",
+        "object_id": "P1741:opto"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1742",
+    "title": "Probing the structural, electronic, mechanical strength and optical properties of tantalum-based oxide perovskites ATaO3 (A = Rb, Fr) for optoelectronic applications: First-principles investigations",
+    "segments": [
+      {
+        "id": 0,
+        "text": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+      },
+      {
+        "id": 1,
+        "text": "These calculations involve full potential linearly augmented plane wave (FP-LAPW) technique along with Perdew-Burke-Ernzerhof-generalized gradient approximation (PBE-GGA) and PBEso1 exchange potentials within the framework of WIEN2K code. "
+      },
+      {
+        "id": 2,
+        "text": "In addition, PBE plus Tran and Blaha modified Becke-Johnson (PBE + TB-mBJ) functional have been utilized to improve the electronic properties. "
+      },
+      {
+        "id": 3,
+        "text": "These compounds belong to the semiconductor category, which include contributions of Rb-d, Fr-d/f, Ta-d and O-2p orbitals to explore their behavior. "
+      },
+      {
+        "id": 4,
+        "text": "Spherical charge density contours illustrate ionic character of Rb and Fr, while significant sharing of the elliptical isolines indicates covalent character between Ta and O. "
+      },
+      {
+        "id": 5,
+        "text": "Three independent elastic constants endorse mechanical stability of the studied systems, which also confirm their brittle nature. "
+      },
+      {
+        "id": 6,
+        "text": "Because of poor reflectivity, good optical conductivity and absorptivity of incident energetic photons make these materials as potential candidates for wide range of applications, particularly, in optoelectronic like devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1742:oxides",
+        "label": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1742:semi",
+        "label": "Semiconductor character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1742:orbitals",
+        "label": "Rb-d, Fr-d/f, Ta-d and O-2p orbital contributions",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1742:ionic",
+        "label": "Ionic character of Rb and Fr",
+        "role": "interaction"
+      },
+      {
+        "id": "P1742:covalent",
+        "label": "Ta–O covalent character",
+        "role": "interaction"
+      },
+      {
+        "id": "P1742:stable",
+        "label": "Mechanical stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1742:brittle",
+        "label": "Brittle nature",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1742:reflect",
+        "label": "Poor reflectivity",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1742:conduct",
+        "label": "Good optical conductivity",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1742:absorb",
+        "label": "Absorptivity of incident energetic photons",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1742:opto",
+        "label": "Optoelectronic devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1742:r001",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Semiconductor character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT; FP-LAPW/WIEN2K; PBE + TB-mBJ used for electronic properties",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "These calculations involve full potential linearly augmented plane wave (FP-LAPW) technique along with Perdew-Burke-Ernzerhof-generalized gradient approximation (PBE-GGA) and PBEso1 exchange potentials within the framework of WIEN2K code. ",
+          "In addition, PBE plus Tran and Blaha modified Becke-Johnson (PBE + TB-mBJ) functional have been utilized to improve the electronic properties. ",
+          "These compounds belong to the semiconductor category, which include contributions of Rb-d, Fr-d/f, Ta-d and O-2p orbitals to explore their behavior. "
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+          "These calculations involve full potential linearly augmented plane wave (FP-LAPW) technique along with Perdew-Burke-Ernzerhof-generalized gradient approximation (PBE-GGA) and PBEso1 exchange potentials within the framework of WIEN2K code. ",
+          "In addition, PBE plus Tran and Blaha modified Becke-Johnson (PBE + TB-mBJ) functional have been utilized to improve the electronic properties. "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:semi"
+      },
+      {
+        "relation_id": "P1742:r002",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "have_electronic_behavior_contributions_from",
+        "object": "Rb-d, Fr-d/f, Ta-d and O-2p orbital contributions",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT electronic-property analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "In addition, PBE plus Tran and Blaha modified Becke-Johnson (PBE + TB-mBJ) functional have been utilized to improve the electronic properties. ",
+          "These compounds belong to the semiconductor category, which include contributions of Rb-d, Fr-d/f, Ta-d and O-2p orbitals to explore their behavior. "
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+          "In addition, PBE plus Tran and Blaha modified Becke-Johnson (PBE + TB-mBJ) functional have been utilized to improve the electronic properties. "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:orbitals"
+      },
+      {
+        "relation_id": "P1742:r003",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Ionic character of Rb and Fr",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Spherical charge-density contours",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Spherical charge density contours illustrate ionic character of Rb and Fr, while significant sharing of the elliptical isolines indicates covalent character between Ta and O. "
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:ionic"
+      },
+      {
+        "relation_id": "P1742:r004",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Ta–O covalent character",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Significant sharing of elliptical charge-density isolines",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Spherical charge density contours illustrate ionic character of Rb and Fr, while significant sharing of the elliptical isolines indicates covalent character between Ta and O. "
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:covalent"
+      },
+      {
+        "relation_id": "P1742:r005",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Mechanical stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Supported by three independent elastic constants",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Three independent elastic constants endorse mechanical stability of the studied systems, which also confirm their brittle nature. "
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:stable"
+      },
+      {
+        "relation_id": "P1742:r006",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Brittle nature",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Elastic-constant analysis",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Three independent elastic constants endorse mechanical stability of the studied systems, which also confirm their brittle nature. "
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:brittle"
+      },
+      {
+        "relation_id": "P1742:r007",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Poor reflectivity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Because of poor reflectivity, good optical conductivity and absorptivity of incident energetic photons make these materials as potential candidates for wide range of applications, particularly, in optoelectronic like devices."
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:reflect"
+      },
+      {
+        "relation_id": "P1742:r008",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Good optical conductivity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Because of poor reflectivity, good optical conductivity and absorptivity of incident energetic photons make these materials as potential candidates for wide range of applications, particularly, in optoelectronic like devices."
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:conduct"
+      },
+      {
+        "relation_id": "P1742:r009",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Absorptivity of incident energetic photons",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Because of poor reflectivity, good optical conductivity and absorptivity of incident energetic photons make these materials as potential candidates for wide range of applications, particularly, in optoelectronic like devices."
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:absorb"
+      },
+      {
+        "relation_id": "P1742:r010",
+        "subject": "ATaO3 perovskite oxides (A = Rb, Fr)",
+        "subject_role": "material_entity",
+        "predicate": "potential_candidates_for",
+        "object": "Optoelectronic devices",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "Based jointly on reported optical properties",
+        "joint_factors": [
+          "Poor reflectivity",
+          "Good optical conductivity",
+          "Absorptivity of incident energetic photons"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). ",
+        "context_quotes": [
+          "Because of poor reflectivity, good optical conductivity and absorptivity of incident energetic photons make these materials as potential candidates for wide range of applications, particularly, in optoelectronic like devices."
+        ],
+        "modality_evidence": [
+          "In the present manuscript, structural, optoelectronic and mechanical properties of perovskite oxides ATaO(3) (A = alkali metals = Rb, Fr) have been investigated using first principles study based on density functional theory (DFT). "
+        ],
+        "subject_id": "P1742:oxides",
+        "object_id": "P1742:opto"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1743",
+    "title": "Synthesis of Europium doped bismuth vanadium oxide in order to enhance electrical performance for energy generation devices and its DTFT band calculations",
+    "segments": [
+      {
+        "id": 0,
+        "text": "In this work we report the influence of Eu3+ on the structural, optical and conducting properties of bismuth vanadium oxide (Bi4V2O11). "
+      },
+      {
+        "id": 1,
+        "text": "Various Eu3+ concentrations (0 < x < 0.20) was synthesized using the simple hydrothermal method. "
+      },
+      {
+        "id": 2,
+        "text": "The results of structural characterization show that the monoclinic phase (alpha) is maintained during the inclusion of Eu3+ dopant into Bi4V2O11 lattice structure. "
+      },
+      {
+        "id": 3,
+        "text": "TGA/DTA analysis was done up to 800 degrees C to measures the stability and weight loss. "
+      },
+      {
+        "id": 4,
+        "text": "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. "
+      },
+      {
+        "id": 5,
+        "text": "The maximum ionic conductivity is achieved with 0.20Eu/Bi4V2O11 (1.271 x 10(-2) Scm(-1) at 300 degrees C and 0.874 Scm(-1) at 500 degrees C) and low activation energy of 0.43 and 0.32eV, characteristic of oxygen vacancy as a conducting mechanism."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1743:hydro",
+        "label": "Hydrothermal synthesis",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1743:doped",
+        "label": "Eu3+-doped Bi4V2O11",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1743:doping",
+        "label": "Eu3+ insertion into Bi4V2O11 lattice",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1743:phase",
+        "label": "Monoclinic alpha phase",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1743:conduct",
+        "label": "Improved conducting properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1743:sample",
+        "label": "0.20Eu/Bi4V2O11",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1743:c300",
+        "label": "Ionic conductivity 1.271 × 10^-2 S cm^-1 at 300 °C",
+        "role": "quantity"
+      },
+      {
+        "id": "P1743:c500",
+        "label": "Ionic conductivity 0.874 S cm^-1 at 500 °C",
+        "role": "quantity"
+      },
+      {
+        "id": "P1743:activation",
+        "label": "Low activation energies of 0.43 and 0.32 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1743:vacancy",
+        "label": "Oxygen-vacancy conduction mechanism",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1743:r001",
+        "subject": "Hydrothermal synthesis",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Eu3+-doped Bi4V2O11",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Reported concentration range 0 < x < 0.20",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this work we report the influence of Eu3+ on the structural, optical and conducting properties of bismuth vanadium oxide (Bi4V2O11). ",
+        "context_quotes": [
+          "Various Eu3+ concentrations (0 < x < 0.20) was synthesized using the simple hydrothermal method. "
+        ],
+        "modality_evidence": [
+          "Various Eu3+ concentrations (0 < x < 0.20) was synthesized using the simple hydrothermal method. "
+        ],
+        "subject_id": "P1743:hydro",
+        "object_id": "P1743:doped"
+      },
+      {
+        "relation_id": "P1743:r002",
+        "subject": "Eu3+ insertion into Bi4V2O11 lattice",
+        "subject_role": "design_strategy",
+        "predicate": "preserves",
+        "object": "Monoclinic alpha phase",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Structural characterization",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The results of structural characterization show that the monoclinic phase (alpha) is maintained during the inclusion of Eu3+ dopant into Bi4V2O11 lattice structure. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The results of structural characterization show that the monoclinic phase (alpha) is maintained during the inclusion of Eu3+ dopant into Bi4V2O11 lattice structure. "
+        ],
+        "subject_id": "P1743:doping",
+        "object_id": "P1743:phase"
+      },
+      {
+        "relation_id": "P1743:r003",
+        "subject": "Eu3+ insertion into Bi4V2O11 lattice",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Improved conducting properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Compared with undoped Bi4V2O11; impedance spectroscopy",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. "
+        ],
+        "subject_id": "P1743:doping",
+        "object_id": "P1743:conduct"
+      },
+      {
+        "relation_id": "P1743:r004",
+        "subject": "0.20Eu/Bi4V2O11",
+        "subject_role": "material_entity",
+        "predicate": "achieves_maximum_ionic_conductivity",
+        "object": "Ionic conductivity 1.271 × 10^-2 S cm^-1 at 300 °C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Among studied compositions; 300 °C",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. ",
+        "context_quotes": [
+          "The maximum ionic conductivity is achieved with 0.20Eu/Bi4V2O11 (1.271 x 10(-2) Scm(-1) at 300 degrees C and 0.874 Scm(-1) at 500 degrees C) and low activation energy of 0.43 and 0.32eV, characteristic of oxygen vacancy as a conducting mechanism."
+        ],
+        "modality_evidence": [
+          "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. "
+        ],
+        "subject_id": "P1743:sample",
+        "object_id": "P1743:c300"
+      },
+      {
+        "relation_id": "P1743:r005",
+        "subject": "0.20Eu/Bi4V2O11",
+        "subject_role": "material_entity",
+        "predicate": "achieves_maximum_ionic_conductivity",
+        "object": "Ionic conductivity 0.874 S cm^-1 at 500 °C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Among studied compositions; 500 °C",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. ",
+        "context_quotes": [
+          "The maximum ionic conductivity is achieved with 0.20Eu/Bi4V2O11 (1.271 x 10(-2) Scm(-1) at 300 degrees C and 0.874 Scm(-1) at 500 degrees C) and low activation energy of 0.43 and 0.32eV, characteristic of oxygen vacancy as a conducting mechanism."
+        ],
+        "modality_evidence": [
+          "Impedance spectroscopy measurements reveal that the Eu3+ insertion improve the conducting properties as compared with the Bi4V2O11 sample. "
+        ],
+        "subject_id": "P1743:sample",
+        "object_id": "P1743:c500"
+      },
+      {
+        "relation_id": "P1743:r006",
+        "subject": "0.20Eu/Bi4V2O11",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Low activation energies of 0.43 and 0.32 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Individual energy-to-temperature assignments are not explicit",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The maximum ionic conductivity is achieved with 0.20Eu/Bi4V2O11 (1.271 x 10(-2) Scm(-1) at 300 degrees C and 0.874 Scm(-1) at 500 degrees C) and low activation energy of 0.43 and 0.32eV, characteristic of oxygen vacancy as a conducting mechanism.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1743:sample",
+        "object_id": "P1743:activation"
+      },
+      {
+        "relation_id": "P1743:r007",
+        "subject": "Low activation energies of 0.43 and 0.32 eV",
+        "subject_role": "quantity",
+        "predicate": "characteristic_of",
+        "object": "Oxygen-vacancy conduction mechanism",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "0.20Eu/Bi4V2O11",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The maximum ionic conductivity is achieved with 0.20Eu/Bi4V2O11 (1.271 x 10(-2) Scm(-1) at 300 degrees C and 0.874 Scm(-1) at 500 degrees C) and low activation energy of 0.43 and 0.32eV, characteristic of oxygen vacancy as a conducting mechanism.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1743:activation",
+        "object_id": "P1743:vacancy"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1744",
+    "title": "Solid state ionics enabled ultra-sensitive detection of thermal trace with 0.001K resolution in deep sea",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Exploration of deep sea areas relies on sonar and other visual and auditory sensors, but gaining information via temperature sensing in deep sea areas is difficult to realize. "
+      },
+      {
+        "id": 1,
+        "text": "Here, the authors design an elastic, self-healable and sensitive thermal sensor which can identify a temperature difference as low as 0.01 K with a resolution of 0.001 K The deep sea remains the largest uncharted territory on Earth because it's eternally dark under high pressure and the saltwater is corrosive and conductive. "
+      },
+      {
+        "id": 2,
+        "text": "The harsh environment poses great difficulties for the durability of the sensing method and the device. "
+      },
+      {
+        "id": 3,
+        "text": "Sea creatures like sharks adopt an elegant way to detect objects by the tiny temperature differences in the seawater medium using their extremely thermo-sensitive thermoelectric sensory organ on the nose. "
+      },
+      {
+        "id": 4,
+        "text": "Inspired by shark noses, we designed and developed an elastic, self-healable and extremely sensitive thermal sensor which can identify a temperature difference as low as 0.01 K with a resolution of 0.001 K. "
+      },
+      {
+        "id": 5,
+        "text": "The sensor can work reliably in seawater or under a pressure of 110 MPa without any encapsulation. "
+      },
+      {
+        "id": 6,
+        "text": "Using the integrated temperature sensor arrays, we have constructed a model of an effective deep water mapping and detection device."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1744:sensor",
+        "label": "Shark-nose-inspired thermal sensor",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1744:elastic",
+        "label": "Elasticity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1744:heal",
+        "label": "Self-healability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1744:difference",
+        "label": "Detection of temperature differences as low as 0.01 K",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1744:resolution",
+        "label": "Temperature resolution of 0.001 K",
+        "role": "quantity"
+      },
+      {
+        "id": "P1744:reliable",
+        "label": "Reliable operation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1744:arrays",
+        "label": "Integrated temperature sensor arrays",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1744:device",
+        "label": "Model of effective deep-water mapping and detection device",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1744:r001",
+        "subject": "Shark-nose-inspired thermal sensor",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Elasticity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Inspired by shark noses, we designed and developed an elastic, self-healable and extremely sensitive thermal sensor which can identify a temperature difference as low as 0.01 K with a resolution of 0.001 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1744:sensor",
+        "object_id": "P1744:elastic"
+      },
+      {
+        "relation_id": "P1744:r002",
+        "subject": "Shark-nose-inspired thermal sensor",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Self-healability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Inspired by shark noses, we designed and developed an elastic, self-healable and extremely sensitive thermal sensor which can identify a temperature difference as low as 0.01 K with a resolution of 0.001 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1744:sensor",
+        "object_id": "P1744:heal"
+      },
+      {
+        "relation_id": "P1744:r003",
+        "subject": "Shark-nose-inspired thermal sensor",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Detection of temperature differences as low as 0.01 K",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Inspired by shark noses, we designed and developed an elastic, self-healable and extremely sensitive thermal sensor which can identify a temperature difference as low as 0.01 K with a resolution of 0.001 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1744:sensor",
+        "object_id": "P1744:difference"
+      },
+      {
+        "relation_id": "P1744:r004",
+        "subject": "Shark-nose-inspired thermal sensor",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Temperature resolution of 0.001 K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Inspired by shark noses, we designed and developed an elastic, self-healable and extremely sensitive thermal sensor which can identify a temperature difference as low as 0.01 K with a resolution of 0.001 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1744:sensor",
+        "object_id": "P1744:resolution"
+      },
+      {
+        "relation_id": "P1744:r005",
+        "subject": "Shark-nose-inspired thermal sensor",
+        "subject_role": "material_entity",
+        "predicate": "maintains",
+        "object": "Reliable operation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In seawater or under pressure of 110 MPa; without encapsulation",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The sensor can work reliably in seawater or under a pressure of 110 MPa without any encapsulation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1744:sensor",
+        "object_id": "P1744:reliable"
+      },
+      {
+        "relation_id": "P1744:r006",
+        "subject": "Integrated temperature sensor arrays",
+        "subject_role": "design_strategy",
+        "predicate": "used_to_construct",
+        "object": "Model of effective deep-water mapping and detection device",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Model construction; implementation method unspecified",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Using the integrated temperature sensor arrays, we have constructed a model of an effective deep water mapping and detection device.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1744:arrays",
+        "object_id": "P1744:device"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4998 @@
+[
+  {
+    "paper": {
+      "paper_id": "P1845",
+      "domain": "iTE",
+      "input_hash": "161aa20f0c54b1fcb2234de13ffdfbd68b4fca43b93a04f90760c8c57ccebb6a",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1845:r001",
+          "subject": "Integrated external heat source–DC-SOFC–VTIG–regenerator system",
+          "subject_role": "design_strategy",
+          "subject_id": "P1845:system",
+          "predicate": "is_proposed_for",
+          "object": "DC-SOFC heat management",
+          "object_role": "application",
+          "object_id": "P1845:manage",
+          "quote": "A novel integrated system consisting of an external heat source, a direct carbon solid oxide fuel cell (DC-SOFC), a vacuum thermionic generator (VTIG) and a regenerator is proposed to handle the heat management of the DC-SOFC. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 227
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1845:r002",
+          "subject": "Overall heat released in the DC-SOFC",
+          "subject_role": "quantity",
+          "subject_id": "P1845:released",
+          "predicate": "is_always_different_from",
+          "object": "Heat required by the internal Boudouard reaction",
+          "object_role": "quantity",
+          "object_id": "P1845:required",
+          "quote": "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "2D tubular DC-SOFC model accounting for electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport, and heat transfer.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 227,
+              "end": 532
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1845:r003",
+          "subject": "Three system operation strategies",
+          "subject_role": "design_strategy",
+          "subject_id": "P1845:strategies",
+          "predicate": "have_corresponding",
+          "object": "Analytical expressions for overall power output and efficiency",
+          "object_role": "descriptor",
+          "object_id": "P1845:expr",
+          "quote": "Three different operation strategies of the proposed system are presented, and accordingly, analytical expressions for the overall power output and efficiency for the proposed system are specified. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "Three different operation strategies of the proposed system are presented, and accordingly, analytical expressions for the overall power output and efficiency for the proposed system are specified. "
+          ],
+          "conditions": "Proposed integrated system.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 532,
+              "end": 730
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 532,
+              "end": 730
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Vacuum thermionic generator",
+          "subject_role": "material_entity",
+          "predicate": "can_enable",
+          "object": "Waste-heat recovery for additional power production",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Large operating current density; proposed modeled system.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P1845:r004",
+          "quote": "A novel integrated system consisting of an external heat source, a direct carbon solid oxide fuel cell (DC-SOFC), a vacuum thermionic generator (VTIG) and a regenerator is proposed to handle the heat management of the DC-SOFC. ",
+          "context_quotes": [
+            "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+            "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 227
+            },
+            {
+              "start": 227,
+              "end": 532
+            },
+            {
+              "start": 730,
+              "end": 1027
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1845:vtig",
+          "object_id": "P1845:recover",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Integrated external heat source–DC-SOFC–VTIG–regenerator system",
+          "subject_role": "design_strategy",
+          "predicate": "can_reach",
+          "object": "Maximum power density greater than 8100 W m−2",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Proposed modeled integrated system at 30,000 A m−2 and 1173 K.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P1845:r005",
+          "quote": "A novel integrated system consisting of an external heat source, a direct carbon solid oxide fuel cell (DC-SOFC), a vacuum thermionic generator (VTIG) and a regenerator is proposed to handle the heat management of the DC-SOFC. ",
+          "context_quotes": [
+            "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+            "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 227
+            },
+            {
+              "start": 227,
+              "end": 532
+            },
+            {
+              "start": 730,
+              "end": 1027
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1845:system",
+          "object_id": "P1845:power",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Integrated external heat source–DC-SOFC–VTIG–regenerator system",
+          "subject_role": "design_strategy",
+          "predicate": "can_reach",
+          "object": "Efficiency greater than 60%",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Proposed modeled integrated system at 30,000 A m−2 and 1173 K.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r006",
+          "relation_id": "P1845:r006",
+          "quote": "A novel integrated system consisting of an external heat source, a direct carbon solid oxide fuel cell (DC-SOFC), a vacuum thermionic generator (VTIG) and a regenerator is proposed to handle the heat management of the DC-SOFC. ",
+          "context_quotes": [
+            "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+            "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 227
+            },
+            {
+              "start": 227,
+              "end": 532
+            },
+            {
+              "start": 730,
+              "end": 1027
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1845:system",
+          "object_id": "P1845:eff",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1845:r007",
+          "subject": "DC-SOFC operating current density",
+          "subject_role": "condition",
+          "subject_id": "P1845:current",
+          "predicate": "has_studied_effect_on",
+          "object": "Integrated-system performance",
+          "object_role": "performance_function",
+          "object_id": "P1845:perf",
+          "quote": "The effects of the operating current density, the operating temperature and the distance between the carbon layer and anode of the DC-SOFC, and the size, anode temperature and work function of the VTIG on the performance of the proposed system are discussed through comprehensive parametric studies.",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comprehensive parametric studies; direction and magnitude unspecified.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1027,
+              "end": 1326
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1845:r008",
+          "subject": "DC-SOFC operating temperature",
+          "subject_role": "condition",
+          "subject_id": "P1845:temp",
+          "predicate": "has_studied_effect_on",
+          "object": "Integrated-system performance",
+          "object_role": "performance_function",
+          "object_id": "P1845:perf",
+          "quote": "The effects of the operating current density, the operating temperature and the distance between the carbon layer and anode of the DC-SOFC, and the size, anode temperature and work function of the VTIG on the performance of the proposed system are discussed through comprehensive parametric studies.",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comprehensive parametric studies; direction and magnitude unspecified.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1027,
+              "end": 1326
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1845:r009",
+          "subject": "Distance between carbon layer and DC-SOFC anode",
+          "subject_role": "quantity",
+          "subject_id": "P1845:dist",
+          "predicate": "has_studied_effect_on",
+          "object": "Integrated-system performance",
+          "object_role": "performance_function",
+          "object_id": "P1845:perf",
+          "quote": "The effects of the operating current density, the operating temperature and the distance between the carbon layer and anode of the DC-SOFC, and the size, anode temperature and work function of the VTIG on the performance of the proposed system are discussed through comprehensive parametric studies.",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comprehensive parametric studies; direction and magnitude unspecified.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1027,
+              "end": 1326
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1845:r010",
+          "subject": "VTIG size",
+          "subject_role": "quantity",
+          "subject_id": "P1845:size",
+          "predicate": "has_studied_effect_on",
+          "object": "Integrated-system performance",
+          "object_role": "performance_function",
+          "object_id": "P1845:perf",
+          "quote": "The effects of the operating current density, the operating temperature and the distance between the carbon layer and anode of the DC-SOFC, and the size, anode temperature and work function of the VTIG on the performance of the proposed system are discussed through comprehensive parametric studies.",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comprehensive parametric studies; direction and magnitude unspecified.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1027,
+              "end": 1326
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r011",
+          "relation_id": "P1845:r011",
+          "subject": "VTIG anode temperature",
+          "subject_role": "condition",
+          "subject_id": "P1845:at",
+          "predicate": "has_studied_effect_on",
+          "object": "Integrated-system performance",
+          "object_role": "performance_function",
+          "object_id": "P1845:perf",
+          "quote": "The effects of the operating current density, the operating temperature and the distance between the carbon layer and anode of the DC-SOFC, and the size, anode temperature and work function of the VTIG on the performance of the proposed system are discussed through comprehensive parametric studies.",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comprehensive parametric studies; direction and magnitude unspecified.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1027,
+              "end": 1326
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r012",
+          "relation_id": "P1845:r012",
+          "subject": "VTIG work function",
+          "subject_role": "quantity",
+          "subject_id": "P1845:wf",
+          "predicate": "has_studied_effect_on",
+          "object": "Integrated-system performance",
+          "object_role": "performance_function",
+          "object_id": "P1845:perf",
+          "quote": "The effects of the operating current density, the operating temperature and the distance between the carbon layer and anode of the DC-SOFC, and the size, anode temperature and work function of the VTIG on the performance of the proposed system are discussed through comprehensive parametric studies.",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comprehensive parametric studies; direction and magnitude unspecified.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1027,
+              "end": 1326
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r004",
+        "action": "patch",
+        "reason": "Bind VTIG and modeled context; omit unnecessary strategy evidence.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 227,
+                "end": 532
+              },
+              {
+                "start": 532,
+                "end": 730
+              },
+              {
+                "start": 730,
+                "end": 1027
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 227
+              },
+              {
+                "start": 227,
+                "end": 532
+              },
+              {
+                "start": 730,
+                "end": 1027
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+            "after": "A novel integrated system consisting of an external heat source, a direct carbon solid oxide fuel cell (DC-SOFC), a vacuum thermionic generator (VTIG) and a regenerator is proposed to handle the heat management of the DC-SOFC. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "Three different operation strategies of the proposed system are presented, and accordingly, analytical expressions for the overall power output and efficiency for the proposed system are specified. ",
+              "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+            ],
+            "after": [
+              "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+              "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r005",
+        "action": "patch",
+        "reason": "Retain modeled-system qualification.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 0,
+                "end": 227
+              },
+              {
+                "start": 730,
+                "end": 1027
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 227
+              },
+              {
+                "start": 227,
+                "end": 532
+              },
+              {
+                "start": 730,
+                "end": 1027
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Proposed system results at 30,000 A m−2 and 1173 K.",
+            "after": "Proposed modeled integrated system at 30,000 A m−2 and 1173 K."
+          },
+          "context_quotes": {
+            "before": [
+              "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+            ],
+            "after": [
+              "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+              "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r006",
+        "action": "patch",
+        "reason": "Retain modeled-system qualification.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 0,
+                "end": 227
+              },
+              {
+                "start": 730,
+                "end": 1027
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 227
+              },
+              {
+                "start": 227,
+                "end": 532
+              },
+              {
+                "start": 730,
+                "end": 1027
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Proposed system results at 30,000 A m−2 and 1173 K.",
+            "after": "Proposed modeled integrated system at 30,000 A m−2 and 1173 K."
+          },
+          "context_quotes": {
+            "before": [
+              "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+            ],
+            "after": [
+              "The electrochemical/chemical reactions, ionic/electronic charge transport, mass/momentum transport and heat transfer are fully considered in the 2D tubular DC-SOFC model, which shows that the overall heat released in the cell is always different from the heat required by the internal Boudouard reaction. ",
+              "The results show that the VTIG could effectively recover the waste heat for additional power production at a large operating current density, and the maximum power density and efficiency of the proposed system could reach more than 8100 W m(-2) and 60% at 30,000 A m(-2) and 1173 K, respectively. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r011",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1845",
+        "relation_id": "P1845:r012",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1846",
+      "domain": "iTE",
+      "input_hash": "3723cd649bb05bda7395ffc74228879089b7a08c08f7090304c46848ce761fdd",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1846:r001",
+          "subject": "Solution growth",
+          "subject_role": "mechanism_process",
+          "subject_id": "P1846:g",
+          "predicate": "deposits",
+          "object": "Polycrystalline Cu1-xAgxSe thin films (0 ≤ x ≤ 1)",
+          "object_role": "material_entity",
+          "object_id": "P1846:m",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 147
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Annealing up to 500 K",
+          "subject_role": "condition",
+          "predicate": "is associated with appearance of",
+          "object": "Electrical conductivity",
+          "object_role": "quantity",
+          "assertion": "association",
+          "modality": "experimental",
+          "conditions": "As-deposited polycrystalline Cu1-xAgxSe films (0 ≤ x ≤ 1), annealed at different temperatures up to 500 K.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P1846:r002",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "As-deposited films have been annealed at different temperatures up to 500 K and the appearance of electrical conductivity has been observed. "
+          ],
+          "modality_evidence": [
+            "As-deposited films have been annealed at different temperatures up to 500 K and the appearance of electrical conductivity has been observed. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 147,
+              "end": 288
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 147,
+              "end": 288
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:an",
+          "object_id": "P1846:ec",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Electrical conductivity",
+          "subject_role": "quantity",
+          "predicate": "depends exponentially on",
+          "object": "Temperature",
+          "object_role": "condition",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Annealed polycrystalline Cu1-xAgxSe films (0 ≤ x ≤ 1); temperature dependence of conductivity.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P1846:r003",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "The electrical conductivity of annealed films shows an exponential dependence on temperature, and two thermal activation energies have been calculated. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 288,
+              "end": 440
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:ec",
+          "object_id": "P1846:t",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Electrical conductivity",
+          "subject_role": "quantity",
+          "predicate": "has calculated activation parameters",
+          "object": "Two thermal activation energies of electrical conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Annealed polycrystalline Cu1-xAgxSe films (0 ≤ x ≤ 1); two calculated energies, values unspecified.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P1846:r004",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "The electrical conductivity of annealed films shows an exponential dependence on temperature, and two thermal activation energies have been calculated. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 288,
+              "end": 440
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:ec",
+          "object_id": "P1846:ae",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1846:r005",
+          "subject": "Polycrystalline Cu1-xAgxSe thin films (0 ≤ x ≤ 1)",
+          "subject_role": "material_entity",
+          "subject_id": "P1846:m",
+          "predicate": "exhibits",
+          "object": "n-type conductivity",
+          "object_role": "descriptor",
+          "object_id": "P1846:n",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Excluding x = 0, all the films displayed n-type conductivity. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Excluding x = 0.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 440,
+              "end": 502
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1846:r006",
+          "subject": "CuSe and AgSe films",
+          "subject_role": "material_entity",
+          "subject_id": "P1846:end",
+          "predicate": "has",
+          "object": "Cubic crystal structure",
+          "object_role": "state_structure",
+          "object_id": "P1846:cub",
+          "quote": "X-ray analysis indicates that CuSe and AgSe films have a cubic crystal structure while films with 0.1 less-than-or-equal-to x less-than-or-equal-to 0.9 possess a tetragonal structure with axial ratio approximately 1.25. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "X-ray analysis indicates that CuSe and AgSe films have a cubic crystal structure while films with 0.1 less-than-or-equal-to x less-than-or-equal-to 0.9 possess a tetragonal structure with axial ratio approximately 1.25. "
+          ],
+          "conditions": "X-ray analysis.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 639,
+              "end": 859
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 639,
+              "end": 859
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1846:r007",
+          "subject": "Cu1-xAgxSe films (0.1 ≤ x ≤ 0.9)",
+          "subject_role": "material_entity",
+          "subject_id": "P1846:mid",
+          "predicate": "has",
+          "object": "Tetragonal crystal structure",
+          "object_role": "state_structure",
+          "object_id": "P1846:tet",
+          "quote": "X-ray analysis indicates that CuSe and AgSe films have a cubic crystal structure while films with 0.1 less-than-or-equal-to x less-than-or-equal-to 0.9 possess a tetragonal structure with axial ratio approximately 1.25. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "X-ray analysis indicates that CuSe and AgSe films have a cubic crystal structure while films with 0.1 less-than-or-equal-to x less-than-or-equal-to 0.9 possess a tetragonal structure with axial ratio approximately 1.25. "
+          ],
+          "conditions": "X-ray analysis.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 639,
+              "end": 859
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 639,
+              "end": 859
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1846:r008",
+          "subject": "Tetragonal crystal structure",
+          "subject_role": "state_structure",
+          "subject_id": "P1846:tet",
+          "predicate": "has",
+          "object": "Axial ratio approximately 1.25",
+          "object_role": "quantity",
+          "object_id": "P1846:ax",
+          "quote": "X-ray analysis indicates that CuSe and AgSe films have a cubic crystal structure while films with 0.1 less-than-or-equal-to x less-than-or-equal-to 0.9 possess a tetragonal structure with axial ratio approximately 1.25. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "X-ray analysis indicates that CuSe and AgSe films have a cubic crystal structure while films with 0.1 less-than-or-equal-to x less-than-or-equal-to 0.9 possess a tetragonal structure with axial ratio approximately 1.25. "
+          ],
+          "conditions": "Cu1-xAgxSe films with 0.1 ≤ x ≤ 0.9; X-ray analysis.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 639,
+              "end": 859
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 639,
+              "end": 859
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1846:r009",
+          "subject": "Cu1-xAgxSe films (0.1 ≤ x ≤ 1)",
+          "subject_role": "material_entity",
+          "subject_id": "P1846:opt",
+          "predicate": "has",
+          "object": "Direct optical bandgap 1.4–1.37 eV",
+          "object_role": "quantity",
+          "object_id": "P1846:dg",
+          "quote": "Films of stoichiometry 0.1 less-than-or-equal-to x less-than-or-equal-to 1 show both a direct and an indirect optical bandgap E(g) from 1.4 to 1.37 eV and from 1.19 to 0.99 eV respectively. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 859,
+              "end": 1049
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1846:r010",
+          "subject": "Cu1-xAgxSe films (0.1 ≤ x ≤ 1)",
+          "subject_role": "material_entity",
+          "subject_id": "P1846:opt",
+          "predicate": "has",
+          "object": "Indirect optical bandgap 1.19–0.99 eV",
+          "object_role": "quantity",
+          "object_id": "P1846:ig",
+          "quote": "Films of stoichiometry 0.1 less-than-or-equal-to x less-than-or-equal-to 1 show both a direct and an indirect optical bandgap E(g) from 1.4 to 1.37 eV and from 1.19 to 0.99 eV respectively. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 859,
+              "end": 1049
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Reflectance and transmittance spectra",
+          "subject_role": "descriptor",
+          "predicate": "provides basis for computing",
+          "object": "Absorption coefficient α",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "For the studied polycrystalline Cu1-xAgxSe thin films.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r011",
+          "relation_id": "P1846:r011",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 1049,
+              "end": 1249
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:sp",
+          "object_id": "P1846:ab",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Reflectance and transmittance spectra",
+          "subject_role": "descriptor",
+          "predicate": "provides basis for computing",
+          "object": "Refractive index n",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "For the studied polycrystalline Cu1-xAgxSe thin films.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r012",
+          "relation_id": "P1846:r012",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 1049,
+              "end": 1249
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:sp",
+          "object_id": "P1846:ri",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Reflectance and transmittance spectra",
+          "subject_role": "descriptor",
+          "predicate": "provides basis for computing",
+          "object": "Dielectric constant ε",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "For the studied polycrystalline Cu1-xAgxSe thin films.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r013",
+          "relation_id": "P1846:r013",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 1049,
+              "end": 1249
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:sp",
+          "object_id": "P1846:di",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Reflectance and transmittance spectra",
+          "subject_role": "descriptor",
+          "predicate": "provides basis for computing",
+          "object": "Extinction coefficient k",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "For the studied polycrystalline Cu1-xAgxSe thin films.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r014",
+          "relation_id": "P1846:r014",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 1049,
+              "end": 1249
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:sp",
+          "object_id": "P1846:ex",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Carrier concentration, mobility and thermoelectric power measurements",
+          "subject_role": "mechanism_process",
+          "predicate": "were performed on",
+          "object": "Polycrystalline Cu1-xAgxSe thin films (0 ≤ x ≤ 1)",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "As a function of composition.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1846:complete_v1_cr001",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Carrier concentration, mobility and thermoelectric power measurements of these films have been carried out as a function of composition. "
+          ],
+          "modality_evidence": [
+            "Carrier concentration, mobility and thermoelectric power measurements of these films have been carried out as a function of composition. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 502,
+              "end": 639
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 502,
+              "end": 639
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:complete_v1_cr001_subject",
+          "object_id": "P1846:m",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r002",
+        "action": "patch",
+        "reason": "Bind conductivity to the identified films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 147,
+                "end": 288
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 147,
+                "end": 288
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "As-deposited films have been annealed at different temperatures up to 500 K and the appearance of electrical conductivity has been observed. ",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "As-deposited films annealed at different temperatures up to 500 K.",
+            "after": "As-deposited polycrystalline Cu1-xAgxSe films (0 ≤ x ≤ 1), annealed at different temperatures up to 500 K."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "As-deposited films have been annealed at different temperatures up to 500 K and the appearance of electrical conductivity has been observed. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r003",
+        "action": "patch",
+        "reason": "Bind the conductivity-temperature relation to its material.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 288,
+                "end": 440
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 288,
+                "end": 440
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The electrical conductivity of annealed films shows an exponential dependence on temperature, and two thermal activation energies have been calculated. ",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Annealed films.",
+            "after": "Annealed polycrystalline Cu1-xAgxSe films (0 ≤ x ≤ 1); temperature dependence of conductivity."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "The electrical conductivity of annealed films shows an exponential dependence on temperature, and two thermal activation energies have been calculated. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r004",
+        "action": "patch",
+        "reason": "Bind activation energies to their material.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 288,
+                "end": 440
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 288,
+                "end": 440
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The electrical conductivity of annealed films shows an exponential dependence on temperature, and two thermal activation energies have been calculated. ",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Annealed films; two energies, values unspecified.",
+            "after": "Annealed polycrystalline Cu1-xAgxSe films (0 ≤ x ≤ 1); two calculated energies, values unspecified."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "The electrical conductivity of annealed films shows an exponential dependence on temperature, and two thermal activation energies have been calculated. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r011",
+        "action": "patch",
+        "reason": "Bind spectra and derived parameter to the studied films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra.",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "",
+            "after": "For the studied polycrystalline Cu1-xAgxSe thin films."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r012",
+        "action": "patch",
+        "reason": "Bind spectra and derived parameter to the studied films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra.",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "",
+            "after": "For the studied polycrystalline Cu1-xAgxSe thin films."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r013",
+        "action": "patch",
+        "reason": "Bind spectra and derived parameter to the studied films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra.",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "",
+            "after": "For the studied polycrystalline Cu1-xAgxSe thin films."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:r014",
+        "action": "patch",
+        "reason": "Bind spectra and derived parameter to the studied films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 147
+              },
+              {
+                "start": 1049,
+                "end": 1249
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra.",
+            "after": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "",
+            "after": "For the studied polycrystalline Cu1-xAgxSe thin films."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Other parameters such as absorption coefficient-alpha, refractive index n, dielectric constant-epsilon, and extinction coefficient k have also been computed from reflectance and transmittance spectra."
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1846",
+        "relation_id": "P1846:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Carrier concentration, mobility and thermoelectric power measurements",
+          "subject_role": "mechanism_process",
+          "predicate": "were performed on",
+          "object": "Polycrystalline Cu1-xAgxSe thin films (0 ≤ x ≤ 1)",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "As a function of composition.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1846:complete_v1_cr001",
+          "quote": "Polycrystalline thin films of Cu1-xAgxSe (0 less-than-or-equal-to x less-than-or-equal-to 1) have been deposited by a 'solution growth' technique. ",
+          "context_quotes": [
+            "Carrier concentration, mobility and thermoelectric power measurements of these films have been carried out as a function of composition. "
+          ],
+          "modality_evidence": [
+            "Carrier concentration, mobility and thermoelectric power measurements of these films have been carried out as a function of composition. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 502,
+              "end": 639
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 502,
+              "end": 639
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1846:complete_v1_cr001_subject",
+          "object_id": "P1846:m",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1847",
+      "domain": "iTE",
+      "input_hash": "682f9a8b14de3a05c2e5eee814581d50af2dfc7a21e517c2fb242e2af099a0f5",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "MX2 (M = Zr, Hf; X = S, Se) and Janus MXY (M = Zr, Hf; X = S, Y = Se)",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "Lower out-of-plane than in-plane compression resistance",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P1847:r001",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 382,
+              "end": 624
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:m",
+          "object_id": "P1847:anis",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1847:r002",
+          "subject": "Out-of-plane linear compression resistance",
+          "subject_role": "quantity",
+          "subject_id": "P1847:out",
+          "predicate": "is considerably lower than",
+          "object": "In-plane linear compression resistance",
+          "object_role": "quantity",
+          "object_id": "P1847:in",
+          "quote": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+          "context_quotes": [
+            "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "conditions": "For the studied MX2 and Janus MXY materials; orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 382,
+              "end": 624
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "van der Waals interactions",
+          "subject_role": "interaction",
+          "predicate": "is much weaker than",
+          "object": "Ionic bond interactions",
+          "object_role": "interaction",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "For the studied MX2 and Janus MXY materials; orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P1847:r003",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 382,
+              "end": 624
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:vdw",
+          "object_id": "P1847:ion",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Weaker van der Waals interactions than ionic bond interactions",
+          "subject_role": "descriptor",
+          "predicate": "primarily explains",
+          "object": "Lower out-of-plane than in-plane compression resistance",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "For the studied MX2 and Janus MXY materials; orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P1847:r004",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 382,
+              "end": 624
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:weak",
+          "object_id": "P1847:anis",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Lower out-of-plane than in-plane compression resistance",
+          "subject_role": "descriptor",
+          "predicate": "causes",
+          "object": "Reduced susceptibility to external pressure and torsional forces",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "For the studied MX2 and Janus MXY materials; orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P1847:r005",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. ",
+            "This characteristic makes them less susceptible to external pressure and torsional forces, positioning them as promising candidates for flexible optoelectronic devices. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 382,
+              "end": 624
+            },
+            {
+              "start": 624,
+              "end": 793
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:anis",
+          "object_id": "P1847:sus",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "MX2 (M = Zr, Hf; X = S, Se) and Janus MXY (M = Zr, Hf; X = S, Y = Se)",
+          "subject_role": "material_entity",
+          "predicate": "is a proposed candidate for",
+          "object": "Flexible optoelectronic devices",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Based on reduced susceptibility to external pressure and torsional forces.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "r006",
+          "relation_id": "P1847:r006",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. ",
+            "This characteristic makes them less susceptible to external pressure and torsional forces, positioning them as promising candidates for flexible optoelectronic devices. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 382,
+              "end": 624
+            },
+            {
+              "start": 624,
+              "end": 793
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:m",
+          "object_id": "P1847:flex",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "MX2 (M = Zr, Hf; X = S, Se) and Janus MXY (M = Zr, Hf; X = S, Y = Se)",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "Multiple energy bands at the same momentum state",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r007",
+          "relation_id": "P1847:r007",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "Furthermore, the presence of multiple energy bands at the same momentum state suggests a tendency toward metal-insulator transitions. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 793,
+              "end": 927
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:m",
+          "object_id": "P1847:bands",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Multiple energy bands at the same momentum state",
+          "subject_role": "state_structure",
+          "predicate": "suggests a tendency toward",
+          "object": "Metal-insulator transitions",
+          "object_role": "mechanism_process",
+          "assertion": "hypothesis",
+          "modality": "theoretical",
+          "conditions": "For the studied MX2 and Janus MXY materials; orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r008",
+          "relation_id": "P1847:r008",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "Furthermore, the presence of multiple energy bands at the same momentum state suggests a tendency toward metal-insulator transitions. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 793,
+              "end": 927
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:bands",
+          "object_id": "P1847:trans",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "MX2 (M = Zr, Hf; X = S, Se) and Janus MXY (M = Zr, Hf; X = S, Y = Se)",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "High photon flux",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "id": "r009",
+          "relation_id": "P1847:r009",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 927,
+              "end": 1103
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:m",
+          "object_id": "P1847:flux",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "High photon flux",
+          "subject_role": "quantity",
+          "predicate": "indicates",
+          "object": "Robust photoelectric conversion capabilities",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "For the studied MX2 and Janus MXY materials; orbital hybrid theory.",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "id": "r010",
+          "relation_id": "P1847:r010",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+          ],
+          "modality_evidence": [
+            "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 209,
+              "end": 382
+            },
+            {
+              "start": 927,
+              "end": 1103
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 209,
+              "end": 382
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:flux",
+          "object_id": "P1847:conv",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "MX2 (M = Zr, Hf; X = S, Se) and Janus MXY (M = Zr, Hf; X = S, Y = Se)",
+          "subject_role": "material_entity",
+          "predicate": "is proposed as suitable for",
+          "object": "Photoelectric transducers",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Based on high photon flux indicating robust photoelectric conversion.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "r011",
+          "relation_id": "P1847:r011",
+          "quote": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. ",
+          "context_quotes": [
+            "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 209
+            },
+            {
+              "start": 927,
+              "end": 1103
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1847:m",
+          "object_id": "P1847:app",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r001",
+        "action": "patch",
+        "reason": "Include the material antecedent.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r003",
+        "action": "patch",
+        "reason": "Bind the interaction comparison to the studied materials.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Orbital hybrid theory.",
+            "after": "For the studied MX2 and Janus MXY materials; orbital hybrid theory."
+          },
+          "context_quotes": {
+            "before": [
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r004",
+        "action": "patch",
+        "reason": "Bind the explanation to the studied materials.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Orbital hybrid theory.",
+            "after": "For the studied MX2 and Janus MXY materials; orbital hybrid theory."
+          },
+          "context_quotes": {
+            "before": [
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r005",
+        "action": "patch",
+        "reason": "Bind the mechanical response to the studied materials.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              },
+              {
+                "start": 624,
+                "end": 793
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 382,
+                "end": 624
+              },
+              {
+                "start": 624,
+                "end": 793
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Orbital hybrid theory.",
+            "after": "For the studied MX2 and Janus MXY materials; orbital hybrid theory."
+          },
+          "context_quotes": {
+            "before": [
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. ",
+              "This characteristic makes them less susceptible to external pressure and torsional forces, positioning them as promising candidates for flexible optoelectronic devices. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. ",
+              "This characteristic makes them less susceptible to external pressure and torsional forces, positioning them as promising candidates for flexible optoelectronic devices. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r006",
+        "action": "patch",
+        "reason": "Include the material antecedent.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 382,
+                "end": 624
+              },
+              {
+                "start": 624,
+                "end": 793
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 382,
+                "end": 624
+              },
+              {
+                "start": 624,
+                "end": 793
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "This characteristic makes them less susceptible to external pressure and torsional forces, positioning them as promising candidates for flexible optoelectronic devices. "
+            ],
+            "after": [
+              "The results reveal that the out-of-plane linear compression resistance of these materials is considerably lower than their in-plane resistance, primarily because van der Waals interactions are much weaker compared to ionic bond interactions. ",
+              "This characteristic makes them less susceptible to external pressure and torsional forces, positioning them as promising candidates for flexible optoelectronic devices. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r007",
+        "action": "patch",
+        "reason": "Include the material antecedent.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 793,
+                "end": 927
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 793,
+                "end": 927
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "Furthermore, the presence of multiple energy bands at the same momentum state suggests a tendency toward metal-insulator transitions. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "Furthermore, the presence of multiple energy bands at the same momentum state suggests a tendency toward metal-insulator transitions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r008",
+        "action": "patch",
+        "reason": "Bind the proposed transition tendency to the studied materials.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 793,
+                "end": 927
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 793,
+                "end": 927
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Orbital hybrid theory.",
+            "after": "For the studied MX2 and Janus MXY materials; orbital hybrid theory."
+          },
+          "context_quotes": {
+            "before": [
+              "Furthermore, the presence of multiple energy bands at the same momentum state suggests a tendency toward metal-insulator transitions. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "Furthermore, the presence of multiple energy bands at the same momentum state suggests a tendency toward metal-insulator transitions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r009",
+        "action": "patch",
+        "reason": "Include the material antecedent.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 927,
+                "end": 1103
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 927,
+                "end": 1103
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r010",
+        "action": "patch",
+        "reason": "Bind the photon-flux interpretation to the studied materials.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 927,
+                "end": 1103
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 209,
+                "end": 382
+              },
+              {
+                "start": 927,
+                "end": 1103
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Orbital hybrid theory.",
+            "after": "For the studied MX2 and Janus MXY materials; orbital hybrid theory."
+          },
+          "context_quotes": {
+            "before": [
+              "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+            ],
+            "after": [
+              "To further explore their potential in flexible photonics, their mechanical, band dispersion, and optical dielectric properties using orbital hybrid theory are investigated. ",
+              "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1847",
+        "relation_id": "P1847:r011",
+        "action": "patch",
+        "reason": "Include the material antecedent.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 927,
+                "end": 1103
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 209
+              },
+              {
+                "start": 927,
+                "end": 1103
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. ",
+            "after": "IVB-VIA transition metal dichalcogenides (TMDs) MX2 (M = Zr, Hf; X = S, Se) and related Janus MXY (M = Zr, Hf; X = S, Y = Se) have garnered significant attention due to their unique optoelectronic properties. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Notably, the materials exhibit a high photon flux, indicating robust photoelectric conversion capabilities, making them suitable for applications in photoelectric transducers. "
+            ]
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1848",
+      "domain": "iTE",
+      "input_hash": "cfe3012677f09bb66bd8ae4d5fb63ee56453cf4cebe9caac272409a913c40011",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1848:r001",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "possesses",
+          "object": "Face-centered cubic crystal structure",
+          "object_role": "state_structure",
+          "object_id": "P1848:fcc",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "These compounds possess a face-centered cubic crystal structure and satisfy the Goldschmidt tolerance and octahedral factor (to and mu o) criteria. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 323,
+              "end": 471
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1848:r002",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "satisfies",
+          "object": "Goldschmidt tolerance and octahedral factor criteria",
+          "object_role": "descriptor",
+          "object_id": "P1848:criteria",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "These compounds possess a face-centered cubic crystal structure and satisfy the Goldschmidt tolerance and octahedral factor (to and mu o) criteria. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 323,
+              "end": 471
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1848:r003",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "has",
+          "object": "Negative formation enthalpy",
+          "object_role": "quantity",
+          "object_id": "P1848:hf",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Negative formation enthalpy (delta Hf) confirms their thermodynamic stability. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 471,
+              "end": 550
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1848:r004",
+          "subject": "Negative formation enthalpy",
+          "subject_role": "quantity",
+          "subject_id": "P1848:hf",
+          "predicate": "confirms",
+          "object": "Thermodynamic stability",
+          "object_role": "performance_function",
+          "object_id": "P1848:ts",
+          "quote": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+          "context_quotes": [
+            "Negative formation enthalpy (delta Hf) confirms their thermodynamic stability. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "For K2LiBiX6; DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 471,
+              "end": 550
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1848:r005",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "exhibits",
+          "object": "Mechanical stability",
+          "object_role": "performance_function",
+          "object_id": "P1848:ms",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "Elastic and mechanical investigations; DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 550,
+              "end": 764
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1848:r006",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "exhibits",
+          "object": "Brittleness",
+          "object_role": "descriptor",
+          "object_id": "P1848:br",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "Elastic and mechanical investigations; DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 550,
+              "end": 764
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1848:r007",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "exhibits",
+          "object": "Anisotropy",
+          "object_role": "descriptor",
+          "object_id": "P1848:an",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "Elastic and mechanical investigations; DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 550,
+              "end": 764
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Pugh's ratio, Poisson ratio, Cauchy pressure and anisotropic factor",
+          "subject_role": "descriptor",
+          "predicate": "indicates",
+          "object": "Mechanical stability",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "For K2LiBiX6 (X = Cl, Br, I); reported indicator set; individual indicator-to-property assignments unspecified.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r008",
+          "relation_id": "P1848:r008",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+          ],
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 550,
+              "end": 764
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1848:ind",
+          "object_id": "P1848:ms",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Pugh's ratio, Poisson ratio, Cauchy pressure and anisotropic factor",
+          "subject_role": "descriptor",
+          "predicate": "indicates",
+          "object": "Brittleness",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "For K2LiBiX6 (X = Cl, Br, I); reported indicator set; individual indicator-to-property assignments unspecified.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r009",
+          "relation_id": "P1848:r009",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+          ],
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 550,
+              "end": 764
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1848:ind",
+          "object_id": "P1848:br",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Pugh's ratio, Poisson ratio, Cauchy pressure and anisotropic factor",
+          "subject_role": "descriptor",
+          "predicate": "indicates",
+          "object": "Anisotropy",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "For K2LiBiX6 (X = Cl, Br, I); reported indicator set; individual indicator-to-property assignments unspecified.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r010",
+          "relation_id": "P1848:r010",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+          ],
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 550,
+              "end": 764
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1848:ind",
+          "object_id": "P1848:an",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r011",
+          "relation_id": "P1848:r011",
+          "subject": "K2LiBiCl6",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:clm",
+          "predicate": "has",
+          "object": "Indirect semiconductor bandgap 4.67 eV",
+          "object_role": "quantity",
+          "object_id": "P1848:clg",
+          "quote": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+          "context_quotes": [
+            "The electronic properties reveal indirect band gap semiconducting nature with band gaps of 4.67, 3.74 and 2.62eV for K2LiBiCl6, K2LiBiBr6 and K2LiBiI6, respectively. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 900,
+              "end": 1066
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r012",
+          "relation_id": "P1848:r012",
+          "subject": "K2LiBiBr6",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:brm",
+          "predicate": "has",
+          "object": "Indirect semiconductor bandgap 3.74 eV",
+          "object_role": "quantity",
+          "object_id": "P1848:brg",
+          "quote": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+          "context_quotes": [
+            "The electronic properties reveal indirect band gap semiconducting nature with band gaps of 4.67, 3.74 and 2.62eV for K2LiBiCl6, K2LiBiBr6 and K2LiBiI6, respectively. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 900,
+              "end": 1066
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r013",
+          "relation_id": "P1848:r013",
+          "subject": "K2LiBiI6",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:im",
+          "predicate": "has",
+          "object": "Indirect semiconductor bandgap 2.62 eV",
+          "object_role": "quantity",
+          "object_id": "P1848:ig",
+          "quote": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+          "context_quotes": [
+            "The electronic properties reveal indirect band gap semiconducting nature with band gaps of 4.67, 3.74 and 2.62eV for K2LiBiCl6, K2LiBiBr6 and K2LiBiI6, respectively. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 900,
+              "end": 1066
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Bandgap tuning",
+          "subject_role": "mechanism_process",
+          "predicate": "follows",
+          "object": "Halogen ionic radius variation",
+          "object_role": "condition",
+          "assertion": "association",
+          "modality": "computational",
+          "conditions": "For K2LiBiX6 (X = Cl, Br, I); DFT FP-LAPW using WIEN2k; no explicit radius-effect sign.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r014",
+          "relation_id": "P1848:r014",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Band gap tuning follows halogen ionic radius variation. "
+          ],
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 1066,
+              "end": 1122
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1848:tune",
+          "object_id": "P1848:rad",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r015",
+          "relation_id": "P1848:r015",
+          "subject": "Imaginary part of dielectric constant",
+          "subject_role": "quantity",
+          "subject_id": "P1848:eps",
+          "predicate": "shows",
+          "object": "Peaks in the ultraviolet region",
+          "object_role": "descriptor",
+          "object_id": "P1848:uv",
+          "quote": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+          "context_quotes": [
+            "Optical features, including the imaginary part of the dielectric constant and absorption coefficient, show peaks in the ultraviolet (UV) region, indicating potential in UV optoelectronics. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "For K2LiBiX6; DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 1122,
+              "end": 1311
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r016",
+          "relation_id": "P1848:r016",
+          "subject": "Absorption coefficient",
+          "subject_role": "quantity",
+          "subject_id": "P1848:abs",
+          "predicate": "shows",
+          "object": "Peaks in the ultraviolet region",
+          "object_role": "descriptor",
+          "object_id": "P1848:uv",
+          "quote": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+          "context_quotes": [
+            "Optical features, including the imaginary part of the dielectric constant and absorption coefficient, show peaks in the ultraviolet (UV) region, indicating potential in UV optoelectronics. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "For K2LiBiX6; DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 1122,
+              "end": 1311
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r017",
+          "relation_id": "P1848:r017",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "has potential for",
+          "object": "UV optoelectronics",
+          "object_role": "application",
+          "object_id": "P1848:uva",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "Optical features, including the imaginary part of the dielectric constant and absorption coefficient, show peaks in the ultraviolet (UV) region, indicating potential in UV optoelectronics. "
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Based on UV peaks in dielectric and absorption spectra.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 1122,
+              "end": 1311
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r018",
+          "relation_id": "P1848:r018",
+          "subject": "K2LiBiX6 (X = Cl, Br, I) double perovskites",
+          "subject_role": "material_entity",
+          "subject_id": "P1848:m",
+          "predicate": "has",
+          "object": "Favorable band edge alignments with redox potential",
+          "object_role": "state_structure",
+          "object_id": "P1848:align",
+          "quote": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. ",
+          "context_quotes": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "Favorable band edge alignments with redox potential suggest these materials are promising for photocatalytic water splitting."
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. "
+          ],
+          "conditions": "DFT FP-LAPW using WIEN2k.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 175
+            },
+            {
+              "start": 175,
+              "end": 323
+            },
+            {
+              "start": 1311,
+              "end": 1436
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 175,
+              "end": 323
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r019",
+          "relation_id": "P1848:r019",
+          "subject": "Favorable band edge alignments with redox potential",
+          "subject_role": "state_structure",
+          "subject_id": "P1848:align",
+          "predicate": "suggests suitability for",
+          "object": "Photocatalytic water splitting",
+          "object_role": "application",
+          "object_id": "P1848:water",
+          "quote": "Favorable band edge alignments with redox potential suggest these materials are promising for photocatalytic water splitting.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "K2LiBiX6 materials.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1311,
+              "end": 1436
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_455",
+            "action": "keep"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r008",
+        "action": "patch",
+        "reason": "Bind the indicator interpretation to the studied compounds.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 550,
+                "end": 764
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 175
+              },
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 550,
+                "end": 764
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "after": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Reported indicator set; individual indicator-to-property assignments unspecified.",
+            "after": "For K2LiBiX6 (X = Cl, Br, I); reported indicator set; individual indicator-to-property assignments unspecified."
+          },
+          "context_quotes": {
+            "before": [
+              "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+            ],
+            "after": [
+              "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+              "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r009",
+        "action": "patch",
+        "reason": "Bind the indicator interpretation to the studied compounds.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 550,
+                "end": 764
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 175
+              },
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 550,
+                "end": 764
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "after": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Reported indicator set; individual indicator-to-property assignments unspecified.",
+            "after": "For K2LiBiX6 (X = Cl, Br, I); reported indicator set; individual indicator-to-property assignments unspecified."
+          },
+          "context_quotes": {
+            "before": [
+              "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+            ],
+            "after": [
+              "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+              "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r010",
+        "action": "patch",
+        "reason": "Bind the indicator interpretation to the studied compounds.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 550,
+                "end": 764
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 175
+              },
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 550,
+                "end": 764
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "after": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Reported indicator set; individual indicator-to-property assignments unspecified.",
+            "after": "For K2LiBiX6 (X = Cl, Br, I); reported indicator set; individual indicator-to-property assignments unspecified."
+          },
+          "context_quotes": {
+            "before": [
+              "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+            ],
+            "after": [
+              "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+              "Elastic and mechanical investigations affirm their mechanical stability, brittleness and anisotropy, as indicated by Pugh's ratio (Rp=B/G), Poisson ratio (upsilon), Cauchy pressure (Cp) and anisotropic factor (A). "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r011",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r012",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r013",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r014",
+        "action": "patch",
+        "reason": "Bind bandgap tuning to the studied compound series.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 1066,
+                "end": 1122
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 175
+              },
+              {
+                "start": 175,
+                "end": 323
+              },
+              {
+                "start": 1066,
+                "end": 1122
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+            "after": "This study demonstrates the structural, mechanical, acoustic and thermal, electronic and optical properties of K2LiBiX6 (X=Cl, Br, I) bismuth-based halide double perovskites. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "DFT FP-LAPW using WIEN2k; no explicit radius-effect sign.",
+            "after": "For K2LiBiX6 (X = Cl, Br, I); DFT FP-LAPW using WIEN2k; no explicit radius-effect sign."
+          },
+          "context_quotes": {
+            "before": [
+              "Band gap tuning follows halogen ionic radius variation. "
+            ],
+            "after": [
+              "The density functional theory (DFT)-based Full-potential linearized augmented plane wave (FP-LAPW) scheme is used, with the WIEN2k simulation code. ",
+              "Band gap tuning follows halogen ionic radius variation. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r015",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r016",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r017",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r018",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1848",
+        "relation_id": "P1848:r019",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_455",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

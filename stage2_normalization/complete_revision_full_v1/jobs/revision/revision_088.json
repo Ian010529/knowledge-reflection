@@ -1,0 +1,945 @@
+[
+  {
+    "paper_id": "P0370",
+    "title": "Ionic Thermoelectric-Powered Resistive Sensors",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric supercapacitors (ITESCs) are noted for their high ionic Seebeck coefficient (alpha) to convert thermal energy into electrical current through charging. "
+      },
+      {
+        "id": 1,
+        "text": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. "
+      },
+      {
+        "id": 2,
+        "text": "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. "
+      },
+      {
+        "id": 3,
+        "text": "By leveraging these properties and residual environmental heat, ITESCs can offer a promising method for autonomously powered portable sensors."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0370:c",
+        "label": "ITESC charging and discharging current",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0370:r",
+        "label": "Direct operation of resistive sensors",
+        "role": "application"
+      },
+      {
+        "id": "P0370:t",
+        "label": "Periodic temperature gradient applied to connected ITESC",
+        "role": "condition"
+      },
+      {
+        "id": "P0370:h",
+        "label": "Powered humidity monitoring",
+        "role": "application"
+      },
+      {
+        "id": "P0370:i",
+        "label": "Ionic thermoelectric supercapacitor (ITESC)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0370:p",
+        "label": "Autonomously powered portable sensors",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0370:r001",
+        "subject": "ITESC charging and discharging current",
+        "subject_role": "mechanism_process",
+        "predicate": "directly_operates",
+        "object": "Direct operation of resistive sensors",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0370:c",
+        "object_id": "P0370:r"
+      },
+      {
+        "relation_id": "P0370:r002",
+        "subject": "Periodic temperature gradient applied to connected ITESC",
+        "subject_role": "condition",
+        "predicate": "powers",
+        "object": "Powered humidity monitoring",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0370:t",
+        "object_id": "P0370:h"
+      },
+      {
+        "relation_id": "P0370:r003",
+        "subject": "Ionic thermoelectric supercapacitor (ITESC)",
+        "subject_role": "material_entity",
+        "predicate": "could_power",
+        "object": "Autonomously powered portable sensors",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Using ITESC charging/discharging properties and residual environmental heat.",
+        "joint_factors": [
+          "Residual environmental heat"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. ",
+        "context_quotes": [
+          "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. ",
+          "By leveraging these properties and residual environmental heat, ITESCs can offer a promising method for autonomously powered portable sensors."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0370:i",
+        "object_id": "P0370:p"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0371",
+    "title": "Solar Heating Modulated by Evaporative Cooling Provides Intermittent Temperature Gradients for Ionic Thermoelectric Supercapacitors",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Solar heating is important for many applications but less attractive for concepts requiring intermittent heating, such as ionic thermoelectric supercapacitors (ITESCs). "
+      },
+      {
+        "id": 1,
+        "text": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. "
+      },
+      {
+        "id": 2,
+        "text": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. "
+      },
+      {
+        "id": 3,
+        "text": "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. "
+      },
+      {
+        "id": 4,
+        "text": "Precise control over charge and discharge durations can be achieved by adjusting the volume and interval of the added water. "
+      },
+      {
+        "id": 5,
+        "text": "The concept of temporarily adjusting temperatures by evaporative cooling may be extended to create intermittent heating also for other heat sources that are typically constant. "
+      },
+      {
+        "id": 6,
+        "text": "A vertical ionic thermoelectric supercapacitor (ITESC) is driven by intermittent temperature gradients as induced by constant solar heating and periodic evaporative cooling. "
+      },
+      {
+        "id": 7,
+        "text": "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+      },
+      {
+        "id": 8,
+        "text": "This concept enables continuous operation of ITESCs through repeated charge and discharge cycles. image"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0371:w",
+        "label": "Water infiltration and evaporation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0371:t",
+        "label": "Temperature oscillations at top electrode",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0371:m",
+        "label": "Carbon nanotube-cellulose membrane solar absorber",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0371:g",
+        "label": "Temporally varying temperature gradients across ITESC",
+        "role": "condition"
+      },
+      {
+        "id": "P0371:i",
+        "label": "Vertical ionic thermoelectric supercapacitor",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0371:c",
+        "label": "Repeated charge and discharge cycles",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0371:o",
+        "label": "Continuous ITESC operation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0371:v",
+        "label": "Top-electrode temperature variation of 10 K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0371:d",
+        "label": "Variation in ITESC temperature difference of 7.5 K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0371:a",
+        "label": "Adjustment of added-water volume and interval",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0371:l",
+        "label": "Precise control of charge and discharge durations",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0371:e",
+        "label": "Temporal temperature adjustment by evaporative cooling",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0371:h",
+        "label": "Intermittent heating from other typically constant heat sources",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0371:r001",
+        "subject": "Water infiltration and evaporation",
+        "subject_role": "mechanism_process",
+        "predicate": "converts_heating_into",
+        "object": "Temperature oscillations at top electrode",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the carbon nanotube-cellulose membrane under constant solar illumination.",
+        "joint_factors": [
+          "Constant solar heating"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+        "context_quotes": [
+          "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0371:w",
+        "object_id": "P0371:t"
+      },
+      {
+        "relation_id": "P0371:r002",
+        "subject": "Carbon nanotube-cellulose membrane solar absorber",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Temperature oscillations at top electrode",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through water infiltration and evaporation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [
+          "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0371:m",
+        "object_id": "P0371:t"
+      },
+      {
+        "relation_id": "P0371:r003",
+        "subject": "Temperature oscillations at top electrode",
+        "subject_role": "state_structure",
+        "predicate": "induces",
+        "object": "Temporally varying temperature gradients across ITESC",
+        "object_role": "condition",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Across the ITESC.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+        "context_quotes": [
+          "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0371:t",
+        "object_id": "P0371:g"
+      },
+      {
+        "relation_id": "P0371:r004",
+        "subject": "Temporally varying temperature gradients across ITESC",
+        "subject_role": "condition",
+        "predicate": "drives",
+        "object": "Vertical ionic thermoelectric supercapacitor",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gradients induced by constant solar heating and periodic evaporative cooling.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A vertical ionic thermoelectric supercapacitor (ITESC) is driven by intermittent temperature gradients as induced by constant solar heating and periodic evaporative cooling. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0371:g",
+        "object_id": "P0371:i"
+      },
+      {
+        "relation_id": "P0371:r005",
+        "subject": "Temporally varying temperature gradients across ITESC",
+        "subject_role": "condition",
+        "predicate": "enables",
+        "object": "Repeated charge and discharge cycles",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0371:g",
+        "object_id": "P0371:c"
+      },
+      {
+        "relation_id": "P0371:r006",
+        "subject": "Repeated charge and discharge cycles",
+        "subject_role": "mechanism_process",
+        "predicate": "enables",
+        "object": "Continuous ITESC operation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0371:c",
+        "object_id": "P0371:o"
+      },
+      {
+        "relation_id": "P0371:r007",
+        "subject": "Carbon nanotube-cellulose membrane solar absorber",
+        "subject_role": "material_entity",
+        "predicate": "can_generate",
+        "object": "Top-electrode temperature variation of 10 K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Solar heating modulated by water infiltration and evaporation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+        "context_quotes": [
+          "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0371:m",
+        "object_id": "P0371:v"
+      },
+      {
+        "relation_id": "P0371:r008",
+        "subject": "Top-electrode temperature variation of 10 K",
+        "subject_role": "quantity",
+        "predicate": "leads_to",
+        "object": "Variation in ITESC temperature difference of 7.5 K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0371:v",
+        "object_id": "P0371:d"
+      },
+      {
+        "relation_id": "P0371:r009",
+        "subject": "Adjustment of added-water volume and interval",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Precise control of charge and discharge durations",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Precise control over charge and discharge durations can be achieved by adjusting the volume and interval of the added water. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0371:a",
+        "object_id": "P0371:l"
+      },
+      {
+        "relation_id": "P0371:r010",
+        "subject": "Temporal temperature adjustment by evaporative cooling",
+        "subject_role": "design_strategy",
+        "predicate": "could_enable",
+        "object": "Intermittent heating from other typically constant heat sources",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The concept of temporarily adjusting temperatures by evaporative cooling may be extended to create intermittent heating also for other heat sources that are typically constant. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0371:e",
+        "object_id": "P0371:h"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0372",
+    "title": "Ionic thermoelectric effects in CSA and OPC hardened cement pastes",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The main purpose of this work is to demonstrate the potential of calcium sulfoaluminate (CSA) cement for thermoelectric energy storage applications. "
+      },
+      {
+        "id": 1,
+        "text": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. "
+      },
+      {
+        "id": 2,
+        "text": "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+      },
+      {
+        "id": 3,
+        "text": "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. "
+      },
+      {
+        "id": 4,
+        "text": "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+      },
+      {
+        "id": 5,
+        "text": "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. "
+      },
+      {
+        "id": 6,
+        "text": "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. "
+      },
+      {
+        "id": 7,
+        "text": "Moreover, water loss may play a very important role as depicted by the difference between the results observed in non-dried and dried samples."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0372:c",
+        "label": "Calcium sulfoaluminate (CSA) cement paste",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0372:u",
+        "label": "Thermoelectric energy storage",
+        "role": "application"
+      },
+      {
+        "id": "P0372:v",
+        "label": "Large thermal voltage typical of ionic thermoelectric effect",
+        "role": "quantity"
+      },
+      {
+        "id": "P0372:o",
+        "label": "Ordinary Portland cement (OPC) paste",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0372:d",
+        "label": "Oven drying at 70 degrees C versus non-dried samples",
+        "role": "condition"
+      },
+      {
+        "id": "P0372:t",
+        "label": "Thermal voltage",
+        "role": "quantity"
+      },
+      {
+        "id": "P0372:f",
+        "label": "Multi-ionic thermal diffusion and drift",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0372:b",
+        "label": "Hysteresis-like behavior of increment V versus time and increment V versus increment T curves",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0372:w",
+        "label": "Water loss",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0372:r",
+        "label": "Observed thermoelectric behavior",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0372:r001",
+        "subject": "Calcium sulfoaluminate (CSA) cement paste",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_for",
+        "object": "Thermoelectric energy storage",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Stated purpose of the work.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The main purpose of this work is to demonstrate the potential of calcium sulfoaluminate (CSA) cement for thermoelectric energy storage applications. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0372:c",
+        "object_id": "P0372:u"
+      },
+      {
+        "relation_id": "P0372:r002",
+        "subject": "Calcium sulfoaluminate (CSA) cement paste",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Large thermal voltage typical of ionic thermoelectric effect",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+        "context_quotes": [
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+          "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+        ],
+        "modality_evidence": [
+          "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+        ],
+        "subject_id": "P0372:c",
+        "object_id": "P0372:v"
+      },
+      {
+        "relation_id": "P0372:r003",
+        "subject": "Ordinary Portland cement (OPC) paste",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Large thermal voltage typical of ionic thermoelectric effect",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+        "context_quotes": [
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+          "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+        ],
+        "modality_evidence": [
+          "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+        ],
+        "subject_id": "P0372:o",
+        "object_id": "P0372:v"
+      },
+      {
+        "relation_id": "P0372:r004",
+        "subject": "Oven drying at 70 degrees C versus non-dried samples",
+        "subject_role": "condition",
+        "predicate": "is_associated_with_differences_in",
+        "object": "Thermal voltage",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "OPC and CSA cement paste samples; direction of difference unspecified.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+        "context_quotes": [
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+          "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. "
+        ],
+        "modality_evidence": [
+          "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+        ],
+        "subject_id": "P0372:d",
+        "object_id": "P0372:t"
+      },
+      {
+        "relation_id": "P0372:r005",
+        "subject": "Multi-ionic thermal diffusion and drift",
+        "subject_role": "mechanism_process",
+        "predicate": "is_attributed_as_origin_of",
+        "object": "Hysteresis-like behavior of increment V versus time and increment V versus increment T curves",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Complex multi-ionic thermal diffusion and drift framework.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0372:f",
+        "object_id": "P0372:b"
+      },
+      {
+        "relation_id": "P0372:r006",
+        "subject": "Water loss",
+        "subject_role": "mechanism_process",
+        "predicate": "may_influence",
+        "object": "Observed thermoelectric behavior",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Inferred by authors from differences between non-dried and dried samples.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. ",
+        "context_quotes": [
+          "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+          "Moreover, water loss may play a very important role as depicted by the difference between the results observed in non-dried and dried samples."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0372:w",
+        "object_id": "P0372:r"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0373",
+    "title": "Reversible bipolar thermopower of ionic thermoelectric polymer composite for cyclic energy generation",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The giant thermopower of ionic thermoelectric materials has attracted great attention for waste-heat recovery technologies. "
+      },
+      {
+        "id": 1,
+        "text": "However, generating cyclic power by ionic thermoelectric modules remains challenging, since the ions cannot travel across the electrode interface. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. "
+      },
+      {
+        "id": 3,
+        "text": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. "
+      },
+      {
+        "id": 4,
+        "text": "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+      },
+      {
+        "id": 5,
+        "text": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. "
+      },
+      {
+        "id": 6,
+        "text": "Generating continuous power by ionic thermoelectric material modules remains challenging. "
+      },
+      {
+        "id": 7,
+        "text": "Here, the authors find the ionic thermoelectric material exhibiting bipolar thermopower property by manipulating the interactions between ions and electrodes."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0373:m",
+        "label": "Ionic thermoelectric polymer composite",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0373:b",
+        "label": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0373:s",
+        "label": "Manipulation of ion-electrode interactions",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0373:e",
+        "label": "Switching external electrodes",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0373:d",
+        "label": "Alternating cation-dominated and anion-dominated thermodiffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0373:g",
+        "label": "Proposed ionic thermoelectric generator",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0373:p",
+        "label": "Cyclic power generation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0373:t",
+        "label": "Changing material-heat thermal contact",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0373:r",
+        "label": "Re-establishing temperature differences",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0373:f",
+        "label": "Improved ionic thermoelectric efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0373:n",
+        "label": "Developed micro-thermal sensors",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0373:h",
+        "label": "High sensitivity in light detection",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0373:q",
+        "label": "High responsivity in light detection",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0373:r001",
+        "subject": "Ionic thermoelectric polymer composite",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "By manipulating interactions between ions and electrodes.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. ",
+        "context_quotes": [
+          "Here, the authors find the ionic thermoelectric material exhibiting bipolar thermopower property by manipulating the interactions between ions and electrodes."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0373:m",
+        "object_id": "P0373:b"
+      },
+      {
+        "relation_id": "P0373:r002",
+        "subject": "Manipulation of ion-electrode interactions",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Reversible polarity change in the same composite.",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0373:s",
+        "object_id": "P0373:b"
+      },
+      {
+        "relation_id": "P0373:r003",
+        "subject": "Switching external electrodes",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Alternating cation-dominated and anion-dominated thermodiffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Proposed generator under a constant heat course.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0373:e",
+        "object_id": "P0373:d"
+      },
+      {
+        "relation_id": "P0373:r004",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_to_achieve",
+        "object": "Cyclic power generation",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Under a constant heat course, only by switching external electrodes to alternate dominant ion thermodiffusion.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0373:g",
+        "object_id": "P0373:p"
+      },
+      {
+        "relation_id": "P0373:r005",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "requires",
+        "object": "Changing material-heat thermal contact",
+        "object_role": "mechanism_process",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Proposed electrode-switching operation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [
+          "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0373:g",
+        "object_id": "P0373:t"
+      },
+      {
+        "relation_id": "P0373:r006",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "requires",
+        "object": "Re-establishing temperature differences",
+        "object_role": "mechanism_process",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Proposed electrode-switching operation.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [
+          "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0373:g",
+        "object_id": "P0373:r"
+      },
+      {
+        "relation_id": "P0373:r007",
+        "subject": "Proposed ionic thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "may_favor",
+        "object": "Improved ionic thermoelectric efficiency",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "By eliminating thermal-contact changes and re-establishment of temperature differences.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+        "context_quotes": [
+          "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0373:g",
+        "object_id": "P0373:f"
+      },
+      {
+        "relation_id": "P0373:r008",
+        "subject": "Developed micro-thermal sensors",
+        "subject_role": "material_entity",
+        "predicate": "demonstrates",
+        "object": "High sensitivity in light detection",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0373:n",
+        "object_id": "P0373:h"
+      },
+      {
+        "relation_id": "P0373:r009",
+        "subject": "Developed micro-thermal sensors",
+        "subject_role": "material_entity",
+        "predicate": "demonstrates",
+        "object": "High responsivity in light detection",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0373:n",
+        "object_id": "P0373:q"
+      }
+    ]
+  }
+]

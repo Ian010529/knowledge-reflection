@@ -1,0 +1,3435 @@
+[
+  {
+    "paper": {
+      "paper_id": "P0804",
+      "domain": "iTE",
+      "input_hash": "4b3303c5791292d63742bc2d317cc23f4e09c63dfe4896d00414211782cdf8e0",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "Seebeck coefficient",
+          "subject_role": "quantity",
+          "predicate": "is_approximately_given_by",
+          "object": "(1/q_e)(∂S/∂N) at constant V and T",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Kelvin formula; S is entropy, N particle number; volume V and temperature T held constant",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P0804:r001",
+          "quote": "We find an approximate but concise expression, which we term as the Kelvin formula for the Seebeck coefficient. ",
+          "context_quotes": [
+            "According to this formula, the Seebeck coefficient is given as the particle number N derivative of the entropy S, at constant volume V, and temperature T, S-Kelvin=1/q(e){partial derivative S/partial derivative N}(V,T). "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 384,
+              "end": 496
+            },
+            {
+              "start": 496,
+              "end": 716
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0804:n2",
+          "object_id": "P0804:n3",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0804:r002",
+          "subject": "Kelvin formula for the Seebeck coefficient",
+          "subject_role": "design_strategy",
+          "subject_id": "P0804:n1",
+          "predicate": "is_competitive_with_other_approximations",
+          "object": "Competitive performance versus other approximations",
+          "object_role": "performance_function",
+          "object_id": "P0804:n4",
+          "quote": "We find an approximate but concise expression, which we term as the Kelvin formula for the Seebeck coefficient. ",
+          "context_quotes": [
+            "This formula is shown to be competitive compared to other approximations in various contexts including strongly correlated systems. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Various contexts, including strongly correlated systems",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 384,
+              "end": 496
+            },
+            {
+              "start": 716,
+              "end": 848
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Kelvin formula for the Seebeck coefficient",
+          "subject_role": "design_strategy",
+          "predicate": "provides",
+          "object": "Exact thermopower expression for non-Abelian fractional quantum-Hall states",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Connection to a recent thermopower calculation for non-Abelian fractional quantum-Hall states",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0804:r003",
+          "quote": "We finally connect to a recent thermopower calculation for non-Abelian fractional quantum- Hall states, where we point out that the Kelvin formula is exact.",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 848,
+              "end": 1004
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0804:n1",
+          "object_id": "P0804:n5",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0804",
+        "relation_id": "P0804:r001",
+        "action": "patch",
+        "reason": "The formula is explicit, but the abstract does not specify a theoretical versus computational method.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "modality": {
+            "before": "theoretical",
+            "after": "unspecified"
+          },
+          "modality_spans": {
+            "before": [
+              {
+                "start": 384,
+                "end": 496
+              },
+              {
+                "start": 496,
+                "end": 716
+              }
+            ],
+            "after": []
+          },
+          "modality_evidence": {
+            "before": [
+              "We find an approximate but concise expression, which we term as the Kelvin formula for the Seebeck coefficient. ",
+              "According to this formula, the Seebeck coefficient is given as the particle number N derivative of the entropy S, at constant volume V, and temperature T, S-Kelvin=1/q(e){partial derivative S/partial derivative N}(V,T). "
+            ],
+            "after": []
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0804",
+        "relation_id": "P0804:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0804",
+        "relation_id": "P0804:r003",
+        "action": "patch",
+        "reason": "A calculation is mentioned without distinguishing theoretical from computational modality.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "modality": {
+            "before": "theoretical",
+            "after": "unspecified"
+          },
+          "modality_spans": {
+            "before": [
+              {
+                "start": 848,
+                "end": 1004
+              }
+            ],
+            "after": []
+          },
+          "modality_evidence": {
+            "before": [
+              "We finally connect to a recent thermopower calculation for non-Abelian fractional quantum- Hall states, where we point out that the Kelvin formula is exact."
+            ],
+            "after": []
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0805",
+      "domain": "iTE",
+      "input_hash": "a088170b2d4bc402880319533b041607bbc545091ebe0434850bec845cfde6f9",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "Superionic conductor Cu2Se",
+          "subject_role": "material_entity",
+          "predicate": "undergoes",
+          "object": "Phase transition at 400 K",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "T = 400 K",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "r001",
+          "relation_id": "P0805:r001",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [
+            "It has a phase transition at T = 400K where the cations disorder but the anions do not. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            },
+            {
+              "start": 98,
+              "end": 186
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:n1",
+          "object_id": "P0805:n2",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Phase transition at 400 K",
+          "subject_role": "mechanism_process",
+          "predicate": "involves",
+          "object": "Cation disorder",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Cu2Se at T = 400 K",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "r002",
+          "relation_id": "P0805:r002",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [
+            "It has a phase transition at T = 400K where the cations disorder but the anions do not. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            },
+            {
+              "start": 98,
+              "end": 186
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:n2",
+          "object_id": "P0805:n3",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Phase transition at 400 K",
+          "subject_role": "mechanism_process",
+          "predicate": "involves",
+          "object": "Anion disorder",
+          "object_role": "state_structure",
+          "assertion": "negated",
+          "modality": "unspecified",
+          "conditions": "Cu2Se at T = 400 K; anions do not disorder",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "r003",
+          "relation_id": "P0805:r003",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [
+            "It has a phase transition at T = 400K where the cations disorder but the anions do not. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            },
+            {
+              "start": 98,
+              "end": 186
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:n2",
+          "object_id": "P0805:n4",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0805:r004",
+          "subject": "Cation disorder",
+          "subject_role": "state_structure",
+          "subject_id": "P0805:n3",
+          "predicate": "gives_rise_to",
+          "object": "Temperature-dependent width of conduction-band electronic states",
+          "object_role": "quantity",
+          "object_id": "P0805:n5",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [
+            "It has a phase transition at T = 400K where the cations disorder but the anions do not. ",
+            "This disorder gives a temperature-dependent width to the electronic states in the conduction band. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. "
+          ],
+          "conditions": "Presented theory of Cu2Se",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            },
+            {
+              "start": 98,
+              "end": 186
+            },
+            {
+              "start": 186,
+              "end": 285
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0805:r005",
+          "subject": "Temperature-dependent width of conduction-band electronic states",
+          "subject_role": "quantity",
+          "subject_id": "P0805:n5",
+          "predicate": "provides",
+          "object": "Anomalous Seebeck contribution",
+          "object_role": "quantity",
+          "object_id": "P0805:n6",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [
+            "This disorder gives a temperature-dependent width to the electronic states in the conduction band. ",
+            "This width provides the anomalous Seebeck contribution. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. "
+          ],
+          "conditions": "Presented theory of Cu2Se",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            },
+            {
+              "start": 186,
+              "end": 285
+            },
+            {
+              "start": 285,
+              "end": 341
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Superionic conductor Cu2Se",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Anomalous Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0805:complete_v1_cr001",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:n1",
+          "object_id": "P0805:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Presented theory of Cu2Se",
+          "subject_role": "design_strategy",
+          "predicate": "addresses",
+          "object": "Anomalous Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Superionic conductor Cu2Se",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0805:complete_v1_cr002",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:complete_v1_cr002_subject",
+          "object_id": "P0805:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:r001",
+        "action": "patch",
+        "reason": "The transition is presented as an existing material property motivating the theory.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "claim_scope": {
+            "before": "own_work",
+            "after": "background"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:r002",
+        "action": "patch",
+        "reason": "This is an existing transition property; segment 0 identifies Cu2Se.",
+        "changes": {
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "It has a phase transition at T = 400K where the cations disorder but the anions do not. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "It has a phase transition at T = 400K where the cations disorder but the anions do not. ",
+            "after": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 98,
+                "end": 186
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 98
+              },
+              {
+                "start": 98,
+                "end": 186
+              }
+            ]
+          },
+          "claim_scope": {
+            "before": "own_work",
+            "after": "background"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:r003",
+        "action": "patch",
+        "reason": "This is an existing transition property; segment 0 identifies Cu2Se.",
+        "changes": {
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "It has a phase transition at T = 400K where the cations disorder but the anions do not. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "It has a phase transition at T = 400K where the cations disorder but the anions do not. ",
+            "after": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 98,
+                "end": 186
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 98
+              },
+              {
+                "start": 98,
+                "end": 186
+              }
+            ]
+          },
+          "claim_scope": {
+            "before": "own_work",
+            "after": "background"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Superionic conductor Cu2Se",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Anomalous Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0805:complete_v1_cr001",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:n1",
+          "object_id": "P0805:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0805",
+        "relation_id": "P0805:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Presented theory of Cu2Se",
+          "subject_role": "design_strategy",
+          "predicate": "addresses",
+          "object": "Anomalous Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Superionic conductor Cu2Se",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0805:complete_v1_cr002",
+          "quote": "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "We present a theory of the anomalous Seebeck coefficient found in the superionic conductor Cu2Se. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 98
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0805:complete_v1_cr002_subject",
+          "object_id": "P0805:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0806",
+      "domain": "iTE",
+      "input_hash": "fc734a5bdd05bbcf34d91c6b0b761302e9a58856d3dffacd08de947b81a7f57d",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0806:r001",
+          "subject": "Difference in total electron energy between two contacting metals",
+          "subject_role": "quantity",
+          "subject_id": "P0806:n1",
+          "predicate": "determines_derived_expression_for",
+          "object": "Peltier coefficient Π = ε0 T ln(1 + T/Θv)",
+          "object_role": "quantity",
+          "object_id": "P0806:n2",
+          "quote": "Thermodynamic consideration of thermoelectricity in metals was applied to the Peltier effect, like it was done recently for the Seebeck effect. ",
+          "context_quotes": [
+            "The Peltier coefficient was derived from the difference in the total energy of electrons in two metals in contact: Pi=epsilon(0)Tln(1+T/Theta(v)), where epsilon(0) is the 'universal' sensitivity of thermocouples and theta(V) is the characteristic temperature of a particular thermocouple. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "Thermodynamic consideration of thermoelectricity in metals was applied to the Peltier effect, like it was done recently for the Seebeck effect. ",
+            "The Peltier coefficient was derived from the difference in the total energy of electrons in two metals in contact: Pi=epsilon(0)Tln(1+T/Theta(v)), where epsilon(0) is the 'universal' sensitivity of thermocouples and theta(V) is the characteristic temperature of a particular thermocouple. "
+          ],
+          "conditions": "Thermodynamic treatment of contacting metals; ε0 is universal thermocouple sensitivity and Θv the characteristic temperature of the particular thermocouple",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 144
+            },
+            {
+              "start": 144,
+              "end": 433
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 144
+            },
+            {
+              "start": 144,
+              "end": 433
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0806:r002",
+          "subject": "Peltier and Seebeck coefficients from the new thermodynamic model",
+          "subject_role": "quantity",
+          "subject_id": "P0806:n3",
+          "predicate": "satisfy",
+          "object": "Exact satisfaction of the Thomson relation",
+          "object_role": "state_structure",
+          "object_id": "P0806:n4",
+          "quote": "The Peltier and Seebeck coefficients derived from the new thermodynamic model were shown not to hold the Thomson relation exactly, but only in the low-temperature limit.",
+          "context_quotes": [],
+          "assertion": "negated",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The Peltier and Seebeck coefficients derived from the new thermodynamic model were shown not to hold the Thomson relation exactly, but only in the low-temperature limit."
+          ],
+          "conditions": "New thermodynamic model; not exact generally, with the low-temperature limit excepted",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 433,
+              "end": 602
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 433,
+              "end": 602
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0806:r003",
+          "subject": "Peltier and Seebeck coefficients from the new thermodynamic model",
+          "subject_role": "quantity",
+          "subject_id": "P0806:n3",
+          "predicate": "satisfy",
+          "object": "Exact satisfaction of the Thomson relation",
+          "object_role": "state_structure",
+          "object_id": "P0806:n4",
+          "quote": "The Peltier and Seebeck coefficients derived from the new thermodynamic model were shown not to hold the Thomson relation exactly, but only in the low-temperature limit.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The Peltier and Seebeck coefficients derived from the new thermodynamic model were shown not to hold the Thomson relation exactly, but only in the low-temperature limit."
+          ],
+          "conditions": "New thermodynamic model; only in the low-temperature limit",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 433,
+              "end": 602
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 433,
+              "end": 602
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Thermodynamic consideration of thermoelectricity in metals",
+          "subject_role": "design_strategy",
+          "predicate": "is_applied_to",
+          "object": "Peltier effect",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Metals",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0806:complete_v1_cr001",
+          "quote": "Thermodynamic consideration of thermoelectricity in metals was applied to the Peltier effect, like it was done recently for the Seebeck effect. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Thermodynamic consideration of thermoelectricity in metals was applied to the Peltier effect, like it was done recently for the Seebeck effect. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 144
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 144
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0806:complete_v1_cr001_subject",
+          "object_id": "P0806:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0806",
+        "relation_id": "P0806:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0806",
+        "relation_id": "P0806:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0806",
+        "relation_id": "P0806:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0806",
+        "relation_id": "P0806:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Thermodynamic consideration of thermoelectricity in metals",
+          "subject_role": "design_strategy",
+          "predicate": "is_applied_to",
+          "object": "Peltier effect",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Metals",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0806:complete_v1_cr001",
+          "quote": "Thermodynamic consideration of thermoelectricity in metals was applied to the Peltier effect, like it was done recently for the Seebeck effect. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Thermodynamic consideration of thermoelectricity in metals was applied to the Peltier effect, like it was done recently for the Seebeck effect. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 144
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 144
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0806:complete_v1_cr001_subject",
+          "object_id": "P0806:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0808",
+      "domain": "iTE",
+      "input_hash": "372abf0e3e074ff2c7e3ba11f8ce70eb8049293b1de449dabe1f1e1bb05f5090",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0808:r001",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "forms",
+          "object": "Stable monoclinic perovskite structure",
+          "object_role": "state_structure",
+          "object_id": "P0808:n2",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "SrMoN3 forms a stable monoclinic perovskite structure with a Goldschmidt tolerance factor of approximately 1.0 and no imaginary phonon modes, confirming both dynamic and structural stability. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. "
+          ],
+          "conditions": "First-principles calculations",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 190,
+              "end": 382
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0808:r002",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Goldschmidt tolerance factor approximately 1.0",
+          "object_role": "quantity",
+          "object_id": "P0808:n3",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "SrMoN3 forms a stable monoclinic perovskite structure with a Goldschmidt tolerance factor of approximately 1.0 and no imaginary phonon modes, confirming both dynamic and structural stability. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. "
+          ],
+          "conditions": "Monoclinic perovskite",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 190,
+              "end": 382
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0808:r003",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Absence of imaginary phonon modes",
+          "object_role": "state_structure",
+          "object_id": "P0808:n4",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "SrMoN3 forms a stable monoclinic perovskite structure with a Goldschmidt tolerance factor of approximately 1.0 and no imaginary phonon modes, confirming both dynamic and structural stability. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. "
+          ],
+          "conditions": "First-principles calculations",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 190,
+              "end": 382
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Goldschmidt tolerance factor approximately 1.0",
+          "subject_role": "quantity",
+          "predicate": "jointly_supports",
+          "object": "Dynamic and structural stability",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "SrMoN3 monoclinic perovskite",
+          "joint_factors": [
+            "Absence of imaginary phonon modes"
+          ],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P0808:r004",
+          "quote": "SrMoN3 forms a stable monoclinic perovskite structure with a Goldschmidt tolerance factor of approximately 1.0 and no imaginary phonon modes, confirming both dynamic and structural stability. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 190,
+              "end": 382
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0808:n3",
+          "object_id": "P0808:n5",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          },
+          "joint_factor_raw_values": [
+            "n4"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "n4",
+              "label": "Absence of imaginary phonon modes"
+            }
+          ]
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0808:r005",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Mixed ionic-covalent bonding",
+          "object_role": "interaction",
+          "object_id": "P0808:n6",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Charge density and electron localization function analyses indicate mixed ionic-covalent bonding, with ionic Sr-N interactions and strong covalent Mo-N bonds. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Charge density and electron localization function analyses indicate mixed ionic-covalent bonding, with ionic Sr-N interactions and strong covalent Mo-N bonds. "
+          ],
+          "conditions": "Charge-density and electron-localization-function analyses",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 382,
+              "end": 541
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 382,
+              "end": 541
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0808:r006",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Ionic Sr–N interactions",
+          "object_role": "interaction",
+          "object_id": "P0808:n7",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Charge density and electron localization function analyses indicate mixed ionic-covalent bonding, with ionic Sr-N interactions and strong covalent Mo-N bonds. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Charge density and electron localization function analyses indicate mixed ionic-covalent bonding, with ionic Sr-N interactions and strong covalent Mo-N bonds. "
+          ],
+          "conditions": "Charge-density and electron-localization-function analyses",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 382,
+              "end": 541
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 382,
+              "end": 541
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0808:r007",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Strong covalent Mo–N bonds",
+          "object_role": "interaction",
+          "object_id": "P0808:n8",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Charge density and electron localization function analyses indicate mixed ionic-covalent bonding, with ionic Sr-N interactions and strong covalent Mo-N bonds. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Charge density and electron localization function analyses indicate mixed ionic-covalent bonding, with ionic Sr-N interactions and strong covalent Mo-N bonds. "
+          ],
+          "conditions": "Charge-density and electron-localization-function analyses",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 382,
+              "end": 541
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 382,
+              "end": 541
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "predicate": "may_exhibit",
+          "object": "Possible antiferromagnetic ordering",
+          "object_role": "state_structure",
+          "assertion": "hypothesis",
+          "modality": "computational",
+          "conditions": "Spin-density calculations",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r008",
+          "relation_id": "P0808:r008",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Additionally, spin-density calculations suggest possible antiferromagnetic ordering. "
+          ],
+          "modality_evidence": [
+            "Additionally, spin-density calculations suggest possible antiferromagnetic ordering. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 541,
+              "end": 626
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 541,
+              "end": 626
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0808:n1",
+          "object_id": "P0808:n9",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P0808:r009",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Narrow indirect bandgap",
+          "object_role": "quantity",
+          "object_id": "P0808:n10",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "conditions": "Electronic-structure studies",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P0808:r010",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Highly hybridized N 2p–Mo 4d valence states",
+          "object_role": "state_structure",
+          "object_id": "P0808:n11",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "conditions": "Electronic-structure studies",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Narrow indirect bandgap",
+          "subject_role": "quantity",
+          "predicate": "jointly_implies",
+          "object": "Anisotropic electron-hole transport",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "SrMoN3; electronic-structure interpretation",
+          "joint_factors": [
+            "Highly hybridized N 2p–Mo 4d valence states"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r011",
+          "relation_id": "P0808:r011",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0808:n10",
+          "object_id": "P0808:n12",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          },
+          "joint_factor_raw_values": [
+            "n11"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "n11",
+              "label": "Highly hybridized N 2p–Mo 4d valence states"
+            }
+          ]
+        },
+        {
+          "subject": "Narrow indirect bandgap",
+          "subject_role": "quantity",
+          "predicate": "jointly_implies",
+          "object": "Enhanced n-type conductivity",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "SrMoN3 when doped; electronic-structure interpretation",
+          "joint_factors": [
+            "Highly hybridized N 2p–Mo 4d valence states"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r012",
+          "relation_id": "P0808:r012",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Electronic structure studies reveal a narrow indirect bandgap with highly hybridized N 2p-Mo 4d valence states, implying anisotropic electron-hole transport and enhanced n-type conductivity when doped. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 626,
+              "end": 828
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0808:n10",
+          "object_id": "P0808:n13",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "patch"
+          },
+          "joint_factor_raw_values": [
+            "n11"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "n11",
+              "label": "Highly hybridized N 2p–Mo 4d valence states"
+            }
+          ]
+        },
+        {
+          "id": "r013",
+          "relation_id": "P0808:r013",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_predicted_to_have",
+          "object": "High carrier mobility",
+          "object_role": "quantity",
+          "object_id": "P0808:n14",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Thermoelectric calculations predict high carrier mobility, bipolar transport and highly efficient electron-mediated heat conduction. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Thermoelectric calculations predict high carrier mobility, bipolar transport and highly efficient electron-mediated heat conduction. "
+          ],
+          "conditions": "Thermoelectric calculations",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 828,
+              "end": 961
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 828,
+              "end": 961
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r014",
+          "relation_id": "P0808:r014",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_predicted_to_exhibit",
+          "object": "Bipolar transport",
+          "object_role": "mechanism_process",
+          "object_id": "P0808:n15",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Thermoelectric calculations predict high carrier mobility, bipolar transport and highly efficient electron-mediated heat conduction. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Thermoelectric calculations predict high carrier mobility, bipolar transport and highly efficient electron-mediated heat conduction. "
+          ],
+          "conditions": "Thermoelectric calculations",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 828,
+              "end": 961
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 828,
+              "end": 961
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r015",
+          "relation_id": "P0808:r015",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_predicted_to_exhibit",
+          "object": "Highly efficient electron-mediated heat conduction",
+          "object_role": "performance_function",
+          "object_id": "P0808:n16",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Thermoelectric calculations predict high carrier mobility, bipolar transport and highly efficient electron-mediated heat conduction. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Thermoelectric calculations predict high carrier mobility, bipolar transport and highly efficient electron-mediated heat conduction. "
+          ],
+          "conditions": "Thermoelectric calculations",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 828,
+              "end": 961
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 828,
+              "end": 961
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r016",
+          "relation_id": "P0808:r016",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Strong ultraviolet absorption",
+          "object_role": "performance_function",
+          "object_id": "P0808:n17",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Optical analyses show strong ultraviolet absorption, a high refractive index and tunable plasmonic behavior upon doping. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Optical analyses show strong ultraviolet absorption, a high refractive index and tunable plasmonic behavior upon doping. "
+          ],
+          "conditions": "Optical analyses within the first-principles study",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 961,
+              "end": 1082
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 961,
+              "end": 1082
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r017",
+          "relation_id": "P0808:r017",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "High refractive index",
+          "object_role": "quantity",
+          "object_id": "P0808:n18",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Optical analyses show strong ultraviolet absorption, a high refractive index and tunable plasmonic behavior upon doping. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Optical analyses show strong ultraviolet absorption, a high refractive index and tunable plasmonic behavior upon doping. "
+          ],
+          "conditions": "Optical analyses within the first-principles study",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 961,
+              "end": 1082
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 961,
+              "end": 1082
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r018",
+          "relation_id": "P0808:r018",
+          "subject": "Doping",
+          "subject_role": "design_strategy",
+          "subject_id": "P0808:n19",
+          "predicate": "enables",
+          "object": "Tunable plasmonic behavior",
+          "object_role": "performance_function",
+          "object_id": "P0808:n20",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Optical analyses show strong ultraviolet absorption, a high refractive index and tunable plasmonic behavior upon doping. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Optical analyses show strong ultraviolet absorption, a high refractive index and tunable plasmonic behavior upon doping. "
+          ],
+          "conditions": "SrMoN3; optical analyses",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 961,
+              "end": 1082
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 961,
+              "end": 1082
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r019",
+          "relation_id": "P0808:r019",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "has",
+          "object": "Elastic constants satisfying Born stability criteria",
+          "object_role": "quantity",
+          "object_id": "P0808:n21",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "conditions": "First-principles study",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r020",
+          "relation_id": "P0808:r020",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Moderate stiffness",
+          "object_role": "quantity",
+          "object_id": "P0808:n22",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "conditions": "Elastic-constant analysis",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r021",
+          "relation_id": "P0808:r021",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Significant mechanical anisotropy",
+          "object_role": "descriptor",
+          "object_id": "P0808:n23",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "conditions": "Elastic-constant analysis",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r022",
+          "relation_id": "P0808:r022",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Auxetic behavior in certain directions",
+          "object_role": "performance_function",
+          "object_id": "P0808:n24",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. "
+          ],
+          "conditions": "Certain directions; elastic-constant analysis",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r023",
+          "relation_id": "P0808:r023",
+          "subject": "Auxetic behavior in certain directions",
+          "subject_role": "performance_function",
+          "subject_id": "P0808:n24",
+          "predicate": "facilitates",
+          "object": "Direction-dependent mechanical responses",
+          "object_role": "performance_function",
+          "object_id": "P0808:n25",
+          "quote": "Elastic constants meet the Born stability criteria, displaying moderate stiffness, significant anisotropy and auxetic behavior in certain directions, which facilitates direction-dependent mechanical responses. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "SrMoN3; auxetic behavior occurs in certain directions",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1082,
+              "end": 1292
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r024",
+          "relation_id": "P0808:r024",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Stability at elevated temperatures",
+          "object_role": "performance_function",
+          "object_id": "P0808:n26",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [
+            "Vibrational and thermodynamic analyses verify stability at elevated temperatures. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+            "Vibrational and thermodynamic analyses verify stability at elevated temperatures. "
+          ],
+          "conditions": "Vibrational and thermodynamic analyses; elevated temperatures unspecified",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1292,
+              "end": 1374
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 1292,
+              "end": 1374
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r025",
+          "relation_id": "P0808:r025",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_proposed_as_suitable_for",
+          "object": "Photovoltaic devices",
+          "object_role": "application",
+          "object_id": "P0808:n27",
+          "quote": "These results position SrMoN3 as a versatile material: a stable nitride perovskite with excellent optical absorption, notable thermoelectric performance and highly anisotropic elasticity, making it suitable for next-generation photovoltaic, thermoelectric power generation, plasmonic devices and mechanically adaptive systems.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Suitability attributed collectively to stability, optical absorption, thermoelectric performance and anisotropic elasticity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1374,
+              "end": 1700
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r026",
+          "relation_id": "P0808:r026",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_proposed_as_suitable_for",
+          "object": "Thermoelectric power generation",
+          "object_role": "application",
+          "object_id": "P0808:n28",
+          "quote": "These results position SrMoN3 as a versatile material: a stable nitride perovskite with excellent optical absorption, notable thermoelectric performance and highly anisotropic elasticity, making it suitable for next-generation photovoltaic, thermoelectric power generation, plasmonic devices and mechanically adaptive systems.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Suitability attributed collectively to stability, optical absorption, thermoelectric performance and anisotropic elasticity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1374,
+              "end": 1700
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r027",
+          "relation_id": "P0808:r027",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_proposed_as_suitable_for",
+          "object": "Plasmonic devices",
+          "object_role": "application",
+          "object_id": "P0808:n29",
+          "quote": "These results position SrMoN3 as a versatile material: a stable nitride perovskite with excellent optical absorption, notable thermoelectric performance and highly anisotropic elasticity, making it suitable for next-generation photovoltaic, thermoelectric power generation, plasmonic devices and mechanically adaptive systems.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Suitability attributed collectively to stability, optical absorption, thermoelectric performance and anisotropic elasticity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1374,
+              "end": 1700
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r028",
+          "relation_id": "P0808:r028",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "is_proposed_as_suitable_for",
+          "object": "Mechanically adaptive systems",
+          "object_role": "application",
+          "object_id": "P0808:n30",
+          "quote": "These results position SrMoN3 as a versatile material: a stable nitride perovskite with excellent optical absorption, notable thermoelectric performance and highly anisotropic elasticity, making it suitable for next-generation photovoltaic, thermoelectric power generation, plasmonic devices and mechanically adaptive systems.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Suitability attributed collectively to stability, optical absorption, thermoelectric performance and anisotropic elasticity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1374,
+              "end": 1700
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r029",
+          "relation_id": "P0808:r029",
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "subject_id": "P0808:n1",
+          "predicate": "exhibits",
+          "object": "Semiconducting behavior",
+          "object_role": "descriptor",
+          "object_id": "P0808:n31",
+          "quote": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. "
+          ],
+          "conditions": "First-principles calculations",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Notable thermoelectric performance",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0808:complete_v1_cr001",
+          "quote": "These results position SrMoN3 as a versatile material: a stable nitride perovskite with excellent optical absorption, notable thermoelectric performance and highly anisotropic elasticity, making it suitable for next-generation photovoltaic, thermoelectric power generation, plasmonic devices and mechanically adaptive systems.",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 1374,
+              "end": 1700
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0808:n1",
+          "object_id": "P0808:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r004",
+        "action": "patch",
+        "reason": "Bind the stability interpretation to SrMoN3.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "",
+            "after": "SrMoN3 monoclinic perovskite"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r008",
+        "action": "patch",
+        "reason": "Include the antecedent identifying SrMoN3.",
+        "changes": {
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Additionally, spin-density calculations suggest possible antiferromagnetic ordering. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Additionally, spin-density calculations suggest possible antiferromagnetic ordering. ",
+            "after": "The nitride perovskite SrMoN3 shows a combination of structural stability, semiconducting behavior and mechanical anisotropy, as demonstrated by comprehensive first-principles calculations. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 541,
+                "end": 626
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 190
+              },
+              {
+                "start": 541,
+                "end": 626
+              }
+            ]
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r011",
+        "action": "patch",
+        "reason": "Bind the electronic-structure interpretation to SrMoN3.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "Electronic-structure interpretation",
+            "after": "SrMoN3; electronic-structure interpretation"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r012",
+        "action": "patch",
+        "reason": "Bind the doping-dependent interpretation to SrMoN3.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "When doped; electronic-structure interpretation",
+            "after": "SrMoN3 when doped; electronic-structure interpretation"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r013",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r014",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r015",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r016",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r017",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r018",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r019",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r020",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r021",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r022",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r023",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r024",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r025",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r026",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r027",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r028",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:r029",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_194",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0808",
+        "relation_id": "P0808:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "SrMoN3 nitride perovskite",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Notable thermoelectric performance",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0808:complete_v1_cr001",
+          "quote": "These results position SrMoN3 as a versatile material: a stable nitride perovskite with excellent optical absorption, notable thermoelectric performance and highly anisotropic elasticity, making it suitable for next-generation photovoltaic, thermoelectric power generation, plasmonic devices and mechanically adaptive systems.",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 1374,
+              "end": 1700
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0808:n1",
+          "object_id": "P0808:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_194",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

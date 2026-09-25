@@ -1,0 +1,411 @@
+{
+  "papers": [
+    {
+      "paper_id": "P0655",
+      "decisions": [
+        {
+          "relation_id": "P0655:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0655:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0655:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              6,
+              7
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Within the PEDOT-PSS polymer film",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the reaction to the identified polymer film."
+        },
+        {
+          "relation_id": "P0655:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Mixed ion-electron conductors",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Low thermal conductivity",
+          "object_role": "quantity",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Low thermal conductivity of mixed ion-electron conductors",
+          "subject_role": "quantity",
+          "predicate": "motivates exploration as",
+          "object": "Potential thermoelectrics",
+          "object_role": "application",
+          "e": [
+            1
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Combined electronic and ionic charge carriers",
+          "subject_role": "material_entity",
+          "predicate": "lead to",
+          "object": "Complex thermovoltage evolution with time, temperature and/or humidity",
+          "object_role": "quantity",
+          "e": [
+            1,
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "In inorganic or organic mixed ion-electron conductors",
+          "joint_factors": [
+            "Electronic charge carriers",
+            "Ionic charge carriers"
+          ],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "PEDOT-PSS",
+          "subject_role": "material_entity",
+          "predicate": "is",
+          "object": "Mixed ion-electron conductor",
+          "object_role": "descriptor",
+          "e": [
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Mobile protons",
+          "subject_role": "material_entity",
+          "predicate": "cause",
+          "object": "Ionic Seebeck effect in PEDOT-PSS",
+          "object_role": "mechanism_process",
+          "e": [
+            4
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "At high humidity; reported in a previous study",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0656",
+      "decisions": [
+        {
+          "relation_id": "P0656:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0656:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0656:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0656:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "PEDOT:PSS",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "Small Seebeck coefficient",
+          "object_role": "quantity",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "PEDOT:PSS",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "Small thermoelectric power factor relative to inorganic materials",
+          "object_role": "quantity",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Small Seebeck coefficient of PEDOT:PSS",
+          "subject_role": "quantity",
+          "predicate": "accounts for",
+          "object": "Small thermoelectric power factor relative to inorganic materials",
+          "object_role": "quantity",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "PEDOT:PSS",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Ion conducting materials",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Very large Seebeck coefficients",
+          "object_role": "quantity",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Previously demonstrated",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Polymers",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "High room temperature ionic conductivity",
+          "object_role": "quantity",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Described as an advantage over inorganics",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0657",
+      "decisions": [
+        {
+          "relation_id": "P0657:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0657:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0658",
+      "decisions": [
+        {
+          "relation_id": "P0658:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0658:r002",
+          "action": "patch",
+          "patch": {
+            "subject": "Van der Waals layered structures",
+            "subject_role": "state_structure",
+            "predicate": "can be chemically mutated to form",
+            "object": "Ionic layered structures",
+            "object_role": "state_structure",
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": "background"
+          },
+          "reason": "Restore the stated starting structure and product; this is the premise for the new methodology."
+        },
+        {
+          "relation_id": "P0658:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": [],
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Ternary ionic materials are the linking target, already bound in conditions, not a jointly acting factor."
+        },
+        {
+          "relation_id": "P0658:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0658:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0658:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Interplay between layer geometry and bond strength",
+          "subject_role": "descriptor",
+          "predicate": "is assessed in relation to",
+          "object": "Elastic anisotropy",
+          "object_role": "quantity",
+          "e": [
+            3
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Comparative analysis of van der Waals and ionic layered systems; no effect direction specified",
+          "joint_factors": [
+            "Layer geometry",
+            "Bond strength"
+          ],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

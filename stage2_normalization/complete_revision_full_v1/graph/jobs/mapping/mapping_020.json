@@ -1,0 +1,939 @@
+[
+  {
+    "mention_id": "iTE:P0922:complete_v1_cr001_object",
+    "paper_id": "P0922",
+    "domain": "iTE",
+    "label": "High thermoelectric efficiency",
+    "role": "performance_function",
+    "relation_ids": [
+      "P0922:complete_v1_cr001"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0922:complete_v1_cr001",
+        "subject": "n- and p-type PbTe-based thermoelectric materials",
+        "subject_role": "material_entity",
+        "predicate": "display",
+        "object": "High thermoelectric efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Both n- and p-type lead telluride (PbTe)-based thermoelectric (TE) materials display high TE efficiency, but the low fracture strength may limit their commercial applications. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C066a36ed7fbe42",
+        "label": "High thermoelectric efficiency",
+        "definition": "High thermoelectric conversion efficiency inferred from calculated material properties.",
+        "aliases": [
+          "High thermoelectric efficiency"
+        ],
+        "roles": [
+          "performance_function"
+        ],
+        "paper_ids": [
+          "P1184",
+          "P1648"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0923:complete_v1_cr001_object",
+    "paper_id": "P0923",
+    "domain": "iTE",
+    "label": "Thermal conductivity",
+    "role": "quantity",
+    "relation_ids": [
+      "P0923:complete_v1_cr001"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0923:complete_v1_cr001",
+        "subject": "Liquid-like motion of ions in superionic conductors",
+        "subject_role": "mechanism_process",
+        "predicate": "suppresses",
+        "object": "Thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Phonon liquid-like thermal conduction in the solid state enables superionic conductors to serve as efficient thermoelectric device candidates. ",
+        "context_quotes": [
+          "While liquid-like motion of ions effectively suppresses thermal conductivity (kappa), their high mobility concurrently triggers material degradation due to undesirable ion migration and consequent metal deposition, making it a challenge to balance low kappa and high stability. "
+        ],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C09b59f3c5138ef",
+        "label": "Thermal conductivity (calculated)",
+        "definition": "Thermal conductivity evaluated through theoretical or computational calculations.",
+        "aliases": [
+          "Thermal conductivity"
+        ],
+        "roles": [
+          "quantity"
+        ],
+        "paper_ids": [
+          "P1200",
+          "P1331",
+          "P1364",
+          "P1411",
+          "P1587",
+          "P1633",
+          "P1684"
+        ]
+      },
+      {
+        "concept_id": "iTE:C5babf48f449b49",
+        "label": "Thermal conductivity",
+        "definition": "The material quantity describing heat conduction in response to a temperature gradient.",
+        "aliases": [
+          "Thermal conductivity"
+        ],
+        "roles": [
+          "quantity"
+        ],
+        "paper_ids": [
+          "P0458",
+          "P0491",
+          "P0533",
+          "P0534",
+          "P0611",
+          "P0665",
+          "P0671",
+          "P0814",
+          "P0821",
+          "P0826",
+          "P0894",
+          "P0995",
+          "P1004",
+          "P1031",
+          "P1037",
+          "P1047",
+          "P1076",
+          "P1083",
+          "P1091",
+          "P1098",
+          "P1128",
+          "P1171",
+          "P1182",
+          "P1223",
+          "P1283",
+          "P1297",
+          "P1314",
+          "P1517",
+          "P1526",
+          "P1527",
+          "P1573",
+          "P1574",
+          "P1657",
+          "P1758",
+          "P1934",
+          "P1940"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0923:complete_v1_cr002_object",
+    "paper_id": "P0923",
+    "domain": "iTE",
+    "label": "Material degradation",
+    "role": "mechanism_process",
+    "relation_ids": [
+      "P0923:complete_v1_cr002",
+      "P0923:complete_v1_cr004"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0923:complete_v1_cr002",
+        "subject": "High ion mobility in superionic conductors",
+        "subject_role": "quantity",
+        "predicate": "triggers",
+        "object": "Material degradation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Due to undesirable ion migration and consequent metal deposition.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "background",
+        "quote": "Phonon liquid-like thermal conduction in the solid state enables superionic conductors to serve as efficient thermoelectric device candidates. ",
+        "context_quotes": [
+          "While liquid-like motion of ions effectively suppresses thermal conductivity (kappa), their high mobility concurrently triggers material degradation due to undesirable ion migration and consequent metal deposition, making it a challenge to balance low kappa and high stability. "
+        ],
+        "modality_evidence": []
+      },
+      {
+        "relation_id": "P0923:complete_v1_cr004",
+        "subject": "Undesirable ion migration and consequent metal deposition in superionic conductors",
+        "subject_role": "mechanism_process",
+        "predicate": "cause",
+        "object": "Material degradation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Undesirable ion migration",
+          "Consequent metal deposition"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "background",
+        "quote": "Phonon liquid-like thermal conduction in the solid state enables superionic conductors to serve as efficient thermoelectric device candidates. ",
+        "context_quotes": [
+          "While liquid-like motion of ions effectively suppresses thermal conductivity (kappa), their high mobility concurrently triggers material degradation due to undesirable ion migration and consequent metal deposition, making it a challenge to balance low kappa and high stability. "
+        ],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C16ff6e64d36538",
+        "label": "Material degradation",
+        "definition": "Deterioration of a material during thermoelectric operation under electrical and thermal stress.",
+        "aliases": [
+          "Material degradation"
+        ],
+        "roles": [
+          "mechanism_process"
+        ],
+        "paper_ids": [
+          "P0930",
+          "P1130"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0923:complete_v1_cr003_object",
+    "paper_id": "P0923",
+    "domain": "iTE",
+    "label": "Metal deposition",
+    "role": "mechanism_process",
+    "relation_ids": [
+      "P0923:complete_v1_cr003"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0923:complete_v1_cr003",
+        "subject": "Undesirable ion migration in superionic conductors",
+        "subject_role": "mechanism_process",
+        "predicate": "leads_to",
+        "object": "Metal deposition",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "background",
+        "quote": "Phonon liquid-like thermal conduction in the solid state enables superionic conductors to serve as efficient thermoelectric device candidates. ",
+        "context_quotes": [
+          "While liquid-like motion of ions effectively suppresses thermal conductivity (kappa), their high mobility concurrently triggers material degradation due to undesirable ion migration and consequent metal deposition, making it a challenge to balance low kappa and high stability. "
+        ],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:Cc4df82881a4ed1",
+        "label": "Metal deposition",
+        "definition": "",
+        "aliases": [
+          "Metal deposition"
+        ],
+        "roles": [
+          "mechanism_process"
+        ],
+        "paper_ids": [
+          "P0624"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0925:brittle",
+    "paper_id": "P0925",
+    "domain": "iTE",
+    "label": "Brittle character",
+    "role": "descriptor",
+    "relation_ids": [
+      "P0925:r010"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0925:r010",
+        "subject": "Cu3SbS4, first occurrence in brittleness comparison",
+        "subject_role": "material_entity",
+        "predicate": "is_classified_as",
+        "object": "Brittle character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here, first-principles calculations are used to investigate the structural, elastic, and thermoelectric properties of Cu3SbSe4 and Cu3SbS4. ",
+        "context_quotes": [
+          "Furthermore, Cu3SbS4 can be classified as a brittle material, whereas Cu3SbS4 can be classified as a ductile material. "
+        ],
+        "modality_evidence": [
+          "Here, first-principles calculations are used to investigate the structural, elastic, and thermoelectric properties of Cu3SbSe4 and Cu3SbS4. "
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C2eadbc719db234",
+        "label": "Brittle character",
+        "definition": "",
+        "aliases": [
+          "Brittle character"
+        ],
+        "roles": [
+          "descriptor"
+        ],
+        "paper_ids": [
+          "P1450"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0925:ductile",
+    "paper_id": "P0925",
+    "domain": "iTE",
+    "label": "Ductile character",
+    "role": "descriptor",
+    "relation_ids": [
+      "P0925:r011"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0925:r011",
+        "subject": "Cu3SbS4, second occurrence in brittleness comparison",
+        "subject_role": "material_entity",
+        "predicate": "is_classified_as",
+        "object": "Ductile character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here, first-principles calculations are used to investigate the structural, elastic, and thermoelectric properties of Cu3SbSe4 and Cu3SbS4. ",
+        "context_quotes": [
+          "Furthermore, Cu3SbS4 can be classified as a brittle material, whereas Cu3SbS4 can be classified as a ductile material. "
+        ],
+        "modality_evidence": [
+          "Here, first-principles calculations are used to investigate the structural, elastic, and thermoelectric properties of Cu3SbSe4 and Cu3SbS4. "
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C26686a91f8aa8c",
+        "label": "Ductile character",
+        "definition": "",
+        "aliases": [
+          "Ductile character"
+        ],
+        "roles": [
+          "descriptor"
+        ],
+        "paper_ids": [
+          "P1087"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0933:complete_v1_cr001_subject",
+    "paper_id": "P0933",
+    "domain": "iTE",
+    "label": "SnSe",
+    "role": "material_entity",
+    "relation_ids": [
+      "P0933:complete_v1_cr001",
+      "P0933:complete_v1_cr002"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0933:complete_v1_cr001",
+        "subject": "SnSe",
+        "subject_role": "material_entity",
+        "predicate": "has reported peak",
+        "object": "Thermoelectric figure-of-merit ZT approximately 2.62",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 923 K; previously reported result",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Recently, the SnSe compound was reported to have a peak thermoelectric figure-of-merit (ZT) of similar to 2.62 at 923 K, but the ZT values at temperatures below 750 K are relatively low. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      },
+      {
+        "relation_id": "P0933:complete_v1_cr002",
+        "subject": "SnSe",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Relatively low ZT values",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Below 750 K, compared with the reported peak at 923 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Recently, the SnSe compound was reported to have a peak thermoelectric figure-of-merit (ZT) of similar to 2.62 at 923 K, but the ZT values at temperatures below 750 K are relatively low. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C7c3622f71b666c",
+        "label": "SnSe",
+        "definition": "The compound with composition SnSe.",
+        "aliases": [
+          "SnSe"
+        ],
+        "roles": [
+          "material_entity"
+        ],
+        "paper_ids": [
+          "P0782",
+          "P0953"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0939:complete_v1_cr002_object",
+    "paper_id": "P0939",
+    "domain": "iTE",
+    "label": "Photovoltaic applications",
+    "role": "application",
+    "relation_ids": [
+      "P0939:complete_v1_cr002"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0939:complete_v1_cr002",
+        "subject": "Higher carrier mobility and charge recombination rates",
+        "subject_role": "quantity",
+        "predicate": "are described as vital for",
+        "object": "Photovoltaic applications",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Suggested from lower electron and hole effective masses in the studied Sr2ZnX3 materials; source explicitly states higher recombination rates",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "In this work, we explore the impact of ionic radius in modulating the physical properties of ternary chalcogenides by calculating structural, electronic, optical, and thermoelectric properties of Sr2ZnX3 (X = S, Se, Te) materials using first-principles density functional theory (DFT) as implemented in the WIEN2k program. ",
+        "context_quotes": [
+          "The lower effective mass of electrons and holes suggests higher carrier mobility and charge recombination rates, vital for photovoltaic applications. "
+        ],
+        "modality_evidence": [
+          "In this work, we explore the impact of ionic radius in modulating the physical properties of ternary chalcogenides by calculating structural, electronic, optical, and thermoelectric properties of Sr2ZnX3 (X = S, Se, Te) materials using first-principles density functional theory (DFT) as implemented in the WIEN2k program. "
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C73bf85a08df51a",
+        "label": "Photovoltaic applications",
+        "definition": "Applications converting incident light into electrical energy through photovoltaic operation.",
+        "aliases": [
+          "Photovoltaic applications"
+        ],
+        "roles": [
+          "application"
+        ],
+        "paper_ids": [
+          "P0513",
+          "P1087",
+          "P1294",
+          "P1304",
+          "P1724",
+          "P1741",
+          "P1821",
+          "P1891"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0940:complete_v1_cr001_subject",
+    "paper_id": "P0940",
+    "domain": "iTE",
+    "label": "PEDOT:PSS",
+    "role": "material_entity",
+    "relation_ids": [
+      "P0940:complete_v1_cr001"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0940:complete_v1_cr001",
+        "subject": "PEDOT:PSS",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "All-in-one photothermoelectric effect",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Poly(3,4-ethylene dioxythiophene):poly(styrene sulfonate) (PEDOT:PSS) has attracted widespread attention in solar generation due to its unique all-in-one photothermoelectric effect. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C802caf76267b20",
+        "label": "PEDOT:PSS",
+        "definition": "The polymer system poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate).",
+        "aliases": [
+          "PEDOT:PSS"
+        ],
+        "roles": [
+          "material_entity"
+        ],
+        "paper_ids": [
+          "P0656",
+          "P0869",
+          "P1022",
+          "P1292",
+          "P1942"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0943:complete_v1_cr003_subject",
+    "paper_id": "P0943",
+    "domain": "iTE",
+    "label": "Ion mobility",
+    "role": "quantity",
+    "relation_ids": [
+      "P0943:complete_v1_cr003"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0943:complete_v1_cr003",
+        "subject": "Ion mobility",
+        "subject_role": "quantity",
+        "predicate": "may lead to",
+        "object": "Device degradation over time",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Copper and silver sulfides discussed as thermoelectric materials",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "background",
+        "quote": "In special cases such as in copper and silver sulfides with high ion mobility and thus high disorder, excellent thermoelectric performance can be achieved. ",
+        "context_quotes": [
+          "However, stability is a high concern; the ion mobility may lead to device degradation over time. "
+        ],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C2ed50217be4632",
+        "label": "Ion mobility",
+        "definition": "The mobility of ions within an electrolyte.",
+        "aliases": [
+          "Ion mobility"
+        ],
+        "roles": [
+          "quantity"
+        ],
+        "paper_ids": [
+          "P0406",
+          "P0467"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0947:complete_v1_cr001_object",
+    "paper_id": "P0947",
+    "domain": "iTE",
+    "label": "Ultra-low thermal conductivity",
+    "role": "quantity",
+    "relation_ids": [
+      "P0947:complete_v1_cr001"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0947:complete_v1_cr001",
+        "subject": "Superionic compounds",
+        "subject_role": "material_entity",
+        "predicate": "have",
+        "object": "Ultra-low thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "background",
+        "quote": "Superionic compounds are heavily studied because of their ultra-low thermal conductivity even though the thermal stability remains an issue. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:Ccf5d19c266c80e",
+        "label": "Ultra-low thermal conductivity",
+        "definition": "",
+        "aliases": [
+          "Ultra-low thermal conductivity"
+        ],
+        "roles": [
+          "quantity"
+        ],
+        "paper_ids": [
+          "P0998"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0947:complete_v1_cr002_object",
+    "paper_id": "P0947",
+    "domain": "iTE",
+    "label": "Thermal stability",
+    "role": "performance_function",
+    "relation_ids": [
+      "P0947:complete_v1_cr002"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0947:complete_v1_cr002",
+        "subject": "Superionic compounds",
+        "subject_role": "material_entity",
+        "predicate": "have unresolved issues with",
+        "object": "Thermal stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "background",
+        "quote": "Superionic compounds are heavily studied because of their ultra-low thermal conductivity even though the thermal stability remains an issue. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C244a517bd09c03",
+        "label": "Thermal stability",
+        "definition": "Resistance of the substituted BiOCuSe material to thermally induced degradation.",
+        "aliases": [
+          "Thermal stability"
+        ],
+        "roles": [
+          "performance_function"
+        ],
+        "paper_ids": [
+          "P1066"
+        ]
+      },
+      {
+        "concept_id": "iTE:C5c1a9adfc769e0",
+        "label": "Thermal stability against phase transitions",
+        "definition": "Absence of phase transitions over the investigated temperature interval.",
+        "aliases": [
+          "Thermal stability"
+        ],
+        "roles": [
+          "performance_function"
+        ],
+        "paper_ids": [
+          "P1876"
+        ]
+      },
+      {
+        "concept_id": "iTE:Cd02d79e65bc8c5",
+        "label": "Thermal stability",
+        "definition": "",
+        "aliases": [
+          "Thermal stability"
+        ],
+        "roles": [
+          "performance_function"
+        ],
+        "paper_ids": [
+          "P1163"
+        ]
+      },
+      {
+        "concept_id": "iTE:Cef66444ff0e6ad",
+        "label": "Thermal stability of power generation",
+        "definition": "Maintenance of generator operation under a sustained temperature gradient.",
+        "aliases": [
+          "Thermal stability"
+        ],
+        "roles": [
+          "performance_function"
+        ],
+        "paper_ids": [
+          "P0529"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0951:complete_v1_cr001_object",
+    "paper_id": "P0951",
+    "domain": "iTE",
+    "label": "p-type characteristics",
+    "role": "descriptor",
+    "relation_ids": [
+      "P0951:complete_v1_cr001"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0951:complete_v1_cr001",
+        "subject": "CuI",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "p-type characteristics",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "CuI is a well-known thermoelectric (TE) material recognized for its p-type characteristics. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C838e3990910502",
+        "label": "p-type characteristics",
+        "definition": "Electronic character associated with hole-type charge carriers.",
+        "aliases": [
+          "p-type characteristics"
+        ],
+        "roles": [
+          "descriptor",
+          "performance_function",
+          "state_structure"
+        ],
+        "paper_ids": [
+          "P0914",
+          "P1398",
+          "P1588"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0951:complete_v1_cr003_subject",
+    "paper_id": "P0951",
+    "domain": "iTE",
+    "label": "Bi2Te3 and PbTe",
+    "role": "material_entity",
+    "relation_ids": [
+      "P0951:complete_v1_cr003",
+      "P0951:complete_v1_cr004"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0951:complete_v1_cr003",
+        "subject": "Bi2Te3 and PbTe",
+        "subject_role": "material_entity",
+        "predicate": "are limited by",
+        "object": "Toxicity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Use as conventional thermoelectric materials",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "background",
+        "quote": "These superior thermoelectric properties make CuI-based materials attractive alternatives to conventional TE materials, such as Bi2Te3 and PbTe, which are limited by toxicity and resource scarcity. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      },
+      {
+        "relation_id": "P0951:complete_v1_cr004",
+        "subject": "Bi2Te3 and PbTe",
+        "subject_role": "material_entity",
+        "predicate": "are limited by",
+        "object": "Resource scarcity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Use as conventional thermoelectric materials",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "background",
+        "quote": "These superior thermoelectric properties make CuI-based materials attractive alternatives to conventional TE materials, such as Bi2Te3 and PbTe, which are limited by toxicity and resource scarcity. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C4f4e9e9a53e419",
+        "label": "Bi2Te3 and PbTe",
+        "definition": "",
+        "aliases": [
+          "Bi2Te3 and PbTe"
+        ],
+        "roles": [
+          "material_entity"
+        ],
+        "paper_ids": [
+          "P0606"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0952:complete_v1_cr001_object",
+    "paper_id": "P0952",
+    "domain": "iTE",
+    "label": "High carrier mobility",
+    "role": "quantity",
+    "relation_ids": [
+      "P0952:complete_v1_cr001"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0952:complete_v1_cr001",
+        "subject": "Simple crystal structures",
+        "subject_role": "state_structure",
+        "predicate": "are ideal for maintaining",
+        "object": "High carrier mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Simple crystal structures are ideal for maintaining high carrier mobility, but they usually have high thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C874b79b437e35f",
+        "label": "Predicted high carrier mobility",
+        "definition": "High electronic carrier mobility calculated or inferred from theoretical electronic structure or transport analysis.",
+        "aliases": [
+          "High carrier mobility"
+        ],
+        "roles": [
+          "performance_function",
+          "quantity"
+        ],
+        "paper_ids": [
+          "P0631",
+          "P0808",
+          "P1222",
+          "P1294",
+          "P1489",
+          "P1913",
+          "P1951"
+        ]
+      },
+      {
+        "concept_id": "iTE:Cb48d2fd5b95de0",
+        "label": "High carrier mobility",
+        "definition": "High mobility of electronic charge carriers reported as a property of Bi-based oxychalcogenides.",
+        "aliases": [
+          "High carrier mobility"
+        ],
+        "roles": [
+          "quantity"
+        ],
+        "paper_ids": [
+          "P1166"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "iTE:P0952:complete_v1_cr002_object",
+    "paper_id": "P0952",
+    "domain": "iTE",
+    "label": "High thermal conductivity",
+    "role": "quantity",
+    "relation_ids": [
+      "P0952:complete_v1_cr002"
+    ],
+    "relations": [
+      {
+        "relation_id": "P0952:complete_v1_cr002",
+        "subject": "Simple crystal structures",
+        "subject_role": "state_structure",
+        "predicate": "usually have",
+        "object": "High thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Simple crystal structures are ideal for maintaining high carrier mobility, but they usually have high thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": []
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "iTE:C93fcd10e5f626f",
+        "label": "High thermal conductivity",
+        "definition": "A high predicted capacity for heat conduction.",
+        "aliases": [
+          "High thermal conductivity"
+        ],
+        "roles": [
+          "quantity"
+        ],
+        "paper_ids": [
+          "P0903",
+          "P1123"
+        ]
+      }
+    ]
+  }
+]

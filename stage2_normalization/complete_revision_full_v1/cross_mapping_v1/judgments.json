@@ -1,0 +1,2246 @@
+[
+  {
+    "review_id": "M001",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "ionic_thermodiffusion",
+    "match": 1,
+    "level": "same_mechanism",
+    "explanation": "两条关系均获摘要支持，且共享Soret热扩散机制；但左侧产物是电势，右侧产物是浓度梯度，只有有限的有向关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为供水、蒸发与温差共同作用的膜发电，所选关系仅涉及其中的Soret电势；右侧为干聚合物中达到扩散平衡后的浓度梯度表征。不能把左侧持续总电压全部归于Soret效应，也不能将浓度梯度直接等同于电势。",
+    "neighbor_claim_ids": [
+      "TG:P0222:complete_v1_cr003",
+      "TG:P0222:complete_v1_cr004"
+    ],
+    "local_structure_assessment": "右侧邻边说明热扩散与消除浓度梯度的质量扩散相平衡；未提供浓度梯度到电势的后续边，仅支持有限单边对应。",
+    "transfer": "already_similar_mechanism",
+    "insight_question": "",
+    "limitations": "共同机制仅指所供文献中的Soret过程；缺少可比较的温差、含水量及电势分量数据。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "equivalent_in_context",
+        "reason": "两侧均指温度梯度驱动的组分热扩散与再分布。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "电势与浓度梯度可能关联，但属于不同物理量，摘要未建立二者的通用等价关系。"
+      }
+    ],
+    "left_working_stage": "温差与供水维持下的发电；所选Soret分量未单独给出时间阶段",
+    "right_working_stage": "稳态浓度梯度表征"
+  },
+  {
+    "review_id": "M002",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两侧均明确描述材料或器件通过某机制将热转为电，方向对应；共同点限于转换功能，Soret效应与氧化还原热电化学反应有本质差异。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧依赖离子热扩散，右侧依赖氧化还原电极反应及其温度响应。左侧未给出持续带载工作阶段，不能与右侧稳定输出等同；固定离子以增强热电势，也不能直接推为改善右侧反应物扩散。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅支持背景层面的单边功能对应；所供邻边不能组成两侧一致的有向两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "目标关系没有共同的具体干预策略或可比较工作条件；毫伏级热电系数不足以支持机制迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "分别是离子热电材料类别与热电化学器件类别，承担热电转换功能，但不是同一概念。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "analogous_role",
+        "reason": "均承担热电转换机制的功能角色，但物理实现分别为热扩散与氧化还原反应。"
+      }
+    ],
+    "left_working_stage": "热电转换背景描述；充电与带载阶段未指定",
+    "right_working_stage": "热电化学发电背景描述；摘要另报告稳定输出"
+  },
+  {
+    "review_id": "M003",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两条温度依赖关系均获支持，但固体热力学熵与NaOH溶解度不是可对应的响应量；共享自变量和谓词不足以成立关系匹配。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是准谐德拜模型中的固体热力学性质计算，所选熵关系不是电子热电输运机制；右侧是水合物熔化相关的溶解度变化，用于概念混合电池的浓差维持，也不是Soret过程。计算表征与运行中浓差维持不能直接对应。",
+    "neighbor_claim_ids": [
+      "iTE:P1480:r016"
+    ],
+    "local_structure_assessment": "左侧邻边仅补充熵也依赖压力，与温度依赖构成并列关系；右侧无所供邻边，不存在可比较的两边因果路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "两侧均未给出目标温度依赖的方向或函数；右侧浓差维持还联合依赖蒸馏，不能由溶解度单独解释。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "固体熵与NaOH溶解度是不同科学量，未给出可对应的功能关系。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "均指作为热状态变量的温度，但不意味着温区或边界条件相同。"
+      }
+    ],
+    "left_working_stage": "计算表征：准谐德拜模型热力学性质",
+    "right_working_stage": "概念器件运行中的浓差维持；未报告实测运行"
+  },
+  {
+    "review_id": "M004",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两侧均支持“起关键作用”的表述，但左侧是水热扩散促进质子迁移并提高热电势，右侧是电极过程支配电池运行；动作措辞相似不足以建立具体关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧讨论PSS-H内水与质子的定向热扩散，右侧讨论热电化学电极及反应物输运。右侧将“电极动力学”表述为平衡电势随温度快速变化，应保留该限定，不能改写为反应速率提升。左侧未明确带载稳态阶段，不能等同右侧稳态电池运行。",
+    "neighbor_claim_ids": [
+      "iTE:P0392:r002",
+      "iTE:P0392:r003",
+      "TG:P0129:r006"
+    ],
+    "local_structure_assessment": "左侧存在同论文有向路径：水热扩散→冷热端定向质子迁移→大离子热电势。右侧邻边仅解释电极动力学的作者用语，没有对应的两边作用路径；目标单边也不构成实质匹配。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧具体热电势指标与右侧宽泛的电池运行不等价；摘要未证明两种关键过程具有可迁移的调控关系。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "水热扩散是体相输运过程，右侧是作者特定定义的电极温度响应。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "大离子热电势是具体性能响应，热电化学电池运行是整体功能，粒度和机制均不同。"
+      }
+    ],
+    "left_working_stage": "温差下离子热电响应表征；带载阶段未指定",
+    "right_working_stage": "稳态热电化学电池运行的理论分析"
+  },
+  {
+    "review_id": "M005",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两条关系均获摘要支持。仅可类比为通过设计引入温度响应过程；界面离子调制与电解液相变并非同一过程，且“包含”与“赋予”作用不同。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧将界面离子调制与另一界面的赝电容储能耦合，未明确热扩散机制；右侧选中过程是相变，应用于热电化学TREC的10–30 ℃跨临界点充放电。不能将左侧不依赖持续厚度方向温差等同于右侧循环，也不能从离子调制推定电极氧化还原。",
+    "neighbor_claim_ids": [
+      "iTE:P0417:r001",
+      "iTE:P0417:r004"
+    ],
+    "local_structure_assessment": "左侧存在架构→离子调制→耦合赝电容储能的有向路径，但第二边是耦合而非因果；右侧无对应邻边，仅有有限单边类比。",
+    "transfer": "plausible_question",
+    "insight_question": "若相变临界温度落在左侧器件实际温度变化范围内，TRIL相变是否会改变其界面离子调制及与赝电容储能的耦合？",
+    "limitations": "这是待检验的跨过程问题；摘要未给出左侧离子调制的微观机制、温度历程或TRIL界面相容性。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均承担引入温度响应的设计作用，但分别是器件架构与电解液添加操作。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及温度响应的离子环境，但界面调制不等于电解液相变。"
+      }
+    ],
+    "left_working_stage": "近体温热采集与界面储能耦合；具体时序未说明",
+    "right_working_stage": "电解液配制；相变在TREC跨临界温度充放电中发生"
+  },
+  {
+    "review_id": "M006",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两侧材料→所报告Seebeck系数的单边关系均受支持；对应仅限热电压响应指标，不能据此认定共同转换机制或改进策略。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧在室温报告离子扩散调控水凝胶的热电响应；右侧水溶液响应归于Co氧化还原反应熵。右文说明热电化学装置可持续产流，左文未交代持续输出或充电时序，数值不能直接解释为可用功率优劣。",
+    "neighbor_claim_ids": [
+      "TG:P0065:r004",
+      "TG:P0065:r009"
+    ],
+    "local_structure_assessment": "右侧具有配合物→0.43 mV/K→与金属核心价态熵一致的同文有向路径；电荷加和另受低介电、体积大溶剂限制。左侧无对应解释路径，仅支持单边指标对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "测量温差、时间尺度及电极条件不足；水中的目标系数不能借用其他溶剂下的电荷加和解释。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "聚合物双阳离子水凝胶与可氧化还原钴配合物不是相同材料概念。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "同为电压温度响应指标，但数值、条件及离子热扩散与反应熵来源不同。"
+      }
+    ],
+    "left_working_stage": "室温热电性质表征",
+    "right_working_stage": "水溶液热电化学系数表征"
+  },
+  {
+    "review_id": "M007",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两侧均明确支持成分调整→Seebeck系数提高，但左侧通过降低电子载流子浓度，右侧通过改变氧化还原物种溶剂化；属于有限设计功能类比。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧固体Zn掺杂提高电子热电势同时降低电导率；右侧CsCl改变反应熵相关响应，并通过另一电催化作用提高电流。右侧电流收益不能迁移为左侧电导收益；左文“超离子”描述不改变此目标关系的电子热电机制。",
+    "neighbor_claim_ids": [
+      "iTE:P1539:r006",
+      "iTE:P1539:r008",
+      "iTE:P1539:r009",
+      "TG:P0094:r008",
+      "TG:P0094:complete_v1_cr005"
+    ],
+    "local_structure_assessment": "左侧有Zn掺杂→载流子浓度降低→Seebeck提高的同文有向路径。右侧提供添加→溶剂化及添加→系数提高的分支，未提供溶剂化→系数的冻结邻边，不能补成双边匹配。",
+    "transfer": "plausible_question",
+    "insight_question": "在各自成分扫描中，Zn掺杂的电导率下降与CsCl添加的电催化增流，是否会使Seebeck系数最大值和输出功率最大值出现在不同成分条件？",
+    "limitations": "问题仅比较优化权衡，不主张材料或机制可互换；摘要未提供完整成分依赖数据和匹配测量条件。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为成分调节操作，但晶体掺杂与溶液加盐的物理实现不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "电子热电势与热电化学温度系数具有相关测量形式，但不是相同物理量来源。"
+      }
+    ],
+    "left_working_stage": "掺杂固体的热电性质表征",
+    "right_working_stage": "温差下热电化学发电与性能表征"
+  },
+  {
+    "review_id": "M008",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "thermogalvanic_redox",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两条目标关系均有直接证据，且两装置采用相同氧化还原对组合；但“利用共同K+再生”与“以铁氰化物对作负极电解液”不是对应关系，不能用共享化学组成替换目标边。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧在10–60 ℃时间循环中利用共同反离子自平衡，实现分离电池电化学势差归零；右侧是连续输出的循环液流系统，受多孔电极传质与膜电阻限制。相同氧化还原体系不证明右侧也采用K+自再生；两者均无目标相关离子热扩散证据。",
+    "neighbor_claim_ids": [
+      "iTE:P0836:r008",
+      "TG:P0205:complete_v1_cr002"
+    ],
+    "local_structure_assessment": "左侧有装置→共同K+→分离电池再生的有向路径；右侧只有装置→正、负极电解液的组成分支，不存在对应再生路径，目标单边亦不匹配。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "共享氧化还原化学是已有相似性，不能支持目标再生功能迁移；右侧摘要未说明共同反离子的再生作用。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为使用相同两类氧化还原对的热循环电化学装置，但凝胶自再生装置与液流电池并非同一对象。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "K+是共同反离子，铁氰化物盐对是负极氧化还原电解质；组成相关不构成概念等价。"
+      }
+    ],
+    "left_working_stage": "温度循环中的自再生",
+    "right_working_stage": "电解液组成配置；用于连续输出的热再生液流循环"
+  },
+  {
+    "review_id": "M009",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两条原文均支持各自方向，但左侧结果是界面稳定，右侧结果是溶剂化壳尺寸改变；添加剂调控这一共同表述不足以建立目标关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧处于含快速离子热扩散的混合器件背景，但界面稳定的具体机制未说明；右侧涉及Fe2+/Fe3+溶剂化与反应熵。不能把界面稳定等同于壳层尺寸变化，也未提供可比较的运行阶段。",
+    "neighbor_claim_ids": [
+      "iTE:P1878:r002",
+      "iTE:P1878:r006",
+      "iTE:P1878:r007",
+      "TG:P0063:r004"
+    ],
+    "local_structure_assessment": "左侧存在添加剂→界面稳定→耐久性路径，第二边须保留快速热扩散这一共同因素；右侧存在有机溶剂添加→壳层尺寸变化→熵贡献差异路径。两路径终点及中介不同。左侧r002虽更接近右侧目标，不能替换冻结目标边。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未给出界面稳定与溶剂化壳尺寸之间的直接关系；不能用邻边修复目标匹配。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均通过加入组分调控电解液，但氟表面活性剂与有机共溶剂的组成和作用条件不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "界面稳定性与溶剂化壳尺寸变化是不同结构层级和性质。"
+      }
+    ],
+    "left_working_stage": "电解液配方调控及界面形成；稳定性对应的运行阶段未明确",
+    "right_working_stage": "电解液配制及实验、分子动力学机理表征"
+  },
+  {
+    "review_id": "M010",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两条背景关系均表达低品位热转电的功能，形成有限对应。左侧目标句没有指定离子过程，不能用正文时间循环中的氧化还原对反填其机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧目标限定空间温度梯度，右侧热电池也利用室内外温差，未见直接条件冲突；但材料类别、运行温区和输出方式没有共同约束。左文实际研究的时间循环再生阶段不能等同于右文持续温差发电。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅有背景单边功能对应，无 supplied 同文邻边可支持机制路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "共同热转电功能不能确定共同机制，也不足以支持具体迁移方案。右侧为背景能力表述，并非该句单独证明器件输出。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均承担热能转换功能，但左侧是宽泛材料类别，右侧是采用热电化学效应的器件。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "在这两条背景句中均指低品位热向电能的转换功能，不代表转换机制相同。"
+      }
+    ],
+    "left_working_stage": "背景：空间温差驱动的热电转换，具体输出阶段未指定",
+    "right_working_stage": "背景：热电化学发电；正文展示持续温差运行"
+  },
+  {
+    "review_id": "M011",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "热转电方向及功能终点对应，但左侧明确依赖Soret离子迁移，右侧依赖热电化学效应；共同输出不能建立共同转换机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "两侧均涉及温差，但Soret驱动的离子分布与氧化还原反应的温度依赖电势不同。左侧未指定电极反应或持续取电方式，不能将其直接视为右侧的持续电化学电流，也不能断言其必为有限电容充电。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅支持单边功能对应，没有可供核查的两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "目标均为宽泛背景句，缺少共同温区、电极边界及负载条件，不支持具体跨机制迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为热能转换系统，但离子热扩散系统与氧化还原热电池的物理实现不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "均表达低品位热转化为电能这一功能终点。"
+      }
+    ],
+    "left_working_stage": "背景：温差驱动的离子热扩散转换，取电阶段未指定",
+    "right_working_stage": "背景：热电化学发电；正文展示持续温差运行"
+  },
+  {
+    "review_id": "M012",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两侧均支持温度与电学响应量变化的有向关联，但左侧是电子Seebeck系数的温度依赖，右侧是平衡电极电势随温度快速变化；对应仅限温度响应层面。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为空穴主导的Na3SCl电子输运计算，右侧为热电化学平衡电势及稳态输运理论。S(T)变化与Eeq(T)变化不是同一关系；后者的温度导数可关联热电化学热电势，但该联系只是物理解释，不能替换目标边。计算表征与稳态运行阶段亦不同。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅有单边温度依赖类比。左侧所给邻边均从温度分叉，不能串成两边因果路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧未给变化方向或幅度，右侧“快速”未量化；保留作者对“电极动力学”的称呼，但不能据此推断反应速率常数。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "equivalent_in_context",
+        "reason": "两侧均以温度作为自变量，而非将温差与绝对温度混同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "电子Seebeck系数与平衡电极电势均涉及热电响应，但分别是输运系数和电势，物理量及机制不同。"
+      }
+    ],
+    "left_working_stage": "计算表征：BoltzTraP温度依赖电子输运",
+    "right_working_stage": "稳态热电化学发电的理论分析"
+  },
+  {
+    "review_id": "M013",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "ionic_thermodiffusion",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "左侧明确描述伴随zT增强的相变，但具体贡献机制仅为假说；右侧忠实保留相变、溶剂化与性能之间待研究的相关性，未给出增强方向。仅有有限对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是固体晶体相变涉及的电子热电性能；右侧是电解质物态调控离子热扩散。结构重排熵不能等同于离子热扩散驱动力；变温结构表征与运行中极性调控也不是相同阶段。",
+    "neighbor_claim_ids": [
+      "iTE:P1232:r015",
+      "TG:P0273:r006",
+      "TG:P0273:complete_v1_cr002"
+    ],
+    "local_structure_assessment": "左侧邻边保留能带和熵的联合假说；右侧虽有相变→溶剂化→性能的图路径，两边均为相关性研究，不能解释为因果链。仅支持单边层面的有限类比。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "缺少可比温区、相态条件和右侧相关性的具体方向，不能据此迁移zT增强机制。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "同属相变概念，但分别指特定晶体结构转变与电解质物态行为。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "特定zT增强与泛指热电化学性能并非同一指标或变化方向。"
+      }
+    ],
+    "left_working_stage": "跨相变的变温晶体结构表征及性能解释",
+    "right_working_stage": "运行中物态调控与性能关联研究"
+  },
+  {
+    "review_id": "M014",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两条数值属性均有摘要支持，但左侧是热导率，右侧是离子电导率；共同的“材料具有输运属性”句式不能建立关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "热导率描述热输运，离子电导率描述电荷输运，单位和物理作用不同。两侧均处于材料表征阶段；左侧限定100%相对湿度，右侧测量条件未说明。属性本身不确定热电转换机制。",
+    "neighbor_claim_ids": [
+      "iTE:P0444:r005"
+    ],
+    "local_structure_assessment": "左侧另有离子电导率邻边，恰说明冻结目标选中的是不同属性；不能替换目标完成匹配，也没有可对应的两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "右侧热电池称谓不能把所选离子电导率属性直接解释为电极氧化还原机制；缺少交叉输运测量。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为柔性热电器件中的离子导电材料，但纸复合物与水凝胶不是同一材料。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "热导率与离子电导率是不同物理量。"
+      }
+    ],
+    "left_working_stage": "100%相对湿度下的材料热输运表征",
+    "right_working_stage": "材料离子电导率表征，具体环境未说明"
+  },
+  {
+    "review_id": "M015",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两侧均支持MXene复合电极具有良好性能，但左侧是未量化的电极电化学性能，右侧是相对铂电极增强的热电化学性能。设计功能相似，性能含义及运行机制不同。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧用于热充电超级电容器，所选电极性能未区分电容、赝电容或反应动力学；右侧明确为热电池界面质荷传输。有限充放电不能等同于持续温差下的热电池发电；右侧具体氧化还原对未提供。",
+    "neighbor_claim_ids": [
+      "iTE:P1335:r001",
+      "TG:P0154:r003",
+      "TG:P0154:r004",
+      "TG:P0154:complete_v1_cr002"
+    ],
+    "local_structure_assessment": "左侧邻边确定电极与凝胶的装配关系；右侧邻边给出孔层结构、活性面积及组分协同。没有两侧对应的完整两边因果路径，仅支持电极→性能的有限单边对应。",
+    "transfer": "plausible_question",
+    "insight_question": "在左侧凝胶组成和热充电条件固定时，改变MXene@PPy电极的孔层结构与可接触活性面积，是否会改变充电时间及可释放电荷？",
+    "limitations": "该问题是由右侧界面结构证据启发的探索性推断；左侧未证明相同界面机制，也没有共同基准或电极性能数值。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均承担MXene复合电极功能，但PPy与SWCNT/PANI组成及器件用途不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "电极电化学性能与相对铂增强的热电化学性能范围及比较基准不同。"
+      }
+    ],
+    "left_working_stage": "热充电及储能器件中的电极性能评价",
+    "right_working_stage": "施加温差下的热电池发电性能评价"
+  },
+  {
+    "review_id": "M016",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧保留表面活性剂与等离激元加热的联合诱导作用；右侧支持热刺激去极化中观察到作者称为热电流效应的现象。两者缺乏可比的作用关系和明确共同机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为光热驱动的囊泡操控，离子热扩散解释仅能作为暂定推断；右侧为固体复合物的热刺激去极化及介电关联。不能由名称推定电极氧化还原，也不能把去极化测量视为持续温差发电。",
+    "neighbor_claim_ids": [
+      "iTE:P1513:r009",
+      "TG:P0111:r007",
+      "TG:P0111:r008"
+    ],
+    "local_structure_assessment": "左侧存在联合诱导→热电效应→捕获稳定性的同文路径；右侧为材料→效应→介电关联，另有方法→效应的检测边。路径终点及关系性质不同，不能组成匹配因果链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未提供离子迁移、氧化还原或去极化载流子的明确机制，效应名称不足以确立物理对应。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "溶液中的离子表面活性剂与盐嵌入介孔二氧化硅的复合物具有不同材料角色。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "uncertain",
+        "reason": "分别用于光热操控和热刺激去极化，摘要不足以确认两种命名效应的共同物理内涵。"
+      }
+    ],
+    "left_working_stage": "等离激元加热下的动态操控与捕获",
+    "right_working_stage": "热刺激去极化表征及介电理论分析"
+  },
+  {
+    "review_id": "M017",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧摘要支持Ca占据Ti位降低晶格电子浓度；右侧支持凝胶中金纳米颗粒降低电子转移电阻。两者仅共享“降低”的措辞，作用对象与物理目的不同。",
+    "conditions": "conflict",
+    "physical_boundary": "左侧是还原气氛烧制陶瓷的缺陷化学与高温导电表征，目的为提高绝缘性，并非电子热电转换；右侧是热电化学体系的界面动力学改善。体相电子浓度不能等同于界面电子转移电阻，制备后表征也不能直接对应发电运行。",
+    "neighbor_claim_ids": [
+      "iTE:P1555:r006",
+      "TG:P0107:r004"
+    ],
+    "local_structure_assessment": "左侧存在Ca替位→电子浓度降低→共同解释高绝缘电阻的同文路径，第二步须保留其余两个联合因素。右侧r004与目标边是同主语分支，没有对应的两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "两侧宾语都已含下降状态，谓词表述冗余；按摘要核对其一次下降含义，未改写冻结图。右侧短期动力学改善仅带来小幅功率改善，并伴随金溶解和钝化。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "晶格位点替代与凝胶内金纳米颗粒分布不是同一干预，也未体现相同设计功能。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "晶格电子浓度与界面电子转移电阻属于不同物理量。"
+      }
+    ],
+    "left_working_stage": "还原气氛烧制后的高温电导表征及机理解释",
+    "right_working_stage": "短期电化学动力学表征"
+  },
+  {
+    "review_id": "M018",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "hybrid",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两篇均明确提出离子承担载流角色，因此有有限的角色关系对应。左侧强调固体中电子与离子混合导电及高迁移率；右侧描述热电化学氧化还原离子的载流功能，未声称高迁移率。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧Cu离子的作用位于Bi2Te3/铜硫属化物混合导电体系，不能据此推定电极氧化还原；右侧载流涉及氧化还原物种输运和电极反应。左侧输运表征与右侧一般运行描述未提供可比的电流持续性或迁移率条件。",
+    "neighbor_claim_ids": [
+      "iTE:P1168:r007",
+      "iTE:P1168:r010"
+    ],
+    "local_structure_assessment": "左侧邻边补充Cu离子的声子散射及迁移率作用，但均从Cu离子出发，不能串成两边因果链。右侧无邻边，仅支持单边角色类比。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "高迁移率载流子这一限定不能转移到右侧；摘要未给出区分离子与电子贡献的测量细节，角色类比不足以提出具体材料迁移方案。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "两者都承担载流功能，但固体Cu离子与热电化学氧化还原离子的物理实现不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "高迁移率载流子是带有限定的角色，右侧一般载流子概念不保证该限定或相同输运机制。"
+      }
+    ],
+    "left_working_stage": "材料电荷及热输运性能表征",
+    "right_working_stage": "热电化学发电中的载流角色背景描述"
+  },
+  {
+    "review_id": "M019",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两侧均支持各自器件具有所报Seebeck系数，形成器件→热电压响应指标的有限对应。数值和单位相近不能证明相同转换机制或结构优化规律。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧由离子液体凝胶及明确的离子热电描述暂归离子热扩散，摘要未直接验证Soret机制或分离PPy贡献；右侧明确由氧化还原反应转换热能。两侧均未给出目标系数的测量时序，不能把可能的有限充电响应等同于持续热电化学电流。",
+    "neighbor_claim_ids": [
+      "iTE:P1397:r004",
+      "iTE:P1397:r010",
+      "iTE:P1397:complete_v1_cr002",
+      "TG:P0200:r002",
+      "TG:P0200:r006"
+    ],
+    "local_structure_assessment": "右侧有BC-GTC→缠结网络→所报系数的同文路径；左侧仅有器件到凝胶结构及性能的分支，缺少结构→系数边。只支持单边指标对应，不能制造对称的结构因果链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "未提供可比温度、湿度、电极和测量时间；右侧网络归因未给出独立贡献量，现有指标对应不足以支持具体跨机制迁移问题。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为凝胶相关热电响应器件，但Janus织物传感器与细菌纤维素热电化学电池是不同装置。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均为Seebeck系数报告，但数值、形成机制及测量条件不同；共享指标不使这两个具体结果等同。"
+      }
+    ],
+    "left_working_stage": "织物器件热电性能表征，测量时序未说明",
+    "right_working_stage": "热电化学电池热电性能表征，目标系数测量时序未说明"
+  },
+  {
+    "review_id": "M020",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧是填孔质量输运促进致密化，右侧是自然对流促进质量输运。质量输运分别处于因和果的位置，选定边的端点与作用方向没有可辩护的对应。",
+    "conditions": "conflict",
+    "physical_boundary": "左侧为微波驱动颗粒介质制备，PMF方向受孔角限制；右侧为液态热电化学电池长期发电中的流体输运，选定边本身是对流效应。右侧对流同时提高有效导热率并使温差从10.9 K降至5.9 K，不能将增强输运一概解释为净收益。",
+    "neighbor_claim_ids": [
+      "iTE:P1775:r004",
+      "TG:P0086:r005",
+      "TG:P0086:r007"
+    ],
+    "local_structure_assessment": "左侧真实路径为朝向界面的PMF→填孔质量输运→致密化；右侧给出的邻边是自然对流分别增强传质、传热和有效导热率的分支。不能跨论文借共享“质量输运”节点拼接路径，也不能用左侧邻边替换目标边。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧目标结论带理论模型及多数孔角限定，右侧目标为瞬态数值模型结论；装置最优配置的实验验证不等于每个模型分量均被独立测量。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "填孔质量输运与自然对流均涉及物质运动，但前者是输运过程，后者是液体输运的驱动方式。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "致密化是固体结构演化结果，电解液质量输运是物种迁移过程。"
+      }
+    ],
+    "left_working_stage": "微波辅助材料制备与致密化的理论分析",
+    "right_working_stage": "长期发电及放电稳定性的瞬态模拟"
+  },
+  {
+    "review_id": "M021",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧为热泳迁移率差增大→离子塞贝克系数提高；右侧为塞贝克系数来源于氧化还原熵差。两条原始关系均获摘要支持，但端点角色及关系方向不对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧涉及离子交换后的热扩散及电容热充电；右侧为连续热电化学工作的理论熵分析。迁移率差不能等同于反应熵差，电容充电也不能直接对应持续电流。",
+    "neighbor_claim_ids": [
+      "iTE:P0611:r009",
+      "TG:P0223:r005"
+    ],
+    "local_structure_assessment": "左侧存在同论文的片层与Na+共同作用→迁移率差→离子塞贝克系数路径。右侧亲和力→熵差与系数→熵差汇聚，不能倒转目标边拼成对应因果链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "仅凭共同出现的塞贝克系数不能建立关系匹配；摘要未提供跨机制的定量联系。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "热泳迁移率差是输运差异，右侧主语是热电压响应系数。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "离子塞贝克系数与氧化还原对熵差是不同物理量。"
+      }
+    ],
+    "left_working_stage": "温差下离子热扩散与热充电",
+    "right_working_stage": "连续热电化学发电的理论热力学分析"
+  },
+  {
+    "review_id": "M022",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两侧均支持水凝胶具有双网络结构这一单边对应。左侧明确亲水PVA与疏水PTA，右侧仅明确双网络和多孔结构，具体网络组成及作用不能视为相同。所选边本身是结构归属，并非能量转换机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "结构制备阶段无明确冲突；工作时左侧涉及阳离子配位与阴离子通道，右侧明确使用铁氰化物氧化还原对。限制离子运动是否损害右侧反应物输运只能作为待检验推断。",
+    "neighbor_claim_ids": [
+      "iTE:P0407:r008",
+      "TG:P0016:r002",
+      "TG:P0016:r003",
+      "TG:P0016:r004"
+    ],
+    "local_structure_assessment": "左侧有水凝胶→双网络→机械性能的同论文两边路径；右侧只有水凝胶分别指向结构和机械性能的分支，不能补出双网络→机械性能边。仅支持有限的结构归属单边对应。",
+    "transfer": "plausible_question",
+    "insight_question": "在右侧铁氰化物热电化学凝胶中，引入左侧所述亲水—疏水网络分工，能否改善机械性能，同时保持氧化还原物种的输运与热电响应？",
+    "limitations": "右侧未给出网络化学组成，双方缺少可比较的工作条件；问题是跨机制探索，不代表效果或新颖性已获验证。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为承载热电功能的水凝胶，但属于不同配方和工作体系。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "亲水—疏水双网络是更具体的结构描述，右侧一般双网络未证明具有该特征。"
+      }
+    ],
+    "left_working_stage": "材料制备与结构描述",
+    "right_working_stage": "材料制备与结构描述"
+  },
+  {
+    "review_id": "M023",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "hybrid",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "摘要分别支持PNA电池发生体积相变及多层器件具有快速吸水—离子交换能力。相同的“exhibits”不使两种过程构成有意义的关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧相变产生离子熵差，并关联氧化还原及热扩散；右侧所选过程属于太阳能蒸发联产器件的水与离子管理，未被证明是热扩散或电极反应。温度响应相变与供水运行阶段不能直接等同。",
+    "neighbor_claim_ids": [
+      "iTE:P0339:r004",
+      "TG:P0181:r003"
+    ],
+    "local_structure_assessment": "左侧有电池→体积相变→离子熵差路径；右侧联产用途边与吸水边共用器件主语，没有吸水—离子交换的后续对应边。无可辩护的目标单边或两边匹配。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未说明右侧吸水—离子交换的驱动力及定量作用，也未建立其与体积相变的联系。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及含凝胶的能量器件，但一个是PNA电池，一个是蒸发与热电化学集成器件。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "体积相变与吸水—离子交换是不同过程，摘要未证明功能对应。"
+      }
+    ],
+    "left_working_stage": "温度响应相变及热电转换",
+    "right_working_stage": "太阳能蒸发—发电联产中的水与离子输运"
+  },
+  {
+    "review_id": "M024",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧支持效率依赖离子ZT；右侧冻结声明的assertion为negated，忠实表达双流动电池效率不再依赖传统ZT。两侧不是同向依赖关系，不能忽略否定。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是离子导体材料指标的一般陈述，未明确转换周期；右侧是热、电输运解耦且流量响应电流的双电池热机理论。材料ZT与系统效率的适用边界不同，不能把相反陈述当作同条件矛盾或可迁移规律。",
+    "neighbor_claim_ids": [
+      "TG:P0302:r003"
+    ],
+    "local_structure_assessment": "右侧存在独立优化→效率→否定依赖传统ZT的有向路径，但后段是否定关系，不是正向因果链；左侧无提供的邻边，无法建立对应两边结构。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧未明确热扩散、储能或持续输出过程，故不据离子导体名称强定机制；右侧效率结论是理论分析。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均讨论热电转换效率，但分别属于离子材料与双流动电池系统，核算边界未证明相同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "离子ZT与传统热电ZT具有相关评价角色，但物理载流过程及适用装置不同。"
+      }
+    ],
+    "left_working_stage": "材料转换效率的背景论述，工作阶段未指定",
+    "right_working_stage": "双流动电池热机运行的理论分析"
+  },
+  {
+    "review_id": "M025",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧忠实保留了链呼吸解释电导率提升的假说性质；右侧明确归因温敏黏附于明胶链解络合与再缠结。共同涉及聚合物链活动，但作用对象和关系含义不足以对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是离子导电表征，未明确热扩散机制；右侧是热敷黏附、冷敷移除的材料响应，不能用论文中的氧化还原发电机制替代该黏附机制。两侧工作阶段和功能不同。",
+    "neighbor_claim_ids": [
+      "TG:P0040:r007",
+      "TG:P0040:r008"
+    ],
+    "local_structure_assessment": "右侧可形成链变化→温敏黏附→热敷贴附或冷敷移除的同论文有向路径；左侧没有对应路径，目标单边也不构成有效匹配。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧解释尚属假说；未提供链动力学与黏附或电导率之间可比较的测量条件。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及聚合物链活动，但链呼吸与解络合、再缠结不是同一过程。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "电导率提升与温敏黏附是不同物理功能。"
+      }
+    ],
+    "left_working_stage": "电导率表征；链呼吸为解释假说",
+    "right_working_stage": "热敷贴附与冷敷移除"
+  },
+  {
+    "review_id": "M026",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 2,
+    "level": "same_mechanism",
+    "explanation": "两摘要均明确支持明胶充当复合凝胶的聚合物基体或网络，构成清晰的材料→结构角色对应。共享的是已有基体构建方式，不是热电转换机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "关系均处于材料构建阶段。左侧含CMTs和KCl，右侧含氧化还原对；共同采用明胶不能证明离子热扩散与热电化学发电等价，也不能推出输出性能可迁移。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅有受支持的单边角色对应；未提供邻接边，不能建立两边路径。",
+    "transfer": "already_similar_mechanism",
+    "insight_question": "",
+    "limitations": "same_mechanism仅指共同采用明胶基体的结构策略；配方、网络参数和匹配条件未提供，不代表样品相同或穷尽已有研究。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "equivalent_in_context",
+        "reason": "两处均指作为基体原料的明胶这一材料概念，不表示具体样品相同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "此处聚合物基体与聚合物网络均指明胶构成凝胶主体的结构角色，不意味着微观网络完全一致。"
+      }
+    ],
+    "left_working_stage": "复合材料制备与基体构建",
+    "right_working_stage": "凝胶制备与聚合物网络构建"
+  },
+  {
+    "review_id": "M027",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧是PVA生物相容性的背景陈述，右侧是集流体兼吸光体具有良好电导率。两条属性关系各自有依据，但材料角色和属性均不对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "生物相容性不等于电荷传输能力；右侧集流导电也不是电子热电转换机制。左侧背景选材与右侧太阳照射下器件运行表征无共同作用阶段。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅共享通用的“具有良好属性”句式；无有效单边对应，也无须借邻边拼接因果链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未给出生物相容性检验或集流体电导率数值；这些缺失不否定原文陈述，但不支持跨关系迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "亲水聚合物PVA与集流体兼太阳吸收体的材料和器件角色不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "生物相容性和电导率是不同属性，“良好”不建立概念对应。"
+      }
+    ],
+    "left_working_stage": "背景选材依据；未指定测试阶段",
+    "right_working_stage": "太阳照射下器件运行与耐久性表征"
+  },
+  {
+    "review_id": "M028",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两侧均支持机械应变调控内部物理过程的方向，但左侧诱导晶体相变，右侧调节凝胶氧化还原动力学。仅构成有限的应变调控类比。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧涉及二维晶体相变、声子非谐性与晶格热导率，未直接建立电子热电转换；右侧在温度梯度下进行动态电压感测。晶格热导率变化不能直接等同于维持温差或改变氧化还原动力学，阶段与边界条件也未匹配。",
+    "neighbor_claim_ids": [
+      "iTE:P1421:r006",
+      "TG:P0073:r004"
+    ],
+    "local_structure_assessment": "左侧存在应变→相变→非谐性，右侧存在应变→氧化还原动力学→电压的各自同论文有向路径。路径拓扑可类比，但中间过程与终点不同，不能视为同一因果链。",
+    "transfer": "plausible_question",
+    "insight_question": "在右侧凝胶的应变感测中，若同时测量应变下的热输运并控制电极间实际温差，能否区分温差变化与氧化还原动力学变化对电压响应的贡献？",
+    "limitations": "该问题是由两摘要启发的探索性推断；右侧未报告应变改变热输运，左侧也未研究凝胶或氧化还原反应，不能迁移其具体相变机制。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "equivalent_in_context",
+        "reason": "两处均指机械形变应变这一控制量，但具体形变模式和范围未知。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "analogous_role",
+        "reason": "两者均作为应变调控的内部过程，但晶体相变与氧化还原动力学具有不同物理实现。"
+      }
+    ],
+    "left_working_stage": "应变调控相变与晶格热输运研究",
+    "right_working_stage": "温度梯度下的动态应变感测与电压输出"
+  },
+  {
+    "review_id": "M029",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两条均忠实于摘要，但左侧是零宏观温度梯度下常规热电净电压消失，右侧是温度梯度建立热电化学势差；条件与作用方向不同，不能直接对应。",
+    "conditions": "conflict",
+    "physical_boundary": "左侧所选关系属于常规热电背景，不能替换为论文的二阶非线性效应。右侧涉及氧化还原热电化学势；摘要未证明其在零平均梯度波动下的响应。零宏观梯度与跨电池温度梯度不是相同工作条件。",
+    "neighbor_claim_ids": [
+      "TG:P0025:complete_v1_cr001"
+    ],
+    "local_structure_assessment": "右侧邻边说明系统利用该电化学势发电，但与目标边共同指向同一对象，不构成有向两边路径；没有可匹配的路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "仅有背景陈述；未给出波动时间尺度、平均方式或右侧电压反转实验。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及温度分布，但零宏观梯度的波动不等于跨电池温度梯度。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "净端电压与温度相关电化学势有关联，但物理来源及所述量不同。"
+      }
+    ],
+    "left_working_stage": "常规热电响应背景：温度波动下净电压抵消",
+    "right_working_stage": "跨温度梯度的热电化学势建立与发电背景"
+  },
+  {
+    "review_id": "M030",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "ionic_thermodiffusion",
+    "match": 1,
+    "level": "insufficient",
+    "explanation": "两侧均支持温度梯度驱动过程这一方向，但左侧对象是整体离子热电转换，右侧是明确的热扩散过程。左侧摘要未说明转换的微观机制，只能建立有限对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧结合相变材料进行连续及间歇热管理；右侧在干聚合物电解质中以热扩散和浓度扩散平衡测量稳态Soret效应。不能据离子热电名称认定相同机制，也不能把稳态浓度分布等同于持续输出电流或有限电容充电。",
+    "neighbor_claim_ids": [
+      "iTE:P0433:r004"
+    ],
+    "local_structure_assessment": "左侧邻边仅确认转换集成于热管理系统，与目标边共同指向转换过程，不形成有向两边路径；仅有有限单边对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧缺少离子选择性、热扩散、电极及充放电机制；两侧材料、时间尺度和边界条件不完整。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "equivalent_in_context",
+        "reason": "两者均指驱动所述过程的空间温度梯度。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "离子热电转换是整体功能，质量热扩散是具体输运过程；其在左侧的贡献未明。"
+      }
+    ],
+    "left_working_stage": "连续及间歇热管理运行中的热电转换",
+    "right_working_stage": "稳态Soret浓度分布的表征"
+  },
+  {
+    "review_id": "M031",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两侧均明确报告特定材料的负热电势系数，构成有限的材料—性能关系对应。左侧离子凝胶的微观来源未交代，右侧明确由双相区晶格嵌入熵主导；共同指标不能建立机制对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧用于离子热电超级电容器，右侧是30 nm嵌锂电极在双相区的法拉第嵌入热电势。材料热电势表征与器件充放电或持续发电阶段不能互换；左侧未给出电极反应或离子热扩散证据。",
+    "neighbor_claim_ids": [
+      "iTE:P0882:r008",
+      "TG:P0262:r001",
+      "TG:P0262:r009"
+    ],
+    "local_structure_assessment": "左侧存在器件→使用材料→表现热电势的路径，右侧存在插锂过程→构建电极→表现热电势的路径；前序边含义不同，不能对应为共同因果链。右侧熵邻边仅澄清机制，保留单边性能对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧测量温区、温差和时间条件缺失；右侧结果限定双相区，不能直接比较器件效率或功率。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "两者均为热电功能材料，但离子凝胶电解质与嵌锂固体电极具有不同物理角色。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均为热电势系数，但数值、条件及物理贡献不同，并非同一具体性能量。"
+      }
+    ],
+    "left_working_stage": "离子凝胶热电势表征；具体测量时序未说明",
+    "right_working_stage": "嵌锂电极双相区的电化学热电势表征"
+  },
+  {
+    "review_id": "M032",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧是温度梯度经两种未命名机制驱动电荷输运，右侧是管道相对温度梯度的取向决定对流是否出现。电荷输运与流体对流及其控制变量均不同，没有可辩护的关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为狭缝内热激活电解质的理论与数值研究，右侧为静置铜管水体中约20°C温差下的对流实验。右侧所选关系是流体运动，不能因论文另有热电化学电流而归类为氧化还原机制；将宏观对流移用于受限通道需另证尺度与流动条件。",
+    "neighbor_claim_ids": [
+      "TG:P0233:r002"
+    ],
+    "local_structure_assessment": "右侧有取向→对流发生→促进混合的同论文有向路径；左侧没有相应邻边，不能组成配对路径，目标单边也不对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧两种机制未命名，缺少通道尺寸及流动边界；右侧未提供与左侧电荷输运模型的对应证据。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "温度梯度本身与管道相对温度梯度的取向是不同控制变量。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "两种电荷输运机制与流体对流的发生不是相同过程。"
+      }
+    ],
+    "left_working_stage": "受限电解质热电响应的理论与数值表征",
+    "right_working_stage": "持续温差下静置管道的对流及混合实验"
+  },
+  {
+    "review_id": "M033",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "hybrid",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两摘要分别明确支持材料具有32.7和32.4 mV/K热电势系数。材料→性能的关系有限对应，但数值接近不能证明转换机制相同。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为离子热扩散电场驱动电子/空穴的耦合过程；右侧为热电化学体系，具体氧化还原对未给出。右侧辐射冷却维持温差与左侧载流子耦合属于不同环节；两侧连续运行描述不等于系数测量条件相同。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅支持材料→热电势系数的单边对应，无对应的两边因果路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "缺少测量温区、温差、负载和电极条件；共同指标不足以支持机制迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均作为热电转换材料，但离子电子导体与热电化学离子凝胶不是同一材料概念。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均报告电压温度响应指标，但数值不同且物理贡献不同，不能视为同一具体量值。"
+      }
+    ],
+    "left_working_stage": "热电性能表征；体系另报告连续发电",
+    "right_working_stage": "热电性能表征；集成器件另报告辐射冷却下连续发电"
+  },
+  {
+    "review_id": "M034",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两条材料→Seebeck系数关系均有直接依据。左侧摘要讨论离子导电但未明确热电压生成机制，不能仅凭离子凝胶或MWCNT判定热扩散、电子热电或混合机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧1 wt%样品的40°C离子电导提升不能移用于0.25 wt%样品的热电势系数，也不能视为右侧热电化学增益。左侧没有连续发电证据；右侧连续运行依赖辐射冷却提供温差。",
+    "neighbor_claim_ids": [
+      "iTE:P0548:r005"
+    ],
+    "local_structure_assessment": "r005限定优化只在三个MWCNT浓度之间成立；它与目标边共享主体，不构成两边因果链。仅有性能归属的单边对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧转换机制和两侧系数测试条件缺失；不能据性能指标推导添加剂策略可迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均为承担热电转换功能的凝胶材料，但配方与转换过程不同或未明。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "同属Seebeck系数指标，但1.70与32.4 mV/K是不同量值，机制可比性未建立。"
+      }
+    ],
+    "left_working_stage": "不同MWCNT浓度样品的热电性能表征",
+    "right_working_stage": "热电性能表征；集成器件另报告连续发电"
+  },
+  {
+    "review_id": "M035",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 2,
+    "level": "shared_outcome_only",
+    "explanation": "两摘要均直接支持材料→强近红外吸收，端点功能与关系方向清晰对应。所选边描述光学吸收，不应分别套用整篇论文的电子热电或热电化学机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧仅报告薄膜吸收性质，未证明吸收能转为有效热量或维持器件温差；右侧膜已有光热效率及自然日照下温差证据。光学表征与器件太阳光热运行阶段不能直接互换，微观吸收机制也未证实相同。",
+    "neighbor_claim_ids": [
+      "TG:P0202:r005",
+      "TG:P0202:r007"
+    ],
+    "local_structure_assessment": "右侧膜另有光热效率和热集中出边，明确其器件作用；这些是共享主体的并列边，不是吸收→光热→温差的冻结两边路径。跨论文仅目标单边对应成立。",
+    "transfer": "plausible_question",
+    "insight_question": "具有强近红外吸收的Cu3SnS4薄膜，在匹配日照与热边界的测试中，能否像右侧膜一样产生可测光热转换并维持热电化学器件温差？",
+    "limitations": "该问题是吸收功能向光热用途的探索，不是已验证迁移；左侧缺少光热效率、散热、柔性及器件集成证据。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "不同组成与形态的材料在所选关系中均承担近红外吸收体角色。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "两处均指强近红外光学吸收这一性质；不表示吸收谱、强度或微观机制相同。"
+      }
+    ],
+    "left_working_stage": "薄膜光学性质表征",
+    "right_working_stage": "膜吸收性质表征；用于太阳光热供热"
+  },
+  {
+    "review_id": "M036",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧支持准谐Debye模型中固体熵随温度变化，右侧支持电极电势随温度变化。共同依赖温度仅为形式相似，主体物理量及其作用不同。",
+    "conditions": "insufficient",
+    "physical_boundary": "固体热力学熵不是电极氧化还原反应熵，不能据其温度依赖推出电极电势系数。左侧为平衡性质计算，右侧用于不同温度下充放电的电化学循环，并非恒定温差下稳态发电。",
+    "neighbor_claim_ids": [
+      "iTE:P1480:r016"
+    ],
+    "local_structure_assessment": "r016说明同一固体熵还依赖压力；与温度边为并列依赖，不提供熵→电极电势路径。没有可辩护的跨图关系对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未给出固体熵与电极反应的联系，且左侧变化方向未指定；不可补造热力学因果链。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "固体熵与电极电势是不同物理量，所给文本未建立二者联系。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "均指热状态变量温度，但模型条件及温度使用阶段不同。"
+      }
+    ],
+    "left_working_stage": "准谐Debye模型热力学性质计算",
+    "right_working_stage": "热电化学效应背景；不同温度下充放电循环"
+  },
+  {
+    "review_id": "M037",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "surface_similarity",
+    "explanation": "两条材料描述均有摘要支持，仅在“材料被描述为无毒”这一子关系上有限对应；左侧还包含资源丰富和热电半导体属性。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为CuI半导体电子热电材料，右侧为氧化还原电对；无毒描述不能连接两种转换机制，也未给出可比较的毒性测试条件。两条描述均不限定运行阶段。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅有描述性单边对应，无邻接边支持机制路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "支持的是作者的无毒表述，并非独立毒理验证；不能据此提出物理迁移或材料替代结论。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "CuI半导体与硫酸根/亚硫酸根氧化还原电对是不同材料及功能实体。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "仅共享无毒属性；左侧复合描述还包含资源丰富及半导体类别。"
+      }
+    ],
+    "left_working_stage": "材料背景描述；未指定运行阶段",
+    "right_working_stage": "材料选择与描述；未指定运行阶段"
+  },
+  {
+    "review_id": "M038",
+    "left_support": "partial",
+    "right_support": "supported",
+    "left_physics": "thermogalvanic_redox",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧保留了冷端浓度增加这一共同因素，但冻结关系未保留摘要中超过LCST的机制条件。右侧直接支持热端产氢。捕获引起反应方向逆转与反应生成产物不构成同向关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧依赖超过LCST后的聚合物收缩及铁氰根分配，右侧依赖H2/H+反应和气液传输。前者是响应极性调控，后者是发电过程的电极反应；不能把热端捕获等同于热端产气，也不能仅由扩散字样认定离子热扩散。",
+    "neighbor_claim_ids": [
+      "iTE:P0434:r005",
+      "iTE:P0434:r008",
+      "TG:P0109:r005"
+    ],
+    "local_structure_assessment": "左侧r005→目标边形成材料→捕获→反应逆转的同文路径；r008是捕获的另一出边。右侧目标边与r005是同一反应指向热端生成和冷端消耗的分叉，不构成对应的两边链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "同属氧化还原相关热电过程不足以匹配所选关系；摘要未提供两种调控方式的直接比较。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "热端物种捕获是浓度调控过程，快速H2/H+反应是电极氧化还原过程。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "反应方向逆转与热端生成氢气分别是方向变化和产物生成。"
+      }
+    ],
+    "left_working_stage": "超过LCST后的温差响应与反应方向调控",
+    "right_working_stage": "温差发电中的热端产氢与冷端耗氢"
+  },
+  {
+    "review_id": "M039",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "shared_outcome_only",
+    "explanation": "两项性能结果均有摘要支持，但左侧是900 K下相对Cu2S的zT改善，右侧是基线未明确的热电势系数翻倍。泛化的性能提升不足以建立关系对应。",
+    "conditions": "conflict",
+    "physical_boundary": "左侧为900 K固体半导体表征，右侧面向低于100 ℃的水系热电池连续发电，运行条件不可直接互换。左侧掺杂同时提高电导率和热导率；右侧通过溶剂环境及抑制对流改善性能，不能等同于固体晶格热输运调控。",
+    "neighbor_claim_ids": [
+      "TG:P0278:r006"
+    ],
+    "local_structure_assessment": "右侧r006与目标边是同一电池的并列性能结果，不能构造热电势系数翻倍→功率提升的冻结两边因果链；无有效跨文单边对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "zT与热电势系数不是同一指标，右侧比较基线缺失；无共同参数控制实验支持迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "特定掺杂固体化合物与包含双相电解液的完整热电池不属于同一实体层级或物理实现。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均为热电性能结果，但综合优值zT与热电势系数的定义、比较基线和改善幅度不同。"
+      }
+    ],
+    "left_working_stage": "900 K热电性能表征",
+    "right_working_stage": "低品位热连续发电及性能表征"
+  },
+  {
+    "review_id": "M040",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧明确支持恒定输运电荷下电流密度增大伴随Zn沉积增多，右侧支持高温提高腐蚀体系钝化电流密度。电流密度在两边分别是输入和输出，所选方向及端点均不对应。",
+    "conditions": "conflict",
+    "physical_boundary": "左侧为固体混合导体高电场下的Zn电迁移退化，右侧为浓LiBr中合金的动电位腐蚀表征。所选过程分别是电迁移和腐蚀电化学，不能凭论文热电或热电偶腐蚀背景归为同一能量转换机制；加载条件与测试阶段亦不同。",
+    "neighbor_claim_ids": [
+      "TG:P0131:r002",
+      "TG:P0131:r003"
+    ],
+    "local_structure_assessment": "右侧邻边说明升温同时促进阴、阳极过程，均是高温的并列出边；没有钝化电流密度→Zn沉积的同文边，不能跨论文拼接温度→电流→沉积链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未建立两类退化过程的定量联系；右侧钝化电流不能替代左侧外加输运电流。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "电流密度变化和高温是不同控制变量。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "Zn沉积量是物质累积结果，钝化电流密度是腐蚀电化学响应量。"
+      }
+    ],
+    "left_working_stage": "通流加载后的成分与电迁移退化表征",
+    "right_working_stage": "不同温度下的动电位腐蚀表征"
+  },
+  {
+    "review_id": "M041",
+    "left_support": "supported",
+    "right_support": "partial",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧明确描述高于800 K时含可动Cu离子的类液态结构；右侧组成有依据，但冻结关系遗漏了添加Li2CrO4的形成限定。两者仅共享“包含组分”的语法，组分功能不对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为受压晶体的高温结构演化，右侧为溶液腐蚀中的保护膜；可动离子与钝化氧化物不是对应的传输单元。两条关系均未描述热电转换过程。",
+    "neighbor_claim_ids": [
+      "iTE:P1407:r003",
+      "TG:P0326:r009",
+      "TG:P0326:r013"
+    ],
+    "local_structure_assessment": "邻边分别确认刚性Se骨架及添加剂—钝化层—腐蚀降低路径；这些局部结构不形成跨论文对应的两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "右侧未提供具体温度；组成关系不能支持共同机制或迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "体相类液态结构与表面保护膜的结构位置及功能不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "可动Cu离子与Fe3O4氧化物组分不具备对应物理角色。"
+      }
+    ],
+    "left_working_stage": "高温单轴压缩下的结构模拟",
+    "right_working_stage": "腐蚀试验中的钝化层组成表征"
+  },
+  {
+    "review_id": "M042",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 2,
+    "level": "shared_outcome_only",
+    "explanation": "两篇摘要均明确支持“所制凝胶具有高透明度”的有向属性关系。凝胶承担类似材料角色，透明度概念对应，但这不构成热电转换机制对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "选中关系属于制备后光学属性表征。左侧仅提出离子热电应用潜力；右侧另有热原电池运行结果，不能据此给透明度关系指定红氧机制。缺少厚度、波段及透过率测试条件。",
+    "neighbor_claim_ids": [
+      "iTE:P0772:r001",
+      "TG:P0057:complete_v1_cr001",
+      "TG:P0057:r005"
+    ],
+    "local_structure_assessment": "两侧各自存在制备策略→凝胶→透明度路径，但制备策略不同；左侧未单独建立相互作用对透明度的因果作用。明确对应限于目标属性单边。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "高透明度是定性共同结果；没有足够证据提出具体机制迁移，也不能认定样品相同。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "两者均为透明柔性凝胶材料，但离子凝胶与PVA/gelation双网络凝胶的配方和结构不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "两处均指材料的高光学透明度，不意味着数值相等。"
+      }
+    ],
+    "left_working_stage": "制备后材料属性表征",
+    "right_working_stage": "二元溶剂制备后的材料属性表征"
+  },
+  {
+    "review_id": "M043",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "hybrid",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两侧归因均忠于摘要，但左侧是声子拖曳增强约20 K的电子热电势，右侧是热原电池与反向电渗析耦合提升输出功率。相同归因措辞不足以建立关系对应。",
+    "conditions": "conflict",
+    "physical_boundary": "左侧thermoelectric power指以mV/K表征的热电势，并非输出功率；右侧涉及温差与盐差共同驱动的电能输出。低温电子—声子过程与太阳蒸发装置的离子输运不能直接替换。",
+    "neighbor_claim_ids": [
+      "iTE:P0669:r004",
+      "TG:P0198:r002"
+    ],
+    "local_structure_assessment": "左侧有化学掺杂→抑制声子拖曳→热电势增强的有向路径，含抑制符号及背景范围；右侧邻边与目标边共享功率结果，仅为汇入结构，不是对应两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未给出可连接两类输运过程的模型；右侧布局和复合电极限定不能省略。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "声子拖曳与耦合装置中的协同离子输运涉及不同载流过程。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "热电势系数增强与输出功率增强是不同物理量。"
+      }
+    ],
+    "left_working_stage": "约20 K的低温热电势表征",
+    "right_working_stage": "太阳驱动蒸发与电能联合产生"
+  },
+  {
+    "review_id": "M044",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧为PVA生物相容性的背景陈述，右侧为具体水凝胶纤维尺寸。两条关系各有依据，但材料属性与几何尺寸没有可辩护的关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是材料选择依据，右侧是制备样品几何描述，均未选中能量转换关系。右侧虽明确使用Fe2+/Fe3+，也不能把尺寸关系判为红氧转换机制，或从尺寸推断生物相容性。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "所供邻边不能把生物相容性与纤维尺寸连接成对应路径；目标单边也不匹配。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "未给出左侧生物相容性测试条件，也未建立右侧尺寸与舒适性或生物相容性的因果关系。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "PVA聚合物与含PVA的多组分水凝胶纤维相关，但不是同一材料对象。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "生物相容性与直径、长度属于不同属性。"
+      }
+    ],
+    "left_working_stage": "材料选择背景，未指定测试阶段",
+    "right_working_stage": "制备后纤维几何描述"
+  },
+  {
+    "review_id": "M045",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "electronic_thermoelectric",
+    "match": 1,
+    "level": "surface_similarity",
+    "explanation": "两侧均支持材料具有层状结构这一有限对应；左侧是晶体内Se–Cu层，右侧是Co/Cu多层纳米线，不能据此认定相同结构作用机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为多温度衍射确定的平均晶体结构；右侧为直流电流下交流温度激励的自旋输运测量。原子层排列与纳米线多层构造尺度及作用不同，右侧的thermogalvanic名称不代表电极氧化还原热电池。",
+    "neighbor_claim_ids": [
+      "iTE:P1232:r002"
+    ],
+    "local_structure_assessment": "r002补充隔层间的额外铜，仅为同一主体的并列结构描述；无可对应的有向两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未给出两种层状结构共同影响热电响应的证据；电子热电分类来自摘要语境，目标边本身仅描述结构。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "Cu2−xSe平均晶体结构与Co/Cu纳米线不是同一材料或结构对象。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及层状排列，但特定Se–Cu晶体层不等同于Co/Cu多层构造。"
+      }
+    ],
+    "left_working_stage": "多温度晶体结构表征",
+    "right_working_stage": "样品结构描述；交流热响应表征"
+  },
+  {
+    "review_id": "M046",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "thermogalvanic_redox",
+    "right_physics": "thermogalvanic_redox",
+    "match": 2,
+    "level": "same_mechanism",
+    "explanation": "两侧明确描述利用氧化还原离子实现热电转换，方向和功能对应。右侧强调连续转换，左侧全文亦报告一小时连续放电，支持共同的热原电池机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "共同机制为氧化还原热原转换。左侧为石墨烯凝胶、323 K下的输运与放电性能，右侧侧重溶剂化及反应熵设计；不能直接互推配方效果或连续输出能力。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅有受支持的单边对应，无提供的邻接边可构成两边路径。",
+    "transfer": "already_similar_mechanism",
+    "insight_question": "",
+    "limitations": "目标均为背景概述；具体运行条件未对齐。已有相似机制仅指这两篇供给文献，不构成全面先例判断。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "采用氧化还原离子的凝胶热电池是热原电池的一类，范围不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均为热电转换，但右侧额外限定连续运行，不能抹除该限定。"
+      }
+    ],
+    "left_working_stage": "热电转换背景；全文含323 K连续放电",
+    "right_working_stage": "连续发电背景"
+  },
+  {
+    "review_id": "M047",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两侧均明确将离子描述为电荷载体，角色关系有有限对应；左侧涉及Soret效应，右侧涉及氧化还原活性离子，转换机制不同。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧通过离子热扩散形成热电压，右侧依赖电极氧化还原过程。相同载流角色不能推出反应熵、热扩散选择规律或输出时序可互换；左侧摘要未确定充放电模式。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "仅能支持载流角色的单边类比，无邻接路径证据。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "共同关系过于概括，未提供将左侧氢键调节规律迁移至右侧配体体系的直接依据。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均承担离子载流角色，但可移动离子与氧化还原活性离子的物理化学职责不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "两处均指承担电荷输运的载流子这一角色；角色相同不意味着转换机制相同。"
+      }
+    ],
+    "left_working_stage": "热电压形成的载流背景；具体时序未说明",
+    "right_working_stage": "热原电池运行的载流背景"
+  },
+  {
+    "review_id": "M048",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧支持CZ离子凝胶具有n型离子热电功能；右侧保留“似乎逐渐形成”的限定，支持Si分解层早期钝化解释。两者功能与关系含义不同，仅共享材料具有功能的表述。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为选择性离子输运产生温差电压，右侧为电池早期循环中抑制电解液分解的界面钝化。热电压形成与循环成膜阶段不可对应；热原谱用于诊断不等于该钝化关系属于热原发电机制。",
+    "neighbor_claim_ids": [
+      "iTE:P1345:r013",
+      "iTE:P1345:r015",
+      "TG:P0091:r005"
+    ],
+    "local_structure_assessment": "左侧r013说明阴离子输运与阳离子受限的共同作用，目标边接r015形成凝胶→n型功能→废热转换的同论文路径。右侧r005为主体指向后期钝化丧失的并列边，没有对应两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "右侧为表征支持的暂定钝化解释，后期会丧失；摘要未建立其与离子热扩散或n型热电功能的联系。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "体相纤维素离子凝胶与Si电极上的分解界面层是不同对象。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "n型热电转换功能与抑制电解液继续分解的钝化功能不同。"
+      }
+    ],
+    "left_working_stage": "温差下热电压形成与表征",
+    "right_working_stage": "早期电化学循环成膜及原位表征"
+  },
+  {
+    "review_id": "M049",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "other_unclear",
+    "match": 1,
+    "level": "surface_similarity",
+    "explanation": "两摘要均支持材料具有复杂晶体结构，存在有限的属性关系对应；但左侧讨论声子热输运，右侧讨论金属化的备选解释，不能据此对应机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧结构复杂性与低声速共同关联低晶格热导率；右侧异常限于特定几何和超结构取向，且体相类热电化学过程与近表面载流子重分布尚未区分。两者均非已对应的发电阶段证据。",
+    "neighbor_claim_ids": [
+      "iTE:P0831:r002",
+      "TG:P0240:r001",
+      "TG:P0240:r005"
+    ],
+    "local_structure_assessment": "邻边仅提供同一材料的并列属性及现象；没有结构节点出发的完整第二条因果边，仅能支持单边属性对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "复杂结构未给出可比较的具体结构参数；右侧机制为备选解释，不能由TG标签认定为氧化还原热电池。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "银碲化合物与高锰硅化物单晶是不同材料。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "均指晶体结构复杂这一概括性属性，不代表具体晶体结构相同。"
+      }
+    ],
+    "left_working_stage": "材料结构与热输运表征",
+    "right_working_stage": "特定几何和取向单晶的金属化现象表征"
+  },
+  {
+    "review_id": "M050",
+    "left_support": "partial",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "左侧高Seebeck系数及温度、应变条件有文本依据，但冻结声明未保留计算研究限定；右侧高系数得到直接支持。对应仅限于材料表现高热电压响应，不能建立共同转换机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧为800 K下应变固体的计算电子热电性质；右侧为光热驱动的铁氰化物氧化还原水凝胶，其热电压涉及反应熵。右侧未给温度范围，不能假设适用800 K；计算表征与器件供电示范也不是同一工作阶段。",
+    "neighbor_claim_ids": [
+      "iTE:P1915:r009",
+      "TG:P0191:r008",
+      "TG:P0191:complete_v1_cr001"
+    ],
+    "local_structure_assessment": "右侧存在制备→水凝胶→高Seebeck系数的同论文有向路径，但未证明制备策略导致系数提高；左侧没有对应两边路径。转换增强还依赖快速传热。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "两侧均缺可直接比较的Seebeck数值及测试条件；左侧300 K稳定性模拟不能验证800 K实际运行稳定性，也不能把所列优值当作Seebeck数值。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均充当热电转换材料，但分别为无机固体与含氧化还原对的复合水凝胶。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均描述温差电压响应强，但电子热电系数与氧化还原热电系数的物理来源不同，且高的基准未统一。"
+      }
+    ],
+    "left_working_stage": "800 K、指定应变下的计算性质表征",
+    "right_working_stage": "制备后热电性质表征及光热发电示范；稳态条件未说明"
+  },
+  {
+    "review_id": "M051",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "ionic_thermodiffusion",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧明确支持稀土掺杂离子性质影响晶格常数；右侧仅支持考察离子性质对热扩散特性的影响，未给变化方向。共同的离子性质措辞不足以连接晶体结构与溶液输运关系。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧涉及固体晶格中的掺杂离子及半径效应；右侧涉及298 K混合溶剂中可移动离子的热扩散，并借热电化学电池的初始、稳态电压推算。结构表征不能直接映射为热扩散或电极反应熵。",
+    "neighbor_claim_ids": [
+      "iTE:P1374:r007",
+      "TG:P0245:r006"
+    ],
+    "local_structure_assessment": "左侧半径减小→晶格常数减小是另一条入边；右侧溶剂组成→输运特性也是入边。均不能与目标边拼成两边有向因果链。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "右侧未报告效应方向，也未将离子性质限定为半径；左侧没有热电转换证据。不能将左侧半径趋势移植到右侧。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及离子种类或性质，但分别指晶格稀土掺杂离子与溶液中的H+、K+、Cl−。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "晶胞长度参数与Soret系数、输运熵等热扩散特性不是同一科学量。"
+      }
+    ],
+    "left_working_stage": "合成后晶体结构表征",
+    "right_working_stage": "初始及稳态热电压测量与298 K热扩散特性计算"
+  },
+  {
+    "review_id": "M052",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧支持聚合后溶剂交换诱导金属配体配位；右侧支持盐促均相电催化与电极异相电催化共同产生加和效应。加盐相关措辞没有建立配位成网与电催化之间的关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是制备阶段的Fe3+/SO4²−交换与网络形成；右侧是铁氰化物热电池运行中的电子转移动力学，必须保留铂或石墨异相催化这一共同因素。左侧含Fe3+及具有离子导电性均不能证明存在电极氧化还原催化。",
+    "neighbor_claim_ids": [
+      "iTE:P1818:r006"
+    ],
+    "local_structure_assessment": "左侧盐析与配位是溶剂交换的并列结果，不构成盐析→配位路径；右侧没有供应的邻边。不存在可匹配的两边路径，目标单边也不对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未证明左侧配位影响电子转移，也未证明右侧碱金属盐产生类似凝胶配位网络；左侧具体热电转换机制不能由该制备声明判定。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均涉及含盐处理，但溶剂交换成网与均相电子转移催化属于不同过程。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "金属配体配位是化学相互作用，加和电催化效应是两类催化共同作用的结果。"
+      }
+    ],
+    "left_working_stage": "聚合后的溶剂交换与网络形成",
+    "right_working_stage": "温差下热电化学发电及电催化性能表征"
+  },
+  {
+    "review_id": "M053",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "ionic_thermodiffusion",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "两摘要均支持所选过程产生电势差的方向；但离子选择性热扩散与电极氧化还原仅在热致产电功能上类比，不能视为同一机制。",
+    "conditions": "compatible",
+    "physical_boundary": "两侧均有温差驱动背景。左侧为离子热扩散产生电势，右侧为反应熵相关的电极电势并涉及电流；不能由左侧传感电压推断持续供电能力，也不能将离子迁移选择性直接等同于红氧反应熵调控。",
+    "neighbor_claim_ids": [
+      "TG:P0094:complete_v1_cr001",
+      "TG:P0094:complete_v1_cr003"
+    ],
+    "local_structure_assessment": "右侧存在同论文的“熵→电极红氧过程→电势差”有向路径，且红氧过程另产生电流；左侧无提供的对应上游边，仅可建立有限单边类比。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "背景关系得到支持，但摘要未提供两机制的可迁移设计参数或统一负载与时间响应比较。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均承担温差下产生电势的功能，物理实现分别为离子热扩散和电极红氧过程。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "均指两端电势差这一物理量，等同不延伸至产生机制或输出能力。"
+      }
+    ],
+    "left_working_stage": "温差下电势建立与热传感；背景机制",
+    "right_working_stage": "温差下热电化学发电；稳态细节未说明"
+  },
+  {
+    "review_id": "M054",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧明确描述储能阶段的双电层电容工作，右侧描述热充电的热电化学转换机制。两条关系虽均为器件采用某机制，但所指功能阶段不同，不能建立实质关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "双电层储能涉及界面电荷积累；右侧以铁氰化物红氧对实现热电化学转换，并另有赝电容储能。有限电容充放电与热电化学产电须分开；右侧也不能仅凭热电化学机制判为持续稳态电源。",
+    "neighbor_claim_ids": [
+      "iTE:P1007:r002",
+      "iTE:P1007:r010",
+      "TG:P0112:r001"
+    ],
+    "local_structure_assessment": "左侧邻边确认采能与储能集成及双电层储能指标，右侧邻边确认红氧凝胶器件构成。它们是器件发出的分支，未构成可对应的两边因果路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧机制分类对应所选双电层储能关系，不将论文的热扩散采能背景替换为目标机制；摘要缺少统一充放电条件。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均是集成热采能与储能的超级电容器，但属于不同结构与电解质体系。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "双电层电容工作是储能机制，热电化学效应是温差驱动的转换机制。"
+      }
+    ],
+    "left_working_stage": "储能与电容性能表征",
+    "right_working_stage": "热充电／热电化学能量转换"
+  },
+  {
+    "review_id": "M055",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两条“材料具有高透明度”关系均获摘要支持，仅在光学属性层面有限对应。左侧为材料背景性质，右侧为特定溶剂与双网络凝胶的研究结果，不支持透明化机制对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "所选关系均为光学性质，不直接表征热电转换。左文研究导电聚合物热电性能，右文研究热电化学凝胶；透明度相同不能连接两者的载流机制，也不能证明处理后光学性质一致。",
+    "neighbor_claim_ids": [
+      "TG:P0057:r005",
+      "TG:P0057:complete_v1_cr001"
+    ],
+    "local_structure_assessment": "右侧有同论文“引入二元溶剂→凝胶→高透明度”路径，并有溶剂直接使能透明度的边；左侧无对应制备路径，仅支持属性单边对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "无透过率、波长、厚度或左侧处理后透明度数据；不能提出有证据支撑的透明化策略迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "PEDOT:PSS与PVA/gelation双网络凝胶是不同材料体系，目标关系未建立相同设计角色。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "均指高光学透明度这一性质，但不表示定量透过率相同。"
+      }
+    ],
+    "left_working_stage": "背景材料性质描述；未指定测量阶段",
+    "right_working_stage": "制备后凝胶光学性质表征"
+  },
+  {
+    "review_id": "M056",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 1,
+    "level": "surface_similarity",
+    "explanation": "摘要分别支持PEDOT:PSS属于可水加工导电聚合物、离子聚合物器件可水加工。共同点只覆盖加工属性；左侧对象还包含导电聚合物类别，且材料与器件层级不同。",
+    "conditions": "insufficient",
+    "physical_boundary": "对应发生在制备阶段。左文涉及PEDOT电子载流与掺杂，右文讨论单极离子导体的多组分输运；右文未明确电极红氧化学，不能凭“thermogalvanic”命名判为红氧机制。水加工性不保证工作含水量或发电条件兼容。",
+    "neighbor_claim_ids": [
+      "TG:P0216:r003"
+    ],
+    "local_structure_assessment": "右侧邻边确认器件基于单极离子导电聚合物，与水加工性边构成共同主语的分支，不能串成因果路径。仅可保留加工属性的有限单边对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "两摘要均未给出可比较的水加工流程；所选关系不能确定热电转换机制或支持工艺迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "左侧是具体导电聚合物体系，右侧是基于单极离子导体的器件，实体层级及载流方式不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "共同包含可水加工性，但左侧复合概念还限定为导电聚合物，不能整体等同于右侧属性。"
+      }
+    ],
+    "left_working_stage": "制备相关的材料背景属性",
+    "right_working_stage": "器件制备与水加工性展示"
+  },
+  {
+    "review_id": "M057",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧摘要明确支持取代离子半径与晶胞参数同向减小；右侧支持给定温差下氧化还原对塞贝克系数决定可达电势差。两者的端点和关系作用均不对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是固溶体结构表征，所选边未描述电子热电转换；右侧是温差下的热电化学电压关系。晶格尺寸关联不能转作电极反应热力学关系，工作阶段也不同。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "未提供邻边；两条目标单边不构成可辩护的关系匹配。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未提供晶胞参数影响热电化学电压的桥接证据；不能借左文其他热电测量修补目标边。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "取代离子半径是结构尺度，氧化还原对塞贝克系数是电势的温度响应系数。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "晶胞参数与器件可达电势差是不同物理量。"
+      }
+    ],
+    "left_working_stage": "结构表征",
+    "right_working_stage": "给定温差下的电压形成（背景关系）"
+  },
+  {
+    "review_id": "M058",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧忠实保留了DFT固体熵的温度依赖及未定符号；右侧忠实记录了作者所称平衡电极电势随温度快速变化。共有温度变量不足以建立关系对应。",
+    "conditions": "insufficient",
+    "physical_boundary": "固体总熵与电极反应相关热力学量不能等同。左侧为计算表征，右侧为热原电池稳态理论；原文将电势温度依赖称为电极动力学，也不能据此认定测得反应速率。",
+    "neighbor_claim_ids": [],
+    "local_structure_assessment": "左侧邻边只是其他性质对温度的并列依赖，不能构成熵到电极电势的有向两边路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "未给出熵或电势温度依赖的定量关系；右侧“快速”不提供时间尺度证据。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "equivalent_in_context",
+        "reason": "两侧均指作为自变量的热力学温度，但实验或计算条件未对齐。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "所研究固体的熵与平衡电极电势不是同一概念或同类输出。"
+      }
+    ],
+    "left_working_stage": "DFT热力学性质表征",
+    "right_working_stage": "稳态热原电池理论分析"
+  },
+  {
+    "review_id": "M059",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两侧温度依赖均获摘要支持，但左侧是由热电势测量获得的电子密度，右侧是用于电化学热循环的电极电势。相同依赖谓词和温度端点不能建立有意义的关系匹配。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧涉及施主电离与氧空位控制的电子密度，并受氧分压影响；右侧以不同温度下充放电的电压差取热。材料输运表征与电化学循环阶段不同，不能直接迁移温度响应或效率。",
+    "neighbor_claim_ids": [
+      "iTE:P1477:r003",
+      "iTE:P1477:r004",
+      "iTE:P1477:r006"
+    ],
+    "local_structure_assessment": "邻边明确电子密度的缺陷及氧分压背景；施主或空位→电子密度→温度虽可按图连接，末边是依赖关系，不能解释为缺陷导致温度变化，也无右侧对应路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左侧未报告电子密度温度依赖的符号；右侧循环效率不能归因于这一跨文配对。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "电子数密度与电极电势具有不同物理含义和功能。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "两侧均指温度这一状态变量，不表示温区或运行方式相同。"
+      }
+    ],
+    "left_working_stage": "变温及变氧分压输运表征",
+    "right_working_stage": "不同温度下电化学充放电循环"
+  },
+  {
+    "review_id": "M060",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "左侧电子密度依赖温度、右侧NaOH溶解度依赖温度均有明确依据。右侧所选关系属于溶解及水合物相变背景；整机为混合电池并不使该边成为热原电压机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是固体缺陷控制的电子密度表征；右侧利用溶解度温度依赖及蒸馏共同维持浓差。水合物熔化与电子施主电离不能等同，浓差维持阶段也不同于输运表征。",
+    "neighbor_claim_ids": [
+      "iTE:P1477:r003",
+      "iTE:P1477:r004",
+      "iTE:P1477:r006"
+    ],
+    "local_structure_assessment": "左侧邻边限定缺陷和氧分压背景，没有与右侧溶解度关系对应的两边路径；不能把摘要中的浓差维持关系补成冻结图中的邻边。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "右侧仅提出概念并计算效率；目标单边未声称溶解度独自维持浓差。两侧均缺少可比较的温度响应数据。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "电子密度与NaOH溶解度分别描述载流子数量和溶解平衡，不能因都涉及浓度而等同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "equivalent_in_context",
+        "reason": "两侧均使用温度这一状态变量，但未给出可对齐的条件。"
+      }
+    ],
+    "left_working_stage": "变温及变氧分压输运表征",
+    "right_working_stage": "拟议混合电池的浓差维持与效率计算"
+  },
+  {
+    "review_id": "M061",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "analogous_different_mechanisms",
+    "explanation": "左侧明确将电子热电势提升归于离子交换调节PEDOT掺杂；右侧明确归于离子诱导结晶与纳米通道控制的共同作用。可作离子处理改善热电响应的有限类比，但不能将右侧联合效应简化为离子交换效应。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧是制备后掺杂调节所影响的电子热电势；右侧是GelMA中铁氰化物氧化还原体系的热电响应，且含结构联合因素。制备过程可以类比，但运行时的电子输运与电化学电势来源不同；摘要未分离右侧各因素贡献。",
+    "neighbor_claim_ids": [
+      "iTE:P0454:r005",
+      "iTE:P0454:r006",
+      "TG:P0027:r002",
+      "TG:P0027:r003"
+    ],
+    "local_structure_assessment": "左侧存在后处理→离子交换→Seebeck系数提高的同文有向路径；右侧存在GdmCl添加→离子诱导结晶→系数提高的同文路径。两者仅有干预—中介—响应的结构类比；右侧所选边仍须保留纳米通道联合因素。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "支持的是作者摘要中的归因，不是机制独立验证；共同使用离子处理和Seebeck指标不足以支持具体物理迁移。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "analogous_role",
+        "reason": "均充当添加剂引发的材料改变过程，但离子交换与结晶是不同物理过程。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均表征温差电压响应，但分别为电子热电势与热电化学系数，物理来源不同。"
+      }
+    ],
+    "left_working_stage": "离子液体后处理及随后热电性能表征",
+    "right_working_stage": "水凝胶制备与结构调控后热电化学性能表征"
+  },
+  {
+    "review_id": "M062",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "other_unclear",
+    "right_physics": "other_unclear",
+    "match": 0,
+    "level": "surface_similarity",
+    "explanation": "两条组成关系均获摘要支持，但CuI/NC样品包含沉积CuI薄膜与聚合物网络吸收混合溶剂仅共享泛化的包含关系，组成对象和功能均不相当。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧描述SILAR形成的固体薄膜，右侧描述网络吸收的液体组分；沉积层与溶剂吸收不能直接互换。所选边属于材料组成表征，不描述能量转换步骤，不能从右侧界面名称补出电极反应。",
+    "neighbor_claim_ids": [
+      "iTE:P1067:r011",
+      "TG:P0012:complete_v1_cr001"
+    ],
+    "local_structure_assessment": "左侧可形成样品→CuI薄膜→CuI晶体的组成路径；右侧为界面→聚合物网络→吸收溶剂。路径分别成立，但层级位置和组分功能不同，不构成机制或因果路径对应。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "左文另述电子输运，但所选组成边本身不表达转换机制；右文未交代电极化学。不能由包含关系推导性能改善。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "different",
+        "reason": "左侧为完整CuI/NC复合样品，右侧为界面中的聚合物网络，材料与层级均不同。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "different",
+        "reason": "半导体CuI固体薄膜与网络吸收的甘油/水混合溶剂不具备相同组成或已证实的相似功能。"
+      }
+    ],
+    "left_working_stage": "制备后薄膜组成与结构表征",
+    "right_working_stage": "水凝胶制备与组成描述"
+  },
+  {
+    "review_id": "M063",
+    "left_support": "supported",
+    "right_support": "supported",
+    "left_physics": "electronic_thermoelectric",
+    "right_physics": "thermogalvanic_redox",
+    "match": 1,
+    "level": "shared_outcome_only",
+    "explanation": "两侧均支持计算所得Seebeck系数高于各自参照的定向比较，但左侧比较两种Heusler化合物，右侧比较氢电极热电池与经典热电发电机。对应仅限比较关系与指标，不能转译为共同增强机制。",
+    "conditions": "insufficient",
+    "physical_boundary": "左侧涉及自旋电子能带及温度、化学势条件；右侧涉及氢气电极和质子交换膜的电化学热响应。两侧均为计算评估，但参照体系、边界条件及系数物理来源不同；不能据系数排序推出功率或效率排序。",
+    "neighbor_claim_ids": [
+      "TG:P0317:r003"
+    ],
+    "local_structure_assessment": "右侧邻边明确预测系数属于氢电极热电池，并可接其高于经典发电机的比较边；左侧无所供邻边。只能支持单条比较关系的有限对应，不能建立成对机制路径。",
+    "transfer": "not_supported",
+    "insight_question": "",
+    "limitations": "摘要未给出统一温度、化学势、气体状态或经典发电机参照清单，不能进行跨论文定量排序；均为预测而非实验验证。",
+    "endpoint_maps": [
+      {
+        "left_endpoint": "subject",
+        "right_endpoint": "subject",
+        "kind": "related_not_equivalent",
+        "reason": "均为被比较体系的Seebeck系数，但分别来自Co2VAl电子输运和氢电极热电池。"
+      },
+      {
+        "left_endpoint": "object",
+        "right_endpoint": "object",
+        "kind": "related_not_equivalent",
+        "reason": "均为比较基准的热电系数，但特定Co2VGa系数不等于未具体限定的经典发电机系数集合。"
+      }
+    ],
+    "left_working_stage": "电子输运计算表征",
+    "right_working_stage": "温差发电工况的非平衡热力学模拟"
+  }
+]

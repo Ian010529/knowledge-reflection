@@ -1,0 +1,1001 @@
+[
+  {
+    "paper_id": "P0687",
+    "title": "Data driven screening of electrolyte matrix-ion pairs with enhanced seebeck coefficients in thermoelectrochemical cells",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Here we report a machine learning based framework to predict the seebeck coefficient of ionic thermoelectric materials composed of matrix-ion donor combinations for thermoelectrochemical applications. "
+      },
+      {
+        "id": 1,
+        "text": "A dataset of 73 ionic thermoelectric samples was compiled from published literature, and molecular descriptors for both matrix materials and ion donors were extracted using the RDKit toolkit. "
+      },
+      {
+        "id": 2,
+        "text": "Recursive feature elimination was employed to identify an optimal subset of 12 descriptors, enabling accurate prediction with minimized feature parameters. "
+      },
+      {
+        "id": 3,
+        "text": "Interpretable SHAP and correlation analyses identified FractionCSP3 and molecular weight as key determinants of thermoelectric performance. "
+      },
+      {
+        "id": 4,
+        "text": "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. "
+      },
+      {
+        "id": 5,
+        "text": "The ensemble results identified several high-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems, with predicted seebeck coefficients reaching up to 38.73 mV K-1 . "
+      },
+      {
+        "id": 6,
+        "text": "This study demonstrates that an interpretable machine-learning model with reduced feature dimensionality can effectively accelerate the discovery of high-performance ionic thermoelectric materials for wearable thermoelectrochemical applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0687:n1",
+        "label": "Machine-learning framework for matrix-ion donor combinations",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0687:n2",
+        "label": "Seebeck coefficient of ionic thermoelectric materials",
+        "role": "quantity"
+      },
+      {
+        "id": "P0687:n3",
+        "label": "Recursive feature elimination",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0687:n4",
+        "label": "Optimal subset of 12 molecular descriptors",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0687:n5",
+        "label": "Accurate prediction with minimized feature parameters",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0687:n6",
+        "label": "FractionCSP3",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0687:n8",
+        "label": "Thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0687:n7",
+        "label": "Molecular weight",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0687:n9",
+        "label": "Decision Tree, Extra Trees, and Random Forest methods",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0687:n10",
+        "label": "Highest predictive accuracy among fifteen evaluated models",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0687:n11",
+        "label": "Weighted ensemble of Decision Tree, Extra Trees, and Random Forest",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0687:n12",
+        "label": "Seebeck-coefficient predictions for 100 unseen matrix-ion donor systems",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0687:n13",
+        "label": "High-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0687:n14",
+        "label": "Predicted Seebeck coefficients reaching 38.73 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0687:n15",
+        "label": "Accelerated discovery of ionic thermoelectric materials for wearable thermoelectrochemical applications",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0687:r001",
+        "subject": "Machine-learning framework for matrix-ion donor combinations",
+        "subject_role": "design_strategy",
+        "predicate": "predicts",
+        "object": "Seebeck coefficient of ionic thermoelectric materials",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Matrix-ion donor combinations for thermoelectrochemical applications",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Here we report a machine learning based framework to predict the seebeck coefficient of ionic thermoelectric materials composed of matrix-ion donor combinations for thermoelectrochemical applications. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we report a machine learning based framework to predict the seebeck coefficient of ionic thermoelectric materials composed of matrix-ion donor combinations for thermoelectrochemical applications. "
+        ],
+        "subject_id": "P0687:n1",
+        "object_id": "P0687:n2"
+      },
+      {
+        "relation_id": "P0687:r002",
+        "subject": "Recursive feature elimination",
+        "subject_role": "design_strategy",
+        "predicate": "identifies",
+        "object": "Optimal subset of 12 molecular descriptors",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Dataset of 73 literature samples; RDKit descriptors for matrices and ion donors",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "A dataset of 73 ionic thermoelectric samples was compiled from published literature, and molecular descriptors for both matrix materials and ion donors were extracted using the RDKit toolkit. ",
+        "context_quotes": [
+          "Recursive feature elimination was employed to identify an optimal subset of 12 descriptors, enabling accurate prediction with minimized feature parameters. "
+        ],
+        "modality_evidence": [
+          "A dataset of 73 ionic thermoelectric samples was compiled from published literature, and molecular descriptors for both matrix materials and ion donors were extracted using the RDKit toolkit. ",
+          "Recursive feature elimination was employed to identify an optimal subset of 12 descriptors, enabling accurate prediction with minimized feature parameters. "
+        ],
+        "subject_id": "P0687:n3",
+        "object_id": "P0687:n4"
+      },
+      {
+        "relation_id": "P0687:r003",
+        "subject": "Optimal subset of 12 molecular descriptors",
+        "subject_role": "descriptor",
+        "predicate": "enables",
+        "object": "Accurate prediction with minimized feature parameters",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Recursive-feature-elimination-selected subset",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Recursive feature elimination was employed to identify an optimal subset of 12 descriptors, enabling accurate prediction with minimized feature parameters. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Recursive feature elimination was employed to identify an optimal subset of 12 descriptors, enabling accurate prediction with minimized feature parameters. "
+        ],
+        "subject_id": "P0687:n4",
+        "object_id": "P0687:n5"
+      },
+      {
+        "relation_id": "P0687:r004",
+        "subject": "FractionCSP3",
+        "subject_role": "descriptor",
+        "predicate": "is identified as a key determinant of",
+        "object": "Thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Interpretable SHAP and correlation analyses; effect direction unspecified",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Interpretable SHAP and correlation analyses identified FractionCSP3 and molecular weight as key determinants of thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Interpretable SHAP and correlation analyses identified FractionCSP3 and molecular weight as key determinants of thermoelectric performance. "
+        ],
+        "subject_id": "P0687:n6",
+        "object_id": "P0687:n8"
+      },
+      {
+        "relation_id": "P0687:r005",
+        "subject": "Molecular weight",
+        "subject_role": "descriptor",
+        "predicate": "is identified as a key determinant of",
+        "object": "Thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Interpretable SHAP and correlation analyses; effect direction unspecified",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Interpretable SHAP and correlation analyses identified FractionCSP3 and molecular weight as key determinants of thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Interpretable SHAP and correlation analyses identified FractionCSP3 and molecular weight as key determinants of thermoelectric performance. "
+        ],
+        "subject_id": "P0687:n7",
+        "object_id": "P0687:n8"
+      },
+      {
+        "relation_id": "P0687:r006",
+        "subject": "Decision Tree, Extra Trees, and Random Forest methods",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Highest predictive accuracy among fifteen evaluated models",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Comparison among fifteen models",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. "
+        ],
+        "subject_id": "P0687:n9",
+        "object_id": "P0687:n10"
+      },
+      {
+        "relation_id": "P0687:r007",
+        "subject": "Weighted ensemble of Decision Tree, Extra Trees, and Random Forest",
+        "subject_role": "design_strategy",
+        "predicate": "robustly produces",
+        "object": "Seebeck-coefficient predictions for 100 unseen matrix-ion donor systems",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. "
+        ],
+        "subject_id": "P0687:n11",
+        "object_id": "P0687:n12"
+      },
+      {
+        "relation_id": "P0687:r008",
+        "subject": "Weighted ensemble of Decision Tree, Extra Trees, and Random Forest",
+        "subject_role": "design_strategy",
+        "predicate": "identifies",
+        "object": "High-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Ensemble predictions for previously unseen systems",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. ",
+        "context_quotes": [
+          "The ensemble results identified several high-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems, with predicted seebeck coefficients reaching up to 38.73 mV K-1 . "
+        ],
+        "modality_evidence": [
+          "Among fifteen evaluated models, Decision Tree-based methods Decision Tree, Extra Trees, Random Forest achieved the highest predictive accuracy and were combined in a weighted ensemble to robustly predict seebeck coefficients for 100 previously unseen matrix-ion donor systems. ",
+          "The ensemble results identified several high-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems, with predicted seebeck coefficients reaching up to 38.73 mV K-1 . "
+        ],
+        "subject_id": "P0687:n11",
+        "object_id": "P0687:n13"
+      },
+      {
+        "relation_id": "P0687:r009",
+        "subject": "High-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems",
+        "subject_role": "material_entity",
+        "predicate": "has predicted values reaching",
+        "object": "Predicted Seebeck coefficients reaching 38.73 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Ensemble predictions; maximum not assigned to a particular named matrix",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The ensemble results identified several high-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems, with predicted seebeck coefficients reaching up to 38.73 mV K-1 . ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The ensemble results identified several high-performance candidates, particularly polyurethane-, cellulose-, and polyvinylalcohol-based systems, with predicted seebeck coefficients reaching up to 38.73 mV K-1 . "
+        ],
+        "subject_id": "P0687:n13",
+        "object_id": "P0687:n14"
+      },
+      {
+        "relation_id": "P0687:r010",
+        "subject": "Machine-learning framework for matrix-ion donor combinations",
+        "subject_role": "design_strategy",
+        "predicate": "can accelerate",
+        "object": "Accelerated discovery of ionic thermoelectric materials for wearable thermoelectrochemical applications",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Interpretable model with reduced feature dimensionality",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "This study demonstrates that an interpretable machine-learning model with reduced feature dimensionality can effectively accelerate the discovery of high-performance ionic thermoelectric materials for wearable thermoelectrochemical applications.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study demonstrates that an interpretable machine-learning model with reduced feature dimensionality can effectively accelerate the discovery of high-performance ionic thermoelectric materials for wearable thermoelectrochemical applications."
+        ],
+        "subject_id": "P0687:n1",
+        "object_id": "P0687:n15"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0688",
+    "title": "Simultaneous Increases in Electrical Conductivity and Seebeck Coefficient of PEDOT:PSS Films by Adding Ionic Liquids into a Polymer Solution",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The electrical conductivity and Seebeck coefficient of poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate) (PEDOT:PSS) films were simultaneously improved by adding an ionic liquid (IL) into a polymer solution of the polymers. "
+      },
+      {
+        "id": 1,
+        "text": "The maximum electrical conductivity of such a PEDOT:PSS/IL film reached 174 S cm(-1), more than an order of magnitude higher than that of pure PEDOT:PSS film, and the maximum Seebeck coefficient was up to 30 mu V K-1, more than twice the value for pure PEDOT:PSS film. "
+      },
+      {
+        "id": 2,
+        "text": "This behavior is different from conventional thermoelectric (TE) materials, whose TE properties are strongly correlated, such as increasing electrical conductivity with increasing carrier concentration, usually resulting in a logarithmic decrease in Seebeck coefficient. "
+      },
+      {
+        "id": 3,
+        "text": "Atomic force microscopy images of the PEDOT:PSS/IL films indicated that the ILs induced formation of a particular three-dimensional structure of highly conducting PEDOT grains, resulting in improvement of the TE performance of PEDOT:PSS films."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0688:n1",
+        "label": "Ionic-liquid addition to PEDOT:PSS polymer solution",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0688:n2",
+        "label": "Electrical conductivity of PEDOT:PSS films",
+        "role": "quantity"
+      },
+      {
+        "id": "P0688:n3",
+        "label": "Seebeck coefficient of PEDOT:PSS films",
+        "role": "quantity"
+      },
+      {
+        "id": "P0688:n4",
+        "label": "PEDOT:PSS/IL film",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0688:n5",
+        "label": "Maximum electrical conductivity of 174 S cm−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0688:n6",
+        "label": "Maximum Seebeck coefficient of 30 μV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0688:n7",
+        "label": "Three-dimensional structure of highly conducting PEDOT grains",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0688:n8",
+        "label": "Thermoelectric performance of PEDOT:PSS films",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0688:r001",
+        "subject": "Ionic-liquid addition to PEDOT:PSS polymer solution",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Electrical conductivity of PEDOT:PSS films",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Simultaneously with increased Seebeck coefficient",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity and Seebeck coefficient of poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate) (PEDOT:PSS) films were simultaneously improved by adding an ionic liquid (IL) into a polymer solution of the polymers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0688:n1",
+        "object_id": "P0688:n2"
+      },
+      {
+        "relation_id": "P0688:r002",
+        "subject": "Ionic-liquid addition to PEDOT:PSS polymer solution",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Seebeck coefficient of PEDOT:PSS films",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Simultaneously with increased electrical conductivity",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity and Seebeck coefficient of poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate) (PEDOT:PSS) films were simultaneously improved by adding an ionic liquid (IL) into a polymer solution of the polymers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0688:n1",
+        "object_id": "P0688:n3"
+      },
+      {
+        "relation_id": "P0688:r003",
+        "subject": "PEDOT:PSS/IL film",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Maximum electrical conductivity of 174 S cm−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "More than an order of magnitude above pure PEDOT:PSS film",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The maximum electrical conductivity of such a PEDOT:PSS/IL film reached 174 S cm(-1), more than an order of magnitude higher than that of pure PEDOT:PSS film, and the maximum Seebeck coefficient was up to 30 mu V K-1, more than twice the value for pure PEDOT:PSS film. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0688:n4",
+        "object_id": "P0688:n5"
+      },
+      {
+        "relation_id": "P0688:r004",
+        "subject": "PEDOT:PSS/IL film",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Maximum Seebeck coefficient of 30 μV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "More than twice the value of pure PEDOT:PSS film",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The maximum electrical conductivity of such a PEDOT:PSS/IL film reached 174 S cm(-1), more than an order of magnitude higher than that of pure PEDOT:PSS film, and the maximum Seebeck coefficient was up to 30 mu V K-1, more than twice the value for pure PEDOT:PSS film. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0688:n4",
+        "object_id": "P0688:n6"
+      },
+      {
+        "relation_id": "P0688:r005",
+        "subject": "Ionic-liquid addition to PEDOT:PSS polymer solution",
+        "subject_role": "design_strategy",
+        "predicate": "induces formation of",
+        "object": "Three-dimensional structure of highly conducting PEDOT grains",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Indicated by atomic force microscopy images",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Atomic force microscopy images of the PEDOT:PSS/IL films indicated that the ILs induced formation of a particular three-dimensional structure of highly conducting PEDOT grains, resulting in improvement of the TE performance of PEDOT:PSS films.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Atomic force microscopy images of the PEDOT:PSS/IL films indicated that the ILs induced formation of a particular three-dimensional structure of highly conducting PEDOT grains, resulting in improvement of the TE performance of PEDOT:PSS films."
+        ],
+        "subject_id": "P0688:n1",
+        "object_id": "P0688:n7"
+      },
+      {
+        "relation_id": "P0688:r006",
+        "subject": "Three-dimensional structure of highly conducting PEDOT grains",
+        "subject_role": "state_structure",
+        "predicate": "improves",
+        "object": "Thermoelectric performance of PEDOT:PSS films",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Structural explanation based on atomic force microscopy images",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Atomic force microscopy images of the PEDOT:PSS/IL films indicated that the ILs induced formation of a particular three-dimensional structure of highly conducting PEDOT grains, resulting in improvement of the TE performance of PEDOT:PSS films.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Atomic force microscopy images of the PEDOT:PSS/IL films indicated that the ILs induced formation of a particular three-dimensional structure of highly conducting PEDOT grains, resulting in improvement of the TE performance of PEDOT:PSS films."
+        ],
+        "subject_id": "P0688:n7",
+        "object_id": "P0688:n8"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0689",
+    "title": "Giant and bidirectionally tunable thermopower in nonaqueous ionogels enabled by selective ion doping",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectrics show great potential in thermal sensing owing to their ultrahigh thermopower, low cost, and ease in production. "
+      },
+      {
+        "id": 1,
+        "text": "However, the lack of effective n-type ionic thermoelectric materials seriously hinders their applications. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we report giant and bidirectionally tunable thermopowers within an ultrawide range from -15 to +17 mV K-1 in solid ionic liquid-based ionogels. "
+      },
+      {
+        "id": 3,
+        "text": "Particularly, a record high negative thermopower of -15 mV K-1 is achieved in the ternary ionogel, rendering it among the best n-type ionic thermoelectric materials under the same condition. "
+      },
+      {
+        "id": 4,
+        "text": "A thermopower regulation strategy through ion doping to selectively induce ion aggregates to enhance ion-ion interactions is proposed. "
+      },
+      {
+        "id": 5,
+        "text": "These selective ion interactions are found to be decisive in modulating the sign and magnitude of the thermopower in the ionogels. "
+      },
+      {
+        "id": 6,
+        "text": "A prototype wearable device integrated with 12 p-n pairs is demonstrated with a total thermopower of 0.358 V K-1, showing promise for ultrasensitive thermal detection."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0689:n1",
+        "label": "Solid ionic-liquid-based ionogels",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0689:n2",
+        "label": "Bidirectionally tunable thermopower from −15 to +17 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0689:n3",
+        "label": "Ternary ionogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0689:n4",
+        "label": "Negative thermopower of −15 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0689:n5",
+        "label": "Selective ion doping",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0689:n6",
+        "label": "Selective ion aggregate formation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0689:n7",
+        "label": "Ion-ion interactions",
+        "role": "interaction"
+      },
+      {
+        "id": "P0689:n8",
+        "label": "Thermopower sign",
+        "role": "quantity"
+      },
+      {
+        "id": "P0689:n9",
+        "label": "Thermopower magnitude",
+        "role": "quantity"
+      },
+      {
+        "id": "P0689:n10",
+        "label": "Prototype wearable device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0689:n11",
+        "label": "Integration of 12 p-n pairs",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0689:n12",
+        "label": "Total thermopower of 0.358 V K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0689:n13",
+        "label": "Ultrasensitive thermal detection",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0689:r001",
+        "subject": "Solid ionic-liquid-based ionogels",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Bidirectionally tunable thermopower from −15 to +17 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we report giant and bidirectionally tunable thermopowers within an ultrawide range from -15 to +17 mV K-1 in solid ionic liquid-based ionogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n1",
+        "object_id": "P0689:n2"
+      },
+      {
+        "relation_id": "P0689:r002",
+        "subject": "Ternary ionogel",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Negative thermopower of −15 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Reported record high negative thermopower; among the best n-type ionic thermoelectric materials under the same unspecified condition",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Particularly, a record high negative thermopower of -15 mV K-1 is achieved in the ternary ionogel, rendering it among the best n-type ionic thermoelectric materials under the same condition. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n3",
+        "object_id": "P0689:n4"
+      },
+      {
+        "relation_id": "P0689:r003",
+        "subject": "Selective ion doping",
+        "subject_role": "design_strategy",
+        "predicate": "is proposed to induce",
+        "object": "Selective ion aggregate formation",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Thermopower regulation strategy",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A thermopower regulation strategy through ion doping to selectively induce ion aggregates to enhance ion-ion interactions is proposed. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n5",
+        "object_id": "P0689:n6"
+      },
+      {
+        "relation_id": "P0689:r004",
+        "subject": "Selective ion aggregate formation",
+        "subject_role": "mechanism_process",
+        "predicate": "is proposed to enhance",
+        "object": "Ion-ion interactions",
+        "object_role": "interaction",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Selective ion doping strategy",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A thermopower regulation strategy through ion doping to selectively induce ion aggregates to enhance ion-ion interactions is proposed. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n6",
+        "object_id": "P0689:n7"
+      },
+      {
+        "relation_id": "P0689:r005",
+        "subject": "Ion-ion interactions",
+        "subject_role": "interaction",
+        "predicate": "decisively modulates",
+        "object": "Thermopower sign",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Selective ion interactions in ionogels",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "A thermopower regulation strategy through ion doping to selectively induce ion aggregates to enhance ion-ion interactions is proposed. ",
+        "context_quotes": [
+          "These selective ion interactions are found to be decisive in modulating the sign and magnitude of the thermopower in the ionogels. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0689:n7",
+        "object_id": "P0689:n8"
+      },
+      {
+        "relation_id": "P0689:r006",
+        "subject": "Ion-ion interactions",
+        "subject_role": "interaction",
+        "predicate": "decisively modulates",
+        "object": "Thermopower magnitude",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Selective ion interactions in ionogels",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "A thermopower regulation strategy through ion doping to selectively induce ion aggregates to enhance ion-ion interactions is proposed. ",
+        "context_quotes": [
+          "These selective ion interactions are found to be decisive in modulating the sign and magnitude of the thermopower in the ionogels. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0689:n7",
+        "object_id": "P0689:n9"
+      },
+      {
+        "relation_id": "P0689:r007",
+        "subject": "Prototype wearable device",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Integration of 12 p-n pairs",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A prototype wearable device integrated with 12 p-n pairs is demonstrated with a total thermopower of 0.358 V K-1, showing promise for ultrasensitive thermal detection.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n10",
+        "object_id": "P0689:n11"
+      },
+      {
+        "relation_id": "P0689:r008",
+        "subject": "Prototype wearable device",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Total thermopower of 0.358 V K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Integrated with 12 p-n pairs",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A prototype wearable device integrated with 12 p-n pairs is demonstrated with a total thermopower of 0.358 V K-1, showing promise for ultrasensitive thermal detection.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n10",
+        "object_id": "P0689:n12"
+      },
+      {
+        "relation_id": "P0689:r009",
+        "subject": "Prototype wearable device",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Ultrasensitive thermal detection",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A prototype wearable device integrated with 12 p-n pairs is demonstrated with a total thermopower of 0.358 V K-1, showing promise for ultrasensitive thermal detection.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0689:n10",
+        "object_id": "P0689:n13"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0690",
+    "title": "Great thermoelectric power factor enhancement of CoSb3 through the lightest metal element filling",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Lithium, the lightest metal element with a small ionic radius, is successfully filled into the voids of CoSb3 by utilizing the high pressure synthesis technique. "
+      },
+      {
+        "id": 1,
+        "text": "The synthesized Li0.4Co4Sb12 shows the largest thermoelectric power factor of 6000 mu W m(-1) K-2 among all elemental filled CoSb3 materials. "
+      },
+      {
+        "id": 2,
+        "text": "This significantly enhanced thermoelectric power factor is attributed to the large carrier mobility of Li0.4Co4Sb12, 61 cm(2) V-1 s(-1), featuring a good electron crystal property for the Li-filled CoSb3 samples. "
+      },
+      {
+        "id": 3,
+        "text": "(C) 2011 American Institute of Physics. [doi:10.1063/1.3557068]"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0690:n1",
+        "label": "High-pressure synthesis",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0690:n2",
+        "label": "Lithium filling of CoSb3 voids",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0690:n3",
+        "label": "Lithium",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0690:n4",
+        "label": "Small ionic radius",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0690:n5",
+        "label": "Lightest metal element",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0690:n6",
+        "label": "Li0.4Co4Sb12",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0690:n7",
+        "label": "Thermoelectric power factor of 6000 μW m−1 K−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0690:n8",
+        "label": "Carrier mobility of 61 cm2 V−1 s−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0690:n9",
+        "label": "Good electron-crystal property",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0690:r001",
+        "subject": "High-pressure synthesis",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Lithium filling of CoSb3 voids",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Lithium, the lightest metal element with a small ionic radius, is successfully filled into the voids of CoSb3 by utilizing the high pressure synthesis technique. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Lithium, the lightest metal element with a small ionic radius, is successfully filled into the voids of CoSb3 by utilizing the high pressure synthesis technique. "
+        ],
+        "subject_id": "P0690:n1",
+        "object_id": "P0690:n2"
+      },
+      {
+        "relation_id": "P0690:r002",
+        "subject": "Lithium",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Small ionic radius",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Lithium, the lightest metal element with a small ionic radius, is successfully filled into the voids of CoSb3 by utilizing the high pressure synthesis technique. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0690:n3",
+        "object_id": "P0690:n4"
+      },
+      {
+        "relation_id": "P0690:r003",
+        "subject": "Lithium",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Lightest metal element",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Lithium, the lightest metal element with a small ionic radius, is successfully filled into the voids of CoSb3 by utilizing the high pressure synthesis technique. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0690:n3",
+        "object_id": "P0690:n5"
+      },
+      {
+        "relation_id": "P0690:r004",
+        "subject": "Li0.4Co4Sb12",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Thermoelectric power factor of 6000 μW m−1 K−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Largest among all elemental-filled CoSb3 materials",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The synthesized Li0.4Co4Sb12 shows the largest thermoelectric power factor of 6000 mu W m(-1) K-2 among all elemental filled CoSb3 materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0690:n6",
+        "object_id": "P0690:n7"
+      },
+      {
+        "relation_id": "P0690:r005",
+        "subject": "Li0.4Co4Sb12",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Carrier mobility of 61 cm2 V−1 s−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This significantly enhanced thermoelectric power factor is attributed to the large carrier mobility of Li0.4Co4Sb12, 61 cm(2) V-1 s(-1), featuring a good electron crystal property for the Li-filled CoSb3 samples. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0690:n6",
+        "object_id": "P0690:n8"
+      },
+      {
+        "relation_id": "P0690:r006",
+        "subject": "Carrier mobility of 61 cm2 V−1 s−1",
+        "subject_role": "quantity",
+        "predicate": "accounts for enhancement of",
+        "object": "Thermoelectric power factor of 6000 μW m−1 K−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Li0.4Co4Sb12",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The synthesized Li0.4Co4Sb12 shows the largest thermoelectric power factor of 6000 mu W m(-1) K-2 among all elemental filled CoSb3 materials. ",
+        "context_quotes": [
+          "This significantly enhanced thermoelectric power factor is attributed to the large carrier mobility of Li0.4Co4Sb12, 61 cm(2) V-1 s(-1), featuring a good electron crystal property for the Li-filled CoSb3 samples. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0690:n8",
+        "object_id": "P0690:n7"
+      },
+      {
+        "relation_id": "P0690:r007",
+        "subject": "Carrier mobility of 61 cm2 V−1 s−1",
+        "subject_role": "quantity",
+        "predicate": "indicates",
+        "object": "Good electron-crystal property",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Li-filled CoSb3 samples",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This significantly enhanced thermoelectric power factor is attributed to the large carrier mobility of Li0.4Co4Sb12, 61 cm(2) V-1 s(-1), featuring a good electron crystal property for the Li-filled CoSb3 samples. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0690:n8",
+        "object_id": "P0690:n9"
+      }
+    ]
+  }
+]

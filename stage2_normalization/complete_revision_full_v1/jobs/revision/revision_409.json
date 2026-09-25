@@ -1,0 +1,1224 @@
+[
+  {
+    "paper_id": "P1665",
+    "title": "Charge Regulation and pH Effects on Thermo-Osmotic Conversion",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermo-osmotic energy conversion using waste heat is one of the approaches to harvesting sustainable energy and reducing associated environmental impacts simultaneously. "
+      },
+      {
+        "id": 1,
+        "text": "In principle, ions transport through a charged nanopore membrane under the effect of a thermal gradient, inducing a different voltage between two sides of the membrane. "
+      },
+      {
+        "id": 2,
+        "text": "Recent publications mainly reported novel materials for enhancing the thermoelectric voltage in response to temperature difference, the so-called Seebeck coefficient. "
+      },
+      {
+        "id": 3,
+        "text": "However, the effect of the surface charge distribution along nanopores on thermo-osmotic conversion has not been discussed yet. "
+      },
+      {
+        "id": 4,
+        "text": "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. "
+      },
+      {
+        "id": 5,
+        "text": "The results show that the highest ionic Seebeck coefficient of -0.64 mV/K is obtained at 10(-4) M KCl solution and pH 9. "
+      },
+      {
+        "id": 6,
+        "text": "The pH level and pore structure also reveal a strong effect on the thermo-osmotic performance. "
+      },
+      {
+        "id": 7,
+        "text": "Moreover, the pH level at one reservoir is varied from 5 to 9, while the pH of 5 is fixed at the other reservoir to investigate the pH effect on the thermos-osmosis ion transport. "
+      },
+      {
+        "id": 8,
+        "text": "The results confirm the feasibility that using the pH can enhance the thermo-osmotic conversion for harvesting osmotic power from low-grade heat energy."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1665:n1",
+        "label": "10^-4 M KCl solution at pH 9",
+        "role": "condition"
+      },
+      {
+        "id": "P1665:n2",
+        "label": "Highest ionic Seebeck coefficient: -0.64 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P1665:n3",
+        "label": "pH level",
+        "role": "condition"
+      },
+      {
+        "id": "P1665:n5",
+        "label": "Thermo-osmotic performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1665:n4",
+        "label": "Pore structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1665:n6",
+        "label": "pH control",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1665:n7",
+        "label": "Enhanced thermo-osmotic conversion",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1665:n8",
+        "label": "Osmotic power harvesting from low-grade heat",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1665:r001",
+        "subject": "10^-4 M KCl solution at pH 9",
+        "subject_role": "condition",
+        "predicate": "yields",
+        "object": "Highest ionic Seebeck coefficient: -0.64 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Numerical simulation coupling Nernst–Planck–Poisson, Navier–Stokes and heat-transfer equations; highest among studied conditions.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. ",
+        "context_quotes": [
+          "The results show that the highest ionic Seebeck coefficient of -0.64 mV/K is obtained at 10(-4) M KCl solution and pH 9. "
+        ],
+        "modality_evidence": [
+          "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. "
+        ],
+        "subject_id": "P1665:n1",
+        "object_id": "P1665:n2"
+      },
+      {
+        "relation_id": "P1665:r002",
+        "subject": "pH level",
+        "subject_role": "condition",
+        "predicate": "strongly affects",
+        "object": "Thermo-osmotic performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Coupled Nernst–Planck–Poisson, Navier–Stokes and heat-transfer simulation; effect direction unspecified.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. ",
+        "context_quotes": [
+          "The pH level and pore structure also reveal a strong effect on the thermo-osmotic performance. "
+        ],
+        "modality_evidence": [
+          "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. "
+        ],
+        "subject_id": "P1665:n3",
+        "object_id": "P1665:n5"
+      },
+      {
+        "relation_id": "P1665:r003",
+        "subject": "Pore structure",
+        "subject_role": "state_structure",
+        "predicate": "strongly affects",
+        "object": "Thermo-osmotic performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Coupled Nernst–Planck–Poisson, Navier–Stokes and heat-transfer simulation; effect direction unspecified.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. ",
+        "context_quotes": [
+          "The pH level and pore structure also reveal a strong effect on the thermo-osmotic performance. "
+        ],
+        "modality_evidence": [
+          "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. "
+        ],
+        "subject_id": "P1665:n4",
+        "object_id": "P1665:n5"
+      },
+      {
+        "relation_id": "P1665:r004",
+        "subject": "pH control",
+        "subject_role": "design_strategy",
+        "predicate": "can enable",
+        "object": "Enhanced thermo-osmotic conversion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Simulation establishes feasibility; one reservoir varied from pH 5 to 9 with the other fixed at pH 5.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. ",
+        "context_quotes": [
+          "Moreover, the pH level at one reservoir is varied from 5 to 9, while the pH of 5 is fixed at the other reservoir to investigate the pH effect on the thermos-osmosis ion transport. ",
+          "The results confirm the feasibility that using the pH can enhance the thermo-osmotic conversion for harvesting osmotic power from low-grade heat energy."
+        ],
+        "modality_evidence": [
+          "In this paper, a numerical simulation based on the Nernst-Planck-Poisson equations, Navier-Stokes equations, and heat transfer equations is carried out to consider the effect of surface charge-regulation density and pH of KCl solutions on the Seebeck coefficient. "
+        ],
+        "subject_id": "P1665:n6",
+        "object_id": "P1665:n7"
+      },
+      {
+        "relation_id": "P1665:r005",
+        "subject": "pH control",
+        "subject_role": "design_strategy",
+        "predicate": "is proposed for",
+        "object": "Osmotic power harvesting from low-grade heat",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Through enhanced thermo-osmotic conversion.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The results confirm the feasibility that using the pH can enhance the thermo-osmotic conversion for harvesting osmotic power from low-grade heat energy.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1665:n6",
+        "object_id": "P1665:n8"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1666",
+    "title": "Highly flexible and stable green perovskite light-emitting diodes based on IL-modified PEDOT:PSS film",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Flexible light-emitting diodes (LEDs) are highly sought-after for various applications, such as wearable medical devices, decorative lighting, and flexible displays. "
+      },
+      {
+        "id": 1,
+        "text": "Perovskite-based LEDs, due to their low cost, ease of fabrication, and high color purity, have attracted significant attention as promising candidates for modern display technology. "
+      },
+      {
+        "id": 2,
+        "text": "However, a primary challenge remains in selecting a bottom anode that provides both high electrical conductivity and optical transmittance while maintaining mechanical robustness to endure rigorous bending. "
+      },
+      {
+        "id": 3,
+        "text": "To address this issue, a highly flexible and stable ionic liquid (IL)-modified poly(3,4-ethylene dioxythiophene) polystyrene sulfonate (PEDOT:PSS) bottom anode was developed for high-performance flexible perovskite LEDs (PeLEDs). "
+      },
+      {
+        "id": 4,
+        "text": "The addition of 1-ethyl-3-methylimidazolium tetracyanoborate (EMIM TCB) IL initiates a depthdependent rearrangement of the PEDOT and PSS moieties within the PEDOT:PSS film and improves its conductivity by orders of magnitude. "
+      },
+      {
+        "id": 5,
+        "text": "Additionally, the IL increases the work function of the PEDOT:PSS layer, leading to a reduced barrier for hole injection. "
+      },
+      {
+        "id": 6,
+        "text": "The fabricated flexible green PeLEDs exhibited pure green emission at 520 nm with a maximum external quantum efficiency (EQE) of 11.6% and maximum luminance of 25566.8 cd/m(2). "
+      },
+      {
+        "id": 7,
+        "text": "Remarkably, the device retained 85% of its initial luminance after 5000 bending cycles at a 5 mm bending radius."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1666:anode",
+        "label": "IL-modified PEDOT:PSS bottom anode",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1666:flex",
+        "label": "High flexibility and stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1666:il",
+        "label": "EMIM TCB ionic liquid addition",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1666:rearrange",
+        "label": "Depth-dependent rearrangement of PEDOT and PSS moieties",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1666:conductivity",
+        "label": "PEDOT:PSS conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1666:wf",
+        "label": "PEDOT:PSS work function",
+        "role": "quantity"
+      },
+      {
+        "id": "P1666:barrier",
+        "label": "Hole-injection barrier",
+        "role": "quantity"
+      },
+      {
+        "id": "P1666:led",
+        "label": "Fabricated flexible green PeLEDs",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1666:emission",
+        "label": "Pure green emission at 520 nm",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1666:eqe",
+        "label": "Maximum EQE of 11.6%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1666:luminance",
+        "label": "Maximum luminance of 25566.8 cd/m²",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1666:retention",
+        "label": "85% initial luminance retention",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1666:r001",
+        "subject": "IL-modified PEDOT:PSS bottom anode",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "High flexibility and stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address this issue, a highly flexible and stable ionic liquid (IL)-modified poly(3,4-ethylene dioxythiophene) polystyrene sulfonate (PEDOT:PSS) bottom anode was developed for high-performance flexible perovskite LEDs (PeLEDs). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:anode",
+        "object_id": "P1666:flex"
+      },
+      {
+        "relation_id": "P1666:r002",
+        "subject": "EMIM TCB ionic liquid addition",
+        "subject_role": "design_strategy",
+        "predicate": "initiates",
+        "object": "Depth-dependent rearrangement of PEDOT and PSS moieties",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Within the PEDOT:PSS film",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The addition of 1-ethyl-3-methylimidazolium tetracyanoborate (EMIM TCB) IL initiates a depthdependent rearrangement of the PEDOT and PSS moieties within the PEDOT:PSS film and improves its conductivity by orders of magnitude. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:il",
+        "object_id": "P1666:rearrange"
+      },
+      {
+        "relation_id": "P1666:r003",
+        "subject": "EMIM TCB ionic liquid addition",
+        "subject_role": "design_strategy",
+        "predicate": "increases_by_orders_of_magnitude",
+        "object": "PEDOT:PSS conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The addition of 1-ethyl-3-methylimidazolium tetracyanoborate (EMIM TCB) IL initiates a depthdependent rearrangement of the PEDOT and PSS moieties within the PEDOT:PSS film and improves its conductivity by orders of magnitude. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:il",
+        "object_id": "P1666:conductivity"
+      },
+      {
+        "relation_id": "P1666:r004",
+        "subject": "EMIM TCB ionic liquid addition",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "PEDOT:PSS work function",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The addition of 1-ethyl-3-methylimidazolium tetracyanoborate (EMIM TCB) IL initiates a depthdependent rearrangement of the PEDOT and PSS moieties within the PEDOT:PSS film and improves its conductivity by orders of magnitude. ",
+        "context_quotes": [
+          "Additionally, the IL increases the work function of the PEDOT:PSS layer, leading to a reduced barrier for hole injection. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1666:il",
+        "object_id": "P1666:wf"
+      },
+      {
+        "relation_id": "P1666:r005",
+        "subject": "PEDOT:PSS work function",
+        "subject_role": "quantity",
+        "predicate": "increase_reduces",
+        "object": "Hole-injection barrier",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Additionally, the IL increases the work function of the PEDOT:PSS layer, leading to a reduced barrier for hole injection. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:wf",
+        "object_id": "P1666:barrier"
+      },
+      {
+        "relation_id": "P1666:r006",
+        "subject": "Fabricated flexible green PeLEDs",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Pure green emission at 520 nm",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The fabricated flexible green PeLEDs exhibited pure green emission at 520 nm with a maximum external quantum efficiency (EQE) of 11.6% and maximum luminance of 25566.8 cd/m(2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:led",
+        "object_id": "P1666:emission"
+      },
+      {
+        "relation_id": "P1666:r007",
+        "subject": "Fabricated flexible green PeLEDs",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum EQE of 11.6%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The fabricated flexible green PeLEDs exhibited pure green emission at 520 nm with a maximum external quantum efficiency (EQE) of 11.6% and maximum luminance of 25566.8 cd/m(2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:led",
+        "object_id": "P1666:eqe"
+      },
+      {
+        "relation_id": "P1666:r008",
+        "subject": "Fabricated flexible green PeLEDs",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum luminance of 25566.8 cd/m²",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The fabricated flexible green PeLEDs exhibited pure green emission at 520 nm with a maximum external quantum efficiency (EQE) of 11.6% and maximum luminance of 25566.8 cd/m(2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1666:led",
+        "object_id": "P1666:luminance"
+      },
+      {
+        "relation_id": "P1666:r009",
+        "subject": "Fabricated flexible green PeLEDs",
+        "subject_role": "material_entity",
+        "predicate": "retains",
+        "object": "85% initial luminance retention",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "After 5000 bending cycles at a 5 mm bending radius",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The fabricated flexible green PeLEDs exhibited pure green emission at 520 nm with a maximum external quantum efficiency (EQE) of 11.6% and maximum luminance of 25566.8 cd/m(2). ",
+        "context_quotes": [
+          "Remarkably, the device retained 85% of its initial luminance after 5000 bending cycles at a 5 mm bending radius."
+        ],
+        "modality_evidence": [
+          "Remarkably, the device retained 85% of its initial luminance after 5000 bending cycles at a 5 mm bending radius."
+        ],
+        "subject_id": "P1666:led",
+        "object_id": "P1666:retention"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1667",
+    "title": "Additive manufacturing and characterization of AgI and AgI-Al2O3 composite electrolytes for resistive switching devices",
+    "segments": [
+      {
+        "id": 0,
+        "text": "This work investigates the electrochemical dynamics and performance of additively manufactured composite electrolytes for resistive switching. "
+      },
+      {
+        "id": 1,
+        "text": "Devices are comprised of a Ag/AgI-Al2O3/Pt stack, where the solid state electrolyte is additively manufactured using extrusion techniques. "
+      },
+      {
+        "id": 2,
+        "text": "AgI-Al2O3 composite electrolytes are characterized by x-ray diffraction and electrochemical impedance spectroscopy. "
+      },
+      {
+        "id": 3,
+        "text": "The ionic conductivities of the electrolytes were measured for different concentrations of Al2O3, observing a maximum conductivity of 4.5 times the conductivity of pure AgI for composites with 20mol.% Al2O3. "
+      },
+      {
+        "id": 4,
+        "text": "There was little change in activation energy with the addition of Al2O3. "
+      },
+      {
+        "id": 5,
+        "text": "Setting the Ag layer as the positive electrode and the Pt layer as the negative electrode, a high conductivity state was achieved by applying a voltage to electrochemically establish an electrically conducting Ag filament within the solid state AgI-Al2O3 electrolyte. "
+      },
+      {
+        "id": 6,
+        "text": "The low conductivity state was restored by reversing this applied voltage to electrochemically etch the newly grown Ag filament. "
+      },
+      {
+        "id": 7,
+        "text": "Pure AgI devices switch between specific electrical resistivity states that are separated by five orders of magnitude in electrical conductivity. "
+      },
+      {
+        "id": 8,
+        "text": "Endurance tests find that the AgI resistive switches can transition between a low and high electrical conductivity state over 8500 times. "
+      },
+      {
+        "id": 9,
+        "text": "Composite AgI-Al2O3 resistive switches formed initial Ag filaments significantly faster and also demonstrated two orders of magnitude separation in resistivity when cycling for 1600 cycles."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1667:extrusion",
+        "label": "Extrusion additive manufacturing",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1667:composite",
+        "label": "AgI–Al2O3 solid electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1667:loading",
+        "label": "Al2O3 concentration",
+        "role": "condition"
+      },
+      {
+        "id": "P1667:conductivity",
+        "label": "Electrolyte ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1667:maxcond",
+        "label": "Maximum ionic conductivity: 4.5 times pure AgI",
+        "role": "quantity"
+      },
+      {
+        "id": "P1667:addition",
+        "label": "Al2O3 addition",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1667:activation",
+        "label": "Ionic-conduction activation energy",
+        "role": "quantity"
+      },
+      {
+        "id": "P1667:forward",
+        "label": "Applied voltage with Ag positive and Pt negative",
+        "role": "condition"
+      },
+      {
+        "id": "P1667:growth",
+        "label": "Electrochemical growth of conducting Ag filament inside electrolyte",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1667:high",
+        "label": "High electrical conductivity state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1667:reverse",
+        "label": "Reversal of applied voltage",
+        "role": "condition"
+      },
+      {
+        "id": "P1667:etch",
+        "label": "Electrochemical etching of newly grown Ag filament",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1667:low",
+        "label": "Low electrical conductivity state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1667:pure",
+        "label": "Pure AgI resistive switch",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1667:separation",
+        "label": "Switching states separated by five orders of magnitude in electrical conductivity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1667:endurance",
+        "label": "Over 8500 transitions between low and high conductivity states",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1667:device",
+        "label": "Composite AgI–Al2O3 resistive switch",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1667:faster",
+        "label": "Significantly faster initial Ag-filament formation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1667:compositeseparation",
+        "label": "Two orders of magnitude resistivity separation",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1667:r001",
+        "subject": "Extrusion additive manufacturing",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "AgI–Al2O3 solid electrolyte",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Devices are comprised of a Ag/AgI-Al2O3/Pt stack, where the solid state electrolyte is additively manufactured using extrusion techniques. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Devices are comprised of a Ag/AgI-Al2O3/Pt stack, where the solid state electrolyte is additively manufactured using extrusion techniques. "
+        ],
+        "subject_id": "P1667:extrusion",
+        "object_id": "P1667:composite"
+      },
+      {
+        "relation_id": "P1667:r003",
+        "subject": "Al2O3 concentration",
+        "subject_role": "condition",
+        "predicate": "is_associated_with_variation_in",
+        "object": "Electrolyte ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The ionic conductivities of the electrolytes were measured for different concentrations of Al2O3, observing a maximum conductivity of 4.5 times the conductivity of pure AgI for composites with 20mol.% Al2O3. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The ionic conductivities of the electrolytes were measured for different concentrations of Al2O3, observing a maximum conductivity of 4.5 times the conductivity of pure AgI for composites with 20mol.% Al2O3. "
+        ],
+        "subject_id": "P1667:loading",
+        "object_id": "P1667:conductivity"
+      },
+      {
+        "relation_id": "P1667:r004",
+        "subject": "AgI–Al2O3 solid electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Maximum ionic conductivity: 4.5 times pure AgI",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "20 mol.% Al2O3; comparison with pure AgI",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The ionic conductivities of the electrolytes were measured for different concentrations of Al2O3, observing a maximum conductivity of 4.5 times the conductivity of pure AgI for composites with 20mol.% Al2O3. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The ionic conductivities of the electrolytes were measured for different concentrations of Al2O3, observing a maximum conductivity of 4.5 times the conductivity of pure AgI for composites with 20mol.% Al2O3. "
+        ],
+        "subject_id": "P1667:composite",
+        "object_id": "P1667:maxcond"
+      },
+      {
+        "relation_id": "P1667:r005",
+        "subject": "Al2O3 addition",
+        "subject_role": "design_strategy",
+        "predicate": "causes_little_change_in",
+        "object": "Ionic-conduction activation energy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "There was little change in activation energy with the addition of Al2O3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1667:addition",
+        "object_id": "P1667:activation"
+      },
+      {
+        "relation_id": "P1667:r006",
+        "subject": "Applied voltage with Ag positive and Pt negative",
+        "subject_role": "condition",
+        "predicate": "induces",
+        "object": "Electrochemical growth of conducting Ag filament inside electrolyte",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "In solid AgI–Al2O3 electrolyte",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Setting the Ag layer as the positive electrode and the Pt layer as the negative electrode, a high conductivity state was achieved by applying a voltage to electrochemically establish an electrically conducting Ag filament within the solid state AgI-Al2O3 electrolyte. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Setting the Ag layer as the positive electrode and the Pt layer as the negative electrode, a high conductivity state was achieved by applying a voltage to electrochemically establish an electrically conducting Ag filament within the solid state AgI-Al2O3 electrolyte. "
+        ],
+        "subject_id": "P1667:forward",
+        "object_id": "P1667:growth"
+      },
+      {
+        "relation_id": "P1667:r007",
+        "subject": "Electrochemical growth of conducting Ag filament inside electrolyte",
+        "subject_role": "mechanism_process",
+        "predicate": "establishes",
+        "object": "High electrical conductivity state",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Setting the Ag layer as the positive electrode and the Pt layer as the negative electrode, a high conductivity state was achieved by applying a voltage to electrochemically establish an electrically conducting Ag filament within the solid state AgI-Al2O3 electrolyte. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Setting the Ag layer as the positive electrode and the Pt layer as the negative electrode, a high conductivity state was achieved by applying a voltage to electrochemically establish an electrically conducting Ag filament within the solid state AgI-Al2O3 electrolyte. "
+        ],
+        "subject_id": "P1667:growth",
+        "object_id": "P1667:high"
+      },
+      {
+        "relation_id": "P1667:r008",
+        "subject": "Reversal of applied voltage",
+        "subject_role": "condition",
+        "predicate": "induces",
+        "object": "Electrochemical etching of newly grown Ag filament",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Setting the Ag layer as the positive electrode and the Pt layer as the negative electrode, a high conductivity state was achieved by applying a voltage to electrochemically establish an electrically conducting Ag filament within the solid state AgI-Al2O3 electrolyte. ",
+        "context_quotes": [
+          "The low conductivity state was restored by reversing this applied voltage to electrochemically etch the newly grown Ag filament. "
+        ],
+        "modality_evidence": [
+          "The low conductivity state was restored by reversing this applied voltage to electrochemically etch the newly grown Ag filament. "
+        ],
+        "subject_id": "P1667:reverse",
+        "object_id": "P1667:etch"
+      },
+      {
+        "relation_id": "P1667:r009",
+        "subject": "Electrochemical etching of newly grown Ag filament",
+        "subject_role": "mechanism_process",
+        "predicate": "restores",
+        "object": "Low electrical conductivity state",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The low conductivity state was restored by reversing this applied voltage to electrochemically etch the newly grown Ag filament. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The low conductivity state was restored by reversing this applied voltage to electrochemically etch the newly grown Ag filament. "
+        ],
+        "subject_id": "P1667:etch",
+        "object_id": "P1667:low"
+      },
+      {
+        "relation_id": "P1667:r010",
+        "subject": "Pure AgI resistive switch",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Switching states separated by five orders of magnitude in electrical conductivity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Pure AgI devices switch between specific electrical resistivity states that are separated by five orders of magnitude in electrical conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1667:pure",
+        "object_id": "P1667:separation"
+      },
+      {
+        "relation_id": "P1667:r011",
+        "subject": "Pure AgI resistive switch",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Over 8500 transitions between low and high conductivity states",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Endurance tests",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Endurance tests find that the AgI resistive switches can transition between a low and high electrical conductivity state over 8500 times. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Endurance tests find that the AgI resistive switches can transition between a low and high electrical conductivity state over 8500 times. "
+        ],
+        "subject_id": "P1667:pure",
+        "object_id": "P1667:endurance"
+      },
+      {
+        "relation_id": "P1667:r012",
+        "subject": "Composite AgI–Al2O3 resistive switch",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Significantly faster initial Ag-filament formation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison in context with pure AgI switches; comparator not explicitly repeated",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Pure AgI devices switch between specific electrical resistivity states that are separated by five orders of magnitude in electrical conductivity. ",
+        "context_quotes": [
+          "Composite AgI-Al2O3 resistive switches formed initial Ag filaments significantly faster and also demonstrated two orders of magnitude separation in resistivity when cycling for 1600 cycles."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1667:device",
+        "object_id": "P1667:faster"
+      },
+      {
+        "relation_id": "P1667:r013",
+        "subject": "Composite AgI–Al2O3 resistive switch",
+        "subject_role": "material_entity",
+        "predicate": "maintains",
+        "object": "Two orders of magnitude resistivity separation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "During 1600 switching cycles",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Composite AgI-Al2O3 resistive switches formed initial Ag filaments significantly faster and also demonstrated two orders of magnitude separation in resistivity when cycling for 1600 cycles.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Composite AgI-Al2O3 resistive switches formed initial Ag filaments significantly faster and also demonstrated two orders of magnitude separation in resistivity when cycling for 1600 cycles."
+        ],
+        "subject_id": "P1667:device",
+        "object_id": "P1667:compositeseparation"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1668",
+    "title": "High thermal radiation of Ca-doped lanthanum chromite",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Calcium-doped lanthanum chromite, La1-xCaxCrO3, was prepared using a solid-state reaction method, and the effect of varying the Ca content (0 <= x <= 0.5) was investigated in relation to its crystalline structure, surface morphology, solar absorption and thermal radiation. "
+      },
+      {
+        "id": 1,
+        "text": "This found that the crystalline structure is slightly distorted by Ca2+ doping, with an accompanying increase in the valence state of Cr ions and oxygen vacancies enhancing both the solar absorption and thermal emittance. "
+      },
+      {
+        "id": 2,
+        "text": "Overall, the La1-xCaxCrO3 system displays relatively high thermal radiation properties, with an optimal composition of La0.5Ca0.5CrO3 exhibiting a solar absorption of 95% and a thermal emittance of 0.94. "
+      },
+      {
+        "id": 3,
+        "text": "When used as a light absorber coupled to a thermoelectric module this proved capable of generating electricity and hot water, thereby demonstrating the suitability of this energy-saving material for use in solar thermal radiation applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1668:reaction",
+        "label": "Solid-state reaction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1668:material",
+        "label": "La1−xCaxCrO3, 0 ≤ x ≤ 0.5",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1668:doping",
+        "label": "Ca2+ doping of lanthanum chromite",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1668:distortion",
+        "label": "Slight crystalline-structure distortion",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1668:cr",
+        "label": "Increased Cr-ion valence state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1668:vacancies",
+        "label": "Oxygen vacancies",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1668:absorption",
+        "label": "Solar absorption",
+        "role": "quantity"
+      },
+      {
+        "id": "P1668:emittance",
+        "label": "Thermal emittance",
+        "role": "quantity"
+      },
+      {
+        "id": "P1668:radiation",
+        "label": "Relatively high thermal radiation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1668:optimal",
+        "label": "Optimal composition La0.5Ca0.5CrO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1668:abs95",
+        "label": "Solar absorption of 95%",
+        "role": "quantity"
+      },
+      {
+        "id": "P1668:emit094",
+        "label": "Thermal emittance of 0.94",
+        "role": "quantity"
+      },
+      {
+        "id": "P1668:coupling",
+        "label": "Use as light absorber coupled to a thermoelectric module",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1668:electricity",
+        "label": "Electricity generation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1668:water",
+        "label": "Hot-water production",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1668:use",
+        "label": "Solar thermal radiation applications",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1668:r001",
+        "subject": "Solid-state reaction",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "La1−xCaxCrO3, 0 ≤ x ≤ 0.5",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Calcium-doped lanthanum chromite, La1-xCaxCrO3, was prepared using a solid-state reaction method, and the effect of varying the Ca content (0 <= x <= 0.5) was investigated in relation to its crystalline structure, surface morphology, solar absorption and thermal radiation. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Calcium-doped lanthanum chromite, La1-xCaxCrO3, was prepared using a solid-state reaction method, and the effect of varying the Ca content (0 <= x <= 0.5) was investigated in relation to its crystalline structure, surface morphology, solar absorption and thermal radiation. "
+        ],
+        "subject_id": "P1668:reaction",
+        "object_id": "P1668:material"
+      },
+      {
+        "relation_id": "P1668:r002",
+        "subject": "Ca2+ doping of lanthanum chromite",
+        "subject_role": "design_strategy",
+        "predicate": "causes",
+        "object": "Slight crystalline-structure distortion",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This found that the crystalline structure is slightly distorted by Ca2+ doping, with an accompanying increase in the valence state of Cr ions and oxygen vacancies enhancing both the solar absorption and thermal emittance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:doping",
+        "object_id": "P1668:distortion"
+      },
+      {
+        "relation_id": "P1668:r003",
+        "subject": "Ca2+ doping of lanthanum chromite",
+        "subject_role": "design_strategy",
+        "predicate": "is_accompanied_by",
+        "object": "Increased Cr-ion valence state",
+        "object_role": "state_structure",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This found that the crystalline structure is slightly distorted by Ca2+ doping, with an accompanying increase in the valence state of Cr ions and oxygen vacancies enhancing both the solar absorption and thermal emittance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:doping",
+        "object_id": "P1668:cr"
+      },
+      {
+        "relation_id": "P1668:r004",
+        "subject": "Ca2+ doping of lanthanum chromite",
+        "subject_role": "design_strategy",
+        "predicate": "is_associated_with",
+        "object": "Oxygen vacancies",
+        "object_role": "state_structure",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This found that the crystalline structure is slightly distorted by Ca2+ doping, with an accompanying increase in the valence state of Cr ions and oxygen vacancies enhancing both the solar absorption and thermal emittance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:doping",
+        "object_id": "P1668:vacancies"
+      },
+      {
+        "relation_id": "P1668:r005",
+        "subject": "Increased Cr-ion valence state",
+        "subject_role": "state_structure",
+        "predicate": "jointly_enhances",
+        "object": "Solar absorption",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Increased Cr-ion valence state",
+          "Oxygen vacancies"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This found that the crystalline structure is slightly distorted by Ca2+ doping, with an accompanying increase in the valence state of Cr ions and oxygen vacancies enhancing both the solar absorption and thermal emittance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:cr",
+        "object_id": "P1668:absorption"
+      },
+      {
+        "relation_id": "P1668:r006",
+        "subject": "Increased Cr-ion valence state",
+        "subject_role": "state_structure",
+        "predicate": "jointly_enhances",
+        "object": "Thermal emittance",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Increased Cr-ion valence state",
+          "Oxygen vacancies"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This found that the crystalline structure is slightly distorted by Ca2+ doping, with an accompanying increase in the valence state of Cr ions and oxygen vacancies enhancing both the solar absorption and thermal emittance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:cr",
+        "object_id": "P1668:emittance"
+      },
+      {
+        "relation_id": "P1668:r007",
+        "subject": "La1−xCaxCrO3, 0 ≤ x ≤ 0.5",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Relatively high thermal radiation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Overall, the La1-xCaxCrO3 system displays relatively high thermal radiation properties, with an optimal composition of La0.5Ca0.5CrO3 exhibiting a solar absorption of 95% and a thermal emittance of 0.94. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:material",
+        "object_id": "P1668:radiation"
+      },
+      {
+        "relation_id": "P1668:r008",
+        "subject": "Optimal composition La0.5Ca0.5CrO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Solar absorption of 95%",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Overall, the La1-xCaxCrO3 system displays relatively high thermal radiation properties, with an optimal composition of La0.5Ca0.5CrO3 exhibiting a solar absorption of 95% and a thermal emittance of 0.94. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:optimal",
+        "object_id": "P1668:abs95"
+      },
+      {
+        "relation_id": "P1668:r009",
+        "subject": "Optimal composition La0.5Ca0.5CrO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Thermal emittance of 0.94",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Overall, the La1-xCaxCrO3 system displays relatively high thermal radiation properties, with an optimal composition of La0.5Ca0.5CrO3 exhibiting a solar absorption of 95% and a thermal emittance of 0.94. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:optimal",
+        "object_id": "P1668:emit094"
+      },
+      {
+        "relation_id": "P1668:r010",
+        "subject": "Use as light absorber coupled to a thermoelectric module",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Electricity generation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "La1−xCaxCrO3 used as absorber",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Overall, the La1-xCaxCrO3 system displays relatively high thermal radiation properties, with an optimal composition of La0.5Ca0.5CrO3 exhibiting a solar absorption of 95% and a thermal emittance of 0.94. ",
+        "context_quotes": [
+          "When used as a light absorber coupled to a thermoelectric module this proved capable of generating electricity and hot water, thereby demonstrating the suitability of this energy-saving material for use in solar thermal radiation applications."
+        ],
+        "modality_evidence": [
+          "When used as a light absorber coupled to a thermoelectric module this proved capable of generating electricity and hot water, thereby demonstrating the suitability of this energy-saving material for use in solar thermal radiation applications."
+        ],
+        "subject_id": "P1668:coupling",
+        "object_id": "P1668:electricity"
+      },
+      {
+        "relation_id": "P1668:r011",
+        "subject": "Use as light absorber coupled to a thermoelectric module",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Hot-water production",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "La1−xCaxCrO3 used as absorber",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Overall, the La1-xCaxCrO3 system displays relatively high thermal radiation properties, with an optimal composition of La0.5Ca0.5CrO3 exhibiting a solar absorption of 95% and a thermal emittance of 0.94. ",
+        "context_quotes": [
+          "When used as a light absorber coupled to a thermoelectric module this proved capable of generating electricity and hot water, thereby demonstrating the suitability of this energy-saving material for use in solar thermal radiation applications."
+        ],
+        "modality_evidence": [
+          "When used as a light absorber coupled to a thermoelectric module this proved capable of generating electricity and hot water, thereby demonstrating the suitability of this energy-saving material for use in solar thermal radiation applications."
+        ],
+        "subject_id": "P1668:coupling",
+        "object_id": "P1668:water"
+      },
+      {
+        "relation_id": "P1668:r012",
+        "subject": "La1−xCaxCrO3, 0 ≤ x ≤ 0.5",
+        "subject_role": "material_entity",
+        "predicate": "is_suitable_for",
+        "object": "Solar thermal radiation applications",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "As a light absorber coupled to a thermoelectric module",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "When used as a light absorber coupled to a thermoelectric module this proved capable of generating electricity and hot water, thereby demonstrating the suitability of this energy-saving material for use in solar thermal radiation applications.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1668:material",
+        "object_id": "P1668:use"
+      }
+    ]
+  }
+]

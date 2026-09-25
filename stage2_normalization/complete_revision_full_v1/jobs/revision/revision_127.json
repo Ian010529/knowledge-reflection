@@ -1,0 +1,1551 @@
+[
+  {
+    "paper_id": "P0530",
+    "title": "Effects of thermoosmosis and thermophoresis of finite-sized ions along with a pressure-driven flow on the thermoelectric field in a conical hydrophobic nanopore",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermoelectric transport driven by an imposed temperature gradient of an ionized liquid through a charged hydrophobic conical nanopore in a membrane separating two reservoirs is studied in the context of conversion of waste heat to electricity and to generate a liquid flow through the pore. "
+      },
+      {
+        "id": 1,
+        "text": "We have also considered the impact of an imposed pressure gradient to enhance the thermoelectric transport. "
+      },
+      {
+        "id": 2,
+        "text": "The thermoelectric field arises due to the interplay between the thermophoresis created by the Soret effect, thermoosmosis of ions and the induced electric field governed electrophoretic transport of ions along with the EOF. "
+      },
+      {
+        "id": 3,
+        "text": "In addition, the geometric asymmetry of the conical pore also generates an ionic concentration gradient. "
+      },
+      {
+        "id": 4,
+        "text": "We consider a modified model for the electrokinetics which incorporates the hydrodynamic steric interactions of finite-sized ions and the viscosity of the suspension medium is considered to vary with the local ionic volume fraction. "
+      },
+      {
+        "id": 5,
+        "text": "This modification extends the present model to become valid fora larger range of surface charge density for which the ionic volume fraction can become similar to O(0.1). "
+      },
+      {
+        "id": 6,
+        "text": "While the counterion saturation created by the steric effect attenuates the surface charge screening, an enhanced viscosity near the charged surface creates a larger hydrodynamic friction and reduced ionic flux. "
+      },
+      {
+        "id": 7,
+        "text": "Based on the modified model we have analyzed the impact of surface charge density and slip length of the membrane on the thermoelectric field by considering the temperature dependent viscosity, dielectric permittivity and ionic diffusivity fora wide range of the bulk ionic concentration. "
+      },
+      {
+        "id": 8,
+        "text": "The occurrence of the ion concentration polarization in the conical pore and its impact on the thermoelectric field is analyzed."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0530:temp",
+        "label": "Imposed temperature gradient",
+        "role": "condition"
+      },
+      {
+        "id": "P0530:tr",
+        "label": "Thermoelectric transport of ionized liquid through nanopore",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0530:use",
+        "label": "Waste-heat electricity conversion and liquid-flow generation",
+        "role": "application"
+      },
+      {
+        "id": "P0530:press",
+        "label": "Imposed pressure gradient",
+        "role": "condition"
+      },
+      {
+        "id": "P0530:soret",
+        "label": "Soret effect",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0530:ph",
+        "label": "Thermophoresis",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0530:field",
+        "label": "Thermoelectric field",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:asym",
+        "label": "Conical pore geometric asymmetry",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0530:grad",
+        "label": "Ionic concentration gradient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:model",
+        "label": "Modified electrokinetics model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0530:ster",
+        "label": "Hydrodynamic steric interactions of finite-sized ions",
+        "role": "interaction"
+      },
+      {
+        "id": "P0530:vis",
+        "label": "Suspension-medium viscosity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:frac",
+        "label": "Local ionic volume fraction",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:valid",
+        "label": "Validity over a larger surface-charge-density range",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0530:sat",
+        "label": "Steric-effect-induced counterion saturation",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0530:screen",
+        "label": "Surface charge screening",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0530:nearvis",
+        "label": "Enhanced viscosity near charged surface",
+        "role": "condition"
+      },
+      {
+        "id": "P0530:fric",
+        "label": "Hydrodynamic friction",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:flux",
+        "label": "Ionic flux",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:charge",
+        "label": "Membrane surface charge density",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:slip",
+        "label": "Membrane slip length",
+        "role": "quantity"
+      },
+      {
+        "id": "P0530:icp",
+        "label": "Ion concentration polarization in conical pore",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0530:pore",
+        "label": "Charged hydrophobic conical nanopore separating reservoirs",
+        "role": "material_entity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0530:r001",
+        "subject": "Imposed temperature gradient",
+        "subject_role": "condition",
+        "predicate": "drives",
+        "object": "Thermoelectric transport of ionized liquid through nanopore",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ionized liquid in a charged hydrophobic conical nanopore separating two reservoirs",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Thermoelectric transport driven by an imposed temperature gradient of an ionized liquid through a charged hydrophobic conical nanopore in a membrane separating two reservoirs is studied in the context of conversion of waste heat to electricity and to generate a liquid flow through the pore. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:temp",
+        "object_id": "P0530:tr"
+      },
+      {
+        "relation_id": "P0530:r002",
+        "subject": "Thermoelectric transport of ionized liquid through nanopore",
+        "subject_role": "mechanism_process",
+        "predicate": "is_studied_for",
+        "object": "Waste-heat electricity conversion and liquid-flow generation",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Thermoelectric transport driven by an imposed temperature gradient of an ionized liquid through a charged hydrophobic conical nanopore in a membrane separating two reservoirs is studied in the context of conversion of waste heat to electricity and to generate a liquid flow through the pore. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:tr",
+        "object_id": "P0530:use"
+      },
+      {
+        "relation_id": "P0530:r003",
+        "subject": "Imposed pressure gradient",
+        "subject_role": "condition",
+        "predicate": "is_considered_to_enhance",
+        "object": "Thermoelectric transport of ionized liquid through nanopore",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Imposed pressure gradient in the nanopore",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "We have also considered the impact of an imposed pressure gradient to enhance the thermoelectric transport. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:press",
+        "object_id": "P0530:tr"
+      },
+      {
+        "relation_id": "P0530:r004",
+        "subject": "Soret effect",
+        "subject_role": "mechanism_process",
+        "predicate": "creates",
+        "object": "Thermophoresis",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Studied nanopore transport",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The thermoelectric field arises due to the interplay between the thermophoresis created by the Soret effect, thermoosmosis of ions and the induced electric field governed electrophoretic transport of ions along with the EOF. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:soret",
+        "object_id": "P0530:ph"
+      },
+      {
+        "relation_id": "P0530:r005",
+        "subject": "Thermophoresis",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly_gives_rise_to",
+        "object": "Thermoelectric field",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Interplay of thermophoresis, thermoosmosis, electrophoretic transport and EOF",
+        "joint_factors": [
+          "Thermophoresis",
+          "Thermoosmosis of ions",
+          "Induced-electric-field-governed electrophoretic ion transport",
+          "Electroosmotic flow (EOF)"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The thermoelectric field arises due to the interplay between the thermophoresis created by the Soret effect, thermoosmosis of ions and the induced electric field governed electrophoretic transport of ions along with the EOF. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:ph",
+        "object_id": "P0530:field"
+      },
+      {
+        "relation_id": "P0530:r006",
+        "subject": "Conical pore geometric asymmetry",
+        "subject_role": "state_structure",
+        "predicate": "generates",
+        "object": "Ionic concentration gradient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "In addition, the geometric asymmetry of the conical pore also generates an ionic concentration gradient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:asym",
+        "object_id": "P0530:grad"
+      },
+      {
+        "relation_id": "P0530:r007",
+        "subject": "Modified electrokinetics model",
+        "subject_role": "design_strategy",
+        "predicate": "incorporates",
+        "object": "Hydrodynamic steric interactions of finite-sized ions",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Modified electrokinetics model",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "We consider a modified model for the electrokinetics which incorporates the hydrodynamic steric interactions of finite-sized ions and the viscosity of the suspension medium is considered to vary with the local ionic volume fraction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:model",
+        "object_id": "P0530:ster"
+      },
+      {
+        "relation_id": "P0530:r008",
+        "subject": "Suspension-medium viscosity",
+        "subject_role": "quantity",
+        "predicate": "varies_with",
+        "object": "Local ionic volume fraction",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Assumed in modified electrokinetics model; direction unspecified",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "We consider a modified model for the electrokinetics which incorporates the hydrodynamic steric interactions of finite-sized ions and the viscosity of the suspension medium is considered to vary with the local ionic volume fraction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:vis",
+        "object_id": "P0530:frac"
+      },
+      {
+        "relation_id": "P0530:r009",
+        "subject": "Modified electrokinetics model",
+        "subject_role": "design_strategy",
+        "predicate": "extends",
+        "object": "Validity over a larger surface-charge-density range",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Incorporating finite-ion steric interactions and volume-fraction-dependent viscosity; ionic volume fraction can become similar to O(0.1)",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "We consider a modified model for the electrokinetics which incorporates the hydrodynamic steric interactions of finite-sized ions and the viscosity of the suspension medium is considered to vary with the local ionic volume fraction. ",
+        "context_quotes": [
+          "This modification extends the present model to become valid fora larger range of surface charge density for which the ionic volume fraction can become similar to O(0.1). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0530:model",
+        "object_id": "P0530:valid"
+      },
+      {
+        "relation_id": "P0530:r010",
+        "subject": "Hydrodynamic steric interactions of finite-sized ions",
+        "subject_role": "interaction",
+        "predicate": "creates",
+        "object": "Steric-effect-induced counterion saturation",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Modified electrokinetics model",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "We consider a modified model for the electrokinetics which incorporates the hydrodynamic steric interactions of finite-sized ions and the viscosity of the suspension medium is considered to vary with the local ionic volume fraction. ",
+        "context_quotes": [
+          "While the counterion saturation created by the steric effect attenuates the surface charge screening, an enhanced viscosity near the charged surface creates a larger hydrodynamic friction and reduced ionic flux. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0530:ster",
+        "object_id": "P0530:sat"
+      },
+      {
+        "relation_id": "P0530:r011",
+        "subject": "Steric-effect-induced counterion saturation",
+        "subject_role": "state_structure",
+        "predicate": "attenuates",
+        "object": "Surface charge screening",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Modified model; steric effect",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "While the counterion saturation created by the steric effect attenuates the surface charge screening, an enhanced viscosity near the charged surface creates a larger hydrodynamic friction and reduced ionic flux. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:sat",
+        "object_id": "P0530:screen"
+      },
+      {
+        "relation_id": "P0530:r012",
+        "subject": "Enhanced viscosity near charged surface",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Hydrodynamic friction",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Near charged surface in modified model",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "While the counterion saturation created by the steric effect attenuates the surface charge screening, an enhanced viscosity near the charged surface creates a larger hydrodynamic friction and reduced ionic flux. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:nearvis",
+        "object_id": "P0530:fric"
+      },
+      {
+        "relation_id": "P0530:r013",
+        "subject": "Enhanced viscosity near charged surface",
+        "subject_role": "condition",
+        "predicate": "reduces",
+        "object": "Ionic flux",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Near charged surface in modified model",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "While the counterion saturation created by the steric effect attenuates the surface charge screening, an enhanced viscosity near the charged surface creates a larger hydrodynamic friction and reduced ionic flux. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:nearvis",
+        "object_id": "P0530:flux"
+      },
+      {
+        "relation_id": "P0530:r014",
+        "subject": "Membrane surface charge density",
+        "subject_role": "quantity",
+        "predicate": "has_analyzed_influence_on",
+        "object": "Thermoelectric field",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Modified model; temperature-dependent viscosity, dielectric permittivity and ionic diffusivity; wide range of bulk ionic concentration; effect sign unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Based on the modified model we have analyzed the impact of surface charge density and slip length of the membrane on the thermoelectric field by considering the temperature dependent viscosity, dielectric permittivity and ionic diffusivity fora wide range of the bulk ionic concentration. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:charge",
+        "object_id": "P0530:field"
+      },
+      {
+        "relation_id": "P0530:r015",
+        "subject": "Membrane slip length",
+        "subject_role": "quantity",
+        "predicate": "has_analyzed_influence_on",
+        "object": "Thermoelectric field",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Modified model; temperature-dependent viscosity, dielectric permittivity and ionic diffusivity; wide range of bulk ionic concentration; effect sign unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Based on the modified model we have analyzed the impact of surface charge density and slip length of the membrane on the thermoelectric field by considering the temperature dependent viscosity, dielectric permittivity and ionic diffusivity fora wide range of the bulk ionic concentration. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:slip",
+        "object_id": "P0530:field"
+      },
+      {
+        "relation_id": "P0530:r016",
+        "subject": "Ion concentration polarization in conical pore",
+        "subject_role": "mechanism_process",
+        "predicate": "occurs_in",
+        "object": "Charged hydrophobic conical nanopore separating reservoirs",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Analyzed conical-pore system",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The occurrence of the ion concentration polarization in the conical pore and its impact on the thermoelectric field is analyzed.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:icp",
+        "object_id": "P0530:pore"
+      },
+      {
+        "relation_id": "P0530:r017",
+        "subject": "Ion concentration polarization in conical pore",
+        "subject_role": "mechanism_process",
+        "predicate": "has_analyzed_influence_on",
+        "object": "Thermoelectric field",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Conical pore; effect sign unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The occurrence of the ion concentration polarization in the conical pore and its impact on the thermoelectric field is analyzed.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0530:icp",
+        "object_id": "P0530:field"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0532",
+    "title": "High seebeck coefficient flexible thermoelectric hydrogels based on PVA-PAA/PAANa for efficient low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermoelectric materials, particularly hydrogels, are gaining significant attention for energy harvesting applications, including wearable electronics and body heat management. "
+      },
+      {
+        "id": 1,
+        "text": "However, achieving a balance between mechanical strength, ionic conductivity, and thermoelectric performance remains a challenge. "
+      },
+      {
+        "id": 2,
+        "text": "In this study, we developed a PVA/PAA-PAANa dual-crosslinked hydrogel to address these issues. "
+      },
+      {
+        "id": 3,
+        "text": "The main objective was to optimize the PAA/PAANa ratio and incorporate CNT-COOH to enhance the mechanical strength and ionic conductivity, improving thermoelectric performance. "
+      },
+      {
+        "id": 4,
+        "text": "The hydrogel was synthesized through a combination of physical and chemical crosslinking, with potassium ferrocyanide and potassium ferricyanide redox couples used as electrolytes to facilitate ion transport. "
+      },
+      {
+        "id": 5,
+        "text": "The selection of Li2SO4 as the electrolyte further enhanced the ionic mobility. "
+      },
+      {
+        "id": 6,
+        "text": "The optimized hydrogel exhibited a Seebeck coefficient of 20.096 mV/K and an output power of 18.64 & sdot;mu W at 20 degrees temperature difference, demonstrating its promising potential for thermoelectric energy harvesting, particularly for wearable and human body heat management applications. "
+      },
+      {
+        "id": 7,
+        "text": "These results highlight the critical role of the dual-crosslinked structure, conductive materials, and electrolyte selection in maximizing thermoelectric performance."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0532:ratio",
+        "label": "Optimization of PAA/PAANa ratio",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0532:str",
+        "label": "Enhanced mechanical strength",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0532:sig",
+        "label": "Enhanced ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0532:te",
+        "label": "Improved thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0532:cross",
+        "label": "Combined physical and chemical crosslinking",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0532:h",
+        "label": "PVA/PAA-PAANa dual-crosslinked hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0532:red",
+        "label": "Potassium ferrocyanide/potassium ferricyanide redox-couple electrolytes",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0532:trans",
+        "label": "Ion transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0532:li",
+        "label": "Li2SO4 electrolyte selection",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0532:mob",
+        "label": "Enhanced ionic mobility",
+        "role": "quantity"
+      },
+      {
+        "id": "P0532:opt",
+        "label": "Optimized hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0532:s",
+        "label": "Seebeck coefficient of 20.096 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0532:power",
+        "label": "Output power of 18.64 & sdot;mu W",
+        "role": "quantity"
+      },
+      {
+        "id": "P0532:use",
+        "label": "Wearable energy harvesting and human body heat management",
+        "role": "application"
+      },
+      {
+        "id": "P0532:dual",
+        "label": "Dual-crosslinked structure",
+        "role": "state_structure"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0532:r001",
+        "subject": "Optimization of PAA/PAANa ratio",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_aims_to_enhance",
+        "object": "Enhanced mechanical strength",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Hydrogel design objective",
+        "joint_factors": [
+          "Optimization of PAA/PAANa ratio",
+          "CNT-COOH incorporation"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The main objective was to optimize the PAA/PAANa ratio and incorporate CNT-COOH to enhance the mechanical strength and ionic conductivity, improving thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:ratio",
+        "object_id": "P0532:str"
+      },
+      {
+        "relation_id": "P0532:r002",
+        "subject": "Optimization of PAA/PAANa ratio",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_aims_to_enhance",
+        "object": "Enhanced ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Hydrogel design objective",
+        "joint_factors": [
+          "Optimization of PAA/PAANa ratio",
+          "CNT-COOH incorporation"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The main objective was to optimize the PAA/PAANa ratio and incorporate CNT-COOH to enhance the mechanical strength and ionic conductivity, improving thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:ratio",
+        "object_id": "P0532:sig"
+      },
+      {
+        "relation_id": "P0532:r003",
+        "subject": "Optimization of PAA/PAANa ratio",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_aims_to_improve",
+        "object": "Improved thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Through enhanced mechanical strength and ionic conductivity",
+        "joint_factors": [
+          "Optimization of PAA/PAANa ratio",
+          "CNT-COOH incorporation"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The main objective was to optimize the PAA/PAANa ratio and incorporate CNT-COOH to enhance the mechanical strength and ionic conductivity, improving thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:ratio",
+        "object_id": "P0532:te"
+      },
+      {
+        "relation_id": "P0532:r004",
+        "subject": "Combined physical and chemical crosslinking",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "PVA/PAA-PAANa dual-crosslinked hydrogel",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this study, we developed a PVA/PAA-PAANa dual-crosslinked hydrogel to address these issues. ",
+        "context_quotes": [
+          "The hydrogel was synthesized through a combination of physical and chemical crosslinking, with potassium ferrocyanide and potassium ferricyanide redox couples used as electrolytes to facilitate ion transport. "
+        ],
+        "modality_evidence": [
+          "The hydrogel was synthesized through a combination of physical and chemical crosslinking, with potassium ferrocyanide and potassium ferricyanide redox couples used as electrolytes to facilitate ion transport. "
+        ],
+        "subject_id": "P0532:cross",
+        "object_id": "P0532:h"
+      },
+      {
+        "relation_id": "P0532:r005",
+        "subject": "Potassium ferrocyanide/potassium ferricyanide redox-couple electrolytes",
+        "subject_role": "material_entity",
+        "predicate": "is_used_to_facilitate",
+        "object": "Ion transport",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Hydrogel electrolytes; stated purpose",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The hydrogel was synthesized through a combination of physical and chemical crosslinking, with potassium ferrocyanide and potassium ferricyanide redox couples used as electrolytes to facilitate ion transport. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:red",
+        "object_id": "P0532:trans"
+      },
+      {
+        "relation_id": "P0532:r006",
+        "subject": "Li2SO4 electrolyte selection",
+        "subject_role": "design_strategy",
+        "predicate": "enhances",
+        "object": "Enhanced ionic mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Hydrogel electrolyte",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The selection of Li2SO4 as the electrolyte further enhanced the ionic mobility. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:li",
+        "object_id": "P0532:mob"
+      },
+      {
+        "relation_id": "P0532:r007",
+        "subject": "Optimized hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Seebeck coefficient of 20.096 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Reported with a 20 degrees temperature difference",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The optimized hydrogel exhibited a Seebeck coefficient of 20.096 mV/K and an output power of 18.64 & sdot;mu W at 20 degrees temperature difference, demonstrating its promising potential for thermoelectric energy harvesting, particularly for wearable and human body heat management applications. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:opt",
+        "object_id": "P0532:s"
+      },
+      {
+        "relation_id": "P0532:r008",
+        "subject": "Optimized hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Output power of 18.64 & sdot;mu W",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 20 degrees temperature difference",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The optimized hydrogel exhibited a Seebeck coefficient of 20.096 mV/K and an output power of 18.64 & sdot;mu W at 20 degrees temperature difference, demonstrating its promising potential for thermoelectric energy harvesting, particularly for wearable and human body heat management applications. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:opt",
+        "object_id": "P0532:power"
+      },
+      {
+        "relation_id": "P0532:r009",
+        "subject": "Optimized hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_for",
+        "object": "Wearable energy harvesting and human body heat management",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The optimized hydrogel exhibited a Seebeck coefficient of 20.096 mV/K and an output power of 18.64 & sdot;mu W at 20 degrees temperature difference, demonstrating its promising potential for thermoelectric energy harvesting, particularly for wearable and human body heat management applications. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:opt",
+        "object_id": "P0532:use"
+      },
+      {
+        "relation_id": "P0532:r010",
+        "subject": "Dual-crosslinked structure",
+        "subject_role": "state_structure",
+        "predicate": "jointly_contributes_to",
+        "object": "Improved thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Maximizing hydrogel thermoelectric performance",
+        "joint_factors": [
+          "Dual-crosslinked structure",
+          "Conductive materials",
+          "Electrolyte selection"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "These results highlight the critical role of the dual-crosslinked structure, conductive materials, and electrolyte selection in maximizing thermoelectric performance.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0532:dual",
+        "object_id": "P0532:te"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0534",
+    "title": "Exploring the Thermal and Ionic Transport of Cu+ Conducting Argyrodite Cu7PSe6",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Understanding the origin of low thermal conductivities in ionic conductors is essential for improving their thermoelectric efficiency, although accompanying high ionic conduction may present challenges for maintaining thermoelectric device integrity. "
+      },
+      {
+        "id": 1,
+        "text": "This study investigates the thermal and ionic transport in Cu7PSe6, aiming to elucidate their fundamental origins and correlation with the structural and dynamic properties. "
+      },
+      {
+        "id": 2,
+        "text": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+      },
+      {
+        "id": 3,
+        "text": "It is found that upon increasing the temperature, the ionic conductivity increases significantly in Cu7PSe6, whereas the thermal conductivity remains nearly constant, revealing no direct correlation between ionic and thermal transport. "
+      },
+      {
+        "id": 4,
+        "text": "This absence of direct influence suggests innovative design strategies in thermoelectric applications to enhance stability by diminishing ionic conduction, while maintaining low thermal conductivity, thereby linking the domains of solid-state ionics and thermoelectrics. "
+      },
+      {
+        "id": 5,
+        "text": "Thus, this study attempts to clarify the fundamental principles governing thermal and ionic transport in Cu+-superionic conductors, similar to recent findings in Ag+ argyrodites."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0534:cu",
+        "label": "Cu7PSe6",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0534:low",
+        "label": "Low thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0534:complex",
+        "label": "Structural complexity",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0534:bond",
+        "label": "Variations in bond strengths",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0534:anh",
+        "label": "High lattice anharmonicity",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0534:diff",
+        "label": "Pronounced diffuson heat transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0534:fast",
+        "label": "Fast ionic conduction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0534:temp",
+        "label": "Increasing temperature",
+        "role": "condition"
+      },
+      {
+        "id": "P0534:ic",
+        "label": "Ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0534:tc",
+        "label": "Thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0534:it",
+        "label": "Ionic transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0534:tt",
+        "label": "Thermal transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0534:design",
+        "label": "Diminishing ionic conduction while maintaining low thermal conductivity",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0534:stab",
+        "label": "Enhanced thermoelectric stability",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0534:r001",
+        "subject": "Cu7PSe6",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Low thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Characterization techniques and computational analyses",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:cu",
+        "object_id": "P0534:low"
+      },
+      {
+        "relation_id": "P0534:r002",
+        "subject": "Cu7PSe6",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Structural complexity",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Characterization techniques and computational analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:cu",
+        "object_id": "P0534:complex"
+      },
+      {
+        "relation_id": "P0534:r003",
+        "subject": "Cu7PSe6",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Variations in bond strengths",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Characterization techniques and computational analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:cu",
+        "object_id": "P0534:bond"
+      },
+      {
+        "relation_id": "P0534:r004",
+        "subject": "Cu7PSe6",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "High lattice anharmonicity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Characterization techniques and computational analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:cu",
+        "object_id": "P0534:anh"
+      },
+      {
+        "relation_id": "P0534:r005",
+        "subject": "Structural complexity",
+        "subject_role": "state_structure",
+        "predicate": "jointly_gives_rise_to",
+        "object": "Low thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Cu7PSe6",
+        "joint_factors": [
+          "Structural complexity",
+          "Variations in bond strengths",
+          "High lattice anharmonicity"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:complex",
+        "object_id": "P0534:low"
+      },
+      {
+        "relation_id": "P0534:r006",
+        "subject": "Structural complexity",
+        "subject_role": "state_structure",
+        "predicate": "jointly_leads_to",
+        "object": "Pronounced diffuson heat transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Cu7PSe6; characterization and computational analyses",
+        "joint_factors": [
+          "Structural complexity",
+          "Variations in bond strengths",
+          "High lattice anharmonicity"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:complex",
+        "object_id": "P0534:diff"
+      },
+      {
+        "relation_id": "P0534:r007",
+        "subject": "Structural complexity",
+        "subject_role": "state_structure",
+        "predicate": "jointly_leads_to",
+        "object": "Fast ionic conduction",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Cu7PSe6; characterization and computational analyses",
+        "joint_factors": [
+          "Structural complexity",
+          "Variations in bond strengths",
+          "High lattice anharmonicity"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Through a comprehensive approach including various characterization techniques and computational analyses, it is demonstrated that the low thermal conductivity in Cu7PSe6 arises from structural complexity, variations in bond strengths, and high lattice anharmonicity, leading to pronounced diffuson transport of heat and fast ionic conduction. "
+        ],
+        "subject_id": "P0534:complex",
+        "object_id": "P0534:fast"
+      },
+      {
+        "relation_id": "P0534:r008",
+        "subject": "Increasing temperature",
+        "subject_role": "condition",
+        "predicate": "significantly_increases",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu7PSe6",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "It is found that upon increasing the temperature, the ionic conductivity increases significantly in Cu7PSe6, whereas the thermal conductivity remains nearly constant, revealing no direct correlation between ionic and thermal transport. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0534:temp",
+        "object_id": "P0534:ic"
+      },
+      {
+        "relation_id": "P0534:r009",
+        "subject": "Increasing temperature",
+        "subject_role": "condition",
+        "predicate": "leaves_nearly_constant",
+        "object": "Thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu7PSe6",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "It is found that upon increasing the temperature, the ionic conductivity increases significantly in Cu7PSe6, whereas the thermal conductivity remains nearly constant, revealing no direct correlation between ionic and thermal transport. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0534:temp",
+        "object_id": "P0534:tc"
+      },
+      {
+        "relation_id": "P0534:r010",
+        "subject": "Ionic transport",
+        "subject_role": "mechanism_process",
+        "predicate": "directly_correlates_with",
+        "object": "Thermal transport",
+        "object_role": "mechanism_process",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Cu7PSe6 upon increasing temperature",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "It is found that upon increasing the temperature, the ionic conductivity increases significantly in Cu7PSe6, whereas the thermal conductivity remains nearly constant, revealing no direct correlation between ionic and thermal transport. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0534:it",
+        "object_id": "P0534:tt"
+      },
+      {
+        "relation_id": "P0534:r011",
+        "subject": "Diminishing ionic conduction while maintaining low thermal conductivity",
+        "subject_role": "design_strategy",
+        "predicate": "may_enhance",
+        "object": "Enhanced thermoelectric stability",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Suggested by absence of direct influence between ionic and thermal transport",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This absence of direct influence suggests innovative design strategies in thermoelectric applications to enhance stability by diminishing ionic conduction, while maintaining low thermal conductivity, thereby linking the domains of solid-state ionics and thermoelectrics. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0534:design",
+        "object_id": "P0534:stab"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0535",
+    "title": "Biomimetic CsCl:EG/PVA-NaOH eutectogels for high-performance ionic thermoelectrics and sustainable low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Developing efficient and flexible ionic thermoelectric (i-TE) materials is essential for converting low-grade waste heat into usable electrical energy. "
+      },
+      {
+        "id": 1,
+        "text": "In this study, we present a new biomimetic strategy for designing high-performance eutectogels that integrate a cesium chloride-ethylene glycol deep eutectic solvent (CsCl:EG DES) with a poly(vinyl alcohol) (PVA)-sodium hydroxide (NaOH) polymer matrix. "
+      },
+      {
+        "id": 2,
+        "text": "The resulting CsCl:EG/PVA-NaOH eutectogel exhibits outstanding thermoelectric performance, achieving a record-high Seebeck coefficient of 1.65 mV K-1 at 355 K, significantly surpassing previously reported PVA/NaOH hydrogels and marking the first successful demonstration of thermoelectric operation in the CsCl-EG system. "
+      },
+      {
+        "id": 3,
+        "text": "Comprehensive structural and morphological characterization using FTIR, SEM, and EDX confirms the formation of a robust, well-developed bicontinuous network in which CsCl:EG domains are uniformly distributed within the crosslinked PVA matrix. "
+      },
+      {
+        "id": 4,
+        "text": "This architecture enables p-type thermoelectric behavior, where directional ionic transport of Na+, Cs+, Cl-, and OH- ions through interconnected percolation pathways is driven by a thermal gradient. "
+      },
+      {
+        "id": 5,
+        "text": "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. "
+      },
+      {
+        "id": 6,
+        "text": "The simulations elucidate that the strong hydrogen-bonding network and the presence of multiple mobile ion species facilitate efficient thermodiffusion while maintaining low phonon transport. "
+      },
+      {
+        "id": 7,
+        "text": "The synergistic combination of engineered ionic migration channels and phonon-scattering interfaces yields an optimal balance between a high Seebeck coefficient and low thermal conductivity. "
+      },
+      {
+        "id": 8,
+        "text": "These features make the CsCl:EG/PVA-NaOH eutectogel a promising candidate for flexible, sustainable thermoelectric devices capable of harvesting low-grade waste heat under ambient conditions."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0535:gel",
+        "label": "CsCl:EG/PVA-NaOH eutectogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0535:s",
+        "label": "Seebeck coefficient of 1.65 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0535:net",
+        "label": "Robust, well-developed bicontinuous network",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0535:dom",
+        "label": "CsCl:EG domains",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0535:matrix",
+        "label": "Crosslinked PVA matrix",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0535:ptype",
+        "label": "p-type thermoelectric behavior",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0535:grad",
+        "label": "Thermal gradient",
+        "role": "condition"
+      },
+      {
+        "id": "P0535:mig",
+        "label": "Directional Na+, Cs+, Cl- and OH- transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0535:path",
+        "label": "Interconnected percolation pathways",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0535:pred",
+        "label": "Predicted Seebeck coefficient of 2.06 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0535:hb",
+        "label": "Strong hydrogen-bonding network",
+        "role": "interaction"
+      },
+      {
+        "id": "P0535:td",
+        "label": "Efficient thermodiffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0535:phon",
+        "label": "Low phonon transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0535:chan",
+        "label": "Engineered ionic migration channels",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0535:highs",
+        "label": "High Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0535:lowtc",
+        "label": "Low thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0535:use",
+        "label": "Flexible thermoelectric devices harvesting low-grade waste heat under ambient conditions",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0535:r001",
+        "subject": "CsCl:EG/PVA-NaOH eutectogel",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient of 1.65 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "355 K; surpasses previously reported PVA/NaOH hydrogels; described as record-high",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The resulting CsCl:EG/PVA-NaOH eutectogel exhibits outstanding thermoelectric performance, achieving a record-high Seebeck coefficient of 1.65 mV K-1 at 355 K, significantly surpassing previously reported PVA/NaOH hydrogels and marking the first successful demonstration of thermoelectric operation in the CsCl-EG system. ",
+        "context_quotes": [
+          "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. "
+        ],
+        "modality_evidence": [
+          "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. "
+        ],
+        "subject_id": "P0535:gel",
+        "object_id": "P0535:s"
+      },
+      {
+        "relation_id": "P0535:r002",
+        "subject": "CsCl:EG/PVA-NaOH eutectogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Robust, well-developed bicontinuous network",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "FTIR, SEM and EDX characterization",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive structural and morphological characterization using FTIR, SEM, and EDX confirms the formation of a robust, well-developed bicontinuous network in which CsCl:EG domains are uniformly distributed within the crosslinked PVA matrix. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive structural and morphological characterization using FTIR, SEM, and EDX confirms the formation of a robust, well-developed bicontinuous network in which CsCl:EG domains are uniformly distributed within the crosslinked PVA matrix. "
+        ],
+        "subject_id": "P0535:gel",
+        "object_id": "P0535:net"
+      },
+      {
+        "relation_id": "P0535:r003",
+        "subject": "CsCl:EG domains",
+        "subject_role": "material_entity",
+        "predicate": "is_uniformly_distributed_within",
+        "object": "Crosslinked PVA matrix",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Bicontinuous eutectogel network; FTIR, SEM and EDX characterization",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive structural and morphological characterization using FTIR, SEM, and EDX confirms the formation of a robust, well-developed bicontinuous network in which CsCl:EG domains are uniformly distributed within the crosslinked PVA matrix. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive structural and morphological characterization using FTIR, SEM, and EDX confirms the formation of a robust, well-developed bicontinuous network in which CsCl:EG domains are uniformly distributed within the crosslinked PVA matrix. "
+        ],
+        "subject_id": "P0535:dom",
+        "object_id": "P0535:matrix"
+      },
+      {
+        "relation_id": "P0535:r004",
+        "subject": "Robust, well-developed bicontinuous network",
+        "subject_role": "state_structure",
+        "predicate": "enables",
+        "object": "p-type thermoelectric behavior",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "CsCl:EG/PVA-NaOH eutectogel",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive structural and morphological characterization using FTIR, SEM, and EDX confirms the formation of a robust, well-developed bicontinuous network in which CsCl:EG domains are uniformly distributed within the crosslinked PVA matrix. ",
+        "context_quotes": [
+          "This architecture enables p-type thermoelectric behavior, where directional ionic transport of Na+, Cs+, Cl-, and OH- ions through interconnected percolation pathways is driven by a thermal gradient. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0535:net",
+        "object_id": "P0535:ptype"
+      },
+      {
+        "relation_id": "P0535:r005",
+        "subject": "Thermal gradient",
+        "subject_role": "condition",
+        "predicate": "drives",
+        "object": "Directional Na+, Cs+, Cl- and OH- transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through interconnected percolation pathways in eutectogel",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "This architecture enables p-type thermoelectric behavior, where directional ionic transport of Na+, Cs+, Cl-, and OH- ions through interconnected percolation pathways is driven by a thermal gradient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0535:grad",
+        "object_id": "P0535:mig"
+      },
+      {
+        "relation_id": "P0535:r006",
+        "subject": "Directional Na+, Cs+, Cl- and OH- transport",
+        "subject_role": "mechanism_process",
+        "predicate": "occurs_through",
+        "object": "Interconnected percolation pathways",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under a thermal gradient",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "This architecture enables p-type thermoelectric behavior, where directional ionic transport of Na+, Cs+, Cl-, and OH- ions through interconnected percolation pathways is driven by a thermal gradient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0535:mig",
+        "object_id": "P0535:path"
+      },
+      {
+        "relation_id": "P0535:r007",
+        "subject": "CsCl:EG/PVA-NaOH eutectogel",
+        "subject_role": "material_entity",
+        "predicate": "has_predicted",
+        "object": "Predicted Seebeck coefficient of 2.06 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GROMACS molecular dynamics; 298–358 K",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. "
+        ],
+        "subject_id": "P0535:gel",
+        "object_id": "P0535:pred"
+      },
+      {
+        "relation_id": "P0535:r008",
+        "subject": "Strong hydrogen-bonding network",
+        "subject_role": "interaction",
+        "predicate": "jointly_facilitates",
+        "object": "Efficient thermodiffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GROMACS molecular dynamics",
+        "joint_factors": [
+          "Strong hydrogen-bonding network",
+          "Multiple mobile ion species"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. ",
+        "context_quotes": [
+          "The simulations elucidate that the strong hydrogen-bonding network and the presence of multiple mobile ion species facilitate efficient thermodiffusion while maintaining low phonon transport. "
+        ],
+        "modality_evidence": [
+          "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. ",
+          "The simulations elucidate that the strong hydrogen-bonding network and the presence of multiple mobile ion species facilitate efficient thermodiffusion while maintaining low phonon transport. "
+        ],
+        "subject_id": "P0535:hb",
+        "object_id": "P0535:td"
+      },
+      {
+        "relation_id": "P0535:r009",
+        "subject": "Strong hydrogen-bonding network",
+        "subject_role": "interaction",
+        "predicate": "jointly_maintains",
+        "object": "Low phonon transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GROMACS molecular dynamics",
+        "joint_factors": [
+          "Strong hydrogen-bonding network",
+          "Multiple mobile ion species"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. ",
+        "context_quotes": [
+          "The simulations elucidate that the strong hydrogen-bonding network and the presence of multiple mobile ion species facilitate efficient thermodiffusion while maintaining low phonon transport. "
+        ],
+        "modality_evidence": [
+          "Complementary molecular dynamics simulations (GROMACS) further validate the experimental findings, predicting a Seebeck coefficient of 2.06 mV K-1 within the 298-358 K range. ",
+          "The simulations elucidate that the strong hydrogen-bonding network and the presence of multiple mobile ion species facilitate efficient thermodiffusion while maintaining low phonon transport. "
+        ],
+        "subject_id": "P0535:hb",
+        "object_id": "P0535:phon"
+      },
+      {
+        "relation_id": "P0535:r010",
+        "subject": "Engineered ionic migration channels",
+        "subject_role": "state_structure",
+        "predicate": "jointly_yields",
+        "object": "High Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Optimal balance with low thermal conductivity",
+        "joint_factors": [
+          "Engineered ionic migration channels",
+          "Phonon-scattering interfaces"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The synergistic combination of engineered ionic migration channels and phonon-scattering interfaces yields an optimal balance between a high Seebeck coefficient and low thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0535:chan",
+        "object_id": "P0535:highs"
+      },
+      {
+        "relation_id": "P0535:r011",
+        "subject": "Engineered ionic migration channels",
+        "subject_role": "state_structure",
+        "predicate": "jointly_yields",
+        "object": "Low thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Optimal balance with high Seebeck coefficient",
+        "joint_factors": [
+          "Engineered ionic migration channels",
+          "Phonon-scattering interfaces"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The synergistic combination of engineered ionic migration channels and phonon-scattering interfaces yields an optimal balance between a high Seebeck coefficient and low thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0535:chan",
+        "object_id": "P0535:lowtc"
+      },
+      {
+        "relation_id": "P0535:r012",
+        "subject": "CsCl:EG/PVA-NaOH eutectogel",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_for",
+        "object": "Flexible thermoelectric devices harvesting low-grade waste heat under ambient conditions",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "These features make the CsCl:EG/PVA-NaOH eutectogel a promising candidate for flexible, sustainable thermoelectric devices capable of harvesting low-grade waste heat under ambient conditions.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0535:gel",
+        "object_id": "P0535:use"
+      }
+    ]
+  }
+]

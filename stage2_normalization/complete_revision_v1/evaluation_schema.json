@@ -1,0 +1,127 @@
+{
+  "type": "object",
+  "properties": {
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paper_id": {
+            "type": "string"
+          },
+          "judgments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "relation_id": {
+                  "type": "string"
+                },
+                "verdict": {
+                  "type": "string",
+                  "enum": [
+                    "supported",
+                    "partial",
+                    "unsupported",
+                    "out_of_scope",
+                    "uncertain"
+                  ]
+                },
+                "issues": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "relation_id",
+                "verdict",
+                "issues",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "coverage": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reference_id": {
+                  "type": "string"
+                },
+                "validity": {
+                  "type": "string",
+                  "enum": [
+                    "valid",
+                    "uncertain",
+                    "out_of_scope"
+                  ]
+                },
+                "reason": {
+                  "type": "string"
+                },
+                "versions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "version": {
+                        "type": "string"
+                      },
+                      "coverage": {
+                        "type": "string",
+                        "enum": [
+                          "complete",
+                          "partial",
+                          "missing"
+                        ]
+                      },
+                      "match_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "version",
+                      "coverage",
+                      "match_ids",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "reference_id",
+                "validity",
+                "reason",
+                "versions"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "paper_id",
+          "judgments",
+          "coverage"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "papers"
+  ],
+  "additionalProperties": false
+}

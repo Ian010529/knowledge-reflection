@@ -1,0 +1,2597 @@
+[
+  {
+    "paper": {
+      "paper_id": "P0370",
+      "domain": "iTE",
+      "input_hash": "ced237e141fe77a62badd75f54e5d72bedcbacf8fde833fbbc7c954242b96c55",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0370:r001",
+          "subject": "ITESC charging and discharging current",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0370:c",
+          "predicate": "directly_operates",
+          "object": "Direct operation of resistive sensors",
+          "object_role": "application",
+          "object_id": "P0370:r",
+          "quote": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 173,
+              "end": 303
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0370:r002",
+          "subject": "Periodic temperature gradient applied to connected ITESC",
+          "subject_role": "condition",
+          "subject_id": "P0370:t",
+          "predicate": "powers",
+          "object": "Powered humidity monitoring",
+          "object_role": "application",
+          "object_id": "P0370:h",
+          "quote": "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 303,
+              "end": 404
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0370:r003",
+          "subject": "Ionic thermoelectric supercapacitor (ITESC)",
+          "subject_role": "material_entity",
+          "subject_id": "P0370:i",
+          "predicate": "could_power",
+          "object": "Autonomously powered portable sensors",
+          "object_role": "application",
+          "object_id": "P0370:p",
+          "quote": "This work demonstrates the utilization of the charging and discharging current from ITESCs to directly operate resistive sensors. ",
+          "context_quotes": [
+            "The humidity monitoring is powered by applying a periodic temperature gradient to a connected ITESC. ",
+            "By leveraging these properties and residual environmental heat, ITESCs can offer a promising method for autonomously powered portable sensors."
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Using ITESC charging/discharging properties and residual environmental heat.",
+          "joint_factors": [
+            "Residual environmental heat"
+          ],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 173,
+              "end": 303
+            },
+            {
+              "start": 303,
+              "end": 404
+            },
+            {
+              "start": 404,
+              "end": 546
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "w"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "w",
+              "label": "Residual environmental heat"
+            }
+          ]
+        },
+        {
+          "subject": "Ionic thermoelectric supercapacitors (ITESCs)",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "High ionic Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0370:complete_v1_cr001",
+          "quote": "Ionic thermoelectric supercapacitors (ITESCs) are noted for their high ionic Seebeck coefficient (alpha) to convert thermal energy into electrical current through charging. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 173
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0370:complete_v1_cr001_subject",
+          "object_id": "P0370:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Ionic thermoelectric supercapacitors (ITESCs)",
+          "subject_role": "material_entity",
+          "predicate": "convert",
+          "object": "Thermal energy into electrical current",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Through charging; associated with their high ionic Seebeck coefficient.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0370:complete_v1_cr002",
+          "quote": "Ionic thermoelectric supercapacitors (ITESCs) are noted for their high ionic Seebeck coefficient (alpha) to convert thermal energy into electrical current through charging. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 173
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0370:complete_v1_cr001_subject",
+          "object_id": "P0370:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0370",
+        "relation_id": "P0370:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0370",
+        "relation_id": "P0370:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0370",
+        "relation_id": "P0370:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0370",
+        "relation_id": "P0370:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Ionic thermoelectric supercapacitors (ITESCs)",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "High ionic Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0370:complete_v1_cr001",
+          "quote": "Ionic thermoelectric supercapacitors (ITESCs) are noted for their high ionic Seebeck coefficient (alpha) to convert thermal energy into electrical current through charging. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 173
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0370:complete_v1_cr001_subject",
+          "object_id": "P0370:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0370",
+        "relation_id": "P0370:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Ionic thermoelectric supercapacitors (ITESCs)",
+          "subject_role": "material_entity",
+          "predicate": "convert",
+          "object": "Thermal energy into electrical current",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Through charging; associated with their high ionic Seebeck coefficient.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0370:complete_v1_cr002",
+          "quote": "Ionic thermoelectric supercapacitors (ITESCs) are noted for their high ionic Seebeck coefficient (alpha) to convert thermal energy into electrical current through charging. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 173
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0370:complete_v1_cr001_subject",
+          "object_id": "P0370:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0371",
+      "domain": "iTE",
+      "input_hash": "e02d01744246c57b319c2951a7a198bb69cca80ccb08dc431e4a4fc8a669e493",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0371:r001",
+          "subject": "Water infiltration and evaporation",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0371:w",
+          "predicate": "converts_heating_into",
+          "object": "Temperature oscillations at top electrode",
+          "object_role": "state_structure",
+          "object_id": "P0371:t",
+          "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+          "context_quotes": [
+            "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+            "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "In the carbon nanotube-cellulose membrane under constant solar illumination.",
+          "joint_factors": [
+            "Constant solar heating"
+          ],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 169,
+              "end": 323
+            },
+            {
+              "start": 323,
+              "end": 557
+            },
+            {
+              "start": 1188,
+              "end": 1315
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "s"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "s",
+              "label": "Constant solar heating"
+            }
+          ]
+        },
+        {
+          "subject": "Carbon nanotube-cellulose membrane solar absorber",
+          "subject_role": "material_entity",
+          "predicate": "provides",
+          "object": "Temperature oscillations at top electrode",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Under constant solar illumination, through water infiltration and evaporation.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P0371:r002",
+          "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+          "context_quotes": [
+            "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+            "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 169,
+              "end": 323
+            },
+            {
+              "start": 323,
+              "end": 557
+            },
+            {
+              "start": 1188,
+              "end": 1315
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0371:m",
+          "object_id": "P0371:t",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0371:r003",
+          "subject": "Temperature oscillations at top electrode",
+          "subject_role": "state_structure",
+          "subject_id": "P0371:t",
+          "predicate": "induces",
+          "object": "Temporally varying temperature gradients across ITESC",
+          "object_role": "condition",
+          "object_id": "P0371:g",
+          "quote": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. ",
+          "context_quotes": [
+            "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Across the ITESC.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 169,
+              "end": 323
+            },
+            {
+              "start": 323,
+              "end": 557
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0371:r004",
+          "subject": "Temporally varying temperature gradients across ITESC",
+          "subject_role": "condition",
+          "subject_id": "P0371:g",
+          "predicate": "drives",
+          "object": "Vertical ionic thermoelectric supercapacitor",
+          "object_role": "material_entity",
+          "object_id": "P0371:i",
+          "quote": "A vertical ionic thermoelectric supercapacitor (ITESC) is driven by intermittent temperature gradients as induced by constant solar heating and periodic evaporative cooling. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Gradients induced by constant solar heating and periodic evaporative cooling.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1014,
+              "end": 1188
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0371:r005",
+          "subject": "Temporally varying temperature gradients across ITESC",
+          "subject_role": "condition",
+          "subject_id": "P0371:g",
+          "predicate": "enables",
+          "object": "Repeated charge and discharge cycles",
+          "object_role": "mechanism_process",
+          "object_id": "P0371:c",
+          "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 323,
+              "end": 557
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0371:r006",
+          "subject": "Repeated charge and discharge cycles",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0371:c",
+          "predicate": "enables",
+          "object": "Continuous ITESC operation",
+          "object_role": "performance_function",
+          "object_id": "P0371:o",
+          "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 323,
+              "end": 557
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0371:r007",
+          "subject": "Carbon nanotube-cellulose membrane solar absorber",
+          "subject_role": "material_entity",
+          "subject_id": "P0371:m",
+          "predicate": "can_generate",
+          "object": "Top-electrode temperature variation of 10 K",
+          "object_role": "quantity",
+          "object_id": "P0371:v",
+          "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "context_quotes": [
+            "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Solar heating modulated by water infiltration and evaporation.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 323,
+              "end": 557
+            },
+            {
+              "start": 557,
+              "end": 712
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0371:r008",
+          "subject": "Top-electrode temperature variation of 10 K",
+          "subject_role": "quantity",
+          "subject_id": "P0371:v",
+          "predicate": "leads_to",
+          "object": "Variation in ITESC temperature difference of 7.5 K",
+          "object_role": "quantity",
+          "object_id": "P0371:d",
+          "quote": "A temperature variation of 10 K can be generated on the top electrode, which leads to a variation in the temperature difference across the ITESC of 7.5 K. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 557,
+              "end": 712
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P0371:r009",
+          "subject": "Adjustment of added-water volume and interval",
+          "subject_role": "design_strategy",
+          "subject_id": "P0371:a",
+          "predicate": "enables",
+          "object": "Precise control of charge and discharge durations",
+          "object_role": "performance_function",
+          "object_id": "P0371:l",
+          "quote": "Precise control over charge and discharge durations can be achieved by adjusting the volume and interval of the added water. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 712,
+              "end": 837
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P0371:r010",
+          "subject": "Temporal temperature adjustment by evaporative cooling",
+          "subject_role": "design_strategy",
+          "subject_id": "P0371:e",
+          "predicate": "could_enable",
+          "object": "Intermittent heating from other typically constant heat sources",
+          "object_role": "application",
+          "object_id": "P0371:h",
+          "quote": "The concept of temporarily adjusting temperatures by evaporative cooling may be extended to create intermittent heating also for other heat sources that are typically constant. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 837,
+              "end": 1014
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Temporally varying temperature gradients across ITESC",
+          "subject_role": "condition",
+          "predicate": "enable",
+          "object": "Continuous ITESC operation",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Carbon nanotube-cellulose membrane system; through repeated charge and discharge cycles.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0371:complete_v1_cr001",
+          "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 323,
+              "end": 557
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0371:g",
+          "object_id": "P0371:o",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r002",
+        "action": "patch",
+        "reason": "Bind the solar-heating condition to the absorber's temperature oscillations.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 323,
+                "end": 557
+              },
+              {
+                "start": 1188,
+                "end": 1315
+              }
+            ],
+            "after": [
+              {
+                "start": 169,
+                "end": 323
+              },
+              {
+                "start": 323,
+                "end": 557
+              },
+              {
+                "start": 1188,
+                "end": 1315
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+            "after": "However, the heating process even at constant solar illumination can be converted to temperature oscillations through water infiltration and evaporation. "
+          },
+          "conditions": {
+            "before": "Through water infiltration and evaporation.",
+            "after": "Under constant solar illumination, through water infiltration and evaporation."
+          },
+          "context_quotes": {
+            "before": [
+              "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+            ],
+            "after": [
+              "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+              "As shown, a solar absorber provides temperature oscillations on the top electrodes through water infiltration and evaporation. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0371",
+        "relation_id": "P0371:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Temporally varying temperature gradients across ITESC",
+          "subject_role": "condition",
+          "predicate": "enable",
+          "object": "Continuous ITESC operation",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Carbon nanotube-cellulose membrane system; through repeated charge and discharge cycles.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0371:complete_v1_cr001",
+          "quote": "Here, this process is demonstrated for a carbon nanotube-cellulose membrane and used to induce temporally varying temperature gradients across an ITESC, which enables continuous operation through repeated charge and discharge cycles. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 323,
+              "end": 557
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0371:g",
+          "object_id": "P0371:o",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0372",
+      "domain": "iTE",
+      "input_hash": "daf2a429d601914a393020d97ee4e1a403780b38b9e418a6114456b54b167354",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0372:r001",
+          "subject": "Calcium sulfoaluminate (CSA) cement paste",
+          "subject_role": "material_entity",
+          "subject_id": "P0372:c",
+          "predicate": "is_proposed_for",
+          "object": "Thermoelectric energy storage",
+          "object_role": "application",
+          "object_id": "P0372:u",
+          "quote": "The main purpose of this work is to demonstrate the potential of calcium sulfoaluminate (CSA) cement for thermoelectric energy storage applications. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Stated purpose of the work.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 149
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0372:r002",
+          "subject": "Calcium sulfoaluminate (CSA) cement paste",
+          "subject_role": "material_entity",
+          "subject_id": "P0372:c",
+          "predicate": "exhibits",
+          "object": "Large thermal voltage typical of ionic thermoelectric effect",
+          "object_role": "quantity",
+          "object_id": "P0372:v",
+          "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "context_quotes": [
+            "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+            "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+            "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 345,
+              "end": 437
+            },
+            {
+              "start": 564,
+              "end": 687
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 345,
+              "end": 437
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0372:r003",
+          "subject": "Ordinary Portland cement (OPC) paste",
+          "subject_role": "material_entity",
+          "subject_id": "P0372:o",
+          "predicate": "exhibits",
+          "object": "Large thermal voltage typical of ionic thermoelectric effect",
+          "object_role": "quantity",
+          "object_id": "P0372:v",
+          "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "context_quotes": [
+            "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+            "We report the observation of a large thermal voltage in both OPC and CSA cement typical of an ionic thermoelectric effect. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+            "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 345,
+              "end": 437
+            },
+            {
+              "start": 564,
+              "end": 687
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 345,
+              "end": 437
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0372:r004",
+          "subject": "Oven drying at 70 degrees C versus non-dried samples",
+          "subject_role": "condition",
+          "subject_id": "P0372:d",
+          "predicate": "is_associated_with_differences_in",
+          "object": "Thermal voltage",
+          "object_role": "quantity",
+          "object_id": "P0372:t",
+          "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "context_quotes": [
+            "The temperatures of both sides of the samples were recorded as well as the thermal voltage. ",
+            "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. "
+          ],
+          "assertion": "association",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+            "The temperatures of both sides of the samples were recorded as well as the thermal voltage. "
+          ],
+          "conditions": "OPC and CSA cement paste samples; direction of difference unspecified.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 345,
+              "end": 437
+            },
+            {
+              "start": 687,
+              "end": 885
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 345,
+              "end": 437
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Multi-ionic thermal diffusion and drift",
+          "subject_role": "mechanism_process",
+          "predicate": "is_attributed_as_origin_of",
+          "object": "Hysteresis-like behavior of increment V versus time and increment V versus increment T curves",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "OPC and CSA cement paste samples; attribution to a complex multi-ionic thermal diffusion and drift framework.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P0372:r005",
+          "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "context_quotes": [
+            "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 885,
+              "end": 1108
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0372:f",
+          "object_id": "P0372:b",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Water loss",
+          "subject_role": "mechanism_process",
+          "predicate": "may_influence",
+          "object": "Observed thermoelectric behavior",
+          "object_role": "performance_function",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "OPC and CSA cement paste samples; inferred by authors from differences between non-dried and oven-dried samples (drying at 70 degrees C).",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "r006",
+          "relation_id": "P0372:r006",
+          "quote": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. ",
+          "context_quotes": [
+            "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. ",
+            "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+            "Moreover, water loss may play a very important role as depicted by the difference between the results observed in non-dried and dried samples."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 149,
+              "end": 345
+            },
+            {
+              "start": 687,
+              "end": 885
+            },
+            {
+              "start": 885,
+              "end": 1108
+            },
+            {
+              "start": 1108,
+              "end": 1250
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0372:w",
+          "object_id": "P0372:r",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Thermogravimetry analyses",
+          "subject_role": "descriptor",
+          "predicate": "track",
+          "object": "Hydration process of OPC and CSA cements",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0372:complete_v1_cr001",
+          "quote": "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0372:complete_v1_cr001_subject",
+          "object_id": "P0372:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "X-ray diffraction analyses",
+          "subject_role": "descriptor",
+          "predicate": "track",
+          "object": "Hydration process of OPC and CSA cements",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0372:complete_v1_cr002",
+          "quote": "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0372:complete_v1_cr002_subject",
+          "object_id": "P0372:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:r005",
+        "action": "patch",
+        "reason": "Bind the mechanistic attribution to the studied cement pastes.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 885,
+                "end": 1108
+              }
+            ],
+            "after": [
+              {
+                "start": 149,
+                "end": 345
+              },
+              {
+                "start": 885,
+                "end": 1108
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+            "after": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. "
+          },
+          "conditions": {
+            "before": "Complex multi-ionic thermal diffusion and drift framework.",
+            "after": "OPC and CSA cement paste samples; attribution to a complex multi-ionic thermal diffusion and drift framework."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:r006",
+        "action": "patch",
+        "reason": "Identify the samples underlying the water-loss hypothesis.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 687,
+                "end": 885
+              },
+              {
+                "start": 885,
+                "end": 1108
+              },
+              {
+                "start": 1108,
+                "end": 1250
+              }
+            ],
+            "after": [
+              {
+                "start": 149,
+                "end": 345
+              },
+              {
+                "start": 687,
+                "end": 885
+              },
+              {
+                "start": 885,
+                "end": 1108
+              },
+              {
+                "start": 1108,
+                "end": 1250
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. ",
+            "after": "Cement paste samples made from ordinary Portland cement (OPC) and CSA cements were produced and the Seebeck effect was studied on hydrated samples and on samples dried in an oven at 70 degrees C. "
+          },
+          "conditions": {
+            "before": "Inferred by authors from differences between non-dried and dried samples.",
+            "after": "OPC and CSA cement paste samples; inferred by authors from differences between non-dried and oven-dried samples (drying at 70 degrees C)."
+          },
+          "context_quotes": {
+            "before": [
+              "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+              "Moreover, water loss may play a very important role as depicted by the difference between the results observed in non-dried and dried samples."
+            ],
+            "after": [
+              "Further, we study the difference in the thermal voltage observed between dried and non-dried samples and comment on the thermoelectric hysteresis phenomenon observed in some ion conducting systems. ",
+              "We attribute the complex behavior observed in the increment V versus time and increment V versus increment T curves (hysteresis-like behavior) to a complex and challenging multi-ionic thermal diffusion and drift framework. ",
+              "Moreover, water loss may play a very important role as depicted by the difference between the results observed in non-dried and dried samples."
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Thermogravimetry analyses",
+          "subject_role": "descriptor",
+          "predicate": "track",
+          "object": "Hydration process of OPC and CSA cements",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0372:complete_v1_cr001",
+          "quote": "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0372:complete_v1_cr001_subject",
+          "object_id": "P0372:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0372",
+        "relation_id": "P0372:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "X-ray diffraction analyses",
+          "subject_role": "descriptor",
+          "predicate": "track",
+          "object": "Hydration process of OPC and CSA cements",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0372:complete_v1_cr002",
+          "quote": "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "The hydration process of OPC and CSA cements was followed by thermogravimetry analyses, as well as X-ray diffraction analyses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 437,
+              "end": 564
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0372:complete_v1_cr002_subject",
+          "object_id": "P0372:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0373",
+      "domain": "iTE",
+      "input_hash": "f4208a3089771a9856be301789362c1d2f91c31931750456e431ff3034fe8ec6",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0373:r001",
+          "subject": "Ionic thermoelectric polymer composite",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:m",
+          "predicate": "exhibits",
+          "object": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+          "object_role": "quantity",
+          "object_id": "P0373:b",
+          "quote": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. ",
+          "context_quotes": [
+            "Here, the authors find the ionic thermoelectric material exhibiting bipolar thermopower property by manipulating the interactions between ions and electrodes."
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "By manipulating interactions between ions and electrodes.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 271,
+              "end": 432
+            },
+            {
+              "start": 1212,
+              "end": 1370
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0373:r002",
+          "subject": "Manipulation of ion-electrode interactions",
+          "subject_role": "design_strategy",
+          "subject_id": "P0373:s",
+          "predicate": "enables",
+          "object": "Reversible bipolar thermopower from +20.2 to -10.2 mV K-1",
+          "object_role": "quantity",
+          "object_id": "P0373:b",
+          "quote": "Here, we reported a reversible bipolar thermopower (+20.2 mV K-1 to -10.2 mV K-1) of the same composite by manipulating the interactions of ions and electrodes. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Reversible polarity change in the same composite.",
+          "joint_factors": [],
+          "scope": "electrode_interface_kinetics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 271,
+              "end": 432
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0373:r003",
+          "subject": "Switching external electrodes",
+          "subject_role": "design_strategy",
+          "subject_id": "P0373:e",
+          "predicate": "enables",
+          "object": "Alternating cation-dominated and anion-dominated thermodiffusion",
+          "object_role": "mechanism_process",
+          "object_id": "P0373:d",
+          "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Proposed generator under a constant heat course.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 432,
+              "end": 699
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0373:r004",
+          "subject": "Proposed ionic thermoelectric generator",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:g",
+          "predicate": "is_proposed_to_achieve",
+          "object": "Cyclic power generation",
+          "object_role": "performance_function",
+          "object_id": "P0373:p",
+          "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Under a constant heat course, only by switching external electrodes to alternate dominant ion thermodiffusion.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 432,
+              "end": 699
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0373:r005",
+          "subject": "Proposed ionic thermoelectric generator",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:g",
+          "predicate": "requires",
+          "object": "Changing material-heat thermal contact",
+          "object_role": "mechanism_process",
+          "object_id": "P0373:t",
+          "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+          "context_quotes": [
+            "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+          ],
+          "assertion": "negated",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Proposed electrode-switching operation.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 432,
+              "end": 699
+            },
+            {
+              "start": 699,
+              "end": 917
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0373:r006",
+          "subject": "Proposed ionic thermoelectric generator",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:g",
+          "predicate": "requires",
+          "object": "Re-establishing temperature differences",
+          "object_role": "mechanism_process",
+          "object_id": "P0373:r",
+          "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+          "context_quotes": [
+            "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+          ],
+          "assertion": "negated",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Proposed electrode-switching operation.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 432,
+              "end": 699
+            },
+            {
+              "start": 699,
+              "end": 917
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0373:r007",
+          "subject": "Proposed ionic thermoelectric generator",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:g",
+          "predicate": "may_favor",
+          "object": "Improved ionic thermoelectric efficiency",
+          "object_role": "performance_function",
+          "object_id": "P0373:f",
+          "quote": "Meanwhile, a promising ionic thermoelectric generator was proposed to achieve cyclic power generation under a constant heat course only by switching the external electrodes that can effectively realize the alternating dominated thermodiffusion of cations and anions. ",
+          "context_quotes": [
+            "It eliminates the necessity to change the thermal contact between material and heat, nor does it require re-establish the temperature differences, which can favor improving the efficiency of the ionic thermoelectrics. "
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "By eliminating thermal-contact changes and re-establishment of temperature differences.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 432,
+              "end": 699
+            },
+            {
+              "start": 699,
+              "end": 917
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0373:r008",
+          "subject": "Developed micro-thermal sensors",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:n",
+          "predicate": "demonstrates",
+          "object": "High sensitivity in light detection",
+          "object_role": "performance_function",
+          "object_id": "P0373:h",
+          "quote": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 917,
+              "end": 1122
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P0373:r009",
+          "subject": "Developed micro-thermal sensors",
+          "subject_role": "material_entity",
+          "subject_id": "P0373:n",
+          "predicate": "demonstrates",
+          "object": "High responsivity in light detection",
+          "object_role": "performance_function",
+          "object_id": "P0373:q",
+          "quote": "Furthermore, the developed micro-thermal sensors demonstrated high sensitivity and responsivity in light detecting, presenting innovative impacts on exploring next-generation ionic thermoelectric devices. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 917,
+              "end": 1122
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Ions in ionic thermoelectric modules",
+          "subject_role": "material_entity",
+          "predicate": "can_travel_across",
+          "object": "Electrode interface",
+          "object_role": "state_structure",
+          "assertion": "negated",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "electrode_interface_kinetics",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0373:complete_v1_cr001",
+          "quote": "However, generating cyclic power by ionic thermoelectric modules remains challenging, since the ions cannot travel across the electrode interface. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 124,
+              "end": 271
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0373:complete_v1_cr001_subject",
+          "object_id": "P0373:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Inability of ions to travel across the electrode interface",
+          "subject_role": "mechanism_process",
+          "predicate": "makes_challenging",
+          "object": "Cyclic power generation by ionic thermoelectric modules",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "electrode_interface_kinetics",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0373:complete_v1_cr002",
+          "quote": "However, generating cyclic power by ionic thermoelectric modules remains challenging, since the ions cannot travel across the electrode interface. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 124,
+              "end": 271
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0373:complete_v1_cr002_subject",
+          "object_id": "P0373:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_088",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Ions in ionic thermoelectric modules",
+          "subject_role": "material_entity",
+          "predicate": "can_travel_across",
+          "object": "Electrode interface",
+          "object_role": "state_structure",
+          "assertion": "negated",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "electrode_interface_kinetics",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0373:complete_v1_cr001",
+          "quote": "However, generating cyclic power by ionic thermoelectric modules remains challenging, since the ions cannot travel across the electrode interface. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 124,
+              "end": 271
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0373:complete_v1_cr001_subject",
+          "object_id": "P0373:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0373",
+        "relation_id": "P0373:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Inability of ions to travel across the electrode interface",
+          "subject_role": "mechanism_process",
+          "predicate": "makes_challenging",
+          "object": "Cyclic power generation by ionic thermoelectric modules",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "electrode_interface_kinetics",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0373:complete_v1_cr002",
+          "quote": "However, generating cyclic power by ionic thermoelectric modules remains challenging, since the ions cannot travel across the electrode interface. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 124,
+              "end": 271
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0373:complete_v1_cr002_subject",
+          "object_id": "P0373:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_088",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

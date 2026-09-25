@@ -1,0 +1,3613 @@
+[
+  {
+    "paper": {
+      "paper_id": "P1511",
+      "domain": "iTE",
+      "input_hash": "74998f528844ee0ed2b220fef5c9a809b72dceb1f39004d4953680e6e9970b9c",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1511:r001",
+          "subject": "Increasing temperature",
+          "subject_role": "condition",
+          "subject_id": "P1511:t",
+          "predicate": "monotonically increases",
+          "object": "Electrical resistivity",
+          "object_role": "quantity",
+          "object_id": "P1511:rho",
+          "quote": "The Sr-3(Ti0.95R0.05)(2)O-7 (R = Ta, Nb, W) polycrystalline compounds were fabricated, and their transport and thermoelectric properties were investigated. ",
+          "context_quotes": [
+            "The results indicate that at T> 300K electrical resistivity rho for all the doped compounds increases monotonically with temperature, and basically can be described by a relation rho alpha T-M at T> similar to 650 K, with M = 1.39, 1.66, and 1.77 for R = Ta, Nb, and W, respectively, implying that at the high temperatures the acoustic phonon scattering dominates the scattering process. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "All doped compounds; T > 300 K",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 156
+            },
+            {
+              "start": 156,
+              "end": 544
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1511:r002",
+          "subject": "Polycrystalline Sr3(Ti0.95R0.05)2O7 (R = Ta, Nb, W)",
+          "subject_role": "material_entity",
+          "subject_id": "P1511:m",
+          "predicate": "has approximate resistivity relation",
+          "object": "rho alpha T-M; M = 1.39, 1.66, 1.77 for Ta, Nb, W",
+          "object_role": "descriptor",
+          "object_id": "P1511:law",
+          "quote": "The Sr-3(Ti0.95R0.05)(2)O-7 (R = Ta, Nb, W) polycrystalline compounds were fabricated, and their transport and thermoelectric properties were investigated. ",
+          "context_quotes": [
+            "The results indicate that at T> 300K electrical resistivity rho for all the doped compounds increases monotonically with temperature, and basically can be described by a relation rho alpha T-M at T> similar to 650 K, with M = 1.39, 1.66, and 1.77 for R = Ta, Nb, and W, respectively, implying that at the high temperatures the acoustic phonon scattering dominates the scattering process. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "T > approximately 650 K",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Source power-law notation is corrupted; retained verbatim.",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 156
+            },
+            {
+              "start": 156,
+              "end": 544
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "uncertain"
+          },
+          "review_reason": "Preserves the supplied equation notation and dopant-specific exponents without correcting it."
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1511:r003",
+          "subject": "Polycrystalline Sr3(Ti0.95R0.05)2O7 (R = Ta, Nb, W)",
+          "subject_role": "material_entity",
+          "subject_id": "P1511:m",
+          "predicate": "has inferred dominant scattering process",
+          "object": "Dominant acoustic phonon scattering",
+          "object_role": "mechanism_process",
+          "object_id": "P1511:phonon",
+          "quote": "The Sr-3(Ti0.95R0.05)(2)O-7 (R = Ta, Nb, W) polycrystalline compounds were fabricated, and their transport and thermoelectric properties were investigated. ",
+          "context_quotes": [
+            "The results indicate that at T> 300K electrical resistivity rho for all the doped compounds increases monotonically with temperature, and basically can be described by a relation rho alpha T-M at T> similar to 650 K, with M = 1.39, 1.66, and 1.77 for R = Ta, Nb, and W, respectively, implying that at the high temperatures the acoustic phonon scattering dominates the scattering process. "
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "High temperatures; inferred from resistivity power law",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 156
+            },
+            {
+              "start": 156,
+              "end": 544
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1511:r004",
+          "subject": "Polycrystalline Sr3(Ti0.95R0.05)2O7 (R = Ta, Nb, W)",
+          "subject_role": "material_entity",
+          "subject_id": "P1511:m",
+          "predicate": "exhibits",
+          "object": "Metallic-like resistivity down to 5 K",
+          "object_role": "state_structure",
+          "object_id": "P1511:metal",
+          "quote": "Although the resistivity rho of Sr-3(Ti0.95R0.05)(2)O-7 exhibits a metallic-like behavior at the temperature as low as 5K, a transition from metallic state (d rho/dT> 0) to semiconductor-like state (d rho/dT< 0) was observed at a critical low temperature similar to 41K and similar to 79K for R = Nb and W, respectively. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "The unqualified composition statement conflicts with the subsequent Nb/W low-temperature transitions.",
+          "evidence_spans": [
+            {
+              "start": 544,
+              "end": 865
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "uncertain"
+          },
+          "review_reason": "The sample exhibiting metallic-like behavior down to 5 K is unresolved: the same sentence reports low-temperature semiconductor-like transitions for Nb and W."
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1511:r005",
+          "subject": "Nb- and W-doped Sr3(Ti0.95R0.05)2O7",
+          "subject_role": "material_entity",
+          "subject_id": "P1511:nbw",
+          "predicate": "undergoes",
+          "object": "Metallic-to-semiconductor-like transition",
+          "object_role": "mechanism_process",
+          "object_id": "P1511:trans",
+          "quote": "Although the resistivity rho of Sr-3(Ti0.95R0.05)(2)O-7 exhibits a metallic-like behavior at the temperature as low as 5K, a transition from metallic state (d rho/dT> 0) to semiconductor-like state (d rho/dT< 0) was observed at a critical low temperature similar to 41K and similar to 79K for R = Nb and W, respectively. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Approximately 41 K for Nb and 79 K for W; dρ/dT changes from positive to negative",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 544,
+              "end": 865
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1511:r006",
+          "subject": "Polycrystalline Sr3(Ti0.95R0.05)2O7 (R = Ta, Nb, W)",
+          "subject_role": "material_entity",
+          "subject_id": "P1511:m",
+          "predicate": "has conductivity relation",
+          "object": "sigma alpha T-1/2; sigma = 1/rho",
+          "object_role": "descriptor",
+          "object_id": "P1511:siglaw",
+          "quote": "The Sr-3(Ti0.95R0.05)(2)O-7 (R = Ta, Nb, W) polycrystalline compounds were fabricated, and their transport and thermoelectric properties were investigated. ",
+          "context_quotes": [
+            "At T< similar to 22 K, similar to 57 K, and similar to 80 K, a relation of sigma alpha T-1/2 (here conductivity sigma = 1/rho) holds for the doped compounds with R = Nb, Ta, and W, respectively, suggesting that at the low temperatures the main transport mechanism is electron-electron interaction due to the presence of disorder induced by the dopants. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "T < approximately 22 K, 57 K and 80 K for Nb, Ta and W, respectively",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Source exponent notation is ambiguous; retained verbatim.",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 156
+            },
+            {
+              "start": 865,
+              "end": 1218
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "uncertain"
+          },
+          "review_reason": "Preserves the supplied equation notation and corresponding temperature thresholds."
+        },
+        {
+          "subject": "Ta, Nb and W dopants in Sr3(Ti0.95R0.05)2O7",
+          "subject_role": "material_entity",
+          "predicate": "induces",
+          "object": "Dopant-induced disorder",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r007",
+          "relation_id": "P1511:r007",
+          "quote": "The Sr-3(Ti0.95R0.05)(2)O-7 (R = Ta, Nb, W) polycrystalline compounds were fabricated, and their transport and thermoelectric properties were investigated. ",
+          "context_quotes": [
+            "At T< similar to 22 K, similar to 57 K, and similar to 80 K, a relation of sigma alpha T-1/2 (here conductivity sigma = 1/rho) holds for the doped compounds with R = Nb, Ta, and W, respectively, suggesting that at the low temperatures the main transport mechanism is electron-electron interaction due to the presence of disorder induced by the dopants. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 156
+            },
+            {
+              "start": 865,
+              "end": 1218
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1511:complete_v1_r007_subject",
+          "object_id": "P1511:dis",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Dopant-induced disorder",
+          "subject_role": "state_structure",
+          "predicate": "is proposed to give rise to",
+          "object": "Electron–electron interaction as main low-temperature transport mechanism",
+          "object_role": "interaction",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Sr3(Ti0.95R0.05)2O7; inferred from low-temperature conductivity behavior below approximately 22 K, 57 K and 80 K for Nb, Ta and W, respectively",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r008",
+          "relation_id": "P1511:r008",
+          "quote": "At T< similar to 22 K, similar to 57 K, and similar to 80 K, a relation of sigma alpha T-1/2 (here conductivity sigma = 1/rho) holds for the doped compounds with R = Nb, Ta, and W, respectively, suggesting that at the low temperatures the main transport mechanism is electron-electron interaction due to the presence of disorder induced by the dopants. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 865,
+              "end": 1218
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1511:dis",
+          "object_id": "P1511:ee",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1511:r009",
+          "subject": "Increasing temperature",
+          "subject_role": "condition",
+          "subject_id": "P1511:t",
+          "predicate": "increases more steeply",
+          "object": "Thermoelectric figure of merit ZT",
+          "object_role": "quantity",
+          "object_id": "P1511:zt",
+          "quote": "The thermoelectric figure of merit (ZT) for Ta-doped compound increases more steeply with increasing temperature among the three compounds and reaches 0.066 at 1000 K. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ta-doped compound compared with Nb- and W-doped compounds",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1218,
+              "end": 1386
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1511:r010",
+          "subject": "Ta-doped Sr3(Ti0.95R0.05)2O7",
+          "subject_role": "material_entity",
+          "subject_id": "P1511:ta",
+          "predicate": "reaches",
+          "object": "ZT = 0.066",
+          "object_role": "quantity",
+          "object_id": "P1511:ztv",
+          "quote": "The thermoelectric figure of merit (ZT) for Ta-doped compound increases more steeply with increasing temperature among the three compounds and reaches 0.066 at 1000 K. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "1000 K",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1218,
+              "end": 1386
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r002",
+        "action": "uncertain",
+        "reason": "Source notation 'rho alpha T-M' leaves the exponent formatting ambiguous; retain source wording.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_037/response.json",
+              "response_sha256": "9853d526a94be925dc29d6cbc7bec6afdfb1fc7236088d93c3dde29b3dca67cf",
+              "input_sha256": "68cced31c03b4d438106470a0e794e4d4c66b9bc439ce58f1eb0a337bc479d76",
+              "model": "gpt-6-astra",
+              "job_id": "repair_037",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "uncertain"
+            }
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "status": {
+            "before": "accepted",
+            "after": "uncertain"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r004",
+        "action": "uncertain",
+        "reason": "The unspecified R in the 5 K claim conflicts with the stated Nb/W transitions; the applicable dopant cannot be resolved.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_037/response.json",
+              "response_sha256": "9853d526a94be925dc29d6cbc7bec6afdfb1fc7236088d93c3dde29b3dca67cf",
+              "input_sha256": "68cced31c03b4d438106470a0e794e4d4c66b9bc439ce58f1eb0a337bc479d76",
+              "model": "gpt-6-astra",
+              "job_id": "repair_037",
+              "action": "uncertain"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "uncertain"
+            }
+          },
+          "review_status": {
+            "before": "model_reviewed_uncertain",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r006",
+        "action": "uncertain",
+        "reason": "Source notation 'sigma alpha T-1/2' leaves the exponent formatting ambiguous; retain source wording.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_037/response.json",
+              "response_sha256": "9853d526a94be925dc29d6cbc7bec6afdfb1fc7236088d93c3dde29b3dca67cf",
+              "input_sha256": "68cced31c03b4d438106470a0e794e4d4c66b9bc439ce58f1eb0a337bc479d76",
+              "model": "gpt-6-astra",
+              "job_id": "repair_037",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "uncertain"
+            }
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "status": {
+            "before": "accepted",
+            "after": "uncertain"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r007",
+        "action": "patch",
+        "reason": "Bind dopant-induced disorder to the investigated host.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 865,
+                "end": 1218
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 156
+              },
+              {
+                "start": 865,
+                "end": 1218
+              }
+            ]
+          },
+          "subject_id": {
+            "before": "P1511:dop",
+            "after": "P1511:complete_v1_r007_subject"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "At T< similar to 22 K, similar to 57 K, and similar to 80 K, a relation of sigma alpha T-1/2 (here conductivity sigma = 1/rho) holds for the doped compounds with R = Nb, Ta, and W, respectively, suggesting that at the low temperatures the main transport mechanism is electron-electron interaction due to the presence of disorder induced by the dopants. ",
+            "after": "The Sr-3(Ti0.95R0.05)(2)O-7 (R = Ta, Nb, W) polycrystalline compounds were fabricated, and their transport and thermoelectric properties were investigated. "
+          },
+          "subject": {
+            "before": "Ta, Nb and W dopants",
+            "after": "Ta, Nb and W dopants in Sr3(Ti0.95R0.05)2O7"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "At T< similar to 22 K, similar to 57 K, and similar to 80 K, a relation of sigma alpha T-1/2 (here conductivity sigma = 1/rho) holds for the doped compounds with R = Nb, Ta, and W, respectively, suggesting that at the low temperatures the main transport mechanism is electron-electron interaction due to the presence of disorder induced by the dopants. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r008",
+        "action": "patch",
+        "reason": "Replace unbound threshold reference with the stated sample and thresholds.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Low-temperature conductivity relation; respective Nb/Ta/W temperature thresholds",
+            "after": "Sr3(Ti0.95R0.05)2O7; inferred from low-temperature conductivity behavior below approximately 22 K, 57 K and 80 K for Nb, Ta and W, respectively"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1511",
+        "relation_id": "P1511:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1512",
+      "domain": "iTE",
+      "input_hash": "a3a8cf59062530cfbe10c0ec904b8add11f72acb8664d4c5088bb5879f672ebc",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "Gelatinizing starch in urea/choline chloride solution with water",
+          "subject_role": "mechanism_process",
+          "predicate": "produces",
+          "object": "New all-starch-based gel",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P1512:r001",
+          "quote": "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 233,
+              "end": 365
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 233,
+              "end": 365
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1512:prep",
+          "object_id": "P1512:gel",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1512:r002",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "has",
+          "object": "Tensile strength up to 1.08 MPa",
+          "object_role": "quantity",
+          "object_id": "P1512:strength",
+          "quote": "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. ",
+          "context_quotes": [
+            "Its tensile strength was up to 1.08 MPa with a tensile strain of 313 %, and this value hardly changed after 10 days ageing. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 233,
+              "end": 365
+            },
+            {
+              "start": 365,
+              "end": 489
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1512:r003",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "has",
+          "object": "Tensile strain of 313%",
+          "object_role": "quantity",
+          "object_id": "P1512:strain",
+          "quote": "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. ",
+          "context_quotes": [
+            "Its tensile strength was up to 1.08 MPa with a tensile strain of 313 %, and this value hardly changed after 10 days ageing. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 233,
+              "end": 365
+            },
+            {
+              "start": 365,
+              "end": 489
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1512:r004",
+          "subject": "10 days ageing",
+          "subject_role": "condition",
+          "subject_id": "P1512:age",
+          "predicate": "hardly changes",
+          "object": "Tensile strength up to 1.08 MPa",
+          "object_role": "quantity",
+          "object_id": "P1512:strength",
+          "quote": "Its tensile strength was up to 1.08 MPa with a tensile strain of 313 %, and this value hardly changed after 10 days ageing. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Resultant ASB gel",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "'This value' could refer to strength, strain or both.",
+          "evidence_spans": [
+            {
+              "start": 365,
+              "end": 489
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "uncertain"
+          },
+          "review_reason": "'This value' follows both tensile strength and tensile strain; the ageing-stable quantity is ambiguous."
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1512:r005",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "achieves",
+          "object": "Healing efficiency of 98%",
+          "object_role": "performance_function",
+          "object_id": "P1512:heal",
+          "quote": "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. ",
+          "context_quotes": [
+            "A high healing efficiency of 98 % can be achieved after 1 h of healing at room temperature, and the healed tensile strength reaches up to ca. 1.06 MPa, which is almost the highest value for ASB gel. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "1 h healing at room temperature",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 233,
+              "end": 365
+            },
+            {
+              "start": 489,
+              "end": 688
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "predicate": "achieves",
+          "object": "Healed tensile strength approximately 1.06 MPa",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "After 1 h healing at room temperature; described as almost the highest for ASB gels",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "id": "r006",
+          "relation_id": "P1512:r006",
+          "quote": "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. ",
+          "context_quotes": [
+            "A high healing efficiency of 98 % can be achieved after 1 h of healing at room temperature, and the healed tensile strength reaches up to ca. 1.06 MPa, which is almost the highest value for ASB gel. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 233,
+              "end": 365
+            },
+            {
+              "start": 489,
+              "end": 688
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1512:gel",
+          "object_id": "P1512:hs",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1512:r007",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "can 'surfer from'",
+          "object": "Bending and twisting at −80 °C",
+          "object_role": "performance_function",
+          "object_id": "P1512:cold",
+          "quote": "The resultant ASB gel can surfer from bending and twisting at-80 degrees C. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Source wording 'surfer from' obscures the precise mechanical claim.",
+          "evidence_spans": [
+            {
+              "start": 688,
+              "end": 764
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "uncertain"
+          },
+          "review_reason": "'Can surfer from' leaves the mechanical response unresolved; retaining the typo does not establish a definite relationship."
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1512:r008",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "exhibits",
+          "object": "Excellent biocompatibility",
+          "object_role": "performance_function",
+          "object_id": "P1512:bio",
+          "quote": "Moreover, ASB gel also exhibits excellent biocompatibility and biodegradability. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 764,
+              "end": 845
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1512:r009",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "exhibits",
+          "object": "Biodegradability",
+          "object_role": "performance_function",
+          "object_id": "P1512:deg",
+          "quote": "Moreover, ASB gel also exhibits excellent biocompatibility and biodegradability. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 764,
+              "end": 845
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1512:r010",
+          "subject": "Urea/choline chloride solution (UC)",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:uc",
+          "predicate": "endows gel with",
+          "object": "Gel ionic conductivity",
+          "object_role": "quantity",
+          "object_id": "P1512:ion",
+          "quote": "Herein, a new kind of ASB gel was prepared by gelatinizing starch in urea and choline chloride solution (UC) with the aid of water. ",
+          "context_quotes": [
+            "In addition, UC endowed the ASB gel with ion conductivity, allowing it to be used as a flexible strain sensor to monitor human movement. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 233,
+              "end": 365
+            },
+            {
+              "start": 845,
+              "end": 982
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r011",
+          "relation_id": "P1512:r011",
+          "subject": "Gel ionic conductivity",
+          "subject_role": "quantity",
+          "subject_id": "P1512:ion",
+          "predicate": "enables",
+          "object": "Flexible strain sensing of human movement",
+          "object_role": "application",
+          "object_id": "P1512:sensor",
+          "quote": "In addition, UC endowed the ASB gel with ion conductivity, allowing it to be used as a flexible strain sensor to monitor human movement. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "ASB gel",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 845,
+              "end": 982
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r012",
+          "relation_id": "P1512:r012",
+          "subject": "New all-starch-based gel",
+          "subject_role": "material_entity",
+          "subject_id": "P1512:gel",
+          "predicate": "has",
+          "object": "Seebeck coefficient of 2.5 mV K−1",
+          "object_role": "quantity",
+          "object_id": "P1512:seeb",
+          "quote": "The ion-conductive ASB gel also exhibited thermoelectric ability with a Seebeck coefficient of 2.5 mV K-1, which can be further improved to 5 mV K-1 with a maximum output voltage of 252 mV by introducing a gradient of ionic concentration.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ion-conductive ASB gel",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 982,
+              "end": 1220
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r013",
+          "relation_id": "P1512:r013",
+          "subject": "Introducing an ionic concentration gradient",
+          "subject_role": "design_strategy",
+          "subject_id": "P1512:grad",
+          "predicate": "improves Seebeck coefficient to",
+          "object": "Seebeck coefficient of 5 mV K−1",
+          "object_role": "quantity",
+          "object_id": "P1512:seeb5",
+          "quote": "The ion-conductive ASB gel also exhibited thermoelectric ability with a Seebeck coefficient of 2.5 mV K-1, which can be further improved to 5 mV K-1 with a maximum output voltage of 252 mV by introducing a gradient of ionic concentration.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "ASB gel; from 2.5 mV K−1",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 982,
+              "end": 1220
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r014",
+          "relation_id": "P1512:r014",
+          "subject": "Introducing an ionic concentration gradient",
+          "subject_role": "design_strategy",
+          "subject_id": "P1512:grad",
+          "predicate": "yields",
+          "object": "Maximum output voltage of 252 mV",
+          "object_role": "quantity",
+          "object_id": "P1512:v",
+          "quote": "The ion-conductive ASB gel also exhibited thermoelectric ability with a Seebeck coefficient of 2.5 mV K-1, which can be further improved to 5 mV K-1 with a maximum output voltage of 252 mV by introducing a gradient of ionic concentration.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "ASB gel",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 982,
+              "end": 1220
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Conventional all-starch-based gels",
+          "subject_role": "material_entity",
+          "predicate": "are",
+          "object": "Weak",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P1512:complete_v1_cr001",
+          "quote": "Conventional all-starch-based (ASB) gels are weak and lack ductility. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 70
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1512:complete_v1_cr001_subject",
+          "object_id": "P1512:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Conventional all-starch-based gels",
+          "subject_role": "material_entity",
+          "predicate": "lack",
+          "object": "Ductility",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P1512:complete_v1_cr002",
+          "quote": "Conventional all-starch-based (ASB) gels are weak and lack ductility. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 70
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1512:complete_v1_cr001_subject",
+          "object_id": "P1512:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r001",
+        "action": "patch",
+        "reason": "Preparation-product relations belong in method scope.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "scope": {
+            "before": "intrinsic_material_mechanism",
+            "after": "measurement_method_model"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r004",
+        "action": "uncertain",
+        "reason": "'This value' could refer to tensile strength or tensile strain; the ageing endpoint is unresolved.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_037/response.json",
+              "response_sha256": "9853d526a94be925dc29d6cbc7bec6afdfb1fc7236088d93c3dde29b3dca67cf",
+              "input_sha256": "68cced31c03b4d438106470a0e794e4d4c66b9bc439ce58f1eb0a337bc479d76",
+              "model": "gpt-6-astra",
+              "job_id": "repair_037",
+              "action": "uncertain"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "uncertain"
+            }
+          },
+          "review_status": {
+            "before": "model_reviewed_uncertain",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r006",
+        "action": "patch",
+        "reason": "Retain the specified healing duration and temperature.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "After healing; described as almost the highest for ASB gels",
+            "after": "After 1 h healing at room temperature; described as almost the highest for ASB gels"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r007",
+        "action": "uncertain",
+        "reason": "The corrupted phrase 'can surfer from' does not unambiguously state the response to bending and twisting.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_037/response.json",
+              "response_sha256": "9853d526a94be925dc29d6cbc7bec6afdfb1fc7236088d93c3dde29b3dca67cf",
+              "input_sha256": "68cced31c03b4d438106470a0e794e4d4c66b9bc439ce58f1eb0a337bc479d76",
+              "model": "gpt-6-astra",
+              "job_id": "repair_037",
+              "action": "uncertain"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "uncertain"
+            }
+          },
+          "review_status": {
+            "before": "model_reviewed_uncertain",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r011",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r012",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r013",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:r014",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Conventional all-starch-based gels",
+          "subject_role": "material_entity",
+          "predicate": "are",
+          "object": "Weak",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P1512:complete_v1_cr001",
+          "quote": "Conventional all-starch-based (ASB) gels are weak and lack ductility. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 70
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1512:complete_v1_cr001_subject",
+          "object_id": "P1512:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1512",
+        "relation_id": "P1512:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Conventional all-starch-based gels",
+          "subject_role": "material_entity",
+          "predicate": "lack",
+          "object": "Ductility",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P1512:complete_v1_cr002",
+          "quote": "Conventional all-starch-based (ASB) gels are weak and lack ductility. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 70
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1512:complete_v1_cr001_subject",
+          "object_id": "P1512:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1513",
+      "domain": "iTE",
+      "input_hash": "2a0cadbfd76fc3f10bac6296a5d646e29b97aa4131b81fd58ac0e095ffddf12e",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1513:r001",
+          "subject": "Plasmonic dielectric silicon nanoantenna",
+          "subject_role": "material_entity",
+          "subject_id": "P1513:ant",
+          "predicate": "is designed to support",
+          "object": "Non-radiating optical anapole state",
+          "object_role": "state_structure",
+          "object_id": "P1513:ana",
+          "quote": "This is accomplished through the utilization of a plasmonic dielectric nanoantenna designed to support an optical anapole state-a non-radiating optical state resulting from the destructive interference between electric and toroidal dipoles in the far-field, leading to robust near-field enhancement. ",
+          "context_quotes": [
+            "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 147,
+              "end": 447
+            },
+            {
+              "start": 1194,
+              "end": 1341
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1513:r002",
+          "subject": "Destructive far-field interference of electric and toroidal dipoles",
+          "subject_role": "interaction",
+          "subject_id": "P1513:inter",
+          "predicate": "produces",
+          "object": "Non-radiating optical anapole state",
+          "object_role": "state_structure",
+          "object_id": "P1513:ana",
+          "quote": "This is accomplished through the utilization of a plasmonic dielectric nanoantenna designed to support an optical anapole state-a non-radiating optical state resulting from the destructive interference between electric and toroidal dipoles in the far-field, leading to robust near-field enhancement. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 147,
+              "end": 447
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1513:r003",
+          "subject": "Non-radiating optical anapole state",
+          "subject_role": "state_structure",
+          "subject_id": "P1513:ana",
+          "predicate": "leads to",
+          "object": "Robust near-field enhancement",
+          "object_role": "performance_function",
+          "object_id": "P1513:field",
+          "quote": "This is accomplished through the utilization of a plasmonic dielectric nanoantenna designed to support an optical anapole state-a non-radiating optical state resulting from the destructive interference between electric and toroidal dipoles in the far-field, leading to robust near-field enhancement. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 147,
+              "end": 447
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1513:r004",
+          "subject": "Incorporated plasmonic mirror",
+          "subject_role": "design_strategy",
+          "subject_id": "P1513:mirror",
+          "predicate": "enhances",
+          "object": "Anapole-associated field intensity",
+          "object_role": "quantity",
+          "object_id": "P1513:intensity",
+          "quote": "To further enhance the field intensity associated with the optical anapole state, a plasmonic mirror is incorporated, thereby boosting trapping capabilities. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 447,
+              "end": 605
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1513:r005",
+          "subject": "Incorporated plasmonic mirror",
+          "subject_role": "design_strategy",
+          "subject_id": "P1513:mirror",
+          "predicate": "boosts capabilities for",
+          "object": "Stable near-field trapping of an individual extracellular vesicle",
+          "object_role": "application",
+          "object_id": "P1513:trap",
+          "quote": "This study showcases an experimental demonstration of near-field optical trapping and dynamic manipulation of an individual extracellular vesicle. ",
+          "context_quotes": [
+            "To further enhance the field intensity associated with the optical anapole state, a plasmonic mirror is incorporated, thereby boosting trapping capabilities. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Through enhanced anapole field intensity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 447,
+              "end": 605
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1513:r006",
+          "subject": "Hybrid plasmonic-dielectric nanotweezing platform",
+          "subject_role": "material_entity",
+          "subject_id": "P1513:platform",
+          "predicate": "achieves using optical anapole state",
+          "object": "Stable near-field trapping of an individual extracellular vesicle",
+          "object_role": "application",
+          "object_id": "P1513:trap",
+          "quote": "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. ",
+          "context_quotes": [
+            "Its stably traps a single extracellular vesicle (EV) using the optical anapole state and achieves nanoparticle transport and dynamic manipulation using the optothermoelectric effects. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1194,
+              "end": 1341
+            },
+            {
+              "start": 1341,
+              "end": 1525
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1194,
+              "end": 1341
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1513:r007",
+          "subject": "Cetyltrimethylammonium chloride ionic surfactant",
+          "subject_role": "material_entity",
+          "subject_id": "P1513:ctac",
+          "predicate": "jointly induces",
+          "object": "Thermoelectric effect",
+          "object_role": "mechanism_process",
+          "object_id": "P1513:te",
+          "quote": "In addition to demonstrating near-field optical trapping, the study achieves dynamic manipulation of extracellular vesicles by harnessing the thermoelectric effect. ",
+          "context_quotes": [
+            "This effect is induced in the presence of an ionic surfactant, cetyltrimethylammonium chloride, combined with plasmonic heating. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [
+            "Plasmonic heating"
+          ],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 605,
+              "end": 770
+            },
+            {
+              "start": 770,
+              "end": 899
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "heat"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "heat",
+              "label": "Plasmonic heating"
+            }
+          ]
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1513:r008",
+          "subject": "Thermoelectric effect",
+          "subject_role": "mechanism_process",
+          "subject_id": "P1513:te",
+          "predicate": "provides",
+          "object": "Deep trapping potential",
+          "object_role": "quantity",
+          "object_id": "P1513:potential",
+          "quote": "Furthermore, the thermoelectric effect improves trapping stability by a deep trapping potential. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Hybrid trapping platform",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 899,
+              "end": 996
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1513:r009",
+          "subject": "Thermoelectric effect",
+          "subject_role": "mechanism_process",
+          "subject_id": "P1513:te",
+          "predicate": "improves",
+          "object": "Trapping stability",
+          "object_role": "performance_function",
+          "object_id": "P1513:stability",
+          "quote": "Furthermore, the thermoelectric effect improves trapping stability by a deep trapping potential. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Through a deep trapping potential",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 899,
+              "end": 996
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1513:r010",
+          "subject": "Thermoelectric effect",
+          "subject_role": "mechanism_process",
+          "subject_id": "P1513:te",
+          "predicate": "enables",
+          "object": "Active transport and dynamic manipulation of individual extracellular vesicles",
+          "object_role": "application",
+          "object_id": "P1513:move",
+          "quote": "This study showcases an experimental demonstration of near-field optical trapping and dynamic manipulation of an individual extracellular vesicle. ",
+          "context_quotes": [
+            "In addition to demonstrating near-field optical trapping, the study achieves dynamic manipulation of extracellular vesicles by harnessing the thermoelectric effect. ",
+            "In summary, the hybrid plasmonic-dielectric trapping platform offers a versatile approach for actively transporting, stably trapping, and dynamically manipulating individual extracellular vesicles. ",
+            "Its stably traps a single extracellular vesicle (EV) using the optical anapole state and achieves nanoparticle transport and dynamic manipulation using the optothermoelectric effects. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "This study showcases an experimental demonstration of near-field optical trapping and dynamic manipulation of an individual extracellular vesicle. "
+          ],
+          "conditions": "Hybrid plasmonic-dielectric platform",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 605,
+              "end": 770
+            },
+            {
+              "start": 996,
+              "end": 1194
+            },
+            {
+              "start": 1341,
+              "end": 1525
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 147
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r011",
+          "relation_id": "P1513:r011",
+          "subject": "Hybrid plasmonic-dielectric nanotweezing platform",
+          "subject_role": "material_entity",
+          "subject_id": "P1513:platform",
+          "predicate": "is proposed as a tool for",
+          "object": "Single extracellular-vesicle analysis",
+          "object_role": "application",
+          "object_id": "P1513:analysis",
+          "quote": "This hybrid plasmonic-dielectric nanotweezing system provides a versatile tool for single EV manipulation and analysis. image",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1525,
+              "end": 1650
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Deep trapping potential",
+          "subject_role": "quantity",
+          "predicate": "improves",
+          "object": "Trapping stability",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Provided by the thermoelectric effect in the hybrid trapping platform",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1513:complete_v1_cr001",
+          "quote": "Furthermore, the thermoelectric effect improves trapping stability by a deep trapping potential. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 899,
+              "end": 996
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1513:potential",
+          "object_id": "P1513:stability",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Hybrid plasmonic-dielectric nanotweezing platform",
+          "subject_role": "material_entity",
+          "predicate": "achieves",
+          "object": "Active transport and dynamic manipulation of individual extracellular vesicles",
+          "object_role": "application",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Using optothermoelectric effects",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P1513:complete_v1_cr002",
+          "quote": "In summary, the hybrid plasmonic-dielectric trapping platform offers a versatile approach for actively transporting, stably trapping, and dynamically manipulating individual extracellular vesicles. ",
+          "context_quotes": [
+            "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. ",
+            "Its stably traps a single extracellular vesicle (EV) using the optical anapole state and achieves nanoparticle transport and dynamic manipulation using the optothermoelectric effects. "
+          ],
+          "modality_evidence": [
+            "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 996,
+              "end": 1194
+            },
+            {
+              "start": 1194,
+              "end": 1341
+            },
+            {
+              "start": 1341,
+              "end": 1525
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1194,
+              "end": 1341
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1513:platform",
+          "object_id": "P1513:move",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:r011",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Deep trapping potential",
+          "subject_role": "quantity",
+          "predicate": "improves",
+          "object": "Trapping stability",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Provided by the thermoelectric effect in the hybrid trapping platform",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1513:complete_v1_cr001",
+          "quote": "Furthermore, the thermoelectric effect improves trapping stability by a deep trapping potential. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 899,
+              "end": 996
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1513:potential",
+          "object_id": "P1513:stability",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1513",
+        "relation_id": "P1513:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Hybrid plasmonic-dielectric nanotweezing platform",
+          "subject_role": "material_entity",
+          "predicate": "achieves",
+          "object": "Active transport and dynamic manipulation of individual extracellular vesicles",
+          "object_role": "application",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Using optothermoelectric effects",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P1513:complete_v1_cr002",
+          "quote": "In summary, the hybrid plasmonic-dielectric trapping platform offers a versatile approach for actively transporting, stably trapping, and dynamically manipulating individual extracellular vesicles. ",
+          "context_quotes": [
+            "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. ",
+            "Its stably traps a single extracellular vesicle (EV) using the optical anapole state and achieves nanoparticle transport and dynamic manipulation using the optothermoelectric effects. "
+          ],
+          "modality_evidence": [
+            "A novel nanotweezing platform harnessing plasmonic-mirror enhanced silicon nanoantenna supporting optical anapoles is experimentally demonstrated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 996,
+              "end": 1194
+            },
+            {
+              "start": 1194,
+              "end": 1341
+            },
+            {
+              "start": 1341,
+              "end": 1525
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1194,
+              "end": 1341
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1513:platform",
+          "object_id": "P1513:move",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1514",
+      "domain": "iTE",
+      "input_hash": "f3d5cf15041403d62d4d607ac397d1fd92a16e371c526fc23b67b3e7324a4426",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1514:r001",
+          "subject": "Substitution at the Ca site",
+          "subject_role": "design_strategy",
+          "subject_id": "P1514:sub",
+          "predicate": "markedly increases",
+          "object": "Electrical conductivity",
+          "object_role": "quantity",
+          "object_id": "P1514:sigma",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The substitution at the Ca site causes a marked increase in the electrical conductivity sigma, along with a moderate decrease in the absolute value of the Seebeck coefficient S. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Listed (Ca0.9M0.1)MnO3 oxides",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 189,
+              "end": 367
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1514:r002",
+          "subject": "Substitution at the Ca site",
+          "subject_role": "design_strategy",
+          "subject_id": "P1514:sub",
+          "predicate": "moderately decreases",
+          "object": "Absolute Seebeck coefficient",
+          "object_role": "quantity",
+          "object_id": "P1514:s",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The substitution at the Ca site causes a marked increase in the electrical conductivity sigma, along with a moderate decrease in the absolute value of the Seebeck coefficient S. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Listed (Ca0.9M0.1)MnO3 oxides",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 189,
+              "end": 367
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1514:r003",
+          "subject": "(Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "subject_role": "material_entity",
+          "subject_id": "P1514:m",
+          "predicate": "exhibits",
+          "object": "Negative linear relation of log(σT) versus 1/T",
+          "object_role": "descriptor",
+          "object_id": "P1514:plot",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The plots of log sigma T vs 1/T show a negative linear relation, indicating that hopping conduction occurs in these oxides. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 367,
+              "end": 491
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Negative linear relation of log(σT) versus 1/T",
+          "subject_role": "descriptor",
+          "predicate": "indicates",
+          "object": "Hopping conduction",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "(Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P1514:r004",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The plots of log sigma T vs 1/T show a negative linear relation, indicating that hopping conduction occurs in these oxides. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 367,
+              "end": 491
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1514:plot",
+          "object_id": "P1514:hop",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Increasing substituent cation ionic radius",
+          "subject_role": "condition",
+          "predicate": "is associated with increasing",
+          "object": "Electrical conductivity",
+          "object_role": "quantity",
+          "assertion": "association",
+          "modality": "unspecified",
+          "conditions": "Room temperature; (Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P1514:r005",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 491,
+              "end": 684
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1514:r",
+          "object_id": "P1514:sigma",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Increasing substituent cation ionic radius",
+          "subject_role": "condition",
+          "predicate": "is associated with",
+          "object": "Larger hopping intersite distance",
+          "object_role": "quantity",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Interpretation of room-temperature conductivity trend in (Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r006",
+          "relation_id": "P1514:r006",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 491,
+              "end": 684
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1514:r",
+          "object_id": "P1514:dist",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Larger hopping intersite distance",
+          "subject_role": "quantity",
+          "predicate": "is inferred to increase",
+          "object": "Carrier mobility",
+          "object_role": "quantity",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Interpretation of room-temperature conductivity trend in (Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r007",
+          "relation_id": "P1514:r007",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+            "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            },
+            {
+              "start": 491,
+              "end": 684
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1514:dist",
+          "object_id": "P1514:mob",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1514:r008",
+          "subject": "(Ca0.9Bi0.1)MnO3",
+          "subject_role": "material_entity",
+          "subject_id": "P1514:bi",
+          "predicate": "attains",
+          "object": "Largest power factor: 2.8 x 10(-4)/W m(-1)K(-2)",
+          "object_role": "quantity",
+          "object_id": "P1514:pf",
+          "quote": "The sample of (Ca0.9Bi0.1)MnO3 attains the largest power factor, 2.8 x 10(-4)/W m(-1)K(-2), at 800 degrees C and leads to the figure of merit 0.7-0.75 x 10(-4)K(-1) over the wide range of temperatures 600-900 degrees C. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "800 °C; largest among investigated samples",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Power-factor unit punctuation is corrupted; retained as supplied.",
+          "evidence_spans": [
+            {
+              "start": 684,
+              "end": 904
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "uncertain"
+          },
+          "review_reason": "Retains the source-reported value and unit notation, temperature, and comparison."
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1514:r009",
+          "subject": "(Ca0.9Bi0.1)MnO3",
+          "subject_role": "material_entity",
+          "subject_id": "P1514:bi",
+          "predicate": "has",
+          "object": "Figure of merit 0.7–0.75 × 10−4 K−1",
+          "object_role": "quantity",
+          "object_id": "P1514:z",
+          "quote": "The sample of (Ca0.9Bi0.1)MnO3 attains the largest power factor, 2.8 x 10(-4)/W m(-1)K(-2), at 800 degrees C and leads to the figure of merit 0.7-0.75 x 10(-4)K(-1) over the wide range of temperatures 600-900 degrees C. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "600–900 °C",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 684,
+              "end": 904
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1514:r010",
+          "subject": "(Ca0.9Bi0.1)MnO3",
+          "subject_role": "material_entity",
+          "subject_id": "P1514:bi",
+          "predicate": "has",
+          "object": "Maximum ZT = 0.085",
+          "object_role": "quantity",
+          "object_id": "P1514:zt",
+          "quote": "The sample of (Ca0.9Bi0.1)MnO3 attains the largest power factor, 2.8 x 10(-4)/W m(-1)K(-2), at 800 degrees C and leads to the figure of merit 0.7-0.75 x 10(-4)K(-1) over the wide range of temperatures 600-900 degrees C. ",
+          "context_quotes": [
+            "The oxide shows a maximum ZT value of 0.085 at 900 degrees C. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "900 °C",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 684,
+              "end": 904
+            },
+            {
+              "start": 904,
+              "end": 966
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "(Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "subject_role": "material_entity",
+          "predicate": "is investigated as a material for",
+          "object": "High-temperature thermoelectric conversion",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1514:complete_v1_cr001",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1514:m",
+          "object_id": "P1514:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r004",
+        "action": "patch",
+        "reason": "Resolve 'these oxides' to the stated material family.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 367,
+                "end": 491
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 62
+              },
+              {
+                "start": 62,
+                "end": 189
+              },
+              {
+                "start": 367,
+                "end": 491
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The plots of log sigma T vs 1/T show a negative linear relation, indicating that hopping conduction occurs in these oxides. ",
+            "after": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "These oxides",
+            "after": "(Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)"
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+              "The plots of log sigma T vs 1/T show a negative linear relation, indicating that hopping conduction occurs in these oxides. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r005",
+        "action": "patch",
+        "reason": "Bind the radius-conductivity association to the investigated oxides.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 491,
+                "end": 684
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 62
+              },
+              {
+                "start": 62,
+                "end": 189
+              },
+              {
+                "start": 491,
+                "end": 684
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. ",
+            "after": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Room temperature",
+            "after": "Room temperature; (Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)"
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+              "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r006",
+        "action": "patch",
+        "reason": "Bind the inferred structural association to the investigated oxides.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 491,
+                "end": 684
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 62
+              },
+              {
+                "start": 62,
+                "end": 189
+              },
+              {
+                "start": 491,
+                "end": 684
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. ",
+            "after": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Interpretation of room-temperature conductivity trend",
+            "after": "Interpretation of room-temperature conductivity trend in (Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)"
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+              "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r007",
+        "action": "patch",
+        "reason": "Bind the inferred mobility mechanism to the investigated oxides.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 491,
+                "end": 684
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 62
+              },
+              {
+                "start": 62,
+                "end": 189
+              },
+              {
+                "start": 491,
+                "end": 684
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. ",
+            "after": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. "
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Interpretation of room-temperature conductivity trend",
+            "after": "Interpretation of room-temperature conductivity trend in (Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)"
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. ",
+              "The sigma values at room temperature increase with increasing ionic radii of the cation substituents, implying an increase in the carrier mobility due to larger intersite distance for hopping. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r008",
+        "action": "uncertain",
+        "reason": "The source's '/W' power-factor unit formatting is ambiguous; retain the reported wording.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_037/response.json",
+              "response_sha256": "9853d526a94be925dc29d6cbc7bec6afdfb1fc7236088d93c3dde29b3dca67cf",
+              "input_sha256": "68cced31c03b4d438106470a0e794e4d4c66b9bc439ce58f1eb0a337bc479d76",
+              "model": "gpt-6-astra",
+              "job_id": "repair_037",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "uncertain"
+            }
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "status": {
+            "before": "accepted",
+            "after": "uncertain"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_371",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1514",
+        "relation_id": "P1514:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "(Ca0.9M0.1)MnO3 (M = Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi)",
+          "subject_role": "material_entity",
+          "predicate": "is investigated as a material for",
+          "object": "High-temperature thermoelectric conversion",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1514:complete_v1_cr001",
+          "quote": "The electrical transport properties of (Ca(0.9)M(0.1))MnO3(M. ",
+          "context_quotes": [
+            "Y, La, Ce, Sm, In, Sn, Sb, Pb, Bi) are investigated in terms of a new material for high-temperature thermoelectric conversion. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 62
+            },
+            {
+              "start": 62,
+              "end": 189
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1514:m",
+          "object_id": "P1514:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_371",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

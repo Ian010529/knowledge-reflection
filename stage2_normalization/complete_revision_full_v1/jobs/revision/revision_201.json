@@ -1,0 +1,1896 @@
+[
+  {
+    "paper_id": "P0832",
+    "title": "Demonstration of a thermoelectric device using electric double-layer gating: Simultaneous control of the thermoelectric properties of p-type and n-type carbon nanotubes",
+    "segments": [
+      {
+        "id": 0,
+        "text": "To fabricate a p-type and n-type pair for a thermoelectric device, an electric double-layer capacitor structure was applied to semiconducting single-walled carbon nanotube (SWCNT) sheets. "
+      },
+      {
+        "id": 1,
+        "text": "The carrier concentration of the positive and negative SWCNT electrodes (channels) was controlled by changing the gate voltage applied between electrodes filled with an ionic liquid. "
+      },
+      {
+        "id": 2,
+        "text": "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. "
+      },
+      {
+        "id": 3,
+        "text": "Positive and negative thermopower was observed in the positive and negative channels, respectively. "
+      },
+      {
+        "id": 4,
+        "text": "These results indicate that hole and electron carriers were induced in the channels. "
+      },
+      {
+        "id": 5,
+        "text": "We conclude that it is possible to simultaneously optimize the thermoelectric properties of p-type and n-type semiconducting SWCNTs using electric double-layer gating."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0832:gate",
+        "label": "Electric double-layer capacitor gating of semiconducting SWCNT sheets",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0832:pair",
+        "label": "p-type and n-type SWCNT pair for a thermoelectric device",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0832:voltage",
+        "label": "Gate voltage between ionic-liquid-filled electrodes",
+        "role": "condition"
+      },
+      {
+        "id": "P0832:carrier",
+        "label": "Carrier concentration of positive and negative SWCNT channels",
+        "role": "quantity"
+      },
+      {
+        "id": "P0832:current",
+        "label": "Drain current of both SWCNT channels",
+        "role": "quantity"
+      },
+      {
+        "id": "P0832:pos",
+        "label": "Positive SWCNT channel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0832:ps",
+        "label": "Positive thermopower",
+        "role": "quantity"
+      },
+      {
+        "id": "P0832:neg",
+        "label": "Negative SWCNT channel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0832:ns",
+        "label": "Negative thermopower",
+        "role": "quantity"
+      },
+      {
+        "id": "P0832:holes",
+        "label": "Induced hole carriers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0832:electrons",
+        "label": "Induced electron carriers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0832:opt",
+        "label": "Simultaneous optimization of p-type and n-type SWCNT thermoelectric properties",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0832:r001",
+        "subject": "Electric double-layer capacitor gating of semiconducting SWCNT sheets",
+        "subject_role": "design_strategy",
+        "predicate": "is_applied_to_fabricate",
+        "object": "p-type and n-type SWCNT pair for a thermoelectric device",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To fabricate a p-type and n-type pair for a thermoelectric device, an electric double-layer capacitor structure was applied to semiconducting single-walled carbon nanotube (SWCNT) sheets. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "To fabricate a p-type and n-type pair for a thermoelectric device, an electric double-layer capacitor structure was applied to semiconducting single-walled carbon nanotube (SWCNT) sheets. "
+        ],
+        "subject_id": "P0832:gate",
+        "object_id": "P0832:pair"
+      },
+      {
+        "relation_id": "P0832:r002",
+        "subject": "Gate voltage between ionic-liquid-filled electrodes",
+        "subject_role": "condition",
+        "predicate": "controls",
+        "object": "Carrier concentration of positive and negative SWCNT channels",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Positive and negative SWCNT electrodes",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "The carrier concentration of the positive and negative SWCNT electrodes (channels) was controlled by changing the gate voltage applied between electrodes filled with an ionic liquid. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The carrier concentration of the positive and negative SWCNT electrodes (channels) was controlled by changing the gate voltage applied between electrodes filled with an ionic liquid. "
+        ],
+        "subject_id": "P0832:voltage",
+        "object_id": "P0832:carrier"
+      },
+      {
+        "relation_id": "P0832:r003",
+        "subject": "Gate voltage between ionic-liquid-filled electrodes",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Drain current of both SWCNT channels",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Drastic drain-current increase in both channels as gate voltage increases",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. "
+        ],
+        "subject_id": "P0832:voltage",
+        "object_id": "P0832:current"
+      },
+      {
+        "relation_id": "P0832:r004",
+        "subject": "Positive SWCNT channel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Positive thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Electric double-layer gating",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. ",
+        "context_quotes": [
+          "Positive and negative thermopower was observed in the positive and negative channels, respectively. "
+        ],
+        "modality_evidence": [
+          "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. "
+        ],
+        "subject_id": "P0832:pos",
+        "object_id": "P0832:ps"
+      },
+      {
+        "relation_id": "P0832:r005",
+        "subject": "Negative SWCNT channel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Negative thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Electric double-layer gating",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. ",
+        "context_quotes": [
+          "Positive and negative thermopower was observed in the positive and negative channels, respectively. "
+        ],
+        "modality_evidence": [
+          "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. "
+        ],
+        "subject_id": "P0832:neg",
+        "object_id": "P0832:ns"
+      },
+      {
+        "relation_id": "P0832:r006",
+        "subject": "Positive SWCNT channel",
+        "subject_role": "material_entity",
+        "predicate": "contains",
+        "object": "Induced hole carriers",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Inferred by authors from measured channel thermopower",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Positive and negative thermopower was observed in the positive and negative channels, respectively. ",
+        "context_quotes": [
+          "These results indicate that hole and electron carriers were induced in the channels. "
+        ],
+        "modality_evidence": [
+          "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. "
+        ],
+        "subject_id": "P0832:pos",
+        "object_id": "P0832:holes"
+      },
+      {
+        "relation_id": "P0832:r007",
+        "subject": "Negative SWCNT channel",
+        "subject_role": "material_entity",
+        "predicate": "contains",
+        "object": "Induced electron carriers",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Inferred by authors from measured channel thermopower",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Positive and negative thermopower was observed in the positive and negative channels, respectively. ",
+        "context_quotes": [
+          "These results indicate that hole and electron carriers were induced in the channels. "
+        ],
+        "modality_evidence": [
+          "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. "
+        ],
+        "subject_id": "P0832:neg",
+        "object_id": "P0832:electrons"
+      },
+      {
+        "relation_id": "P0832:r008",
+        "subject": "Electric double-layer capacitor gating of semiconducting SWCNT sheets",
+        "subject_role": "design_strategy",
+        "predicate": "can_enable",
+        "object": "Simultaneous optimization of p-type and n-type SWCNT thermoelectric properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Conclusion from gate-dependent drain-current and thermopower measurements",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "We conclude that it is possible to simultaneously optimize the thermoelectric properties of p-type and n-type semiconducting SWCNTs using electric double-layer gating.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The drain current and the thermopower of the channels were measured as a function of the gate voltage, and the drain current of both channels was found to drastically increase with the gate voltage. ",
+          "Positive and negative thermopower was observed in the positive and negative channels, respectively. "
+        ],
+        "subject_id": "P0832:gate",
+        "object_id": "P0832:opt"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0833",
+    "title": "Use of biomass for a development of nanocellulose-based biodegradable flexible thin film thermoelectric material",
+    "segments": [
+      {
+        "id": 0,
+        "text": "In this work, we used solar energy converted via photosynthesis into chemical energy of the biomass of the fastgrowing perennial herb Miscanthus x giganteus for the manufacture of nanocellulose (NC) films, which are biodegradable alternative to common petroleum-based polymer substrates used in flexible electronics. "
+      },
+      {
+        "id": 1,
+        "text": "To create the NC substrates, we applied an environmentally friendly method of organosolv delignification of plant raw materials carried out at a low temperature and in a relatively short time. "
+      },
+      {
+        "id": 2,
+        "text": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. "
+      },
+      {
+        "id": 3,
+        "text": "Crystal structure, morphology, chemical composition, and optical, electrical and thermoelectric properties of the CuI/NC have been researched. "
+      },
+      {
+        "id": 4,
+        "text": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. "
+      },
+      {
+        "id": 5,
+        "text": "It has typical optical direct band gap approximate to 3.0 eV, is single-phase gamma-CuI with crystallite sizes in the 19-25 nm range, with moderate dislocation density of (1.6-2.8) x 10(15) lines/m(2), and tolerable microstrains e of (4-9) x 10(-3) a.u. "
+      },
+      {
+        "id": 6,
+        "text": "The determined value of the Seebeck coefficient S is similar to 228 mu V K-1, at that, S is constant in the temperature range 290-335 K. "
+      },
+      {
+        "id": 7,
+        "text": "Together with the thermoelectric power factor similar to 36 mu W.m(-1).K-2 it is favorable for the use of CuI/NC as new thermoelectric material for an in-plane design of biodegradable flexible thin film thermoelectric generator (TEG). "
+      },
+      {
+        "id": 8,
+        "text": "At temperature gradient of 50 K, the single p-CuI thermoelectric leg made from CuI/NC strip of 3 cm long and 0.5 cm wide generates open circuit voltage 8.4 mV, short circuit current 0.7 mu A and maximum output power 1.5 nW. "
+      },
+      {
+        "id": 9,
+        "text": "It corresponds to the output power density 10 mu W/m(2), and thus confirms the suitability of CuI/NC to obtain electricity by the harvesting the waste environmental heat."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0833:bio",
+        "label": "Miscanthus × giganteus biomass",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0833:nc",
+        "label": "Nanocellulose films/substrates",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0833:delig",
+        "label": "Organosolv delignification of plant raw materials",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0833:alt",
+        "label": "Biodegradable alternative to petroleum-based flexible-electronics substrates",
+        "role": "application"
+      },
+      {
+        "id": "P0833:silar",
+        "label": "Successive Ionic Layer Adsorption and Reaction (SILAR)",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0833:m",
+        "label": "CuI/NC thermoelectric material",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0833:cui",
+        "label": "CuI film on NC",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0833:cuit",
+        "label": "CuI film thickness of 0.72 μm",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:nct",
+        "label": "NC substrate thickness of 12 μm",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:light",
+        "label": "Lightweight",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:flex",
+        "label": "Flexible",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:degrad",
+        "label": "Biodegradable",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:safe",
+        "label": "Nontoxic",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:ptype",
+        "label": "Nanostructured p-type semiconductor",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:dense",
+        "label": "Dense film",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0833:gap",
+        "label": "Optical direct band gap approximately 3.0 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P0833:phase",
+        "label": "Single-phase gamma-CuI",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0833:size",
+        "label": "Crystallite sizes of 19–25 nm",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0833:dis",
+        "label": "Moderate dislocation density of (1.6–2.8) × 10^15 lines/m2",
+        "role": "quantity"
+      },
+      {
+        "id": "P0833:strain",
+        "label": "Tolerable microstrains ε of (4–9) × 10^-3 a.u.",
+        "role": "quantity"
+      },
+      {
+        "id": "P0833:s",
+        "label": "Seebeck coefficient approximately 228 μV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0833:temp",
+        "label": "Temperature range 290–335 K",
+        "role": "condition"
+      },
+      {
+        "id": "P0833:pf",
+        "label": "Power factor approximately 36 μW m-1 K-2",
+        "role": "quantity"
+      },
+      {
+        "id": "P0833:teg",
+        "label": "In-plane biodegradable flexible thin-film thermoelectric generator",
+        "role": "application"
+      },
+      {
+        "id": "P0833:leg",
+        "label": "Single p-CuI leg from a CuI/NC strip, 3 cm × 0.5 cm",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0833:voc",
+        "label": "Open-circuit voltage of 8.4 mV",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0833:isc",
+        "label": "Short-circuit current of 0.7 μA",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0833:power",
+        "label": "Maximum output power of 1.5 nW",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0833:density",
+        "label": "Output power density of 10 μW/m2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0833:use",
+        "label": "Electricity generation from environmental waste heat",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0833:r001",
+        "subject": "Miscanthus × giganteus biomass",
+        "subject_role": "material_entity",
+        "predicate": "is_used_to_manufacture",
+        "object": "Nanocellulose films/substrates",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this work, we used solar energy converted via photosynthesis into chemical energy of the biomass of the fastgrowing perennial herb Miscanthus x giganteus for the manufacture of nanocellulose (NC) films, which are biodegradable alternative to common petroleum-based polymer substrates used in flexible electronics. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this work, we used solar energy converted via photosynthesis into chemical energy of the biomass of the fastgrowing perennial herb Miscanthus x giganteus for the manufacture of nanocellulose (NC) films, which are biodegradable alternative to common petroleum-based polymer substrates used in flexible electronics. ",
+          "To create the NC substrates, we applied an environmentally friendly method of organosolv delignification of plant raw materials carried out at a low temperature and in a relatively short time. "
+        ],
+        "subject_id": "P0833:bio",
+        "object_id": "P0833:nc"
+      },
+      {
+        "relation_id": "P0833:r002",
+        "subject": "Organosolv delignification of plant raw materials",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Nanocellulose films/substrates",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Environmentally friendly method; low temperature and relatively short processing time",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To create the NC substrates, we applied an environmentally friendly method of organosolv delignification of plant raw materials carried out at a low temperature and in a relatively short time. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "To create the NC substrates, we applied an environmentally friendly method of organosolv delignification of plant raw materials carried out at a low temperature and in a relatively short time. "
+        ],
+        "subject_id": "P0833:delig",
+        "object_id": "P0833:nc"
+      },
+      {
+        "relation_id": "P0833:r003",
+        "subject": "Nanocellulose films/substrates",
+        "subject_role": "material_entity",
+        "predicate": "serves_as",
+        "object": "Biodegradable alternative to petroleum-based flexible-electronics substrates",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "In this work, we used solar energy converted via photosynthesis into chemical energy of the biomass of the fastgrowing perennial herb Miscanthus x giganteus for the manufacture of nanocellulose (NC) films, which are biodegradable alternative to common petroleum-based polymer substrates used in flexible electronics. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:nc",
+        "object_id": "P0833:alt"
+      },
+      {
+        "relation_id": "P0833:r004",
+        "subject": "Successive Ionic Layer Adsorption and Reaction (SILAR)",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "CuI/NC thermoelectric material",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Low-temperature, cheap, scalable deposition of CuI on both sides of NC",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. "
+        ],
+        "subject_id": "P0833:silar",
+        "object_id": "P0833:m"
+      },
+      {
+        "relation_id": "P0833:r005",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "is_deposited_on_both_sides_of",
+        "object": "Nanocellulose films/substrates",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "SILAR deposition",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. "
+        ],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:nc"
+      },
+      {
+        "relation_id": "P0833:r006",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "CuI film thickness of 0.72 μm",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:cuit"
+      },
+      {
+        "relation_id": "P0833:r007",
+        "subject": "Nanocellulose films/substrates",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "NC substrate thickness of 12 μm",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:nc",
+        "object_id": "P0833:nct"
+      },
+      {
+        "relation_id": "P0833:r008",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Lightweight",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:light"
+      },
+      {
+        "relation_id": "P0833:r009",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Flexible",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:flex"
+      },
+      {
+        "relation_id": "P0833:r010",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Biodegradable",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:degrad"
+      },
+      {
+        "relation_id": "P0833:r011",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Nontoxic",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Then by means of the low-temperature cheap and scalable method Successive Ionic Layer Adsorption and Reaction (SILAR) we deposited copper iodide (CuI) film of 0.72 mu m thickness on both sides of the 12 mu m thick NC substrate, and thus obtained light-weight and flexible biodegradable nontoxic thermoelectric material CuI/NC. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:safe"
+      },
+      {
+        "relation_id": "P0833:r012",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Nanostructured p-type semiconductor",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "CuI/NC material",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:ptype"
+      },
+      {
+        "relation_id": "P0833:r013",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Dense film",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:dense"
+      },
+      {
+        "relation_id": "P0833:r014",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "completely_covers_surface_of",
+        "object": "Nanocellulose films/substrates",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:nc"
+      },
+      {
+        "relation_id": "P0833:r015",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Optical direct band gap approximately 3.0 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [
+          "It has typical optical direct band gap approximate to 3.0 eV, is single-phase gamma-CuI with crystallite sizes in the 19-25 nm range, with moderate dislocation density of (1.6-2.8) x 10(15) lines/m(2), and tolerable microstrains e of (4-9) x 10(-3) a.u. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:gap"
+      },
+      {
+        "relation_id": "P0833:r016",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has_phase",
+        "object": "Single-phase gamma-CuI",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [
+          "It has typical optical direct band gap approximate to 3.0 eV, is single-phase gamma-CuI with crystallite sizes in the 19-25 nm range, with moderate dislocation density of (1.6-2.8) x 10(15) lines/m(2), and tolerable microstrains e of (4-9) x 10(-3) a.u. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:phase"
+      },
+      {
+        "relation_id": "P0833:r017",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Crystallite sizes of 19–25 nm",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [
+          "It has typical optical direct band gap approximate to 3.0 eV, is single-phase gamma-CuI with crystallite sizes in the 19-25 nm range, with moderate dislocation density of (1.6-2.8) x 10(15) lines/m(2), and tolerable microstrains e of (4-9) x 10(-3) a.u. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:size"
+      },
+      {
+        "relation_id": "P0833:r018",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Moderate dislocation density of (1.6–2.8) × 10^15 lines/m2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [
+          "It has typical optical direct band gap approximate to 3.0 eV, is single-phase gamma-CuI with crystallite sizes in the 19-25 nm range, with moderate dislocation density of (1.6-2.8) x 10(15) lines/m(2), and tolerable microstrains e of (4-9) x 10(-3) a.u. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:dis"
+      },
+      {
+        "relation_id": "P0833:r019",
+        "subject": "CuI film on NC",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Tolerable microstrains ε of (4–9) × 10^-3 a.u.",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [
+          "It has typical optical direct band gap approximate to 3.0 eV, is single-phase gamma-CuI with crystallite sizes in the 19-25 nm range, with moderate dislocation density of (1.6-2.8) x 10(15) lines/m(2), and tolerable microstrains e of (4-9) x 10(-3) a.u. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:cui",
+        "object_id": "P0833:strain"
+      },
+      {
+        "relation_id": "P0833:r020",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Seebeck coefficient approximately 228 μV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "290–335 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Studies have shown that nanostructured p-type semiconductor CuI film in the CuI/NC TE material is quite dense and completely covers the NC surface. ",
+        "context_quotes": [
+          "The determined value of the Seebeck coefficient S is similar to 228 mu V K-1, at that, S is constant in the temperature range 290-335 K. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:s"
+      },
+      {
+        "relation_id": "P0833:r021",
+        "subject": "Temperature range 290–335 K",
+        "subject_role": "condition",
+        "predicate": "leaves_constant",
+        "object": "Seebeck coefficient approximately 228 μV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "CuI/NC material",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The determined value of the Seebeck coefficient S is similar to 228 mu V K-1, at that, S is constant in the temperature range 290-335 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:temp",
+        "object_id": "P0833:s"
+      },
+      {
+        "relation_id": "P0833:r022",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Power factor approximately 36 μW m-1 K-2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Together with the thermoelectric power factor similar to 36 mu W.m(-1).K-2 it is favorable for the use of CuI/NC as new thermoelectric material for an in-plane design of biodegradable flexible thin film thermoelectric generator (TEG). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:pf"
+      },
+      {
+        "relation_id": "P0833:r023",
+        "subject": "Seebeck coefficient approximately 228 μV K-1",
+        "subject_role": "quantity",
+        "predicate": "jointly_favors_use_in",
+        "object": "In-plane biodegradable flexible thin-film thermoelectric generator",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "CuI/NC material",
+        "joint_factors": [
+          "Power factor approximately 36 μW m-1 K-2"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The determined value of the Seebeck coefficient S is similar to 228 mu V K-1, at that, S is constant in the temperature range 290-335 K. ",
+        "context_quotes": [
+          "Together with the thermoelectric power factor similar to 36 mu W.m(-1).K-2 it is favorable for the use of CuI/NC as new thermoelectric material for an in-plane design of biodegradable flexible thin film thermoelectric generator (TEG). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:s",
+        "object_id": "P0833:teg"
+      },
+      {
+        "relation_id": "P0833:r024",
+        "subject": "Single p-CuI leg from a CuI/NC strip, 3 cm × 0.5 cm",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Open-circuit voltage of 8.4 mV",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 50 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "At temperature gradient of 50 K, the single p-CuI thermoelectric leg made from CuI/NC strip of 3 cm long and 0.5 cm wide generates open circuit voltage 8.4 mV, short circuit current 0.7 mu A and maximum output power 1.5 nW. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:leg",
+        "object_id": "P0833:voc"
+      },
+      {
+        "relation_id": "P0833:r025",
+        "subject": "Single p-CuI leg from a CuI/NC strip, 3 cm × 0.5 cm",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Short-circuit current of 0.7 μA",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 50 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "At temperature gradient of 50 K, the single p-CuI thermoelectric leg made from CuI/NC strip of 3 cm long and 0.5 cm wide generates open circuit voltage 8.4 mV, short circuit current 0.7 mu A and maximum output power 1.5 nW. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:leg",
+        "object_id": "P0833:isc"
+      },
+      {
+        "relation_id": "P0833:r026",
+        "subject": "Single p-CuI leg from a CuI/NC strip, 3 cm × 0.5 cm",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum output power of 1.5 nW",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 50 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "At temperature gradient of 50 K, the single p-CuI thermoelectric leg made from CuI/NC strip of 3 cm long and 0.5 cm wide generates open circuit voltage 8.4 mV, short circuit current 0.7 mu A and maximum output power 1.5 nW. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:leg",
+        "object_id": "P0833:power"
+      },
+      {
+        "relation_id": "P0833:r027",
+        "subject": "Single p-CuI leg from a CuI/NC strip, 3 cm × 0.5 cm",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Output power density of 10 μW/m2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 50 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "At temperature gradient of 50 K, the single p-CuI thermoelectric leg made from CuI/NC strip of 3 cm long and 0.5 cm wide generates open circuit voltage 8.4 mV, short circuit current 0.7 mu A and maximum output power 1.5 nW. ",
+        "context_quotes": [
+          "It corresponds to the output power density 10 mu W/m(2), and thus confirms the suitability of CuI/NC to obtain electricity by the harvesting the waste environmental heat."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0833:leg",
+        "object_id": "P0833:density"
+      },
+      {
+        "relation_id": "P0833:r028",
+        "subject": "CuI/NC thermoelectric material",
+        "subject_role": "material_entity",
+        "predicate": "is_suitable_for",
+        "object": "Electricity generation from environmental waste heat",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Supported by reported thermoelectric-leg output",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "It corresponds to the output power density 10 mu W/m(2), and thus confirms the suitability of CuI/NC to obtain electricity by the harvesting the waste environmental heat.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0833:m",
+        "object_id": "P0833:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0834",
+    "title": "Selective Ionic Conduction in Choline Iodide/Triiodide Solid Electrolyte and Its Application to Thermocells",
+    "segments": [
+      {
+        "id": 0,
+        "text": "A thermocell consisting of choline iodide/triiodide solid electrolyte is developed. "
+      },
+      {
+        "id": 1,
+        "text": "Seebeck coefficient of the cell is -0.87 mV K-1 at ambient temperature, which sign is opposite to that of the aqueous I-1/I-3(-) cell. "
+      },
+      {
+        "id": 2,
+        "text": "The ionic conductivity of I-3(-) doped choline iodide is higher than that of pure choline iodide by two to four orders of magnitude, reflecting high conductivity of I-3(1) in the solid electrolyte. "
+      },
+      {
+        "id": 3,
+        "text": "The selective ionic conduction observed in the solid electrolytes provides a novel design principle for the thermoelectric conversion materials."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0834:cell",
+        "label": "Thermocell containing choline iodide/triiodide solid electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0834:solid",
+        "label": "Choline iodide/triiodide solid electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0834:s",
+        "label": "Cell Seebeck coefficient of -0.87 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0834:aq",
+        "label": "Seebeck coefficient of aqueous I-1/I-3(-) cell",
+        "role": "quantity"
+      },
+      {
+        "id": "P0834:doping",
+        "label": "I-3(-) doping of choline iodide",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0834:sigma",
+        "label": "Ionic conductivity of choline iodide",
+        "role": "quantity"
+      },
+      {
+        "id": "P0834:tri",
+        "label": "High conductivity of 'I-3(1)' in the solid electrolyte",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0834:sel",
+        "label": "Selective ionic conduction in solid electrolytes",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0834:design",
+        "label": "Design of thermoelectric conversion materials",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0834:r001",
+        "subject": "Thermocell containing choline iodide/triiodide solid electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "contains",
+        "object": "Choline iodide/triiodide solid electrolyte",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A thermocell consisting of choline iodide/triiodide solid electrolyte is developed. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0834:cell",
+        "object_id": "P0834:solid"
+      },
+      {
+        "relation_id": "P0834:r002",
+        "subject": "Thermocell containing choline iodide/triiodide solid electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Cell Seebeck coefficient of -0.87 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient temperature",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Seebeck coefficient of the cell is -0.87 mV K-1 at ambient temperature, which sign is opposite to that of the aqueous I-1/I-3(-) cell. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0834:cell",
+        "object_id": "P0834:s"
+      },
+      {
+        "relation_id": "P0834:r003",
+        "subject": "Cell Seebeck coefficient of -0.87 mV K-1",
+        "subject_role": "quantity",
+        "predicate": "has_opposite_sign_to",
+        "object": "Seebeck coefficient of aqueous I-1/I-3(-) cell",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Solid-electrolyte cell at ambient temperature",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Seebeck coefficient of the cell is -0.87 mV K-1 at ambient temperature, which sign is opposite to that of the aqueous I-1/I-3(-) cell. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0834:s",
+        "object_id": "P0834:aq"
+      },
+      {
+        "relation_id": "P0834:r004",
+        "subject": "I-3(-) doping of choline iodide",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Ionic conductivity of choline iodide",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Two to four orders of magnitude compared with pure choline iodide",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The ionic conductivity of I-3(-) doped choline iodide is higher than that of pure choline iodide by two to four orders of magnitude, reflecting high conductivity of I-3(1) in the solid electrolyte. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0834:doping",
+        "object_id": "P0834:sigma"
+      },
+      {
+        "relation_id": "P0834:r005",
+        "subject": "High conductivity of 'I-3(1)' in the solid electrolyte",
+        "subject_role": "performance_function",
+        "predicate": "is_reflected_in",
+        "object": "Ionic conductivity of choline iodide",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Higher ionic conductivity of I-3(-)-doped versus pure choline iodide",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The ionic conductivity of I-3(-) doped choline iodide is higher than that of pure choline iodide by two to four orders of magnitude, reflecting high conductivity of I-3(1) in the solid electrolyte. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0834:tri",
+        "object_id": "P0834:sigma"
+      },
+      {
+        "relation_id": "P0834:r006",
+        "subject": "Choline iodide/triiodide solid electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Selective ionic conduction in solid electrolytes",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A thermocell consisting of choline iodide/triiodide solid electrolyte is developed. ",
+        "context_quotes": [
+          "The selective ionic conduction observed in the solid electrolytes provides a novel design principle for the thermoelectric conversion materials."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0834:solid",
+        "object_id": "P0834:sel"
+      },
+      {
+        "relation_id": "P0834:r007",
+        "subject": "Selective ionic conduction in solid electrolytes",
+        "subject_role": "mechanism_process",
+        "predicate": "provides_design_principle_for",
+        "object": "Design of thermoelectric conversion materials",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The selective ionic conduction observed in the solid electrolytes provides a novel design principle for the thermoelectric conversion materials.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0834:sel",
+        "object_id": "P0834:design"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0835",
+    "title": "Novel stable semiconductor for high-performance optoelectronic and transport properties of 2D MgPTe3 monolayer for effective photocorrosion-based water splitting and waste heat energy conversion applications",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+      },
+      {
+        "id": 1,
+        "text": "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+      },
+      {
+        "id": 2,
+        "text": "Mg atoms are arranged inside a framework of P and Te atoms in the crystals' layered, complex honeycomb-like structure, creating moderate and isotropic carrier effective masses ideal for thermoelectric and optoelectronic applications. "
+      },
+      {
+        "id": 3,
+        "text": "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. "
+      },
+      {
+        "id": 4,
+        "text": "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+      },
+      {
+        "id": 5,
+        "text": "Strong visible-UV light absorption and an absorption beginning at 1.70eV are shown by optical characteristics, underscoring the promise of MgPTe3 for thermoelectric, photovoltaic and optoelectronic applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0835:m",
+        "label": "2D MgPTe3 monolayer",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0835:strong",
+        "label": "Structurally strong",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0835:flex",
+        "label": "Electrically flexible",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0835:vol",
+        "label": "Well-defined equilibrium volume",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:bulk",
+        "label": "Sufficient bulk modulus",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:soft",
+        "label": "Soft phonon modes",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0835:ss",
+        "label": "Structural stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0835:ds",
+        "label": "Dynamical stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0835:str",
+        "label": "Layered complex honeycomb-like structure with Mg inside a P–Te framework",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0835:mass",
+        "label": "Moderate, isotropic carrier effective masses",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:apps",
+        "label": "Thermoelectric and optoelectronic applications",
+        "role": "application"
+      },
+      {
+        "id": "P0835:gap",
+        "label": "Direct band gap approximately 1.70 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:semi",
+        "label": "Semiconducting activity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0835:bond",
+        "label": "Mixed ionic-covalent bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P0835:te",
+        "label": "Te atoms in MgPTe3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0835:ionic",
+        "label": "Largely ionic character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0835:mgp",
+        "label": "Mg–P interactions",
+        "role": "interaction"
+      },
+      {
+        "id": "P0835:cov",
+        "label": "Covalent character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0835:zt",
+        "label": "Peak ZT greater than 1",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0835:s",
+        "label": "Significant Seebeck coefficients",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:sigma",
+        "label": "Flexible electrical conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:k",
+        "label": "Low lattice thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:abs",
+        "label": "Strong visible–UV light absorption",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0835:onset",
+        "label": "Absorption onset at 1.70 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P0835:optapp",
+        "label": "Photovoltaic and optoelectronic applications",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0835:r001",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Structurally strong",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles investigations",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:strong"
+      },
+      {
+        "relation_id": "P0835:r002",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Electrically flexible",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles investigations; electrical flexibility is not further defined",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:flex"
+      },
+      {
+        "relation_id": "P0835:r003",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Well-defined equilibrium volume",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Energy–volume analysis",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:vol"
+      },
+      {
+        "relation_id": "P0835:r004",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Sufficient bulk modulus",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Energy–volume analysis",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:bulk"
+      },
+      {
+        "relation_id": "P0835:r005",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Soft phonon modes",
+        "object_role": "state_structure",
+        "assertion": "negated",
+        "modality": "computational",
+        "conditions": "Phonon dispersion computations",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "modality_evidence": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:soft"
+      },
+      {
+        "relation_id": "P0835:r006",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Structural stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Energy–volume analysis and phonon dispersion computations; well-defined equilibrium volume, sufficient bulk modulus and no soft phonon modes",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "modality_evidence": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:ss"
+      },
+      {
+        "relation_id": "P0835:r007",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Dynamical stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Energy–volume analysis and phonon dispersion computations; well-defined equilibrium volume, sufficient bulk modulus and no soft phonon modes",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "modality_evidence": [
+          "With a well-defined equilibrium volume, a sufficient bulk modulus and no soft phonon modes, energy-volume analysis and phonon dispersion computations verify both structural and dynamical stability. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:ds"
+      },
+      {
+        "relation_id": "P0835:r008",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Layered complex honeycomb-like structure with Mg inside a P–Te framework",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Mg atoms are arranged inside a framework of P and Te atoms in the crystals' layered, complex honeycomb-like structure, creating moderate and isotropic carrier effective masses ideal for thermoelectric and optoelectronic applications. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:str"
+      },
+      {
+        "relation_id": "P0835:r009",
+        "subject": "Layered complex honeycomb-like structure with Mg inside a P–Te framework",
+        "subject_role": "state_structure",
+        "predicate": "creates",
+        "object": "Moderate, isotropic carrier effective masses",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Mg atoms are arranged inside a framework of P and Te atoms in the crystals' layered, complex honeycomb-like structure, creating moderate and isotropic carrier effective masses ideal for thermoelectric and optoelectronic applications. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:str",
+        "object_id": "P0835:mass"
+      },
+      {
+        "relation_id": "P0835:r010",
+        "subject": "Moderate, isotropic carrier effective masses",
+        "subject_role": "quantity",
+        "predicate": "is_ideal_for",
+        "object": "Thermoelectric and optoelectronic applications",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "MgPTe3 monolayer",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Mg atoms are arranged inside a framework of P and Te atoms in the crystals' layered, complex honeycomb-like structure, creating moderate and isotropic carrier effective masses ideal for thermoelectric and optoelectronic applications. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:mass",
+        "object_id": "P0835:apps"
+      },
+      {
+        "relation_id": "P0835:r011",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Direct band gap approximately 1.70 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:gap"
+      },
+      {
+        "relation_id": "P0835:r012",
+        "subject": "Direct band gap approximately 1.70 eV",
+        "subject_role": "quantity",
+        "predicate": "supports",
+        "object": "Semiconducting activity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:gap",
+        "object_id": "P0835:semi"
+      },
+      {
+        "relation_id": "P0835:r013",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Mixed ionic-covalent bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Electron charge density and partial density of states investigations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:bond"
+      },
+      {
+        "relation_id": "P0835:r014",
+        "subject": "Te atoms in MgPTe3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Largely ionic character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Electron charge density and partial density of states investigations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. "
+        ],
+        "subject_id": "P0835:te",
+        "object_id": "P0835:ionic"
+      },
+      {
+        "relation_id": "P0835:r015",
+        "subject": "Mg–P interactions",
+        "subject_role": "interaction",
+        "predicate": "has",
+        "object": "Covalent character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Electron charge density and partial density of states investigations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "A direct band gap that is approximately 1.70eV supports semiconducting activity, whereas electron charge density and partial density of states investigations show mixed ionic-covalent bonding, with Te atoms largely ionic and Mg-P interactions covalent. "
+        ],
+        "subject_id": "P0835:mgp",
+        "object_id": "P0835:cov"
+      },
+      {
+        "relation_id": "P0835:r016",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Peak ZT greater than 1",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Thermoelectric analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:zt"
+      },
+      {
+        "relation_id": "P0835:r017",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Significant Seebeck coefficients",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Thermoelectric analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:s"
+      },
+      {
+        "relation_id": "P0835:r018",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Flexible electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Thermoelectric analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:sigma"
+      },
+      {
+        "relation_id": "P0835:r019",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Low lattice thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Thermoelectric analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+          "Peak ZT values greater than unity are obtained by thermoelectric analysis, which shows significant Seebeck coefficients, flexible electrical conductivity and low lattice thermal conductivity. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:k"
+      },
+      {
+        "relation_id": "P0835:r020",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Strong visible–UV light absorption",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Optical characteristics analysis",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Strong visible-UV light absorption and an absorption beginning at 1.70eV are shown by optical characteristics, underscoring the promise of MgPTe3 for thermoelectric, photovoltaic and optoelectronic applications."
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:abs"
+      },
+      {
+        "relation_id": "P0835:r021",
+        "subject": "2D MgPTe3 monolayer",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Absorption onset at 1.70 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Optical characteristics analysis",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. ",
+        "context_quotes": [
+          "Strong visible-UV light absorption and an absorption beginning at 1.70eV are shown by optical characteristics, underscoring the promise of MgPTe3 for thermoelectric, photovoltaic and optoelectronic applications."
+        ],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:m",
+        "object_id": "P0835:onset"
+      },
+      {
+        "relation_id": "P0835:r022",
+        "subject": "Strong visible–UV light absorption",
+        "subject_role": "performance_function",
+        "predicate": "supports_potential_for",
+        "object": "Photovoltaic and optoelectronic applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "MgPTe3 monolayer; absorption begins at 1.70 eV",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Strong visible-UV light absorption and an absorption beginning at 1.70eV are shown by optical characteristics, underscoring the promise of MgPTe3 for thermoelectric, photovoltaic and optoelectronic applications.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Comprehensive first-principles investigations have shown that MgPTe3 is a structurally strong and electrically flexible 2D monolayer material. "
+        ],
+        "subject_id": "P0835:abs",
+        "object_id": "P0835:optapp"
+      }
+    ]
+  }
+]

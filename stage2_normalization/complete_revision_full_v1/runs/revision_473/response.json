@@ -1,0 +1,763 @@
+{
+  "papers": [
+    {
+      "paper_id": "P1914",
+      "decisions": [
+        {
+          "relation_id": "P1914:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1914:r002",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Include the source identifying AgCrSe2."
+        },
+        {
+          "relation_id": "P1914:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Include the source identifying AgCrSe2."
+        },
+        {
+          "relation_id": "P1914:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "AgCrSe2; real-time time-dependent DFT combined with molecular dynamics",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the simulated trimers to their material and structural antecedent."
+        },
+        {
+          "relation_id": "P1914:r005",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "AgCrSe2; real-time time-dependent DFT combined with molecular dynamics",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the simulated trimers to their material and structural antecedent."
+        },
+        {
+          "relation_id": "P1914:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "AgCrSe2; by opening excess free volume and reducing local energy barriers; real-time time-dependent DFT and molecular dynamics",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the simulated trimers to their material and structural antecedent."
+        },
+        {
+          "relation_id": "P1914:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1914:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Superionic conductors",
+          "subject_role": "material_entity",
+          "predicate": "exhibit",
+          "object": "Liquidlike ionic diffusivities",
+          "object_role": "quantity",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "While maintaining a periodic crystalline lattice",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Superionic conductors",
+          "subject_role": "material_entity",
+          "predicate": "maintain",
+          "object": "Periodic crystalline lattice",
+          "object_role": "state_structure",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "While exhibiting liquidlike ionic diffusivities",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Transient local structures of mobile ions",
+          "subject_role": "state_structure",
+          "predicate": "are_of_pivotal_importance_for",
+          "object": "Ion conduction",
+          "object_role": "mechanism_process",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "In superionic conductors",
+          "joint_factors": [
+            "Cooperative interactions of mobile ions with the host lattice"
+          ],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Transient local structures of mobile ions",
+          "subject_role": "state_structure",
+          "predicate": "are_of_pivotal_importance_for",
+          "object": "Heat conduction",
+          "object_role": "mechanism_process",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "In superionic conductors",
+          "joint_factors": [
+            "Cooperative interactions of mobile ions with the host lattice"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Opening excess free volume",
+          "subject_role": "mechanism_process",
+          "predicate": "enables",
+          "object": "Fast Ag+ diffusion",
+          "object_role": "mechanism_process",
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            5
+          ],
+          "conditions": "Through contracted Ag+ trimer structures in AgCrSe2; real-time time-dependent DFT combined with molecular dynamics",
+          "joint_factors": [
+            "Reducing local energy barriers"
+          ],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1915",
+      "decisions": [
+        {
+          "relation_id": "P1915:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r014",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r015",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r016",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r017",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r018",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r019",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r020",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "At 800 K under −5%/0%/+5% biaxial and hydrostatic strain",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the temperature and strain conditions of the reported thermoelectric response."
+        },
+        {
+          "relation_id": "P1915:r021",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r022",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r023",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r024",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1915:r025",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "First-principles calculations",
+          "subject_role": "design_strategy",
+          "predicate": "assess",
+          "object": "Hydrogen-storage potential of BaSiH6",
+          "object_role": "performance_function",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            1
+          ],
+          "conditions": "Under strain",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Electron-density analysis",
+          "subject_role": "design_strategy",
+          "predicate": "reveals",
+          "object": "Predominantly ionic Ba–H bonds",
+          "object_role": "interaction",
+          "e": [
+            1,
+            7
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "BaSiH6",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Electron-density analysis",
+          "subject_role": "design_strategy",
+          "predicate": "reveals",
+          "object": "Covalent Si–H bonds",
+          "object_role": "interaction",
+          "e": [
+            1,
+            7
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "BaSiH6",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1916",
+      "decisions": [
+        {
+          "relation_id": "P1916:r001",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "measurement_method_model",
+            "claim_scope": null
+          },
+          "reason": "Explicit preparation–product relations belong in method scope."
+        },
+        {
+          "relation_id": "P1916:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r014",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r015",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r016",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r017",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1916:r018",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Single-crystal X-ray structure determination",
+          "subject_role": "design_strategy",
+          "predicate": "determines",
+          "object": "Crystal structure of FePb4Sb6Se14",
+          "object_role": "state_structure",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            1
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "FeSe6 octahedra",
+          "subject_role": "state_structure",
+          "predicate": "share_edges_to_form",
+          "object": "One-dimensional FenSe4n+2 straight chains",
+          "object_role": "state_structure",
+          "e": [
+            0,
+            1,
+            6
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            1
+          ],
+          "conditions": "In FePb4Sb6Se14",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1917",
+      "decisions": [
+        {
+          "relation_id": "P1917:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1917:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Filler grafting with three types of organic molecules",
+          "subject_role": "design_strategy",
+          "predicate": "produces",
+          "object": "Surface-modified thermal-shock-resistant ceramic filler",
+          "object_role": "material_entity",
+          "e": [
+            2,
+            4
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            4
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Bump model",
+          "subject_role": "design_strategy",
+          "predicate": "is_introduced_to_explain",
+          "object": "Tribological responses of polypropylene/EPDM ceramic composites",
+          "object_role": "performance_function",
+          "e": [
+            1,
+            7
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Dynamic vulcanizate blends filled with 5 wt% microscale ceramic powder",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

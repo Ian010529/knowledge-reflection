@@ -1,0 +1,413 @@
+{
+  "type": "object",
+  "properties": {
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paper_id": {
+            "type": "string"
+          },
+          "decisions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "relation_id": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "keep",
+                    "patch",
+                    "reject",
+                    "uncertain"
+                  ]
+                },
+                "patch": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "subject": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "subject_role": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "enum": [
+                                "material_entity",
+                                "design_strategy",
+                                "condition",
+                                "interaction",
+                                "mechanism_process",
+                                "state_structure",
+                                "quantity",
+                                "descriptor",
+                                "performance_function",
+                                "application"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "predicate": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "object": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "object_role": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "enum": [
+                                "material_entity",
+                                "design_strategy",
+                                "condition",
+                                "interaction",
+                                "mechanism_process",
+                                "state_structure",
+                                "quantity",
+                                "descriptor",
+                                "performance_function",
+                                "application"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "e": {
+                          "anyOf": [
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "integer",
+                                "minimum": 0
+                              }
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "assertion": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "enum": [
+                                "author_claim",
+                                "association",
+                                "hypothesis",
+                                "negated"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "modality": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "enum": [
+                                "unspecified",
+                                "experimental",
+                                "computational",
+                                "theoretical",
+                                "mixed"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "me": {
+                          "anyOf": [
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "integer",
+                                "minimum": 0
+                              }
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "conditions": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "joint_factors": {
+                          "anyOf": [
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scope": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "enum": [
+                                "intrinsic_material_mechanism",
+                                "thermodynamics",
+                                "ion_mass_transport",
+                                "electrode_interface_kinetics",
+                                "device_thermal_management",
+                                "mechanical_environmental_stability",
+                                "application_sensing",
+                                "measurement_method_model",
+                                "other_adjacent_domain"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "claim_scope": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "enum": [
+                                "own_work",
+                                "review_synthesis",
+                                "background"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "subject",
+                        "subject_role",
+                        "predicate",
+                        "object",
+                        "object_role",
+                        "e",
+                        "assertion",
+                        "modality",
+                        "me",
+                        "conditions",
+                        "joint_factors",
+                        "scope",
+                        "claim_scope"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "relation_id",
+                "action",
+                "patch",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "additions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "subject": {
+                  "type": "string"
+                },
+                "subject_role": {
+                  "type": "string",
+                  "enum": [
+                    "material_entity",
+                    "design_strategy",
+                    "condition",
+                    "interaction",
+                    "mechanism_process",
+                    "state_structure",
+                    "quantity",
+                    "descriptor",
+                    "performance_function",
+                    "application"
+                  ]
+                },
+                "predicate": {
+                  "type": "string"
+                },
+                "object": {
+                  "type": "string"
+                },
+                "object_role": {
+                  "type": "string",
+                  "enum": [
+                    "material_entity",
+                    "design_strategy",
+                    "condition",
+                    "interaction",
+                    "mechanism_process",
+                    "state_structure",
+                    "quantity",
+                    "descriptor",
+                    "performance_function",
+                    "application"
+                  ]
+                },
+                "e": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "assertion": {
+                  "type": "string",
+                  "enum": [
+                    "author_claim",
+                    "association",
+                    "hypothesis",
+                    "negated"
+                  ]
+                },
+                "modality": {
+                  "type": "string",
+                  "enum": [
+                    "unspecified",
+                    "experimental",
+                    "computational",
+                    "theoretical",
+                    "mixed"
+                  ]
+                },
+                "me": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "conditions": {
+                  "type": "string"
+                },
+                "joint_factors": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "scope": {
+                  "type": "string",
+                  "enum": [
+                    "intrinsic_material_mechanism",
+                    "thermodynamics",
+                    "ion_mass_transport",
+                    "electrode_interface_kinetics",
+                    "device_thermal_management",
+                    "mechanical_environmental_stability",
+                    "application_sensing",
+                    "measurement_method_model",
+                    "other_adjacent_domain"
+                  ]
+                },
+                "claim_scope": {
+                  "type": "string",
+                  "enum": [
+                    "own_work",
+                    "review_synthesis",
+                    "background"
+                  ]
+                }
+              },
+              "required": [
+                "subject",
+                "subject_role",
+                "predicate",
+                "object",
+                "object_role",
+                "e",
+                "assertion",
+                "modality",
+                "me",
+                "conditions",
+                "joint_factors",
+                "scope",
+                "claim_scope"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "reextract": {
+            "type": "boolean"
+          },
+          "reextract_reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "paper_id",
+          "decisions",
+          "additions",
+          "reextract",
+          "reextract_reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "papers"
+  ],
+  "additionalProperties": false
+}

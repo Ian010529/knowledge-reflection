@@ -1,0 +1,23 @@
+{
+  "reviewer": "current-context Astra; not an independent second gold set",
+  "scope": "Two explicit scope-code interpretation errors; original model judgments unchanged; no source graph repairs",
+  "basis": "full_extraction_v1/PROMPT.md explicitly maps application=application_sensing; CROSS_DOMAIN_MATCH_EXTRACTION.md retains application relations, not sensing only",
+  "decisions": [
+    {
+      "relation_id": "P1404:r011",
+      "original": "partial",
+      "adjudicated": "supported",
+      "reason": "原文明确报告阵列模块回收废热并为 LED/风扇供电，关系已保留对应材料/模块条件。初评唯一理由为非传感不属于 application_sensing，与冻结 application 编码含义不符。"
+    },
+    {
+      "relation_id": "P0021:r008",
+      "original": "partial",
+      "adjudicated": "supported",
+      "reason": "原文支持 4×12 DTGC 阵列输出超过 11.3 V、温差 20 K 并足以直接供电 LED，关系保留这些条件。初评唯一理由为供电非传感，属于对 application_sensing 范围的误读。"
+    }
+  ],
+  "other_disputes_retained": [
+    "制备方法、低成本/资源属性及设计目的的范围存在边界判断；未系统二次裁判，原分保留。",
+    "所有条件缺失判定均按冻结严格字段规则保留，未因引文含有条件就自动改为正确。"
+  ]
+}

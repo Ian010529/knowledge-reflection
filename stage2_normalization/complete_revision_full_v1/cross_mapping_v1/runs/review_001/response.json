@@ -1,0 +1,145 @@
+{
+  "pairs": [
+    {
+      "review_id": "M001",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "ionic_thermodiffusion",
+      "right_physics": "ionic_thermodiffusion",
+      "match": 1,
+      "level": "same_mechanism",
+      "explanation": "两条关系均获摘要支持，且共享Soret热扩散机制；但左侧产物是电势，右侧产物是浓度梯度，只有有限的有向关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧为供水、蒸发与温差共同作用的膜发电，所选关系仅涉及其中的Soret电势；右侧为干聚合物中达到扩散平衡后的浓度梯度表征。不能把左侧持续总电压全部归于Soret效应，也不能将浓度梯度直接等同于电势。",
+      "neighbor_claim_ids": [
+        "TG:P0222:complete_v1_cr003",
+        "TG:P0222:complete_v1_cr004"
+      ],
+      "local_structure_assessment": "右侧邻边说明热扩散与消除浓度梯度的质量扩散相平衡；未提供浓度梯度到电势的后续边，仅支持有限单边对应。",
+      "transfer": "already_similar_mechanism",
+      "insight_question": "",
+      "limitations": "共同机制仅指所供文献中的Soret过程；缺少可比较的温差、含水量及电势分量数据。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "equivalent_in_context",
+          "reason": "两侧均指温度梯度驱动的组分热扩散与再分布。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "电势与浓度梯度可能关联，但属于不同物理量，摘要未建立二者的通用等价关系。"
+        }
+      ],
+      "left_working_stage": "温差与供水维持下的发电；所选Soret分量未单独给出时间阶段",
+      "right_working_stage": "稳态浓度梯度表征"
+    },
+    {
+      "review_id": "M002",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "ionic_thermodiffusion",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "两侧均明确描述材料或器件通过某机制将热转为电，方向对应；共同点限于转换功能，Soret效应与氧化还原热电化学反应有本质差异。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧依赖离子热扩散，右侧依赖氧化还原电极反应及其温度响应。左侧未给出持续带载工作阶段，不能与右侧稳定输出等同；固定离子以增强热电势，也不能直接推为改善右侧反应物扩散。",
+      "neighbor_claim_ids": [],
+      "local_structure_assessment": "仅支持背景层面的单边功能对应；所供邻边不能组成两侧一致的有向两边路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "目标关系没有共同的具体干预策略或可比较工作条件；毫伏级热电系数不足以支持机制迁移。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "分别是离子热电材料类别与热电化学器件类别，承担热电转换功能，但不是同一概念。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "analogous_role",
+          "reason": "均承担热电转换机制的功能角色，但物理实现分别为热扩散与氧化还原反应。"
+        }
+      ],
+      "left_working_stage": "热电转换背景描述；充电与带载阶段未指定",
+      "right_working_stage": "热电化学发电背景描述；摘要另报告稳定输出"
+    },
+    {
+      "review_id": "M003",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "两条温度依赖关系均获支持，但固体热力学熵与NaOH溶解度不是可对应的响应量；共享自变量和谓词不足以成立关系匹配。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧是准谐德拜模型中的固体热力学性质计算，所选熵关系不是电子热电输运机制；右侧是水合物熔化相关的溶解度变化，用于概念混合电池的浓差维持，也不是Soret过程。计算表征与运行中浓差维持不能直接对应。",
+      "neighbor_claim_ids": [
+        "iTE:P1480:r016"
+      ],
+      "local_structure_assessment": "左侧邻边仅补充熵也依赖压力，与温度依赖构成并列关系；右侧无所供邻边，不存在可比较的两边因果路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "两侧均未给出目标温度依赖的方向或函数；右侧浓差维持还联合依赖蒸馏，不能由溶解度单独解释。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "different",
+          "reason": "固体熵与NaOH溶解度是不同科学量，未给出可对应的功能关系。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "equivalent_in_context",
+          "reason": "均指作为热状态变量的温度，但不意味着温区或边界条件相同。"
+        }
+      ],
+      "left_working_stage": "计算表征：准谐德拜模型热力学性质",
+      "right_working_stage": "概念器件运行中的浓差维持；未报告实测运行"
+    },
+    {
+      "review_id": "M004",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "ionic_thermodiffusion",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "两侧均支持“起关键作用”的表述，但左侧是水热扩散促进质子迁移并提高热电势，右侧是电极过程支配电池运行；动作措辞相似不足以建立具体关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧讨论PSS-H内水与质子的定向热扩散，右侧讨论热电化学电极及反应物输运。右侧将“电极动力学”表述为平衡电势随温度快速变化，应保留该限定，不能改写为反应速率提升。左侧未明确带载稳态阶段，不能等同右侧稳态电池运行。",
+      "neighbor_claim_ids": [
+        "iTE:P0392:r002",
+        "iTE:P0392:r003",
+        "TG:P0129:r006"
+      ],
+      "local_structure_assessment": "左侧存在同论文有向路径：水热扩散→冷热端定向质子迁移→大离子热电势。右侧邻边仅解释电极动力学的作者用语，没有对应的两边作用路径；目标单边也不构成实质匹配。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧具体热电势指标与右侧宽泛的电池运行不等价；摘要未证明两种关键过程具有可迁移的调控关系。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "different",
+          "reason": "水热扩散是体相输运过程，右侧是作者特定定义的电极温度响应。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "大离子热电势是具体性能响应，热电化学电池运行是整体功能，粒度和机制均不同。"
+        }
+      ],
+      "left_working_stage": "温差下离子热电响应表征；带载阶段未指定",
+      "right_working_stage": "稳态热电化学电池运行的理论分析"
+    }
+  ]
+}

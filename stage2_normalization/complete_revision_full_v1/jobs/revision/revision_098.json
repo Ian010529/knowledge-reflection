@@ -1,0 +1,1339 @@
+[
+  {
+    "paper_id": "P0410",
+    "title": "Ionic Thermoelectric Figure of Merit for Charging of Supercapacitors",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermoelectric materials enable conversion of heat to electrical energy. "
+      },
+      {
+        "id": 1,
+        "text": "The performance of electronic thermoelectric materials is typically evaluated using a figure of merit ZT = sigma alpha 2T/lambda, where sigma is the conductivity, alpha is the so-called Seebeck coefficient, and lambda is the thermal conductivity. "
+      },
+      {
+        "id": 2,
+        "text": "However, it has been unclear how to best evaluate the performance of ionic thermoelectric materials, like ionic solids and electrolytes. "
+      },
+      {
+        "id": 3,
+        "text": "These systems cannot be directly used in a traditional thermoelectric generator, because they are based on ions that cannot pass the interface between the thermoelectric material and external metal electrodes. "
+      },
+      {
+        "id": 4,
+        "text": "Instead, energy can be harvested from the ionic thermoelectric effect by charging a supercapacitor. "
+      },
+      {
+        "id": 5,
+        "text": "In this study, the authors investigate the ionic thermoelectric properties at varied relative humidity for the polyelectrolyte polystyrene sulfonate sodium and correlate these properties with the charging efficiency when used in an ionic thermoelectric supercapacitor (ITESC). "
+      },
+      {
+        "id": 6,
+        "text": "In analogy with electronic thermoelectric generators, the results show that the charging efficiency of the ITESC can be quantitatively related to the figure of merit ZT(i) = sigma i alpha i2T/lambda. "
+      },
+      {
+        "id": 7,
+        "text": "This means that the performance of ionic thermoelectric materials can also be compared and predicted based on the ZT, which will be highly valuable in the design of high-performance ITESCs."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0410:poly",
+        "label": "Polystyrene sulfonate sodium polyelectrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0410:eff",
+        "label": "ITESC charging efficiency",
+        "role": "quantity"
+      },
+      {
+        "id": "P0410:props",
+        "label": "Ionic thermoelectric properties",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0410:zt",
+        "label": "Ionic figure of merit ZT(i) = σi αi² T/λ",
+        "role": "quantity"
+      },
+      {
+        "id": "P0410:perf",
+        "label": "Ionic thermoelectric material performance",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0410:r001",
+        "subject": "Polystyrene sulfonate sodium polyelectrolyte",
+        "subject_role": "material_entity",
+        "predicate": "has properties correlated with charging efficiency",
+        "object": "ITESC charging efficiency",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Ionic thermoelectric properties investigated at varied relative humidity; used in an ionic thermoelectric supercapacitor (ITESC)",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "In this study, the authors investigate the ionic thermoelectric properties at varied relative humidity for the polyelectrolyte polystyrene sulfonate sodium and correlate these properties with the charging efficiency when used in an ionic thermoelectric supercapacitor (ITESC). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0410:poly",
+        "object_id": "P0410:eff"
+      },
+      {
+        "relation_id": "P0410:r002",
+        "subject": "Ionic thermoelectric properties",
+        "subject_role": "descriptor",
+        "predicate": "correlate with",
+        "object": "ITESC charging efficiency",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Polystyrene sulfonate sodium at varied relative humidity in an ITESC; direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "In this study, the authors investigate the ionic thermoelectric properties at varied relative humidity for the polyelectrolyte polystyrene sulfonate sodium and correlate these properties with the charging efficiency when used in an ionic thermoelectric supercapacitor (ITESC). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0410:props",
+        "object_id": "P0410:eff"
+      },
+      {
+        "relation_id": "P0410:r003",
+        "subject": "ITESC charging efficiency",
+        "subject_role": "quantity",
+        "predicate": "is quantitatively related to",
+        "object": "Ionic figure of merit ZT(i) = σi αi² T/λ",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "For ionic thermoelectric supercapacitor charging, in analogy with electronic thermoelectric generators",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "In analogy with electronic thermoelectric generators, the results show that the charging efficiency of the ITESC can be quantitatively related to the figure of merit ZT(i) = sigma i alpha i2T/lambda. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0410:eff",
+        "object_id": "P0410:zt"
+      },
+      {
+        "relation_id": "P0410:r004",
+        "subject": "Ionic figure of merit ZT(i) = σi αi² T/λ",
+        "subject_role": "quantity",
+        "predicate": "enables comparison and prediction of",
+        "object": "Ionic thermoelectric material performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "For design of ionic thermoelectric supercapacitors",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In analogy with electronic thermoelectric generators, the results show that the charging efficiency of the ITESC can be quantitatively related to the figure of merit ZT(i) = sigma i alpha i2T/lambda. ",
+        "context_quotes": [
+          "This means that the performance of ionic thermoelectric materials can also be compared and predicted based on the ZT, which will be highly valuable in the design of high-performance ITESCs."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0410:zt",
+        "object_id": "P0410:perf"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0411",
+    "title": "Annealing Temperature Tuning of Thermoelectric Properties in Conductive Polymers: Transition from Ionic to Electronic Thermoelectrics",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermoelectric materials (TEMs) have attracted considerable interest for applications in low-grade energy harvesting, refrigeration, and sensing. "
+      },
+      {
+        "id": 1,
+        "text": "Conductive polymers (CPs) represent an important class of TEMs, as they have garnered considerable attention for their dual functionality in facilitating ion transport through channel formation, while simultaneously enabling hole-electron conduction via conjugated networks. "
+      },
+      {
+        "id": 2,
+        "text": "However, researchers have overlooked the connection between CP-based ionic thermoelectrics and electronic thermoelectrics. "
+      },
+      {
+        "id": 3,
+        "text": "Here, we demonstrate tunable thermoelectric properties achieved exclusively through polymer annealing without any additional substance incorporation. "
+      },
+      {
+        "id": 4,
+        "text": "For the PEDOT:PSS/EMIM:DCA composites, a distinct transition from ionic to electronic TEMs was observed for the first time upon annealing above 140 degrees C. "
+      },
+      {
+        "id": 5,
+        "text": "Through comprehensive characterization techniques, we demonstrated that this transition originates from the construction of conductive networks induced by phase separation. "
+      },
+      {
+        "id": 6,
+        "text": "Furthermore, by utilizing materials annealed at different temperatures, we constructed a hybrid ionic-electronic thermoelectric converter achieving energy density of 13.99 J m-2, more than 17-fold enhancement compared to a pure ionic thermoelectric converter. "
+      },
+      {
+        "id": 7,
+        "text": "This work not only provides fundamental insights into charge transport in CPs but also provides insights into the design of high-performance TEMs."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0411:ann",
+        "label": "Polymer annealing",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0411:te",
+        "label": "Tunable thermoelectric properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0411:hot",
+        "label": "Annealing above 140 °C",
+        "role": "condition"
+      },
+      {
+        "id": "P0411:trans",
+        "label": "Transition from ionic to electronic thermoelectric behavior",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0411:comp",
+        "label": "PEDOT:PSS/EMIM:DCA composites",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0411:phase",
+        "label": "Phase separation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0411:net",
+        "label": "Construction of conductive networks",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0411:build",
+        "label": "Using materials annealed at different temperatures",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0411:hybrid",
+        "label": "Hybrid ionic–electronic thermoelectric converter",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0411:energy",
+        "label": "Energy density: 13.99 J m−2",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0411:r001",
+        "subject": "Polymer annealing",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Tunable thermoelectric properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Exclusively through annealing, without incorporation of additional substances",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate tunable thermoelectric properties achieved exclusively through polymer annealing without any additional substance incorporation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0411:ann",
+        "object_id": "P0411:te"
+      },
+      {
+        "relation_id": "P0411:r002",
+        "subject": "Annealing above 140 °C",
+        "subject_role": "condition",
+        "predicate": "induces",
+        "object": "Transition from ionic to electronic thermoelectric behavior",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PEDOT:PSS/EMIM:DCA composites",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "For the PEDOT:PSS/EMIM:DCA composites, a distinct transition from ionic to electronic TEMs was observed for the first time upon annealing above 140 degrees C. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0411:hot",
+        "object_id": "P0411:trans"
+      },
+      {
+        "relation_id": "P0411:r003",
+        "subject": "PEDOT:PSS/EMIM:DCA composites",
+        "subject_role": "material_entity",
+        "predicate": "undergoes",
+        "object": "Transition from ionic to electronic thermoelectric behavior",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Upon annealing above 140 °C",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "For the PEDOT:PSS/EMIM:DCA composites, a distinct transition from ionic to electronic TEMs was observed for the first time upon annealing above 140 degrees C. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0411:comp",
+        "object_id": "P0411:trans"
+      },
+      {
+        "relation_id": "P0411:r004",
+        "subject": "Phase separation",
+        "subject_role": "mechanism_process",
+        "predicate": "induces",
+        "object": "Construction of conductive networks",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "PEDOT:PSS/EMIM:DCA composites; supported by comprehensive characterization",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "For the PEDOT:PSS/EMIM:DCA composites, a distinct transition from ionic to electronic TEMs was observed for the first time upon annealing above 140 degrees C. ",
+        "context_quotes": [
+          "Through comprehensive characterization techniques, we demonstrated that this transition originates from the construction of conductive networks induced by phase separation. "
+        ],
+        "modality_evidence": [
+          "Through comprehensive characterization techniques, we demonstrated that this transition originates from the construction of conductive networks induced by phase separation. "
+        ],
+        "subject_id": "P0411:phase",
+        "object_id": "P0411:net"
+      },
+      {
+        "relation_id": "P0411:r005",
+        "subject": "Construction of conductive networks",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Transition from ionic to electronic thermoelectric behavior",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "PEDOT:PSS/EMIM:DCA composites; supported by comprehensive characterization",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "For the PEDOT:PSS/EMIM:DCA composites, a distinct transition from ionic to electronic TEMs was observed for the first time upon annealing above 140 degrees C. ",
+        "context_quotes": [
+          "Through comprehensive characterization techniques, we demonstrated that this transition originates from the construction of conductive networks induced by phase separation. "
+        ],
+        "modality_evidence": [
+          "Through comprehensive characterization techniques, we demonstrated that this transition originates from the construction of conductive networks induced by phase separation. "
+        ],
+        "subject_id": "P0411:net",
+        "object_id": "P0411:trans"
+      },
+      {
+        "relation_id": "P0411:r006",
+        "subject": "Using materials annealed at different temperatures",
+        "subject_role": "design_strategy",
+        "predicate": "enables construction of",
+        "object": "Hybrid ionic–electronic thermoelectric converter",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, by utilizing materials annealed at different temperatures, we constructed a hybrid ionic-electronic thermoelectric converter achieving energy density of 13.99 J m-2, more than 17-fold enhancement compared to a pure ionic thermoelectric converter. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Furthermore, by utilizing materials annealed at different temperatures, we constructed a hybrid ionic-electronic thermoelectric converter achieving energy density of 13.99 J m-2, more than 17-fold enhancement compared to a pure ionic thermoelectric converter. "
+        ],
+        "subject_id": "P0411:build",
+        "object_id": "P0411:hybrid"
+      },
+      {
+        "relation_id": "P0411:r007",
+        "subject": "Hybrid ionic–electronic thermoelectric converter",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Energy density: 13.99 J m−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "More than 17-fold enhancement compared with a pure ionic thermoelectric converter",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, by utilizing materials annealed at different temperatures, we constructed a hybrid ionic-electronic thermoelectric converter achieving energy density of 13.99 J m-2, more than 17-fold enhancement compared to a pure ionic thermoelectric converter. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0411:hybrid",
+        "object_id": "P0411:energy"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0412",
+    "title": "Polycationic strategy and nanofiller synergy endow the dual network ionic liquid gel with excellent thermoelectric and mechanical properties",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic liquid gels require a high ionic concentration load to achieve high thermoelectric performance, which creates a trade-off between thermoelectric performance, operational stability, and mechanical properties. "
+      },
+      {
+        "id": 1,
+        "text": "To address this challenge, a novel dual network gel integrating polycationic strategy and nanofiller reinforcement is proposed. "
+      },
+      {
+        "id": 2,
+        "text": "The cations of 1-ethyl-3-vinylimidazolium dicyanamide undergo polymerization, which enhance Seebeck coefficient and effectively address ion leakage and poor mechanical performance. "
+      },
+      {
+        "id": 3,
+        "text": "The incorporation of of SiO2, modified graphene (mG), and Ti3C2Tx reduce crystallinity, strengthen interfacial phonon scattering, and introduce extensive hydrogen bonding, thereby improving both thermoelectric and mechanical performance. "
+      },
+      {
+        "id": 4,
+        "text": "The novel gel achieves a giant Seebeck coefficient of 26.8 mV center dot K- 1(at 20 degrees C, 60 % relative humidity). "
+      },
+      {
+        "id": 5,
+        "text": "Moreover, it exhibits remarkable stability indicated by stable performance during 5000 cycles, the stable dimensionless figure of merit (ZT) is 3.19 times as single network gel. "
+      },
+      {
+        "id": 6,
+        "text": "The highly efficient stress dissipation network contributes to record-breaking mechanical properties, with a tensile strength of 14.3 MPa and an elongation of 535.7 %. "
+      },
+      {
+        "id": 7,
+        "text": "Furthermore, the gel demonstrates enhanced flame resistance and anti-bacterial properties and is successfully applied in self-powered respiratory monitoring. "
+      },
+      {
+        "id": 8,
+        "text": "This cationic self-polymerized modification strategy, combined with steric hindrance, phonon scattering and hydrogen bond reinforcement, provides a novel way for developing high performance ionic liquid gels."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0412:gel",
+        "label": "Dual-network ionic liquid gel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0412:design",
+        "label": "Combined polycationic strategy and nanofiller reinforcement",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0412:poly",
+        "label": "Polymerization of 1-ethyl-3-vinylimidazolium dicyanamide cations",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0412:s",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0412:leak",
+        "label": "Ion leakage",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0412:mech",
+        "label": "Mechanical performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0412:fill",
+        "label": "Combined incorporation of SiO2, modified graphene and Ti3C2Tx",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0412:cryst",
+        "label": "Crystallinity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0412:phonon",
+        "label": "Interfacial phonon scattering",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0412:hb",
+        "label": "Extensive hydrogen bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P0412:te",
+        "label": "Thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0412:sval",
+        "label": "Seebeck coefficient: 26.8 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0412:cycles",
+        "label": "Stable performance during 5000 cycles",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0412:zt",
+        "label": "Stable dimensionless figure of merit: 3.19 times that of single-network gel",
+        "role": "quantity"
+      },
+      {
+        "id": "P0412:stress",
+        "label": "Highly efficient stress-dissipation network",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0412:ts",
+        "label": "Tensile strength: 14.3 MPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P0412:el",
+        "label": "Elongation: 535.7%",
+        "role": "quantity"
+      },
+      {
+        "id": "P0412:flame",
+        "label": "Enhanced flame resistance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0412:bact",
+        "label": "Anti-bacterial properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0412:resp",
+        "label": "Self-powered respiratory monitoring",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0412:r001",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "integrates",
+        "object": "Combined polycationic strategy and nanofiller reinforcement",
+        "object_role": "design_strategy",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "To address this challenge, a novel dual network gel integrating polycationic strategy and nanofiller reinforcement is proposed. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:design"
+      },
+      {
+        "relation_id": "P0412:r002",
+        "subject": "Polymerization of 1-ethyl-3-vinylimidazolium dicyanamide cations",
+        "subject_role": "mechanism_process",
+        "predicate": "enhances",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The cations of 1-ethyl-3-vinylimidazolium dicyanamide undergo polymerization, which enhance Seebeck coefficient and effectively address ion leakage and poor mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:poly",
+        "object_id": "P0412:s"
+      },
+      {
+        "relation_id": "P0412:r003",
+        "subject": "Polymerization of 1-ethyl-3-vinylimidazolium dicyanamide cations",
+        "subject_role": "mechanism_process",
+        "predicate": "mitigates",
+        "object": "Ion leakage",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The cations of 1-ethyl-3-vinylimidazolium dicyanamide undergo polymerization, which enhance Seebeck coefficient and effectively address ion leakage and poor mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:poly",
+        "object_id": "P0412:leak"
+      },
+      {
+        "relation_id": "P0412:r004",
+        "subject": "Polymerization of 1-ethyl-3-vinylimidazolium dicyanamide cations",
+        "subject_role": "mechanism_process",
+        "predicate": "improves",
+        "object": "Mechanical performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The cations of 1-ethyl-3-vinylimidazolium dicyanamide undergo polymerization, which enhance Seebeck coefficient and effectively address ion leakage and poor mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:poly",
+        "object_id": "P0412:mech"
+      },
+      {
+        "relation_id": "P0412:r005",
+        "subject": "Combined incorporation of SiO2, modified graphene and Ti3C2Tx",
+        "subject_role": "design_strategy",
+        "predicate": "reduces",
+        "object": "Crystallinity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Fillers reported collectively",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The incorporation of of SiO2, modified graphene (mG), and Ti3C2Tx reduce crystallinity, strengthen interfacial phonon scattering, and introduce extensive hydrogen bonding, thereby improving both thermoelectric and mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:fill",
+        "object_id": "P0412:cryst"
+      },
+      {
+        "relation_id": "P0412:r006",
+        "subject": "Combined incorporation of SiO2, modified graphene and Ti3C2Tx",
+        "subject_role": "design_strategy",
+        "predicate": "strengthens",
+        "object": "Interfacial phonon scattering",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Fillers reported collectively",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The incorporation of of SiO2, modified graphene (mG), and Ti3C2Tx reduce crystallinity, strengthen interfacial phonon scattering, and introduce extensive hydrogen bonding, thereby improving both thermoelectric and mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:fill",
+        "object_id": "P0412:phonon"
+      },
+      {
+        "relation_id": "P0412:r007",
+        "subject": "Combined incorporation of SiO2, modified graphene and Ti3C2Tx",
+        "subject_role": "design_strategy",
+        "predicate": "introduces",
+        "object": "Extensive hydrogen bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Fillers reported collectively",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The incorporation of of SiO2, modified graphene (mG), and Ti3C2Tx reduce crystallinity, strengthen interfacial phonon scattering, and introduce extensive hydrogen bonding, thereby improving both thermoelectric and mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:fill",
+        "object_id": "P0412:hb"
+      },
+      {
+        "relation_id": "P0412:r008",
+        "subject": "Combined incorporation of SiO2, modified graphene and Ti3C2Tx",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through collectively reported reduced crystallinity, strengthened interfacial phonon scattering and extensive hydrogen bonding",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The incorporation of of SiO2, modified graphene (mG), and Ti3C2Tx reduce crystallinity, strengthen interfacial phonon scattering, and introduce extensive hydrogen bonding, thereby improving both thermoelectric and mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:fill",
+        "object_id": "P0412:te"
+      },
+      {
+        "relation_id": "P0412:r009",
+        "subject": "Combined incorporation of SiO2, modified graphene and Ti3C2Tx",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Mechanical performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through collectively reported reduced crystallinity, strengthened interfacial phonon scattering and extensive hydrogen bonding",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The incorporation of of SiO2, modified graphene (mG), and Ti3C2Tx reduce crystallinity, strengthen interfacial phonon scattering, and introduce extensive hydrogen bonding, thereby improving both thermoelectric and mechanical performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:fill",
+        "object_id": "P0412:mech"
+      },
+      {
+        "relation_id": "P0412:r010",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient: 26.8 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "20 °C and 60% relative humidity",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The novel gel achieves a giant Seebeck coefficient of 26.8 mV center dot K- 1(at 20 degrees C, 60 % relative humidity). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:sval"
+      },
+      {
+        "relation_id": "P0412:r011",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Stable performance during 5000 cycles",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cycle type unspecified",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Moreover, it exhibits remarkable stability indicated by stable performance during 5000 cycles, the stable dimensionless figure of merit (ZT) is 3.19 times as single network gel. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:cycles"
+      },
+      {
+        "relation_id": "P0412:r012",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Stable dimensionless figure of merit: 3.19 times that of single-network gel",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with single-network gel",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Moreover, it exhibits remarkable stability indicated by stable performance during 5000 cycles, the stable dimensionless figure of merit (ZT) is 3.19 times as single network gel. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:zt"
+      },
+      {
+        "relation_id": "P0412:r013",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Highly efficient stress-dissipation network",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The highly efficient stress dissipation network contributes to record-breaking mechanical properties, with a tensile strength of 14.3 MPa and an elongation of 535.7 %. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:stress"
+      },
+      {
+        "relation_id": "P0412:r014",
+        "subject": "Highly efficient stress-dissipation network",
+        "subject_role": "state_structure",
+        "predicate": "contributes to",
+        "object": "Tensile strength: 14.3 MPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Claimed record-breaking mechanical properties",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The highly efficient stress dissipation network contributes to record-breaking mechanical properties, with a tensile strength of 14.3 MPa and an elongation of 535.7 %. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:stress",
+        "object_id": "P0412:ts"
+      },
+      {
+        "relation_id": "P0412:r015",
+        "subject": "Highly efficient stress-dissipation network",
+        "subject_role": "state_structure",
+        "predicate": "contributes to",
+        "object": "Elongation: 535.7%",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Claimed record-breaking mechanical properties",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The highly efficient stress dissipation network contributes to record-breaking mechanical properties, with a tensile strength of 14.3 MPa and an elongation of 535.7 %. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:stress",
+        "object_id": "P0412:el"
+      },
+      {
+        "relation_id": "P0412:r016",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Enhanced flame resistance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the gel demonstrates enhanced flame resistance and anti-bacterial properties and is successfully applied in self-powered respiratory monitoring. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:flame"
+      },
+      {
+        "relation_id": "P0412:r017",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Anti-bacterial properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the gel demonstrates enhanced flame resistance and anti-bacterial properties and is successfully applied in self-powered respiratory monitoring. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:bact"
+      },
+      {
+        "relation_id": "P0412:r018",
+        "subject": "Dual-network ionic liquid gel",
+        "subject_role": "material_entity",
+        "predicate": "is successfully applied in",
+        "object": "Self-powered respiratory monitoring",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the gel demonstrates enhanced flame resistance and anti-bacterial properties and is successfully applied in self-powered respiratory monitoring. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0412:gel",
+        "object_id": "P0412:resp"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0413",
+    "title": "N-type thermoelectric composite hydrogels enabling dual-channel ionic/electronic transport",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermoelectric hydrogels have drawn increasing research interest owing to their high ionic thermopower (alpha) values and superior mechanical stretchability. "
+      },
+      {
+        "id": 1,
+        "text": "However, they are critically constrained by rapid dehydration and the poor interactions between polymeric frameworks and electrolytes, which fail to differentiate the diffusion rates of cations and anions under a certain temperature gradient (Delta T). "
+      },
+      {
+        "id": 2,
+        "text": "This study reports a dual-channel ionic/electronic composite hydrogel implemented by directional freezing a cross-linked network of PEDOT:PSS-coated poly(vinyl alcohol) (PVA) and then immersion into an ionic electrolyte of CuCl2. "
+      },
+      {
+        "id": 3,
+        "text": "Introducing 5 vol% conductive polymer PEDOT:PSS aqueous solution into the PVA hydrogel strengthened chemical coordination between the polymer matrix and Cu2+ ions to facilitate mobile Cl- ions, resulting in an ultrahigh alpha of -22.8 mV K-1, further elevated to - 33.8 mV K-1 via freezing-thawing cycles. "
+      },
+      {
+        "id": 4,
+        "text": "Driven by Delta T, holes accumulate at the cold end of the composite hydrogel, in part neutralizing Cl- migration and mitigating open-circuit voltages to an equilibrium value, whereas holes drifting toward electrodes allow charge extraction to the external circuit. "
+      },
+      {
+        "id": 5,
+        "text": "Notably, the composite hydrogel2 retained 90% of the peak voltage in a steady state at an optimum 0.5 M CuCl2. "
+      },
+      {
+        "id": 6,
+        "text": "Furthermore, introducing CuCl2 doubles the water retention capacity of the hydrogel and simultaneously endows it with excellent re-usability and long-term stability. "
+      },
+      {
+        "id": 7,
+        "text": "A hybrid thermoelectric generator delivers a stable output of -4.0 mV K-1 with a 100 k Omega external load. "
+      },
+      {
+        "id": 8,
+        "text": "Such a device permits generating electricity continuously under not only temperature fluctuations but also a stable Delta T."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0413:prep",
+        "label": "Directional freezing of cross-linked PEDOT:PSS-coated PVA followed by CuCl2 electrolyte immersion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0413:gel",
+        "label": "PEDOT:PSS-coated PVA/CuCl2 composite hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0413:dual",
+        "label": "Dual-channel ionic/electronic transport",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0413:add",
+        "label": "Addition of 5 vol% PEDOT:PSS aqueous solution to PVA hydrogel",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0413:coord",
+        "label": "Polymer-matrix–Cu2+ chemical coordination",
+        "role": "interaction"
+      },
+      {
+        "id": "P0413:cl",
+        "label": "Mobile Cl− ion transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0413:s1",
+        "label": "Thermopower: −22.8 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0413:ft",
+        "label": "Freezing–thawing cycles",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0413:s2",
+        "label": "Thermopower: −33.8 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0413:dt",
+        "label": "Temperature gradient ΔT",
+        "role": "condition"
+      },
+      {
+        "id": "P0413:holes",
+        "label": "Hole accumulation at the cold end",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0413:ocv",
+        "label": "Open-circuit voltage reduced to an equilibrium value",
+        "role": "quantity"
+      },
+      {
+        "id": "P0413:drift",
+        "label": "Hole drift toward electrodes",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0413:extract",
+        "label": "Charge extraction to the external circuit",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0413:gel2",
+        "label": "Composite hydrogel2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0413:ret",
+        "label": "Steady-state retention of 90% of peak voltage",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0413:cu",
+        "label": "CuCl2 introduction",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0413:water",
+        "label": "Doubled hydrogel water-retention capacity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0413:reuse",
+        "label": "Excellent re-usability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0413:stable",
+        "label": "Long-term stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0413:gen",
+        "label": "Hybrid thermoelectric generator",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0413:output",
+        "label": "Stable output: −4.0 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0413:cont",
+        "label": "Continuous electricity generation",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0413:r001",
+        "subject": "Directional freezing of cross-linked PEDOT:PSS-coated PVA followed by CuCl2 electrolyte immersion",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "PEDOT:PSS-coated PVA/CuCl2 composite hydrogel",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study reports a dual-channel ionic/electronic composite hydrogel implemented by directional freezing a cross-linked network of PEDOT:PSS-coated poly(vinyl alcohol) (PVA) and then immersion into an ionic electrolyte of CuCl2. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study reports a dual-channel ionic/electronic composite hydrogel implemented by directional freezing a cross-linked network of PEDOT:PSS-coated poly(vinyl alcohol) (PVA) and then immersion into an ionic electrolyte of CuCl2. "
+        ],
+        "subject_id": "P0413:prep",
+        "object_id": "P0413:gel"
+      },
+      {
+        "relation_id": "P0413:r002",
+        "subject": "PEDOT:PSS-coated PVA/CuCl2 composite hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "supports",
+        "object": "Dual-channel ionic/electronic transport",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study reports a dual-channel ionic/electronic composite hydrogel implemented by directional freezing a cross-linked network of PEDOT:PSS-coated poly(vinyl alcohol) (PVA) and then immersion into an ionic electrolyte of CuCl2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:gel",
+        "object_id": "P0413:dual"
+      },
+      {
+        "relation_id": "P0413:r003",
+        "subject": "Addition of 5 vol% PEDOT:PSS aqueous solution to PVA hydrogel",
+        "subject_role": "design_strategy",
+        "predicate": "strengthens",
+        "object": "Polymer-matrix–Cu2+ chemical coordination",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Introducing 5 vol% conductive polymer PEDOT:PSS aqueous solution into the PVA hydrogel strengthened chemical coordination between the polymer matrix and Cu2+ ions to facilitate mobile Cl- ions, resulting in an ultrahigh alpha of -22.8 mV K-1, further elevated to - 33.8 mV K-1 via freezing-thawing cycles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:add",
+        "object_id": "P0413:coord"
+      },
+      {
+        "relation_id": "P0413:r004",
+        "subject": "Polymer-matrix–Cu2+ chemical coordination",
+        "subject_role": "interaction",
+        "predicate": "facilitates",
+        "object": "Mobile Cl− ion transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "With 5 vol% PEDOT:PSS aqueous solution introduced into PVA hydrogel",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Introducing 5 vol% conductive polymer PEDOT:PSS aqueous solution into the PVA hydrogel strengthened chemical coordination between the polymer matrix and Cu2+ ions to facilitate mobile Cl- ions, resulting in an ultrahigh alpha of -22.8 mV K-1, further elevated to - 33.8 mV K-1 via freezing-thawing cycles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:coord",
+        "object_id": "P0413:cl"
+      },
+      {
+        "relation_id": "P0413:r005",
+        "subject": "Mobile Cl− ion transport",
+        "subject_role": "mechanism_process",
+        "predicate": "results in",
+        "object": "Thermopower: −22.8 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Facilitated by strengthened polymer-matrix–Cu2+ coordination after 5 vol% PEDOT:PSS addition",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Introducing 5 vol% conductive polymer PEDOT:PSS aqueous solution into the PVA hydrogel strengthened chemical coordination between the polymer matrix and Cu2+ ions to facilitate mobile Cl- ions, resulting in an ultrahigh alpha of -22.8 mV K-1, further elevated to - 33.8 mV K-1 via freezing-thawing cycles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:cl",
+        "object_id": "P0413:s1"
+      },
+      {
+        "relation_id": "P0413:r006",
+        "subject": "Freezing–thawing cycles",
+        "subject_role": "mechanism_process",
+        "predicate": "further elevates thermopower magnitude to",
+        "object": "Thermopower: −33.8 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "From −22.8 mV K−1 in the composite hydrogel",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Introducing 5 vol% conductive polymer PEDOT:PSS aqueous solution into the PVA hydrogel strengthened chemical coordination between the polymer matrix and Cu2+ ions to facilitate mobile Cl- ions, resulting in an ultrahigh alpha of -22.8 mV K-1, further elevated to - 33.8 mV K-1 via freezing-thawing cycles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:ft",
+        "object_id": "P0413:s2"
+      },
+      {
+        "relation_id": "P0413:r007",
+        "subject": "Temperature gradient ΔT",
+        "subject_role": "condition",
+        "predicate": "drives",
+        "object": "Hole accumulation at the cold end",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the composite hydrogel",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Driven by Delta T, holes accumulate at the cold end of the composite hydrogel, in part neutralizing Cl- migration and mitigating open-circuit voltages to an equilibrium value, whereas holes drifting toward electrodes allow charge extraction to the external circuit. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:dt",
+        "object_id": "P0413:holes"
+      },
+      {
+        "relation_id": "P0413:r008",
+        "subject": "Hole accumulation at the cold end",
+        "subject_role": "mechanism_process",
+        "predicate": "partly neutralizes",
+        "object": "Mobile Cl− ion transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under ΔT",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Driven by Delta T, holes accumulate at the cold end of the composite hydrogel, in part neutralizing Cl- migration and mitigating open-circuit voltages to an equilibrium value, whereas holes drifting toward electrodes allow charge extraction to the external circuit. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:holes",
+        "object_id": "P0413:cl"
+      },
+      {
+        "relation_id": "P0413:r009",
+        "subject": "Hole accumulation at the cold end",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Open-circuit voltage reduced to an equilibrium value",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under ΔT; partly neutralizing Cl− migration",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Driven by Delta T, holes accumulate at the cold end of the composite hydrogel, in part neutralizing Cl- migration and mitigating open-circuit voltages to an equilibrium value, whereas holes drifting toward electrodes allow charge extraction to the external circuit. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:holes",
+        "object_id": "P0413:ocv"
+      },
+      {
+        "relation_id": "P0413:r010",
+        "subject": "Hole drift toward electrodes",
+        "subject_role": "mechanism_process",
+        "predicate": "allows",
+        "object": "Charge extraction to the external circuit",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the composite hydrogel",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Driven by Delta T, holes accumulate at the cold end of the composite hydrogel, in part neutralizing Cl- migration and mitigating open-circuit voltages to an equilibrium value, whereas holes drifting toward electrodes allow charge extraction to the external circuit. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:drift",
+        "object_id": "P0413:extract"
+      },
+      {
+        "relation_id": "P0413:r011",
+        "subject": "Composite hydrogel2",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Steady-state retention of 90% of peak voltage",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Optimum CuCl2 concentration: 0.5 M",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Notably, the composite hydrogel2 retained 90% of the peak voltage in a steady state at an optimum 0.5 M CuCl2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:gel2",
+        "object_id": "P0413:ret"
+      },
+      {
+        "relation_id": "P0413:r012",
+        "subject": "CuCl2 introduction",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Doubled hydrogel water-retention capacity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with hydrogel without introduced CuCl2",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, introducing CuCl2 doubles the water retention capacity of the hydrogel and simultaneously endows it with excellent re-usability and long-term stability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:cu",
+        "object_id": "P0413:water"
+      },
+      {
+        "relation_id": "P0413:r013",
+        "subject": "CuCl2 introduction",
+        "subject_role": "design_strategy",
+        "predicate": "endows hydrogel with",
+        "object": "Excellent re-usability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, introducing CuCl2 doubles the water retention capacity of the hydrogel and simultaneously endows it with excellent re-usability and long-term stability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:cu",
+        "object_id": "P0413:reuse"
+      },
+      {
+        "relation_id": "P0413:r014",
+        "subject": "CuCl2 introduction",
+        "subject_role": "design_strategy",
+        "predicate": "endows hydrogel with",
+        "object": "Long-term stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, introducing CuCl2 doubles the water retention capacity of the hydrogel and simultaneously endows it with excellent re-usability and long-term stability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:cu",
+        "object_id": "P0413:stable"
+      },
+      {
+        "relation_id": "P0413:r015",
+        "subject": "Hybrid thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Stable output: −4.0 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "100 kΩ external load",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A hybrid thermoelectric generator delivers a stable output of -4.0 mV K-1 with a 100 k Omega external load. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0413:gen",
+        "object_id": "P0413:output"
+      },
+      {
+        "relation_id": "P0413:r016",
+        "subject": "Hybrid thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Continuous electricity generation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under both temperature fluctuations and stable ΔT",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A hybrid thermoelectric generator delivers a stable output of -4.0 mV K-1 with a 100 k Omega external load. ",
+        "context_quotes": [
+          "Such a device permits generating electricity continuously under not only temperature fluctuations but also a stable Delta T."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0413:gen",
+        "object_id": "P0413:cont"
+      }
+    ]
+  }
+]

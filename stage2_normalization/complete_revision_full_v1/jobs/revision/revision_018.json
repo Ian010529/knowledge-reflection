@@ -1,0 +1,1016 @@
+[
+  {
+    "paper_id": "P0073",
+    "title": "A machine learning-enabled planar interdigitated thermogalvanic hydrogel for synergistic thermal and strain sensing",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermal and strain recognition is a promising modality for wearable electronics and human-machine interfaces, taking advantage of its natural, efficient, and user-distinctive characteristics. "
+      },
+      {
+        "id": 1,
+        "text": "However, current sensing materials are typically limited by structural rigidity, functional constraints, and significant external power dependency, hindering their practical applications. "
+      },
+      {
+        "id": 2,
+        "text": "This work proposes a unique strain-thermal sensing mechanism based on a planar interdigitated thermogalvanic hydrogel (PITH), integrating MXene interdigitated electrodes with a polyacrylamide (PAAm)- Fe(CN)63-/4- hydrogel. "
+      },
+      {
+        "id": 3,
+        "text": "Operating under a temperature gradient, this self-powered device responds to hand-writing motions, thereby enabling real-time capture of subtle writing dynamics. "
+      },
+      {
+        "id": 4,
+        "text": "Distinct from resistive strain-based designs, the PITH employs a strain-thermal coupling mechanism, where mechanical strain modulates the hydrogel's redox kinetics, thereby influencing thermoelectric voltage output and establishing a direct strain-voltage correlation. "
+      },
+      {
+        "id": 5,
+        "text": "By applying a random forest algorithm to process dynamic voltage signals, discriminative features are extracted, achieving high recognition accuracy (99.09% for letters, 97.85% for digits) under entirely passive operation. "
+      },
+      {
+        "id": 6,
+        "text": "This study presents a structurally integrated, fully self-powered, and signal-programmable flexible handwriting recognition device, which is important for developing next-generation low-power wearable HMI systems."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0073:pith",
+        "label": "Planar interdigitated thermogalvanic hydrogel (PITH) device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0073:integration",
+        "label": "MXene interdigitated electrodes integrated with PAAm–Fe(CN)6³⁻/⁴⁻ hydrogel",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0073:handwriting",
+        "label": "Self-powered real-time capture of subtle handwriting dynamics",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0073:strain",
+        "label": "Mechanical strain",
+        "role": "condition"
+      },
+      {
+        "id": "P0073:kinetics",
+        "label": "Hydrogel redox kinetics",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0073:voltage",
+        "label": "Thermoelectric voltage output",
+        "role": "quantity"
+      },
+      {
+        "id": "P0073:rf",
+        "label": "Random forest processing of dynamic voltage signals",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0073:features",
+        "label": "Discriminative signal features",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0073:accuracy",
+        "label": "Recognition accuracy: letters 99.09%, digits 97.85%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0073:properties",
+        "label": "Structurally integrated, flexible and signal-programmable device",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0073:r001",
+        "subject": "Planar interdigitated thermogalvanic hydrogel (PITH) device",
+        "subject_role": "material_entity",
+        "predicate": "has_integrated_structure",
+        "object": "MXene interdigitated electrodes integrated with PAAm–Fe(CN)6³⁻/⁴⁻ hydrogel",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This work proposes a unique strain-thermal sensing mechanism based on a planar interdigitated thermogalvanic hydrogel (PITH), integrating MXene interdigitated electrodes with a polyacrylamide (PAAm)- Fe(CN)63-/4- hydrogel. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0073:pith",
+        "object_id": "P0073:integration"
+      },
+      {
+        "relation_id": "P0073:r002",
+        "subject": "Planar interdigitated thermogalvanic hydrogel (PITH) device",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Self-powered real-time capture of subtle handwriting dynamics",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Operating under a temperature gradient",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This work proposes a unique strain-thermal sensing mechanism based on a planar interdigitated thermogalvanic hydrogel (PITH), integrating MXene interdigitated electrodes with a polyacrylamide (PAAm)- Fe(CN)63-/4- hydrogel. ",
+        "context_quotes": [
+          "Operating under a temperature gradient, this self-powered device responds to hand-writing motions, thereby enabling real-time capture of subtle writing dynamics. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0073:pith",
+        "object_id": "P0073:handwriting"
+      },
+      {
+        "relation_id": "P0073:r003",
+        "subject": "Mechanical strain",
+        "subject_role": "condition",
+        "predicate": "modulates",
+        "object": "Hydrogel redox kinetics",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PITH strain–thermal coupling mechanism; contrasted with resistive strain designs",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Distinct from resistive strain-based designs, the PITH employs a strain-thermal coupling mechanism, where mechanical strain modulates the hydrogel's redox kinetics, thereby influencing thermoelectric voltage output and establishing a direct strain-voltage correlation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0073:strain",
+        "object_id": "P0073:kinetics"
+      },
+      {
+        "relation_id": "P0073:r004",
+        "subject": "Hydrogel redox kinetics",
+        "subject_role": "mechanism_process",
+        "predicate": "influences",
+        "object": "Thermoelectric voltage output",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Mechanical strain modulates hydrogel redox kinetics in PITH",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Distinct from resistive strain-based designs, the PITH employs a strain-thermal coupling mechanism, where mechanical strain modulates the hydrogel's redox kinetics, thereby influencing thermoelectric voltage output and establishing a direct strain-voltage correlation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0073:kinetics",
+        "object_id": "P0073:voltage"
+      },
+      {
+        "relation_id": "P0073:r005",
+        "subject": "Mechanical strain",
+        "subject_role": "condition",
+        "predicate": "is_directly_correlated_with",
+        "object": "Thermoelectric voltage output",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "PITH strain–thermal coupling; correlation sign unspecified",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Distinct from resistive strain-based designs, the PITH employs a strain-thermal coupling mechanism, where mechanical strain modulates the hydrogel's redox kinetics, thereby influencing thermoelectric voltage output and establishing a direct strain-voltage correlation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0073:strain",
+        "object_id": "P0073:voltage"
+      },
+      {
+        "relation_id": "P0073:r006",
+        "subject": "Random forest processing of dynamic voltage signals",
+        "subject_role": "design_strategy",
+        "predicate": "extracts",
+        "object": "Discriminative signal features",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Dynamic voltage signals from PITH",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "By applying a random forest algorithm to process dynamic voltage signals, discriminative features are extracted, achieving high recognition accuracy (99.09% for letters, 97.85% for digits) under entirely passive operation. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "By applying a random forest algorithm to process dynamic voltage signals, discriminative features are extracted, achieving high recognition accuracy (99.09% for letters, 97.85% for digits) under entirely passive operation. "
+        ],
+        "subject_id": "P0073:rf",
+        "object_id": "P0073:features"
+      },
+      {
+        "relation_id": "P0073:r007",
+        "subject": "Random forest processing of dynamic voltage signals",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Recognition accuracy: letters 99.09%, digits 97.85%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Entirely passive sensor operation",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "By applying a random forest algorithm to process dynamic voltage signals, discriminative features are extracted, achieving high recognition accuracy (99.09% for letters, 97.85% for digits) under entirely passive operation. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "By applying a random forest algorithm to process dynamic voltage signals, discriminative features are extracted, achieving high recognition accuracy (99.09% for letters, 97.85% for digits) under entirely passive operation. "
+        ],
+        "subject_id": "P0073:rf",
+        "object_id": "P0073:accuracy"
+      },
+      {
+        "relation_id": "P0073:r008",
+        "subject": "Planar interdigitated thermogalvanic hydrogel (PITH) device",
+        "subject_role": "material_entity",
+        "predicate": "has_properties",
+        "object": "Structurally integrated, flexible and signal-programmable device",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This study presents a structurally integrated, fully self-powered, and signal-programmable flexible handwriting recognition device, which is important for developing next-generation low-power wearable HMI systems.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0073:pith",
+        "object_id": "P0073:properties"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0074",
+    "title": "All-Soft and Stretchable Thermogalvanic Gel Fabric for Antideformity Body Heat Harvesting Wearable",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Currently, wearable thermal-electric harvester is a loose term for technology that embraces rigid thermoelectric leg incorporated flexible substrates. "
+      },
+      {
+        "id": 1,
+        "text": "In reality, they are not exclusively flexible, much less totally soft and stretchable. "
+      },
+      {
+        "id": 2,
+        "text": "Likewise, conventional substrate-dependent thermogalvanic cells lack the highly sought after mechanical adaptability, and hinder the full exploitation of the inherent merit of their fluidic matrices. "
+      },
+      {
+        "id": 3,
+        "text": "The existence of the substrate causes poor air permeability and worse still, leads to low heat transfer efficiency. "
+      },
+      {
+        "id": 4,
+        "text": "Here, a soft and stretchable thermogalvanic fabric directly woven out of p/n alternating hydrogel-based fibers is proposed. "
+      },
+      {
+        "id": 5,
+        "text": "In addition to improved wearing comfort, the compliant mechanical properties of the thermogalvanic fabric possess desired adaptability to irregular and continuously deformed skin, so as to realize conformal and efficient body heat harvesting. "
+      },
+      {
+        "id": 6,
+        "text": "The scalable and modular, processable soft gel serves as the groundwork to the realization of prototypical arbitrary fabric design and potentially a new battery-free bodily heat harvesting wearable."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0074:fabric",
+        "label": "Soft and stretchable thermogalvanic fabric",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0074:weave",
+        "label": "Fabric directly woven from alternating p/n hydrogel-based fibers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0074:compliance",
+        "label": "Compliant mechanical properties",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0074:comfort",
+        "label": "Improved wearing comfort",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0074:adaptation",
+        "label": "Adaptability to irregular and continuously deformed skin",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0074:harvesting",
+        "label": "Conformal and efficient body heat harvesting",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0074:gel",
+        "label": "Scalable, modular, processable soft gel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0074:design",
+        "label": "Prototypical arbitrary fabric design",
+        "role": "application"
+      },
+      {
+        "id": "P0074:wearable",
+        "label": "Battery-free bodily heat harvesting wearable",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0074:r001",
+        "subject": "Soft and stretchable thermogalvanic fabric",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Fabric directly woven from alternating p/n hydrogel-based fibers",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Proposed fabric",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, a soft and stretchable thermogalvanic fabric directly woven out of p/n alternating hydrogel-based fibers is proposed. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:fabric",
+        "object_id": "P0074:weave"
+      },
+      {
+        "relation_id": "P0074:r002",
+        "subject": "Soft and stretchable thermogalvanic fabric",
+        "subject_role": "material_entity",
+        "predicate": "has_property",
+        "object": "Compliant mechanical properties",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In addition to improved wearing comfort, the compliant mechanical properties of the thermogalvanic fabric possess desired adaptability to irregular and continuously deformed skin, so as to realize conformal and efficient body heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:fabric",
+        "object_id": "P0074:compliance"
+      },
+      {
+        "relation_id": "P0074:r003",
+        "subject": "Soft and stretchable thermogalvanic fabric",
+        "subject_role": "material_entity",
+        "predicate": "improves",
+        "object": "Improved wearing comfort",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparator not explicitly specified",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "In addition to improved wearing comfort, the compliant mechanical properties of the thermogalvanic fabric possess desired adaptability to irregular and continuously deformed skin, so as to realize conformal and efficient body heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:fabric",
+        "object_id": "P0074:comfort"
+      },
+      {
+        "relation_id": "P0074:r004",
+        "subject": "Compliant mechanical properties",
+        "subject_role": "descriptor",
+        "predicate": "enables",
+        "object": "Adaptability to irregular and continuously deformed skin",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermogalvanic fabric",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In addition to improved wearing comfort, the compliant mechanical properties of the thermogalvanic fabric possess desired adaptability to irregular and continuously deformed skin, so as to realize conformal and efficient body heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:compliance",
+        "object_id": "P0074:adaptation"
+      },
+      {
+        "relation_id": "P0074:r005",
+        "subject": "Adaptability to irregular and continuously deformed skin",
+        "subject_role": "performance_function",
+        "predicate": "enables",
+        "object": "Conformal and efficient body heat harvesting",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Irregular and continuously deformed skin",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "In addition to improved wearing comfort, the compliant mechanical properties of the thermogalvanic fabric possess desired adaptability to irregular and continuously deformed skin, so as to realize conformal and efficient body heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:adaptation",
+        "object_id": "P0074:harvesting"
+      },
+      {
+        "relation_id": "P0074:r006",
+        "subject": "Scalable, modular, processable soft gel",
+        "subject_role": "material_entity",
+        "predicate": "provides_basis_for",
+        "object": "Prototypical arbitrary fabric design",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The scalable and modular, processable soft gel serves as the groundwork to the realization of prototypical arbitrary fabric design and potentially a new battery-free bodily heat harvesting wearable.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:gel",
+        "object_id": "P0074:design"
+      },
+      {
+        "relation_id": "P0074:r007",
+        "subject": "Scalable, modular, processable soft gel",
+        "subject_role": "material_entity",
+        "predicate": "could_enable",
+        "object": "Battery-free bodily heat harvesting wearable",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The scalable and modular, processable soft gel serves as the groundwork to the realization of prototypical arbitrary fabric design and potentially a new battery-free bodily heat harvesting wearable.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0074:gel",
+        "object_id": "P0074:wearable"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0075",
+    "title": "Stretchable and Self-Powered Temperature-Pressure Dual Sensing Ionic Skins Based on Thermogalvanic Hydrogels",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Tactile sensors with both temperature- and pressure-responsive capabilities are critical to enabling future smart artificial intelligence. "
+      },
+      {
+        "id": 1,
+        "text": "These sensors can mimic haptic functions of human skin and inevitably suffer from tensile deformation during operation. "
+      },
+      {
+        "id": 2,
+        "text": "However, almost all actual multifunctional tactile sensors are either nonstretchable or the sensing signals interfere with each other when stretched. "
+      },
+      {
+        "id": 3,
+        "text": "Herein, we propose a stretchable and self-powered temperature-pressure dual functional sensor based on thermogalvanic hydrogels. "
+      },
+      {
+        "id": 4,
+        "text": "The sensor operates properly under stretching, which relies on the thermogalvanic effect and constant elastic modulus of hydrogels. "
+      },
+      {
+        "id": 5,
+        "text": "The thermogalvanic hydrogel elastomer exhibits an equivalent Seebeck coefficient of -1.21 mV K-1 and a pressure sensitivity of 0.056 kPa-1. "
+      },
+      {
+        "id": 6,
+        "text": "Combined with unit array integration, the multifunctional sensor can be used for accurately recording tactile information on human skin and spatial perception. "
+      },
+      {
+        "id": 7,
+        "text": "This work provides a conceptual framework and systematic design for stretchable artificial skin, interactive wearables, and smart robots."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0075:sensor",
+        "label": "Stretchable self-powered thermogalvanic hydrogel sensor",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0075:dual",
+        "label": "Temperature–pressure dual sensing",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0075:operation",
+        "label": "Proper sensor operation under stretching",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0075:effect",
+        "label": "Thermogalvanic effect",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0075:elastomer",
+        "label": "Thermogalvanic hydrogel elastomer",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0075:modulus",
+        "label": "Constant hydrogel elastic modulus",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0075:se",
+        "label": "Equivalent Seebeck coefficient −1.21 mV K⁻¹",
+        "role": "quantity"
+      },
+      {
+        "id": "P0075:sensitivity",
+        "label": "Pressure sensitivity 0.056 kPa⁻¹",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0075:recording",
+        "label": "Accurate tactile information recording on human skin",
+        "role": "application"
+      },
+      {
+        "id": "P0075:spatial",
+        "label": "Spatial perception",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0075:r001",
+        "subject": "Stretchable self-powered thermogalvanic hydrogel sensor",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Temperature–pressure dual sensing",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Proposed stretchable, self-powered sensor",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Herein, we propose a stretchable and self-powered temperature-pressure dual functional sensor based on thermogalvanic hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:sensor",
+        "object_id": "P0075:dual"
+      },
+      {
+        "relation_id": "P0075:r002",
+        "subject": "Stretchable self-powered thermogalvanic hydrogel sensor",
+        "subject_role": "material_entity",
+        "predicate": "maintains",
+        "object": "Proper sensor operation under stretching",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under stretching",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The sensor operates properly under stretching, which relies on the thermogalvanic effect and constant elastic modulus of hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:sensor",
+        "object_id": "P0075:operation"
+      },
+      {
+        "relation_id": "P0075:r003",
+        "subject": "Thermogalvanic effect",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly_enables",
+        "object": "Proper sensor operation under stretching",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under stretching",
+        "joint_factors": [
+          "Constant hydrogel elastic modulus"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The sensor operates properly under stretching, which relies on the thermogalvanic effect and constant elastic modulus of hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:effect",
+        "object_id": "P0075:operation"
+      },
+      {
+        "relation_id": "P0075:r004",
+        "subject": "Thermogalvanic hydrogel elastomer",
+        "subject_role": "material_entity",
+        "predicate": "has_property",
+        "object": "Constant hydrogel elastic modulus",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Hydrogels supporting operation under stretching",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Herein, we propose a stretchable and self-powered temperature-pressure dual functional sensor based on thermogalvanic hydrogels. ",
+        "context_quotes": [
+          "The sensor operates properly under stretching, which relies on the thermogalvanic effect and constant elastic modulus of hydrogels. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0075:elastomer",
+        "object_id": "P0075:modulus"
+      },
+      {
+        "relation_id": "P0075:r005",
+        "subject": "Thermogalvanic hydrogel elastomer",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Equivalent Seebeck coefficient −1.21 mV K⁻¹",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The thermogalvanic hydrogel elastomer exhibits an equivalent Seebeck coefficient of -1.21 mV K-1 and a pressure sensitivity of 0.056 kPa-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:elastomer",
+        "object_id": "P0075:se"
+      },
+      {
+        "relation_id": "P0075:r006",
+        "subject": "Thermogalvanic hydrogel elastomer",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Pressure sensitivity 0.056 kPa⁻¹",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The thermogalvanic hydrogel elastomer exhibits an equivalent Seebeck coefficient of -1.21 mV K-1 and a pressure sensitivity of 0.056 kPa-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:elastomer",
+        "object_id": "P0075:sensitivity"
+      },
+      {
+        "relation_id": "P0075:r007",
+        "subject": "Stretchable self-powered thermogalvanic hydrogel sensor",
+        "subject_role": "material_entity",
+        "predicate": "can_enable",
+        "object": "Accurate tactile information recording on human skin",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Combined with unit array integration",
+        "joint_factors": [
+          "Unit array integration"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Combined with unit array integration, the multifunctional sensor can be used for accurately recording tactile information on human skin and spatial perception. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:sensor",
+        "object_id": "P0075:recording"
+      },
+      {
+        "relation_id": "P0075:r008",
+        "subject": "Stretchable self-powered thermogalvanic hydrogel sensor",
+        "subject_role": "material_entity",
+        "predicate": "can_enable",
+        "object": "Spatial perception",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Combined with unit array integration",
+        "joint_factors": [
+          "Unit array integration"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Combined with unit array integration, the multifunctional sensor can be used for accurately recording tactile information on human skin and spatial perception. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0075:sensor",
+        "object_id": "P0075:spatial"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0076",
+    "title": "Regenerable aerogel-based thermogalvanic cells for efficient low-grade heat harvesting from solar radiation and interfacial solar evaporation systems",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Direct conversion of low-grade heat into electricity by thermal electrochemical cells is a promising strategy for energy generation. "
+      },
+      {
+        "id": 1,
+        "text": "For stable heat-to-electricity conversion, maintaining a low-grade heat induced temperature difference between the cell electrodes is essential. "
+      },
+      {
+        "id": 2,
+        "text": "Here, a thermogalvanic cell consisting of a cellulose fiber-based porous aerogel, a liquid electrolyte, a reduced graphene oxide light absorber, and carbon nanotube-based electrodes is designed for low-grade thermal energy harvesting and conversion. "
+      },
+      {
+        "id": 3,
+        "text": "The low thermal conductivity of the porous cellulose aerogel enables limited heat transfer from the hot side to the cold side, and thermal energy management effectively reduces heat loss from the hot side to the environment. "
+      },
+      {
+        "id": 4,
+        "text": "Thus, a sustainable temperature difference between the electrodes is maintained and a corresponding maximum power output of 6.94 mW m(-2) is achieved under natural solar irradiation. "
+      },
+      {
+        "id": 5,
+        "text": "The obtained thermal electrochemical cells are also integrated into an enclosed interfacial solar evaporation device to harvest the latent heat released from vapor condensation for electricity generation. "
+      },
+      {
+        "id": 6,
+        "text": "In addition, the thermal electrochemical cells can be regenerated after 18 months of storage and show no performance degradation. "
+      },
+      {
+        "id": 7,
+        "text": "This design thus offers a novel alternative strategy for practical low-grade heat harvesting."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0076:aerogel",
+        "label": "Porous cellulose fiber aerogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0076:lowk",
+        "label": "Low aerogel thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0076:transfer",
+        "label": "Hot-to-cold-side heat transfer",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0076:management",
+        "label": "Thermal energy management",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0076:loss",
+        "label": "Heat loss from hot side to environment",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0076:gradient",
+        "label": "Sustained interelectrode temperature difference",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0076:cell",
+        "label": "Cellulose aerogel-based thermogalvanic cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0076:power",
+        "label": "Maximum power output 6.94 mW m⁻²",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0076:integration",
+        "label": "Integration into enclosed interfacial solar evaporation device",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0076:latent",
+        "label": "Vapor-condensation latent heat harvesting for electricity generation",
+        "role": "application"
+      },
+      {
+        "id": "P0076:regeneration",
+        "label": "Cell regeneration after 18 months of storage",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0076:degradation",
+        "label": "Performance degradation after regeneration",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0076:r001",
+        "subject": "Porous cellulose fiber aerogel",
+        "subject_role": "material_entity",
+        "predicate": "has_property",
+        "object": "Low aerogel thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The low thermal conductivity of the porous cellulose aerogel enables limited heat transfer from the hot side to the cold side, and thermal energy management effectively reduces heat loss from the hot side to the environment. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:aerogel",
+        "object_id": "P0076:lowk"
+      },
+      {
+        "relation_id": "P0076:r002",
+        "subject": "Low aerogel thermal conductivity",
+        "subject_role": "quantity",
+        "predicate": "limits",
+        "object": "Hot-to-cold-side heat transfer",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Porous cellulose aerogel in the thermogalvanic cell",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The low thermal conductivity of the porous cellulose aerogel enables limited heat transfer from the hot side to the cold side, and thermal energy management effectively reduces heat loss from the hot side to the environment. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:lowk",
+        "object_id": "P0076:transfer"
+      },
+      {
+        "relation_id": "P0076:r003",
+        "subject": "Thermal energy management",
+        "subject_role": "design_strategy",
+        "predicate": "reduces",
+        "object": "Heat loss from hot side to environment",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The low thermal conductivity of the porous cellulose aerogel enables limited heat transfer from the hot side to the cold side, and thermal energy management effectively reduces heat loss from the hot side to the environment. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:management",
+        "object_id": "P0076:loss"
+      },
+      {
+        "relation_id": "P0076:r004",
+        "subject": "Low aerogel thermal conductivity",
+        "subject_role": "quantity",
+        "predicate": "jointly_maintains",
+        "object": "Sustained interelectrode temperature difference",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through limited hot-to-cold heat transfer and reduced environmental heat loss",
+        "joint_factors": [
+          "Thermal energy management"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The low thermal conductivity of the porous cellulose aerogel enables limited heat transfer from the hot side to the cold side, and thermal energy management effectively reduces heat loss from the hot side to the environment. ",
+        "context_quotes": [
+          "Thus, a sustainable temperature difference between the electrodes is maintained and a corresponding maximum power output of 6.94 mW m(-2) is achieved under natural solar irradiation. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0076:lowk",
+        "object_id": "P0076:gradient"
+      },
+      {
+        "relation_id": "P0076:r005",
+        "subject": "Cellulose aerogel-based thermogalvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum power output 6.94 mW m⁻²",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under natural solar irradiation, with a sustainable interelectrode temperature difference",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, a thermogalvanic cell consisting of a cellulose fiber-based porous aerogel, a liquid electrolyte, a reduced graphene oxide light absorber, and carbon nanotube-based electrodes is designed for low-grade thermal energy harvesting and conversion. ",
+        "context_quotes": [
+          "Thus, a sustainable temperature difference between the electrodes is maintained and a corresponding maximum power output of 6.94 mW m(-2) is achieved under natural solar irradiation. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0076:cell",
+        "object_id": "P0076:power"
+      },
+      {
+        "relation_id": "P0076:r006",
+        "subject": "Sustained interelectrode temperature difference",
+        "subject_role": "state_structure",
+        "predicate": "is_associated_with",
+        "object": "Maximum power output 6.94 mW m⁻²",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Under natural solar irradiation",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Thus, a sustainable temperature difference between the electrodes is maintained and a corresponding maximum power output of 6.94 mW m(-2) is achieved under natural solar irradiation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:gradient",
+        "object_id": "P0076:power"
+      },
+      {
+        "relation_id": "P0076:r007",
+        "subject": "Cellulose aerogel-based thermogalvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "is_integrated_by",
+        "object": "Integration into enclosed interfacial solar evaporation device",
+        "object_role": "design_strategy",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The obtained thermal electrochemical cells are also integrated into an enclosed interfacial solar evaporation device to harvest the latent heat released from vapor condensation for electricity generation. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The obtained thermal electrochemical cells are also integrated into an enclosed interfacial solar evaporation device to harvest the latent heat released from vapor condensation for electricity generation. "
+        ],
+        "subject_id": "P0076:cell",
+        "object_id": "P0076:integration"
+      },
+      {
+        "relation_id": "P0076:r008",
+        "subject": "Integration into enclosed interfacial solar evaporation device",
+        "subject_role": "design_strategy",
+        "predicate": "is_used_for",
+        "object": "Vapor-condensation latent heat harvesting for electricity generation",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Enclosed interfacial solar evaporation device",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The obtained thermal electrochemical cells are also integrated into an enclosed interfacial solar evaporation device to harvest the latent heat released from vapor condensation for electricity generation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:integration",
+        "object_id": "P0076:latent"
+      },
+      {
+        "relation_id": "P0076:r009",
+        "subject": "Cellulose aerogel-based thermogalvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "can_undergo",
+        "object": "Cell regeneration after 18 months of storage",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "After 18 months of storage",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In addition, the thermal electrochemical cells can be regenerated after 18 months of storage and show no performance degradation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:cell",
+        "object_id": "P0076:regeneration"
+      },
+      {
+        "relation_id": "P0076:r010",
+        "subject": "Cellulose aerogel-based thermogalvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Performance degradation after regeneration",
+        "object_role": "performance_function",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Regenerated after 18 months of storage",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In addition, the thermal electrochemical cells can be regenerated after 18 months of storage and show no performance degradation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0076:cell",
+        "object_id": "P0076:degradation"
+      }
+    ]
+  }
+]

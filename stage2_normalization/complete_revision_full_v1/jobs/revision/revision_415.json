@@ -1,0 +1,1516 @@
+[
+  {
+    "paper_id": "P1688",
+    "title": "Nb-induced semiconductor to metal transition and enhanced physical properties of CaSiO3: A full-potential first-principles study",
+    "segments": [
+      {
+        "id": 0,
+        "text": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+      },
+      {
+        "id": 1,
+        "text": "Pristine CaSiO3 optimizes to a lattice parameter of 3.607 & Aring; (V0 = 316.63 bohr3, B0 approximate to 215 GPa). "
+      },
+      {
+        "id": 2,
+        "text": "Birch-Murnaghan fits indicate that Nb5+ substitution expands the equilibrium volume to 3143.16 and 3068.35 bohr3 at 12.5% and 25% Nb, respectively, while reducing the bulk modulus, consistent with enhanced compressibility driven by the larger Nb5+ ionic radius and associated oxygensublattice relaxation. "
+      },
+      {
+        "id": 3,
+        "text": "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. "
+      },
+      {
+        "id": 4,
+        "text": "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+      },
+      {
+        "id": 5,
+        "text": "Electronically, CaSiO3 exhibits a 3.432 eV indirect band gap dominated by O-2p (VB) and Si-3p (CB). "
+      },
+      {
+        "id": 6,
+        "text": "Nb introduces Nb-4d/O-2p donor states that narrow the gap at 12.5% doping and eventually close it at 25% Nb, yielding a metallic 4d conduction manifold at the Fermi level. "
+      },
+      {
+        "id": 7,
+        "text": "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+      },
+      {
+        "id": 8,
+        "text": "Thermoelectric transport reflects the carrier reorganization. "
+      },
+      {
+        "id": 9,
+        "text": "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+      },
+      {
+        "id": 10,
+        "text": "At 25% Nb, a/t and x rise sharply with temperature, the Seebeck coefficient becomes negative, and a pronounced low-temperature power-factor peak emerges, producing a ZT maximum approximately an order of magnitude larger than that of the other compositions. "
+      },
+      {
+        "id": 11,
+        "text": "Magnetically, pristine CaSiO3 is non-magnetic, whereas Nb doping induces finite spin polarization: 0.7706 & micro;B per cell (0.3805 & micro;B interstitial) at 12.5% Nb and 0.5707 & micro;B at 25% Nb, originating from Nb-4d/O-2p hybridization and dopant-interaction effects. "
+      },
+      {
+        "id": 12,
+        "text": "Piezoelectric analysis shows that the inherently weak e31, e33, d31, and d33 values of CaSiO3 increase systematically with Nb content, reaching maximum amplitudes at 25% Nb as stronger Nb-O covalency, symmetry breaking, and localized lattice softening reinforce electromechanical coupling. "
+      },
+      {
+        "id": 13,
+        "text": "Overall, Nb substitution converts CaSiO3 from a wide-gap, non-magnetic, weakly piezoelectric insulator into a mechanically strengthened, optically moderated, magnetically active, and low-temperature thermoelectric oxide with markedly enhanced piezoelectric functionality, highlighting the central role of Nb-induced lattice distortion and 4d-state hybridization in tailoring multifunctional silicate perovskites."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1688:pure",
+        "label": "Pristine CaSiO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1688:a",
+        "label": "Optimized lattice parameter 3.607 Å",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:v0",
+        "label": "Equilibrium volume 316.63 bohr3",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:b0",
+        "label": "Bulk modulus B0 approximately 215 GPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:nb",
+        "label": "Nb5+ substitution in CaSiO3",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1688:v12",
+        "label": "Equilibrium volume 3143.16 bohr3",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:v25",
+        "label": "Equilibrium volume 3068.35 bohr3",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:bfit",
+        "label": "Birch–Murnaghan bulk modulus",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:compress",
+        "label": "Enhanced compressibility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1688:radius",
+        "label": "Larger Nb5+ ionic radius",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:stable",
+        "label": "Elastic stability",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1688:c11",
+        "label": "C11: 255 → 272/298 GPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:c12",
+        "label": "C12: 118 → 131/145 GPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:c44",
+        "label": "C44: 92 → 103/118 GPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:b",
+        "label": "B: '163-* 196 GPa'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:g",
+        "label": "G: '86-* 107 GPa'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:e",
+        "label": "E: '217-* 263 GPa'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:od",
+        "label": "'OD (598-* 675 K)'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:hard",
+        "label": "Hardness: '7.8-* 11.4 GPa'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:stiff",
+        "label": "Progressive lattice stiffening",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1688:gap",
+        "label": "Indirect band gap 3.432 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:vb",
+        "label": "Valence band dominated by O-2p",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:cb",
+        "label": "Conduction band dominated by Si-3p",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:donor",
+        "label": "Nb-4d/O-2p donor states",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:narrow",
+        "label": "Narrowed band gap",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:closed",
+        "label": "Closed band gap",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:metal",
+        "label": "Metallic 4d conduction manifold at Fermi level",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:abs",
+        "label": "Strong deep-UV absorption, onset near 6 eV",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1688:osc",
+        "label": "Interband oscillator strength",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:weight",
+        "label": "Spectral-weight redistribution",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1688:smooth",
+        "label": "Smoother 'epsilon 2 (w), a (w), k (w), a (w), and R (w)'",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1688:n25",
+        "label": "25% Nb-substituted CaSiO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1688:index",
+        "label": "Enhanced low-energy refractive index",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:loss",
+        "label": "Intensified plasmonic loss features around 10–12 eV",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1688:at",
+        "label": "Source transport quantity 'a/t'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:n12",
+        "label": "12.5% Nb-substituted CaSiO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1688:x",
+        "label": "Source transport quantity 'x'",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:sp",
+        "label": "Positive Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:ptype",
+        "label": "p-type behavior",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:t",
+        "label": "Increasing temperature",
+        "role": "condition"
+      },
+      {
+        "id": "P1688:at25",
+        "label": "Source transport quantity 'a/t' at 25% Nb",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:x25",
+        "label": "Source transport quantity 'x' at 25% Nb",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:sn",
+        "label": "Negative Seebeck coefficient at 25% Nb",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:pf",
+        "label": "Pronounced low-temperature power-factor peak",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1688:zt",
+        "label": "ZT maximum approximately ten times other compositions",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1688:nonmag",
+        "label": "Non-magnetic state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1688:spin12",
+        "label": "Spin polarization 0.7706 μB/cell, including 0.3805 μB interstitial",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:spin25",
+        "label": "Spin polarization 0.5707 μB/cell",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:hyb",
+        "label": "Nb-4d/O-2p hybridization",
+        "role": "interaction"
+      },
+      {
+        "id": "P1688:piezo",
+        "label": "e31, e33, d31 and d33 piezoelectric coefficients",
+        "role": "quantity"
+      },
+      {
+        "id": "P1688:cov",
+        "label": "Stronger Nb–O covalency",
+        "role": "interaction"
+      },
+      {
+        "id": "P1688:coupling",
+        "label": "Electromechanical coupling",
+        "role": "interaction"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1688:r001",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Optimized lattice parameter 3.607 Å",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT-optimized structure",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Pristine CaSiO3 optimizes to a lattice parameter of 3.607 & Aring; (V0 = 316.63 bohr3, B0 approximate to 215 GPa). "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:a"
+      },
+      {
+        "relation_id": "P1688:r002",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Equilibrium volume 316.63 bohr3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT-optimized structure; cell normalization unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Pristine CaSiO3 optimizes to a lattice parameter of 3.607 & Aring; (V0 = 316.63 bohr3, B0 approximate to 215 GPa). "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:v0"
+      },
+      {
+        "relation_id": "P1688:r003",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Bulk modulus B0 approximately 215 GPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT-optimized structure; distinct from B reported with elastic constants",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Pristine CaSiO3 optimizes to a lattice parameter of 3.607 & Aring; (V0 = 316.63 bohr3, B0 approximate to 215 GPa). "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:b0"
+      },
+      {
+        "relation_id": "P1688:r004",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "expands_equilibrium_volume_to",
+        "object": "Equilibrium volume 3143.16 bohr3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "12.5% Nb; Birch–Murnaghan fits",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Birch-Murnaghan fits indicate that Nb5+ substitution expands the equilibrium volume to 3143.16 and 3068.35 bohr3 at 12.5% and 25% Nb, respectively, while reducing the bulk modulus, consistent with enhanced compressibility driven by the larger Nb5+ ionic radius and associated oxygensublattice relaxation. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:v12"
+      },
+      {
+        "relation_id": "P1688:r005",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "expands_equilibrium_volume_to",
+        "object": "Equilibrium volume 3068.35 bohr3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb; Birch–Murnaghan fits",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Birch-Murnaghan fits indicate that Nb5+ substitution expands the equilibrium volume to 3143.16 and 3068.35 bohr3 at 12.5% and 25% Nb, respectively, while reducing the bulk modulus, consistent with enhanced compressibility driven by the larger Nb5+ ionic radius and associated oxygensublattice relaxation. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:v25"
+      },
+      {
+        "relation_id": "P1688:r006",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "reduces",
+        "object": "Birch–Murnaghan bulk modulus",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Birch–Murnaghan fits; 12.5% and 25% Nb",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Birch-Murnaghan fits indicate that Nb5+ substitution expands the equilibrium volume to 3143.16 and 3068.35 bohr3 at 12.5% and 25% Nb, respectively, while reducing the bulk modulus, consistent with enhanced compressibility driven by the larger Nb5+ ionic radius and associated oxygensublattice relaxation. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:bfit"
+      },
+      {
+        "relation_id": "P1688:r007",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "is_consistent_with",
+        "object": "Enhanced compressibility",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Birch–Murnaghan volume and bulk-modulus analysis",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Birch-Murnaghan fits indicate that Nb5+ substitution expands the equilibrium volume to 3143.16 and 3068.35 bohr3 at 12.5% and 25% Nb, respectively, while reducing the bulk modulus, consistent with enhanced compressibility driven by the larger Nb5+ ionic radius and associated oxygensublattice relaxation. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:compress"
+      },
+      {
+        "relation_id": "P1688:r008",
+        "subject": "Larger Nb5+ ionic radius",
+        "subject_role": "quantity",
+        "predicate": "jointly_drives",
+        "object": "Enhanced compressibility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Nb-substituted CaSiO3; Birch–Murnaghan analysis",
+        "joint_factors": [
+          "Associated oxygen-sublattice relaxation"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Birch-Murnaghan fits indicate that Nb5+ substitution expands the equilibrium volume to 3143.16 and 3068.35 bohr3 at 12.5% and 25% Nb, respectively, while reducing the bulk modulus, consistent with enhanced compressibility driven by the larger Nb5+ ionic radius and associated oxygensublattice relaxation. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:radius",
+        "object_id": "P1688:compress"
+      },
+      {
+        "relation_id": "P1688:r009",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "monotonically_improves",
+        "object": "Elastic stability",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increasing Nb to 12.5% and 25%; DFT elastic analysis",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:stable"
+      },
+      {
+        "relation_id": "P1688:r010",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "C11: 255 → 272/298 GPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Pristine → 12.5%/25% Nb",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:c11"
+      },
+      {
+        "relation_id": "P1688:r011",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "C12: 118 → 131/145 GPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Pristine → 12.5%/25% Nb",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:c12"
+      },
+      {
+        "relation_id": "P1688:r012",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "C44: 92 → 103/118 GPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Pristine → 12.5%/25% Nb",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:c44"
+      },
+      {
+        "relation_id": "P1688:r013",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "B: '163-* 196 GPa'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increasing Nb content; elastic-property B retained separately from Birch–Murnaghan modulus",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. ",
+          "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:b"
+      },
+      {
+        "relation_id": "P1688:r014",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "G: '86-* 107 GPa'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increasing Nb content",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. ",
+          "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:g"
+      },
+      {
+        "relation_id": "P1688:r015",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "E: '217-* 263 GPa'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increasing Nb content",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. ",
+          "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:e"
+      },
+      {
+        "relation_id": "P1688:r016",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "'OD (598-* 675 K)'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increasing Nb content",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. ",
+          "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:od"
+      },
+      {
+        "relation_id": "P1688:r017",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Hardness: '7.8-* 11.4 GPa'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increasing Nb content",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "The elastic stability improves monotonically, with C11, C12, and C44 increasing from 255, 118, and 92 GPa to 272/298, 131/145, and 103/118 GPa at 12.5/25% Nb. ",
+          "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:hard"
+      },
+      {
+        "relation_id": "P1688:r018",
+        "subject": "B: '163-* 196 GPa'",
+        "subject_role": "quantity",
+        "predicate": "jointly_indicates",
+        "object": "Progressive lattice stiffening",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Increases in the reported quantities",
+        "joint_factors": [
+          "G: '86-* 107 GPa'",
+          "E: '217-* 263 GPa'",
+          "'OD (598-* 675 K)'",
+          "Hardness: '7.8-* 11.4 GPa'"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Corresponding increases in B (163-* 196 GPa), G (86-* 107 GPa), E (217-* 263 GPa), OD (598-* 675 K), and hardness (7.8-* 11.4 GPa) confirm progressive lattice stiffening. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:b",
+        "object_id": "P1688:stiff"
+      },
+      {
+        "relation_id": "P1688:r019",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Indirect band gap 3.432 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Electronically, CaSiO3 exhibits a 3.432 eV indirect band gap dominated by O-2p (VB) and Si-3p (CB). "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:gap"
+      },
+      {
+        "relation_id": "P1688:r020",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Valence band dominated by O-2p",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Electronically, CaSiO3 exhibits a 3.432 eV indirect band gap dominated by O-2p (VB) and Si-3p (CB). "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:vb"
+      },
+      {
+        "relation_id": "P1688:r021",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Conduction band dominated by Si-3p",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Electronically, CaSiO3 exhibits a 3.432 eV indirect band gap dominated by O-2p (VB) and Si-3p (CB). "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:cb"
+      },
+      {
+        "relation_id": "P1688:r022",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "introduces",
+        "object": "Nb-4d/O-2p donor states",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Nb introduces Nb-4d/O-2p donor states that narrow the gap at 12.5% doping and eventually close it at 25% Nb, yielding a metallic 4d conduction manifold at the Fermi level. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:donor"
+      },
+      {
+        "relation_id": "P1688:r023",
+        "subject": "Nb-4d/O-2p donor states",
+        "subject_role": "state_structure",
+        "predicate": "produces",
+        "object": "Narrowed band gap",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "12.5% Nb; DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Nb introduces Nb-4d/O-2p donor states that narrow the gap at 12.5% doping and eventually close it at 25% Nb, yielding a metallic 4d conduction manifold at the Fermi level. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:donor",
+        "object_id": "P1688:narrow"
+      },
+      {
+        "relation_id": "P1688:r024",
+        "subject": "Nb-4d/O-2p donor states",
+        "subject_role": "state_structure",
+        "predicate": "produces",
+        "object": "Closed band gap",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb; DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Nb introduces Nb-4d/O-2p donor states that narrow the gap at 12.5% doping and eventually close it at 25% Nb, yielding a metallic 4d conduction manifold at the Fermi level. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:donor",
+        "object_id": "P1688:closed"
+      },
+      {
+        "relation_id": "P1688:r025",
+        "subject": "Closed band gap",
+        "subject_role": "state_structure",
+        "predicate": "yields",
+        "object": "Metallic 4d conduction manifold at Fermi level",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb; DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Nb introduces Nb-4d/O-2p donor states that narrow the gap at 12.5% doping and eventually close it at 25% Nb, yielding a metallic 4d conduction manifold at the Fermi level. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:closed",
+        "object_id": "P1688:metal"
+      },
+      {
+        "relation_id": "P1688:r026",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Strong deep-UV absorption, onset near 6 eV",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT optical response",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:abs"
+      },
+      {
+        "relation_id": "P1688:r027",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "suppresses",
+        "object": "Interband oscillator strength",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Relative to pristine CaSiO3; DFT",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:osc"
+      },
+      {
+        "relation_id": "P1688:r028",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "causes",
+        "object": "Spectral-weight redistribution",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT optical response",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:weight"
+      },
+      {
+        "relation_id": "P1688:r029",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Smoother 'epsilon 2 (w), a (w), k (w), a (w), and R (w)'",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "0–14 eV; DFT",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:smooth"
+      },
+      {
+        "relation_id": "P1688:r030",
+        "subject": "25% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Enhanced low-energy refractive index",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Low-energy optical response",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n25",
+        "object_id": "P1688:index"
+      },
+      {
+        "relation_id": "P1688:r031",
+        "subject": "25% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Intensified plasmonic loss features around 10–12 eV",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Approximately 10–12 eV",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Optical responses follow this evolution: pristine CaSiO3 displays strong deep-UV absorption with an onset near 6 eV, whereas Nb doping suppresses interband oscillator strength, redistributes spectral weight, and produces smoother epsilon 2 (w), a (w), k (w), a (w), and R (w) across 0-14 eV; the 25% alloy further exhibits an enhanced low-energy refractive index and intensified plasmonic loss features around 10-12 eV. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n25",
+        "object_id": "P1688:loss"
+      },
+      {
+        "relation_id": "P1688:r032",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has_extremely_low_nearly_temperature_independent",
+        "object": "Source transport quantity 'a/t'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT transport analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:at"
+      },
+      {
+        "relation_id": "P1688:r033",
+        "subject": "12.5% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has_extremely_low_nearly_temperature_independent",
+        "object": "Source transport quantity 'a/t'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Jointly reported behavior with pristine material; DFT",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n12",
+        "object_id": "P1688:at"
+      },
+      {
+        "relation_id": "P1688:r034",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has_extremely_low_nearly_temperature_independent",
+        "object": "Source transport quantity 'x'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT transport analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:x"
+      },
+      {
+        "relation_id": "P1688:r035",
+        "subject": "12.5% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has_extremely_low_nearly_temperature_independent",
+        "object": "Source transport quantity 'x'",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Jointly reported behavior with pristine material; DFT",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n12",
+        "object_id": "P1688:x"
+      },
+      {
+        "relation_id": "P1688:r036",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Positive Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT transport analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:sp"
+      },
+      {
+        "relation_id": "P1688:r037",
+        "subject": "12.5% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Positive Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Jointly reported positive sign with pristine material; DFT",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n12",
+        "object_id": "P1688:sp"
+      },
+      {
+        "relation_id": "P1688:r038",
+        "subject": "Positive Seebeck coefficient",
+        "subject_role": "quantity",
+        "predicate": "indicates",
+        "object": "p-type behavior",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pristine and 12.5% Nb compositions",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "CaSiO3 and the 12.5% alloy show extremely low, nearly temperature-independent a/t and x, together with positive Seebeck coefficients characteristic of p-type behavior. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1688:sp",
+        "object_id": "P1688:ptype"
+      },
+      {
+        "relation_id": "P1688:r039",
+        "subject": "Increasing temperature",
+        "subject_role": "condition",
+        "predicate": "sharply_increases",
+        "object": "Source transport quantity 'a/t' at 25% Nb",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb; DFT transport analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "At 25% Nb, a/t and x rise sharply with temperature, the Seebeck coefficient becomes negative, and a pronounced low-temperature power-factor peak emerges, producing a ZT maximum approximately an order of magnitude larger than that of the other compositions. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:t",
+        "object_id": "P1688:at25"
+      },
+      {
+        "relation_id": "P1688:r040",
+        "subject": "Increasing temperature",
+        "subject_role": "condition",
+        "predicate": "sharply_increases",
+        "object": "Source transport quantity 'x' at 25% Nb",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb; DFT transport analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "At 25% Nb, a/t and x rise sharply with temperature, the Seebeck coefficient becomes negative, and a pronounced low-temperature power-factor peak emerges, producing a ZT maximum approximately an order of magnitude larger than that of the other compositions. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:t",
+        "object_id": "P1688:x25"
+      },
+      {
+        "relation_id": "P1688:r041",
+        "subject": "25% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Negative Seebeck coefficient at 25% Nb",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Changes from positive sign in pristine and 12.5% Nb compositions",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "At 25% Nb, a/t and x rise sharply with temperature, the Seebeck coefficient becomes negative, and a pronounced low-temperature power-factor peak emerges, producing a ZT maximum approximately an order of magnitude larger than that of the other compositions. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n25",
+        "object_id": "P1688:sn"
+      },
+      {
+        "relation_id": "P1688:r042",
+        "subject": "25% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Pronounced low-temperature power-factor peak",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Low temperature; DFT transport analysis",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "At 25% Nb, a/t and x rise sharply with temperature, the Seebeck coefficient becomes negative, and a pronounced low-temperature power-factor peak emerges, producing a ZT maximum approximately an order of magnitude larger than that of the other compositions. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n25",
+        "object_id": "P1688:pf"
+      },
+      {
+        "relation_id": "P1688:r043",
+        "subject": "Pronounced low-temperature power-factor peak",
+        "subject_role": "performance_function",
+        "predicate": "produces",
+        "object": "ZT maximum approximately ten times other compositions",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb; comparison with pristine and 12.5% compositions",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "At 25% Nb, a/t and x rise sharply with temperature, the Seebeck coefficient becomes negative, and a pronounced low-temperature power-factor peak emerges, producing a ZT maximum approximately an order of magnitude larger than that of the other compositions. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pf",
+        "object_id": "P1688:zt"
+      },
+      {
+        "relation_id": "P1688:r044",
+        "subject": "Pristine CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Non-magnetic state",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Magnetically, pristine CaSiO3 is non-magnetic, whereas Nb doping induces finite spin polarization: 0.7706 & micro;B per cell (0.3805 & micro;B interstitial) at 12.5% Nb and 0.5707 & micro;B at 25% Nb, originating from Nb-4d/O-2p hybridization and dopant-interaction effects. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:pure",
+        "object_id": "P1688:nonmag"
+      },
+      {
+        "relation_id": "P1688:r045",
+        "subject": "12.5% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Spin polarization 0.7706 μB/cell, including 0.3805 μB interstitial",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Magnetically, pristine CaSiO3 is non-magnetic, whereas Nb doping induces finite spin polarization: 0.7706 & micro;B per cell (0.3805 & micro;B interstitial) at 12.5% Nb and 0.5707 & micro;B at 25% Nb, originating from Nb-4d/O-2p hybridization and dopant-interaction effects. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n12",
+        "object_id": "P1688:spin12"
+      },
+      {
+        "relation_id": "P1688:r046",
+        "subject": "25% Nb-substituted CaSiO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Spin polarization 0.5707 μB/cell",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Magnetically, pristine CaSiO3 is non-magnetic, whereas Nb doping induces finite spin polarization: 0.7706 & micro;B per cell (0.3805 & micro;B interstitial) at 12.5% Nb and 0.5707 & micro;B at 25% Nb, originating from Nb-4d/O-2p hybridization and dopant-interaction effects. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:n25",
+        "object_id": "P1688:spin25"
+      },
+      {
+        "relation_id": "P1688:r047",
+        "subject": "Nb-4d/O-2p hybridization",
+        "subject_role": "interaction",
+        "predicate": "jointly_gives_rise_to",
+        "object": "Spin polarization 0.7706 μB/cell, including 0.3805 μB interstitial",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "12.5% Nb",
+        "joint_factors": [
+          "Dopant-interaction effects"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Magnetically, pristine CaSiO3 is non-magnetic, whereas Nb doping induces finite spin polarization: 0.7706 & micro;B per cell (0.3805 & micro;B interstitial) at 12.5% Nb and 0.5707 & micro;B at 25% Nb, originating from Nb-4d/O-2p hybridization and dopant-interaction effects. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:hyb",
+        "object_id": "P1688:spin12"
+      },
+      {
+        "relation_id": "P1688:r048",
+        "subject": "Nb-4d/O-2p hybridization",
+        "subject_role": "interaction",
+        "predicate": "jointly_gives_rise_to",
+        "object": "Spin polarization 0.5707 μB/cell",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "25% Nb",
+        "joint_factors": [
+          "Dopant-interaction effects"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Magnetically, pristine CaSiO3 is non-magnetic, whereas Nb doping induces finite spin polarization: 0.7706 & micro;B per cell (0.3805 & micro;B interstitial) at 12.5% Nb and 0.5707 & micro;B at 25% Nb, originating from Nb-4d/O-2p hybridization and dopant-interaction effects. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:hyb",
+        "object_id": "P1688:spin25"
+      },
+      {
+        "relation_id": "P1688:r049",
+        "subject": "Nb5+ substitution in CaSiO3",
+        "subject_role": "design_strategy",
+        "predicate": "systematically_increases",
+        "object": "e31, e33, d31 and d33 piezoelectric coefficients",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Initially weak in pristine CaSiO3; maximum amplitudes at 25% Nb",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Piezoelectric analysis shows that the inherently weak e31, e33, d31, and d33 values of CaSiO3 increase systematically with Nb content, reaching maximum amplitudes at 25% Nb as stronger Nb-O covalency, symmetry breaking, and localized lattice softening reinforce electromechanical coupling. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:nb",
+        "object_id": "P1688:piezo"
+      },
+      {
+        "relation_id": "P1688:r050",
+        "subject": "Stronger Nb–O covalency",
+        "subject_role": "interaction",
+        "predicate": "jointly_reinforces",
+        "object": "Electromechanical coupling",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Nb-doped CaSiO3; piezoelectric analysis",
+        "joint_factors": [
+          "Symmetry breaking",
+          "Localized lattice softening"
+        ],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Piezoelectric analysis shows that the inherently weak e31, e33, d31, and d33 values of CaSiO3 increase systematically with Nb content, reaching maximum amplitudes at 25% Nb as stronger Nb-O covalency, symmetry breaking, and localized lattice softening reinforce electromechanical coupling. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:cov",
+        "object_id": "P1688:coupling"
+      },
+      {
+        "relation_id": "P1688:r051",
+        "subject": "Electromechanical coupling",
+        "subject_role": "interaction",
+        "predicate": "underlies_enhancement_of",
+        "object": "e31, e33, d31 and d33 piezoelectric coefficients",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Systematic increase with Nb content; maximum at 25% Nb",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. ",
+        "context_quotes": [
+          "Piezoelectric analysis shows that the inherently weak e31, e33, d31, and d33 values of CaSiO3 increase systematically with Nb content, reaching maximum amplitudes at 25% Nb as stronger Nb-O covalency, symmetry breaking, and localized lattice softening reinforce electromechanical coupling. "
+        ],
+        "modality_evidence": [
+          "A comprehensive density functional theory (DFT) analysis was carried out on pristine and Nb-substituted CaSiO3 to determine how Nb incorporation modifies the structural, electronic, optical, thermoelectric, mechanical, magnetic, and piezoelectric responses of the host lattice. "
+        ],
+        "subject_id": "P1688:coupling",
+        "object_id": "P1688:piezo"
+      }
+    ]
+  }
+]

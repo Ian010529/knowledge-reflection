@@ -1,0 +1,151 @@
+{
+  "pairs": [
+    {
+      "review_id": "M005",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 1,
+      "level": "analogous_different_mechanisms",
+      "explanation": "两条关系均获摘要支持。仅可类比为通过设计引入温度响应过程；界面离子调制与电解液相变并非同一过程，且“包含”与“赋予”作用不同。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧将界面离子调制与另一界面的赝电容储能耦合，未明确热扩散机制；右侧选中过程是相变，应用于热电化学TREC的10–30 ℃跨临界点充放电。不能将左侧不依赖持续厚度方向温差等同于右侧循环，也不能从离子调制推定电极氧化还原。",
+      "neighbor_claim_ids": [
+        "iTE:P0417:r001",
+        "iTE:P0417:r004"
+      ],
+      "local_structure_assessment": "左侧存在架构→离子调制→耦合赝电容储能的有向路径，但第二边是耦合而非因果；右侧无对应邻边，仅有有限单边类比。",
+      "transfer": "plausible_question",
+      "insight_question": "若相变临界温度落在左侧器件实际温度变化范围内，TRIL相变是否会改变其界面离子调制及与赝电容储能的耦合？",
+      "limitations": "这是待检验的跨过程问题；摘要未给出左侧离子调制的微观机制、温度历程或TRIL界面相容性。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "均承担引入温度响应的设计作用，但分别是器件架构与电解液添加操作。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "均涉及温度响应的离子环境，但界面调制不等于电解液相变。"
+        }
+      ],
+      "left_working_stage": "近体温热采集与界面储能耦合；具体时序未说明",
+      "right_working_stage": "电解液配制；相变在TREC跨临界温度充放电中发生"
+    },
+    {
+      "review_id": "M006",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "ionic_thermodiffusion",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "两侧材料→所报告Seebeck系数的单边关系均受支持；对应仅限热电压响应指标，不能据此认定共同转换机制或改进策略。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧在室温报告离子扩散调控水凝胶的热电响应；右侧水溶液响应归于Co氧化还原反应熵。右文说明热电化学装置可持续产流，左文未交代持续输出或充电时序，数值不能直接解释为可用功率优劣。",
+      "neighbor_claim_ids": [
+        "TG:P0065:r004",
+        "TG:P0065:r009"
+      ],
+      "local_structure_assessment": "右侧具有配合物→0.43 mV/K→与金属核心价态熵一致的同文有向路径；电荷加和另受低介电、体积大溶剂限制。左侧无对应解释路径，仅支持单边指标对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "测量温差、时间尺度及电极条件不足；水中的目标系数不能借用其他溶剂下的电荷加和解释。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "different",
+          "reason": "聚合物双阳离子水凝胶与可氧化还原钴配合物不是相同材料概念。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "同为电压温度响应指标，但数值、条件及离子热扩散与反应熵来源不同。"
+        }
+      ],
+      "left_working_stage": "室温热电性质表征",
+      "right_working_stage": "水溶液热电化学系数表征"
+    },
+    {
+      "review_id": "M007",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "electronic_thermoelectric",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "analogous_different_mechanisms",
+      "explanation": "两侧均明确支持成分调整→Seebeck系数提高，但左侧通过降低电子载流子浓度，右侧通过改变氧化还原物种溶剂化；属于有限设计功能类比。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧固体Zn掺杂提高电子热电势同时降低电导率；右侧CsCl改变反应熵相关响应，并通过另一电催化作用提高电流。右侧电流收益不能迁移为左侧电导收益；左文“超离子”描述不改变此目标关系的电子热电机制。",
+      "neighbor_claim_ids": [
+        "iTE:P1539:r006",
+        "iTE:P1539:r008",
+        "iTE:P1539:r009",
+        "TG:P0094:r008",
+        "TG:P0094:complete_v1_cr005"
+      ],
+      "local_structure_assessment": "左侧有Zn掺杂→载流子浓度降低→Seebeck提高的同文有向路径。右侧提供添加→溶剂化及添加→系数提高的分支，未提供溶剂化→系数的冻结邻边，不能补成双边匹配。",
+      "transfer": "plausible_question",
+      "insight_question": "在各自成分扫描中，Zn掺杂的电导率下降与CsCl添加的电催化增流，是否会使Seebeck系数最大值和输出功率最大值出现在不同成分条件？",
+      "limitations": "问题仅比较优化权衡，不主张材料或机制可互换；摘要未提供完整成分依赖数据和匹配测量条件。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "均为成分调节操作，但晶体掺杂与溶液加盐的物理实现不同。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "电子热电势与热电化学温度系数具有相关测量形式，但不是相同物理量来源。"
+        }
+      ],
+      "left_working_stage": "掺杂固体的热电性质表征",
+      "right_working_stage": "温差下热电化学发电与性能表征"
+    },
+    {
+      "review_id": "M008",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "thermogalvanic_redox",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "两条目标关系均有直接证据，且两装置采用相同氧化还原对组合；但“利用共同K+再生”与“以铁氰化物对作负极电解液”不是对应关系，不能用共享化学组成替换目标边。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧在10–60 ℃时间循环中利用共同反离子自平衡，实现分离电池电化学势差归零；右侧是连续输出的循环液流系统，受多孔电极传质与膜电阻限制。相同氧化还原体系不证明右侧也采用K+自再生；两者均无目标相关离子热扩散证据。",
+      "neighbor_claim_ids": [
+        "iTE:P0836:r008",
+        "TG:P0205:complete_v1_cr002"
+      ],
+      "local_structure_assessment": "左侧有装置→共同K+→分离电池再生的有向路径；右侧只有装置→正、负极电解液的组成分支，不存在对应再生路径，目标单边亦不匹配。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "共享氧化还原化学是已有相似性，不能支持目标再生功能迁移；右侧摘要未说明共同反离子的再生作用。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "均为使用相同两类氧化还原对的热循环电化学装置，但凝胶自再生装置与液流电池并非同一对象。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "K+是共同反离子，铁氰化物盐对是负极氧化还原电解质；组成相关不构成概念等价。"
+        }
+      ],
+      "left_working_stage": "温度循环中的自再生",
+      "right_working_stage": "电解液组成配置；用于连续输出的热再生液流循环"
+    }
+  ]
+}

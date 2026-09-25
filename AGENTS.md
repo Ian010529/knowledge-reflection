@@ -1,4 +1,10 @@
+2026-09-25 新授权执行中：用户在了解开发分母后明确要求“那全库推进一下”，并授权“条件允许范围下越多并发越好”。当前入口为 stage2_normalization/complete_revision_full_v1/progress.json；完整规则见该目录protocol.md，扩量决定见expansion_decision.json，并发变更见concurrency_authorization.json。复用40篇，仅对剩余1931篇各修订一次；随后预留样本验收及新版图谱导出。开发失败记录保持不变，但不再是本次扩量阻塞。不得重复启动同一队列；使用检查点续跑。仍不自动重置额度、不改模型/账户/付费API、不恢复dsh或RRF任务。
+
+2026-09-25 最新完成：[40篇完整摘要最小修订验证](stage2_normalization/complete_revision_v1/REPORT.md)。iTE/TG各20篇，529条旧关系：435保留、87patch、7待定，补78条，共607条；无reject、无按篇重抽标记。Astra-medium盲评：保守含待定严格正确率72.3%→88.4%、84.5%→92.8%；仅接受记录为90.03%/92.83%。两域覆盖均提高，正确关系受损0项；按预先冻结的保守≥90%门槛，iTE未过，未启动其余1931篇修订、预留最终验收或图谱更新。47条参考争议保留。三个规范描述已另存局部修订，概念ID/成员不变，旧图冻结。44次调用、无技术重试；本开发集不估计总体准确率。不能自行改分母扩量或再次重复修订以追求过线；后续按用户新指令处理剩余诊断。
+
 # 当前工作区任务入口
+
+2026-09-25 最新质量审计：[修订后轻量抽检](stage2_normalization/post_revision_audit_v1/REPORT.md) 与 [结果解释](stage2_normalization/post_revision_audit_v1/INTERPRETATION.md)已完成。每域 100 条接受关系、20 个实际合并组、另 6 篇查漏，16 次 Astra-medium、最多 4 路。独立初评严格精确率 iTE 74%、TG 79%；对照冻结 application 编码纠正两项评价误读后为 75%（95% Wilson 65.7–82.5%）、80%（71.1–86.7%），仍未达到 90%。抽中成员等价 20/20、20/20；iTE 3 个规范定义过细，未发现样本成员误合并不等于全库 100% 正确。核心参考完整覆盖 31/38、5/6，仅作诊断，TG 分母过小、iTE 两条缺失为 background 且范围有争议。旧样本框与本轮不同，不直接比较升降。原图/原抽取/模型原判未改写；本轮没有修图。284 篇接触记录见 stage2_normalization/post_revision_audit_v1/contacted_papers.json。优先解决限定遗漏与范围判据一致性，不自动全库重抽；本段覆盖下文“修订后尚未重新抽检”的旧状态。
 
 2026-09-25 最新执行覆盖：已按用户“探索性 match”完成 [小规模探索报告](stage2_normalization/exploratory_match_v1/REPORT.md) 和 [案例卡](stage2_normalization/exploratory_match_v1/case_cards.md)。复用现有向量，排除 66 篇交集文献后保存 37,729 对候选，仅核查 24 对：6 明确关系对应、8 有限对应、10 不支持。6 个明确对应中 3 个为同机制关系、3 个为共同功能/属性/结构；不能称为新的 iTE→TG 迁移。语料标签不等于物理机制标签；后续优先在拟核查候选上区分机制/工作阶段，不自动全库重抽或重分类。4 次 Astra-medium 并发、最长批次 77.3 秒；输入 126,809 / 输出 8,110 token，不含主会话。原图和冻结证据未改写，136 条提供的主张、193 处引文位置核验通过。此次 44 篇见 stage2_normalization/exploratory_match_v1/contacted_papers.json，不是新验收样本。未估计总体匹配精确率/召回率，未完成正式 Stage 4 四组对照或 Stage 5 全文/SI 验证，也未证实修订后总体抽取质量；本段覆盖下文历史“未匹配”状态。
 

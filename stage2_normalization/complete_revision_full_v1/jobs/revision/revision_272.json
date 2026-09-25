@@ -1,0 +1,1637 @@
+[
+  {
+    "paper_id": "P1117",
+    "title": "Computational study of mixed halide perovskites CsSnX3 (X = Br, Cl, mixed halides) for optoelectronic and thermoelectric applications: A DFT and Boltzmann transport methods",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Density Functional Theory (DFT) is a powerful tool in materials science, widely used to predict key properties such as mechanical, electronic, optical, and thermoelectric characteristics. "
+      },
+      {
+        "id": 1,
+        "text": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+      },
+      {
+        "id": 2,
+        "text": "The structural analysis indicates that CsSnBr3 and CsSnCl3 crystallize in a cubic phase with the Pm-3 m space group, whereas the mixed halide compounds CsSnBr2Cl and CsSnCl2Br adopt a tetragonal structure belonging to the P4/mmm space group. "
+      },
+      {
+        "id": 3,
+        "text": "The negative formation energy values confirm the thermodynamic stability of these materials. "
+      },
+      {
+        "id": 4,
+        "text": "Mechanical property evaluations indicate that the materials are mechanically stable and ductile, with bonding predominantly ionic in nature. "
+      },
+      {
+        "id": 5,
+        "text": "Furthermore, electronic band structure calculations show that all compounds exhibit p-type semiconducting behavior with direct band gaps. "
+      },
+      {
+        "id": 6,
+        "text": "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. "
+      },
+      {
+        "id": 7,
+        "text": "Optical properties, including dielectric function, absorption, refractive index, optical loss, and reflectivity, were analyzed across the 0-10 eV energy range, highlighting significant absorption in the visible and ultraviolet regions, crucial for solar cell applications. "
+      },
+      {
+        "id": 8,
+        "text": "Thermoelectric performance was assessed using the figure of merit (ZT), considering the Seebeck coefficient, thermal conductivity, and electrical conductivity. "
+      },
+      {
+        "id": 9,
+        "text": "At 1000 K, CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 show ZT values of 0.46, 0.47, 0.48, and 0.52, respectively, indicating improved thermoelectric efficiency with increasing Cl content. "
+      },
+      {
+        "id": 10,
+        "text": "These findings suggest that CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 are promising materials for high-temperature thermoelectric applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1117:br",
+        "label": "CsSnBr3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1117:cub",
+        "label": "Cubic phase, Pm-3 m",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1117:cl",
+        "label": "CsSnCl3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1117:b2",
+        "label": "CsSnBr2Cl",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1117:tet",
+        "label": "Tetragonal structure, P4/mmm",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1117:c2",
+        "label": "CsSnCl2Br",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1117:all",
+        "label": "CsSnBr3-xClx studied perovskites",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1117:fe",
+        "label": "Negative formation energy",
+        "role": "quantity"
+      },
+      {
+        "id": "P1117:ts",
+        "label": "Thermodynamic stability",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1117:ms",
+        "label": "Mechanical stability",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1117:duct",
+        "label": "Ductility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1117:ionic",
+        "label": "Predominantly ionic bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P1117:ptype",
+        "label": "p-type semiconducting behavior",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1117:direct",
+        "label": "Direct band gaps",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1117:g1",
+        "label": "Band gap 1.22 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1117:g2",
+        "label": "Band gap 1.41 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1117:g3",
+        "label": "Band gap 1.50 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1117:g4",
+        "label": "Band gap 1.62 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1117:hse",
+        "label": "HSE approach",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1117:acc",
+        "label": "More accurate electronic properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:abs",
+        "label": "Significant visible and ultraviolet absorption",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:solar",
+        "label": "Solar cell applications",
+        "role": "application"
+      },
+      {
+        "id": "P1117:z1",
+        "label": "ZT = 0.46",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:z2",
+        "label": "ZT = 0.47",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:z3",
+        "label": "ZT = 0.48",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:z4",
+        "label": "ZT = 0.52",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:inc",
+        "label": "Increasing Cl content",
+        "role": "condition"
+      },
+      {
+        "id": "P1117:eff",
+        "label": "Improved thermoelectric efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1117:use",
+        "label": "High-temperature thermoelectric applications",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1117:r001",
+        "subject": "CsSnBr3",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Cubic phase, Pm-3 m",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT structural analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The structural analysis indicates that CsSnBr3 and CsSnCl3 crystallize in a cubic phase with the Pm-3 m space group, whereas the mixed halide compounds CsSnBr2Cl and CsSnCl2Br adopt a tetragonal structure belonging to the P4/mmm space group. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:br",
+        "object_id": "P1117:cub"
+      },
+      {
+        "relation_id": "P1117:r002",
+        "subject": "CsSnCl3",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Cubic phase, Pm-3 m",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT structural analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The structural analysis indicates that CsSnBr3 and CsSnCl3 crystallize in a cubic phase with the Pm-3 m space group, whereas the mixed halide compounds CsSnBr2Cl and CsSnCl2Br adopt a tetragonal structure belonging to the P4/mmm space group. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:cl",
+        "object_id": "P1117:cub"
+      },
+      {
+        "relation_id": "P1117:r003",
+        "subject": "CsSnBr2Cl",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Tetragonal structure, P4/mmm",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT structural analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The structural analysis indicates that CsSnBr3 and CsSnCl3 crystallize in a cubic phase with the Pm-3 m space group, whereas the mixed halide compounds CsSnBr2Cl and CsSnCl2Br adopt a tetragonal structure belonging to the P4/mmm space group. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:b2",
+        "object_id": "P1117:tet"
+      },
+      {
+        "relation_id": "P1117:r004",
+        "subject": "CsSnCl2Br",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Tetragonal structure, P4/mmm",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT structural analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The structural analysis indicates that CsSnBr3 and CsSnCl3 crystallize in a cubic phase with the Pm-3 m space group, whereas the mixed halide compounds CsSnBr2Cl and CsSnCl2Br adopt a tetragonal structure belonging to the P4/mmm space group. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:c2",
+        "object_id": "P1117:tet"
+      },
+      {
+        "relation_id": "P1117:r005",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Negative formation energy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT study",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "The negative formation energy values confirm the thermodynamic stability of these materials. "
+        ],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:fe"
+      },
+      {
+        "relation_id": "P1117:r006",
+        "subject": "Negative formation energy",
+        "subject_role": "quantity",
+        "predicate": "supports",
+        "object": "Thermodynamic stability",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Studied perovskites",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The negative formation energy values confirm the thermodynamic stability of these materials. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:fe",
+        "object_id": "P1117:ts"
+      },
+      {
+        "relation_id": "P1117:r007",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Mechanical stability",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Mechanical property evaluations",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "Mechanical property evaluations indicate that the materials are mechanically stable and ductile, with bonding predominantly ionic in nature. "
+        ],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:ms"
+      },
+      {
+        "relation_id": "P1117:r008",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Ductility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Mechanical property evaluations",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "Mechanical property evaluations indicate that the materials are mechanically stable and ductile, with bonding predominantly ionic in nature. "
+        ],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:duct"
+      },
+      {
+        "relation_id": "P1117:r009",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Predominantly ionic bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "Mechanical property evaluations indicate that the materials are mechanically stable and ductile, with bonding predominantly ionic in nature. "
+        ],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:ionic"
+      },
+      {
+        "relation_id": "P1117:r010",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "p-type semiconducting behavior",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Electronic band structure calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "Furthermore, electronic band structure calculations show that all compounds exhibit p-type semiconducting behavior with direct band gaps. "
+        ],
+        "modality_evidence": [
+          "Furthermore, electronic band structure calculations show that all compounds exhibit p-type semiconducting behavior with direct band gaps. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:ptype"
+      },
+      {
+        "relation_id": "P1117:r011",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Direct band gaps",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Electronic band structure calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "Furthermore, electronic band structure calculations show that all compounds exhibit p-type semiconducting behavior with direct band gaps. "
+        ],
+        "modality_evidence": [
+          "Furthermore, electronic band structure calculations show that all compounds exhibit p-type semiconducting behavior with direct band gaps. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:direct"
+      },
+      {
+        "relation_id": "P1117:r012",
+        "subject": "CsSnBr3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.22 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE approach",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+          "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. "
+        ],
+        "subject_id": "P1117:br",
+        "object_id": "P1117:g1"
+      },
+      {
+        "relation_id": "P1117:r013",
+        "subject": "CsSnBr2Cl",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.41 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE approach",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+          "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. "
+        ],
+        "subject_id": "P1117:b2",
+        "object_id": "P1117:g2"
+      },
+      {
+        "relation_id": "P1117:r014",
+        "subject": "CsSnCl2Br",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.50 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE approach",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+          "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. "
+        ],
+        "subject_id": "P1117:c2",
+        "object_id": "P1117:g3"
+      },
+      {
+        "relation_id": "P1117:r015",
+        "subject": "CsSnCl3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.62 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE approach",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+          "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. "
+        ],
+        "subject_id": "P1117:cl",
+        "object_id": "P1117:g4"
+      },
+      {
+        "relation_id": "P1117:r016",
+        "subject": "HSE approach",
+        "subject_role": "design_strategy",
+        "predicate": "provides",
+        "object": "More accurate electronic properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Compared with GGA-PBE",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+          "Notably, the HSE approach provides more accurate electronic properties compared to the GGA-PBE approximation, with band gap values of 1.22 eV, 1.41 eV, 1.50 eV, and 1.62 eV for CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3, respectively. "
+        ],
+        "subject_id": "P1117:hse",
+        "object_id": "P1117:acc"
+      },
+      {
+        "relation_id": "P1117:r017",
+        "subject": "CsSnBr3-xClx studied perovskites",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Significant visible and ultraviolet absorption",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Optical analysis over 0–10 eV",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. ",
+        "context_quotes": [
+          "Optical properties, including dielectric function, absorption, refractive index, optical loss, and reflectivity, were analyzed across the 0-10 eV energy range, highlighting significant absorption in the visible and ultraviolet regions, crucial for solar cell applications. "
+        ],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:all",
+        "object_id": "P1117:abs"
+      },
+      {
+        "relation_id": "P1117:r018",
+        "subject": "Significant visible and ultraviolet absorption",
+        "subject_role": "performance_function",
+        "predicate": "is_crucial_for",
+        "object": "Solar cell applications",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Studied perovskites",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Optical properties, including dielectric function, absorption, refractive index, optical loss, and reflectivity, were analyzed across the 0-10 eV energy range, highlighting significant absorption in the visible and ultraviolet regions, crucial for solar cell applications. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1117:abs",
+        "object_id": "P1117:solar"
+      },
+      {
+        "relation_id": "P1117:r019",
+        "subject": "CsSnBr3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "ZT = 0.46",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "At 1000 K, CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 show ZT values of 0.46, 0.47, 0.48, and 0.52, respectively, indicating improved thermoelectric efficiency with increasing Cl content. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:br",
+        "object_id": "P1117:z1"
+      },
+      {
+        "relation_id": "P1117:r020",
+        "subject": "CsSnBr2Cl",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "ZT = 0.47",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "At 1000 K, CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 show ZT values of 0.46, 0.47, 0.48, and 0.52, respectively, indicating improved thermoelectric efficiency with increasing Cl content. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:b2",
+        "object_id": "P1117:z2"
+      },
+      {
+        "relation_id": "P1117:r021",
+        "subject": "CsSnCl2Br",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "ZT = 0.48",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "At 1000 K, CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 show ZT values of 0.46, 0.47, 0.48, and 0.52, respectively, indicating improved thermoelectric efficiency with increasing Cl content. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:c2",
+        "object_id": "P1117:z3"
+      },
+      {
+        "relation_id": "P1117:r022",
+        "subject": "CsSnCl3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "ZT = 0.52",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; DFT study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "At 1000 K, CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 show ZT values of 0.46, 0.47, 0.48, and 0.52, respectively, indicating improved thermoelectric efficiency with increasing Cl content. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:cl",
+        "object_id": "P1117:z4"
+      },
+      {
+        "relation_id": "P1117:r023",
+        "subject": "Increasing Cl content",
+        "subject_role": "condition",
+        "predicate": "is_associated_with",
+        "object": "Improved thermoelectric efficiency",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "1000 K; studied CsSnBr3-xClx series",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "At 1000 K, CsSnBr3, CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 show ZT values of 0.46, 0.47, 0.48, and 0.52, respectively, indicating improved thermoelectric efficiency with increasing Cl content. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This study employs DFT method with both the Generalized Gradient Approximation (GGA-PBE) and the Hybrid Functional (HSE) approaches to explore the potential of CsSnBr3-xClx mixed halide perovskites for photovoltaic and thermoelectric applications. "
+        ],
+        "subject_id": "P1117:inc",
+        "object_id": "P1117:eff"
+      },
+      {
+        "relation_id": "P1117:r024",
+        "subject": "CsSnBr2Cl",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_for",
+        "object": "High-temperature thermoelectric applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "These findings suggest that CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 are promising materials for high-temperature thermoelectric applications.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1117:b2",
+        "object_id": "P1117:use"
+      },
+      {
+        "relation_id": "P1117:r025",
+        "subject": "CsSnCl2Br",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_for",
+        "object": "High-temperature thermoelectric applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "These findings suggest that CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 are promising materials for high-temperature thermoelectric applications.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1117:c2",
+        "object_id": "P1117:use"
+      },
+      {
+        "relation_id": "P1117:r026",
+        "subject": "CsSnCl3",
+        "subject_role": "material_entity",
+        "predicate": "is_proposed_for",
+        "object": "High-temperature thermoelectric applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "These findings suggest that CsSnBr2Cl, CsSnCl2Br, and CsSnCl3 are promising materials for high-temperature thermoelectric applications.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1117:cl",
+        "object_id": "P1117:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1118",
+    "title": "Extreme phonon anharmonicity underpins superionic diffusion and ultralow thermal conductivity in argyrodite Ag8SnSe6",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ultralow thermal conductivity and fast ionic diffusion endow superionic materials with excellent performance both as thermoelectric converters and as solid-state electrolytes. "
+      },
+      {
+        "id": 1,
+        "text": "Yet the correlation and interdependence between these two features remain unclear owing to a limited understanding of their complex atomic dynamics. "
+      },
+      {
+        "id": 2,
+        "text": "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+      },
+      {
+        "id": 3,
+        "text": "We identify a critical interplay of the vibrational dynamics of mobile Ag and a host framework that controls the overdamping of low-energy Ag-dominated phonons into a quasi-elastic response, enabling superionicity. "
+      },
+      {
+        "id": 4,
+        "text": "Concomitantly, the persistence of long-wavelength transverse acoustic phonons across the superionic transition challenges a proposed 'liquid-like thermal conduction' picture. "
+      },
+      {
+        "id": 5,
+        "text": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. "
+      },
+      {
+        "id": 6,
+        "text": "Our results provide fundamental insights into the complex atomic dynamics in superionic materials for energy conversion and storage. "
+      },
+      {
+        "id": 7,
+        "text": "Superionic materials are of interest for solid-state batteries or thermoelectrics, yet a clear understanding of the atomistic mechanisms is lacking. "
+      },
+      {
+        "id": 8,
+        "text": "Here it is shown that transverse acoustic phonons persist above the superionic transition in argyrodite Ag8SnSe6, and that the free-Se sublattice controls fast Ag cation diffusion."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1118:ag",
+        "label": "Vibrational dynamics of mobile Ag",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1118:over",
+        "label": "Overdamping of low-energy Ag-dominated phonons into a quasi-elastic response",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1118:super",
+        "label": "Superionicity",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1118:ta",
+        "label": "Long-wavelength transverse acoustic phonons",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1118:persist",
+        "label": "Persistence across the superionic transition",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1118:liquid",
+        "label": "Proposed liquid-like thermal conduction picture",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1118:m",
+        "label": "Argyrodite Ag8SnSe6",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1118:broad",
+        "label": "Thermal broadening of low-energy phonons",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1118:anh",
+        "label": "Extreme phonon anharmonicity",
+        "role": "interaction"
+      },
+      {
+        "id": "P1118:weak",
+        "label": "Weak bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P1118:pes",
+        "label": "Potential energy surface",
+        "role": "quantity"
+      },
+      {
+        "id": "P1118:k",
+        "label": "Ultralow thermal conductivity < 0.5 W m−1 K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1118:diff",
+        "label": "Fast Ag cation diffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1118:se",
+        "label": "Free-Se sublattice",
+        "role": "state_structure"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1118:r001",
+        "subject": "Vibrational dynamics of mobile Ag",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly_controls",
+        "object": "Overdamping of low-energy Ag-dominated phonons into a quasi-elastic response",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6; scattering and machine-learned molecular-dynamics investigation",
+        "joint_factors": [
+          "Vibrational dynamics of mobile Ag",
+          "Host-framework vibrational dynamics"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. ",
+        "context_quotes": [
+          "We identify a critical interplay of the vibrational dynamics of mobile Ag and a host framework that controls the overdamping of low-energy Ag-dominated phonons into a quasi-elastic response, enabling superionicity. "
+        ],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:ag",
+        "object_id": "P1118:over"
+      },
+      {
+        "relation_id": "P1118:r002",
+        "subject": "Overdamping of low-energy Ag-dominated phonons into a quasi-elastic response",
+        "subject_role": "mechanism_process",
+        "predicate": "enables",
+        "object": "Superionicity",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "We identify a critical interplay of the vibrational dynamics of mobile Ag and a host framework that controls the overdamping of low-energy Ag-dominated phonons into a quasi-elastic response, enabling superionicity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:over",
+        "object_id": "P1118:super"
+      },
+      {
+        "relation_id": "P1118:r003",
+        "subject": "Long-wavelength transverse acoustic phonons",
+        "subject_role": "state_structure",
+        "predicate": "exhibits",
+        "object": "Persistence across the superionic transition",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6; including above the superionic transition",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. ",
+        "context_quotes": [
+          "Concomitantly, the persistence of long-wavelength transverse acoustic phonons across the superionic transition challenges a proposed 'liquid-like thermal conduction' picture. "
+        ],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:ta",
+        "object_id": "P1118:persist"
+      },
+      {
+        "relation_id": "P1118:r004",
+        "subject": "Persistence across the superionic transition",
+        "subject_role": "descriptor",
+        "predicate": "challenges",
+        "object": "Proposed liquid-like thermal conduction picture",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Concomitantly, the persistence of long-wavelength transverse acoustic phonons across the superionic transition challenges a proposed 'liquid-like thermal conduction' picture. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:persist",
+        "object_id": "P1118:liquid"
+      },
+      {
+        "relation_id": "P1118:r005",
+        "subject": "Argyrodite Ag8SnSe6",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Thermal broadening of low-energy phonons",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Starts even below 50 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. ",
+        "context_quotes": [
+          "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. "
+        ],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:m",
+        "object_id": "P1118:broad"
+      },
+      {
+        "relation_id": "P1118:r006",
+        "subject": "Thermal broadening of low-energy phonons",
+        "subject_role": "mechanism_process",
+        "predicate": "reveals",
+        "object": "Extreme phonon anharmonicity",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6; starts even below 50 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:broad",
+        "object_id": "P1118:anh"
+      },
+      {
+        "relation_id": "P1118:r007",
+        "subject": "Thermal broadening of low-energy phonons",
+        "subject_role": "mechanism_process",
+        "predicate": "reveals",
+        "object": "Weak bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6; starts even below 50 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:broad",
+        "object_id": "P1118:weak"
+      },
+      {
+        "relation_id": "P1118:r008",
+        "subject": "Potential energy surface",
+        "subject_role": "quantity",
+        "predicate": "has_underlying_feature",
+        "object": "Extreme phonon anharmonicity",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:pes",
+        "object_id": "P1118:anh"
+      },
+      {
+        "relation_id": "P1118:r009",
+        "subject": "Potential energy surface",
+        "subject_role": "quantity",
+        "predicate": "has_underlying_feature",
+        "object": "Weak bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:pes",
+        "object_id": "P1118:weak"
+      },
+      {
+        "relation_id": "P1118:r010",
+        "subject": "Extreme phonon anharmonicity",
+        "subject_role": "interaction",
+        "predicate": "jointly_underpins",
+        "object": "Ultralow thermal conductivity < 0.5 W m−1 K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Underlying features of the Ag8SnSe6 potential energy surface",
+        "joint_factors": [
+          "Extreme phonon anharmonicity",
+          "Weak bonding"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:anh",
+        "object_id": "P1118:k"
+      },
+      {
+        "relation_id": "P1118:r011",
+        "subject": "Extreme phonon anharmonicity",
+        "subject_role": "interaction",
+        "predicate": "jointly_underpins",
+        "object": "Fast Ag cation diffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Underlying features of the Ag8SnSe6 potential energy surface",
+        "joint_factors": [
+          "Extreme phonon anharmonicity",
+          "Weak bonding"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. ",
+        "context_quotes": [
+          "Here it is shown that transverse acoustic phonons persist above the superionic transition in argyrodite Ag8SnSe6, and that the free-Se sublattice controls fast Ag cation diffusion."
+        ],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:anh",
+        "object_id": "P1118:diff"
+      },
+      {
+        "relation_id": "P1118:r012",
+        "subject": "Argyrodite Ag8SnSe6",
+        "subject_role": "material_entity",
+        "predicate": "has_thermal_conductivity",
+        "object": "Ultralow thermal conductivity < 0.5 W m−1 K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. ",
+        "context_quotes": [
+          "Rather, a striking thermal broadening of low-energy phonons, starting even below 50 K, reveals extreme phonon anharmonicity and weak bonding as underlying features of the potential energy surface responsible for the ultralow thermal conductivity (<0.5 W m(-1) K-1) and fast diffusion. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1118:m",
+        "object_id": "P1118:k"
+      },
+      {
+        "relation_id": "P1118:r013",
+        "subject": "Free-Se sublattice",
+        "subject_role": "state_structure",
+        "predicate": "controls",
+        "object": "Fast Ag cation diffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Ag8SnSe6",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Here it is shown that transverse acoustic phonons persist above the superionic transition in argyrodite Ag8SnSe6, and that the free-Se sublattice controls fast Ag cation diffusion.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we investigate ionic diffusion and lattice dynamics in argyrodite Ag8SnSe6 using synchrotron X-ray and neutron scattering techniques along with machine-learned molecular dynamics. "
+        ],
+        "subject_id": "P1118:se",
+        "object_id": "P1118:diff"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1119",
+    "title": "Tuning the morphology of Te one-dimensional nanostructures by template-free electrochemical deposition in an ionic liquid",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). "
+      },
+      {
+        "id": 1,
+        "text": "SAED and XRD analyses confirm the formation of Te 1D nanostructures with a hexagonal single crystalline structure following the [001] direction. "
+      },
+      {
+        "id": 2,
+        "text": "A systematic study of the influence of synthesis parameters on the deposits morphology has shown that it is possible to control the shape and the dimensions of the deposited nanostructures. "
+      },
+      {
+        "id": 3,
+        "text": "Specifically, the applied potential has a strong influence on the morphology of the deposits. "
+      },
+      {
+        "id": 4,
+        "text": "Nanowires or hollow nanostructures can be obtained, depending on mass transport conditions, as confirmed by the use of a soluble anode. "
+      },
+      {
+        "id": 5,
+        "text": "(C) 2015 Elsevier Ltd. "
+      },
+      {
+        "id": 6,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1119:dep",
+        "label": "Template-free electrodeposition from EOPipTFSI:EOPipBr 95:5 mol%",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1119:te",
+        "label": "Te one-dimensional nanostructures",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1119:hex",
+        "label": "Hexagonal single-crystalline structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1119:dir",
+        "label": "[001] direction",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1119:params",
+        "label": "Synthesis parameters",
+        "role": "condition"
+      },
+      {
+        "id": "P1119:shape",
+        "label": "Deposited nanostructure shape",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1119:size",
+        "label": "Deposited nanostructure dimensions",
+        "role": "quantity"
+      },
+      {
+        "id": "P1119:pot",
+        "label": "Applied potential",
+        "role": "condition"
+      },
+      {
+        "id": "P1119:morph",
+        "label": "Deposit morphology",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1119:mass",
+        "label": "Mass transport conditions",
+        "role": "condition"
+      },
+      {
+        "id": "P1119:forms",
+        "label": "Nanowire or hollow nanostructure formation",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1119:r001",
+        "subject": "Template-free electrodeposition from EOPipTFSI:EOPipBr 95:5 mol%",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Te one-dimensional nanostructures",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Binary mixture of 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide and 1-ethyl-1-octyl-piperidinium bromide",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). "
+        ],
+        "subject_id": "P1119:dep",
+        "object_id": "P1119:te"
+      },
+      {
+        "relation_id": "P1119:r002",
+        "subject": "Te one-dimensional nanostructures",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Hexagonal single-crystalline structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "SAED and XRD analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "SAED and XRD analyses confirm the formation of Te 1D nanostructures with a hexagonal single crystalline structure following the [001] direction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "SAED and XRD analyses confirm the formation of Te 1D nanostructures with a hexagonal single crystalline structure following the [001] direction. "
+        ],
+        "subject_id": "P1119:te",
+        "object_id": "P1119:hex"
+      },
+      {
+        "relation_id": "P1119:r003",
+        "subject": "Te one-dimensional nanostructures",
+        "subject_role": "material_entity",
+        "predicate": "follows",
+        "object": "[001] direction",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "SAED and XRD analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "SAED and XRD analyses confirm the formation of Te 1D nanostructures with a hexagonal single crystalline structure following the [001] direction. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "SAED and XRD analyses confirm the formation of Te 1D nanostructures with a hexagonal single crystalline structure following the [001] direction. "
+        ],
+        "subject_id": "P1119:te",
+        "object_id": "P1119:dir"
+      },
+      {
+        "relation_id": "P1119:r004",
+        "subject": "Synthesis parameters",
+        "subject_role": "condition",
+        "predicate": "can_control",
+        "object": "Deposited nanostructure shape",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Template-free Te electrodeposition",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+        "context_quotes": [
+          "A systematic study of the influence of synthesis parameters on the deposits morphology has shown that it is possible to control the shape and the dimensions of the deposited nanostructures. "
+        ],
+        "modality_evidence": [
+          "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+          "A systematic study of the influence of synthesis parameters on the deposits morphology has shown that it is possible to control the shape and the dimensions of the deposited nanostructures. "
+        ],
+        "subject_id": "P1119:params",
+        "object_id": "P1119:shape"
+      },
+      {
+        "relation_id": "P1119:r005",
+        "subject": "Synthesis parameters",
+        "subject_role": "condition",
+        "predicate": "can_control",
+        "object": "Deposited nanostructure dimensions",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Template-free Te electrodeposition",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+        "context_quotes": [
+          "A systematic study of the influence of synthesis parameters on the deposits morphology has shown that it is possible to control the shape and the dimensions of the deposited nanostructures. "
+        ],
+        "modality_evidence": [
+          "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+          "A systematic study of the influence of synthesis parameters on the deposits morphology has shown that it is possible to control the shape and the dimensions of the deposited nanostructures. "
+        ],
+        "subject_id": "P1119:params",
+        "object_id": "P1119:size"
+      },
+      {
+        "relation_id": "P1119:r006",
+        "subject": "Applied potential",
+        "subject_role": "condition",
+        "predicate": "strongly_influences",
+        "object": "Deposit morphology",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Template-free Te electrodeposition; effect direction unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+        "context_quotes": [
+          "Specifically, the applied potential has a strong influence on the morphology of the deposits. "
+        ],
+        "modality_evidence": [
+          "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+          "A systematic study of the influence of synthesis parameters on the deposits morphology has shown that it is possible to control the shape and the dimensions of the deposited nanostructures. ",
+          "Specifically, the applied potential has a strong influence on the morphology of the deposits. "
+        ],
+        "subject_id": "P1119:pot",
+        "object_id": "P1119:morph"
+      },
+      {
+        "relation_id": "P1119:r007",
+        "subject": "Mass transport conditions",
+        "subject_role": "condition",
+        "predicate": "determines_choice_between",
+        "object": "Nanowire or hollow nanostructure formation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Confirmed using a soluble anode; mapping of specific conditions to forms is not supplied",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Template-free electrodeposition of Te one-dimensional (1D) nanostructures was carried out from an ionic liquid binary mixture: 1-ethyl-1-octyl-piperidinium bis(trifluoromethylsulfonyl)imide: 1-ethyl-1-octyl-piperidinium bromide (EOPipTFSI: EOPipBr 95:5 (mol%)). ",
+        "context_quotes": [
+          "Nanowires or hollow nanostructures can be obtained, depending on mass transport conditions, as confirmed by the use of a soluble anode. "
+        ],
+        "modality_evidence": [
+          "Nanowires or hollow nanostructures can be obtained, depending on mass transport conditions, as confirmed by the use of a soluble anode. "
+        ],
+        "subject_id": "P1119:mass",
+        "object_id": "P1119:forms"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1120",
+    "title": "Enhanced Thermopower by Asymmetric Doping of Sodium Chloride in Ionogels",
+    "segments": [
+      {
+        "id": 0,
+        "text": "While ionic thermoelectric (i-TE) materials can exhibit high thermopower, most of them rely on the addition of a large amount of ionic liquids (IL). "
+      },
+      {
+        "id": 1,
+        "text": "This study demonstrates significant improvements in the thermopower of ionogels composed of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) and 1-ethyl-3-methylimidazolium chloride (EMIM:Cl) through the asymmetric doping of sodium chloride (NaCl). "
+      },
+      {
+        "id": 2,
+        "text": "This improvement results from the coupling of the preintroduced ion concentration difference and temperature difference, which reduces the cation migration barrier in the direction of thermal diffusion, leading to significantly enhanced performance compared to symmetric doping. "
+      },
+      {
+        "id": 3,
+        "text": "Therefore, we report that the PVDF-HFP/EMIM:Cl ionogel doped with NaCl achieves ionic thermopower values of 40.3 +/- 2.5 mV K-1 at 75 wt % IL and 24.4 +/- 1.1 mV K-1 at 33 wt % IL. "
+      },
+      {
+        "id": 4,
+        "text": "Asymmetric ion doping opens new avenues for the development of low-cost, high-efficiency i-TE materials for applications such as low-grade heat harvesting and flexible wearable devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1120:asym",
+        "label": "Asymmetric NaCl doping of PVDF-HFP/EMIM:Cl ionogels",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1120:tp",
+        "label": "Enhanced ionic thermopower",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1120:dc",
+        "label": "Preintroduced ion concentration difference",
+        "role": "condition"
+      },
+      {
+        "id": "P1120:bar",
+        "label": "Reduced cation migration barrier in the thermal-diffusion direction",
+        "role": "quantity"
+      },
+      {
+        "id": "P1120:gel",
+        "label": "NaCl-doped PVDF-HFP/EMIM:Cl ionogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1120:v75",
+        "label": "Ionic thermopower 40.3 ± 2.5 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1120:v33",
+        "label": "Ionic thermopower 24.4 ± 1.1 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1120:heat",
+        "label": "Low-grade heat harvesting",
+        "role": "application"
+      },
+      {
+        "id": "P1120:wear",
+        "label": "Flexible wearable devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1120:r001",
+        "subject": "Asymmetric NaCl doping of PVDF-HFP/EMIM:Cl ionogels",
+        "subject_role": "design_strategy",
+        "predicate": "enhances",
+        "object": "Enhanced ionic thermopower",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with symmetric doping",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study demonstrates significant improvements in the thermopower of ionogels composed of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) and 1-ethyl-3-methylimidazolium chloride (EMIM:Cl) through the asymmetric doping of sodium chloride (NaCl). ",
+        "context_quotes": [
+          "This improvement results from the coupling of the preintroduced ion concentration difference and temperature difference, which reduces the cation migration barrier in the direction of thermal diffusion, leading to significantly enhanced performance compared to symmetric doping. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1120:asym",
+        "object_id": "P1120:tp"
+      },
+      {
+        "relation_id": "P1120:r002",
+        "subject": "Preintroduced ion concentration difference",
+        "subject_role": "condition",
+        "predicate": "jointly_reduces",
+        "object": "Reduced cation migration barrier in the thermal-diffusion direction",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Asymmetrically NaCl-doped PVDF-HFP/EMIM:Cl ionogels; coupling of concentration and temperature differences",
+        "joint_factors": [
+          "Preintroduced ion concentration difference",
+          "Temperature difference"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "This study demonstrates significant improvements in the thermopower of ionogels composed of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) and 1-ethyl-3-methylimidazolium chloride (EMIM:Cl) through the asymmetric doping of sodium chloride (NaCl). ",
+        "context_quotes": [
+          "This improvement results from the coupling of the preintroduced ion concentration difference and temperature difference, which reduces the cation migration barrier in the direction of thermal diffusion, leading to significantly enhanced performance compared to symmetric doping. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1120:dc",
+        "object_id": "P1120:bar"
+      },
+      {
+        "relation_id": "P1120:r003",
+        "subject": "Reduced cation migration barrier in the thermal-diffusion direction",
+        "subject_role": "quantity",
+        "predicate": "leads_to",
+        "object": "Enhanced ionic thermopower",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with symmetric doping",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "This study demonstrates significant improvements in the thermopower of ionogels composed of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) and 1-ethyl-3-methylimidazolium chloride (EMIM:Cl) through the asymmetric doping of sodium chloride (NaCl). ",
+        "context_quotes": [
+          "This improvement results from the coupling of the preintroduced ion concentration difference and temperature difference, which reduces the cation migration barrier in the direction of thermal diffusion, leading to significantly enhanced performance compared to symmetric doping. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1120:bar",
+        "object_id": "P1120:tp"
+      },
+      {
+        "relation_id": "P1120:r004",
+        "subject": "NaCl-doped PVDF-HFP/EMIM:Cl ionogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Ionic thermopower 40.3 ± 2.5 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "75 wt% ionic liquid; asymmetric NaCl doping",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study demonstrates significant improvements in the thermopower of ionogels composed of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) and 1-ethyl-3-methylimidazolium chloride (EMIM:Cl) through the asymmetric doping of sodium chloride (NaCl). ",
+        "context_quotes": [
+          "Therefore, we report that the PVDF-HFP/EMIM:Cl ionogel doped with NaCl achieves ionic thermopower values of 40.3 +/- 2.5 mV K-1 at 75 wt % IL and 24.4 +/- 1.1 mV K-1 at 33 wt % IL. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1120:gel",
+        "object_id": "P1120:v75"
+      },
+      {
+        "relation_id": "P1120:r005",
+        "subject": "NaCl-doped PVDF-HFP/EMIM:Cl ionogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Ionic thermopower 24.4 ± 1.1 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "33 wt% ionic liquid; asymmetric NaCl doping",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study demonstrates significant improvements in the thermopower of ionogels composed of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) and 1-ethyl-3-methylimidazolium chloride (EMIM:Cl) through the asymmetric doping of sodium chloride (NaCl). ",
+        "context_quotes": [
+          "Therefore, we report that the PVDF-HFP/EMIM:Cl ionogel doped with NaCl achieves ionic thermopower values of 40.3 +/- 2.5 mV K-1 at 75 wt % IL and 24.4 +/- 1.1 mV K-1 at 33 wt % IL. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1120:gel",
+        "object_id": "P1120:v33"
+      },
+      {
+        "relation_id": "P1120:r006",
+        "subject": "Asymmetric NaCl doping of PVDF-HFP/EMIM:Cl ionogels",
+        "subject_role": "design_strategy",
+        "predicate": "is_proposed_for",
+        "object": "Low-grade heat harvesting",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Development of low-cost, high-efficiency ionic thermoelectric materials",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Asymmetric ion doping opens new avenues for the development of low-cost, high-efficiency i-TE materials for applications such as low-grade heat harvesting and flexible wearable devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1120:asym",
+        "object_id": "P1120:heat"
+      },
+      {
+        "relation_id": "P1120:r007",
+        "subject": "Asymmetric NaCl doping of PVDF-HFP/EMIM:Cl ionogels",
+        "subject_role": "design_strategy",
+        "predicate": "is_proposed_for",
+        "object": "Flexible wearable devices",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Development of low-cost, high-efficiency ionic thermoelectric materials",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Asymmetric ion doping opens new avenues for the development of low-cost, high-efficiency i-TE materials for applications such as low-grade heat harvesting and flexible wearable devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1120:asym",
+        "object_id": "P1120:wear"
+      }
+    ]
+  }
+]

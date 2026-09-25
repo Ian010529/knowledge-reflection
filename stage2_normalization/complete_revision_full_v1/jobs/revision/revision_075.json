@@ -1,0 +1,897 @@
+[
+  {
+    "paper_id": "P0318",
+    "title": "Electrochemical way of converting low-grade heat energy into electricity based on crystalline hydrate melting and crystallization",
+    "segments": [
+      {
+        "id": 0,
+        "text": "We proposed a concept and calculated an efficiency of the electrochemical cycle of converting the low-grade heat with the temperature difference of 10-80 degrees C into electricity. "
+      },
+      {
+        "id": 1,
+        "text": "The cycle could be divided into two stages: the creation of the concentration difference by the crystalline hydrate melting at the high temperature or the crystallization at the low temperature and the electricity generation in the concentration galvanic cell. "
+      },
+      {
+        "id": 2,
+        "text": "The calculations prove that the efficiency of the converting heat into the electricity could reach up to 20-35% of the Carnot cycle efficiency. "
+      },
+      {
+        "id": 3,
+        "text": "(C) 2018 Elsevier Ltd. "
+      },
+      {
+        "id": 4,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0318:n1",
+        "label": "Proposed electrochemical cycle",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0318:n2",
+        "label": "Conversion of low-grade heat into electricity",
+        "role": "application"
+      },
+      {
+        "id": "P0318:n3",
+        "label": "Crystalline hydrate melting at high temperature",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0318:n5",
+        "label": "Concentration difference",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0318:n4",
+        "label": "Crystalline hydrate crystallization at low temperature",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0318:n6",
+        "label": "Concentration galvanic cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0318:n7",
+        "label": "Electricity generation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0318:n8",
+        "label": "Conversion efficiency reaching 20–35% of Carnot-cycle efficiency",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0318:r001",
+        "subject": "Proposed electrochemical cycle",
+        "subject_role": "design_strategy",
+        "predicate": "is_proposed_for",
+        "object": "Conversion of low-grade heat into electricity",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 10–80 °C",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "We proposed a concept and calculated an efficiency of the electrochemical cycle of converting the low-grade heat with the temperature difference of 10-80 degrees C into electricity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0318:n1",
+        "object_id": "P0318:n2"
+      },
+      {
+        "relation_id": "P0318:r002",
+        "subject": "Crystalline hydrate melting at high temperature",
+        "subject_role": "mechanism_process",
+        "predicate": "creates",
+        "object": "Concentration difference",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "First stage of the proposed electrochemical cycle; alternative to low-temperature crystallization",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We proposed a concept and calculated an efficiency of the electrochemical cycle of converting the low-grade heat with the temperature difference of 10-80 degrees C into electricity. ",
+        "context_quotes": [
+          "The cycle could be divided into two stages: the creation of the concentration difference by the crystalline hydrate melting at the high temperature or the crystallization at the low temperature and the electricity generation in the concentration galvanic cell. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0318:n3",
+        "object_id": "P0318:n5"
+      },
+      {
+        "relation_id": "P0318:r003",
+        "subject": "Crystalline hydrate crystallization at low temperature",
+        "subject_role": "mechanism_process",
+        "predicate": "creates",
+        "object": "Concentration difference",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "First stage of the proposed electrochemical cycle; alternative to high-temperature melting",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We proposed a concept and calculated an efficiency of the electrochemical cycle of converting the low-grade heat with the temperature difference of 10-80 degrees C into electricity. ",
+        "context_quotes": [
+          "The cycle could be divided into two stages: the creation of the concentration difference by the crystalline hydrate melting at the high temperature or the crystallization at the low temperature and the electricity generation in the concentration galvanic cell. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0318:n4",
+        "object_id": "P0318:n5"
+      },
+      {
+        "relation_id": "P0318:r004",
+        "subject": "Concentration galvanic cell",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Electricity generation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Second stage of the proposed cycle, following creation of a concentration difference",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "We proposed a concept and calculated an efficiency of the electrochemical cycle of converting the low-grade heat with the temperature difference of 10-80 degrees C into electricity. ",
+        "context_quotes": [
+          "The cycle could be divided into two stages: the creation of the concentration difference by the crystalline hydrate melting at the high temperature or the crystallization at the low temperature and the electricity generation in the concentration galvanic cell. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0318:n6",
+        "object_id": "P0318:n7"
+      },
+      {
+        "relation_id": "P0318:r005",
+        "subject": "Proposed electrochemical cycle",
+        "subject_role": "design_strategy",
+        "predicate": "has_calculated_attainable_efficiency",
+        "object": "Conversion efficiency reaching 20–35% of Carnot-cycle efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Calculated for the proposed low-grade-heat conversion cycle with a temperature difference of 10–80 °C; calculation type unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "We proposed a concept and calculated an efficiency of the electrochemical cycle of converting the low-grade heat with the temperature difference of 10-80 degrees C into electricity. ",
+        "context_quotes": [
+          "The calculations prove that the efficiency of the converting heat into the electricity could reach up to 20-35% of the Carnot cycle efficiency. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0318:n1",
+        "object_id": "P0318:n8"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0319",
+    "title": "Influence of Electrode Gas Flow Rate and Solid Oxide Ratio in Electrolyte on the Seebeck Coefficient of Molten Carbonate Thermocell",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermocells represent a promising way to utilize heat as a power source. "
+      },
+      {
+        "id": 1,
+        "text": "The aim of this work is to develop a thermocell with identical gas electrodes using molten carbonate-based electrolytes. "
+      },
+      {
+        "id": 2,
+        "text": "The cell can generate power from waste heat, and can also utilize the CO2 rich off-gas available in metal producing industries. "
+      },
+      {
+        "id": 3,
+        "text": "The flow rate of the gas supply to the electrodes needs to be optimized. "
+      },
+      {
+        "id": 4,
+        "text": "Its effect on the Seebeck coefficient was not studied systematically before. "
+      },
+      {
+        "id": 5,
+        "text": "The addition of solid oxide to the molten carbonate melt alters also the system's Seebeck coefficient. "
+      },
+      {
+        "id": 6,
+        "text": "We report measurements where we vary the content of solid oxide in the liquid eutectic electrolyte mixture as well as the electrode gas flow rate. "
+      },
+      {
+        "id": 7,
+        "text": "The Seebeck coefficient is reported for various ratios of eutectic (Li, Na)(2)CO3 molten carbonate and dispersed solid oxide MgO, and for varying gas (CO2|O-2) flow rates to the electrode interfaces. "
+      },
+      {
+        "id": 8,
+        "text": "(C) The Author(s) 2017. "
+      },
+      {
+        "id": 9,
+        "text": "Published by ECS. "
+      },
+      {
+        "id": 10,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0319:n1",
+        "label": "Thermocell with identical gas electrodes and molten carbonate-based electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0319:n2",
+        "label": "Power generation from waste heat",
+        "role": "application"
+      },
+      {
+        "id": "P0319:n4",
+        "label": "Dispersed solid oxide MgO content relative to eutectic (Li, Na)2CO3",
+        "role": "condition"
+      },
+      {
+        "id": "P0319:n5",
+        "label": "System Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0319:n6",
+        "label": "CO2/O2 gas flow rate to electrode interfaces",
+        "role": "condition"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0319:r001",
+        "subject": "Thermocell with identical gas electrodes and molten carbonate-based electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "can_generate",
+        "object": "Power generation from waste heat",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The aim of this work is to develop a thermocell with identical gas electrodes using molten carbonate-based electrolytes. ",
+        "context_quotes": [
+          "The cell can generate power from waste heat, and can also utilize the CO2 rich off-gas available in metal producing industries. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0319:n1",
+        "object_id": "P0319:n2"
+      },
+      {
+        "relation_id": "P0319:r003",
+        "subject": "Dispersed solid oxide MgO content relative to eutectic (Li, Na)2CO3",
+        "subject_role": "condition",
+        "predicate": "alters",
+        "object": "System Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Solid oxide added to liquid eutectic molten carbonate; direction and magnitude unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The addition of solid oxide to the molten carbonate melt alters also the system's Seebeck coefficient. ",
+        "context_quotes": [
+          "We report measurements where we vary the content of solid oxide in the liquid eutectic electrolyte mixture as well as the electrode gas flow rate. ",
+          "The Seebeck coefficient is reported for various ratios of eutectic (Li, Na)(2)CO3 molten carbonate and dispersed solid oxide MgO, and for varying gas (CO2|O-2) flow rates to the electrode interfaces. "
+        ],
+        "modality_evidence": [
+          "We report measurements where we vary the content of solid oxide in the liquid eutectic electrolyte mixture as well as the electrode gas flow rate. ",
+          "The Seebeck coefficient is reported for various ratios of eutectic (Li, Na)(2)CO3 molten carbonate and dispersed solid oxide MgO, and for varying gas (CO2|O-2) flow rates to the electrode interfaces. "
+        ],
+        "subject_id": "P0319:n4",
+        "object_id": "P0319:n5"
+      },
+      {
+        "relation_id": "P0319:r004",
+        "subject": "CO2/O2 gas flow rate to electrode interfaces",
+        "subject_role": "condition",
+        "predicate": "is_assessed_in_relation_to",
+        "object": "System Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "Measurements at varying electrode gas flow rates; no effect direction or magnitude reported",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We report measurements where we vary the content of solid oxide in the liquid eutectic electrolyte mixture as well as the electrode gas flow rate. ",
+        "context_quotes": [
+          "The Seebeck coefficient is reported for various ratios of eutectic (Li, Na)(2)CO3 molten carbonate and dispersed solid oxide MgO, and for varying gas (CO2|O-2) flow rates to the electrode interfaces. "
+        ],
+        "modality_evidence": [
+          "We report measurements where we vary the content of solid oxide in the liquid eutectic electrolyte mixture as well as the electrode gas flow rate. ",
+          "The Seebeck coefficient is reported for various ratios of eutectic (Li, Na)(2)CO3 molten carbonate and dispersed solid oxide MgO, and for varying gas (CO2|O-2) flow rates to the electrode interfaces. "
+        ],
+        "subject_id": "P0319:n6",
+        "object_id": "P0319:n5"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0320",
+    "title": "Analytical Study and Experimental Validation of Copper II Sulfate and Potassium Ferri/Ferrocyanide Thermocells Using Onsager Flux Equations",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermocells convert heat energy directly into electrical energy through charge-transfer reactions at the electrode-electrolyte interface. "
+      },
+      {
+        "id": 1,
+        "text": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. "
+      },
+      {
+        "id": 2,
+        "text": "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+      },
+      {
+        "id": 3,
+        "text": "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+      },
+      {
+        "id": 4,
+        "text": "Validation demonstrates that the simulation model developed, using the Onsager flux equations, works for thermocells with different electrode materials (platinum, copper, charcoal, acetylene black, and carbon nanotube), electrode spacing, and temperature differentials. "
+      },
+      {
+        "id": 5,
+        "text": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0320:n1",
+        "label": "Onsager flux simulation model for thermocells",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0320:n2",
+        "label": "Thermocells using aqueous copper II sulfate",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0320:n3",
+        "label": "Thermocells using aqueous potassium ferri/ferrocyanide",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0320:n4",
+        "label": "Calculated electrolyte transport-coefficient matrices",
+        "role": "quantity"
+      },
+      {
+        "id": "P0320:n5",
+        "label": "Short-circuit current",
+        "role": "quantity"
+      },
+      {
+        "id": "P0320:n6",
+        "label": "Maximum power output",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0320:n7",
+        "label": "Power conversion efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0320:n8",
+        "label": "Applicability across electrode materials, electrode spacing and temperature differentials",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0320:n9",
+        "label": "Electrolyte concentration",
+        "role": "condition"
+      },
+      {
+        "id": "P0320:n11",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0320:n12",
+        "label": "Relative efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0320:n10",
+        "label": "Electrode spacing",
+        "role": "condition"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0320:r001",
+        "subject": "Onsager flux simulation model for thermocells",
+        "subject_role": "design_strategy",
+        "predicate": "models",
+        "object": "Thermocells using aqueous copper II sulfate",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Onsager flux relationship; electrolyte transport-coefficient matrices applied in simulations",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. ",
+        "context_quotes": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+        ],
+        "subject_id": "P0320:n1",
+        "object_id": "P0320:n2"
+      },
+      {
+        "relation_id": "P0320:r002",
+        "subject": "Onsager flux simulation model for thermocells",
+        "subject_role": "design_strategy",
+        "predicate": "models",
+        "object": "Thermocells using aqueous potassium ferri/ferrocyanide",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Onsager flux relationship; electrolyte transport-coefficient matrices applied in simulations",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. ",
+        "context_quotes": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+        ],
+        "subject_id": "P0320:n1",
+        "object_id": "P0320:n3"
+      },
+      {
+        "relation_id": "P0320:r003",
+        "subject": "Calculated electrolyte transport-coefficient matrices",
+        "subject_role": "quantity",
+        "predicate": "is_used_in",
+        "object": "Onsager flux simulation model for thermocells",
+        "object_role": "design_strategy",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Matrices calculated separately for aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. ",
+        "context_quotes": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. "
+        ],
+        "subject_id": "P0320:n4",
+        "object_id": "P0320:n1"
+      },
+      {
+        "relation_id": "P0320:r004",
+        "subject": "Onsager flux simulation model for thermocells",
+        "subject_role": "design_strategy",
+        "predicate": "correctly_predicts",
+        "object": "Short-circuit current",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Simulations validated through experimental testing and comparison with previous literature results",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. ",
+        "context_quotes": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+        ],
+        "subject_id": "P0320:n1",
+        "object_id": "P0320:n5"
+      },
+      {
+        "relation_id": "P0320:r005",
+        "subject": "Onsager flux simulation model for thermocells",
+        "subject_role": "design_strategy",
+        "predicate": "correctly_predicts",
+        "object": "Maximum power output",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Simulations validated through experimental testing and comparison with previous literature results",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. ",
+        "context_quotes": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+        ],
+        "subject_id": "P0320:n1",
+        "object_id": "P0320:n6"
+      },
+      {
+        "relation_id": "P0320:r006",
+        "subject": "Onsager flux simulation model for thermocells",
+        "subject_role": "design_strategy",
+        "predicate": "correctly_predicts",
+        "object": "Power conversion efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Simulations validated through experimental testing and comparison with previous literature results",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To perform an analytical study on the behavior of thermocells, the Onsager flux relationship was applied to thermocells, which used aqueous copper II sulfate and aqueous potassium ferri/ferrocyanide as the electrolyte. ",
+        "context_quotes": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "The simulation is shown to correctly predict the short circuit current, maximum power output, and power conversion efficiency. "
+        ],
+        "subject_id": "P0320:n1",
+        "object_id": "P0320:n7"
+      },
+      {
+        "relation_id": "P0320:r007",
+        "subject": "Onsager flux simulation model for thermocells",
+        "subject_role": "design_strategy",
+        "predicate": "has_validated",
+        "object": "Applicability across electrode materials, electrode spacing and temperature differentials",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Electrode materials: platinum, copper, charcoal, acetylene black and carbon nanotube; validation includes different electrode spacings and temperature differentials",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+        "context_quotes": [
+          "Validation demonstrates that the simulation model developed, using the Onsager flux equations, works for thermocells with different electrode materials (platinum, copper, charcoal, acetylene black, and carbon nanotube), electrode spacing, and temperature differentials. "
+        ],
+        "modality_evidence": [
+          "The transport coefficient matrices were calculated for each electrolyte and applied to several simulations, which were subsequently validated through experimental testing and comparison to previous literature results. ",
+          "Validation demonstrates that the simulation model developed, using the Onsager flux equations, works for thermocells with different electrode materials (platinum, copper, charcoal, acetylene black, and carbon nanotube), electrode spacing, and temperature differentials. "
+        ],
+        "subject_id": "P0320:n1",
+        "object_id": "P0320:n8"
+      },
+      {
+        "relation_id": "P0320:r008",
+        "subject": "Electrolyte concentration",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Reported dependence with respect to concentration and electrode spacing; direction and formula unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0320:n9",
+        "object_id": "P0320:n11"
+      },
+      {
+        "relation_id": "P0320:r009",
+        "subject": "Electrolyte concentration",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Maximum power output",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Reported thermocell power dependence; direction and formula unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0320:n9",
+        "object_id": "P0320:n6"
+      },
+      {
+        "relation_id": "P0320:r010",
+        "subject": "Electrolyte concentration",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Relative efficiency",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Reported dependence with respect to concentration and electrode spacing; direction and formula unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0320:n9",
+        "object_id": "P0320:n12"
+      },
+      {
+        "relation_id": "P0320:r011",
+        "subject": "Electrode spacing",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Reported dependence with respect to concentration and electrode spacing; direction and formula unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0320:n10",
+        "object_id": "P0320:n11"
+      },
+      {
+        "relation_id": "P0320:r012",
+        "subject": "Electrode spacing",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Maximum power output",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Reported thermocell power dependence; direction and formula unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0320:n10",
+        "object_id": "P0320:n6"
+      },
+      {
+        "relation_id": "P0320:r013",
+        "subject": "Electrode spacing",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Relative efficiency",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Reported dependence with respect to concentration and electrode spacing; direction and formula unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The power dependence of the thermocell on concentration and electrode spacing, with respect to the Seebeck coefficient, maximum power output, and relative efficiency, is also shown.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0320:n10",
+        "object_id": "P0320:n12"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0321",
+    "title": "High Efficiency Graphene Coated Copper Based Thermocells Connected in Series",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Conversion of low-grade waste heat into electricity had been studied employing single thermocell or flowcells so far. "
+      },
+      {
+        "id": 1,
+        "text": "Graphene coated copper electrodes based thermocells connected in series displayed relatively high efficiency of thermal energy harvesting. "
+      },
+      {
+        "id": 2,
+        "text": "The maximum power output of 49.2 W/m(2) for normalized cross sectional electrode area is obtained at 60 degrees C of inter electrode temperature difference. "
+      },
+      {
+        "id": 3,
+        "text": "The relative carnot efficiency of 20.2% is obtained from the device. "
+      },
+      {
+        "id": 4,
+        "text": "The importance of reducing the mass transfer and ion transfer resistance to improve the efficiency of the device is demonstrated. "
+      },
+      {
+        "id": 5,
+        "text": "Degradation studies confirmed mild oxidation of copper foil due to corrosion caused by the electrolyte."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0321:n1",
+        "label": "Series-connected thermocells with graphene-coated copper electrodes",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0321:n2",
+        "label": "Relatively high thermal energy harvesting efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0321:n3",
+        "label": "Maximum power output of 49.2 W/m² normalized to electrode cross-sectional area",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0321:n4",
+        "label": "Relative Carnot efficiency of 20.2%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0321:n5",
+        "label": "Reduction of mass-transfer and ion-transfer resistance",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0321:n6",
+        "label": "Device efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0321:n7",
+        "label": "Electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0321:n8",
+        "label": "Copper-foil corrosion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0321:n9",
+        "label": "Mild oxidation of copper foil",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0321:r001",
+        "subject": "Series-connected thermocells with graphene-coated copper electrodes",
+        "subject_role": "material_entity",
+        "predicate": "displays",
+        "object": "Relatively high thermal energy harvesting efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparator unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Graphene coated copper electrodes based thermocells connected in series displayed relatively high efficiency of thermal energy harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0321:n1",
+        "object_id": "P0321:n2"
+      },
+      {
+        "relation_id": "P0321:r002",
+        "subject": "Series-connected thermocells with graphene-coated copper electrodes",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum power output of 49.2 W/m² normalized to electrode cross-sectional area",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Interelectrode temperature difference of 60 °C; normalized electrode cross-sectional area",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Graphene coated copper electrodes based thermocells connected in series displayed relatively high efficiency of thermal energy harvesting. ",
+        "context_quotes": [
+          "The maximum power output of 49.2 W/m(2) for normalized cross sectional electrode area is obtained at 60 degrees C of inter electrode temperature difference. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0321:n1",
+        "object_id": "P0321:n3"
+      },
+      {
+        "relation_id": "P0321:r003",
+        "subject": "Series-connected thermocells with graphene-coated copper electrodes",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Relative Carnot efficiency of 20.2%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Graphene coated copper electrodes based thermocells connected in series displayed relatively high efficiency of thermal energy harvesting. ",
+        "context_quotes": [
+          "The relative carnot efficiency of 20.2% is obtained from the device. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0321:n1",
+        "object_id": "P0321:n4"
+      },
+      {
+        "relation_id": "P0321:r004",
+        "subject": "Reduction of mass-transfer and ion-transfer resistance",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Device efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Combined reduction of mass-transfer and ion-transfer resistance",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The importance of reducing the mass transfer and ion transfer resistance to improve the efficiency of the device is demonstrated. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0321:n5",
+        "object_id": "P0321:n6"
+      },
+      {
+        "relation_id": "P0321:r005",
+        "subject": "Electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "causes",
+        "object": "Copper-foil corrosion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Degradation studies; procedure unspecified",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Degradation studies confirmed mild oxidation of copper foil due to corrosion caused by the electrolyte.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0321:n7",
+        "object_id": "P0321:n8"
+      },
+      {
+        "relation_id": "P0321:r006",
+        "subject": "Copper-foil corrosion",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Mild oxidation of copper foil",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Degradation studies; procedure unspecified",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Degradation studies confirmed mild oxidation of copper foil due to corrosion caused by the electrolyte.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0321:n8",
+        "object_id": "P0321:n9"
+      }
+    ]
+  }
+]

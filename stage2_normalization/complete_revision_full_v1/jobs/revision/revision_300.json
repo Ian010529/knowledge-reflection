@@ -1,0 +1,1407 @@
+[
+  {
+    "paper_id": "P1229",
+    "title": "First-principles calculations of structural and bonding properties of Li-doped tetrahedrite thermoelectrics",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Tetrahedrite (copper antimony sulfosalt) is a promising p-type thermoelectric material due to its very low intrinsic thermal conductivity and moderately-high power factor, with one of the limitations being the lack of n-type variant to create a thermoelectric generator. "
+      },
+      {
+        "id": 1,
+        "text": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+      },
+      {
+        "id": 2,
+        "text": "Enthalpies of formation show that the introduction of Li into both 6b and 24 g sites is energetically favorable. "
+      },
+      {
+        "id": 3,
+        "text": "Dopants in those positions differently affect the rattling Cu(12e) behavior, as well as vary in the magnitude of induced local disorder. "
+      },
+      {
+        "id": 4,
+        "text": "Topological analysis of charge density classifies tetrahedrite as a closed-shell, ionic system of interactions with some degree of covalency. "
+      },
+      {
+        "id": 5,
+        "text": "The addition of Li increases bond strain and decreases structural stability. "
+      },
+      {
+        "id": 6,
+        "text": "Electronic band structure shows that for x > 2.0, material becomes n-type; however, results are not precisely conclusive on whether structure will be synthesizable, which should be determined experimentally."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1229:site",
+        "label": "Li introduction into 6b and 24 g sites",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1229:fav",
+        "label": "Energetically favorable incorporation",
+        "role": "quantity"
+      },
+      {
+        "id": "P1229:rattle",
+        "label": "Rattling Cu(12e) behavior",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1229:dis",
+        "label": "Magnitude of induced local disorder",
+        "role": "quantity"
+      },
+      {
+        "id": "P1229:tet",
+        "label": "Tetrahedrite",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1229:bond",
+        "label": "Closed-shell ionic interactions with some covalency",
+        "role": "interaction"
+      },
+      {
+        "id": "P1229:li",
+        "label": "Li doping into structural voids",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1229:strain",
+        "label": "Bond strain",
+        "role": "quantity"
+      },
+      {
+        "id": "P1229:stab",
+        "label": "Structural stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1229:m",
+        "label": "LixCu12Sb4S13 (0 ≤ x ≤ 3)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1229:nt",
+        "label": "n-type character",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1229:syn",
+        "label": "Synthesizability",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1229:r001",
+        "subject": "Li introduction into 6b and 24 g sites",
+        "subject_role": "design_strategy",
+        "predicate": "has",
+        "object": "Energetically favorable incorporation",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Formation enthalpies from DFT; favorable at both sites.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "Enthalpies of formation show that the introduction of Li into both 6b and 24 g sites is energetically favorable. "
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:site",
+        "object_id": "P1229:fav"
+      },
+      {
+        "relation_id": "P1229:r002",
+        "subject": "Li introduction into 6b and 24 g sites",
+        "subject_role": "design_strategy",
+        "predicate": "differentially_affects",
+        "object": "Rattling Cu(12e) behavior",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "6b versus 24 g dopant positions; effect signs unspecified.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "Enthalpies of formation show that the introduction of Li into both 6b and 24 g sites is energetically favorable. ",
+          "Dopants in those positions differently affect the rattling Cu(12e) behavior, as well as vary in the magnitude of induced local disorder. "
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:site",
+        "object_id": "P1229:rattle"
+      },
+      {
+        "relation_id": "P1229:r003",
+        "subject": "Li introduction into 6b and 24 g sites",
+        "subject_role": "design_strategy",
+        "predicate": "differentially_affects",
+        "object": "Magnitude of induced local disorder",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "6b versus 24 g dopant positions; relative magnitudes unspecified.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "Enthalpies of formation show that the introduction of Li into both 6b and 24 g sites is energetically favorable. ",
+          "Dopants in those positions differently affect the rattling Cu(12e) behavior, as well as vary in the magnitude of induced local disorder. "
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:site",
+        "object_id": "P1229:dis"
+      },
+      {
+        "relation_id": "P1229:r004",
+        "subject": "Tetrahedrite",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Closed-shell ionic interactions with some covalency",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Topological analysis of charge density.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "Topological analysis of charge density classifies tetrahedrite as a closed-shell, ionic system of interactions with some degree of covalency. "
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+          "Topological analysis of charge density classifies tetrahedrite as a closed-shell, ionic system of interactions with some degree of covalency. "
+        ],
+        "subject_id": "P1229:tet",
+        "object_id": "P1229:bond"
+      },
+      {
+        "relation_id": "P1229:r005",
+        "subject": "Li doping into structural voids",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Bond strain",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "The addition of Li increases bond strain and decreases structural stability. "
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:li",
+        "object_id": "P1229:strain"
+      },
+      {
+        "relation_id": "P1229:r006",
+        "subject": "Li doping into structural voids",
+        "subject_role": "design_strategy",
+        "predicate": "decreases",
+        "object": "Structural stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "The addition of Li increases bond strain and decreases structural stability. "
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:li",
+        "object_id": "P1229:stab"
+      },
+      {
+        "relation_id": "P1229:r007",
+        "subject": "LixCu12Sb4S13 (0 ≤ x ≤ 3)",
+        "subject_role": "material_entity",
+        "predicate": "becomes",
+        "object": "n-type character",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "x > 2.0; electronic band structure.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "Electronic band structure shows that for x > 2.0, material becomes n-type; however, results are not precisely conclusive on whether structure will be synthesizable, which should be determined experimentally."
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:m",
+        "object_id": "P1229:nt"
+      },
+      {
+        "relation_id": "P1229:r008",
+        "subject": "LixCu12Sb4S13 (0 ≤ x ≤ 3)",
+        "subject_role": "material_entity",
+        "predicate": "has_unresolved",
+        "object": "Synthesizability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "n-type composition regime x > 2.0; experimental determination requested.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). ",
+        "context_quotes": [
+          "Electronic band structure shows that for x > 2.0, material becomes n-type; however, results are not precisely conclusive on whether structure will be synthesizable, which should be determined experimentally."
+        ],
+        "modality_evidence": [
+          "In this paper, DFT calculations have been carried out to study tetrahedrite doped with Li into structural voids, LixCu(12)Sb(4)S(13) (0 <= x <= 3). "
+        ],
+        "subject_id": "P1229:m",
+        "object_id": "P1229:syn"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1230",
+    "title": "Innovative definition of nature of the nerve impulses",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Neuroscientists describe the nerve impulses as electrical signals that travel down an axon or as a wave that has an action or electric potential. "
+      },
+      {
+        "id": 1,
+        "text": "Such description may recognize a nature of the nerve impulses as electric current. "
+      },
+      {
+        "id": 2,
+        "text": "However; the traditional definition of electric current as flow of electrons stands against such direct recognition of the nerve impulses, so it is defined as ions or ionic current. "
+      },
+      {
+        "id": 3,
+        "text": "It will be reviewed in this study an entropy approach and results of one of Faraday's experiment which defined the electric current as electromagnetic waves that have an electric potential. "
+      },
+      {
+        "id": 4,
+        "text": "Such definition of electric current is found to be consistent with recognized features of the nerve impulses. "
+      },
+      {
+        "id": 5,
+        "text": "Accordingly, it is investigated in this article a definition of the nerve impulses as electric charges and not as ions to account for detected thermoelectric aspects of these electric impulses. "
+      },
+      {
+        "id": 6,
+        "text": "Then, it is suggested thermoelectric mechanisms of their generation and propagation as electric charges in the neural system. "
+      },
+      {
+        "id": 7,
+        "text": "Such conclusion will simplify replacement of damaged neural cells by artificial mechanisms. "
+      },
+      {
+        "id": 8,
+        "text": "(C) 2019 The Authors. "
+      },
+      {
+        "id": 9,
+        "text": "Published by Elsevier B.V. on behalf of Faculty of Engineering, Ain Shams University."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1230:current",
+        "label": "Electric current",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1230:wave",
+        "label": "Electromagnetic waves having electric potential",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1230:imp",
+        "label": "Nerve impulses",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1230:charge",
+        "label": "Electric charges",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1230:ions",
+        "label": "Ions",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1230:te",
+        "label": "Thermoelectric mechanisms",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1230:gen",
+        "label": "Nerve-impulse generation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1230:prop",
+        "label": "Nerve-impulse propagation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1230:replacement",
+        "label": "Replacement of damaged neural cells by artificial mechanisms",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1230:r001",
+        "subject": "Electric current",
+        "subject_role": "mechanism_process",
+        "predicate": "is_interpreted_as",
+        "object": "Electromagnetic waves having electric potential",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Authors' review of an entropy approach and results of a Faraday experiment.",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "review_synthesis",
+        "quote": "It will be reviewed in this study an entropy approach and results of one of Faraday's experiment which defined the electric current as electromagnetic waves that have an electric potential. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1230:current",
+        "object_id": "P1230:wave"
+      },
+      {
+        "relation_id": "P1230:r002",
+        "subject": "Electromagnetic waves having electric potential",
+        "subject_role": "state_structure",
+        "predicate": "is_claimed_consistent_with",
+        "object": "Nerve impulses",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Consistency of this electric-current definition with recognized nerve-impulse features.",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "review_synthesis",
+        "quote": "It will be reviewed in this study an entropy approach and results of one of Faraday's experiment which defined the electric current as electromagnetic waves that have an electric potential. ",
+        "context_quotes": [
+          "Such definition of electric current is found to be consistent with recognized features of the nerve impulses. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1230:wave",
+        "object_id": "P1230:imp"
+      },
+      {
+        "relation_id": "P1230:r003",
+        "subject": "Nerve impulses",
+        "subject_role": "mechanism_process",
+        "predicate": "is_proposed_to_be",
+        "object": "Electric charges",
+        "object_role": "state_structure",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Proposed definition to account for detected thermoelectric aspects.",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Accordingly, it is investigated in this article a definition of the nerve impulses as electric charges and not as ions to account for detected thermoelectric aspects of these electric impulses. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1230:imp",
+        "object_id": "P1230:charge"
+      },
+      {
+        "relation_id": "P1230:r004",
+        "subject": "Nerve impulses",
+        "subject_role": "mechanism_process",
+        "predicate": "is_defined_as",
+        "object": "Ions",
+        "object_role": "material_entity",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Authors investigate a definition as electric charges and not as ions.",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Accordingly, it is investigated in this article a definition of the nerve impulses as electric charges and not as ions to account for detected thermoelectric aspects of these electric impulses. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1230:imp",
+        "object_id": "P1230:ions"
+      },
+      {
+        "relation_id": "P1230:r005",
+        "subject": "Thermoelectric mechanisms",
+        "subject_role": "mechanism_process",
+        "predicate": "is_proposed_to_underlie",
+        "object": "Nerve-impulse generation",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Nerve impulses treated as electric charges in the neural system.",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Accordingly, it is investigated in this article a definition of the nerve impulses as electric charges and not as ions to account for detected thermoelectric aspects of these electric impulses. ",
+        "context_quotes": [
+          "Then, it is suggested thermoelectric mechanisms of their generation and propagation as electric charges in the neural system. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1230:te",
+        "object_id": "P1230:gen"
+      },
+      {
+        "relation_id": "P1230:r006",
+        "subject": "Thermoelectric mechanisms",
+        "subject_role": "mechanism_process",
+        "predicate": "is_proposed_to_underlie",
+        "object": "Nerve-impulse propagation",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Nerve impulses treated as electric charges in the neural system.",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Accordingly, it is investigated in this article a definition of the nerve impulses as electric charges and not as ions to account for detected thermoelectric aspects of these electric impulses. ",
+        "context_quotes": [
+          "Then, it is suggested thermoelectric mechanisms of their generation and propagation as electric charges in the neural system. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1230:te",
+        "object_id": "P1230:prop"
+      },
+      {
+        "relation_id": "P1230:r007",
+        "subject": "Thermoelectric mechanisms",
+        "subject_role": "mechanism_process",
+        "predicate": "is_proposed_to_simplify",
+        "object": "Replacement of damaged neural cells by artificial mechanisms",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Anticipated consequence of the proposed thermoelectric account, not a demonstrated replacement.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Accordingly, it is investigated in this article a definition of the nerve impulses as electric charges and not as ions to account for detected thermoelectric aspects of these electric impulses. ",
+        "context_quotes": [
+          "Then, it is suggested thermoelectric mechanisms of their generation and propagation as electric charges in the neural system. ",
+          "Such conclusion will simplify replacement of damaged neural cells by artificial mechanisms. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1230:te",
+        "object_id": "P1230:replacement"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1231",
+    "title": "Isostructural transition metal diselenide lead-free semiconductors with coupled optical, piezoelectric and energy conversion functionalities",
+    "segments": [
+      {
+        "id": 0,
+        "text": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+      },
+      {
+        "id": 1,
+        "text": "Thermoelectric properties of FePd2Se2 showing a Seebeck coefficient of 0.1(V/K) and a figure of merit (ZT) of 0.45 at 300 K. "
+      },
+      {
+        "id": 2,
+        "text": "Their non-centrosymmetric crystal structure suggests intrinsic piezoelectric response and phonon dispersion investigations demonstrate their dynamically stable lattices. "
+      },
+      {
+        "id": 3,
+        "text": "The Electron Localization Function (ELF) demonstrates strong ionic character in the chemical bonding. "
+      },
+      {
+        "id": 4,
+        "text": "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). "
+      },
+      {
+        "id": 5,
+        "text": "These properties, including low thermal conductivity and thermal expansion, make both compounds promising for thermoelectric applications. "
+      },
+      {
+        "id": 6,
+        "text": "Additional analysis of optical properties indicates strong light absorption in the visible range. "
+      },
+      {
+        "id": 7,
+        "text": "These results of double perovskites for experimental development in thermoelectric energy conversion and related optoelectronic technologies."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1231:mn",
+        "label": "MnPd2Se2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1231:g1",
+        "label": "Indirect band gap of 0.8 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1231:fe",
+        "label": "FePd2Se2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1231:g2",
+        "label": "Indirect band gap of 1.2 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1231:s",
+        "label": "Seebeck coefficient of 0.1 V/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P1231:zt",
+        "label": "ZT = 0.45",
+        "role": "quantity"
+      },
+      {
+        "id": "P1231:m",
+        "label": "XPd2Se2 (X = Mn, Fe)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1231:nc",
+        "label": "Non-centrosymmetric crystal structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1231:piezo",
+        "label": "Intrinsic piezoelectric response",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1231:ds",
+        "label": "Dynamical lattice stability",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1231:bond",
+        "label": "Strong ionic bonding character",
+        "role": "interaction"
+      },
+      {
+        "id": "P1231:anh",
+        "label": "Enhanced lattice anharmonicity",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1231:k",
+        "label": "Lattice thermal conductivity of 2.0–3.0 W/mK",
+        "role": "quantity"
+      },
+      {
+        "id": "P1231:abs",
+        "label": "Strong visible light absorption",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1231:te",
+        "label": "Thermoelectric applications",
+        "role": "application"
+      },
+      {
+        "id": "P1231:exp",
+        "label": "Thermal expansion",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1231:r001",
+        "subject": "MnPd2Se2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Indirect band gap of 0.8 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Assignment follows the listed order X = Mn, Fe.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:mn",
+        "object_id": "P1231:g1"
+      },
+      {
+        "relation_id": "P1231:r002",
+        "subject": "FePd2Se2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Indirect band gap of 1.2 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Assignment follows the listed order X = Mn, Fe.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:fe",
+        "object_id": "P1231:g2"
+      },
+      {
+        "relation_id": "P1231:r003",
+        "subject": "FePd2Se2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Seebeck coefficient of 0.1 V/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K is specified for ZT; applicability to Seebeck value is unclear.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "Thermoelectric properties of FePd2Se2 showing a Seebeck coefficient of 0.1(V/K) and a figure of merit (ZT) of 0.45 at 300 K. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:fe",
+        "object_id": "P1231:s"
+      },
+      {
+        "relation_id": "P1231:r004",
+        "subject": "FePd2Se2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "ZT = 0.45",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "Thermoelectric properties of FePd2Se2 showing a Seebeck coefficient of 0.1(V/K) and a figure of merit (ZT) of 0.45 at 300 K. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:fe",
+        "object_id": "P1231:zt"
+      },
+      {
+        "relation_id": "P1231:r005",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Non-centrosymmetric crystal structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "Their non-centrosymmetric crystal structure suggests intrinsic piezoelectric response and phonon dispersion investigations demonstrate their dynamically stable lattices. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:nc"
+      },
+      {
+        "relation_id": "P1231:r006",
+        "subject": "Non-centrosymmetric crystal structure",
+        "subject_role": "state_structure",
+        "predicate": "suggests",
+        "object": "Intrinsic piezoelectric response",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "XPd2Se2 (X = Mn, Fe).",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "Their non-centrosymmetric crystal structure suggests intrinsic piezoelectric response and phonon dispersion investigations demonstrate their dynamically stable lattices. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:nc",
+        "object_id": "P1231:piezo"
+      },
+      {
+        "relation_id": "P1231:r007",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Dynamical lattice stability",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Phonon dispersion simulations.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Their non-centrosymmetric crystal structure suggests intrinsic piezoelectric response and phonon dispersion investigations demonstrate their dynamically stable lattices. ",
+        "context_quotes": [
+          "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). "
+        ],
+        "modality_evidence": [
+          "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:ds"
+      },
+      {
+        "relation_id": "P1231:r008",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Strong ionic bonding character",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Electron Localization Function analysis.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "The Electron Localization Function (ELF) demonstrates strong ionic character in the chemical bonding. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:bond"
+      },
+      {
+        "relation_id": "P1231:r009",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Enhanced lattice anharmonicity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Phonon dispersion simulations; comparison baseline unspecified.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:anh"
+      },
+      {
+        "relation_id": "P1231:r010",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "has_predicted",
+        "object": "Lattice thermal conductivity of 2.0–3.0 W/mK",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Room temperature.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Phonon dispersion simulations confirm dynamic stability enhanced lattice anharmonicity predicted lattice thermal conductivity of 2.0-3.0 (W/mK) at room temperature for XPd2Se2 (X = Mn, Fe). "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:k"
+      },
+      {
+        "relation_id": "P1231:r011",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Strong visible light absorption",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Optical-property analysis.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "Additional analysis of optical properties indicates strong light absorption in the visible range. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:abs"
+      },
+      {
+        "relation_id": "P1231:r012",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "has_potential_for",
+        "object": "Thermoelectric applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "Attributed to properties including low thermal conductivity and thermal expansion.",
+        "joint_factors": [
+          "Low thermal conductivity",
+          "Thermal expansion"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "These properties, including low thermal conductivity and thermal expansion, make both compounds promising for thermoelectric applications. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:te"
+      },
+      {
+        "relation_id": "P1231:r013",
+        "subject": "XPd2Se2 (X = Mn, Fe)",
+        "subject_role": "material_entity",
+        "predicate": "has_reported_property",
+        "object": "Thermal expansion",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Magnitude and sign unspecified.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. ",
+        "context_quotes": [
+          "These properties, including low thermal conductivity and thermal expansion, make both compounds promising for thermoelectric applications. "
+        ],
+        "modality_evidence": [
+          "This first-principles DFT study examines the Isostructural properties of XPd2Se2 (X = Mn, Fe) chalcogenides exhibit indirect band gaps of 0.8 eV and 1.2 eV, and optical absorption coefficient in the visible range. "
+        ],
+        "subject_id": "P1231:m",
+        "object_id": "P1231:exp"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1232",
+    "title": "Crystal structure across the β to α phase transition in thermoelectric Cu2-xSe",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The crystal structure uniquely imparts the specific properties of a material, and thus provides the starting point for any quantitative understanding of thermoelectric properties. "
+      },
+      {
+        "id": 1,
+        "text": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+      },
+      {
+        "id": 2,
+        "text": "It consists of Se-Cu layers with additional copper between every alternate layer. "
+      },
+      {
+        "id": 3,
+        "text": "The structural changes during the peculiar zT enhancing phase transition mainly consist of changes in the inter-layer distance coupled with subtle Cu migration. "
+      },
+      {
+        "id": 4,
+        "text": "Just prior to the transition the structure exhibits strong negative thermal expansion due to the reordering of Cu atoms, when approached from low temperatures. "
+      },
+      {
+        "id": 5,
+        "text": "The phase transition is fully reversible and group-subgroup symmetry relations are derived that relate the low-temperature beta-phase to the high-temperature alpha-phase. "
+      },
+      {
+        "id": 6,
+        "text": "Weak superstructure reflections are observed and a possible Cu ordering is proposed. "
+      },
+      {
+        "id": 7,
+        "text": "The structural rearrangement may have a significant impact on the band structure and the Cu rearrangement may also be linked to an entropy increase. "
+      },
+      {
+        "id": 8,
+        "text": "Both factors potentially contribute to the extraordinary zT enhancement across the phase transition."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1232:beta",
+        "label": "Average beta-Cu2−xSe structure",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1232:layers",
+        "label": "Se-Cu layers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1232:cu",
+        "label": "Additional copper between every alternate layer",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1232:tr",
+        "label": "Beta-to-alpha phase transition",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1232:dist",
+        "label": "Inter-layer distance changes",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1232:mig",
+        "label": "Subtle Cu migration",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1232:nte",
+        "label": "Strong negative thermal expansion",
+        "role": "quantity"
+      },
+      {
+        "id": "P1232:reorder",
+        "label": "Cu atom reordering",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1232:rev",
+        "label": "Full reversibility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1232:alpha",
+        "label": "High-temperature alpha-Cu2−xSe phase",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1232:audit_v1_r010_subject",
+        "label": "Cu2−xSe",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1232:ref",
+        "label": "Weak superstructure reflections",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1232:order",
+        "label": "Possible Cu ordering",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1232:rearr",
+        "label": "Structural rearrangement",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1232:band",
+        "label": "Band structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1232:entropy",
+        "label": "Entropy increase",
+        "role": "quantity"
+      },
+      {
+        "id": "P1232:enh",
+        "label": "Extraordinary zT enhancement across phase transition",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1232:joint",
+        "label": "Band-structure effects and entropy increase",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1232:r001",
+        "subject": "Average beta-Cu2−xSe structure",
+        "subject_role": "material_entity",
+        "predicate": "consists_of",
+        "object": "Se-Cu layers",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Average structure from multitemperature single-crystal X-ray diffraction.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "It consists of Se-Cu layers with additional copper between every alternate layer. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:beta",
+        "object_id": "P1232:layers"
+      },
+      {
+        "relation_id": "P1232:r002",
+        "subject": "Average beta-Cu2−xSe structure",
+        "subject_role": "material_entity",
+        "predicate": "contains",
+        "object": "Additional copper between every alternate layer",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Average structure from multitemperature single-crystal X-ray diffraction.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "It consists of Se-Cu layers with additional copper between every alternate layer. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:beta",
+        "object_id": "P1232:cu"
+      },
+      {
+        "relation_id": "P1232:r003",
+        "subject": "Beta-to-alpha phase transition",
+        "subject_role": "mechanism_process",
+        "predicate": "involves",
+        "object": "Inter-layer distance changes",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Main structural changes during the phase transition.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "The structural changes during the peculiar zT enhancing phase transition mainly consist of changes in the inter-layer distance coupled with subtle Cu migration. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:tr",
+        "object_id": "P1232:dist"
+      },
+      {
+        "relation_id": "P1232:r004",
+        "subject": "Beta-to-alpha phase transition",
+        "subject_role": "mechanism_process",
+        "predicate": "involves",
+        "object": "Subtle Cu migration",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Coupled with inter-layer distance changes.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "The structural changes during the peculiar zT enhancing phase transition mainly consist of changes in the inter-layer distance coupled with subtle Cu migration. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:tr",
+        "object_id": "P1232:mig"
+      },
+      {
+        "relation_id": "P1232:r005",
+        "subject": "Inter-layer distance changes",
+        "subject_role": "mechanism_process",
+        "predicate": "is_coupled_with",
+        "object": "Subtle Cu migration",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "During the phase transition.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "The structural changes during the peculiar zT enhancing phase transition mainly consist of changes in the inter-layer distance coupled with subtle Cu migration. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:dist",
+        "object_id": "P1232:mig"
+      },
+      {
+        "relation_id": "P1232:r006",
+        "subject": "Average beta-Cu2−xSe structure",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Strong negative thermal expansion",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Just prior to transition when approached from low temperatures.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "Just prior to the transition the structure exhibits strong negative thermal expansion due to the reordering of Cu atoms, when approached from low temperatures. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:beta",
+        "object_id": "P1232:nte"
+      },
+      {
+        "relation_id": "P1232:r007",
+        "subject": "Cu atom reordering",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Strong negative thermal expansion",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Just prior to transition when approached from low temperatures.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "Just prior to the transition the structure exhibits strong negative thermal expansion due to the reordering of Cu atoms, when approached from low temperatures. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:reorder",
+        "object_id": "P1232:nte"
+      },
+      {
+        "relation_id": "P1232:r008",
+        "subject": "Beta-to-alpha phase transition",
+        "subject_role": "mechanism_process",
+        "predicate": "exhibits",
+        "object": "Full reversibility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "The phase transition is fully reversible and group-subgroup symmetry relations are derived that relate the low-temperature beta-phase to the high-temperature alpha-phase. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. "
+        ],
+        "subject_id": "P1232:tr",
+        "object_id": "P1232:rev"
+      },
+      {
+        "relation_id": "P1232:r009",
+        "subject": "Average beta-Cu2−xSe structure",
+        "subject_role": "material_entity",
+        "predicate": "has_group_subgroup_symmetry_relation_with",
+        "object": "High-temperature alpha-Cu2−xSe phase",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Derived symmetry relations link low-temperature beta and high-temperature alpha phases.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The phase transition is fully reversible and group-subgroup symmetry relations are derived that relate the low-temperature beta-phase to the high-temperature alpha-phase. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1232:beta",
+        "object_id": "P1232:alpha"
+      },
+      {
+        "relation_id": "P1232:r010",
+        "subject": "Cu2−xSe",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Weak superstructure reflections",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Diffraction study across the transition; phase assignment of weak reflections unspecified.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+        "context_quotes": [
+          "Weak superstructure reflections are observed and a possible Cu ordering is proposed. "
+        ],
+        "modality_evidence": [
+          "Cu2-xSe is an intensely studied high performing, non-toxic and cheap thermoelectric material, and here for the first time, the average structure of beta-Cu2-xSe is reported based on analysis of multitemperature single-crystal X-ray diffraction data. ",
+          "Weak superstructure reflections are observed and a possible Cu ordering is proposed. "
+        ],
+        "subject_id": "P1232:audit_v1_r010_subject",
+        "object_id": "P1232:ref"
+      },
+      {
+        "relation_id": "P1232:r011",
+        "subject": "Weak superstructure reflections",
+        "subject_role": "descriptor",
+        "predicate": "suggests",
+        "object": "Possible Cu ordering",
+        "object_role": "state_structure",
+        "assertion": "hypothesis",
+        "modality": "experimental",
+        "conditions": "Proposed ordering, not established.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Weak superstructure reflections are observed and a possible Cu ordering is proposed. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Weak superstructure reflections are observed and a possible Cu ordering is proposed. "
+        ],
+        "subject_id": "P1232:ref",
+        "object_id": "P1232:order"
+      },
+      {
+        "relation_id": "P1232:r012",
+        "subject": "Structural rearrangement",
+        "subject_role": "mechanism_process",
+        "predicate": "may_significantly_affect",
+        "object": "Band structure",
+        "object_role": "state_structure",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Structural rearrangement across the phase transition.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The structural rearrangement may have a significant impact on the band structure and the Cu rearrangement may also be linked to an entropy increase. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1232:rearr",
+        "object_id": "P1232:band"
+      },
+      {
+        "relation_id": "P1232:r013",
+        "subject": "Cu atom reordering",
+        "subject_role": "mechanism_process",
+        "predicate": "may_be_linked_to",
+        "object": "Entropy increase",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Cu rearrangement across the phase transition.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The structural rearrangement may have a significant impact on the band structure and the Cu rearrangement may also be linked to an entropy increase. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1232:reorder",
+        "object_id": "P1232:entropy"
+      },
+      {
+        "relation_id": "P1232:r014",
+        "subject": "Beta-to-alpha phase transition",
+        "subject_role": "mechanism_process",
+        "predicate": "enhances",
+        "object": "Extraordinary zT enhancement across phase transition",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The structural changes during the peculiar zT enhancing phase transition mainly consist of changes in the inter-layer distance coupled with subtle Cu migration. ",
+        "context_quotes": [
+          "Both factors potentially contribute to the extraordinary zT enhancement across the phase transition."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1232:tr",
+        "object_id": "P1232:enh"
+      },
+      {
+        "relation_id": "P1232:r015",
+        "subject": "Band-structure effects and entropy increase",
+        "subject_role": "mechanism_process",
+        "predicate": "may_contribute_to",
+        "object": "Extraordinary zT enhancement across phase transition",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Across the phase transition.",
+        "joint_factors": [
+          "Possible band-structure effects of structural rearrangement",
+          "Possible entropy increase linked to Cu rearrangement"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The structural rearrangement may have a significant impact on the band structure and the Cu rearrangement may also be linked to an entropy increase. ",
+        "context_quotes": [
+          "Both factors potentially contribute to the extraordinary zT enhancement across the phase transition."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1232:joint",
+        "object_id": "P1232:enh"
+      }
+    ]
+  }
+]

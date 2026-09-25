@@ -1,3 +1,17 @@
+2026-09-25 新版两图查看与映射：已生成 complete_revision_full_v1/graph/index.html 和 cross_mapping_v1/index.html，当前本地入口 http://127.0.0.1:51753/cross_mapping_v1/index.html。采用透明TF-IDF候选基线、未复现RDGCN或做正式四组比较；保存67910对概念/32721对核心关系候选，一轮Astra-medium核查63对：4明确、28有限、31不支持。概念端点判定仅限所核查主张语境，不合并跨域ID；未发现双方物理类别均明确且不同的明确对应，不能称跨机制迁移成功。16批无重试，输入448429/输出30222 tokens。原图不变，候选未核查不作正负判断；方法文献依据与限制见 cross_mapping_v1/REPORT.md。
+
+2026-09-25 最新交付：全库完整摘要一次修订、预留模型验收和新版图谱均完成，实际工作树 /Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/REPORT.md。1971篇（复用开发40篇），21115→24737条关系；17028 keep、3647 patch、3636 add、426 uncertain、14 reject、0篇重抽。预留每域100条/30篇：iTE/TG加权严格精确率82.94%/89.96%，核心完整覆盖86.76%/86.54%；未同时达到90%严格精确率目标，不得称全库质量达标。拒绝全查8正确、5误拒、1待定，未用验收反馈反改本轮。旧图保持冻结；新图24311条accepted边，426待定单列。总记录用量16,168,443 tokens（不含复用40篇开发成本）；最高40并发，约40分钟。任务队列已结束，勿重复调用；见 acceptance/issues.json 和 acceptance/REPORT.md。
+
+2026-09-25 额度补充：用户授权“全部用完再重置”，限定实际耗尽后使用一次。revision_302/303已遇到usage limit；随后账户额度已恢复、重置余额为0，重置工具没有再次消费。只按检查点续跑，不再尝试其他重置；记录见实际工作树 complete_revision_full_v1/reset_authorization.json。
+
+2026-09-25 新授权执行中：用户在了解开发分母后明确要求“那全库推进一下”，并授权“条件允许范围下越多并发越好”。当前入口为 stage2_normalization/complete_revision_full_v1/progress.json；完整规则见该目录protocol.md，扩量决定见expansion_decision.json，并发变更见concurrency_authorization.json。复用40篇，仅对剩余1931篇各修订一次；随后预留样本验收及新版图谱导出。开发失败记录保持不变，但不再是本次扩量阻塞。不得重复启动同一队列；使用检查点续跑。仍不自动重置额度、不改模型/账户/付费API、不恢复dsh或RRF任务。
+
+2026-09-25 最新完成：[40篇完整摘要最小修订验证](complete_revision_v1/REPORT.md)。iTE/TG各20篇，529条旧关系：435保留、87patch、7待定，补78条，共607条；无reject、无按篇重抽标记。Astra-medium盲评：保守含待定严格正确率72.3%→88.4%、84.5%→92.8%；仅接受记录为90.03%/92.83%。两域覆盖均提高，正确关系受损0项；按预先冻结的保守≥90%门槛，iTE未过，未启动其余1931篇修订、预留最终验收或图谱更新。47条参考争议保留。三个规范描述已另存局部修订，概念ID/成员不变，旧图冻结。44次调用、无技术重试；本开发集不估计总体准确率。不能自行改分母扩量或再次重复修订以追求过线；后续按用户新指令处理剩余诊断。
+
+2026-09-25 新任务执行中：按用户明确授权，先进行 [40篇完整摘要修订开发验证](complete_revision_v1/protocol.md)，底稿为full_audit_v1/final/revised_all.json；两域各20篇、529条旧关系。通过冻结开发门后才扩大到全库一次修订及预留样本验收。三个描述另存局部修订，旧图和历史输出不变。此次授权替代历史“仅定向修复”范围，不恢复旧dsh或RRF任务。
+
+2026-09-25 最新质量补充：[修订后抽检](post_revision_audit_v1/REPORT.md)完成，严格关系精确率初评 74%/79%、纠正两条明确评价误判后 75%/80%，仍未达到 90%；40 个抽中合并组成员等价，3 个规范描述过细。小样本查漏不作全库召回率，见 [解释](post_revision_audit_v1/INTERPRETATION.md)。原图保持冻结，本轮未修图。
+
 2026-09-25 当前覆盖：[全量抽取](full_extraction_v1/REPORT.md)、[抽检与一次修订](full_audit_v1/REPORT.md)、[最小归一化与初版双图谱](initial_graph_v1/REPORT.md)、[24 对探索性 match](exploratory_match_v1/REPORT.md)均已完成。详细边界见 [最新状态](astra_judge_review/CURRENT_STATUS.md)。未证实修订后总体质量达标，未完成正式四组匹配对照或全文/SI 验证。下文较早的“当前/尚未”保留为历史，不据此重跑。
 
 # 当前执行入口

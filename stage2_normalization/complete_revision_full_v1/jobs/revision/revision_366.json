@@ -1,0 +1,1352 @@
+[
+  {
+    "paper_id": "P1491",
+    "title": "3D cellulose fiber networks modified by PEDOT:PSS/graphene nanoplatelets for thermoelectric applications",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Organic materials have attracted considerable attention for thermoelectric (TE) applications. "
+      },
+      {
+        "id": 1,
+        "text": "Given their potential as wearable power generators, there is an urgent need to develop organic TE materials that possess superior electronic properties as well as excellent mechanical and environmental stability. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we develop paper-based TE materials using the poly(3,4-ethylenedioxythiophene): polystyrenesulfonate (PEDOT:PSS), graphene nanoplatelets (GNPs), and a starch-based biopolymer as a binder for GNPs. "
+      },
+      {
+        "id": 3,
+        "text": "The device fabrication consists of spraying the biopolymer/GNP ink onto the cellulose paper followed by spraying the PEDOT:PSS solution. "
+      },
+      {
+        "id": 4,
+        "text": "Further enhancement of TE properties was obtained by adding an ionic liquid (IL), bis(trifluoromethane)sulfonimide lithium salt to the PEDOT:PSS solution. "
+      },
+      {
+        "id": 5,
+        "text": "Upon addition of the IL, the electrical conductivity of as-fabricated PEDOT:PSS films increased nearly two orders of magnitude. "
+      },
+      {
+        "id": 6,
+        "text": "The electrical conductivity increases with GNPs' content due to formation of an effective electrical percolation network. "
+      },
+      {
+        "id": 7,
+        "text": "Interestingly, incorporating GNPs simultaneously improves the Seebeck coefficient. "
+      },
+      {
+        "id": 8,
+        "text": "Raman measurements suggest that the concurrent enhancement of the Seebeck coefficient and electrical conductivity might be related to the chemical bonding between the conducting polymer chains and the filler. "
+      },
+      {
+        "id": 9,
+        "text": "In addition, these composites display remarkable flexibility at various bending angles and environmental stability without losing their original conductivity after three months of exposure to ambient conditions."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1491:binder",
+        "label": "Starch-based biopolymer",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1491:gnp",
+        "label": "Graphene nanoplatelets",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1491:spray",
+        "label": "Sequential spraying of biopolymer/GNP ink and PEDOT:PSS solution onto cellulose paper",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1491:comp",
+        "label": "Cellulose-paper PEDOT:PSS/GNP composites with starch-based binder",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1491:il",
+        "label": "Addition of ionic liquid, bis(trifluoromethane)sulfonimide lithium salt, to PEDOT:PSS solution",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1491:te",
+        "label": "Thermoelectric properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1491:fsigma",
+        "label": "Electrical conductivity of PEDOT:PSS films",
+        "role": "quantity"
+      },
+      {
+        "id": "P1491:film",
+        "label": "As-fabricated PEDOT:PSS films",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1491:content",
+        "label": "Increasing GNP content",
+        "role": "condition"
+      },
+      {
+        "id": "P1491:sigma",
+        "label": "Composite electrical conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1491:inc",
+        "label": "GNP incorporation",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1491:network",
+        "label": "Effective electrical percolation network",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1491:s",
+        "label": "Composite Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P1491:bond",
+        "label": "Chemical bonding between conducting polymer chains and filler",
+        "role": "interaction"
+      },
+      {
+        "id": "P1491:flex",
+        "label": "Remarkable flexibility",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1491:stable",
+        "label": "Retention of original electrical conductivity",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1491:r001",
+        "subject": "Starch-based biopolymer",
+        "subject_role": "material_entity",
+        "predicate": "serves_as_binder_for",
+        "object": "Graphene nanoplatelets",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we develop paper-based TE materials using the poly(3,4-ethylenedioxythiophene): polystyrenesulfonate (PEDOT:PSS), graphene nanoplatelets (GNPs), and a starch-based biopolymer as a binder for GNPs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:binder",
+        "object_id": "P1491:gnp"
+      },
+      {
+        "relation_id": "P1491:r002",
+        "subject": "Sequential spraying of biopolymer/GNP ink and PEDOT:PSS solution onto cellulose paper",
+        "subject_role": "mechanism_process",
+        "predicate": "fabricates",
+        "object": "Cellulose-paper PEDOT:PSS/GNP composites with starch-based binder",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Biopolymer/GNP ink sprayed first, PEDOT:PSS solution second",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we develop paper-based TE materials using the poly(3,4-ethylenedioxythiophene): polystyrenesulfonate (PEDOT:PSS), graphene nanoplatelets (GNPs), and a starch-based biopolymer as a binder for GNPs. ",
+        "context_quotes": [
+          "The device fabrication consists of spraying the biopolymer/GNP ink onto the cellulose paper followed by spraying the PEDOT:PSS solution. "
+        ],
+        "modality_evidence": [
+          "The device fabrication consists of spraying the biopolymer/GNP ink onto the cellulose paper followed by spraying the PEDOT:PSS solution. "
+        ],
+        "subject_id": "P1491:spray",
+        "object_id": "P1491:comp"
+      },
+      {
+        "relation_id": "P1491:r003",
+        "subject": "Addition of ionic liquid, bis(trifluoromethane)sulfonimide lithium salt, to PEDOT:PSS solution",
+        "subject_role": "design_strategy",
+        "predicate": "enhances",
+        "object": "Thermoelectric properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Paper-based composite materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Further enhancement of TE properties was obtained by adding an ionic liquid (IL), bis(trifluoromethane)sulfonimide lithium salt to the PEDOT:PSS solution. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:il",
+        "object_id": "P1491:te"
+      },
+      {
+        "relation_id": "P1491:r004",
+        "subject": "Addition of ionic liquid, bis(trifluoromethane)sulfonimide lithium salt, to PEDOT:PSS solution",
+        "subject_role": "design_strategy",
+        "predicate": "increases_by_nearly_two_orders_of_magnitude",
+        "object": "Electrical conductivity of PEDOT:PSS films",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "As-fabricated PEDOT:PSS films",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Further enhancement of TE properties was obtained by adding an ionic liquid (IL), bis(trifluoromethane)sulfonimide lithium salt to the PEDOT:PSS solution. ",
+        "context_quotes": [
+          "Upon addition of the IL, the electrical conductivity of as-fabricated PEDOT:PSS films increased nearly two orders of magnitude. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1491:il",
+        "object_id": "P1491:fsigma"
+      },
+      {
+        "relation_id": "P1491:r005",
+        "subject": "As-fabricated PEDOT:PSS films",
+        "subject_role": "material_entity",
+        "predicate": "has_property",
+        "object": "Electrical conductivity of PEDOT:PSS films",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Upon addition of the IL, the electrical conductivity of as-fabricated PEDOT:PSS films increased nearly two orders of magnitude. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:film",
+        "object_id": "P1491:fsigma"
+      },
+      {
+        "relation_id": "P1491:r006",
+        "subject": "Increasing GNP content",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Composite electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Attributed to effective electrical percolation-network formation",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity increases with GNPs' content due to formation of an effective electrical percolation network. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:content",
+        "object_id": "P1491:sigma"
+      },
+      {
+        "relation_id": "P1491:r007",
+        "subject": "GNP incorporation",
+        "subject_role": "design_strategy",
+        "predicate": "forms",
+        "object": "Effective electrical percolation network",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "With increasing GNP content",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity increases with GNPs' content due to formation of an effective electrical percolation network. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:inc",
+        "object_id": "P1491:network"
+      },
+      {
+        "relation_id": "P1491:r008",
+        "subject": "Effective electrical percolation network",
+        "subject_role": "state_structure",
+        "predicate": "increases",
+        "object": "Composite electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity increases with GNPs' content due to formation of an effective electrical percolation network. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:network",
+        "object_id": "P1491:sigma"
+      },
+      {
+        "relation_id": "P1491:r009",
+        "subject": "GNP incorporation",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Composite Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Concurrent with conductivity enhancement",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Interestingly, incorporating GNPs simultaneously improves the Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:inc",
+        "object_id": "P1491:s"
+      },
+      {
+        "relation_id": "P1491:r010",
+        "subject": "Chemical bonding between conducting polymer chains and filler",
+        "subject_role": "interaction",
+        "predicate": "may_be_related_to_enhancement_of",
+        "object": "Composite Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "experimental",
+        "conditions": "Raman measurements suggest a relationship with concurrent Seebeck and conductivity enhancement",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Raman measurements suggest that the concurrent enhancement of the Seebeck coefficient and electrical conductivity might be related to the chemical bonding between the conducting polymer chains and the filler. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Raman measurements suggest that the concurrent enhancement of the Seebeck coefficient and electrical conductivity might be related to the chemical bonding between the conducting polymer chains and the filler. "
+        ],
+        "subject_id": "P1491:bond",
+        "object_id": "P1491:s"
+      },
+      {
+        "relation_id": "P1491:r011",
+        "subject": "Chemical bonding between conducting polymer chains and filler",
+        "subject_role": "interaction",
+        "predicate": "may_be_related_to_enhancement_of",
+        "object": "Composite electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "experimental",
+        "conditions": "Raman measurements suggest a relationship with concurrent Seebeck and conductivity enhancement",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Raman measurements suggest that the concurrent enhancement of the Seebeck coefficient and electrical conductivity might be related to the chemical bonding between the conducting polymer chains and the filler. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Raman measurements suggest that the concurrent enhancement of the Seebeck coefficient and electrical conductivity might be related to the chemical bonding between the conducting polymer chains and the filler. "
+        ],
+        "subject_id": "P1491:bond",
+        "object_id": "P1491:sigma"
+      },
+      {
+        "relation_id": "P1491:r012",
+        "subject": "Cellulose-paper PEDOT:PSS/GNP composites with starch-based binder",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Remarkable flexibility",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Various bending angles",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In addition, these composites display remarkable flexibility at various bending angles and environmental stability without losing their original conductivity after three months of exposure to ambient conditions.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1491:comp",
+        "object_id": "P1491:flex"
+      },
+      {
+        "relation_id": "P1491:r013",
+        "subject": "Cellulose-paper PEDOT:PSS/GNP composites with starch-based binder",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Retention of original electrical conductivity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "After three months of exposure to ambient conditions",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In addition, these composites display remarkable flexibility at various bending angles and environmental stability without losing their original conductivity after three months of exposure to ambient conditions.",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In addition, these composites display remarkable flexibility at various bending angles and environmental stability without losing their original conductivity after three months of exposure to ambient conditions."
+        ],
+        "subject_id": "P1491:comp",
+        "object_id": "P1491:stable"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1492",
+    "title": "Band Engineering Through Pb-Doping of Nanocrystal Building Blocks to Enhance Thermoelectric Performance in Cu3SbSe4",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Developing cost-effective and high-performance thermoelectric (TE) materials to assemble efficient TE devices presents a multitude of challenges and opportunities. "
+      },
+      {
+        "id": 1,
+        "text": "Cu3SbSe4 is a promising p-type TE material based on relatively earth abundant elements. "
+      },
+      {
+        "id": 2,
+        "text": "However, the challenge lies in its poor electrical conductivity. "
+      },
+      {
+        "id": 3,
+        "text": "Herein, an efficient and scalable solution-based approach is developed to synthesize high-quality Cu3SbSe4 nanocrystals doped with Pb at the Sb site. "
+      },
+      {
+        "id": 4,
+        "text": "After ligand displacement and annealing treatments, the dried powders are consolidated into dense pellets, and their TE properties are investigated. "
+      },
+      {
+        "id": 5,
+        "text": "Pb doping effectively increases the charge carrier concentration, resulting in a significant increase in electrical conductivity, while the Seebeck coefficients remain consistently high. "
+      },
+      {
+        "id": 6,
+        "text": "The calculated band structure shows that Pb doping induces band convergence, thereby increasing the effective mass. "
+      },
+      {
+        "id": 7,
+        "text": "Furthermore, the large ionic radius of Pb2+ results in the generation of additional point and plane defects and interphases, dramatically enhancing phonon scattering, which significantly decreases the lattice thermal conductivity at high temperatures. "
+      },
+      {
+        "id": 8,
+        "text": "Overall, a maximum figure of merit (zT(max)) approximate to 0.85 at 653 K is obtained in Cu3Sb0.97Pb0.03Se4. "
+      },
+      {
+        "id": 9,
+        "text": "This represents a 1.6-fold increase compared to the undoped sample and exceeds most doped Cu3SbSe4-based materials produced by solid-state, demonstrating advantages of versatility and cost-effectiveness using a solution-based technology."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1492:route",
+        "label": "Efficient, scalable solution-based synthesis",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1492:nc",
+        "label": "High-quality Pb-doped Cu3SbSe4 nanocrystals",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1492:pb",
+        "label": "Pb dopants in Cu3SbSe4",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1492:site",
+        "label": "Sb sites",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1492:treat",
+        "label": "Ligand displacement and annealing followed by powder consolidation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1492:pellet",
+        "label": "Dense pellets from Pb-doped Cu3SbSe4 nanocrystals",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1492:dop",
+        "label": "Pb doping of Cu3SbSe4",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1492:n",
+        "label": "Charge-carrier concentration",
+        "role": "quantity"
+      },
+      {
+        "id": "P1492:sigma",
+        "label": "Electrical conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1492:s",
+        "label": "Consistently high Seebeck coefficients",
+        "role": "quantity"
+      },
+      {
+        "id": "P1492:conv",
+        "label": "Band convergence",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1492:mass",
+        "label": "Effective mass",
+        "role": "quantity"
+      },
+      {
+        "id": "P1492:radius",
+        "label": "Large ionic radius of Pb2+",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1492:def",
+        "label": "Additional point defects, plane defects and interphases",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1492:scat",
+        "label": "Phonon scattering",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1492:kl",
+        "label": "Lattice thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1492:opt",
+        "label": "Cu3Sb0.97Pb0.03Se4",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1492:zt",
+        "label": "Maximum zT approximately 0.85",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1492:undoped",
+        "label": "Undoped sample figure of merit",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1492:solid",
+        "label": "Figure of merit of most doped Cu3SbSe4 materials produced by solid-state routes",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1492:adv",
+        "label": "Versatility and cost-effectiveness",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1492:r001",
+        "subject": "Efficient, scalable solution-based synthesis",
+        "subject_role": "design_strategy",
+        "predicate": "synthesizes",
+        "object": "High-quality Pb-doped Cu3SbSe4 nanocrystals",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, an efficient and scalable solution-based approach is developed to synthesize high-quality Cu3SbSe4 nanocrystals doped with Pb at the Sb site. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Herein, an efficient and scalable solution-based approach is developed to synthesize high-quality Cu3SbSe4 nanocrystals doped with Pb at the Sb site. "
+        ],
+        "subject_id": "P1492:route",
+        "object_id": "P1492:nc"
+      },
+      {
+        "relation_id": "P1492:r002",
+        "subject": "Pb dopants in Cu3SbSe4",
+        "subject_role": "material_entity",
+        "predicate": "occupies",
+        "object": "Sb sites",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In synthesized Cu3SbSe4 nanocrystals",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, an efficient and scalable solution-based approach is developed to synthesize high-quality Cu3SbSe4 nanocrystals doped with Pb at the Sb site. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:pb",
+        "object_id": "P1492:site"
+      },
+      {
+        "relation_id": "P1492:r003",
+        "subject": "Ligand displacement and annealing followed by powder consolidation",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "Dense pellets from Pb-doped Cu3SbSe4 nanocrystals",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Dried powders consolidated after ligand displacement and annealing",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, an efficient and scalable solution-based approach is developed to synthesize high-quality Cu3SbSe4 nanocrystals doped with Pb at the Sb site. ",
+        "context_quotes": [
+          "After ligand displacement and annealing treatments, the dried powders are consolidated into dense pellets, and their TE properties are investigated. "
+        ],
+        "modality_evidence": [
+          "After ligand displacement and annealing treatments, the dried powders are consolidated into dense pellets, and their TE properties are investigated. "
+        ],
+        "subject_id": "P1492:treat",
+        "object_id": "P1492:pellet"
+      },
+      {
+        "relation_id": "P1492:r004",
+        "subject": "Pb doping of Cu3SbSe4",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Charge-carrier concentration",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Pb doping effectively increases the charge carrier concentration, resulting in a significant increase in electrical conductivity, while the Seebeck coefficients remain consistently high. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:dop",
+        "object_id": "P1492:n"
+      },
+      {
+        "relation_id": "P1492:r005",
+        "subject": "Charge-carrier concentration",
+        "subject_role": "quantity",
+        "predicate": "when_increased_significantly_increases",
+        "object": "Electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pb-doped Cu3SbSe4",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Pb doping effectively increases the charge carrier concentration, resulting in a significant increase in electrical conductivity, while the Seebeck coefficients remain consistently high. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:n",
+        "object_id": "P1492:sigma"
+      },
+      {
+        "relation_id": "P1492:r006",
+        "subject": "Pb doping of Cu3SbSe4",
+        "subject_role": "design_strategy",
+        "predicate": "preserves",
+        "object": "Consistently high Seebeck coefficients",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Despite increased carrier concentration and conductivity",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Pb doping effectively increases the charge carrier concentration, resulting in a significant increase in electrical conductivity, while the Seebeck coefficients remain consistently high. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:dop",
+        "object_id": "P1492:s"
+      },
+      {
+        "relation_id": "P1492:r007",
+        "subject": "Pb doping of Cu3SbSe4",
+        "subject_role": "design_strategy",
+        "predicate": "induces",
+        "object": "Band convergence",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Calculated band structure",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The calculated band structure shows that Pb doping induces band convergence, thereby increasing the effective mass. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The calculated band structure shows that Pb doping induces band convergence, thereby increasing the effective mass. "
+        ],
+        "subject_id": "P1492:dop",
+        "object_id": "P1492:conv"
+      },
+      {
+        "relation_id": "P1492:r008",
+        "subject": "Band convergence",
+        "subject_role": "state_structure",
+        "predicate": "increases",
+        "object": "Effective mass",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Calculated band structure",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The calculated band structure shows that Pb doping induces band convergence, thereby increasing the effective mass. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The calculated band structure shows that Pb doping induces band convergence, thereby increasing the effective mass. "
+        ],
+        "subject_id": "P1492:conv",
+        "object_id": "P1492:mass"
+      },
+      {
+        "relation_id": "P1492:r009",
+        "subject": "Large ionic radius of Pb2+",
+        "subject_role": "descriptor",
+        "predicate": "generates",
+        "object": "Additional point defects, plane defects and interphases",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pb-doped Cu3SbSe4",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the large ionic radius of Pb2+ results in the generation of additional point and plane defects and interphases, dramatically enhancing phonon scattering, which significantly decreases the lattice thermal conductivity at high temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:radius",
+        "object_id": "P1492:def"
+      },
+      {
+        "relation_id": "P1492:r010",
+        "subject": "Additional point defects, plane defects and interphases",
+        "subject_role": "state_structure",
+        "predicate": "dramatically_enhances",
+        "object": "Phonon scattering",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Point defects, plane defects and interphases reported collectively",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the large ionic radius of Pb2+ results in the generation of additional point and plane defects and interphases, dramatically enhancing phonon scattering, which significantly decreases the lattice thermal conductivity at high temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:def",
+        "object_id": "P1492:scat"
+      },
+      {
+        "relation_id": "P1492:r011",
+        "subject": "Phonon scattering",
+        "subject_role": "mechanism_process",
+        "predicate": "significantly_decreases",
+        "object": "Lattice thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "High temperatures",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the large ionic radius of Pb2+ results in the generation of additional point and plane defects and interphases, dramatically enhancing phonon scattering, which significantly decreases the lattice thermal conductivity at high temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:scat",
+        "object_id": "P1492:kl"
+      },
+      {
+        "relation_id": "P1492:r012",
+        "subject": "Cu3Sb0.97Pb0.03Se4",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum zT approximately 0.85",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "653 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Overall, a maximum figure of merit (zT(max)) approximate to 0.85 at 653 K is obtained in Cu3Sb0.97Pb0.03Se4. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:opt",
+        "object_id": "P1492:zt"
+      },
+      {
+        "relation_id": "P1492:r013",
+        "subject": "Maximum zT approximately 0.85",
+        "subject_role": "performance_function",
+        "predicate": "is_1.6_times",
+        "object": "Undoped sample figure of merit",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Reported maximum zT approximately 0.85 at 653 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Overall, a maximum figure of merit (zT(max)) approximate to 0.85 at 653 K is obtained in Cu3Sb0.97Pb0.03Se4. ",
+        "context_quotes": [
+          "This represents a 1.6-fold increase compared to the undoped sample and exceeds most doped Cu3SbSe4-based materials produced by solid-state, demonstrating advantages of versatility and cost-effectiveness using a solution-based technology."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1492:zt",
+        "object_id": "P1492:undoped"
+      },
+      {
+        "relation_id": "P1492:r014",
+        "subject": "Maximum zT approximately 0.85",
+        "subject_role": "performance_function",
+        "predicate": "exceeds",
+        "object": "Figure of merit of most doped Cu3SbSe4 materials produced by solid-state routes",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Overall, a maximum figure of merit (zT(max)) approximate to 0.85 at 653 K is obtained in Cu3Sb0.97Pb0.03Se4. ",
+        "context_quotes": [
+          "This represents a 1.6-fold increase compared to the undoped sample and exceeds most doped Cu3SbSe4-based materials produced by solid-state, demonstrating advantages of versatility and cost-effectiveness using a solution-based technology."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1492:zt",
+        "object_id": "P1492:solid"
+      },
+      {
+        "relation_id": "P1492:r015",
+        "subject": "Efficient, scalable solution-based synthesis",
+        "subject_role": "design_strategy",
+        "predicate": "offers",
+        "object": "Versatility and cost-effectiveness",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Authors' assessment of solution-based technology",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "This represents a 1.6-fold increase compared to the undoped sample and exceeds most doped Cu3SbSe4-based materials produced by solid-state, demonstrating advantages of versatility and cost-effectiveness using a solution-based technology.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1492:route",
+        "object_id": "P1492:adv"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1493",
+    "title": "Rational Design of Thermocells Driven by the Volume Phase Transition of Hydrogel Nanoparticles",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermocells are thermoelectrochemical conversion systems for harvesting low-temperature thermal energy. "
+      },
+      {
+        "id": 1,
+        "text": "Liquid-state thermocells are particularly desirable because of low cost and their high conversion efficiency at temperatures around physiological temperature, and they have, thus, been extensively studied. "
+      },
+      {
+        "id": 2,
+        "text": "However, the performance of the thermocells has to be improved to utilize them as energy chargers and/or batteries. "
+      },
+      {
+        "id": 3,
+        "text": "Recently, we reported that a liquid-state thermocell driven by the volume phase transition of hydrogel nanoparticles showed highly efficient thermoelectric conversion with Seebeck coefficient (S-e) of -6.7 mV K-1. "
+      },
+      {
+        "id": 4,
+        "text": "Here, we report the design rationale of the thermocells driven by the phase transition. "
+      },
+      {
+        "id": 5,
+        "text": "A high Se of -9.5 mV K-1 was achieved at temperature between 36 and 40 degrees C by optimizing choice and amount of redox chemical species. "
+      },
+      {
+        "id": 6,
+        "text": "The figure of merit (ZT) of the thermocell was improved by selecting appropriate electrolyte salt to increase the ionic conductivity and prevent the precipitation of nanoparticles. "
+      },
+      {
+        "id": 7,
+        "text": "Furthermore, screening of nanoparticles revealed the high correlation between Se and the pH shift generated as a result of phase transition of the nanoparticles. "
+      },
+      {
+        "id": 8,
+        "text": "After optimization, the maximum ZT of 8.0 x 10(-2) was achieved at a temperature between 20 and 70 degrees C."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1493:transition",
+        "label": "Hydrogel-nanoparticle volume phase transition",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1493:conversion",
+        "label": "Thermoelectric conversion",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1493:redox",
+        "label": "Optimization of choice and amount of redox chemical species",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1493:se",
+        "label": "Seebeck coefficient −9.5 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1493:salt",
+        "label": "Selection of appropriate electrolyte salt",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1493:zt",
+        "label": "Thermocell figure of merit ZT",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1493:sigma",
+        "label": "Ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1493:precip",
+        "label": "Nanoparticle precipitation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1493:ph",
+        "label": "pH shift",
+        "role": "quantity"
+      },
+      {
+        "id": "P1493:sev",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P1493:opt",
+        "label": "Thermocell optimization",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1493:max",
+        "label": "Maximum ZT = 8.0 × 10−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1493:cell",
+        "label": "Liquid-state thermocell driven by hydrogel-nanoparticle volume phase transition",
+        "role": "material_entity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1493:r001",
+        "subject": "Hydrogel-nanoparticle volume phase transition",
+        "subject_role": "mechanism_process",
+        "predicate": "drives",
+        "object": "Thermoelectric conversion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Hydrogel-nanoparticle liquid-state thermocell",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Recently, we reported that a liquid-state thermocell driven by the volume phase transition of hydrogel nanoparticles showed highly efficient thermoelectric conversion with Seebeck coefficient (S-e) of -6.7 mV K-1. ",
+        "context_quotes": [
+          "Here, we report the design rationale of the thermocells driven by the phase transition. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1493:transition",
+        "object_id": "P1493:conversion"
+      },
+      {
+        "relation_id": "P1493:r002",
+        "subject": "Optimization of choice and amount of redox chemical species",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient −9.5 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "36–40 °C; choice and amount optimized jointly",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A high Se of -9.5 mV K-1 was achieved at temperature between 36 and 40 degrees C by optimizing choice and amount of redox chemical species. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:redox",
+        "object_id": "P1493:se"
+      },
+      {
+        "relation_id": "P1493:r003",
+        "subject": "Selection of appropriate electrolyte salt",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Thermocell figure of merit ZT",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "By increasing ionic conductivity and preventing nanoparticle precipitation",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The figure of merit (ZT) of the thermocell was improved by selecting appropriate electrolyte salt to increase the ionic conductivity and prevent the precipitation of nanoparticles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:salt",
+        "object_id": "P1493:zt"
+      },
+      {
+        "relation_id": "P1493:r004",
+        "subject": "Selection of appropriate electrolyte salt",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The figure of merit (ZT) of the thermocell was improved by selecting appropriate electrolyte salt to increase the ionic conductivity and prevent the precipitation of nanoparticles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:salt",
+        "object_id": "P1493:sigma"
+      },
+      {
+        "relation_id": "P1493:r005",
+        "subject": "Selection of appropriate electrolyte salt",
+        "subject_role": "design_strategy",
+        "predicate": "prevents",
+        "object": "Nanoparticle precipitation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The figure of merit (ZT) of the thermocell was improved by selecting appropriate electrolyte salt to increase the ionic conductivity and prevent the precipitation of nanoparticles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:salt",
+        "object_id": "P1493:precip"
+      },
+      {
+        "relation_id": "P1493:r006",
+        "subject": "Hydrogel-nanoparticle volume phase transition",
+        "subject_role": "mechanism_process",
+        "predicate": "generates",
+        "object": "pH shift",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Nanoparticle screening",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, screening of nanoparticles revealed the high correlation between Se and the pH shift generated as a result of phase transition of the nanoparticles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:transition",
+        "object_id": "P1493:ph"
+      },
+      {
+        "relation_id": "P1493:r007",
+        "subject": "Seebeck coefficient",
+        "subject_role": "quantity",
+        "predicate": "is_highly_correlated_with",
+        "object": "pH shift",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Nanoparticle screening; pH shift generated by nanoparticle phase transition",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, screening of nanoparticles revealed the high correlation between Se and the pH shift generated as a result of phase transition of the nanoparticles. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:sev",
+        "object_id": "P1493:ph"
+      },
+      {
+        "relation_id": "P1493:r008",
+        "subject": "Thermocell optimization",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Maximum ZT = 8.0 × 10−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "20–70 °C",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "After optimization, the maximum ZT of 8.0 x 10(-2) was achieved at a temperature between 20 and 70 degrees C.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1493:opt",
+        "object_id": "P1493:max"
+      },
+      {
+        "relation_id": "P1493:r009",
+        "subject": "Liquid-state thermocell driven by hydrogel-nanoparticle volume phase transition",
+        "subject_role": "material_entity",
+        "predicate": "has_optimized_figure_of_merit",
+        "object": "Maximum ZT = 8.0 × 10−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "After optimization; 20–70 °C",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we report the design rationale of the thermocells driven by the phase transition. ",
+        "context_quotes": [
+          "After optimization, the maximum ZT of 8.0 x 10(-2) was achieved at a temperature between 20 and 70 degrees C."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1493:cell",
+        "object_id": "P1493:max"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1494",
+    "title": "Role of temperature on nonlinear cardiac dynamics",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermal effects affecting spatiotemporal behavior of cardiac tissue are discussed by relating temperature variations to proarrhythmic dynamics in the heart. "
+      },
+      {
+        "id": 1,
+        "text": "By introducing a thermoelectric coupling in a minimal model of cardiac tissue, we are able to reproduce experimentally measured dynamics obtained simultaneously from epicardial and endocardial canine right ventricles at different temperatures. "
+      },
+      {
+        "id": 2,
+        "text": "A quantitative description of emergent proarrhythmic properties of restitution, conduction velocity, and alternans regimes as a function of temperature is presented. "
+      },
+      {
+        "id": 3,
+        "text": "Complex discordant alternans patterns that enhance tissue dispersion consisting of one wave front and three wave backs are described in both simulations and experiments. "
+      },
+      {
+        "id": 4,
+        "text": "Possible implications for model generalization are finally discussed. "
+      },
+      {
+        "id": 5,
+        "text": "DOI: 10.1103/PhysRevE.87.042717"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1494:temp",
+        "label": "Temperature variation",
+        "role": "condition"
+      },
+      {
+        "id": "P1494:pro",
+        "label": "Proarrhythmic dynamics in cardiac tissue",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1494:coupling",
+        "label": "Thermoelectric coupling in a minimal cardiac-tissue model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1494:dynamics",
+        "label": "Simultaneously measured epicardial and endocardial canine right-ventricle dynamics",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1494:rest",
+        "label": "Restitution properties",
+        "role": "quantity"
+      },
+      {
+        "id": "P1494:vel",
+        "label": "Conduction velocity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1494:alt",
+        "label": "Alternans regimes",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1494:discord",
+        "label": "Complex discordant alternans patterns",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1494:disp",
+        "label": "Tissue dispersion",
+        "role": "quantity"
+      },
+      {
+        "id": "P1494:waves",
+        "label": "One wave front and three wave backs",
+        "role": "state_structure"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1494:r001",
+        "subject": "Temperature variation",
+        "subject_role": "condition",
+        "predicate": "is_related_to",
+        "object": "Proarrhythmic dynamics in cardiac tissue",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Spatiotemporal behavior of cardiac tissue",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Thermal effects affecting spatiotemporal behavior of cardiac tissue are discussed by relating temperature variations to proarrhythmic dynamics in the heart. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1494:temp",
+        "object_id": "P1494:pro"
+      },
+      {
+        "relation_id": "P1494:r002",
+        "subject": "Thermoelectric coupling in a minimal cardiac-tissue model",
+        "subject_role": "design_strategy",
+        "predicate": "reproduces",
+        "object": "Simultaneously measured epicardial and endocardial canine right-ventricle dynamics",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Minimal cardiac-tissue model; validation against simultaneous epicardial and endocardial measurements at different temperatures",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "By introducing a thermoelectric coupling in a minimal model of cardiac tissue, we are able to reproduce experimentally measured dynamics obtained simultaneously from epicardial and endocardial canine right ventricles at different temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1494:coupling",
+        "object_id": "P1494:dynamics"
+      },
+      {
+        "relation_id": "P1494:r003",
+        "subject": "Restitution properties",
+        "subject_role": "quantity",
+        "predicate": "depends_on",
+        "object": "Temperature variation",
+        "object_role": "condition",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Quantitative description of emergent proarrhythmic properties",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A quantitative description of emergent proarrhythmic properties of restitution, conduction velocity, and alternans regimes as a function of temperature is presented. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1494:rest",
+        "object_id": "P1494:temp"
+      },
+      {
+        "relation_id": "P1494:r004",
+        "subject": "Conduction velocity",
+        "subject_role": "quantity",
+        "predicate": "depends_on",
+        "object": "Temperature variation",
+        "object_role": "condition",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Quantitative description of emergent proarrhythmic properties",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A quantitative description of emergent proarrhythmic properties of restitution, conduction velocity, and alternans regimes as a function of temperature is presented. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1494:vel",
+        "object_id": "P1494:temp"
+      },
+      {
+        "relation_id": "P1494:r005",
+        "subject": "Alternans regimes",
+        "subject_role": "state_structure",
+        "predicate": "depends_on",
+        "object": "Temperature variation",
+        "object_role": "condition",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Quantitative description of emergent proarrhythmic properties",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "A quantitative description of emergent proarrhythmic properties of restitution, conduction velocity, and alternans regimes as a function of temperature is presented. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1494:alt",
+        "object_id": "P1494:temp"
+      },
+      {
+        "relation_id": "P1494:r006",
+        "subject": "Complex discordant alternans patterns",
+        "subject_role": "state_structure",
+        "predicate": "enhances",
+        "object": "Tissue dispersion",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Described in both simulations and experiments",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Complex discordant alternans patterns that enhance tissue dispersion consisting of one wave front and three wave backs are described in both simulations and experiments. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Complex discordant alternans patterns that enhance tissue dispersion consisting of one wave front and three wave backs are described in both simulations and experiments. "
+        ],
+        "subject_id": "P1494:discord",
+        "object_id": "P1494:disp"
+      },
+      {
+        "relation_id": "P1494:r007",
+        "subject": "Complex discordant alternans patterns",
+        "subject_role": "state_structure",
+        "predicate": "has_reported_wave_configuration",
+        "object": "One wave front and three wave backs",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Simulations and experiments",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Complex discordant alternans patterns that enhance tissue dispersion consisting of one wave front and three wave backs are described in both simulations and experiments. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Complex discordant alternans patterns that enhance tissue dispersion consisting of one wave front and three wave backs are described in both simulations and experiments. "
+        ],
+        "subject_id": "P1494:discord",
+        "object_id": "P1494:waves"
+      }
+    ]
+  }
+]

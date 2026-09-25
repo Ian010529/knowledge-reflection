@@ -1,0 +1,3201 @@
+[
+  {
+    "paper": {
+      "paper_id": "P0659",
+      "domain": "iTE",
+      "input_hash": "97419f3419cb4a9c0a26faf73381e6a3ea659e22e231f068ddbc9f7a1a81c3fc",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0659:r001",
+          "subject": "Temperature gradient across binary-electrolyte thermoelectric cell",
+          "subject_role": "condition",
+          "subject_id": "P0659:n1",
+          "predicate": "produces",
+          "object": "Thermovoltage",
+          "object_role": "quantity",
+          "object_id": "P0659:n2",
+          "quote": "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. ",
+          "context_quotes": [
+            "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+            "This results in a net voltage, called the thermovoltage, via the Seebeck effect. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. "
+          ],
+          "conditions": "Model binary electrolyte between two parallel blocking electrodes that remain electrically isolated; via the Seebeck effect.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 344,
+              "end": 580
+            },
+            {
+              "start": 580,
+              "end": 719
+            },
+            {
+              "start": 719,
+              "end": 800
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 344,
+              "end": 580
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0659:r002",
+          "subject": "Seebeck effect",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0659:n3",
+          "predicate": "mediates_generation_of",
+          "object": "Thermovoltage",
+          "object_role": "quantity",
+          "object_id": "P0659:n2",
+          "quote": "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+          "context_quotes": [
+            "This results in a net voltage, called the thermovoltage, via the Seebeck effect. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. "
+          ],
+          "conditions": "Applied temperature gradient with electrically isolated electrodes in the model cell.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 580,
+              "end": 719
+            },
+            {
+              "start": 719,
+              "end": 800
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 344,
+              "end": 580
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Soret effect",
+          "subject_role": "mechanism_process",
+          "predicate": "causes",
+          "object": "Ion migration toward cold electrode",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Temperature gradient across the binary-electrolyte model cell with parallel blocking electrodes that remain electrically isolated.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0659:r003",
+          "quote": "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. ",
+          "context_quotes": [
+            "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+            "At the same time, the Soret effect results in migration of the ions toward the cold electrode. "
+          ],
+          "modality_evidence": [
+            "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 344,
+              "end": 580
+            },
+            {
+              "start": 580,
+              "end": 719
+            },
+            {
+              "start": 800,
+              "end": 895
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 344,
+              "end": 580
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0659:n4",
+          "object_id": "P0659:n5",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0659:r004",
+          "subject": "Poisson–Nernst–Planck equations for dilute solutions",
+          "subject_role": "descriptor",
+          "subject_id": "P0659:n10",
+          "predicate": "mathematically_describe",
+          "object": "Diffuse charge dynamics",
+          "object_role": "mechanism_process",
+          "object_id": "P0659:n11",
+          "quote": "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. "
+          ],
+          "conditions": "Dilute solutions under a temperature gradient.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0659:r005",
+          "subject": "Electromigration",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0659:n7",
+          "predicate": "jointly_drives",
+          "object": "Ion flux",
+          "object_role": "quantity",
+          "object_id": "P0659:n6",
+          "quote": "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. "
+          ],
+          "conditions": "Poisson–Nernst–Planck description for dilute solutions under a temperature gradient.",
+          "joint_factors": [
+            "Brownian diffusion",
+            "Thermal diffusion"
+          ],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "n8",
+            "n9"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "n8",
+              "label": "Brownian diffusion"
+            },
+            {
+              "raw_id": "n9",
+              "label": "Thermal diffusion"
+            }
+          ]
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0659:r006",
+          "subject": "Heat equation",
+          "subject_role": "descriptor",
+          "subject_id": "P0659:n12",
+          "predicate": "governs",
+          "object": "Temperature evolution",
+          "object_role": "mechanism_process",
+          "object_id": "P0659:n13",
+          "quote": "The temperature evolves according to the heat equation. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The temperature evolves according to the heat equation. "
+          ],
+          "conditions": "Thermoelectric-cell model.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1130,
+              "end": 1186
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1130,
+              "end": 1186
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Thermovoltage development time",
+          "subject_role": "quantity",
+          "predicate": "equals",
+          "object": "Debye time, source expression: 1/D kappa(2)",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Dilute binary electrolyte between parallel, electrically isolated blocking electrodes; equations linearized for a weak temperature gradient; D is the common Brownian diffusion coefficient of both ion species and kappa(-1) the Debye length.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r007",
+          "relation_id": "P0659:r007",
+          "quote": "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. ",
+          "context_quotes": [
+            "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. "
+          ],
+          "modality_evidence": [
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 344,
+              "end": 580
+            },
+            {
+              "start": 580,
+              "end": 719
+            },
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0659:n14",
+          "object_id": "P0659:n15",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          },
+          "review_reason": ""
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0659:r008",
+          "subject": "Soret effect",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0659:n4",
+          "predicate": "produces",
+          "object": "Soret-induced concentration gradient",
+          "object_role": "state_structure",
+          "object_id": "P0659:n16",
+          "quote": "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+            "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+          ],
+          "conditions": "Linearized weak-temperature-gradient model.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1513,
+              "end": 1665
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            },
+            {
+              "start": 1513,
+              "end": 1665
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Soret-induced concentration gradient",
+          "subject_role": "state_structure",
+          "predicate": "develops_on",
+          "object": "Bulk diffusion time, source expression: L-2/D",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Dilute binary electrolyte between parallel, electrically isolated blocking electrodes; linearized weak-temperature-gradient model; L is electrode separation and D the common Brownian diffusion coefficient of both ion species.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r009",
+          "relation_id": "P0659:r009",
+          "quote": "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. ",
+          "context_quotes": [
+            "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+            "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+          ],
+          "modality_evidence": [
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+            "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 344,
+              "end": 580
+            },
+            {
+              "start": 580,
+              "end": 719
+            },
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            },
+            {
+              "start": 1513,
+              "end": 1665
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            },
+            {
+              "start": 1513,
+              "end": 1665
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0659:n16",
+          "object_id": "P0659:n17",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          },
+          "review_reason": ""
+        },
+        {
+          "id": "r010",
+          "relation_id": "P0659:r010",
+          "subject": "Debye time, source expression: 1/D kappa(2)",
+          "subject_role": "quantity",
+          "subject_id": "P0659:n15",
+          "predicate": "is_orders_of_magnitude_shorter_than",
+          "object": "Bulk diffusion time, source expression: L-2/D",
+          "object_role": "quantity",
+          "object_id": "P0659:n17",
+          "quote": "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+          "context_quotes": [
+            "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. ",
+            "For thin diffuse layers, which is the condition under which most real devices operate, the Debye time is orders of magnitude less than the diffusion time. "
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+            "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+          ],
+          "conditions": "Thin diffuse layers in the linearized weak-temperature-gradient model.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1303,
+              "end": 1513
+            },
+            {
+              "start": 1513,
+              "end": 1665
+            },
+            {
+              "start": 1665,
+              "end": 1820
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            },
+            {
+              "start": 1513,
+              "end": 1665
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Majority of ion motion",
+          "subject_role": "mechanism_process",
+          "predicate": "occurs_after",
+          "object": "Steady thermovoltage establishment",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Thin diffuse layers in the model linearized for a weak temperature gradient.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r011",
+          "relation_id": "P0659:r011",
+          "quote": "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+          "context_quotes": [
+            "For thin diffuse layers, which is the condition under which most real devices operate, the Debye time is orders of magnitude less than the diffusion time. ",
+            "Therefore, rather surprisingly, the majority of ion motion occurs after the steady thermovoltage has developed. "
+          ],
+          "modality_evidence": [
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+            "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1665,
+              "end": 1820
+            },
+            {
+              "start": 1820,
+              "end": 1932
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 1186,
+              "end": 1303
+            },
+            {
+              "start": 1303,
+              "end": 1513
+            },
+            {
+              "start": 1513,
+              "end": 1665
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0659:n18",
+          "object_id": "P0659:n19",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r012",
+          "relation_id": "P0659:r012",
+          "subject": "Diffuse charge dynamics",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0659:n11",
+          "predicate": "depend_on",
+          "object": "Thermal diffusion coefficients",
+          "object_role": "quantity",
+          "object_id": "P0659:n20",
+          "quote": "Moreover, the dynamics are independent of the thermal diffusion coefficients, which simply set the magnitude of the steady-state thermovoltage.",
+          "context_quotes": [],
+          "assertion": "negated",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          ],
+          "conditions": "Linearized weak-temperature-gradient model.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1932,
+              "end": 2075
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r013",
+          "relation_id": "P0659:r013",
+          "subject": "Thermal diffusion coefficients",
+          "subject_role": "quantity",
+          "subject_id": "P0659:n20",
+          "predicate": "set",
+          "object": "Steady-state thermovoltage magnitude",
+          "object_role": "quantity",
+          "object_id": "P0659:n21",
+          "quote": "Moreover, the dynamics are independent of the thermal diffusion coefficients, which simply set the magnitude of the steady-state thermovoltage.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          ],
+          "conditions": "Linearized weak-temperature-gradient model.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1932,
+              "end": 2075
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Coupled Poisson–Nernst–Planck and heat equations",
+          "subject_role": "descriptor",
+          "predicate": "are_linearized_in",
+          "object": "Weak temperature gradient limit",
+          "object_role": "condition",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Dilute-solution thermoelectric-cell model.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0659:complete_v1_cr001",
+          "quote": "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+          "context_quotes": [
+            "The temperature evolves according to the heat equation. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          ],
+          "modality_evidence": [
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+            "The temperature evolves according to the heat equation. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1130,
+              "end": 1186
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1130,
+              "end": 1186
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0659:complete_v1_cr001_subject",
+          "object_id": "P0659:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r003",
+        "action": "patch",
+        "reason": "Retain the electrical isolation condition.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "Temperature gradient across the binary-electrolyte model cell with parallel blocking electrodes.",
+            "after": "Temperature gradient across the binary-electrolyte model cell with parallel blocking electrodes that remain electrically isolated."
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r007",
+        "action": "patch",
+        "reason": "Bind the time-scale result to its cell and dilute-solution model.",
+        "changes": {
+          "context_quotes": {
+            "before": [
+              "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. "
+            ],
+            "after": [
+              "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+              "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+              "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+              "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_017/response.json",
+              "response_sha256": "90893f942df8f95f910cedd01991393ba1622b37154ad0f9b0f20762839354a1",
+              "input_sha256": "03f644f673d04b083027cfaa732f1b41135974f42344cf10e923fdb65636af13",
+              "model": "gpt-6-astra",
+              "job_id": "repair_017",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "note": {
+            "before": "Source formula has ambiguous denominator/exponent formatting; retained verbatim.",
+            "after": ""
+          },
+          "conditions": {
+            "before": "Equations linearized for a weak temperature gradient; D is the Brownian diffusion coefficient of both ion species and kappa(-1) the Debye length.",
+            "after": "Dilute binary electrolyte between parallel, electrically isolated blocking electrodes; equations linearized for a weak temperature gradient; D is the common Brownian diffusion coefficient of both ion species and kappa(-1) the Debye length."
+          },
+          "quote": {
+            "before": "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "after": "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1186,
+                "end": 1303
+              },
+              {
+                "start": 1303,
+                "end": 1513
+              }
+            ],
+            "after": [
+              {
+                "start": 344,
+                "end": 580
+              },
+              {
+                "start": 580,
+                "end": 719
+              },
+              {
+                "start": 895,
+                "end": 1130
+              },
+              {
+                "start": 1186,
+                "end": 1303
+              },
+              {
+                "start": 1303,
+                "end": 1513
+              }
+            ]
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r009",
+        "action": "patch",
+        "reason": "Retain the cell model and shared diffusion coefficient.",
+        "changes": {
+          "context_quotes": {
+            "before": [
+              "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+              "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+            ],
+            "after": [
+              "We consider the application of a temperature gradient across the device while the electrodes remain electrically isolated from each other. ",
+              "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+              "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+              "From this, we show that the time scale on which the thermovoltage develops is the Debye time, 1/D kappa(2), where D is the Brownian diffusion coefficient of both ion species, and kappa(-1) is the Debye length. ",
+              "However, the concentration gradient due to the Soret effect develops on the bulk diffusion time, L-2/D, where L is the distance between the electrodes. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_017/response.json",
+              "response_sha256": "90893f942df8f95f910cedd01991393ba1622b37154ad0f9b0f20762839354a1",
+              "input_sha256": "03f644f673d04b083027cfaa732f1b41135974f42344cf10e923fdb65636af13",
+              "model": "gpt-6-astra",
+              "job_id": "repair_017",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "note": {
+            "before": "Source expression L-2/D has unresolved exponent formatting; retained verbatim.",
+            "after": ""
+          },
+          "conditions": {
+            "before": "Weak-temperature-gradient model; L is electrode separation and D the Brownian diffusion coefficient.",
+            "after": "Dilute binary electrolyte between parallel, electrically isolated blocking electrodes; linearized weak-temperature-gradient model; L is electrode separation and D the common Brownian diffusion coefficient of both ion species."
+          },
+          "quote": {
+            "before": "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. ",
+            "after": "Here, we determine the time scales over which the diffuse charge dynamics in ionic thermoelectrochemical systems occur by analyzing the simplest model thermoelectric cell: a binary electrolyte between two parallel, blocking electrodes. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1186,
+                "end": 1303
+              },
+              {
+                "start": 1303,
+                "end": 1513
+              },
+              {
+                "start": 1513,
+                "end": 1665
+              }
+            ],
+            "after": [
+              {
+                "start": 344,
+                "end": 580
+              },
+              {
+                "start": 580,
+                "end": 719
+              },
+              {
+                "start": 895,
+                "end": 1130
+              },
+              {
+                "start": 1186,
+                "end": 1303
+              },
+              {
+                "start": 1303,
+                "end": 1513
+              },
+              {
+                "start": 1513,
+                "end": 1665
+              }
+            ]
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r011",
+        "action": "patch",
+        "reason": "Specify the limit underlying linearization.",
+        "changes": {
+          "context_quotes": {
+            "before": [
+              "Therefore, rather surprisingly, the majority of ion motion occurs after the steady thermovoltage has developed. "
+            ],
+            "after": [
+              "For thin diffuse layers, which is the condition under which most real devices operate, the Debye time is orders of magnitude less than the diffusion time. ",
+              "Therefore, rather surprisingly, the majority of ion motion occurs after the steady thermovoltage has developed. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "Thin diffuse layers in the linearized model.",
+            "after": "Thin diffuse layers in the model linearized for a weak temperature gradient."
+          },
+          "quote": {
+            "before": "For thin diffuse layers, which is the condition under which most real devices operate, the Debye time is orders of magnitude less than the diffusion time. ",
+            "after": "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 1665,
+                "end": 1820
+              },
+              {
+                "start": 1820,
+                "end": 1932
+              }
+            ],
+            "after": [
+              {
+                "start": 1186,
+                "end": 1303
+              },
+              {
+                "start": 1665,
+                "end": 1820
+              },
+              {
+                "start": 1820,
+                "end": 1932
+              }
+            ]
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r012",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:r013",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0659",
+        "relation_id": "P0659:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Coupled Poisson–Nernst–Planck and heat equations",
+          "subject_role": "descriptor",
+          "predicate": "are_linearized_in",
+          "object": "Weak temperature gradient limit",
+          "object_role": "condition",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Dilute-solution thermoelectric-cell model.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0659:complete_v1_cr001",
+          "quote": "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+          "context_quotes": [
+            "The temperature evolves according to the heat equation. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          ],
+          "modality_evidence": [
+            "The charge dynamics are described mathematically by the Poisson-Nernst-Planck equations for dilute solutions, in which the ion flux is driven by electromigration, Brownian diffusion, and thermal diffusion under a temperature gradient. ",
+            "The temperature evolves according to the heat equation. ",
+            "This nonlinear set of equations is linearized in the (experimentally relevant) limit of a weak temperature gradient. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1130,
+              "end": 1186
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 895,
+              "end": 1130
+            },
+            {
+              "start": 1130,
+              "end": 1186
+            },
+            {
+              "start": 1186,
+              "end": 1303
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0659:complete_v1_cr001_subject",
+          "object_id": "P0659:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0660",
+      "domain": "iTE",
+      "input_hash": "c394809297d0f905bd30521977ecb41ced4d88e6d63c5248e4cf7ffa5d81aa0b",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0660:r001",
+          "subject": "Synthesized secondary/tertiary ammonium protic ionic liquids with the specified anions",
+          "subject_role": "material_entity",
+          "subject_id": "P0660:n1",
+          "predicate": "synthesized_for",
+          "object": "Thermoelectrochemical cells",
+          "object_role": "application",
+          "object_id": "P0660:n2",
+          "quote": "Two series of protic ionic liquids based on secondary and/or tertiary ammonium cations with the trifluoroacetate, methanesulfonate, trifluoromethanesulfonate and tosylate anions were synthesized for thermoelectrochemical cells. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Two series of protic ionic liquids based on secondary and/or tertiary ammonium cations with the trifluoroacetate, methanesulfonate, trifluoromethanesulfonate and tosylate anions were synthesized for thermoelectrochemical cells. "
+          ],
+          "conditions": "Two series; trifluoroacetate, methanesulfonate, trifluoromethanesulfonate and tosylate anions.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 153,
+              "end": 381
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 153,
+              "end": 381
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Studied PIL-based electrolytes with I-/I-3(-) redox couple",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Lower thermal conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Study conducted between room temperature and 90 °C; comparator for 'lower' unspecified.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P0660:r002",
+          "quote": "This unique work reports on the thermoelectrochemical potential of protic ionic liquid (PIL)-based electrolytes coupled with the I-/I-3(-) redox couple. ",
+          "context_quotes": [
+            "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+            "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 529,
+              "end": 626
+            },
+            {
+              "start": 626,
+              "end": 752
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0660:n10",
+          "object_id": "P0660:n3",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Studied PIL-based electrolytes with I-/I-3(-) redox couple",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Good ionic conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Study conducted between room temperature and 90 °C.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0660:r003",
+          "quote": "This unique work reports on the thermoelectrochemical potential of protic ionic liquid (PIL)-based electrolytes coupled with the I-/I-3(-) redox couple. ",
+          "context_quotes": [
+            "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+            "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 529,
+              "end": 626
+            },
+            {
+              "start": 626,
+              "end": 752
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0660:n10",
+          "object_id": "P0660:n4",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0660:r004",
+          "subject": "Lower thermal conductivity",
+          "subject_role": "quantity",
+          "subject_id": "P0660:n3",
+          "predicate": "jointly_supports",
+          "object": "Good thermoelectric material performance",
+          "object_role": "performance_function",
+          "object_id": "P0660:n5",
+          "quote": "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "PIL-based electrolytes.",
+          "joint_factors": [
+            "Good ionic conductivity"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 626,
+              "end": 752
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "n4"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "n4",
+              "label": "Good ionic conductivity"
+            }
+          ]
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0660:r005",
+          "subject": "TEHA TFMS with I-/I-3(-) redox couple",
+          "subject_role": "material_entity",
+          "subject_id": "P0660:n6",
+          "predicate": "achieves",
+          "object": "S-e of 420 μV K−1",
+          "object_role": "quantity",
+          "object_id": "P0660:n7",
+          "quote": "This unique work reports on the thermoelectrochemical potential of protic ionic liquid (PIL)-based electrolytes coupled with the I-/I-3(-) redox couple. ",
+          "context_quotes": [
+            "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+            "The outcome was positive as our proposed PILs showed higher S-e values of 420 mu V K-1 obtained for TEHA TFMS than the reported values of the same I-/I-3(-) redox couple. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Higher than reported values using the same I-/I-3(-) redox couple; study range room temperature to 90 °C, specific measurement temperature unstated.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 529,
+              "end": 626
+            },
+            {
+              "start": 752,
+              "end": 923
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0660:r006",
+          "subject": "BEHA TFMS with I-/I-3(-) redox couple",
+          "subject_role": "material_entity",
+          "subject_id": "P0660:n8",
+          "predicate": "achieves",
+          "object": "Thermoelectric figure of merit of 949.46 × 10−6",
+          "object_role": "quantity",
+          "object_id": "P0660:n9",
+          "quote": "This unique work reports on the thermoelectrochemical potential of protic ionic liquid (PIL)-based electrolytes coupled with the I-/I-3(-) redox couple. ",
+          "context_quotes": [
+            "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+            "The most favorable thermoelectric figure of merit value (949.46 x 10(-6)) was achieved by BEHA TFMS. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Most favorable value among studied PILs; study range room temperature to 90 °C.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 529,
+              "end": 626
+            },
+            {
+              "start": 923,
+              "end": 1024
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0660:r007",
+          "subject": "Studied PIL-based electrolytes with I-/I-3(-) redox couple",
+          "subject_role": "material_entity",
+          "subject_id": "P0660:n10",
+          "predicate": "has_higher",
+          "object": "Power output",
+          "object_role": "performance_function",
+          "object_id": "P0660:n11",
+          "quote": "This unique work reports on the thermoelectrochemical potential of protic ionic liquid (PIL)-based electrolytes coupled with the I-/I-3(-) redox couple. ",
+          "context_quotes": [
+            "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+            "The power and the current output of the studied PILs are higher than those of some aprotic ionic liquids (AILs) reported."
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Compared with some reported aprotic ionic liquids; study range room temperature to 90 °C.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 529,
+              "end": 626
+            },
+            {
+              "start": 1024,
+              "end": 1145
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0660:r008",
+          "subject": "Studied PIL-based electrolytes with I-/I-3(-) redox couple",
+          "subject_role": "material_entity",
+          "subject_id": "P0660:n10",
+          "predicate": "has_higher",
+          "object": "Current output",
+          "object_role": "performance_function",
+          "object_id": "P0660:n12",
+          "quote": "This unique work reports on the thermoelectrochemical potential of protic ionic liquid (PIL)-based electrolytes coupled with the I-/I-3(-) redox couple. ",
+          "context_quotes": [
+            "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+            "The power and the current output of the studied PILs are higher than those of some aprotic ionic liquids (AILs) reported."
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Compared with some reported aprotic ionic liquids; study range room temperature to 90 °C.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 529,
+              "end": 626
+            },
+            {
+              "start": 1024,
+              "end": 1145
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r002",
+        "action": "patch",
+        "reason": "Include evidence for the stated study temperature range.",
+        "changes": {
+          "context_quotes": {
+            "before": [
+              "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. "
+            ],
+            "after": [
+              "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+              "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 0,
+                "end": 153
+              },
+              {
+                "start": 626,
+                "end": 752
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 153
+              },
+              {
+                "start": 529,
+                "end": 626
+              },
+              {
+                "start": 626,
+                "end": 752
+              }
+            ]
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r003",
+        "action": "patch",
+        "reason": "Include evidence for the stated study temperature range.",
+        "changes": {
+          "context_quotes": {
+            "before": [
+              "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. "
+            ],
+            "after": [
+              "The investigation was executed in a temperature range between room temperature and 90 degrees C. ",
+              "PILs show lower thermal conductivity and good ionic conductivity which leads to the success of good thermoelectric materials. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 0,
+                "end": 153
+              },
+              {
+                "start": 626,
+                "end": 752
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 153
+              },
+              {
+                "start": 529,
+                "end": 626
+              },
+              {
+                "start": 626,
+                "end": 752
+              }
+            ]
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0660",
+        "relation_id": "P0660:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0661",
+      "domain": "iTE",
+      "input_hash": "e4c5a93d84dc7aa42a2c516f3ca4ba1134dc08678a7f04c96abcbad08c11a5c7",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0661:r001",
+          "subject": "Fluorine doping in source LaiO(1-x)F(x)BiPbS(3) compounds",
+          "subject_role": "design_strategy",
+          "subject_id": "P0661:n1",
+          "predicate": "reduces",
+          "object": "Electrical resistivity",
+          "object_role": "quantity",
+          "object_id": "P0661:n2",
+          "quote": "The transport and thermoelectric properties of the LaiO(1-x)F(x)BiPbS(3) compounds are studied. ",
+          "context_quotes": [
+            "On the transport part, fluorine doping effectively reduces the electrical resistivity, and transforms the transport behavior from semi-conducting-like to metallic-like. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Segment 0 spells the host LaiO rather than LaO; host wording retained.",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 96
+            },
+            {
+              "start": 96,
+              "end": 265
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "uncertain"
+          },
+          "review_reason": ""
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0661:r002",
+          "subject": "Fluorine doping in source LaiO(1-x)F(x)BiPbS(3) compounds",
+          "subject_role": "design_strategy",
+          "subject_id": "P0661:n1",
+          "predicate": "induces",
+          "object": "Semiconducting-like to metallic-like transport transition",
+          "object_role": "mechanism_process",
+          "object_id": "P0661:n3",
+          "quote": "The transport and thermoelectric properties of the LaiO(1-x)F(x)BiPbS(3) compounds are studied. ",
+          "context_quotes": [
+            "On the transport part, fluorine doping effectively reduces the electrical resistivity, and transforms the transport behavior from semi-conducting-like to metallic-like. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Segment 0 spells the host LaiO rather than LaO; host wording retained.",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 96
+            },
+            {
+              "start": 96,
+              "end": 265
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "uncertain"
+          },
+          "review_reason": ""
+        },
+        {
+          "subject": "LaO0.6F0.4BiPbS3",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Enhanced thermoelectric power factor",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Compared with the parent compound.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0661:r003",
+          "quote": "An evident enhancement of thermoelectric performance (power factor) is achieved in LaO0.6F0.4BiPbS3, with an obviously larger absolute value of Seebeck coefficient (vertical bar S vertical bar) compared to the parent compound. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 492
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0661:n4",
+          "object_id": "P0661:n5",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0661:r004",
+          "subject": "LaO0.6F0.4BiPbS3",
+          "subject_role": "material_entity",
+          "subject_id": "P0661:n4",
+          "predicate": "exhibits",
+          "object": "Larger absolute Seebeck coefficient",
+          "object_role": "quantity",
+          "object_id": "P0661:n6",
+          "quote": "An evident enhancement of thermoelectric performance (power factor) is achieved in LaO0.6F0.4BiPbS3, with an obviously larger absolute value of Seebeck coefficient (vertical bar S vertical bar) compared to the parent compound. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Compared with the parent compound.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 492
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0661:r005",
+          "subject": "All fluorine-doped samples",
+          "subject_role": "material_entity",
+          "subject_id": "P0661:n7",
+          "predicate": "exhibit",
+          "object": "Depressed effective carrier density",
+          "object_role": "quantity",
+          "object_id": "P0661:n8",
+          "quote": "Hall coefficient measurements reveal the depression of effective carrier density for all the doped samples at high temperatures. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Hall coefficient measurements reveal the depression of effective carrier density for all the doped samples at high temperatures. "
+          ],
+          "conditions": "At high temperatures; inferred from Hall coefficient measurements.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 492,
+              "end": 621
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 492,
+              "end": 621
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0661:r006",
+          "subject": "Electron carriers alone",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0661:n9",
+          "predicate": "sufficiently_explain",
+          "object": "Thermoelectric improvement by fluorine doping",
+          "object_role": "performance_function",
+          "object_id": "P0661:n10",
+          "quote": "The present results suggest that electron carriers alone can not explain the improvement of thermoelectric properties by fluorine doping, the conduction of ionic carriers should be taken into account.",
+          "context_quotes": [],
+          "assertion": "negated",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Authors' interpretation of the present results.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 621,
+              "end": 821
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0661:r007",
+          "subject": "Ionic carrier conduction",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0661:n11",
+          "predicate": "should_be_considered_in_explaining",
+          "object": "Thermoelectric improvement by fluorine doping",
+          "object_role": "performance_function",
+          "object_id": "P0661:n10",
+          "quote": "The present results suggest that electron carriers alone can not explain the improvement of thermoelectric properties by fluorine doping, the conduction of ionic carriers should be taken into account.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 621,
+              "end": 821
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Hall coefficient measurements",
+          "subject_role": "descriptor",
+          "predicate": "reveal",
+          "object": "Depressed effective carrier density",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "All fluorine-doped samples at high temperatures.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0661:complete_v1_cr001",
+          "quote": "Hall coefficient measurements reveal the depression of effective carrier density for all the doped samples at high temperatures. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Hall coefficient measurements reveal the depression of effective carrier density for all the doped samples at high temperatures. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 492,
+              "end": 621
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 492,
+              "end": 621
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0661:complete_v1_cr001_subject",
+          "object_id": "P0661:n8",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Fluorine doping",
+          "subject_role": "design_strategy",
+          "predicate": "improves",
+          "object": "Thermoelectric properties",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Studied compounds; enhanced power factor explicitly reported for LaO0.6F0.4BiPbS3.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0661:complete_v1_cr002",
+          "quote": "An evident enhancement of thermoelectric performance (power factor) is achieved in LaO0.6F0.4BiPbS3, with an obviously larger absolute value of Seebeck coefficient (vertical bar S vertical bar) compared to the parent compound. ",
+          "context_quotes": [
+            "The present results suggest that electron carriers alone can not explain the improvement of thermoelectric properties by fluorine doping, the conduction of ionic carriers should be taken into account."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 492
+            },
+            {
+              "start": 621,
+              "end": 821
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0661:complete_v1_cr002_subject",
+          "object_id": "P0661:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r001",
+        "action": "uncertain",
+        "reason": "Compound formula in segment 0 contains unresolved source wording 'LaiO'; retained without normalization.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_017/response.json",
+              "response_sha256": "90893f942df8f95f910cedd01991393ba1622b37154ad0f9b0f20762839354a1",
+              "input_sha256": "03f644f673d04b083027cfaa732f1b41135974f42344cf10e923fdb65636af13",
+              "model": "gpt-6-astra",
+              "job_id": "repair_017",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "uncertain"
+            }
+          },
+          "status": {
+            "before": "accepted",
+            "after": "uncertain"
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r002",
+        "action": "uncertain",
+        "reason": "Compound formula in segment 0 contains unresolved source wording 'LaiO'; retained without normalization.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_017/response.json",
+              "response_sha256": "90893f942df8f95f910cedd01991393ba1622b37154ad0f9b0f20762839354a1",
+              "input_sha256": "03f644f673d04b083027cfaa732f1b41135974f42344cf10e923fdb65636af13",
+              "model": "gpt-6-astra",
+              "job_id": "repair_017",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "uncertain"
+            }
+          },
+          "status": {
+            "before": "accepted",
+            "after": "uncertain"
+          },
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r003",
+        "action": "patch",
+        "reason": "Retain the comparison accompanying the enhanced performance.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "",
+            "after": "Compared with the parent compound."
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Hall coefficient measurements",
+          "subject_role": "descriptor",
+          "predicate": "reveal",
+          "object": "Depressed effective carrier density",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "All fluorine-doped samples at high temperatures.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0661:complete_v1_cr001",
+          "quote": "Hall coefficient measurements reveal the depression of effective carrier density for all the doped samples at high temperatures. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Hall coefficient measurements reveal the depression of effective carrier density for all the doped samples at high temperatures. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 492,
+              "end": 621
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 492,
+              "end": 621
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0661:complete_v1_cr001_subject",
+          "object_id": "P0661:n8",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0661",
+        "relation_id": "P0661:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Fluorine doping",
+          "subject_role": "design_strategy",
+          "predicate": "improves",
+          "object": "Thermoelectric properties",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Studied compounds; enhanced power factor explicitly reported for LaO0.6F0.4BiPbS3.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0661:complete_v1_cr002",
+          "quote": "An evident enhancement of thermoelectric performance (power factor) is achieved in LaO0.6F0.4BiPbS3, with an obviously larger absolute value of Seebeck coefficient (vertical bar S vertical bar) compared to the parent compound. ",
+          "context_quotes": [
+            "The present results suggest that electron carriers alone can not explain the improvement of thermoelectric properties by fluorine doping, the conduction of ionic carriers should be taken into account."
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 492
+            },
+            {
+              "start": 621,
+              "end": 821
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0661:complete_v1_cr002_subject",
+          "object_id": "P0661:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0662",
+      "domain": "iTE",
+      "input_hash": "26c370257295c3bff74f59dd86d37a5aebdac6f12197fa66c0f52de4c6c37a61",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0662:r001",
+          "subject": "Theory of thermal membrane potential",
+          "subject_role": "descriptor",
+          "subject_id": "P0662:n1",
+          "predicate": "accounts_for",
+          "object": "Ionic heats of transport",
+          "object_role": "quantity",
+          "object_id": "P0662:n2",
+          "quote": "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0662:r002",
+          "subject": "Theory of thermal membrane potential",
+          "subject_role": "descriptor",
+          "subject_id": "P0662:n1",
+          "predicate": "accounts_for",
+          "object": "Non-isothermal Donnan potentials",
+          "object_role": "quantity",
+          "object_id": "P0662:n3",
+          "quote": "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0662:r003",
+          "subject": "Theory of thermal membrane potential",
+          "subject_role": "descriptor",
+          "subject_id": "P0662:n1",
+          "predicate": "accounts_for",
+          "object": "Temperature polarization",
+          "object_role": "state_structure",
+          "object_id": "P0662:n4",
+          "quote": "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0662:r004",
+          "subject": "Theory of thermal membrane potential",
+          "subject_role": "descriptor",
+          "subject_id": "P0662:n1",
+          "predicate": "accounts_for",
+          "object": "Thermally induced electrolyte concentration polarization",
+          "object_role": "state_structure",
+          "object_id": "P0662:n5",
+          "quote": "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0662:r005",
+          "subject": "Commercial ion-exchange membranes with aqueous 1:1 electrolytes",
+          "subject_role": "material_entity",
+          "subject_id": "P0662:n6",
+          "predicate": "generates",
+          "object": "Generated thermoelectric power",
+          "object_role": "performance_function",
+          "object_id": "P0662:n7",
+          "quote": "In this article, ionic thermoelectricity has been studied with commercial ion-exchange membranes for different aqueous 1:1 electrolytes. ",
+          "context_quotes": [
+            "Also the generated thermoelectric power has been experimentally studied. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Also the generated thermoelectric power has been experimentally studied. "
+          ],
+          "conditions": "Different aqueous 1:1 electrolytes.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 143,
+              "end": 280
+            },
+            {
+              "start": 529,
+              "end": 602
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 529,
+              "end": 602
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0662:r006",
+          "subject": "Experimental results",
+          "subject_role": "descriptor",
+          "subject_id": "P0662:n8",
+          "predicate": "agrees_well_with",
+          "object": "Theory of thermal membrane potential",
+          "object_role": "descriptor",
+          "object_id": "P0662:n1",
+          "quote": "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. ",
+          "context_quotes": [
+            "Also the generated thermoelectric power has been experimentally studied. ",
+            "The experiments show good agreement with the theory, and suggest ways for systematic improvement of the system performance. "
+          ],
+          "assertion": "association",
+          "modality": "mixed",
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. ",
+            "Also the generated thermoelectric power has been experimentally studied. ",
+            "The experiments show good agreement with the theory, and suggest ways for systematic improvement of the system performance. "
+          ],
+          "conditions": "Commercial ion-exchange membranes with aqueous 1:1 electrolytes.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 280,
+              "end": 529
+            },
+            {
+              "start": 529,
+              "end": 602
+            },
+            {
+              "start": 602,
+              "end": 726
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            },
+            {
+              "start": 529,
+              "end": 602
+            },
+            {
+              "start": 602,
+              "end": 726
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Theory of thermal membrane potential",
+          "subject_role": "descriptor",
+          "predicate": "describes",
+          "object": "Thermal membrane potential",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Commercial ion-exchange membranes with aqueous 1:1 electrolytes; accounts for ionic heats of transport, non-isothermal Donnan potentials, temperature polarization and thermally induced electrolyte concentration polarization.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0662:complete_v1_cr001",
+          "quote": "In this article, ionic thermoelectricity has been studied with commercial ion-exchange membranes for different aqueous 1:1 electrolytes. ",
+          "context_quotes": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 143,
+              "end": 280
+            },
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0662:n1",
+          "object_id": "P0662:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_158",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0662",
+        "relation_id": "P0662:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Theory of thermal membrane potential",
+          "subject_role": "descriptor",
+          "predicate": "describes",
+          "object": "Thermal membrane potential",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "conditions": "Commercial ion-exchange membranes with aqueous 1:1 electrolytes; accounts for ionic heats of transport, non-isothermal Donnan potentials, temperature polarization and thermally induced electrolyte concentration polarization.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0662:complete_v1_cr001",
+          "quote": "In this article, ionic thermoelectricity has been studied with commercial ion-exchange membranes for different aqueous 1:1 electrolytes. ",
+          "context_quotes": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "modality_evidence": [
+            "The theory of thermal membrane potential has been derived taking into account the ionic heats of transport, the non-isothermal Donnan potentials, the temperature polarization, and the thermally-induced concentration polarization of the electrolyte. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 143,
+              "end": 280
+            },
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 280,
+              "end": 529
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0662:n1",
+          "object_id": "P0662:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_158",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

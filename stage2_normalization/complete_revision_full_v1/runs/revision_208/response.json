@@ -1,0 +1,534 @@
+{
+  "papers": [
+    {
+      "paper_id": "P0860",
+      "decisions": [
+        {
+          "relation_id": "P0860:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0860:r002",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Thiophene-based semicrystalline polymer upon electrolyte-gated carrier doping; transition confirmed by temperature-dependent electrical conductivity and magnetoresistance measurements",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the maximum and transition to the reported polymer."
+        },
+        {
+          "relation_id": "P0860:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0860:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0860:r005",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Metallic state of the doped thiophene-based semicrystalline polymer",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the transport relation to the studied polymer."
+        },
+        {
+          "relation_id": "P0860:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Doped thiophene-based semicrystalline polymer in the metallic state with suppressed disorder effects on charge transport",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the Mott description to the studied polymer."
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Inherent structural disorder in conducting polymer thin films",
+          "subject_role": "state_structure",
+          "predicate": "gives_rise_to",
+          "object": "Unconventional power-law relation between Seebeck coefficient and electrical conductivity",
+          "object_role": "descriptor",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Background description of disordered conducting polymer thin films",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Conducting polymer thin films exhibiting the unconventional power-law Seebeck coefficient–conductivity relation",
+          "subject_role": "material_entity",
+          "predicate": "have_no_observed",
+          "object": "Thermoelectric power-factor maximum upon doping",
+          "object_role": "performance_function",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "negated",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Background observation; unlike conventional systems",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Temperature-dependent electrical conductivity and magnetoresistance measurements",
+          "subject_role": "design_strategy",
+          "predicate": "confirm",
+          "object": "Macroscopic insulator-to-metal transition",
+          "object_role": "state_structure",
+          "e": [
+            2,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            3
+          ],
+          "conditions": "Thiophene-based semicrystalline polymer upon electrolyte-gated carrier doping",
+          "joint_factors": [
+            "Temperature-dependent electrical conductivity measurements",
+            "Magnetoresistance measurements"
+          ],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0861",
+      "decisions": [
+        {
+          "relation_id": "P0861:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0861:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0861:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Pnictogen-substituted ternary skutterudites; first-principles study and Boltzmann transport calculations assuming constant relaxation time with maximally localized Wannier function interpolation",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the explicit transport-model assumption."
+        },
+        {
+          "relation_id": "P0861:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "First-principles calculations",
+          "subject_role": "design_strategy",
+          "predicate": "investigate",
+          "object": "Electronic band structure of pnictogen-substituted ternary skutterudites",
+          "object_role": "state_structure",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            0
+          ],
+          "conditions": "Results compared with binary CoSb3 to identify effects of substitutions on the Sb site",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "First-principles calculations",
+          "subject_role": "design_strategy",
+          "predicate": "investigate",
+          "object": "Vibrational spectra of pnictogen-substituted ternary skutterudites",
+          "object_role": "descriptor",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            0
+          ],
+          "conditions": "Results compared with binary CoSb3 to identify effects of substitutions on the Sb site",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Boltzmann transport formalism with maximally localized Wannier function interpolation",
+          "subject_role": "design_strategy",
+          "predicate": "computes",
+          "object": "Electronic transport coefficients",
+          "object_role": "quantity",
+          "e": [
+            0,
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            2
+          ],
+          "conditions": "Pnictogen-substituted ternary skutterudites; constant relaxation time assumed",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0862",
+      "decisions": [
+        {
+          "relation_id": "P0862:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0862:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0862:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Equal dimensionless variables in similarity-principle nanochannel-based i-TE models considering the Soret effect and heat transfer",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the model context of sample expansion."
+        },
+        {
+          "relation_id": "P0862:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Equal dimensionless variables in similarity-principle nanochannel-based i-TE models",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the error to model-based sample expansion."
+        },
+        {
+          "relation_id": "P0862:r005",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Equal dimensionless variables in similarity-principle nanochannel-based i-TE models; alleviates experimental burden",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the acceleration ratio to model-based sample expansion."
+        },
+        {
+          "relation_id": "P0862:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Equal dimensionless variables in similarity-principle nanochannel-based i-TE models considering the Soret effect and heat transfer",
+            "joint_factors": [
+              "Higher characteristic output power",
+              "Equal dimensionless variables"
+            ],
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Preserve the joint conditions and model qualification of the power improvement."
+        },
+        {
+          "relation_id": "P0862:r007",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Nanochannel-based i-TE model study; parameter dominance determined by orthogonal tests; physical or numerical implementation unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the dominance result to the studied i-TE models."
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Soret effect",
+          "subject_role": "mechanism_process",
+          "predicate": "drives",
+          "object": "Ion migration",
+          "object_role": "mechanism_process",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Ionic thermoelectric systems under a temperature gradient",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Ionic thermoelectric systems",
+          "subject_role": "material_entity",
+          "predicate": "convert",
+          "object": "Low-grade heat into electricity",
+          "object_role": "performance_function",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Based on ion migration driven by the Soret effect under a temperature gradient",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Sample expansion",
+          "subject_role": "mechanism_process",
+          "predicate": "alleviates",
+          "object": "Experimental burden",
+          "object_role": "performance_function",
+          "e": [
+            2,
+            6
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Equal dimensionless variables in similarity-principle nanochannel-based i-TE models",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0863",
+      "decisions": [
+        {
+          "relation_id": "P0863:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0863:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0863:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Nonequilibrium screening theory for a symmetric ionic fluid under a stationary temperature profile",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stationary temperature-profile qualification."
+        },
+        {
+          "relation_id": "P0863:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": null
+          },
+          "reason": "Static charged-surface screening does not establish electrode-interface kinetics."
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Mathematical methods borrowed from the semiclassical approximation of quantum particles",
+          "subject_role": "design_strategy",
+          "predicate": "yield",
+          "object": "Analytical asymptotic charge-density decay solutions",
+          "object_role": "design_strategy",
+          "e": [
+            2,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "me": [
+            2,
+            3
+          ],
+          "conditions": "Electrostatic screening theory for a symmetric ionic fluid under a stationary temperature profile; arbitrary ionic concentrations",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Predicted screening deviation from thermal equilibrium",
+          "subject_role": "quantity",
+          "predicate": "should_be_included_in",
+          "object": "Comprehensive description of the electrical double layer",
+          "object_role": "application",
+          "e": [
+            5
+          ],
+          "assertion": "hypothesis",
+          "modality": "theoretical",
+          "me": [
+            5
+          ],
+          "conditions": "Charged surfaces in aqueous electrolytes; quantitative example using the analytical screening solutions",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

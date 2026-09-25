@@ -1,0 +1,146 @@
+{
+  "pairs": [
+    {
+      "review_id": "M029",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "electronic_thermoelectric",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "两条均忠实于摘要，但左侧是零宏观温度梯度下常规热电净电压消失，右侧是温度梯度建立热电化学势差；条件与作用方向不同，不能直接对应。",
+      "conditions": "conflict",
+      "physical_boundary": "左侧所选关系属于常规热电背景，不能替换为论文的二阶非线性效应。右侧涉及氧化还原热电化学势；摘要未证明其在零平均梯度波动下的响应。零宏观梯度与跨电池温度梯度不是相同工作条件。",
+      "neighbor_claim_ids": [
+        "TG:P0025:complete_v1_cr001"
+      ],
+      "local_structure_assessment": "右侧邻边说明系统利用该电化学势发电，但与目标边共同指向同一对象，不构成有向两边路径；没有可匹配的路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "仅有背景陈述；未给出波动时间尺度、平均方式或右侧电压反转实验。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "related_not_equivalent",
+          "reason": "均涉及温度分布，但零宏观梯度的波动不等于跨电池温度梯度。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "净端电压与温度相关电化学势有关联，但物理来源及所述量不同。"
+        }
+      ],
+      "left_working_stage": "常规热电响应背景：温度波动下净电压抵消",
+      "right_working_stage": "跨温度梯度的热电化学势建立与发电背景"
+    },
+    {
+      "review_id": "M030",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "ionic_thermodiffusion",
+      "match": 1,
+      "level": "insufficient",
+      "explanation": "两侧均支持温度梯度驱动过程这一方向，但左侧对象是整体离子热电转换，右侧是明确的热扩散过程。左侧摘要未说明转换的微观机制，只能建立有限对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧结合相变材料进行连续及间歇热管理；右侧在干聚合物电解质中以热扩散和浓度扩散平衡测量稳态Soret效应。不能据离子热电名称认定相同机制，也不能把稳态浓度分布等同于持续输出电流或有限电容充电。",
+      "neighbor_claim_ids": [
+        "iTE:P0433:r004"
+      ],
+      "local_structure_assessment": "左侧邻边仅确认转换集成于热管理系统，与目标边共同指向转换过程，不形成有向两边路径；仅有有限单边对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧缺少离子选择性、热扩散、电极及充放电机制；两侧材料、时间尺度和边界条件不完整。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "equivalent_in_context",
+          "reason": "两者均指驱动所述过程的空间温度梯度。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "离子热电转换是整体功能，质量热扩散是具体输运过程；其在左侧的贡献未明。"
+        }
+      ],
+      "left_working_stage": "连续及间歇热管理运行中的热电转换",
+      "right_working_stage": "稳态Soret浓度分布的表征"
+    },
+    {
+      "review_id": "M031",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "两侧均明确报告特定材料的负热电势系数，构成有限的材料—性能关系对应。左侧离子凝胶的微观来源未交代，右侧明确由双相区晶格嵌入熵主导；共同指标不能建立机制对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧用于离子热电超级电容器，右侧是30 nm嵌锂电极在双相区的法拉第嵌入热电势。材料热电势表征与器件充放电或持续发电阶段不能互换；左侧未给出电极反应或离子热扩散证据。",
+      "neighbor_claim_ids": [
+        "iTE:P0882:r008",
+        "TG:P0262:r001",
+        "TG:P0262:r009"
+      ],
+      "local_structure_assessment": "左侧存在器件→使用材料→表现热电势的路径，右侧存在插锂过程→构建电极→表现热电势的路径；前序边含义不同，不能对应为共同因果链。右侧熵邻边仅澄清机制，保留单边性能对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧测量温区、温差和时间条件缺失；右侧结果限定双相区，不能直接比较器件效率或功率。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "related_not_equivalent",
+          "reason": "两者均为热电功能材料，但离子凝胶电解质与嵌锂固体电极具有不同物理角色。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "均为热电势系数，但数值、条件及物理贡献不同，并非同一具体性能量。"
+        }
+      ],
+      "left_working_stage": "离子凝胶热电势表征；具体测量时序未说明",
+      "right_working_stage": "嵌锂电极双相区的电化学热电势表征"
+    },
+    {
+      "review_id": "M032",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧是温度梯度经两种未命名机制驱动电荷输运，右侧是管道相对温度梯度的取向决定对流是否出现。电荷输运与流体对流及其控制变量均不同，没有可辩护的关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧为狭缝内热激活电解质的理论与数值研究，右侧为静置铜管水体中约20°C温差下的对流实验。右侧所选关系是流体运动，不能因论文另有热电化学电流而归类为氧化还原机制；将宏观对流移用于受限通道需另证尺度与流动条件。",
+      "neighbor_claim_ids": [
+        "TG:P0233:r002"
+      ],
+      "local_structure_assessment": "右侧有取向→对流发生→促进混合的同论文有向路径；左侧没有相应邻边，不能组成配对路径，目标单边也不对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧两种机制未命名，缺少通道尺寸及流动边界；右侧未提供与左侧电荷输运模型的对应证据。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "related_not_equivalent",
+          "reason": "温度梯度本身与管道相对温度梯度的取向是不同控制变量。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "different",
+          "reason": "两种电荷输运机制与流体对流的发生不是相同过程。"
+        }
+      ],
+      "left_working_stage": "受限电解质热电响应的理论与数值表征",
+      "right_working_stage": "持续温差下静置管道的对流及混合实验"
+    }
+  ]
+}

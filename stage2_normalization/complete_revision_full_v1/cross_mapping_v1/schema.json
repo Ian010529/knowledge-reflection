@@ -1,0 +1,182 @@
+{
+  "type": "object",
+  "properties": {
+    "pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "review_id": {
+            "type": "string"
+          },
+          "left_support": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "partial",
+              "unsupported",
+              "uncertain"
+            ]
+          },
+          "right_support": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "partial",
+              "unsupported",
+              "uncertain"
+            ]
+          },
+          "left_physics": {
+            "type": "string",
+            "enum": [
+              "ionic_thermodiffusion",
+              "thermogalvanic_redox",
+              "electronic_thermoelectric",
+              "hybrid",
+              "other_unclear"
+            ]
+          },
+          "right_physics": {
+            "type": "string",
+            "enum": [
+              "ionic_thermodiffusion",
+              "thermogalvanic_redox",
+              "electronic_thermoelectric",
+              "hybrid",
+              "other_unclear"
+            ]
+          },
+          "match": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2
+            ]
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "same_mechanism",
+              "analogous_different_mechanisms",
+              "shared_outcome_only",
+              "surface_similarity",
+              "insufficient"
+            ]
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "conditions": {
+            "type": "string",
+            "enum": [
+              "compatible",
+              "conflict",
+              "insufficient"
+            ]
+          },
+          "physical_boundary": {
+            "type": "string"
+          },
+          "neighbor_claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "local_structure_assessment": {
+            "type": "string"
+          },
+          "transfer": {
+            "type": "string",
+            "enum": [
+              "plausible_question",
+              "already_similar_mechanism",
+              "not_supported"
+            ]
+          },
+          "insight_question": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "string"
+          },
+          "endpoint_maps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "left_endpoint": {
+                  "type": "string",
+                  "enum": [
+                    "subject",
+                    "object"
+                  ]
+                },
+                "right_endpoint": {
+                  "type": "string",
+                  "enum": [
+                    "subject",
+                    "object"
+                  ]
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "equivalent_in_context",
+                    "analogous_role",
+                    "related_not_equivalent",
+                    "different",
+                    "uncertain"
+                  ]
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "left_endpoint",
+                "right_endpoint",
+                "kind",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "left_working_stage": {
+            "type": "string"
+          },
+          "right_working_stage": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "review_id",
+          "left_support",
+          "right_support",
+          "left_physics",
+          "right_physics",
+          "match",
+          "level",
+          "explanation",
+          "conditions",
+          "physical_boundary",
+          "neighbor_claim_ids",
+          "local_structure_assessment",
+          "transfer",
+          "insight_question",
+          "limitations",
+          "endpoint_maps",
+          "left_working_stage",
+          "right_working_stage"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "pairs"
+  ],
+  "additionalProperties": false
+}

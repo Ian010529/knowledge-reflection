@@ -1,0 +1,505 @@
+{
+  "papers": [
+    {
+      "paper_id": "P1073",
+      "decisions": [
+        {
+          "relation_id": "P1073:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1073:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1073:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              4,
+              7
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Power-factor improvement at 300–410 K; chemical post-treatment at 325–410 K",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Distinguish post-treatment temperature from the performance interval."
+        },
+        {
+          "relation_id": "P1073:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Organic thermoelectric materials",
+          "subject_role": "material_entity",
+          "predicate": "can convert",
+          "object": "Lost heat into electricity",
+          "object_role": "performance_function",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Relatively low temperature",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Single-walled carbon nanotubes",
+          "subject_role": "material_entity",
+          "predicate": "boost",
+          "object": "Thermoelectric properties of organic-based materials",
+          "object_role": "performance_function",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Room temperature",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Increasing temperature",
+          "subject_role": "condition",
+          "predicate": "decreases",
+          "object": "Thermoelectric performance of SWCNT-containing organic-based materials",
+          "object_role": "performance_function",
+          "e": [
+            2,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Thermoelectric performance decreasing with increasing temperature",
+          "subject_role": "performance_function",
+          "predicate": "restricts",
+          "object": "Device working-temperature region",
+          "object_role": "performance_function",
+          "e": [
+            2,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Devices based on SWCNT-containing organic materials",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Treatment of SWCNTs with gold chloride",
+          "subject_role": "mechanism_process",
+          "predicate": "creates",
+          "object": "Hybrid fillers",
+          "object_role": "material_entity",
+          "e": [
+            4
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            4
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1074",
+      "decisions": [
+        {
+          "relation_id": "P1074:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1074:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1074:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1074:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Reducing dimensionality",
+          "subject_role": "design_strategy",
+          "predicate": "is proposed to favorably control",
+          "object": "Thermoelectricity",
+          "object_role": "performance_function",
+          "e": [
+            1
+          ],
+          "assertion": "hypothesis",
+          "modality": "theoretical",
+          "me": [
+            1
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1075",
+      "decisions": [
+        {
+          "relation_id": "P1075:r001",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "measurement_method_model",
+            "claim_scope": null
+          },
+          "reason": "Preparation–product relation belongs in method scope."
+        },
+        {
+          "relation_id": "P1075:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1075:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Entropy of the phase transition",
+          "subject_role": "quantity",
+          "predicate": "is associated with",
+          "object": "Presence part of the Seebeck coefficient",
+          "object_role": "quantity",
+          "e": [
+            7
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Calculations of the ionic thermopower difference between phases; 'presence part' retains source terminology",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Different activation energies of ionic transport",
+          "subject_role": "quantity",
+          "predicate": "are associated with",
+          "object": "Transport part of the Seebeck coefficient",
+          "object_role": "quantity",
+          "e": [
+            7
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Calculations of the ionic thermopower difference between phases",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1076",
+      "decisions": [
+        {
+          "relation_id": "P1076:r001",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "measurement_method_model",
+            "claim_scope": null
+          },
+          "reason": "Preparation–product relation belongs in method scope."
+        },
+        {
+          "relation_id": "P1076:r002",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Ca(3−x)Ln(x)Co4O(9+δ), Ln = Dy, Er, Ho, Lu",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind substitution to its material host."
+        },
+        {
+          "relation_id": "P1076:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Ca(3−x)Ln(x)Co4O(9+δ), Ln = Dy, Er, Ho, Lu",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind substitution to its material host."
+        },
+        {
+          "relation_id": "P1076:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              4
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Among Ca(3−x)Ln(x)Co4O(9+δ) samples with Ln = Dy, Er, Ho, Lu",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Identify the samples in the ionic-radius comparison."
+        },
+        {
+          "relation_id": "P1076:r005",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Ca(3−x)Ln(x)Co4O(9+δ), Ln = Dy, Er, Ho, Lu; compared with the non-doped sample",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the comparison to the stated material series."
+        },
+        {
+          "relation_id": "P1076:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Ca(3−x)Ln(x)Co4O(9+δ), Ln = Dy, Er, Ho, Lu; compared with the non-doped sample",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the comparison to the stated material series."
+        },
+        {
+          "relation_id": "P1076:r007",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Ca(3−x)Ln(x)Co4O(9+δ), Ln = Dy, Er, Ho, Lu; compared with the non-doped sample",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the conductivity mechanism to the stated material series."
+        },
+        {
+          "relation_id": "P1076:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Misfit-layered Ca(3−x)Ln(x)Co4O(9+δ), Ln = Dy, Er, Ho, Lu",
+          "subject_role": "material_entity",
+          "predicate": "was processed by",
+          "object": "Hot pressing",
+          "object_role": "mechanism_process",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            1
+          ],
+          "conditions": "1123 K in air for 2 h under a uniaxial pressure of 60 MPa",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

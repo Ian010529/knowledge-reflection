@@ -1,0 +1,1033 @@
+[
+  {
+    "paper_id": "P0189",
+    "title": "Numerical study on heat and ion transport characteristics enables optimal design of aqueous thermocells for low-grade heat recovery",
+    "segments": [
+      {
+        "id": 0,
+        "text": "As a cutting-edge heat-to-electricity technology, thermogalvanic cells (thermocells) have great prospects in lowgrade heat recovery due to its high Seebeck coefficient (Se), high scalability and low cost. "
+      },
+      {
+        "id": 1,
+        "text": "Most of previous studies about aqueous thermocells have been focused on the overall performance by experimentally exploring advanced electrode and electrolyte materials, while very few simulation studies were reported before, leading to the unclear mechanisms of heat and ion transport inside the thermocell. "
+      },
+      {
+        "id": 2,
+        "text": "In view of these challenges, this study aims to reveal the heat and ion transport characteristics of aqueous thermocells under various critical operating parameters, providing theoretical guidelines for further design and optimization of aqueous thermocells with fixed electrode and electrolyte materials. "
+      },
+      {
+        "id": 3,
+        "text": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. "
+      },
+      {
+        "id": 4,
+        "text": "Then, the effects of hot electrode temperature, electrode spacing and electrode orientation were evaluated on the thermocell performance from the aspects of distributions of multi- physical fields, overpotentials and overall performance. "
+      },
+      {
+        "id": 5,
+        "text": "Finally, a prototype aqueous thermocell was proposed based on the understandings of restrictions associated with these operating parameters. "
+      },
+      {
+        "id": 6,
+        "text": "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+      },
+      {
+        "id": 7,
+        "text": "These findings prompted the design and optimization of new aqueous thermocells, and the proposed prototype thermocell delivered the maximum power density of 0.43 W/m2, which was 115 % higher than that of the basic rectangular thermocell."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0189:model",
+        "label": "Validated multiphysical aqueous thermocell model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0189:diff",
+        "label": "Diffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0189:mig",
+        "label": "Migration",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0189:hot",
+        "label": "Hot electrode temperature",
+        "role": "condition"
+      },
+      {
+        "id": "P0189:conv",
+        "label": "Natural convection intensity and forms",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0189:space",
+        "label": "Electrode spacing",
+        "role": "condition"
+      },
+      {
+        "id": "P0189:orient",
+        "label": "Electrode orientation",
+        "role": "condition"
+      },
+      {
+        "id": "P0189:flux",
+        "label": "Ion transport flux",
+        "role": "quantity"
+      },
+      {
+        "id": "P0189:over",
+        "label": "Overpotentials",
+        "role": "quantity"
+      },
+      {
+        "id": "P0189:density",
+        "label": "Thermocell power density",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0189:proto",
+        "label": "Proposed prototype aqueous thermocell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0189:max",
+        "label": "Maximum power density of 0.43 W m−2",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0189:r001",
+        "subject": "Validated multiphysical aqueous thermocell model",
+        "subject_role": "design_strategy",
+        "predicate": "accounts for",
+        "object": "Diffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model established and validated",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0189:model",
+        "object_id": "P0189:diff"
+      },
+      {
+        "relation_id": "P0189:r002",
+        "subject": "Validated multiphysical aqueous thermocell model",
+        "subject_role": "design_strategy",
+        "predicate": "accounts for",
+        "object": "Migration",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model established and validated",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0189:model",
+        "object_id": "P0189:mig"
+      },
+      {
+        "relation_id": "P0189:r004",
+        "subject": "Hot electrode temperature",
+        "subject_role": "condition",
+        "predicate": "changes",
+        "object": "Natural convection intensity and forms",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model analysis; direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Then, the effects of hot electrode temperature, electrode spacing and electrode orientation were evaluated on the thermocell performance from the aspects of distributions of multi- physical fields, overpotentials and overall performance. ",
+          "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:hot",
+        "object_id": "P0189:conv"
+      },
+      {
+        "relation_id": "P0189:r005",
+        "subject": "Electrode spacing",
+        "subject_role": "condition",
+        "predicate": "changes",
+        "object": "Natural convection intensity and forms",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model analysis; direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Then, the effects of hot electrode temperature, electrode spacing and electrode orientation were evaluated on the thermocell performance from the aspects of distributions of multi- physical fields, overpotentials and overall performance. ",
+          "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:space",
+        "object_id": "P0189:conv"
+      },
+      {
+        "relation_id": "P0189:r006",
+        "subject": "Electrode orientation",
+        "subject_role": "condition",
+        "predicate": "changes",
+        "object": "Natural convection intensity and forms",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model analysis; direction unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Then, the effects of hot electrode temperature, electrode spacing and electrode orientation were evaluated on the thermocell performance from the aspects of distributions of multi- physical fields, overpotentials and overall performance. ",
+          "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:orient",
+        "object_id": "P0189:conv"
+      },
+      {
+        "relation_id": "P0189:r007",
+        "subject": "Natural convection intensity and forms",
+        "subject_role": "mechanism_process",
+        "predicate": "affects",
+        "object": "Ion transport flux",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:conv",
+        "object_id": "P0189:flux"
+      },
+      {
+        "relation_id": "P0189:r008",
+        "subject": "Natural convection intensity and forms",
+        "subject_role": "mechanism_process",
+        "predicate": "affects",
+        "object": "Overpotentials",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Multiphysical model analysis",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:conv",
+        "object_id": "P0189:over"
+      },
+      {
+        "relation_id": "P0189:r009",
+        "subject": "Validated multiphysical aqueous thermocell model",
+        "subject_role": "design_strategy",
+        "predicate": "attributes determination of",
+        "object": "Thermocell power density",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Operating-parameter-driven convection changes affect ion transport flux and overpotentials",
+        "joint_factors": [
+          "Ion transport flux",
+          "Overpotentials"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Results indicated that each operating parameter can attribute to the variation of natural convection from the intensity and forms, and then affected the ion transport flux and overpotentials, and thus determined the power density of thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:model",
+        "object_id": "P0189:density"
+      },
+      {
+        "relation_id": "P0189:r010",
+        "subject": "Proposed prototype aqueous thermocell",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Maximum power density of 0.43 W m−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Proposed from model-guided design; 115% higher than the basic rectangular thermocell",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Firstly, a multi-physical model considering the diffusion, migration and convection was established and validated. ",
+        "context_quotes": [
+          "Finally, a prototype aqueous thermocell was proposed based on the understandings of restrictions associated with these operating parameters. ",
+          "These findings prompted the design and optimization of new aqueous thermocells, and the proposed prototype thermocell delivered the maximum power density of 0.43 W/m2, which was 115 % higher than that of the basic rectangular thermocell."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0189:proto",
+        "object_id": "P0189:max"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0190",
+    "title": "Ultra-stretchable hydrogel thermocouples for intelligent wearables",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Stretchable temperature sensors are necessary to enable tactile interaction and thermoregulation in the human body and soft robots. "
+      },
+      {
+        "id": 1,
+        "text": "These sensors should be conformably adhered to a deformable surface and maintain temperature perception accuracy when stretched. "
+      },
+      {
+        "id": 2,
+        "text": "However, current mainstream stretchable temperature sensors based on thermistors suffer from inherently unstable sensing during stretching due to the mutual interference of resistance changes caused by temperature and mechanical deformations. "
+      },
+      {
+        "id": 3,
+        "text": "Herein, we propose an ultra-stretchable hydrogel thermocouple that provides unaltered temperature sensing upon stretching. "
+      },
+      {
+        "id": 4,
+        "text": "The ultra-stretchability of this thermocouple is achieved by constructing thermogalvanic hydrogels with dynamic crosslinked double networks. "
+      },
+      {
+        "id": 5,
+        "text": "By connecting P-type and N-type thermogalvanic hydrogels, the thermocouple exhibits a high equivalent See-beck coefficient of 1.93 mV K-1 and a stable sensitivity even under a 100% tensile strain. "
+      },
+      {
+        "id": 6,
+        "text": "The advantage of this ultra-stretchable thermocouple is demonstrated in a smart glove prototype, which enables haptic feedback. "
+      },
+      {
+        "id": 7,
+        "text": "Our work provides a new strategy for stretchable temperature sensors and may promote the development of intelligent wearables."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0190:tc",
+        "label": "Ultra-stretchable hydrogel thermocouple",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0190:sense",
+        "label": "Unaltered temperature sensing upon stretching",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0190:network",
+        "label": "Dynamic crosslinked double networks in thermogalvanic hydrogels",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0190:stretch",
+        "label": "Thermocouple ultra-stretchability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0190:connect",
+        "label": "Connection of P-type and N-type thermogalvanic hydrogels",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0190:se",
+        "label": "Equivalent Seebeck coefficient of 1.93 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0190:sensitivity",
+        "label": "Stable sensitivity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0190:glove",
+        "label": "Smart glove prototype incorporating the thermocouple",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0190:haptic",
+        "label": "Haptic feedback",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0190:r001",
+        "subject": "Ultra-stretchable hydrogel thermocouple",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Unaltered temperature sensing upon stretching",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Upon stretching",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Herein, we propose an ultra-stretchable hydrogel thermocouple that provides unaltered temperature sensing upon stretching. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0190:tc",
+        "object_id": "P0190:sense"
+      },
+      {
+        "relation_id": "P0190:r002",
+        "subject": "Dynamic crosslinked double networks in thermogalvanic hydrogels",
+        "subject_role": "state_structure",
+        "predicate": "enables",
+        "object": "Thermocouple ultra-stretchability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The ultra-stretchability of this thermocouple is achieved by constructing thermogalvanic hydrogels with dynamic crosslinked double networks. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0190:network",
+        "object_id": "P0190:stretch"
+      },
+      {
+        "relation_id": "P0190:r003",
+        "subject": "Connection of P-type and N-type thermogalvanic hydrogels",
+        "subject_role": "design_strategy",
+        "predicate": "yields thermocouple with",
+        "object": "Equivalent Seebeck coefficient of 1.93 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "By connecting P-type and N-type thermogalvanic hydrogels, the thermocouple exhibits a high equivalent See-beck coefficient of 1.93 mV K-1 and a stable sensitivity even under a 100% tensile strain. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0190:connect",
+        "object_id": "P0190:se"
+      },
+      {
+        "relation_id": "P0190:r004",
+        "subject": "Connection of P-type and N-type thermogalvanic hydrogels",
+        "subject_role": "design_strategy",
+        "predicate": "yields thermocouple with",
+        "object": "Stable sensitivity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Even under 100% tensile strain",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "By connecting P-type and N-type thermogalvanic hydrogels, the thermocouple exhibits a high equivalent See-beck coefficient of 1.93 mV K-1 and a stable sensitivity even under a 100% tensile strain. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0190:connect",
+        "object_id": "P0190:sensitivity"
+      },
+      {
+        "relation_id": "P0190:r005",
+        "subject": "Ultra-stretchable hydrogel thermocouple",
+        "subject_role": "material_entity",
+        "predicate": "is incorporated in",
+        "object": "Smart glove prototype incorporating the thermocouple",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Prototype demonstration",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The advantage of this ultra-stretchable thermocouple is demonstrated in a smart glove prototype, which enables haptic feedback. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0190:tc",
+        "object_id": "P0190:glove"
+      },
+      {
+        "relation_id": "P0190:r006",
+        "subject": "Smart glove prototype incorporating the thermocouple",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Haptic feedback",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The advantage of this ultra-stretchable thermocouple is demonstrated in a smart glove prototype, which enables haptic feedback. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0190:glove",
+        "object_id": "P0190:haptic"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0191",
+    "title": "Photo-thermo-electric hydrogel with interlocking photothermal layer and hydrogel for enhancement of thermopower generation",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Photothermal devices and thermoelectric cells hold great promise for energy generation but integration of the two remains a considerable challenge in real-life power supply for sensors. "
+      },
+      {
+        "id": 1,
+        "text": "Here, a novel photo-thermo-electric hydrogel (PTEH-Interlocking) was constructed by the synthesis of a photothermal layer on a thermoelectric hydrogel with the redox pair Fe(CN)63-/Fe(CN)64-. "
+      },
+      {
+        "id": 2,
+        "text": "The smart design of using the oxidation of pyrogallic acid by Fe(CN)63- to construct the photothermal layer for photo-to-heat conversion protected the redox couple of the thermogalvanic ion pair from ultraviolet damage, as well as triggered the formation of an interlocking structure at the interface of the photothermal layer and the thermoelectric hydrogel. "
+      },
+      {
+        "id": 3,
+        "text": "The as-prepared PTEH-Interlocking has shown a high Seebeck coefficient and rapid heat transfer, boosting the photo-thermo-electric conversion. "
+      },
+      {
+        "id": 4,
+        "text": "As a demonstration of a practical application, the PTEH-Interlocking cells are successfully used as the energy supply for a mechanical sensor.image Photo-thermo-electric hydrogel with an interlocking structure at the interface (PTEH-Interlocking) was developed by assembling polyphenol photothermal film on the surface of redox thermoelectric hydrogels. "
+      },
+      {
+        "id": 5,
+        "text": "This smart design improved the stability through protecting the internal redox couple from UV damage, as well as improve the photo-thermal-electric conversion efficiency, which realizes the use of solar energy to power miniature sensors.image"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0191:oxid",
+        "label": "Oxidation of pyrogallic acid by Fe(CN)6³−",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0191:layer",
+        "label": "Polyphenol photothermal layer",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0191:photo",
+        "label": "Photo-to-heat conversion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0191:protect",
+        "label": "Protection of internal redox couple from ultraviolet damage",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0191:inter",
+        "label": "Interlocking structure at photothermal-layer/hydrogel interface",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0191:pteh",
+        "label": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0191:se",
+        "label": "High Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0191:heat",
+        "label": "Rapid heat transfer",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0191:convert",
+        "label": "Enhanced photo-thermo-electric conversion",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0191:sensor",
+        "label": "Energy supply for a mechanical sensor",
+        "role": "application"
+      },
+      {
+        "id": "P0191:stable",
+        "label": "Improved stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0191:solar",
+        "label": "Solar energy powering miniature sensors",
+        "role": "application"
+      },
+      {
+        "id": "P0191:audit_v1_a002_subject",
+        "label": "Photothermal-layer synthesis on thermoelectric hydrogel",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0191:audit_v1_a002_object",
+        "label": "Photo-thermo-electric conversion efficiency",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0191:r002",
+        "subject": "Oxidation of pyrogallic acid by Fe(CN)6³−",
+        "subject_role": "mechanism_process",
+        "predicate": "constructs",
+        "object": "Polyphenol photothermal layer",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The smart design of using the oxidation of pyrogallic acid by Fe(CN)63- to construct the photothermal layer for photo-to-heat conversion protected the redox couple of the thermogalvanic ion pair from ultraviolet damage, as well as triggered the formation of an interlocking structure at the interface of the photothermal layer and the thermoelectric hydrogel. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The smart design of using the oxidation of pyrogallic acid by Fe(CN)63- to construct the photothermal layer for photo-to-heat conversion protected the redox couple of the thermogalvanic ion pair from ultraviolet damage, as well as triggered the formation of an interlocking structure at the interface of the photothermal layer and the thermoelectric hydrogel. "
+        ],
+        "subject_id": "P0191:oxid",
+        "object_id": "P0191:layer"
+      },
+      {
+        "relation_id": "P0191:r003",
+        "subject": "Polyphenol photothermal layer",
+        "subject_role": "material_entity",
+        "predicate": "is designed for",
+        "object": "Photo-to-heat conversion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The smart design of using the oxidation of pyrogallic acid by Fe(CN)63- to construct the photothermal layer for photo-to-heat conversion protected the redox couple of the thermogalvanic ion pair from ultraviolet damage, as well as triggered the formation of an interlocking structure at the interface of the photothermal layer and the thermoelectric hydrogel. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:layer",
+        "object_id": "P0191:photo"
+      },
+      {
+        "relation_id": "P0191:r004",
+        "subject": "Oxidation of pyrogallic acid by Fe(CN)6³−",
+        "subject_role": "mechanism_process",
+        "predicate": "enables",
+        "object": "Protection of internal redox couple from ultraviolet damage",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through the photothermal-layer construction design",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The smart design of using the oxidation of pyrogallic acid by Fe(CN)63- to construct the photothermal layer for photo-to-heat conversion protected the redox couple of the thermogalvanic ion pair from ultraviolet damage, as well as triggered the formation of an interlocking structure at the interface of the photothermal layer and the thermoelectric hydrogel. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:oxid",
+        "object_id": "P0191:protect"
+      },
+      {
+        "relation_id": "P0191:r005",
+        "subject": "Oxidation of pyrogallic acid by Fe(CN)6³−",
+        "subject_role": "mechanism_process",
+        "predicate": "triggers formation of",
+        "object": "Interlocking structure at photothermal-layer/hydrogel interface",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "During photothermal-layer construction",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The smart design of using the oxidation of pyrogallic acid by Fe(CN)63- to construct the photothermal layer for photo-to-heat conversion protected the redox couple of the thermogalvanic ion pair from ultraviolet damage, as well as triggered the formation of an interlocking structure at the interface of the photothermal layer and the thermoelectric hydrogel. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:oxid",
+        "object_id": "P0191:inter"
+      },
+      {
+        "relation_id": "P0191:r006",
+        "subject": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "High Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The as-prepared PTEH-Interlocking has shown a high Seebeck coefficient and rapid heat transfer, boosting the photo-thermo-electric conversion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:pteh",
+        "object_id": "P0191:se"
+      },
+      {
+        "relation_id": "P0191:r007",
+        "subject": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Rapid heat transfer",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The as-prepared PTEH-Interlocking has shown a high Seebeck coefficient and rapid heat transfer, boosting the photo-thermo-electric conversion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:pteh",
+        "object_id": "P0191:heat"
+      },
+      {
+        "relation_id": "P0191:r008",
+        "subject": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Enhanced photo-thermo-electric conversion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Attributed jointly to high Seebeck coefficient and rapid heat transfer",
+        "joint_factors": [
+          "High Seebeck coefficient",
+          "Rapid heat transfer"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The as-prepared PTEH-Interlocking has shown a high Seebeck coefficient and rapid heat transfer, boosting the photo-thermo-electric conversion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:pteh",
+        "object_id": "P0191:convert"
+      },
+      {
+        "relation_id": "P0191:r009",
+        "subject": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "is used for",
+        "object": "Energy supply for a mechanical sensor",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Practical application demonstration",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "As a demonstration of a practical application, the PTEH-Interlocking cells are successfully used as the energy supply for a mechanical sensor.image Photo-thermo-electric hydrogel with an interlocking structure at the interface (PTEH-Interlocking) was developed by assembling polyphenol photothermal film on the surface of redox thermoelectric hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "As a demonstration of a practical application, the PTEH-Interlocking cells are successfully used as the energy supply for a mechanical sensor.image Photo-thermo-electric hydrogel with an interlocking structure at the interface (PTEH-Interlocking) was developed by assembling polyphenol photothermal film on the surface of redox thermoelectric hydrogels. "
+        ],
+        "subject_id": "P0191:pteh",
+        "object_id": "P0191:sensor"
+      },
+      {
+        "relation_id": "P0191:r010",
+        "subject": "Protection of internal redox couple from ultraviolet damage",
+        "subject_role": "performance_function",
+        "predicate": "improves",
+        "object": "Improved stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Interlocking photothermal-film/hydrogel design",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This smart design improved the stability through protecting the internal redox couple from UV damage, as well as improve the photo-thermal-electric conversion efficiency, which realizes the use of solar energy to power miniature sensors.image",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:protect",
+        "object_id": "P0191:stable"
+      },
+      {
+        "relation_id": "P0191:r011",
+        "subject": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Solar energy powering miniature sensors",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through improved photo-thermal-electric conversion efficiency",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "As a demonstration of a practical application, the PTEH-Interlocking cells are successfully used as the energy supply for a mechanical sensor.image Photo-thermo-electric hydrogel with an interlocking structure at the interface (PTEH-Interlocking) was developed by assembling polyphenol photothermal film on the surface of redox thermoelectric hydrogels. ",
+        "context_quotes": [
+          "This smart design improved the stability through protecting the internal redox couple from UV damage, as well as improve the photo-thermal-electric conversion efficiency, which realizes the use of solar energy to power miniature sensors.image"
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0191:pteh",
+        "object_id": "P0191:solar"
+      },
+      {
+        "relation_id": "P0191:audit_v1_a001",
+        "subject": "PTEH-Interlocking photo-thermo-electric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Interlocking structure at photothermal-layer/hydrogel interface",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At the photothermal-layer/thermoelectric-hydrogel interface.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "As a demonstration of a practical application, the PTEH-Interlocking cells are successfully used as the energy supply for a mechanical sensor.image Photo-thermo-electric hydrogel with an interlocking structure at the interface (PTEH-Interlocking) was developed by assembling polyphenol photothermal film on the surface of redox thermoelectric hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0191:pteh",
+        "object_id": "P0191:inter"
+      },
+      {
+        "relation_id": "P0191:audit_v1_a002",
+        "subject": "Photothermal-layer synthesis on thermoelectric hydrogel",
+        "subject_role": "design_strategy",
+        "predicate": "improves",
+        "object": "Photo-thermo-electric conversion efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Polyphenol photothermal film assembled on redox thermoelectric hydrogel.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "As a demonstration of a practical application, the PTEH-Interlocking cells are successfully used as the energy supply for a mechanical sensor.image Photo-thermo-electric hydrogel with an interlocking structure at the interface (PTEH-Interlocking) was developed by assembling polyphenol photothermal film on the surface of redox thermoelectric hydrogels. ",
+        "context_quotes": [
+          "This smart design improved the stability through protecting the internal redox couple from UV damage, as well as improve the photo-thermal-electric conversion efficiency, which realizes the use of solar energy to power miniature sensors.image"
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0191:audit_v1_a002_subject",
+        "object_id": "P0191:audit_v1_a002_object"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0192",
+    "title": "High thermopower of ferri/ferrocyanide redox couple in organic-water solutions",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermogalvanic cell (thermocell) represents a promising technology for converting low grade waste heat to electricity. "
+      },
+      {
+        "id": 1,
+        "text": "For the cell to be attractive, however, the voltage generated for a given temperature difference has to be high. "
+      },
+      {
+        "id": 2,
+        "text": "We report that the electrochemical thermopower can be more than doubled to 2.9 mV K-1 when an organic solvent with an appropriate solubility parameter is added to the aqueous electrolyte of ferri/ferrocyanide. "
+      },
+      {
+        "id": 3,
+        "text": "This value is better than any reported for the redox couples in aqueous electrolyte as well as in organic solvents. "
+      },
+      {
+        "id": 4,
+        "text": "The addition causes a significant rearrangement of the solvation shell, which leads to an increase in the entropy change of the overall redox system and thus an increase in the electrochemical thermopower. "
+      },
+      {
+        "id": 5,
+        "text": "For an evaluation of thermoelectric conversion performance, a thermocell with a circulating electrolyte is fabricated as a candidate technology for harvesting thermal energy from liquid cooling systems. "
+      },
+      {
+        "id": 6,
+        "text": "The maximum power density obtained, normalized to the square of the inter-electrode temperature difference (similar to 4.1 degrees C), is 0.64 mW m(-2)K(-2), which is approximately 1.8 times higher compared with the thermocell based on pure aqueous electrolyte."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0192:add",
+        "label": "Addition of organic solvent to aqueous ferri/ferrocyanide electrolyte",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0192:power",
+        "label": "Electrochemical thermopower",
+        "role": "quantity"
+      },
+      {
+        "id": "P0192:shell",
+        "label": "Significant solvation-shell rearrangement",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0192:entropy",
+        "label": "Entropy change of the overall redox system",
+        "role": "quantity"
+      },
+      {
+        "id": "P0192:cell",
+        "label": "Thermocell with circulating electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0192:use",
+        "label": "Thermal energy harvesting from liquid cooling systems",
+        "role": "application"
+      },
+      {
+        "id": "P0192:density",
+        "label": "Maximum normalized power density of 0.64 mW m−2 K−2",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0192:r001",
+        "subject": "Addition of organic solvent to aqueous ferri/ferrocyanide electrolyte",
+        "subject_role": "design_strategy",
+        "predicate": "more than doubles",
+        "object": "Electrochemical thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Organic solvent with an appropriate solubility parameter; reaches 2.9 mV K−1, exceeding reported redox couples in aqueous electrolytes and organic solvents",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We report that the electrochemical thermopower can be more than doubled to 2.9 mV K-1 when an organic solvent with an appropriate solubility parameter is added to the aqueous electrolyte of ferri/ferrocyanide. ",
+        "context_quotes": [
+          "This value is better than any reported for the redox couples in aqueous electrolyte as well as in organic solvents. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0192:add",
+        "object_id": "P0192:power"
+      },
+      {
+        "relation_id": "P0192:r002",
+        "subject": "Addition of organic solvent to aqueous ferri/ferrocyanide electrolyte",
+        "subject_role": "design_strategy",
+        "predicate": "causes",
+        "object": "Significant solvation-shell rearrangement",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Organic solvent with an appropriate solubility parameter",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We report that the electrochemical thermopower can be more than doubled to 2.9 mV K-1 when an organic solvent with an appropriate solubility parameter is added to the aqueous electrolyte of ferri/ferrocyanide. ",
+        "context_quotes": [
+          "The addition causes a significant rearrangement of the solvation shell, which leads to an increase in the entropy change of the overall redox system and thus an increase in the electrochemical thermopower. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0192:add",
+        "object_id": "P0192:shell"
+      },
+      {
+        "relation_id": "P0192:r003",
+        "subject": "Significant solvation-shell rearrangement",
+        "subject_role": "mechanism_process",
+        "predicate": "increases",
+        "object": "Entropy change of the overall redox system",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The addition causes a significant rearrangement of the solvation shell, which leads to an increase in the entropy change of the overall redox system and thus an increase in the electrochemical thermopower. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0192:shell",
+        "object_id": "P0192:entropy"
+      },
+      {
+        "relation_id": "P0192:r004",
+        "subject": "Entropy change of the overall redox system",
+        "subject_role": "quantity",
+        "predicate": "increases",
+        "object": "Electrochemical thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following organic-solvent-induced solvation-shell rearrangement",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The addition causes a significant rearrangement of the solvation shell, which leads to an increase in the entropy change of the overall redox system and thus an increase in the electrochemical thermopower. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0192:entropy",
+        "object_id": "P0192:power"
+      },
+      {
+        "relation_id": "P0192:r005",
+        "subject": "Thermocell with circulating electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Thermal energy harvesting from liquid cooling systems",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Fabricated as a candidate technology",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "For an evaluation of thermoelectric conversion performance, a thermocell with a circulating electrolyte is fabricated as a candidate technology for harvesting thermal energy from liquid cooling systems. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0192:cell",
+        "object_id": "P0192:use"
+      },
+      {
+        "relation_id": "P0192:r006",
+        "subject": "Thermocell with circulating electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum normalized power density of 0.64 mW m−2 K−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Normalized by squared inter-electrode temperature difference of approximately 4.1 °C; approximately 1.8 times the pure-aqueous-electrolyte thermocell",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "For an evaluation of thermoelectric conversion performance, a thermocell with a circulating electrolyte is fabricated as a candidate technology for harvesting thermal energy from liquid cooling systems. ",
+        "context_quotes": [
+          "The maximum power density obtained, normalized to the square of the inter-electrode temperature difference (similar to 4.1 degrees C), is 0.64 mW m(-2)K(-2), which is approximately 1.8 times higher compared with the thermocell based on pure aqueous electrolyte."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0192:cell",
+        "object_id": "P0192:density"
+      }
+    ]
+  }
+]

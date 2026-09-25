@@ -1,0 +1,149 @@
+{
+  "pairs": [
+    {
+      "review_id": "M049",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "electronic_thermoelectric",
+      "right_physics": "other_unclear",
+      "match": 1,
+      "level": "surface_similarity",
+      "explanation": "两摘要均支持材料具有复杂晶体结构，存在有限的属性关系对应；但左侧讨论声子热输运，右侧讨论金属化的备选解释，不能据此对应机制。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧结构复杂性与低声速共同关联低晶格热导率；右侧异常限于特定几何和超结构取向，且体相类热电化学过程与近表面载流子重分布尚未区分。两者均非已对应的发电阶段证据。",
+      "neighbor_claim_ids": [
+        "iTE:P0831:r002",
+        "TG:P0240:r001",
+        "TG:P0240:r005"
+      ],
+      "local_structure_assessment": "邻边仅提供同一材料的并列属性及现象；没有结构节点出发的完整第二条因果边，仅能支持单边属性对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "复杂结构未给出可比较的具体结构参数；右侧机制为备选解释，不能由TG标签认定为氧化还原热电池。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "different",
+          "reason": "银碲化合物与高锰硅化物单晶是不同材料。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "equivalent_in_context",
+          "reason": "均指晶体结构复杂这一概括性属性，不代表具体晶体结构相同。"
+        }
+      ],
+      "left_working_stage": "材料结构与热输运表征",
+      "right_working_stage": "特定几何和取向单晶的金属化现象表征"
+    },
+    {
+      "review_id": "M050",
+      "left_support": "partial",
+      "right_support": "supported",
+      "left_physics": "electronic_thermoelectric",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "左侧高Seebeck系数及温度、应变条件有文本依据，但冻结声明未保留计算研究限定；右侧高系数得到直接支持。对应仅限于材料表现高热电压响应，不能建立共同转换机制。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧为800 K下应变固体的计算电子热电性质；右侧为光热驱动的铁氰化物氧化还原水凝胶，其热电压涉及反应熵。右侧未给温度范围，不能假设适用800 K；计算表征与器件供电示范也不是同一工作阶段。",
+      "neighbor_claim_ids": [
+        "iTE:P1915:r009",
+        "TG:P0191:r008",
+        "TG:P0191:complete_v1_cr001"
+      ],
+      "local_structure_assessment": "右侧存在制备→水凝胶→高Seebeck系数的同论文有向路径，但未证明制备策略导致系数提高；左侧没有对应两边路径。转换增强还依赖快速传热。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "两侧均缺可直接比较的Seebeck数值及测试条件；左侧300 K稳定性模拟不能验证800 K实际运行稳定性，也不能把所列优值当作Seebeck数值。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "均充当热电转换材料，但分别为无机固体与含氧化还原对的复合水凝胶。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "均描述温差电压响应强，但电子热电系数与氧化还原热电系数的物理来源不同，且高的基准未统一。"
+        }
+      ],
+      "left_working_stage": "800 K、指定应变下的计算性质表征",
+      "right_working_stage": "制备后热电性质表征及光热发电示范；稳态条件未说明"
+    },
+    {
+      "review_id": "M051",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "ionic_thermodiffusion",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧明确支持稀土掺杂离子性质影响晶格常数；右侧仅支持考察离子性质对热扩散特性的影响，未给变化方向。共同的离子性质措辞不足以连接晶体结构与溶液输运关系。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧涉及固体晶格中的掺杂离子及半径效应；右侧涉及298 K混合溶剂中可移动离子的热扩散，并借热电化学电池的初始、稳态电压推算。结构表征不能直接映射为热扩散或电极反应熵。",
+      "neighbor_claim_ids": [
+        "iTE:P1374:r007",
+        "TG:P0245:r006"
+      ],
+      "local_structure_assessment": "左侧半径减小→晶格常数减小是另一条入边；右侧溶剂组成→输运特性也是入边。均不能与目标边拼成两边有向因果链。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "右侧未报告效应方向，也未将离子性质限定为半径；左侧没有热电转换证据。不能将左侧半径趋势移植到右侧。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "related_not_equivalent",
+          "reason": "均涉及离子种类或性质，但分别指晶格稀土掺杂离子与溶液中的H+、K+、Cl−。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "different",
+          "reason": "晶胞长度参数与Soret系数、输运熵等热扩散特性不是同一科学量。"
+        }
+      ],
+      "left_working_stage": "合成后晶体结构表征",
+      "right_working_stage": "初始及稳态热电压测量与298 K热扩散特性计算"
+    },
+    {
+      "review_id": "M052",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧支持聚合后溶剂交换诱导金属配体配位；右侧支持盐促均相电催化与电极异相电催化共同产生加和效应。加盐相关措辞没有建立配位成网与电催化之间的关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "左侧是制备阶段的Fe3+/SO4²−交换与网络形成；右侧是铁氰化物热电池运行中的电子转移动力学，必须保留铂或石墨异相催化这一共同因素。左侧含Fe3+及具有离子导电性均不能证明存在电极氧化还原催化。",
+      "neighbor_claim_ids": [
+        "iTE:P1818:r006"
+      ],
+      "local_structure_assessment": "左侧盐析与配位是溶剂交换的并列结果，不构成盐析→配位路径；右侧没有供应的邻边。不存在可匹配的两边路径，目标单边也不对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "摘要未证明左侧配位影响电子转移，也未证明右侧碱金属盐产生类似凝胶配位网络；左侧具体热电转换机制不能由该制备声明判定。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "related_not_equivalent",
+          "reason": "均涉及含盐处理，但溶剂交换成网与均相电子转移催化属于不同过程。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "different",
+          "reason": "金属配体配位是化学相互作用，加和电催化效应是两类催化共同作用的结果。"
+        }
+      ],
+      "left_working_stage": "聚合后的溶剂交换与网络形成",
+      "right_working_stage": "温差下热电化学发电及电催化性能表征"
+    }
+  ]
+}

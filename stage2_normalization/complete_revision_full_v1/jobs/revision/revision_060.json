@@ -1,0 +1,1464 @@
+[
+  {
+    "paper_id": "P0255",
+    "title": "High-Performance Cu-Based Liquid Thermocells Enabled by Thermosensitive Crystallization and Etched Carbon Cloth Electrode",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermocells are garnering increasing attention as a promising thermoelectric technology for harvesting low-grade heat. "
+      },
+      {
+        "id": 1,
+        "text": "However, their performance is often limited by the scarcity of high-performance redox couples that possess both high thermopower and rapid redox kinetics. "
+      },
+      {
+        "id": 2,
+        "text": "This work addresses this challenge by leveraging our recently developed copper (I/II) (Cu+/Cu2+) redox couple. "
+      },
+      {
+        "id": 3,
+        "text": "We significantly enhance the performance of Cu-based liquid thermocells by integrating a thermosensitive crystallization process with etched carbon cloth electrodes, achieving synergistic improvements in thermodynamic and kinetic performance. "
+      },
+      {
+        "id": 4,
+        "text": "The thermosensitive crystallization process establishes a persistent Cu2+ concentration gradient, boosting the thermopower from 1.47 to 2.93 mV K-1. "
+      },
+      {
+        "id": 5,
+        "text": "Moreover, the etched carbon cloth electrodes provide a larger electroactive surface area and demonstrate a higher current density. "
+      },
+      {
+        "id": 6,
+        "text": "Consequently, the optimized Cu+/Cu2+ system achieved an exceptional normalized power density Pmax (Delta T)-2 of 3.97 mW m-2 K-2. "
+      },
+      {
+        "id": 7,
+        "text": "A thermocell module comprised of 20 cells directly power various electronic devices at a temperature difference of 40 K. "
+      },
+      {
+        "id": 8,
+        "text": "This work successfully exhibits potential of Cu+/Cu2+ redox couple in thermoelectric conversion and introduces a valuable redox couple for high-performance thermocells."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0255:cryst",
+        "label": "Thermosensitive crystallization",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0255:thermo",
+        "label": "Improved thermodynamic performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0255:kinetic",
+        "label": "Improved kinetic performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0255:gradient",
+        "label": "Persistent Cu2+ concentration gradient",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0255:tp",
+        "label": "Thermopower increase from 1.47 to 2.93 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0255:electrode",
+        "label": "Etched carbon cloth electrodes",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0255:area",
+        "label": "Larger electroactive surface area",
+        "role": "quantity"
+      },
+      {
+        "id": "P0255:current",
+        "label": "Higher current density",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0255:cell",
+        "label": "Optimized Cu+/Cu2+ liquid thermocell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0255:power",
+        "label": "Normalized power density 3.97 mW m-2 K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0255:module",
+        "label": "20-cell thermocell module",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0255:use",
+        "label": "Direct powering of various electronic devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0255:r001",
+        "subject": "Thermosensitive crystallization",
+        "subject_role": "mechanism_process",
+        "predicate": "synergistically_improves",
+        "object": "Improved thermodynamic performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu-based liquid thermocells",
+        "joint_factors": [
+          "Thermosensitive crystallization",
+          "Etched carbon cloth electrodes"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We significantly enhance the performance of Cu-based liquid thermocells by integrating a thermosensitive crystallization process with etched carbon cloth electrodes, achieving synergistic improvements in thermodynamic and kinetic performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:cryst",
+        "object_id": "P0255:thermo"
+      },
+      {
+        "relation_id": "P0255:r002",
+        "subject": "Thermosensitive crystallization",
+        "subject_role": "mechanism_process",
+        "predicate": "synergistically_improves",
+        "object": "Improved kinetic performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu-based liquid thermocells",
+        "joint_factors": [
+          "Thermosensitive crystallization",
+          "Etched carbon cloth electrodes"
+        ],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "We significantly enhance the performance of Cu-based liquid thermocells by integrating a thermosensitive crystallization process with etched carbon cloth electrodes, achieving synergistic improvements in thermodynamic and kinetic performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:cryst",
+        "object_id": "P0255:kinetic"
+      },
+      {
+        "relation_id": "P0255:r003",
+        "subject": "Thermosensitive crystallization",
+        "subject_role": "mechanism_process",
+        "predicate": "establishes",
+        "object": "Persistent Cu2+ concentration gradient",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The thermosensitive crystallization process establishes a persistent Cu2+ concentration gradient, boosting the thermopower from 1.47 to 2.93 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:cryst",
+        "object_id": "P0255:gradient"
+      },
+      {
+        "relation_id": "P0255:r004",
+        "subject": "Persistent Cu2+ concentration gradient",
+        "subject_role": "state_structure",
+        "predicate": "boosts",
+        "object": "Thermopower increase from 1.47 to 2.93 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gradient established by thermosensitive crystallization",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The thermosensitive crystallization process establishes a persistent Cu2+ concentration gradient, boosting the thermopower from 1.47 to 2.93 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:gradient",
+        "object_id": "P0255:tp"
+      },
+      {
+        "relation_id": "P0255:r005",
+        "subject": "Etched carbon cloth electrodes",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Larger electroactive surface area",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Moreover, the etched carbon cloth electrodes provide a larger electroactive surface area and demonstrate a higher current density. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:electrode",
+        "object_id": "P0255:area"
+      },
+      {
+        "relation_id": "P0255:r006",
+        "subject": "Etched carbon cloth electrodes",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Higher current density",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Moreover, the etched carbon cloth electrodes provide a larger electroactive surface area and demonstrate a higher current density. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:electrode",
+        "object_id": "P0255:current"
+      },
+      {
+        "relation_id": "P0255:r007",
+        "subject": "Optimized Cu+/Cu2+ liquid thermocell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Normalized power density 3.97 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pmax(Delta T)^-2; optimized system integrating crystallization and etched carbon cloth",
+        "joint_factors": [
+          "Thermosensitive crystallization",
+          "Etched carbon cloth electrodes"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "We significantly enhance the performance of Cu-based liquid thermocells by integrating a thermosensitive crystallization process with etched carbon cloth electrodes, achieving synergistic improvements in thermodynamic and kinetic performance. ",
+        "context_quotes": [
+          "Consequently, the optimized Cu+/Cu2+ system achieved an exceptional normalized power density Pmax (Delta T)-2 of 3.97 mW m-2 K-2. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0255:cell",
+        "object_id": "P0255:power"
+      },
+      {
+        "relation_id": "P0255:r008",
+        "subject": "20-cell thermocell module",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Direct powering of various electronic devices",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference 40 K",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A thermocell module comprised of 20 cells directly power various electronic devices at a temperature difference of 40 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0255:module",
+        "object_id": "P0255:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0256",
+    "title": "Adiabatic Thermal Runaway Behaviors of Lithium-Ion Batteries With High-Capacity Cathodes (LiNi0.9Co0.05Mn0.05 O2 and LiFePO4) at the Cell Level: A Comparative Study",
+    "segments": [
+      {
+        "id": 0,
+        "text": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+      },
+      {
+        "id": 1,
+        "text": "The aim was to reveal the differential mechanisms of TR between the two cell types. "
+      },
+      {
+        "id": 2,
+        "text": "Through ARC testing, the TR process of the cells was divided into four stages, and a heat generation model based on the Arrhenius equation was established. "
+      },
+      {
+        "id": 3,
+        "text": "The results showed that for the NCM90.50.5 cell: the self-heating onset temperature (T1) was 102.3 degrees C, the TR trigger temperature (T2) was 156.5 degrees C, and the valve-opening temperature coincided with the trigger temperature (T-vent = T-2). "
+      },
+      {
+        "id": 4,
+        "text": "The warning time from voltage fluctuation to TR was only 256 s, and the maximum TR temperature (T3) reached up to 1000 degrees C. "
+      },
+      {
+        "id": 5,
+        "text": "In contrast, for the LFP cell: T1 was 90.7 degrees C, and T2 was 189.7 degrees C. "
+      },
+      {
+        "id": 6,
+        "text": "The early warning time from the first battery voltage fluctuation to thermal runaway reaches as long as 8600 s, and T3 peaked at 491 degrees C. "
+      },
+      {
+        "id": 7,
+        "text": "Additionally, the double-jellyroll structure of the LFP cell induced a secondary thermal reaction at the final stage of TR. "
+      },
+      {
+        "id": 8,
+        "text": "Kinetic fitting results indicated that the heat generation model for the NCM90.50.5 cell was y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77). "
+      },
+      {
+        "id": 9,
+        "text": "Its temperature sensitivity (exponent b = 9.77) was significantly higher than that of the LFP cell (b = 3.195), demonstrating that the NCM cell exhibits more intense TR reactions and a faster rate of reaction acceleration."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0256:tr",
+        "label": "Cell thermal runaway process",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0256:stages",
+        "label": "Four thermal-runaway stages",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0256:model",
+        "label": "Arrhenius-based heat generation model",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0256:ncm",
+        "label": "129 Ah NCM90.50.5 cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0256:nt1",
+        "label": "Self-heating onset temperature 102.3 degrees C",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:nt2",
+        "label": "Thermal-runaway trigger temperature 156.5 degrees C",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:vent",
+        "label": "NCM valve-opening temperature",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:nwarning",
+        "label": "Voltage-fluctuation-to-runaway warning time 256 s",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:nt3",
+        "label": "Maximum thermal-runaway temperature 1000 degrees C",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:lfp",
+        "label": "107 Ah LFP cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0256:lt1",
+        "label": "Self-heating onset temperature 90.7 degrees C",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:lt2",
+        "label": "Thermal-runaway trigger temperature 189.7 degrees C",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:lwarning",
+        "label": "First-voltage-fluctuation-to-runaway warning time 8600 s",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:lt3",
+        "label": "Maximum thermal-runaway temperature 491 degrees C",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:double",
+        "label": "LFP double-jellyroll structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0256:secondary",
+        "label": "Secondary thermal reaction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0256:fit",
+        "label": "y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77)",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0256:nb",
+        "label": "NCM temperature-sensitivity exponent b = 9.77",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:lb",
+        "label": "LFP temperature-sensitivity exponent b = 3.195",
+        "role": "quantity"
+      },
+      {
+        "id": "P0256:intense",
+        "label": "More intense thermal-runaway reactions",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0256:accel",
+        "label": "Faster reaction acceleration",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0256:r001",
+        "subject": "Cell thermal runaway process",
+        "subject_role": "mechanism_process",
+        "predicate": "is_divided_into",
+        "object": "Four thermal-runaway stages",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "ARC testing of both cell types under a unified adiabatic environment",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "Through ARC testing, the TR process of the cells was divided into four stages, and a heat generation model based on the Arrhenius equation was established. "
+        ],
+        "modality_evidence": [
+          "Through ARC testing, the TR process of the cells was divided into four stages, and a heat generation model based on the Arrhenius equation was established. "
+        ],
+        "subject_id": "P0256:tr",
+        "object_id": "P0256:stages"
+      },
+      {
+        "relation_id": "P0256:r002",
+        "subject": "Arrhenius-based heat generation model",
+        "subject_role": "descriptor",
+        "predicate": "models_heat_generation_during",
+        "object": "Cell thermal runaway process",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Model based on Arrhenius equation",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "Through ARC testing, the TR process of the cells was divided into four stages, and a heat generation model based on the Arrhenius equation was established. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0256:model",
+        "object_id": "P0256:tr"
+      },
+      {
+        "relation_id": "P0256:r003",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Self-heating onset temperature 102.3 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "The results showed that for the NCM90.50.5 cell: the self-heating onset temperature (T1) was 102.3 degrees C, the TR trigger temperature (T2) was 156.5 degrees C, and the valve-opening temperature coincided with the trigger temperature (T-vent = T-2). "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:nt1"
+      },
+      {
+        "relation_id": "P0256:r004",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Thermal-runaway trigger temperature 156.5 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "The results showed that for the NCM90.50.5 cell: the self-heating onset temperature (T1) was 102.3 degrees C, the TR trigger temperature (T2) was 156.5 degrees C, and the valve-opening temperature coincided with the trigger temperature (T-vent = T-2). "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:nt2"
+      },
+      {
+        "relation_id": "P0256:r005",
+        "subject": "NCM valve-opening temperature",
+        "subject_role": "quantity",
+        "predicate": "coincides_with",
+        "object": "Thermal-runaway trigger temperature 156.5 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "NCM cell; T-vent = T-2",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "The results showed that for the NCM90.50.5 cell: the self-heating onset temperature (T1) was 102.3 degrees C, the TR trigger temperature (T2) was 156.5 degrees C, and the valve-opening temperature coincided with the trigger temperature (T-vent = T-2). "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:vent",
+        "object_id": "P0256:nt2"
+      },
+      {
+        "relation_id": "P0256:r006",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Voltage-fluctuation-to-runaway warning time 256 s",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "The results showed that for the NCM90.50.5 cell: the self-heating onset temperature (T1) was 102.3 degrees C, the TR trigger temperature (T2) was 156.5 degrees C, and the valve-opening temperature coincided with the trigger temperature (T-vent = T-2). ",
+          "The warning time from voltage fluctuation to TR was only 256 s, and the maximum TR temperature (T3) reached up to 1000 degrees C. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:nwarning"
+      },
+      {
+        "relation_id": "P0256:r007",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Maximum thermal-runaway temperature 1000 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "The results showed that for the NCM90.50.5 cell: the self-heating onset temperature (T1) was 102.3 degrees C, the TR trigger temperature (T2) was 156.5 degrees C, and the valve-opening temperature coincided with the trigger temperature (T-vent = T-2). ",
+          "The warning time from voltage fluctuation to TR was only 256 s, and the maximum TR temperature (T3) reached up to 1000 degrees C. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:nt3"
+      },
+      {
+        "relation_id": "P0256:r008",
+        "subject": "107 Ah LFP cell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Self-heating onset temperature 90.7 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing; contrasted with NCM cell",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "In contrast, for the LFP cell: T1 was 90.7 degrees C, and T2 was 189.7 degrees C. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:lfp",
+        "object_id": "P0256:lt1"
+      },
+      {
+        "relation_id": "P0256:r009",
+        "subject": "107 Ah LFP cell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Thermal-runaway trigger temperature 189.7 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing; contrasted with NCM cell",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "In contrast, for the LFP cell: T1 was 90.7 degrees C, and T2 was 189.7 degrees C. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:lfp",
+        "object_id": "P0256:lt2"
+      },
+      {
+        "relation_id": "P0256:r010",
+        "subject": "107 Ah LFP cell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "First-voltage-fluctuation-to-runaway warning time 8600 s",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing; contrasted with NCM cell",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "In contrast, for the LFP cell: T1 was 90.7 degrees C, and T2 was 189.7 degrees C. ",
+          "The early warning time from the first battery voltage fluctuation to thermal runaway reaches as long as 8600 s, and T3 peaked at 491 degrees C. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:lfp",
+        "object_id": "P0256:lwarning"
+      },
+      {
+        "relation_id": "P0256:r011",
+        "subject": "107 Ah LFP cell",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Maximum thermal-runaway temperature 491 degrees C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Adiabatic ARC testing; contrasted with NCM cell",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "In contrast, for the LFP cell: T1 was 90.7 degrees C, and T2 was 189.7 degrees C. ",
+          "The early warning time from the first battery voltage fluctuation to thermal runaway reaches as long as 8600 s, and T3 peaked at 491 degrees C. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:lfp",
+        "object_id": "P0256:lt3"
+      },
+      {
+        "relation_id": "P0256:r012",
+        "subject": "107 Ah LFP cell",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "LFP double-jellyroll structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Additionally, the double-jellyroll structure of the LFP cell induced a secondary thermal reaction at the final stage of TR. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0256:lfp",
+        "object_id": "P0256:double"
+      },
+      {
+        "relation_id": "P0256:r013",
+        "subject": "LFP double-jellyroll structure",
+        "subject_role": "state_structure",
+        "predicate": "induces",
+        "object": "Secondary thermal reaction",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Final stage of thermal runaway in ARC investigation",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). ",
+        "context_quotes": [
+          "Additionally, the double-jellyroll structure of the LFP cell induced a secondary thermal reaction at the final stage of TR. "
+        ],
+        "modality_evidence": [
+          "To address the research gap in the adiabatic thermal runaway (TR) characteristics of large-capacity lithium-ion battery cells (> 100 Ah)-specifically lithium iron phosphate (LiFePO4, LFP) and LiNi0.9Co0.05Mn0.05O2 (NCM90.50.5) cells-this study systematically investigated the TR processes of 129 Ah NCM90.50.5 cells and 107 Ah LFP cells under a unified experimental environment using an accelerating rate calorimeter (ARC). "
+        ],
+        "subject_id": "P0256:double",
+        "object_id": "P0256:secondary"
+      },
+      {
+        "relation_id": "P0256:r014",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "has_fitted_heat_generation_model",
+        "object": "y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77)",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Kinetic fitting",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Kinetic fitting results indicated that the heat generation model for the NCM90.50.5 cell was y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:fit"
+      },
+      {
+        "relation_id": "P0256:r015",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "has_temperature_sensitivity",
+        "object": "NCM temperature-sensitivity exponent b = 9.77",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Kinetic fitting of heat generation model",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Kinetic fitting results indicated that the heat generation model for the NCM90.50.5 cell was y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77). ",
+        "context_quotes": [
+          "Its temperature sensitivity (exponent b = 9.77) was significantly higher than that of the LFP cell (b = 3.195), demonstrating that the NCM cell exhibits more intense TR reactions and a faster rate of reaction acceleration."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:nb"
+      },
+      {
+        "relation_id": "P0256:r016",
+        "subject": "107 Ah LFP cell",
+        "subject_role": "material_entity",
+        "predicate": "has_temperature_sensitivity",
+        "object": "LFP temperature-sensitivity exponent b = 3.195",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Kinetic fitting comparison",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Its temperature sensitivity (exponent b = 9.77) was significantly higher than that of the LFP cell (b = 3.195), demonstrating that the NCM cell exhibits more intense TR reactions and a faster rate of reaction acceleration.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0256:lfp",
+        "object_id": "P0256:lb"
+      },
+      {
+        "relation_id": "P0256:r017",
+        "subject": "NCM temperature-sensitivity exponent b = 9.77",
+        "subject_role": "quantity",
+        "predicate": "is_significantly_higher_than",
+        "object": "LFP temperature-sensitivity exponent b = 3.195",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature-sensitivity exponent comparison",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Its temperature sensitivity (exponent b = 9.77) was significantly higher than that of the LFP cell (b = 3.195), demonstrating that the NCM cell exhibits more intense TR reactions and a faster rate of reaction acceleration.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0256:nb",
+        "object_id": "P0256:lb"
+      },
+      {
+        "relation_id": "P0256:r018",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "More intense thermal-runaway reactions",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Relative to LFP; inferred by authors from fitted temperature sensitivity",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Kinetic fitting results indicated that the heat generation model for the NCM90.50.5 cell was y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77). ",
+        "context_quotes": [
+          "Its temperature sensitivity (exponent b = 9.77) was significantly higher than that of the LFP cell (b = 3.195), demonstrating that the NCM cell exhibits more intense TR reactions and a faster rate of reaction acceleration."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:intense"
+      },
+      {
+        "relation_id": "P0256:r019",
+        "subject": "129 Ah NCM90.50.5 cell",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Faster reaction acceleration",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Relative to LFP; inferred by authors from fitted temperature sensitivity",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Kinetic fitting results indicated that the heat generation model for the NCM90.50.5 cell was y = 7.2 & times; 10(-22)& centerdot;(T(t)/T)(9.77). ",
+        "context_quotes": [
+          "Its temperature sensitivity (exponent b = 9.77) was significantly higher than that of the LFP cell (b = 3.195), demonstrating that the NCM cell exhibits more intense TR reactions and a faster rate of reaction acceleration."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0256:ncm",
+        "object_id": "P0256:accel"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0258",
+    "title": "Cost-effective n-type liquid flow thermocells with giant ionic thermopower and power density through solvation entropy engineering for low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermocells (iTCs) with high ionic thermopower are promising for low-grade waste heat harvesting. "
+      },
+      {
+        "id": 1,
+        "text": "The integration of p-n type iTCs in series would be inevitably required for sufficient voltage output. "
+      },
+      {
+        "id": 2,
+        "text": "However, ionic thermopower (Si) and power density (P-max/Delta T-2) of n-type iTCs are fairly lower due to the limitation of redox reaction kinetics and ionic transport processes, and cannot match with the advanced p-type iTCs, significantly restricting their amplification. "
+      },
+      {
+        "id": 3,
+        "text": "Herein, we demonstrated a cost-effective n-type liquid flow thermocells (LiTCs) with giant ionic thermopower and power density through solvation entropy engineering. "
+      },
+      {
+        "id": 4,
+        "text": "The n-type LiTCs consisted of a Y-shaped channel with the separate oxidant and reductant flow alone. "
+      },
+      {
+        "id": 5,
+        "text": "During the mixing process of separate FeCl3 and FeCl2 electrolytes flow alone, it can significantly degrade the complexes of Fe(H2O)5Cl(2)(+), and thus increase ionic kinetics and redox solvation entropy induced by the interaction of Fe3+ and water molecules. "
+      },
+      {
+        "id": 6,
+        "text": "The Siof LiTCs can be dramatically boosted from +1 to +50.5 mV K-1 at the separate 0.01 mol L-1 FeCl3 and FeCl2 electrolytes flow, which is 38.8 times larger than that of typical n-type iTCs. "
+      },
+      {
+        "id": 7,
+        "text": "The Pmax/Delta T-2 and Carnotrelative efficiency can reach the highest of 16.4 mW m(-2) K-2 and 4.4 %, much larger than the previous records. "
+      },
+      {
+        "id": 8,
+        "text": "As a consequence, the ionic thermoelectric device comprised of 6 n-p type LiTCs is constructed and can output a continuous and reliable voltage of 1.7 V at 20 K temperature difference. "
+      },
+      {
+        "id": 9,
+        "text": "The n-type LiTCs with a competitive cost-performance metric (1.06 $ W-1) present a promising for the practical application."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0258:cell",
+        "label": "n-type liquid flow thermocell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0258:channel",
+        "label": "Y-shaped channel with separate oxidant and reductant flows",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0258:mix",
+        "label": "Mixing separate FeCl3 and FeCl2 electrolyte flows",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0258:degrade",
+        "label": "Degradation of Fe(H2O)5Cl(2)(+) complexes",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0258:kinetics",
+        "label": "Increased ionic kinetics",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0258:entropy",
+        "label": "Redox solvation entropy",
+        "role": "quantity"
+      },
+      {
+        "id": "P0258:interaction",
+        "label": "Fe3+–water interaction",
+        "role": "interaction"
+      },
+      {
+        "id": "P0258:si",
+        "label": "Ionic thermopower increase from +1 to +50.5 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0258:power",
+        "label": "Highest normalized power density 16.4 mW m(-2) K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0258:eff",
+        "label": "Highest Carnot-relative efficiency 4.4%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0258:device",
+        "label": "Device comprising 6 n-p type LiTCs",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0258:voltage",
+        "label": "Continuous reliable voltage 1.7 V",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0258:cost",
+        "label": "Cost-performance metric 1.06 $ W-1",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0258:r001",
+        "subject": "n-type liquid flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Y-shaped channel with separate oxidant and reductant flows",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The n-type LiTCs consisted of a Y-shaped channel with the separate oxidant and reductant flow alone. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:cell",
+        "object_id": "P0258:channel"
+      },
+      {
+        "relation_id": "P0258:r002",
+        "subject": "Mixing separate FeCl3 and FeCl2 electrolyte flows",
+        "subject_role": "mechanism_process",
+        "predicate": "promotes",
+        "object": "Degradation of Fe(H2O)5Cl(2)(+) complexes",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Complex formula retained as supplied",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "During the mixing process of separate FeCl3 and FeCl2 electrolytes flow alone, it can significantly degrade the complexes of Fe(H2O)5Cl(2)(+), and thus increase ionic kinetics and redox solvation entropy induced by the interaction of Fe3+ and water molecules. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:mix",
+        "object_id": "P0258:degrade"
+      },
+      {
+        "relation_id": "P0258:r003",
+        "subject": "Degradation of Fe(H2O)5Cl(2)(+) complexes",
+        "subject_role": "mechanism_process",
+        "predicate": "increases",
+        "object": "Increased ionic kinetics",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "During mixing of separate FeCl3 and FeCl2 flows",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "During the mixing process of separate FeCl3 and FeCl2 electrolytes flow alone, it can significantly degrade the complexes of Fe(H2O)5Cl(2)(+), and thus increase ionic kinetics and redox solvation entropy induced by the interaction of Fe3+ and water molecules. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:degrade",
+        "object_id": "P0258:kinetics"
+      },
+      {
+        "relation_id": "P0258:r004",
+        "subject": "Degradation of Fe(H2O)5Cl(2)(+) complexes",
+        "subject_role": "mechanism_process",
+        "predicate": "increases",
+        "object": "Redox solvation entropy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "During mixing of separate FeCl3 and FeCl2 flows",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "During the mixing process of separate FeCl3 and FeCl2 electrolytes flow alone, it can significantly degrade the complexes of Fe(H2O)5Cl(2)(+), and thus increase ionic kinetics and redox solvation entropy induced by the interaction of Fe3+ and water molecules. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:degrade",
+        "object_id": "P0258:entropy"
+      },
+      {
+        "relation_id": "P0258:r005",
+        "subject": "Fe3+–water interaction",
+        "subject_role": "interaction",
+        "predicate": "induces",
+        "object": "Redox solvation entropy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "During the mixing process of separate FeCl3 and FeCl2 electrolytes flow alone, it can significantly degrade the complexes of Fe(H2O)5Cl(2)(+), and thus increase ionic kinetics and redox solvation entropy induced by the interaction of Fe3+ and water molecules. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:interaction",
+        "object_id": "P0258:entropy"
+      },
+      {
+        "relation_id": "P0258:r006",
+        "subject": "n-type liquid flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Ionic thermopower increase from +1 to +50.5 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Separate 0.01 mol L-1 FeCl3 and FeCl2 electrolyte flows; reported as 38.8 times typical n-type iTCs",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The Siof LiTCs can be dramatically boosted from +1 to +50.5 mV K-1 at the separate 0.01 mol L-1 FeCl3 and FeCl2 electrolytes flow, which is 38.8 times larger than that of typical n-type iTCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:cell",
+        "object_id": "P0258:si"
+      },
+      {
+        "relation_id": "P0258:r007",
+        "subject": "n-type liquid flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Highest normalized power density 16.4 mW m(-2) K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Much larger than previous records; source normalization written Pmax/Delta T-2",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Herein, we demonstrated a cost-effective n-type liquid flow thermocells (LiTCs) with giant ionic thermopower and power density through solvation entropy engineering. ",
+        "context_quotes": [
+          "The Pmax/Delta T-2 and Carnotrelative efficiency can reach the highest of 16.4 mW m(-2) K-2 and 4.4 %, much larger than the previous records. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0258:cell",
+        "object_id": "P0258:power"
+      },
+      {
+        "relation_id": "P0258:r008",
+        "subject": "n-type liquid flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Highest Carnot-relative efficiency 4.4%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Much larger than previous records",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Herein, we demonstrated a cost-effective n-type liquid flow thermocells (LiTCs) with giant ionic thermopower and power density through solvation entropy engineering. ",
+        "context_quotes": [
+          "The Pmax/Delta T-2 and Carnotrelative efficiency can reach the highest of 16.4 mW m(-2) K-2 and 4.4 %, much larger than the previous records. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0258:cell",
+        "object_id": "P0258:eff"
+      },
+      {
+        "relation_id": "P0258:r009",
+        "subject": "Device comprising 6 n-p type LiTCs",
+        "subject_role": "material_entity",
+        "predicate": "outputs",
+        "object": "Continuous reliable voltage 1.7 V",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference 20 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "As a consequence, the ionic thermoelectric device comprised of 6 n-p type LiTCs is constructed and can output a continuous and reliable voltage of 1.7 V at 20 K temperature difference. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:device",
+        "object_id": "P0258:voltage"
+      },
+      {
+        "relation_id": "P0258:r010",
+        "subject": "n-type liquid flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Cost-performance metric 1.06 $ W-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The n-type LiTCs with a competitive cost-performance metric (1.06 $ W-1) present a promising for the practical application.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0258:cell",
+        "object_id": "P0258:cost"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0259",
+    "title": "Thermoelectric Hydrogel Electronic Skin for Passive Multimodal Physiological Perception",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Electronic skins (e-skins) are being extensively researched for their ability to recognize physiological data and deliver feedback via electrical signals. "
+      },
+      {
+        "id": 1,
+        "text": "However, their wide range of applications is frequently restricted by the indispensableness of external power supplies and single sensory function. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we report a passive multimodal e-skin for real-time human health assessment based on a thermoelectric hydrogel. "
+      },
+      {
+        "id": 3,
+        "text": "The hydrogel network consists of poly(vinyl alcohol)/low acyl gellan gum with [Fe(CN)(6)](4-/3-) as the redox couple. "
+      },
+      {
+        "id": 4,
+        "text": "The introduction of glycerol and Li+ furnishes the gel-based e-skin with antidrying and antifreezing properties, a thermopower of 2.04 mV K-1, fast self-healing in less than 10 min, and high conductivity of 2.56 S m(-1). "
+      },
+      {
+        "id": 5,
+        "text": "As a prospective application, the e-skin can actively perceive multimodal physiological signals without the need for decoupling, including body temperature, pulse rate, and sweat content, in real time by synergistically coupling sensing and transduction. "
+      },
+      {
+        "id": 6,
+        "text": "This work offers a scientific basis and designs an approach to develop passive multimodal e-skins and promotes the application of wearable electronics in advanced intelligent medicine."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0259:skin",
+        "label": "Thermoelectric hydrogel passive multimodal e-skin",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0259:network",
+        "label": "Poly(vinyl alcohol)/low acyl gellan gum network",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0259:redox",
+        "label": "[Fe(CN)(6)](4-/3-) redox couple",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0259:glycerol",
+        "label": "Glycerol introduction",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0259:dry",
+        "label": "Antidrying properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0259:freeze",
+        "label": "Antifreezing properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0259:tp",
+        "label": "Thermopower 2.04 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0259:heal",
+        "label": "Self-healing in less than 10 min",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0259:conduct",
+        "label": "Conductivity 2.56 S m(-1)",
+        "role": "quantity"
+      },
+      {
+        "id": "P0259:couple",
+        "label": "Synergistic coupling of sensing and transduction",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0259:temp",
+        "label": "Real-time body-temperature perception",
+        "role": "application"
+      },
+      {
+        "id": "P0259:pulse",
+        "label": "Real-time pulse-rate perception",
+        "role": "application"
+      },
+      {
+        "id": "P0259:sweat",
+        "label": "Real-time sweat-content perception",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0259:r001",
+        "subject": "Thermoelectric hydrogel passive multimodal e-skin",
+        "subject_role": "material_entity",
+        "predicate": "has_network",
+        "object": "Poly(vinyl alcohol)/low acyl gellan gum network",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we report a passive multimodal e-skin for real-time human health assessment based on a thermoelectric hydrogel. ",
+        "context_quotes": [
+          "The hydrogel network consists of poly(vinyl alcohol)/low acyl gellan gum with [Fe(CN)(6)](4-/3-) as the redox couple. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0259:skin",
+        "object_id": "P0259:network"
+      },
+      {
+        "relation_id": "P0259:r002",
+        "subject": "Thermoelectric hydrogel passive multimodal e-skin",
+        "subject_role": "material_entity",
+        "predicate": "uses_as_redox_couple",
+        "object": "[Fe(CN)(6)](4-/3-) redox couple",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we report a passive multimodal e-skin for real-time human health assessment based on a thermoelectric hydrogel. ",
+        "context_quotes": [
+          "The hydrogel network consists of poly(vinyl alcohol)/low acyl gellan gum with [Fe(CN)(6)](4-/3-) as the redox couple. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0259:skin",
+        "object_id": "P0259:redox"
+      },
+      {
+        "relation_id": "P0259:r003",
+        "subject": "Glycerol introduction",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_confers",
+        "object": "Antidrying properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gel-based e-skin",
+        "joint_factors": [
+          "Glycerol introduction",
+          "Li+ introduction"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The introduction of glycerol and Li+ furnishes the gel-based e-skin with antidrying and antifreezing properties, a thermopower of 2.04 mV K-1, fast self-healing in less than 10 min, and high conductivity of 2.56 S m(-1). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:glycerol",
+        "object_id": "P0259:dry"
+      },
+      {
+        "relation_id": "P0259:r004",
+        "subject": "Glycerol introduction",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_confers",
+        "object": "Antifreezing properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gel-based e-skin",
+        "joint_factors": [
+          "Glycerol introduction",
+          "Li+ introduction"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The introduction of glycerol and Li+ furnishes the gel-based e-skin with antidrying and antifreezing properties, a thermopower of 2.04 mV K-1, fast self-healing in less than 10 min, and high conductivity of 2.56 S m(-1). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:glycerol",
+        "object_id": "P0259:freeze"
+      },
+      {
+        "relation_id": "P0259:r005",
+        "subject": "Glycerol introduction",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_confers",
+        "object": "Thermopower 2.04 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gel-based e-skin",
+        "joint_factors": [
+          "Glycerol introduction",
+          "Li+ introduction"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The introduction of glycerol and Li+ furnishes the gel-based e-skin with antidrying and antifreezing properties, a thermopower of 2.04 mV K-1, fast self-healing in less than 10 min, and high conductivity of 2.56 S m(-1). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:glycerol",
+        "object_id": "P0259:tp"
+      },
+      {
+        "relation_id": "P0259:r006",
+        "subject": "Glycerol introduction",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_confers",
+        "object": "Self-healing in less than 10 min",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gel-based e-skin",
+        "joint_factors": [
+          "Glycerol introduction",
+          "Li+ introduction"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The introduction of glycerol and Li+ furnishes the gel-based e-skin with antidrying and antifreezing properties, a thermopower of 2.04 mV K-1, fast self-healing in less than 10 min, and high conductivity of 2.56 S m(-1). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:glycerol",
+        "object_id": "P0259:heal"
+      },
+      {
+        "relation_id": "P0259:r007",
+        "subject": "Glycerol introduction",
+        "subject_role": "design_strategy",
+        "predicate": "jointly_confers",
+        "object": "Conductivity 2.56 S m(-1)",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Gel-based e-skin",
+        "joint_factors": [
+          "Glycerol introduction",
+          "Li+ introduction"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The introduction of glycerol and Li+ furnishes the gel-based e-skin with antidrying and antifreezing properties, a thermopower of 2.04 mV K-1, fast self-healing in less than 10 min, and high conductivity of 2.56 S m(-1). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:glycerol",
+        "object_id": "P0259:conduct"
+      },
+      {
+        "relation_id": "P0259:r008",
+        "subject": "Synergistic coupling of sensing and transduction",
+        "subject_role": "design_strategy",
+        "predicate": "enables_proposed",
+        "object": "Real-time body-temperature perception",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Prospective e-skin application; passive multimodal sensing without decoupling",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "As a prospective application, the e-skin can actively perceive multimodal physiological signals without the need for decoupling, including body temperature, pulse rate, and sweat content, in real time by synergistically coupling sensing and transduction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:couple",
+        "object_id": "P0259:temp"
+      },
+      {
+        "relation_id": "P0259:r009",
+        "subject": "Synergistic coupling of sensing and transduction",
+        "subject_role": "design_strategy",
+        "predicate": "enables_proposed",
+        "object": "Real-time pulse-rate perception",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Prospective e-skin application; passive multimodal sensing without decoupling",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "As a prospective application, the e-skin can actively perceive multimodal physiological signals without the need for decoupling, including body temperature, pulse rate, and sweat content, in real time by synergistically coupling sensing and transduction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:couple",
+        "object_id": "P0259:pulse"
+      },
+      {
+        "relation_id": "P0259:r010",
+        "subject": "Synergistic coupling of sensing and transduction",
+        "subject_role": "design_strategy",
+        "predicate": "enables_proposed",
+        "object": "Real-time sweat-content perception",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Prospective e-skin application; passive multimodal sensing without decoupling",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "As a prospective application, the e-skin can actively perceive multimodal physiological signals without the need for decoupling, including body temperature, pulse rate, and sweat content, in real time by synergistically coupling sensing and transduction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0259:couple",
+        "object_id": "P0259:sweat"
+      }
+    ]
+  }
+]

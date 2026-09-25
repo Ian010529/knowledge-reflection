@@ -1,0 +1,984 @@
+[
+  {
+    "paper_id": "P1041",
+    "title": "Effect of Ionic Radius and Resultant Two-Dimensionality of Phonons on Thermal Conductivity in M x CoO2 (M = Li, Na, K) by Perturbed Molecular Dynamics",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. "
+      },
+      {
+        "id": 1,
+        "text": "While thermal conductivity decreased for all compounds upon introduction of alkali-metal vacancies, the magnitude of the decrease is strongly dependent on the size of the alkali-metal ion. "
+      },
+      {
+        "id": 2,
+        "text": "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+      },
+      {
+        "id": 3,
+        "text": "In contrast, for systems with smaller alkali-metal ionic radius, even though higher thermal conductivity is predicted when no vacancies are present, vacancies are quite effective in significantly lowering thermal conductivity by modifying phonon states in the CoO2 layers, more so than in systems with larger alkali-metal vacancies."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1041:vac",
+        "label": "Introduction of alkali-metal vacancies",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1041:k",
+        "label": "Phonon thermal conductivity of studied MxCoO2 compounds",
+        "role": "quantity"
+      },
+      {
+        "id": "P1041:drop",
+        "label": "Magnitude of vacancy-induced thermal-conductivity decrease",
+        "role": "quantity"
+      },
+      {
+        "id": "P1041:size",
+        "label": "Alkali-metal ion size",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1041:phon",
+        "label": "Phonons in CoO2 layers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1041:large",
+        "label": "Increasing alkali-metal ionic radius",
+        "role": "condition"
+      },
+      {
+        "id": "P1041:two",
+        "label": "Two-dimensionality of phonons in CoO2 layers",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1041:kfree",
+        "label": "Thermal conductivity of vacancy-free compounds",
+        "role": "quantity"
+      },
+      {
+        "id": "P1041:eff",
+        "label": "Effectiveness of alkali-metal vacancies in lowering thermal conductivity",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1041:small",
+        "label": "Smaller alkali-metal ionic radius",
+        "role": "condition"
+      },
+      {
+        "id": "P1041:change",
+        "label": "Modification of phonon states in CoO2 layers",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1041:r001",
+        "subject": "Introduction of alkali-metal vacancies",
+        "subject_role": "design_strategy",
+        "predicate": "decreases",
+        "object": "Phonon thermal conductivity of studied MxCoO2 compounds",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "All Li, Na, and K compounds; perturbed molecular dynamics; x = 1 versus 0.5",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "While thermal conductivity decreased for all compounds upon introduction of alkali-metal vacancies, the magnitude of the decrease is strongly dependent on the size of the alkali-metal ion. "
+        ],
+        "modality_evidence": [
+          "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. "
+        ],
+        "subject_id": "P1041:vac",
+        "object_id": "P1041:k"
+      },
+      {
+        "relation_id": "P1041:r002",
+        "subject": "Magnitude of vacancy-induced thermal-conductivity decrease",
+        "subject_role": "quantity",
+        "predicate": "depends strongly on",
+        "object": "Alkali-metal ion size",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Perturbed molecular dynamics for studied MxCoO2 compounds",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "While thermal conductivity decreased for all compounds upon introduction of alkali-metal vacancies, the magnitude of the decrease is strongly dependent on the size of the alkali-metal ion. "
+        ],
+        "modality_evidence": [
+          "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. "
+        ],
+        "subject_id": "P1041:drop",
+        "object_id": "P1041:size"
+      },
+      {
+        "relation_id": "P1041:r003",
+        "subject": "Phonons in CoO2 layers",
+        "subject_role": "state_structure",
+        "predicate": "governs",
+        "object": "Phonon thermal conductivity of studied MxCoO2 compounds",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Numerical analyses using fictitious physical parameters",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "modality_evidence": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:phon",
+        "object_id": "P1041:k"
+      },
+      {
+        "relation_id": "P1041:r004",
+        "subject": "Increasing alkali-metal ionic radius",
+        "subject_role": "condition",
+        "predicate": "enhances",
+        "object": "Two-dimensionality of phonons in CoO2 layers",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Numerical analyses using fictitious physical parameters",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:large",
+        "object_id": "P1041:two"
+      },
+      {
+        "relation_id": "P1041:r005",
+        "subject": "Two-dimensionality of phonons in CoO2 layers",
+        "subject_role": "descriptor",
+        "predicate": "lowers",
+        "object": "Thermal conductivity of vacancy-free compounds",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Enhanced two-dimensionality with increasing ionic radius; fictitious-parameter numerical analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:two",
+        "object_id": "P1041:kfree"
+      },
+      {
+        "relation_id": "P1041:r006",
+        "subject": "Two-dimensionality of phonons in CoO2 layers",
+        "subject_role": "descriptor",
+        "predicate": "reduces",
+        "object": "Effectiveness of alkali-metal vacancies in lowering thermal conductivity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Enhanced two-dimensionality with increasing ionic radius renders vacancies ineffective; fictitious-parameter numerical analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:two",
+        "object_id": "P1041:eff"
+      },
+      {
+        "relation_id": "P1041:r007",
+        "subject": "Smaller alkali-metal ionic radius",
+        "subject_role": "condition",
+        "predicate": "is associated with higher",
+        "object": "Thermal conductivity of vacancy-free compounds",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Vacancy-free systems compared with larger-ionic-radius systems",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+          "In contrast, for systems with smaller alkali-metal ionic radius, even though higher thermal conductivity is predicted when no vacancies are present, vacancies are quite effective in significantly lowering thermal conductivity by modifying phonon states in the CoO2 layers, more so than in systems with larger alkali-metal vacancies."
+        ],
+        "modality_evidence": [
+          "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:small",
+        "object_id": "P1041:kfree"
+      },
+      {
+        "relation_id": "P1041:r008",
+        "subject": "Smaller alkali-metal ionic radius",
+        "subject_role": "condition",
+        "predicate": "is associated with greater",
+        "object": "Effectiveness of alkali-metal vacancies in lowering thermal conductivity",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Vacancies significantly lower conductivity; source comparison says 'systems with larger alkali-metal vacancies'",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+          "In contrast, for systems with smaller alkali-metal ionic radius, even though higher thermal conductivity is predicted when no vacancies are present, vacancies are quite effective in significantly lowering thermal conductivity by modifying phonon states in the CoO2 layers, more so than in systems with larger alkali-metal vacancies."
+        ],
+        "modality_evidence": [
+          "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:small",
+        "object_id": "P1041:eff"
+      },
+      {
+        "relation_id": "P1041:r009",
+        "subject": "Introduction of alkali-metal vacancies",
+        "subject_role": "design_strategy",
+        "predicate": "induces",
+        "object": "Modification of phonon states in CoO2 layers",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Systems with smaller alkali-metal ionic radius",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+          "In contrast, for systems with smaller alkali-metal ionic radius, even though higher thermal conductivity is predicted when no vacancies are present, vacancies are quite effective in significantly lowering thermal conductivity by modifying phonon states in the CoO2 layers, more so than in systems with larger alkali-metal vacancies."
+        ],
+        "modality_evidence": [
+          "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:vac",
+        "object_id": "P1041:change"
+      },
+      {
+        "relation_id": "P1041:r010",
+        "subject": "Modification of phonon states in CoO2 layers",
+        "subject_role": "mechanism_process",
+        "predicate": "significantly lowers",
+        "object": "Phonon thermal conductivity of studied MxCoO2 compounds",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Vacancy-induced modification in systems with smaller alkali-metal ionic radius",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+        "context_quotes": [
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. ",
+          "In contrast, for systems with smaller alkali-metal ionic radius, even though higher thermal conductivity is predicted when no vacancies are present, vacancies are quite effective in significantly lowering thermal conductivity by modifying phonon states in the CoO2 layers, more so than in systems with larger alkali-metal vacancies."
+        ],
+        "modality_evidence": [
+          "Phonon thermal conductivity calculations for Li (x) CoO2, Na (x) CoO2, and K (x) CoO2 (x = 1, 0.5) have been carried out by perturbed molecular dynamics to clarify the dependence of thermal conductivity on alkali-metal vacancy concentration in these materials. ",
+          "Further numerical analyses using fictitious physical parameters reveal that, with increasing ionic radius, the two-dimensionality of the phonons in the CoO2 layers, which are responsible for overall thermal conductivity, is enhanced, resulting in lower thermal conductivity in vacancy-free compounds as well as ineffectiveness of alkali-metal vacancies in lowering thermal conductivity. "
+        ],
+        "subject_id": "P1041:change",
+        "object_id": "P1041:k"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1042",
+    "title": "Influence of glass former to modifier ratio on the transport phenomena of glassy silver iodochromate solid electrolytes",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Fast ionic conduction in the AgI-Ag2O-CrO3 electrolyte system has been studied and the influence of glass former to glass modifier ratio on the conduction phenomena has been reported. "
+      },
+      {
+        "id": 1,
+        "text": "These electrolytes have been characterised by X-ray diffraction, electrical and electronic conductivities, complex impedance, thermoelectric power and infrared absorption techniques. "
+      },
+      {
+        "id": 2,
+        "text": "The possible structural changes occurring in the Ag2O-CrO3 matrix on the variation of the glass former to modifier ratio have been discussed."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1042:n1",
+        "label": "Glass former to modifier ratio in AgI-Ag2O-CrO3 electrolyte",
+        "role": "condition"
+      },
+      {
+        "id": "P1042:n2",
+        "label": "Ionic conduction in AgI-Ag2O-CrO3 electrolyte",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1042:n3",
+        "label": "Structural changes in Ag2O-CrO3 matrix",
+        "role": "state_structure"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1042:r001",
+        "subject": "Glass former to modifier ratio in AgI-Ag2O-CrO3 electrolyte",
+        "subject_role": "condition",
+        "predicate": "affects",
+        "object": "Ionic conduction in AgI-Ag2O-CrO3 electrolyte",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Effect direction unspecified.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Fast ionic conduction in the AgI-Ag2O-CrO3 electrolyte system has been studied and the influence of glass former to glass modifier ratio on the conduction phenomena has been reported. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1042:n1",
+        "object_id": "P1042:n2"
+      },
+      {
+        "relation_id": "P1042:r002",
+        "subject": "Glass former to modifier ratio in AgI-Ag2O-CrO3 electrolyte",
+        "subject_role": "condition",
+        "predicate": "may induce",
+        "object": "Structural changes in Ag2O-CrO3 matrix",
+        "object_role": "state_structure",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Possible structural changes; their nature is unspecified.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The possible structural changes occurring in the Ag2O-CrO3 matrix on the variation of the glass former to modifier ratio have been discussed.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1042:n1",
+        "object_id": "P1042:n3"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1043",
+    "title": "Thermoelectric properties of sintered and textured Nd-substituted Ca3CO4O9 ceramics",
+    "segments": [
+      {
+        "id": 0,
+        "text": "We present the results of low- and high-temperature measurements, from 5 to 800K, of the electrical resistivity and thermoelectric power of polycrystalline and c-axis-oriented textured samples of Ca3-zNdzCo4O9 (0 <= z <= 0.9). "
+      },
+      {
+        "id": 1,
+        "text": "Crystallographic structure, microstructure and texture analyses of the samples have also been carried out. "
+      },
+      {
+        "id": 2,
+        "text": "The substitution of the lighter rare-earth large ionic Nd for Ca results in an increase in the Seebeck coefficient. "
+      },
+      {
+        "id": 3,
+        "text": "However, the resistivity of the samples also increases accordingly. "
+      },
+      {
+        "id": 4,
+        "text": "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. "
+      },
+      {
+        "id": 5,
+        "text": "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+      },
+      {
+        "id": 6,
+        "text": "The decomposition temperatures of the samples with Nd content were observed to increase to values beyond the melting point of Ag, the technically important contact material for the fabrication of thermoelectric modules. "
+      },
+      {
+        "id": 7,
+        "text": "The studies on the thermoforged samples indicate that the electrical resistivity of the textured samples decreased by 2.5-fold as compared with that of the conventional sintered samples. "
+      },
+      {
+        "id": 8,
+        "text": "The increase in the decomposition temperature and the high Seebeck coefficient with low resistivity in thermoforged samples make the Nd-doped Ca3Co4O9 oxide as one of the candidate materials for high-temperature thermoelectric modules."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1043:n1",
+        "label": "Nd substitution for Ca in Ca3-zNdzCo4O9",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1043:n2",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P1043:n3",
+        "label": "Electrical resistivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1043:n4",
+        "label": "Carrier concentration",
+        "role": "quantity"
+      },
+      {
+        "id": "P1043:n5",
+        "label": "Decomposition temperature",
+        "role": "quantity"
+      },
+      {
+        "id": "P1043:n6",
+        "label": "Thermoforged c-axis-oriented textured samples",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1043:n7",
+        "label": "Nd-doped Ca3Co4O9",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1043:n8",
+        "label": "High-temperature thermoelectric modules",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1043:r001",
+        "subject": "Nd substitution for Ca in Ca3-zNdzCo4O9",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Ca3-zNdzCo4O9, 0 ≤ z ≤ 0.9; measurements span 5–800 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We present the results of low- and high-temperature measurements, from 5 to 800K, of the electrical resistivity and thermoelectric power of polycrystalline and c-axis-oriented textured samples of Ca3-zNdzCo4O9 (0 <= z <= 0.9). ",
+        "context_quotes": [
+          "The substitution of the lighter rare-earth large ionic Nd for Ca results in an increase in the Seebeck coefficient. "
+        ],
+        "modality_evidence": [
+          "We present the results of low- and high-temperature measurements, from 5 to 800K, of the electrical resistivity and thermoelectric power of polycrystalline and c-axis-oriented textured samples of Ca3-zNdzCo4O9 (0 <= z <= 0.9). "
+        ],
+        "subject_id": "P1043:n1",
+        "object_id": "P1043:n2"
+      },
+      {
+        "relation_id": "P1043:r002",
+        "subject": "Nd substitution for Ca in Ca3-zNdzCo4O9",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Electrical resistivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Ca3-zNdzCo4O9, 0 ≤ z ≤ 0.9; measurements span 5–800 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We present the results of low- and high-temperature measurements, from 5 to 800K, of the electrical resistivity and thermoelectric power of polycrystalline and c-axis-oriented textured samples of Ca3-zNdzCo4O9 (0 <= z <= 0.9). ",
+        "context_quotes": [
+          "The substitution of the lighter rare-earth large ionic Nd for Ca results in an increase in the Seebeck coefficient. ",
+          "However, the resistivity of the samples also increases accordingly. "
+        ],
+        "modality_evidence": [
+          "We present the results of low- and high-temperature measurements, from 5 to 800K, of the electrical resistivity and thermoelectric power of polycrystalline and c-axis-oriented textured samples of Ca3-zNdzCo4O9 (0 <= z <= 0.9). "
+        ],
+        "subject_id": "P1043:n1",
+        "object_id": "P1043:n3"
+      },
+      {
+        "relation_id": "P1043:r003",
+        "subject": "Nd substitution for Ca in Ca3-zNdzCo4O9",
+        "subject_role": "design_strategy",
+        "predicate": "decreases",
+        "object": "Carrier concentration",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Hall measurements on polycrystalline samples at 50–300 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. ",
+        "context_quotes": [
+          "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+        ],
+        "modality_evidence": [
+          "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. ",
+          "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+        ],
+        "subject_id": "P1043:n1",
+        "object_id": "P1043:n4"
+      },
+      {
+        "relation_id": "P1043:r004",
+        "subject": "Carrier concentration",
+        "subject_role": "quantity",
+        "predicate": "decrease causes increase in",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "With increasing Nd content; attribution from Hall measurements at 50–300 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The substitution of the lighter rare-earth large ionic Nd for Ca results in an increase in the Seebeck coefficient. ",
+        "context_quotes": [
+          "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. ",
+          "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+        ],
+        "modality_evidence": [
+          "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. ",
+          "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+        ],
+        "subject_id": "P1043:n4",
+        "object_id": "P1043:n2"
+      },
+      {
+        "relation_id": "P1043:r005",
+        "subject": "Carrier concentration",
+        "subject_role": "quantity",
+        "predicate": "decrease causes increase in",
+        "object": "Electrical resistivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "With increasing Nd content; attribution from Hall measurements at 50–300 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The substitution of the lighter rare-earth large ionic Nd for Ca results in an increase in the Seebeck coefficient. ",
+        "context_quotes": [
+          "However, the resistivity of the samples also increases accordingly. ",
+          "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. ",
+          "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+        ],
+        "modality_evidence": [
+          "In addition, the Hall effect of the polycrystalline Ca3-zNdzCo4O9 sample was studied in the 50-300 K interval. ",
+          "This measurement showed that the variation of Seebeck coefficient and resistivity are caused by a decrease in carrier concentration with Nd content. "
+        ],
+        "subject_id": "P1043:n4",
+        "object_id": "P1043:n3"
+      },
+      {
+        "relation_id": "P1043:r006",
+        "subject": "Nd substitution for Ca in Ca3-zNdzCo4O9",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Decomposition temperature",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "To values exceeding the melting point of Ag.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The decomposition temperatures of the samples with Nd content were observed to increase to values beyond the melting point of Ag, the technically important contact material for the fabrication of thermoelectric modules. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1043:n1",
+        "object_id": "P1043:n5"
+      },
+      {
+        "relation_id": "P1043:r007",
+        "subject": "Thermoforged c-axis-oriented textured samples",
+        "subject_role": "material_entity",
+        "predicate": "has 2.5-fold lower",
+        "object": "Electrical resistivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with conventional sintered samples.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The studies on the thermoforged samples indicate that the electrical resistivity of the textured samples decreased by 2.5-fold as compared with that of the conventional sintered samples. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1043:n6",
+        "object_id": "P1043:n3"
+      },
+      {
+        "relation_id": "P1043:r008",
+        "subject": "Nd-doped Ca3Co4O9",
+        "subject_role": "material_entity",
+        "predicate": "is a candidate for",
+        "object": "High-temperature thermoelectric modules",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Thermoforged samples combine increased decomposition temperature, high Seebeck coefficient and low resistivity.",
+        "joint_factors": [
+          "Decomposition temperature",
+          "Seebeck coefficient",
+          "Electrical resistivity"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The increase in the decomposition temperature and the high Seebeck coefficient with low resistivity in thermoforged samples make the Nd-doped Ca3Co4O9 oxide as one of the candidate materials for high-temperature thermoelectric modules.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1043:n7",
+        "object_id": "P1043:n8"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1044",
+    "title": "Thermoelectric properties of layered ternary telluride Nb3SiTe6",
+    "segments": [
+      {
+        "id": 0,
+        "text": "We report the study of the thermoelectric properties of layered ternary telluride Nb3SiTe6. "
+      },
+      {
+        "id": 1,
+        "text": "The temperature dependence of the thermoelectric power (TEP) evolves from nonlinear to linear when the thickness of the devices is reduced, consistent with the suppression of electron-phonon interaction caused by quantum confinement. "
+      },
+      {
+        "id": 2,
+        "text": "The magnitude of TEP strongly depends on the hole density. "
+      },
+      {
+        "id": 3,
+        "text": "It increases with decreasing hole density when the hole density is low, as observed in ionic-liquid-gated thin flakes. "
+      },
+      {
+        "id": 4,
+        "text": "However, the device with the largest hole density possesses the highest TEP. "
+      },
+      {
+        "id": 5,
+        "text": "Theoretical analysis suggests that the high TEP in the device with the largest hole density can be ascribed to the phonon-mediated intervalley scatterings. "
+      },
+      {
+        "id": 6,
+        "text": "The highest TEP reaches similar to 230 mu V/K at 370 K while the electrical resistivity of the device is maintained below 1.5 m Omega cm. "
+      },
+      {
+        "id": 7,
+        "text": "Therefore, a large power factor PF similar to 36 mu W cm(-1) K-2 comparable to the record values reported in p-type materials is obtained."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1044:n1",
+        "label": "Layered ternary telluride Nb3SiTe6 devices",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1044:n4",
+        "label": "Quantum confinement",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1044:n2",
+        "label": "Reduced device thickness",
+        "role": "condition"
+      },
+      {
+        "id": "P1044:n3",
+        "label": "TEP temperature dependence",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1044:n5",
+        "label": "Electron-phonon interaction",
+        "role": "interaction"
+      },
+      {
+        "id": "P1044:n6",
+        "label": "Hole density",
+        "role": "quantity"
+      },
+      {
+        "id": "P1044:n7",
+        "label": "TEP magnitude",
+        "role": "quantity"
+      },
+      {
+        "id": "P1044:n9",
+        "label": "Nb3SiTe6 device with largest hole density",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1044:n8",
+        "label": "Phonon-mediated intervalley scattering",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1044:n10",
+        "label": "Electrical resistivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1044:n11",
+        "label": "Power factor",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1044:r001",
+        "subject": "Layered ternary telluride Nb3SiTe6 devices",
+        "subject_role": "material_entity",
+        "predicate": "has structure",
+        "object": "Quantum confinement",
+        "object_role": "state_structure",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Quantum confinement invoked to interpret thickness-dependent TEP behavior.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We report the study of the thermoelectric properties of layered ternary telluride Nb3SiTe6. ",
+        "context_quotes": [
+          "The temperature dependence of the thermoelectric power (TEP) evolves from nonlinear to linear when the thickness of the devices is reduced, consistent with the suppression of electron-phonon interaction caused by quantum confinement. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n1",
+        "object_id": "P1044:n4"
+      },
+      {
+        "relation_id": "P1044:r002",
+        "subject": "Reduced device thickness",
+        "subject_role": "condition",
+        "predicate": "changes from nonlinear to linear",
+        "object": "TEP temperature dependence",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Nb3SiTe6 devices.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We report the study of the thermoelectric properties of layered ternary telluride Nb3SiTe6. ",
+        "context_quotes": [
+          "The temperature dependence of the thermoelectric power (TEP) evolves from nonlinear to linear when the thickness of the devices is reduced, consistent with the suppression of electron-phonon interaction caused by quantum confinement. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n2",
+        "object_id": "P1044:n3"
+      },
+      {
+        "relation_id": "P1044:r003",
+        "subject": "Quantum confinement",
+        "subject_role": "state_structure",
+        "predicate": "suppresses",
+        "object": "Electron-phonon interaction",
+        "object_role": "interaction",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Interpretation consistent with the thickness-dependent change in TEP temperature dependence.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The temperature dependence of the thermoelectric power (TEP) evolves from nonlinear to linear when the thickness of the devices is reduced, consistent with the suppression of electron-phonon interaction caused by quantum confinement. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1044:n4",
+        "object_id": "P1044:n5"
+      },
+      {
+        "relation_id": "P1044:r004",
+        "subject": "Hole density",
+        "subject_role": "quantity",
+        "predicate": "strongly influences",
+        "object": "TEP magnitude",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Overall dependence is not assigned a single direction.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The magnitude of TEP strongly depends on the hole density. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1044:n6",
+        "object_id": "P1044:n7"
+      },
+      {
+        "relation_id": "P1044:r005",
+        "subject": "Hole density",
+        "subject_role": "quantity",
+        "predicate": "decrease increases",
+        "object": "TEP magnitude",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Low-hole-density regime in ionic-liquid-gated thin flakes.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The magnitude of TEP strongly depends on the hole density. ",
+        "context_quotes": [
+          "It increases with decreasing hole density when the hole density is low, as observed in ionic-liquid-gated thin flakes. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n6",
+        "object_id": "P1044:n7"
+      },
+      {
+        "relation_id": "P1044:r006",
+        "subject": "Nb3SiTe6 device with largest hole density",
+        "subject_role": "material_entity",
+        "predicate": "has highest",
+        "object": "TEP magnitude",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Among the reported devices.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "However, the device with the largest hole density possesses the highest TEP. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1044:n9",
+        "object_id": "P1044:n7"
+      },
+      {
+        "relation_id": "P1044:r007",
+        "subject": "Phonon-mediated intervalley scattering",
+        "subject_role": "mechanism_process",
+        "predicate": "may explain high",
+        "object": "TEP magnitude",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "theoretical",
+        "conditions": "Theoretical analysis; device with largest hole density.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Theoretical analysis suggests that the high TEP in the device with the largest hole density can be ascribed to the phonon-mediated intervalley scatterings. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Theoretical analysis suggests that the high TEP in the device with the largest hole density can be ascribed to the phonon-mediated intervalley scatterings. "
+        ],
+        "subject_id": "P1044:n8",
+        "object_id": "P1044:n7"
+      },
+      {
+        "relation_id": "P1044:r008",
+        "subject": "Nb3SiTe6 device with largest hole density",
+        "subject_role": "material_entity",
+        "predicate": "achieves approximately 230 μV/K",
+        "object": "TEP magnitude",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 370 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "However, the device with the largest hole density possesses the highest TEP. ",
+        "context_quotes": [
+          "The highest TEP reaches similar to 230 mu V/K at 370 K while the electrical resistivity of the device is maintained below 1.5 m Omega cm. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n9",
+        "object_id": "P1044:n7"
+      },
+      {
+        "relation_id": "P1044:r009",
+        "subject": "Nb3SiTe6 device with largest hole density",
+        "subject_role": "material_entity",
+        "predicate": "maintains below 1.5 mΩ cm",
+        "object": "Electrical resistivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Device achieving the highest TEP, approximately 230 μV/K at 370 K.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "However, the device with the largest hole density possesses the highest TEP. ",
+        "context_quotes": [
+          "The highest TEP reaches similar to 230 mu V/K at 370 K while the electrical resistivity of the device is maintained below 1.5 m Omega cm. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n9",
+        "object_id": "P1044:n10"
+      },
+      {
+        "relation_id": "P1044:r010",
+        "subject": "Nb3SiTe6 device with largest hole density",
+        "subject_role": "material_entity",
+        "predicate": "achieves approximately 36 μW cm−1 K−2",
+        "object": "Power factor",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparable to record values reported for p-type materials.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "However, the device with the largest hole density possesses the highest TEP. ",
+        "context_quotes": [
+          "The highest TEP reaches similar to 230 mu V/K at 370 K while the electrical resistivity of the device is maintained below 1.5 m Omega cm. ",
+          "Therefore, a large power factor PF similar to 36 mu W cm(-1) K-2 comparable to the record values reported in p-type materials is obtained."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n9",
+        "object_id": "P1044:n11"
+      },
+      {
+        "relation_id": "P1044:r011",
+        "subject": "TEP magnitude",
+        "subject_role": "quantity",
+        "predicate": "jointly yields large",
+        "object": "Power factor",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "TEP approximately 230 μV/K at 370 K with resistivity below 1.5 mΩ cm yields PF approximately 36 μW cm−1 K−2.",
+        "joint_factors": [
+          "Electrical resistivity"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The highest TEP reaches similar to 230 mu V/K at 370 K while the electrical resistivity of the device is maintained below 1.5 m Omega cm. ",
+        "context_quotes": [
+          "Therefore, a large power factor PF similar to 36 mu W cm(-1) K-2 comparable to the record values reported in p-type materials is obtained."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1044:n7",
+        "object_id": "P1044:n11"
+      }
+    ]
+  }
+]

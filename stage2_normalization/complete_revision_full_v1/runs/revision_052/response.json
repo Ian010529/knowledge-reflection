@@ -1,0 +1,512 @@
+{
+  "papers": [
+    {
+      "paper_id": "P0222",
+      "decisions": [
+        {
+          "relation_id": "P0222:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0222:r002",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Include evidence for the stated temperature-gradient and salt-concentration conditions."
+        },
+        {
+          "relation_id": "P0222:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Include evidence for the stated temperature-gradient and salt-concentration conditions."
+        },
+        {
+          "relation_id": "P0222:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0222:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0222:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0222:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Soret effect",
+          "subject_role": "mechanism_process",
+          "predicate": "produces",
+          "object": "Concentration gradient in a mixture",
+          "object_role": "quantity",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "When the mixture is exposed to a temperature gradient.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Temperature gradient",
+          "subject_role": "condition",
+          "predicate": "drives",
+          "object": "Thermal diffusion of mass",
+          "object_role": "mechanism_process",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Mass diffusion",
+          "subject_role": "mechanism_process",
+          "predicate": "acts to remove",
+          "object": "Concentration gradient in a mixture",
+          "object_role": "quantity",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Soret effect",
+          "subject_role": "mechanism_process",
+          "predicate": "is a balance between",
+          "object": "Thermal diffusion and concentration-gradient-removing mass diffusion",
+          "object_role": "mechanism_process",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [
+            "Thermal diffusion",
+            "Mass diffusion acting to remove the concentration gradient"
+          ],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Soret-effect measurement",
+          "subject_role": "mechanism_process",
+          "predicate": "is performed at",
+          "object": "Steady state",
+          "object_role": "state_structure",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Thermogalvanic cell with lithium metal electrodes and dry PEO/LiTFSI electrolyte",
+          "subject_role": "material_entity",
+          "predicate": "is used to measure",
+          "object": "Soret coefficient of dry PEO/LiTFSI electrolyte",
+          "object_role": "quantity",
+          "e": [
+            3,
+            9
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            9
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0223",
+      "decisions": [
+        {
+          "relation_id": "P0223:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0223:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0223:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0223:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0223:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0223:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Affinity for additives",
+          "subject_role": "interaction",
+          "predicate": "influences",
+          "object": "Seebeck coefficient",
+          "object_role": "quantity",
+          "e": [
+            4
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Qualitative and quantitative analyses; effect direction is unspecified.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Interactions between redox ions and additives",
+          "subject_role": "interaction",
+          "predicate": "increase",
+          "object": "Seebeck coefficient",
+          "object_role": "quantity",
+          "e": [
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Reported in recent studies.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Thermogalvanic cells",
+          "subject_role": "material_entity",
+          "predicate": "can directly convert",
+          "object": "Waste heat into electricity",
+          "object_role": "performance_function",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Using redox reactions under continuous operation with a simple, cost-effective design.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0224",
+      "decisions": [
+        {
+          "relation_id": "P0224:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r014",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r015",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0224:r016",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Analytical model results for magnetic nanofluids",
+          "subject_role": "quantity",
+          "predicate": "are combined with",
+          "object": "Thermoelectric-potential formulation for thermogalvanic cells",
+          "object_role": "design_strategy",
+          "e": [
+            0,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "me": [
+            0
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Analytical model results for magnetic nanofluids",
+          "subject_role": "quantity",
+          "predicate": "are compared with",
+          "object": "Observed Seebeck coefficient enhancement/diminution in magnetic nanofluids in polar media",
+          "object_role": "quantity",
+          "e": [
+            0,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "theoretical",
+          "me": [
+            0
+          ],
+          "conditions": "Results combined with the thermoelectric-potential formulation for thermogalvanic cells; agreement is not specified.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0225",
+      "decisions": [
+        {
+          "relation_id": "P0225:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0225:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

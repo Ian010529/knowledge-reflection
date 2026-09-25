@@ -1,0 +1,148 @@
+{
+  "pairs": [
+    {
+      "review_id": "M053",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "ionic_thermodiffusion",
+      "right_physics": "thermogalvanic_redox",
+      "match": 1,
+      "level": "analogous_different_mechanisms",
+      "explanation": "两摘要均支持所选过程产生电势差的方向；但离子选择性热扩散与电极氧化还原仅在热致产电功能上类比，不能视为同一机制。",
+      "conditions": "compatible",
+      "physical_boundary": "两侧均有温差驱动背景。左侧为离子热扩散产生电势，右侧为反应熵相关的电极电势并涉及电流；不能由左侧传感电压推断持续供电能力，也不能将离子迁移选择性直接等同于红氧反应熵调控。",
+      "neighbor_claim_ids": [
+        "TG:P0094:complete_v1_cr001",
+        "TG:P0094:complete_v1_cr003"
+      ],
+      "local_structure_assessment": "右侧存在同论文的“熵→电极红氧过程→电势差”有向路径，且红氧过程另产生电流；左侧无提供的对应上游边，仅可建立有限单边类比。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "背景关系得到支持，但摘要未提供两机制的可迁移设计参数或统一负载与时间响应比较。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "均承担温差下产生电势的功能，物理实现分别为离子热扩散和电极红氧过程。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "equivalent_in_context",
+          "reason": "均指两端电势差这一物理量，等同不延伸至产生机制或输出能力。"
+        }
+      ],
+      "left_working_stage": "温差下电势建立与热传感；背景机制",
+      "right_working_stage": "温差下热电化学发电；稳态细节未说明"
+    },
+    {
+      "review_id": "M054",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "thermogalvanic_redox",
+      "match": 0,
+      "level": "surface_similarity",
+      "explanation": "左侧明确描述储能阶段的双电层电容工作，右侧描述热充电的热电化学转换机制。两条关系虽均为器件采用某机制，但所指功能阶段不同，不能建立实质关系对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "双电层储能涉及界面电荷积累；右侧以铁氰化物红氧对实现热电化学转换，并另有赝电容储能。有限电容充放电与热电化学产电须分开；右侧也不能仅凭热电化学机制判为持续稳态电源。",
+      "neighbor_claim_ids": [
+        "iTE:P1007:r002",
+        "iTE:P1007:r010",
+        "TG:P0112:r001"
+      ],
+      "local_structure_assessment": "左侧邻边确认采能与储能集成及双电层储能指标，右侧邻边确认红氧凝胶器件构成。它们是器件发出的分支，未构成可对应的两边因果路径。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "左侧机制分类对应所选双电层储能关系，不将论文的热扩散采能背景替换为目标机制；摘要缺少统一充放电条件。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "analogous_role",
+          "reason": "均是集成热采能与储能的超级电容器，但属于不同结构与电解质体系。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "different",
+          "reason": "双电层电容工作是储能机制，热电化学效应是温差驱动的转换机制。"
+        }
+      ],
+      "left_working_stage": "储能与电容性能表征",
+      "right_working_stage": "热充电／热电化学能量转换"
+    },
+    {
+      "review_id": "M055",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 1,
+      "level": "shared_outcome_only",
+      "explanation": "两条“材料具有高透明度”关系均获摘要支持，仅在光学属性层面有限对应。左侧为材料背景性质，右侧为特定溶剂与双网络凝胶的研究结果，不支持透明化机制对应。",
+      "conditions": "insufficient",
+      "physical_boundary": "所选关系均为光学性质，不直接表征热电转换。左文研究导电聚合物热电性能，右文研究热电化学凝胶；透明度相同不能连接两者的载流机制，也不能证明处理后光学性质一致。",
+      "neighbor_claim_ids": [
+        "TG:P0057:r005",
+        "TG:P0057:complete_v1_cr001"
+      ],
+      "local_structure_assessment": "右侧有同论文“引入二元溶剂→凝胶→高透明度”路径，并有溶剂直接使能透明度的边；左侧无对应制备路径，仅支持属性单边对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "无透过率、波长、厚度或左侧处理后透明度数据；不能提出有证据支撑的透明化策略迁移。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "different",
+          "reason": "PEDOT:PSS与PVA/gelation双网络凝胶是不同材料体系，目标关系未建立相同设计角色。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "equivalent_in_context",
+          "reason": "均指高光学透明度这一性质，但不表示定量透过率相同。"
+        }
+      ],
+      "left_working_stage": "背景材料性质描述；未指定测量阶段",
+      "right_working_stage": "制备后凝胶光学性质表征"
+    },
+    {
+      "review_id": "M056",
+      "left_support": "supported",
+      "right_support": "supported",
+      "left_physics": "other_unclear",
+      "right_physics": "other_unclear",
+      "match": 1,
+      "level": "surface_similarity",
+      "explanation": "摘要分别支持PEDOT:PSS属于可水加工导电聚合物、离子聚合物器件可水加工。共同点只覆盖加工属性；左侧对象还包含导电聚合物类别，且材料与器件层级不同。",
+      "conditions": "insufficient",
+      "physical_boundary": "对应发生在制备阶段。左文涉及PEDOT电子载流与掺杂，右文讨论单极离子导体的多组分输运；右文未明确电极红氧化学，不能凭“thermogalvanic”命名判为红氧机制。水加工性不保证工作含水量或发电条件兼容。",
+      "neighbor_claim_ids": [
+        "TG:P0216:r003"
+      ],
+      "local_structure_assessment": "右侧邻边确认器件基于单极离子导电聚合物，与水加工性边构成共同主语的分支，不能串成因果路径。仅可保留加工属性的有限单边对应。",
+      "transfer": "not_supported",
+      "insight_question": "",
+      "limitations": "两摘要均未给出可比较的水加工流程；所选关系不能确定热电转换机制或支持工艺迁移。",
+      "endpoint_maps": [
+        {
+          "left_endpoint": "subject",
+          "right_endpoint": "subject",
+          "kind": "related_not_equivalent",
+          "reason": "左侧是具体导电聚合物体系，右侧是基于单极离子导体的器件，实体层级及载流方式不同。"
+        },
+        {
+          "left_endpoint": "object",
+          "right_endpoint": "object",
+          "kind": "related_not_equivalent",
+          "reason": "共同包含可水加工性，但左侧复合概念还限定为导电聚合物，不能整体等同于右侧属性。"
+        }
+      ],
+      "left_working_stage": "制备相关的材料背景属性",
+      "right_working_stage": "器件制备与水加工性展示"
+    }
+  ]
+}

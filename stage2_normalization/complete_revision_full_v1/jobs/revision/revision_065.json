@@ -1,0 +1,1104 @@
+[
+  {
+    "paper_id": "P0276",
+    "title": "Integrated Moist-Thermoelectric Generator for Efficient Waste Steam Energy Utilization",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Industrial waste steam is one of the major sources of global energy losses. "
+      },
+      {
+        "id": 1,
+        "text": "Therefore, the collection and conversion of waste steam energy into electricity have aroused great interest. "
+      },
+      {
+        "id": 2,
+        "text": "Here, a two-in-one strategy is reported that combines thermoelectric and moist-electric generation mechanisms for a highly efficient flexible moist-thermoelectric generator (MTEG). "
+      },
+      {
+        "id": 3,
+        "text": "The spontaneous adsorption of water molecules and heat in the polyelectrolyte membrane induces the fast dissociation and diffusion of Na+ and H+, resulting in the high electricity generation. "
+      },
+      {
+        "id": 4,
+        "text": "Thus, the assembled flexible MTEG generates power with a high open-circuit voltage (V-oc) of 1.81 V (effective area = 1cm(2)) and a power density of up to 4.75 +/- 0.4 mu W cm(-2). "
+      },
+      {
+        "id": 5,
+        "text": "With efficient integration, a 12-unit MTEG can produce a V-oc of 15.97 V, which is superior to most known TEGs and MEGs. "
+      },
+      {
+        "id": 6,
+        "text": "The integrated and flexible MTEGs reported herein provide new insights for harvesting energy from industrial waste steam."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0276:strategy",
+        "label": "Combined thermoelectric and moist-electric generation",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0276:mteg",
+        "label": "Flexible moist-thermoelectric generator",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0276:water",
+        "label": "Spontaneous water-molecule adsorption in polyelectrolyte membrane",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0276:diss",
+        "label": "Fast Na+ and H+ dissociation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0276:diff",
+        "label": "Fast Na+ and H+ diffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0276:electric",
+        "label": "High electricity generation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0276:v",
+        "label": "Open-circuit voltage 1.81 V",
+        "role": "quantity"
+      },
+      {
+        "id": "P0276:pd",
+        "label": "Power density up to 4.75 ± 0.4 μW cm−2",
+        "role": "quantity"
+      },
+      {
+        "id": "P0276:integration",
+        "label": "Efficient 12-unit integration",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0276:av",
+        "label": "Open-circuit voltage 15.97 V",
+        "role": "quantity"
+      },
+      {
+        "id": "P0276:array",
+        "label": "12-unit MTEG",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0276:app",
+        "label": "Industrial waste steam energy harvesting",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0276:r001",
+        "subject": "Combined thermoelectric and moist-electric generation",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Flexible moist-thermoelectric generator",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Highly efficient, flexible generator",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, a two-in-one strategy is reported that combines thermoelectric and moist-electric generation mechanisms for a highly efficient flexible moist-thermoelectric generator (MTEG). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:strategy",
+        "object_id": "P0276:mteg"
+      },
+      {
+        "relation_id": "P0276:r002",
+        "subject": "Spontaneous water-molecule adsorption in polyelectrolyte membrane",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly induces",
+        "object": "Fast Na+ and H+ dissociation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Polyelectrolyte membrane",
+        "joint_factors": [
+          "Heat uptake in polyelectrolyte membrane"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The spontaneous adsorption of water molecules and heat in the polyelectrolyte membrane induces the fast dissociation and diffusion of Na+ and H+, resulting in the high electricity generation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:water",
+        "object_id": "P0276:diss"
+      },
+      {
+        "relation_id": "P0276:r003",
+        "subject": "Spontaneous water-molecule adsorption in polyelectrolyte membrane",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly induces",
+        "object": "Fast Na+ and H+ diffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Polyelectrolyte membrane",
+        "joint_factors": [
+          "Heat uptake in polyelectrolyte membrane"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The spontaneous adsorption of water molecules and heat in the polyelectrolyte membrane induces the fast dissociation and diffusion of Na+ and H+, resulting in the high electricity generation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:water",
+        "object_id": "P0276:diff"
+      },
+      {
+        "relation_id": "P0276:r004",
+        "subject": "Fast Na+ and H+ dissociation",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly produces",
+        "object": "High electricity generation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following spontaneous water and heat uptake",
+        "joint_factors": [
+          "Fast Na+ and H+ diffusion"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The spontaneous adsorption of water molecules and heat in the polyelectrolyte membrane induces the fast dissociation and diffusion of Na+ and H+, resulting in the high electricity generation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:diss",
+        "object_id": "P0276:electric"
+      },
+      {
+        "relation_id": "P0276:r005",
+        "subject": "Flexible moist-thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Open-circuit voltage 1.81 V",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Effective area 1 cm²",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Thus, the assembled flexible MTEG generates power with a high open-circuit voltage (V-oc) of 1.81 V (effective area = 1cm(2)) and a power density of up to 4.75 +/- 0.4 mu W cm(-2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:mteg",
+        "object_id": "P0276:v"
+      },
+      {
+        "relation_id": "P0276:r006",
+        "subject": "Flexible moist-thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Power density up to 4.75 ± 0.4 μW cm−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Assembled flexible MTEG; effective area 1 cm²",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Thus, the assembled flexible MTEG generates power with a high open-circuit voltage (V-oc) of 1.81 V (effective area = 1cm(2)) and a power density of up to 4.75 +/- 0.4 mu W cm(-2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:mteg",
+        "object_id": "P0276:pd"
+      },
+      {
+        "relation_id": "P0276:r007",
+        "subject": "Efficient 12-unit integration",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Open-circuit voltage 15.97 V",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "12-unit MTEG; superior to most known TEGs and MEGs",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "With efficient integration, a 12-unit MTEG can produce a V-oc of 15.97 V, which is superior to most known TEGs and MEGs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:integration",
+        "object_id": "P0276:av"
+      },
+      {
+        "relation_id": "P0276:r008",
+        "subject": "12-unit MTEG",
+        "subject_role": "material_entity",
+        "predicate": "produces",
+        "object": "Open-circuit voltage 15.97 V",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Efficient integration; superior to most known TEGs and MEGs",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "With efficient integration, a 12-unit MTEG can produce a V-oc of 15.97 V, which is superior to most known TEGs and MEGs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:array",
+        "object_id": "P0276:av"
+      },
+      {
+        "relation_id": "P0276:r009",
+        "subject": "Flexible moist-thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Industrial waste steam energy harvesting",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Integrated flexible generators",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The integrated and flexible MTEGs reported herein provide new insights for harvesting energy from industrial waste steam.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0276:mteg",
+        "object_id": "P0276:app"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0278",
+    "title": "Aqueous biphase-boosted liquid-state thermocell for continuous low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Low-grade heat (<100 C) is widespread and vast potential source of power to be exploited. "
+      },
+      {
+        "id": 1,
+        "text": "Liquid-state ther-mocell (LTC) has provided an alternative approach to directly convert low-grade heat into electricity to help carbon emission reduction. "
+      },
+      {
+        "id": 2,
+        "text": "Seebeck coefficient (Se), electrical conductivity (a) and thermal conductivity (x) are the three interdependent key factors determining the performance of LTCs. "
+      },
+      {
+        "id": 3,
+        "text": "However, most of the previous re-searches focused on improving Se and a while ignoring the factor x. "
+      },
+      {
+        "id": 4,
+        "text": "Here, we introduce an aqueous biphasic system as solvent to fabricate electrolytes for LTCs. "
+      },
+      {
+        "id": 5,
+        "text": "The aqueous biphasic electrolytes can not only offer different solvation environment near the electrodes, but also suppress the thermal convection, hence result in improved Se and reduced x. "
+      },
+      {
+        "id": 6,
+        "text": "With the aqueous biphasic electrolyte of K3Fe(CN)6/K4Fe(CN)6 as the redox couple, the Se of the LTC was doubled and the output power was improved over 5 times. "
+      },
+      {
+        "id": 7,
+        "text": "Furthermore, with the help of porous graphite felt as electrode material, the output power can be improved over 7 times. "
+      },
+      {
+        "id": 8,
+        "text": "This work provides a new pathway for the development of high-performance LTC to harvest low-grade heats."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0278:aq",
+        "label": "Aqueous biphasic electrolytes",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0278:sol",
+        "label": "Different solvation environments near the electrodes",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0278:conv",
+        "label": "Thermal convection",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0278:se",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0278:tc",
+        "label": "Thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0278:cell",
+        "label": "LTC with aqueous biphasic K3Fe(CN)6/K4Fe(CN)6 electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0278:double",
+        "label": "Doubled Seebeck coefficient",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0278:five",
+        "label": "Output power improved over 5 times",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0278:felt",
+        "label": "Porous graphite felt electrode",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0278:seven",
+        "label": "Output power improved over 7 times",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0278:r001",
+        "subject": "Aqueous biphasic electrolytes",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Different solvation environments near the electrodes",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The aqueous biphasic electrolytes can not only offer different solvation environment near the electrodes, but also suppress the thermal convection, hence result in improved Se and reduced x. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0278:aq",
+        "object_id": "P0278:sol"
+      },
+      {
+        "relation_id": "P0278:r002",
+        "subject": "Aqueous biphasic electrolytes",
+        "subject_role": "material_entity",
+        "predicate": "suppresses",
+        "object": "Thermal convection",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The aqueous biphasic electrolytes can not only offer different solvation environment near the electrodes, but also suppress the thermal convection, hence result in improved Se and reduced x. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0278:aq",
+        "object_id": "P0278:conv"
+      },
+      {
+        "relation_id": "P0278:r003",
+        "subject": "Aqueous biphasic electrolytes",
+        "subject_role": "material_entity",
+        "predicate": "improves",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Attributed jointly to different electrode-adjacent solvation environments and suppressed thermal convection",
+        "joint_factors": [
+          "Different solvation environments near the electrodes",
+          "Suppression of thermal convection"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The aqueous biphasic electrolytes can not only offer different solvation environment near the electrodes, but also suppress the thermal convection, hence result in improved Se and reduced x. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0278:aq",
+        "object_id": "P0278:se"
+      },
+      {
+        "relation_id": "P0278:r004",
+        "subject": "Aqueous biphasic electrolytes",
+        "subject_role": "material_entity",
+        "predicate": "reduces",
+        "object": "Thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Attributed jointly to different electrode-adjacent solvation environments and suppressed thermal convection",
+        "joint_factors": [
+          "Different solvation environments near the electrodes",
+          "Suppression of thermal convection"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The aqueous biphasic electrolytes can not only offer different solvation environment near the electrodes, but also suppress the thermal convection, hence result in improved Se and reduced x. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0278:aq",
+        "object_id": "P0278:tc"
+      },
+      {
+        "relation_id": "P0278:r005",
+        "subject": "LTC with aqueous biphasic K3Fe(CN)6/K4Fe(CN)6 electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Doubled Seebeck coefficient",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "With the aqueous biphasic electrolyte of K3Fe(CN)6/K4Fe(CN)6 as the redox couple, the Se of the LTC was doubled and the output power was improved over 5 times. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0278:cell",
+        "object_id": "P0278:double"
+      },
+      {
+        "relation_id": "P0278:r006",
+        "subject": "LTC with aqueous biphasic K3Fe(CN)6/K4Fe(CN)6 electrolyte",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Output power improved over 5 times",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "With the aqueous biphasic electrolyte of K3Fe(CN)6/K4Fe(CN)6 as the redox couple, the Se of the LTC was doubled and the output power was improved over 5 times. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0278:cell",
+        "object_id": "P0278:five"
+      },
+      {
+        "relation_id": "P0278:r007",
+        "subject": "Porous graphite felt electrode",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Output power improved over 7 times",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the aqueous biphasic K3Fe(CN)6/K4Fe(CN)6 LTC; comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "With the aqueous biphasic electrolyte of K3Fe(CN)6/K4Fe(CN)6 as the redox couple, the Se of the LTC was doubled and the output power was improved over 5 times. ",
+        "context_quotes": [
+          "Furthermore, with the help of porous graphite felt as electrode material, the output power can be improved over 7 times. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0278:felt",
+        "object_id": "P0278:seven"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0279",
+    "title": "Self-powered sensors utilizing single-pillar thermocells with pyrolytic graphite sheet electrodes: harvesting body heat and solar thermal energy",
+    "segments": [
+      {
+        "id": 0,
+        "text": "This study investigates the development of self-powered sensors employing single-pillar thermocells to harness body heat and solar thermal energy. "
+      },
+      {
+        "id": 1,
+        "text": "A pyrolytic graphite sheet was selected for its low water vapor permeability, and its surface was modified to be hydrophilic to minimize interfacial resistance. "
+      },
+      {
+        "id": 2,
+        "text": "Two types of DC-DC converters, Asahi Kasei Microdevices AP4473 and matrix mercury, underwent evaluation for compatibility with these thermocells. "
+      },
+      {
+        "id": 3,
+        "text": "The compact 1.5 cm(3) (1 cm x 1 cm x 1.5 cm) device effectively powered the AP4473 converter, illuminating a light-emitting diode. "
+      },
+      {
+        "id": 4,
+        "text": "A larger device (2.5 cm x 2.5 cm x 1.5 cm) efficiently drove the matrix mercury converter, enabling the operation of bluetooth low-power sensors. "
+      },
+      {
+        "id": 5,
+        "text": "These self-powered sensors wirelessly provided humidity and temperature data using solar thermal energy for approximately 4 h per day during peak temperature differences in January. "
+      },
+      {
+        "id": 6,
+        "text": "This study showcases the potential of thermocells for sustainable energy harvesting and suggests avenues for future research, such as exploring alternative heat sources like geothermal energy to power these sensors. "
+      },
+      {
+        "id": 7,
+        "text": "(c) 2024 Elsevier Ltd. "
+      },
+      {
+        "id": 8,
+        "text": "All rights are reserved, including those for text and data mining, AI training, and similar technologies."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0279:sensors",
+        "label": "Self-powered sensors employing single-pillar thermocells",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0279:heat",
+        "label": "Harvesting body heat and solar thermal energy",
+        "role": "application"
+      },
+      {
+        "id": "P0279:sheet",
+        "label": "Pyrolytic graphite sheet",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0279:perm",
+        "label": "Low water vapor permeability",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0279:mod",
+        "label": "Surface modification of pyrolytic graphite sheet",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0279:hyd",
+        "label": "Hydrophilic surface",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0279:res",
+        "label": "Interfacial resistance",
+        "role": "quantity"
+      },
+      {
+        "id": "P0279:small",
+        "label": "1.5 cm3 thermocell device (1 × 1 × 1.5 cm)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0279:ap",
+        "label": "Powering AP4473 DC-DC converter",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0279:led",
+        "label": "LED illumination",
+        "role": "application"
+      },
+      {
+        "id": "P0279:large",
+        "label": "Thermocell device (2.5 × 2.5 × 1.5 cm)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0279:audit_v1_r007_object",
+        "label": "Matrix mercury DC-DC converter",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0279:bluetooth",
+        "label": "Operation of Bluetooth low-power sensors",
+        "role": "application"
+      },
+      {
+        "id": "P0279:data",
+        "label": "Wireless humidity and temperature data for approximately 4 h per day",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0279:geo",
+        "label": "Geothermal energy for powering the sensors",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0279:r001",
+        "subject": "Self-powered sensors employing single-pillar thermocells",
+        "subject_role": "material_entity",
+        "predicate": "is designed for",
+        "object": "Harvesting body heat and solar thermal energy",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This study investigates the development of self-powered sensors employing single-pillar thermocells to harness body heat and solar thermal energy. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:sensors",
+        "object_id": "P0279:heat"
+      },
+      {
+        "relation_id": "P0279:r002",
+        "subject": "Pyrolytic graphite sheet",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Low water vapor permeability",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Property motivating electrode selection",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A pyrolytic graphite sheet was selected for its low water vapor permeability, and its surface was modified to be hydrophilic to minimize interfacial resistance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:sheet",
+        "object_id": "P0279:perm"
+      },
+      {
+        "relation_id": "P0279:r003",
+        "subject": "Surface modification of pyrolytic graphite sheet",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Hydrophilic surface",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A pyrolytic graphite sheet was selected for its low water vapor permeability, and its surface was modified to be hydrophilic to minimize interfacial resistance. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A pyrolytic graphite sheet was selected for its low water vapor permeability, and its surface was modified to be hydrophilic to minimize interfacial resistance. "
+        ],
+        "subject_id": "P0279:mod",
+        "object_id": "P0279:hyd"
+      },
+      {
+        "relation_id": "P0279:r004",
+        "subject": "Surface modification of pyrolytic graphite sheet",
+        "subject_role": "design_strategy",
+        "predicate": "is intended to minimize",
+        "object": "Interfacial resistance",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "By making the surface hydrophilic",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "A pyrolytic graphite sheet was selected for its low water vapor permeability, and its surface was modified to be hydrophilic to minimize interfacial resistance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:mod",
+        "object_id": "P0279:res"
+      },
+      {
+        "relation_id": "P0279:r005",
+        "subject": "1.5 cm3 thermocell device (1 × 1 × 1.5 cm)",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Powering AP4473 DC-DC converter",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The compact 1.5 cm(3) (1 cm x 1 cm x 1.5 cm) device effectively powered the AP4473 converter, illuminating a light-emitting diode. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:small",
+        "object_id": "P0279:ap"
+      },
+      {
+        "relation_id": "P0279:r006",
+        "subject": "1.5 cm3 thermocell device (1 × 1 × 1.5 cm)",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "LED illumination",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Using the AP4473 converter",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The compact 1.5 cm(3) (1 cm x 1 cm x 1.5 cm) device effectively powered the AP4473 converter, illuminating a light-emitting diode. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:small",
+        "object_id": "P0279:led"
+      },
+      {
+        "relation_id": "P0279:r007",
+        "subject": "Thermocell device (2.5 × 2.5 × 1.5 cm)",
+        "subject_role": "material_entity",
+        "predicate": "efficiently_drives",
+        "object": "Matrix mercury DC-DC converter",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A larger device (2.5 cm x 2.5 cm x 1.5 cm) efficiently drove the matrix mercury converter, enabling the operation of bluetooth low-power sensors. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:large",
+        "object_id": "P0279:audit_v1_r007_object"
+      },
+      {
+        "relation_id": "P0279:r008",
+        "subject": "Thermocell device (2.5 × 2.5 × 1.5 cm)",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Operation of Bluetooth low-power sensors",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Using the matrix mercury converter",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A larger device (2.5 cm x 2.5 cm x 1.5 cm) efficiently drove the matrix mercury converter, enabling the operation of bluetooth low-power sensors. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:large",
+        "object_id": "P0279:bluetooth"
+      },
+      {
+        "relation_id": "P0279:r009",
+        "subject": "Self-powered sensors employing single-pillar thermocells",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Wireless humidity and temperature data for approximately 4 h per day",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Using solar thermal energy during peak temperature differences in January; Bluetooth low-power sensors powered by the 2.5 × 2.5 × 1.5 cm device through the matrix mercury converter",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A larger device (2.5 cm x 2.5 cm x 1.5 cm) efficiently drove the matrix mercury converter, enabling the operation of bluetooth low-power sensors. ",
+        "context_quotes": [
+          "These self-powered sensors wirelessly provided humidity and temperature data using solar thermal energy for approximately 4 h per day during peak temperature differences in January. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0279:sensors",
+        "object_id": "P0279:data"
+      },
+      {
+        "relation_id": "P0279:r010",
+        "subject": "Self-powered sensors employing single-pillar thermocells",
+        "subject_role": "material_entity",
+        "predicate": "has proposed energy source",
+        "object": "Geothermal energy for powering the sensors",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Suggested future exploration",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This study showcases the potential of thermocells for sustainable energy harvesting and suggests avenues for future research, such as exploring alternative heat sources like geothermal energy to power these sensors. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0279:sensors",
+        "object_id": "P0279:geo"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0280",
+    "title": "Evaluation of in-plane architecture in a thermo-electrochemical cell with nanostructured and porous Sb:SnO2 electrodes",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermo-electrochemical cells (TECs) are able to convert heat into electricity. "
+      },
+      {
+        "id": 1,
+        "text": "They are formed by two electrodes (typically Pt) separated by a redox electrolyte (usually 0.4 M aqueous ferro/ferricyanide). "
+      },
+      {
+        "id": 2,
+        "text": "The widely adopted architecture of TECs consists of the two electrodes separated by an electrolyte channel. "
+      },
+      {
+        "id": 3,
+        "text": "To our knowledge, no studies have been reported exploring a different architecture. "
+      },
+      {
+        "id": 4,
+        "text": "Here, we evaluate an alternative configuration, which comprises a substrate with the two electrodes at its ends and with the electrolyte added on the top contacting both electrodes, forming a planar configuration. "
+      },
+      {
+        "id": 5,
+        "text": "We explore first the use of the standard Pt electrodes deposited on top of a conductive glass substrate. "
+      },
+      {
+        "id": 6,
+        "text": "Then, we replace the Pt by nanostructured and porous Sb-doped SnO2. "
+      },
+      {
+        "id": 7,
+        "text": "The planar configurations are compared with their corresponding typical architectures using the common ferro/ferricyanide electrolyte. "
+      },
+      {
+        "id": 8,
+        "text": "It was found that the planar TEC with Sb:SnO2 reached a temperature coefficient of 1.76 mV/K, higher than the value obtained in the standard configuration with Sb:SnO2 (1.21 mV/K), and also higher than the planar architecture with Pt electrodes, which showed the typical value for the ferro/ferricyanide electrolyte (1.45 mV/K). "
+      },
+      {
+        "id": 9,
+        "text": "As a consequence of this significantly larger value, a 29.7 % higher maximum power output than the planar TEC with Pt was observed. "
+      },
+      {
+        "id": 10,
+        "text": "Our study identifies for the first time interesting new features when a planar architecture is employed, opening the door to explore in more detail this alternative configuration in TECs."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0280:plan",
+        "label": "Planar TEC configuration",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0280:layout",
+        "label": "Two electrodes at substrate ends contacted by electrolyte added on top",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0280:pt",
+        "label": "Planar Pt TEC on conductive glass",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0280:sbo",
+        "label": "Sb-doped SnO2 electrodes",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0280:morph",
+        "label": "Nanostructured and porous morphology",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0280:ps",
+        "label": "Planar Sb:SnO2 TEC",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0280:s176",
+        "label": "Temperature coefficient of 1.76 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0280:ss",
+        "label": "Standard-configuration Sb:SnO2 TEC",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0280:s121",
+        "label": "Temperature coefficient of 1.21 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0280:s145",
+        "label": "Temperature coefficient of 1.45 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0280:p297",
+        "label": "29.7% higher maximum power output than planar Pt TEC",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0280:r001",
+        "subject": "Planar TEC configuration",
+        "subject_role": "design_strategy",
+        "predicate": "has configuration",
+        "object": "Two electrodes at substrate ends contacted by electrolyte added on top",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we evaluate an alternative configuration, which comprises a substrate with the two electrodes at its ends and with the electrolyte added on the top contacting both electrodes, forming a planar configuration. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0280:plan",
+        "object_id": "P0280:layout"
+      },
+      {
+        "relation_id": "P0280:r002",
+        "subject": "Planar Pt TEC on conductive glass",
+        "subject_role": "material_entity",
+        "predicate": "implements",
+        "object": "Planar TEC configuration",
+        "object_role": "design_strategy",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Pt electrodes deposited on conductive glass",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we evaluate an alternative configuration, which comprises a substrate with the two electrodes at its ends and with the electrolyte added on the top contacting both electrodes, forming a planar configuration. ",
+        "context_quotes": [
+          "We explore first the use of the standard Pt electrodes deposited on top of a conductive glass substrate. "
+        ],
+        "modality_evidence": [
+          "We explore first the use of the standard Pt electrodes deposited on top of a conductive glass substrate. "
+        ],
+        "subject_id": "P0280:pt",
+        "object_id": "P0280:plan"
+      },
+      {
+        "relation_id": "P0280:r003",
+        "subject": "Sb-doped SnO2 electrodes",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Nanostructured and porous morphology",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Then, we replace the Pt by nanostructured and porous Sb-doped SnO2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0280:sbo",
+        "object_id": "P0280:morph"
+      },
+      {
+        "relation_id": "P0280:r005",
+        "subject": "Planar Sb:SnO2 TEC",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Temperature coefficient of 1.76 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Common ferro/ferricyanide electrolyte; higher than standard Sb:SnO2 (1.21 mV/K) and planar Pt (1.45 mV/K)",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The planar configurations are compared with their corresponding typical architectures using the common ferro/ferricyanide electrolyte. ",
+        "context_quotes": [
+          "It was found that the planar TEC with Sb:SnO2 reached a temperature coefficient of 1.76 mV/K, higher than the value obtained in the standard configuration with Sb:SnO2 (1.21 mV/K), and also higher than the planar architecture with Pt electrodes, which showed the typical value for the ferro/ferricyanide electrolyte (1.45 mV/K). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0280:ps",
+        "object_id": "P0280:s176"
+      },
+      {
+        "relation_id": "P0280:r006",
+        "subject": "Standard-configuration Sb:SnO2 TEC",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Temperature coefficient of 1.21 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Common ferro/ferricyanide electrolyte",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The planar configurations are compared with their corresponding typical architectures using the common ferro/ferricyanide electrolyte. ",
+        "context_quotes": [
+          "It was found that the planar TEC with Sb:SnO2 reached a temperature coefficient of 1.76 mV/K, higher than the value obtained in the standard configuration with Sb:SnO2 (1.21 mV/K), and also higher than the planar architecture with Pt electrodes, which showed the typical value for the ferro/ferricyanide electrolyte (1.45 mV/K). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0280:ss",
+        "object_id": "P0280:s121"
+      },
+      {
+        "relation_id": "P0280:r007",
+        "subject": "Planar Pt TEC on conductive glass",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Temperature coefficient of 1.45 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Common ferro/ferricyanide electrolyte; its typical value",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The planar configurations are compared with their corresponding typical architectures using the common ferro/ferricyanide electrolyte. ",
+        "context_quotes": [
+          "It was found that the planar TEC with Sb:SnO2 reached a temperature coefficient of 1.76 mV/K, higher than the value obtained in the standard configuration with Sb:SnO2 (1.21 mV/K), and also higher than the planar architecture with Pt electrodes, which showed the typical value for the ferro/ferricyanide electrolyte (1.45 mV/K). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0280:pt",
+        "object_id": "P0280:s145"
+      },
+      {
+        "relation_id": "P0280:r008",
+        "subject": "Planar Sb:SnO2 TEC",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "29.7% higher maximum power output than planar Pt TEC",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Attributed to its significantly larger temperature coefficient",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "It was found that the planar TEC with Sb:SnO2 reached a temperature coefficient of 1.76 mV/K, higher than the value obtained in the standard configuration with Sb:SnO2 (1.21 mV/K), and also higher than the planar architecture with Pt electrodes, which showed the typical value for the ferro/ferricyanide electrolyte (1.45 mV/K). ",
+        "context_quotes": [
+          "As a consequence of this significantly larger value, a 29.7 % higher maximum power output than the planar TEC with Pt was observed. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0280:ps",
+        "object_id": "P0280:p297"
+      },
+      {
+        "relation_id": "P0280:r009",
+        "subject": "Temperature coefficient of 1.76 mV/K",
+        "subject_role": "quantity",
+        "predicate": "leads to",
+        "object": "29.7% higher maximum power output than planar Pt TEC",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Planar Sb:SnO2 TEC compared with planar Pt TEC",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "It was found that the planar TEC with Sb:SnO2 reached a temperature coefficient of 1.76 mV/K, higher than the value obtained in the standard configuration with Sb:SnO2 (1.21 mV/K), and also higher than the planar architecture with Pt electrodes, which showed the typical value for the ferro/ferricyanide electrolyte (1.45 mV/K). ",
+        "context_quotes": [
+          "As a consequence of this significantly larger value, a 29.7 % higher maximum power output than the planar TEC with Pt was observed. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0280:s176",
+        "object_id": "P0280:p297"
+      }
+    ]
+  }
+]

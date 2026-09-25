@@ -1,0 +1,4392 @@
+[
+  {
+    "paper": {
+      "paper_id": "P1297",
+      "domain": "iTE",
+      "input_hash": "712e2a8e37de963bb0e6ea151989d29d472c45fdfef76584c622b5b6dee4a005",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1297:r001",
+          "subject": "Two-channel lattice-dynamics model",
+          "subject_role": "design_strategy",
+          "subject_id": "P1297:model",
+          "predicate": "is_based_on",
+          "object": "Grüneisen-derived phonon lifetimes",
+          "object_role": "quantity",
+          "object_id": "P1297:lifetimes",
+          "quote": "Furthermore, we propose a two-channel lattice-dynamics model based on Gr & uuml;neisen-derived phonon lifetimes and compare it to an approach using machine-learned interatomic potentials. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 440,
+              "end": 628
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Two-channel lattice-dynamics model",
+          "subject_role": "design_strategy",
+          "predicate": "provides",
+          "object": "Thermal-conductivity predictions agreeing with experiment",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Ag8TS6 (T = Si, Ge, Sn); two-channel model using Grüneisen-derived phonon lifetimes; whole studied temperature range",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P1297:r002",
+          "quote": "Furthermore, we propose a two-channel lattice-dynamics model based on Gr & uuml;neisen-derived phonon lifetimes and compare it to an approach using machine-learned interatomic potentials. ",
+          "context_quotes": [
+            "Both approaches are able to predict thermal conductivity in agreement with experimental lattice thermal conductivities along the whole temperature range, highlighting their potential suitability for future high-throughput predictions. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 440,
+              "end": 628
+            },
+            {
+              "start": 628,
+              "end": 863
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:model",
+          "object_id": "P1297:prediction",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Machine-learned interatomic-potential approach",
+          "subject_role": "design_strategy",
+          "predicate": "provides",
+          "object": "Thermal-conductivity predictions agreeing with experiment",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "Ag8TS6 (T = Si, Ge, Sn); machine-learned interatomic potentials; whole studied temperature range",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P1297:r003",
+          "quote": "Furthermore, we propose a two-channel lattice-dynamics model based on Gr & uuml;neisen-derived phonon lifetimes and compare it to an approach using machine-learned interatomic potentials. ",
+          "context_quotes": [
+            "Both approaches are able to predict thermal conductivity in agreement with experimental lattice thermal conductivities along the whole temperature range, highlighting their potential suitability for future high-throughput predictions. "
+          ],
+          "modality_evidence": [
+            "Furthermore, we propose a two-channel lattice-dynamics model based on Gr & uuml;neisen-derived phonon lifetimes and compare it to an approach using machine-learned interatomic potentials. ",
+            "Both approaches are able to predict thermal conductivity in agreement with experimental lattice thermal conductivities along the whole temperature range, highlighting their potential suitability for future high-throughput predictions. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 440,
+              "end": 628
+            },
+            {
+              "start": 628,
+              "end": 863
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 440,
+              "end": 628
+            },
+            {
+              "start": 628,
+              "end": 863
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:ml",
+          "object_id": "P1297:prediction",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1297:r004",
+          "subject": "Weakly bonded Ag+ ions",
+          "subject_role": "interaction",
+          "subject_id": "P1297:weak",
+          "predicate": "jointly_gives_rise_to",
+          "object": "Bond heterogeneity",
+          "object_role": "descriptor",
+          "object_id": "P1297:hetero",
+          "quote": "Our findings also reveal a relationship between bond heterogeneity arising from weakly bonded Ag+ ions and occupied antibonding states in Ag-S and Ag-Ag interactions and strong anharmonicity, including large Gr & uuml;neisen parameters, and low sound velocities, which are responsible for the low lattice thermal conductivity of Ag8SnS6, Ag8GeS6, and Ag8SiS6. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ag8SnS6, Ag8GeS6, Ag8SiS6",
+          "joint_factors": [
+            "Weakly bonded Ag+ ions",
+            "Occupied antibonding states in Ag-S and Ag-Ag interactions"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 863,
+              "end": 1223
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "weak",
+            "anti"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "weak",
+              "label": "Weakly bonded Ag+ ions"
+            },
+            {
+              "raw_id": "anti",
+              "label": "Occupied antibonding states in Ag-S and Ag-Ag interactions"
+            }
+          ]
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1297:r005",
+          "subject": "Bond heterogeneity",
+          "subject_role": "descriptor",
+          "subject_id": "P1297:hetero",
+          "predicate": "is_related_to",
+          "object": "Strong anharmonicity",
+          "object_role": "descriptor",
+          "object_id": "P1297:anh",
+          "quote": "Our findings also reveal a relationship between bond heterogeneity arising from weakly bonded Ag+ ions and occupied antibonding states in Ag-S and Ag-Ag interactions and strong anharmonicity, including large Gr & uuml;neisen parameters, and low sound velocities, which are responsible for the low lattice thermal conductivity of Ag8SnS6, Ag8GeS6, and Ag8SiS6. ",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ag8SnS6, Ag8GeS6, Ag8SiS6",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 863,
+              "end": 1223
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1297:r006",
+          "subject": "Strong anharmonicity",
+          "subject_role": "descriptor",
+          "subject_id": "P1297:anh",
+          "predicate": "is_characterized_by",
+          "object": "Large Grüneisen parameters",
+          "object_role": "quantity",
+          "object_id": "P1297:grun",
+          "quote": "Our findings also reveal a relationship between bond heterogeneity arising from weakly bonded Ag+ ions and occupied antibonding states in Ag-S and Ag-Ag interactions and strong anharmonicity, including large Gr & uuml;neisen parameters, and low sound velocities, which are responsible for the low lattice thermal conductivity of Ag8SnS6, Ag8GeS6, and Ag8SiS6. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ag8SnS6, Ag8GeS6, Ag8SiS6",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 863,
+              "end": 1223
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1297:r007",
+          "subject": "Bond heterogeneity",
+          "subject_role": "descriptor",
+          "subject_id": "P1297:hetero",
+          "predicate": "is_related_to",
+          "object": "Low sound velocities",
+          "object_role": "quantity",
+          "object_id": "P1297:sound",
+          "quote": "Our findings also reveal a relationship between bond heterogeneity arising from weakly bonded Ag+ ions and occupied antibonding states in Ag-S and Ag-Ag interactions and strong anharmonicity, including large Gr & uuml;neisen parameters, and low sound velocities, which are responsible for the low lattice thermal conductivity of Ag8SnS6, Ag8GeS6, and Ag8SiS6. ",
+          "context_quotes": [],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ag8SnS6, Ag8GeS6, Ag8SiS6",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 863,
+              "end": 1223
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1297:r008",
+          "subject": "Strong anharmonicity",
+          "subject_role": "descriptor",
+          "subject_id": "P1297:anh",
+          "predicate": "jointly_accounts_for",
+          "object": "Low lattice thermal conductivity",
+          "object_role": "quantity",
+          "object_id": "P1297:lowk",
+          "quote": "Our findings also reveal a relationship between bond heterogeneity arising from weakly bonded Ag+ ions and occupied antibonding states in Ag-S and Ag-Ag interactions and strong anharmonicity, including large Gr & uuml;neisen parameters, and low sound velocities, which are responsible for the low lattice thermal conductivity of Ag8SnS6, Ag8GeS6, and Ag8SiS6. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ag8SnS6, Ag8GeS6, Ag8SiS6",
+          "joint_factors": [
+            "Strong anharmonicity",
+            "Low sound velocities"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 863,
+              "end": 1223
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "anh",
+            "sound"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "anh",
+              "label": "Strong anharmonicity"
+            },
+            {
+              "raw_id": "sound",
+              "label": "Low sound velocities"
+            }
+          ]
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1297:r009",
+          "subject": "Thermal conductivity",
+          "subject_role": "quantity",
+          "subject_id": "P1297:tk",
+          "predicate": "is_independent_of",
+          "object": "Ionic conductivity",
+          "object_role": "quantity",
+          "object_id": "P1297:ik",
+          "quote": "We furthermore show that thermal and ionic conductivities in all three compounds are independent of each other and can likely be tuned individually.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "All three Ag8TS6 compounds",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1223,
+              "end": 1371
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1297:r010",
+          "subject": "Ag8TS6 (T = Si, Ge, Sn) argyrodites",
+          "subject_role": "material_entity",
+          "subject_id": "P1297:m",
+          "predicate": "likely_allows",
+          "object": "Individual tuning of thermal and ionic conductivities",
+          "object_role": "design_strategy",
+          "object_id": "P1297:tune",
+          "quote": "We furthermore show that thermal and ionic conductivities in all three compounds are independent of each other and can likely be tuned individually.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "All three compounds",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1223,
+              "end": 1371
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Exceptionally low lattice thermal conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P1297:complete_v1_cr001",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "High ionic conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P1297:complete_v1_cr002",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "are_candidates_for",
+          "object": "Thermoelectric applications",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Based on exceptionally low lattice thermal and high ionic conductivity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background",
+          "id": "cr003",
+          "relation_id": "P1297:complete_v1_cr003",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "are_candidates_for",
+          "object": "Solid-state energy applications",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Based on exceptionally low lattice thermal and high ionic conductivity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background",
+          "id": "cr004",
+          "relation_id": "P1297:complete_v1_cr004",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr004_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r002",
+        "action": "patch",
+        "reason": "The model description does not establish computational modality; bind predictions to the studied compounds.",
+        "changes": {
+          "modality": {
+            "before": "computational",
+            "after": "unspecified"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "modality_spans": {
+            "before": [
+              {
+                "start": 440,
+                "end": 628
+              },
+              {
+                "start": 628,
+                "end": 863
+              }
+            ],
+            "after": []
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "modality_evidence": {
+            "before": [
+              "Furthermore, we propose a two-channel lattice-dynamics model based on Gr & uuml;neisen-derived phonon lifetimes and compare it to an approach using machine-learned interatomic potentials. ",
+              "Both approaches are able to predict thermal conductivity in agreement with experimental lattice thermal conductivities along the whole temperature range, highlighting their potential suitability for future high-throughput predictions. "
+            ],
+            "after": []
+          },
+          "conditions": {
+            "before": "Two-channel model using Grüneisen-derived phonon lifetimes; whole studied temperature range",
+            "after": "Ag8TS6 (T = Si, Ge, Sn); two-channel model using Grüneisen-derived phonon lifetimes; whole studied temperature range"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r003",
+        "action": "patch",
+        "reason": "Bind predictions to the studied compounds.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Machine-learned interatomic potentials; whole studied temperature range",
+            "after": "Ag8TS6 (T = Si, Ge, Sn); machine-learned interatomic potentials; whole studied temperature range"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Exceptionally low lattice thermal conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P1297:complete_v1_cr001",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "High ionic conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P1297:complete_v1_cr002",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "are_candidates_for",
+          "object": "Thermoelectric applications",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Based on exceptionally low lattice thermal and high ionic conductivity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background",
+          "id": "cr003",
+          "relation_id": "P1297:complete_v1_cr003",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1297",
+        "relation_id": "P1297:complete_v1_cr004",
+        "action": "add",
+        "record": {
+          "subject": "Argyrodite-type Ag-based sulfides",
+          "subject_role": "material_entity",
+          "predicate": "are_candidates_for",
+          "object": "Solid-state energy applications",
+          "object_role": "application",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "Based on exceptionally low lattice thermal and high ionic conductivity",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background",
+          "id": "cr004",
+          "relation_id": "P1297:complete_v1_cr004",
+          "quote": "Argyrodite-type Ag-based sulfides combine exceptionally low lattice thermal and high ionic conductivity, making them promising candidates for thermoelectric and solid-state energy applications. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1297:complete_v1_cr001_subject",
+          "object_id": "P1297:complete_v1_cr004_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1298",
+      "domain": "iTE",
+      "input_hash": "8feffb0226ed0cc6153f6046be18c8499d5331ace7f10f632096bf98800ae213",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "Two-monomer-connected-precursor polymerization with varied diacid linkers",
+          "subject_role": "mechanism_process",
+          "predicate": "produces",
+          "object": "Ionically interconnected PPy films",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P1298:r001",
+          "quote": "A series of ionically interconnected polypyrrole (PPy) films are fabricated through two-monomer-connected-precursor polymerization by varying diacid linkers, thereby significantly influencing the crystalline morphology and electrical properties. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "A series of ionically interconnected polypyrrole (PPy) films are fabricated through two-monomer-connected-precursor polymerization by varying diacid linkers, thereby significantly influencing the crystalline morphology and electrical properties. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 246
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 246
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1298:poly",
+          "object_id": "P1298:films",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1298:r002",
+          "subject": "Diacid-linker variation",
+          "subject_role": "design_strategy",
+          "subject_id": "P1298:variation",
+          "predicate": "influences",
+          "object": "PPy crystalline morphology",
+          "object_role": "state_structure",
+          "object_id": "P1298:morph",
+          "quote": "A series of ionically interconnected polypyrrole (PPy) films are fabricated through two-monomer-connected-precursor polymerization by varying diacid linkers, thereby significantly influencing the crystalline morphology and electrical properties. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ionically interconnected PPy films",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 246
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1298:r003",
+          "subject": "Diacid-linker variation",
+          "subject_role": "design_strategy",
+          "subject_id": "P1298:variation",
+          "predicate": "influences",
+          "object": "PPy electrical properties",
+          "object_role": "descriptor",
+          "object_id": "P1298:electrical",
+          "quote": "A series of ionically interconnected polypyrrole (PPy) films are fabricated through two-monomer-connected-precursor polymerization by varying diacid linkers, thereby significantly influencing the crystalline morphology and electrical properties. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Ionically interconnected PPy films",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 246
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1298:r004",
+          "subject": "PPy-Nap with fused aromatic 1,5-napthalenedisulfonic acid linker",
+          "subject_role": "material_entity",
+          "subject_id": "P1298:nap",
+          "predicate": "has_electrical_conductivity",
+          "object": "Electrical conductivity ~78 S cm−1",
+          "object_role": "quantity",
+          "object_id": "P1298:kn",
+          "quote": "The structure obtained using 1,5-napthalenedisulfonic acid (PPy-Nap) as a fused aromatic linker exhibits a higher electrical conductivity (similar to 78 S cm(-1)) than that (6.7 S cm(-1)) without a linker (PPy-ref). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Higher than PPy-ref: 6.7 S cm−1",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 246,
+              "end": 462
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1298:r005",
+          "subject": "PPy-ref without linker",
+          "subject_role": "material_entity",
+          "subject_id": "P1298:ref",
+          "predicate": "has_electrical_conductivity",
+          "object": "Electrical conductivity 6.7 S cm−1",
+          "object_role": "quantity",
+          "object_id": "P1298:kr",
+          "quote": "The structure obtained using 1,5-napthalenedisulfonic acid (PPy-Nap) as a fused aromatic linker exhibits a higher electrical conductivity (similar to 78 S cm(-1)) than that (6.7 S cm(-1)) without a linker (PPy-ref). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Without linker; lower than PPy-Nap",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 246,
+              "end": 462
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1298:r006",
+          "subject": "PPy-Nap with fused aromatic 1,5-napthalenedisulfonic acid linker",
+          "subject_role": "material_entity",
+          "subject_id": "P1298:nap",
+          "predicate": "has",
+          "object": "Lower percolation carrier transport barrier",
+          "object_role": "quantity",
+          "object_id": "P1298:barrier",
+          "quote": "Cryogenic conductivity measurements reveal that the percolation carrier transport barrier of PPy-Nap is significantly smaller than that of PPy-ref, and the calculated carrier mobility of PPy-Nap is similar to 5 times higher compared to PPy-ref. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Cryogenic conductivity measurements reveal that the percolation carrier transport barrier of PPy-Nap is significantly smaller than that of PPy-ref, and the calculated carrier mobility of PPy-Nap is similar to 5 times higher compared to PPy-ref. "
+          ],
+          "conditions": "Compared with PPy-ref; cryogenic conductivity measurements",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 462,
+              "end": 707
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 462,
+              "end": 707
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1298:r007",
+          "subject": "PPy-Nap with fused aromatic 1,5-napthalenedisulfonic acid linker",
+          "subject_role": "material_entity",
+          "subject_id": "P1298:nap",
+          "predicate": "has",
+          "object": "Carrier mobility ~5 times that of PPy-ref",
+          "object_role": "quantity",
+          "object_id": "P1298:mobility",
+          "quote": "Cryogenic conductivity measurements reveal that the percolation carrier transport barrier of PPy-Nap is significantly smaller than that of PPy-ref, and the calculated carrier mobility of PPy-Nap is similar to 5 times higher compared to PPy-ref. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Calculated carrier mobility; calculation method unspecified",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 462,
+              "end": 707
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1298:r008",
+          "subject": "Carrier transport characteristics",
+          "subject_role": "descriptor",
+          "subject_id": "P1298:transport",
+          "predicate": "agrees_with",
+          "object": "Morphological data from 2D grazing-incidence X-ray scattering",
+          "object_role": "descriptor",
+          "object_id": "P1298:morphdata",
+          "quote": "Cryogenic conductivity measurements reveal that the percolation carrier transport barrier of PPy-Nap is significantly smaller than that of PPy-ref, and the calculated carrier mobility of PPy-Nap is similar to 5 times higher compared to PPy-ref. ",
+          "context_quotes": [
+            "The carrier transport characteristics show a good agreement with morphological data by 2D grazing-incidence X-ray scattering. "
+          ],
+          "assertion": "association",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Cryogenic conductivity measurements reveal that the percolation carrier transport barrier of PPy-Nap is significantly smaller than that of PPy-ref, and the calculated carrier mobility of PPy-Nap is similar to 5 times higher compared to PPy-ref. ",
+            "The carrier transport characteristics show a good agreement with morphological data by 2D grazing-incidence X-ray scattering. "
+          ],
+          "conditions": "Cryogenic conductivity measurements and 2D grazing-incidence X-ray scattering",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 462,
+              "end": 707
+            },
+            {
+              "start": 707,
+              "end": 833
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 462,
+              "end": 707
+            },
+            {
+              "start": 707,
+              "end": 833
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "All studied PPys",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Similar doped charge carrier concentrations across PPys",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "All studied PPys",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r009",
+          "relation_id": "P1298:r009",
+          "quote": "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 833,
+              "end": 992
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1298:complete_v1_r009_subject",
+          "object_id": "P1298:conc",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1298:r010",
+          "subject": "Similar doped charge carrier concentrations across PPys",
+          "subject_role": "quantity",
+          "subject_id": "P1298:conc",
+          "predicate": "accounts_for",
+          "object": "Similar Seebeck coefficients, 5–8 μV K−1",
+          "object_role": "quantity",
+          "object_id": "P1298:seebeck",
+          "quote": "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "All studied PPys",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 833,
+              "end": 992
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "All studied PPys",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Very different electrical conductivities across PPys",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Despite similar doped carrier concentrations and Seebeck coefficients",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r011",
+          "relation_id": "P1298:r011",
+          "quote": "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 833,
+              "end": 992
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1298:complete_v1_r011_subject",
+          "object_id": "P1298:different",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r012",
+          "relation_id": "P1298:r012",
+          "subject": "PPy-Nap with fused aromatic 1,5-napthalenedisulfonic acid linker",
+          "subject_role": "material_entity",
+          "subject_id": "P1298:nap",
+          "predicate": "has_power_factor",
+          "object": "Power factor 0.21 μW m−1 K−2",
+          "object_role": "quantity",
+          "object_id": "P1298:pfn",
+          "quote": "Consequently, PPy-Nap exhibits a higher power factor than that of PPy-ref (0.21 vs 0.043 mu W m(-1) K-2). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Higher than PPy-ref: 0.043 μW m−1 K−2",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 992,
+              "end": 1098
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r013",
+          "relation_id": "P1298:r013",
+          "subject": "PPy-ref without linker",
+          "subject_role": "material_entity",
+          "subject_id": "P1298:ref",
+          "predicate": "has_power_factor",
+          "object": "Power factor 0.043 μW m−1 K−2",
+          "object_role": "quantity",
+          "object_id": "P1298:pfr",
+          "quote": "Consequently, PPy-Nap exhibits a higher power factor than that of PPy-ref (0.21 vs 0.043 mu W m(-1) K-2). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Lower than PPy-Nap: 0.21 μW m−1 K−2",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 992,
+              "end": 1098
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r014",
+          "relation_id": "P1298:r014",
+          "subject": "Improved crystalline morphology",
+          "subject_role": "design_strategy",
+          "subject_id": "P1298:im",
+          "predicate": "jointly_enables",
+          "object": "Overcoming Seebeck coefficient–electrical conductivity trade-off",
+          "object_role": "performance_function",
+          "object_id": "P1298:trade",
+          "quote": "The results show that the trade-off relationship between the Seebeck coefficient and electrical conductivity can be overcome by improving crystalline morphology and carrier transport. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Studied PPys",
+          "joint_factors": [
+            "Improved crystalline morphology",
+            "Improved carrier transport"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1098,
+              "end": 1282
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "im",
+            "it"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "im",
+              "label": "Improved crystalline morphology"
+            },
+            {
+              "raw_id": "it",
+              "label": "Improved carrier transport"
+            }
+          ]
+        },
+        {
+          "id": "r015",
+          "relation_id": "P1298:r015",
+          "subject": "Enhanced ordered conductive domains",
+          "subject_role": "design_strategy",
+          "subject_id": "P1298:order",
+          "predicate": "jointly_enables",
+          "object": "Improved electrical conductivity",
+          "object_role": "performance_function",
+          "object_id": "P1298:ec",
+          "quote": "Thus, both the electrical conductivities and thermoelectric power factors can be improved with maintaining the Seebeck coefficients by enhancing the ordered conductive domains and carrier mobility while maintaining the doping level.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Maintaining doping level",
+          "joint_factors": [
+            "Enhanced ordered conductive domains",
+            "Enhanced carrier mobility"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1282,
+              "end": 1514
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "order",
+            "mob"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "order",
+              "label": "Enhanced ordered conductive domains"
+            },
+            {
+              "raw_id": "mob",
+              "label": "Enhanced carrier mobility"
+            }
+          ]
+        },
+        {
+          "id": "r016",
+          "relation_id": "P1298:r016",
+          "subject": "Enhanced ordered conductive domains",
+          "subject_role": "design_strategy",
+          "subject_id": "P1298:order",
+          "predicate": "jointly_enables",
+          "object": "Improved thermoelectric power factor",
+          "object_role": "performance_function",
+          "object_id": "P1298:pf",
+          "quote": "Thus, both the electrical conductivities and thermoelectric power factors can be improved with maintaining the Seebeck coefficients by enhancing the ordered conductive domains and carrier mobility while maintaining the doping level.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Maintaining doping level",
+          "joint_factors": [
+            "Enhanced ordered conductive domains",
+            "Enhanced carrier mobility"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1282,
+              "end": 1514
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "order",
+            "mob"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "order",
+              "label": "Enhanced ordered conductive domains"
+            },
+            {
+              "raw_id": "mob",
+              "label": "Enhanced carrier mobility"
+            }
+          ]
+        },
+        {
+          "id": "r017",
+          "relation_id": "P1298:r017",
+          "subject": "Enhanced ordered conductive domains",
+          "subject_role": "design_strategy",
+          "subject_id": "P1298:order",
+          "predicate": "jointly_allows",
+          "object": "Maintained Seebeck coefficient",
+          "object_role": "performance_function",
+          "object_id": "P1298:maintain",
+          "quote": "Thus, both the electrical conductivities and thermoelectric power factors can be improved with maintaining the Seebeck coefficients by enhancing the ordered conductive domains and carrier mobility while maintaining the doping level.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Maintaining doping level while improving electrical conductivity and power factor",
+          "joint_factors": [
+            "Enhanced ordered conductive domains",
+            "Enhanced carrier mobility"
+          ],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1282,
+              "end": 1514
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "order",
+            "mob"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "order",
+              "label": "Enhanced ordered conductive domains"
+            },
+            {
+              "raw_id": "mob",
+              "label": "Enhanced carrier mobility"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r001",
+        "action": "patch",
+        "reason": "Preparation–product relationships belong in method scope.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "scope": {
+            "before": "intrinsic_material_mechanism",
+            "after": "measurement_method_model"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r009",
+        "action": "patch",
+        "reason": "The comparison includes linker-free PPy-ref, not only interconnected films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 0,
+                "end": 246
+              },
+              {
+                "start": 833,
+                "end": 992
+              }
+            ],
+            "after": [
+              {
+                "start": 833,
+                "end": 992
+              }
+            ]
+          },
+          "subject_id": {
+            "before": "P1298:films",
+            "after": "P1298:complete_v1_r009_subject"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "A series of ionically interconnected polypyrrole (PPy) films are fabricated through two-monomer-connected-precursor polymerization by varying diacid linkers, thereby significantly influencing the crystalline morphology and electrical properties. ",
+            "after": "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. "
+          },
+          "subject": {
+            "before": "Ionically interconnected PPy films",
+            "after": "All studied PPys"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. "
+            ],
+            "after": []
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r011",
+        "action": "patch",
+        "reason": "The comparison includes linker-free PPy-ref, not only interconnected films.",
+        "changes": {
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 0,
+                "end": 246
+              },
+              {
+                "start": 833,
+                "end": 992
+              }
+            ],
+            "after": [
+              {
+                "start": 833,
+                "end": 992
+              }
+            ]
+          },
+          "subject_id": {
+            "before": "P1298:films",
+            "after": "P1298:complete_v1_r011_subject"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "A series of ionically interconnected polypyrrole (PPy) films are fabricated through two-monomer-connected-precursor polymerization by varying diacid linkers, thereby significantly influencing the crystalline morphology and electrical properties. ",
+            "after": "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. "
+          },
+          "subject": {
+            "before": "Ionically interconnected PPy films",
+            "after": "All studied PPys"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "context_quotes": {
+            "before": [
+              "All PPys have similar doped charge carrier concentrations and, thus, similar Seebeck coefficients (5-8 mu V K-1) but very different electrical conductivities. "
+            ],
+            "after": []
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r012",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r013",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r014",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r015",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r016",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1298",
+        "relation_id": "P1298:r017",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1299",
+      "domain": "iTE",
+      "input_hash": "d9b8eab7fce76d7d20d47bd3d7b3999a2dfe26f42460818c3944315453e99a3f",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1299:r001",
+          "subject": "ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:m",
+          "predicate": "exhibits",
+          "object": "p-type semiconductor behavior",
+          "object_role": "descriptor",
+          "object_id": "P1299:ptype",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "Our result reveal, for electronic properties, that all components exhibit p-type semiconductor with direct band gap, with 1.51 eV for GaCuS2. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). "
+          ],
+          "conditions": "DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 852,
+              "end": 994
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1299:r002",
+          "subject": "ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:m",
+          "predicate": "has",
+          "object": "Direct bandgap",
+          "object_role": "descriptor",
+          "object_id": "P1299:direct",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "Our result reveal, for electronic properties, that all components exhibit p-type semiconductor with direct band gap, with 1.51 eV for GaCuS2. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). "
+          ],
+          "conditions": "DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 852,
+              "end": 994
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1299:r003",
+          "subject": "GaCuS2",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:ga",
+          "predicate": "has_bandgap",
+          "object": "Bandgap 1.51 eV",
+          "object_role": "quantity",
+          "object_id": "P1299:gap",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "Our result reveal, for electronic properties, that all components exhibit p-type semiconductor with direct band gap, with 1.51 eV for GaCuS2. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). "
+          ],
+          "conditions": "Direct gap; DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 852,
+              "end": 994
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1299:r004",
+          "subject": "ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:m",
+          "predicate": "contains",
+          "object": "Ionic bonding between Al/In/Ga and S",
+          "object_role": "interaction",
+          "object_id": "P1299:ionic",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "The chemical bonding analysis shows the presence of ionic bonding between Al/In/Ga and S. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. "
+          ],
+          "conditions": "Chemical-bonding analysis in DFT study",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 994,
+              "end": 1084
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "InCuS2",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Excellent visible-range absorption",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "InCuS2 followed by GaCuS2; calculated dielectric function and absorption coefficient; DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P1299:r005",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:in",
+          "object_id": "P1299:abs",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "GaCuS2",
+          "subject_role": "material_entity",
+          "predicate": "exhibits",
+          "object": "Excellent visible-range absorption",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "Ranked after InCuS2; calculated dielectric function and absorption coefficient; DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "id": "r006",
+          "relation_id": "P1299:r006",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:ga",
+          "object_id": "P1299:abs",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1299:r007",
+          "subject": "InCuS2",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:in",
+          "predicate": "exhibits",
+          "object": "Low reflectivity",
+          "object_role": "quantity",
+          "object_id": "P1299:reflect",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "conditions": "Visible range; DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1299:r008",
+          "subject": "GaCuS2",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:ga",
+          "predicate": "exhibits",
+          "object": "Low reflectivity",
+          "object_role": "quantity",
+          "object_id": "P1299:reflect",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Furthermore, modified Becke-Johnson exchange potential (TB-mBJ) was adopted for the exchange correlation potential in order to prove the electronic and optical features of ACuS(2)(A=Al, Ga and In). ",
+            "The calculated dielectric function and the absorption coefficient indicate that InCuS2 followed by GaCuS2 display an excellent absorption in the visible range with low reflectivity. "
+          ],
+          "conditions": "Visible range; DFT with TB-mBJ exchange potential",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 411,
+              "end": 609
+            },
+            {
+              "start": 1084,
+              "end": 1266
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1299:r009",
+          "subject": "ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:m",
+          "predicate": "is_candidate_for",
+          "object": "Photovoltaic devices",
+          "object_role": "application",
+          "object_id": "P1299:pv",
+          "quote": "The physical properties of the novel ACuS(2) (A=Al, Ga and In) compound show promising candidate toward photovoltaic, optoelectronic and thermoelectric device.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Based on evaluated physical properties",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1365,
+              "end": 1524
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1299:r010",
+          "subject": "ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:m",
+          "predicate": "is_candidate_for",
+          "object": "Optoelectronic devices",
+          "object_role": "application",
+          "object_id": "P1299:opto",
+          "quote": "The physical properties of the novel ACuS(2) (A=Al, Ga and In) compound show promising candidate toward photovoltaic, optoelectronic and thermoelectric device.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Based on evaluated physical properties",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1365,
+              "end": 1524
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r011",
+          "relation_id": "P1299:r011",
+          "subject": "ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "subject_role": "material_entity",
+          "subject_id": "P1299:m",
+          "predicate": "is_candidate_for",
+          "object": "Thermoelectric devices",
+          "object_role": "application",
+          "object_id": "P1299:te",
+          "quote": "The physical properties of the novel ACuS(2) (A=Al, Ga and In) compound show promising candidate toward photovoltaic, optoelectronic and thermoelectric device.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Based on evaluated physical properties",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1365,
+              "end": 1524
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Generalized gradient approximation",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_evaluate",
+          "object": "Stability of ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "DFT study; no stability outcome specified",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1299:complete_v1_cr001",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:complete_v1_cr001_subject",
+          "object_id": "P1299:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Generalized gradient approximation",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_evaluate",
+          "object": "Structural parameters of ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "DFT study",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P1299:complete_v1_cr002",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:complete_v1_cr001_subject",
+          "object_id": "P1299:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Evaluated ACuS2 (A = Al, Ga, In) results",
+          "subject_role": "descriptor",
+          "predicate": "agree_with",
+          "object": "Available experimental and theoretical data",
+          "object_role": "descriptor",
+          "assertion": "association",
+          "modality": "computational",
+          "conditions": "DFT combined with Boltzmann transport theory; abstract does not specify individual validated quantities",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P1299:complete_v1_cr003",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "The evaluated results are in excellent agreement with available experimental and theoretical data. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 1266,
+              "end": 1365
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:complete_v1_cr003_subject",
+          "object_id": "P1299:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r005",
+        "action": "patch",
+        "reason": "Retain the explicitly stated optical-model qualifier.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "InCuS2 followed by GaCuS2; calculated dielectric function and absorption coefficient",
+            "after": "InCuS2 followed by GaCuS2; calculated dielectric function and absorption coefficient; DFT with TB-mBJ exchange potential"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r006",
+        "action": "patch",
+        "reason": "Retain the explicitly stated optical-model qualifier.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "conditions": {
+            "before": "Ranked after InCuS2; calculated dielectric function and absorption coefficient",
+            "after": "Ranked after InCuS2; calculated dielectric function and absorption coefficient; DFT with TB-mBJ exchange potential"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:r011",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Generalized gradient approximation",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_evaluate",
+          "object": "Stability of ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "DFT study; no stability outcome specified",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P1299:complete_v1_cr001",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:complete_v1_cr001_subject",
+          "object_id": "P1299:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Generalized gradient approximation",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_evaluate",
+          "object": "Structural parameters of ACuS2 (A = Al, Ga, In) chalcopyrites",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "DFT study",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P1299:complete_v1_cr002",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+            "Based on the generalized gradient (GGA) approach, the stability accompanied with the structural parameters of the studied structure compounds was evaluated. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 254,
+              "end": 411
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:complete_v1_cr001_subject",
+          "object_id": "P1299:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1299",
+        "relation_id": "P1299:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Evaluated ACuS2 (A = Al, Ga, In) results",
+          "subject_role": "descriptor",
+          "predicate": "agree_with",
+          "object": "Available experimental and theoretical data",
+          "object_role": "descriptor",
+          "assertion": "association",
+          "modality": "computational",
+          "conditions": "DFT combined with Boltzmann transport theory; abstract does not specify individual validated quantities",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P1299:complete_v1_cr003",
+          "quote": "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. ",
+          "context_quotes": [
+            "The evaluated results are in excellent agreement with available experimental and theoretical data. "
+          ],
+          "modality_evidence": [
+            "In the present work, the structural, electronic, optical and thermoelectric properties of the ternary chalcopyrite compounds defined by ACuS(2)(A=Al, Ga, In) has been performed by density functional theory (DFT) combined with Boltzmann transport theory. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 254
+            },
+            {
+              "start": 1266,
+              "end": 1365
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 254
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1299:complete_v1_cr003_subject",
+          "object_id": "P1299:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P1300",
+      "domain": "iTE",
+      "input_hash": "49e1e6dca762e43b42db22a2cb6328b5985612cca24d64fc2ea4aa8b79054a19",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P1300:r001",
+          "subject": "Gd-Te double-substituted β-Cu2Se",
+          "subject_role": "material_entity",
+          "subject_id": "P1300:m",
+          "predicate": "exhibits",
+          "object": "Anisotropic negative thermal expansion",
+          "object_role": "mechanism_process",
+          "object_id": "P1300:nte",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. "
+          ],
+          "conditions": "Combined in situ high-temperature X-ray diffraction and dilatometry",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 386,
+              "end": 577
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P1300:r002",
+          "subject": "Gd-Te double-substituted β-Cu2Se",
+          "subject_role": "material_entity",
+          "subject_id": "P1300:m",
+          "predicate": "contains",
+          "object": "Heterogeneous strain fields",
+          "object_role": "state_structure",
+          "object_id": "P1300:strain",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "conditions": "Aberration-corrected STEM",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P1300:r003",
+          "subject": "Heterogeneous strain fields",
+          "subject_role": "state_structure",
+          "subject_id": "P1300:strain",
+          "predicate": "causes",
+          "object": "Macroscopic contraction",
+          "object_role": "mechanism_process",
+          "object_id": "P1300:contract",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "conditions": "Gd-Te double-substituted β-Cu2Se; STEM, high-temperature X-ray diffraction and dilatometry",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P1300:r004",
+          "subject": "Dopants in Gd-Te double-substituted β-Cu2Se",
+          "subject_role": "material_entity",
+          "subject_id": "P1300:dopant",
+          "predicate": "induces",
+          "object": "Dopant-induced local pinning",
+          "object_role": "interaction",
+          "object_id": "P1300:pin",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "conditions": "Ab initio molecular dynamics",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P1300:r005",
+          "subject": "Dopant-induced local pinning",
+          "subject_role": "interaction",
+          "subject_id": "P1300:pin",
+          "predicate": "modifies",
+          "object": "Cu diffusion",
+          "object_role": "mechanism_process",
+          "object_id": "P1300:diff",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "conditions": "Gd-Te double-substituted β-Cu2Se; ab initio molecular dynamics",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P1300:r006",
+          "subject": "Dopant-induced local pinning",
+          "subject_role": "interaction",
+          "subject_id": "P1300:pin",
+          "predicate": "causes",
+          "object": "Vibrational spectral-weight redistribution toward low-energy anharmonic modes",
+          "object_role": "mechanism_process",
+          "object_id": "P1300:weight",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. "
+          ],
+          "conditions": "Gd-Te double-substituted β-Cu2Se; ab initio molecular dynamics",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 577,
+              "end": 876
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P1300:r007",
+          "subject": "Electron-phonon decoupling",
+          "subject_role": "mechanism_process",
+          "subject_id": "P1300:decouple",
+          "predicate": "suppresses",
+          "object": "Lattice thermal conductivity",
+          "object_role": "quantity",
+          "object_id": "P1300:k",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. ",
+            "This electron-phonon decoupling suppresses lattice thermal conductivity and yields a peak thermoelectric figure of merit zT of 2.02 at 977 K. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Gd-Te double-substituted β-Cu2Se",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            },
+            {
+              "start": 876,
+              "end": 1018
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P1300:r008",
+          "subject": "Electron-phonon decoupling",
+          "subject_role": "mechanism_process",
+          "subject_id": "P1300:decouple",
+          "predicate": "yields",
+          "object": "Peak zT 2.02",
+          "object_role": "performance_function",
+          "object_id": "P1300:zt",
+          "quote": "Here, we reveal the origin of anisotropic negative thermal expansion (NTE) in Gd-Te double-substituted beta-Cu2Se through combined in situ high-temperature X-ray diffraction and dilatometry. ",
+          "context_quotes": [
+            "Aberration-corrected STEM resolves heterogeneous strain fields responsible for the macroscopic contraction, while ab initio molecular dynamics further shows that dopant-induced local pinning modifies Cu diffusion and redistributes the vibrational spectral weight toward low-energy anharmonic modes. ",
+            "This electron-phonon decoupling suppresses lattice thermal conductivity and yields a peak thermoelectric figure of merit zT of 2.02 at 977 K. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Gd-Te double-substituted β-Cu2Se; 977 K",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 386,
+              "end": 577
+            },
+            {
+              "start": 577,
+              "end": 876
+            },
+            {
+              "start": 876,
+              "end": 1018
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P1300:r009",
+          "subject": "Prototype thermoelectric module",
+          "subject_role": "material_entity",
+          "subject_id": "P1300:module",
+          "predicate": "delivers",
+          "object": "Output power 83 mW",
+          "object_role": "performance_function",
+          "object_id": "P1300:power",
+          "quote": "A prototype module delivers 83 mW at Delta T = 670 K. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "ΔT = 670 K",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1018,
+              "end": 1072
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P1300:r010",
+          "subject": "Disorder-engineered superionicity",
+          "subject_role": "design_strategy",
+          "subject_id": "P1300:design",
+          "predicate": "provides_route_to",
+          "object": "Control of lattice thermodynamics",
+          "object_role": "performance_function",
+          "object_id": "P1300:thermo",
+          "quote": "These results establish disorder-engineered superionicity as a route to controlling lattice thermodynamics and transport in phase-change materials.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Phase-change materials",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1072,
+              "end": 1219
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Disorder-engineered superionicity",
+          "subject_role": "design_strategy",
+          "predicate": "provides_route_to",
+          "object": "Control of transport",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Phase-change materials",
+          "joint_factors": [],
+          "scope": "other_adjacent_domain",
+          "claim_scope": "own_work",
+          "id": "r011",
+          "relation_id": "P1300:r011",
+          "quote": "These results establish disorder-engineered superionicity as a route to controlling lattice thermodynamics and transport in phase-change materials.",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 1072,
+              "end": 1219
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:design",
+          "object_id": "P1300:transport",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Crystalline order",
+          "subject_role": "state_structure",
+          "predicate": "is_coupled_with",
+          "object": "Liquid-like ionic motion",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Superionic conductors",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P1300:complete_v1_cr001",
+          "quote": "Superionic conductors are a class of materials in which crystalline order is coupled with liquid-like ionic motion, producing an extreme anharmonic beta-Cu2Se lattice. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 168
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:complete_v1_cr001_subject",
+          "object_id": "P1300:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Coupling of crystalline order with liquid-like ionic motion",
+          "subject_role": "interaction",
+          "predicate": "produces",
+          "object": "Extreme lattice anharmonicity in β-Cu2Se",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P1300:complete_v1_cr002",
+          "quote": "Superionic conductors are a class of materials in which crystalline order is coupled with liquid-like ionic motion, producing an extreme anharmonic beta-Cu2Se lattice. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 168
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:complete_v1_cr002_subject",
+          "object_id": "P1300:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Dynamic disorder in β-Cu2Se",
+          "subject_role": "state_structure",
+          "predicate": "confers",
+          "object": "Exceptional thermoelectric performance",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr003",
+          "relation_id": "P1300:complete_v1_cr003",
+          "quote": "Such a dynamic disorder in beta-Cu2Se confers exceptional thermoelectric performance, yet its resulting lattice stability across the monoclinic (C2/c) to cubic (Fm (3) over barm) transition remains largely unexplored. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 168,
+              "end": 386
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:complete_v1_cr003_subject",
+          "object_id": "P1300:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:r011",
+        "action": "patch",
+        "reason": "The concluding transport claim is not restricted to ionic or mass transport.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_317",
+              "action": "patch"
+            }
+          },
+          "scope": {
+            "before": "ion_mass_transport",
+            "after": "other_adjacent_domain"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Crystalline order",
+          "subject_role": "state_structure",
+          "predicate": "is_coupled_with",
+          "object": "Liquid-like ionic motion",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Superionic conductors",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P1300:complete_v1_cr001",
+          "quote": "Superionic conductors are a class of materials in which crystalline order is coupled with liquid-like ionic motion, producing an extreme anharmonic beta-Cu2Se lattice. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 168
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:complete_v1_cr001_subject",
+          "object_id": "P1300:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Coupling of crystalline order with liquid-like ionic motion",
+          "subject_role": "interaction",
+          "predicate": "produces",
+          "object": "Extreme lattice anharmonicity in β-Cu2Se",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P1300:complete_v1_cr002",
+          "quote": "Superionic conductors are a class of materials in which crystalline order is coupled with liquid-like ionic motion, producing an extreme anharmonic beta-Cu2Se lattice. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 168
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:complete_v1_cr002_subject",
+          "object_id": "P1300:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P1300",
+        "relation_id": "P1300:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Dynamic disorder in β-Cu2Se",
+          "subject_role": "state_structure",
+          "predicate": "confers",
+          "object": "Exceptional thermoelectric performance",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr003",
+          "relation_id": "P1300:complete_v1_cr003",
+          "quote": "Such a dynamic disorder in beta-Cu2Se confers exceptional thermoelectric performance, yet its resulting lattice stability across the monoclinic (C2/c) to cubic (Fm (3) over barm) transition remains largely unexplored. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 168,
+              "end": 386
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P1300:complete_v1_cr003_subject",
+          "object_id": "P1300:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_317",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

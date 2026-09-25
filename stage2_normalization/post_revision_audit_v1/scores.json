@@ -1,0 +1,410 @@
+{
+  "iTE": {
+    "precision": {
+      "numerator": 74,
+      "denominator": 100,
+      "fraction": 0.74,
+      "wilson95": [
+        0.6462901055081282,
+        0.8159530153525186
+      ],
+      "verdicts": {
+        "supported": 74,
+        "partial": 19,
+        "out_of_scope": 6,
+        "uncertain": 1
+      },
+      "issues": {
+        "assertion": 2,
+        "conditions": 15,
+        "joint_factors": 1,
+        "endpoint": 1,
+        "scope": 9,
+        "evidence": 2
+      },
+      "descriptive_subgroups": {
+        "core_vs_other": {
+          "other": {
+            "numerator": 23,
+            "denominator": 34,
+            "fraction": 0.6764705882352942,
+            "verdicts": {
+              "supported": 23,
+              "partial": 7,
+              "out_of_scope": 4
+            }
+          },
+          "core": {
+            "numerator": 51,
+            "denominator": 66,
+            "fraction": 0.7727272727272727,
+            "verdicts": {
+              "partial": 12,
+              "supported": 51,
+              "uncertain": 1,
+              "out_of_scope": 2
+            }
+          }
+        },
+        "prior_disposition": {
+          "unchanged": {
+            "numerator": 73,
+            "denominator": 98,
+            "fraction": 0.7448979591836735,
+            "verdicts": {
+              "supported": 73,
+              "partial": 18,
+              "out_of_scope": 6,
+              "uncertain": 1
+            }
+          },
+          "keep": {
+            "numerator": 1,
+            "denominator": 2,
+            "fraction": 0.5,
+            "verdicts": {
+              "supported": 1,
+              "partial": 1
+            }
+          }
+        },
+        "historical_paper_exposure": {
+          "True": {
+            "numerator": 63,
+            "denominator": 86,
+            "fraction": 0.7325581395348837,
+            "verdicts": {
+              "supported": 63,
+              "partial": 16,
+              "out_of_scope": 6,
+              "uncertain": 1
+            }
+          },
+          "False": {
+            "numerator": 11,
+            "denominator": 14,
+            "fraction": 0.7857142857142857,
+            "verdicts": {
+              "partial": 3,
+              "supported": 11
+            }
+          }
+        },
+        "previous_relation_audit": {
+          "False": {
+            "numerator": 73,
+            "denominator": 99,
+            "fraction": 0.7373737373737373,
+            "verdicts": {
+              "supported": 73,
+              "partial": 19,
+              "out_of_scope": 6,
+              "uncertain": 1
+            }
+          },
+          "True": {
+            "numerator": 1,
+            "denominator": 1,
+            "fraction": 1.0,
+            "verdicts": {
+              "supported": 1
+            }
+          }
+        }
+      }
+    },
+    "normalization": {
+      "equivalence": {
+        "numerator": 20,
+        "denominator": 20,
+        "fraction": 1.0,
+        "wilson95": [
+          0.8388748419471806,
+          1
+        ],
+        "verdicts": {
+          "equivalent": 20
+        }
+      },
+      "canonical_fit": {
+        "numerator": 17,
+        "denominator": 20,
+        "fraction": 0.85,
+        "verdicts": {
+          "supported": 17,
+          "over_specific": 3
+        }
+      }
+    },
+    "core_coverage": {
+      "valid_reference": {
+        "numerator": 31,
+        "denominator": 38,
+        "fraction": 0.8157894736842105
+      },
+      "conservative_reference": {
+        "numerator": 31,
+        "denominator": 38,
+        "fraction": 0.8157894736842105
+      },
+      "validity": {
+        "valid": 38
+      },
+      "valid_coverage": {
+        "missing": 2,
+        "complete": 31,
+        "partial": 5
+      },
+      "papers": [
+        {
+          "paper_id": "P1190",
+          "valid": 7,
+          "complete": 6,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P1914",
+          "valid": 8,
+          "complete": 8,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P0980",
+          "valid": 3,
+          "complete": 0,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P1378",
+          "valid": 14,
+          "complete": 12,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P1708",
+          "valid": 3,
+          "complete": 2,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P0924",
+          "valid": 3,
+          "complete": 3,
+          "uncertain": 0,
+          "out_of_scope": 0
+        }
+      ]
+    }
+  },
+  "TG": {
+    "precision": {
+      "numerator": 79,
+      "denominator": 100,
+      "fraction": 0.79,
+      "wilson95": [
+        0.7002003116591013,
+        0.858343459380847
+      ],
+      "verdicts": {
+        "supported": 79,
+        "partial": 4,
+        "out_of_scope": 17
+      },
+      "issues": {
+        "scope": 19,
+        "modality": 1,
+        "conditions": 2
+      },
+      "descriptive_subgroups": {
+        "core_vs_other": {
+          "core": {
+            "numerator": 34,
+            "denominator": 41,
+            "fraction": 0.8292682926829268,
+            "verdicts": {
+              "supported": 34,
+              "out_of_scope": 7
+            }
+          },
+          "other": {
+            "numerator": 45,
+            "denominator": 59,
+            "fraction": 0.7627118644067796,
+            "verdicts": {
+              "supported": 45,
+              "partial": 4,
+              "out_of_scope": 10
+            }
+          }
+        },
+        "prior_disposition": {
+          "unchanged": {
+            "numerator": 76,
+            "denominator": 96,
+            "fraction": 0.7916666666666666,
+            "verdicts": {
+              "supported": 76,
+              "partial": 4,
+              "out_of_scope": 16
+            }
+          },
+          "add": {
+            "numerator": 2,
+            "denominator": 2,
+            "fraction": 1.0,
+            "verdicts": {
+              "supported": 2
+            }
+          },
+          "replace": {
+            "numerator": 0,
+            "denominator": 1,
+            "fraction": 0.0,
+            "verdicts": {
+              "out_of_scope": 1
+            }
+          },
+          "keep": {
+            "numerator": 1,
+            "denominator": 1,
+            "fraction": 1.0,
+            "verdicts": {
+              "supported": 1
+            }
+          }
+        },
+        "historical_paper_exposure": {
+          "True": {
+            "numerator": 79,
+            "denominator": 98,
+            "fraction": 0.8061224489795918,
+            "verdicts": {
+              "supported": 79,
+              "partial": 4,
+              "out_of_scope": 15
+            }
+          },
+          "False": {
+            "numerator": 0,
+            "denominator": 2,
+            "fraction": 0.0,
+            "verdicts": {
+              "out_of_scope": 2
+            }
+          }
+        },
+        "previous_relation_audit": {
+          "False": {
+            "numerator": 78,
+            "denominator": 99,
+            "fraction": 0.7878787878787878,
+            "verdicts": {
+              "supported": 78,
+              "partial": 4,
+              "out_of_scope": 17
+            }
+          },
+          "True": {
+            "numerator": 1,
+            "denominator": 1,
+            "fraction": 1.0,
+            "verdicts": {
+              "supported": 1
+            }
+          }
+        }
+      }
+    },
+    "normalization": {
+      "equivalence": {
+        "numerator": 20,
+        "denominator": 20,
+        "fraction": 1.0,
+        "wilson95": [
+          0.8388748419471806,
+          1
+        ],
+        "verdicts": {
+          "equivalent": 20
+        }
+      },
+      "canonical_fit": {
+        "numerator": 20,
+        "denominator": 20,
+        "fraction": 1.0,
+        "verdicts": {
+          "supported": 20
+        }
+      }
+    },
+    "core_coverage": {
+      "valid_reference": {
+        "numerator": 5,
+        "denominator": 6,
+        "fraction": 0.8333333333333334
+      },
+      "conservative_reference": {
+        "numerator": 5,
+        "denominator": 6,
+        "fraction": 0.8333333333333334
+      },
+      "validity": {
+        "out_of_scope": 1,
+        "valid": 6
+      },
+      "valid_coverage": {
+        "complete": 5,
+        "partial": 1
+      },
+      "papers": [
+        {
+          "paper_id": "P0070",
+          "valid": 1,
+          "complete": 1,
+          "uncertain": 0,
+          "out_of_scope": 1
+        },
+        {
+          "paper_id": "P0217",
+          "valid": 1,
+          "complete": 1,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P0038",
+          "valid": 0,
+          "complete": 0,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P0213",
+          "valid": 4,
+          "complete": 3,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P0265",
+          "valid": 0,
+          "complete": 0,
+          "uncertain": 0,
+          "out_of_scope": 0
+        },
+        {
+          "paper_id": "P0077",
+          "valid": 0,
+          "complete": 0,
+          "uncertain": 0,
+          "out_of_scope": 0
+        }
+      ]
+    }
+  }
+}

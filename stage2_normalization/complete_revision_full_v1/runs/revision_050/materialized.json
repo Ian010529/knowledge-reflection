@@ -1,0 +1,2083 @@
+[
+  {
+    "paper": {
+      "paper_id": "P0214",
+      "domain": "TG",
+      "input_hash": "1db1e2cd6c8648748f7a5c96ed827929821099dbb0d7106e13abb2e0c26a28ad",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0214:r001",
+          "subject": "CoHCF-based materials",
+          "subject_role": "material_entity",
+          "subject_id": "P0214:cohcf",
+          "predicate": "is applied in",
+          "object": "Thermally regenerative electrochemical cycles",
+          "object_role": "application",
+          "object_id": "P0214:trec",
+          "quote": "In this work, we report the application of cobalt hexacyanoferrate (CoHCF)-based materials in TRECs. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 164,
+              "end": 265
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0214:r002",
+          "subject": "Battery voltage dependence on temperature",
+          "subject_role": "quantity",
+          "subject_id": "P0214:temperature",
+          "predicate": "causes",
+          "object": "Discharge voltage higher than charge voltage",
+          "object_role": "quantity",
+          "object_id": "P0214:voltage",
+          "quote": "When the battery is charged at a high temperature (T-H) and discharged at a low temperature (T-L), the discharge voltage is higher than the charge voltage due to the dependence of battery voltage on temperature, and thus low-grade heat can be converted into electricity. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Battery charged at high temperature and discharged at low temperature.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 536
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0214:r003",
+          "subject": "Charging at high temperature and discharging at low temperature",
+          "subject_role": "condition",
+          "subject_id": "P0214:cycling",
+          "predicate": "enables",
+          "object": "Low-grade heat-to-electricity conversion",
+          "object_role": "performance_function",
+          "object_id": "P0214:conversion",
+          "quote": "When the battery is charged at a high temperature (T-H) and discharged at a low temperature (T-L), the discharge voltage is higher than the charge voltage due to the dependence of battery voltage on temperature, and thus low-grade heat can be converted into electricity. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Temperature-dependent battery voltage gives a discharge voltage higher than the charge voltage.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 536
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Material temperature coefficient and specific heat",
+          "subject_role": "quantity",
+          "predicate": "determine",
+          "object": "Battery energy conversion efficiency",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "r004",
+          "relation_id": "P0214:r004",
+          "quote": "The temperature coefficient and specific heat of the material determine the energy conversion efficiency of the battery. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 536,
+              "end": 657
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0214:complete_v1_r004_subject",
+          "object_id": "P0214:efficiency",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          },
+          "joint_factor_raw_values": [
+            "heat"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "heat",
+              "label": "Material specific heat"
+            }
+          ]
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0214:r006",
+          "subject": "CoHCF/HCNTs",
+          "subject_role": "material_entity",
+          "subject_id": "P0214:composite",
+          "predicate": "has",
+          "object": "Higher absolute temperature coefficient",
+          "object_role": "quantity",
+          "object_id": "P0214:higher",
+          "quote": "When complexed with helical carbon nanotubes (HCNTs), the CoHCF/HCNTs show a higher absolute temperature coefficient and lower specific heat than pure CoHCF. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Compared with pure CoHCF.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 657,
+              "end": 815
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0214:r007",
+          "subject": "CoHCF/HCNTs",
+          "subject_role": "material_entity",
+          "subject_id": "P0214:composite",
+          "predicate": "has",
+          "object": "Lower specific heat",
+          "object_role": "quantity",
+          "object_id": "P0214:lower",
+          "quote": "When complexed with helical carbon nanotubes (HCNTs), the CoHCF/HCNTs show a higher absolute temperature coefficient and lower specific heat than pure CoHCF. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Compared with pure CoHCF.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 657,
+              "end": 815
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0214:r008",
+          "subject": "Higher absolute temperature coefficient",
+          "subject_role": "quantity",
+          "subject_id": "P0214:higher",
+          "predicate": "jointly produces",
+          "object": "Greatly increased heat-to-electricity conversion efficiency",
+          "object_role": "performance_function",
+          "object_id": "P0214:increase",
+          "quote": "When complexed with helical carbon nanotubes (HCNTs), the CoHCF/HCNTs show a higher absolute temperature coefficient and lower specific heat than pure CoHCF. ",
+          "context_quotes": [
+            "Consequently, the heat-to-electricity conversion efficiency is greatly increased. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "CoHCF/HCNTs compared with pure CoHCF.",
+          "joint_factors": [
+            "Lower specific heat"
+          ],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 657,
+              "end": 815
+            },
+            {
+              "start": 815,
+              "end": 897
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "lower"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "lower",
+              "label": "Lower specific heat"
+            }
+          ]
+        },
+        {
+          "id": "r009",
+          "relation_id": "P0214:r009",
+          "subject": "Moderately changing temperature coefficient and specific heat",
+          "subject_role": "design_strategy",
+          "subject_id": "P0214:tuning",
+          "predicate": "is suggested to further improve",
+          "object": "CoHCF-based material thermogalvanic performance",
+          "object_role": "performance_function",
+          "object_id": "P0214:performance",
+          "quote": "It is suggested that moderately changing the temperature coefficient and specific heat is an effective strategy to further improve thermogalvanic performance of CoHCF-based materials.",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 897,
+              "end": 1080
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Discharge voltage higher than charge voltage",
+          "subject_role": "quantity",
+          "predicate": "enables",
+          "object": "Low-grade heat-to-electricity conversion",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Battery charged at high temperature and discharged at low temperature; battery voltage depends on temperature.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0214:complete_v1_cr001",
+          "quote": "When the battery is charged at a high temperature (T-H) and discharged at a low temperature (T-L), the discharge voltage is higher than the charge voltage due to the dependence of battery voltage on temperature, and thus low-grade heat can be converted into electricity. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 536
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0214:voltage",
+          "object_id": "P0214:conversion",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r004",
+        "action": "patch",
+        "reason": "General governing relationship; preserves both jointly determining quantities.",
+        "changes": {
+          "claim_scope": {
+            "before": "own_work",
+            "after": "background"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "joint_factors": {
+            "before": [
+              "Material specific heat"
+            ],
+            "after": []
+          },
+          "subject_id": {
+            "before": "P0214:coefficient",
+            "after": "P0214:complete_v1_r004_subject"
+          },
+          "predicate": {
+            "before": "jointly determines",
+            "after": "determine"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "subject": {
+            "before": "Material temperature coefficient",
+            "after": "Material temperature coefficient and specific heat"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0214",
+        "relation_id": "P0214:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Discharge voltage higher than charge voltage",
+          "subject_role": "quantity",
+          "predicate": "enables",
+          "object": "Low-grade heat-to-electricity conversion",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Battery charged at high temperature and discharged at low temperature; battery voltage depends on temperature.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0214:complete_v1_cr001",
+          "quote": "When the battery is charged at a high temperature (T-H) and discharged at a low temperature (T-L), the discharge voltage is higher than the charge voltage due to the dependence of battery voltage on temperature, and thus low-grade heat can be converted into electricity. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 265,
+              "end": 536
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0214:voltage",
+          "object_id": "P0214:conversion",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0215",
+      "domain": "TG",
+      "input_hash": "f6b290d4ed04c292f94ecba08b9503d413d34dff4e3c0742ed771de6ff61c4be",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0215:r001",
+          "subject": "Ionically stabilized magnetic nanoparticles dispersed in aqueous potassium ferro-/ferricyanide electrolyte",
+          "subject_role": "material_entity",
+          "subject_id": "P0215:suspension",
+          "predicate": "is proposed to increase",
+          "object": "Liquid thermoelectric material Seebeck coefficient",
+          "object_role": "quantity",
+          "object_id": "P0215:seebeck",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Nanoparticle concentration",
+          "subject_role": "condition",
+          "predicate": "is associated with",
+          "object": "Thermoelectric potential",
+          "object_role": "quantity",
+          "assertion": "association",
+          "modality": "experimental",
+          "conditions": "Ionically stabilized magnetic nanoparticles dispersed in aqueous potassium ferro-/ferricyanide electrolytes; experimental parameter dependence examined; direction unspecified.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P0215:r002",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "modality_evidence": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            },
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0215:concentration",
+          "object_id": "P0215:potential",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Solute ion type: lithium citrate or tetrabutylammonium citrate",
+          "subject_role": "condition",
+          "predicate": "is associated with",
+          "object": "Thermoelectric potential",
+          "object_role": "quantity",
+          "assertion": "association",
+          "modality": "experimental",
+          "conditions": "Ionically stabilized magnetic nanoparticles dispersed in aqueous potassium ferro-/ferricyanide electrolytes; experimental parameter dependence examined; direction unspecified.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0215:r003",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "modality_evidence": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            },
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0215:ions",
+          "object_id": "P0215:potential",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Thermogalvanic potential of redox couples",
+          "subject_role": "quantity",
+          "predicate": "contributes to",
+          "object": "Thermoelectric potential",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Ionically stabilized magnetic nanoparticles in aqueous potassium ferro-/ferricyanide electrolytes; relative contributions are the subject of the parameter-dependence study; magnitudes are not supplied.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P0215:r004",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            },
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0215:redox",
+          "object_id": "P0215:potential",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          },
+          "joint_factor_raw_values": [
+            "entropy"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "entropy",
+              "label": "Entropy of transfer of nanoparticles and ions"
+            }
+          ]
+        },
+        {
+          "subject": "Inclusion of magnetic nanoparticles",
+          "subject_role": "design_strategy",
+          "predicate": "can produce",
+          "object": "15% enhancement of ferrofluid initial Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Ionically stabilized magnetic nanoparticles in aqueous potassium ferro-/ferricyanide electrolytes; specific ionic conditions not identified in the abstract; nanoparticle volume fraction approximately 1%.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P0215:r005",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. ",
+            "The results show that under specific ionic conditions, the inclusion of magnetic nanoparticles can lead to an enhancement of the ferrofluid's initial Seebeck coefficient by 15% (at a nanoparticle volume fraction of similar to 1%). "
+          ],
+          "modality_evidence": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            },
+            {
+              "start": 456,
+              "end": 790
+            },
+            {
+              "start": 790,
+              "end": 1021
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0215:addition",
+          "object_id": "P0215:enhancement",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Entropy of transfer of nanoparticles and ions",
+          "subject_role": "quantity",
+          "predicate": "contributes to",
+          "object": "Thermoelectric potential",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Ionically stabilized magnetic nanoparticles in aqueous potassium ferro-/ferricyanide electrolytes; relative contributions are examined through experimental parameter dependence; magnitudes are not supplied.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0215:complete_v1_cr001",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            },
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0215:complete_v1_cr001_subject",
+          "object_id": "P0215:potential",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0215",
+        "relation_id": "P0215:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0215",
+        "relation_id": "P0215:r002",
+        "action": "patch",
+        "reason": "Bind the potential dependence to the studied suspension.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 456,
+                "end": 790
+              }
+            ],
+            "after": [
+              {
+                "start": 187,
+                "end": 456
+              },
+              {
+                "start": 456,
+                "end": 790
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. ",
+            "after": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. "
+          },
+          "conditions": {
+            "before": "Experimental parameter dependence examined; direction unspecified.",
+            "after": "Ionically stabilized magnetic nanoparticles dispersed in aqueous potassium ferro-/ferricyanide electrolytes; experimental parameter dependence examined; direction unspecified."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0215",
+        "relation_id": "P0215:r003",
+        "action": "patch",
+        "reason": "Bind the potential dependence to the studied suspension.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 456,
+                "end": 790
+              }
+            ],
+            "after": [
+              {
+                "start": 187,
+                "end": 456
+              },
+              {
+                "start": 456,
+                "end": 790
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. ",
+            "after": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. "
+          },
+          "conditions": {
+            "before": "Experimental parameter dependence examined; direction unspecified.",
+            "after": "Ionically stabilized magnetic nanoparticles dispersed in aqueous potassium ferro-/ferricyanide electrolytes; experimental parameter dependence examined; direction unspecified."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0215",
+        "relation_id": "P0215:r004",
+        "action": "patch",
+        "reason": "Bind the sample and distinguish the separately named contributions.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "joint_factors": {
+            "before": [
+              "Entropy of transfer of nanoparticles and ions"
+            ],
+            "after": []
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 456,
+                "end": 790
+              }
+            ],
+            "after": [
+              {
+                "start": 187,
+                "end": 456
+              },
+              {
+                "start": 456,
+                "end": 790
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. ",
+            "after": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. "
+          },
+          "conditions": {
+            "before": "Relative contributions are the subject of the parameter-dependence study; magnitudes are not supplied.",
+            "after": "Ionically stabilized magnetic nanoparticles in aqueous potassium ferro-/ferricyanide electrolytes; relative contributions are the subject of the parameter-dependence study; magnitudes are not supplied."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0215",
+        "relation_id": "P0215:r005",
+        "action": "patch",
+        "reason": "Include the antecedent identifying the ferrofluid composition.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 456,
+                "end": 790
+              },
+              {
+                "start": 790,
+                "end": 1021
+              }
+            ],
+            "after": [
+              {
+                "start": 187,
+                "end": 456
+              },
+              {
+                "start": 456,
+                "end": 790
+              },
+              {
+                "start": 790,
+                "end": 1021
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. ",
+            "after": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. "
+          },
+          "conditions": {
+            "before": "Specific ionic conditions, not identified in the abstract; nanoparticle volume fraction approximately 1%.",
+            "after": "Ionically stabilized magnetic nanoparticles in aqueous potassium ferro-/ferricyanide electrolytes; specific ionic conditions not identified in the abstract; nanoparticle volume fraction approximately 1%."
+          },
+          "context_quotes": {
+            "before": [
+              "The results show that under specific ionic conditions, the inclusion of magnetic nanoparticles can lead to an enhancement of the ferrofluid's initial Seebeck coefficient by 15% (at a nanoparticle volume fraction of similar to 1%). "
+            ],
+            "after": [
+              "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. ",
+              "The results show that under specific ionic conditions, the inclusion of magnetic nanoparticles can lead to an enhancement of the ferrofluid's initial Seebeck coefficient by 15% (at a nanoparticle volume fraction of similar to 1%). "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0215",
+        "relation_id": "P0215:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Entropy of transfer of nanoparticles and ions",
+          "subject_role": "quantity",
+          "predicate": "contributes to",
+          "object": "Thermoelectric potential",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Ionically stabilized magnetic nanoparticles in aqueous potassium ferro-/ferricyanide electrolytes; relative contributions are examined through experimental parameter dependence; magnitudes are not supplied.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0215:complete_v1_cr001",
+          "quote": "Here we present a novel path to increase the Seebeck coefficient of liquid thermoelectric materials using charged colloidal suspensions; namely, ionically stabilized magnetic nanoparticles (ferrofluids) dispersed in aqueous potassium ferro-/ferri-cyanide electrolytes. ",
+          "context_quotes": [
+            "The dependency of thermoelectric potential on experimental parameters such as nanoparticle concentration and types of solute ions (lithium citrate and tetrabutylammonium citrate) is examined to reveal the relative contributions from the thermogalvanic potential of redox couples and the entropy of transfer of nanoparticles and ions. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 187,
+              "end": 456
+            },
+            {
+              "start": 456,
+              "end": 790
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0215:complete_v1_cr001_subject",
+          "object_id": "P0215:potential",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0216",
+      "domain": "TG",
+      "input_hash": "ce7053ca32498d68ce4d0a1ee15950fd5bc8ddcc60124343d07be83e5cb69c6f",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0216:r001",
+          "subject": "Unipolar ion-conducting solid-state polymers",
+          "subject_role": "material_entity",
+          "subject_id": "P0216:polymers",
+          "predicate": "exhibit",
+          "object": "High Seebeck coefficient and its sign in polymer ion conductors",
+          "object_role": "quantity",
+          "object_id": "P0216:seebeck",
+          "quote": "The Seebeck effect in unipolar ion-conducting, solid-state polymers is characterized. ",
+          "context_quotes": [
+            "The high Seebeck coefficient and sign in polymer ion conductors is explained via analysis of thermogalvanic multicomponent transport. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Coefficient value and sign are not specified.",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 86
+            },
+            {
+              "start": 86,
+              "end": 220
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0216:r002",
+          "subject": "Thermogalvanic multicomponent transport",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0216:transport",
+          "predicate": "explains",
+          "object": "High Seebeck coefficient and its sign in polymer ion conductors",
+          "object_role": "quantity",
+          "object_id": "P0216:seebeck",
+          "quote": "The high Seebeck coefficient and sign in polymer ion conductors is explained via analysis of thermogalvanic multicomponent transport. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Via analysis of thermogalvanic multicomponent transport.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 86,
+              "end": 220
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0216:r003",
+          "subject": "Solid-state device based on unipolar ion-conducting polymers",
+          "subject_role": "material_entity",
+          "subject_id": "P0216:device",
+          "predicate": "is based on",
+          "object": "Unipolar ion-conducting solid-state polymers",
+          "object_role": "material_entity",
+          "object_id": "P0216:polymers",
+          "quote": "The Seebeck effect in unipolar ion-conducting, solid-state polymers is characterized. ",
+          "context_quotes": [
+            "A solid-state, water-processeable, flexible device based on these materials is demonstrated, showcasing the promise of polymers as thermogalvanic materials. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 86
+            },
+            {
+              "start": 220,
+              "end": 377
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0216:r004",
+          "subject": "Solid-state device based on unipolar ion-conducting polymers",
+          "subject_role": "material_entity",
+          "subject_id": "P0216:device",
+          "predicate": "is",
+          "object": "Water-processable",
+          "object_role": "descriptor",
+          "object_id": "P0216:water",
+          "quote": "A solid-state, water-processeable, flexible device based on these materials is demonstrated, showcasing the promise of polymers as thermogalvanic materials. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 220,
+              "end": 377
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0216:r005",
+          "subject": "Solid-state device based on unipolar ion-conducting polymers",
+          "subject_role": "material_entity",
+          "subject_id": "P0216:device",
+          "predicate": "is",
+          "object": "Flexible",
+          "object_role": "descriptor",
+          "object_id": "P0216:flexibility",
+          "quote": "A solid-state, water-processeable, flexible device based on these materials is demonstrated, showcasing the promise of polymers as thermogalvanic materials. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 220,
+              "end": 377
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0216",
+        "relation_id": "P0216:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0216",
+        "relation_id": "P0216:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0216",
+        "relation_id": "P0216:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0216",
+        "relation_id": "P0216:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0216",
+        "relation_id": "P0216:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0217",
+      "domain": "TG",
+      "input_hash": "1e94385b9dbb1e5e6a03029ace917dbca2919e63624acf4de95677cff97546cb",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0217:r001",
+          "subject": "Potassium ferrocyanide(II)/ferricyanide(III) thermocell",
+          "subject_role": "material_entity",
+          "subject_id": "P0217:a",
+          "predicate": "has Seebeck coefficient opposite in sign to that of",
+          "object": "Iron(II)/iron(III) sulphate plus sulphuric acid thermocell",
+          "object_role": "material_entity",
+          "object_id": "P0217:b",
+          "quote": "The thermoelectrochemistry of two redox couples with opposite signs for their Seebeck coefficients have therefore been evaluated and combined, in order to generate the first thermoelectrochemical (or thermocell) assembly that is electrically in series without a hot-to-cold thermal short-circuit. ",
+          "context_quotes": [
+            "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 202,
+              "end": 499
+            },
+            {
+              "start": 499,
+              "end": 635
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0217:r002",
+          "subject": "Combination of the two thermocells electrically in series",
+          "subject_role": "design_strategy",
+          "subject_id": "P0217:c",
+          "predicate": "avoids",
+          "object": "Hot-to-cold thermal short-circuit",
+          "object_role": "mechanism_process",
+          "object_id": "P0217:d",
+          "quote": "The thermoelectrochemistry of two redox couples with opposite signs for their Seebeck coefficients have therefore been evaluated and combined, in order to generate the first thermoelectrochemical (or thermocell) assembly that is electrically in series without a hot-to-cold thermal short-circuit. ",
+          "context_quotes": [
+            "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Assembly uses the two specified redox thermocells with opposite Seebeck coefficient signs.",
+          "joint_factors": [
+            "Potassium ferrocyanide(II)/ferricyanide(III) thermocell",
+            "Iron(II)/iron(III) sulphate plus sulphuric acid thermocell"
+          ],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 202,
+              "end": 499
+            },
+            {
+              "start": 499,
+              "end": 635
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "a",
+            "b"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "a",
+              "label": "Potassium ferrocyanide(II)/ferricyanide(III) thermocell"
+            },
+            {
+              "raw_id": "b",
+              "label": "Iron(II)/iron(III) sulphate plus sulphuric acid thermocell"
+            }
+          ]
+        },
+        {
+          "subject": "Thermocells electrically parallel and/or in series",
+          "subject_role": "design_strategy",
+          "predicate": "exhibits",
+          "object": "Additive current behavior",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate plus sulphuric acid thermocells; over a very wide range of redox-species concentrations; connection-specific allocation is not stated.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0217:r003",
+          "quote": "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. ",
+          "context_quotes": [
+            "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 499,
+              "end": 635
+            },
+            {
+              "start": 635,
+              "end": 877
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0217:f",
+          "object_id": "P0217:g",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Thermocells electrically parallel and/or in series",
+          "subject_role": "design_strategy",
+          "predicate": "exhibits",
+          "object": "Additive potential behavior",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate plus sulphuric acid thermocells; over a very wide range of redox-species concentrations; connection-specific allocation is not stated.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r004",
+          "relation_id": "P0217:r004",
+          "quote": "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. ",
+          "context_quotes": [
+            "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 499,
+              "end": 635
+            },
+            {
+              "start": 635,
+              "end": 877
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0217:f",
+          "object_id": "P0217:h",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Thermocells electrically parallel and/or in series",
+          "subject_role": "design_strategy",
+          "predicate": "exhibits",
+          "object": "Power density behavior derived from additive current and potential",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate plus sulphuric acid thermocells; over a very wide range of redox-species concentrations.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "id": "r005",
+          "relation_id": "P0217:r005",
+          "quote": "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. ",
+          "context_quotes": [
+            "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. "
+          ],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 499,
+              "end": 635
+            },
+            {
+              "start": 635,
+              "end": 877
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0217:f",
+          "object_id": "P0217:i",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Low potentials generated by individual thermoelectric and thermogalvanic elements",
+          "subject_role": "quantity",
+          "predicate": "necessitate",
+          "object": "Electrical series connection of numerous cells",
+          "object_role": "design_strategy",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "To generate useful voltages.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0217:complete_v1_cr001",
+          "quote": "The low potentials generated by individual thermoelectric and thermogalvanic 'heat to electricity' elements necessitate that numerous cells be placed electrically in series to generate useful voltages. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 202
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0217:complete_v1_cr001_subject",
+          "object_id": "P0217:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0217",
+        "relation_id": "P0217:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0217",
+        "relation_id": "P0217:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0217",
+        "relation_id": "P0217:r003",
+        "action": "patch",
+        "reason": "Bind the evaluated configurations to the specified thermocells.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 635,
+                "end": 877
+              }
+            ],
+            "after": [
+              {
+                "start": 499,
+                "end": 635
+              },
+              {
+                "start": 635,
+                "end": 877
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. ",
+            "after": "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. "
+          },
+          "conditions": {
+            "before": "Over a very wide range of redox-species concentrations; connection-specific allocation is not stated.",
+            "after": "Potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate plus sulphuric acid thermocells; over a very wide range of redox-species concentrations; connection-specific allocation is not stated."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0217",
+        "relation_id": "P0217:r004",
+        "action": "patch",
+        "reason": "Bind the evaluated configurations to the specified thermocells.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 635,
+                "end": 877
+              }
+            ],
+            "after": [
+              {
+                "start": 499,
+                "end": 635
+              },
+              {
+                "start": 635,
+                "end": 877
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. ",
+            "after": "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. "
+          },
+          "conditions": {
+            "before": "Over a very wide range of redox-species concentrations; connection-specific allocation is not stated.",
+            "after": "Potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate plus sulphuric acid thermocells; over a very wide range of redox-species concentrations; connection-specific allocation is not stated."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0217",
+        "relation_id": "P0217:r005",
+        "action": "patch",
+        "reason": "Bind the evaluated configurations to the specified thermocells.",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 635,
+                "end": 877
+              }
+            ],
+            "after": [
+              {
+                "start": 499,
+                "end": 635
+              },
+              {
+                "start": 635,
+                "end": 877
+              }
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_050",
+              "action": "patch"
+            }
+          },
+          "quote": {
+            "before": "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. ",
+            "after": "This was achieved using potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate (plus sulphuric acid) thermocells. "
+          },
+          "conditions": {
+            "before": "Over a very wide range of redox-species concentrations.",
+            "after": "Potassium ferrocyanide(II)/ferricyanide(III) and iron(II)/iron(III) sulphate plus sulphuric acid thermocells; over a very wide range of redox-species concentrations."
+          },
+          "context_quotes": {
+            "before": [],
+            "after": [
+              "Quantitative evaluation of thermocells electrically parallel and/or in series demonstrated relatively simple additive behaviour for current and potential (and thus power density) over a very wide range of concentrations of the redox species. "
+            ]
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0217",
+        "relation_id": "P0217:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Low potentials generated by individual thermoelectric and thermogalvanic elements",
+          "subject_role": "quantity",
+          "predicate": "necessitate",
+          "object": "Electrical series connection of numerous cells",
+          "object_role": "design_strategy",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "To generate useful voltages.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0217:complete_v1_cr001",
+          "quote": "The low potentials generated by individual thermoelectric and thermogalvanic 'heat to electricity' elements necessitate that numerous cells be placed electrically in series to generate useful voltages. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 202
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0217:complete_v1_cr001_subject",
+          "object_id": "P0217:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_050",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

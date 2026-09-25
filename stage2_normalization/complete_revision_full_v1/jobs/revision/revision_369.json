@@ -1,0 +1,1238 @@
+[
+  {
+    "paper_id": "P1503",
+    "title": "Scaling Relation between Electrochemical Seebeck Coefficient for Fe2+/Fe3+ in Organic Solvent and Its Viscosity",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The temperature coefficient alpha (= dV/dT) of the redox potential (V) in a redox system, or so-called electrochemical Seebeck coefficient, is a key parameter for thermal energy harvesting. "
+      },
+      {
+        "id": 1,
+        "text": "We systematically investigated alpha for Fe2+/Fe3+ in 16 organic solvents, i.e., 8 protic and 8 aprotic solvents. "
+      },
+      {
+        "id": 2,
+        "text": "We found that alpha shows remarkable solvent dependence and is distributed from 0.14 mV/K for glycerin to 3.60 mV/K for acetone. "
+      },
+      {
+        "id": 3,
+        "text": "We further found a scaling relation between alpha and viscosity (eta) of the solvent as alpha proportional to eta(-0.4). "
+      },
+      {
+        "id": 4,
+        "text": "We will discuss solvent dependence of a and the scaling relation in terms of the configuration entropy of the solvent molecules."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1503:solvent",
+        "label": "Solvent identity",
+        "role": "condition"
+      },
+      {
+        "id": "P1503:alpha",
+        "label": "Electrochemical Seebeck coefficient alpha = dV/dT",
+        "role": "quantity"
+      },
+      {
+        "id": "P1503:glycerin",
+        "label": "Fe2+/Fe3+ in glycerin",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1503:low",
+        "label": "Alpha = 0.14 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P1503:acetone",
+        "label": "Fe2+/Fe3+ in acetone",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1503:high",
+        "label": "Alpha = 3.60 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P1503:eta",
+        "label": "Solvent viscosity eta",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1503:r001",
+        "subject": "Solvent identity",
+        "subject_role": "condition",
+        "predicate": "strongly affects",
+        "object": "Electrochemical Seebeck coefficient alpha = dV/dT",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Fe2+/Fe3+ in 16 organic solvents; alpha spans 0.14–3.60 mV/K",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We systematically investigated alpha for Fe2+/Fe3+ in 16 organic solvents, i.e., 8 protic and 8 aprotic solvents. ",
+        "context_quotes": [
+          "We found that alpha shows remarkable solvent dependence and is distributed from 0.14 mV/K for glycerin to 3.60 mV/K for acetone. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1503:solvent",
+        "object_id": "P1503:alpha"
+      },
+      {
+        "relation_id": "P1503:r002",
+        "subject": "Fe2+/Fe3+ in glycerin",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Alpha = 0.14 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We systematically investigated alpha for Fe2+/Fe3+ in 16 organic solvents, i.e., 8 protic and 8 aprotic solvents. ",
+        "context_quotes": [
+          "We found that alpha shows remarkable solvent dependence and is distributed from 0.14 mV/K for glycerin to 3.60 mV/K for acetone. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1503:glycerin",
+        "object_id": "P1503:low"
+      },
+      {
+        "relation_id": "P1503:r003",
+        "subject": "Fe2+/Fe3+ in acetone",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Alpha = 3.60 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We systematically investigated alpha for Fe2+/Fe3+ in 16 organic solvents, i.e., 8 protic and 8 aprotic solvents. ",
+        "context_quotes": [
+          "We found that alpha shows remarkable solvent dependence and is distributed from 0.14 mV/K for glycerin to 3.60 mV/K for acetone. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1503:acetone",
+        "object_id": "P1503:high"
+      },
+      {
+        "relation_id": "P1503:r004",
+        "subject": "Electrochemical Seebeck coefficient alpha = dV/dT",
+        "subject_role": "quantity",
+        "predicate": "scales as eta^−0.4 with",
+        "object": "Solvent viscosity eta",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Fe2+/Fe3+ in the studied organic solvents",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "We systematically investigated alpha for Fe2+/Fe3+ in 16 organic solvents, i.e., 8 protic and 8 aprotic solvents. ",
+        "context_quotes": [
+          "We further found a scaling relation between alpha and viscosity (eta) of the solvent as alpha proportional to eta(-0.4). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1503:alpha",
+        "object_id": "P1503:eta"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1504",
+    "title": "Dielectric Behavior as a Screen in Rational Searches for Electronic Materials: Metal Pnictide Sulfosalts",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Dielectric screening plays an important role in reducing the strength of carrier scattering and trapping by point defects for many semiconductors such as the halide perovskite solar materials. "
+      },
+      {
+        "id": 1,
+        "text": "However, it was rarely considered as a screen to find new electronic semiconductors. "
+      },
+      {
+        "id": 2,
+        "text": "We performed a material search study using the dielectric properties as a screen to identify potential electronic materials in the class of metal-pnictide ternary sulfosalts, containing Bi or Sb. "
+      },
+      {
+        "id": 3,
+        "text": "These salts are basically ionic due to the electronegativity difference between the S and both the metal and pnictogen elements. "
+      },
+      {
+        "id": 4,
+        "text": "However, we do find significant cross-gap hybridization between the S p-derived valence bands and pnictogen p-derived conduction bands in many of the materials. "
+      },
+      {
+        "id": 5,
+        "text": "This leads to enhanced Born effective charges and, in several cases, highly enhanced dielectric constants. "
+      },
+      {
+        "id": 6,
+        "text": "We find a chemical rule for high dielectric constants in terms of the bond connectivity of the pnictogen-chalcogen part of the crystal structure. "
+      },
+      {
+        "id": 7,
+        "text": "We additionally find a series of compounds with low effective mass, high dielectric constant, and other properties that suggest good performance as electronic materials and also several potential thermoelectric compounds. "
+      },
+      {
+        "id": 8,
+        "text": "Experimental optical data and solar conversion efficiency are reported for Sn-Sb-S samples, and results in accord with predicted good performance are found. "
+      },
+      {
+        "id": 9,
+        "text": "The results illustrate the utility of dielectric properties as a screen for identifying complex semiconductors."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1504:en",
+        "label": "Electronegativity difference between S and metal/pnictogen elements",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1504:ionic",
+        "label": "Predominantly ionic bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P1504:salts",
+        "label": "Bi- or Sb-containing metal-pnictide ternary sulfosalts",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1504:hyb",
+        "label": "Cross-gap hybridization of S p valence and pnictogen p conduction bands",
+        "role": "interaction"
+      },
+      {
+        "id": "P1504:born",
+        "label": "Enhanced Born effective charges",
+        "role": "quantity"
+      },
+      {
+        "id": "P1504:dielectric",
+        "label": "Highly enhanced dielectric constants",
+        "role": "quantity"
+      },
+      {
+        "id": "P1504:connect",
+        "label": "Pnictogen–chalcogen bond connectivity",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1504:high",
+        "label": "High dielectric constants",
+        "role": "quantity"
+      },
+      {
+        "id": "P1504:series",
+        "label": "Identified compound series",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1504:mass",
+        "label": "Low effective mass",
+        "role": "quantity"
+      },
+      {
+        "id": "P1504:electronic",
+        "label": "Good electronic-material performance",
+        "role": "application"
+      },
+      {
+        "id": "P1504:tecomp",
+        "label": "Several identified potential thermoelectric compounds",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1504:te",
+        "label": "Thermoelectric use",
+        "role": "application"
+      },
+      {
+        "id": "P1504:sn",
+        "label": "Sn-Sb-S samples",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1504:optical",
+        "label": "Optical performance consistent with predictions",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1504:solar",
+        "label": "Solar conversion efficiency consistent with predicted good performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1504:screen",
+        "label": "Dielectric-property screening",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1504:identify",
+        "label": "Identification of potential complex electronic semiconductors",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1504:r001",
+        "subject": "Electronegativity difference between S and metal/pnictogen elements",
+        "subject_role": "descriptor",
+        "predicate": "causes",
+        "object": "Predominantly ionic bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Metal-pnictide ternary sulfosalts containing Bi or Sb",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We performed a material search study using the dielectric properties as a screen to identify potential electronic materials in the class of metal-pnictide ternary sulfosalts, containing Bi or Sb. ",
+        "context_quotes": [
+          "These salts are basically ionic due to the electronegativity difference between the S and both the metal and pnictogen elements. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1504:en",
+        "object_id": "P1504:ionic"
+      },
+      {
+        "relation_id": "P1504:r002",
+        "subject": "Bi- or Sb-containing metal-pnictide ternary sulfosalts",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Cross-gap hybridization of S p valence and pnictogen p conduction bands",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Many of the investigated materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We performed a material search study using the dielectric properties as a screen to identify potential electronic materials in the class of metal-pnictide ternary sulfosalts, containing Bi or Sb. ",
+        "context_quotes": [
+          "However, we do find significant cross-gap hybridization between the S p-derived valence bands and pnictogen p-derived conduction bands in many of the materials. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1504:salts",
+        "object_id": "P1504:hyb"
+      },
+      {
+        "relation_id": "P1504:r003",
+        "subject": "Cross-gap hybridization of S p valence and pnictogen p conduction bands",
+        "subject_role": "interaction",
+        "predicate": "enhances",
+        "object": "Enhanced Born effective charges",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "However, we do find significant cross-gap hybridization between the S p-derived valence bands and pnictogen p-derived conduction bands in many of the materials. ",
+        "context_quotes": [
+          "This leads to enhanced Born effective charges and, in several cases, highly enhanced dielectric constants. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1504:hyb",
+        "object_id": "P1504:born"
+      },
+      {
+        "relation_id": "P1504:r004",
+        "subject": "Cross-gap hybridization of S p valence and pnictogen p conduction bands",
+        "subject_role": "interaction",
+        "predicate": "leads to",
+        "object": "Highly enhanced dielectric constants",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Several of the investigated materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "However, we do find significant cross-gap hybridization between the S p-derived valence bands and pnictogen p-derived conduction bands in many of the materials. ",
+        "context_quotes": [
+          "This leads to enhanced Born effective charges and, in several cases, highly enhanced dielectric constants. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1504:hyb",
+        "object_id": "P1504:dielectric"
+      },
+      {
+        "relation_id": "P1504:r005",
+        "subject": "Pnictogen–chalcogen bond connectivity",
+        "subject_role": "state_structure",
+        "predicate": "is related by a chemical rule to",
+        "object": "High dielectric constants",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Rule details and effect direction are not specified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We find a chemical rule for high dielectric constants in terms of the bond connectivity of the pnictogen-chalcogen part of the crystal structure. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1504:connect",
+        "object_id": "P1504:high"
+      },
+      {
+        "relation_id": "P1504:r006",
+        "subject": "Identified compound series",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Low effective mass",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We additionally find a series of compounds with low effective mass, high dielectric constant, and other properties that suggest good performance as electronic materials and also several potential thermoelectric compounds. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1504:series",
+        "object_id": "P1504:mass"
+      },
+      {
+        "relation_id": "P1504:r007",
+        "subject": "Identified compound series",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "High dielectric constants",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We additionally find a series of compounds with low effective mass, high dielectric constant, and other properties that suggest good performance as electronic materials and also several potential thermoelectric compounds. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1504:series",
+        "object_id": "P1504:high"
+      },
+      {
+        "relation_id": "P1504:r008",
+        "subject": "Identified compound series",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Good electronic-material performance",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Suggested by jointly reported low effective mass, high dielectric constant and unspecified other properties",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "We additionally find a series of compounds with low effective mass, high dielectric constant, and other properties that suggest good performance as electronic materials and also several potential thermoelectric compounds. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1504:series",
+        "object_id": "P1504:electronic"
+      },
+      {
+        "relation_id": "P1504:r009",
+        "subject": "Several identified potential thermoelectric compounds",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Thermoelectric use",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "We additionally find a series of compounds with low effective mass, high dielectric constant, and other properties that suggest good performance as electronic materials and also several potential thermoelectric compounds. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1504:tecomp",
+        "object_id": "P1504:te"
+      },
+      {
+        "relation_id": "P1504:r010",
+        "subject": "Sn-Sb-S samples",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Optical performance consistent with predictions",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Experimental results accord with predicted good performance; numerical data absent",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Experimental optical data and solar conversion efficiency are reported for Sn-Sb-S samples, and results in accord with predicted good performance are found. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Experimental optical data and solar conversion efficiency are reported for Sn-Sb-S samples, and results in accord with predicted good performance are found. "
+        ],
+        "subject_id": "P1504:sn",
+        "object_id": "P1504:optical"
+      },
+      {
+        "relation_id": "P1504:r011",
+        "subject": "Sn-Sb-S samples",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Solar conversion efficiency consistent with predicted good performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Numerical efficiency absent",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Experimental optical data and solar conversion efficiency are reported for Sn-Sb-S samples, and results in accord with predicted good performance are found. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Experimental optical data and solar conversion efficiency are reported for Sn-Sb-S samples, and results in accord with predicted good performance are found. "
+        ],
+        "subject_id": "P1504:sn",
+        "object_id": "P1504:solar"
+      },
+      {
+        "relation_id": "P1504:r012",
+        "subject": "Dielectric-property screening",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Identification of potential complex electronic semiconductors",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Demonstrated material search in Bi- or Sb-containing metal-pnictide ternary sulfosalts",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "We performed a material search study using the dielectric properties as a screen to identify potential electronic materials in the class of metal-pnictide ternary sulfosalts, containing Bi or Sb. ",
+        "context_quotes": [
+          "The results illustrate the utility of dielectric properties as a screen for identifying complex semiconductors."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1504:screen",
+        "object_id": "P1504:identify"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1505",
+    "title": "Correlation between structural and transport properties of electron beam irradiated PrMnO3 compounds",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The structural, electrical, magnetic, and thermal properties of electron beam (EB) irradiated PrMnO3 manganites were investigated in the present communication. "
+      },
+      {
+        "id": 1,
+        "text": "X-ray diffraction data reveals that all samples are single phased with orthorhombic distorted structure (Pbnm). "
+      },
+      {
+        "id": 2,
+        "text": "Furthermore, the diffracted data are analyzed in detail using Rietveld refinement technique. "
+      },
+      {
+        "id": 3,
+        "text": "It is observed that the EB dosage feebly disturbs the MnO6 octahedra. "
+      },
+      {
+        "id": 4,
+        "text": "The electrical resistivity of all the samples exhibits semiconducting behavior. "
+      },
+      {
+        "id": 5,
+        "text": "Small polaron hopping model is conveniently employed to investigate the semiconducting nature of the pristine as well as EB irradiated samples. "
+      },
+      {
+        "id": 6,
+        "text": "The Seebeck coefficient (S) of the pristine as well as the irradiated samples exhibit large positive values at lower temperatures, signifying holes as the dominant charge carriers. "
+      },
+      {
+        "id": 7,
+        "text": "The analysis of Seebeck coefficient data confirms that the small polaron hopping mechanism assists the thermoelectric transport property in the high temperature region. "
+      },
+      {
+        "id": 8,
+        "text": "The magnetic measurements confirm the existence of paramagnetic (PM) to ferromagnetic (FM) behavior for the pristine and irradiated samples. "
+      },
+      {
+        "id": 9,
+        "text": "In the lower temperature regime, coexistence of FM clusters and AFM matrix is dominating. "
+      },
+      {
+        "id": 10,
+        "text": "Thus, the complex magnetic behavior of the compound has been explained in terms of rearrangement of antiferromagnetically coupled ionic moments."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1505:m",
+        "label": "Pristine and electron-beam-irradiated PrMnO3 samples",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1505:structure",
+        "label": "Single-phase distorted orthorhombic structure (Pbnm)",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1505:dose",
+        "label": "Electron-beam dosage",
+        "role": "condition"
+      },
+      {
+        "id": "P1505:oct",
+        "label": "MnO6 octahedra",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1505:semi",
+        "label": "Semiconducting resistivity behavior",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1505:model",
+        "label": "Small-polaron hopping model",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1505:s",
+        "label": "Large positive Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P1505:holes",
+        "label": "Holes as dominant charge carriers",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1505:hop",
+        "label": "Small-polaron hopping",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1505:transport",
+        "label": "Thermoelectric transport",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1505:mag",
+        "label": "Paramagnetic-to-ferromagnetic behavior",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1505:coexist",
+        "label": "Coexisting ferromagnetic clusters and antiferromagnetic matrix",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1505:rearrange",
+        "label": "Rearrangement of antiferromagnetically coupled ionic moments",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1505:complex",
+        "label": "Complex magnetic behavior",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1505:r001",
+        "subject": "Pristine and electron-beam-irradiated PrMnO3 samples",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Single-phase distorted orthorhombic structure (Pbnm)",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "All samples; X-ray diffraction",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The structural, electrical, magnetic, and thermal properties of electron beam (EB) irradiated PrMnO3 manganites were investigated in the present communication. ",
+        "context_quotes": [
+          "X-ray diffraction data reveals that all samples are single phased with orthorhombic distorted structure (Pbnm). ",
+          "Small polaron hopping model is conveniently employed to investigate the semiconducting nature of the pristine as well as EB irradiated samples. "
+        ],
+        "modality_evidence": [
+          "X-ray diffraction data reveals that all samples are single phased with orthorhombic distorted structure (Pbnm). "
+        ],
+        "subject_id": "P1505:m",
+        "object_id": "P1505:structure"
+      },
+      {
+        "relation_id": "P1505:r002",
+        "subject": "Electron-beam dosage",
+        "subject_role": "condition",
+        "predicate": "weakly disturbs",
+        "object": "MnO6 octahedra",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PrMnO3",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "It is observed that the EB dosage feebly disturbs the MnO6 octahedra. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1505:dose",
+        "object_id": "P1505:oct"
+      },
+      {
+        "relation_id": "P1505:r003",
+        "subject": "Pristine and electron-beam-irradiated PrMnO3 samples",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Semiconducting resistivity behavior",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "All samples",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The electrical resistivity of all the samples exhibits semiconducting behavior. ",
+        "context_quotes": [
+          "Small polaron hopping model is conveniently employed to investigate the semiconducting nature of the pristine as well as EB irradiated samples. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1505:m",
+        "object_id": "P1505:semi"
+      },
+      {
+        "relation_id": "P1505:r004",
+        "subject": "Small-polaron hopping model",
+        "subject_role": "mechanism_process",
+        "predicate": "is used to analyze",
+        "object": "Semiconducting resistivity behavior",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pristine and irradiated samples; small-polaron hopping model",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Small polaron hopping model is conveniently employed to investigate the semiconducting nature of the pristine as well as EB irradiated samples. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1505:model",
+        "object_id": "P1505:semi"
+      },
+      {
+        "relation_id": "P1505:r005",
+        "subject": "Pristine and electron-beam-irradiated PrMnO3 samples",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Large positive Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Lower temperatures",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The Seebeck coefficient (S) of the pristine as well as the irradiated samples exhibit large positive values at lower temperatures, signifying holes as the dominant charge carriers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1505:m",
+        "object_id": "P1505:s"
+      },
+      {
+        "relation_id": "P1505:r006",
+        "subject": "Large positive Seebeck coefficient",
+        "subject_role": "quantity",
+        "predicate": "indicates",
+        "object": "Holes as dominant charge carriers",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pristine and irradiated samples; lower temperatures",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The Seebeck coefficient (S) of the pristine as well as the irradiated samples exhibit large positive values at lower temperatures, signifying holes as the dominant charge carriers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1505:s",
+        "object_id": "P1505:holes"
+      },
+      {
+        "relation_id": "P1505:r007",
+        "subject": "Small-polaron hopping",
+        "subject_role": "mechanism_process",
+        "predicate": "assists",
+        "object": "Thermoelectric transport",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "High-temperature region; inferred from Seebeck-coefficient data analysis",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The analysis of Seebeck coefficient data confirms that the small polaron hopping mechanism assists the thermoelectric transport property in the high temperature region. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1505:hop",
+        "object_id": "P1505:transport"
+      },
+      {
+        "relation_id": "P1505:r008",
+        "subject": "Pristine and electron-beam-irradiated PrMnO3 samples",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Paramagnetic-to-ferromagnetic behavior",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Magnetic measurements",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The magnetic measurements confirm the existence of paramagnetic (PM) to ferromagnetic (FM) behavior for the pristine and irradiated samples. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The magnetic measurements confirm the existence of paramagnetic (PM) to ferromagnetic (FM) behavior for the pristine and irradiated samples. "
+        ],
+        "subject_id": "P1505:m",
+        "object_id": "P1505:mag"
+      },
+      {
+        "relation_id": "P1505:r009",
+        "subject": "Pristine and electron-beam-irradiated PrMnO3 samples",
+        "subject_role": "material_entity",
+        "predicate": "is dominated by",
+        "object": "Coexisting ferromagnetic clusters and antiferromagnetic matrix",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Lower-temperature regime",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The magnetic measurements confirm the existence of paramagnetic (PM) to ferromagnetic (FM) behavior for the pristine and irradiated samples. ",
+        "context_quotes": [
+          "In the lower temperature regime, coexistence of FM clusters and AFM matrix is dominating. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1505:m",
+        "object_id": "P1505:coexist"
+      },
+      {
+        "relation_id": "P1505:r010",
+        "subject": "Rearrangement of antiferromagnetically coupled ionic moments",
+        "subject_role": "mechanism_process",
+        "predicate": "explains",
+        "object": "Complex magnetic behavior",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PrMnO3; authors' magnetic interpretation",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Thus, the complex magnetic behavior of the compound has been explained in terms of rearrangement of antiferromagnetically coupled ionic moments.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1505:rearrange",
+        "object_id": "P1505:complex"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1506",
+    "title": "Argyrodite-Type Cu8GeSe6-xTex (0 ≤ x ≤ 2): Temperature-Dependent Crystal Structure and Thermoelectric Properties",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Substitution of Se by Te in argyrodite-like Cu8GeSe6 leads to compounds Cu8GeSe6-xTex (0 <= x <= 2) and involves a structure change from the Cu8GeSe6 type to the Ag8GeTe6 type. "
+      },
+      {
+        "id": 1,
+        "text": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. "
+      },
+      {
+        "id": 2,
+        "text": "Diffusion pathways are visualized by isosurfaces of joint probability density functions. "
+      },
+      {
+        "id": 3,
+        "text": "The lattice parameter a increases with temperature in two linear regimes from 10.4682(18) angstrom to 10.609(3) angstrom with a superionic transition at 400 degrees C. "
+      },
+      {
+        "id": 4,
+        "text": "The potential barrier for Cu is about 90 meV at 50 degrees C, which is in the range of typical ion conductors. "
+      },
+      {
+        "id": 5,
+        "text": "Cu8GeSe4Te2 exhibits a higher thermoelectric figure of merit (zT = 0.65 at 350 degrees C) than Cu8GeSe6 (zT = 0.2 at 350 degrees C). "
+      },
+      {
+        "id": 6,
+        "text": "The application of an effective mass model reveals that the charge carrier concentration of 6 x 10(20) cm(-3) is close to optimum. "
+      },
+      {
+        "id": 7,
+        "text": "In addition, argyrodite-type precipitates form heterostructures with a Cu- and Se-doped matrix of germanium antimony tellurides in the quinary system Cu/Ge/Sb/Se/Te, whose transport properties were characterized."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1506:sub",
+        "label": "Te substitution for Se in Cu8GeSe6",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1506:series",
+        "label": "Cu8GeSe6−xTex (0 ≤ x ≤ 2)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1506:change",
+        "label": "Structure change from Cu8GeSe6 type to Ag8GeTe6 type",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1506:m175",
+        "label": "Cu8GeSe4.25Te1.75",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1506:disorder",
+        "label": "Pronounced Cu-atom disorder",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1506:adp",
+        "label": "Anharmonic displacement parameters using Gram–Charlier expansion",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1506:iso",
+        "label": "Isosurfaces of joint probability density functions",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1506:paths",
+        "label": "Cu diffusion pathways",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1506:temp",
+        "label": "Increasing temperature",
+        "role": "condition"
+      },
+      {
+        "id": "P1506:lattice",
+        "label": "Lattice parameter a increasing from 10.4682(18) to 10.609(3) Å in two linear regimes",
+        "role": "quantity"
+      },
+      {
+        "id": "P1506:transition",
+        "label": "Superionic transition",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1506:barrier",
+        "label": "Cu potential barrier approximately 90 meV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1506:m2",
+        "label": "Cu8GeSe4Te2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1506:zt2",
+        "label": "zT = 0.65",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1506:m0",
+        "label": "Cu8GeSe6",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1506:zt0",
+        "label": "zT = 0.2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1506:carrier",
+        "label": "Charge-carrier concentration 6 × 10^20 cm^−3",
+        "role": "quantity"
+      },
+      {
+        "id": "P1506:optimum",
+        "label": "Near-optimum charge-carrier concentration",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1506:precip",
+        "label": "Argyrodite-type precipitates",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1506:hetero",
+        "label": "Precipitate–matrix heterostructures",
+        "role": "state_structure"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1506:r001",
+        "subject": "Te substitution for Se in Cu8GeSe6",
+        "subject_role": "design_strategy",
+        "predicate": "leads to",
+        "object": "Cu8GeSe6−xTex (0 ≤ x ≤ 2)",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Substitution of Se by Te in argyrodite-like Cu8GeSe6 leads to compounds Cu8GeSe6-xTex (0 <= x <= 2) and involves a structure change from the Cu8GeSe6 type to the Ag8GeTe6 type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:sub",
+        "object_id": "P1506:series"
+      },
+      {
+        "relation_id": "P1506:r002",
+        "subject": "Te substitution for Se in Cu8GeSe6",
+        "subject_role": "design_strategy",
+        "predicate": "involves",
+        "object": "Structure change from Cu8GeSe6 type to Ag8GeTe6 type",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "0 ≤ x ≤ 2",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Substitution of Se by Te in argyrodite-like Cu8GeSe6 leads to compounds Cu8GeSe6-xTex (0 <= x <= 2) and involves a structure change from the Cu8GeSe6 type to the Ag8GeTe6 type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:sub",
+        "object_id": "P1506:change"
+      },
+      {
+        "relation_id": "P1506:r003",
+        "subject": "Cu8GeSe4.25Te1.75",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Pronounced Cu-atom disorder",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "50–500 °C",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:m175",
+        "object_id": "P1506:disorder"
+      },
+      {
+        "relation_id": "P1506:r004",
+        "subject": "Anharmonic displacement parameters using Gram–Charlier expansion",
+        "subject_role": "descriptor",
+        "predicate": "best describes",
+        "object": "Pronounced Cu-atom disorder",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu8GeSe4.25Te1.75 at 50–500 °C; Gram–Charlier expansion",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:adp",
+        "object_id": "P1506:disorder"
+      },
+      {
+        "relation_id": "P1506:r005",
+        "subject": "Isosurfaces of joint probability density functions",
+        "subject_role": "design_strategy",
+        "predicate": "visualizes",
+        "object": "Cu diffusion pathways",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu8GeSe4.25Te1.75",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. ",
+        "context_quotes": [
+          "Diffusion pathways are visualized by isosurfaces of joint probability density functions. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1506:iso",
+        "object_id": "P1506:paths"
+      },
+      {
+        "relation_id": "P1506:r006",
+        "subject": "Increasing temperature",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Lattice parameter a increasing from 10.4682(18) to 10.609(3) Å in two linear regimes",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu8GeSe4.25Te1.75; studied interval 50–500 °C; superionic transition at 400 °C",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. ",
+        "context_quotes": [
+          "The lattice parameter a increases with temperature in two linear regimes from 10.4682(18) angstrom to 10.609(3) angstrom with a superionic transition at 400 degrees C. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1506:temp",
+        "object_id": "P1506:lattice"
+      },
+      {
+        "relation_id": "P1506:r007",
+        "subject": "Cu8GeSe4.25Te1.75",
+        "subject_role": "material_entity",
+        "predicate": "undergoes",
+        "object": "Superionic transition",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 400 °C",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. ",
+        "context_quotes": [
+          "The lattice parameter a increases with temperature in two linear regimes from 10.4682(18) angstrom to 10.609(3) angstrom with a superionic transition at 400 degrees C. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1506:m175",
+        "object_id": "P1506:transition"
+      },
+      {
+        "relation_id": "P1506:r008",
+        "subject": "Cu8GeSe4.25Te1.75",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Cu potential barrier approximately 90 meV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 50 °C; within the range of typical ion conductors",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The crystal structure of Cu8GeSe4.25Te1.75 between 50 degrees C and 500 degrees C reveals pronounced disorder of Cu atoms that is best described by anharmonic atomic displacement parameters using the Gram-Charlier expansion. ",
+        "context_quotes": [
+          "The potential barrier for Cu is about 90 meV at 50 degrees C, which is in the range of typical ion conductors. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1506:m175",
+        "object_id": "P1506:barrier"
+      },
+      {
+        "relation_id": "P1506:r009",
+        "subject": "Cu8GeSe4Te2",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "zT = 0.65",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "350 °C; higher than Cu8GeSe6, zT = 0.2 at the same temperature",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cu8GeSe4Te2 exhibits a higher thermoelectric figure of merit (zT = 0.65 at 350 degrees C) than Cu8GeSe6 (zT = 0.2 at 350 degrees C). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:m2",
+        "object_id": "P1506:zt2"
+      },
+      {
+        "relation_id": "P1506:r010",
+        "subject": "Cu8GeSe6",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "zT = 0.2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "350 °C; lower than Cu8GeSe4Te2, zT = 0.65 at the same temperature",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Cu8GeSe4Te2 exhibits a higher thermoelectric figure of merit (zT = 0.65 at 350 degrees C) than Cu8GeSe6 (zT = 0.2 at 350 degrees C). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:m0",
+        "object_id": "P1506:zt0"
+      },
+      {
+        "relation_id": "P1506:r011",
+        "subject": "Charge-carrier concentration 6 × 10^20 cm^−3",
+        "subject_role": "quantity",
+        "predicate": "is assessed as",
+        "object": "Near-optimum charge-carrier concentration",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Effective mass model; specific sample not explicitly identified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The application of an effective mass model reveals that the charge carrier concentration of 6 x 10(20) cm(-3) is close to optimum. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:carrier",
+        "object_id": "P1506:optimum"
+      },
+      {
+        "relation_id": "P1506:r012",
+        "subject": "Argyrodite-type precipitates",
+        "subject_role": "material_entity",
+        "predicate": "jointly forms",
+        "object": "Precipitate–matrix heterostructures",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Quinary Cu/Ge/Sb/Se/Te system",
+        "joint_factors": [
+          "Cu- and Se-doped germanium antimony telluride matrix"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In addition, argyrodite-type precipitates form heterostructures with a Cu- and Se-doped matrix of germanium antimony tellurides in the quinary system Cu/Ge/Sb/Se/Te, whose transport properties were characterized.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1506:precip",
+        "object_id": "P1506:hetero"
+      }
+    ]
+  }
+]

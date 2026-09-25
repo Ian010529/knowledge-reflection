@@ -1,0 +1,1895 @@
+[
+  {
+    "paper_id": "P1373",
+    "title": "DFT Insights on the Future Prospects of Ba2PrXO6 (X = Ir, Pt) Double Perovskites for High-Energy Applications",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Double perovskites are promising for solar cells, thermoelectric generators, and renewable energy due to their stability, eco-friendly nature, lack of lead, and high performance. "
+      },
+      {
+        "id": 1,
+        "text": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+      },
+      {
+        "id": 2,
+        "text": "The ferromagnetic (FM) state is more stable than the non-magnetic (NM) state for both compounds, with Ba2PrIrO6 having formation energy of - 1.354 being slightly more stable than Ba2PrPtO6 with formation energy of - 1.258. "
+      },
+      {
+        "id": 3,
+        "text": "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+      },
+      {
+        "id": 4,
+        "text": "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. "
+      },
+      {
+        "id": 5,
+        "text": "Ba2PrPtO6 is identified as an indirect bandgap semiconductor by both methods. "
+      },
+      {
+        "id": 6,
+        "text": "Both compounds show significant electronic transitions in the UV spectrum, indicating potential for UV absorption applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1373:fm",
+        "label": "Ferromagnetic state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:nm",
+        "label": "Non-magnetic state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:ir",
+        "label": "Ba2PrIrO6",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1373:eir",
+        "label": "Formation energy: −1.354, unit unstated",
+        "role": "quantity"
+      },
+      {
+        "id": "P1373:pt",
+        "label": "Ba2PrPtO6",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1373:ept",
+        "label": "Formation energy: −1.258, unit unstated",
+        "role": "quantity"
+      },
+      {
+        "id": "P1373:both",
+        "label": "Ba2PrIrO6 and Ba2PrPtO6",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1373:dyn",
+        "label": "Dynamical stability",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:mech",
+        "label": "Mechanical stability",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:cir",
+        "label": "C11: 305, unit unstated",
+        "role": "quantity"
+      },
+      {
+        "id": "P1373:cpt",
+        "label": "C11: 322, unit unstated",
+        "role": "quantity"
+      },
+      {
+        "id": "P1373:ductile",
+        "label": "Ductility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1373:aniso",
+        "label": "Anisotropy",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1373:resist",
+        "label": "Resistance to plastic deformation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1373:ionic",
+        "label": "Ionic bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P1373:central",
+        "label": "Central-force crystal characteristics",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1373:metal",
+        "label": "Metallic behavior in both spin channels",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:direct",
+        "label": "Direct-bandgap semiconductor behavior in spin-down channel",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:gap",
+        "label": "Spin-down band gap: 1.51 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1373:indirect",
+        "label": "Indirect-bandgap semiconductor",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1373:uv",
+        "label": "Significant electronic transitions in UV spectrum",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1373:use",
+        "label": "UV absorption applications",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1373:r001",
+        "subject": "Ferromagnetic state",
+        "subject_role": "state_structure",
+        "predicate": "is_more_stable_than",
+        "object": "Non-magnetic state",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Both Ba2PrIrO6 and Ba2PrPtO6; WIEN2k first-principles calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "The ferromagnetic (FM) state is more stable than the non-magnetic (NM) state for both compounds, with Ba2PrIrO6 having formation energy of - 1.354 being slightly more stable than Ba2PrPtO6 with formation energy of - 1.258. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:fm",
+        "object_id": "P1373:nm"
+      },
+      {
+        "relation_id": "P1373:r002",
+        "subject": "Ba2PrIrO6",
+        "subject_role": "material_entity",
+        "predicate": "has_formation_energy",
+        "object": "Formation energy: −1.354, unit unstated",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "The ferromagnetic (FM) state is more stable than the non-magnetic (NM) state for both compounds, with Ba2PrIrO6 having formation energy of - 1.354 being slightly more stable than Ba2PrPtO6 with formation energy of - 1.258. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:ir",
+        "object_id": "P1373:eir"
+      },
+      {
+        "relation_id": "P1373:r003",
+        "subject": "Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "has_formation_energy",
+        "object": "Formation energy: −1.258, unit unstated",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "The ferromagnetic (FM) state is more stable than the non-magnetic (NM) state for both compounds, with Ba2PrIrO6 having formation energy of - 1.354 being slightly more stable than Ba2PrPtO6 with formation energy of - 1.258. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:pt",
+        "object_id": "P1373:ept"
+      },
+      {
+        "relation_id": "P1373:r004",
+        "subject": "Ba2PrIrO6",
+        "subject_role": "material_entity",
+        "predicate": "is_slightly_more_stable_than",
+        "object": "Ba2PrPtO6",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Formation-energy comparison",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "The ferromagnetic (FM) state is more stable than the non-magnetic (NM) state for both compounds, with Ba2PrIrO6 having formation energy of - 1.354 being slightly more stable than Ba2PrPtO6 with formation energy of - 1.258. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:ir",
+        "object_id": "P1373:pt"
+      },
+      {
+        "relation_id": "P1373:r005",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "have",
+        "object": "Dynamical stability",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:dyn"
+      },
+      {
+        "relation_id": "P1373:r006",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "have",
+        "object": "Mechanical stability",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:mech"
+      },
+      {
+        "relation_id": "P1373:r007",
+        "subject": "Ba2PrIrO6",
+        "subject_role": "material_entity",
+        "predicate": "has_elastic_constant",
+        "object": "C11: 305, unit unstated",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:ir",
+        "object_id": "P1373:cir"
+      },
+      {
+        "relation_id": "P1373:r008",
+        "subject": "Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "has_elastic_constant",
+        "object": "C11: 322, unit unstated",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:pt",
+        "object_id": "P1373:cpt"
+      },
+      {
+        "relation_id": "P1373:r009",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Ductility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:ductile"
+      },
+      {
+        "relation_id": "P1373:r010",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Anisotropy",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Elastic-property context",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:aniso"
+      },
+      {
+        "relation_id": "P1373:r011",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Resistance to plastic deformation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:resist"
+      },
+      {
+        "relation_id": "P1373:r012",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Ionic bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:ionic"
+      },
+      {
+        "relation_id": "P1373:r013",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Central-force crystal characteristics",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds are dynamically and mechanically stable with C-11 values of 305 for Ba2PrIrO6 and 322 for Ba2PrPtO6, ductile, anisotropic, resistant to plastic deformation, and exhibit ionic bonding and central force crystal characteristics. "
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:central"
+      },
+      {
+        "relation_id": "P1373:r014",
+        "subject": "Ba2PrIrO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Metallic behavior in both spin channels",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "PBE electronic-band-structure calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. "
+        ],
+        "subject_id": "P1373:ir",
+        "object_id": "P1373:metal"
+      },
+      {
+        "relation_id": "P1373:r015",
+        "subject": "Ba2PrIrO6",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Direct-bandgap semiconductor behavior in spin-down channel",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "PBE-mBJ; spin-down channel",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. "
+        ],
+        "subject_id": "P1373:ir",
+        "object_id": "P1373:direct"
+      },
+      {
+        "relation_id": "P1373:r016",
+        "subject": "Ba2PrIrO6",
+        "subject_role": "material_entity",
+        "predicate": "has_band_gap",
+        "object": "Spin-down band gap: 1.51 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "PBE-mBJ; spin-down channel",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. "
+        ],
+        "subject_id": "P1373:ir",
+        "object_id": "P1373:gap"
+      },
+      {
+        "relation_id": "P1373:r017",
+        "subject": "Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "is",
+        "object": "Indirect-bandgap semiconductor",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Both PBE and PBE-mBJ",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. ",
+        "context_quotes": [
+          "Ba2PrPtO6 is identified as an indirect bandgap semiconductor by both methods. "
+        ],
+        "modality_evidence": [
+          "Electronic band structure calculations reveal that Ba2PrIrO6 behaves as a metal in both spin channels with PBE but shows direct bandgap semiconductor behavior for the spin-down channel (1.51 eV) with PBE-mBJ. "
+        ],
+        "subject_id": "P1373:pt",
+        "object_id": "P1373:indirect"
+      },
+      {
+        "relation_id": "P1373:r018",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "show",
+        "object": "Significant electronic transitions in UV spectrum",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles optoelectronic study",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds show significant electronic transitions in the UV spectrum, indicating potential for UV absorption applications."
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:uv"
+      },
+      {
+        "relation_id": "P1373:r019",
+        "subject": "Ba2PrIrO6 and Ba2PrPtO6",
+        "subject_role": "material_entity",
+        "predicate": "have_potential_for",
+        "object": "UV absorption applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "Based on significant UV electronic transitions",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. ",
+        "context_quotes": [
+          "Both compounds show significant electronic transitions in the UV spectrum, indicating potential for UV absorption applications."
+        ],
+        "modality_evidence": [
+          "This study uses first-principles calculations to examine the structural, dynamical, elastic, and optoelectronic properties of Ba2PrXO6 (X = Ir, Pt) with WIEN2k code. "
+        ],
+        "subject_id": "P1373:both",
+        "object_id": "P1373:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1374",
+    "title": "Role of Rare Earth Metal Ions Doping on Structural, Electrical, Magnetic, and Dielectric Behavior of Spinel Ferrites: a Comparative Study",
+    "segments": [
+      {
+        "id": 0,
+        "text": "In current studies, we have compared the doping effect of different rare earth metal ions on structural, electrical, magnetic, and dielectric properties in three different series of spinel ferrites. "
+      },
+      {
+        "id": 1,
+        "text": "The cubic spinel structure for all the synthesized nanoferrites had been confirmed by XRD scans and further with FTIR analysis. "
+      },
+      {
+        "id": 2,
+        "text": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. "
+      },
+      {
+        "id": 3,
+        "text": "Lanthanum doping showed appearance of secondary phases at dopant concentration above 0.2 that was attributed to its larger ionic radii than cerium. "
+      },
+      {
+        "id": 4,
+        "text": "The magnetic parameters for all the prepared samples were discussed by tracing hysteresis curves of all synthesized samples at room temperature. "
+      },
+      {
+        "id": 5,
+        "text": "Decreasing crystallite size effected spin orders which associated with ionic radii of RE(3+)ions resulted in decrease in magnetization. "
+      },
+      {
+        "id": 6,
+        "text": "Dopants having smaller ionic radii greatly reduced coercivity and improved initial permeability. "
+      },
+      {
+        "id": 7,
+        "text": "In the temperature range 423 to 823 K, the composition-dependent DC resistivity and activation energy ranges between 10(9) to similar to 10(10)Omega cm and similar to 2.85 eV respectively. "
+      },
+      {
+        "id": 8,
+        "text": "Both dielectric loss and dielectric constant decrease with decrease in frequency. "
+      },
+      {
+        "id": 9,
+        "text": "The reported characteristics made these prepared nanoferrites suitable candidates for high-frequency and microwave absorber devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1374:ferrites",
+        "label": "Synthesized rare-earth-doped spinel nanoferrites in three series",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1374:cubic",
+        "label": "Cubic spinel structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1374:nature",
+        "label": "Nature of RE3+ dopant ions",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1374:crystal",
+        "label": "Crystallite size",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:grain",
+        "label": "Grain size",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:lattice",
+        "label": "Lattice constant",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:radius",
+        "label": "Decreasing RE3+ dopant ionic radius",
+        "role": "condition"
+      },
+      {
+        "id": "P1374:la",
+        "label": "Lanthanum doping",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1374:secondary",
+        "label": "Secondary phases",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1374:large",
+        "label": "Larger ionic radius of La than Ce",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1374:smallcrystal",
+        "label": "Decreasing crystallite size",
+        "role": "condition"
+      },
+      {
+        "id": "P1374:spin",
+        "label": "Spin orders",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1374:mag",
+        "label": "Magnetization",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:small",
+        "label": "Dopants with smaller ionic radii",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1374:coercivity",
+        "label": "Coercivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:perm",
+        "label": "Initial permeability",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:rho",
+        "label": "DC resistivity: 10^9 to approximately 10^10 Ω cm",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:ea",
+        "label": "Activation energy: approximately 2.85 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:composition",
+        "label": "Nanoferrite composition",
+        "role": "condition"
+      },
+      {
+        "id": "P1374:freq",
+        "label": "Decreasing frequency",
+        "role": "condition"
+      },
+      {
+        "id": "P1374:loss",
+        "label": "Dielectric loss",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:constant",
+        "label": "Dielectric constant",
+        "role": "quantity"
+      },
+      {
+        "id": "P1374:use",
+        "label": "High-frequency and microwave absorber devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1374:r001",
+        "subject": "Synthesized rare-earth-doped spinel nanoferrites in three series",
+        "subject_role": "material_entity",
+        "predicate": "have_structure",
+        "object": "Cubic spinel structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Confirmed by XRD and FTIR",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In current studies, we have compared the doping effect of different rare earth metal ions on structural, electrical, magnetic, and dielectric properties in three different series of spinel ferrites. ",
+        "context_quotes": [
+          "The cubic spinel structure for all the synthesized nanoferrites had been confirmed by XRD scans and further with FTIR analysis. "
+        ],
+        "modality_evidence": [
+          "The cubic spinel structure for all the synthesized nanoferrites had been confirmed by XRD scans and further with FTIR analysis. "
+        ],
+        "subject_id": "P1374:ferrites",
+        "object_id": "P1374:cubic"
+      },
+      {
+        "relation_id": "P1374:r002",
+        "subject": "Nature of RE3+ dopant ions",
+        "subject_role": "descriptor",
+        "predicate": "significantly_affects",
+        "object": "Crystallite size",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:nature",
+        "object_id": "P1374:crystal"
+      },
+      {
+        "relation_id": "P1374:r003",
+        "subject": "Nature of RE3+ dopant ions",
+        "subject_role": "descriptor",
+        "predicate": "significantly_affects",
+        "object": "Grain size",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:nature",
+        "object_id": "P1374:grain"
+      },
+      {
+        "relation_id": "P1374:r004",
+        "subject": "Nature of RE3+ dopant ions",
+        "subject_role": "descriptor",
+        "predicate": "significantly_affects",
+        "object": "Lattice constant",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:nature",
+        "object_id": "P1374:lattice"
+      },
+      {
+        "relation_id": "P1374:r005",
+        "subject": "Decreasing RE3+ dopant ionic radius",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Crystallite size",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:radius",
+        "object_id": "P1374:crystal"
+      },
+      {
+        "relation_id": "P1374:r006",
+        "subject": "Decreasing RE3+ dopant ionic radius",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Grain size",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:radius",
+        "object_id": "P1374:grain"
+      },
+      {
+        "relation_id": "P1374:r007",
+        "subject": "Decreasing RE3+ dopant ionic radius",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Lattice constant",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Crystallite size, grain size, and lattice constant are found significantly affected by nature of dopant RE(3+)ions and decrease with decreasing ionic radii of dopants. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:radius",
+        "object_id": "P1374:lattice"
+      },
+      {
+        "relation_id": "P1374:r008",
+        "subject": "Lanthanum doping",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "Secondary phases",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Dopant concentration above 0.2",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Lanthanum doping showed appearance of secondary phases at dopant concentration above 0.2 that was attributed to its larger ionic radii than cerium. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:la",
+        "object_id": "P1374:secondary"
+      },
+      {
+        "relation_id": "P1374:r009",
+        "subject": "Larger ionic radius of La than Ce",
+        "subject_role": "descriptor",
+        "predicate": "accounts_for_appearance_of",
+        "object": "Secondary phases",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "La dopant concentration above 0.2",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Lanthanum doping showed appearance of secondary phases at dopant concentration above 0.2 that was attributed to its larger ionic radii than cerium. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:large",
+        "object_id": "P1374:secondary"
+      },
+      {
+        "relation_id": "P1374:r010",
+        "subject": "Decreasing crystallite size",
+        "subject_role": "condition",
+        "predicate": "affects",
+        "object": "Spin orders",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Decreasing crystallite size effected spin orders which associated with ionic radii of RE(3+)ions resulted in decrease in magnetization. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:smallcrystal",
+        "object_id": "P1374:spin"
+      },
+      {
+        "relation_id": "P1374:r011",
+        "subject": "Spin orders",
+        "subject_role": "state_structure",
+        "predicate": "is_associated_with",
+        "object": "Nature of RE3+ dopant ions",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Association specifically with RE3+ ionic radii",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Decreasing crystallite size effected spin orders which associated with ionic radii of RE(3+)ions resulted in decrease in magnetization. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:spin",
+        "object_id": "P1374:nature"
+      },
+      {
+        "relation_id": "P1374:r012",
+        "subject": "Decreasing crystallite size",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Magnetization",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Through affected spin orders associated with RE3+ ionic radii; room-temperature hysteresis curves",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The magnetic parameters for all the prepared samples were discussed by tracing hysteresis curves of all synthesized samples at room temperature. ",
+        "context_quotes": [
+          "Decreasing crystallite size effected spin orders which associated with ionic radii of RE(3+)ions resulted in decrease in magnetization. "
+        ],
+        "modality_evidence": [
+          "The magnetic parameters for all the prepared samples were discussed by tracing hysteresis curves of all synthesized samples at room temperature. "
+        ],
+        "subject_id": "P1374:smallcrystal",
+        "object_id": "P1374:mag"
+      },
+      {
+        "relation_id": "P1374:r013",
+        "subject": "Dopants with smaller ionic radii",
+        "subject_role": "descriptor",
+        "predicate": "greatly_reduces",
+        "object": "Coercivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Room-temperature hysteresis-curve analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The magnetic parameters for all the prepared samples were discussed by tracing hysteresis curves of all synthesized samples at room temperature. ",
+        "context_quotes": [
+          "Dopants having smaller ionic radii greatly reduced coercivity and improved initial permeability. "
+        ],
+        "modality_evidence": [
+          "The magnetic parameters for all the prepared samples were discussed by tracing hysteresis curves of all synthesized samples at room temperature. "
+        ],
+        "subject_id": "P1374:small",
+        "object_id": "P1374:coercivity"
+      },
+      {
+        "relation_id": "P1374:r014",
+        "subject": "Dopants with smaller ionic radii",
+        "subject_role": "descriptor",
+        "predicate": "improves",
+        "object": "Initial permeability",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Dopants having smaller ionic radii greatly reduced coercivity and improved initial permeability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:small",
+        "object_id": "P1374:perm"
+      },
+      {
+        "relation_id": "P1374:r015",
+        "subject": "Synthesized rare-earth-doped spinel nanoferrites in three series",
+        "subject_role": "material_entity",
+        "predicate": "have",
+        "object": "DC resistivity: 10^9 to approximately 10^10 Ω cm",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "423–823 K; composition-dependent",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In current studies, we have compared the doping effect of different rare earth metal ions on structural, electrical, magnetic, and dielectric properties in three different series of spinel ferrites. ",
+        "context_quotes": [
+          "In the temperature range 423 to 823 K, the composition-dependent DC resistivity and activation energy ranges between 10(9) to similar to 10(10)Omega cm and similar to 2.85 eV respectively. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1374:ferrites",
+        "object_id": "P1374:rho"
+      },
+      {
+        "relation_id": "P1374:r016",
+        "subject": "Synthesized rare-earth-doped spinel nanoferrites in three series",
+        "subject_role": "material_entity",
+        "predicate": "have",
+        "object": "Activation energy: approximately 2.85 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "423–823 K; composition-dependent",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In current studies, we have compared the doping effect of different rare earth metal ions on structural, electrical, magnetic, and dielectric properties in three different series of spinel ferrites. ",
+        "context_quotes": [
+          "In the temperature range 423 to 823 K, the composition-dependent DC resistivity and activation energy ranges between 10(9) to similar to 10(10)Omega cm and similar to 2.85 eV respectively. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1374:ferrites",
+        "object_id": "P1374:ea"
+      },
+      {
+        "relation_id": "P1374:r017",
+        "subject": "Nanoferrite composition",
+        "subject_role": "condition",
+        "predicate": "is_associated_with",
+        "object": "DC resistivity: 10^9 to approximately 10^10 Ω cm",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "423–823 K; dependence sign unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the temperature range 423 to 823 K, the composition-dependent DC resistivity and activation energy ranges between 10(9) to similar to 10(10)Omega cm and similar to 2.85 eV respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:composition",
+        "object_id": "P1374:rho"
+      },
+      {
+        "relation_id": "P1374:r018",
+        "subject": "Nanoferrite composition",
+        "subject_role": "condition",
+        "predicate": "is_associated_with",
+        "object": "Activation energy: approximately 2.85 eV",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "423–823 K; dependence sign unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In the temperature range 423 to 823 K, the composition-dependent DC resistivity and activation energy ranges between 10(9) to similar to 10(10)Omega cm and similar to 2.85 eV respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:composition",
+        "object_id": "P1374:ea"
+      },
+      {
+        "relation_id": "P1374:r019",
+        "subject": "Decreasing frequency",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Dielectric loss",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Both dielectric loss and dielectric constant decrease with decrease in frequency. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:freq",
+        "object_id": "P1374:loss"
+      },
+      {
+        "relation_id": "P1374:r020",
+        "subject": "Decreasing frequency",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Dielectric constant",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Both dielectric loss and dielectric constant decrease with decrease in frequency. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:freq",
+        "object_id": "P1374:constant"
+      },
+      {
+        "relation_id": "P1374:r021",
+        "subject": "Synthesized rare-earth-doped spinel nanoferrites in three series",
+        "subject_role": "material_entity",
+        "predicate": "are_candidates_for",
+        "object": "High-frequency and microwave absorber devices",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Based on reported material characteristics",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The reported characteristics made these prepared nanoferrites suitable candidates for high-frequency and microwave absorber devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1374:ferrites",
+        "object_id": "P1374:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1375",
+    "title": "Multilayer Electrode Strategy Shorten Thermal Charging Time and Boost Energy Output in Gelatin-Based i-TE Cells",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Gel-based ionic thermoelectric (i-TE) cells provide alternative thermal energy harvesting from the environment, showing obvious advantages in voltage matching for self-powered Internet-of-Things (IoT) sensors. "
+      },
+      {
+        "id": 1,
+        "text": "However, the gel-based i-TE cells always suffer a long thermal charging time and poor output power performance. "
+      },
+      {
+        "id": 2,
+        "text": "Herein, a multilayer electrode engineering strategy is proposed from the device-design level, aiming to decrease the ions' diffusion distance, increase the electrode surface area, and facilitate the ions' reaction and recovery process. "
+      },
+      {
+        "id": 3,
+        "text": "The thermal charging time is shortened from 27 to 8 min as the electrode layers increase from 2 to 8. "
+      },
+      {
+        "id": 4,
+        "text": "An ultrahigh instantaneous power density of 15.8 mW m-2 K-2 and 2 h output energy density (E2h) of 403 J m-2 are achieved in an 8-layer electrode i-TE cell. "
+      },
+      {
+        "id": 5,
+        "text": "Finally, A flexible and wearable i-TE device with 20 units is demonstrated to generate a remarkable voltage of 3.8 V and output power of 282 mu W by harvesting the human body heat. "
+      },
+      {
+        "id": 6,
+        "text": "This work provides a feasible and effective route to design the i-TE device, hopefully promoting its practical power generation application. "
+      },
+      {
+        "id": 7,
+        "text": "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. "
+      },
+      {
+        "id": 8,
+        "text": "Ultrahigh power density of 15.8 mW m-2 K-2 and energy density of 403 J m-2 are achieved in gelatin based i-TE cells. image"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1375:strategy",
+        "label": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1375:diffdistance",
+        "label": "Ion diffusion distance",
+        "role": "quantity"
+      },
+      {
+        "id": "P1375:area",
+        "label": "Electrode surface area",
+        "role": "quantity"
+      },
+      {
+        "id": "P1375:reaction",
+        "label": "Ion reaction process",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1375:recovery",
+        "label": "Ion recovery process",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1375:distance",
+        "label": "Electrode layer distance",
+        "role": "quantity"
+      },
+      {
+        "id": "P1375:diffusion",
+        "label": "Ion diffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1375:layers",
+        "label": "Increasing electrode layers from 2 to 8",
+        "role": "condition"
+      },
+      {
+        "id": "P1375:time",
+        "label": "Thermal charging time reduced from 27 to 8 min",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1375:cell",
+        "label": "8-layer electrode i-TE cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1375:pd",
+        "label": "Instantaneous power density: 15.8 mW m−2 K−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1375:ed",
+        "label": "2 h output energy density: 403 J m−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1375:device",
+        "label": "Flexible wearable 20-unit i-TE device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1375:voltage",
+        "label": "Generated voltage: 3.8 V",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1375:power",
+        "label": "Output power: 282 μW",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1375:body",
+        "label": "Human-body heat harvesting",
+        "role": "application"
+      },
+      {
+        "id": "P1375:charging",
+        "label": "Thermal charging time",
+        "role": "quantity"
+      },
+      {
+        "id": "P1375:output",
+        "label": "Output performance",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1375:r001",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "is_designed_to_decrease",
+        "object": "Ion diffusion distance",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Herein, a multilayer electrode engineering strategy is proposed from the device-design level, aiming to decrease the ions' diffusion distance, increase the electrode surface area, and facilitate the ions' reaction and recovery process. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:diffdistance"
+      },
+      {
+        "relation_id": "P1375:r002",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "is_designed_to_increase",
+        "object": "Electrode surface area",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Herein, a multilayer electrode engineering strategy is proposed from the device-design level, aiming to decrease the ions' diffusion distance, increase the electrode surface area, and facilitate the ions' reaction and recovery process. ",
+        "context_quotes": [
+          "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:area"
+      },
+      {
+        "relation_id": "P1375:r003",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "is_designed_to_facilitate",
+        "object": "Ion reaction process",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Herein, a multilayer electrode engineering strategy is proposed from the device-design level, aiming to decrease the ions' diffusion distance, increase the electrode surface area, and facilitate the ions' reaction and recovery process. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:reaction"
+      },
+      {
+        "relation_id": "P1375:r004",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "is_designed_to_facilitate",
+        "object": "Ion recovery process",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Herein, a multilayer electrode engineering strategy is proposed from the device-design level, aiming to decrease the ions' diffusion distance, increase the electrode surface area, and facilitate the ions' reaction and recovery process. ",
+        "context_quotes": [
+          "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:recovery"
+      },
+      {
+        "relation_id": "P1375:r005",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "is_designed_to_decrease",
+        "object": "Electrode layer distance",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:distance"
+      },
+      {
+        "relation_id": "P1375:r006",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "is_designed_to_facilitate",
+        "object": "Ion diffusion",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:diffusion"
+      },
+      {
+        "relation_id": "P1375:r007",
+        "subject": "Increasing electrode layers from 2 to 8",
+        "subject_role": "condition",
+        "predicate": "produces",
+        "object": "Thermal charging time reduced from 27 to 8 min",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "27 min at 2 layers; 8 min at 8 layers",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The thermal charging time is shortened from 27 to 8 min as the electrode layers increase from 2 to 8. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:layers",
+        "object_id": "P1375:time"
+      },
+      {
+        "relation_id": "P1375:r008",
+        "subject": "8-layer electrode i-TE cell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Instantaneous power density: 15.8 mW m−2 K−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "An ultrahigh instantaneous power density of 15.8 mW m-2 K-2 and 2 h output energy density (E2h) of 403 J m-2 are achieved in an 8-layer electrode i-TE cell. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:cell",
+        "object_id": "P1375:pd"
+      },
+      {
+        "relation_id": "P1375:r009",
+        "subject": "8-layer electrode i-TE cell",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "2 h output energy density: 403 J m−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "2 h output",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "An ultrahigh instantaneous power density of 15.8 mW m-2 K-2 and 2 h output energy density (E2h) of 403 J m-2 are achieved in an 8-layer electrode i-TE cell. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:cell",
+        "object_id": "P1375:ed"
+      },
+      {
+        "relation_id": "P1375:r010",
+        "subject": "Flexible wearable 20-unit i-TE device",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Generated voltage: 3.8 V",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Harvesting human-body heat",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Finally, A flexible and wearable i-TE device with 20 units is demonstrated to generate a remarkable voltage of 3.8 V and output power of 282 mu W by harvesting the human body heat. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:device",
+        "object_id": "P1375:voltage"
+      },
+      {
+        "relation_id": "P1375:r011",
+        "subject": "Flexible wearable 20-unit i-TE device",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Output power: 282 μW",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Harvesting human-body heat",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Finally, A flexible and wearable i-TE device with 20 units is demonstrated to generate a remarkable voltage of 3.8 V and output power of 282 mu W by harvesting the human body heat. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:device",
+        "object_id": "P1375:power"
+      },
+      {
+        "relation_id": "P1375:r012",
+        "subject": "Flexible wearable 20-unit i-TE device",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Human-body heat harvesting",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Flexible wearable device with 20 units",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Finally, A flexible and wearable i-TE device with 20 units is demonstrated to generate a remarkable voltage of 3.8 V and output power of 282 mu W by harvesting the human body heat. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:device",
+        "object_id": "P1375:body"
+      },
+      {
+        "relation_id": "P1375:r013",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "shortens",
+        "object": "Thermal charging time",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Corresponding to reduced layer distance, greater electrode area and facilitated ion diffusion/recovery",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:charging"
+      },
+      {
+        "relation_id": "P1375:r014",
+        "subject": "Multilayer electrode engineering in gelatin-based i-TE cells",
+        "subject_role": "design_strategy",
+        "predicate": "increases",
+        "object": "Output performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Corresponding to reduced layer distance, greater electrode area and facilitated ion diffusion/recovery",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A novel multilayer electrode structure is proposed to decrease the electrode layer distance, offer more electrode area and facilitate the ions' diffusion and recovery, corresponding to shorten thermal charging time and increase the output performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1375:strategy",
+        "object_id": "P1375:output"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1376",
+    "title": "The differences in bonding properties and electrical, thermal conductivity between the preferred crystallographic orientation interface of Cu3Sn/Cu",
+    "segments": [
+      {
+        "id": 0,
+        "text": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+      },
+      {
+        "id": 1,
+        "text": "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. "
+      },
+      {
+        "id": 2,
+        "text": "The newly formed chemical bonds at the interface exhibit ionic and covalent properties. "
+      },
+      {
+        "id": 3,
+        "text": "Moreover, the electrical conductivity and thermal conductivity of 16.787 x 10(8) S m(-1) and 1.136 x 10(4) W m(-1) K-1 at 300 K for the Cu3Sn <010>perpendicular to Cu (100) interface are superior than the other two Cu3Sn/Cu interfaces."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1376:all",
+        "label": "All modeled preferred-orientation Cu3Sn/Cu interfaces",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1376:stable",
+        "label": "Stable interface structures",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1376:i1",
+        "label": "Cu3Sn(025)/Cu(042) interface",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1376:w1",
+        "label": "Ideal work of adhesion: 1.956 J m−2",
+        "role": "quantity"
+      },
+      {
+        "id": "P1376:i2",
+        "label": "Cu3Sn(100)/Cu(100) interface",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1376:w2",
+        "label": "Ideal work of adhesion: 1.182 J m−2",
+        "role": "quantity"
+      },
+      {
+        "id": "P1376:i3",
+        "label": "Cu3Sn <010> perpendicular to Cu(100) interface",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1376:w3",
+        "label": "Ideal work of adhesion: 2.126 J m−2",
+        "role": "quantity"
+      },
+      {
+        "id": "P1376:bonds",
+        "label": "Newly formed Cu3Sn/Cu interfacial chemical bonds",
+        "role": "interaction"
+      },
+      {
+        "id": "P1376:ionic",
+        "label": "Ionic character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1376:covalent",
+        "label": "Covalent character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1376:sigma",
+        "label": "Electrical conductivity: 16.787 × 10^8 S m−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1376:k",
+        "label": "Thermal conductivity: 1.136 × 10^4 W m−1 K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1376:others",
+        "label": "Cu3Sn(025)/Cu(042) and Cu3Sn(100)/Cu(100) interfaces",
+        "role": "material_entity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1376:r001",
+        "subject": "All modeled preferred-orientation Cu3Sn/Cu interfaces",
+        "subject_role": "material_entity",
+        "predicate": "have",
+        "object": "Stable interface structures",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT-based first-principles interface models",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. "
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:all",
+        "object_id": "P1376:stable"
+      },
+      {
+        "relation_id": "P1376:r002",
+        "subject": "Cu3Sn(025)/Cu(042) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_ideal_work_of_adhesion",
+        "object": "Ideal work of adhesion: 1.956 J m−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. "
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i1",
+        "object_id": "P1376:w1"
+      },
+      {
+        "relation_id": "P1376:r003",
+        "subject": "Cu3Sn(100)/Cu(100) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_ideal_work_of_adhesion",
+        "object": "Ideal work of adhesion: 1.182 J m−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. "
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i2",
+        "object_id": "P1376:w2"
+      },
+      {
+        "relation_id": "P1376:r004",
+        "subject": "Cu3Sn <010> perpendicular to Cu(100) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_ideal_work_of_adhesion",
+        "object": "Ideal work of adhesion: 2.126 J m−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. "
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i3",
+        "object_id": "P1376:w3"
+      },
+      {
+        "relation_id": "P1376:r005",
+        "subject": "Newly formed Cu3Sn/Cu interfacial chemical bonds",
+        "subject_role": "interaction",
+        "predicate": "exhibit",
+        "object": "Ionic character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "The newly formed chemical bonds at the interface exhibit ionic and covalent properties. "
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:bonds",
+        "object_id": "P1376:ionic"
+      },
+      {
+        "relation_id": "P1376:r006",
+        "subject": "Newly formed Cu3Sn/Cu interfacial chemical bonds",
+        "subject_role": "interaction",
+        "predicate": "exhibit",
+        "object": "Covalent character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "The newly formed chemical bonds at the interface exhibit ionic and covalent properties. "
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:bonds",
+        "object_id": "P1376:covalent"
+      },
+      {
+        "relation_id": "P1376:r007",
+        "subject": "Cu3Sn <010> perpendicular to Cu(100) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_electrical_conductivity",
+        "object": "Electrical conductivity: 16.787 × 10^8 S m−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K; first-principles and semiclassical Boltzmann transport framework",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "Moreover, the electrical conductivity and thermal conductivity of 16.787 x 10(8) S m(-1) and 1.136 x 10(4) W m(-1) K-1 at 300 K for the Cu3Sn <010>perpendicular to Cu (100) interface are superior than the other two Cu3Sn/Cu interfaces."
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i3",
+        "object_id": "P1376:sigma"
+      },
+      {
+        "relation_id": "P1376:r008",
+        "subject": "Cu3Sn <010> perpendicular to Cu(100) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_thermal_conductivity",
+        "object": "Thermal conductivity: 1.136 × 10^4 W m−1 K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K; first-principles and semiclassical Boltzmann transport framework",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "Moreover, the electrical conductivity and thermal conductivity of 16.787 x 10(8) S m(-1) and 1.136 x 10(4) W m(-1) K-1 at 300 K for the Cu3Sn <010>perpendicular to Cu (100) interface are superior than the other two Cu3Sn/Cu interfaces."
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i3",
+        "object_id": "P1376:k"
+      },
+      {
+        "relation_id": "P1376:r009",
+        "subject": "Cu3Sn <010> perpendicular to Cu(100) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_higher_electrical_conductivity_than",
+        "object": "Cu3Sn(025)/Cu(042) and Cu3Sn(100)/Cu(100) interfaces",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. ",
+          "Moreover, the electrical conductivity and thermal conductivity of 16.787 x 10(8) S m(-1) and 1.136 x 10(4) W m(-1) K-1 at 300 K for the Cu3Sn <010>perpendicular to Cu (100) interface are superior than the other two Cu3Sn/Cu interfaces."
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i3",
+        "object_id": "P1376:others"
+      },
+      {
+        "relation_id": "P1376:r010",
+        "subject": "Cu3Sn <010> perpendicular to Cu(100) interface",
+        "subject_role": "material_entity",
+        "predicate": "has_higher_thermal_conductivity_than",
+        "object": "Cu3Sn(025)/Cu(042) and Cu3Sn(100)/Cu(100) interfaces",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. ",
+        "context_quotes": [
+          "All interface models proved to have stable structures, the interfacial ideal adhesion of works of Cu3Sn (025)/Cu (042) interface, Cu3Sn (100)/Cu (100) interface, and Cu3Sn <010>perpendicular to Cu (100) interface are 1.956 J/m(2), 1.182 J/m(2), and 2.126 J/m(2), respectively. ",
+          "Moreover, the electrical conductivity and thermal conductivity of 16.787 x 10(8) S m(-1) and 1.136 x 10(4) W m(-1) K-1 at 300 K for the Cu3Sn <010>perpendicular to Cu (100) interface are superior than the other two Cu3Sn/Cu interfaces."
+        ],
+        "modality_evidence": [
+          "First-principles calculations based on Density-Functional theory and Semi-classical Boltzmann thermal transport theory have been applied to research the interfacial stability, electronic structures, bonding properties, and thermoelectric transport properties of different preferred crystallographic orientation interface of Cu3Sn/Cu. "
+        ],
+        "subject_id": "P1376:i3",
+        "object_id": "P1376:others"
+      }
+    ]
+  }
+]

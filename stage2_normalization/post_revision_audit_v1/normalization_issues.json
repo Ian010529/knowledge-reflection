@@ -1,0 +1,131 @@
+[
+  {
+    "concept_id": "iTE:C3d9e7026fa6a4a",
+    "equivalence": "equivalent",
+    "canonical_fit": "over_specific",
+    "problem_members": [
+      "iTE:P0384:te"
+    ],
+    "reason": "三成员均指离子热电性质；但P0384仅给出离子液体含量、器件拓扑及电压响应，未明确离子重分布或扩散机制，定义对此限定过细。",
+    "domain": "iTE",
+    "label": "Thermoelectric properties (ionic)",
+    "members": 3,
+    "concept": {
+      "concept_id": "iTE:C3d9e7026fa6a4a",
+      "domain": "iTE",
+      "label": "Thermoelectric properties (ionic)",
+      "definition": "Properties characterizing thermoelectric response associated with ion redistribution or diffusion.",
+      "aliases": [
+        "Thermoelectric properties"
+      ],
+      "roles": [
+        "performance_function"
+      ],
+      "mention_ids": [
+        "iTE:P0384:te",
+        "iTE:P0416:te",
+        "iTE:P0496:te"
+      ],
+      "normalization_status": "model_merged",
+      "decision_group": "g0156",
+      "normalization_reason": "The supplied evidence identifies ionic thermoelectric systems and ionic transport or concentration redistribution.",
+      "claim_count": 3,
+      "paper_ids": [
+        "P0384",
+        "P0416",
+        "P0496"
+      ],
+      "source_document_count": 3
+    }
+  },
+  {
+    "concept_id": "iTE:C3fb7e18a35b675",
+    "equivalence": "equivalent",
+    "canonical_fit": "over_specific",
+    "problem_members": [
+      "iTE:P0937:elec"
+    ],
+    "reason": "全部成员均指高电导率，未见明确相异的量或方向；但P0937仅陈述高电导率，未说明载流机制，将全部成员限定为电子导电超出证据。",
+    "domain": "iTE",
+    "label": "High electrical conductivity (electronic)",
+    "members": 9,
+    "concept": {
+      "concept_id": "iTE:C3fb7e18a35b675",
+      "domain": "iTE",
+      "label": "High electrical conductivity (electronic)",
+      "definition": "High ability to conduct electrical current through electronic carriers.",
+      "aliases": [
+        "High electrical conductivity"
+      ],
+      "roles": [
+        "performance_function",
+        "quantity"
+      ],
+      "mention_ids": [
+        "iTE:P0488:ec",
+        "iTE:P0606:n6",
+        "iTE:P0779:n4",
+        "iTE:P0815:ec",
+        "iTE:P0937:elec",
+        "iTE:P1067:conductivity",
+        "iTE:P1168:sigma",
+        "iTE:P1802:conductive",
+        "iTE:P1813:ec"
+      ],
+      "normalization_status": "model_merged",
+      "decision_group": "g0166",
+      "normalization_reason": "These mentions describe the same conductivity property in electronic conducting materials. Different carrier-transport explanations and samples remain attached to their claims.",
+      "claim_count": 11,
+      "paper_ids": [
+        "P0488",
+        "P0606",
+        "P0779",
+        "P0815",
+        "P0937",
+        "P1067",
+        "P1168",
+        "P1802",
+        "P1813"
+      ],
+      "source_document_count": 9
+    }
+  },
+  {
+    "concept_id": "iTE:C835ef330237ca3",
+    "equivalence": "equivalent",
+    "canonical_fit": "over_specific",
+    "problem_members": [
+      "iTE:P0422:n10",
+      "iTE:P0441:heal"
+    ],
+    "reason": "两个成员均明确指快速自愈，但未说明是否无需外部触发或辅助，定义中的“自主”修复增加了证据未支持的限制。",
+    "domain": "iTE",
+    "label": "Rapid self-healing",
+    "members": 2,
+    "concept": {
+      "concept_id": "iTE:C835ef330237ca3",
+      "domain": "iTE",
+      "label": "Rapid self-healing",
+      "definition": "Rapid autonomous repair or recovery of material integrity and associated properties after damage.",
+      "aliases": [
+        "Rapid self-healing"
+      ],
+      "roles": [
+        "performance_function"
+      ],
+      "mention_ids": [
+        "iTE:P0422:n10",
+        "iTE:P0441:heal"
+      ],
+      "normalization_status": "model_merged",
+      "decision_group": "g0199",
+      "normalization_reason": "Both assert rapid self-healing without specifying a distinct stimulus requirement. The tensile and conductivity recovery results characterize the SHED claim.",
+      "claim_count": 4,
+      "paper_ids": [
+        "P0422",
+        "P0441"
+      ],
+      "source_document_count": 2
+    }
+  }
+]

@@ -1,0 +1,1651 @@
+[
+  {
+    "paper_id": "P1100",
+    "title": "Carrier generation/recombination processes and polaron effect in perovskite manganite thin films",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+      },
+      {
+        "id": 1,
+        "text": "The photoinduced TTE voltage and its sign are strongly dependent on both temperature and magnetic field, which is due to the formation of a bipolar state of photogenerated electrons and holes. "
+      },
+      {
+        "id": 2,
+        "text": "It is found that Jahn-Teller and polaron effects are appreciable near the Curie temperature for the carrier recombination, in particular, for LCMO with small ionic radius of Ca2 + ions. "
+      },
+      {
+        "id": 3,
+        "text": "(C) 2000 Published by Elsevier Science B.V. "
+      },
+      {
+        "id": 4,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1100:laser",
+        "label": "Pulsed-laser excitation",
+        "role": "condition"
+      },
+      {
+        "id": "P1100:tte",
+        "label": "Transient thermoelectric effect",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1100:films",
+        "label": "LCMO, PSMO and LSMO perovskite manganite thin films",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1100:temp",
+        "label": "Temperature",
+        "role": "condition"
+      },
+      {
+        "id": "P1100:volt",
+        "label": "Photoinduced TTE voltage",
+        "role": "quantity"
+      },
+      {
+        "id": "P1100:sign",
+        "label": "Photoinduced TTE voltage sign",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1100:bip",
+        "label": "Formation of bipolar state of photogenerated electrons and holes",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1100:depv",
+        "label": "Temperature and magnetic-field dependence of TTE voltage",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1100:deps",
+        "label": "Temperature and magnetic-field dependence of TTE voltage sign",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1100:jt",
+        "label": "Jahn–Teller effect",
+        "role": "interaction"
+      },
+      {
+        "id": "P1100:rec",
+        "label": "Carrier recombination",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1100:lcmo",
+        "label": "La0.6Ca0.4MnO3 (LCMO) film",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1100:radius",
+        "label": "Small Ca2+ ionic radius",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1100:r001",
+        "subject": "Pulsed-laser excitation",
+        "subject_role": "condition",
+        "predicate": "induces",
+        "object": "Transient thermoelectric effect",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "LCMO, PSMO and LSMO films; measured under DC electric and magnetic fields",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:laser",
+        "object_id": "P1100:tte"
+      },
+      {
+        "relation_id": "P1100:r002",
+        "subject": "LCMO, PSMO and LSMO perovskite manganite thin films",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Transient thermoelectric effect",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Pulsed-laser excitation; DC electric and magnetic fields",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:films",
+        "object_id": "P1100:tte"
+      },
+      {
+        "relation_id": "P1100:r003",
+        "subject": "Temperature",
+        "subject_role": "condition",
+        "predicate": "jointly_affects",
+        "object": "Photoinduced TTE voltage",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "Strong dependence; effect direction unspecified; DC-field measurements",
+        "joint_factors": [
+          "Magnetic field"
+        ],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [
+          "The photoinduced TTE voltage and its sign are strongly dependent on both temperature and magnetic field, which is due to the formation of a bipolar state of photogenerated electrons and holes. "
+        ],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:temp",
+        "object_id": "P1100:volt"
+      },
+      {
+        "relation_id": "P1100:r004",
+        "subject": "Temperature",
+        "subject_role": "condition",
+        "predicate": "jointly_affects",
+        "object": "Photoinduced TTE voltage sign",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "Strong dependence; effect direction unspecified; DC-field measurements",
+        "joint_factors": [
+          "Magnetic field"
+        ],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [
+          "The photoinduced TTE voltage and its sign are strongly dependent on both temperature and magnetic field, which is due to the formation of a bipolar state of photogenerated electrons and holes. "
+        ],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:temp",
+        "object_id": "P1100:sign"
+      },
+      {
+        "relation_id": "P1100:r005",
+        "subject": "Formation of bipolar state of photogenerated electrons and holes",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Temperature and magnetic-field dependence of TTE voltage",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Authors' interpretation of measured photoinduced TTE in manganite films",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [
+          "The photoinduced TTE voltage and its sign are strongly dependent on both temperature and magnetic field, which is due to the formation of a bipolar state of photogenerated electrons and holes. "
+        ],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:bip",
+        "object_id": "P1100:depv"
+      },
+      {
+        "relation_id": "P1100:r006",
+        "subject": "Formation of bipolar state of photogenerated electrons and holes",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Temperature and magnetic-field dependence of TTE voltage sign",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Authors' interpretation of measured photoinduced TTE in manganite films",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [
+          "The photoinduced TTE voltage and its sign are strongly dependent on both temperature and magnetic field, which is due to the formation of a bipolar state of photogenerated electrons and holes. "
+        ],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:bip",
+        "object_id": "P1100:deps"
+      },
+      {
+        "relation_id": "P1100:r007",
+        "subject": "Jahn–Teller effect",
+        "subject_role": "interaction",
+        "predicate": "jointly_has_appreciable_effect_on",
+        "object": "Carrier recombination",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Near Curie temperature; particularly LCMO with small Ca2+ ionic radius; measured TTE interpretation",
+        "joint_factors": [
+          "Polaron effect"
+        ],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. ",
+        "context_quotes": [
+          "It is found that Jahn-Teller and polaron effects are appreciable near the Curie temperature for the carrier recombination, in particular, for LCMO with small ionic radius of Ca2 + ions. "
+        ],
+        "modality_evidence": [
+          "Pulsed-laser-induced transient thermoelectric effect (TTE) for perovskite manganite films, La0.6Ca0.4MnO3 (LCMO), Pr0.67Sr0.33MnO3 (PSMO), La0.7Sr0.3MnO3 (LSMO), has been measured under DC electric and magnetic fields. "
+        ],
+        "subject_id": "P1100:jt",
+        "object_id": "P1100:rec"
+      },
+      {
+        "relation_id": "P1100:r008",
+        "subject": "La0.6Ca0.4MnO3 (LCMO) film",
+        "subject_role": "material_entity",
+        "predicate": "has_constituent_descriptor",
+        "object": "Small Ca2+ ionic radius",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "It is found that Jahn-Teller and polaron effects are appreciable near the Curie temperature for the carrier recombination, in particular, for LCMO with small ionic radius of Ca2 + ions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1100:lcmo",
+        "object_id": "P1100:radius"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1101",
+    "title": "High-efficiency thermoelectric performance of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phases: A first-principles study",
+    "segments": [
+      {
+        "id": 0,
+        "text": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+      },
+      {
+        "id": 1,
+        "text": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+      },
+      {
+        "id": 2,
+        "text": "Each compound crystallizes with trigonal crystal structure (space group P 3m 1). "
+      },
+      {
+        "id": 3,
+        "text": "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+      },
+      {
+        "id": 4,
+        "text": "They exhibit indirect semiconducting behavior with HSE06 band gap of 1.313 eV (Zr2SN2), 1.078 eV (Zr2SeN2) and 1.610 eV (Hf2SN2) and are dominated byp-d orbital interactions. "
+      },
+      {
+        "id": 5,
+        "text": "Charge density and projected density of states (PDOS) analyses reveal a gradual transition from ionic to covalent bonding, with Hf2SeN2 showing the strongest covalent character. "
+      },
+      {
+        "id": 6,
+        "text": "The alloys of Zr2SN2 and Zr2SeN2 are brittle and Hf2SeN2 is ductile and they are all anisotropic elastic. "
+      },
+      {
+        "id": 7,
+        "text": "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. "
+      },
+      {
+        "id": 8,
+        "text": "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+      },
+      {
+        "id": 9,
+        "text": "These results highlight the promising thermoelectric performance of these materials not only at elevated temperatures but also under room-temperature conditions, suggesting their potential for both mid and high temperature thermoelectric applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1101:m",
+        "label": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1101:trig",
+        "label": "Trigonal structure, space group P 3m 1",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1101:formation",
+        "label": "Negative formation energies",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:phonon",
+        "label": "Positive phonon frequencies",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:born",
+        "label": "Compliance with Born stability criteria",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1101:struct",
+        "label": "Structural stability",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1101:therm",
+        "label": "Thermodynamic stability",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1101:mech",
+        "label": "Mechanical stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:indirect",
+        "label": "Indirect semiconducting behavior",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1101:zs",
+        "label": "Zr2SN2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1101:gzs",
+        "label": "Band gap 1.313 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:zse",
+        "label": "Zr2SeN2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1101:gzse",
+        "label": "Band gap 1.078 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:hs",
+        "label": "Hf2SN2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1101:ghs",
+        "label": "Band gap 1.610 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:pd",
+        "label": "Dominant p–d orbital interactions",
+        "role": "interaction"
+      },
+      {
+        "id": "P1101:bond",
+        "label": "Gradual transition from ionic to covalent bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P1101:hse",
+        "label": "Hf2SeN2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1101:cov",
+        "label": "Strongest covalent character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1101:brittle",
+        "label": "Brittleness",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1101:ductile",
+        "label": "Ductility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1101:aniso",
+        "label": "Elastic anisotropy",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1101:deb",
+        "label": "Largest Debye temperature in studied series",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:tc",
+        "label": "Largest thermal conductivity in studied series",
+        "role": "quantity"
+      },
+      {
+        "id": "P1101:sem",
+        "label": "Se-based X2YN2 compounds",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1101:anh",
+        "label": "Greater anharmonicity",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1101:ztzs300",
+        "label": "ZT 0.84",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:ztzs1000",
+        "label": "ZT 2.09",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:ztzse300",
+        "label": "ZT 0.94",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:ztzse1000",
+        "label": "ZT 2.21",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:zthse300",
+        "label": "ZT 0.93",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:zthse1000",
+        "label": "ZT 2.44",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1101:app",
+        "label": "Mid- and high-temperature thermoelectric applications",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1101:r001",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "crystallizes_in",
+        "object": "Trigonal structure, space group P 3m 1",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GGA-PBE; space-group wording retained as supplied",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+          "Each compound crystallizes with trigonal crystal structure (space group P 3m 1). "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:trig"
+      },
+      {
+        "relation_id": "P1101:r002",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Negative formation energies",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles investigation",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:formation"
+      },
+      {
+        "relation_id": "P1101:r003",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Positive phonon frequencies",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles investigation",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:phonon"
+      },
+      {
+        "relation_id": "P1101:r004",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Compliance with Born stability criteria",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GGA-PBE mechanical evaluation",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+          "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:born"
+      },
+      {
+        "relation_id": "P1101:r005",
+        "subject": "Negative formation energies",
+        "subject_role": "quantity",
+        "predicate": "jointly_confirms",
+        "object": "Structural stability",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "X2YN2 compounds; evidence presented collectively",
+        "joint_factors": [
+          "Positive phonon frequencies",
+          "Compliance with Born stability criteria"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:formation",
+        "object_id": "P1101:struct"
+      },
+      {
+        "relation_id": "P1101:r006",
+        "subject": "Negative formation energies",
+        "subject_role": "quantity",
+        "predicate": "jointly_confirms",
+        "object": "Thermodynamic stability",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "X2YN2 compounds; evidence presented collectively",
+        "joint_factors": [
+          "Positive phonon frequencies",
+          "Compliance with Born stability criteria"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:formation",
+        "object_id": "P1101:therm"
+      },
+      {
+        "relation_id": "P1101:r007",
+        "subject": "Negative formation energies",
+        "subject_role": "quantity",
+        "predicate": "jointly_confirms",
+        "object": "Mechanical stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "X2YN2 compounds; evidence presented collectively",
+        "joint_factors": [
+          "Positive phonon frequencies",
+          "Compliance with Born stability criteria"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Negative formation energies, positive phonon frequencies, and compliance with the Born stability criteria confirm the structural, thermodynamic, and mechanical stability of these compounds. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:formation",
+        "object_id": "P1101:mech"
+      },
+      {
+        "relation_id": "P1101:r008",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Indirect semiconducting behavior",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE06; Hf2SeN2 gap value is not supplied",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "They exhibit indirect semiconducting behavior with HSE06 band gap of 1.313 eV (Zr2SN2), 1.078 eV (Zr2SeN2) and 1.610 eV (Hf2SN2) and are dominated byp-d orbital interactions. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:indirect"
+      },
+      {
+        "relation_id": "P1101:r009",
+        "subject": "Zr2SN2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.313 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE06 indirect band gap",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "They exhibit indirect semiconducting behavior with HSE06 band gap of 1.313 eV (Zr2SN2), 1.078 eV (Zr2SeN2) and 1.610 eV (Hf2SN2) and are dominated byp-d orbital interactions. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:zs",
+        "object_id": "P1101:gzs"
+      },
+      {
+        "relation_id": "P1101:r010",
+        "subject": "Zr2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.078 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE06 indirect band gap",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "They exhibit indirect semiconducting behavior with HSE06 band gap of 1.313 eV (Zr2SN2), 1.078 eV (Zr2SeN2) and 1.610 eV (Hf2SN2) and are dominated byp-d orbital interactions. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:zse",
+        "object_id": "P1101:gzse"
+      },
+      {
+        "relation_id": "P1101:r011",
+        "subject": "Hf2SN2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Band gap 1.610 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE06 indirect band gap",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "They exhibit indirect semiconducting behavior with HSE06 band gap of 1.313 eV (Zr2SN2), 1.078 eV (Zr2SeN2) and 1.610 eV (Hf2SN2) and are dominated byp-d orbital interactions. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:hs",
+        "object_id": "P1101:ghs"
+      },
+      {
+        "relation_id": "P1101:r012",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Dominant p–d orbital interactions",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "HSE06 electronic-property analysis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "They exhibit indirect semiconducting behavior with HSE06 band gap of 1.313 eV (Zr2SN2), 1.078 eV (Zr2SeN2) and 1.610 eV (Hf2SN2) and are dominated byp-d orbital interactions. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:pd"
+      },
+      {
+        "relation_id": "P1101:r013",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Gradual transition from ionic to covalent bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Charge density and PDOS analyses; ordering of transition unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Charge density and projected density of states (PDOS) analyses reveal a gradual transition from ionic to covalent bonding, with Hf2SeN2 showing the strongest covalent character. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:bond"
+      },
+      {
+        "relation_id": "P1101:r014",
+        "subject": "Hf2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Strongest covalent character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Among studied compounds; charge density and PDOS analyses",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "Charge density and projected density of states (PDOS) analyses reveal a gradual transition from ionic to covalent bonding, with Hf2SeN2 showing the strongest covalent character. "
+        ],
+        "modality_evidence": [
+          "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. "
+        ],
+        "subject_id": "P1101:hse",
+        "object_id": "P1101:cov"
+      },
+      {
+        "relation_id": "P1101:r015",
+        "subject": "Zr2SN2",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Brittleness",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GGA-PBE mechanical evaluation; source calls the materials alloys",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "The alloys of Zr2SN2 and Zr2SeN2 are brittle and Hf2SeN2 is ductile and they are all anisotropic elastic. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:zs",
+        "object_id": "P1101:brittle"
+      },
+      {
+        "relation_id": "P1101:r016",
+        "subject": "Zr2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Brittleness",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GGA-PBE mechanical evaluation; source calls the materials alloys",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "The alloys of Zr2SN2 and Zr2SeN2 are brittle and Hf2SeN2 is ductile and they are all anisotropic elastic. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:zse",
+        "object_id": "P1101:brittle"
+      },
+      {
+        "relation_id": "P1101:r017",
+        "subject": "Hf2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Ductility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GGA-PBE mechanical evaluation",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "The alloys of Zr2SN2 and Zr2SeN2 are brittle and Hf2SeN2 is ductile and they are all anisotropic elastic. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:hse",
+        "object_id": "P1101:ductile"
+      },
+      {
+        "relation_id": "P1101:r018",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Elastic anisotropy",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "GGA-PBE; source states all are elastically anisotropic",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "The alloys of Zr2SN2 and Zr2SeN2 are brittle and Hf2SeN2 is ductile and they are all anisotropic elastic. "
+        ],
+        "modality_evidence": [
+          "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. "
+        ],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:aniso"
+      },
+      {
+        "relation_id": "P1101:r019",
+        "subject": "Zr2SN2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Largest Debye temperature in studied series",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Source explicitly says thermal measurements",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. "
+        ],
+        "subject_id": "P1101:zs",
+        "object_id": "P1101:deb"
+      },
+      {
+        "relation_id": "P1101:r020",
+        "subject": "Zr2SN2",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Largest thermal conductivity in studied series",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Source explicitly says thermal measurements",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. "
+        ],
+        "subject_id": "P1101:zs",
+        "object_id": "P1101:tc"
+      },
+      {
+        "relation_id": "P1101:r021",
+        "subject": "Se-based X2YN2 compounds",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Greater anharmonicity",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Thermal measurements; comparison implied within studied S/Se series",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Thermal measurements indicate that Zr2SN2 exhibits the largest Debye temperature and thermal conductivity, and Se based compounds exhibit greater anharmonicity. "
+        ],
+        "subject_id": "P1101:sem",
+        "object_id": "P1101:anh"
+      },
+      {
+        "relation_id": "P1101:r022",
+        "subject": "Zr2SN2",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "ZT 0.84",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K; HSE06 transport calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "modality_evidence": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "subject_id": "P1101:zs",
+        "object_id": "P1101:ztzs300"
+      },
+      {
+        "relation_id": "P1101:r023",
+        "subject": "Zr2SN2",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "ZT 2.09",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; rises from 0.84 at 300 K; HSE06 transport calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "modality_evidence": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "subject_id": "P1101:zs",
+        "object_id": "P1101:ztzs1000"
+      },
+      {
+        "relation_id": "P1101:r024",
+        "subject": "Zr2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "ZT 0.94",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K; HSE06 transport calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "modality_evidence": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "subject_id": "P1101:zse",
+        "object_id": "P1101:ztzse300"
+      },
+      {
+        "relation_id": "P1101:r025",
+        "subject": "Zr2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "ZT 2.21",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; rises from 0.94 at 300 K; HSE06 transport calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "modality_evidence": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "subject_id": "P1101:zse",
+        "object_id": "P1101:ztzse1000"
+      },
+      {
+        "relation_id": "P1101:r026",
+        "subject": "Hf2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "ZT 0.93",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "300 K; HSE06 transport calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "modality_evidence": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "subject_id": "P1101:hse",
+        "object_id": "P1101:zthse300"
+      },
+      {
+        "relation_id": "P1101:r027",
+        "subject": "Hf2SeN2",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "ZT 2.44",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "1000 K; rises from 0.93 at 300 K; HSE06 transport calculations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural and mechanical characteristics were evaluated using the GGA-PBE functional, while the electronic and transport properties were calculated with the hybrid HSE06 functional. ",
+        "context_quotes": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "modality_evidence": [
+          "Thermoelectric calculations show that Zr2SN2 achieves a ZT of 0.84 at 300 K and 2.09 at 1000 K, Zr2SeN2 increases from 0.94 at 300 K to 2.21 at 1000 K, and Hf2SeN2 rises from 0.93 at 300 K to 2.44 at 1000 K. "
+        ],
+        "subject_id": "P1101:hse",
+        "object_id": "P1101:zthse1000"
+      },
+      {
+        "relation_id": "P1101:r028",
+        "subject": "X2YN2 Zintl phases (X = Zr, Hf; Y = S, Se)",
+        "subject_role": "material_entity",
+        "predicate": "has_potential_for",
+        "object": "Mid- and high-temperature thermoelectric applications",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Based on reported room- and elevated-temperature thermoelectric performance",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This study presents a first-principles investigation of the structural, electronic, mechanical, thermal, and thermoelectric properties of X2YN2 (X = Zr, Hf; Y--S, Se) Zintl phase compounds. ",
+        "context_quotes": [
+          "These results highlight the promising thermoelectric performance of these materials not only at elevated temperatures but also under room-temperature conditions, suggesting their potential for both mid and high temperature thermoelectric applications."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1101:m",
+        "object_id": "P1101:app"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1102",
+    "title": "Harnessing Halogen-Induced Anharmonic Effect to Achieve Low Lattice Thermal Conductivity in High-Symmetry Cu2SnS3 for High-Performance Thermoelectric Applications",
+    "segments": [
+      {
+        "id": 0,
+        "text": "While possessing outstanding electrical properties, suppressing the lattice thermal conductivity (kappa lat) is of great significance for achieving excellent thermoelectric materials. "
+      },
+      {
+        "id": 1,
+        "text": "Here, based on optimizing electrical transport by transforming monoclinic Cu2SnS3 into a cubic phase, Halogen atoms are employed alloying to enhance anharmonicity, effectively suppressing phonon propagation in high-symmetry materials, thereby reducing kappa lat while maintaining excellent electrical transport properties. "
+      },
+      {
+        "id": 2,
+        "text": "An alloying study of CuX (X = Cl, Br, I) with Cu2SnS3 is conducted and the correlation between anharmonicity and the ionic character in chemical bonds is examined. "
+      },
+      {
+        "id": 3,
+        "text": "As symmetry increases, the power factor (PF) of the samples rises dramatically from 0.96 to 7.8 mu W cm-1 K-2, further increasing to 12.77 mu W cm-1 K-2 with the introduction of Sn vacancies. "
+      },
+      {
+        "id": 4,
+        "text": "A comprehensive analysis of band structure, anharmonicity, and lattice distortion reveals that the CuBr-alloyed sample exhibits significantly higher performance compared to the other variations. "
+      },
+      {
+        "id": 5,
+        "text": "Ultimately, the optimized Cu2Sn0.94S3-20 mol% CuBr reaches a peak ZT of 1.17 at 773 K and achieves one of the highest average ZT of 0.70 within the Cu2SnS3 system. "
+      },
+      {
+        "id": 6,
+        "text": "These findings highlight the potential of harnessing halogen-induced anharmonic effects to facilitate high-performance thermoelectric applications, underscoring the viability of Cu2SnS3 as a candidate for sustainable energy solutions."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1102:phase",
+        "label": "Transformation of monoclinic Cu2SnS3 to cubic phase",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1102:electrical",
+        "label": "Electrical transport properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1102:halogen",
+        "label": "Halogen alloying of Cu2SnS3",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1102:anharmonicity",
+        "label": "Anharmonicity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1102:phonons",
+        "label": "Phonon propagation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1102:thermal",
+        "label": "Lattice thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1102:ionic",
+        "label": "Ionic character of chemical bonds",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1102:symmetry",
+        "label": "Increasing sample symmetry",
+        "role": "condition"
+      },
+      {
+        "id": "P1102:pf1",
+        "label": "Power factor increase from 0.96 to 7.8 μW cm−1 K−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1102:vacancies",
+        "label": "Introduction of Sn vacancies",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1102:pf2",
+        "label": "Power factor of 12.77 μW cm−1 K−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1102:cubr",
+        "label": "CuBr-alloyed Cu2SnS3 sample",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1102:superior",
+        "label": "Higher performance than other alloying variations",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1102:optimized",
+        "label": "Cu2Sn0.94S3–20 mol% CuBr",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1102:zt",
+        "label": "Peak ZT of 1.17",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1102:average",
+        "label": "Average ZT of 0.70",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1102:r001",
+        "subject": "Transformation of monoclinic Cu2SnS3 to cubic phase",
+        "subject_role": "design_strategy",
+        "predicate": "optimizes",
+        "object": "Electrical transport properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on optimizing electrical transport by transforming monoclinic Cu2SnS3 into a cubic phase, Halogen atoms are employed alloying to enhance anharmonicity, effectively suppressing phonon propagation in high-symmetry materials, thereby reducing kappa lat while maintaining excellent electrical transport properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:phase",
+        "object_id": "P1102:electrical"
+      },
+      {
+        "relation_id": "P1102:r002",
+        "subject": "Halogen alloying of Cu2SnS3",
+        "subject_role": "design_strategy",
+        "predicate": "enhances",
+        "object": "Anharmonicity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "High-symmetry Cu2SnS3",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on optimizing electrical transport by transforming monoclinic Cu2SnS3 into a cubic phase, Halogen atoms are employed alloying to enhance anharmonicity, effectively suppressing phonon propagation in high-symmetry materials, thereby reducing kappa lat while maintaining excellent electrical transport properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:halogen",
+        "object_id": "P1102:anharmonicity"
+      },
+      {
+        "relation_id": "P1102:r003",
+        "subject": "Anharmonicity",
+        "subject_role": "quantity",
+        "predicate": "suppresses",
+        "object": "Phonon propagation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Halogen-alloyed high-symmetry materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on optimizing electrical transport by transforming monoclinic Cu2SnS3 into a cubic phase, Halogen atoms are employed alloying to enhance anharmonicity, effectively suppressing phonon propagation in high-symmetry materials, thereby reducing kappa lat while maintaining excellent electrical transport properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:anharmonicity",
+        "object_id": "P1102:phonons"
+      },
+      {
+        "relation_id": "P1102:r004",
+        "subject": "Phonon propagation",
+        "subject_role": "mechanism_process",
+        "predicate": "suppression reduces",
+        "object": "Lattice thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Halogen-alloyed high-symmetry materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on optimizing electrical transport by transforming monoclinic Cu2SnS3 into a cubic phase, Halogen atoms are employed alloying to enhance anharmonicity, effectively suppressing phonon propagation in high-symmetry materials, thereby reducing kappa lat while maintaining excellent electrical transport properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:phonons",
+        "object_id": "P1102:thermal"
+      },
+      {
+        "relation_id": "P1102:r005",
+        "subject": "Halogen alloying of Cu2SnS3",
+        "subject_role": "design_strategy",
+        "predicate": "maintains excellent",
+        "object": "Electrical transport properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "During reduction of lattice thermal conductivity",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on optimizing electrical transport by transforming monoclinic Cu2SnS3 into a cubic phase, Halogen atoms are employed alloying to enhance anharmonicity, effectively suppressing phonon propagation in high-symmetry materials, thereby reducing kappa lat while maintaining excellent electrical transport properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:halogen",
+        "object_id": "P1102:electrical"
+      },
+      {
+        "relation_id": "P1102:r006",
+        "subject": "Anharmonicity",
+        "subject_role": "quantity",
+        "predicate": "has an examined correlation with",
+        "object": "Ionic character of chemical bonds",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "CuX (X = Cl, Br, I) alloying with Cu2SnS3; correlation direction unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "An alloying study of CuX (X = Cl, Br, I) with Cu2SnS3 is conducted and the correlation between anharmonicity and the ionic character in chemical bonds is examined. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:anharmonicity",
+        "object_id": "P1102:ionic"
+      },
+      {
+        "relation_id": "P1102:r007",
+        "subject": "Increasing sample symmetry",
+        "subject_role": "condition",
+        "predicate": "increases power factor to",
+        "object": "Power factor increase from 0.96 to 7.8 μW cm−1 K−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "As symmetry increases, the power factor (PF) of the samples rises dramatically from 0.96 to 7.8 mu W cm-1 K-2, further increasing to 12.77 mu W cm-1 K-2 with the introduction of Sn vacancies. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:symmetry",
+        "object_id": "P1102:pf1"
+      },
+      {
+        "relation_id": "P1102:r008",
+        "subject": "Introduction of Sn vacancies",
+        "subject_role": "design_strategy",
+        "predicate": "further increases power factor to",
+        "object": "Power factor of 12.77 μW cm−1 K−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following the symmetry-associated increase to 7.8 μW cm−1 K−2",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "As symmetry increases, the power factor (PF) of the samples rises dramatically from 0.96 to 7.8 mu W cm-1 K-2, further increasing to 12.77 mu W cm-1 K-2 with the introduction of Sn vacancies. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:vacancies",
+        "object_id": "P1102:pf2"
+      },
+      {
+        "relation_id": "P1102:r009",
+        "subject": "CuBr-alloyed Cu2SnS3 sample",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Higher performance than other alloying variations",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Analysis of band structure, anharmonicity and lattice distortion; compared with other CuX alloying variations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "An alloying study of CuX (X = Cl, Br, I) with Cu2SnS3 is conducted and the correlation between anharmonicity and the ionic character in chemical bonds is examined. ",
+        "context_quotes": [
+          "A comprehensive analysis of band structure, anharmonicity, and lattice distortion reveals that the CuBr-alloyed sample exhibits significantly higher performance compared to the other variations. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1102:cubr",
+        "object_id": "P1102:superior"
+      },
+      {
+        "relation_id": "P1102:r010",
+        "subject": "Cu2Sn0.94S3–20 mol% CuBr",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Peak ZT of 1.17",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "773 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Ultimately, the optimized Cu2Sn0.94S3-20 mol% CuBr reaches a peak ZT of 1.17 at 773 K and achieves one of the highest average ZT of 0.70 within the Cu2SnS3 system. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:optimized",
+        "object_id": "P1102:zt"
+      },
+      {
+        "relation_id": "P1102:r011",
+        "subject": "Cu2Sn0.94S3–20 mol% CuBr",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Average ZT of 0.70",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "One of the highest average ZT values within the Cu2SnS3 system; averaging interval unspecified",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Ultimately, the optimized Cu2Sn0.94S3-20 mol% CuBr reaches a peak ZT of 1.17 at 773 K and achieves one of the highest average ZT of 0.70 within the Cu2SnS3 system. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1102:optimized",
+        "object_id": "P1102:average"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1103",
+    "title": "Role of Disorder Induced by Doping on the Thermoelectric Properties of Semiconducting Polymers",
+    "segments": [
+      {
+        "id": 0,
+        "text": "A fundamental understanding of charge transport in polymeric semiconductors requires knowledge of how the electrical conductivity varies with carrier density. "
+      },
+      {
+        "id": 1,
+        "text": "The thermopower of semiconducting polymers is also a complex function of carrier density making it difficult to assess structure-property relationships for the thermoelectric power factor. "
+      },
+      {
+        "id": 2,
+        "text": "We examined the thermoelectric properties of poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]thiophene] (pBTTT-C-14) by measurements of an electrochemical transistor using a polymeric ionic liquid (PIL) gate dielectric that can modulate the carrier concentration from 4 x 10(18) to 3 x 10(20) cm(-3). "
+      },
+      {
+        "id": 3,
+        "text": "As carrier density increases, so does the concentration of associated counterions, leading to a greater degree of energetic disorder within the semiconductor. "
+      },
+      {
+        "id": 4,
+        "text": "Using thermopower measurements, we show experimentally that the electronic density-of-states broadens with increasing carrier density in the semiconducting polymer. "
+      },
+      {
+        "id": 5,
+        "text": "The origin of a commonly observed power law relationship between thermopower and electrical conductivity is discussed and related to the changes in the electronic density-of-states upon doping."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1103:gate",
+        "label": "Polymeric ionic liquid gate dielectric in an electrochemical transistor",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1103:range",
+        "label": "Carrier concentration of 4 × 10^18 to 3 × 10^20 cm−3",
+        "role": "quantity"
+      },
+      {
+        "id": "P1103:density",
+        "label": "Increasing carrier density in pBTTT-C-14",
+        "role": "condition"
+      },
+      {
+        "id": "P1103:counterions",
+        "label": "Increasing associated counterion concentration",
+        "role": "condition"
+      },
+      {
+        "id": "P1103:disorder",
+        "label": "Energetic disorder within the semiconductor",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1103:dos",
+        "label": "Electronic density-of-states",
+        "role": "quantity"
+      },
+      {
+        "id": "P1103:law",
+        "label": "Power law relationship between thermopower and electrical conductivity",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1103:doschange",
+        "label": "Electronic density-of-states changes upon doping",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1103:r001",
+        "subject": "Polymeric ionic liquid gate dielectric in an electrochemical transistor",
+        "subject_role": "material_entity",
+        "predicate": "modulates carrier concentration over",
+        "object": "Carrier concentration of 4 × 10^18 to 3 × 10^20 cm−3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Electrochemical transistor measurements of pBTTT-C-14",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "We examined the thermoelectric properties of poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]thiophene] (pBTTT-C-14) by measurements of an electrochemical transistor using a polymeric ionic liquid (PIL) gate dielectric that can modulate the carrier concentration from 4 x 10(18) to 3 x 10(20) cm(-3). ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "We examined the thermoelectric properties of poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]thiophene] (pBTTT-C-14) by measurements of an electrochemical transistor using a polymeric ionic liquid (PIL) gate dielectric that can modulate the carrier concentration from 4 x 10(18) to 3 x 10(20) cm(-3). "
+        ],
+        "subject_id": "P1103:gate",
+        "object_id": "P1103:range"
+      },
+      {
+        "relation_id": "P1103:r002",
+        "subject": "Increasing carrier density in pBTTT-C-14",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Increasing associated counterion concentration",
+        "object_role": "condition",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We examined the thermoelectric properties of poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]thiophene] (pBTTT-C-14) by measurements of an electrochemical transistor using a polymeric ionic liquid (PIL) gate dielectric that can modulate the carrier concentration from 4 x 10(18) to 3 x 10(20) cm(-3). ",
+        "context_quotes": [
+          "As carrier density increases, so does the concentration of associated counterions, leading to a greater degree of energetic disorder within the semiconductor. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1103:density",
+        "object_id": "P1103:counterions"
+      },
+      {
+        "relation_id": "P1103:r003",
+        "subject": "Increasing associated counterion concentration",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Energetic disorder within the semiconductor",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "As carrier density increases",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We examined the thermoelectric properties of poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]thiophene] (pBTTT-C-14) by measurements of an electrochemical transistor using a polymeric ionic liquid (PIL) gate dielectric that can modulate the carrier concentration from 4 x 10(18) to 3 x 10(20) cm(-3). ",
+        "context_quotes": [
+          "As carrier density increases, so does the concentration of associated counterions, leading to a greater degree of energetic disorder within the semiconductor. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1103:counterions",
+        "object_id": "P1103:disorder"
+      },
+      {
+        "relation_id": "P1103:r004",
+        "subject": "Increasing carrier density in pBTTT-C-14",
+        "subject_role": "condition",
+        "predicate": "broadens",
+        "object": "Electronic density-of-states",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Shown by thermopower measurements",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "We examined the thermoelectric properties of poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]thiophene] (pBTTT-C-14) by measurements of an electrochemical transistor using a polymeric ionic liquid (PIL) gate dielectric that can modulate the carrier concentration from 4 x 10(18) to 3 x 10(20) cm(-3). ",
+        "context_quotes": [
+          "Using thermopower measurements, we show experimentally that the electronic density-of-states broadens with increasing carrier density in the semiconducting polymer. "
+        ],
+        "modality_evidence": [
+          "Using thermopower measurements, we show experimentally that the electronic density-of-states broadens with increasing carrier density in the semiconducting polymer. "
+        ],
+        "subject_id": "P1103:density",
+        "object_id": "P1103:dos"
+      },
+      {
+        "relation_id": "P1103:r005",
+        "subject": "Power law relationship between thermopower and electrical conductivity",
+        "subject_role": "descriptor",
+        "predicate": "has its origin related to",
+        "object": "Electronic density-of-states changes upon doping",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The origin of a commonly observed power law relationship between thermopower and electrical conductivity is discussed and related to the changes in the electronic density-of-states upon doping.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1103:law",
+        "object_id": "P1103:doschange"
+      }
+    ]
+  }
+]

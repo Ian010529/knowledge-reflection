@@ -1,0 +1,742 @@
+[
+  {
+    "paper_id": "P0655",
+    "title": "Thermoelectric Properties of Polymeric Mixed Conductors",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The thermoelectric (TE) phenomena are intensively explored by the scientific community due to the rather inefficient way energy resources are used with a large fraction of energy wasted in the form of heat. "
+      },
+      {
+        "id": 1,
+        "text": "Among various materials, mixed ion-electron conductors (MIEC) are recently being explored as potential thermoelectrics, primarily due to their low thermal conductivity. "
+      },
+      {
+        "id": 2,
+        "text": "The combination of electronic and ionic charge carriers in those inorganic or organic materials leads to complex evolution of the thermovoltage (V-oc) with time, temperature, and/or humidity. "
+      },
+      {
+        "id": 3,
+        "text": "One of the most promising organic thermoelectric materials, poly(3,4-ethyelenedioxythiophene)-polystyrene sulfonate (PEDOT-PSS), is an MIEC. "
+      },
+      {
+        "id": 4,
+        "text": "A previous study reveals that at high humidity, PEDOT-PSS undergoes an ionic Seebeck effect due to mobile protons. "
+      },
+      {
+        "id": 5,
+        "text": "Yet, this phenomenon is not well understood. "
+      },
+      {
+        "id": 6,
+        "text": "In this work, the time dependence of the V-oc is studied and its behavior from the contribution of both charge carriers (holes and protons) is explained. "
+      },
+      {
+        "id": 7,
+        "text": "The presence of a complex reorganization of the charge carriers promoting an internal electrochemical reaction within the polymer film is identified. "
+      },
+      {
+        "id": 8,
+        "text": "Interestingly, it is demonstrated that the time dependence behavior of V-oc is a way to distinguish between three classes of polymeric materials: electronic conductor, ionic conductor, and mixed ionic-electronic conductor."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0655:holes",
+        "label": "Hole charge carriers",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0655:v",
+        "label": "Time-dependent thermovoltage V_oc",
+        "role": "quantity"
+      },
+      {
+        "id": "P0655:m",
+        "label": "PEDOT-PSS polymer film",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0655:reorg",
+        "label": "Complex reorganization of charge carriers",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0655:rxn",
+        "label": "Internal electrochemical reaction within polymer film",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0655:class",
+        "label": "Distinction among electronic, ionic and mixed ionic-electronic polymer conductors",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0655:r001",
+        "subject": "Hole charge carriers",
+        "subject_role": "material_entity",
+        "predicate": "jointly explains",
+        "object": "Time-dependent thermovoltage V_oc",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PEDOT-PSS",
+        "joint_factors": [
+          "Hole charge carriers",
+          "Proton charge carriers"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "One of the most promising organic thermoelectric materials, poly(3,4-ethyelenedioxythiophene)-polystyrene sulfonate (PEDOT-PSS), is an MIEC. ",
+        "context_quotes": [
+          "In this work, the time dependence of the V-oc is studied and its behavior from the contribution of both charge carriers (holes and protons) is explained. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0655:holes",
+        "object_id": "P0655:v"
+      },
+      {
+        "relation_id": "P0655:r002",
+        "subject": "PEDOT-PSS polymer film",
+        "subject_role": "material_entity",
+        "predicate": "undergoes",
+        "object": "Complex reorganization of charge carriers",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Hole and proton charge carriers",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "One of the most promising organic thermoelectric materials, poly(3,4-ethyelenedioxythiophene)-polystyrene sulfonate (PEDOT-PSS), is an MIEC. ",
+        "context_quotes": [
+          "In this work, the time dependence of the V-oc is studied and its behavior from the contribution of both charge carriers (holes and protons) is explained. ",
+          "The presence of a complex reorganization of the charge carriers promoting an internal electrochemical reaction within the polymer film is identified. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0655:m",
+        "object_id": "P0655:reorg"
+      },
+      {
+        "relation_id": "P0655:r003",
+        "subject": "Complex reorganization of charge carriers",
+        "subject_role": "mechanism_process",
+        "predicate": "promotes",
+        "object": "Internal electrochemical reaction within polymer film",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The presence of a complex reorganization of the charge carriers promoting an internal electrochemical reaction within the polymer film is identified. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0655:reorg",
+        "object_id": "P0655:rxn"
+      },
+      {
+        "relation_id": "P0655:r004",
+        "subject": "Time-dependent thermovoltage V_oc",
+        "subject_role": "quantity",
+        "predicate": "enables",
+        "object": "Distinction among electronic, ionic and mixed ionic-electronic polymer conductors",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Classification by thermovoltage time dependence",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Interestingly, it is demonstrated that the time dependence behavior of V-oc is a way to distinguish between three classes of polymeric materials: electronic conductor, ionic conductor, and mixed ionic-electronic conductor.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0655:v",
+        "object_id": "P0655:class"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0656",
+    "title": "Electrochemical Effects in Thermoelectric Polymers",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Conductive polymers such as PEDOT:PSS hold great promise as flexible thermoelectric devices. "
+      },
+      {
+        "id": 1,
+        "text": "The thermoelectric power factor of PEDOT:PSS is small relative to inorganic materials because the Seebeck coefficient is small. "
+      },
+      {
+        "id": 2,
+        "text": "Ion conducting materials have previously been demonstrated to have very large Seebeck coefficients, and a major advantage of polymers over inorganics is the high room temperature ionic conductivity. "
+      },
+      {
+        "id": 3,
+        "text": "Notably, PEDOT:PSS demonstrates a significant but short-term increase in Seebeck coefficient which is attributed to a large ionic Seebeck contribution. "
+      },
+      {
+        "id": 4,
+        "text": "By controlling whether electrochemistry occurs at the PEDOT:PSS/electrode interface, the duration of the ionic Seebeck enhancement can be controlled, and a material can be designed with long-lived ionic Seebeck enhancements."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0656:m",
+        "label": "PEDOT:PSS",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0656:se",
+        "label": "Significant short-term Seebeck coefficient increase",
+        "role": "quantity"
+      },
+      {
+        "id": "P0656:ic",
+        "label": "Large ionic Seebeck contribution",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0656:ctrl",
+        "label": "Control of whether electrochemistry occurs at PEDOT:PSS/electrode interface",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0656:dur",
+        "label": "Duration of ionic Seebeck enhancement",
+        "role": "quantity"
+      },
+      {
+        "id": "P0656:long",
+        "label": "Material with long-lived ionic Seebeck enhancement",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0656:r001",
+        "subject": "PEDOT:PSS",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Significant short-term Seebeck coefficient increase",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Notably, PEDOT:PSS demonstrates a significant but short-term increase in Seebeck coefficient which is attributed to a large ionic Seebeck contribution. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0656:m",
+        "object_id": "P0656:se"
+      },
+      {
+        "relation_id": "P0656:r002",
+        "subject": "Large ionic Seebeck contribution",
+        "subject_role": "mechanism_process",
+        "predicate": "causes",
+        "object": "Significant short-term Seebeck coefficient increase",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PEDOT:PSS; author attribution",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Notably, PEDOT:PSS demonstrates a significant but short-term increase in Seebeck coefficient which is attributed to a large ionic Seebeck contribution. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0656:ic",
+        "object_id": "P0656:se"
+      },
+      {
+        "relation_id": "P0656:r003",
+        "subject": "Control of whether electrochemistry occurs at PEDOT:PSS/electrode interface",
+        "subject_role": "design_strategy",
+        "predicate": "controls",
+        "object": "Duration of ionic Seebeck enhancement",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Direction of the electrochemistry effect is unspecified",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "By controlling whether electrochemistry occurs at the PEDOT:PSS/electrode interface, the duration of the ionic Seebeck enhancement can be controlled, and a material can be designed with long-lived ionic Seebeck enhancements.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0656:ctrl",
+        "object_id": "P0656:dur"
+      },
+      {
+        "relation_id": "P0656:r004",
+        "subject": "Control of whether electrochemistry occurs at PEDOT:PSS/electrode interface",
+        "subject_role": "design_strategy",
+        "predicate": "can enable design of",
+        "object": "Material with long-lived ionic Seebeck enhancement",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "By controlling whether electrochemistry occurs at the PEDOT:PSS/electrode interface, the duration of the ionic Seebeck enhancement can be controlled, and a material can be designed with long-lived ionic Seebeck enhancements.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0656:ctrl",
+        "object_id": "P0656:long"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0657",
+    "title": "P-N Conversion in a Water Ionic Liquid Binary System for Nonredox Thermocapacitive Converters",
+    "segments": [
+      {
+        "id": 0,
+        "text": "An intriguing p-n conversion of thermoelectric property was observed in a water ionic liquid ([EMIm][Ac]) binary system with precise control over water content. "
+      },
+      {
+        "id": 1,
+        "text": "The highest p-type and n-type Seebeck coefficient were optimized at water [EMIm] [Ac] molar ratio of 2:1 and 4:1, respectively. "
+      },
+      {
+        "id": 2,
+        "text": "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. "
+      },
+      {
+        "id": 3,
+        "text": "Furthermore, p-n thermocapacitive converters were integrated to enhance the output Seebeck voltages. "
+      },
+      {
+        "id": 4,
+        "text": "This work opens up new perspectives for harvesting low grade heat with the use of fluidic materials."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0657:water",
+        "label": "Precise water-content control in water/[EMIm][Ac] binary system",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0657:pn",
+        "label": "p–n conversion of thermoelectric property",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0657:r2",
+        "label": "Water:[EMIm][Ac] molar ratio 2:1",
+        "role": "condition"
+      },
+      {
+        "id": "P0657:pmax",
+        "label": "Highest p-type Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0657:r4",
+        "label": "Water:[EMIm][Ac] molar ratio 4:1",
+        "role": "condition"
+      },
+      {
+        "id": "P0657:nmax",
+        "label": "Highest n-type Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0657:pairs",
+        "label": "Solvent separation ion-pair configuration",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0657:int",
+        "label": "Interaction between anion clusters and gold electrodes",
+        "role": "interaction"
+      },
+      {
+        "id": "P0657:integration",
+        "label": "Integration of p–n thermocapacitive converters",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0657:voltage",
+        "label": "Output Seebeck voltages",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0657:r001",
+        "subject": "Precise water-content control in water/[EMIm][Ac] binary system",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "p–n conversion of thermoelectric property",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "An intriguing p-n conversion of thermoelectric property was observed in a water ionic liquid ([EMIm][Ac]) binary system with precise control over water content. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0657:water",
+        "object_id": "P0657:pn"
+      },
+      {
+        "relation_id": "P0657:r002",
+        "subject": "Water:[EMIm][Ac] molar ratio 2:1",
+        "subject_role": "condition",
+        "predicate": "optimizes",
+        "object": "Highest p-type Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Water/[EMIm][Ac] binary system",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The highest p-type and n-type Seebeck coefficient were optimized at water [EMIm] [Ac] molar ratio of 2:1 and 4:1, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0657:r2",
+        "object_id": "P0657:pmax"
+      },
+      {
+        "relation_id": "P0657:r003",
+        "subject": "Water:[EMIm][Ac] molar ratio 4:1",
+        "subject_role": "condition",
+        "predicate": "optimizes",
+        "object": "Highest n-type Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Water/[EMIm][Ac] binary system",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The highest p-type and n-type Seebeck coefficient were optimized at water [EMIm] [Ac] molar ratio of 2:1 and 4:1, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0657:r4",
+        "object_id": "P0657:nmax"
+      },
+      {
+        "relation_id": "P0657:r004",
+        "subject": "Water:[EMIm][Ac] molar ratio 4:1",
+        "subject_role": "condition",
+        "predicate": "favors",
+        "object": "Solvent separation ion-pair configuration",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT calculation",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. "
+        ],
+        "subject_id": "P0657:r4",
+        "object_id": "P0657:pairs"
+      },
+      {
+        "relation_id": "P0657:r005",
+        "subject": "Solvent separation ion-pair configuration",
+        "subject_role": "state_structure",
+        "predicate": "weakens",
+        "object": "Interaction between anion clusters and gold electrodes",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT calculation; water:[EMIm][Ac] molar ratio 4:1",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. "
+        ],
+        "subject_id": "P0657:pairs",
+        "object_id": "P0657:int"
+      },
+      {
+        "relation_id": "P0657:r006",
+        "subject": "Solvent separation ion-pair configuration",
+        "subject_role": "state_structure",
+        "predicate": "leads to",
+        "object": "p–n conversion of thermoelectric property",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT calculation; 4:1 molar ratio; through weakening anion-cluster/gold-electrode interaction",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. "
+        ],
+        "subject_id": "P0657:pairs",
+        "object_id": "P0657:pn"
+      },
+      {
+        "relation_id": "P0657:r007",
+        "subject": "Interaction between anion clusters and gold electrodes",
+        "subject_role": "interaction",
+        "predicate": "weakening leads to",
+        "object": "p–n conversion of thermoelectric property",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "DFT calculation; water:[EMIm][Ac] molar ratio 4:1; solvent separation ion-pair configuration",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "DFT calculation illustrates that a configuration of solvent separation ion pairs is preferred at the water [EMIm][Ac] molar ratio of 4:1, leading to the p-n conversion through weakening, interaction between anion clusters and gold electrodes. "
+        ],
+        "subject_id": "P0657:int",
+        "object_id": "P0657:pn"
+      },
+      {
+        "relation_id": "P0657:r008",
+        "subject": "Integration of p–n thermocapacitive converters",
+        "subject_role": "design_strategy",
+        "predicate": "is intended to enhance",
+        "object": "Output Seebeck voltages",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, p-n thermocapacitive converters were integrated to enhance the output Seebeck voltages. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0657:integration",
+        "object_id": "P0657:voltage"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0658",
+    "title": "Ionic vs. van der Waals layered materials: identification and comparison of elastic anisotropy",
+    "segments": [
+      {
+        "id": 0,
+        "text": "In this work, we expand the set of known layered compounds to include ionic layered materials, which are well known for superconducting, thermoelectric, and battery applications. "
+      },
+      {
+        "id": 1,
+        "text": "Focusing on known ternary compounds from the ICSD, we screen for ionic layered structures by expanding upon our previously developed algorithm for identification of van der Waals (vdW) layered structures, thus identifying over 1500 ionic layered compounds. "
+      },
+      {
+        "id": 2,
+        "text": "Since vdW layered structures can be chemically mutated to form ionic layered structures, we have developed a methodology to structurally link binary vdW to ternary ionic layered materials. "
+      },
+      {
+        "id": 3,
+        "text": "We perform an in-depth analysis of similarities and differences between these two classes of layered systems and assess the interplay between layer geometry and bond strength with a study of the elastic anisotropy. "
+      },
+      {
+        "id": 4,
+        "text": "We observe a rich variety of anisotropic behavior in which the layering direction alone is not a simple predictor of elastic anisotropy. "
+      },
+      {
+        "id": 5,
+        "text": "Our results enable discovery of new layered materials through intercalation or de-intercalation of vdW or ionic layered systems, respectively, as well as lay the groundwork for studies of anisotropic transport phenomena such as sound propagation or lattice thermal conductivity."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0658:n1",
+        "label": "Extended algorithm for identifying ionic layered structures",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0658:n2",
+        "label": "Over 1500 ionic layered compounds in known ternary ICSD compounds",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0658:n5",
+        "label": "Chemical mutation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0658:n3",
+        "label": "Binary van der Waals layered materials",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0658:n6",
+        "label": "Structural linking methodology",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0658:n7",
+        "label": "Layering direction",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0658:n8",
+        "label": "Elastic anisotropy",
+        "role": "quantity"
+      },
+      {
+        "id": "P0658:n9",
+        "label": "Intercalation of van der Waals layered systems",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0658:n11",
+        "label": "Discovery of new layered materials",
+        "role": "application"
+      },
+      {
+        "id": "P0658:n10",
+        "label": "De-intercalation of ionic layered systems",
+        "role": "design_strategy"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0658:r001",
+        "subject": "Extended algorithm for identifying ionic layered structures",
+        "subject_role": "design_strategy",
+        "predicate": "identifies",
+        "object": "Over 1500 ionic layered compounds in known ternary ICSD compounds",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Screening known ternary compounds from the ICSD.",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Focusing on known ternary compounds from the ICSD, we screen for ionic layered structures by expanding upon our previously developed algorithm for identification of van der Waals (vdW) layered structures, thus identifying over 1500 ionic layered compounds. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Focusing on known ternary compounds from the ICSD, we screen for ionic layered structures by expanding upon our previously developed algorithm for identification of van der Waals (vdW) layered structures, thus identifying over 1500 ionic layered compounds. "
+        ],
+        "subject_id": "P0658:n1",
+        "object_id": "P0658:n2"
+      },
+      {
+        "relation_id": "P0658:r002",
+        "subject": "Chemical mutation",
+        "subject_role": "mechanism_process",
+        "predicate": "can_transform_into_ionic_layered_structures",
+        "object": "Binary van der Waals layered materials",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Starting from van der Waals layered structures.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Since vdW layered structures can be chemically mutated to form ionic layered structures, we have developed a methodology to structurally link binary vdW to ternary ionic layered materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0658:n5",
+        "object_id": "P0658:n3"
+      },
+      {
+        "relation_id": "P0658:r003",
+        "subject": "Structural linking methodology",
+        "subject_role": "design_strategy",
+        "predicate": "structurally_links",
+        "object": "Binary van der Waals layered materials",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Links binary van der Waals layered materials to ternary ionic layered materials.",
+        "joint_factors": [
+          "Ternary ionic layered materials"
+        ],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Since vdW layered structures can be chemically mutated to form ionic layered structures, we have developed a methodology to structurally link binary vdW to ternary ionic layered materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0658:n6",
+        "object_id": "P0658:n3"
+      },
+      {
+        "relation_id": "P0658:r004",
+        "subject": "Layering direction",
+        "subject_role": "descriptor",
+        "predicate": "alone_is_not_a_simple_predictor_of",
+        "object": "Elastic anisotropy",
+        "object_role": "quantity",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Comparison of van der Waals and ionic layered systems.",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "We perform an in-depth analysis of similarities and differences between these two classes of layered systems and assess the interplay between layer geometry and bond strength with a study of the elastic anisotropy. ",
+        "context_quotes": [
+          "We observe a rich variety of anisotropic behavior in which the layering direction alone is not a simple predictor of elastic anisotropy. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0658:n7",
+        "object_id": "P0658:n8"
+      },
+      {
+        "relation_id": "P0658:r005",
+        "subject": "Intercalation of van der Waals layered systems",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Discovery of new layered materials",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Our results enable discovery of new layered materials through intercalation or de-intercalation of vdW or ionic layered systems, respectively, as well as lay the groundwork for studies of anisotropic transport phenomena such as sound propagation or lattice thermal conductivity.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0658:n9",
+        "object_id": "P0658:n11"
+      },
+      {
+        "relation_id": "P0658:r006",
+        "subject": "De-intercalation of ionic layered systems",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Discovery of new layered materials",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Our results enable discovery of new layered materials through intercalation or de-intercalation of vdW or ionic layered systems, respectively, as well as lay the groundwork for studies of anisotropic transport phenomena such as sound propagation or lattice thermal conductivity.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0658:n10",
+        "object_id": "P0658:n11"
+      }
+    ]
+  }
+]

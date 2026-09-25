@@ -1,0 +1,704 @@
+{
+  "papers": [
+    {
+      "paper_id": "P1877",
+      "decisions": [
+        {
+          "relation_id": "P1877:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r006",
+          "action": "patch",
+          "patch": {
+            "subject": "Ultrasonic frequency and power",
+            "subject_role": "condition",
+            "predicate": "affect",
+            "object": "Film properties",
+            "object_role": "descriptor",
+            "e": [
+              0,
+              2,
+              5
+            ],
+            "assertion": "author_claim",
+            "modality": "experimental",
+            "me": [
+              0,
+              2
+            ],
+            "conditions": "Ultrasonic treatment of as-spun wet PEDOT:PSS films; effect directions unspecified",
+            "joint_factors": [
+              "Ultrasonic frequency",
+              "Ultrasonic power"
+            ],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          },
+          "reason": "Preserve the collectively reported parameter effects without asserting independent contributions; correct scope and bind the film context."
+        },
+        {
+          "relation_id": "P1877:r007",
+          "action": "reject",
+          "patch": null,
+          "reason": "Covered by the combined frequency-and-power relation in r006; independent contributions are not specified."
+        },
+        {
+          "relation_id": "P1877:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1877:r014",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1878",
+      "decisions": [
+        {
+          "relation_id": "P1878:r001",
+          "action": "reject",
+          "patch": null,
+          "reason": "Acting through a crowded electrolyte environment does not explicitly establish that FS creates that environment; the qualifier is retained in r002."
+        },
+        {
+          "relation_id": "P1878:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1878:r014",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Relatively poor thermosensitivity and heat-to-current behavior",
+          "subject_role": "performance_function",
+          "predicate": "jointly_limit",
+          "object": "Application of LTECs using LiPF6 electrolyte",
+          "object_role": "application",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "LTECs using LiPF6 electrolyte",
+          "joint_factors": [
+            "Relatively poor thermosensitivity",
+            "Relatively poor heat-to-current behavior"
+          ],
+          "scope": "device_thermal_management",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Introducing additives into bulk electrolyte",
+          "subject_role": "design_strategy",
+          "predicate": "is_proposed_to_modify",
+          "object": "Solvation structure of electrolyte ions",
+          "object_role": "state_structure",
+          "e": [
+            3
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background"
+        },
+        {
+          "subject": "Introducing additives into bulk electrolyte",
+          "subject_role": "design_strategy",
+          "predicate": "is_proposed_to_improve",
+          "object": "Thermosensitivity and heat-to-current behavior of LTECs using LiPF6 electrolyte",
+          "object_role": "performance_function",
+          "e": [
+            2,
+            3
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "By modifying the solvation structure of electrolyte ions",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1879",
+      "decisions": [
+        {
+          "relation_id": "P1879:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1879:r002",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "measurement_method_model",
+            "claim_scope": null
+          },
+          "reason": "Explicit preparation–product relation belongs in method scope."
+        },
+        {
+          "relation_id": "P1879:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1879:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "measurement_method_model",
+            "claim_scope": null
+          },
+          "reason": "Explicit preparation–product relation belongs in method scope."
+        },
+        {
+          "relation_id": "P1879:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1879:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Electrolyte-gated WS2 devices; small gate voltage region; electronic-property characterization",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the otherwise generic surface and potential-drop endpoints to the WS2 devices."
+        },
+        {
+          "relation_id": "P1879:r007",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Electrolyte-gated WS2 devices; small gate voltage region; electronic-property characterization",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the interface-doping claim to the WS2 devices."
+        },
+        {
+          "relation_id": "P1879:r008",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Electrolyte-gated WS2 devices in the small-voltage electrostatic doping region",
+            "joint_factors": null,
+            "scope": "other_adjacent_domain",
+            "claim_scope": null
+          },
+          "reason": "This is electronic transport, not thermal management; bind the device context."
+        },
+        {
+          "relation_id": "P1879:r009",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Electrolyte-gated WS2 devices; beyond the small-voltage electrostatic doping region",
+            "joint_factors": null,
+            "scope": "other_adjacent_domain",
+            "claim_scope": null
+          },
+          "reason": "Correct the electronic-device scope and bind the material context."
+        },
+        {
+          "relation_id": "P1879:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1879:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1879:r012",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Electrolyte-gated WS2 devices; observed in the electrochemical doping region at further increased gate voltage",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind superconductivity to the reported WS2 device and voltage regime."
+        },
+        {
+          "relation_id": "P1879:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Electron beam lithography",
+          "subject_role": "mechanism_process",
+          "predicate": "fabricates_into_devices",
+          "object": "Selected WS2 thin flakes or individual WS2 nanotubes",
+          "object_role": "material_entity",
+          "e": [
+            1,
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            2
+          ],
+          "conditions": "Electrolyte is subsequently put on the devices",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1880",
+      "decisions": [
+        {
+          "relation_id": "P1880:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r002",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "other_adjacent_domain",
+            "claim_scope": null
+          },
+          "reason": "HSC performance is an energy-storage device claim, not thermal management."
+        },
+        {
+          "relation_id": "P1880:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r010",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "measurement_method_model",
+            "claim_scope": null
+          },
+          "reason": "Explicit fabrication–product relation belongs in method scope."
+        },
+        {
+          "relation_id": "P1880:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r013",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "other_adjacent_domain",
+            "claim_scope": null
+          },
+          "reason": "Energy-storage performance is not a thermal-management relationship."
+        },
+        {
+          "relation_id": "P1880:r014",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r015",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1880:r016",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Prepared cathode material",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "Uniform mesoporous morphology",
+          "object_role": "state_structure",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Prepared cathode material",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "Rich oxygen vacancies",
+          "object_role": "state_structure",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Prepared cathode material",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "High electrical conductivity",
+          "object_role": "quantity",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Prepared cathode material",
+          "subject_role": "material_entity",
+          "predicate": "has",
+          "object": "High ionic conductivity",
+          "object_role": "quantity",
+          "e": [
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

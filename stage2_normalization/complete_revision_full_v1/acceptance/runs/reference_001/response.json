@@ -1,0 +1,1711 @@
+{
+  "papers": [
+    {
+      "paper_id": "P1116",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "m1",
+          "label": "Fe2+/Fe3+-containing electrolyte solutions",
+          "role": "mat"
+        },
+        {
+          "id": "d1",
+          "label": "Low material cost",
+          "role": "descriptor"
+        },
+        {
+          "id": "q1",
+          "label": "High electrochemical Seebeck coefficient",
+          "role": "quantity"
+        },
+        {
+          "id": "app1",
+          "label": "Liquid thermoelectric conversion devices",
+          "role": "application"
+        },
+        {
+          "id": "m2",
+          "label": "Dissolved-Fe2+/Fe3+-containing aqueous, methanol, acetone and propylene carbonate solutions",
+          "role": "mat"
+        },
+        {
+          "id": "q2",
+          "label": "Concentration dependence of solvent resistance R-s",
+          "role": "quantity"
+        },
+        {
+          "id": "q3",
+          "label": "Concentration dependence of diffusion resistance R-dif",
+          "role": "quantity"
+        },
+        {
+          "id": "d2",
+          "label": "Empirical formula: R(s)(-)1 C-S (c)/(n(c))",
+          "role": "descriptor"
+        },
+        {
+          "id": "d3",
+          "label": "Empirical formula: R-dif(-1)=C(dif)c/n(c)(1/2)",
+          "role": "descriptor"
+        },
+        {
+          "id": "q4",
+          "label": "Magnitudes of C-s and C-dif",
+          "role": "quantity"
+        },
+        {
+          "id": "c1",
+          "label": "Solvent identity",
+          "role": "cond"
+        },
+        {
+          "id": "q5",
+          "label": "Solution parameter 'h'",
+          "role": "quantity"
+        },
+        {
+          "id": "q6",
+          "label": "Solvent resistance R-s",
+          "role": "quantity"
+        },
+        {
+          "id": "q7",
+          "label": "Diffusion resistance R-dif",
+          "role": "quantity"
+        }
+      ],
+      "records": [
+        {
+          "s": "m1",
+          "p": "has",
+          "o": "d1",
+          "e": [
+            0
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "exhibits",
+          "o": "q1",
+          "e": [
+            0
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "is suitable for",
+          "o": "app1",
+          "e": [
+            0
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Because of low material cost and high electrochemical Seebeck coefficient.",
+          "j": [
+            "Low material cost",
+            "High electrochemical Seebeck coefficient"
+          ],
+          "scope": "application",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "d2",
+          "p": "reproduces",
+          "o": "q2",
+          "e": [
+            1,
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Empirical fit for dissolved-Fe2+/Fe3+-containing aqueous, MeOH, acetone and PC solutions; eta(c) is viscosity at concentration c.",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Formula is corrupted; retained without reconstructing its operators or symbols."
+        },
+        {
+          "s": "d3",
+          "p": "reproduces",
+          "o": "q3",
+          "e": [
+            1,
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Empirical fit for dissolved-Fe2+/Fe3+-containing aqueous, MeOH, acetone and PC solutions; eta(c) is viscosity at concentration c.",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Formula uses n(c) although the accompanying definition names eta(c); retained as supplied."
+        },
+        {
+          "s": "q4",
+          "p": "is nearly independent of",
+          "o": "c1",
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Across the aqueous, MeOH, acetone and PC solutions studied.",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "q5",
+          "p": "is suggested to be a significant determinant of",
+          "o": "q6",
+          "e": [
+            2,
+            3
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "Inference from nearly solvent-independent C-s and C-dif.",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Source says 'thathis'; h may refer to viscosity eta, but the symbol is unresolved."
+        },
+        {
+          "s": "q5",
+          "p": "is suggested to be a significant determinant of",
+          "o": "q7",
+          "e": [
+            2,
+            3
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "Inference from nearly solvent-independent C-s and C-dif.",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Source says 'thathis'; h may refer to viscosity eta, but the symbol is unresolved."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P1447",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "m1",
+          "label": "PEDOT:PSS/EMIM:DCA (P/ED) fiber",
+          "role": "mat"
+        },
+        {
+          "id": "p1",
+          "label": "Wet-spinning followed by H2SO4-immersion-drawing",
+          "role": "process"
+        },
+        {
+          "id": "q1",
+          "label": "Electrical conductivity of 4288 S/cm",
+          "role": "quantity"
+        },
+        {
+          "id": "q2",
+          "label": "Tensile strength of 956 MPa",
+          "role": "quantity"
+        },
+        {
+          "id": "q3",
+          "label": "Young's modulus of 3.8 GPa",
+          "role": "quantity"
+        },
+        {
+          "id": "f1",
+          "label": "High conductivity, ultrastrength and flexibility",
+          "role": "performance"
+        },
+        {
+          "id": "p2",
+          "label": "FESEM, XPS, Raman spectroscopy, UV-vis-NIR spectroscopy and WAXS characterization",
+          "role": "process"
+        },
+        {
+          "id": "s1",
+          "label": "P/ED fiber structure and conformation",
+          "role": "state"
+        },
+        {
+          "id": "st1",
+          "label": "Combined ionic liquid, concentrated sulfuric acid and high stretching",
+          "role": "strategy"
+        },
+        {
+          "id": "p3",
+          "label": "Massive removal of PSS",
+          "role": "process"
+        },
+        {
+          "id": "s2",
+          "label": "PEDOT crystallinity of 87.9%",
+          "role": "state"
+        },
+        {
+          "id": "s3",
+          "label": "PEDOT orientation of 0.71",
+          "role": "state"
+        },
+        {
+          "id": "q4",
+          "label": "Bending radius of 0.1 mm",
+          "role": "quantity"
+        },
+        {
+          "id": "c1",
+          "label": "1000 repeated bending cycles and humidity changes within 50–90%",
+          "role": "cond"
+        },
+        {
+          "id": "f2",
+          "label": "Nearly unchanged P/ED fiber conductivity",
+          "role": "performance"
+        },
+        {
+          "id": "app1",
+          "label": "Circuit connection wire",
+          "role": "application"
+        },
+        {
+          "id": "app2",
+          "label": "Thermoelectric power generator",
+          "role": "application"
+        },
+        {
+          "id": "app3",
+          "label": "Temperature sensor",
+          "role": "application"
+        },
+        {
+          "id": "app4",
+          "label": "Flexible and wearable electronics",
+          "role": "application"
+        }
+      ],
+      "records": [
+        {
+          "s": "p1",
+          "p": "produces",
+          "o": "m1",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            1
+          ],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "has",
+          "o": "q1",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "has",
+          "o": "q2",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "has",
+          "o": "q3",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Low modulus is presented as a measure of flexibility.",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "exhibits",
+          "o": "f1",
+          "e": [
+            1,
+            2
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Claimed to be the best reported PEDOT:PSS fiber performance, to the authors' knowledge.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p2",
+          "p": "characterizes",
+          "o": "s1",
+          "e": [
+            3
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            3
+          ],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "st1",
+          "p": "synergistically causes",
+          "o": "p3",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In the P/ED fiber.",
+          "j": [
+            "Ionic liquid",
+            "Concentrated sulfuric acid",
+            "High stretching"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "st1",
+          "p": "synergistically causes",
+          "o": "s2",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In the P/ED fiber.",
+          "j": [
+            "Ionic liquid",
+            "Concentrated sulfuric acid",
+            "High stretching"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "st1",
+          "p": "synergistically causes",
+          "o": "s3",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In the P/ED fiber.",
+          "j": [
+            "Ionic liquid",
+            "Concentrated sulfuric acid",
+            "High stretching"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "contains PEDOT with",
+          "o": "s2",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            3
+          ],
+          "c": "Structure and conformation characterization.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "contains PEDOT with",
+          "o": "s3",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            3
+          ],
+          "c": "Structure and conformation characterization.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p3",
+          "p": "jointly accounts mainly for",
+          "o": "f1",
+          "e": [
+            1,
+            4
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "P/ED fiber; attribution to the combined structural changes.",
+          "j": [
+            "Massive removal of PSS",
+            "High PEDOT crystallinity (87.9%)",
+            "High PEDOT orientation (0.71)"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "shows",
+          "o": "q4",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "c1",
+          "p": "leaves",
+          "o": "f2",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            5
+          ],
+          "c": "",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "was used to construct",
+          "o": "app1",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            6
+          ],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "was used to construct",
+          "o": "app2",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            6
+          ],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "was used to construct",
+          "o": "app3",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            6
+          ],
+          "c": "",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "has demonstrated applicability to",
+          "o": "app4",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            6
+          ],
+          "c": "Through construction of circuit connection wires, thermoelectric power generators and temperature sensors.",
+          "j": [],
+          "scope": "application",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P1927",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "m1",
+          "label": "ABO3-type perovskite oxides",
+          "role": "mat"
+        },
+        {
+          "id": "q1",
+          "label": "Perovskite oxide thermal conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "p1",
+          "label": "Perovskite oxide thermal damage",
+          "role": "process"
+        },
+        {
+          "id": "p2",
+          "label": "Perovskite oxide energy conversion",
+          "role": "process"
+        },
+        {
+          "id": "st1",
+          "label": "Developed machine learning model",
+          "role": "strategy"
+        },
+        {
+          "id": "p3",
+          "label": "SHAP interpretation",
+          "role": "process"
+        },
+        {
+          "id": "d1",
+          "label": "Machine learning thermal conductivity predictions",
+          "role": "descriptor"
+        },
+        {
+          "id": "q2",
+          "label": "Tolerance factor t",
+          "role": "quantity"
+        },
+        {
+          "id": "q3",
+          "label": "Relative molecular mass of ABO3, m",
+          "role": "quantity"
+        },
+        {
+          "id": "q4",
+          "label": "Relative atomic mass of B-site element, mB",
+          "role": "quantity"
+        },
+        {
+          "id": "st2",
+          "label": "Optimal relative molecular mass, increased tolerance factor and decreased B-site ionic radius",
+          "role": "strategy"
+        },
+        {
+          "id": "f1",
+          "label": "Enhanced perovskite thermal conductivity",
+          "role": "performance"
+        },
+        {
+          "id": "st3",
+          "label": "Opposite of the stated thermal-conductivity-enhancing changes",
+          "role": "strategy"
+        },
+        {
+          "id": "f2",
+          "label": "Decreased perovskite thermal conductivity",
+          "role": "performance"
+        },
+        {
+          "id": "m2",
+          "label": "SrGeO3",
+          "role": "mat"
+        },
+        {
+          "id": "m3",
+          "label": "CeAlO3",
+          "role": "mat"
+        },
+        {
+          "id": "m4",
+          "label": "BaNpO3",
+          "role": "mat"
+        },
+        {
+          "id": "q5",
+          "label": "High thermal conductivity of 10.85 W m−1 K−1",
+          "role": "quantity"
+        },
+        {
+          "id": "q6",
+          "label": "High thermal conductivity of 10.48 W m−1 K−1",
+          "role": "quantity"
+        },
+        {
+          "id": "q7",
+          "label": "Low thermal conductivity of 0.92 W m−1 K−1",
+          "role": "quantity"
+        },
+        {
+          "id": "p4",
+          "label": "First-principles explanation",
+          "role": "process"
+        },
+        {
+          "id": "d2",
+          "label": "High and low thermal conductivities of identified perovskites",
+          "role": "descriptor"
+        }
+      ],
+      "records": [
+        {
+          "s": "q1",
+          "p": "directly affects",
+          "o": "p1",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Effect direction unspecified.",
+          "j": [],
+          "scope": "stability",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "q1",
+          "p": "directly affects",
+          "o": "p2",
+          "e": [
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Effect direction unspecified.",
+          "j": [],
+          "scope": "adjacent",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "st1",
+          "p": "predicts",
+          "o": "q1",
+          "e": [
+            3,
+            7
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            3,
+            7
+          ],
+          "c": "ABO3-type perovskites within the search space; model developed using collected experimental thermal conductivities.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p3",
+          "p": "interprets",
+          "o": "d1",
+          "e": [
+            4
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "Predictions by the developed machine learning model.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "q2",
+          "p": "is one of the top three features influencing",
+          "o": "q1",
+          "e": [
+            4
+          ],
+          "a": "association",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "SHAP interpretation of machine learning predictions for ABO3-type perovskites; no ordering within the top three is given.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "q3",
+          "p": "is one of the top three features influencing",
+          "o": "q1",
+          "e": [
+            4
+          ],
+          "a": "association",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "SHAP interpretation of machine learning predictions for ABO3-type perovskites; no ordering within the top three is given.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "q4",
+          "p": "is one of the top three features influencing",
+          "o": "q1",
+          "e": [
+            4
+          ],
+          "a": "association",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "SHAP interpretation of machine learning predictions for ABO3-type perovskites; no ordering within the top three is given.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "st2",
+          "p": "is required for",
+          "o": "f1",
+          "e": [
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "Within the reported machine learning analysis of perovskites.",
+          "j": [
+            "Maintaining relative molecular mass within an optimal range",
+            "Increasing tolerance factor",
+            "Decreasing B-site ionic radius"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "st3",
+          "p": "can produce",
+          "o": "f2",
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            4
+          ],
+          "c": "Within the reported machine learning analysis; source specifies doing the opposite of the three enhancement requirements.",
+          "j": [
+            "Opposite of maintaining relative molecular mass within an optimal range",
+            "Decreasing tolerance factor",
+            "Increasing B-site ionic radius"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m2",
+          "p": "is predicted to have",
+          "o": "q5",
+          "e": [
+            7,
+            8
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            7
+          ],
+          "c": "Developed machine learning models; within the search space.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m3",
+          "p": "is predicted to have",
+          "o": "q6",
+          "e": [
+            7,
+            8
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            7
+          ],
+          "c": "Developed machine learning models; within the search space.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m4",
+          "p": "is predicted to have",
+          "o": "q7",
+          "e": [
+            7,
+            8
+          ],
+          "a": "author_claim",
+          "m": "computational",
+          "me": [
+            7
+          ],
+          "c": "Developed machine learning models; within the search space.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p4",
+          "p": "explains reasons for",
+          "o": "d2",
+          "e": [
+            8,
+            9
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "First-principles analysis of SrGeO3, CeAlO3 and BaNpO3; specific reasons are not supplied.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "paper_id": "P1671",
+      "article_role": "research",
+      "nodes": [
+        {
+          "id": "m1",
+          "label": "Superionic conductors including ACrX2 (A=Ag, Cu; X=S, Se)",
+          "role": "mat"
+        },
+        {
+          "id": "q1",
+          "label": "Low lattice thermal conductivity of superionic conductors",
+          "role": "quantity"
+        },
+        {
+          "id": "q2",
+          "label": "High ionic conductivity of superionic conductors",
+          "role": "quantity"
+        },
+        {
+          "id": "s1",
+          "label": "Anharmonicity, soft bonding and disorder",
+          "role": "state"
+        },
+        {
+          "id": "p1",
+          "label": "Fast ion transport",
+          "role": "process"
+        },
+        {
+          "id": "f1",
+          "label": "Thermal resistance",
+          "role": "performance"
+        },
+        {
+          "id": "m2",
+          "label": "CuCrS2, CuCrSe2, AgCrS2 and AgCrSe2 samples",
+          "role": "mat"
+        },
+        {
+          "id": "p2",
+          "label": "Solid state reaction, ball milling and subsequent spark plasma sintering",
+          "role": "process"
+        },
+        {
+          "id": "p3",
+          "label": "Temperature-dependent physical-property measurements",
+          "role": "process"
+        },
+        {
+          "id": "q3",
+          "label": "Sample thermal diffusivity",
+          "role": "quantity"
+        },
+        {
+          "id": "q4",
+          "label": "Sample electrical resistivity",
+          "role": "quantity"
+        },
+        {
+          "id": "q5",
+          "label": "Sample Hall coefficients",
+          "role": "quantity"
+        },
+        {
+          "id": "q6",
+          "label": "Sample Seebeck coefficients",
+          "role": "quantity"
+        },
+        {
+          "id": "m3",
+          "label": "CuCrSe2 and AgCrSe2 selenides",
+          "role": "mat"
+        },
+        {
+          "id": "m4",
+          "label": "CuCrS2 and AgCrS2 sulfides",
+          "role": "mat"
+        },
+        {
+          "id": "s2",
+          "label": "Degenerate semiconductor behavior",
+          "role": "state"
+        },
+        {
+          "id": "s3",
+          "label": "Non-degenerate semiconductor behavior",
+          "role": "state"
+        },
+        {
+          "id": "q7",
+          "label": "High electrical resistivity of sulfides",
+          "role": "quantity"
+        },
+        {
+          "id": "m5",
+          "label": "CuCrSe2 sample",
+          "role": "mat"
+        },
+        {
+          "id": "m6",
+          "label": "AgCrSe2 sample",
+          "role": "mat"
+        },
+        {
+          "id": "q8",
+          "label": "Thermoelectric figure of merit up to 0.79",
+          "role": "quantity"
+        },
+        {
+          "id": "f2",
+          "label": "Reasonable thermoelectric figure of merit",
+          "role": "performance"
+        },
+        {
+          "id": "s4",
+          "label": "Ordered phase",
+          "role": "state"
+        },
+        {
+          "id": "q9",
+          "label": "Low lattice thermal conductivity across samples",
+          "role": "quantity"
+        },
+        {
+          "id": "q10",
+          "label": "Lattice thermal conductivity of 0.60 W m-1-K",
+          "role": "quantity"
+        },
+        {
+          "id": "q11",
+          "label": "Lattice thermal conductivity of 1.1 W m-1-K",
+          "role": "quantity"
+        },
+        {
+          "id": "c1",
+          "label": "High-temperature phase",
+          "role": "cond"
+        },
+        {
+          "id": "q12",
+          "label": "Little reduction in lattice thermal conductivity",
+          "role": "quantity"
+        },
+        {
+          "id": "s5",
+          "label": "Increased cation-site disorder",
+          "role": "state"
+        },
+        {
+          "id": "p4",
+          "label": "Onset of superionic conductivity",
+          "role": "process"
+        },
+        {
+          "id": "s6",
+          "label": "ACrX2 crystal structure",
+          "role": "state"
+        },
+        {
+          "id": "s7",
+          "label": "Anharmonic bonding",
+          "role": "interaction"
+        },
+        {
+          "id": "p5",
+          "label": "Diffuson-dominated transport",
+          "role": "process"
+        }
+      ],
+      "records": [
+        {
+          "s": "m1",
+          "p": "has",
+          "o": "q1",
+          "e": [
+            0
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m1",
+          "p": "has",
+          "o": "q2",
+          "e": [
+            0
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "s1",
+          "p": "drives",
+          "o": "q1",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In superionic conductors including ACrX2.",
+          "j": [
+            "Anharmonicity",
+            "Soft bonding",
+            "Disorder"
+          ],
+          "scope": "material",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "s1",
+          "p": "drives",
+          "o": "q2",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In superionic conductors including ACrX2.",
+          "j": [
+            "Anharmonicity",
+            "Soft bonding",
+            "Disorder"
+          ],
+          "scope": "transport",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "s1",
+          "p": "enhances",
+          "o": "p1",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In superionic conductors including ACrX2.",
+          "j": [
+            "Anharmonicity",
+            "Soft bonding",
+            "Disorder"
+          ],
+          "scope": "transport",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "s1",
+          "p": "enhances",
+          "o": "f1",
+          "e": [
+            0,
+            1
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "In superionic conductors including ACrX2.",
+          "j": [
+            "Anharmonicity",
+            "Soft bonding",
+            "Disorder"
+          ],
+          "scope": "material",
+          "claim_scope": "background",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p2",
+          "p": "produces",
+          "o": "m2",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p3",
+          "p": "measures",
+          "o": "q3",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "CuCrS2, CuCrSe2, AgCrS2 and AgCrSe2; as a function of temperature.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p3",
+          "p": "measures",
+          "o": "q4",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "CuCrS2, CuCrSe2, AgCrS2 and AgCrSe2; as a function of temperature.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p3",
+          "p": "measures",
+          "o": "q5",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "CuCrS2, CuCrSe2, AgCrS2 and AgCrSe2; as a function of temperature.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "p3",
+          "p": "measures",
+          "o": "q6",
+          "e": [
+            3,
+            4
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "CuCrS2, CuCrSe2, AgCrS2 and AgCrSe2; as a function of temperature.",
+          "j": [],
+          "scope": "method",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m3",
+          "p": "exhibits",
+          "o": "s2",
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "Temperature-dependent electrical transport characterization.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m4",
+          "p": "exhibits",
+          "o": "s3",
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "Temperature-dependent electrical transport characterization.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m4",
+          "p": "has",
+          "o": "q7",
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "a": "author_claim",
+          "m": "experimental",
+          "me": [
+            4
+          ],
+          "c": "",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m3",
+          "p": "has",
+          "o": "f2",
+          "e": [
+            3,
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m5",
+          "p": "achieves",
+          "o": "q8",
+          "e": [
+            5
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "",
+          "j": [],
+          "scope": "thermo",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m2",
+          "p": "is in",
+          "o": "s4",
+          "e": [
+            3,
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "At room temperature.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m2",
+          "p": "shows",
+          "o": "q9",
+          "e": [
+            3,
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "At room temperature; range 0.60–1.1 in source units W m-1-K.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "m6",
+          "p": "has",
+          "o": "q10",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "At room temperature, in the ordered phase.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Thermal-conductivity unit is retained as supplied; exponents are malformed or ambiguous."
+        },
+        {
+          "s": "m5",
+          "p": "has",
+          "o": "q11",
+          "e": [
+            6
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "At room temperature, in the ordered phase.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "uncertain",
+          "note": "Thermal-conductivity unit is retained as supplied; exponents are malformed or ambiguous."
+        },
+        {
+          "s": "c1",
+          "p": "shows",
+          "o": "q12",
+          "e": [
+            3,
+            6,
+            7
+          ],
+          "a": "author_claim",
+          "m": "unspecified",
+          "me": [],
+          "c": "Studied ACrX2 samples; relative to the room-temperature ordered phase, despite increased cation-site disorder and onset of superionic conductivity.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "c1",
+          "p": "is accompanied by",
+          "o": "s5",
+          "e": [
+            3,
+            6,
+            7
+          ],
+          "a": "association",
+          "m": "unspecified",
+          "me": [],
+          "c": "Studied ACrX2 samples; compared with the room-temperature ordered phase.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "c1",
+          "p": "is accompanied by",
+          "o": "p4",
+          "e": [
+            3,
+            7
+          ],
+          "a": "association",
+          "m": "unspecified",
+          "me": [],
+          "c": "Studied ACrX2 samples.",
+          "j": [],
+          "scope": "transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "s6",
+          "p": "is suggested to intrinsically confer",
+          "o": "q9",
+          "e": [
+            7,
+            8
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "Inference from little thermal-conductivity reduction upon entering the high-temperature phase.",
+          "j": [],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        },
+        {
+          "s": "s7",
+          "p": "is suggested to jointly cause",
+          "o": "q9",
+          "e": [
+            8
+          ],
+          "a": "hypothesis",
+          "m": "unspecified",
+          "me": [],
+          "c": "In ACrX2 compounds.",
+          "j": [
+            "Anharmonic bonding",
+            "Diffuson-dominated transport"
+          ],
+          "scope": "material",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": ""
+        }
+      ],
+      "note": ""
+    }
+  ]
+}

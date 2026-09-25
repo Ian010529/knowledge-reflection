@@ -1,0 +1,1172 @@
+[
+  {
+    "paper_id": "P0162",
+    "title": "Liquid-flow thermocells with high hybrid entropy for low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Liquid-state thermocells (LITCs) have a promising for efficient low-grade waste heat harvesting. "
+      },
+      {
+        "id": 1,
+        "text": "However, its practical application is restricted by low ionic thermopower and normalized maximum power density ( P max / Delta T 2 ) due to the limits of ionic reaction and transport processes. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we demonstrate a liquid-flow thermocell (LFTC) with giant thermoelectric performance by inducing hybrid entropy increasing. "
+      },
+      {
+        "id": 3,
+        "text": "The LFTCs consists of a Y-shaped microchannel and the flowing equimolar oxidant/reductant electrolyte injected separately from the Y-shaped inlet, respectively. "
+      },
+      {
+        "id": 4,
+        "text": "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. "
+      },
+      {
+        "id": 5,
+        "text": "This can effectively break through the limits of ionic reaction/transport dynamics and thermodynamics processes, and reach a giant ionic thermopower of-21.5 mV K-1 , which is 13 times larger than that of pristine LITCs. "
+      },
+      {
+        "id": 6,
+        "text": "The high hybrid entropy change can boost the P max / Delta T 2 of LFTCs into the highest value of 16.5 mW m- 2 K-2 until now, much higher than the previous records of LITCs. "
+      },
+      {
+        "id": 7,
+        "text": "LFTCs with cost effectiveness have a great potential to realize efficient heat-toelectricity conversion."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0162:cell",
+        "label": "Liquid-flow thermocell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0162:injection",
+        "label": "Separate injection of flowing equimolar oxidant and reductant through Y-shaped inlet",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0162:hybrid",
+        "label": "High hybrid entropy change",
+        "role": "quantity"
+      },
+      {
+        "id": "P0162:performance",
+        "label": "Enhanced thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0162:mixing",
+        "label": "Oxidant–reductant mixing in the microchannel",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0162:interaction",
+        "label": "Interaction between redox ions and surrounding solvation",
+        "role": "interaction"
+      },
+      {
+        "id": "P0162:entropy",
+        "label": "Increased entropy difference of solvation structure",
+        "role": "quantity"
+      },
+      {
+        "id": "P0162:tg",
+        "label": "Thermogalvanic effect",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0162:mass",
+        "label": "Redox-ion mass transfer",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0162:limits",
+        "label": "Limits of ionic reaction/transport dynamics and thermodynamic processes",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0162:thermopower",
+        "label": "Ionic thermopower: -21.5 mV K-1; 13 times larger than pristine liquid-state thermocells",
+        "role": "quantity"
+      },
+      {
+        "id": "P0162:power",
+        "label": "Normalized maximum power density: 16.5 mW m-2 K-2",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0162:r002",
+        "subject": "Liquid-flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "uses",
+        "object": "Separate injection of flowing equimolar oxidant and reductant through Y-shaped inlet",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The LFTCs consists of a Y-shaped microchannel and the flowing equimolar oxidant/reductant electrolyte injected separately from the Y-shaped inlet, respectively. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:cell",
+        "object_id": "P0162:injection"
+      },
+      {
+        "relation_id": "P0162:r003",
+        "subject": "High hybrid entropy change",
+        "subject_role": "quantity",
+        "predicate": "enhances",
+        "object": "Enhanced thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the liquid-flow thermocell.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a liquid-flow thermocell (LFTC) with giant thermoelectric performance by inducing hybrid entropy increasing. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:hybrid",
+        "object_id": "P0162:performance"
+      },
+      {
+        "relation_id": "P0162:r004",
+        "subject": "Oxidant–reductant mixing in the microchannel",
+        "subject_role": "mechanism_process",
+        "predicate": "induces",
+        "object": "Interaction between redox ions and surrounding solvation",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:mixing",
+        "object_id": "P0162:interaction"
+      },
+      {
+        "relation_id": "P0162:r005",
+        "subject": "Interaction between redox ions and surrounding solvation",
+        "subject_role": "interaction",
+        "predicate": "increases",
+        "object": "Increased entropy difference of solvation structure",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "During oxidant–reductant mixing in the microchannel.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:interaction",
+        "object_id": "P0162:entropy"
+      },
+      {
+        "relation_id": "P0162:r006",
+        "subject": "Increased entropy difference of solvation structure",
+        "subject_role": "quantity",
+        "predicate": "synergistically enhances",
+        "object": "Thermogalvanic effect",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Alongside enhanced redox-ion mass transfer during mixing.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:entropy",
+        "object_id": "P0162:tg"
+      },
+      {
+        "relation_id": "P0162:r007",
+        "subject": "Increased entropy difference of solvation structure",
+        "subject_role": "quantity",
+        "predicate": "synergistically enhances",
+        "object": "Redox-ion mass transfer",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Alongside enhanced thermogalvanic effect during mixing.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:entropy",
+        "object_id": "P0162:mass"
+      },
+      {
+        "relation_id": "P0162:r008",
+        "subject": "Oxidant–reductant mixing in the microchannel",
+        "subject_role": "mechanism_process",
+        "predicate": "overcomes",
+        "object": "Limits of ionic reaction/transport dynamics and thermodynamic processes",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through increased solvation-structure entropy difference and synergistic thermogalvanic and mass-transfer enhancement.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. ",
+        "context_quotes": [
+          "This can effectively break through the limits of ionic reaction/transport dynamics and thermodynamics processes, and reach a giant ionic thermopower of-21.5 mV K-1 , which is 13 times larger than that of pristine LITCs. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0162:mixing",
+        "object_id": "P0162:limits"
+      },
+      {
+        "relation_id": "P0162:r009",
+        "subject": "Liquid-flow thermocell",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Ionic thermopower: -21.5 mV K-1; 13 times larger than pristine liquid-state thermocells",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "With mixing-induced solvation-entropy enhancement.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we demonstrate a liquid-flow thermocell (LFTC) with giant thermoelectric performance by inducing hybrid entropy increasing. ",
+        "context_quotes": [
+          "During mixing of oxidant and reductant in microchannel, it can induce the interaction of redox ions and surrounding solvation, and thus increase its entropy difference of solvation structure, synergistically enhancing the thermogalvanic effect and mass transfer of redox ions. ",
+          "This can effectively break through the limits of ionic reaction/transport dynamics and thermodynamics processes, and reach a giant ionic thermopower of-21.5 mV K-1 , which is 13 times larger than that of pristine LITCs. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0162:cell",
+        "object_id": "P0162:thermopower"
+      },
+      {
+        "relation_id": "P0162:r010",
+        "subject": "High hybrid entropy change",
+        "subject_role": "quantity",
+        "predicate": "boosts liquid-flow thermocells to",
+        "object": "Normalized maximum power density: 16.5 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Claimed highest value to date and much higher than previous liquid-state thermocell records.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The high hybrid entropy change can boost the P max / Delta T 2 of LFTCs into the highest value of 16.5 mW m- 2 K-2 until now, much higher than the previous records of LITCs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0162:hybrid",
+        "object_id": "P0162:power"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0163",
+    "title": "A novel concentrated photovoltaic and ionic thermocells hybrid system for full-spectrum solar cascade utilization",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Concentrated photovoltaic-thermoelectric generator (CPV-TEG) hybrid system can harvest the low-grade waste heat derived from photovoltaic cells to generate more electric energy. "
+      },
+      {
+        "id": 1,
+        "text": "However, it is economically unfeasible due to the expensive cost of thermoelectric generators and higher photovoltaics temperature. "
+      },
+      {
+        "id": 2,
+        "text": "Ionic thermocell based on thermogalvanic effect has a more inexpensive cost and ionic Seebeck coefficient of 1- 2 orders of magnitude higher than thermoelectric generators, which is promising for full-spectrum solar cascade utilization. "
+      },
+      {
+        "id": 3,
+        "text": "In present work, a novel concentrated photovoltaic and ionic thermocells hybrid system (CPV-iTEC) is reported, aiming to comprehensively evaluate its feasibility. "
+      },
+      {
+        "id": 4,
+        "text": "The ionic thermocell adhered directly to the photovoltaic panel consists the pi-type multi-channels, electrodes and p/n-type redox electrolytes flowing in multi-channels, which can simultaneously cool photovoltaic panel and output electric energy for waste heat harvesting. "
+      },
+      {
+        "id": 5,
+        "text": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+      },
+      {
+        "id": 6,
+        "text": "Results show that the optimal structural parameters of ionic thermocell are the 2 mm channel height and 1 mm width, showing a 7.18% higher energy efficiency than that of CPV-TEG at 10 concentration ratios. "
+      },
+      {
+        "id": 7,
+        "text": "The presence of ionic thermocell can significantly decrease the photovoltaic panel temperature from 351.30 K to 325.14 K, and thus broaden the available concentration ratio from 1- 21 to 1- 39 compared with CPV-TEG, reaching a higher output power of 16.61 W. "
+      },
+      {
+        "id": 8,
+        "text": "During the optimization of advanced redox electrolytes/electrodes, the energy efficiency can reach 49.63% at 21 concentration ratios, which is 5.06% higher than that of CPV-TEG, and show a 22.65% lower overall cost. "
+      },
+      {
+        "id": 9,
+        "text": "The application of ionic thermocell in the full-spectrum solar cascade utilization of concentrated photovoltaic system is proved to be feasible with significant advantages of low cost, high performance, and flexible operation."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0163:cell",
+        "label": "Ionic thermocell directly adhered to photovoltaic panel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0163:channels",
+        "label": "π-type multiple channels containing flowing p/n-type redox electrolytes",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0163:cooling",
+        "label": "Photovoltaic-panel cooling",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:electricity",
+        "label": "Electrical output from waste heat",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:model",
+        "label": "Three-dimensional numerical CPV-iTEC model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0163:validation",
+        "label": "Validation by preliminary experiment",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0163:geometry",
+        "label": "2 mm channel height and 1 mm width",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0163:system",
+        "label": "Concentrated photovoltaic–ionic thermocell hybrid system (CPV-iTEC)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0163:efficiency",
+        "label": "Energy efficiency 7.18% higher than CPV-TEG",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:temperature",
+        "label": "Photovoltaic-panel temperature reduced from 351.30 to 325.14 K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0163:ratio",
+        "label": "Available concentration-ratio range broadened from 1–21 to 1–39",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:power",
+        "label": "Output power: 16.61 W",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:optimization",
+        "label": "Optimization of advanced redox electrolytes/electrodes",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0163:optimized_eff",
+        "label": "Energy efficiency: 49.63%; 5.06% higher than CPV-TEG",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:cost",
+        "label": "Overall cost 22.65% lower than CPV-TEG",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0163:use",
+        "label": "Full-spectrum solar cascade utilization with low cost, high performance and flexible operation",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0163:r001",
+        "subject": "Ionic thermocell directly adhered to photovoltaic panel",
+        "subject_role": "material_entity",
+        "predicate": "has structure",
+        "object": "π-type multiple channels containing flowing p/n-type redox electrolytes",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The ionic thermocell adhered directly to the photovoltaic panel consists the pi-type multi-channels, electrodes and p/n-type redox electrolytes flowing in multi-channels, which can simultaneously cool photovoltaic panel and output electric energy for waste heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0163:cell",
+        "object_id": "P0163:channels"
+      },
+      {
+        "relation_id": "P0163:r002",
+        "subject": "Ionic thermocell directly adhered to photovoltaic panel",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Photovoltaic-panel cooling",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Directly adhered to the photovoltaic panel; simultaneous electrical output.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The ionic thermocell adhered directly to the photovoltaic panel consists the pi-type multi-channels, electrodes and p/n-type redox electrolytes flowing in multi-channels, which can simultaneously cool photovoltaic panel and output electric energy for waste heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0163:cell",
+        "object_id": "P0163:cooling"
+      },
+      {
+        "relation_id": "P0163:r003",
+        "subject": "Ionic thermocell directly adhered to photovoltaic panel",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Electrical output from waste heat",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Directly adhered to the photovoltaic panel; simultaneous panel cooling.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The ionic thermocell adhered directly to the photovoltaic panel consists the pi-type multi-channels, electrodes and p/n-type redox electrolytes flowing in multi-channels, which can simultaneously cool photovoltaic panel and output electric energy for waste heat harvesting. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0163:cell",
+        "object_id": "P0163:electricity"
+      },
+      {
+        "relation_id": "P0163:r004",
+        "subject": "Three-dimensional numerical CPV-iTEC model",
+        "subject_role": "design_strategy",
+        "predicate": "has",
+        "object": "Validation by preliminary experiment",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Preliminary experimental validation; energy, exergy and economic analyses.",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:model",
+        "object_id": "P0163:validation"
+      },
+      {
+        "relation_id": "P0163:r005",
+        "subject": "2 mm channel height and 1 mm width",
+        "subject_role": "design_strategy",
+        "predicate": "is optimal for",
+        "object": "Concentrated photovoltaic–ionic thermocell hybrid system (CPV-iTEC)",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Three-dimensional numerical model and associated analyses.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "Results show that the optimal structural parameters of ionic thermocell are the 2 mm channel height and 1 mm width, showing a 7.18% higher energy efficiency than that of CPV-TEG at 10 concentration ratios. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:geometry",
+        "object_id": "P0163:system"
+      },
+      {
+        "relation_id": "P0163:r006",
+        "subject": "2 mm channel height and 1 mm width",
+        "subject_role": "design_strategy",
+        "predicate": "yields",
+        "object": "Energy efficiency 7.18% higher than CPV-TEG",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "CPV-iTEC at concentration ratio 10; three-dimensional numerical model.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "Results show that the optimal structural parameters of ionic thermocell are the 2 mm channel height and 1 mm width, showing a 7.18% higher energy efficiency than that of CPV-TEG at 10 concentration ratios. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:geometry",
+        "object_id": "P0163:efficiency"
+      },
+      {
+        "relation_id": "P0163:r007",
+        "subject": "Ionic thermocell directly adhered to photovoltaic panel",
+        "subject_role": "material_entity",
+        "predicate": "causes",
+        "object": "Photovoltaic-panel temperature reduced from 351.30 to 325.14 K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "CPV-iTEC compared with CPV-TEG; three-dimensional numerical model.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "The presence of ionic thermocell can significantly decrease the photovoltaic panel temperature from 351.30 K to 325.14 K, and thus broaden the available concentration ratio from 1- 21 to 1- 39 compared with CPV-TEG, reaching a higher output power of 16.61 W. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:cell",
+        "object_id": "P0163:temperature"
+      },
+      {
+        "relation_id": "P0163:r008",
+        "subject": "Photovoltaic-panel temperature reduced from 351.30 to 325.14 K",
+        "subject_role": "quantity",
+        "predicate": "enables",
+        "object": "Available concentration-ratio range broadened from 1–21 to 1–39",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Compared with CPV-TEG; three-dimensional numerical model.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "The presence of ionic thermocell can significantly decrease the photovoltaic panel temperature from 351.30 K to 325.14 K, and thus broaden the available concentration ratio from 1- 21 to 1- 39 compared with CPV-TEG, reaching a higher output power of 16.61 W. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:temperature",
+        "object_id": "P0163:ratio"
+      },
+      {
+        "relation_id": "P0163:r009",
+        "subject": "Concentrated photovoltaic–ionic thermocell hybrid system (CPV-iTEC)",
+        "subject_role": "material_entity",
+        "predicate": "reaches",
+        "object": "Output power: 16.61 W",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "With ionic-thermocell cooling and broadened concentration-ratio range; three-dimensional numerical model.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "The presence of ionic thermocell can significantly decrease the photovoltaic panel temperature from 351.30 K to 325.14 K, and thus broaden the available concentration ratio from 1- 21 to 1- 39 compared with CPV-TEG, reaching a higher output power of 16.61 W. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:system",
+        "object_id": "P0163:power"
+      },
+      {
+        "relation_id": "P0163:r010",
+        "subject": "Optimization of advanced redox electrolytes/electrodes",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Energy efficiency: 49.63%; 5.06% higher than CPV-TEG",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Concentration ratio 21; three-dimensional numerical model and energy analysis.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "During the optimization of advanced redox electrolytes/electrodes, the energy efficiency can reach 49.63% at 21 concentration ratios, which is 5.06% higher than that of CPV-TEG, and show a 22.65% lower overall cost. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:optimization",
+        "object_id": "P0163:optimized_eff"
+      },
+      {
+        "relation_id": "P0163:r011",
+        "subject": "Optimization of advanced redox electrolytes/electrodes",
+        "subject_role": "design_strategy",
+        "predicate": "yields",
+        "object": "Overall cost 22.65% lower than CPV-TEG",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Concentration ratio 21; three-dimensional numerical model and economic analysis.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "During the optimization of advanced redox electrolytes/electrodes, the energy efficiency can reach 49.63% at 21 concentration ratios, which is 5.06% higher than that of CPV-TEG, and show a 22.65% lower overall cost. "
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:optimization",
+        "object_id": "P0163:cost"
+      },
+      {
+        "relation_id": "P0163:r012",
+        "subject": "Concentrated photovoltaic–ionic thermocell hybrid system (CPV-iTEC)",
+        "subject_role": "material_entity",
+        "predicate": "is reported feasible for",
+        "object": "Full-spectrum solar cascade utilization with low cost, high performance and flexible operation",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Based on three-dimensional numerical modeling and energy, exergy and economic analyses; model validated by preliminary experiment.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. ",
+        "context_quotes": [
+          "The application of ionic thermocell in the full-spectrum solar cascade utilization of concentrated photovoltaic system is proved to be feasible with significant advantages of low cost, high performance, and flexible operation."
+        ],
+        "modality_evidence": [
+          "A threedimensional numerical model is proposed and validated by preliminary experiment to investigate the effects of structural and operating parameters on the performance of CPV-iTEC during energy, exergy and economic analyses. "
+        ],
+        "subject_id": "P0163:system",
+        "object_id": "P0163:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0164",
+    "title": "Precipitation-Driven Thermoelectric Conversion and Energy Storage Integrated Device",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermoelectric devices have garnered significant interest but face limitations due to their reliance on external equipment and relatively low energy density for energy storage. "
+      },
+      {
+        "id": 1,
+        "text": "This study introduces an innovative integrated device that achieves both the function of thermoelectric conversion and energy storage within a single unit through a precipitation-driven Thermogalvanic effect. "
+      },
+      {
+        "id": 2,
+        "text": "Strikingly, both the thermoelectric (Pmax = 3.51 W m-2) and electrochemical (E = 459 J m-2, surpasses the reported highest value by 132%) performances are excellent. "
+      },
+      {
+        "id": 3,
+        "text": "Furthermore, a large-area prototype module comprising 32 units manifests an open circuit voltage of 1.7 V and exhibits an energy density of 463.9 J m-2. "
+      },
+      {
+        "id": 4,
+        "text": "This work provides an innovative and effective approach to the high-performance recycling system of thermoelectric conversion and energy storage integrated devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0164:precipitation",
+        "label": "Precipitation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0164:tg",
+        "label": "Precipitation-driven thermogalvanic effect",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0164:conversion",
+        "label": "Thermoelectric conversion",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0164:storage",
+        "label": "Energy storage",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0164:device",
+        "label": "Integrated thermoelectric conversion and energy storage device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0164:power",
+        "label": "Maximum power density: 3.51 W m-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0164:energy",
+        "label": "Areal energy density: 459 J m-2; 132% above reported highest value",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0164:module",
+        "label": "Large-area prototype module comprising 32 units",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0164:voltage",
+        "label": "Open-circuit voltage: 1.7 V",
+        "role": "quantity"
+      },
+      {
+        "id": "P0164:module_energy",
+        "label": "Module energy density: 463.9 J m-2",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0164:r001",
+        "subject": "Precipitation",
+        "subject_role": "mechanism_process",
+        "predicate": "drives",
+        "object": "Precipitation-driven thermogalvanic effect",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This study introduces an innovative integrated device that achieves both the function of thermoelectric conversion and energy storage within a single unit through a precipitation-driven Thermogalvanic effect. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0164:precipitation",
+        "object_id": "P0164:tg"
+      },
+      {
+        "relation_id": "P0164:r002",
+        "subject": "Precipitation-driven thermogalvanic effect",
+        "subject_role": "mechanism_process",
+        "predicate": "enables",
+        "object": "Thermoelectric conversion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Integrated in a single unit with energy storage.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This study introduces an innovative integrated device that achieves both the function of thermoelectric conversion and energy storage within a single unit through a precipitation-driven Thermogalvanic effect. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0164:tg",
+        "object_id": "P0164:conversion"
+      },
+      {
+        "relation_id": "P0164:r003",
+        "subject": "Precipitation-driven thermogalvanic effect",
+        "subject_role": "mechanism_process",
+        "predicate": "enables",
+        "object": "Energy storage",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Integrated in a single unit with thermoelectric conversion.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This study introduces an innovative integrated device that achieves both the function of thermoelectric conversion and energy storage within a single unit through a precipitation-driven Thermogalvanic effect. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0164:tg",
+        "object_id": "P0164:storage"
+      },
+      {
+        "relation_id": "P0164:r004",
+        "subject": "Integrated thermoelectric conversion and energy storage device",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Maximum power density: 3.51 W m-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This study introduces an innovative integrated device that achieves both the function of thermoelectric conversion and energy storage within a single unit through a precipitation-driven Thermogalvanic effect. ",
+        "context_quotes": [
+          "Strikingly, both the thermoelectric (Pmax = 3.51 W m-2) and electrochemical (E = 459 J m-2, surpasses the reported highest value by 132%) performances are excellent. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0164:device",
+        "object_id": "P0164:power"
+      },
+      {
+        "relation_id": "P0164:r005",
+        "subject": "Integrated thermoelectric conversion and energy storage device",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Areal energy density: 459 J m-2; 132% above reported highest value",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This study introduces an innovative integrated device that achieves both the function of thermoelectric conversion and energy storage within a single unit through a precipitation-driven Thermogalvanic effect. ",
+        "context_quotes": [
+          "Strikingly, both the thermoelectric (Pmax = 3.51 W m-2) and electrochemical (E = 459 J m-2, surpasses the reported highest value by 132%) performances are excellent. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0164:device",
+        "object_id": "P0164:energy"
+      },
+      {
+        "relation_id": "P0164:r006",
+        "subject": "Large-area prototype module comprising 32 units",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Open-circuit voltage: 1.7 V",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, a large-area prototype module comprising 32 units manifests an open circuit voltage of 1.7 V and exhibits an energy density of 463.9 J m-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0164:module",
+        "object_id": "P0164:voltage"
+      },
+      {
+        "relation_id": "P0164:r007",
+        "subject": "Large-area prototype module comprising 32 units",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Module energy density: 463.9 J m-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, a large-area prototype module comprising 32 units manifests an open circuit voltage of 1.7 V and exhibits an energy density of 463.9 J m-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0164:module",
+        "object_id": "P0164:module_energy"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0165",
+    "title": "Rational Design of Molybdenum Nitride Quantum Dot Engineered by Carbon Framework for Boosted Lithium-Ion Thermal Charging Cells",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Lithium-ion thermal charging cell, driven by ion migration and redox reaction, exhibits great potential for harvesting and storing electricity from thermal energy. "
+      },
+      {
+        "id": 1,
+        "text": "Combining thermodiffusion and thermogalvanic effects could boost their thermopower, but with limited kinetics for heat-to-electric conversion due to the incompatibility between thermodynamical and electrochemical processes. "
+      },
+      {
+        "id": 2,
+        "text": "Here, a facile strategy is demonstrated to fully activate the thermoelectrical behavior through simulation-guided electrode engineering, which is realized by incorporating battery-type molybdenum nitride quantum dot into carbon matrix. "
+      },
+      {
+        "id": 3,
+        "text": "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. "
+      },
+      {
+        "id": 4,
+        "text": "As a proof-of-concept, a flexible quasi-solid-state device integrating four units is developed for self-powered health-monitoring system by harvesting body heat in daily life. "
+      },
+      {
+        "id": 5,
+        "text": "This work provides insights into the effective design of electrodes for high-performance ionic thermoelectrical systems and the development of multifunctional self-charging systems with sustainable operation."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0165:engineering",
+        "label": "Simulation-guided incorporation of battery-type molybdenum nitride quantum dots into a carbon matrix",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0165:activation",
+        "label": "Full activation of thermoelectrical behavior",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0165:device",
+        "label": "Engineered lithium-ion thermal charging device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0165:skeleton",
+        "label": "Well-developed 3D skeleton",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0165:sites",
+        "label": "Abundant electroactive sites",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0165:conductivity",
+        "label": "High conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0165:thermopower",
+        "label": "Thermopower: 53.6 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0165:power",
+        "label": "Normalized power density: 6.83 mW m-2 K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0165:durability",
+        "label": "Good durability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0165:loads",
+        "label": "Powering wearable sensors and small electronic devices",
+        "role": "application"
+      },
+      {
+        "id": "P0165:flexible",
+        "label": "Flexible quasi-solid-state device integrating four units",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0165:monitoring",
+        "label": "Self-powered health monitoring using harvested body heat",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0165:r001",
+        "subject": "Simulation-guided incorporation of battery-type molybdenum nitride quantum dots into a carbon matrix",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "Full activation of thermoelectrical behavior",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Simulation-guided electrode engineering; simulation's specific support for this outcome is not identified.",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here, a facile strategy is demonstrated to fully activate the thermoelectrical behavior through simulation-guided electrode engineering, which is realized by incorporating battery-type molybdenum nitride quantum dot into carbon matrix. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0165:engineering",
+        "object_id": "P0165:activation"
+      },
+      {
+        "relation_id": "P0165:r002",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Well-developed 3D skeleton",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, a facile strategy is demonstrated to fully activate the thermoelectrical behavior through simulation-guided electrode engineering, which is realized by incorporating battery-type molybdenum nitride quantum dot into carbon matrix. ",
+        "context_quotes": [
+          "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:skeleton"
+      },
+      {
+        "relation_id": "P0165:r003",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Abundant electroactive sites",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here, a facile strategy is demonstrated to fully activate the thermoelectrical behavior through simulation-guided electrode engineering, which is realized by incorporating battery-type molybdenum nitride quantum dot into carbon matrix. ",
+        "context_quotes": [
+          "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:sites"
+      },
+      {
+        "relation_id": "P0165:r004",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "High conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Conductivity type unspecified.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, a facile strategy is demonstrated to fully activate the thermoelectrical behavior through simulation-guided electrode engineering, which is realized by incorporating battery-type molybdenum nitride quantum dot into carbon matrix. ",
+        "context_quotes": [
+          "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:conductivity"
+      },
+      {
+        "relation_id": "P0165:r005",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "achieves through joint structural and conductive factors",
+        "object": "Thermopower: 53.6 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Well-developed 3D skeleton",
+          "Abundant electroactive sites",
+          "High conductivity"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:thermopower"
+      },
+      {
+        "relation_id": "P0165:r006",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "achieves through joint structural and conductive factors",
+        "object": "Normalized power density: 6.83 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Well-developed 3D skeleton",
+          "Abundant electroactive sites",
+          "High conductivity"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:power"
+      },
+      {
+        "relation_id": "P0165:r007",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "achieves through joint structural and conductive factors",
+        "object": "Good durability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Well-developed 3D skeleton",
+          "Abundant electroactive sites",
+          "High conductivity"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:durability"
+      },
+      {
+        "relation_id": "P0165:r008",
+        "subject": "Engineered lithium-ion thermal charging device",
+        "subject_role": "material_entity",
+        "predicate": "can meet power demands for",
+        "object": "Powering wearable sensors and small electronic devices",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Benefitting to the well-developed 3D skeleton, abundant electroactive sites, and high conductivity, as-constructed device can achieve a giant thermopower of 53.6 mV K-1, normalized power density of 6.83 mW m-2 K-2, and good durability, which can meet the power demands of wearable sensors and small electronic devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0165:device",
+        "object_id": "P0165:loads"
+      },
+      {
+        "relation_id": "P0165:r009",
+        "subject": "Flexible quasi-solid-state device integrating four units",
+        "subject_role": "material_entity",
+        "predicate": "is developed as a proof of concept for",
+        "object": "Self-powered health monitoring using harvested body heat",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Harvesting body heat in daily life.",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "As a proof-of-concept, a flexible quasi-solid-state device integrating four units is developed for self-powered health-monitoring system by harvesting body heat in daily life. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0165:flexible",
+        "object_id": "P0165:monitoring"
+      }
+    ]
+  }
+]

@@ -1,0 +1,580 @@
+{
+  "papers": [
+    {
+      "paper_id": "P0965",
+      "decisions": [
+        {
+          "relation_id": "P0965:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0965:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0965:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0965:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0965:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0965:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0966",
+      "decisions": [
+        {
+          "relation_id": "P0966:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "other_adjacent_domain",
+            "claim_scope": null
+          },
+          "reason": "Generated power is not identified as thermal management."
+        },
+        {
+          "relation_id": "P0966:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0966:r010",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": "ion_mass_transport",
+            "claim_scope": null
+          },
+          "reason": "Temperature-dependent ionic-diode performance is an ion-transport claim."
+        },
+        {
+          "relation_id": "P0966:r011",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              3,
+              4,
+              5
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Studied approximately 400 nm conical-pore diode; inference from modeled thermal dependence accounting for surface-carboxyl equilibrium chemistry, consistent with experimental data; dependence direction unspecified.",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the transport inference to the studied diode and model."
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Functional carboxyl groups",
+          "subject_role": "material_entity",
+          "predicate": "are located on",
+          "object": "Pore surface of the studied mesoscale ionic diode",
+          "object_role": "state_structure",
+          "e": [
+            3,
+            4
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Surface groups whose equilibrium chemistry is included in the model.",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Hydroxide ions",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "High ionic mobility",
+          "object_role": "descriptor",
+          "e": [
+            5
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Ions implicated in the transport properties of the studied mesoscale ionic diode.",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Mesoscale ionic diodes",
+          "subject_role": "material_entity",
+          "predicate": "have proposed applications in",
+          "object": "Thermoelectric power",
+          "object_role": "application",
+          "e": [
+            6
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Proposed applications enriched by the reported thermal-dependence results.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Mesoscale ionic diodes",
+          "subject_role": "material_entity",
+          "predicate": "have proposed applications in",
+          "object": "Thermoresponsive chemical sensors",
+          "object_role": "application",
+          "e": [
+            6
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "me": [],
+          "conditions": "Proposed applications enriched by the reported thermal-dependence results.",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0967",
+      "decisions": [
+        {
+          "relation_id": "P0967:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0967:r013",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Full-potential linearized augmented plane wave method",
+          "subject_role": "design_strategy",
+          "predicate": "is used to investigate",
+          "object": "Optoelectronic properties of K2YAgBr6 and K2YAgI6",
+          "object_role": "descriptor",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            0
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Computed enthalpy of formation",
+          "subject_role": "quantity",
+          "predicate": "is used to assess",
+          "object": "Thermodynamic stability of K2YAgBr6 and K2YAgI6",
+          "object_role": "descriptor",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            1
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Computed tolerance factor",
+          "subject_role": "quantity",
+          "predicate": "is used to assess",
+          "object": "Structural stability of K2YAgBr6 and K2YAgI6",
+          "object_role": "descriptor",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            1
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Elastic constants of K2YAgBr6 and K2YAgI6",
+          "subject_role": "quantity",
+          "predicate": "are used to calculate",
+          "object": "Poisson and Pugh ratios",
+          "object_role": "quantity",
+          "e": [
+            0,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            3
+          ],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "BoltzTraP code",
+          "subject_role": "design_strategy",
+          "predicate": "is used to estimate",
+          "object": "Power factor of K2YAgBr6 and K2YAgI6",
+          "object_role": "quantity",
+          "e": [
+            0,
+            6
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            6
+          ],
+          "conditions": "Based on semiclassical Boltzmann theory.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "BoltzTraP code",
+          "subject_role": "design_strategy",
+          "predicate": "is used to estimate",
+          "object": "Figure of merit of K2YAgBr6 and K2YAgI6",
+          "object_role": "quantity",
+          "e": [
+            0,
+            6
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            6
+          ],
+          "conditions": "Based on semiclassical Boltzmann theory.",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P0968",
+      "decisions": [
+        {
+          "relation_id": "P0968:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0968:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0968:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0968:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Include the antecedent identifying Cu-doped n-type PbTe."
+        },
+        {
+          "relation_id": "P0968:r005",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": null,
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Include the antecedent identifying Cu-doped n-type PbTe."
+        },
+        {
+          "relation_id": "P0968:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Cu-doped n-type PbTe; lattice contraction achieved by Ge/Se co-doping; mobility from interstitial Cu.",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the mobility-preservation claim to its material."
+        },
+        {
+          "relation_id": "P0968:r007",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              1,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Cu-doped n-type PbTe; at high temperature; lattice contraction achieved by Ge/Se co-doping.",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind transport stabilization to its material."
+        },
+        {
+          "relation_id": "P0968:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0968:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P0968:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "validation": "PASS",
+  "baseline": "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/final/revised_all.json",
+  "inference_population": "Accepted relations and papers outside current 40-paper development set and matching DOI partners; historical exposure is recorded, not assumed absent. Not a guarantee for all 1,971 papers.",
+  "semantic_authority": "Independent Astra contexts for reference and judgments; model acceptance, not human or external gold standard.",
+  "domains": {
+    "iTE": {
+      "eligible_papers": 1619,
+      "eligible_relations": 20373,
+      "precision": {
+        "strict": 0.829448068239844,
+        "counts": {
+          "supported": 83,
+          "partial": 17,
+          "unsupported": 0,
+          "out_of_scope": 0,
+          "uncertain": 0
+        },
+        "weighted_counts": {
+          "supported": 16898.345494250323,
+          "partial": 3474.6545057496683,
+          "unsupported": 0,
+          "out_of_scope": 0,
+          "uncertain": 0
+        },
+        "sample_relations": 100,
+        "sampled_papers": 97,
+        "weighted_denominator": 20372.999999999993,
+        "ci95": {
+          "low": 0.753074882162945,
+          "high": 0.8976737098107401,
+          "usable_replicates": 2000,
+          "null_replicates": 0
+        },
+        "issues": [
+          {
+            "issue": "conditions",
+            "count": 9,
+            "weighted_count": 1817.328035161433
+          },
+          {
+            "issue": "evidence",
+            "count": 4,
+            "weighted_count": 822.293137254902
+          },
+          {
+            "issue": "scope",
+            "count": 3,
+            "weighted_count": 615.693137254902
+          },
+          {
+            "issue": "claim_scope",
+            "count": 1,
+            "weighted_count": 206.6
+          },
+          {
+            "issue": "modality",
+            "count": 1,
+            "weighted_count": 210.91666666666666
+          }
+        ]
+      },
+      "recall": {
+        "sampled_papers": 30,
+        "core": {
+          "counts": {
+            "valid": {
+              "complete": 236,
+              "partial": 21,
+              "missing": 15
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 3,
+              "missing": 5
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 12717.918552036195,
+              "partial": 1129.294117647059,
+              "missing": 812.0678733031673
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 162.2081447963801,
+              "missing": 272.05882352941177
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "papers_without_valid_reference": [
+            "P1868",
+            "P1136"
+          ],
+          "papers_without_any_reference": [
+            "P1868",
+            "P1136"
+          ],
+          "valid_denominator": 14659.280542986422,
+          "conservative_denominator": 15093.547511312216,
+          "complete_numerator": 12717.918552036195,
+          "complete_valid": 0.8675677168973306,
+          "complete_conservative": 0.842606321840803,
+          "ci95_valid": {
+            "low": 0.8104137942510425,
+            "high": 0.9222743994004091,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.7785519141481725,
+            "high": 0.9012999074528717,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        },
+        "all": {
+          "counts": {
+            "valid": {
+              "complete": 380,
+              "partial": 27,
+              "missing": 32
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 3,
+              "missing": 5
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 20500.828054298643,
+              "partial": 1450.6289592760181,
+              "missing": 1733.9864253393669
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 162.2081447963801,
+              "missing": 272.05882352941177
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "papers_without_valid_reference": [],
+          "papers_without_any_reference": [],
+          "valid_denominator": 23685.44343891403,
+          "conservative_denominator": 24119.71040723982,
+          "complete_numerator": 20500.828054298643,
+          "complete_valid": 0.8655454607455982,
+          "complete_conservative": 0.8499616167922595,
+          "ci95_valid": {
+            "low": 0.8155324244372869,
+            "high": 0.9079345904001304,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.7977671000062945,
+            "high": 0.8941127094505177,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        }
+      },
+      "challenge": {
+        "n": 0,
+        "counts": {
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 0,
+          "out_of_scope": 0,
+          "uncertain": 0
+        },
+        "issues": {},
+        "probability_estimate": false
+      }
+    },
+    "TG": {
+      "eligible_papers": 312,
+      "eligible_relations": 3338,
+      "precision": {
+        "strict": 0.8996001960891117,
+        "counts": {
+          "supported": 90,
+          "partial": 10,
+          "unsupported": 0,
+          "out_of_scope": 0,
+          "uncertain": 0
+        },
+        "weighted_counts": {
+          "supported": 3002.8654545454547,
+          "partial": 335.13454545454545,
+          "unsupported": 0,
+          "out_of_scope": 0,
+          "uncertain": 0
+        },
+        "sample_relations": 100,
+        "sampled_papers": 88,
+        "weighted_denominator": 3338.0,
+        "ci95": {
+          "low": 0.8307723406317749,
+          "high": 0.959782400536154,
+          "usable_replicates": 2000,
+          "null_replicates": 0
+        },
+        "issues": [
+          {
+            "issue": "conditions",
+            "count": 5,
+            "weighted_count": 165.85454545454547
+          },
+          {
+            "issue": "evidence",
+            "count": 4,
+            "weighted_count": 132.88
+          },
+          {
+            "issue": "endpoint",
+            "count": 1,
+            "weighted_count": 32.45454545454545
+          },
+          {
+            "issue": "modality",
+            "count": 1,
+            "weighted_count": 35.5
+          },
+          {
+            "issue": "scope",
+            "count": 1,
+            "weighted_count": 35.5
+          }
+        ]
+      },
+      "recall": {
+        "sampled_papers": 30,
+        "core": {
+          "counts": {
+            "valid": {
+              "complete": 103,
+              "partial": 6,
+              "missing": 10
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 1073.875598086124,
+              "partial": 61.7799043062201,
+              "missing": 105.26315789473685
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "papers_without_valid_reference": [
+            "P0265",
+            "P0089",
+            "P0239"
+          ],
+          "papers_without_any_reference": [
+            "P0265",
+            "P0089",
+            "P0239"
+          ],
+          "valid_denominator": 1240.918660287081,
+          "conservative_denominator": 1240.918660287081,
+          "complete_numerator": 1073.875598086124,
+          "complete_valid": 0.8653875813566116,
+          "complete_conservative": 0.8653875813566116,
+          "ci95_valid": {
+            "low": 0.7913185830192601,
+            "high": 0.9257124065631195,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.7903624850318645,
+            "high": 0.9291153240304599,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        },
+        "all": {
+          "counts": {
+            "valid": {
+              "complete": 317,
+              "partial": 17,
+              "missing": 38
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 1,
+              "missing": 1
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "weighted_counts": {
+            "valid": {
+              "complete": 3304.114832535885,
+              "partial": 176.88038277511964,
+              "missing": 398.27751196172255
+            },
+            "uncertain": {
+              "complete": 0,
+              "partial": 10.526315789473685,
+              "missing": 10.526315789473685
+            },
+            "out_of_scope": {
+              "complete": 0,
+              "partial": 0,
+              "missing": 0
+            }
+          },
+          "papers_without_valid_reference": [],
+          "papers_without_any_reference": [],
+          "valid_denominator": 3879.272727272727,
+          "conservative_denominator": 3900.3253588516745,
+          "complete_numerator": 3304.114832535885,
+          "complete_valid": 0.8517356383083693,
+          "complete_conservative": 0.8471382586166287,
+          "ci95_valid": {
+            "low": 0.8045330408011887,
+            "high": 0.8888942567759935,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          },
+          "ci95_conservative": {
+            "low": 0.8026143772903439,
+            "high": 0.8826756558631114,
+            "usable_replicates": 2000,
+            "null_replicates": 0
+          }
+        }
+      },
+      "challenge": {
+        "n": 0,
+        "counts": {
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 0,
+          "out_of_scope": 0,
+          "uncertain": 0
+        },
+        "issues": {},
+        "probability_estimate": false
+      }
+    }
+  },
+  "bootstrap": {
+    "seed": 20260925,
+    "repetitions": 2000,
+    "method": "Percentile 95% approximation; precision resamples observed paper clusters independently within domain with frozen relation-stratum N/n weights; recall resamples papers within domain/year strata with frozen paper N/n weights.",
+    "limitations": "Not an exact design-based interval: precision sampling was stratified by relation, but its cluster bootstrap does not reconstruct that design. No finite-population correction. Singleton strata cannot estimate within-stratum variability. Intervals omit reference/judge model error and unobserved omissions. Null-denominator replicates excluded and counted."
+  },
+  "accounting": "Precision retains partial/unsupported/out_of_scope/uncertain in denominator. Recall valid denominator excludes uncertain/out_of_scope; conservative denominator includes valid+uncertain but numerator only valid complete. Partial is never complete. Reference IDs count once; candidate IDs may legitimately support distinct reference claims. Challenge is separate.",
+  "baseline_sha256": "4c9cf504809659c397601e801c7ef479c0ba55ff54f867620e0743fa044ebcac",
+  "excluded_current_development_papers": 40
+}

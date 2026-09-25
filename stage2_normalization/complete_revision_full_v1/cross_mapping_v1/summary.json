@@ -1,0 +1,75 @@
+{
+  "retrieval": {
+    "eligible_concepts": {
+      "iTE": 24859,
+      "TG": 3644
+    },
+    "eligible_core_relations": {
+      "iTE": 12804,
+      "TG": 1019
+    },
+    "concept_candidates": 67910,
+    "relation_candidates": 32721,
+    "concepts_without_candidate": 2547,
+    "relations_without_candidate": 1292,
+    "review_pairs": 63,
+    "selection_baskets": {
+      "high_score_diverse": 32,
+      "fixed_query_TG": 16,
+      "fixed_query_iTE": 15
+    },
+    "excluded_shared_membership_papers": 66,
+    "new_embeddings": 0,
+    "retrieval_method": "word unigram/bigram TF-IDF cosine; role-compatible bidirectional top-3; unvalidated retrieval baseline",
+    "semantic_probability": false,
+    "elapsed_seconds": 8.821153163909912
+  },
+  "reviewed_pairs": 63,
+  "relation_match_counts": {
+    "2": 4,
+    "1": 28,
+    "0": 31
+  },
+  "level_counts": {
+    "same_mechanism": 3,
+    "shared_outcome_only": 14,
+    "analogous_different_mechanisms": 11,
+    "insufficient": 1,
+    "surface_similarity": 34
+  },
+  "concept_bridge_counts": {
+    "equivalent_in_context": 19,
+    "related_not_equivalent": 40,
+    "analogous_role": 23,
+    "different": 43,
+    "uncertain": 1
+  },
+  "physics_pairs": {
+    "other_unclear → other_unclear": 17,
+    "thermogalvanic_redox → thermogalvanic_redox": 3,
+    "ionic_thermodiffusion → ionic_thermodiffusion": 1,
+    "ionic_thermodiffusion → thermogalvanic_redox": 8,
+    "electronic_thermoelectric → thermogalvanic_redox": 9,
+    "other_unclear → thermogalvanic_redox": 14,
+    "electronic_thermoelectric → ionic_thermodiffusion": 1,
+    "hybrid → thermogalvanic_redox": 2,
+    "other_unclear → ionic_thermodiffusion": 2,
+    "electronic_thermoelectric → electronic_thermoelectric": 1,
+    "electronic_thermoelectric → other_unclear": 2,
+    "hybrid → other_unclear": 1,
+    "electronic_thermoelectric → hybrid": 1,
+    "ionic_thermodiffusion → other_unclear": 1
+  },
+  "clear_cross_physics_pairs": [],
+  "evidence_positions_verified": 593,
+  "usage": {
+    "input_tokens": 448429,
+    "cached_input_tokens": 10496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30222,
+    "reasoning_output_tokens": 2131
+  },
+  "semantic_authority": "Astra-medium exploratory model review; not human gold, not method comparison, not transfer validation",
+  "source_graphs_unchanged": true,
+  "completed_at": 1790317741.136601
+}

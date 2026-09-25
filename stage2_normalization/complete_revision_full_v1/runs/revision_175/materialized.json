@@ -1,0 +1,2507 @@
+[
+  {
+    "paper": {
+      "paper_id": "P0727",
+      "domain": "iTE",
+      "input_hash": "ce0c98070a326954cae6f3c79c1aadae5d0bf729ec1666eceb6c4c1d6adab52a",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "Green–Kubo EMD cross thermoelectric coefficient",
+          "subject_role": "quantity",
+          "predicate": "is discussed in terms of",
+          "object": "Homogeneous thermoelectric power or Seebeck coefficient",
+          "object_role": "quantity",
+          "assertion": "association",
+          "modality": "computational",
+          "conditions": "Molten NaCl and KCl; Green–Kubo EMD simulations of a binary ionic mixture",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P0727:r001",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The cross thermoelectric coefficient obtained from Green-Kubo EMD simulations is discussed in terms of the homogeneous thermoelectric power or Seebeck coefficient of these materials. "
+          ],
+          "modality_evidence": [
+            "The cross thermoelectric coefficient obtained from Green-Kubo EMD simulations is discussed in terms of the homogeneous thermoelectric power or Seebeck coefficient of these materials. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 349,
+              "end": 532
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 349,
+              "end": 532
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:cross",
+          "object_id": "P0727:seebeck",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0727:r002",
+          "subject": "Thermal conductivity from Evans–Gillan NEMD",
+          "subject_role": "quantity",
+          "subject_id": "P0727:nemd",
+          "predicate": "agrees very well with",
+          "object": "Thermal conductivity from Green–Kubo EMD",
+          "object_role": "quantity",
+          "object_id": "P0727:emd",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. ",
+            "The thermal conductivity obtained from NEMD simulations is found to be in very good agreement with that obtained through Green-Kubo EMD simulations for a binary ionic mixture. "
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "modality_evidence": [
+            "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. ",
+            "The thermal conductivity obtained from NEMD simulations is found to be in very good agreement with that obtained through Green-Kubo EMD simulations for a binary ionic mixture. "
+          ],
+          "conditions": "Molten NaCl and KCl; NEMD assumes a pure system, EMD treats a binary ionic mixture",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            },
+            {
+              "start": 532,
+              "end": 708
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            },
+            {
+              "start": 532,
+              "end": 708
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Neglected partial-enthalpy heat-flux contribution associated with species interdiffusion",
+          "subject_role": "quantity",
+          "predicate": "may cancel with",
+          "object": "Thermal-conductivity contribution related to coupled charge and heat fluxes",
+          "object_role": "quantity",
+          "assertion": "hypothesis",
+          "modality": "computational",
+          "conditions": "Molten NaCl and KCl; possible cancellation in binary ionic mixtures inferred from agreement between pure-system NEMD and binary-mixture EMD thermal conductivities",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r003",
+          "relation_id": "P0727:r003",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. ",
+            "The thermal conductivity obtained from NEMD simulations is found to be in very good agreement with that obtained through Green-Kubo EMD simulations for a binary ionic mixture. ",
+            "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. "
+          ],
+          "modality_evidence": [
+            "The thermal conductivity obtained from NEMD simulations is found to be in very good agreement with that obtained through Green-Kubo EMD simulations for a binary ionic mixture. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            },
+            {
+              "start": 532,
+              "end": 708
+            },
+            {
+              "start": 708,
+              "end": 1008
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 532,
+              "end": 708
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:enthalpy",
+          "object_id": "P0727:coupled",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "Evans–Gillan nonequilibrium molecular dynamics",
+          "subject_role": "design_strategy",
+          "predicate": "was used to calculate",
+          "object": "Thermal conductivity of molten NaCl and KCl",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "NEMD assumes a pure system",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0727:complete_v1_cr001",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. "
+          ],
+          "modality_evidence": [
+            "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 204
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:complete_v1_cr001_subject",
+          "object_id": "P0727:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Green–Kubo equilibrium molecular dynamics",
+          "subject_role": "design_strategy",
+          "predicate": "was used to calculate",
+          "object": "Thermal conductivity of molten NaCl and KCl",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "EMD treats a binary ionic mixture",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0727:complete_v1_cr002",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. "
+          ],
+          "modality_evidence": [
+            "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 204
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:complete_v1_cr002_subject",
+          "object_id": "P0727:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Green–Kubo equilibrium molecular dynamics",
+          "subject_role": "design_strategy",
+          "predicate": "yielded",
+          "object": "Green–Kubo EMD cross thermoelectric coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "Molten NaCl and KCl; binary ionic mixture",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P0727:complete_v1_cr003",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. ",
+            "The cross thermoelectric coefficient obtained from Green-Kubo EMD simulations is discussed in terms of the homogeneous thermoelectric power or Seebeck coefficient of these materials. "
+          ],
+          "modality_evidence": [
+            "The cross thermoelectric coefficient obtained from Green-Kubo EMD simulations is discussed in terms of the homogeneous thermoelectric power or Seebeck coefficient of these materials. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            },
+            {
+              "start": 349,
+              "end": 532
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 349,
+              "end": 532
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:complete_v1_cr002_subject",
+          "object_id": "P0727:cross",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Neglected partial-enthalpy heat-flux contribution associated with species interdiffusion",
+          "subject_role": "quantity",
+          "predicate": "is associated with",
+          "object": "Interdiffusion of one species through the other",
+          "object_role": "mechanism_process",
+          "assertion": "association",
+          "modality": "unspecified",
+          "conditions": "Binary ionic mixtures",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "cr004",
+          "relation_id": "P0727:complete_v1_cr004",
+          "quote": "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 708,
+              "end": 1008
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:enthalpy",
+          "object_id": "P0727:complete_v1_cr004_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Thermal-conductivity contribution related to coupled charge and heat fluxes",
+          "subject_role": "quantity",
+          "predicate": "is related to",
+          "object": "Coupled fluxes of charge and heat",
+          "object_role": "mechanism_process",
+          "assertion": "association",
+          "modality": "unspecified",
+          "conditions": "Binary ionic mixtures",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "cr005",
+          "relation_id": "P0727:complete_v1_cr005",
+          "quote": "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 708,
+              "end": 1008
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:coupled",
+          "object_id": "P0727:complete_v1_cr005_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:r001",
+        "action": "patch",
+        "reason": "Retain the explicit EMD mixture assumption.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "Molten NaCl and KCl; Green–Kubo EMD simulations",
+            "after": "Molten NaCl and KCl; Green–Kubo EMD simulations of a binary ionic mixture"
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:r003",
+        "action": "patch",
+        "reason": "Bind the hypothesis to the studied materials and contrasting model assumptions.",
+        "changes": {
+          "context_quotes": {
+            "before": [
+              "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. "
+            ],
+            "after": [
+              "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. ",
+              "The thermal conductivity obtained from NEMD simulations is found to be in very good agreement with that obtained through Green-Kubo EMD simulations for a binary ionic mixture. ",
+              "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. "
+            ]
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "patch"
+            }
+          },
+          "conditions": {
+            "before": "In binary ionic mixtures; inferred from agreement of NEMD and EMD thermal conductivities",
+            "after": "Molten NaCl and KCl; possible cancellation in binary ionic mixtures inferred from agreement between pure-system NEMD and binary-mixture EMD thermal conductivities"
+          },
+          "quote": {
+            "before": "The thermal conductivity obtained from NEMD simulations is found to be in very good agreement with that obtained through Green-Kubo EMD simulations for a binary ionic mixture. ",
+            "after": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. "
+          },
+          "evidence_spans": {
+            "before": [
+              {
+                "start": 532,
+                "end": 708
+              },
+              {
+                "start": 708,
+                "end": 1008
+              }
+            ],
+            "after": [
+              {
+                "start": 0,
+                "end": 204
+              },
+              {
+                "start": 204,
+                "end": 349
+              },
+              {
+                "start": 532,
+                "end": 708
+              },
+              {
+                "start": 708,
+                "end": 1008
+              }
+            ]
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Evans–Gillan nonequilibrium molecular dynamics",
+          "subject_role": "design_strategy",
+          "predicate": "was used to calculate",
+          "object": "Thermal conductivity of molten NaCl and KCl",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "NEMD assumes a pure system",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0727:complete_v1_cr001",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. "
+          ],
+          "modality_evidence": [
+            "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 204
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:complete_v1_cr001_subject",
+          "object_id": "P0727:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Green–Kubo equilibrium molecular dynamics",
+          "subject_role": "design_strategy",
+          "predicate": "was used to calculate",
+          "object": "Thermal conductivity of molten NaCl and KCl",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "EMD treats a binary ionic mixture",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0727:complete_v1_cr002",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. "
+          ],
+          "modality_evidence": [
+            "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 204
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:complete_v1_cr002_subject",
+          "object_id": "P0727:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Green–Kubo equilibrium molecular dynamics",
+          "subject_role": "design_strategy",
+          "predicate": "yielded",
+          "object": "Green–Kubo EMD cross thermoelectric coefficient",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "computational",
+          "conditions": "Molten NaCl and KCl; binary ionic mixture",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P0727:complete_v1_cr003",
+          "quote": "The thermal conductivity of molten NaCl and KCl was calculated through the Evans-Gillan nonequilibrium molecular dynamics (NEMD) algorithm and Green-Kubo equilibrium molecular dynamics (EMD) simulations. ",
+          "context_quotes": [
+            "The EMD simulations were performed for a binary ionic mixture and the NEMD simulations assumed a pure system for reasons discussed in this work. ",
+            "The cross thermoelectric coefficient obtained from Green-Kubo EMD simulations is discussed in terms of the homogeneous thermoelectric power or Seebeck coefficient of these materials. "
+          ],
+          "modality_evidence": [
+            "The cross thermoelectric coefficient obtained from Green-Kubo EMD simulations is discussed in terms of the homogeneous thermoelectric power or Seebeck coefficient of these materials. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 204,
+              "end": 349
+            },
+            {
+              "start": 349,
+              "end": 532
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 349,
+              "end": 532
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:complete_v1_cr002_subject",
+          "object_id": "P0727:cross",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:complete_v1_cr004",
+        "action": "add",
+        "record": {
+          "subject": "Neglected partial-enthalpy heat-flux contribution associated with species interdiffusion",
+          "subject_role": "quantity",
+          "predicate": "is associated with",
+          "object": "Interdiffusion of one species through the other",
+          "object_role": "mechanism_process",
+          "assertion": "association",
+          "modality": "unspecified",
+          "conditions": "Binary ionic mixtures",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "cr004",
+          "relation_id": "P0727:complete_v1_cr004",
+          "quote": "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 708,
+              "end": 1008
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:enthalpy",
+          "object_id": "P0727:complete_v1_cr004_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0727",
+        "relation_id": "P0727:complete_v1_cr005",
+        "action": "add",
+        "record": {
+          "subject": "Thermal-conductivity contribution related to coupled charge and heat fluxes",
+          "subject_role": "quantity",
+          "predicate": "is related to",
+          "object": "Coupled fluxes of charge and heat",
+          "object_role": "mechanism_process",
+          "assertion": "association",
+          "modality": "unspecified",
+          "conditions": "Binary ionic mixtures",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "cr005",
+          "relation_id": "P0727:complete_v1_cr005",
+          "quote": "This result points to a possible cancellation between the neglected partial enthalpy contribution to the heat flux associated with the interdiffusion of one species through the other and that part of the thermal conductivity related to the coupled fluxes of charge and heat in binary ionic mixtures. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 708,
+              "end": 1008
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0727:coupled",
+          "object_id": "P0727:complete_v1_cr005_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0728",
+      "domain": "iTE",
+      "input_hash": "55d778095d1bb9c3d4f33fab2d4f8e6dc3fab28a915e838d24d402f529cc46a1",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0728:r001",
+          "subject": "Small ionic radius of Mg2+",
+          "subject_role": "descriptor",
+          "subject_id": "P0728:small",
+          "predicate": "leads to",
+          "object": "Limited Mg solubility with larger cations",
+          "object_role": "state_structure",
+          "object_id": "P0728:limited",
+          "quote": "In the present study, we investigate the phase stability of the AMg2Sb2 system with mixed occupancy of Mg, Ca, Sr, or Ba on the cation (A) site. ",
+          "context_quotes": [
+            "We show that the small ionic radius of Mg2+ leads to limited solubility when alloyed with larger cations such as Sr or Ba. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "AMg2Sb2; Mg alloyed on the A site with larger cations such as Sr or Ba",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 357,
+              "end": 502
+            },
+            {
+              "start": 502,
+              "end": 625
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0728:r002",
+          "subject": "Phase separation in Mg alloys with larger cations",
+          "subject_role": "state_structure",
+          "subject_id": "P0728:separation",
+          "predicate": "indicates",
+          "object": "Eutectic-like phase diagram",
+          "object_role": "descriptor",
+          "object_id": "P0728:eutectic",
+          "quote": "In the present study, we investigate the phase stability of the AMg2Sb2 system with mixed occupancy of Mg, Ca, Sr, or Ba on the cation (A) site. ",
+          "context_quotes": [
+            "We show that the small ionic radius of Mg2+ leads to limited solubility when alloyed with larger cations such as Sr or Ba. ",
+            "Phase separation observed in such cases indicates a eutectic-like phase diagram. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "AMg2Sb2 alloys combining Mg with larger cations such as Sr or Ba",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 357,
+              "end": 502
+            },
+            {
+              "start": 502,
+              "end": 625
+            },
+            {
+              "start": 625,
+              "end": 706
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0728:r003",
+          "subject": "AM2X2 alloys",
+          "subject_role": "material_entity",
+          "subject_id": "P0728:alloys",
+          "predicate": "has an established",
+          "object": "Upper limit for cation radius mismatch",
+          "object_role": "quantity",
+          "object_id": "P0728:limit",
+          "quote": "By combining these results with prior alloying studies, we establish an upper limit for cation radius mismatch in AM2X2 alloys to provide general guidance for future alloying and doping studies.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Established by combining current results with prior alloying studies; no numerical limit supplied",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 706,
+              "end": 900
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Alloying on the cation (A) site of AM2X2 compounds",
+          "subject_role": "design_strategy",
+          "predicate": "is used to optimize",
+          "object": "Thermoelectric transport properties of AM2X2 compounds",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Design purpose; achieved improvement is not specified",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0728:complete_v1_cr001",
+          "quote": "Alloying on the cation (A) site is a frequently used approach to optimize the thermoelectric transport properties of AM2X2 compounds, and complete solid solubility has been reported for many combinations of cations. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 357
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0728:complete_v1_cr001_subject",
+          "object_id": "P0728:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "AM2X2 compounds alloyed on the cation (A) site",
+          "subject_role": "material_entity",
+          "predicate": "have reported",
+          "object": "Complete solid solubility",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Many combinations of cations; combinations unspecified",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0728:complete_v1_cr002",
+          "quote": "Alloying on the cation (A) site is a frequently used approach to optimize the thermoelectric transport properties of AM2X2 compounds, and complete solid solubility has been reported for many combinations of cations. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 357
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0728:complete_v1_cr002_subject",
+          "object_id": "P0728:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0728",
+        "relation_id": "P0728:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0728",
+        "relation_id": "P0728:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0728",
+        "relation_id": "P0728:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0728",
+        "relation_id": "P0728:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Alloying on the cation (A) site of AM2X2 compounds",
+          "subject_role": "design_strategy",
+          "predicate": "is used to optimize",
+          "object": "Thermoelectric transport properties of AM2X2 compounds",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Design purpose; achieved improvement is not specified",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0728:complete_v1_cr001",
+          "quote": "Alloying on the cation (A) site is a frequently used approach to optimize the thermoelectric transport properties of AM2X2 compounds, and complete solid solubility has been reported for many combinations of cations. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 357
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0728:complete_v1_cr001_subject",
+          "object_id": "P0728:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0728",
+        "relation_id": "P0728:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "AM2X2 compounds alloyed on the cation (A) site",
+          "subject_role": "material_entity",
+          "predicate": "have reported",
+          "object": "Complete solid solubility",
+          "object_role": "state_structure",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Many combinations of cations; combinations unspecified",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0728:complete_v1_cr002",
+          "quote": "Alloying on the cation (A) site is a frequently used approach to optimize the thermoelectric transport properties of AM2X2 compounds, and complete solid solubility has been reported for many combinations of cations. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 357
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0728:complete_v1_cr002_subject",
+          "object_id": "P0728:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0729",
+      "domain": "iTE",
+      "input_hash": "eac5a1caec080f9f3c69e499681079a0a8284dd18935a430e4d518ab9cb290d2",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0729:r001",
+          "subject": "Study of ionic thermoelectric power",
+          "subject_role": "design_strategy",
+          "subject_id": "P0729:method",
+          "predicate": "is proposed to determine",
+          "object": "Thermal diffusion coefficients of mobile ions",
+          "object_role": "quantity",
+          "object_id": "P0729:diffusion",
+          "quote": "A method is proposed for determination of the thermal diffusion coefficients of mobile ions through the study of ionic thermoelectric power. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 141
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0729:r002",
+          "subject": "Mixed alkali effect in glasses",
+          "subject_role": "interaction",
+          "subject_id": "P0729:mixed",
+          "predicate": "influences",
+          "object": "Thermoelectric power of glasses",
+          "object_role": "quantity",
+          "object_id": "P0729:power",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [
+            "The mixed alkali effect influence on the thermoelectric power has been reported for the first time in glasses. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "[Li(Na,K)]2O–Nb2O5–P2O5 glasses; effect direction unspecified",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            },
+            {
+              "start": 256,
+              "end": 367
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0729:r003",
+          "subject": "Heat of transfer in alkali niobophosphate glasses",
+          "subject_role": "quantity",
+          "subject_id": "P0729:heat",
+          "predicate": "depends on",
+          "object": "Alkali-ion type",
+          "object_role": "descriptor",
+          "object_id": "P0729:type",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [
+            "Type of the alkali ion and Nb2O5 content dependence of the heat of transfer and thermal diffusion coefficient have been analyzed and discussed."
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "[Li(Na,K)]2O–Nb2O5–P2O5 glasses; dependence analyzed and discussed, direction unspecified",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            },
+            {
+              "start": 466,
+              "end": 609
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0729:r004",
+          "subject": "Heat of transfer in alkali niobophosphate glasses",
+          "subject_role": "quantity",
+          "subject_id": "P0729:heat",
+          "predicate": "depends on",
+          "object": "Nb2O5 content",
+          "object_role": "condition",
+          "object_id": "P0729:content",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [
+            "Type of the alkali ion and Nb2O5 content dependence of the heat of transfer and thermal diffusion coefficient have been analyzed and discussed."
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "[Li(Na,K)]2O–Nb2O5–P2O5 glasses; dependence analyzed and discussed, direction unspecified",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            },
+            {
+              "start": 466,
+              "end": 609
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0729:r005",
+          "subject": "Thermal diffusion coefficient in alkali niobophosphate glasses",
+          "subject_role": "quantity",
+          "subject_id": "P0729:glassdiffusion",
+          "predicate": "depends on",
+          "object": "Alkali-ion type",
+          "object_role": "descriptor",
+          "object_id": "P0729:type",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [
+            "Type of the alkali ion and Nb2O5 content dependence of the heat of transfer and thermal diffusion coefficient have been analyzed and discussed."
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "[Li(Na,K)]2O–Nb2O5–P2O5 glasses; dependence analyzed and discussed, direction unspecified",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            },
+            {
+              "start": 466,
+              "end": 609
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0729:r006",
+          "subject": "Thermal diffusion coefficient in alkali niobophosphate glasses",
+          "subject_role": "quantity",
+          "subject_id": "P0729:glassdiffusion",
+          "predicate": "depends on",
+          "object": "Nb2O5 content",
+          "object_role": "condition",
+          "object_id": "P0729:content",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [
+            "Type of the alkali ion and Nb2O5 content dependence of the heat of transfer and thermal diffusion coefficient have been analyzed and discussed."
+          ],
+          "assertion": "association",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "[Li(Na,K)]2O–Nb2O5–P2O5 glasses; dependence analyzed and discussed, direction unspecified",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            },
+            {
+              "start": 466,
+              "end": 609
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Measurements in [Li(Na,K)]2O–Nb2O5–P2O5 glasses",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Ionic Seebeck coefficients",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0729:complete_v1_cr001",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0729:complete_v1_cr001_subject",
+          "object_id": "P0729:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Measurements in [Li(Na,K)]2O–Nb2O5–P2O5 glasses",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Heats of ion transport",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0729:complete_v1_cr002",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0729:complete_v1_cr001_subject",
+          "object_id": "P0729:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Calculations for all monoalkali glass samples synthesized in this work",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Soret coefficients",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P0729:complete_v1_cr003",
+          "quote": "Soret coefficients have been calculated for all monoalkali glass samples synthesized in this work. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 367,
+              "end": 466
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0729:complete_v1_cr003_subject",
+          "object_id": "P0729:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Measurements in [Li(Na,K)]2O–Nb2O5–P2O5 glasses",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Ionic Seebeck coefficients",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0729:complete_v1_cr001",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0729:complete_v1_cr001_subject",
+          "object_id": "P0729:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Measurements in [Li(Na,K)]2O–Nb2O5–P2O5 glasses",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Heats of ion transport",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0729:complete_v1_cr002",
+          "quote": "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Ionic Seebeck coefficients and the heats of ion transport have been measured in [Li(Na,K)](2)O-Nb2O5-P2O5 glasses. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 141,
+              "end": 256
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0729:complete_v1_cr001_subject",
+          "object_id": "P0729:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0729",
+        "relation_id": "P0729:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Calculations for all monoalkali glass samples synthesized in this work",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Soret coefficients",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P0729:complete_v1_cr003",
+          "quote": "Soret coefficients have been calculated for all monoalkali glass samples synthesized in this work. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 367,
+              "end": 466
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0729:complete_v1_cr003_subject",
+          "object_id": "P0729:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0730",
+      "domain": "iTE",
+      "input_hash": "c8fe028f7920e2498eec39c1207ea103b187fa1d808025af3b8c97ac13653a43",
+      "article_role": "research",
+      "records": [
+        {
+          "subject": "NaF-LiF-LaF3 eutectic",
+          "subject_role": "material_entity",
+          "predicate": "forms upon melting",
+          "object": "NaF-LiF-LaF3 ionic liquid mixture",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P0730:r001",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:a",
+          "object_id": "P0730:al",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "patch"
+          }
+        },
+        {
+          "subject": "NaF-LiF-NdF3 eutectic",
+          "subject_role": "material_entity",
+          "predicate": "forms upon melting",
+          "object": "NaF-LiF-NdF3 ionic liquid mixture",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P0730:r002",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:b",
+          "object_id": "P0730:bl",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "patch"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0730:r003",
+          "subject": "NaF-LiF-LaF3 ionic liquid mixture",
+          "subject_role": "material_entity",
+          "subject_id": "P0730:al",
+          "predicate": "exhibits",
+          "object": "Thermoelectric-power temperature coefficient sign change at 948 ± 5 K",
+          "object_role": "quantity",
+          "object_id": "P0730:at",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [
+            "It was found that temperature coefficient of the thermoelectric power of the both ionic mixtures changes a sign, at 948 +/- 5 K in NaF-LiF-LaF3 and at 973 +/- 5 K in NaF-LiF-NdF3. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "conditions": "Above the melting point",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            },
+            {
+              "start": 249,
+              "end": 429
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0730:r004",
+          "subject": "NaF-LiF-NdF3 ionic liquid mixture",
+          "subject_role": "material_entity",
+          "subject_id": "P0730:bl",
+          "predicate": "exhibits",
+          "object": "Thermoelectric-power temperature coefficient sign change at 973 ± 5 K",
+          "object_role": "quantity",
+          "object_id": "P0730:bt",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [
+            "It was found that temperature coefficient of the thermoelectric power of the both ionic mixtures changes a sign, at 948 +/- 5 K in NaF-LiF-LaF3 and at 973 +/- 5 K in NaF-LiF-NdF3. "
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "conditions": "Above the melting point",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            },
+            {
+              "start": 249,
+              "end": 429
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0730:r005",
+          "subject": "Temperature dependence of viscosity in both ionic mixtures",
+          "subject_role": "quantity",
+          "subject_id": "P0730:v",
+          "predicate": "correlates with",
+          "object": "Electrophysical data for both ionic mixtures",
+          "object_role": "quantity",
+          "object_id": "P0730:ep",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [
+            "It was shown that temperature dependence of viscosity correlates with electrophysical data. "
+          ],
+          "assertion": "association",
+          "modality": "experimental",
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "conditions": "Both ionic liquid mixtures; above their melting points",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            },
+            {
+              "start": 429,
+              "end": 521
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0730:r006",
+          "subject": "Measured liquid-eutectic physical properties",
+          "subject_role": "descriptor",
+          "subject_id": "P0730:results",
+          "predicate": "may inform",
+          "object": "Blanket selection for a liquid salt reactor",
+          "object_role": "application",
+          "object_id": "P0730:use",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [
+            "The results can be used in choosing a blanket for the liquid salt reactor. "
+          ],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            },
+            {
+              "start": 521,
+              "end": 596
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Measurements of NaF-LiF-LaF3 and NaF-LiF-NdF3 ionic liquid mixtures",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Electrical conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Wide temperature intervals above the melting points",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0730:complete_v1_cr001",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:complete_v1_cr001_subject",
+          "object_id": "P0730:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Measurements of NaF-LiF-LaF3 and NaF-LiF-NdF3 ionic liquid mixtures",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Thermoelectric power",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Wide temperature intervals above the melting points",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0730:complete_v1_cr002",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:complete_v1_cr001_subject",
+          "object_id": "P0730:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Measurements of NaF-LiF-LaF3 and NaF-LiF-NdF3 ionic liquid mixtures",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Viscosity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Wide temperature intervals above the melting points",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P0730:complete_v1_cr003",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:complete_v1_cr001_subject",
+          "object_id": "P0730:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:r001",
+        "action": "patch",
+        "reason": "Preparation–product relation belongs in method scope.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "scope": {
+            "before": "intrinsic_material_mechanism",
+            "after": "measurement_method_model"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:r002",
+        "action": "patch",
+        "reason": "Preparation–product relation belongs in method scope.",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "patch"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "scope": {
+            "before": "intrinsic_material_mechanism",
+            "after": "measurement_method_model"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_175",
+              "action": "keep"
+            }
+          },
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Measurements of NaF-LiF-LaF3 and NaF-LiF-NdF3 ionic liquid mixtures",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Electrical conductivity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Wide temperature intervals above the melting points",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr001",
+          "relation_id": "P0730:complete_v1_cr001",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:complete_v1_cr001_subject",
+          "object_id": "P0730:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Measurements of NaF-LiF-LaF3 and NaF-LiF-NdF3 ionic liquid mixtures",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Thermoelectric power",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Wide temperature intervals above the melting points",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr002",
+          "relation_id": "P0730:complete_v1_cr002",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:complete_v1_cr001_subject",
+          "object_id": "P0730:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0730",
+        "relation_id": "P0730:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Measurements of NaF-LiF-LaF3 and NaF-LiF-NdF3 ionic liquid mixtures",
+          "subject_role": "mechanism_process",
+          "predicate": "determined",
+          "object": "Viscosity",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Wide temperature intervals above the melting points",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "cr003",
+          "relation_id": "P0730:complete_v1_cr003",
+          "quote": "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Electrical conductivity, thermoelectric power and viscosity measurements were carried out for the ionic liquid mixtures, formed after melting of the NaF-LiF-LaF3 and NaF-LiF-NdF3 eutectics in the wide temperature intervals above the melting points. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0730:complete_v1_cr001_subject",
+          "object_id": "P0730:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_175",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]

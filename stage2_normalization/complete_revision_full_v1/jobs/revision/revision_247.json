@@ -1,0 +1,1263 @@
+[
+  {
+    "paper_id": "P1017",
+    "title": "Molecular-level analysis of the wetting behavior of imidazolium-based ionic liquids on bismuth telluride surfaces",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Bismuth telluride is among the most studied thermoelectric materials. "
+      },
+      {
+        "id": 1,
+        "text": "Its performance, which is among the highest around room temperature, is dependent on exfoliation to thin nanosheets. "
+      },
+      {
+        "id": 2,
+        "text": "While previous research has examined the exfoliation mechanism by ionic liquids (ILs), this study provides more detailed information about the solid-liquid interface, including predicted values for IL contact angles (theta) on Bi2Te3. "
+      },
+      {
+        "id": 3,
+        "text": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+      },
+      {
+        "id": 4,
+        "text": "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+      },
+      {
+        "id": 5,
+        "text": "The IL contact angles display a wide range of values, from 97.7 degrees for the smallest ions to 53.2 degrees for the largest ions. "
+      },
+      {
+        "id": 6,
+        "text": "An analysis of the molecular-level interactions in these systems serves to explain this behavior, and they indicate that reduced cohesive interactions in bulkier liquids are primarily responsible. "
+      },
+      {
+        "id": 7,
+        "text": "(C) 2019 Elsevier Ltd. "
+      },
+      {
+        "id": 8,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1017:anion",
+        "label": "Anion size",
+        "role": "condition"
+      },
+      {
+        "id": "P1017:angle",
+        "label": "Ionic-liquid contact angle on Bi2Te3",
+        "role": "quantity"
+      },
+      {
+        "id": "P1017:mass",
+        "label": "Interfacial mass ordering",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1017:charge",
+        "label": "Interfacial charge ordering",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1017:ads",
+        "label": "Adsorption energy",
+        "role": "quantity"
+      },
+      {
+        "id": "P1017:cation",
+        "label": "Cation size",
+        "role": "condition"
+      },
+      {
+        "id": "P1017:small",
+        "label": "Smallest ions studied",
+        "role": "condition"
+      },
+      {
+        "id": "P1017:a97",
+        "label": "Contact angle: 97.7°",
+        "role": "quantity"
+      },
+      {
+        "id": "P1017:large",
+        "label": "Largest ions studied",
+        "role": "condition"
+      },
+      {
+        "id": "P1017:a53",
+        "label": "Contact angle: 53.2°",
+        "role": "quantity"
+      },
+      {
+        "id": "P1017:bulk",
+        "label": "Bulkier ionic liquids",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1017:cohesion",
+        "label": "Reduced cohesive interactions",
+        "role": "interaction"
+      },
+      {
+        "id": "P1017:change",
+        "label": "Decrease in contact angle with increasing ion size",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1017:r001",
+        "subject": "Anion size",
+        "subject_role": "condition",
+        "predicate": "strongly_affects",
+        "object": "Ionic-liquid contact angle on Bi2Te3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; imidazolium-based ionic liquids on Bi2Te3.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:anion",
+        "object_id": "P1017:angle"
+      },
+      {
+        "relation_id": "P1017:r002",
+        "subject": "Anion size",
+        "subject_role": "condition",
+        "predicate": "strongly_affects",
+        "object": "Interfacial mass ordering",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; solid–liquid interface.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:anion",
+        "object_id": "P1017:mass"
+      },
+      {
+        "relation_id": "P1017:r003",
+        "subject": "Anion size",
+        "subject_role": "condition",
+        "predicate": "strongly_affects",
+        "object": "Interfacial charge ordering",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; solid–liquid interface.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:anion",
+        "object_id": "P1017:charge"
+      },
+      {
+        "relation_id": "P1017:r004",
+        "subject": "Anion size",
+        "subject_role": "condition",
+        "predicate": "strongly_affects",
+        "object": "Adsorption energy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; ionic liquids on Bi2Te3.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:anion",
+        "object_id": "P1017:ads"
+      },
+      {
+        "relation_id": "P1017:r005",
+        "subject": "Cation size",
+        "subject_role": "condition",
+        "predicate": "slightly_affects",
+        "object": "Ionic-liquid contact angle on Bi2Te3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; imidazolium-based ionic liquids on Bi2Te3.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:cation",
+        "object_id": "P1017:angle"
+      },
+      {
+        "relation_id": "P1017:r006",
+        "subject": "Cation size",
+        "subject_role": "condition",
+        "predicate": "slightly_affects",
+        "object": "Interfacial mass ordering",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; solid–liquid interface.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:cation",
+        "object_id": "P1017:mass"
+      },
+      {
+        "relation_id": "P1017:r007",
+        "subject": "Cation size",
+        "subject_role": "condition",
+        "predicate": "slightly_affects",
+        "object": "Interfacial charge ordering",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; solid–liquid interface.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:cation",
+        "object_id": "P1017:charge"
+      },
+      {
+        "relation_id": "P1017:r008",
+        "subject": "Cation size",
+        "subject_role": "condition",
+        "predicate": "slightly_affects",
+        "object": "Adsorption energy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular dynamics; ionic liquids on Bi2Te3.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+        "context_quotes": [
+          "All properties save the latter are strongly dependent on anion size and slightly dependent on cation size. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:cation",
+        "object_id": "P1017:ads"
+      },
+      {
+        "relation_id": "P1017:r009",
+        "subject": "Smallest ions studied",
+        "subject_role": "condition",
+        "predicate": "correspond_to",
+        "object": "Contact angle: 97.7°",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Molecular dynamics contact angles on Bi2Te3.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The IL contact angles display a wide range of values, from 97.7 degrees for the smallest ions to 53.2 degrees for the largest ions. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:small",
+        "object_id": "P1017:a97"
+      },
+      {
+        "relation_id": "P1017:r010",
+        "subject": "Largest ions studied",
+        "subject_role": "condition",
+        "predicate": "correspond_to",
+        "object": "Contact angle: 53.2°",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Molecular dynamics contact angles on Bi2Te3.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The IL contact angles display a wide range of values, from 97.7 degrees for the smallest ions to 53.2 degrees for the largest ions. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. "
+        ],
+        "subject_id": "P1017:large",
+        "object_id": "P1017:a53"
+      },
+      {
+        "relation_id": "P1017:r011",
+        "subject": "Bulkier ionic liquids",
+        "subject_role": "material_entity",
+        "predicate": "exhibit",
+        "object": "Reduced cohesive interactions",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Molecular-level interaction analysis of simulated systems.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "An analysis of the molecular-level interactions in these systems serves to explain this behavior, and they indicate that reduced cohesive interactions in bulkier liquids are primarily responsible. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+          "An analysis of the molecular-level interactions in these systems serves to explain this behavior, and they indicate that reduced cohesive interactions in bulkier liquids are primarily responsible. "
+        ],
+        "subject_id": "P1017:bulk",
+        "object_id": "P1017:cohesion"
+      },
+      {
+        "relation_id": "P1017:r012",
+        "subject": "Reduced cohesive interactions",
+        "subject_role": "interaction",
+        "predicate": "is_primarily_responsible_for",
+        "object": "Decrease in contact angle with increasing ion size",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Contact angles range from 97.7° for smallest ions to 53.2° for largest ions; molecular-level interaction analysis.",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The IL contact angles display a wide range of values, from 97.7 degrees for the smallest ions to 53.2 degrees for the largest ions. ",
+        "context_quotes": [
+          "An analysis of the molecular-level interactions in these systems serves to explain this behavior, and they indicate that reduced cohesive interactions in bulkier liquids are primarily responsible. "
+        ],
+        "modality_evidence": [
+          "Molecular dynamics simulations are employed to compute theta and other properties of interest, including mass and charge ordering, adsorption energy, and electrostatic potential. ",
+          "An analysis of the molecular-level interactions in these systems serves to explain this behavior, and they indicate that reduced cohesive interactions in bulkier liquids are primarily responsible. "
+        ],
+        "subject_id": "P1017:cohesion",
+        "object_id": "P1017:change"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1018",
+    "title": "Investigation of structural, opto-electronic, mechanical and thermoelectric properties of Rb- based fluoro-perovskites RbXF3 (X = Rh, Os, Ir) via first-principles calculations",
+    "segments": [
+      {
+        "id": 0,
+        "text": "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+      },
+      {
+        "id": 1,
+        "text": "The compounds are stable in cubic perovskite type structures with lattice spacing in the range of 4.30 4.35 A. "
+      },
+      {
+        "id": 2,
+        "text": "RbRhF3 and RbIrF3 exhibit half-metallic character with indirect band gaps of 4.2 eV and 2.1 eV, respectively, at R -C, whereas RbOsF3 possesses entirely semiconducting nature. "
+      },
+      {
+        "id": 3,
+        "text": "The calculation of elastic properties revealed that under study compounds are mechanically stable, hav-ing ionic bonding. "
+      },
+      {
+        "id": 4,
+        "text": "Furthermore, all compounds show ductile nature. "
+      },
+      {
+        "id": 5,
+        "text": "Optical properties were also calculated in the broad energy range 0-40 eV.(c) 2023 The Author(s). "
+      },
+      {
+        "id": 6,
+        "text": "Published by Elsevier B.V. on behalf of King Saud University. "
+      },
+      {
+        "id": 7,
+        "text": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1018:m",
+        "label": "RbXF3 (X = Rh, Os, Ir)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1018:cubic",
+        "label": "Stable cubic perovskite structures",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1018:audit_v1_r002_object",
+        "label": "Lattice spacing range: 4.30–4.35 A",
+        "role": "quantity"
+      },
+      {
+        "id": "P1018:rh",
+        "label": "RbRhF3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1018:half",
+        "label": "Half-metallic character",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1018:ir",
+        "label": "RbIrF3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1018:gaprh",
+        "label": "Indirect band gap: 4.2 eV at R -C",
+        "role": "quantity"
+      },
+      {
+        "id": "P1018:gapir",
+        "label": "Indirect band gap: 2.1 eV at R -C",
+        "role": "quantity"
+      },
+      {
+        "id": "P1018:os",
+        "label": "RbOsF3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1018:semi",
+        "label": "Entirely semiconducting character",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1018:stable",
+        "label": "Mechanical stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1018:ionic",
+        "label": "Ionic bonding",
+        "role": "interaction"
+      },
+      {
+        "id": "P1018:ductile",
+        "label": "Ductile nature",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1018:r001",
+        "subject": "RbXF3 (X = Rh, Os, Ir)",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Stable cubic perovskite structures",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+        "context_quotes": [
+          "The compounds are stable in cubic perovskite type structures with lattice spacing in the range of 4.30 4.35 A. "
+        ],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:m",
+        "object_id": "P1018:cubic"
+      },
+      {
+        "relation_id": "P1018:r002",
+        "subject": "RbXF3 (X = Rh, Os, Ir)",
+        "subject_role": "material_entity",
+        "predicate": "has_lattice_spacing",
+        "object": "Lattice spacing range: 4.30–4.35 A",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+        "context_quotes": [
+          "The compounds are stable in cubic perovskite type structures with lattice spacing in the range of 4.30 4.35 A. "
+        ],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:m",
+        "object_id": "P1018:audit_v1_r002_object"
+      },
+      {
+        "relation_id": "P1018:r003",
+        "subject": "RbRhF3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Half-metallic character",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "RbRhF3 and RbIrF3 exhibit half-metallic character with indirect band gaps of 4.2 eV and 2.1 eV, respectively, at R -C, whereas RbOsF3 possesses entirely semiconducting nature. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:rh",
+        "object_id": "P1018:half"
+      },
+      {
+        "relation_id": "P1018:r004",
+        "subject": "RbIrF3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Half-metallic character",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "RbRhF3 and RbIrF3 exhibit half-metallic character with indirect band gaps of 4.2 eV and 2.1 eV, respectively, at R -C, whereas RbOsF3 possesses entirely semiconducting nature. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:ir",
+        "object_id": "P1018:half"
+      },
+      {
+        "relation_id": "P1018:r005",
+        "subject": "RbRhF3",
+        "subject_role": "material_entity",
+        "predicate": "has_band_gap",
+        "object": "Indirect band gap: 4.2 eV at R -C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "RbRhF3 and RbIrF3 exhibit half-metallic character with indirect band gaps of 4.2 eV and 2.1 eV, respectively, at R -C, whereas RbOsF3 possesses entirely semiconducting nature. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:rh",
+        "object_id": "P1018:gaprh"
+      },
+      {
+        "relation_id": "P1018:r006",
+        "subject": "RbIrF3",
+        "subject_role": "material_entity",
+        "predicate": "has_band_gap",
+        "object": "Indirect band gap: 2.1 eV at R -C",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "RbRhF3 and RbIrF3 exhibit half-metallic character with indirect band gaps of 4.2 eV and 2.1 eV, respectively, at R -C, whereas RbOsF3 possesses entirely semiconducting nature. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:ir",
+        "object_id": "P1018:gapir"
+      },
+      {
+        "relation_id": "P1018:r007",
+        "subject": "RbOsF3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Entirely semiconducting character",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "RbRhF3 and RbIrF3 exhibit half-metallic character with indirect band gaps of 4.2 eV and 2.1 eV, respectively, at R -C, whereas RbOsF3 possesses entirely semiconducting nature. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:os",
+        "object_id": "P1018:semi"
+      },
+      {
+        "relation_id": "P1018:r008",
+        "subject": "RbXF3 (X = Rh, Os, Ir)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Mechanical stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "Elastic-property calculations",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+        "context_quotes": [
+          "The calculation of elastic properties revealed that under study compounds are mechanically stable, hav-ing ionic bonding. "
+        ],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+          "The calculation of elastic properties revealed that under study compounds are mechanically stable, hav-ing ionic bonding. "
+        ],
+        "subject_id": "P1018:m",
+        "object_id": "P1018:stable"
+      },
+      {
+        "relation_id": "P1018:r009",
+        "subject": "RbXF3 (X = Rh, Os, Ir)",
+        "subject_role": "material_entity",
+        "predicate": "has_bonding",
+        "object": "Ionic bonding",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "Elastic-property calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+        "context_quotes": [
+          "The calculation of elastic properties revealed that under study compounds are mechanically stable, hav-ing ionic bonding. "
+        ],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+          "The calculation of elastic properties revealed that under study compounds are mechanically stable, hav-ing ionic bonding. "
+        ],
+        "subject_id": "P1018:m",
+        "object_id": "P1018:ionic"
+      },
+      {
+        "relation_id": "P1018:r010",
+        "subject": "RbXF3 (X = Rh, Os, Ir)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Ductile nature",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. ",
+        "context_quotes": [
+          "Furthermore, all compounds show ductile nature. "
+        ],
+        "modality_evidence": [
+          "A theoretical study on Rb-based fluorperovskites RbXF3(X = Rh, Os, Ir) is performed for the first time to explore their structural, electronic, optical and thermoelectric properties. "
+        ],
+        "subject_id": "P1018:m",
+        "object_id": "P1018:ductile"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1019",
+    "title": "ANISOTROPIC THERMOELECTRICITY OF A CRSI2 SINGLE-CRYSTAL",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Chromium disilicide is known as a degenerate semiconductor useful for thermoelectric applications in a high-temperature atmosphere. "
+      },
+      {
+        "id": 1,
+        "text": "For sintered CrSi2, thermoelectric properties had been consistently analyzed by a detailed calculation based on the Fermi-Dirac distribution of carriers. "
+      },
+      {
+        "id": 2,
+        "text": "The crystal structure of CrSi2 belongs to the hexagonal symmetry group D6h4, which suggests uniaxially anisotropic properties. "
+      },
+      {
+        "id": 3,
+        "text": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. "
+      },
+      {
+        "id": 4,
+        "text": "The anisotropy in resistivity may be deduced from that in mobility, which originates from anisotropic scattering of carriers. "
+      },
+      {
+        "id": 5,
+        "text": "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+      },
+      {
+        "id": 6,
+        "text": "The analysis revealed that the acoustic phonon scattering (S perpendicular-to = 0) is dominant in a direction perpendicular to the c-axis, while in thr c-direction, dominant is a mixed scattering (S parellel-to = 0.7) by acoustic phonons and ionic impurities. "
+      },
+      {
+        "id": 7,
+        "text": "The theoretical curves deduced from the anisotropic scattering were in good agreement with the observed data. "
+      },
+      {
+        "id": 8,
+        "text": "The results of this analysis were also consistent with those of a magnetic analysis previously performed for the single crystal."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1019:cr",
+        "label": "CrSi2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1019:hex",
+        "label": "Hexagonal symmetry group D6h4",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1019:uniaxial",
+        "label": "Uniaxially anisotropic properties",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1019:single",
+        "label": "CrSi2 single crystal",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1019:rho",
+        "label": "Strong resistivity anisotropy about the c-axis",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:tp",
+        "label": "Strong thermoelectric-power anisotropy about the c-axis",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:mob",
+        "label": "Mobility anisotropy",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:scatter",
+        "label": "Anisotropic carrier scattering",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1019:acoustic",
+        "label": "Dominant acoustic phonon scattering",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1019:mixed",
+        "label": "Dominant mixed scattering by acoustic phonons and ionic impurities",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1019:sperp",
+        "label": "Scattering parameter S perpendicular-to = 0",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:spar",
+        "label": "Scattering parameter S parellel-to = 0.7",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:curves",
+        "label": "Theoretical curves deduced from anisotropic scattering",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:data",
+        "label": "Observed single-crystal data",
+        "role": "quantity"
+      },
+      {
+        "id": "P1019:analysis",
+        "label": "Fermi-Dirac-integral transport-parameter analysis",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1019:mag",
+        "label": "Previous single-crystal magnetic-analysis results",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1019:r001",
+        "subject": "CrSi2",
+        "subject_role": "material_entity",
+        "predicate": "has_crystal_symmetry",
+        "object": "Hexagonal symmetry group D6h4",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of CrSi2 belongs to the hexagonal symmetry group D6h4, which suggests uniaxially anisotropic properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1019:cr",
+        "object_id": "P1019:hex"
+      },
+      {
+        "relation_id": "P1019:r002",
+        "subject": "Hexagonal symmetry group D6h4",
+        "subject_role": "state_structure",
+        "predicate": "suggests",
+        "object": "Uniaxially anisotropic properties",
+        "object_role": "descriptor",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "CrSi2",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of CrSi2 belongs to the hexagonal symmetry group D6h4, which suggests uniaxially anisotropic properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1019:hex",
+        "object_id": "P1019:uniaxial"
+      },
+      {
+        "relation_id": "P1019:r003",
+        "subject": "CrSi2 single crystal",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Strong resistivity anisotropy about the c-axis",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1019:single",
+        "object_id": "P1019:rho"
+      },
+      {
+        "relation_id": "P1019:r004",
+        "subject": "CrSi2 single crystal",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Strong thermoelectric-power anisotropy about the c-axis",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1019:single",
+        "object_id": "P1019:tp"
+      },
+      {
+        "relation_id": "P1019:r005",
+        "subject": "Mobility anisotropy",
+        "subject_role": "quantity",
+        "predicate": "may_account_for",
+        "object": "Strong resistivity anisotropy about the c-axis",
+        "object_role": "quantity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "CrSi2 single crystal",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [
+          "The anisotropy in resistivity may be deduced from that in mobility, which originates from anisotropic scattering of carriers. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1019:mob",
+        "object_id": "P1019:rho"
+      },
+      {
+        "relation_id": "P1019:r006",
+        "subject": "Anisotropic carrier scattering",
+        "subject_role": "mechanism_process",
+        "predicate": "gives_rise_to",
+        "object": "Mobility anisotropy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "CrSi2 single crystal",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [
+          "The anisotropy in resistivity may be deduced from that in mobility, which originates from anisotropic scattering of carriers. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1019:scatter",
+        "object_id": "P1019:mob"
+      },
+      {
+        "relation_id": "P1019:r007",
+        "subject": "CrSi2 single crystal",
+        "subject_role": "material_entity",
+        "predicate": "has_dominant_scattering",
+        "object": "Dominant acoustic phonon scattering",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Perpendicular to c-axis; numerical analysis using transport parameters expressed through the Fermi-Dirac integral",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. ",
+          "The analysis revealed that the acoustic phonon scattering (S perpendicular-to = 0) is dominant in a direction perpendicular to the c-axis, while in thr c-direction, dominant is a mixed scattering (S parellel-to = 0.7) by acoustic phonons and ionic impurities. "
+        ],
+        "modality_evidence": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+        ],
+        "subject_id": "P1019:single",
+        "object_id": "P1019:acoustic"
+      },
+      {
+        "relation_id": "P1019:r008",
+        "subject": "CrSi2 single crystal",
+        "subject_role": "material_entity",
+        "predicate": "has_dominant_scattering",
+        "object": "Dominant mixed scattering by acoustic phonons and ionic impurities",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Along c-axis; numerical analysis using transport parameters expressed through the Fermi-Dirac integral",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. ",
+          "The analysis revealed that the acoustic phonon scattering (S perpendicular-to = 0) is dominant in a direction perpendicular to the c-axis, while in thr c-direction, dominant is a mixed scattering (S parellel-to = 0.7) by acoustic phonons and ionic impurities. "
+        ],
+        "modality_evidence": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+        ],
+        "subject_id": "P1019:single",
+        "object_id": "P1019:mixed"
+      },
+      {
+        "relation_id": "P1019:r009",
+        "subject": "Dominant acoustic phonon scattering",
+        "subject_role": "mechanism_process",
+        "predicate": "has_scattering_parameter",
+        "object": "Scattering parameter S perpendicular-to = 0",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "CrSi2 single crystal, perpendicular to c-axis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. ",
+        "context_quotes": [
+          "The analysis revealed that the acoustic phonon scattering (S perpendicular-to = 0) is dominant in a direction perpendicular to the c-axis, while in thr c-direction, dominant is a mixed scattering (S parellel-to = 0.7) by acoustic phonons and ionic impurities. "
+        ],
+        "modality_evidence": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+        ],
+        "subject_id": "P1019:acoustic",
+        "object_id": "P1019:sperp"
+      },
+      {
+        "relation_id": "P1019:r010",
+        "subject": "Dominant mixed scattering by acoustic phonons and ionic impurities",
+        "subject_role": "mechanism_process",
+        "predicate": "has_scattering_parameter",
+        "object": "Scattering parameter S parellel-to = 0.7",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "CrSi2 single crystal, along c-axis",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. ",
+        "context_quotes": [
+          "The analysis revealed that the acoustic phonon scattering (S perpendicular-to = 0) is dominant in a direction perpendicular to the c-axis, while in thr c-direction, dominant is a mixed scattering (S parellel-to = 0.7) by acoustic phonons and ionic impurities. "
+        ],
+        "modality_evidence": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+        ],
+        "subject_id": "P1019:mixed",
+        "object_id": "P1019:spar"
+      },
+      {
+        "relation_id": "P1019:r011",
+        "subject": "Theoretical curves deduced from anisotropic scattering",
+        "subject_role": "quantity",
+        "predicate": "agree_well_with",
+        "object": "Observed single-crystal data",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Validation of curves derived from anisotropic scattering against observed data",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Strong anisotropies about the c-axis were observed in resistivity and thermoelectric power of a CrSi2 single crystal. ",
+        "context_quotes": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. ",
+          "The theoretical curves deduced from the anisotropic scattering were in good agreement with the observed data. "
+        ],
+        "modality_evidence": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+        ],
+        "subject_id": "P1019:curves",
+        "object_id": "P1019:data"
+      },
+      {
+        "relation_id": "P1019:r012",
+        "subject": "Fermi-Dirac-integral transport-parameter analysis",
+        "subject_role": "mechanism_process",
+        "predicate": "yields_results_consistent_with",
+        "object": "Previous single-crystal magnetic-analysis results",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Comparison with previously performed magnetic analysis of the single crystal",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. ",
+        "context_quotes": [
+          "The results of this analysis were also consistent with those of a magnetic analysis previously performed for the single crystal."
+        ],
+        "modality_evidence": [
+          "The anisotropy in thermoelectric power was numerically analyzed by calculating some transport parameters expressed in terms of the Fermi-Dirac integral. "
+        ],
+        "subject_id": "P1019:analysis",
+        "object_id": "P1019:mag"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1020",
+    "title": "Ti4+ and Ge4+ ionic substitution in Cu-ferrite, electrical conductivity and thermoelectric power",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. "
+      },
+      {
+        "id": 1,
+        "text": "The measurements showed that the substitution of both tetravalent ions (Ge4+ and Ti4+) tend to convert Cu-ferrite from n- to p-type semiconductor. "
+      },
+      {
+        "id": 2,
+        "text": "The results were analyzed on the basis of the small polaron model. "
+      },
+      {
+        "id": 3,
+        "text": "The cation distribution for each system was proposed. "
+      },
+      {
+        "id": 4,
+        "text": "The activation energy DeltaE, Fermi energy E-F, the density of charge carriers n or p and the carriers mobility p were determined for both systems. "
+      },
+      {
+        "id": 5,
+        "text": "In addition, an energy band schemes of Cu-Ge and Cu-Ti ferrites were schematically represented. "
+      },
+      {
+        "id": 6,
+        "text": "(C) 2002 Elsevier Science B.V. "
+      },
+      {
+        "id": 7,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1020:ge",
+        "label": "Ge4+ substitution in Cu1+xGexFe2-2xO4",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1020:conversion",
+        "label": "Conversion of Cu-ferrite from n-type to p-type semiconductor",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1020:ti",
+        "label": "Ti4+ substitution in Cu1+xTixFe2-2xO4",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1020:systems",
+        "label": "Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1020:activation",
+        "label": "Activation energy DeltaE",
+        "role": "quantity"
+      },
+      {
+        "id": "P1020:fermi",
+        "label": "Fermi energy E-F",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1020:r001",
+        "subject": "Ge4+ substitution in Cu1+xGexFe2-2xO4",
+        "subject_role": "design_strategy",
+        "predicate": "tends_to_induce",
+        "object": "Conversion of Cu-ferrite from n-type to p-type semiconductor",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "0 ≤ x ≤ 0.4; DC conductivity and thermoelectric-power measurements from RT to 773 K; results analyzed using the small polaron model",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. ",
+        "context_quotes": [
+          "The measurements showed that the substitution of both tetravalent ions (Ge4+ and Ti4+) tend to convert Cu-ferrite from n- to p-type semiconductor. "
+        ],
+        "modality_evidence": [
+          "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. ",
+          "The measurements showed that the substitution of both tetravalent ions (Ge4+ and Ti4+) tend to convert Cu-ferrite from n- to p-type semiconductor. "
+        ],
+        "subject_id": "P1020:ge",
+        "object_id": "P1020:conversion"
+      },
+      {
+        "relation_id": "P1020:r002",
+        "subject": "Ti4+ substitution in Cu1+xTixFe2-2xO4",
+        "subject_role": "design_strategy",
+        "predicate": "tends_to_induce",
+        "object": "Conversion of Cu-ferrite from n-type to p-type semiconductor",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "0 ≤ x ≤ 0.4; DC conductivity and thermoelectric-power measurements from RT to 773 K; results analyzed using the small polaron model",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. ",
+        "context_quotes": [
+          "The measurements showed that the substitution of both tetravalent ions (Ge4+ and Ti4+) tend to convert Cu-ferrite from n- to p-type semiconductor. "
+        ],
+        "modality_evidence": [
+          "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. ",
+          "The measurements showed that the substitution of both tetravalent ions (Ge4+ and Ti4+) tend to convert Cu-ferrite from n- to p-type semiconductor. "
+        ],
+        "subject_id": "P1020:ti",
+        "object_id": "P1020:conversion"
+      },
+      {
+        "relation_id": "P1020:r003",
+        "subject": "Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites",
+        "subject_role": "material_entity",
+        "predicate": "has_determined_parameter",
+        "object": "Activation energy DeltaE",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Both systems; 0 ≤ x ≤ 0.4; results analyzed using the small polaron model; no value supplied",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. ",
+        "context_quotes": [
+          "The results were analyzed on the basis of the small polaron model. ",
+          "The activation energy DeltaE, Fermi energy E-F, the density of charge carriers n or p and the carriers mobility p were determined for both systems. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1020:systems",
+        "object_id": "P1020:activation"
+      },
+      {
+        "relation_id": "P1020:r004",
+        "subject": "Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites",
+        "subject_role": "material_entity",
+        "predicate": "has_determined_parameter",
+        "object": "Fermi energy E-F",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Both systems; 0 ≤ x ≤ 0.4; results analyzed using the small polaron model; no value supplied",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Both the DC conductivity and the thermoelectric power of Cu1+xGexFe2-2xO4 and Cu1+xTixFe2-2xO4 ferrites, for 0less than or equal toxless than or equal to0.4, were measured in a wide range of temperature from RT up to 773K. ",
+        "context_quotes": [
+          "The results were analyzed on the basis of the small polaron model. ",
+          "The activation energy DeltaE, Fermi energy E-F, the density of charge carriers n or p and the carriers mobility p were determined for both systems. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1020:systems",
+        "object_id": "P1020:fermi"
+      }
+    ]
+  }
+]

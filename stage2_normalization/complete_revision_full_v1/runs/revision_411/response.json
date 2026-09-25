@@ -1,0 +1,701 @@
+{
+  "papers": [
+    {
+      "paper_id": "P1673",
+      "decisions": [
+        {
+          "relation_id": "P1673:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1673:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1673:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1673:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1673:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1673:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1673:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Extended Faber–Ziman theory using a single-site t-matrix",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_evaluate",
+          "object": "Electronic transport properties of liquid Cd, Ge and Cd–Ge alloys",
+          "object_role": "quantity",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            1,
+            2
+          ],
+          "conditions": "Calculations using various muffin tin potentials",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Muffin tin potentials used in the electronic transport calculations",
+          "subject_role": "quantity",
+          "predicate": "are_derived_from",
+          "object": "Hartree–Fock theory, density functional theory (LDA and GGA), and an ionic potential",
+          "object_role": "design_strategy",
+          "e": [
+            1,
+            2
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            2
+          ],
+          "conditions": "Alternative potentials used within extended Faber–Ziman theory with a single-site t-matrix",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1674",
+      "decisions": [
+        {
+          "relation_id": "P1674:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r003",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r004",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1674:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Molecular dynamics simulation",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_evaluate",
+          "object": "Lattice variation, thermal expansion coefficient, isothermal compressibility and heat capacity of strontium titanate",
+          "object_role": "quantity",
+          "e": [
+            0,
+            2,
+            3
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            0,
+            3
+          ],
+          "conditions": "Potential parameters fitted against experimental lattice parameters; room temperature–2000 K and ambient pressure–20.3 GPa",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        },
+        {
+          "subject": "Non-equilibrium molecular dynamics method",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_calculate",
+          "object": "Strontium titanate thermal conductivity",
+          "object_role": "quantity",
+          "e": [
+            0,
+            3,
+            4
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            4
+          ],
+          "conditions": "Fitted potential parameters and finite-size-effect corrections; room temperature–2000 K and ambient pressure–20.3 GPa",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1675",
+      "decisions": [
+        {
+          "relation_id": "P1675:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1675:r002",
+          "action": "patch",
+          "patch": {
+            "subject": "Thermoelectric power in LiNbO3 crystal growth from a stirred melt",
+            "subject_role": "quantity",
+            "predicate": "jointly_causes",
+            "object": "Interface electric field",
+            "object_role": "quantity",
+            "e": [
+              0
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "me": [],
+            "conditions": "Crystal growth from a stirred LiNbO3 melt",
+            "joint_factors": [
+              "Thermoelectric power",
+              "Charge-separation effects (crystallization EMF)"
+            ],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          },
+          "reason": "Bind the field-generation claim to the stated melt system."
+        },
+        {
+          "relation_id": "P1675:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; growth-parameter dependence; effect direction unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stated material and growth context."
+        },
+        {
+          "relation_id": "P1675:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; growth-parameter dependence; effect direction unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stated material and growth context."
+        },
+        {
+          "relation_id": "P1675:r005",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; growth-parameter dependence; effect direction unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stated material and growth context."
+        },
+        {
+          "relation_id": "P1675:r006",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; growth-parameter dependence; effect direction unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stated material and growth context."
+        },
+        {
+          "relation_id": "P1675:r007",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; growth-parameter dependence; effect direction unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stated material and growth context."
+        },
+        {
+          "relation_id": "P1675:r008",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": null,
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; growth-parameter dependence; effect direction unspecified",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the stated material and growth context."
+        },
+        {
+          "relation_id": "P1675:r009",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              1
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "LiNbO3 crystal growth from a stirred melt; nonlinear programming using the polytope method",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind calculated parameters to the stated growth system."
+        },
+        {
+          "relation_id": "P1675:r010",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              1
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Polytope-method calculations; LiNbO3 crystal growth from a finite amount of stirred melt",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the predicted growth outcome to LiNbO3."
+        },
+        {
+          "relation_id": "P1675:r011",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              1
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Calculated LiNbO3 dynamic congruent state from finite stirred melt",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind crystal composition to the stated material."
+        },
+        {
+          "relation_id": "P1675:r012",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              1
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Calculated LiNbO3 dynamic congruent state from finite stirred melt",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind crystal ionic species to the stated material."
+        },
+        {
+          "relation_id": "P1675:r013",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              1,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Calculated conditions for LiNbO3 dynamic congruent-state growth from finite stirred melt",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Retain the material and finite-melt scope of suitability."
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Nonlinear programming polytope method",
+          "subject_role": "design_strategy",
+          "predicate": "is_used_to_calculate",
+          "object": "Combinations of solute boundary-layer thickness δC(g), growth velocity V(g) and temperature gradient GL(g)",
+          "object_role": "design_strategy",
+          "e": [
+            0,
+            1
+          ],
+          "assertion": "author_claim",
+          "modality": "computational",
+          "me": [
+            1
+          ],
+          "conditions": "As a function of solidified melt fraction g for dynamic congruent-state LiNbO3 growth from a finite amount of stirred melt",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    },
+    {
+      "paper_id": "P1676",
+      "decisions": [
+        {
+          "relation_id": "P1676:r001",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r002",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r003",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "First-principles calculations for TTFCOONH4",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the calculated pathway to its material."
+        },
+        {
+          "relation_id": "P1676:r004",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              2
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "First-principles calculations for TTFCOONH4; small barrier comparable to that reported for bulk water",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the calculated activation energy to its material."
+        },
+        {
+          "relation_id": "P1676:r005",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r006",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r007",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r008",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r009",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r010",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r011",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r012",
+          "action": "keep",
+          "patch": null,
+          "reason": ""
+        },
+        {
+          "relation_id": "P1676:r013",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              6
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "TTFCOONH4 under a temperature gradient in the solid state; proton and hole carriers have the same positive charge",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the enhancement mechanism to the studied semiconductor."
+        },
+        {
+          "relation_id": "P1676:r014",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              6
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "TTFCOONH4 under a temperature gradient in the solid state; proton and hole carriers have the same positive charge",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind non-cancellation to the studied semiconductor."
+        },
+        {
+          "relation_id": "P1676:r015",
+          "action": "patch",
+          "patch": {
+            "subject": null,
+            "subject_role": null,
+            "predicate": null,
+            "object": null,
+            "object_role": null,
+            "e": [
+              0,
+              6
+            ],
+            "assertion": null,
+            "modality": null,
+            "me": null,
+            "conditions": "Solid TTFCOONH4 under a temperature gradient, without cancellation of the hole contribution",
+            "joint_factors": null,
+            "scope": null,
+            "claim_scope": null
+          },
+          "reason": "Bind the charge-based explanation to the studied semiconductor."
+        }
+      ],
+      "additions": [
+        {
+          "subject": "Hydrogen concentration cell method",
+          "subject_role": "design_strategy",
+          "predicate": "demonstrates",
+          "object": "Mobility of ammonium protons in TTFCOONH4",
+          "object_role": "state_structure",
+          "e": [
+            0
+          ],
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "me": [
+            0
+          ],
+          "conditions": "Anhydrous conditions at room temperature",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work"
+        }
+      ],
+      "reextract": false,
+      "reextract_reason": ""
+    }
+  ]
+}

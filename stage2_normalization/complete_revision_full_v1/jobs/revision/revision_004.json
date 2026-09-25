@@ -1,0 +1,1178 @@
+[
+  {
+    "paper_id": "P0013",
+    "title": "Deep-learning-enabled breathable thermogalvanic hydrogel array for self-powered mental monitoring",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Facial expression is vital for assessing psychological health, especially in adolescents. "
+      },
+      {
+        "id": 1,
+        "text": "Current facial expression recognition systems face challenges such as poor breathability, limited electromechanical performance, and insufficient environmental stability. "
+      },
+      {
+        "id": 2,
+        "text": "Here, an air-permeable self-powered hydrogel array designed for continuous mental monitoring based on facial expression recognition is proposed. "
+      },
+      {
+        "id": 3,
+        "text": "The remarkable breathability of the patch composed of thermogalvanic hydrogel and gelatin films is achieved by the through-holes structure design. "
+      },
+      {
+        "id": 4,
+        "text": "Additionally, the hydrogel leverages a double network structure and phytic acid with rich hydrogen ions, achieving a trade-off between mechanical (1.07 MPa) and electrical (34.4 mS cm-1) properties. "
+      },
+      {
+        "id": 5,
+        "text": "Due to the multiple hydrogen bonds among phytic acid, glycerol, and water, the hydrogel maintains over 80% of its original electrical performance after 10 days, demonstrating its excellent environmental stability. "
+      },
+      {
+        "id": 6,
+        "text": "Integrated with a deep learning algorithm, the hydrogel array can recognize six facial expressions with a high accuracy of 100% and provide long-term monitoring of mental states based on the positive-to-negative emotion ratio. "
+      },
+      {
+        "id": 7,
+        "text": "This work paves the way for a new generation of wearable mental monitoring platform for healthcare and human-machine interfaces."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0013:holes",
+        "label": "Through-hole structure design",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0013:breath",
+        "label": "High breathability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0013:h",
+        "label": "Thermogalvanic hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0013:dn",
+        "label": "Double network structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0013:mech",
+        "label": "Mechanical property: 1.07 MPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P0013:elec",
+        "label": "Electrical conductivity: 34.4 mS cm-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0013:hb",
+        "label": "Multiple hydrogen bonds among phytic acid, glycerol, and water",
+        "role": "interaction"
+      },
+      {
+        "id": "P0013:ret",
+        "label": "Retention of over 80% of original electrical performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0013:array",
+        "label": "Self-powered hydrogel array",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0013:monitor",
+        "label": "Continuous mental monitoring from facial expressions",
+        "role": "application"
+      },
+      {
+        "id": "P0013:rec",
+        "label": "Recognition of six facial expressions at 100% accuracy",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0013:ratio",
+        "label": "Long-term mental-state monitoring using positive-to-negative emotion ratio",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0013:r001",
+        "subject": "Through-hole structure design",
+        "subject_role": "design_strategy",
+        "predicate": "enables",
+        "object": "High breathability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Patch composed of thermogalvanic hydrogel and gelatin films",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The remarkable breathability of the patch composed of thermogalvanic hydrogel and gelatin films is achieved by the through-holes structure design. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:holes",
+        "object_id": "P0013:breath"
+      },
+      {
+        "relation_id": "P0013:r002",
+        "subject": "Thermogalvanic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Double network structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Additionally, the hydrogel leverages a double network structure and phytic acid with rich hydrogen ions, achieving a trade-off between mechanical (1.07 MPa) and electrical (34.4 mS cm-1) properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:h",
+        "object_id": "P0013:dn"
+      },
+      {
+        "relation_id": "P0013:r003",
+        "subject": "Double network structure",
+        "subject_role": "state_structure",
+        "predicate": "jointly_achieves",
+        "object": "Mechanical property: 1.07 MPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Trade-off between mechanical and electrical properties in the hydrogel; mechanical metric not named",
+        "joint_factors": [
+          "Phytic acid rich in hydrogen ions"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Additionally, the hydrogel leverages a double network structure and phytic acid with rich hydrogen ions, achieving a trade-off between mechanical (1.07 MPa) and electrical (34.4 mS cm-1) properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:dn",
+        "object_id": "P0013:mech"
+      },
+      {
+        "relation_id": "P0013:r004",
+        "subject": "Double network structure",
+        "subject_role": "state_structure",
+        "predicate": "jointly_achieves",
+        "object": "Electrical conductivity: 34.4 mS cm-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Trade-off between mechanical and electrical properties in the hydrogel",
+        "joint_factors": [
+          "Phytic acid rich in hydrogen ions"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Additionally, the hydrogel leverages a double network structure and phytic acid with rich hydrogen ions, achieving a trade-off between mechanical (1.07 MPa) and electrical (34.4 mS cm-1) properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:dn",
+        "object_id": "P0013:elec"
+      },
+      {
+        "relation_id": "P0013:r005",
+        "subject": "Thermogalvanic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "contains",
+        "object": "Multiple hydrogen bonds among phytic acid, glycerol, and water",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Due to the multiple hydrogen bonds among phytic acid, glycerol, and water, the hydrogel maintains over 80% of its original electrical performance after 10 days, demonstrating its excellent environmental stability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:h",
+        "object_id": "P0013:hb"
+      },
+      {
+        "relation_id": "P0013:r006",
+        "subject": "Multiple hydrogen bonds among phytic acid, glycerol, and water",
+        "subject_role": "interaction",
+        "predicate": "enables",
+        "object": "Retention of over 80% of original electrical performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "After 10 days; hydrogel environmental stability",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Due to the multiple hydrogen bonds among phytic acid, glycerol, and water, the hydrogel maintains over 80% of its original electrical performance after 10 days, demonstrating its excellent environmental stability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:hb",
+        "object_id": "P0013:ret"
+      },
+      {
+        "relation_id": "P0013:r007",
+        "subject": "Self-powered hydrogel array",
+        "subject_role": "material_entity",
+        "predicate": "is_designed_for",
+        "object": "Continuous mental monitoring from facial expressions",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Here, an air-permeable self-powered hydrogel array designed for continuous mental monitoring based on facial expression recognition is proposed. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:array",
+        "object_id": "P0013:monitor"
+      },
+      {
+        "relation_id": "P0013:r008",
+        "subject": "Self-powered hydrogel array",
+        "subject_role": "material_entity",
+        "predicate": "jointly_enables",
+        "object": "Recognition of six facial expressions at 100% accuracy",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Deep learning algorithm"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Integrated with a deep learning algorithm, the hydrogel array can recognize six facial expressions with a high accuracy of 100% and provide long-term monitoring of mental states based on the positive-to-negative emotion ratio. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:array",
+        "object_id": "P0013:rec"
+      },
+      {
+        "relation_id": "P0013:r009",
+        "subject": "Self-powered hydrogel array",
+        "subject_role": "material_entity",
+        "predicate": "jointly_enables",
+        "object": "Long-term mental-state monitoring using positive-to-negative emotion ratio",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Deep learning algorithm"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Integrated with a deep learning algorithm, the hydrogel array can recognize six facial expressions with a high accuracy of 100% and provide long-term monitoring of mental states based on the positive-to-negative emotion ratio. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0013:array",
+        "object_id": "P0013:ratio"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0014",
+    "title": "Solid-state n-type thermodiffusion-assisted thermogalvanic cells with unprecedented thermal energy conversion",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermogalvanic (TG) cells are a promising technology for harvesting low-grade waste heat, but their practical applications have been hindered by low thermopower and output power density. "
+      },
+      {
+        "id": 1,
+        "text": "Here, we report for the first time a solid-state n-type thermodiffusion (TD)-assisted TG cell based on a PEDOT:PSS/Fe(ClO4)(2/3) polymer complex. "
+      },
+      {
+        "id": 2,
+        "text": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. "
+      },
+      {
+        "id": 3,
+        "text": "This mechanism results in a remarkable ionic Seebeck coefficient of -40.05 mV K-1 and a record-high normalized maximum power density of 56.57 mW m(-2) K-2. "
+      },
+      {
+        "id": 4,
+        "text": "The TD-assisted TG cell demonstrates excellent stability for >50 charge-discharge cycles. "
+      },
+      {
+        "id": 5,
+        "text": "A 16-paired TG module generates 360 mu W, sufficient to power commercial electronic devices. "
+      },
+      {
+        "id": 6,
+        "text": "A wearable device showcases the practical applicability by harvesting body heat and producing 1.5 V. "
+      },
+      {
+        "id": 7,
+        "text": "These findings represent a significant advancement in thermal energy harvesting and pave the way for practical TG-based energy conversion technologies."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0014:complex",
+        "label": "PEDOT:PSS/Fe(ClO4)(2/3) polymer complex",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0014:es",
+        "label": "Electrostatic interactions between PEDOT:PSS matrix and Fe2+/3+ ions",
+        "role": "interaction"
+      },
+      {
+        "id": "P0014:release",
+        "label": "Liberation of ClO4- ions",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0014:td",
+        "label": "Thermodiffusion",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0014:cond",
+        "label": "Ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0014:seeb",
+        "label": "Ionic Seebeck coefficient: -40.05 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0014:power",
+        "label": "Normalized maximum power density: 56.57 mW m-2 K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0014:cell",
+        "label": "Solid-state n-type TD-assisted TG cell based on PEDOT:PSS/Fe(ClO4)(2/3)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0014:stable",
+        "label": "Excellent stability over more than 50 charge-discharge cycles",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0014:module",
+        "label": "16-paired TG module",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0014:out",
+        "label": "Output power: 360 microW",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0014:devices",
+        "label": "Powering commercial electronic devices",
+        "role": "application"
+      },
+      {
+        "id": "P0014:wear",
+        "label": "Wearable device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0014:heat",
+        "label": "Body heat harvesting",
+        "role": "application"
+      },
+      {
+        "id": "P0014:voltage",
+        "label": "Output voltage: 1.5 V",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0014:r001",
+        "subject": "PEDOT:PSS/Fe(ClO4)(2/3) polymer complex",
+        "subject_role": "material_entity",
+        "predicate": "features",
+        "object": "Electrostatic interactions between PEDOT:PSS matrix and Fe2+/3+ ions",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:complex",
+        "object_id": "P0014:es"
+      },
+      {
+        "relation_id": "P0014:r002",
+        "subject": "Electrostatic interactions between PEDOT:PSS matrix and Fe2+/3+ ions",
+        "subject_role": "interaction",
+        "predicate": "enables",
+        "object": "Liberation of ClO4- ions",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Strategically designed polymer complex",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:es",
+        "object_id": "P0014:release"
+      },
+      {
+        "relation_id": "P0014:r003",
+        "subject": "Liberation of ClO4- ions",
+        "subject_role": "mechanism_process",
+        "predicate": "enhances",
+        "object": "Thermodiffusion",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:release",
+        "object_id": "P0014:td"
+      },
+      {
+        "relation_id": "P0014:r004",
+        "subject": "Liberation of ClO4- ions",
+        "subject_role": "mechanism_process",
+        "predicate": "enhances",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:release",
+        "object_id": "P0014:cond"
+      },
+      {
+        "relation_id": "P0014:r005",
+        "subject": "Liberation of ClO4- ions",
+        "subject_role": "mechanism_process",
+        "predicate": "results_in",
+        "object": "Ionic Seebeck coefficient: -40.05 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Electrostatic-interaction-enabled ion liberation enhancing thermodiffusion and ionic conductivity in the TD-assisted TG cell",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. ",
+        "context_quotes": [
+          "This mechanism results in a remarkable ionic Seebeck coefficient of -40.05 mV K-1 and a record-high normalized maximum power density of 56.57 mW m(-2) K-2. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0014:release",
+        "object_id": "P0014:seeb"
+      },
+      {
+        "relation_id": "P0014:r006",
+        "subject": "Liberation of ClO4- ions",
+        "subject_role": "mechanism_process",
+        "predicate": "results_in",
+        "object": "Normalized maximum power density: 56.57 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Same ion-liberation mechanism; reported as record-high",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The strategic design of the polymer complex, featuring electrostatic interactions between the PEDOT:PSS matrix and the Fe2+/3+ ions, enables the liberation of ClO4- ions, enhancing thermodiffusion and ionic conductivity. ",
+        "context_quotes": [
+          "This mechanism results in a remarkable ionic Seebeck coefficient of -40.05 mV K-1 and a record-high normalized maximum power density of 56.57 mW m(-2) K-2. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0014:release",
+        "object_id": "P0014:power"
+      },
+      {
+        "relation_id": "P0014:r007",
+        "subject": "Solid-state n-type TD-assisted TG cell based on PEDOT:PSS/Fe(ClO4)(2/3)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Excellent stability over more than 50 charge-discharge cycles",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here, we report for the first time a solid-state n-type thermodiffusion (TD)-assisted TG cell based on a PEDOT:PSS/Fe(ClO4)(2/3) polymer complex. ",
+        "context_quotes": [
+          "The TD-assisted TG cell demonstrates excellent stability for >50 charge-discharge cycles. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0014:cell",
+        "object_id": "P0014:stable"
+      },
+      {
+        "relation_id": "P0014:r008",
+        "subject": "16-paired TG module",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Output power: 360 microW",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A 16-paired TG module generates 360 mu W, sufficient to power commercial electronic devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:module",
+        "object_id": "P0014:out"
+      },
+      {
+        "relation_id": "P0014:r009",
+        "subject": "16-paired TG module",
+        "subject_role": "material_entity",
+        "predicate": "provides_sufficient_power_for",
+        "object": "Powering commercial electronic devices",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "360 microW output",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A 16-paired TG module generates 360 mu W, sufficient to power commercial electronic devices. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:module",
+        "object_id": "P0014:devices"
+      },
+      {
+        "relation_id": "P0014:r010",
+        "subject": "Wearable device",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Body heat harvesting",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A wearable device showcases the practical applicability by harvesting body heat and producing 1.5 V. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:wear",
+        "object_id": "P0014:heat"
+      },
+      {
+        "relation_id": "P0014:r011",
+        "subject": "Wearable device",
+        "subject_role": "material_entity",
+        "predicate": "produces",
+        "object": "Output voltage: 1.5 V",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Harvesting body heat",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "A wearable device showcases the practical applicability by harvesting body heat and producing 1.5 V. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0014:wear",
+        "object_id": "P0014:voltage"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0015",
+    "title": "Strong Tough Thermogalvanic Hydrogel Thermocell With Extraordinarily High Thermoelectric Performance",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermocells can continuously convert heat into electricity, and they are widely used to power wearable electronic devices. "
+      },
+      {
+        "id": 1,
+        "text": "However, they have a risk of leakage and poor mechanical properties. "
+      },
+      {
+        "id": 2,
+        "text": "Although quasi-solid ionic thermocells can overcome the issue of electrolyte leakage, the trade-off between their excellent mechanical properties and high thermopower remains a major challenge. "
+      },
+      {
+        "id": 3,
+        "text": "In this study, stretching-induced crystallization and the thermoelectric effect are combined to propose a high-strength quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC) with a large tensile strength of 19 MPa and high thermopower of 6.5 mV K-1. "
+      },
+      {
+        "id": 4,
+        "text": "The SPTC exhibits a high stretchability of 1300%, ultrahigh toughness of 163.4 MJ m(-3), and high specific output power density of 1969 & mu;W m(-2) K-2. "
+      },
+      {
+        "id": 5,
+        "text": "These comprehensive properties are superior to those of previously reported quasi-solid stretchable thermogalvanic thermocells. "
+      },
+      {
+        "id": 6,
+        "text": "The use of SPTC-based systems in wearable devices for energy-autonomous strain sensors and health monitoring is demonstrated. "
+      },
+      {
+        "id": 7,
+        "text": "This can facilitate the rapid implementation of sustainable wearable electronics in the Internet of Things era."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0015:design",
+        "label": "Combination of stretching-induced crystallization and thermoelectric effect",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0015:sptc",
+        "label": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0015:strength",
+        "label": "Tensile strength: 19 MPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P0015:thermopower",
+        "label": "Thermopower: 6.5 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0015:stretch",
+        "label": "Stretchability: 1300%",
+        "role": "quantity"
+      },
+      {
+        "id": "P0015:tough",
+        "label": "Toughness: 163.4 MJ m-3",
+        "role": "quantity"
+      },
+      {
+        "id": "P0015:power",
+        "label": "Specific output power density: 1969 & mu;W m(-2) K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0015:properties",
+        "label": "Comprehensive mechanical and thermoelectric properties of SPTC",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0015:previous",
+        "label": "Properties of previously reported quasi-solid stretchable thermogalvanic thermocells",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0015:strain",
+        "label": "Wearable energy-autonomous strain sensors",
+        "role": "application"
+      },
+      {
+        "id": "P0015:health",
+        "label": "Wearable health monitoring",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0015:r001",
+        "subject": "Combination of stretching-induced crystallization and thermoelectric effect",
+        "subject_role": "design_strategy",
+        "predicate": "is_used_to_propose",
+        "object": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this study, stretching-induced crystallization and the thermoelectric effect are combined to propose a high-strength quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC) with a large tensile strength of 19 MPa and high thermopower of 6.5 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:design",
+        "object_id": "P0015:sptc"
+      },
+      {
+        "relation_id": "P0015:r002",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Tensile strength: 19 MPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this study, stretching-induced crystallization and the thermoelectric effect are combined to propose a high-strength quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC) with a large tensile strength of 19 MPa and high thermopower of 6.5 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:strength"
+      },
+      {
+        "relation_id": "P0015:r003",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Thermopower: 6.5 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "In this study, stretching-induced crystallization and the thermoelectric effect are combined to propose a high-strength quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC) with a large tensile strength of 19 MPa and high thermopower of 6.5 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:thermopower"
+      },
+      {
+        "relation_id": "P0015:r004",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Stretchability: 1300%",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The SPTC exhibits a high stretchability of 1300%, ultrahigh toughness of 163.4 MJ m(-3), and high specific output power density of 1969 & mu;W m(-2) K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:stretch"
+      },
+      {
+        "relation_id": "P0015:r005",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Toughness: 163.4 MJ m-3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The SPTC exhibits a high stretchability of 1300%, ultrahigh toughness of 163.4 MJ m(-3), and high specific output power density of 1969 & mu;W m(-2) K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:tough"
+      },
+      {
+        "relation_id": "P0015:r006",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Specific output power density: 1969 & mu;W m(-2) K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The SPTC exhibits a high stretchability of 1300%, ultrahigh toughness of 163.4 MJ m(-3), and high specific output power density of 1969 & mu;W m(-2) K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:power"
+      },
+      {
+        "relation_id": "P0015:r007",
+        "subject": "Comprehensive mechanical and thermoelectric properties of SPTC",
+        "subject_role": "performance_function",
+        "predicate": "are_superior_to",
+        "object": "Properties of previously reported quasi-solid stretchable thermogalvanic thermocells",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison of comprehensive properties",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this study, stretching-induced crystallization and the thermoelectric effect are combined to propose a high-strength quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC) with a large tensile strength of 19 MPa and high thermopower of 6.5 mV K-1. ",
+        "context_quotes": [
+          "The SPTC exhibits a high stretchability of 1300%, ultrahigh toughness of 163.4 MJ m(-3), and high specific output power density of 1969 & mu;W m(-2) K-2. ",
+          "These comprehensive properties are superior to those of previously reported quasi-solid stretchable thermogalvanic thermocells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0015:properties",
+        "object_id": "P0015:previous"
+      },
+      {
+        "relation_id": "P0015:r008",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "is_demonstrated_in",
+        "object": "Wearable energy-autonomous strain sensors",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "SPTC-based systems in wearable devices",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The use of SPTC-based systems in wearable devices for energy-autonomous strain sensors and health monitoring is demonstrated. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:strain"
+      },
+      {
+        "relation_id": "P0015:r009",
+        "subject": "Quasi-solid stretchable polyvinyl alcohol thermogalvanic thermocell (SPTC)",
+        "subject_role": "material_entity",
+        "predicate": "is_demonstrated_in",
+        "object": "Wearable health monitoring",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "SPTC-based systems in wearable devices",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The use of SPTC-based systems in wearable devices for energy-autonomous strain sensors and health monitoring is demonstrated. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0015:sptc",
+        "object_id": "P0015:health"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0016",
+    "title": "Self-Powered Machine-Learning-Assisted Material Identification Enabled by a Thermogalvanic Dual-Network Hydrogel with a High Thermopower",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Wearable devices equipped with high-performance flexible sensors that can identify diverse physical information free from batteries are playing an indispensable role in various fields. "
+      },
+      {
+        "id": 1,
+        "text": "However, previous studies on flexible sensors have primarily focused on their elasticity and temperature-sensing capability, with few reports on material identification. "
+      },
+      {
+        "id": 2,
+        "text": "In this paper, a thermogalvanic dual-network hydrogel is fabricated with [Fe(CN)6]3-/4- as a redox couple and lithium magnesium silicate, Gdm+ and lithium bromide as key electrolytes to optimize the interconnected porous structure of the gel, which shows excellent mechanical and thermoelectric properties with a thermopower as high as 4.01 mV K-1. "
+      },
+      {
+        "id": 3,
+        "text": "A self-powered material identification ring is developed based on the temperature-triggered thermoelectric response of the gel in conjunction with machine learning, which can actively infer materials without an external power connection by analyzing the voltage signals correlated with interfacial heat transfer produced upon contact with different materials. "
+      },
+      {
+        "id": 4,
+        "text": "The proposed gel ring has important applications for future areas such as human-computer interaction and haptic-associated artificial intelligence."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0016:electrolytes",
+        "label": "Lithium magnesium silicate, Gdm+, and lithium bromide electrolyte design",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0016:porous",
+        "label": "Interconnected porous gel structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0016:gel",
+        "label": "Thermogalvanic dual-network hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0016:redox",
+        "label": "[Fe(CN)6]3-/4- redox couple",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0016:mech",
+        "label": "Excellent mechanical properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0016:tp",
+        "label": "Thermopower: 4.01 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0016:temp",
+        "label": "Temperature stimulus",
+        "role": "condition"
+      },
+      {
+        "id": "P0016:response",
+        "label": "Gel thermoelectric response",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0016:voltage",
+        "label": "Voltage signals upon material contact",
+        "role": "quantity"
+      },
+      {
+        "id": "P0016:transfer",
+        "label": "Interfacial heat transfer upon material contact",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0016:identify",
+        "label": "Active material identification without external power",
+        "role": "application"
+      },
+      {
+        "id": "P0016:ring",
+        "label": "Self-powered material identification ring",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0016:hci",
+        "label": "Human-computer interaction",
+        "role": "application"
+      },
+      {
+        "id": "P0016:ai",
+        "label": "Haptic-associated artificial intelligence",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0016:r001",
+        "subject": "Lithium magnesium silicate, Gdm+, and lithium bromide electrolyte design",
+        "subject_role": "design_strategy",
+        "predicate": "are_used_to_optimize",
+        "object": "Interconnected porous gel structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Joint electrolyte formulation in the fabricated dual-network hydrogel; design purpose",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a thermogalvanic dual-network hydrogel is fabricated with [Fe(CN)6]3-/4- as a redox couple and lithium magnesium silicate, Gdm+ and lithium bromide as key electrolytes to optimize the interconnected porous structure of the gel, which shows excellent mechanical and thermoelectric properties with a thermopower as high as 4.01 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:electrolytes",
+        "object_id": "P0016:porous"
+      },
+      {
+        "relation_id": "P0016:r002",
+        "subject": "Thermogalvanic dual-network hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Interconnected porous gel structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a thermogalvanic dual-network hydrogel is fabricated with [Fe(CN)6]3-/4- as a redox couple and lithium magnesium silicate, Gdm+ and lithium bromide as key electrolytes to optimize the interconnected porous structure of the gel, which shows excellent mechanical and thermoelectric properties with a thermopower as high as 4.01 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:gel",
+        "object_id": "P0016:porous"
+      },
+      {
+        "relation_id": "P0016:r003",
+        "subject": "Thermogalvanic dual-network hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "uses_as_redox_couple",
+        "object": "[Fe(CN)6]3-/4- redox couple",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a thermogalvanic dual-network hydrogel is fabricated with [Fe(CN)6]3-/4- as a redox couple and lithium magnesium silicate, Gdm+ and lithium bromide as key electrolytes to optimize the interconnected porous structure of the gel, which shows excellent mechanical and thermoelectric properties with a thermopower as high as 4.01 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:gel",
+        "object_id": "P0016:redox"
+      },
+      {
+        "relation_id": "P0016:r004",
+        "subject": "Thermogalvanic dual-network hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Excellent mechanical properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a thermogalvanic dual-network hydrogel is fabricated with [Fe(CN)6]3-/4- as a redox couple and lithium magnesium silicate, Gdm+ and lithium bromide as key electrolytes to optimize the interconnected porous structure of the gel, which shows excellent mechanical and thermoelectric properties with a thermopower as high as 4.01 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:gel",
+        "object_id": "P0016:mech"
+      },
+      {
+        "relation_id": "P0016:r005",
+        "subject": "Thermogalvanic dual-network hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Thermopower: 4.01 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "As high as 4.01 mV K-1",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "In this paper, a thermogalvanic dual-network hydrogel is fabricated with [Fe(CN)6]3-/4- as a redox couple and lithium magnesium silicate, Gdm+ and lithium bromide as key electrolytes to optimize the interconnected porous structure of the gel, which shows excellent mechanical and thermoelectric properties with a thermopower as high as 4.01 mV K-1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:gel",
+        "object_id": "P0016:tp"
+      },
+      {
+        "relation_id": "P0016:r006",
+        "subject": "Temperature stimulus",
+        "subject_role": "condition",
+        "predicate": "triggers",
+        "object": "Gel thermoelectric response",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "A self-powered material identification ring is developed based on the temperature-triggered thermoelectric response of the gel in conjunction with machine learning, which can actively infer materials without an external power connection by analyzing the voltage signals correlated with interfacial heat transfer produced upon contact with different materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:temp",
+        "object_id": "P0016:response"
+      },
+      {
+        "relation_id": "P0016:r007",
+        "subject": "Voltage signals upon material contact",
+        "subject_role": "quantity",
+        "predicate": "correlates_with",
+        "object": "Interfacial heat transfer upon material contact",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Upon contact with different materials",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A self-powered material identification ring is developed based on the temperature-triggered thermoelectric response of the gel in conjunction with machine learning, which can actively infer materials without an external power connection by analyzing the voltage signals correlated with interfacial heat transfer produced upon contact with different materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:voltage",
+        "object_id": "P0016:transfer"
+      },
+      {
+        "relation_id": "P0016:r008",
+        "subject": "Gel thermoelectric response",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly_enables",
+        "object": "Active material identification without external power",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the material identification ring; analysis of contact-generated voltage signals correlated with interfacial heat transfer",
+        "joint_factors": [
+          "Machine learning analysis of voltage signals"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "A self-powered material identification ring is developed based on the temperature-triggered thermoelectric response of the gel in conjunction with machine learning, which can actively infer materials without an external power connection by analyzing the voltage signals correlated with interfacial heat transfer produced upon contact with different materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:response",
+        "object_id": "P0016:identify"
+      },
+      {
+        "relation_id": "P0016:r009",
+        "subject": "Self-powered material identification ring",
+        "subject_role": "material_entity",
+        "predicate": "has_proposed_application_in",
+        "object": "Human-computer interaction",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Future application",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The proposed gel ring has important applications for future areas such as human-computer interaction and haptic-associated artificial intelligence.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:ring",
+        "object_id": "P0016:hci"
+      },
+      {
+        "relation_id": "P0016:r010",
+        "subject": "Self-powered material identification ring",
+        "subject_role": "material_entity",
+        "predicate": "has_proposed_application_in",
+        "object": "Haptic-associated artificial intelligence",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Future application",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The proposed gel ring has important applications for future areas such as human-computer interaction and haptic-associated artificial intelligence.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0016:ring",
+        "object_id": "P0016:ai"
+      }
+    ]
+  }
+]

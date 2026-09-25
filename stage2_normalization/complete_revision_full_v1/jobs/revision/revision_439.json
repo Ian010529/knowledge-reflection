@@ -1,0 +1,1379 @@
+[
+  {
+    "paper_id": "P1781",
+    "title": "Electrical conductivity and oxygen nonstoichiometry of acceptor (Ga)-doped titania",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+      },
+      {
+        "id": 1,
+        "text": "It is found that isothermal conductivity varies as sigma proportional to a(O2)(m) with m approximate to -1/4, -1/5, -1/4, +1/4, in order of increasing aO(2), finally exhibiting an n-type (m = -1/4) to p-type (m = +1/4) transition crossing the stoichiometric composition (delta = 0), in perfect agreement with the oxygen nonstoichiometry variation. "
+      },
+      {
+        "id": 2,
+        "text": "The electrical conductivity and oxygen nonstoichiometry isotherms are combined to evaluate the ionic partial conductivity and transference number, the intrinsic electronic excitation equilibrium constant, and eventually both mobilities of electrons and holes without employing any assumption at all. "
+      },
+      {
+        "id": 3,
+        "text": "The partial molar enthalpy and entropy of the component oxygen are also evaluated as functions of nonstoichiometry."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1781:ao",
+        "label": "Increasing oxygen activity in polycrystalline Ti0.99Ga0.01O1.995-δ",
+        "role": "condition"
+      },
+      {
+        "id": "P1781:sigma",
+        "label": "Isothermal electrical conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:transition",
+        "label": "n-type to p-type transition across δ = 0",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1781:delta",
+        "label": "Oxygen nonstoichiometry δ",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:analysis",
+        "label": "Combined electrical conductivity and oxygen nonstoichiometry isotherms",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1781:ionic",
+        "label": "Ionic partial conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:tn",
+        "label": "Ionic transference number",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:eq",
+        "label": "Intrinsic electronic excitation equilibrium constant",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:em",
+        "label": "Electron mobility",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:hm",
+        "label": "Hole mobility",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:h",
+        "label": "Partial molar enthalpy of component oxygen",
+        "role": "quantity"
+      },
+      {
+        "id": "P1781:s",
+        "label": "Partial molar entropy of component oxygen",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1781:r001",
+        "subject": "Increasing oxygen activity in polycrystalline Ti0.99Ga0.01O1.995-δ",
+        "subject_role": "condition",
+        "predicate": "modulates",
+        "object": "Isothermal electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "σ ∝ a(O2)^m; m ≈ -1/4, -1/5, -1/4, +1/4 in increasing oxygen-activity order; -20 < log aO2 ≤ 0; 1073–1373 K; isothermal measurements",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "It is found that isothermal conductivity varies as sigma proportional to a(O2)(m) with m approximate to -1/4, -1/5, -1/4, +1/4, in order of increasing aO(2), finally exhibiting an n-type (m = -1/4) to p-type (m = +1/4) transition crossing the stoichiometric composition (delta = 0), in perfect agreement with the oxygen nonstoichiometry variation. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:ao",
+        "object_id": "P1781:sigma"
+      },
+      {
+        "relation_id": "P1781:r002",
+        "subject": "Increasing oxygen activity in polycrystalline Ti0.99Ga0.01O1.995-δ",
+        "subject_role": "condition",
+        "predicate": "induces",
+        "object": "n-type to p-type transition across δ = 0",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "m changes from -1/4 to +1/4 across stoichiometric composition; -20 < log aO2 ≤ 0; 1073–1373 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "It is found that isothermal conductivity varies as sigma proportional to a(O2)(m) with m approximate to -1/4, -1/5, -1/4, +1/4, in order of increasing aO(2), finally exhibiting an n-type (m = -1/4) to p-type (m = +1/4) transition crossing the stoichiometric composition (delta = 0), in perfect agreement with the oxygen nonstoichiometry variation. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:ao",
+        "object_id": "P1781:transition"
+      },
+      {
+        "relation_id": "P1781:r003",
+        "subject": "Isothermal electrical conductivity",
+        "subject_role": "quantity",
+        "predicate": "varies in agreement with",
+        "object": "Oxygen nonstoichiometry δ",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "experimental",
+        "conditions": "Isothermal oxygen-activity variation, including n-type to p-type transition across δ = 0",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "It is found that isothermal conductivity varies as sigma proportional to a(O2)(m) with m approximate to -1/4, -1/5, -1/4, +1/4, in order of increasing aO(2), finally exhibiting an n-type (m = -1/4) to p-type (m = +1/4) transition crossing the stoichiometric composition (delta = 0), in perfect agreement with the oxygen nonstoichiometry variation. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:sigma",
+        "object_id": "P1781:delta"
+      },
+      {
+        "relation_id": "P1781:r004",
+        "subject": "Combined electrical conductivity and oxygen nonstoichiometry isotherms",
+        "subject_role": "design_strategy",
+        "predicate": "enables evaluation of",
+        "object": "Ionic partial conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Combined measured isotherms; authors state no assumptions employed",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "The electrical conductivity and oxygen nonstoichiometry isotherms are combined to evaluate the ionic partial conductivity and transference number, the intrinsic electronic excitation equilibrium constant, and eventually both mobilities of electrons and holes without employing any assumption at all. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:analysis",
+        "object_id": "P1781:ionic"
+      },
+      {
+        "relation_id": "P1781:r005",
+        "subject": "Combined electrical conductivity and oxygen nonstoichiometry isotherms",
+        "subject_role": "design_strategy",
+        "predicate": "enables evaluation of",
+        "object": "Ionic transference number",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Combined measured isotherms; authors state no assumptions employed",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "The electrical conductivity and oxygen nonstoichiometry isotherms are combined to evaluate the ionic partial conductivity and transference number, the intrinsic electronic excitation equilibrium constant, and eventually both mobilities of electrons and holes without employing any assumption at all. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:analysis",
+        "object_id": "P1781:tn"
+      },
+      {
+        "relation_id": "P1781:r006",
+        "subject": "Combined electrical conductivity and oxygen nonstoichiometry isotherms",
+        "subject_role": "design_strategy",
+        "predicate": "enables evaluation of",
+        "object": "Intrinsic electronic excitation equilibrium constant",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Combined measured isotherms; authors state no assumptions employed",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "The electrical conductivity and oxygen nonstoichiometry isotherms are combined to evaluate the ionic partial conductivity and transference number, the intrinsic electronic excitation equilibrium constant, and eventually both mobilities of electrons and holes without employing any assumption at all. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:analysis",
+        "object_id": "P1781:eq"
+      },
+      {
+        "relation_id": "P1781:r007",
+        "subject": "Combined electrical conductivity and oxygen nonstoichiometry isotherms",
+        "subject_role": "design_strategy",
+        "predicate": "enables evaluation of",
+        "object": "Electron mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Combined measured isotherms; authors state no assumptions employed",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "The electrical conductivity and oxygen nonstoichiometry isotherms are combined to evaluate the ionic partial conductivity and transference number, the intrinsic electronic excitation equilibrium constant, and eventually both mobilities of electrons and holes without employing any assumption at all. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:analysis",
+        "object_id": "P1781:em"
+      },
+      {
+        "relation_id": "P1781:r008",
+        "subject": "Combined electrical conductivity and oxygen nonstoichiometry isotherms",
+        "subject_role": "design_strategy",
+        "predicate": "enables evaluation of",
+        "object": "Hole mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Combined measured isotherms; authors state no assumptions employed",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. ",
+        "context_quotes": [
+          "The electrical conductivity and oxygen nonstoichiometry isotherms are combined to evaluate the ionic partial conductivity and transference number, the intrinsic electronic excitation equilibrium constant, and eventually both mobilities of electrons and holes without employing any assumption at all. "
+        ],
+        "modality_evidence": [
+          "Electrical conductivity and oxygen nonstoichiometry (delta) have been measured, respectively, by a dc 4-probe technique and coulometric titrometry on the system of polycrystalline Ti(0.99)Ga(0.01)O(1.995)-delta against oxygen activity in the range of -20 < log aO(2) <= 0 at different temperatures in the range of 1073 <= T/K <= 1373. "
+        ],
+        "subject_id": "P1781:analysis",
+        "object_id": "P1781:hm"
+      },
+      {
+        "relation_id": "P1781:r009",
+        "subject": "Oxygen nonstoichiometry δ",
+        "subject_role": "quantity",
+        "predicate": "is the variable for evaluation of",
+        "object": "Partial molar enthalpy of component oxygen",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Partial molar enthalpy evaluated as a function of nonstoichiometry; dependence sign unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The partial molar enthalpy and entropy of the component oxygen are also evaluated as functions of nonstoichiometry.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1781:delta",
+        "object_id": "P1781:h"
+      },
+      {
+        "relation_id": "P1781:r010",
+        "subject": "Oxygen nonstoichiometry δ",
+        "subject_role": "quantity",
+        "predicate": "is the variable for evaluation of",
+        "object": "Partial molar entropy of component oxygen",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Partial molar entropy evaluated as a function of nonstoichiometry; dependence sign unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The partial molar enthalpy and entropy of the component oxygen are also evaluated as functions of nonstoichiometry.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1781:delta",
+        "object_id": "P1781:s"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1782",
+    "title": "Stable n-Type Conducting Elastomer with High Stretchability and Electrical Conductivity",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Stretchable n-type conducting polymers are crucial for advancing high-performance optoelectronic and bioelectronic devices, yet their development lags significantly behind that of p-type counterparts due to the intrinsic challenge of harmonizing electrical conductivity with mechanical compliance. "
+      },
+      {
+        "id": 1,
+        "text": "Herein, a novel strategy is reported to engineer a high-performance n-type conductive elastomer by synergistically blending the n-type polymer poly(benzodifurandione) (PBFDO) with thermoplastic polyurethane (TPU) and modulating phase separation via the ionic liquid (IL) 1-butyl-3-methylimidazolium tetrafluoroborate. "
+      },
+      {
+        "id": 2,
+        "text": "The resulting PBFDO/TPU/IL composites (PBTI) achieve an unprecedented combination of n-type electrical conductivity exceeding 200 S cm-(1), fracture elongation surpassing 200%, and robust operational stability, outperforming existing stretchable n-type conductive polymers. "
+      },
+      {
+        "id": 3,
+        "text": "The controlled phase-segregated morphology ensures efficient charge transport while maintaining elastomeric resilience, addressing the long-standing trade-off between conductivity and stretchability. "
+      },
+      {
+        "id": 4,
+        "text": "PBTI is integrated with a p-type PEDOT:PSS-based elastomer to demonstrate its versatility in constructing a stretchable thermoelectric generator (TEG), which exhibits a reliable power output under mechanical deformation. "
+      },
+      {
+        "id": 5,
+        "text": "Further applications in fire safety warnings and real-time human physiological monitoring underscore the material's practicality in adaptive wearable and implantable systems. "
+      },
+      {
+        "id": 6,
+        "text": "This work breaks new ground in n-type stretchable conductors, paving the way for sophisticated bioelectronics and self-powered devices requiring balanced electronic and mechanical functionalities."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1782:il",
+        "label": "1-butyl-3-methylimidazolium tetrafluoroborate",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1782:phase",
+        "label": "Controlled phase-segregated morphology",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1782:blend",
+        "label": "Blending PBFDO with TPU",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1782:m",
+        "label": "PBFDO/TPU/IL composite PBTI",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1782:sigma",
+        "label": "n-type electrical conductivity exceeding 200 S/cm",
+        "role": "quantity"
+      },
+      {
+        "id": "P1782:elong",
+        "label": "Fracture elongation exceeding 200%",
+        "role": "quantity"
+      },
+      {
+        "id": "P1782:stability",
+        "label": "Robust operational stability",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1782:transport",
+        "label": "Efficient charge transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1782:resilience",
+        "label": "Elastomeric resilience",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1782:combine",
+        "label": "Integration of PBTI with p-type PEDOT:PSS-based elastomer",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1782:teg",
+        "label": "Stretchable thermoelectric generator",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1782:power",
+        "label": "Reliable power output under mechanical deformation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1782:fire",
+        "label": "Fire safety warnings",
+        "role": "application"
+      },
+      {
+        "id": "P1782:monitor",
+        "label": "Real-time human physiological monitoring",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1782:r001",
+        "subject": "1-butyl-3-methylimidazolium tetrafluoroborate",
+        "subject_role": "material_entity",
+        "predicate": "modulates",
+        "object": "Controlled phase-segregated morphology",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PBFDO/TPU composite",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, a novel strategy is reported to engineer a high-performance n-type conductive elastomer by synergistically blending the n-type polymer poly(benzodifurandione) (PBFDO) with thermoplastic polyurethane (TPU) and modulating phase separation via the ionic liquid (IL) 1-butyl-3-methylimidazolium tetrafluoroborate. ",
+        "context_quotes": [
+          "The controlled phase-segregated morphology ensures efficient charge transport while maintaining elastomeric resilience, addressing the long-standing trade-off between conductivity and stretchability. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1782:il",
+        "object_id": "P1782:phase"
+      },
+      {
+        "relation_id": "P1782:r002",
+        "subject": "Blending PBFDO with TPU",
+        "subject_role": "design_strategy",
+        "predicate": "synergistically produces",
+        "object": "PBFDO/TPU/IL composite PBTI",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Blending with IL-mediated phase-separation modulation",
+        "joint_factors": [
+          "1-butyl-3-methylimidazolium tetrafluoroborate"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, a novel strategy is reported to engineer a high-performance n-type conductive elastomer by synergistically blending the n-type polymer poly(benzodifurandione) (PBFDO) with thermoplastic polyurethane (TPU) and modulating phase separation via the ionic liquid (IL) 1-butyl-3-methylimidazolium tetrafluoroborate. ",
+        "context_quotes": [
+          "The resulting PBFDO/TPU/IL composites (PBTI) achieve an unprecedented combination of n-type electrical conductivity exceeding 200 S cm-(1), fracture elongation surpassing 200%, and robust operational stability, outperforming existing stretchable n-type conductive polymers. "
+        ],
+        "modality_evidence": [
+          "Herein, a novel strategy is reported to engineer a high-performance n-type conductive elastomer by synergistically blending the n-type polymer poly(benzodifurandione) (PBFDO) with thermoplastic polyurethane (TPU) and modulating phase separation via the ionic liquid (IL) 1-butyl-3-methylimidazolium tetrafluoroborate. "
+        ],
+        "subject_id": "P1782:blend",
+        "object_id": "P1782:m"
+      },
+      {
+        "relation_id": "P1782:r003",
+        "subject": "PBFDO/TPU/IL composite PBTI",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "n-type electrical conductivity exceeding 200 S/cm",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Combined electrical, mechanical and stability performance outperforms existing stretchable n-type conductive polymers",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The resulting PBFDO/TPU/IL composites (PBTI) achieve an unprecedented combination of n-type electrical conductivity exceeding 200 S cm-(1), fracture elongation surpassing 200%, and robust operational stability, outperforming existing stretchable n-type conductive polymers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:m",
+        "object_id": "P1782:sigma"
+      },
+      {
+        "relation_id": "P1782:r004",
+        "subject": "PBFDO/TPU/IL composite PBTI",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Fracture elongation exceeding 200%",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Combined electrical, mechanical and stability performance outperforms existing stretchable n-type conductive polymers",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The resulting PBFDO/TPU/IL composites (PBTI) achieve an unprecedented combination of n-type electrical conductivity exceeding 200 S cm-(1), fracture elongation surpassing 200%, and robust operational stability, outperforming existing stretchable n-type conductive polymers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:m",
+        "object_id": "P1782:elong"
+      },
+      {
+        "relation_id": "P1782:r005",
+        "subject": "PBFDO/TPU/IL composite PBTI",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Robust operational stability",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Combined electrical, mechanical and stability performance outperforms existing stretchable n-type conductive polymers",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The resulting PBFDO/TPU/IL composites (PBTI) achieve an unprecedented combination of n-type electrical conductivity exceeding 200 S cm-(1), fracture elongation surpassing 200%, and robust operational stability, outperforming existing stretchable n-type conductive polymers. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:m",
+        "object_id": "P1782:stability"
+      },
+      {
+        "relation_id": "P1782:r006",
+        "subject": "PBFDO/TPU/IL composite PBTI",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Controlled phase-segregated morphology",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, a novel strategy is reported to engineer a high-performance n-type conductive elastomer by synergistically blending the n-type polymer poly(benzodifurandione) (PBFDO) with thermoplastic polyurethane (TPU) and modulating phase separation via the ionic liquid (IL) 1-butyl-3-methylimidazolium tetrafluoroborate. ",
+        "context_quotes": [
+          "The resulting PBFDO/TPU/IL composites (PBTI) achieve an unprecedented combination of n-type electrical conductivity exceeding 200 S cm-(1), fracture elongation surpassing 200%, and robust operational stability, outperforming existing stretchable n-type conductive polymers. ",
+          "The controlled phase-segregated morphology ensures efficient charge transport while maintaining elastomeric resilience, addressing the long-standing trade-off between conductivity and stretchability. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1782:m",
+        "object_id": "P1782:phase"
+      },
+      {
+        "relation_id": "P1782:r007",
+        "subject": "Controlled phase-segregated morphology",
+        "subject_role": "state_structure",
+        "predicate": "ensures",
+        "object": "Efficient charge transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PBTI composite",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The controlled phase-segregated morphology ensures efficient charge transport while maintaining elastomeric resilience, addressing the long-standing trade-off between conductivity and stretchability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:phase",
+        "object_id": "P1782:transport"
+      },
+      {
+        "relation_id": "P1782:r008",
+        "subject": "Controlled phase-segregated morphology",
+        "subject_role": "state_structure",
+        "predicate": "maintains",
+        "object": "Elastomeric resilience",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PBTI composite",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The controlled phase-segregated morphology ensures efficient charge transport while maintaining elastomeric resilience, addressing the long-standing trade-off between conductivity and stretchability. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:phase",
+        "object_id": "P1782:resilience"
+      },
+      {
+        "relation_id": "P1782:r009",
+        "subject": "Integration of PBTI with p-type PEDOT:PSS-based elastomer",
+        "subject_role": "design_strategy",
+        "predicate": "constructs",
+        "object": "Stretchable thermoelectric generator",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "PBTI is integrated with a p-type PEDOT:PSS-based elastomer to demonstrate its versatility in constructing a stretchable thermoelectric generator (TEG), which exhibits a reliable power output under mechanical deformation. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "PBTI is integrated with a p-type PEDOT:PSS-based elastomer to demonstrate its versatility in constructing a stretchable thermoelectric generator (TEG), which exhibits a reliable power output under mechanical deformation. "
+        ],
+        "subject_id": "P1782:combine",
+        "object_id": "P1782:teg"
+      },
+      {
+        "relation_id": "P1782:r010",
+        "subject": "Stretchable thermoelectric generator",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Reliable power output under mechanical deformation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under mechanical deformation",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "PBTI is integrated with a p-type PEDOT:PSS-based elastomer to demonstrate its versatility in constructing a stretchable thermoelectric generator (TEG), which exhibits a reliable power output under mechanical deformation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:teg",
+        "object_id": "P1782:power"
+      },
+      {
+        "relation_id": "P1782:r011",
+        "subject": "PBFDO/TPU/IL composite PBTI",
+        "subject_role": "material_entity",
+        "predicate": "is applied to",
+        "object": "Fire safety warnings",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Further applications in fire safety warnings and real-time human physiological monitoring underscore the material's practicality in adaptive wearable and implantable systems. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:m",
+        "object_id": "P1782:fire"
+      },
+      {
+        "relation_id": "P1782:r012",
+        "subject": "PBFDO/TPU/IL composite PBTI",
+        "subject_role": "material_entity",
+        "predicate": "is applied to",
+        "object": "Real-time human physiological monitoring",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Further applications in fire safety warnings and real-time human physiological monitoring underscore the material's practicality in adaptive wearable and implantable systems. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1782:m",
+        "object_id": "P1782:monitor"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1783",
+    "title": "Thermoelectric performance of Ni, Co, and Fe nanoparticles incorporated into their metal borates glassy matrices",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Here, we present our current attempt to intrinsically dope Ni-0, Co-0, and Fe-0 nanoparticles within Ni-II-, Co-II-, and Fe-II-borate glassy matrices, respectively. "
+      },
+      {
+        "id": 1,
+        "text": "The system was prepared by one-pot reaction of the desired M-T(II) salt with excess NaBH4 through an in-situ reduction and hydrolysis processes to afford metallic M-T(0) nanoparticles dispersed into the M-T-BO3 matrix. "
+      },
+      {
+        "id": 2,
+        "text": "The composition and structural characteristics of these M-T(0):M-T-BO3 materials were identified by thermal oxidation, ATR-IR, X-ray powder diffraction, and magnetic techniques as glassy/amorphous borate matrices containing magnetic nanoparticles. "
+      },
+      {
+        "id": 3,
+        "text": "The electrical conductivity (sigma) of cold-pressed discs of these metal-doped composites shows that they behave as nonohmic semiconductors within the temperature range of 303 <= T <= 373 K suggesting a mixed electronic-ionic conduction. "
+      },
+      {
+        "id": 4,
+        "text": "However, their thermal conductivity (kappa) occurs through phonon lattice vibration dynamics rather than electronic. "
+      },
+      {
+        "id": 5,
+        "text": "The sigma/kappa ratio shows a steep non-linear increase from 9.4 to 270 KV-2 in Ni-0:Ni-BO3. "
+      },
+      {
+        "id": 6,
+        "text": "In contrast, a moderate-weak increase is observed for Co-0:Co-BO3 and Fe-0:Fe-BO3 analogs. "
+      },
+      {
+        "id": 7,
+        "text": "The obtained materials are examined for thermoelectric (TE) applications by determining their Seebeck coefficient (S) power factor (PF), figure of merit (ZT), and conversion efficiency (eta%). "
+      },
+      {
+        "id": 8,
+        "text": "All the TE data shows that Ni-0:Ni-BO3 (S, 80 mu VK-1; PF, 97.7 mWm(-1) K-1; ZT 0.54; eta, 2.15%) is a better TE semiconductor than the other two M-T(0):M-T-BO3. "
+      },
+      {
+        "id": 9,
+        "text": "This finding shows that Ni-0:Ni-BO3 is a promising candidate to exploit low-temperature waste heat from body heat, sunshine, and small domestic devices for small-scale TE applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1783:prep",
+        "label": "One-pot reaction of M_T(II) salt with excess NaBH4",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1783:proc",
+        "label": "In-situ reduction and hydrolysis",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1783:m",
+        "label": "Ni0:Ni-BO3, Co0:Co-BO3 and Fe0:Fe-BO3 composites",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1783:structure",
+        "label": "Magnetic metallic nanoparticles dispersed in glassy/amorphous borate matrices",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1783:disc",
+        "label": "Cold-pressed discs of metal-doped borate composites",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1783:nonohm",
+        "label": "Nonohmic semiconductor behavior",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1783:mixed",
+        "label": "Mixed electronic-ionic conduction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1783:phonon",
+        "label": "Phonon lattice vibration heat conduction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1783:electronic",
+        "label": "Electronic heat conduction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1783:ni",
+        "label": "Ni0:Ni-BO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1783:ratio",
+        "label": "Steep nonlinear σ/κ increase from 9.4 to 270 K V^-2",
+        "role": "quantity"
+      },
+      {
+        "id": "P1783:co",
+        "label": "Co0:Co-BO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1783:weak",
+        "label": "Moderate-weak σ/κ increase",
+        "role": "quantity"
+      },
+      {
+        "id": "P1783:fe",
+        "label": "Fe0:Fe-BO3",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1783:s",
+        "label": "Seebeck coefficient of 80 μV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P1783:pf",
+        "label": "Power factor of 97.7 mW m^-1 K^-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P1783:zt",
+        "label": "ZT of 0.54",
+        "role": "quantity"
+      },
+      {
+        "id": "P1783:eff",
+        "label": "Conversion efficiency of 2.15%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1783:better",
+        "label": "Better thermoelectric semiconductor performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1783:use",
+        "label": "Small-scale harvesting of low-temperature waste heat from body heat, sunshine and small domestic devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1783:r001",
+        "subject": "One-pot reaction of M_T(II) salt with excess NaBH4",
+        "subject_role": "design_strategy",
+        "predicate": "proceeds through",
+        "object": "In-situ reduction and hydrolysis",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "M_T = Ni, Co or Fe",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The system was prepared by one-pot reaction of the desired M-T(II) salt with excess NaBH4 through an in-situ reduction and hydrolysis processes to afford metallic M-T(0) nanoparticles dispersed into the M-T-BO3 matrix. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The system was prepared by one-pot reaction of the desired M-T(II) salt with excess NaBH4 through an in-situ reduction and hydrolysis processes to afford metallic M-T(0) nanoparticles dispersed into the M-T-BO3 matrix. "
+        ],
+        "subject_id": "P1783:prep",
+        "object_id": "P1783:proc"
+      },
+      {
+        "relation_id": "P1783:r002",
+        "subject": "In-situ reduction and hydrolysis",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "Ni0:Ni-BO3, Co0:Co-BO3 and Fe0:Fe-BO3 composites",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "One-pot M_T(II) salt reaction with excess NaBH4",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we present our current attempt to intrinsically dope Ni-0, Co-0, and Fe-0 nanoparticles within Ni-II-, Co-II-, and Fe-II-borate glassy matrices, respectively. ",
+        "context_quotes": [
+          "The system was prepared by one-pot reaction of the desired M-T(II) salt with excess NaBH4 through an in-situ reduction and hydrolysis processes to afford metallic M-T(0) nanoparticles dispersed into the M-T-BO3 matrix. "
+        ],
+        "modality_evidence": [
+          "The system was prepared by one-pot reaction of the desired M-T(II) salt with excess NaBH4 through an in-situ reduction and hydrolysis processes to afford metallic M-T(0) nanoparticles dispersed into the M-T-BO3 matrix. "
+        ],
+        "subject_id": "P1783:proc",
+        "object_id": "P1783:m"
+      },
+      {
+        "relation_id": "P1783:r003",
+        "subject": "Ni0:Ni-BO3, Co0:Co-BO3 and Fe0:Fe-BO3 composites",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Magnetic metallic nanoparticles dispersed in glassy/amorphous borate matrices",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Identified by thermal oxidation, ATR-IR, X-ray powder diffraction and magnetic techniques",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The system was prepared by one-pot reaction of the desired M-T(II) salt with excess NaBH4 through an in-situ reduction and hydrolysis processes to afford metallic M-T(0) nanoparticles dispersed into the M-T-BO3 matrix. ",
+        "context_quotes": [
+          "The composition and structural characteristics of these M-T(0):M-T-BO3 materials were identified by thermal oxidation, ATR-IR, X-ray powder diffraction, and magnetic techniques as glassy/amorphous borate matrices containing magnetic nanoparticles. "
+        ],
+        "modality_evidence": [
+          "The composition and structural characteristics of these M-T(0):M-T-BO3 materials were identified by thermal oxidation, ATR-IR, X-ray powder diffraction, and magnetic techniques as glassy/amorphous borate matrices containing magnetic nanoparticles. "
+        ],
+        "subject_id": "P1783:m",
+        "object_id": "P1783:structure"
+      },
+      {
+        "relation_id": "P1783:r004",
+        "subject": "Cold-pressed discs of metal-doped borate composites",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Nonohmic semiconductor behavior",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "303–373 K; inferred from electrical conductivity",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity (sigma) of cold-pressed discs of these metal-doped composites shows that they behave as nonohmic semiconductors within the temperature range of 303 <= T <= 373 K suggesting a mixed electronic-ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:disc",
+        "object_id": "P1783:nonohm"
+      },
+      {
+        "relation_id": "P1783:r005",
+        "subject": "Cold-pressed discs of metal-doped borate composites",
+        "subject_role": "material_entity",
+        "predicate": "is suggested to exhibit",
+        "object": "Mixed electronic-ionic conduction",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "303–373 K; based on nonohmic semiconductor behavior",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity (sigma) of cold-pressed discs of these metal-doped composites shows that they behave as nonohmic semiconductors within the temperature range of 303 <= T <= 373 K suggesting a mixed electronic-ionic conduction. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:disc",
+        "object_id": "P1783:mixed"
+      },
+      {
+        "relation_id": "P1783:r006",
+        "subject": "Ni0:Ni-BO3, Co0:Co-BO3 and Fe0:Fe-BO3 composites",
+        "subject_role": "material_entity",
+        "predicate": "conducts heat through",
+        "object": "Phonon lattice vibration heat conduction",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity (sigma) of cold-pressed discs of these metal-doped composites shows that they behave as nonohmic semiconductors within the temperature range of 303 <= T <= 373 K suggesting a mixed electronic-ionic conduction. ",
+        "context_quotes": [
+          "However, their thermal conductivity (kappa) occurs through phonon lattice vibration dynamics rather than electronic. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1783:m",
+        "object_id": "P1783:phonon"
+      },
+      {
+        "relation_id": "P1783:r007",
+        "subject": "Ni0:Ni-BO3, Co0:Co-BO3 and Fe0:Fe-BO3 composites",
+        "subject_role": "material_entity",
+        "predicate": "conducts heat through",
+        "object": "Electronic heat conduction",
+        "object_role": "mechanism_process",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Heat conduction attributed to phonon lattice vibration dynamics instead",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The electrical conductivity (sigma) of cold-pressed discs of these metal-doped composites shows that they behave as nonohmic semiconductors within the temperature range of 303 <= T <= 373 K suggesting a mixed electronic-ionic conduction. ",
+        "context_quotes": [
+          "However, their thermal conductivity (kappa) occurs through phonon lattice vibration dynamics rather than electronic. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1783:m",
+        "object_id": "P1783:electronic"
+      },
+      {
+        "relation_id": "P1783:r008",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Steep nonlinear σ/κ increase from 9.4 to 270 K V^-2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Independent variable for increase not explicitly specified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The sigma/kappa ratio shows a steep non-linear increase from 9.4 to 270 KV-2 in Ni-0:Ni-BO3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:ratio"
+      },
+      {
+        "relation_id": "P1783:r009",
+        "subject": "Co0:Co-BO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Moderate-weak σ/κ increase",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with steep nonlinear increase in Ni0:Ni-BO3; independent variable unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The sigma/kappa ratio shows a steep non-linear increase from 9.4 to 270 KV-2 in Ni-0:Ni-BO3. ",
+        "context_quotes": [
+          "In contrast, a moderate-weak increase is observed for Co-0:Co-BO3 and Fe-0:Fe-BO3 analogs. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1783:co",
+        "object_id": "P1783:weak"
+      },
+      {
+        "relation_id": "P1783:r010",
+        "subject": "Fe0:Fe-BO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Moderate-weak σ/κ increase",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with steep nonlinear increase in Ni0:Ni-BO3; independent variable unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The sigma/kappa ratio shows a steep non-linear increase from 9.4 to 270 KV-2 in Ni-0:Ni-BO3. ",
+        "context_quotes": [
+          "In contrast, a moderate-weak increase is observed for Co-0:Co-BO3 and Fe-0:Fe-BO3 analogs. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1783:fe",
+        "object_id": "P1783:weak"
+      },
+      {
+        "relation_id": "P1783:r011",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Seebeck coefficient of 80 μV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "All the TE data shows that Ni-0:Ni-BO3 (S, 80 mu VK-1; PF, 97.7 mWm(-1) K-1; ZT 0.54; eta, 2.15%) is a better TE semiconductor than the other two M-T(0):M-T-BO3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:s"
+      },
+      {
+        "relation_id": "P1783:r012",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "has reported",
+        "object": "Power factor of 97.7 mW m^-1 K^-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "All the TE data shows that Ni-0:Ni-BO3 (S, 80 mu VK-1; PF, 97.7 mWm(-1) K-1; ZT 0.54; eta, 2.15%) is a better TE semiconductor than the other two M-T(0):M-T-BO3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:pf"
+      },
+      {
+        "relation_id": "P1783:r013",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "ZT of 0.54",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "All the TE data shows that Ni-0:Ni-BO3 (S, 80 mu VK-1; PF, 97.7 mWm(-1) K-1; ZT 0.54; eta, 2.15%) is a better TE semiconductor than the other two M-T(0):M-T-BO3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:zt"
+      },
+      {
+        "relation_id": "P1783:r014",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Conversion efficiency of 2.15%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "All the TE data shows that Ni-0:Ni-BO3 (S, 80 mu VK-1; PF, 97.7 mWm(-1) K-1; ZT 0.54; eta, 2.15%) is a better TE semiconductor than the other two M-T(0):M-T-BO3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:eff"
+      },
+      {
+        "relation_id": "P1783:r015",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Better thermoelectric semiconductor performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with Co0:Co-BO3 and Fe0:Fe-BO3",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "All the TE data shows that Ni-0:Ni-BO3 (S, 80 mu VK-1; PF, 97.7 mWm(-1) K-1; ZT 0.54; eta, 2.15%) is a better TE semiconductor than the other two M-T(0):M-T-BO3. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:better"
+      },
+      {
+        "relation_id": "P1783:r016",
+        "subject": "Ni0:Ni-BO3",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Small-scale harvesting of low-temperature waste heat from body heat, sunshine and small domestic devices",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "This finding shows that Ni-0:Ni-BO3 is a promising candidate to exploit low-temperature waste heat from body heat, sunshine, and small domestic devices for small-scale TE applications.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1783:ni",
+        "object_id": "P1783:use"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1784",
+    "title": "The influence of temperature and composition on the crystal properties of Al1-xBxN semiconducting ternary alloys",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. "
+      },
+      {
+        "id": 1,
+        "text": "The authors' results show that by adding more B atoms into AlN, the material under focus becomes less compressible, less ionic and its energy band gap still ( Gamma -X) indirect for all alloy compositions x of interest exhibiting a bowing parameter of 1.24 eV. "
+      },
+      {
+        "id": 2,
+        "text": "The calculated phonon density of states indicates soft modes for B contents in the interval 0.5 <= x <= 0.8 suggesting thus non-dynamical stability of the ground-state phase in this composition range. "
+      },
+      {
+        "id": 3,
+        "text": "The temperature dependence of structural and transport properties is examined and discussed. "
+      },
+      {
+        "id": 4,
+        "text": "The thermal conductivity of cubic BN at 300 K is recorded as 0.862 kW/m center dot K showing a very good accord with the experimental values reported in the literature."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1784:b",
+        "label": "Increasing B composition x",
+        "role": "condition"
+      },
+      {
+        "id": "P1784:compress",
+        "label": "Compressibility",
+        "role": "quantity"
+      },
+      {
+        "id": "P1784:ionic",
+        "label": "Ionic character",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1784:m",
+        "label": "Al1-xBxN alloys in hypothetical zinc-blende structure",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1784:gap",
+        "label": "Indirect Γ–X energy bandgap",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1784:bow",
+        "label": "Bandgap bowing parameter of 1.24 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1784:range",
+        "label": "B content 0.5 ≤ x ≤ 0.8",
+        "role": "condition"
+      },
+      {
+        "id": "P1784:soft",
+        "label": "Soft phonon modes",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1784:unstable",
+        "label": "Non-dynamical stability of ground-state phase",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1784:bn",
+        "label": "Cubic BN",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1784:k",
+        "label": "Thermal conductivity of 0.862 kW/(m·K) at 300 K",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1784:r001",
+        "subject": "Increasing B composition x",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Compressibility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles total-energy calculations; hypothetical zinc-blende Al1-xBxN",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The authors' results show that by adding more B atoms into AlN, the material under focus becomes less compressible, less ionic and its energy band gap still ( Gamma -X) indirect for all alloy compositions x of interest exhibiting a bowing parameter of 1.24 eV. "
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. "
+        ],
+        "subject_id": "P1784:b",
+        "object_id": "P1784:compress"
+      },
+      {
+        "relation_id": "P1784:r002",
+        "subject": "Increasing B composition x",
+        "subject_role": "condition",
+        "predicate": "decreases",
+        "object": "Ionic character",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles total-energy calculations; hypothetical zinc-blende Al1-xBxN",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The authors' results show that by adding more B atoms into AlN, the material under focus becomes less compressible, less ionic and its energy band gap still ( Gamma -X) indirect for all alloy compositions x of interest exhibiting a bowing parameter of 1.24 eV. "
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. "
+        ],
+        "subject_id": "P1784:b",
+        "object_id": "P1784:ionic"
+      },
+      {
+        "relation_id": "P1784:r003",
+        "subject": "Al1-xBxN alloys in hypothetical zinc-blende structure",
+        "subject_role": "material_entity",
+        "predicate": "retains",
+        "object": "Indirect Γ–X energy bandgap",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "All alloy compositions considered; first-principles total-energy calculations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The authors' results show that by adding more B atoms into AlN, the material under focus becomes less compressible, less ionic and its energy band gap still ( Gamma -X) indirect for all alloy compositions x of interest exhibiting a bowing parameter of 1.24 eV. "
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. "
+        ],
+        "subject_id": "P1784:m",
+        "object_id": "P1784:gap"
+      },
+      {
+        "relation_id": "P1784:r004",
+        "subject": "Al1-xBxN alloys in hypothetical zinc-blende structure",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Bandgap bowing parameter of 1.24 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles total-energy calculations; hypothetical zinc-blende structure",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The authors' results show that by adding more B atoms into AlN, the material under focus becomes less compressible, less ionic and its energy band gap still ( Gamma -X) indirect for all alloy compositions x of interest exhibiting a bowing parameter of 1.24 eV. "
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. "
+        ],
+        "subject_id": "P1784:m",
+        "object_id": "P1784:bow"
+      },
+      {
+        "relation_id": "P1784:r005",
+        "subject": "B content 0.5 ≤ x ≤ 0.8",
+        "subject_role": "condition",
+        "predicate": "is associated with",
+        "object": "Soft phonon modes",
+        "object_role": "state_structure",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "Calculated phonon density of states; hypothetical zinc-blende Al1-xBxN",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The calculated phonon density of states indicates soft modes for B contents in the interval 0.5 <= x <= 0.8 suggesting thus non-dynamical stability of the ground-state phase in this composition range. "
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+          "The calculated phonon density of states indicates soft modes for B contents in the interval 0.5 <= x <= 0.8 suggesting thus non-dynamical stability of the ground-state phase in this composition range. "
+        ],
+        "subject_id": "P1784:range",
+        "object_id": "P1784:soft"
+      },
+      {
+        "relation_id": "P1784:r006",
+        "subject": "Soft phonon modes",
+        "subject_role": "state_structure",
+        "predicate": "suggests",
+        "object": "Non-dynamical stability of ground-state phase",
+        "object_role": "state_structure",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "Ground-state phase for 0.5 ≤ x ≤ 0.8; hypothetical zinc-blende structure",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The calculated phonon density of states indicates soft modes for B contents in the interval 0.5 <= x <= 0.8 suggesting thus non-dynamical stability of the ground-state phase in this composition range. "
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+          "The calculated phonon density of states indicates soft modes for B contents in the interval 0.5 <= x <= 0.8 suggesting thus non-dynamical stability of the ground-state phase in this composition range. "
+        ],
+        "subject_id": "P1784:soft",
+        "object_id": "P1784:unstable"
+      },
+      {
+        "relation_id": "P1784:r007",
+        "subject": "Cubic BN",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Thermal conductivity of 0.862 kW/(m·K) at 300 K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "First-principles study; good agreement with experimental literature values",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. ",
+        "context_quotes": [
+          "The thermal conductivity of cubic BN at 300 K is recorded as 0.862 kW/m center dot K showing a very good accord with the experimental values reported in the literature."
+        ],
+        "modality_evidence": [
+          "Structural parameters, energy band gaps, electronic charge density, phonon modes and transport properties ofAl(1-x)B(x)Nternary alloys in the hypothetical zinc-blende structure are investigated using first-principles total-energy calculations. "
+        ],
+        "subject_id": "P1784:bn",
+        "object_id": "P1784:k"
+      }
+    ]
+  }
+]

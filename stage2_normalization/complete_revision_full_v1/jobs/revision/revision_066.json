@@ -1,0 +1,852 @@
+[
+  {
+    "paper_id": "P0281",
+    "title": "High Power Density Electrochemical Thermocells for Inexpensively Harvesting Low-Grade Thermal Energy",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Continuously operating thermo-electrochemical cells (thermocells) are of interest for harvesting low-grade waste thermal energy because of their potentially low cost compared with conventional thermo-electrics. "
+      },
+      {
+        "id": 1,
+        "text": "Pt-free thermocells devised here provide an output power of 12 W m(-2) for an interelectrode temperature difference (Delta T) of 81 degrees C, which is sixfold higher power than previously reported for planar thermocells operating at ambient pressure."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0281:cell",
+        "label": "Pt-free thermocells",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0281:power",
+        "label": "Output power density of 12 W m−2",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0281:r001",
+        "subject": "Pt-free thermocells",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Output power density of 12 W m−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Interelectrode temperature difference of 81 °C; sixfold higher power than previously reported planar thermocells operating at ambient pressure",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Pt-free thermocells devised here provide an output power of 12 W m(-2) for an interelectrode temperature difference (Delta T) of 81 degrees C, which is sixfold higher power than previously reported for planar thermocells operating at ambient pressure.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0281:cell",
+        "object_id": "P0281:power"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0282",
+    "title": "Thermocells-enabled low-grade heat harvesting: challenge, progress, and prospects",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Low-grade heat is abundant and ubiquitous, but it is generally discarded due to the lack of cost-effective recovery technologies. "
+      },
+      {
+        "id": 1,
+        "text": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. "
+      },
+      {
+        "id": 2,
+        "text": "According to the temperature gradient-potential relationship, TECs can be divided into p-type (V-hot - V-cold/T-hot - T-cold < 0) and n-type (V-hot - V-cold/T-hot - T-cold > 0). "
+      },
+      {
+        "id": 3,
+        "text": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. "
+      },
+      {
+        "id": 4,
+        "text": "This paper first summarizes the thermo-electric performances of p-type and n-type TECs. "
+      },
+      {
+        "id": 5,
+        "text": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. "
+      },
+      {
+        "id": 6,
+        "text": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. "
+      },
+      {
+        "id": 7,
+        "text": "Then, this paper reviews the recent advances in TECs, especially n-type, from the aspects of electrolytes, electrodes, and integrated devices. "
+      },
+      {
+        "id": 8,
+        "text": "Finally, this paper proposes potential research directions for high-performance TECs. "
+      },
+      {
+        "id": 9,
+        "text": "(c) 2022 Elsevier Ltd. "
+      },
+      {
+        "id": 10,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0282:p",
+        "label": "p-type TECs",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0282:neg",
+        "label": "V-hot - V-cold/T-hot - T-cold < 0",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0282:n",
+        "label": "n-type TECs",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0282:pos",
+        "label": "V-hot - V-cold/T-hot - T-cold > 0",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0282:pi",
+        "label": "Pi-integration of p-type and n-type TECs",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0282:layout",
+        "label": "Electrically in series and thermally in parallel",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0282:voltage",
+        "label": "Higher output voltages",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0282:short",
+        "label": "Thermal shorts",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0282:bench",
+        "label": "State-of-the-art p-type Fe(CN)6(4−/3−) TECs",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0282:cost",
+        "label": "Commercializable cost-performance metric",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0282:lag",
+        "label": "Lagging n-type thermopower and power density",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0282:recovery",
+        "label": "Heat recovery with integrated p-n TECs",
+        "role": "application"
+      },
+      {
+        "id": "P0282:pairs",
+        "label": "Identified potential p-type and n-type redox pairs",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0282:dt",
+        "label": "High absolute temperature coefficient |dE0/dT|",
+        "role": "quantity"
+      },
+      {
+        "id": "P0282:ep",
+        "label": "Low absolute electrode potential |E0|",
+        "role": "quantity"
+      },
+      {
+        "id": "P0282:high",
+        "label": "High-performance TECs",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0282:r001",
+        "subject": "p-type TECs",
+        "subject_role": "material_entity",
+        "predicate": "is classified by",
+        "object": "V-hot - V-cold/T-hot - T-cold < 0",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature gradient-potential relationship",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "According to the temperature gradient-potential relationship, TECs can be divided into p-type (V-hot - V-cold/T-hot - T-cold < 0) and n-type (V-hot - V-cold/T-hot - T-cold > 0). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:p",
+        "object_id": "P0282:neg"
+      },
+      {
+        "relation_id": "P0282:r002",
+        "subject": "n-type TECs",
+        "subject_role": "material_entity",
+        "predicate": "is classified by",
+        "object": "V-hot - V-cold/T-hot - T-cold > 0",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature gradient-potential relationship",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "According to the temperature gradient-potential relationship, TECs can be divided into p-type (V-hot - V-cold/T-hot - T-cold < 0) and n-type (V-hot - V-cold/T-hot - T-cold > 0). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:n",
+        "object_id": "P0282:pos"
+      },
+      {
+        "relation_id": "P0282:r003",
+        "subject": "Pi-integration of p-type and n-type TECs",
+        "subject_role": "design_strategy",
+        "predicate": "has configuration",
+        "object": "Electrically in series and thermally in parallel",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:pi",
+        "object_id": "P0282:layout"
+      },
+      {
+        "relation_id": "P0282:r004",
+        "subject": "Pi-integration of p-type and n-type TECs",
+        "subject_role": "design_strategy",
+        "predicate": "is required to obtain",
+        "object": "Higher output voltages",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Integration of single p-type and n-type TECs",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:pi",
+        "object_id": "P0282:voltage"
+      },
+      {
+        "relation_id": "P0282:r005",
+        "subject": "Pi-integration of p-type and n-type TECs",
+        "subject_role": "design_strategy",
+        "predicate": "is required to avoid",
+        "object": "Thermal shorts",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Integration of single p-type and n-type TECs",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:pi",
+        "object_id": "P0282:short"
+      },
+      {
+        "relation_id": "P0282:r006",
+        "subject": "State-of-the-art p-type Fe(CN)6(4−/3−) TECs",
+        "subject_role": "material_entity",
+        "predicate": "possesses",
+        "object": "Commercializable cost-performance metric",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:bench",
+        "object_id": "P0282:cost"
+      },
+      {
+        "relation_id": "P0282:r007",
+        "subject": "n-type TECs",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Lagging n-type thermopower and power density",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with state-of-the-art p-type TECs",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:n",
+        "object_id": "P0282:lag"
+      },
+      {
+        "relation_id": "P0282:r008",
+        "subject": "Lagging n-type thermopower and power density",
+        "subject_role": "performance_function",
+        "predicate": "hinders",
+        "object": "Heat recovery with integrated p-n TECs",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "review_synthesis",
+        "quote": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:lag",
+        "object_id": "P0282:recovery"
+      },
+      {
+        "relation_id": "P0282:r009",
+        "subject": "Identified potential p-type and n-type redox pairs",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "High absolute temperature coefficient |dE0/dT|",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Identified through analysis of TEC thermodynamics, kinetics and bottlenecks; individual pairs unnamed",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:pairs",
+        "object_id": "P0282:dt"
+      },
+      {
+        "relation_id": "P0282:r010",
+        "subject": "Identified potential p-type and n-type redox pairs",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Low absolute electrode potential |E0|",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Identified through analysis of TEC thermodynamics, kinetics and bottlenecks; individual pairs unnamed",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:pairs",
+        "object_id": "P0282:ep"
+      },
+      {
+        "relation_id": "P0282:r011",
+        "subject": "Identified potential p-type and n-type redox pairs",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "High-performance TECs",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "High |dE0/dT| and low |E0|",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "review_synthesis",
+        "quote": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0282:pairs",
+        "object_id": "P0282:high"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0283",
+    "title": "Supramolecular Thermo-Electrochemical Cells: Enhanced Thermoelectric Performance by Host-Guest Complexation and Salt-Induced Crystallization",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermo-electrochemical cells have potential to generate thermoelectric voltage 1 order higher than that given by semiconductor materials. "
+      },
+      {
+        "id": 1,
+        "text": "To overcome the current issues in thermoelectric energy conversion, it is of paramount importance to grow and fulfill the full potential of thermo-electrochemical cells. "
+      },
+      {
+        "id": 2,
+        "text": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. "
+      },
+      {
+        "id": 3,
+        "text": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. "
+      },
+      {
+        "id": 4,
+        "text": "This temperature-dependent host-guest interaction provides a concentration gradient of redox ion pairs between two electrodes, leading to the eminent performance of the thermo-electrochemical cells. "
+      },
+      {
+        "id": 5,
+        "text": "The figure of merit for this system, zT reached a high value of 5 x 10(-3). "
+      },
+      {
+        "id": 6,
+        "text": "The introduction of host-guest chemistry to thermoelectric cells thus provides a new perspective in thermoelectric energy conversion."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0283:method",
+        "label": "Supramolecular methodology for thermo-electrochemical cells",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0283:se",
+        "label": "Seebeck coefficient of approximately 2.0 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0283:host",
+        "label": "alpha-Cyclodextrin",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0283:guest",
+        "label": "Triiodide ions",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0283:complex",
+        "label": "Triiodide–alpha-cyclodextrin host-guest complexation",
+        "role": "interaction"
+      },
+      {
+        "id": "P0283:low",
+        "label": "Lower temperatures",
+        "role": "condition"
+      },
+      {
+        "id": "P0283:high",
+        "label": "Elevated temperatures",
+        "role": "condition"
+      },
+      {
+        "id": "P0283:gradient",
+        "label": "Redox ion-pair concentration gradient between electrodes",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0283:perf",
+        "label": "Enhanced thermo-electrochemical cell performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0283:cell",
+        "label": "Supramolecular thermo-electrochemical cell system",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0283:zt",
+        "label": "Figure of merit zT of 5 × 10−3",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0283:r001",
+        "subject": "Supramolecular methodology for thermo-electrochemical cells",
+        "subject_role": "design_strategy",
+        "predicate": "yields",
+        "object": "Seebeck coefficient of approximately 2.0 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Around ambient temperatures; reported as the highest Seebeck coefficient",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0283:method",
+        "object_id": "P0283:se"
+      },
+      {
+        "relation_id": "P0283:r002",
+        "subject": "alpha-Cyclodextrin",
+        "subject_role": "material_entity",
+        "predicate": "encapsulates",
+        "object": "Triiodide ions",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature-dependent equilibrium",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0283:host",
+        "object_id": "P0283:guest"
+      },
+      {
+        "relation_id": "P0283:r003",
+        "subject": "Supramolecular methodology for thermo-electrochemical cells",
+        "subject_role": "design_strategy",
+        "predicate": "is based on",
+        "object": "Triiodide–alpha-cyclodextrin host-guest complexation",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. ",
+        "context_quotes": [
+          "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0283:method",
+        "object_id": "P0283:complex"
+      },
+      {
+        "relation_id": "P0283:r004",
+        "subject": "Lower temperatures",
+        "subject_role": "condition",
+        "predicate": "shifts equilibrium toward",
+        "object": "Triiodide–alpha-cyclodextrin host-guest complexation",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0283:low",
+        "object_id": "P0283:complex"
+      },
+      {
+        "relation_id": "P0283:r005",
+        "subject": "Elevated temperatures",
+        "subject_role": "condition",
+        "predicate": "reverses equilibrium preference for",
+        "object": "Triiodide–alpha-cyclodextrin host-guest complexation",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Relative to lower temperatures",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0283:high",
+        "object_id": "P0283:complex"
+      },
+      {
+        "relation_id": "P0283:r006",
+        "subject": "Triiodide–alpha-cyclodextrin host-guest complexation",
+        "subject_role": "interaction",
+        "predicate": "creates",
+        "object": "Redox ion-pair concentration gradient between electrodes",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature-dependent host-guest interaction",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+        "context_quotes": [
+          "This temperature-dependent host-guest interaction provides a concentration gradient of redox ion pairs between two electrodes, leading to the eminent performance of the thermo-electrochemical cells. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0283:complex",
+        "object_id": "P0283:gradient"
+      },
+      {
+        "relation_id": "P0283:r007",
+        "subject": "Redox ion-pair concentration gradient between electrodes",
+        "subject_role": "state_structure",
+        "predicate": "leads to",
+        "object": "Enhanced thermo-electrochemical cell performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This temperature-dependent host-guest interaction provides a concentration gradient of redox ion pairs between two electrodes, leading to the eminent performance of the thermo-electrochemical cells. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0283:gradient",
+        "object_id": "P0283:perf"
+      },
+      {
+        "relation_id": "P0283:r008",
+        "subject": "Supramolecular thermo-electrochemical cell system",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Figure of merit zT of 5 × 10−3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. ",
+        "context_quotes": [
+          "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+          "The figure of merit for this system, zT reached a high value of 5 x 10(-3). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0283:cell",
+        "object_id": "P0283:zt"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0284",
+    "title": "Cost-effective n-type thermocells enabled by thermosensitive crystallizations and 3D multi-structured electrodes",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Emerging thermocells have the commercialized potential for directly harvesting low-grade heat. "
+      },
+      {
+        "id": 1,
+        "text": "Although a huge progress in p-type thermocells, their n-type counterpart has seriously lagged, becoming a major bottleneck for practical utilization of their integrated devices. "
+      },
+      {
+        "id": 2,
+        "text": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. "
+      },
+      {
+        "id": 3,
+        "text": "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+      },
+      {
+        "id": 4,
+        "text": "Furthermore, a high-performance p-n junction of thermocells was demonstrated with a 14.5 times enhancement of output, paving the way for advancing the integrated devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0284:crystal",
+        "label": "Cu-based thermosensitive crystallization",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0284:thermo",
+        "label": "Improved n-type thermocell thermodynamic characteristics",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0284:kin",
+        "label": "Improved n-type thermocell kinetic characteristics",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0284:cell",
+        "label": "Optimized Cu/Cu2+-based thermocell system",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0284:se",
+        "label": "Seebeck coefficient of 1.66 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0284:pd",
+        "label": "Power density of 3.5 W m−2",
+        "role": "quantity"
+      },
+      {
+        "id": "P0284:cost",
+        "label": "Cost-performance metric of approximately $3.28 W−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0284:pn",
+        "label": "p-n junction of thermocells",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0284:output",
+        "label": "14.5 times enhancement of output",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0284:r001",
+        "subject": "Cu-based thermosensitive crystallization",
+        "subject_role": "mechanism_process",
+        "predicate": "synergistically boosts",
+        "object": "Improved n-type thermocell thermodynamic characteristics",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "3D multi-structured electrodes"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0284:crystal",
+        "object_id": "P0284:thermo"
+      },
+      {
+        "relation_id": "P0284:r002",
+        "subject": "Cu-based thermosensitive crystallization",
+        "subject_role": "mechanism_process",
+        "predicate": "synergistically boosts",
+        "object": "Improved n-type thermocell kinetic characteristics",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "3D multi-structured electrodes"
+        ],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0284:crystal",
+        "object_id": "P0284:kin"
+      },
+      {
+        "relation_id": "P0284:r003",
+        "subject": "Optimized Cu/Cu2+-based thermocell system",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Seebeck coefficient of 1.66 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Superior to the p-type benchmark",
+        "joint_factors": [
+          "Cu-based thermosensitive crystallization",
+          "3D multi-structured electrodes"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+        "context_quotes": [
+          "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0284:cell",
+        "object_id": "P0284:se"
+      },
+      {
+        "relation_id": "P0284:r004",
+        "subject": "Optimized Cu/Cu2+-based thermocell system",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Power density of 3.5 W m−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Superior to the p-type benchmark",
+        "joint_factors": [
+          "Cu-based thermosensitive crystallization",
+          "3D multi-structured electrodes"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+        "context_quotes": [
+          "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0284:cell",
+        "object_id": "P0284:pd"
+      },
+      {
+        "relation_id": "P0284:r005",
+        "subject": "Optimized Cu/Cu2+-based thermocell system",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Cost-performance metric of approximately $3.28 W−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Superior to the p-type benchmark",
+        "joint_factors": [
+          "Cu-based thermosensitive crystallization",
+          "3D multi-structured electrodes"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+        "context_quotes": [
+          "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0284:cell",
+        "object_id": "P0284:cost"
+      },
+      {
+        "relation_id": "P0284:r006",
+        "subject": "p-n junction of thermocells",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "14.5 times enhancement of output",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Comparison baseline unspecified",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, a high-performance p-n junction of thermocells was demonstrated with a 14.5 times enhancement of output, paving the way for advancing the integrated devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0284:pn",
+        "object_id": "P0284:output"
+      }
+    ]
+  }
+]

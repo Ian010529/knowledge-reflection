@@ -1,0 +1,154 @@
+{
+  "status": "development_gate_failed_no_full_corpus_run",
+  "full_corpus_authorized_to_start": false,
+  "domains": {
+    "iTE": {
+      "old": {
+        "strict_correct": 214,
+        "relations": 296,
+        "strict_precision": 0.722972972972973,
+        "verdict_counts": {
+          "partial": 76,
+          "supported": 214,
+          "uncertain": 6
+        },
+        "accepted_strict_correct": 213,
+        "accepted_relations": 292,
+        "coverage": {
+          "all_scope": {
+            "complete_valid": 191,
+            "denominator": 343,
+            "ratio": 0.5568513119533528,
+            "partial": 108,
+            "missing": 31,
+            "uncertain_references": 36
+          },
+          "core": {
+            "complete_valid": 120,
+            "denominator": 204,
+            "ratio": 0.5882352941176471,
+            "partial": 61,
+            "missing": 13,
+            "uncertain_references": 26
+          }
+        }
+      },
+      "new": {
+        "strict_correct": 290,
+        "relations": 328,
+        "strict_precision": 0.8841463414634146,
+        "verdict_counts": {
+          "supported": 290,
+          "partial": 32,
+          "uncertain": 6
+        },
+        "accepted_strict_correct": 289,
+        "accepted_relations": 321,
+        "coverage": {
+          "all_scope": {
+            "complete_valid": 248,
+            "denominator": 343,
+            "ratio": 0.7230320699708455,
+            "partial": 63,
+            "missing": 12,
+            "uncertain_references": 36
+          },
+          "core": {
+            "complete_valid": 152,
+            "denominator": 204,
+            "ratio": 0.7450980392156863,
+            "partial": 31,
+            "missing": 4,
+            "uncertain_references": 26
+          }
+        }
+      },
+      "regressions": [],
+      "gate": {
+        "precision": false,
+        "no_protected_harm": true,
+        "coverage": true
+      }
+    },
+    "TG": {
+      "old": {
+        "strict_correct": 197,
+        "relations": 233,
+        "strict_precision": 0.8454935622317596,
+        "verdict_counts": {
+          "supported": 197,
+          "partial": 36
+        },
+        "accepted_strict_correct": 196,
+        "accepted_relations": 232,
+        "coverage": {
+          "all_scope": {
+            "complete_valid": 198,
+            "denominator": 304,
+            "ratio": 0.6513157894736842,
+            "partial": 47,
+            "missing": 53,
+            "uncertain_references": 11
+          },
+          "core": {
+            "complete_valid": 60,
+            "denominator": 91,
+            "ratio": 0.6593406593406593,
+            "partial": 21,
+            "missing": 10,
+            "uncertain_references": 3
+          }
+        }
+      },
+      "new": {
+        "strict_correct": 259,
+        "relations": 279,
+        "strict_precision": 0.9283154121863799,
+        "verdict_counts": {
+          "supported": 259,
+          "partial": 20
+        },
+        "accepted_strict_correct": 259,
+        "accepted_relations": 279,
+        "coverage": {
+          "all_scope": {
+            "complete_valid": 255,
+            "denominator": 304,
+            "ratio": 0.8388157894736842,
+            "partial": 27,
+            "missing": 11,
+            "uncertain_references": 11
+          },
+          "core": {
+            "complete_valid": 75,
+            "denominator": 91,
+            "ratio": 0.8241758241758241,
+            "partial": 11,
+            "missing": 2,
+            "uncertain_references": 3
+          }
+        }
+      },
+      "regressions": [],
+      "gate": {
+        "precision": true,
+        "no_protected_harm": true,
+        "coverage": true
+      }
+    }
+  },
+  "protected_relation_regressions": [],
+  "identical_record_judge_disagreements": [],
+  "reference_dispute_count": 47,
+  "model": "gpt-6-astra",
+  "reasoning": "medium",
+  "completed_calls": 44,
+  "usage": {
+    "input_tokens": 1096652,
+    "cached_input_tokens": 51968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 166268,
+    "reasoning_output_tokens": 10114
+  },
+  "development_not_population_estimate": true
+}

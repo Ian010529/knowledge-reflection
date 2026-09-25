@@ -1,0 +1,3029 @@
+{
+  "elapsed_since_first_production_call_seconds": 2396.106466293335,
+  "totals": {
+    "input_tokens": 14773842,
+    "cached_input_tokens": 4736000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1394601,
+    "reasoning_output_tokens": 130605
+  },
+  "by_phase": {
+    "mapping": {
+      "input_tokens": 707518,
+      "cached_input_tokens": 61440,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 35504,
+      "reasoning_output_tokens": 3303
+    },
+    "rejections": {
+      "input_tokens": 99396,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1618,
+      "reasoning_output_tokens": 641
+    },
+    "coverage": {
+      "input_tokens": 603733,
+      "cached_input_tokens": 30720,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36239,
+      "reasoning_output_tokens": 5016
+    },
+    "reference": {
+      "input_tokens": 226899,
+      "cached_input_tokens": 20992,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 80403,
+      "reasoning_output_tokens": 2356
+    },
+    "precision": {
+      "input_tokens": 437735,
+      "cached_input_tokens": 40960,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 10379,
+      "reasoning_output_tokens": 4859
+    },
+    "revision": {
+      "input_tokens": 12698561,
+      "cached_input_tokens": 4581888,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1230458,
+      "reasoning_output_tokens": 114430
+    }
+  },
+  "attempts": [
+    {
+      "path": "graph/runs/mapping_012/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_015/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_023/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_024/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_025/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_022/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_014/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_013/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_031/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_036/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_009/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_007/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_038/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_006/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_001/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_037/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_008/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_030/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_029/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_016/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_011/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_018/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_027/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_020/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_021/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_019/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_026/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_010/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_028/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_017/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_035/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_032/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_004/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_003/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_002/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_005/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_033/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "graph/runs/mapping_034/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/rejections_002/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_009/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_007/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/rejections_003/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/rejections_004/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_006/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_001/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_008/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_004/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_003/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_012/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_015/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_023/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_024/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_002/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_005/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_022/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_014/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_013/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_009/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_007/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_011/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_006/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_001/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_008/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_010/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_012/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_015/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_014/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_013/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_004/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_003/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/rejections_001/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_002/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_005/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_016/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_011/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_018/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_020/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_007/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_009/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_021/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_019/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_010/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_017/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_008/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_006/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_001/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_012/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_015/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_004/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_003/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_014/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/reference_013/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_002/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/precision_005/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_016/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_011/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_018/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_020/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_021/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_019/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_010/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "acceptance/runs/coverage_017/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_136/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_304/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_109/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_303/attempt_01/events.jsonl",
+      "usage_events": 0,
+      "failure": true
+    },
+    {
+      "path": "runs/revision_303/attempt_02/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_131/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_335/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_107/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_138/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_100/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_332/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_359/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_366/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_154/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_392/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_198/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_395/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_153/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_361/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_368/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_191/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_165/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_357/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_350/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_162/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_196/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_333/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_101/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_106/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_334/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_139/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_130/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_302/attempt_01/events.jsonl",
+      "usage_events": 0,
+      "failure": true
+    },
+    {
+      "path": "runs/revision_302/attempt_02/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_305/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_137/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_108/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_197/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_163/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_351/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_369/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_356/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_164/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_190/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_199/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_360/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_152/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_394/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_358/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_393/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_155/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_367/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_443/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_027/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_215/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_018/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_488/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_212/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_020/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_444/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_486/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_472/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_224/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_016/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_029/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_011/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_223/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_475/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_481/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_248/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_277/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_045/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_421/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_283/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_089/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_419/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_284/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_426/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_042/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_270/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_279/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_080/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_074/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_246/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_410/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_428/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_417/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_241/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_073/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_087/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_480/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_222/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_010/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_474/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_473/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_017/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_225/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_487/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_028/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_021/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_213/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_445/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_442/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_214/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_026/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_489/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_019/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_429/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_086/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_416/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_072/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_240/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_278/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_247/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_075/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_411/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_081/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_418/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_088/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_427/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_271/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_043/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_285/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_249/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_282/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_044/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_276/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_420/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_092/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_402/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_254/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_066/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_059/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_061/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_253/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_405/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_095/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_298/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_433/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_057/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_265/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_291/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_068/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_296/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_262/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_050/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_434/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_209/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_004/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_236/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_460/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_458/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_467/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_231/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_003/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_238/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_207/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_035/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_451/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_469/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_456/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_032/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_200/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_051/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_263/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_435/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_297/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_290/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_432/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_264/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_056/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_069/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_094/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_252/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_060/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_404/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_299/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_403/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_067/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_255/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_093/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_058/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_468/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_457/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_201/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_033/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_239/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_034/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_206/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_450/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_459/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_466/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_002/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_002/attempt_02/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_230/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_208/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_237/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_005/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_461/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_183/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_345/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_177/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_148/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_170/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_342/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_184/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_389/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_146/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_374/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_380/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_179/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_387/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_373/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_141/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_318/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_115/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_327/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_320/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_112/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_329/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_316/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_124/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_123/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_311/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_140/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_372/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_386/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_381/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_375/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_147/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_178/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_185/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_343/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_171/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_388/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_176/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_344/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_182/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_149/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_310/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_122/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_328/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_125/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_317/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_113/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_321/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_319/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_326/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_114/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_396/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_362/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_150/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_168/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_157/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_365/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_391/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_398/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_161/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_353/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_195/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_159/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_192/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_354/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_166/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_132/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_300/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_307/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_135/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_338/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_331/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_103/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_104/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_336/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_309/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_158/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_167/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_355/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_193/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_399/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_194/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_352/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_160/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_169/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_390/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_364/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_156/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_151/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_363/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_397/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_337/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_105/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_308/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_102/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_330/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_134/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_306/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_339/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_301/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_133/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_287/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_425/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_273/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_041/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_079/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_046/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_274/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_422/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_280/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_289/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_414/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_070/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_242/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_084/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_048/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_083/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_245/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_077/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_413/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_023/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_211/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_447/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_478/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_440/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_216/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_024/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_229/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_220/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_012/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_476/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_482/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_449/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_485/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_471/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_015/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_227/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_218/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_049/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_076/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_244/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_412/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_082/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_288/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_085/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_415/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_243/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_071/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_078/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_281/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_275/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_047/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_423/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_424/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_040/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_272/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_286/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_470/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_226/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_014/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_484/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_219/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_483/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_013/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_221/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_477/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_448/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_441/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_025/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_217/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_228/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_210/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_022/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_446/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_479/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_464/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_232/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_038/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_235/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_007/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_463/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_455/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_203/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_031/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_009/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_036/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_204/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_452/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_250/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_062/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_406/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_096/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_439/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_091/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_401/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_065/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_257/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_268/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_295/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_053/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_261/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_437/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_098/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_408/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_430/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_266/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_054/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_292/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_259/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_008/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_205/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_037/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_453/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_454/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_030/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_202/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_039/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_006/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_234/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_462/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_465/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_233/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_001/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_293/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_431/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_055/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_267/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_258/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_260/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_052/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_436/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_294/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_409/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_099/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_400/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_256/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_064/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_090/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_269/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_097/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_063/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_251/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_407/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_438/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_111/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_323/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_129/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_324/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_116/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_312/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_120/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_118/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_127/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_315/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_341/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_173/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_187/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_180/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_174/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_346/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_379/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_384/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_142/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_370/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_189/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_377/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_145/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_383/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_348/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_119/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_314/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_126/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_121/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_313/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_128/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_117/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_325/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_322/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_110/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_382/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_144/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_376/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_349/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_371/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_143/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_385/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_188/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_347/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_175/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_181/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_378/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_186/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_172/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    },
+    {
+      "path": "runs/revision_340/attempt_01/events.jsonl",
+      "usage_events": 1,
+      "failure": false
+    }
+  ],
+  "attempt_count": 594,
+  "usage_event_count": 592,
+  "note": "Sum of reported CLI turn.completed usage across all new attempts, including technical retries. Cached-input tokens are a subset of input_tokens and are not added twice. Failed attempts with no usage event have unknown usage, not proven zero. Earlier 40-paper development costs are excluded; those results were reused. ChatGPT subscription route; no paid API dollar estimate."
+}

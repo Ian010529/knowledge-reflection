@@ -1,0 +1,497 @@
+[
+  {
+    "concept_id": "iTE:C3d9e7026fa6a4a",
+    "before": {
+      "label": "Thermoelectric properties (ionic)",
+      "definition": "Properties characterizing thermoelectric response associated with ion redistribution or diffusion."
+    },
+    "after": {
+      "label": "Thermoelectric properties (ionic)",
+      "definition": "Properties characterizing the thermoelectric response of ionic thermoelectric materials or devices."
+    },
+    "reason": "删除并非全部成员明确报告的离子重分布/扩散机制限定；保留已明示的离子热电语境。",
+    "review_type": "current_assistant_source_evidence_review_not_human_gold",
+    "all_member_evidence": [
+      {
+        "mention_id": "iTE:P0384:te",
+        "label": "Thermoelectric properties",
+        "role": "performance_function",
+        "paper_id": "P0384",
+        "title": "Ionic Thermoelectric Generators in Vertical and Planar Topologies Based on Fluorinated Polymer Hybrid Materials with Ionic Liquids",
+        "relations": [
+          {
+            "relation_id": "P0384:r005",
+            "subject": "Ionic liquid content",
+            "subject_role": "condition",
+            "predicate": "jointly affects",
+            "object": "Thermoelectric properties",
+            "object_role": "performance_function",
+            "quote": "The TE properties depend on both IL content and device topology-vertical or planar-the largest generated voltage range being obtained for the planar topology and the sample with 10 wt% of IL content, characterized by a Seebeck coefficient of 1.2 mV K-1. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Vertical and planar devices",
+            "joint_factors": [
+              "Vertical or planar device topology"
+            ],
+            "scope": "device_thermal_management",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0416:te",
+        "label": "Thermoelectric properties",
+        "role": "performance_function",
+        "paper_id": "P0416",
+        "title": "Cation-Doped Ionic Thermoelectric Ionogels With Nonlinear Temperature-Voltage Response Characteristics",
+        "relations": [
+          {
+            "relation_id": "P0416:r007",
+            "subject": "Doping cations with different charge quantities and ionic radii",
+            "subject_role": "design_strategy",
+            "predicate": "regulates",
+            "object": "Thermoelectric properties",
+            "object_role": "performance_function",
+            "quote": "By doping a series of cations with different properties such as charge quantity and ionic radius, the ion-ion interactions are analyzed to explore the influencing mechanism on the nonlinear feature arising from the dynamic reconstruction of ion concentration. ",
+            "context_quotes": [
+              "This work reveals the role of cation doping in regulating thermoelectric properties from the perspectives of ion-ion interactions and demonstrates the application of ionogels in thermal management via nonlinear thermal response."
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Interpreted from the perspective of ion–ion interactions; no effect direction specified",
+            "joint_factors": [],
+            "scope": "thermodynamics",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0496:te",
+        "label": "Thermoelectric properties",
+        "role": "performance_function",
+        "paper_id": "P0496",
+        "title": "Dual-Cation Doping Thermoelectric PVA Hydrogel for Self-Powered Strain Sensors",
+        "relations": [
+          {
+            "relation_id": "P0496:r002",
+            "subject": "H+ and alkali-metal dual-cation doping of PVA hydrogels",
+            "subject_role": "design_strategy",
+            "predicate": "is designed to improve",
+            "object": "Thermoelectric properties",
+            "object_role": "performance_function",
+            "quote": "Here, a dual-cation doping strategy is used to regulate ion diffusion rate to improve the thermoelectric properties of ionic hydrogels, and a series of poly(vinyl alcohol) (PVA)-based hydrogels doped by dual cations (i.e., hydrogen ions and alkali metal cations, such as Li+, Na+, and K+) are prepared by a facile cyclic freeze-thaw method. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Through regulation of ion diffusion rate.",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "iTE:C3fb7e18a35b675",
+    "before": {
+      "label": "High electrical conductivity (electronic)",
+      "definition": "High ability to conduct electrical current through electronic carriers."
+    },
+    "after": {
+      "label": "High electrical conductivity",
+      "definition": "High ability to conduct electrical current."
+    },
+    "reason": "P0937未说明载流机制；删除标签和定义中的electronic，不加入新的载流子判断。",
+    "review_type": "current_assistant_source_evidence_review_not_human_gold",
+    "all_member_evidence": [
+      {
+        "mention_id": "iTE:P0488:ec",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P0488",
+        "title": "Structural modulation induced by cobalt-based ionic liquids for enhanced thermoelectric transport in PEDOT:PSS",
+        "relations": [
+          {
+            "relation_id": "P0488:r003",
+            "subject": "Efficient removal of PSS chains",
+            "subject_role": "mechanism_process",
+            "predicate": "jointly_accounts_for",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "A high sigma mainly resulted from the efficient removal of PSS chains, ordering of the structure and delocalization of bipoloran-dominant transport after conformational change. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Main attributed origins of high conductivity.",
+            "joint_factors": [
+              "Structural ordering",
+              "Delocalization of bipoloran-dominant transport"
+            ],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0606:n6",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P0606",
+        "title": "Chalcogenides as thermoelectric materials",
+        "relations": [
+          {
+            "relation_id": "P0606:r005",
+            "subject": "Enhanced carrier mobility",
+            "subject_role": "quantity",
+            "predicate": "favors",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "Moreover, tellurides are less ionic than sulfides or selenides, which leads to an enhanced carrier mobility that is advantageous for the desired high electrical conductivity. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "review_synthesis"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0779:n4",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P0779",
+        "title": "Enhanced longitudinal and transverse thermopowers at low temperature in quasi-one-dimensional antiferromagnet KMn6Bi5",
+        "relations": [
+          {
+            "relation_id": "P0779:r003",
+            "subject": "KMn6Bi5",
+            "subject_role": "material_entity",
+            "predicate": "exhibits",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "Here, we report a significantly large thermoelectric power factor (PF) up to 50 mu W cm(-1) K-2 at an extremely low temperature of similar to 8 K in a quasi-one-dimensional (Q1D) antiferromagnet KMn6Bi5, in which highly electrical conductivity and dramatic enhancement of Seebeck coefficient may favor its occurrence. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          },
+          {
+            "relation_id": "P0779:r005",
+            "subject": "High electrical conductivity",
+            "subject_role": "quantity",
+            "predicate": "may_jointly_favor",
+            "object": "Thermoelectric power factor up to 50 μW cm−1 K−2",
+            "object_role": "performance_function",
+            "quote": "Here, we report a significantly large thermoelectric power factor (PF) up to 50 mu W cm(-1) K-2 at an extremely low temperature of similar to 8 K in a quasi-one-dimensional (Q1D) antiferromagnet KMn6Bi5, in which highly electrical conductivity and dramatic enhancement of Seebeck coefficient may favor its occurrence. ",
+            "context_quotes": [],
+            "assertion": "hypothesis",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Power factor reported at approximately 8 K.",
+            "joint_factors": [
+              "High electrical conductivity",
+              "Dramatically enhanced Seebeck coefficient"
+            ],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          },
+          {
+            "relation_id": "P0779:r009",
+            "subject": "Unusually strong coupling among spin, charge, lattice, and one dimensionality",
+            "subject_role": "interaction",
+            "predicate": "is_attributed_as_origin_of",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "Here, we report a significantly large thermoelectric power factor (PF) up to 50 mu W cm(-1) K-2 at an extremely low temperature of similar to 8 K in a quasi-one-dimensional (Q1D) antiferromagnet KMn6Bi5, in which highly electrical conductivity and dramatic enhancement of Seebeck coefficient may favor its occurrence. ",
+            "context_quotes": [
+              "All these intriguing characteristics observed in KMn6Bi5 can be attributed to the manifestation of the unusually strong coupling among spin, charge, lattice, and one dimensionality in KMn6Bi5. "
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0815:ec",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P0815",
+        "title": "Flexible Wet-Spun PEDOT:PSS Microfibers Integrating Thermal-Sensing and Joule Heating Functions for Smart Textiles",
+        "relations": [
+          {
+            "relation_id": "P0815:r004",
+            "subject": "PEDOT:PSS conductive polymer microfibers",
+            "subject_role": "material_entity",
+            "predicate": "has",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "In this work, we demonstrate a temperature-sensing and in situ heating functionalized conductive polymer microfiber by exploiting its high electrical conductivity and thermoelectric properties. ",
+            "context_quotes": [
+              "The conductive polymer microfibers were prepared by wet-spinning the PEDOT:PSS aqueous dispersion with ionic liquid additives, which was used to enhance the electrical and mechanical properties of the final microfibers. "
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0937:elec",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P0937",
+        "title": "Localized vibration and avoided crossing in SrTi11O20 for oxide thermoelectrics with intrinsically low thermal conductivity",
+        "relations": [
+          {
+            "relation_id": "P0937:r010",
+            "subject": "SrTi11O20",
+            "subject_role": "material_entity",
+            "predicate": "exhibits",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "A high electrical conductivity and low thermal conductivity are thus simultaneously obtained in SrTi11O20 with high thermoelectric performance. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Simultaneously with low thermal conductivity",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P1067:conductivity",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P1067",
+        "title": "Efficient biodegradable flexible hydrophobic thermoelectric material based on biomass-derived nanocellulose film and copper iodide thin nanostructured layer",
+        "relations": [
+          {
+            "relation_id": "P1067:r013",
+            "subject": "Suppression of grain boundary scattering",
+            "subject_role": "mechanism_process",
+            "predicate": "enables",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "In the most efficient TE sample CuI/NC, the obtained via SILAR 0.39 mu m thick nanostructured CuI film consists of cubic (1 1 1)-oriented gamma-CuI crystals with faceted surfaces of similar to 200-300 nm. ",
+            "context_quotes": [
+              "The high electrical conductivity (sigma) and shape of the sigma vs. temperature (T) curve of this CuI/NC sample is realized through suppression of grain boundary scattering due to tunneling currents in CuI. "
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Most efficient CuI/NC sample",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P1168:sigma",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P1168",
+        "title": "Hybridization of n-type Bi2Te3 crystals with liquid-like copper chalcogenide elicits record-high thermoelectric performance",
+        "relations": [
+          {
+            "relation_id": "P1168:r012",
+            "subject": "Carrier concentration pinned at optimal 1019 cm -3",
+            "subject_role": "state_structure",
+            "predicate": "retains",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "Meanwhile, a high electrical conductivity sigma is retained by pinning the carrier concentration nH in the optimal level of 1019 cm -3 with the incorporation of electron donors. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "With electron-donor incorporation",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P1802:conductive",
+        "label": "High electrical conductivity",
+        "role": "performance_function",
+        "paper_id": "P1802",
+        "title": "Robust and Highly Conductive PEDOT:PSS:Ag Nanowires/Polyethyleneimine Multilayers Based on Ionic Layer-by-Layer Assembly for E-Textiles and 3D Electronics",
+        "relations": [
+          {
+            "relation_id": "P1802:r003",
+            "subject": "PEDOT:PSS:Ag nanowire/counterionic multilayers",
+            "subject_role": "material_entity",
+            "predicate": "exhibits",
+            "object": "High electrical conductivity",
+            "object_role": "performance_function",
+            "quote": "This study shows the production of robust and highly conductive multilayers through the layer-by-layer (LBL) assembly of poly(3,4-ethylenedioxythiophene):poly( styrenesulfonate) (PE-DOT:PSS):Ag nanowires and counterionic compounds, including monomeric tris(2-aminoethyl)amine and chitosan and polyethylenimine (PEI). ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P1813:ec",
+        "label": "High electrical conductivity",
+        "role": "quantity",
+        "paper_id": "P1813",
+        "title": "Highly efficient thermo-electrochemical energy harvesting from graphene-carbon nanotube 'hybrid' aerogels",
+        "relations": [
+          {
+            "relation_id": "P1813:r008",
+            "subject": "Multiplex topologies",
+            "subject_role": "state_structure",
+            "predicate": "causes",
+            "object": "High electrical conductivity",
+            "object_role": "quantity",
+            "quote": "They exhibited high electrical conductivity due to multiplex topologies owing to the integration with carbon nanotubes, which has high density of states at van Hove singularities, accompanied by expected larger surface area and sufficient edge plane sites, which in-turn enhance surface adsorption and rapid ion transportation. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "Within the hybrid aerogels.",
+            "joint_factors": [],
+            "scope": "intrinsic_material_mechanism",
+            "claim_scope": "own_work"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "iTE:C835ef330237ca3",
+    "before": {
+      "label": "Rapid self-healing",
+      "definition": "Rapid autonomous repair or recovery of material integrity and associated properties after damage."
+    },
+    "after": {
+      "label": "Rapid self-healing",
+      "definition": "Rapid self-healing of a material after damage."
+    },
+    "reason": "两篇均明确快速自愈，未共同报告无需外部触发；删除autonomous及不必要的共同性能恢复要求。",
+    "review_type": "current_assistant_source_evidence_review_not_human_gold",
+    "all_member_evidence": [
+      {
+        "mention_id": "iTE:P0422:n10",
+        "label": "Rapid self-healing",
+        "role": "performance_function",
+        "paper_id": "P0422",
+        "title": "Multifunctional Elastic Supramolecular Hydrogels with Self-Healing, Adhesive, and Ionic Thermoelectric Property for Flexible Sensing and Energy Harvesting",
+        "relations": [
+          {
+            "relation_id": "P0422:r006",
+            "subject": "Supramolecular ionic hydrogel dynamic network",
+            "subject_role": "material_entity",
+            "predicate": "exhibits",
+            "object": "Rapid self-healing",
+            "object_role": "performance_function",
+            "quote": "Here, we present a transparent, ultra-stretchable ionic hydrogel constructed through synergistic host-guest interaction, hydrogen bonding, and electrostatic interactions. ",
+            "context_quotes": [
+              "The dynamic network exhibits outstanding mechanical performance (2173% strain, 340 kPa strength, 2.88 MJ m- 3 toughness), rapid self-healing, broad-substrate adhesion, and potent antibacterial activity. "
+            ],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "mechanical_environmental_stability",
+            "claim_scope": "own_work"
+          }
+        ]
+      },
+      {
+        "mention_id": "iTE:P0441:heal",
+        "label": "Rapid self-healing",
+        "role": "performance_function",
+        "paper_id": "P0441",
+        "title": "A Highly Stretchable Multifunctional Ionic Thermoelectric Gel for Integrated Energy Harvesting and Wearable Sensing",
+        "relations": [
+          {
+            "relation_id": "P0441:r011",
+            "subject": "SHED gel",
+            "subject_role": "material_entity",
+            "predicate": "undergoes",
+            "object": "Rapid self-healing",
+            "object_role": "performance_function",
+            "quote": "The resulting SHED gel adheres strongly to diverse substrates, undergoes rapid self-healing (94.65% tensile recovery; 330.7 ms conductivity restoration), and sustains performance under deformation. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "",
+            "joint_factors": [],
+            "scope": "mechanical_environmental_stability",
+            "claim_scope": "own_work"
+          },
+          {
+            "relation_id": "P0441:r012",
+            "subject": "Rapid self-healing",
+            "subject_role": "performance_function",
+            "predicate": "achieves",
+            "object": "Tensile recovery 94.65%",
+            "object_role": "quantity",
+            "quote": "The resulting SHED gel adheres strongly to diverse substrates, undergoes rapid self-healing (94.65% tensile recovery; 330.7 ms conductivity restoration), and sustains performance under deformation. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "SHED gel.",
+            "joint_factors": [],
+            "scope": "mechanical_environmental_stability",
+            "claim_scope": "own_work"
+          },
+          {
+            "relation_id": "P0441:r013",
+            "subject": "Rapid self-healing",
+            "subject_role": "performance_function",
+            "predicate": "achieves",
+            "object": "Conductivity restoration in 330.7 ms",
+            "object_role": "quantity",
+            "quote": "The resulting SHED gel adheres strongly to diverse substrates, undergoes rapid self-healing (94.65% tensile recovery; 330.7 ms conductivity restoration), and sustains performance under deformation. ",
+            "context_quotes": [],
+            "assertion": "author_claim",
+            "modality": "unspecified",
+            "modality_evidence": [],
+            "conditions": "SHED gel.",
+            "joint_factors": [],
+            "scope": "mechanical_environmental_stability",
+            "claim_scope": "own_work"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,3 +1,5 @@
+2026-09-25 最新质量补充：[修订后抽检](post_revision_audit_v1/REPORT.md)完成，严格关系精确率初评 74%/79%、纠正两条明确评价误判后 75%/80%，仍未达到 90%；40 个抽中合并组成员等价，3 个规范描述过细。小样本查漏不作全库召回率，见 [解释](post_revision_audit_v1/INTERPRETATION.md)。原图保持冻结，本轮未修图。
+
 2026-09-25 当前覆盖：[全量抽取](full_extraction_v1/REPORT.md)、[抽检与一次修订](full_audit_v1/REPORT.md)、[最小归一化与初版双图谱](initial_graph_v1/REPORT.md)、[24 对探索性 match](exploratory_match_v1/REPORT.md)均已完成。详细边界见 [最新状态](astra_judge_review/CURRENT_STATUS.md)。未证实修订后总体质量达标，未完成正式四组匹配对照或全文/SI 验证。下文较早的“当前/尚未”保留为历史，不据此重跑。
 
 最新结果：[60篇隔离上下文抽取验证](extraction_validation_v2/REPORT.md)，301→334条，复核后加权精确率iTE95.0%、TG96.9%，参考争议及区间仍需保留，稳定达标未证实。用户指出逐篇流程太慢，当前优先批处理吞吐和首轮高频错误。此前[12篇SOP实验](extraction_sop_v1/REPORT.md)及[40篇完整开发试验](match_pilot_v1/REPORT.md)保持冻结。

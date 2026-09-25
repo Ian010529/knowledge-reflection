@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "judgments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "concept_id": {
+            "type": "string"
+          },
+          "equivalence": {
+            "type": "string",
+            "enum": [
+              "equivalent",
+              "incorrect",
+              "uncertain"
+            ]
+          },
+          "canonical_fit": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "over_specific",
+              "over_broad",
+              "unsupported",
+              "uncertain"
+            ]
+          },
+          "problem_members": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "concept_id",
+          "equivalence",
+          "canonical_fit",
+          "problem_members",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "judgments"
+  ],
+  "additionalProperties": false
+}

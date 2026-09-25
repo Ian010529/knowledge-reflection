@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "judgments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "relation_id": {
+            "type": "string"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "correct_rejection",
+              "incorrect_rejection",
+              "uncertain"
+            ]
+          },
+          "retained_equivalent_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "relation_id",
+          "verdict",
+          "retained_equivalent_ids",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "judgments"
+  ],
+  "additionalProperties": false
+}

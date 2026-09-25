@@ -1,0 +1,1556 @@
+[
+  {
+    "paper_id": "P1305",
+    "title": "Modeling thermoelectric performance of p-type Cu3SbSe4-based chalcogenide materials using decision trees and structural risk error minimization intelligent computational methods",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Cu3SbSe4-based materials are ternary chalcogenides thermoelectric compounds with unique sphalerite super-lattice structures and adjustable characteristics which stand them out as promising material for attaining efficient thermal and electrical energy conversion. "
+      },
+      {
+        "id": 1,
+        "text": "The crystal structure of Cu3SbSe4-based materials consists of Cu-Se three dimensional frameworks with inserted CuSe4 tetrahedra layer. "
+      },
+      {
+        "id": 2,
+        "text": "This energy band structure and crystal arrangement in Cu3SbSe4-based materials lead to large seebeck coefficient, low thermal conductivity and large carrier mobility with restricted number of available carriers which hinders the potential of these materials as thermoelectric compound due to low value of thermoelectric performance. "
+      },
+      {
+        "id": 3,
+        "text": "Experimental methods of thermoelectric performance (using figure of merit as a measure of energy conversion efficiency) enhancement are laborious, costly and consume appreciable resources which necessitate the need of computational methods for figure of merit prediction. "
+      },
+      {
+        "id": 4,
+        "text": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. "
+      },
+      {
+        "id": 5,
+        "text": "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+      },
+      {
+        "id": 6,
+        "text": "Influence of inclusions on energy conversion efficiency of Cu3Sb1-xSnxSe4 and Cu3Sb1-xFexSe2.8S1.2 compounds was investigated using GESVR- based model. "
+      },
+      {
+        "id": 7,
+        "text": "The simplicity of descriptors coupled with the demonstrated precision would facilitate the exploration of Cu3SbSe4-based materials for green applications and ultimately address the current global energy crisis."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1305:m",
+        "label": "Cu3SbSe4-based materials",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1305:super",
+        "label": "Sphalerite super-lattice structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1305:framework",
+        "label": "Cu-Se three-dimensional frameworks",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1305:layer",
+        "label": "Inserted CuSe4 tetrahedra layer",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1305:band",
+        "label": "Energy-band structure of Cu3SbSe4-based materials",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1305:s",
+        "label": "Large Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P1305:k",
+        "label": "Low thermal conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1305:mob",
+        "label": "Large carrier mobility",
+        "role": "quantity"
+      },
+      {
+        "id": "P1305:carriers",
+        "label": "Restricted number of available carriers",
+        "role": "quantity"
+      },
+      {
+        "id": "P1305:performance",
+        "label": "Thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1305:rfr",
+        "label": "Random forest regression model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1305:zt",
+        "label": "Figure of merit of Cu3SbSe4-based materials",
+        "role": "quantity"
+      },
+      {
+        "id": "P1305:gesvr",
+        "label": "Genetically optimized support vector regression model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1305:temperature",
+        "label": "Temperature predictor",
+        "role": "condition"
+      },
+      {
+        "id": "P1305:radius",
+        "label": "Dopant ionic-radius predictor",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1305:concentration",
+        "label": "Dopant-concentration predictor",
+        "role": "quantity"
+      },
+      {
+        "id": "P1305:corr",
+        "label": "Reported correlation-coefficient improvement 188.04%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1305:mae",
+        "label": "Reported mean-absolute-error improvement 30.18%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1305:rmse",
+        "label": "Reported root-mean-square-error improvement 42.36%",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1305:r001",
+        "subject": "Cu3SbSe4-based materials",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Sphalerite super-lattice structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "Cu3SbSe4-based materials are ternary chalcogenides thermoelectric compounds with unique sphalerite super-lattice structures and adjustable characteristics which stand them out as promising material for attaining efficient thermal and electrical energy conversion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1305:m",
+        "object_id": "P1305:super"
+      },
+      {
+        "relation_id": "P1305:r002",
+        "subject": "Cu3SbSe4-based materials",
+        "subject_role": "material_entity",
+        "predicate": "has_crystal_framework",
+        "object": "Cu-Se three-dimensional frameworks",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of Cu3SbSe4-based materials consists of Cu-Se three dimensional frameworks with inserted CuSe4 tetrahedra layer. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1305:m",
+        "object_id": "P1305:framework"
+      },
+      {
+        "relation_id": "P1305:r003",
+        "subject": "Inserted CuSe4 tetrahedra layer",
+        "subject_role": "state_structure",
+        "predicate": "is_inserted_in",
+        "object": "Cu-Se three-dimensional frameworks",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu3SbSe4-based materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of Cu3SbSe4-based materials consists of Cu-Se three dimensional frameworks with inserted CuSe4 tetrahedra layer. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1305:layer",
+        "object_id": "P1305:framework"
+      },
+      {
+        "relation_id": "P1305:r004",
+        "subject": "Energy-band structure of Cu3SbSe4-based materials",
+        "subject_role": "state_structure",
+        "predicate": "jointly_leads_to",
+        "object": "Large Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu3SbSe4-based materials",
+        "joint_factors": [
+          "Energy-band structure of Cu3SbSe4-based materials",
+          "Crystal arrangement of Cu3SbSe4-based materials"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of Cu3SbSe4-based materials consists of Cu-Se three dimensional frameworks with inserted CuSe4 tetrahedra layer. ",
+        "context_quotes": [
+          "This energy band structure and crystal arrangement in Cu3SbSe4-based materials lead to large seebeck coefficient, low thermal conductivity and large carrier mobility with restricted number of available carriers which hinders the potential of these materials as thermoelectric compound due to low value of thermoelectric performance. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1305:band",
+        "object_id": "P1305:s"
+      },
+      {
+        "relation_id": "P1305:r005",
+        "subject": "Energy-band structure of Cu3SbSe4-based materials",
+        "subject_role": "state_structure",
+        "predicate": "jointly_leads_to",
+        "object": "Low thermal conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu3SbSe4-based materials",
+        "joint_factors": [
+          "Energy-band structure of Cu3SbSe4-based materials",
+          "Crystal arrangement of Cu3SbSe4-based materials"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of Cu3SbSe4-based materials consists of Cu-Se three dimensional frameworks with inserted CuSe4 tetrahedra layer. ",
+        "context_quotes": [
+          "This energy band structure and crystal arrangement in Cu3SbSe4-based materials lead to large seebeck coefficient, low thermal conductivity and large carrier mobility with restricted number of available carriers which hinders the potential of these materials as thermoelectric compound due to low value of thermoelectric performance. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1305:band",
+        "object_id": "P1305:k"
+      },
+      {
+        "relation_id": "P1305:r006",
+        "subject": "Energy-band structure of Cu3SbSe4-based materials",
+        "subject_role": "state_structure",
+        "predicate": "jointly_leads_to",
+        "object": "Large carrier mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu3SbSe4-based materials; restricted number of available carriers",
+        "joint_factors": [
+          "Energy-band structure of Cu3SbSe4-based materials",
+          "Crystal arrangement of Cu3SbSe4-based materials"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "The crystal structure of Cu3SbSe4-based materials consists of Cu-Se three dimensional frameworks with inserted CuSe4 tetrahedra layer. ",
+        "context_quotes": [
+          "This energy band structure and crystal arrangement in Cu3SbSe4-based materials lead to large seebeck coefficient, low thermal conductivity and large carrier mobility with restricted number of available carriers which hinders the potential of these materials as thermoelectric compound due to low value of thermoelectric performance. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1305:band",
+        "object_id": "P1305:mob"
+      },
+      {
+        "relation_id": "P1305:r007",
+        "subject": "Restricted number of available carriers",
+        "subject_role": "quantity",
+        "predicate": "limits",
+        "object": "Thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Cu3SbSe4-based materials",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "quote": "This energy band structure and crystal arrangement in Cu3SbSe4-based materials lead to large seebeck coefficient, low thermal conductivity and large carrier mobility with restricted number of available carriers which hinders the potential of these materials as thermoelectric compound due to low value of thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1305:carriers",
+        "object_id": "P1305:performance"
+      },
+      {
+        "relation_id": "P1305:r008",
+        "subject": "Random forest regression model",
+        "subject_role": "design_strategy",
+        "predicate": "models",
+        "object": "Figure of merit of Cu3SbSe4-based materials",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Random forest regression using temperature, dopant ionic radii and respective concentrations",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. "
+        ],
+        "subject_id": "P1305:rfr",
+        "object_id": "P1305:zt"
+      },
+      {
+        "relation_id": "P1305:r009",
+        "subject": "Genetically optimized support vector regression model",
+        "subject_role": "design_strategy",
+        "predicate": "models",
+        "object": "Figure of merit of Cu3SbSe4-based materials",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Genetic-algorithm-incorporated support vector regression using temperature, dopant ionic radii and respective concentrations",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. "
+        ],
+        "subject_id": "P1305:gesvr",
+        "object_id": "P1305:zt"
+      },
+      {
+        "relation_id": "P1305:r010",
+        "subject": "Temperature predictor",
+        "subject_role": "condition",
+        "predicate": "is_predictor_of",
+        "object": "Figure of merit of Cu3SbSe4-based materials",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "RFR and GESVR models; predictive input, not an independently established physical effect",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. "
+        ],
+        "subject_id": "P1305:temperature",
+        "object_id": "P1305:zt"
+      },
+      {
+        "relation_id": "P1305:r011",
+        "subject": "Dopant ionic-radius predictor",
+        "subject_role": "descriptor",
+        "predicate": "is_predictor_of",
+        "object": "Figure of merit of Cu3SbSe4-based materials",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "RFR and GESVR models; predictive input, not an independently established physical effect",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. "
+        ],
+        "subject_id": "P1305:radius",
+        "object_id": "P1305:zt"
+      },
+      {
+        "relation_id": "P1305:r012",
+        "subject": "Dopant-concentration predictor",
+        "subject_role": "quantity",
+        "predicate": "is_predictor_of",
+        "object": "Figure of merit of Cu3SbSe4-based materials",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "computational",
+        "conditions": "RFR and GESVR models; predictive input, not an independently established physical effect",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. "
+        ],
+        "subject_id": "P1305:concentration",
+        "object_id": "P1305:zt"
+      },
+      {
+        "relation_id": "P1305:r013",
+        "subject": "Genetically optimized support vector regression model",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Reported correlation-coefficient improvement 188.04%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Relative to RFR on testing samples of Cu3SbSe4-based compounds",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [
+          "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+        ],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+          "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+        ],
+        "subject_id": "P1305:gesvr",
+        "object_id": "P1305:corr"
+      },
+      {
+        "relation_id": "P1305:r014",
+        "subject": "Genetically optimized support vector regression model",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Reported mean-absolute-error improvement 30.18%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Relative to RFR on testing samples of Cu3SbSe4-based compounds",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [
+          "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+        ],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+          "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+        ],
+        "subject_id": "P1305:gesvr",
+        "object_id": "P1305:mae"
+      },
+      {
+        "relation_id": "P1305:r015",
+        "subject": "Genetically optimized support vector regression model",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Reported root-mean-square-error improvement 42.36%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Relative to RFR on testing samples of Cu3SbSe4-based compounds",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+        "context_quotes": [
+          "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+        ],
+        "modality_evidence": [
+          "In this contribution, figure of merit of Cu3SbSe4-based materials has been modeled through random forest regression (decision trees) and genetic algorithm incorporated support vector regression (structural risk error minimization-based) model using temperature, dopants ionic radii and their respective concentrations as predictors. ",
+          "Genetically optimized support vector regression (GESVR) model outperforms random forest regression (RFR)-based model with improvement of 188.04%, 30.18% and 42.36% using correlation coefficient, mean absolute error and root mean square error, respectively for testing samples of Cu3SbSe4-based compounds. "
+        ],
+        "subject_id": "P1305:gesvr",
+        "object_id": "P1305:rmse"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1306",
+    "title": "Experimental thermoelectric power of liquid silver-germanium alloys interpreted with an analytical energy-dependent calculation",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The absolute thermoelectric power of liquid Ag-Ge alloys has been measured as a Function of temperature over the whole phase diagram in 10 at.% steps, from the liquidus to 1150 degrees C. "
+      },
+      {
+        "id": 1,
+        "text": "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. "
+      },
+      {
+        "id": 2,
+        "text": "The experimental first peak asymmetry of both germanium and silver structure factors cannot be reproduced with hard spheres. "
+      },
+      {
+        "id": 3,
+        "text": "The Silbert-Young (1976, Phys. "
+      },
+      {
+        "id": 4,
+        "text": "Lett. "
+      },
+      {
+        "id": 5,
+        "text": "A, 58, 469) square-well potential describes them better for pure metal. "
+      },
+      {
+        "id": 6,
+        "text": "To minimize the uncertainty in the knowledge of the partial structure factors in the electronic transport properties of liquid metals, we used the same model extended to alloys by Gopala Rao and Das (1987, Phys. "
+      },
+      {
+        "id": 7,
+        "text": "Rev. "
+      },
+      {
+        "id": 8,
+        "text": "B, 36, 6325). "
+      },
+      {
+        "id": 9,
+        "text": "The muffin-tin potential used in this calculation to determine the t matrix is derived both from a screened ionic and from a neutral atomic potential."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1306:a",
+        "label": "Liquid Ag-Ge alloys",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1306:b",
+        "label": "Absolute thermoelectric power",
+        "role": "quantity"
+      },
+      {
+        "id": "P1306:c",
+        "label": "Extended Faber-Ziman analytical expression",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1306:d",
+        "label": "Partial structure factors",
+        "role": "quantity"
+      },
+      {
+        "id": "P1306:e",
+        "label": "Energy-dependent contribution",
+        "role": "quantity"
+      },
+      {
+        "id": "P1306:f",
+        "label": "Hard-sphere model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1306:g",
+        "label": "First-peak asymmetry of germanium and silver structure factors",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1306:h",
+        "label": "Silbert-Young square-well potential",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1306:i",
+        "label": "Alloy extension of square-well model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1306:j",
+        "label": "Uncertainty in partial structure factors for electronic transport",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1306:k",
+        "label": "Muffin-tin potential",
+        "role": "quantity"
+      },
+      {
+        "id": "P1306:l",
+        "label": "Screened ionic potential",
+        "role": "quantity"
+      },
+      {
+        "id": "P1306:m",
+        "label": "Neutral atomic potential",
+        "role": "quantity"
+      },
+      {
+        "id": "P1306:n",
+        "label": "t matrix",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1306:r001",
+        "subject": "Liquid Ag-Ge alloys",
+        "subject_role": "material_entity",
+        "predicate": "has_measured_property",
+        "object": "Absolute thermoelectric power",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Temperature dependence from liquidus to 1150 degrees C; whole phase diagram in 10 at.% steps",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The absolute thermoelectric power of liquid Ag-Ge alloys has been measured as a Function of temperature over the whole phase diagram in 10 at.% steps, from the liquidus to 1150 degrees C. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The absolute thermoelectric power of liquid Ag-Ge alloys has been measured as a Function of temperature over the whole phase diagram in 10 at.% steps, from the liquidus to 1150 degrees C. "
+        ],
+        "subject_id": "P1306:a",
+        "object_id": "P1306:b"
+      },
+      {
+        "relation_id": "P1306:r002",
+        "subject": "Extended Faber-Ziman analytical expression",
+        "subject_role": "design_strategy",
+        "predicate": "analytically_describes",
+        "object": "Absolute thermoelectric power",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "Extended Faber-Ziman formalism using partial structure factors and t-matrix formulation",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. "
+        ],
+        "subject_id": "P1306:c",
+        "object_id": "P1306:b"
+      },
+      {
+        "relation_id": "P1306:r003",
+        "subject": "Extended Faber-Ziman analytical expression",
+        "subject_role": "design_strategy",
+        "predicate": "uses",
+        "object": "Partial structure factors",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. "
+        ],
+        "subject_id": "P1306:c",
+        "object_id": "P1306:d"
+      },
+      {
+        "relation_id": "P1306:r004",
+        "subject": "Extended Faber-Ziman analytical expression",
+        "subject_role": "design_strategy",
+        "predicate": "includes_analytical_expression_for",
+        "object": "Energy-dependent contribution",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "theoretical",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "To interpret these original measurements we present an analytical expression of the thermoelectric power of the liquid alloys within the extended Faber-Ziman formalism in terms of partial structure factors and t-matrix formulation including, for the first time to our knowledge, an analytical expression of the energy-dependent contribution. "
+        ],
+        "subject_id": "P1306:c",
+        "object_id": "P1306:e"
+      },
+      {
+        "relation_id": "P1306:r005",
+        "subject": "Hard-sphere model",
+        "subject_role": "design_strategy",
+        "predicate": "reproduces",
+        "object": "First-peak asymmetry of germanium and silver structure factors",
+        "object_role": "descriptor",
+        "assertion": "negated",
+        "modality": "unspecified",
+        "conditions": "Experimentally observed first-peak asymmetry",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The experimental first peak asymmetry of both germanium and silver structure factors cannot be reproduced with hard spheres. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1306:f",
+        "object_id": "P1306:g"
+      },
+      {
+        "relation_id": "P1306:r006",
+        "subject": "Silbert-Young square-well potential",
+        "subject_role": "design_strategy",
+        "predicate": "better_describes",
+        "object": "First-peak asymmetry of germanium and silver structure factors",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Pure metal; compared with hard spheres",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The experimental first peak asymmetry of both germanium and silver structure factors cannot be reproduced with hard spheres. ",
+        "context_quotes": [
+          "The Silbert-Young (1976, Phys. ",
+          "Lett. ",
+          "A, 58, 469) square-well potential describes them better for pure metal. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1306:h",
+        "object_id": "P1306:g"
+      },
+      {
+        "relation_id": "P1306:r007",
+        "subject": "Alloy extension of square-well model",
+        "subject_role": "design_strategy",
+        "predicate": "used_to_minimize",
+        "object": "Uncertainty in partial structure factors for electronic transport",
+        "object_role": "descriptor",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Gopala Rao and Das extension to alloys",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "To minimize the uncertainty in the knowledge of the partial structure factors in the electronic transport properties of liquid metals, we used the same model extended to alloys by Gopala Rao and Das (1987, Phys. ",
+        "context_quotes": [
+          "Rev. ",
+          "B, 36, 6325). "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1306:i",
+        "object_id": "P1306:j"
+      },
+      {
+        "relation_id": "P1306:r008",
+        "subject": "Muffin-tin potential",
+        "subject_role": "quantity",
+        "predicate": "derived_from",
+        "object": "Screened ionic potential",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Calculation of t matrix",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The muffin-tin potential used in this calculation to determine the t matrix is derived both from a screened ionic and from a neutral atomic potential.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1306:k",
+        "object_id": "P1306:l"
+      },
+      {
+        "relation_id": "P1306:r009",
+        "subject": "Muffin-tin potential",
+        "subject_role": "quantity",
+        "predicate": "derived_from",
+        "object": "Neutral atomic potential",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Calculation of t matrix",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The muffin-tin potential used in this calculation to determine the t matrix is derived both from a screened ionic and from a neutral atomic potential.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1306:k",
+        "object_id": "P1306:m"
+      },
+      {
+        "relation_id": "P1306:r010",
+        "subject": "Muffin-tin potential",
+        "subject_role": "quantity",
+        "predicate": "used_to_determine",
+        "object": "t matrix",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The muffin-tin potential used in this calculation to determine the t matrix is derived both from a screened ionic and from a neutral atomic potential.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1306:k",
+        "object_id": "P1306:n"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1307",
+    "title": "Nonstoichiometric Salt Intercalation as a Means to Stabilize Alkali Doping of 2D Materials",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Although doping with alkali atoms is a powerful technique for introducing charge carriers into physical systems, the resulting charge-transfer systems are generally not air stable. "
+      },
+      {
+        "id": 1,
+        "text": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. "
+      },
+      {
+        "id": 2,
+        "text": "The crystalline interior of the salt crystal acts as a template to stabilize the excess dopant atoms against oxidation and deintercalation, which otherwise would be highly favorable. "
+      },
+      {
+        "id": 3,
+        "text": "We characterize this doping method for graphene, NbSe2, and Bi2Se3 and its effect on direct-to-indirect band gap transitions, 2D superconductivity, and thermoelectric performance. "
+      },
+      {
+        "id": 4,
+        "text": "Salt intercalation should be generally applicable to systems which can accommodate this ionic crystal doping (and particularly favorable when geometrical packing constraints favor non-stoichiometry)."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1307:a",
+        "label": "Doping with stoichiometrically unbalanced salt crystals containing excess cations",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1307:b",
+        "label": "Stability of alkali-doped materials",
+        "role": "performance_function"
+      },
+      {
+        "id": "P1307:c",
+        "label": "Doping levels similar to pure alkali metal doping",
+        "role": "quantity"
+      },
+      {
+        "id": "P1307:d",
+        "label": "Crystalline salt interior",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1307:e",
+        "label": "Excess dopant atoms",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1307:f",
+        "label": "Oxidation of excess dopant atoms",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1307:g",
+        "label": "Deintercalation of excess dopant atoms",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1307:h",
+        "label": "Systems accommodating ionic crystal doping",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1307:i",
+        "label": "Geometrical packing constraints favoring nonstoichiometry",
+        "role": "condition"
+      },
+      {
+        "id": "P1307:j",
+        "label": "In situ gating",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1307:k",
+        "label": "Deposition of excess cations",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1307:r001",
+        "subject": "Doping with stoichiometrically unbalanced salt crystals containing excess cations",
+        "subject_role": "design_strategy",
+        "predicate": "designed_to_increase",
+        "object": "Stability of alkali-doped materials",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. "
+        ],
+        "subject_id": "P1307:a",
+        "object_id": "P1307:b"
+      },
+      {
+        "relation_id": "P1307:r002",
+        "subject": "Doping with stoichiometrically unbalanced salt crystals containing excess cations",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Doping levels similar to pure alkali metal doping",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. "
+        ],
+        "subject_id": "P1307:a",
+        "object_id": "P1307:c"
+      },
+      {
+        "relation_id": "P1307:r003",
+        "subject": "Crystalline salt interior",
+        "subject_role": "state_structure",
+        "predicate": "templates_and_stabilizes",
+        "object": "Excess dopant atoms",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Against otherwise highly favorable oxidation and deintercalation",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. ",
+        "context_quotes": [
+          "The crystalline interior of the salt crystal acts as a template to stabilize the excess dopant atoms against oxidation and deintercalation, which otherwise would be highly favorable. "
+        ],
+        "modality_evidence": [
+          "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. "
+        ],
+        "subject_id": "P1307:d",
+        "object_id": "P1307:e"
+      },
+      {
+        "relation_id": "P1307:r004",
+        "subject": "Crystalline salt interior",
+        "subject_role": "state_structure",
+        "predicate": "suppresses",
+        "object": "Oxidation of excess dopant atoms",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Excess dopant atoms in nonstoichiometric salt crystals",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. ",
+        "context_quotes": [
+          "The crystalline interior of the salt crystal acts as a template to stabilize the excess dopant atoms against oxidation and deintercalation, which otherwise would be highly favorable. "
+        ],
+        "modality_evidence": [
+          "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. "
+        ],
+        "subject_id": "P1307:d",
+        "object_id": "P1307:f"
+      },
+      {
+        "relation_id": "P1307:r005",
+        "subject": "Crystalline salt interior",
+        "subject_role": "state_structure",
+        "predicate": "suppresses",
+        "object": "Deintercalation of excess dopant atoms",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Excess dopant atoms in nonstoichiometric salt crystals",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. ",
+        "context_quotes": [
+          "The crystalline interior of the salt crystal acts as a template to stabilize the excess dopant atoms against oxidation and deintercalation, which otherwise would be highly favorable. "
+        ],
+        "modality_evidence": [
+          "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. "
+        ],
+        "subject_id": "P1307:d",
+        "object_id": "P1307:g"
+      },
+      {
+        "relation_id": "P1307:r006",
+        "subject": "Doping with stoichiometrically unbalanced salt crystals containing excess cations",
+        "subject_role": "design_strategy",
+        "predicate": "proposed_applicable_to",
+        "object": "Systems accommodating ionic crystal doping",
+        "object_role": "material_entity",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Salt intercalation should be generally applicable to systems which can accommodate this ionic crystal doping (and particularly favorable when geometrical packing constraints favor non-stoichiometry).",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1307:a",
+        "object_id": "P1307:h"
+      },
+      {
+        "relation_id": "P1307:r007",
+        "subject": "Geometrical packing constraints favoring nonstoichiometry",
+        "subject_role": "condition",
+        "predicate": "makes_particularly_favorable",
+        "object": "Doping with stoichiometrically unbalanced salt crystals containing excess cations",
+        "object_role": "design_strategy",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Systems accommodating ionic crystal doping",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Salt intercalation should be generally applicable to systems which can accommodate this ionic crystal doping (and particularly favorable when geometrical packing constraints favor non-stoichiometry).",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1307:i",
+        "object_id": "P1307:a"
+      },
+      {
+        "relation_id": "P1307:r008",
+        "subject": "In situ gating",
+        "subject_role": "design_strategy",
+        "predicate": "could_enable",
+        "object": "Deposition of excess cations",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Here we describe computa-tionally a strategy towards increasing the stability of alkali-doped materials that employs stoichiometrically unbalanced salt crystals with excess cations (which could be deposited during, e.g., in situ gating) to achieve doping levels similar to those attained by pure alkali metal doping. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1307:j",
+        "object_id": "P1307:k"
+      }
+    ]
+  },
+  {
+    "paper_id": "P1308",
+    "title": "Extraordinary role of rare-earth elements on the transport properties of barium W-type hexaferrite",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. "
+      },
+      {
+        "id": 1,
+        "text": "The results obtained reveal that, by introducing a relatively small amount of R2O3 instead of Fe2O3, an important modification of both structure and physical properties can be obtained. "
+      },
+      {
+        "id": 2,
+        "text": "The dielectric constant epsilon', the dielectric loss factor epsilon '' and AC conductivity sigma of the investigating samples have highest values in the case of Sm3+. "
+      },
+      {
+        "id": 3,
+        "text": "The values of the calculated activation energy varied between (0.335 and 0.553 eV) and (0.106 and 0.232 eV), above and below the transition temperature, respectively which indicate the semiconducting properties of the prepared samples. "
+      },
+      {
+        "id": 4,
+        "text": "The conduction mechanism for Ho3+ sample is associated with the small polaron whereas the hopping conduction mechanism is predominant mechanism for the samples doped with the rest of rare-earth ions. "
+      },
+      {
+        "id": 5,
+        "text": "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+      },
+      {
+        "id": 6,
+        "text": "The charge carriers concentration n increases with slightly increasing RE ionic radius to critical value (approximate to 1.04 angstrom), after that n becomes nearly constant. "
+      },
+      {
+        "id": 7,
+        "text": "(C) 2008 Elsevier B.V. "
+      },
+      {
+        "id": 8,
+        "text": "All rights reserved."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P1308:b",
+        "label": "Small R2O3 substitution for Fe2O3",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P1308:c",
+        "label": "Structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1308:d",
+        "label": "Physical properties",
+        "role": "descriptor"
+      },
+      {
+        "id": "P1308:e",
+        "label": "Sm3+-substituted sample",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:f",
+        "label": "Dielectric constant",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:g",
+        "label": "Dielectric loss factor",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:h",
+        "label": "AC conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:a",
+        "label": "Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, Ce3+",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:i",
+        "label": "Activation energy 0.335–0.553 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:j",
+        "label": "Activation energy 0.106–0.232 eV",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:k",
+        "label": "Semiconducting behavior",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1308:l",
+        "label": "Ho3+-doped sample",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:m",
+        "label": "Small-polaron conduction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1308:n",
+        "label": "Y3+, Er3+, Sm3+, Nd3+, Gd3+, Ce3+-doped samples",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:o",
+        "label": "Hopping conduction",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P1308:p",
+        "label": "Ho3+, Sm3+, Nd3+, Gd3+, Ce3+-doped samples",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:q",
+        "label": "n-type semiconductivity",
+        "role": "state_structure"
+      },
+      {
+        "id": "P1308:r",
+        "label": "Er3+-doped sample",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:t",
+        "label": "Positive thermoelectric power",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:s",
+        "label": "Y3+-doped sample",
+        "role": "material_entity"
+      },
+      {
+        "id": "P1308:u",
+        "label": "Negative thermoelectric power",
+        "role": "quantity"
+      },
+      {
+        "id": "P1308:v",
+        "label": "Increasing RE ionic radius",
+        "role": "condition"
+      },
+      {
+        "id": "P1308:w",
+        "label": "Charge-carrier concentration",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P1308:r001",
+        "subject": "Small R2O3 substitution for Fe2O3",
+        "subject_role": "design_strategy",
+        "predicate": "modifies",
+        "object": "Structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "W-type hexaferrite",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The results obtained reveal that, by introducing a relatively small amount of R2O3 instead of Fe2O3, an important modification of both structure and physical properties can be obtained. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:b",
+        "object_id": "P1308:c"
+      },
+      {
+        "relation_id": "P1308:r002",
+        "subject": "Small R2O3 substitution for Fe2O3",
+        "subject_role": "design_strategy",
+        "predicate": "modifies",
+        "object": "Physical properties",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "W-type hexaferrite",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The results obtained reveal that, by introducing a relatively small amount of R2O3 instead of Fe2O3, an important modification of both structure and physical properties can be obtained. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:b",
+        "object_id": "P1308:d"
+      },
+      {
+        "relation_id": "P1308:r003",
+        "subject": "Sm3+-substituted sample",
+        "subject_role": "material_entity",
+        "predicate": "has_highest",
+        "object": "Dielectric constant",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Among investigated R substitutions; study ranges 300–750 K and 100 kHz–4 MHz",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The dielectric constant epsilon', the dielectric loss factor epsilon '' and AC conductivity sigma of the investigating samples have highest values in the case of Sm3+. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:e",
+        "object_id": "P1308:f"
+      },
+      {
+        "relation_id": "P1308:r004",
+        "subject": "Sm3+-substituted sample",
+        "subject_role": "material_entity",
+        "predicate": "has_highest",
+        "object": "Dielectric loss factor",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Among investigated R substitutions; study ranges 300–750 K and 100 kHz–4 MHz",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The dielectric constant epsilon', the dielectric loss factor epsilon '' and AC conductivity sigma of the investigating samples have highest values in the case of Sm3+. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:e",
+        "object_id": "P1308:g"
+      },
+      {
+        "relation_id": "P1308:r005",
+        "subject": "Sm3+-substituted sample",
+        "subject_role": "material_entity",
+        "predicate": "has_highest",
+        "object": "AC conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Among investigated R substitutions; study ranges 300–750 K and 100 kHz–4 MHz",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The dielectric constant epsilon', the dielectric loss factor epsilon '' and AC conductivity sigma of the investigating samples have highest values in the case of Sm3+. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:e",
+        "object_id": "P1308:h"
+      },
+      {
+        "relation_id": "P1308:r006",
+        "subject": "Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, Ce3+",
+        "subject_role": "material_entity",
+        "predicate": "has_calculated_activation_energy",
+        "object": "Activation energy 0.335–0.553 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Above transition temperature",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The values of the calculated activation energy varied between (0.335 and 0.553 eV) and (0.106 and 0.232 eV), above and below the transition temperature, respectively which indicate the semiconducting properties of the prepared samples. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:a",
+        "object_id": "P1308:i"
+      },
+      {
+        "relation_id": "P1308:r007",
+        "subject": "Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, Ce3+",
+        "subject_role": "material_entity",
+        "predicate": "has_calculated_activation_energy",
+        "object": "Activation energy 0.106–0.232 eV",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Below transition temperature",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The values of the calculated activation energy varied between (0.335 and 0.553 eV) and (0.106 and 0.232 eV), above and below the transition temperature, respectively which indicate the semiconducting properties of the prepared samples. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:a",
+        "object_id": "P1308:j"
+      },
+      {
+        "relation_id": "P1308:r008",
+        "subject": "Activation energy 0.335–0.553 eV",
+        "subject_role": "quantity",
+        "predicate": "indicates",
+        "object": "Semiconducting behavior",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Above transition temperature; jointly interpreted with below-transition activation energy",
+        "joint_factors": [
+          "Activation energy 0.106–0.232 eV"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The values of the calculated activation energy varied between (0.335 and 0.553 eV) and (0.106 and 0.232 eV), above and below the transition temperature, respectively which indicate the semiconducting properties of the prepared samples. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1308:i",
+        "object_id": "P1308:k"
+      },
+      {
+        "relation_id": "P1308:r009",
+        "subject": "Ho3+-doped sample",
+        "subject_role": "material_entity",
+        "predicate": "has_conduction_associated_with",
+        "object": "Small-polaron conduction",
+        "object_role": "mechanism_process",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The conduction mechanism for Ho3+ sample is associated with the small polaron whereas the hopping conduction mechanism is predominant mechanism for the samples doped with the rest of rare-earth ions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1308:l",
+        "object_id": "P1308:m"
+      },
+      {
+        "relation_id": "P1308:r010",
+        "subject": "Y3+, Er3+, Sm3+, Nd3+, Gd3+, Ce3+-doped samples",
+        "subject_role": "material_entity",
+        "predicate": "has_predominant_mechanism",
+        "object": "Hopping conduction",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The conduction mechanism for Ho3+ sample is associated with the small polaron whereas the hopping conduction mechanism is predominant mechanism for the samples doped with the rest of rare-earth ions. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P1308:n",
+        "object_id": "P1308:o"
+      },
+      {
+        "relation_id": "P1308:r011",
+        "subject": "Ho3+, Sm3+, Nd3+, Gd3+, Ce3+-doped samples",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "n-type semiconductivity",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Thermoelectric-power measurements",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The influence of R2O3 substitution on the electrical properties and the thermoelectric power on the W-type hexaferrite Ba0.95R0.05 Mg-0.5 Zn-0.5 CO Fe-16 O-27; R=Y3+, Er3+, Ho3+, Sm3+, Nd3+, Gd3+, and Ce3+ ions as a function of the absolute temperature and frequency in the ranges 300-750 K and 100 kHz-4 MHz, respectively have been studied. ",
+        "context_quotes": [
+          "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+        ],
+        "modality_evidence": [
+          "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+        ],
+        "subject_id": "P1308:p",
+        "object_id": "P1308:q"
+      },
+      {
+        "relation_id": "P1308:r012",
+        "subject": "Er3+-doped sample",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Positive thermoelectric power",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Low temperature",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+        ],
+        "subject_id": "P1308:r",
+        "object_id": "P1308:t"
+      },
+      {
+        "relation_id": "P1308:r013",
+        "subject": "Y3+-doped sample",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Positive thermoelectric power",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Low temperature",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+        ],
+        "subject_id": "P1308:s",
+        "object_id": "P1308:t"
+      },
+      {
+        "relation_id": "P1308:r014",
+        "subject": "Er3+-doped sample",
+        "subject_role": "material_entity",
+        "predicate": "transitions_to",
+        "object": "Negative thermoelectric power",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Above approximately 480 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+        ],
+        "subject_id": "P1308:r",
+        "object_id": "P1308:u"
+      },
+      {
+        "relation_id": "P1308:r015",
+        "subject": "Y3+-doped sample",
+        "subject_role": "material_entity",
+        "predicate": "transitions_to",
+        "object": "Negative thermoelectric power",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Above approximately 375 K",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The thermoelectric power measurements indicated that the samples are n-type semiconductors except Er3+ and Y3+ samples, where the thermoelectric power of them is positive at low temperature but nearly above 480 and 375 K, respectively transits to negative. "
+        ],
+        "subject_id": "P1308:s",
+        "object_id": "P1308:u"
+      },
+      {
+        "relation_id": "P1308:r016",
+        "subject": "Increasing RE ionic radius",
+        "subject_role": "condition",
+        "predicate": "increases",
+        "object": "Charge-carrier concentration",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Up to critical ionic radius approximately 1.04 angstrom",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The charge carriers concentration n increases with slightly increasing RE ionic radius to critical value (approximate to 1.04 angstrom), after that n becomes nearly constant. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1308:v",
+        "object_id": "P1308:w"
+      },
+      {
+        "relation_id": "P1308:r017",
+        "subject": "Increasing RE ionic radius",
+        "subject_role": "condition",
+        "predicate": "leaves_nearly_constant",
+        "object": "Charge-carrier concentration",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Beyond ionic radius approximately 1.04 angstrom",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The charge carriers concentration n increases with slightly increasing RE ionic radius to critical value (approximate to 1.04 angstrom), after that n becomes nearly constant. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P1308:v",
+        "object_id": "P1308:w"
+      }
+    ]
+  }
+]

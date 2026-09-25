@@ -1,0 +1,1013 @@
+[
+  {
+    "review_id": "M029",
+    "pair_id": "R6017f542323819",
+    "left": {
+      "claim": {
+        "subject": "Temporal or spatial temperature fluctuations with zero macroscopic temperature gradient",
+        "subject_role": "condition",
+        "predicate": "yield no",
+        "object": "Net voltage in conventional thermoelectric effects",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Conventional thermoelectric effects, including the Seebeck effect",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "background",
+        "id": "cr002",
+        "relation_id": "P0736:complete_v1_cr002",
+        "quote": "Although various power generators are made from them, all the known effects, such as Seebeck effect, require macroscopic temperature gradients; since the sign of the generated voltage is reversed by reversing the temperature gradient, the net voltage disappears when the temperature distribution fluctuates temporarily or spatially with a macroscopic temperature gradient of zero. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "evidence_spans": [
+          {
+            "start": 103,
+            "end": 484
+          }
+        ],
+        "modality_spans": [],
+        "status": "accepted",
+        "note": "",
+        "subject_id": "P0736:complete_v1_cr002_subject",
+        "object_id": "P0736:complete_v1_cr002_object",
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_177",
+          "action": "add"
+        },
+        "claim_id": "iTE:P0736:complete_v1_cr002",
+        "paper_id": "P0736",
+        "domain": "iTE",
+        "doi": "10.1038/s41467-024-50115-4",
+        "year": "2024",
+        "paper_title": "Observation of nonlinear thermoelectric effect in MoGe/Y3Fe5O12",
+        "article_role": "research",
+        "paper_input_hash": "90e28917c160cae14d4bb7619dc9da1f27df737c97bd90863f49a324b56aaae6",
+        "source": "iTE:Cc1b2c010d1e161",
+        "target": "iTE:C38d54f066d34bc"
+      },
+      "abstract": "Thermoelectric effects refer to the voltage generation from temperature gradients in condensed matter. Although various power generators are made from them, all the known effects, such as Seebeck effect, require macroscopic temperature gradients; since the sign of the generated voltage is reversed by reversing the temperature gradient, the net voltage disappears when the temperature distribution fluctuates temporarily or spatially with a macroscopic temperature gradient of zero. It is impossible to utilize such temperature fluctuations in the conventional thermoelectric effects, a situation which limits their application. Here we report the observation of a second-order nonlinear thermoelectric effect; we develop a method to measure nonlinear thermoelectricity and observe that a superconducting MoGe film on Y3Fe5O12 generates a voltage proportional to the square of the applied temperature gradient. The nonlinear thermoelectric generation demonstrated here provides a way for making power generators that produce electric power from temperature fluctuations.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "iTE:Cc1b2c010d1e161",
+          "label": "Temporal or spatial temperature fluctuations with zero macroscopic temperature gradient",
+          "definition": "",
+          "roles": [
+            "condition"
+          ],
+          "aliases": [
+            "Temporal or spatial temperature fluctuations with zero macroscopic temperature gradient"
+          ]
+        },
+        {
+          "concept_id": "iTE:C38d54f066d34bc",
+          "label": "Net voltage in conventional thermoelectric effects",
+          "definition": "",
+          "roles": [
+            "quantity"
+          ],
+          "aliases": [
+            "Net voltage in conventional thermoelectric effects"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": []
+    },
+    "right": {
+      "claim": {
+        "subject": "Temperature gradient",
+        "subject_role": "condition",
+        "predicate": "establishes",
+        "object": "Temperature-dependent electrochemical potential",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermogalvanic systems",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "background",
+        "id": "cr002",
+        "relation_id": "P0025:complete_v1_cr002",
+        "quote": "Thermogalvanic (TG) systems generate electricity by exploiting the temperature-dependent electrochemical potential established across a temperature gradient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 158
+          }
+        ],
+        "modality_spans": [],
+        "status": "accepted",
+        "note": "",
+        "subject_id": "P0025:complete_v1_cr002_subject",
+        "object_id": "P0025:complete_v1_cr001_object",
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_006",
+          "action": "add"
+        },
+        "claim_id": "TG:P0025:complete_v1_cr002",
+        "paper_id": "P0025",
+        "domain": "TG",
+        "doi": "10.1021/acs.chemmater.5c01558",
+        "year": "2025",
+        "paper_title": "Unraveling Reaction Kinetics and Thermodynamics in Thermogalvanic Hydrogels: A Pathway to Efficient Thermal Energy Harvesting",
+        "article_role": "research",
+        "paper_input_hash": "5ad842541526893ec9df24a756d6c8be2f43b6e899e9f93cc751687fa8c8ce64",
+        "source": "TG:C488b365b066e7b",
+        "target": "TG:C21c284da2ed68a"
+      },
+      "abstract": "Thermogalvanic (TG) systems generate electricity by exploiting the temperature-dependent electrochemical potential established across a temperature gradient. While previous studies have attributed performance enhancements to increased reaction entropy driven by changes in solvation structure, the interplay between entropy variations and reaction kinetics has not been systematically explored through electrochemical analysis. This study presents a comprehensive investigation of formamide (FA)/water-based TG hydrogels. Electrochemical analyses reveal that FA/water systems exhibit significantly higher reaction entropy compared to pure water systems, thus leading to enhanced thermopower. More importantly, the reaction kinetics of the TG hydrogels are examined using a stationary electrode for the first time. The results indicate that low FA concentrations promote the desolvation of redox ions, thereby accelerating the reaction kinetics and increasing the short-circuit current density. In addition, FA acts as a stabilizer for water, thereby lowering the activation energy of the redox reaction and resulting in a remarkable 60% improvement in overall thermoelectric power. This work provides insights into the fundamental mechanisms governing FA/water TG hydrogels and emphasizes the critical role of reaction kinetics in optimizing the thermoelectric performance for thermal energy harvesting applications.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "TG:C488b365b066e7b",
+          "label": "Temperature gradient",
+          "definition": "Spatial variation in temperature across a thermogalvanic cell.",
+          "roles": [
+            "condition"
+          ],
+          "aliases": [
+            "Temperature gradient"
+          ]
+        },
+        {
+          "concept_id": "TG:C21c284da2ed68a",
+          "label": "Temperature-dependent electrochemical potential",
+          "definition": "",
+          "roles": [
+            "quantity"
+          ],
+          "aliases": [
+            "Temperature-dependent electrochemical potential"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": [
+        {
+          "subject": "Thermogalvanic systems",
+          "subject_role": "material_entity",
+          "predicate": "generate_electricity_by_exploiting",
+          "object": "Temperature-dependent electrochemical potential",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "Across a temperature gradient",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0025:complete_v1_cr001",
+          "quote": "Thermogalvanic (TG) systems generate electricity by exploiting the temperature-dependent electrochemical potential established across a temperature gradient. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 158
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0025:complete_v1_cr001_subject",
+          "object_id": "P0025:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_006",
+            "action": "add"
+          },
+          "claim_id": "TG:P0025:complete_v1_cr001",
+          "paper_id": "P0025",
+          "domain": "TG",
+          "doi": "10.1021/acs.chemmater.5c01558",
+          "year": "2025",
+          "paper_title": "Unraveling Reaction Kinetics and Thermodynamics in Thermogalvanic Hydrogels: A Pathway to Efficient Thermal Energy Harvesting",
+          "article_role": "research",
+          "paper_input_hash": "5ad842541526893ec9df24a756d6c8be2f43b6e899e9f93cc751687fa8c8ce64",
+          "source": "TG:C1e30b90b8296f6",
+          "target": "TG:C21c284da2ed68a"
+        }
+      ]
+    }
+  },
+  {
+    "review_id": "M030",
+    "pair_id": "R3d581ffd9104ef",
+    "left": {
+      "claim": {
+        "id": "r002",
+        "relation_id": "P0433:r002",
+        "subject": "Temperature gradient",
+        "subject_role": "condition",
+        "subject_id": "P0433:grad",
+        "predicate": "drives",
+        "object": "Ionic thermoelectric energy conversion",
+        "object_role": "mechanism_process",
+        "object_id": "P0433:conv",
+        "quote": "By leveraging the latent heat buffering of composite phase-change materials and temperature gradient--driven ionic thermoelectric techniques, this work reports an integrated system combining electronic thermal management with ionic thermoelectric energy conversion. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "In integrated system.",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 481,
+            "end": 747
+          }
+        ],
+        "modality_spans": [],
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_103",
+          "action": "keep"
+        },
+        "claim_id": "iTE:P0433:r002",
+        "paper_id": "P0433",
+        "domain": "iTE",
+        "doi": "10.1088/1361-6463/ae5c15",
+        "year": "2026",
+        "paper_title": "Nanofluidic ionic thermoelectric energy conversion through the thermal management of electronic devices using composite phase-change material",
+        "article_role": "research",
+        "paper_input_hash": "18fd11e737b130350c02b4995de70132080da5b4da7c2898a751f032ba8b71ba",
+        "source": "iTE:C8a7bcec164104f",
+        "target": "iTE:C7ca9788e209245"
+      },
+      "abstract": "With the rapid growth of high-performance computing and big-data processing, electronic devices increasingly operate at high frequency and power, imposing stringent thermal management demands. Modern electronic thermal management systems face dual challenges: heat accumulation during continuous operation and pronounced temperature fluctuations under intermittent conditions. Meanwhile, the low-grade waste heat generated during operation is difficult to be efficiently utilized. By leveraging the latent heat buffering of composite phase-change materials and temperature gradient--driven ionic thermoelectric techniques, this work reports an integrated system combining electronic thermal management with ionic thermoelectric energy conversion. Next, numerical modeling and experimental measurements are conducted for parametric optimization. Under a heat flux of 3000 W m-2 and a continuous operation time of 120 min, the maximum surface temperature of the electronic device with the proposed system is experimentally maintained at 71.20 degrees C, compared with 89.67 degrees C for electronic devices individually coupled with ionic thermoelectric module and 74.23 degrees C for electronic devices coupled with ionic thermoelectric modules using pure phase-change materials. During intermittent operation with a 15 min on-off cycle, the peak-to-peak temperature fluctuation of electronic devices decreases from 25.23 degrees C to 17.22 degrees C by applying composite phase-change material. Furthermore, the ionic thermoelectric module delivers a maximum output power density of 165.98 mW m-2 in an alkaline electrolyte at a pH value of 11 compared to 93.48 mW m-2 under neutral conditions at 0.05 M ion concentration. The present work provides an effective strategy for simultaneously enhancing thermal stability and enabling low-grade thermal energy recovery in high-power electronic devices.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "iTE:C8a7bcec164104f",
+          "label": "Temperature gradient",
+          "definition": "Spatial variation of temperature that can drive transport or energy conversion.",
+          "roles": [
+            "condition"
+          ],
+          "aliases": [
+            "Temperature gradient"
+          ]
+        },
+        {
+          "concept_id": "iTE:C7ca9788e209245",
+          "label": "Ionic thermoelectric energy conversion",
+          "definition": "",
+          "roles": [
+            "mechanism_process"
+          ],
+          "aliases": [
+            "Ionic thermoelectric energy conversion"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": [
+        {
+          "id": "r004",
+          "relation_id": "P0433:r004",
+          "subject": "Integrated electronic thermal-management and ionic thermoelectric system",
+          "subject_role": "material_entity",
+          "subject_id": "P0433:sys",
+          "predicate": "combines",
+          "object": "Ionic thermoelectric energy conversion",
+          "object_role": "mechanism_process",
+          "object_id": "P0433:conv",
+          "quote": "By leveraging the latent heat buffering of composite phase-change materials and temperature gradient--driven ionic thermoelectric techniques, this work reports an integrated system combining electronic thermal management with ionic thermoelectric energy conversion. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Temperature-gradient-driven conversion.",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 481,
+              "end": 747
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_103",
+            "action": "keep"
+          },
+          "claim_id": "iTE:P0433:r004",
+          "paper_id": "P0433",
+          "domain": "iTE",
+          "doi": "10.1088/1361-6463/ae5c15",
+          "year": "2026",
+          "paper_title": "Nanofluidic ionic thermoelectric energy conversion through the thermal management of electronic devices using composite phase-change material",
+          "article_role": "research",
+          "paper_input_hash": "18fd11e737b130350c02b4995de70132080da5b4da7c2898a751f032ba8b71ba",
+          "source": "iTE:C35f7dde18c1285",
+          "target": "iTE:C7ca9788e209245"
+        }
+      ]
+    },
+    "right": {
+      "claim": {
+        "subject": "Temperature gradient",
+        "subject_role": "condition",
+        "predicate": "drives",
+        "object": "Thermal diffusion of mass",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "background",
+        "id": "cr002",
+        "relation_id": "P0222:complete_v1_cr002",
+        "quote": "It is a balance between diffusion of mass driven by the temperature gradient (thermal diffusion) and mass diffusion acting to remove the concentration gradient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "evidence_spans": [
+          {
+            "start": 106,
+            "end": 267
+          }
+        ],
+        "modality_spans": [],
+        "status": "accepted",
+        "note": "",
+        "subject_id": "P0222:complete_v1_cr002_subject",
+        "object_id": "P0222:complete_v1_cr002_object",
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_052",
+          "action": "add"
+        },
+        "claim_id": "TG:P0222:complete_v1_cr002",
+        "paper_id": "P0222",
+        "domain": "TG",
+        "doi": "10.1039/c9me00145j",
+        "year": "2020",
+        "paper_title": "The Soret effect in dry polymer electrolyte",
+        "article_role": "research",
+        "paper_input_hash": "a8842f8b3d4a1b4e9bdfd10f6e625f37af90fae2a657c4f3668b6b7ac8954544",
+        "source": "TG:C68acbca33840d7",
+        "target": "TG:Ce8ba1ae467ff9d"
+      },
+      "abstract": "The Soret effect results in a concentration gradient when a mixture is exposed to a temperature gradient. It is a balance between diffusion of mass driven by the temperature gradient (thermal diffusion) and mass diffusion acting to remove the concentration gradient. Thus, the Soret effect is measured at steady state. In this work, the Soret effect was studied in a thermogalvanic cell with lithium metal electrodes and a dry polymer electrolyte composed of poly(ethylene oxide) and lithium bis-trifluoromethanesulfonylimide (LiTFSI). The concentration gradient was determined by measuring the voltage of the thermogalvanic cell. This was examined at several different temperature gradients and with four different salt concentrations. The Soret coefficient was found to be similar to that observed in small-molecule mixtures and electrolytes and significantly less than polymeric systems. An explanation for this unexpected result is proffered. The Soret coefficient was found to be concentration dependent, which requires further investigation. Finally, it was demonstrated that the thermogalvanic cells used to measure the Soret coefficient can also be used to generate power. Thus, polymer electrolytes are potentially of interest for waste heat recovery, and thermal diffusion might be used to improve battery efficiency.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "TG:C68acbca33840d7",
+          "label": "Temperature gradient",
+          "definition": "",
+          "roles": [
+            "condition"
+          ],
+          "aliases": [
+            "Temperature gradient"
+          ]
+        },
+        {
+          "concept_id": "TG:Ce8ba1ae467ff9d",
+          "label": "Thermal diffusion of mass",
+          "definition": "",
+          "roles": [
+            "mechanism_process"
+          ],
+          "aliases": [
+            "Thermal diffusion of mass"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": []
+    }
+  },
+  {
+    "review_id": "M031",
+    "pair_id": "Rb195f414b45d00",
+    "left": {
+      "claim": {
+        "id": "r006",
+        "relation_id": "P0882:r006",
+        "subject": "LACIG-3%",
+        "subject_role": "material_entity",
+        "subject_id": "P0882:n9",
+        "predicate": "exhibits",
+        "object": "Thermopower of −30.4 mV K−1",
+        "object_role": "quantity",
+        "object_id": "P0882:n10",
+        "quote": "In particular, the LACIG-3% sample exhibits a substantial thermopower of -30.4 mV K-1 and a ZTi value of 0.04. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 706,
+            "end": 817
+          }
+        ],
+        "modality_spans": [],
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_213",
+          "action": "keep"
+        },
+        "claim_id": "iTE:P0882:r006",
+        "paper_id": "P0882",
+        "domain": "iTE",
+        "doi": "10.1039/d5ta00734h",
+        "year": "2025",
+        "paper_title": "Sustainable and recyclable ionogels for ionic thermoelectric supercapacitor application",
+        "article_role": "research",
+        "paper_input_hash": "15c8f1c01d79211f97d2c83f35975d2de4a13512b09c559562fd33e98016c648",
+        "source": "iTE:Cdf68dae98435f6",
+        "target": "iTE:C6b50fdd2cf231e"
+      },
+      "abstract": "The conversion of low-grade thermal resources into electricity presents significant potential for advancing a sustainable civilization powered by green energy. Herein, a recyclable ionogel is synthesized comprising alpha-lipoic acid (LA), hydroxypropyl cellulose (HPC), and acrylic acid (AA) via a one-pot polymerization process, thus resulting in a robust double-network structure. The initial ionogel, designated as LACIG-0% is formulated with 1-butyl-3-methylimidazolium chloride (BMIM:Cl) to enhance the mechanical strain properties and ion mobility. Subsequently, various concentrations (1-5%) of calcium chloride (CaCl2) are added to obtain LACIG-X% samples with enhanced thermoelectric performance. In particular, the LACIG-3% sample exhibits a substantial thermopower of -30.4 mV K-1 and a ZTi value of 0.04. Moreover, a prototype stretchable ionic thermoelectric supercapacitor (ITESC) utilizing the LACIG-3% achieves an energy density of 520.78 mJ m-2 at a resistance of 100 k Omega. Additionally, upon exposure to elevated temperatures, the LACIG-3% transitions to a liquid state, which enables reshaping at room temperature without the use of organic solvents. The recycled ionogel (REC-LACIG-3%) retains a thermopower of -11.0 mV K-1, thus emphasizing its reprocessability and sustainability. The ionogel also supports pattern customization via casting, and demonstrates successful integration into thermoelectric devices. Overall, this work not only provides methods for optimizing the thermopower, but also underscores the material's potential for eco-friendly processing and recycling, thereby contributing to the sustainable conversion of low-grade waste heat into renewable energy.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "iTE:Cdf68dae98435f6",
+          "label": "LACIG-3%",
+          "definition": "",
+          "roles": [
+            "material_entity"
+          ],
+          "aliases": [
+            "LACIG-3%"
+          ]
+        },
+        {
+          "concept_id": "iTE:C6b50fdd2cf231e",
+          "label": "Thermopower of −30.4 mV K−1",
+          "definition": "",
+          "roles": [
+            "quantity"
+          ],
+          "aliases": [
+            "Thermopower of −30.4 mV K−1"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": [
+        {
+          "id": "r007",
+          "relation_id": "P0882:r007",
+          "subject": "LACIG-3%",
+          "subject_role": "material_entity",
+          "subject_id": "P0882:n9",
+          "predicate": "exhibits",
+          "object": "ZTi of 0.04",
+          "object_role": "performance_function",
+          "object_id": "P0882:n11",
+          "quote": "In particular, the LACIG-3% sample exhibits a substantial thermopower of -30.4 mV K-1 and a ZTi value of 0.04. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 706,
+              "end": 817
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_213",
+            "action": "keep"
+          },
+          "claim_id": "iTE:P0882:r007",
+          "paper_id": "P0882",
+          "domain": "iTE",
+          "doi": "10.1039/d5ta00734h",
+          "year": "2025",
+          "paper_title": "Sustainable and recyclable ionogels for ionic thermoelectric supercapacitor application",
+          "article_role": "research",
+          "paper_input_hash": "15c8f1c01d79211f97d2c83f35975d2de4a13512b09c559562fd33e98016c648",
+          "source": "iTE:Cdf68dae98435f6",
+          "target": "iTE:C40dee50a340aaf"
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0882:r008",
+          "subject": "Prototype stretchable ITESC utilizing LACIG-3%",
+          "subject_role": "material_entity",
+          "subject_id": "P0882:n12",
+          "predicate": "utilizes",
+          "object": "LACIG-3%",
+          "object_role": "material_entity",
+          "object_id": "P0882:n9",
+          "quote": "Moreover, a prototype stretchable ionic thermoelectric supercapacitor (ITESC) utilizing the LACIG-3% achieves an energy density of 520.78 mJ m-2 at a resistance of 100 k Omega. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 817,
+              "end": 994
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_213",
+            "action": "keep"
+          },
+          "claim_id": "iTE:P0882:r008",
+          "paper_id": "P0882",
+          "domain": "iTE",
+          "doi": "10.1039/d5ta00734h",
+          "year": "2025",
+          "paper_title": "Sustainable and recyclable ionogels for ionic thermoelectric supercapacitor application",
+          "article_role": "research",
+          "paper_input_hash": "15c8f1c01d79211f97d2c83f35975d2de4a13512b09c559562fd33e98016c648",
+          "source": "iTE:Ca2efd4af6dde91",
+          "target": "iTE:Cdf68dae98435f6"
+        }
+      ]
+    },
+    "right": {
+      "claim": {
+        "id": "r008",
+        "relation_id": "P0262:r008",
+        "subject": "30 nm LixTiO2 electrode",
+        "subject_role": "material_entity",
+        "subject_id": "P0262:li30",
+        "predicate": "exhibits",
+        "object": "Almost constant thermopower -1.5 to -1.6 mV K-1",
+        "object_role": "quantity",
+        "object_id": "P0262:a30",
+        "quote": "The 30 nm LixTiO2 electrode shows an almost constant alpha of -1.5 to -1.6 mV K-1 in the biphasic region, corresponding to behavior dominated by lattice-intercalation entropy. ",
+        "context_quotes": [],
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "modality_evidence": [],
+        "conditions": "Biphasic region",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 500,
+            "end": 676
+          }
+        ],
+        "modality_spans": [],
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_061",
+          "action": "keep"
+        },
+        "claim_id": "TG:P0262:r008",
+        "paper_id": "P0262",
+        "domain": "TG",
+        "doi": "10.1002/cssc.202502685",
+        "year": "2026",
+        "paper_title": "Programmable Electrochemical Thermopower via Cation Storage Mode and Structural Order",
+        "article_role": "research",
+        "paper_input_hash": "55e29740716ef1621fe316a73dbc2fd32f145b82168788d24ee5b2f0332b0ee3",
+        "source": "TG:C4d15618f9886d0",
+        "target": "TG:C64d173a5e9f010"
+      },
+      "abstract": "This work aims to decouple and quantify the origins of thermopower (alpha) by controlling structure and charge-storage mechanisms within a single anatase TiO2 chemistry. Li+ and Na+ were inserted into anatase TiO2 particles with sizes of 30 and 5 nm to construct three model electrodes: a bulk crystalline intercalation electrode (30 nm, Li), a nanoscale intercalation and electrical double-layer (EDL) hybrid electrode (5 nm, Li), and a Na-induced amorphous, surface-dominated electrode (5 nm, Na). The 30 nm LixTiO2 electrode shows an almost constant alpha of -1.5 to -1.6 mV K-1 in the biphasic region, corresponding to behavior dominated by lattice-intercalation entropy. In contrast, amorphous NaxTiO2 shows alpha = -4.8 mV K-1 at 0% degree of sodiation and saturates near -2.0 mV K-1 with sodiation, indicating that structural disorder and interfacial entropy strongly enhance, |alpha|. The 5 nm LixTiO2 electrode shows a continuous change in from + 2.19 to -1.6 mV K-1 and acts as an intermediate design point that combines and weights Faradaic and EDL contributions. These results demonstrate that alpha Faradaic and alpha EDL can be independently designed within a single anatase TiO2 material system, providing a platform for electrochemical thermocells with thermopower of several mV K-1.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "TG:C4d15618f9886d0",
+          "label": "30 nm LixTiO2 electrode",
+          "definition": "",
+          "roles": [
+            "material_entity"
+          ],
+          "aliases": [
+            "30 nm LixTiO2 electrode"
+          ]
+        },
+        {
+          "concept_id": "TG:C64d173a5e9f010",
+          "label": "Almost constant thermopower -1.5 to -1.6 mV K-1",
+          "definition": "",
+          "roles": [
+            "quantity"
+          ],
+          "aliases": [
+            "Almost constant thermopower -1.5 to -1.6 mV K-1"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": [
+        {
+          "subject": "Li+ insertion into 30 nm anatase TiO2",
+          "subject_role": "mechanism_process",
+          "predicate": "constructs",
+          "object": "30 nm LixTiO2 electrode",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "measurement_method_model",
+          "claim_scope": "own_work",
+          "id": "r001",
+          "relation_id": "P0262:r001",
+          "quote": "Li+ and Na+ were inserted into anatase TiO2 particles with sizes of 30 and 5 nm to construct three model electrodes: a bulk crystalline intercalation electrode (30 nm, Li), a nanoscale intercalation and electrical double-layer (EDL) hybrid electrode (5 nm, Li), and a Na-induced amorphous, surface-dominated electrode (5 nm, Na). ",
+          "context_quotes": [],
+          "modality_evidence": [
+            "Li+ and Na+ were inserted into anatase TiO2 particles with sizes of 30 and 5 nm to construct three model electrodes: a bulk crystalline intercalation electrode (30 nm, Li), a nanoscale intercalation and electrical double-layer (EDL) hybrid electrode (5 nm, Li), and a Na-induced amorphous, surface-dominated electrode (5 nm, Na). "
+          ],
+          "evidence_spans": [
+            {
+              "start": 170,
+              "end": 500
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 170,
+              "end": 500
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0262:insertli30",
+          "object_id": "P0262:li30",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_061",
+            "action": "patch"
+          },
+          "claim_id": "TG:P0262:r001",
+          "paper_id": "P0262",
+          "domain": "TG",
+          "doi": "10.1002/cssc.202502685",
+          "year": "2026",
+          "paper_title": "Programmable Electrochemical Thermopower via Cation Storage Mode and Structural Order",
+          "article_role": "research",
+          "paper_input_hash": "55e29740716ef1621fe316a73dbc2fd32f145b82168788d24ee5b2f0332b0ee3",
+          "source": "TG:C686764e965e676",
+          "target": "TG:C4d15618f9886d0"
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0262:r004",
+          "subject": "30 nm LixTiO2 electrode",
+          "subject_role": "material_entity",
+          "subject_id": "P0262:li30",
+          "predicate": "has_structure",
+          "object": "Bulk crystalline intercalation structure",
+          "object_role": "state_structure",
+          "object_id": "P0262:bulk",
+          "quote": "Li+ and Na+ were inserted into anatase TiO2 particles with sizes of 30 and 5 nm to construct three model electrodes: a bulk crystalline intercalation electrode (30 nm, Li), a nanoscale intercalation and electrical double-layer (EDL) hybrid electrode (5 nm, Li), and a Na-induced amorphous, surface-dominated electrode (5 nm, Na). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 170,
+              "end": 500
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_061",
+            "action": "keep"
+          },
+          "claim_id": "TG:P0262:r004",
+          "paper_id": "P0262",
+          "domain": "TG",
+          "doi": "10.1002/cssc.202502685",
+          "year": "2026",
+          "paper_title": "Programmable Electrochemical Thermopower via Cation Storage Mode and Structural Order",
+          "article_role": "research",
+          "paper_input_hash": "55e29740716ef1621fe316a73dbc2fd32f145b82168788d24ee5b2f0332b0ee3",
+          "source": "TG:C4d15618f9886d0",
+          "target": "TG:Cf39e96ece11e1d"
+        },
+        {
+          "id": "r009",
+          "relation_id": "P0262:r009",
+          "subject": "Lattice-intercalation entropy",
+          "subject_role": "quantity",
+          "subject_id": "P0262:lattice",
+          "predicate": "dominates",
+          "object": "Almost constant thermopower -1.5 to -1.6 mV K-1",
+          "object_role": "quantity",
+          "object_id": "P0262:a30",
+          "quote": "The 30 nm LixTiO2 electrode shows an almost constant alpha of -1.5 to -1.6 mV K-1 in the biphasic region, corresponding to behavior dominated by lattice-intercalation entropy. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "30 nm LixTiO2 in the biphasic region",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 500,
+              "end": 676
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_061",
+            "action": "keep"
+          },
+          "claim_id": "TG:P0262:r009",
+          "paper_id": "P0262",
+          "domain": "TG",
+          "doi": "10.1002/cssc.202502685",
+          "year": "2026",
+          "paper_title": "Programmable Electrochemical Thermopower via Cation Storage Mode and Structural Order",
+          "article_role": "research",
+          "paper_input_hash": "55e29740716ef1621fe316a73dbc2fd32f145b82168788d24ee5b2f0332b0ee3",
+          "source": "TG:C9b59fc2000ac26",
+          "target": "TG:C64d173a5e9f010"
+        }
+      ]
+    }
+  },
+  {
+    "review_id": "M032",
+    "pair_id": "R870715980ef2f0",
+    "left": {
+      "claim": {
+        "id": "r002",
+        "relation_id": "P0550:r002",
+        "subject": "Temperature gradients",
+        "subject_role": "condition",
+        "subject_id": "P0550:g",
+        "predicate": "drives_charge_transport_through",
+        "object": "Two competing charge-transport mechanisms",
+        "object_role": "mechanism_process",
+        "object_id": "P0550:x",
+        "quote": "The thermoelectric response of thermally activated electrolytes (TAEs) in a slit channel is studied theoretically and by numerical simulations. ",
+        "context_quotes": [
+          "Two competing mechanisms driving charge transport by temperature gradients are identified. "
+        ],
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "modality_evidence": [
+          "The thermoelectric response of thermally activated electrolytes (TAEs) in a slit channel is studied theoretically and by numerical simulations. "
+        ],
+        "conditions": "Thermally activated electrolytes confined in a slit channel; theoretical and numerical study; mechanisms are not named.",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 144
+          },
+          {
+            "start": 340,
+            "end": 431
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 0,
+            "end": 144
+          }
+        ],
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_131",
+          "action": "keep"
+        },
+        "claim_id": "iTE:P0550:r002",
+        "paper_id": "P0550",
+        "domain": "iTE",
+        "doi": "10.1103/PhysRevLett.132.098001",
+        "year": "2024",
+        "paper_title": "Giant Thermoelectric Response of Confined Electrolytes with Thermally Activated Charge Carrier Generation",
+        "article_role": "research",
+        "paper_input_hash": "cea7cb70dd08c45bd0b5a2ea33d15ac585b8c6eaa57b2e8f2dd0aecee809d622",
+        "source": "iTE:Cdf885d03a44541",
+        "target": "iTE:Cf3fc505589e81f"
+      },
+      "abstract": "The thermoelectric response of thermally activated electrolytes (TAEs) in a slit channel is studied theoretically and by numerical simulations. The term TAE refers to electrolytes whose charge carrier concentration is a function of temperature, as recently suggested for ionic liquids and highly concentrated aqueous electrolyte solutions. Two competing mechanisms driving charge transport by temperature gradients are identified. For suitable values of the activation energy that governs the generation of charge carriers, a giant thermoelectric response is found, which could help explain recent experimental results for nanoporous media infiltrated with TAEs.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "iTE:Cdf885d03a44541",
+          "label": "Temperature gradients",
+          "definition": "Spatial variations of temperature that can drive transport.",
+          "roles": [
+            "condition"
+          ],
+          "aliases": [
+            "Temperature gradients"
+          ]
+        },
+        {
+          "concept_id": "iTE:Cf3fc505589e81f",
+          "label": "Two competing charge-transport mechanisms",
+          "definition": "",
+          "roles": [
+            "mechanism_process"
+          ],
+          "aliases": [
+            "Two competing charge-transport mechanisms"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": []
+    },
+    "right": {
+      "claim": {
+        "id": "r001",
+        "relation_id": "P0233:r001",
+        "subject": "Pipe orientation relative to temperature gradients",
+        "subject_role": "condition",
+        "subject_id": "P0233:n1",
+        "predicate": "determines_whether_currents_develop",
+        "object": "Development of convection currents",
+        "object_role": "mechanism_process",
+        "object_id": "P0233:n2",
+        "quote": "Experiments were conducted to determine the effect of sustained temperature gradients of approximate to20 degreesC on copper pipe corrosion under stagnant conditions in simulated potable water. ",
+        "context_quotes": [
+          "The orientation of the pipe in relation to the temperature gradients determined whether convection currents developed that promoted mixing during stagnation, and this influenced the magnitude of the temperature gradient in the pipe. "
+        ],
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "modality_evidence": [
+          "Experiments were conducted to determine the effect of sustained temperature gradients of approximate to20 degreesC on copper pipe corrosion under stagnant conditions in simulated potable water. "
+        ],
+        "conditions": "Copper pipes under stagnant conditions in simulated potable water; sustained gradients approximately 20 degrees C",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "status": "accepted",
+        "note": "",
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 194
+          },
+          {
+            "start": 407,
+            "end": 640
+          }
+        ],
+        "modality_spans": [
+          {
+            "start": 0,
+            "end": 194
+          }
+        ],
+        "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+        "decision_source": {
+          "run": "complete_revision_full_v1",
+          "job": "revision_054",
+          "action": "keep"
+        },
+        "claim_id": "TG:P0233:r001",
+        "paper_id": "P0233",
+        "domain": "TG",
+        "doi": "10.1016/j.corsci.2003.11.001",
+        "year": "2004",
+        "paper_title": "The role of temperature gradients in residential copper pipe corrosion",
+        "article_role": "research",
+        "paper_input_hash": "afc06771e05bd0f3178c3e8def58d8cc9255092c68ba4cc3ad0fef0f36c8c4a1",
+        "source": "TG:C7966f96769966b",
+        "target": "TG:Cce02e259d26441"
+      },
+      "abstract": "Experiments were conducted to determine the effect of sustained temperature gradients of approximate to20 degreesC on copper pipe corrosion under stagnant conditions in simulated potable water. An apparatus was constructed to (1) apply realistic temperature gradients to the pipes, (2) monitor copper release to the water, and (3) measure thermogalvanic currents between the warm and cold sections of pipe. The orientation of the pipe in relation to the temperature gradients determined whether convection currents developed that promoted mixing during stagnation, and this influenced the magnitude of the temperature gradient in the pipe. The temperature gradient led to significant sustained thermogalvanic currents. Mixing of the water within the pipe also influenced copper leaching and scale build-up. (C) 2004 Elsevier Ltd. All rights reserved.",
+      "endpoint_concepts": [
+        {
+          "concept_id": "TG:C7966f96769966b",
+          "label": "Pipe orientation relative to temperature gradients",
+          "definition": "",
+          "roles": [
+            "condition"
+          ],
+          "aliases": [
+            "Pipe orientation relative to temperature gradients"
+          ]
+        },
+        {
+          "concept_id": "TG:Cce02e259d26441",
+          "label": "Development of convection currents",
+          "definition": "",
+          "roles": [
+            "mechanism_process"
+          ],
+          "aliases": [
+            "Development of convection currents"
+          ]
+        }
+      ],
+      "same_paper_neighbor_claims": [
+        {
+          "subject": "Development of convection currents",
+          "subject_role": "mechanism_process",
+          "predicate": "promotes",
+          "object": "Water mixing during stagnation",
+          "object_role": "mechanism_process",
+          "assertion": "author_claim",
+          "modality": "experimental",
+          "conditions": "Copper pipes containing simulated potable water with sustained temperature gradients approximately 20 degrees C; convection development depends on pipe orientation relative to the gradients",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "id": "r002",
+          "relation_id": "P0233:r002",
+          "quote": "Experiments were conducted to determine the effect of sustained temperature gradients of approximate to20 degreesC on copper pipe corrosion under stagnant conditions in simulated potable water. ",
+          "context_quotes": [
+            "The orientation of the pipe in relation to the temperature gradients determined whether convection currents developed that promoted mixing during stagnation, and this influenced the magnitude of the temperature gradient in the pipe. "
+          ],
+          "modality_evidence": [
+            "Experiments were conducted to determine the effect of sustained temperature gradients of approximate to20 degreesC on copper pipe corrosion under stagnant conditions in simulated potable water. "
+          ],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 194
+            },
+            {
+              "start": 407,
+              "end": 640
+            }
+          ],
+          "modality_spans": [
+            {
+              "start": 0,
+              "end": 194
+            }
+          ],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0233:n2",
+          "object_id": "P0233:n3",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_054",
+            "action": "patch"
+          },
+          "claim_id": "TG:P0233:r002",
+          "paper_id": "P0233",
+          "domain": "TG",
+          "doi": "10.1016/j.corsci.2003.11.001",
+          "year": "2004",
+          "paper_title": "The role of temperature gradients in residential copper pipe corrosion",
+          "article_role": "research",
+          "paper_input_hash": "afc06771e05bd0f3178c3e8def58d8cc9255092c68ba4cc3ad0fef0f36c8c4a1",
+          "source": "TG:Cce02e259d26441",
+          "target": "TG:C3a4d8efe47b3f8"
+        }
+      ]
+    }
+  }
+]

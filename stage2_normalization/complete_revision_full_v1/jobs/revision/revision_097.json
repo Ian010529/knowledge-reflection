@@ -1,0 +1,1695 @@
+[
+  {
+    "paper_id": "P0406",
+    "title": "An ionic thermoelectric ratchet effect in polymeric electrolytes",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric materials can generate extraordinarily high thermal voltage under small temperature differences due to their orders of magnitude larger Seebeck coefficient than that of electronic materials. "
+      },
+      {
+        "id": 1,
+        "text": "Together with their low-cost, environmentally friendly compositions and solution processability, electrolytes have brought renewed prosperity in thermoelectric fields. "
+      },
+      {
+        "id": 2,
+        "text": "Despite the rapid growing number of good-performance materials, yet to be implemented in devices, the main challenge is the understanding of the mechanism of the large Seebeck coefficient in practical electrolytes. "
+      },
+      {
+        "id": 3,
+        "text": "Here, we show that the ion/polymer interaction in PEG based electrolytes does not only affect the mobility of the ions, but also has a great impact on the Seebeck coefficient. "
+      },
+      {
+        "id": 4,
+        "text": "By delicately varying the types of solvent and the concentration of the solute, we could tune the molar conductivity of the electrolytes and correlate with the Seebeck coefficient. "
+      },
+      {
+        "id": 5,
+        "text": "The linear relation between the Seebeck coefficient and the logarithm of the molar conductivity is in agreement with the recently reported thermoelectric ratchet effect in ions with hopping dynamics. "
+      },
+      {
+        "id": 6,
+        "text": "This could lead to new design rules for ionic thermoelectrics."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0406:m",
+        "label": "PEG-based electrolytes",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0406:i",
+        "label": "Ion/polymer interaction",
+        "role": "interaction"
+      },
+      {
+        "id": "P0406:mob",
+        "label": "Ion mobility",
+        "role": "quantity"
+      },
+      {
+        "id": "P0406:s",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0406:v",
+        "label": "Variation of solvent type and solute concentration",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0406:mc",
+        "label": "Molar conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0406:log",
+        "label": "Logarithm of molar conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0406:lin",
+        "label": "Linear Seebeck coefficient–log(molar conductivity) relation",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0406:rat",
+        "label": "Thermoelectric ratchet effect in ions with hopping dynamics",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0406:r001",
+        "subject": "PEG-based electrolytes",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Ion/polymer interaction",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, we show that the ion/polymer interaction in PEG based electrolytes does not only affect the mobility of the ions, but also has a great impact on the Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0406:m",
+        "object_id": "P0406:i"
+      },
+      {
+        "relation_id": "P0406:r002",
+        "subject": "Ion/polymer interaction",
+        "subject_role": "interaction",
+        "predicate": "affects",
+        "object": "Ion mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In PEG-based electrolytes",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Here, we show that the ion/polymer interaction in PEG based electrolytes does not only affect the mobility of the ions, but also has a great impact on the Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0406:i",
+        "object_id": "P0406:mob"
+      },
+      {
+        "relation_id": "P0406:r003",
+        "subject": "Ion/polymer interaction",
+        "subject_role": "interaction",
+        "predicate": "strongly affects",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In PEG-based electrolytes",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, we show that the ion/polymer interaction in PEG based electrolytes does not only affect the mobility of the ions, but also has a great impact on the Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0406:i",
+        "object_id": "P0406:s"
+      },
+      {
+        "relation_id": "P0406:r004",
+        "subject": "Variation of solvent type and solute concentration",
+        "subject_role": "design_strategy",
+        "predicate": "tunes",
+        "object": "Molar conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In PEG-based electrolytes",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "By delicately varying the types of solvent and the concentration of the solute, we could tune the molar conductivity of the electrolytes and correlate with the Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0406:v",
+        "object_id": "P0406:mc"
+      },
+      {
+        "relation_id": "P0406:r005",
+        "subject": "Seebeck coefficient",
+        "subject_role": "quantity",
+        "predicate": "is linearly related to",
+        "object": "Logarithm of molar conductivity",
+        "object_role": "quantity",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Across variation of solvent type and solute concentration; slope sign unspecified",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "By delicately varying the types of solvent and the concentration of the solute, we could tune the molar conductivity of the electrolytes and correlate with the Seebeck coefficient. ",
+        "context_quotes": [
+          "The linear relation between the Seebeck coefficient and the logarithm of the molar conductivity is in agreement with the recently reported thermoelectric ratchet effect in ions with hopping dynamics. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0406:s",
+        "object_id": "P0406:log"
+      },
+      {
+        "relation_id": "P0406:r006",
+        "subject": "Linear Seebeck coefficient–log(molar conductivity) relation",
+        "subject_role": "descriptor",
+        "predicate": "is consistent with",
+        "object": "Thermoelectric ratchet effect in ions with hopping dynamics",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The linear relation between the Seebeck coefficient and the logarithm of the molar conductivity is in agreement with the recently reported thermoelectric ratchet effect in ions with hopping dynamics. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0406:lin",
+        "object_id": "P0406:rat"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0407",
+    "title": "Advanced n-type ionic hydrogel with simultaneously enhanced thermoelectric and mechanical performances via the synergy of hydrophilic and hydrophobic polymers",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric (i-TE) gels are considered as promising candidates for wearable electronics as they are green and flexible, and directly convert low-grade waste heat into electricity. "
+      },
+      {
+        "id": 1,
+        "text": "However, the comprehensive performance of n-type i-TE gels reported so far lags far behind the p-type owing to multiple conflicts among negative thermopower, ionic conductivity, strength, and toughness, hindering large-scale applications. "
+      },
+      {
+        "id": 2,
+        "text": "Here, based on the good biocompatibility of polyvinyl alcohol (PVA) and poly(thioctic acid) (PTA), a bio-inspired design of a hydrophilic-hydrophobic dual network structure is developed for the first time to enhance the TE and mechanical properties simultaneously. "
+      },
+      {
+        "id": 3,
+        "text": "The PTA undergoes stable coordination interaction with cations, while the PVA provides sufficient paths for anions; also, the dual network structure contributes to the mechanical properties. "
+      },
+      {
+        "id": 4,
+        "text": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. "
+      },
+      {
+        "id": 5,
+        "text": "Besides, the i-TE hydrogel also presents application potentials in temperature sensors and thermoelectric generators. "
+      },
+      {
+        "id": 6,
+        "text": "This work creates a new milestone in advanced n-type i-TE gels by the synergy of various polymer-ion interactions."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0407:pva",
+        "label": "Hydrophilic polyvinyl alcohol (PVA)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0407:bio",
+        "label": "Good biocompatibility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0407:pta",
+        "label": "Hydrophobic poly(thioctic acid) (PTA)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0407:design",
+        "label": "Bio-inspired hydrophilic–hydrophobic dual-network design",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0407:te",
+        "label": "Enhanced thermoelectric properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0407:mech",
+        "label": "Enhanced mechanical properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0407:gel",
+        "label": "Optimized n-type ionic hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0407:net",
+        "label": "Hydrophilic–hydrophobic dual-network structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0407:coord",
+        "label": "Stable coordination with cations",
+        "role": "interaction"
+      },
+      {
+        "id": "P0407:paths",
+        "label": "Sufficient paths for anions",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0407:s",
+        "label": "Negative thermopower: −16.68 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0407:ic",
+        "label": "Ionic conductivity: 1.084 S m−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0407:tc",
+        "label": "Thermal conductivity: 0.36 W m−1 K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0407:ts",
+        "label": "Tensile strength: >4 MPa",
+        "role": "quantity"
+      },
+      {
+        "id": "P0407:el",
+        "label": "Elongation at break: >1300%",
+        "role": "quantity"
+      },
+      {
+        "id": "P0407:tough",
+        "label": "Toughness: >31 MJ m−3",
+        "role": "quantity"
+      },
+      {
+        "id": "P0407:comp",
+        "label": "Combined thermoelectric and mechanical performance comparable to state-of-the-art p-type gels",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0407:sensor",
+        "label": "Temperature sensors",
+        "role": "application"
+      },
+      {
+        "id": "P0407:gen",
+        "label": "Thermoelectric generators",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0407:r001",
+        "subject": "Hydrophilic polyvinyl alcohol (PVA)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Good biocompatibility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on the good biocompatibility of polyvinyl alcohol (PVA) and poly(thioctic acid) (PTA), a bio-inspired design of a hydrophilic-hydrophobic dual network structure is developed for the first time to enhance the TE and mechanical properties simultaneously. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:pva",
+        "object_id": "P0407:bio"
+      },
+      {
+        "relation_id": "P0407:r002",
+        "subject": "Hydrophobic poly(thioctic acid) (PTA)",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Good biocompatibility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on the good biocompatibility of polyvinyl alcohol (PVA) and poly(thioctic acid) (PTA), a bio-inspired design of a hydrophilic-hydrophobic dual network structure is developed for the first time to enhance the TE and mechanical properties simultaneously. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:pta",
+        "object_id": "P0407:bio"
+      },
+      {
+        "relation_id": "P0407:r003",
+        "subject": "Bio-inspired hydrophilic–hydrophobic dual-network design",
+        "subject_role": "design_strategy",
+        "predicate": "is designed to enhance",
+        "object": "Enhanced thermoelectric properties",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Simultaneously with mechanical properties",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, based on the good biocompatibility of polyvinyl alcohol (PVA) and poly(thioctic acid) (PTA), a bio-inspired design of a hydrophilic-hydrophobic dual network structure is developed for the first time to enhance the TE and mechanical properties simultaneously. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:design",
+        "object_id": "P0407:te"
+      },
+      {
+        "relation_id": "P0407:r004",
+        "subject": "Bio-inspired hydrophilic–hydrophobic dual-network design",
+        "subject_role": "design_strategy",
+        "predicate": "is designed to enhance",
+        "object": "Enhanced mechanical properties",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Simultaneously with thermoelectric properties",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Here, based on the good biocompatibility of polyvinyl alcohol (PVA) and poly(thioctic acid) (PTA), a bio-inspired design of a hydrophilic-hydrophobic dual network structure is developed for the first time to enhance the TE and mechanical properties simultaneously. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:design",
+        "object_id": "P0407:mech"
+      },
+      {
+        "relation_id": "P0407:r005",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Hydrophilic–hydrophobic dual-network structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, based on the good biocompatibility of polyvinyl alcohol (PVA) and poly(thioctic acid) (PTA), a bio-inspired design of a hydrophilic-hydrophobic dual network structure is developed for the first time to enhance the TE and mechanical properties simultaneously. ",
+        "context_quotes": [
+          "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:net"
+      },
+      {
+        "relation_id": "P0407:r006",
+        "subject": "Hydrophobic poly(thioctic acid) (PTA)",
+        "subject_role": "material_entity",
+        "predicate": "undergoes",
+        "object": "Stable coordination with cations",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the dual-network hydrogel",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "The PTA undergoes stable coordination interaction with cations, while the PVA provides sufficient paths for anions; also, the dual network structure contributes to the mechanical properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:pta",
+        "object_id": "P0407:coord"
+      },
+      {
+        "relation_id": "P0407:r007",
+        "subject": "Hydrophilic polyvinyl alcohol (PVA)",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Sufficient paths for anions",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the dual-network hydrogel",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The PTA undergoes stable coordination interaction with cations, while the PVA provides sufficient paths for anions; also, the dual network structure contributes to the mechanical properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:pva",
+        "object_id": "P0407:paths"
+      },
+      {
+        "relation_id": "P0407:r008",
+        "subject": "Hydrophilic–hydrophobic dual-network structure",
+        "subject_role": "state_structure",
+        "predicate": "contributes to",
+        "object": "Enhanced mechanical properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The PTA undergoes stable coordination interaction with cations, while the PVA provides sufficient paths for anions; also, the dual network structure contributes to the mechanical properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:net",
+        "object_id": "P0407:mech"
+      },
+      {
+        "relation_id": "P0407:r009",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits through polymer synergy",
+        "object": "Negative thermopower: −16.68 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:s"
+      },
+      {
+        "relation_id": "P0407:r010",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits through polymer synergy",
+        "object": "Ionic conductivity: 1.084 S m−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:ic"
+      },
+      {
+        "relation_id": "P0407:r011",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits through polymer synergy",
+        "object": "Thermal conductivity: 0.36 W m−1 K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:tc"
+      },
+      {
+        "relation_id": "P0407:r012",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits through polymer synergy",
+        "object": "Tensile strength: >4 MPa",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:ts"
+      },
+      {
+        "relation_id": "P0407:r013",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits through polymer synergy",
+        "object": "Elongation at break: >1300%",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:el"
+      },
+      {
+        "relation_id": "P0407:r014",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "exhibits through polymer synergy",
+        "object": "Toughness: >31 MJ m−3",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:tough"
+      },
+      {
+        "relation_id": "P0407:r015",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Combined thermoelectric and mechanical performance comparable to state-of-the-art p-type gels",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Claimed best combined performance to date among n-type i-TE gels; ambient environment",
+        "joint_factors": [
+          "Hydrophilic polyvinyl alcohol (PVA)",
+          "Hydrophobic poly(thioctic acid) (PTA)"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "With the synergy of hydrophilic PVA and hydrophobic PTA, the optimized ionic hydrogel exhibits giant negative thermopower (-16.68 mV K-1), excellent ionic conductivity (1.084 S m(-1)), low thermal conductivity (0.36 W m(-1) K-1), high tensile strength (>4 MPa), huge elongation at break (>1300%), and superb toughness (>31 MJ m(-3)) in an ambient environment, representing the best research until now on n-type i-TE gels with such excellent TE and mechanical properties, comparable to the state-of-the-art p-type. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:comp"
+      },
+      {
+        "relation_id": "P0407:r016",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has potential application in",
+        "object": "Temperature sensors",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Besides, the i-TE hydrogel also presents application potentials in temperature sensors and thermoelectric generators. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:sensor"
+      },
+      {
+        "relation_id": "P0407:r017",
+        "subject": "Optimized n-type ionic hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has potential application in",
+        "object": "Thermoelectric generators",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Besides, the i-TE hydrogel also presents application potentials in temperature sensors and thermoelectric generators. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0407:gel",
+        "object_id": "P0407:gen"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0408",
+    "title": "Electrode-dependent thermoelectric effect in ionic hydrogel fiber for self-powered sensing and low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric materials show great significance for wearable energy devices, owing to the capability of the conversion between thermal and electrical energy. "
+      },
+      {
+        "id": 1,
+        "text": "The two-dimensional massive structure which is difficult to integrate with fabrics of ionic thermoelectric materials, however, prevent them from realizing their full potential when employed in wearable electronics. "
+      },
+      {
+        "id": 2,
+        "text": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. "
+      },
+      {
+        "id": 3,
+        "text": "Based on thermal diffusion, owing to the ion size difference, the covalent cross-linked polymer network and the electrode-dependent effect promote rapid transport of the cations and boost ion concentration difference, resulting in a huge ionic Seebeck coefficient of 19.02 mV K- 1. "
+      },
+      {
+        "id": 4,
+        "text": "Meanwhile, embedding hydrogel fibers into the woven textile demonstrates a promising thermoelectric wristband with desirable human heat collection and electrical output capabilities. "
+      },
+      {
+        "id": 5,
+        "text": "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. "
+      },
+      {
+        "id": 6,
+        "text": "The PAM/LiTFSI4 hydrogel fiber also has excellent strain and temperature sensing properties, which enable a variety of human signal monitoring. "
+      },
+      {
+        "id": 7,
+        "text": "Besides, the hydrogel fiber-based sensor can realize self-powered sensing by generating a thermovoltage. "
+      },
+      {
+        "id": 8,
+        "text": "Thus, combining the merits of one-dimensional structure, superior thermoelectric performances, sensing at low temperature, excellent adhesion, self-healing and anti-freezing properties together, believing that the PAM/LiTFSI4 hydrogel fiber will render new numerous in human signal monitoring and low-grade heat harvesting applications like wearable electronics and wearable energy supply devices."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0408:synth",
+        "label": "Template-based free-radical polymerization",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0408:fiber",
+        "label": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0408:aspect",
+        "label": "High aspect ratio",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0408:flex",
+        "label": "Inherent flexibility",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0408:net",
+        "label": "Covalently cross-linked polymer network",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0408:rapid",
+        "label": "Rapid cation transport",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0408:diff",
+        "label": "Ion concentration difference",
+        "role": "quantity"
+      },
+      {
+        "id": "P0408:s",
+        "label": "Ionic Seebeck coefficient: 19.02 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0408:embed",
+        "label": "Embedding hydrogel fibers into woven textile",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0408:band",
+        "label": "Thermoelectric wristband",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0408:heat",
+        "label": "Human heat collection",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:out",
+        "label": "Electrical output",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:li",
+        "label": "Introduction of LiTFSI",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0408:reshape",
+        "label": "Reshaping of hydrogel microstructure and molecular network",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0408:cond",
+        "label": "Ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0408:freeze",
+        "label": "Anti-freezing properties",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:adh",
+        "label": "Self-adhesion",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:heal",
+        "label": "Self-healing",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:strain",
+        "label": "Excellent strain sensing",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:temp",
+        "label": "Excellent temperature sensing",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:monitor",
+        "label": "Human signal monitoring",
+        "role": "application"
+      },
+      {
+        "id": "P0408:sensor",
+        "label": "Hydrogel fiber-based sensor",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0408:volt",
+        "label": "Thermovoltage generation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0408:self",
+        "label": "Self-powered sensing",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:low",
+        "label": "Sensing at low temperature",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0408:harvest",
+        "label": "Low-grade heat harvesting in wearable electronics and energy supply devices",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0408:r001",
+        "subject": "Template-based free-radical polymerization",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. "
+        ],
+        "subject_id": "P0408:synth",
+        "object_id": "P0408:fiber"
+      },
+      {
+        "relation_id": "P0408:r002",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "High aspect ratio",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:aspect"
+      },
+      {
+        "relation_id": "P0408:r003",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Inherent flexibility",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:flex"
+      },
+      {
+        "relation_id": "P0408:r004",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Covalently cross-linked polymer network",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [
+          "Based on thermal diffusion, owing to the ion size difference, the covalent cross-linked polymer network and the electrode-dependent effect promote rapid transport of the cations and boost ion concentration difference, resulting in a huge ionic Seebeck coefficient of 19.02 mV K- 1. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:net"
+      },
+      {
+        "relation_id": "P0408:r005",
+        "subject": "Covalently cross-linked polymer network",
+        "subject_role": "state_structure",
+        "predicate": "jointly promotes",
+        "object": "Rapid cation transport",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Based on thermal diffusion and the ion size difference",
+        "joint_factors": [
+          "Covalently cross-linked polymer network",
+          "Electrode-dependent effect"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Based on thermal diffusion, owing to the ion size difference, the covalent cross-linked polymer network and the electrode-dependent effect promote rapid transport of the cations and boost ion concentration difference, resulting in a huge ionic Seebeck coefficient of 19.02 mV K- 1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:net",
+        "object_id": "P0408:rapid"
+      },
+      {
+        "relation_id": "P0408:r006",
+        "subject": "Covalently cross-linked polymer network",
+        "subject_role": "state_structure",
+        "predicate": "jointly boosts",
+        "object": "Ion concentration difference",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Based on thermal diffusion and the ion size difference",
+        "joint_factors": [
+          "Covalently cross-linked polymer network",
+          "Electrode-dependent effect"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Based on thermal diffusion, owing to the ion size difference, the covalent cross-linked polymer network and the electrode-dependent effect promote rapid transport of the cations and boost ion concentration difference, resulting in a huge ionic Seebeck coefficient of 19.02 mV K- 1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:net",
+        "object_id": "P0408:diff"
+      },
+      {
+        "relation_id": "P0408:r007",
+        "subject": "Rapid cation transport",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly results in",
+        "object": "Ionic Seebeck coefficient: 19.02 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Thermal diffusion with ion size difference, covalently cross-linked network and electrode-dependent effect",
+        "joint_factors": [
+          "Rapid cation transport",
+          "Ion concentration difference"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Based on thermal diffusion, owing to the ion size difference, the covalent cross-linked polymer network and the electrode-dependent effect promote rapid transport of the cations and boost ion concentration difference, resulting in a huge ionic Seebeck coefficient of 19.02 mV K- 1. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:rapid",
+        "object_id": "P0408:s"
+      },
+      {
+        "relation_id": "P0408:r008",
+        "subject": "Embedding hydrogel fibers into woven textile",
+        "subject_role": "design_strategy",
+        "predicate": "yields",
+        "object": "Thermoelectric wristband",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, embedding hydrogel fibers into the woven textile demonstrates a promising thermoelectric wristband with desirable human heat collection and electrical output capabilities. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Meanwhile, embedding hydrogel fibers into the woven textile demonstrates a promising thermoelectric wristband with desirable human heat collection and electrical output capabilities. "
+        ],
+        "subject_id": "P0408:embed",
+        "object_id": "P0408:band"
+      },
+      {
+        "relation_id": "P0408:r009",
+        "subject": "Thermoelectric wristband",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Human heat collection",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, embedding hydrogel fibers into the woven textile demonstrates a promising thermoelectric wristband with desirable human heat collection and electrical output capabilities. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:band",
+        "object_id": "P0408:heat"
+      },
+      {
+        "relation_id": "P0408:r010",
+        "subject": "Thermoelectric wristband",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Electrical output",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, embedding hydrogel fibers into the woven textile demonstrates a promising thermoelectric wristband with desirable human heat collection and electrical output capabilities. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:band",
+        "object_id": "P0408:out"
+      },
+      {
+        "relation_id": "P0408:r011",
+        "subject": "Introduction of LiTFSI",
+        "subject_role": "design_strategy",
+        "predicate": "causes",
+        "object": "Reshaping of hydrogel microstructure and molecular network",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the hydrogel fibers",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:li",
+        "object_id": "P0408:reshape"
+      },
+      {
+        "relation_id": "P0408:r012",
+        "subject": "Reshaping of hydrogel microstructure and molecular network",
+        "subject_role": "mechanism_process",
+        "predicate": "significantly improves",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following LiTFSI introduction",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:reshape",
+        "object_id": "P0408:cond"
+      },
+      {
+        "relation_id": "P0408:r013",
+        "subject": "Reshaping of hydrogel microstructure and molecular network",
+        "subject_role": "mechanism_process",
+        "predicate": "endows fibers with",
+        "object": "Anti-freezing properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following LiTFSI introduction",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:reshape",
+        "object_id": "P0408:freeze"
+      },
+      {
+        "relation_id": "P0408:r014",
+        "subject": "Reshaping of hydrogel microstructure and molecular network",
+        "subject_role": "mechanism_process",
+        "predicate": "endows fibers with",
+        "object": "Self-adhesion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following LiTFSI introduction",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:reshape",
+        "object_id": "P0408:adh"
+      },
+      {
+        "relation_id": "P0408:r015",
+        "subject": "Reshaping of hydrogel microstructure and molecular network",
+        "subject_role": "mechanism_process",
+        "predicate": "endows fibers with",
+        "object": "Self-healing",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Following LiTFSI introduction",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:reshape",
+        "object_id": "P0408:heal"
+      },
+      {
+        "relation_id": "P0408:r016",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [
+          "What's more, thanks to the introduction of LiTFSI, the microstructure and molecular network system of hydrogel fibers are reshaped, which significantly improved the ionic conductivity of hydrogel fiber, and endowed them with anti-freezing, selfadhesion and self-healing properties. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:cond"
+      },
+      {
+        "relation_id": "P0408:r017",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Anti-freezing properties",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:freeze"
+      },
+      {
+        "relation_id": "P0408:r018",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Self-adhesion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:adh"
+      },
+      {
+        "relation_id": "P0408:r019",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Self-healing",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "In this work, ionic thermoelectric 1D PAM/LiTFSI4 hydrogel fibers with high aspect ratio, inherent flexibility, conductivity, anti-freezing, self-adhesion and self-healing properties are constructed by free radical polymerization technology based on a template strategy, which contains a PAM polymer matrix and an LiTFSI conductive material. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:heal"
+      },
+      {
+        "relation_id": "P0408:r020",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Excellent strain sensing",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The PAM/LiTFSI4 hydrogel fiber also has excellent strain and temperature sensing properties, which enable a variety of human signal monitoring. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:strain"
+      },
+      {
+        "relation_id": "P0408:r021",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Excellent temperature sensing",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The PAM/LiTFSI4 hydrogel fiber also has excellent strain and temperature sensing properties, which enable a variety of human signal monitoring. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:temp"
+      },
+      {
+        "relation_id": "P0408:r022",
+        "subject": "Excellent strain sensing",
+        "subject_role": "performance_function",
+        "predicate": "jointly enables",
+        "object": "Human signal monitoring",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Excellent strain sensing",
+          "Excellent temperature sensing"
+        ],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The PAM/LiTFSI4 hydrogel fiber also has excellent strain and temperature sensing properties, which enable a variety of human signal monitoring. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:strain",
+        "object_id": "P0408:monitor"
+      },
+      {
+        "relation_id": "P0408:r023",
+        "subject": "Hydrogel fiber-based sensor",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Thermovoltage generation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Besides, the hydrogel fiber-based sensor can realize self-powered sensing by generating a thermovoltage. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:sensor",
+        "object_id": "P0408:volt"
+      },
+      {
+        "relation_id": "P0408:r024",
+        "subject": "Thermovoltage generation",
+        "subject_role": "mechanism_process",
+        "predicate": "enables",
+        "object": "Self-powered sensing",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the hydrogel fiber-based sensor",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Besides, the hydrogel fiber-based sensor can realize self-powered sensing by generating a thermovoltage. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:volt",
+        "object_id": "P0408:self"
+      },
+      {
+        "relation_id": "P0408:r025",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "supports",
+        "object": "Sensing at low temperature",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Thus, combining the merits of one-dimensional structure, superior thermoelectric performances, sensing at low temperature, excellent adhesion, self-healing and anti-freezing properties together, believing that the PAM/LiTFSI4 hydrogel fiber will render new numerous in human signal monitoring and low-grade heat harvesting applications like wearable electronics and wearable energy supply devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:low"
+      },
+      {
+        "relation_id": "P0408:r026",
+        "subject": "1D PAM/LiTFSI4 ionic hydrogel fibers",
+        "subject_role": "material_entity",
+        "predicate": "is proposed for",
+        "object": "Low-grade heat harvesting in wearable electronics and energy supply devices",
+        "object_role": "application",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "Combining 1D structure, thermoelectric performance, low-temperature sensing, adhesion, self-healing and anti-freezing properties",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "Thus, combining the merits of one-dimensional structure, superior thermoelectric performances, sensing at low temperature, excellent adhesion, self-healing and anti-freezing properties together, believing that the PAM/LiTFSI4 hydrogel fiber will render new numerous in human signal monitoring and low-grade heat harvesting applications like wearable electronics and wearable energy supply devices.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0408:fiber",
+        "object_id": "P0408:harvest"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0409",
+    "title": "High-performance thermoelectric PEDOT:PSS fiber bundles via rational ionic liquid treatment",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Rapid growth of wearable technology generates increasing demand for lightweight and elastic energy harvesting systems. "
+      },
+      {
+        "id": 1,
+        "text": "Among them, conducting polymer poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate) (PEDOT: PSS) shows great potential for lightweight and flexible thermoelectric generators. "
+      },
+      {
+        "id": 2,
+        "text": "However, the practical applications of PEDOT:PSS have been restricted by the low Seebeck coefficient and power factor. "
+      },
+      {
+        "id": 3,
+        "text": "Here, PEDOT: PSS/1,3-dimethylimidazolium dicyanamide (MMIM:DCA) fiber bundles with enhanced thermoelectric performance have been fabricated by optimizing the content of ionic liquids (ILs), and the duration of dual posttreatment with H2SO4 and NaBH4. "
+      },
+      {
+        "id": 4,
+        "text": "The as-prepared fiber bundles exhibit a high power factor of 91.8 mu W/m K-2 at 298 K. "
+      },
+      {
+        "id": 5,
+        "text": "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. "
+      },
+      {
+        "id": 6,
+        "text": "Meanwhile, the strong binding of DCA- to the PEDOT structure, combined with the hydrophilicity and potent reducing effect of MMIM+, synergistically alters the oxidation state of PEDOT, leading to an enhanced Seebeck coefficient. "
+      },
+      {
+        "id": 7,
+        "text": "Moreover, the assembled flexible fiber bundle thermoelectric devices exhibit superior performance and usability, which show an output power density of 36.76 mu W cm- 2 with a temperature gradient of 25 K. "
+      },
+      {
+        "id": 8,
+        "text": "This work offers valuable insights into the development of high-performance organic thermoelectric materials via the modulation of polymer chains."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0409:opt",
+        "label": "Optimization of ionic-liquid content and H2SO4/NaBH4 dual-posttreatment duration",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0409:bundle",
+        "label": "PEDOT:PSS/MMIM:DCA fiber bundles",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0409:te",
+        "label": "Enhanced thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0409:pf",
+        "label": "Power factor: 91.8 μW m−1 K−2",
+        "role": "quantity"
+      },
+      {
+        "id": "P0409:il",
+        "label": "Ionic liquids in fiber bundles",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0409:phase",
+        "label": "Polymer-chain phase separation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0409:rearr",
+        "label": "Polymer-chain structural rearrangement",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0409:mob",
+        "label": "High charge-carrier mobility",
+        "role": "quantity"
+      },
+      {
+        "id": "P0409:ec",
+        "label": "Increased electrical conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0409:bind",
+        "label": "Strong DCA− binding to PEDOT",
+        "role": "interaction"
+      },
+      {
+        "id": "P0409:ox",
+        "label": "Altered PEDOT oxidation state",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0409:s",
+        "label": "Enhanced Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0409:device",
+        "label": "Flexible fiber-bundle thermoelectric devices",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0409:pd",
+        "label": "Output power density: 36.76 μW cm−2",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0409:r001",
+        "subject": "Optimization of ionic-liquid content and H2SO4/NaBH4 dual-posttreatment duration",
+        "subject_role": "design_strategy",
+        "predicate": "produces",
+        "object": "PEDOT:PSS/MMIM:DCA fiber bundles",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Here, PEDOT: PSS/1,3-dimethylimidazolium dicyanamide (MMIM:DCA) fiber bundles with enhanced thermoelectric performance have been fabricated by optimizing the content of ionic liquids (ILs), and the duration of dual posttreatment with H2SO4 and NaBH4. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Here, PEDOT: PSS/1,3-dimethylimidazolium dicyanamide (MMIM:DCA) fiber bundles with enhanced thermoelectric performance have been fabricated by optimizing the content of ionic liquids (ILs), and the duration of dual posttreatment with H2SO4 and NaBH4. "
+        ],
+        "subject_id": "P0409:opt",
+        "object_id": "P0409:bundle"
+      },
+      {
+        "relation_id": "P0409:r002",
+        "subject": "Optimization of ionic-liquid content and H2SO4/NaBH4 dual-posttreatment duration",
+        "subject_role": "design_strategy",
+        "predicate": "enhances",
+        "object": "Enhanced thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PEDOT:PSS/MMIM:DCA fiber bundles; optimization factors reported jointly",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, PEDOT: PSS/1,3-dimethylimidazolium dicyanamide (MMIM:DCA) fiber bundles with enhanced thermoelectric performance have been fabricated by optimizing the content of ionic liquids (ILs), and the duration of dual posttreatment with H2SO4 and NaBH4. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0409:opt",
+        "object_id": "P0409:te"
+      },
+      {
+        "relation_id": "P0409:r003",
+        "subject": "PEDOT:PSS/MMIM:DCA fiber bundles",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Power factor: 91.8 μW m−1 K−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "298 K",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Here, PEDOT: PSS/1,3-dimethylimidazolium dicyanamide (MMIM:DCA) fiber bundles with enhanced thermoelectric performance have been fabricated by optimizing the content of ionic liquids (ILs), and the duration of dual posttreatment with H2SO4 and NaBH4. ",
+        "context_quotes": [
+          "The as-prepared fiber bundles exhibit a high power factor of 91.8 mu W/m K-2 at 298 K. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0409:bundle",
+        "object_id": "P0409:pf"
+      },
+      {
+        "relation_id": "P0409:r004",
+        "subject": "Ionic liquids in fiber bundles",
+        "subject_role": "material_entity",
+        "predicate": "triggers",
+        "object": "Polymer-chain phase separation",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Supported by detailed characterizations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. "
+        ],
+        "subject_id": "P0409:il",
+        "object_id": "P0409:phase"
+      },
+      {
+        "relation_id": "P0409:r005",
+        "subject": "Ionic liquids in fiber bundles",
+        "subject_role": "material_entity",
+        "predicate": "triggers",
+        "object": "Polymer-chain structural rearrangement",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Supported by detailed characterizations",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. "
+        ],
+        "subject_id": "P0409:il",
+        "object_id": "P0409:rearr"
+      },
+      {
+        "relation_id": "P0409:r006",
+        "subject": "Polymer-chain phase separation",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly ensures",
+        "object": "High charge-carrier mobility",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Supported by detailed characterizations",
+        "joint_factors": [
+          "Polymer-chain phase separation",
+          "Polymer-chain structural rearrangement"
+        ],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. "
+        ],
+        "subject_id": "P0409:phase",
+        "object_id": "P0409:mob"
+      },
+      {
+        "relation_id": "P0409:r007",
+        "subject": "High charge-carrier mobility",
+        "subject_role": "quantity",
+        "predicate": "results in",
+        "object": "Increased electrical conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Supported by detailed characterizations",
+        "joint_factors": [],
+        "scope": "other_adjacent_domain",
+        "claim_scope": "own_work",
+        "quote": "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Detailed characterizations confirm that the phase separation and structural rearrangement of the polymer chains triggered by ILs ensure high charge carrier mobility, resulting in increased electrical conductivity. "
+        ],
+        "subject_id": "P0409:mob",
+        "object_id": "P0409:ec"
+      },
+      {
+        "relation_id": "P0409:r008",
+        "subject": "Strong DCA− binding to PEDOT",
+        "subject_role": "interaction",
+        "predicate": "synergistically alters",
+        "object": "Altered PEDOT oxidation state",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [
+          "Strong DCA− binding to PEDOT",
+          "MMIM+ hydrophilicity",
+          "Potent MMIM+ reducing effect"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, the strong binding of DCA- to the PEDOT structure, combined with the hydrophilicity and potent reducing effect of MMIM+, synergistically alters the oxidation state of PEDOT, leading to an enhanced Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0409:bind",
+        "object_id": "P0409:ox"
+      },
+      {
+        "relation_id": "P0409:r009",
+        "subject": "Altered PEDOT oxidation state",
+        "subject_role": "state_structure",
+        "predicate": "leads to",
+        "object": "Enhanced Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, the strong binding of DCA- to the PEDOT structure, combined with the hydrophilicity and potent reducing effect of MMIM+, synergistically alters the oxidation state of PEDOT, leading to an enhanced Seebeck coefficient. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0409:ox",
+        "object_id": "P0409:s"
+      },
+      {
+        "relation_id": "P0409:r010",
+        "subject": "Flexible fiber-bundle thermoelectric devices",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Output power density: 36.76 μW cm−2",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature gradient of 25 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Moreover, the assembled flexible fiber bundle thermoelectric devices exhibit superior performance and usability, which show an output power density of 36.76 mu W cm- 2 with a temperature gradient of 25 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0409:device",
+        "object_id": "P0409:pd"
+      }
+    ]
+  }
+]

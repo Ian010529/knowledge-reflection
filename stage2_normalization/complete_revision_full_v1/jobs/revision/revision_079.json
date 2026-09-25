@@ -1,0 +1,1170 @@
+[
+  {
+    "paper_id": "P0334",
+    "title": "Unlocking new possibilities in ionic thermoelectric materials: a machine learning perspective",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The high thermopower of ionic thermoelectric (i-TE) materials holds promise for miniaturized waste-heat recovery devices and thermal sensors. "
+      },
+      {
+        "id": 1,
+        "text": "However, progress is hampered by laborious trial-and-error experimentations, which lack theoretical underpinning. "
+      },
+      {
+        "id": 2,
+        "text": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. "
+      },
+      {
+        "id": 3,
+        "text": "Using this tool, we experimentally identify a waterborne polyurethane/potassium iodide ionogel with a Seebeck coefficient of 41.39 mV/K. "
+      },
+      {
+        "id": 4,
+        "text": "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. "
+      },
+      {
+        "id": 5,
+        "text": "This machine learning-assisted framework represents a pioneering effort in the i-TE field, offering significant promise for accelerating the discovery and development of high-performance i-TE materials. "
+      },
+      {
+        "id": 6,
+        "text": "This work uses machine learning to predict the Seebeck coefficients of ionic thermoelectric materials, offering a faster path to discovering high-performance materials for efficient energy conversion."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0334:s",
+        "label": "Simplified molecular-input line-entry system representation",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0334:h",
+        "label": "Inconsistency of ionic thermoelectric material types",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0334:ml",
+        "label": "Machine learning Seebeck coefficient model",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0334:sc",
+        "label": "Seebeck coefficient",
+        "role": "quantity"
+      },
+      {
+        "id": "P0334:r",
+        "label": "Test-set R2 of 0.98",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0334:g",
+        "label": "Waterborne polyurethane/potassium iodide ionogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0334:v",
+        "label": "Seebeck coefficient of 41.39 mV/K",
+        "role": "quantity"
+      },
+      {
+        "id": "P0334:b",
+        "label": "Number of rotatable bonds of ions",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0334:p",
+        "label": "Octanol-water partition coefficient of ions",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0334:r001",
+        "subject": "Simplified molecular-input line-entry system representation",
+        "subject_role": "design_strategy",
+        "predicate": "addresses",
+        "object": "Inconsistency of ionic thermoelectric material types",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0334:s",
+        "object_id": "P0334:h"
+      },
+      {
+        "relation_id": "P0334:r002",
+        "subject": "Machine learning Seebeck coefficient model",
+        "subject_role": "design_strategy",
+        "predicate": "predicts",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+        "context_quotes": [
+          "This work uses machine learning to predict the Seebeck coefficients of ionic thermoelectric materials, offering a faster path to discovering high-performance materials for efficient energy conversion."
+        ],
+        "modality_evidence": [
+          "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+          "This work uses machine learning to predict the Seebeck coefficients of ionic thermoelectric materials, offering a faster path to discovering high-performance materials for efficient energy conversion."
+        ],
+        "subject_id": "P0334:ml",
+        "object_id": "P0334:sc"
+      },
+      {
+        "relation_id": "P0334:r003",
+        "subject": "Machine learning Seebeck coefficient model",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Test-set R2 of 0.98",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Test dataset",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. "
+        ],
+        "subject_id": "P0334:ml",
+        "object_id": "P0334:r"
+      },
+      {
+        "relation_id": "P0334:r004",
+        "subject": "Waterborne polyurethane/potassium iodide ionogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Seebeck coefficient of 41.39 mV/K",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Experimentally identified using the machine learning tool",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Using this tool, we experimentally identify a waterborne polyurethane/potassium iodide ionogel with a Seebeck coefficient of 41.39 mV/K. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Using this tool, we experimentally identify a waterborne polyurethane/potassium iodide ionogel with a Seebeck coefficient of 41.39 mV/K. "
+        ],
+        "subject_id": "P0334:g",
+        "object_id": "P0334:v"
+      },
+      {
+        "relation_id": "P0334:r005",
+        "subject": "Number of rotatable bonds of ions",
+        "subject_role": "descriptor",
+        "predicate": "negatively affects",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Interpretable analysis corroborated by molecular dynamics simulations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. "
+        ],
+        "subject_id": "P0334:b",
+        "object_id": "P0334:sc"
+      },
+      {
+        "relation_id": "P0334:r006",
+        "subject": "Octanol-water partition coefficient of ions",
+        "subject_role": "quantity",
+        "predicate": "negatively affects",
+        "object": "Seebeck coefficient",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Interpretable analysis corroborated by molecular dynamics simulations",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. "
+        ],
+        "subject_id": "P0334:p",
+        "object_id": "P0334:sc"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0335",
+    "title": "Remarkable ionic thermoelectric performance of high-entropy gel thermocell near room temperature",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Gel thermocell, as a green and clean energy conversion technology, has a high ionic thermopower, and it is capable of functioning for self-powered sensors near room temperature. "
+      },
+      {
+        "id": 1,
+        "text": "However, ionic thermoelectric performance is currently limited and needs to be improved to meet the practical requirements. "
+      },
+      {
+        "id": 2,
+        "text": "To date, it has been a major challenge to significantly improve performance, including ionic thermopower, output power density, and energy harvesting. "
+      },
+      {
+        "id": 3,
+        "text": "Herein, we propose a high-entropy concept by controlling the gel compositions to achieve remarkable ionic thermoelectric performance. "
+      },
+      {
+        "id": 4,
+        "text": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. "
+      },
+      {
+        "id": 5,
+        "text": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. "
+      },
+      {
+        "id": 6,
+        "text": "Moreover, a device assembled by twelve thermocells delivered a maximum output power density of 2.0 mW m-2 K-2. "
+      },
+      {
+        "id": 7,
+        "text": "Thus, the strategy proposed in this work provides guidelines for designing other high-performance gels."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0335:d",
+        "label": "Gel composition control using a high-entropy concept",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0335:perf",
+        "label": "Ionic thermoelectric performance",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0335:mc",
+        "label": "Multi-ion coupling, especially anions",
+        "role": "interaction"
+      },
+      {
+        "id": "P0335:he",
+        "label": "High entropy",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0335:rs",
+        "label": "Redox reaction entropy change",
+        "role": "quantity"
+      },
+      {
+        "id": "P0335:ec",
+        "label": "Exchange current density",
+        "role": "quantity"
+      },
+      {
+        "id": "P0335:ic",
+        "label": "Ionic conductivity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0335:g",
+        "label": "High-entropy gel thermocell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0335:tp",
+        "label": "Ionic thermopower of 31 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0335:pd",
+        "label": "Normalized maximum output power density of 11.4 mW m-2 K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0335:ed",
+        "label": "One-hour continuous discharge energy density of 4.3 J m-2 K-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0335:dev",
+        "label": "Device assembled from twelve thermocells",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0335:dp",
+        "label": "Maximum output power density of 2.0 mW m-2 K-2",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0335:r001",
+        "subject": "Gel composition control using a high-entropy concept",
+        "subject_role": "design_strategy",
+        "predicate": "is proposed to improve",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "hypothesis",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Herein, we propose a high-entropy concept by controlling the gel compositions to achieve remarkable ionic thermoelectric performance. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:d",
+        "object_id": "P0335:perf"
+      },
+      {
+        "relation_id": "P0335:r002",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "predicate": "produces",
+        "object": "High entropy",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:mc",
+        "object_id": "P0335:he"
+      },
+      {
+        "relation_id": "P0335:r003",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "predicate": "improves",
+        "object": "Redox reaction entropy change",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "High-entropy gel thermocell",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:mc",
+        "object_id": "P0335:rs"
+      },
+      {
+        "relation_id": "P0335:r004",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "predicate": "improves",
+        "object": "Exchange current density",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "High-entropy gel thermocell",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:mc",
+        "object_id": "P0335:ec"
+      },
+      {
+        "relation_id": "P0335:r005",
+        "subject": "Multi-ion coupling, especially anions",
+        "subject_role": "interaction",
+        "predicate": "improves",
+        "object": "Ionic conductivity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "High-entropy gel thermocell",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:mc",
+        "object_id": "P0335:ic"
+      },
+      {
+        "relation_id": "P0335:r006",
+        "subject": "High entropy",
+        "subject_role": "state_structure",
+        "predicate": "enhances",
+        "object": "Ionic thermoelectric performance",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through improved redox reaction entropy change, exchange current density and ionic conductivity",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The high-entropy results from multi-ion coupling, especially for anions, to improve redox reaction entropy change, exchange current density, and ionic conductivity, pushing the performance to high levels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:he",
+        "object_id": "P0335:perf"
+      },
+      {
+        "relation_id": "P0335:r007",
+        "subject": "High-entropy gel thermocell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Ionic thermopower of 31 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:g",
+        "object_id": "P0335:tp"
+      },
+      {
+        "relation_id": "P0335:r008",
+        "subject": "High-entropy gel thermocell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Normalized maximum output power density of 11.4 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:g",
+        "object_id": "P0335:pd"
+      },
+      {
+        "relation_id": "P0335:r009",
+        "subject": "High-entropy gel thermocell",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "One-hour continuous discharge energy density of 4.3 J m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "One-hour continuous discharge",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The fabricated high-entropy gel thermocell showed an ionic thermopower of 31 mV K-1, a normalized maximum output power density of 11.4 mW m-2 K-2, and a one-hour continuous discharge energy density of 4.3 J m-2 K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:g",
+        "object_id": "P0335:ed"
+      },
+      {
+        "relation_id": "P0335:r010",
+        "subject": "Device assembled from twelve thermocells",
+        "subject_role": "material_entity",
+        "predicate": "delivers",
+        "object": "Maximum output power density of 2.0 mW m-2 K-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Twelve thermocells",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Moreover, a device assembled by twelve thermocells delivered a maximum output power density of 2.0 mW m-2 K-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0335:dev",
+        "object_id": "P0335:dp"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0336",
+    "title": "Exceptional n-Type Ionic Thermoelectric Hydrogels by Synergistic Hydrophobic and Coordination Interactions",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric (i-TE) materials show promise for flexible energy harvesting and self-powered sensing due to their high ionic Seebeck coefficients (S i). "
+      },
+      {
+        "id": 1,
+        "text": "However, achieving both high thermoelectric performance and mechanical stretchability, especially in n-type systems, remains a critical challenge. "
+      },
+      {
+        "id": 2,
+        "text": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. "
+      },
+      {
+        "id": 3,
+        "text": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). "
+      },
+      {
+        "id": 4,
+        "text": "Meanwhile, hydrophobic associations also occur among PMNT chains due to strong pi-pi stacking and backbone hydrophobicity. "
+      },
+      {
+        "id": 5,
+        "text": "This dual-interaction strategy approach enhances the thermophoretic difference between chloride anions (from both CuCl2 and PMNT) and cations, enabling the giant ionic thermopower. "
+      },
+      {
+        "id": 6,
+        "text": "Besides, the long-range hydrophobic interactions contribute to the overall mechanical robustness. "
+      },
+      {
+        "id": 7,
+        "text": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. "
+      },
+      {
+        "id": 8,
+        "text": "This work offers an alternative pathway toward developing high-performance i-TE materials for wearable electronics and low-grade heat harvesting applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0336:g",
+        "label": "PVA-based n-type ionic thermoelectric hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0336:tp",
+        "label": "Ionic Seebeck coefficient of -38.6 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0336:st",
+        "label": "Stretchability of 382.5%",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0336:pva",
+        "label": "PVA in the hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0336:am",
+        "label": "Amphiphilic nature",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0336:oh",
+        "label": "Hydrophilic hydroxyl groups of PVA",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0336:cu",
+        "label": "Cu2+ ions from CuCl2",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0336:bb",
+        "label": "Hydrophobic PVA backbone",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0336:pm",
+        "label": "Water-soluble conjugated polymer PMNT",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0336:pi",
+        "label": "Strong pi-pi stacking among PMNT chains",
+        "role": "interaction"
+      },
+      {
+        "id": "P0336:pa",
+        "label": "Hydrophobic associations among PMNT chains",
+        "role": "interaction"
+      },
+      {
+        "id": "P0336:ds",
+        "label": "Dual coordination and hydrophobic interaction strategy",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0336:td",
+        "label": "Thermophoretic difference between chloride anions and cations",
+        "role": "quantity"
+      },
+      {
+        "id": "P0336:lh",
+        "label": "Long-range hydrophobic interactions",
+        "role": "interaction"
+      },
+      {
+        "id": "P0336:mr",
+        "label": "Overall mechanical robustness",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0336:ts",
+        "label": "Self-powered temperature sensing",
+        "role": "application"
+      },
+      {
+        "id": "P0336:hh",
+        "label": "Low-grade heat harvesting",
+        "role": "application"
+      },
+      {
+        "id": "P0336:fan",
+        "label": "Powering a cooling fan using waste heat from a working tablet",
+        "role": "application"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0336:r001",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Ionic Seebeck coefficient of -38.6 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through synergistic coordination and hydrophobic interactions",
+        "joint_factors": [
+          "Coordination interactions",
+          "Hydrophobic interactions"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:g",
+        "object_id": "P0336:tp"
+      },
+      {
+        "relation_id": "P0336:r002",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Stretchability of 382.5%",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through synergistic coordination and hydrophobic interactions",
+        "joint_factors": [
+          "Coordination interactions",
+          "Hydrophobic interactions"
+        ],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:g",
+        "object_id": "P0336:st"
+      },
+      {
+        "relation_id": "P0336:r003",
+        "subject": "PVA in the hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Amphiphilic nature",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:pva",
+        "object_id": "P0336:am"
+      },
+      {
+        "relation_id": "P0336:r004",
+        "subject": "Hydrophilic hydroxyl groups of PVA",
+        "subject_role": "material_entity",
+        "predicate": "forms coordination bonds with",
+        "object": "Cu2+ ions from CuCl2",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:oh",
+        "object_id": "P0336:cu"
+      },
+      {
+        "relation_id": "P0336:r005",
+        "subject": "Hydrophobic PVA backbone",
+        "subject_role": "material_entity",
+        "predicate": "interacts hydrophobically with",
+        "object": "Water-soluble conjugated polymer PMNT",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:bb",
+        "object_id": "P0336:pm"
+      },
+      {
+        "relation_id": "P0336:r006",
+        "subject": "Strong pi-pi stacking among PMNT chains",
+        "subject_role": "interaction",
+        "predicate": "jointly drives",
+        "object": "Hydrophobic associations among PMNT chains",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Among PMNT chains",
+        "joint_factors": [
+          "Strong pi-pi stacking among PMNT chains",
+          "PMNT backbone hydrophobicity"
+        ],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Meanwhile, hydrophobic associations also occur among PMNT chains due to strong pi-pi stacking and backbone hydrophobicity. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:pi",
+        "object_id": "P0336:pa"
+      },
+      {
+        "relation_id": "P0336:r007",
+        "subject": "Dual coordination and hydrophobic interaction strategy",
+        "subject_role": "design_strategy",
+        "predicate": "enhances",
+        "object": "Thermophoretic difference between chloride anions and cations",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Chloride anions originate from both CuCl2 and PMNT",
+        "joint_factors": [
+          "Coordination interactions",
+          "Hydrophobic interactions"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Leveraging the amphiphilic nature of PVA, its hydrophilic hydroxyl groups form coordination bonds with Cu2+ ions from copper chloride (CuCl2), while its hydrophobic backbone interacts with water-soluble conjugated polymer (poly(3-(3 '-N,N,N-triethylammonium-1 '-propy-loxy)-4-methyl-2,5-thiophene chloride (PMNT). ",
+        "context_quotes": [
+          "This dual-interaction strategy approach enhances the thermophoretic difference between chloride anions (from both CuCl2 and PMNT) and cations, enabling the giant ionic thermopower. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0336:ds",
+        "object_id": "P0336:td"
+      },
+      {
+        "relation_id": "P0336:r008",
+        "subject": "Thermophoretic difference between chloride anions and cations",
+        "subject_role": "quantity",
+        "predicate": "enables",
+        "object": "Ionic Seebeck coefficient of -38.6 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Herein, a poly(vinyl alcohol) (PVA)-based n-type i-TE hydrogel is presented that exhibits both large negative S i (-38.6 mV K-1) and excellent stretchability (382.5%) through synergistic effect of coordination and hydrophobic interactions. ",
+        "context_quotes": [
+          "This dual-interaction strategy approach enhances the thermophoretic difference between chloride anions (from both CuCl2 and PMNT) and cations, enabling the giant ionic thermopower. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0336:td",
+        "object_id": "P0336:tp"
+      },
+      {
+        "relation_id": "P0336:r009",
+        "subject": "Long-range hydrophobic interactions",
+        "subject_role": "interaction",
+        "predicate": "contributes to",
+        "object": "Overall mechanical robustness",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "Besides, the long-range hydrophobic interactions contribute to the overall mechanical robustness. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:lh",
+        "object_id": "P0336:mr"
+      },
+      {
+        "relation_id": "P0336:r010",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "is implemented in",
+        "object": "Self-powered temperature sensing",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:g",
+        "object_id": "P0336:ts"
+      },
+      {
+        "relation_id": "P0336:r011",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "is implemented in",
+        "object": "Low-grade heat harvesting",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:g",
+        "object_id": "P0336:hh"
+      },
+      {
+        "relation_id": "P0336:r012",
+        "subject": "PVA-based n-type ionic thermoelectric hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "is used for",
+        "object": "Powering a cooling fan using waste heat from a working tablet",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "own_work",
+        "quote": "The developed hydrogels are successfully implemented in self-powered temperature sensors and low-grade heat harvesting systems, such as powering a cooling fan by utilizing the waste heat from a working tablet. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0336:g",
+        "object_id": "P0336:fan"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0337",
+    "title": "Host-Guest Complexation of α-Cyclodextrin and Triiodide Ions for Enhanced Performance of Ionic Thermoelectric Capacitors",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric materials have emerged as a promising avenue for harvesting low-grade waste heat, with significant potential for applications in wearable electronics. "
+      },
+      {
+        "id": 1,
+        "text": "This study introduces a novel design for ionic thermoelectric capacitors (ITECs) by incorporating host-guest complexation between alpha-cyclodextrin (alpha-CD) and triiodide ions (I3-). "
+      },
+      {
+        "id": 2,
+        "text": "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. "
+      },
+      {
+        "id": 3,
+        "text": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. "
+      },
+      {
+        "id": 4,
+        "text": "Accordingly, the optimized sample achieves an impressive positive ionic thermopower of 14.24 mV K-1 and a high ionic power factor of 477.2 mu W K-2 m-1. "
+      },
+      {
+        "id": 5,
+        "text": "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. "
+      },
+      {
+        "id": 6,
+        "text": "When integrated into a 3-leg device, a stable thermovoltage of 176 mV is generated under a temperature gradient of 4.4 K, thus highlighting the potential of this system for efficient thermal energy harvesting."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0337:it",
+        "label": "Stretchable ionic thermoelectric capacitor",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0337:cx",
+        "label": "Host-guest complexation between alpha-CD and I3-",
+        "role": "interaction"
+      },
+      {
+        "id": "P0337:cf",
+        "label": "Confinement of I3- diffusion within alpha-CD cylindrical cavities",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0337:md",
+        "label": "Mobility difference between I3- and sodium ions",
+        "role": "quantity"
+      },
+      {
+        "id": "P0337:tp",
+        "label": "Ionic thermopower",
+        "role": "quantity"
+      },
+      {
+        "id": "P0337:g",
+        "label": "Polyvinyl alcohol/alpha-CD/NaI hydrogels",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0337:opt",
+        "label": "Optimized polyvinyl alcohol/alpha-CD/NaI hydrogel sample",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0337:v",
+        "label": "Positive ionic thermopower of 14.24 mV K-1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0337:pf",
+        "label": "Ionic power factor of 477.2 μW K-2 m-1",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0337:pd",
+        "label": "Power density of 5.9 mW m-2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0337:dev",
+        "label": "Three-leg device",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0337:tv",
+        "label": "Stable thermovoltage of 176 mV",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0337:r001",
+        "subject": "Stretchable ionic thermoelectric capacitor",
+        "subject_role": "material_entity",
+        "predicate": "incorporates",
+        "object": "Host-guest complexation between alpha-CD and I3-",
+        "object_role": "interaction",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "This study introduces a novel design for ionic thermoelectric capacitors (ITECs) by incorporating host-guest complexation between alpha-cyclodextrin (alpha-CD) and triiodide ions (I3-). ",
+        "context_quotes": [
+          "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0337:it",
+        "object_id": "P0337:cx"
+      },
+      {
+        "relation_id": "P0337:r002",
+        "subject": "Host-guest complexation between alpha-CD and I3-",
+        "subject_role": "interaction",
+        "predicate": "causes",
+        "object": "Confinement of I3- diffusion within alpha-CD cylindrical cavities",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Supported by UV-vis spectroscopy and 13C-NMR analysis",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. "
+        ],
+        "subject_id": "P0337:cx",
+        "object_id": "P0337:cf"
+      },
+      {
+        "relation_id": "P0337:r003",
+        "subject": "Confinement of I3- diffusion within alpha-CD cylindrical cavities",
+        "subject_role": "mechanism_process",
+        "predicate": "enhances",
+        "object": "Mobility difference between I3- and sodium ions",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "The strong host-guest complexation between alpha-CD and I3- confines the diffusion of I3- within the cylindrical cavities of alpha-CD, as evidenced by UV-vis spectroscopy and 13C-NMR analysis. ",
+        "context_quotes": [
+          "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0337:cf",
+        "object_id": "P0337:md"
+      },
+      {
+        "relation_id": "P0337:r004",
+        "subject": "Mobility difference between I3- and sodium ions",
+        "subject_role": "quantity",
+        "predicate": "boosts",
+        "object": "Ionic thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Polyvinyl alcohol/alpha-CD/NaI hydrogels",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0337:md",
+        "object_id": "P0337:tp"
+      },
+      {
+        "relation_id": "P0337:r005",
+        "subject": "Polyvinyl alcohol/alpha-CD/NaI hydrogels",
+        "subject_role": "material_entity",
+        "predicate": "has enhanced",
+        "object": "Ionic thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Through enhanced I3-/sodium ion mobility difference",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0337:g",
+        "object_id": "P0337:tp"
+      },
+      {
+        "relation_id": "P0337:r006",
+        "subject": "Optimized polyvinyl alcohol/alpha-CD/NaI hydrogel sample",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Positive ionic thermopower of 14.24 mV K-1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [
+          "Accordingly, the optimized sample achieves an impressive positive ionic thermopower of 14.24 mV K-1 and a high ionic power factor of 477.2 mu W K-2 m-1. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0337:opt",
+        "object_id": "P0337:v"
+      },
+      {
+        "relation_id": "P0337:r007",
+        "subject": "Optimized polyvinyl alcohol/alpha-CD/NaI hydrogel sample",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Ionic power factor of 477.2 μW K-2 m-1",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "This confinement enhances the ion mobility difference between I3- and sodium ions, which in turn significantly boosts the ionic thermopower of the polyvinyl alcohol/alpha-CD/NaI hydrogels. ",
+        "context_quotes": [
+          "Accordingly, the optimized sample achieves an impressive positive ionic thermopower of 14.24 mV K-1 and a high ionic power factor of 477.2 mu W K-2 m-1. "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0337:opt",
+        "object_id": "P0337:pf"
+      },
+      {
+        "relation_id": "P0337:r008",
+        "subject": "Stretchable ionic thermoelectric capacitor",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Power density of 5.9 mW m-2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0337:it",
+        "object_id": "P0337:pd"
+      },
+      {
+        "relation_id": "P0337:r009",
+        "subject": "Three-leg device",
+        "subject_role": "material_entity",
+        "predicate": "generates",
+        "object": "Stable thermovoltage of 176 mV",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature gradient of 4.4 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Furthermore, the stretchable ITEC demonstrates a substantial power density of 5.9 mW m-2. ",
+        "context_quotes": [
+          "When integrated into a 3-leg device, a stable thermovoltage of 176 mV is generated under a temperature gradient of 4.4 K, thus highlighting the potential of this system for efficient thermal energy harvesting."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0337:dev",
+        "object_id": "P0337:tv"
+      }
+    ]
+  }
+]

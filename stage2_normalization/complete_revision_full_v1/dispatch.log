@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/dispatch.py", line 51, in <module>
+    ap=argparse.ArgumentParser();ap.add_argument('--phases',nargs='+',default=['revision']);ap.add_argument('--wait-pid',type=int);a=ap.parse_args();run(a.phases,a.wait_pid)
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/dispatch.py", line 23, in run
+    if (D/'runs'/j['id']/'SUCCESS.json').exists():c.run_job(j);done.append(read(D/'runs'/j['id']/'SUCCESS.json'))
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/corpus.py", line 116, in run_job
+    value=[materialize_paper(p,job['id']) for p in raw['papers']];save_new(path,value)
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/corpus.py", line 116, in <listcomp>
+    value=[materialize_paper(p,job['id']) for p in raw['papers']];save_new(path,value)
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/complete_revision_full_v1/corpus.py", line 61, in materialize_paper
+    body=w.body_of(before,src);body.update({k:v for k,v in x['patch'].items() if v is not None});after,a=w.mat.expand(body,src,rid,before['id'],index,before);alerts+=a
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/full_audit_v1/materialize.py", line 69, in expand
+    require(all(isinstance(body[k], str) and body[k].strip()
+  File "/Users/chl/.codex/worktrees/2b73/knowledge_reflection/stage2_normalization/full_audit_v1/materialize.py", line 39, in require
+    raise ValueError(message)
+ValueError: Empty relation: P0006:r005

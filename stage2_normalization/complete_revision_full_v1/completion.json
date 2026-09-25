@@ -1,0 +1,66 @@
+{
+  "completed_at": "2026-09-25T06:14:27.884027+00:00",
+  "revision": {
+    "papers": 1971,
+    "reused_papers": 40,
+    "new_papers": 1931,
+    "old_relations": 21115,
+    "new_relations": 24737,
+    "actions": {
+      "keep": 17028,
+      "patch": 3647,
+      "uncertain": 426,
+      "add": 3636,
+      "reject": 14
+    },
+    "reextract_papers": 0,
+    "uncertain_relations": 426,
+    "semantic_acceptance": false
+  },
+  "point_targets": {
+    "iTE": {
+      "strict_precision_point_target": false,
+      "core_complete_point_target": true
+    },
+    "TG": {
+      "strict_precision_point_target": false,
+      "core_complete_point_target": true
+    }
+  },
+  "program_integrity": "PASS; not semantic acceptance",
+  "graph": {
+    "domain_stats": {
+      "iTE": {
+        "nodes": 25243,
+        "accepted_claims": 20694,
+        "deferred_claims": 375
+      },
+      "TG": {
+        "nodes": 4701,
+        "accepted_claims": 3617,
+        "deferred_claims": 51
+      }
+    },
+    "new_mapping_decisions": 605,
+    "new_mapping_uncertain": 54,
+    "old_graph_unchanged": true,
+    "only_new_endpoint_candidates_reviewed": true,
+    "global_normalization_rerun": false,
+    "acceptance_report": "../acceptance/REPORT.md"
+  },
+  "token_usage": {
+    "input_tokens": 14773842,
+    "cached_input_tokens": 4736000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1394601,
+    "reasoning_output_tokens": 130605
+  },
+  "artifacts": {
+    "final/revised_all.json": "4c9cf504809659c397601e801c7ef479c0ba55ff54f867620e0743fa044ebcac",
+    "final/change_log.json": "cbc5d57d09995977230b147fd14b1c306df398acef4e0b6ba7bef4ecc9b974bb",
+    "acceptance/scores.json": "ccea7784da939591f3219d494ee5b91e8ab68bb9b5a3fea4bbaae2b1bab36ea7",
+    "acceptance/REPORT.md": "4afa858b47904780377fbfd06f0d0f382b20bca1bef777fab2ed9d8a4917d3a3",
+    "graph/iTE/graph.json": "631d9cbd4b9c8b7197fd7537a032230828a44e19985951ea56f3b3ae8b2eada0",
+    "graph/TG/graph.json": "2c6ec347efe084e96c19dce6bf2e852f88d536039c46814908846c572a078421"
+  }
+}

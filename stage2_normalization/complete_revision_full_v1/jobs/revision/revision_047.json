@@ -1,0 +1,1005 @@
+[
+  {
+    "paper_id": "P0201",
+    "title": "Ionic thermoelectric materials for near ambient temperature energy harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Ionic thermoelectric (i-TE) materials, using ions as the energy carrier, can generate a voltage under a temperature difference, bearing similarities to the Seebeck effect of electrons and holes in solid-state materials. "
+      },
+      {
+        "id": 1,
+        "text": "Recent experiments have demonstrated large thermopower of quasi-solid-state i-TE materials, which are attractive for harvesting ambient heat as large enough voltage can be generated under a small temperature difference to match the voltage input needs of sensors for internet-of-things applications. "
+      },
+      {
+        "id": 2,
+        "text": "In this perspective article, we discuss similarities and differences of i-TE materials from electronic-based thermoelectric materials and also different i-TE thermoelectric effects including the thermodiffusion (Soret) effect and the thermogalvanic effect, in which the latter includes redox reaction entropy and the Soret effect. "
+      },
+      {
+        "id": 3,
+        "text": "Strategies to improve performances of materials and devices are elaborated, together with needs for future research in understanding microscopic origins of different effects."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0201:i",
+        "label": "Ionic thermoelectric materials",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0201:ions",
+        "label": "Ions as energy carriers",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0201:vol",
+        "label": "Voltage generation under a temperature difference",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0201:q",
+        "label": "Quasi-solid-state ionic thermoelectric materials",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0201:tp",
+        "label": "Large thermopower",
+        "role": "quantity"
+      },
+      {
+        "id": "P0201:sensor",
+        "label": "Voltage matching sensor inputs for Internet-of-Things applications",
+        "role": "application"
+      },
+      {
+        "id": "P0201:tg",
+        "label": "Thermogalvanic effect in ionic thermoelectric materials",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0201:ent",
+        "label": "Redox reaction entropy",
+        "role": "quantity"
+      },
+      {
+        "id": "P0201:soret",
+        "label": "Soret effect",
+        "role": "mechanism_process"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0201:r001",
+        "subject": "Ionic thermoelectric materials",
+        "subject_role": "material_entity",
+        "predicate": "uses",
+        "object": "Ions as energy carriers",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "review_synthesis",
+        "quote": "Ionic thermoelectric (i-TE) materials, using ions as the energy carrier, can generate a voltage under a temperature difference, bearing similarities to the Seebeck effect of electrons and holes in solid-state materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0201:i",
+        "object_id": "P0201:ions"
+      },
+      {
+        "relation_id": "P0201:r002",
+        "subject": "Ionic thermoelectric materials",
+        "subject_role": "material_entity",
+        "predicate": "enables",
+        "object": "Voltage generation under a temperature difference",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "Ionic thermoelectric (i-TE) materials, using ions as the energy carrier, can generate a voltage under a temperature difference, bearing similarities to the Seebeck effect of electrons and holes in solid-state materials. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0201:i",
+        "object_id": "P0201:vol"
+      },
+      {
+        "relation_id": "P0201:r003",
+        "subject": "Quasi-solid-state ionic thermoelectric materials",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Large thermopower",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Recent experiments summarized in the perspective",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "Recent experiments have demonstrated large thermopower of quasi-solid-state i-TE materials, which are attractive for harvesting ambient heat as large enough voltage can be generated under a small temperature difference to match the voltage input needs of sensors for internet-of-things applications. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Recent experiments have demonstrated large thermopower of quasi-solid-state i-TE materials, which are attractive for harvesting ambient heat as large enough voltage can be generated under a small temperature difference to match the voltage input needs of sensors for internet-of-things applications. "
+        ],
+        "subject_id": "P0201:q",
+        "object_id": "P0201:tp"
+      },
+      {
+        "relation_id": "P0201:r004",
+        "subject": "Large thermopower",
+        "subject_role": "quantity",
+        "predicate": "enables",
+        "object": "Voltage matching sensor inputs for Internet-of-Things applications",
+        "object_role": "application",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Voltage generated under a small temperature difference; ambient heat harvesting",
+        "joint_factors": [],
+        "scope": "application_sensing",
+        "claim_scope": "review_synthesis",
+        "quote": "Recent experiments have demonstrated large thermopower of quasi-solid-state i-TE materials, which are attractive for harvesting ambient heat as large enough voltage can be generated under a small temperature difference to match the voltage input needs of sensors for internet-of-things applications. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0201:tp",
+        "object_id": "P0201:sensor"
+      },
+      {
+        "relation_id": "P0201:r005",
+        "subject": "Thermogalvanic effect in ionic thermoelectric materials",
+        "subject_role": "mechanism_process",
+        "predicate": "includes",
+        "object": "Redox reaction entropy",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Perspective's stated description of the thermogalvanic effect",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "In this perspective article, we discuss similarities and differences of i-TE materials from electronic-based thermoelectric materials and also different i-TE thermoelectric effects including the thermodiffusion (Soret) effect and the thermogalvanic effect, in which the latter includes redox reaction entropy and the Soret effect. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0201:tg",
+        "object_id": "P0201:ent"
+      },
+      {
+        "relation_id": "P0201:r006",
+        "subject": "Thermogalvanic effect in ionic thermoelectric materials",
+        "subject_role": "mechanism_process",
+        "predicate": "includes",
+        "object": "Soret effect",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Perspective's stated description of the thermogalvanic effect",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "review_synthesis",
+        "quote": "In this perspective article, we discuss similarities and differences of i-TE materials from electronic-based thermoelectric materials and also different i-TE thermoelectric effects including the thermodiffusion (Soret) effect and the thermogalvanic effect, in which the latter includes redox reaction entropy and the Soret effect. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0201:tg",
+        "object_id": "P0201:soret"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0203",
+    "title": "Thermally Regenerative Electrochemical Cycle for Low-Grade Heat Harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Tremendous low-grade heat (i.e., <130 degrees C) exists in solar thermal, geothermal, and industrial waste heat. "
+      },
+      {
+        "id": 1,
+        "text": "Efficient conversion of low-grade heat to electricity can recover these wasted resources and reduce energy consumption and carbon footprint. "
+      },
+      {
+        "id": 2,
+        "text": "Along with thermoelectrics and thermogalvanic cells, thermally regenerative electrochemical cycle (TREC) has attracted wide attention recently, because it has a high temperature coefficient (>1 mV/K), high efficiency, and low cost. "
+      },
+      {
+        "id": 3,
+        "text": "In TREC, conversion to electricity is realized by charging-discharging an electrochemical cell at different temperatures. "
+      },
+      {
+        "id": 4,
+        "text": "In this Perspective, we will discuss the principle of TREC and recent progress, such as new material systems and mechanisms. "
+      },
+      {
+        "id": 5,
+        "text": "More importantly, we will give our opinions on the challenges and future directions of this field, including fundamental understanding, material design, and system engineering."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0203:trec",
+        "label": "Thermally regenerative electrochemical cycle (TREC)",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0203:coef",
+        "label": "Temperature coefficient greater than 1 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0203:eff",
+        "label": "High efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0203:cost",
+        "label": "Low cost",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0203:cycle",
+        "label": "Charging and discharging an electrochemical cell at different temperatures",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0203:conv",
+        "label": "Heat-to-electricity conversion",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0203:r001",
+        "subject": "Thermally regenerative electrochemical cycle (TREC)",
+        "subject_role": "mechanism_process",
+        "predicate": "has",
+        "object": "Temperature coefficient greater than 1 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "review_synthesis",
+        "quote": "Along with thermoelectrics and thermogalvanic cells, thermally regenerative electrochemical cycle (TREC) has attracted wide attention recently, because it has a high temperature coefficient (>1 mV/K), high efficiency, and low cost. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0203:trec",
+        "object_id": "P0203:coef"
+      },
+      {
+        "relation_id": "P0203:r002",
+        "subject": "Thermally regenerative electrochemical cycle (TREC)",
+        "subject_role": "mechanism_process",
+        "predicate": "has",
+        "object": "High efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "Along with thermoelectrics and thermogalvanic cells, thermally regenerative electrochemical cycle (TREC) has attracted wide attention recently, because it has a high temperature coefficient (>1 mV/K), high efficiency, and low cost. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0203:trec",
+        "object_id": "P0203:eff"
+      },
+      {
+        "relation_id": "P0203:r003",
+        "subject": "Thermally regenerative electrochemical cycle (TREC)",
+        "subject_role": "mechanism_process",
+        "predicate": "has",
+        "object": "Low cost",
+        "object_role": "descriptor",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "Along with thermoelectrics and thermogalvanic cells, thermally regenerative electrochemical cycle (TREC) has attracted wide attention recently, because it has a high temperature coefficient (>1 mV/K), high efficiency, and low cost. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0203:trec",
+        "object_id": "P0203:cost"
+      },
+      {
+        "relation_id": "P0203:r004",
+        "subject": "Thermally regenerative electrochemical cycle (TREC)",
+        "subject_role": "mechanism_process",
+        "predicate": "operates through",
+        "object": "Charging and discharging an electrochemical cell at different temperatures",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "In TREC, conversion to electricity is realized by charging-discharging an electrochemical cell at different temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0203:trec",
+        "object_id": "P0203:cycle"
+      },
+      {
+        "relation_id": "P0203:r005",
+        "subject": "Charging and discharging an electrochemical cell at different temperatures",
+        "subject_role": "mechanism_process",
+        "predicate": "realizes",
+        "object": "Heat-to-electricity conversion",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In TREC",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "review_synthesis",
+        "quote": "In TREC, conversion to electricity is realized by charging-discharging an electrochemical cell at different temperatures. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0203:cycle",
+        "object_id": "P0203:conv"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0204",
+    "title": "Direct thermal charging cell for converting low-grade heat to electricity",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Efficient low-grade heat recovery can help to reduce greenhouse gas emission as over 70% of primary energy input is wasted as heat, but current technologies to fulfill the heat-to-electricity conversion are still far from optimum. "
+      },
+      {
+        "id": 1,
+        "text": "Here we report a direct thermal charging cell, using asymmetric electrodes of a graphene oxide/platinum nanoparticles cathode and a polyaniline anode in Fe2+/Fe3+ redox electrolyte via isothermal heating operation. "
+      },
+      {
+        "id": 2,
+        "text": "When heated, the cell generates voltage via a temperature-induced pseudocapacitive effect of graphene oxide and a thermogalvanic effect of Fe2+/Fe3+, and then discharges continuously by oxidizing polyaniline and reducing Fe3+ under isothermal heating till Fe3+ depletion. "
+      },
+      {
+        "id": 3,
+        "text": "The cell can be self-regenerated when cooled down. "
+      },
+      {
+        "id": 4,
+        "text": "Direct thermal charging cells attain a temperature coefficient of 5.0 mV K-1 and heat-to-electricity conversion efficiency of 2.8% at 70 degrees C (21.4% of Carnot efficiency) and 3.52% at 90 degrees C (19.7% of Carnot efficiency), outperforming other thermoelectrochemical and thermoelectric systems."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0204:cell",
+        "label": "Direct thermal charging cell",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0204:cath",
+        "label": "Graphene oxide/platinum nanoparticle cathode",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0204:an",
+        "label": "Polyaniline anode",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0204:el",
+        "label": "Fe2+/Fe3+ redox electrolyte",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0204:heat",
+        "label": "Isothermal heating",
+        "role": "condition"
+      },
+      {
+        "id": "P0204:pseudo",
+        "label": "Temperature-induced pseudocapacitive effect of graphene oxide",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0204:vol",
+        "label": "Voltage generation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0204:dis",
+        "label": "Continuous discharge",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0204:oxid",
+        "label": "Polyaniline oxidation",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0204:dep",
+        "label": "Fe3+ depletion",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0204:cool",
+        "label": "Cooling",
+        "role": "condition"
+      },
+      {
+        "id": "P0204:regen",
+        "label": "Cell self-regeneration",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0204:tc",
+        "label": "Temperature coefficient of 5.0 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0204:eta70",
+        "label": "Heat-to-electricity efficiency of 2.8% (21.4% of Carnot efficiency)",
+        "role": "quantity"
+      },
+      {
+        "id": "P0204:eta90",
+        "label": "Heat-to-electricity efficiency of 3.52% (19.7% of Carnot efficiency)",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0204:r001",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "has cathode",
+        "object": "Graphene oxide/platinum nanoparticle cathode",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Asymmetric electrode architecture with a polyaniline anode",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here we report a direct thermal charging cell, using asymmetric electrodes of a graphene oxide/platinum nanoparticles cathode and a polyaniline anode in Fe2+/Fe3+ redox electrolyte via isothermal heating operation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:cath"
+      },
+      {
+        "relation_id": "P0204:r002",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "has anode",
+        "object": "Polyaniline anode",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Asymmetric electrode architecture with a graphene oxide/platinum nanoparticle cathode",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here we report a direct thermal charging cell, using asymmetric electrodes of a graphene oxide/platinum nanoparticles cathode and a polyaniline anode in Fe2+/Fe3+ redox electrolyte via isothermal heating operation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:an"
+      },
+      {
+        "relation_id": "P0204:r003",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "operates in",
+        "object": "Fe2+/Fe3+ redox electrolyte",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Isothermal heating operation",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "Here we report a direct thermal charging cell, using asymmetric electrodes of a graphene oxide/platinum nanoparticles cathode and a polyaniline anode in Fe2+/Fe3+ redox electrolyte via isothermal heating operation. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:el"
+      },
+      {
+        "relation_id": "P0204:r004",
+        "subject": "Isothermal heating",
+        "subject_role": "condition",
+        "predicate": "induces",
+        "object": "Temperature-induced pseudocapacitive effect of graphene oxide",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "In the direct thermal charging cell",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "When heated, the cell generates voltage via a temperature-induced pseudocapacitive effect of graphene oxide and a thermogalvanic effect of Fe2+/Fe3+, and then discharges continuously by oxidizing polyaniline and reducing Fe3+ under isothermal heating till Fe3+ depletion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:heat",
+        "object_id": "P0204:pseudo"
+      },
+      {
+        "relation_id": "P0204:r005",
+        "subject": "Temperature-induced pseudocapacitive effect of graphene oxide",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly enables",
+        "object": "Voltage generation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "When the cell is heated",
+        "joint_factors": [
+          "Thermogalvanic effect of Fe2+/Fe3+"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "When heated, the cell generates voltage via a temperature-induced pseudocapacitive effect of graphene oxide and a thermogalvanic effect of Fe2+/Fe3+, and then discharges continuously by oxidizing polyaniline and reducing Fe3+ under isothermal heating till Fe3+ depletion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:pseudo",
+        "object_id": "P0204:vol"
+      },
+      {
+        "relation_id": "P0204:r006",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "undergoes",
+        "object": "Continuous discharge",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "After voltage generation; under isothermal heating until Fe3+ depletion",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "When heated, the cell generates voltage via a temperature-induced pseudocapacitive effect of graphene oxide and a thermogalvanic effect of Fe2+/Fe3+, and then discharges continuously by oxidizing polyaniline and reducing Fe3+ under isothermal heating till Fe3+ depletion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:dis"
+      },
+      {
+        "relation_id": "P0204:r007",
+        "subject": "Polyaniline oxidation",
+        "subject_role": "mechanism_process",
+        "predicate": "jointly sustains",
+        "object": "Continuous discharge",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under isothermal heating until Fe3+ depletion",
+        "joint_factors": [
+          "Fe3+ reduction"
+        ],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "When heated, the cell generates voltage via a temperature-induced pseudocapacitive effect of graphene oxide and a thermogalvanic effect of Fe2+/Fe3+, and then discharges continuously by oxidizing polyaniline and reducing Fe3+ under isothermal heating till Fe3+ depletion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:oxid",
+        "object_id": "P0204:dis"
+      },
+      {
+        "relation_id": "P0204:r008",
+        "subject": "Fe3+ depletion",
+        "subject_role": "state_structure",
+        "predicate": "terminates",
+        "object": "Continuous discharge",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Under isothermal heating",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "When heated, the cell generates voltage via a temperature-induced pseudocapacitive effect of graphene oxide and a thermogalvanic effect of Fe2+/Fe3+, and then discharges continuously by oxidizing polyaniline and reducing Fe3+ under isothermal heating till Fe3+ depletion. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:dep",
+        "object_id": "P0204:dis"
+      },
+      {
+        "relation_id": "P0204:r009",
+        "subject": "Cooling",
+        "subject_role": "condition",
+        "predicate": "enables",
+        "object": "Cell self-regeneration",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "The cell can be self-regenerated when cooled down. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cool",
+        "object_id": "P0204:regen"
+      },
+      {
+        "relation_id": "P0204:r010",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "attains",
+        "object": "Temperature coefficient of 5.0 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Direct thermal charging cells attain a temperature coefficient of 5.0 mV K-1 and heat-to-electricity conversion efficiency of 2.8% at 70 degrees C (21.4% of Carnot efficiency) and 3.52% at 90 degrees C (19.7% of Carnot efficiency), outperforming other thermoelectrochemical and thermoelectric systems.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:tc"
+      },
+      {
+        "relation_id": "P0204:r011",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "attains",
+        "object": "Heat-to-electricity efficiency of 2.8% (21.4% of Carnot efficiency)",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 70 °C; reported to outperform other thermoelectrochemical and thermoelectric systems",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Direct thermal charging cells attain a temperature coefficient of 5.0 mV K-1 and heat-to-electricity conversion efficiency of 2.8% at 70 degrees C (21.4% of Carnot efficiency) and 3.52% at 90 degrees C (19.7% of Carnot efficiency), outperforming other thermoelectrochemical and thermoelectric systems.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:eta70"
+      },
+      {
+        "relation_id": "P0204:r012",
+        "subject": "Direct thermal charging cell",
+        "subject_role": "material_entity",
+        "predicate": "attains",
+        "object": "Heat-to-electricity efficiency of 3.52% (19.7% of Carnot efficiency)",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At 90 °C; reported to outperform other thermoelectrochemical and thermoelectric systems",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Direct thermal charging cells attain a temperature coefficient of 5.0 mV K-1 and heat-to-electricity conversion efficiency of 2.8% at 70 degrees C (21.4% of Carnot efficiency) and 3.52% at 90 degrees C (19.7% of Carnot efficiency), outperforming other thermoelectrochemical and thermoelectric systems.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0204:cell",
+        "object_id": "P0204:eta90"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0205",
+    "title": "Thermally regenerative electrochemically cycled flow batteries with pH neutral electrolytes for harvesting low-grade heat",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Harvesting waste heat with temperatures lower than 100 degrees C can improve the system efficiency and reduce greenhouse gas emissions, yet it has been a longstanding and challenging task. "
+      },
+      {
+        "id": 1,
+        "text": "Electrochemical methods for harvesting low-grade heat have aroused research interest in recent years due to the relatively high effective temperature coefficient of the electrolytes (>1 mV K-1) compared with the thermopower of traditional thermoelectric devices. "
+      },
+      {
+        "id": 2,
+        "text": "Compared with other electrochemical devices such as the temperature-variation based thermally regenerative electrochemical cycle and temperature-difference based thermogalvanic cells, the thermally regenerative electrochemically cycled flow battery (TREC-FB) has the advantages of providing a continuous power output, decoupling the heat source and heat sink, and recuperating heat, and compatible with stacking for scaling up. "
+      },
+      {
+        "id": 3,
+        "text": "However, the TREC-FB suffers from the issue of stable operation due to the challenge of pH matching between catholyte and anolyte solutions with desirable temperature coefficients. "
+      },
+      {
+        "id": 4,
+        "text": "In this work, we demonstrate a pH-neutral TREC-FB based on KI/KI3 and K3Fe(CN)(6)/K4Fe(CN)(6) as the catholyte and anolyte, respectively, with a cell temperature coefficient of 1.9 mV K-1 and a power density of 9 mu W cm(-2). "
+      },
+      {
+        "id": 5,
+        "text": "This work also presents a comprehensive model with a coupled analysis of mass transfer and reaction kinetics in a porous electrode that can accurately capture the flow rate dependence of the power density and energy conversion efficiency. "
+      },
+      {
+        "id": 6,
+        "text": "We estimate that the efficiency of the pH-neutral TREC-FB can reach nearly 9% of the Carnot efficiency at the maximum power output with a temperature difference of 37 K. "
+      },
+      {
+        "id": 7,
+        "text": "Via analysis, we identify that the mass transfer overpotential inside the porous electrode and the resistance of the ion exchange membrane are the two major factors limiting the efficiency and power density, pointing to directions for future improvements."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0205:fb",
+        "label": "Thermally regenerative electrochemically cycled flow battery (TREC-FB)",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0205:advantages",
+        "label": "Continuous power output, heat source/sink decoupling, heat recuperation and stacking compatibility",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0205:matching",
+        "label": "Difficulty matching catholyte and anolyte pH with desirable temperature coefficients",
+        "role": "condition"
+      },
+      {
+        "id": "P0205:stability",
+        "label": "Stable TREC-FB operation",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0205:neutral",
+        "label": "pH-neutral KI/KI3 catholyte–K3Fe(CN)6/K4Fe(CN)6 anolyte TREC-FB",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0205:coefficient",
+        "label": "Cell temperature coefficient of 1.9 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0205:power",
+        "label": "Power density of 9 μW cm−2",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0205:flow",
+        "label": "Flow rate",
+        "role": "condition"
+      },
+      {
+        "id": "P0205:pd",
+        "label": "pH-neutral TREC-FB power density",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0205:eff",
+        "label": "pH-neutral TREC-FB energy conversion efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0205:model",
+        "label": "Model coupling porous-electrode mass transfer and reaction kinetics",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0205:estimate",
+        "label": "Nearly 9% of Carnot efficiency",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0205:overpotential",
+        "label": "Mass transfer overpotential inside porous electrode",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0205:r001",
+        "subject": "Thermally regenerative electrochemically cycled flow battery (TREC-FB)",
+        "subject_role": "material_entity",
+        "predicate": "provides",
+        "object": "Continuous power output, heat source/sink decoupling, heat recuperation and stacking compatibility",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Compared with temperature-variation-based TREC and temperature-difference-based thermogalvanic cells.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "background",
+        "quote": "Compared with other electrochemical devices such as the temperature-variation based thermally regenerative electrochemical cycle and temperature-difference based thermogalvanic cells, the thermally regenerative electrochemically cycled flow battery (TREC-FB) has the advantages of providing a continuous power output, decoupling the heat source and heat sink, and recuperating heat, and compatible with stacking for scaling up. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:fb",
+        "object_id": "P0205:advantages"
+      },
+      {
+        "relation_id": "P0205:r002",
+        "subject": "Difficulty matching catholyte and anolyte pH with desirable temperature coefficients",
+        "subject_role": "condition",
+        "predicate": "hinders",
+        "object": "Stable TREC-FB operation",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "background",
+        "quote": "However, the TREC-FB suffers from the issue of stable operation due to the challenge of pH matching between catholyte and anolyte solutions with desirable temperature coefficients. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:matching",
+        "object_id": "P0205:stability"
+      },
+      {
+        "relation_id": "P0205:r003",
+        "subject": "pH-neutral KI/KI3 catholyte–K3Fe(CN)6/K4Fe(CN)6 anolyte TREC-FB",
+        "subject_role": "material_entity",
+        "predicate": "has",
+        "object": "Cell temperature coefficient of 1.9 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "In this work, we demonstrate a pH-neutral TREC-FB based on KI/KI3 and K3Fe(CN)(6)/K4Fe(CN)(6) as the catholyte and anolyte, respectively, with a cell temperature coefficient of 1.9 mV K-1 and a power density of 9 mu W cm(-2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:neutral",
+        "object_id": "P0205:coefficient"
+      },
+      {
+        "relation_id": "P0205:r004",
+        "subject": "pH-neutral KI/KI3 catholyte–K3Fe(CN)6/K4Fe(CN)6 anolyte TREC-FB",
+        "subject_role": "material_entity",
+        "predicate": "achieves",
+        "object": "Power density of 9 μW cm−2",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "In this work, we demonstrate a pH-neutral TREC-FB based on KI/KI3 and K3Fe(CN)(6)/K4Fe(CN)(6) as the catholyte and anolyte, respectively, with a cell temperature coefficient of 1.9 mV K-1 and a power density of 9 mu W cm(-2). ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:neutral",
+        "object_id": "P0205:power"
+      },
+      {
+        "relation_id": "P0205:r005",
+        "subject": "Flow rate",
+        "subject_role": "condition",
+        "predicate": "is associated with variation in",
+        "object": "pH-neutral TREC-FB power density",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Dependence accurately captured by a model coupling mass transfer and reaction kinetics in a porous electrode; direction unspecified.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This work also presents a comprehensive model with a coupled analysis of mass transfer and reaction kinetics in a porous electrode that can accurately capture the flow rate dependence of the power density and energy conversion efficiency. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:flow",
+        "object_id": "P0205:pd"
+      },
+      {
+        "relation_id": "P0205:r006",
+        "subject": "Flow rate",
+        "subject_role": "condition",
+        "predicate": "is associated with variation in",
+        "object": "pH-neutral TREC-FB energy conversion efficiency",
+        "object_role": "performance_function",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Dependence accurately captured by a model coupling mass transfer and reaction kinetics in a porous electrode; direction unspecified.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "This work also presents a comprehensive model with a coupled analysis of mass transfer and reaction kinetics in a porous electrode that can accurately capture the flow rate dependence of the power density and energy conversion efficiency. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:flow",
+        "object_id": "P0205:eff"
+      },
+      {
+        "relation_id": "P0205:r007",
+        "subject": "Model coupling porous-electrode mass transfer and reaction kinetics",
+        "subject_role": "design_strategy",
+        "predicate": "accurately captures flow-rate dependence of",
+        "object": "pH-neutral TREC-FB power density",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "This work also presents a comprehensive model with a coupled analysis of mass transfer and reaction kinetics in a porous electrode that can accurately capture the flow rate dependence of the power density and energy conversion efficiency. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:model",
+        "object_id": "P0205:pd"
+      },
+      {
+        "relation_id": "P0205:r008",
+        "subject": "Model coupling porous-electrode mass transfer and reaction kinetics",
+        "subject_role": "design_strategy",
+        "predicate": "accurately captures flow-rate dependence of",
+        "object": "pH-neutral TREC-FB energy conversion efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "This work also presents a comprehensive model with a coupled analysis of mass transfer and reaction kinetics in a porous electrode that can accurately capture the flow rate dependence of the power density and energy conversion efficiency. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:model",
+        "object_id": "P0205:eff"
+      },
+      {
+        "relation_id": "P0205:r009",
+        "subject": "pH-neutral KI/KI3 catholyte–K3Fe(CN)6/K4Fe(CN)6 anolyte TREC-FB",
+        "subject_role": "material_entity",
+        "predicate": "is estimated to reach",
+        "object": "Nearly 9% of Carnot efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "At maximum power output and a temperature difference of 37 K.",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "We estimate that the efficiency of the pH-neutral TREC-FB can reach nearly 9% of the Carnot efficiency at the maximum power output with a temperature difference of 37 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:neutral",
+        "object_id": "P0205:estimate"
+      },
+      {
+        "relation_id": "P0205:r010",
+        "subject": "Mass transfer overpotential inside porous electrode",
+        "subject_role": "quantity",
+        "predicate": "is identified as a major limiting factor for",
+        "object": "pH-neutral TREC-FB energy conversion efficiency",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Identified via analysis.",
+        "joint_factors": [
+          "Ion exchange membrane resistance"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Via analysis, we identify that the mass transfer overpotential inside the porous electrode and the resistance of the ion exchange membrane are the two major factors limiting the efficiency and power density, pointing to directions for future improvements.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:overpotential",
+        "object_id": "P0205:eff"
+      },
+      {
+        "relation_id": "P0205:r011",
+        "subject": "Mass transfer overpotential inside porous electrode",
+        "subject_role": "quantity",
+        "predicate": "is identified as a major limiting factor for",
+        "object": "pH-neutral TREC-FB power density",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Identified via analysis.",
+        "joint_factors": [
+          "Ion exchange membrane resistance"
+        ],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Via analysis, we identify that the mass transfer overpotential inside the porous electrode and the resistance of the ion exchange membrane are the two major factors limiting the efficiency and power density, pointing to directions for future improvements.",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0205:overpotential",
+        "object_id": "P0205:pd"
+      }
+    ]
+  }
+]

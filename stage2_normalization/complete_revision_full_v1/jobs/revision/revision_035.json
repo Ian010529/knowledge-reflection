@@ -1,0 +1,561 @@
+[
+  {
+    "paper_id": "P0150",
+    "title": "Highly conductive triple network hydrogel thermoelectrochemical cells with low-grade heat harvesting",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Quasi-solid thermoelectrochemical cells (TECs) are promising candidates for wearable energy harvesting devices as they enable the continuous conversion of low-grade heat into electricity. "
+      },
+      {
+        "id": 1,
+        "text": "However, the TEC performance remains limited by inadequate ionic conductivity. "
+      },
+      {
+        "id": 2,
+        "text": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. "
+      },
+      {
+        "id": 3,
+        "text": "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . "
+      },
+      {
+        "id": 4,
+        "text": "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+      },
+      {
+        "id": 5,
+        "text": "Moreover, the as-fabricated thermoelectric generator array exhibits an exceptional power output of 28.7 mu W at a temperature difference of 11.9 K. "
+      },
+      {
+        "id": 6,
+        "text": "This work provides insights on the development of wearable thermoelectric materials for practical and reliable energy harvesting applications."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0150:freeze",
+        "label": "Freeze-thaw synthesis",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0150:g",
+        "label": "PAAM/PVA/CNF hydrogel",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0150:network",
+        "label": "Triple-network structure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0150:opt",
+        "label": "Optimization of polymer composition and soaking time",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0150:conduct",
+        "label": "Ionic conductivity of 168 mS cm−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0150:s",
+        "label": "Thermopower of approximately 1.69 mV K−1",
+        "role": "quantity"
+      },
+      {
+        "id": "P0150:fractal",
+        "label": "Hydrogel fractal microstructure",
+        "role": "state_structure"
+      },
+      {
+        "id": "P0150:array",
+        "label": "Thermoelectric generator array",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0150:power",
+        "label": "Power output of 28.7 μW",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0150:r001",
+        "subject": "Freeze-thaw synthesis",
+        "subject_role": "mechanism_process",
+        "predicate": "produces",
+        "object": "PAAM/PVA/CNF hydrogel",
+        "object_role": "material_entity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. "
+        ],
+        "subject_id": "P0150:freeze",
+        "object_id": "P0150:g"
+      },
+      {
+        "relation_id": "P0150:r002",
+        "subject": "PAAM/PVA/CNF hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Triple-network structure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0150:g",
+        "object_id": "P0150:network"
+      },
+      {
+        "relation_id": "P0150:r003",
+        "subject": "Optimization of polymer composition and soaking time",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Ionic conductivity of 168 mS cm−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PAAM/PVA/CNF hydrogel soaked in Fe(CN)6 3−/4− redox electrolyte",
+        "joint_factors": [
+          "Polymer composition",
+          "Soaking time"
+        ],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [
+          "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0150:opt",
+        "object_id": "P0150:conduct"
+      },
+      {
+        "relation_id": "P0150:r004",
+        "subject": "Optimization of polymer composition and soaking time",
+        "subject_role": "design_strategy",
+        "predicate": "maintains",
+        "object": "Thermopower of approximately 1.69 mV K−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "PAAM/PVA/CNF hydrogel soaked in Fe(CN)6 3−/4− redox electrolyte",
+        "joint_factors": [
+          "Polymer composition",
+          "Soaking time"
+        ],
+        "scope": "thermodynamics",
+        "claim_scope": "own_work",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [
+          "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . "
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0150:opt",
+        "object_id": "P0150:s"
+      },
+      {
+        "relation_id": "P0150:r005",
+        "subject": "PAAM/PVA/CNF hydrogel",
+        "subject_role": "material_entity",
+        "predicate": "has_structure",
+        "object": "Hydrogel fractal microstructure",
+        "object_role": "state_structure",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "Revealed by SAXS",
+        "joint_factors": [],
+        "scope": "intrinsic_material_mechanism",
+        "claim_scope": "own_work",
+        "quote": "Herein, a triple-network hydrogel consisting of polyacrylamide/poly(vinyl alcohol)/cellulose nanofiber (PAAM/PVA/CNF) is synthesized via a freeze-thaw method, and soaked in the thermogalvanic redox couple Fe(CN)(6)(3-/4-) as the electrolyte. ",
+        "context_quotes": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "modality_evidence": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "subject_id": "P0150:g",
+        "object_id": "P0150:fractal"
+      },
+      {
+        "relation_id": "P0150:r006",
+        "subject": "Hydrogel fractal microstructure",
+        "subject_role": "state_structure",
+        "predicate": "provides",
+        "object": "Ionic conductivity of 168 mS cm−1",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "As revealed by SAXS",
+        "joint_factors": [],
+        "scope": "ion_mass_transport",
+        "claim_scope": "own_work",
+        "quote": "By optimizing the polymer composition and soaking time, a superior ionic conductivity of 168 mS cm(-1) is achieved while maintaining a thermopower of similar to 1.69 mV K-1 . ",
+        "context_quotes": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "modality_evidence": [
+          "The high ionic conductivity is provided by the fractal microstructure of the hydrogel, as revealed by small-angle X-ray scattering (SAXS). "
+        ],
+        "subject_id": "P0150:fractal",
+        "object_id": "P0150:conduct"
+      },
+      {
+        "relation_id": "P0150:r007",
+        "subject": "Thermoelectric generator array",
+        "subject_role": "material_entity",
+        "predicate": "exhibits",
+        "object": "Power output of 28.7 μW",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Temperature difference of 11.9 K",
+        "joint_factors": [],
+        "scope": "device_thermal_management",
+        "claim_scope": "own_work",
+        "quote": "Moreover, the as-fabricated thermoelectric generator array exhibits an exceptional power output of 28.7 mu W at a temperature difference of 11.9 K. ",
+        "context_quotes": [],
+        "modality_evidence": [],
+        "subject_id": "P0150:array",
+        "object_id": "P0150:power"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0151",
+    "title": "EXPERIMENTAL AND THEORETICAL SIMULATION OF THERMOGALVANIC CORROSION IN HEAT-EXCHANGERS",
+    "segments": [
+      {
+        "id": 0,
+        "text": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. "
+      },
+      {
+        "id": 1,
+        "text": "The simulation techniques have been tested for thermogalvanic corrosion of iron in acid sulfate electrolyte with a variable temperature distribution along the metal surface. "
+      },
+      {
+        "id": 2,
+        "text": "The tests showed a good agreement of theoretical and experimental data."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0151:plate",
+        "label": "Nonisothermal plate experimental simulation",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0151:corrosion",
+        "label": "Thermogalvanic corrosion in heat exchangers",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0151:model",
+        "label": "Computer solution of electrochemical kinetic problems",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0151:agreement",
+        "label": "Good agreement between theoretical and experimental data",
+        "role": "performance_function"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0151:r001",
+        "subject": "Nonisothermal plate experimental simulation",
+        "subject_role": "design_strategy",
+        "predicate": "simulates",
+        "object": "Thermogalvanic corrosion in heat exchangers",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "experimental",
+        "conditions": "",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. "
+        ],
+        "subject_id": "P0151:plate",
+        "object_id": "P0151:corrosion"
+      },
+      {
+        "relation_id": "P0151:r002",
+        "subject": "Computer solution of electrochemical kinetic problems",
+        "subject_role": "design_strategy",
+        "predicate": "simulates",
+        "object": "Thermogalvanic corrosion in heat exchangers",
+        "object_role": "mechanism_process",
+        "assertion": "author_claim",
+        "modality": "computational",
+        "conditions": "Theoretical simulation using a computer to solve electrochemical kinetic problems",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. "
+        ],
+        "subject_id": "P0151:model",
+        "object_id": "P0151:corrosion"
+      },
+      {
+        "relation_id": "P0151:r003",
+        "subject": "Computer solution of electrochemical kinetic problems",
+        "subject_role": "design_strategy",
+        "predicate": "achieves",
+        "object": "Good agreement between theoretical and experimental data",
+        "object_role": "performance_function",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "Tested against nonisothermal-plate experiments for iron corrosion in acid sulfate electrolyte with variable temperature distribution along the metal surface",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+        "context_quotes": [
+          "The simulation techniques have been tested for thermogalvanic corrosion of iron in acid sulfate electrolyte with a variable temperature distribution along the metal surface. ",
+          "The tests showed a good agreement of theoretical and experimental data."
+        ],
+        "modality_evidence": [
+          "Thermogalvanic corrosion in heat exchangers has been simulated experimentally (on a nonisothermal plate) and theoretically using a computer to solve electrochemical kinetic problems. ",
+          "The tests showed a good agreement of theoretical and experimental data."
+        ],
+        "subject_id": "P0151:model",
+        "object_id": "P0151:agreement"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0152",
+    "title": "Inhibition of thermogalvanic corrosion in sulfate media",
+    "segments": [
+      {
+        "id": 0,
+        "text": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. "
+      },
+      {
+        "id": 1,
+        "text": "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0152:inhibitors",
+        "label": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "role": "material_entity"
+      },
+      {
+        "id": "P0152:corrosion",
+        "label": "Thermogalvanic corrosion intensity",
+        "role": "quantity"
+      },
+      {
+        "id": "P0152:current",
+        "label": "Thermogalvanic currents",
+        "role": "quantity"
+      },
+      {
+        "id": "P0152:loss",
+        "label": "Total weight tosses of iron",
+        "role": "quantity"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0152:r001",
+        "subject": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "subject_role": "material_entity",
+        "predicate": "significantly_reduces",
+        "object": "Thermogalvanic corrosion intensity",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "Iron plate with tangential thermal gradient in sulfate-containing acid solution; individual inhibitor contributions unspecified",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. ",
+        "context_quotes": [
+          "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0152:inhibitors",
+        "object_id": "P0152:corrosion"
+      },
+      {
+        "relation_id": "P0152:r002",
+        "subject": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "subject_role": "material_entity",
+        "predicate": "reduces",
+        "object": "Thermogalvanic currents",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "By factors of 1.3–2.0; iron plate with tangential thermal gradient in sulfate-containing acid solution; individual inhibitor contributions unspecified",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. ",
+        "context_quotes": [
+          "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0152:inhibitors",
+        "object_id": "P0152:current"
+      },
+      {
+        "relation_id": "P0152:r003",
+        "subject": "Traditional inhibitors urotropine, benzotriazole and thiocarbamide",
+        "subject_role": "material_entity",
+        "predicate": "reduces",
+        "object": "Total weight tosses of iron",
+        "object_role": "quantity",
+        "assertion": "author_claim",
+        "modality": "unspecified",
+        "conditions": "By factors of 1.1–1.4 in the thermoelectric zone; iron plate with tangential thermal gradient in sulfate-containing acid solution",
+        "joint_factors": [],
+        "scope": "mechanical_environmental_stability",
+        "claim_scope": "own_work",
+        "quote": "The effect of traditional inhibitors of acid corrosion (urotropine, benzotriazole, and thiocarbamide) on the corrosion-electrochemical behavior of an iron plate with a tangential thermal gradient in a sulfate-containing acid solution is examined. ",
+        "context_quotes": [
+          "The inhibitors are shown to significantly weaken the thermogalvanic (TG) corrosion intensity, reducing the TG currents and total weight tosses of iron in the thermoelectric zone by factors of 1.3 to 2.0 and 1.1 to 1.4 times, respectively."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0152:inhibitors",
+        "object_id": "P0152:loss"
+      }
+    ]
+  },
+  {
+    "paper_id": "P0153",
+    "title": "Thermogalvanic effects in dissolution of an nonisothermic iron plate in acid media with various pH values",
+    "segments": [
+      {
+        "id": 0,
+        "text": "A current distribution is studied along an iron plate with a tangential temperature gradient in the course of its dissolution in acid sulfate media of various pH. "
+      },
+      {
+        "id": 1,
+        "text": "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. "
+      },
+      {
+        "id": 2,
+        "text": "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P0153:agreement",
+        "label": "Satisfactory correlation of experimental and theoretical data",
+        "role": "performance_function"
+      },
+      {
+        "id": "P0153:models",
+        "label": "Models based on electrochemical kinetics",
+        "role": "design_strategy"
+      },
+      {
+        "id": "P0153:effects",
+        "label": "Thermogalvanic effects during nonisothermal iron plate dissolution",
+        "role": "mechanism_process"
+      },
+      {
+        "id": "P0153:ph",
+        "label": "pH effect",
+        "role": "descriptor"
+      },
+      {
+        "id": "P0153:thermal",
+        "label": "Thermal effect",
+        "role": "descriptor"
+      }
+    ],
+    "records": [
+      {
+        "relation_id": "P0153:r001",
+        "subject": "Satisfactory correlation of experimental and theoretical data",
+        "subject_role": "performance_function",
+        "predicate": "supports_design_of",
+        "object": "Models based on electrochemical kinetics",
+        "object_role": "design_strategy",
+        "assertion": "author_claim",
+        "modality": "mixed",
+        "conditions": "For dissolution of an iron plate with tangential temperature gradient in acid sulfate media",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. ",
+        "context_quotes": [],
+        "modality_evidence": [
+          "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. "
+        ],
+        "subject_id": "P0153:agreement",
+        "object_id": "P0153:models"
+      },
+      {
+        "relation_id": "P0153:r002",
+        "subject": "Models based on electrochemical kinetics",
+        "subject_role": "design_strategy",
+        "predicate": "may_quantitatively_predict",
+        "object": "Thermogalvanic effects during nonisothermal iron plate dissolution",
+        "object_role": "mechanism_process",
+        "assertion": "hypothesis",
+        "modality": "computational",
+        "conditions": "Using computer methods for the systems studied: iron plate dissolution with tangential temperature gradient in acid sulfate media of various pH",
+        "joint_factors": [],
+        "scope": "measurement_method_model",
+        "claim_scope": "own_work",
+        "quote": "A current distribution is studied along an iron plate with a tangential temperature gradient in the course of its dissolution in acid sulfate media of various pH. ",
+        "context_quotes": [
+          "The satisfactory correlation between experimental and theoretical data proves that models can be designed on the basis of electrochemical kinetics. ",
+          "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+        ],
+        "modality_evidence": [
+          "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+        ],
+        "subject_id": "P0153:models",
+        "object_id": "P0153:effects"
+      },
+      {
+        "relation_id": "P0153:r003",
+        "subject": "pH effect",
+        "subject_role": "descriptor",
+        "predicate": "appears_commensurate_with",
+        "object": "Thermal effect",
+        "object_role": "descriptor",
+        "assertion": "association",
+        "modality": "unspecified",
+        "conditions": "Thermogalvanic effects in the studied nonisothermal iron dissolution systems; computer-model discussion",
+        "joint_factors": [],
+        "scope": "electrode_interface_kinetics",
+        "claim_scope": "own_work",
+        "quote": "A current distribution is studied along an iron plate with a tangential temperature gradient in the course of its dissolution in acid sulfate media of various pH. ",
+        "context_quotes": [
+          "Employing computer methods, the models may quantitatively predict thermogalvanic effects in systems under study, where effect of pH appears to be commensurate with the thermal effect."
+        ],
+        "modality_evidence": [],
+        "subject_id": "P0153:ph",
+        "object_id": "P0153:thermal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2340 @@
+[
+  {
+    "paper": {
+      "paper_id": "P0281",
+      "domain": "TG",
+      "input_hash": "225a301de76e11a3b2aac307dddd90b2c691d257036dd9ed9eb159e7c32b17f9",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0281:r001",
+          "subject": "Pt-free thermocells",
+          "subject_role": "material_entity",
+          "subject_id": "P0281:cell",
+          "predicate": "provides",
+          "object": "Output power density of 12 W m−2",
+          "object_role": "quantity",
+          "object_id": "P0281:power",
+          "quote": "Pt-free thermocells devised here provide an output power of 12 W m(-2) for an interelectrode temperature difference (Delta T) of 81 degrees C, which is sixfold higher power than previously reported for planar thermocells operating at ambient pressure.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Interelectrode temperature difference of 81 °C; sixfold higher power than previously reported planar thermocells operating at ambient pressure",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 211,
+              "end": 462
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Continuously operating thermo-electrochemical cells",
+          "subject_role": "material_entity",
+          "predicate": "potentially have lower cost than",
+          "object": "Conventional thermoelectrics",
+          "object_role": "material_entity",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "For harvesting low-grade waste thermal energy",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0281:complete_v1_cr001",
+          "quote": "Continuously operating thermo-electrochemical cells (thermocells) are of interest for harvesting low-grade waste thermal energy because of their potentially low cost compared with conventional thermo-electrics. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 211
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0281:complete_v1_cr001_subject",
+          "object_id": "P0281:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0281",
+        "relation_id": "P0281:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0281",
+        "relation_id": "P0281:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Continuously operating thermo-electrochemical cells",
+          "subject_role": "material_entity",
+          "predicate": "potentially have lower cost than",
+          "object": "Conventional thermoelectrics",
+          "object_role": "material_entity",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "For harvesting low-grade waste thermal energy",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0281:complete_v1_cr001",
+          "quote": "Continuously operating thermo-electrochemical cells (thermocells) are of interest for harvesting low-grade waste thermal energy because of their potentially low cost compared with conventional thermo-electrics. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 211
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0281:complete_v1_cr001_subject",
+          "object_id": "P0281:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0282",
+      "domain": "TG",
+      "input_hash": "794b88df9e031b8a29a2002305a2367110a61c2936fafe3821ab7fc8183126c8",
+      "article_role": "review",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0282:r001",
+          "subject": "p-type TECs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:p",
+          "predicate": "is classified by",
+          "object": "V-hot - V-cold/T-hot - T-cold < 0",
+          "object_role": "descriptor",
+          "object_id": "P0282:neg",
+          "quote": "According to the temperature gradient-potential relationship, TECs can be divided into p-type (V-hot - V-cold/T-hot - T-cold < 0) and n-type (V-hot - V-cold/T-hot - T-cold > 0). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Temperature gradient-potential relationship",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "Source expression lacks grouping; retained without repairing the formula.",
+          "evidence_spans": [
+            {
+              "start": 348,
+              "end": 526
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "review_reason": ""
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0282:r002",
+          "subject": "n-type TECs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:n",
+          "predicate": "is classified by",
+          "object": "V-hot - V-cold/T-hot - T-cold > 0",
+          "object_role": "descriptor",
+          "object_id": "P0282:pos",
+          "quote": "According to the temperature gradient-potential relationship, TECs can be divided into p-type (V-hot - V-cold/T-hot - T-cold < 0) and n-type (V-hot - V-cold/T-hot - T-cold > 0). ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Temperature gradient-potential relationship",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "Source expression lacks grouping; retained without repairing the formula.",
+          "evidence_spans": [
+            {
+              "start": 348,
+              "end": 526
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "review_reason": ""
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0282:r003",
+          "subject": "Pi-integration of p-type and n-type TECs",
+          "subject_role": "design_strategy",
+          "subject_id": "P0282:pi",
+          "predicate": "has configuration",
+          "object": "Electrically in series and thermally in parallel",
+          "object_role": "state_structure",
+          "object_id": "P0282:layout",
+          "quote": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 526,
+              "end": 697
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0282:r004",
+          "subject": "Pi-integration of p-type and n-type TECs",
+          "subject_role": "design_strategy",
+          "subject_id": "P0282:pi",
+          "predicate": "is required to obtain",
+          "object": "Higher output voltages",
+          "object_role": "performance_function",
+          "object_id": "P0282:voltage",
+          "quote": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Integration of single p-type and n-type TECs",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 526,
+              "end": 697
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0282:r005",
+          "subject": "Pi-integration of p-type and n-type TECs",
+          "subject_role": "design_strategy",
+          "subject_id": "P0282:pi",
+          "predicate": "is required to avoid",
+          "object": "Thermal shorts",
+          "object_role": "mechanism_process",
+          "object_id": "P0282:short",
+          "quote": "To obtain higher output voltages and avoid thermal shorts, Pi-integration (electrically in series but thermally in parallel) of single p-type and n-type TECs is required. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Integration of single p-type and n-type TECs",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 526,
+              "end": 697
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0282:r006",
+          "subject": "State-of-the-art p-type Fe(CN)6(4−/3−) TECs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:bench",
+          "predicate": "possesses",
+          "object": "Commercializable cost-performance metric",
+          "object_role": "performance_function",
+          "object_id": "P0282:cost",
+          "quote": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 785,
+              "end": 1054
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0282:r007",
+          "subject": "n-type TECs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:n",
+          "predicate": "exhibits",
+          "object": "Lagging n-type thermopower and power density",
+          "object_role": "performance_function",
+          "object_id": "P0282:lag",
+          "quote": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Compared with state-of-the-art p-type TECs",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 785,
+              "end": 1054
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0282:r008",
+          "subject": "Lagging n-type thermopower and power density",
+          "subject_role": "performance_function",
+          "subject_id": "P0282:lag",
+          "predicate": "hinders",
+          "object": "Heat recovery with integrated p-n TECs",
+          "object_role": "application",
+          "object_id": "P0282:recovery",
+          "quote": "Although the state-of-the-art p-type (Fe(CN)(6)(4-/3-)) TECs possess a commercializable cost-performance metric, the performance of n-type TECs, such as thermopower and power density, lags significantly, hindering the potential of integrated p-n TECs in heat recovery. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 785,
+              "end": 1054
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r009",
+          "relation_id": "P0282:r009",
+          "subject": "Identified potential p-type and n-type redox pairs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:pairs",
+          "predicate": "has",
+          "object": "High absolute temperature coefficient |dE0/dT|",
+          "object_role": "quantity",
+          "object_id": "P0282:dt",
+          "quote": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Identified through analysis of TEC thermodynamics, kinetics and bottlenecks; individual pairs unnamed",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1054,
+              "end": 1347
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r010",
+          "relation_id": "P0282:r010",
+          "subject": "Identified potential p-type and n-type redox pairs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:pairs",
+          "predicate": "has",
+          "object": "Low absolute electrode potential |E0|",
+          "object_role": "quantity",
+          "object_id": "P0282:ep",
+          "quote": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Identified through analysis of TEC thermodynamics, kinetics and bottlenecks; individual pairs unnamed",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1054,
+              "end": 1347
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r011",
+          "relation_id": "P0282:r011",
+          "subject": "Identified potential p-type and n-type redox pairs",
+          "subject_role": "material_entity",
+          "subject_id": "P0282:pairs",
+          "predicate": "is proposed for",
+          "object": "High-performance TECs",
+          "object_role": "application",
+          "object_id": "P0282:high",
+          "quote": "Subsequently, this paper analyzes the thermodynamics, kinetics, and bottlenecks of TECs and identifies several potential p-type and n-type redox pairs with high absolute value of temperature coefficient (dE(0)/dT) and low absolute value of electrode potential (E-0) for high-performance TECs. ",
+          "context_quotes": [],
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "High |dE0/dT| and low |E0|",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "review_synthesis",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 1054,
+              "end": 1347
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Low cost",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "id": "cr001",
+          "relation_id": "P0282:complete_v1_cr001",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Scalability",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "id": "cr002",
+          "relation_id": "P0282:complete_v1_cr002",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Flexibility",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "review_synthesis",
+          "id": "cr003",
+          "relation_id": "P0282:complete_v1_cr003",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Inherent high thermopower",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "review_synthesis",
+          "id": "cr004",
+          "relation_id": "P0282:complete_v1_cr004",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr004_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_009/response.json",
+              "response_sha256": "ce88bb1279179df97a47831c982ea24d30a3304a0baf5a2684c3d7dedf8a88a2",
+              "input_sha256": "ec08b6e07452ad278fe12ec3ad63b861327c6b3a248b264480e9d62569d73a22",
+              "model": "gpt-6-astra",
+              "job_id": "repair_009",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "model_reviewed_supported_single_pass",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "response_path": "runs/repair_009/response.json",
+              "response_sha256": "ce88bb1279179df97a47831c982ea24d30a3304a0baf5a2684c3d7dedf8a88a2",
+              "input_sha256": "ec08b6e07452ad278fe12ec3ad63b861327c6b3a248b264480e9d62569d73a22",
+              "model": "gpt-6-astra",
+              "job_id": "repair_009",
+              "action": "keep"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r009",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r010",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:r011",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Low cost",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "id": "cr001",
+          "relation_id": "P0282:complete_v1_cr001",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Scalability",
+          "object_role": "performance_function",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "review_synthesis",
+          "id": "cr002",
+          "relation_id": "P0282:complete_v1_cr002",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:complete_v1_cr003",
+        "action": "add",
+        "record": {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Flexibility",
+          "object_role": "descriptor",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "mechanical_environmental_stability",
+          "claim_scope": "review_synthesis",
+          "id": "cr003",
+          "relation_id": "P0282:complete_v1_cr003",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr003_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0282",
+        "relation_id": "P0282:complete_v1_cr004",
+        "action": "add",
+        "record": {
+          "subject": "Thermocells based on temperature-sensitive redox pairs",
+          "subject_role": "material_entity",
+          "predicate": "have",
+          "object": "Inherent high thermopower",
+          "object_role": "quantity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "review_synthesis",
+          "id": "cr004",
+          "relation_id": "P0282:complete_v1_cr004",
+          "quote": "Emerging thermocells (TECs) based on temperature-sensitive redox pairs demonstrate advantages of low cost, scalability, flexibility, and inherent high thermopower, and thus are promising for low-grade heat harvesting. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 130,
+              "end": 348
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0282:complete_v1_cr001_subject",
+          "object_id": "P0282:complete_v1_cr004_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0283",
+      "domain": "TG",
+      "input_hash": "5cf72b1809751b842f0d088c533e2d199ddaf94c0ed65ed4311061752494fdfc",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0283:r001",
+          "subject": "Supramolecular methodology for thermo-electrochemical cells",
+          "subject_role": "design_strategy",
+          "subject_id": "P0283:method",
+          "predicate": "yields",
+          "object": "Seebeck coefficient of approximately 2.0 mV K−1",
+          "object_role": "quantity",
+          "object_id": "P0283:se",
+          "quote": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Around ambient temperatures; reported as the highest Seebeck coefficient",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 308,
+              "end": 453
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0283:r002",
+          "subject": "alpha-Cyclodextrin",
+          "subject_role": "material_entity",
+          "subject_id": "P0283:host",
+          "predicate": "encapsulates",
+          "object": "Triiodide ions",
+          "object_role": "material_entity",
+          "object_id": "P0283:guest",
+          "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Temperature-dependent equilibrium",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 453,
+              "end": 650
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0283:r003",
+          "subject": "Supramolecular methodology for thermo-electrochemical cells",
+          "subject_role": "design_strategy",
+          "subject_id": "P0283:method",
+          "predicate": "is based on",
+          "object": "Triiodide–alpha-cyclodextrin host-guest complexation",
+          "object_role": "interaction",
+          "object_id": "P0283:complex",
+          "quote": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. ",
+          "context_quotes": [
+            "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "intrinsic_material_mechanism",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 308,
+              "end": 453
+            },
+            {
+              "start": 453,
+              "end": 650
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0283:r004",
+          "subject": "Lower temperatures",
+          "subject_role": "condition",
+          "subject_id": "P0283:low",
+          "predicate": "shifts equilibrium toward",
+          "object": "Triiodide–alpha-cyclodextrin host-guest complexation",
+          "object_role": "interaction",
+          "object_id": "P0283:complex",
+          "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 453,
+              "end": 650
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0283:r005",
+          "subject": "Elevated temperatures",
+          "subject_role": "condition",
+          "subject_id": "P0283:high",
+          "predicate": "reverses equilibrium preference for",
+          "object": "Triiodide–alpha-cyclodextrin host-guest complexation",
+          "object_role": "interaction",
+          "object_id": "P0283:complex",
+          "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Relative to lower temperatures",
+          "joint_factors": [],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 453,
+              "end": 650
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0283:r006",
+          "subject": "Triiodide–alpha-cyclodextrin host-guest complexation",
+          "subject_role": "interaction",
+          "subject_id": "P0283:complex",
+          "predicate": "creates",
+          "object": "Redox ion-pair concentration gradient between electrodes",
+          "object_role": "state_structure",
+          "object_id": "P0283:gradient",
+          "quote": "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+          "context_quotes": [
+            "This temperature-dependent host-guest interaction provides a concentration gradient of redox ion pairs between two electrodes, leading to the eminent performance of the thermo-electrochemical cells. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Temperature-dependent host-guest interaction",
+          "joint_factors": [],
+          "scope": "ion_mass_transport",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 453,
+              "end": 650
+            },
+            {
+              "start": 650,
+              "end": 849
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r007",
+          "relation_id": "P0283:r007",
+          "subject": "Redox ion-pair concentration gradient between electrodes",
+          "subject_role": "state_structure",
+          "subject_id": "P0283:gradient",
+          "predicate": "leads to",
+          "object": "Enhanced thermo-electrochemical cell performance",
+          "object_role": "performance_function",
+          "object_id": "P0283:perf",
+          "quote": "This temperature-dependent host-guest interaction provides a concentration gradient of redox ion pairs between two electrodes, leading to the eminent performance of the thermo-electrochemical cells. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 650,
+              "end": 849
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "id": "r008",
+          "relation_id": "P0283:r008",
+          "subject": "Supramolecular thermo-electrochemical cell system",
+          "subject_role": "material_entity",
+          "subject_id": "P0283:cell",
+          "predicate": "achieves",
+          "object": "Figure of merit zT of 5 × 10−3",
+          "object_role": "quantity",
+          "object_id": "P0283:zt",
+          "quote": "Here we report a rational supramolecular methodology that yielded the highest Seebeck coefficient of ca. 2.0 mV K-1 around ambient temperatures. ",
+          "context_quotes": [
+            "This is based on the encapsulation of triiodide ions in alpha-cyclodextrin, whose equilibrium is shifted to the complexation at lower temperatures, whereas it is inverted at elevated temperatures. ",
+            "The figure of merit for this system, zT reached a high value of 5 x 10(-3). "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 308,
+              "end": 453
+            },
+            {
+              "start": 453,
+              "end": 650
+            },
+            {
+              "start": 849,
+              "end": 925
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "Thermo-electrochemical cells",
+          "subject_role": "material_entity",
+          "predicate": "have potential to generate",
+          "object": "Thermoelectric voltage one order higher than that given by semiconductor materials",
+          "object_role": "quantity",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0283:complete_v1_cr001",
+          "quote": "Thermo-electrochemical cells have potential to generate thermoelectric voltage 1 order higher than that given by semiconductor materials. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 138
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0283:complete_v1_cr001_subject",
+          "object_id": "P0283:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r007",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:r008",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0283",
+        "relation_id": "P0283:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "Thermo-electrochemical cells",
+          "subject_role": "material_entity",
+          "predicate": "have potential to generate",
+          "object": "Thermoelectric voltage one order higher than that given by semiconductor materials",
+          "object_role": "quantity",
+          "assertion": "hypothesis",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0283:complete_v1_cr001",
+          "quote": "Thermo-electrochemical cells have potential to generate thermoelectric voltage 1 order higher than that given by semiconductor materials. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 0,
+              "end": 138
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0283:complete_v1_cr001_subject",
+          "object_id": "P0283:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  },
+  {
+    "paper": {
+      "paper_id": "P0284",
+      "domain": "TG",
+      "input_hash": "4260ffd128de0d633e125f17d91c75150134911d86e92b9c12eec424ec991bc5",
+      "article_role": "research",
+      "records": [
+        {
+          "id": "r001",
+          "relation_id": "P0284:r001",
+          "subject": "Cu-based thermosensitive crystallization",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0284:crystal",
+          "predicate": "synergistically boosts",
+          "object": "Improved n-type thermocell thermodynamic characteristics",
+          "object_role": "performance_function",
+          "object_id": "P0284:thermo",
+          "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [
+            "3D multi-structured electrodes"
+          ],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 273,
+              "end": 473
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "electrode"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "electrode",
+              "label": "3D multi-structured electrodes"
+            }
+          ]
+        },
+        {
+          "id": "r002",
+          "relation_id": "P0284:r002",
+          "subject": "Cu-based thermosensitive crystallization",
+          "subject_role": "mechanism_process",
+          "subject_id": "P0284:crystal",
+          "predicate": "synergistically boosts",
+          "object": "Improved n-type thermocell kinetic characteristics",
+          "object_role": "performance_function",
+          "object_id": "P0284:kin",
+          "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "",
+          "joint_factors": [
+            "3D multi-structured electrodes"
+          ],
+          "scope": "electrode_interface_kinetics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 273,
+              "end": 473
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "electrode"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "electrode",
+              "label": "3D multi-structured electrodes"
+            }
+          ]
+        },
+        {
+          "id": "r003",
+          "relation_id": "P0284:r003",
+          "subject": "Optimized Cu/Cu2+-based thermocell system",
+          "subject_role": "material_entity",
+          "subject_id": "P0284:cell",
+          "predicate": "achieves",
+          "object": "Seebeck coefficient of 1.66 mV K−1",
+          "object_role": "quantity",
+          "object_id": "P0284:se",
+          "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+          "context_quotes": [
+            "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Superior to the p-type benchmark",
+          "joint_factors": [
+            "Cu-based thermosensitive crystallization",
+            "3D multi-structured electrodes"
+          ],
+          "scope": "thermodynamics",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 273,
+              "end": 473
+            },
+            {
+              "start": 473,
+              "end": 772
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "crystal",
+            "electrode"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "crystal",
+              "label": "Cu-based thermosensitive crystallization"
+            },
+            {
+              "raw_id": "electrode",
+              "label": "3D multi-structured electrodes"
+            }
+          ]
+        },
+        {
+          "id": "r004",
+          "relation_id": "P0284:r004",
+          "subject": "Optimized Cu/Cu2+-based thermocell system",
+          "subject_role": "material_entity",
+          "subject_id": "P0284:cell",
+          "predicate": "achieves",
+          "object": "Power density of 3.5 W m−2",
+          "object_role": "quantity",
+          "object_id": "P0284:pd",
+          "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+          "context_quotes": [
+            "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Superior to the p-type benchmark",
+          "joint_factors": [
+            "Cu-based thermosensitive crystallization",
+            "3D multi-structured electrodes"
+          ],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 273,
+              "end": 473
+            },
+            {
+              "start": 473,
+              "end": 772
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "crystal",
+            "electrode"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "crystal",
+              "label": "Cu-based thermosensitive crystallization"
+            },
+            {
+              "raw_id": "electrode",
+              "label": "3D multi-structured electrodes"
+            }
+          ]
+        },
+        {
+          "id": "r005",
+          "relation_id": "P0284:r005",
+          "subject": "Optimized Cu/Cu2+-based thermocell system",
+          "subject_role": "material_entity",
+          "subject_id": "P0284:cell",
+          "predicate": "achieves",
+          "object": "Cost-performance metric of approximately $3.28 W−1",
+          "object_role": "quantity",
+          "object_id": "P0284:cost",
+          "quote": "Here, we developed a novel Cu-based thermosensitive crystallization and 3D multi-structured electrodes to synergistically boost the thermodynamic and kinetic characteristics of the n-type thermocell. ",
+          "context_quotes": [
+            "As a result, the optimized Cu/Cu2+-based system achieved an exceptionally high value for the Seebeck coefficient (1.66 mV K-1) and the power density (3.5 W m(-2)), accompanied with a much competitive cost-performance metric (similar to$3.28 W-1), all of which were superior to the p-type benchmark. "
+          ],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Superior to the p-type benchmark",
+          "joint_factors": [
+            "Cu-based thermosensitive crystallization",
+            "3D multi-structured electrodes"
+          ],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 273,
+              "end": 473
+            },
+            {
+              "start": 473,
+              "end": 772
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          },
+          "joint_factor_raw_values": [
+            "crystal",
+            "electrode"
+          ],
+          "joint_factor_local_resolution": [
+            {
+              "raw_id": "crystal",
+              "label": "Cu-based thermosensitive crystallization"
+            },
+            {
+              "raw_id": "electrode",
+              "label": "3D multi-structured electrodes"
+            }
+          ]
+        },
+        {
+          "id": "r006",
+          "relation_id": "P0284:r006",
+          "subject": "p-n junction of thermocells",
+          "subject_role": "material_entity",
+          "subject_id": "P0284:pn",
+          "predicate": "achieves",
+          "object": "14.5 times enhancement of output",
+          "object_role": "performance_function",
+          "object_id": "P0284:output",
+          "quote": "Furthermore, a high-performance p-n junction of thermocells was demonstrated with a 14.5 times enhancement of output, paving the way for advancing the integrated devices.",
+          "context_quotes": [],
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "modality_evidence": [],
+          "conditions": "Comparison baseline unspecified",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "own_work",
+          "status": "accepted",
+          "note": "",
+          "evidence_spans": [
+            {
+              "start": 772,
+              "end": 942
+            }
+          ],
+          "modality_spans": [],
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "keep"
+          }
+        },
+        {
+          "subject": "n-type thermocells",
+          "subject_role": "material_entity",
+          "predicate": "have lagged in development relative to",
+          "object": "p-type thermocells",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0284:complete_v1_cr001",
+          "quote": "Although a huge progress in p-type thermocells, their n-type counterpart has seriously lagged, becoming a major bottleneck for practical utilization of their integrated devices. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 95,
+              "end": 273
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0284:complete_v1_cr001_subject",
+          "object_id": "P0284:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        },
+        {
+          "subject": "Lagging development of n-type thermocells",
+          "subject_role": "descriptor",
+          "predicate": "is a major bottleneck for",
+          "object": "Practical utilization of integrated p-type and n-type thermocell devices",
+          "object_role": "application",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0284:complete_v1_cr002",
+          "quote": "Although a huge progress in p-type thermocells, their n-type counterpart has seriously lagged, becoming a major bottleneck for practical utilization of their integrated devices. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 95,
+              "end": 273
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0284:complete_v1_cr002_subject",
+          "object_id": "P0284:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      ],
+      "note": "",
+      "schema_version": "full_extraction_v1",
+      "extraction_run_id": "full_extraction_v1",
+      "review_status": "complete_abstract_revision_v1_not_independent_acceptance"
+    },
+    "change_log": [
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:r001",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:r002",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:r003",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:r004",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:r005",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:r006",
+        "action": "keep",
+        "reason": "",
+        "changes": {
+          "review_status": {
+            "before": "not_targeted_by_full_audit_v1",
+            "after": "complete_abstract_revision_v1_not_independent_acceptance"
+          },
+          "decision_source": {
+            "before": {
+              "run": "full_extraction_v1",
+              "action": "unchanged"
+            },
+            "after": {
+              "run": "complete_revision_full_v1",
+              "job": "revision_066",
+              "action": "keep"
+            }
+          }
+        },
+        "original": null
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:complete_v1_cr001",
+        "action": "add",
+        "record": {
+          "subject": "n-type thermocells",
+          "subject_role": "material_entity",
+          "predicate": "have lagged in development relative to",
+          "object": "p-type thermocells",
+          "object_role": "material_entity",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "device_thermal_management",
+          "claim_scope": "background",
+          "id": "cr001",
+          "relation_id": "P0284:complete_v1_cr001",
+          "quote": "Although a huge progress in p-type thermocells, their n-type counterpart has seriously lagged, becoming a major bottleneck for practical utilization of their integrated devices. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 95,
+              "end": 273
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0284:complete_v1_cr001_subject",
+          "object_id": "P0284:complete_v1_cr001_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      },
+      {
+        "paper_id": "P0284",
+        "relation_id": "P0284:complete_v1_cr002",
+        "action": "add",
+        "record": {
+          "subject": "Lagging development of n-type thermocells",
+          "subject_role": "descriptor",
+          "predicate": "is a major bottleneck for",
+          "object": "Practical utilization of integrated p-type and n-type thermocell devices",
+          "object_role": "application",
+          "assertion": "author_claim",
+          "modality": "unspecified",
+          "conditions": "",
+          "joint_factors": [],
+          "scope": "application_sensing",
+          "claim_scope": "background",
+          "id": "cr002",
+          "relation_id": "P0284:complete_v1_cr002",
+          "quote": "Although a huge progress in p-type thermocells, their n-type counterpart has seriously lagged, becoming a major bottleneck for practical utilization of their integrated devices. ",
+          "context_quotes": [],
+          "modality_evidence": [],
+          "evidence_spans": [
+            {
+              "start": 95,
+              "end": 273
+            }
+          ],
+          "modality_spans": [],
+          "status": "accepted",
+          "note": "",
+          "subject_id": "P0284:complete_v1_cr002_subject",
+          "object_id": "P0284:complete_v1_cr002_object",
+          "review_status": "complete_abstract_revision_v1_not_independent_acceptance",
+          "decision_source": {
+            "run": "complete_revision_full_v1",
+            "job": "revision_066",
+            "action": "add"
+          }
+        }
+      }
+    ],
+    "rejected": [],
+    "alerts": [],
+    "duplicate_additions": [],
+    "reextract": null
+  }
+]
